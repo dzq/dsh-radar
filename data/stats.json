@@ -1,14 +1,14 @@
 {
-  "total": 830,
+  "total": 846,
   "by_grade": {
     "S": 3,
-    "A": 50,
-    "B": 540,
+    "A": 57,
+    "B": 549,
     "C": 224,
     "D": 13
   },
-  "by_compat": 761,
-  "total_weekly_downloads": 55045,
-  "generated_at": "2026-08-16T09:29:26.386Z",
-  "build_ms": 301766
+  "by_compat": 777,
+  "total_weekly_downloads": 58808,
+  "generated_at": "2026-08-16T10:16:48.341Z",
+  "build_ms": 39431
 }

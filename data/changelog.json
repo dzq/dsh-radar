@@ -1,28 +1,63 @@
 [
   {
     "file": "2026-08-16-1601.json",
-    "prev": "2026-08-16-0955.json",
-    "total_delta": 754,
+    "prev": "2026-08-16-1016.json",
+    "total_delta": -62,
     "grades": {
-      "S": 0,
-      "A": 18,
-      "B": 187,
-      "C": 539,
-      "D": 10
+      "S": -2,
+      "A": -36,
+      "B": -348,
+      "C": 325,
+      "D": -1
     },
-    "downloads_delta": 38566,
-    "compat_delta": 695,
+    "downloads_delta": -11550,
+    "compat_delta": -60,
     "generated_at": "2026-08-16T08:01:42.881Z",
     "top10_in": [
       "dsh-remote",
+      "@liustack/pptfast",
       "dsh-plugin-vetting",
-      "dshmarket",
-      "dsh-pocket",
+      "design-playbook",
       "dsh-wechat-mp",
-      "dsh-ui-notify",
-      "dsh-builtin-browser"
+      "dsh-ui-notify"
     ],
     "top10_out": [
+      "dsh-deepread",
+      "dsh-win32",
+      "dsh-mnemon",
+      "@dttxorg/deepseekeyes",
+      "dsh-better-edit",
+      "pi2dsh"
+    ]
+  },
+  {
+    "file": "2026-08-16-1016.json",
+    "prev": "2026-08-16-0955.json",
+    "total_delta": 816,
+    "grades": {
+      "S": 2,
+      "A": 54,
+      "B": 535,
+      "C": 214,
+      "D": 11
+    },
+    "downloads_delta": 50116,
+    "compat_delta": 755,
+    "generated_at": "2026-08-16T10:16:48.341Z",
+    "top10_in": [
+      "dshmarket",
+      "dsh-pocket",
+      "dsh-builtin-browser",
+      "dsh-deepread",
+      "dsh-win32",
+      "dsh-mnemon",
+      "@dttxorg/deepseekeyes",
+      "dsh-better-edit",
+      "pi2dsh"
+    ],
+    "top10_out": [
+      "@liustack/pptfast",
+      "design-playbook",
       "plaindeck",
       "@microi.net/cli",
       "@sakikotgw/pack-agent",

@@ -28,8 +28,8 @@
     }
   },
   "engines": {},
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
+  "weekly_downloads": 270,
+  "monthly_downloads": 270,
   "last_publish": "2026-08-16T04:48:02.606Z",
   "created_at": "2026-08-15T12:58:54.100Z",
   "gh": {
@@ -41,13 +41,13 @@
     "license": "MIT"
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 61,
     "maintenance": 100,
     "quality": 90,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 62,
-    "grade": "B"
+    "overall": 77,
+    "grade": "A"
   },
-  "updated_at": "2026-08-16T09:25:48.327Z"
+  "updated_at": "2026-08-16T10:16:14.238Z"
 }

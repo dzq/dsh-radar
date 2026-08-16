@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-archive-vault",
+  "name": "dsh-archive-vault",
+  "version": "0.2.1",
+  "description": "dsh 插件：在设置面板中查看、恢复与永久删除归档会话",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness",
+    "archive"
+  ],
+  "license": "BSD-3-Clause",
+  "repo": "git+https://github.com/Britneycode/dsh-archive-vault.git",
+  "homepage": "https://github.com/Britneycode/dsh-archive-vault#readme",
+  "npm": "https://www.npmjs.com/package/dsh-archive-vault",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T09:48:50.533Z",
+  "created_at": "2026-08-16T09:48:50.234Z",
+  "gh": {
+    "full_name": "Britneycode/dsh-archive-vault",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T10:04:05Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 57,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T10:16:44.801Z"
+}

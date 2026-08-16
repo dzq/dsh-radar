@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-excel-panel",
+  "name": "dsh-excel-panel",
+  "version": "0.3.1",
+  "description": "DSH 右侧栏 Excel 编辑插件 v2：支持多工作表、单击选中/双击编辑、多选批量格式、色盘单步撤销、选中动画，并保存回原文件。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "excel",
+    "xlsx",
+    "editor",
+    "better-sidebar"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Melody-max114/dsh-excel-panel.git",
+  "homepage": "https://github.com/Melody-max114/dsh-excel-panel#readme",
+  "npm": "https://www.npmjs.com/package/dsh-excel-panel",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T10:15:27.189Z",
+  "created_at": "2026-08-16T09:25:39.447Z",
+  "gh": {
+    "full_name": "Melody-max114/dsh-excel-panel",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T10:16:32Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 62,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T10:16:37.362Z"
+}

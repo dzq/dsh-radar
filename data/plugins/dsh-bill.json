@@ -1,0 +1,58 @@
+{
+  "slug": "dsh-bill",
+  "name": "dsh-bill",
+  "version": "0.5.0",
+  "description": "DSH 费用统计插件:会话费用行 + 成本归因报告,llm-pricing 动态价格。 / DSH cost attribution and usage dashboard, priced by llm-pricing.",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "cost",
+    "usage",
+    "token",
+    "pricing",
+    "dashboard"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Jannchie/dsh-bill.git",
+  "homepage": "https://github.com/Jannchie/dsh-bill#readme",
+  "npm": "https://www.npmjs.com/package/dsh-bill",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T09:36:48.910Z",
+  "created_at": "2026-08-16T09:36:48.566Z",
+  "gh": {
+    "full_name": "Jannchie/dsh-bill",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T10:15:03Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 61,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T10:16:32.630Z"
+}

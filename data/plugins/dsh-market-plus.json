@@ -1,0 +1,58 @@
+{
+  "slug": "dsh-market-plus",
+  "name": "dsh-market-plus",
+  "version": "0.1.0",
+  "description": "DSH 插件市场增强版：dsh-market 基座 + dsh-store 的 npm 权威源/质量验证/GitHub 热度/代理注入/回退安装（MIT，融合 dsh-market 与 dsh-store）",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "marketplace",
+    "market",
+    "plugin-manager"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/dsh-market/dsh-market.git",
+  "homepage": "https://dshmarket.com",
+  "npm": "https://www.npmjs.com/package/dsh-market-plus",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-theme"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T09:46:06.071Z",
+  "created_at": "2026-08-16T09:46:05.839Z",
+  "gh": {
+    "full_name": "dsh-market/dsh-market",
+    "stars": 416,
+    "open_issues": 11,
+    "pushed_at": "2026-08-16T07:22:51Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 62,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T10:16:27.082Z"
+}

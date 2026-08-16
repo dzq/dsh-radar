@@ -1,17 +1,17 @@
 {
   "stats": {
-    "total": 830,
+    "total": 846,
     "by_grade": {
       "S": 3,
-      "A": 50,
-      "B": 540,
+      "A": 57,
+      "B": 549,
       "C": 224,
       "D": 13
     },
-    "by_compat": 761,
-    "total_weekly_downloads": 55045,
-    "generated_at": "2026-08-16T09:29:26.386Z",
-    "build_ms": 301766
+    "by_compat": 777,
+    "total_weekly_downloads": 58808,
+    "generated_at": "2026-08-16T10:16:48.341Z",
+    "build_ms": 39431
   },
   "plugins": [
     {
@@ -259,6 +259,25 @@
       ]
     },
     {
+      "slug": "dsh-movein",
+      "name": "dsh-movein",
+      "version": "0.4.0",
+      "description": "Move your whole Claude Code setup into DeepSeek Harness (DSH) with one command - skills, MCP servers, hooks, instructions. 从 Claude Code 拎包入住 DSH。",
+      "weekly_downloads": 897,
+      "stars": 3,
+      "grade": "A",
+      "overall": 81,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T16:37:57.011Z",
+      "keywords": [
+        "dsh",
+        "deepseek-harness",
+        "dsh-plugin",
+        "claude-code",
+        "migration"
+      ]
+    },
+    {
       "slug": "dsh-remote",
       "name": "dsh-remote",
       "version": "0.5.7",
@@ -370,6 +389,25 @@
         "deepseek-harness",
         "reverse-proxy",
         "remote-access"
+      ]
+    },
+    {
+      "slug": "dsh-oh-my-theme",
+      "name": "dsh-oh-my-theme",
+      "version": "0.5.1",
+      "description": "Theme + file workspace plugin for DeepSeek Harness (dsh) web GUI: curated --dsw-alias-* skin palettes with live hover preview, @file mentions in the composer, a lazy-loading project file tree, and Markdown preview. 为 dsh 网页端定制的主题 + 文件工作台插件：精选皮肤与悬停预览、输入框 @",
+      "weekly_downloads": 423,
+      "stars": 3,
+      "grade": "A",
+      "overall": 80,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T01:36:59.649Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "plugin",
+        "theme"
       ]
     },
     {
@@ -675,6 +713,25 @@
       ]
     },
     {
+      "slug": "pet-whale",
+      "name": "pet-whale",
+      "version": "0.6.1",
+      "description": "桌宠小鲸鱼：随 agent 状态切换动画的 DeepSeek Harness Web 桌宠插件（官方轮廓版）",
+      "weekly_downloads": 270,
+      "stars": 2,
+      "grade": "A",
+      "overall": 77,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T04:48:02.606Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek-harness",
+        "desktop-pet",
+        "whale"
+      ]
+    },
+    {
       "slug": "dsh-mini-tui",
       "name": "dsh-mini-tui",
       "version": "0.2.1",
@@ -731,6 +788,25 @@
       ]
     },
     {
+      "slug": "dsh-excel-chat",
+      "name": "dsh-excel-chat",
+      "version": "0.33.0",
+      "description": "Talk to Excel in DeepSeek Harness: create/edit spreadsheets, formulas, styles, filters, and tables by conversation; auto-verifies formulas after every edit, repairs silent errors, and validates charts.",
+      "weekly_downloads": 717,
+      "stars": 5,
+      "grade": "A",
+      "overall": 76,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T11:15:37.449Z",
+      "keywords": [
+        "deepseek",
+        "harness",
+        "dsh",
+        "dsh-plugin",
+        "excel"
+      ]
+    },
+    {
       "slug": "dsh-plugin-writing-guard",
       "name": "dsh-plugin-writing-guard",
       "version": "0.9.2",
@@ -769,6 +845,25 @@
       ]
     },
     {
+      "slug": "dsh-web-mobile-fix",
+      "name": "dsh-web-mobile-fix",
+      "version": "1.0.1",
+      "description": "Mobile layout fixes for the DeepSeek Harness Web UI: settings panel, popups, sidebar, and session header on narrow (≤700px) screens. Pure client-side CSS overlay.",
+      "weekly_downloads": 255,
+      "stars": 4,
+      "grade": "A",
+      "overall": 75,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T00:36:06.880Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "mobile",
+        "web-ui"
+      ]
+    },
+    {
       "slug": "dsh-ui-notify",
       "name": "dsh-ui-notify",
       "version": "0.1.1",
@@ -804,6 +899,25 @@
         "dsh-plugin",
         "tavily",
         "web-search"
+      ]
+    },
+    {
+      "slug": "dsh-expression",
+      "name": "dsh-expression",
+      "version": "0.1.3",
+      "description": "DeepSeek Harness 表情包插件:内置默认图库(官方-001,92 张),bigram Dice 语义检索,send_meme 发图(Web/QQ),设置页管理面板。",
+      "weekly_downloads": 51,
+      "stars": 4,
+      "grade": "A",
+      "overall": 74,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T09:27:05.765Z",
+      "keywords": [
+        "dsh-plugin",
+        "deepseek-harness",
+        "meme",
+        "emoticon",
+        "sticker"
       ]
     },
     {
@@ -880,6 +994,25 @@
         "git",
         "json",
         "ai-agent"
+      ]
+    },
+    {
+      "slug": "dsh-web-lan-access",
+      "name": "dsh-web-lan-access",
+      "version": "1.0.0",
+      "description": "LAN / remote access support for the DeepSeek Harness Web UI: polyfills crypto.randomUUID on insecure (plain-HTTP) origins so the frontend survives LAN or Tailscale IP direct links. Host-side index-tap plugin.",
+      "weekly_downloads": 90,
+      "stars": 9,
+      "grade": "A",
+      "overall": 72,
+      "dsh_compat": true,
+      "last_publish": "2026-08-14T14:57:40.646Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "lan",
+        "remote-access"
       ]
     },
     {
@@ -1014,6 +1147,25 @@
       ]
     },
     {
+      "slug": "dsh-messager",
+      "name": "dsh-messager",
+      "version": "0.1.5",
+      "description": "DeepSeek Harness 通知插件：会话交互/任务完成/出错时通过系统通知、浏览器通知、飞书机器人（webhook）推送提醒",
+      "weekly_downloads": 265,
+      "stars": 0,
+      "grade": "B",
+      "overall": 69,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T14:40:31.778Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "notification"
+      ]
+    },
+    {
       "slug": "microi.net--cli",
       "name": "@microi.net/cli",
       "version": "5.0.8",
@@ -1144,6 +1296,25 @@
         "learning",
         "fsrs",
         "spaced-repetition"
+      ]
+    },
+    {
+      "slug": "dsh-suite--plugin-deus",
+      "name": "@dsh-suite/plugin-deus",
+      "version": "0.2.0",
+      "description": "神模扳机 Deus Trigger — 极简提示词触发实验台：预设库 + 一键注入 + 起手识别器 + 触发率统计（Wilson CI）。社区观察未获官方证实，本插件不承诺解锁任何隐藏能力。",
+      "weekly_downloads": 312,
+      "stars": 0,
+      "grade": "B",
+      "overall": 66,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T14:19:36.719Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "deus",
+        "prompt-experiment",
+        "a-b-test"
       ]
     },
     {
@@ -1297,6 +1468,25 @@
       ]
     },
     {
+      "slug": "dsh-suite--preset-center",
+      "name": "@dsh-suite/preset-center",
+      "version": "0.1.1",
+      "description": "中文开箱即用预设全家桶：小红书笔记助手 / 中文文案润色 / 日报周报生成器，一键应用到官方 Agent presets / Out-of-the-box Chinese agent presets: Xiaohongshu notes, copy polishing, daily/weekly reports.",
+      "weekly_downloads": 245,
+      "stars": 0,
+      "grade": "B",
+      "overall": 65,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T05:59:17.299Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "presets",
+        "agent-presets",
+        "xiaohongshu"
+      ]
+    },
+    {
       "slug": "sakikotgw--pack-agent",
       "name": "@sakikotgw/pack-agent",
       "version": "0.4.2",
@@ -1313,6 +1503,25 @@
         "packagent",
         "agent",
         "claude-code"
+      ]
+    },
+    {
+      "slug": "dsh-suite--themes",
+      "name": "@dsh-suite/themes",
+      "version": "0.2.0",
+      "description": "151 款 AionUi 皮肤聚合 + 皮肤中心试穿面板 / A 151-skin pack with a try-on panel for DSH Web UI.",
+      "weekly_downloads": 182,
+      "stars": 0,
+      "grade": "B",
+      "overall": 65,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T02:50:22.476Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "themes",
+        "skin",
+        "aionui"
       ]
     },
     {
@@ -1449,25 +1658,6 @@
       ]
     },
     {
-      "slug": "deepseek-harness-auth",
-      "name": "deepseek-harness-auth",
-      "version": "0.3.0",
-      "description": "Fail-closed password authentication proxy bundle for the DeepSeek Harness Web profile",
-      "weekly_downloads": 0,
-      "stars": 0,
-      "grade": "B",
-      "overall": 65,
-      "dsh_compat": true,
-      "last_publish": "2026-08-16T08:10:35.184Z",
-      "keywords": [
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "cordis",
-        "authentication"
-      ]
-    },
-    {
       "slug": "dsh-tools",
       "name": "dsh-tools",
       "version": "0.5.3",
@@ -1484,6 +1674,25 @@
         "dsh",
         "dsh-plugin",
         "tools"
+      ]
+    },
+    {
+      "slug": "deepseek-harness-auth",
+      "name": "deepseek-harness-auth",
+      "version": "0.3.0",
+      "description": "Fail-closed password authentication proxy bundle for the DeepSeek Harness Web profile",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "B",
+      "overall": 65,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T08:10:35.184Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "cordis",
+        "authentication"
       ]
     },
     {
@@ -1789,6 +1998,25 @@
       ]
     },
     {
+      "slug": "ya8d--dsh-directive-compact",
+      "name": "@ya8d/dsh-directive-compact",
+      "version": "0.1.0-rc.0",
+      "description": "Pure-incremental directive-driven compaction for DeepSeek Harness: /compact-directive <requirement> summarizes the session middle per your requirement, /trim-directive <requirement> trims the whole conversation per your requirement",
+      "weekly_downloads": 56,
+      "stars": 0,
+      "grade": "B",
+      "overall": 64,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T14:11:17.389Z",
+      "keywords": [
+        "deepseek-harness",
+        "deepseek-ai",
+        "dsh-plugin",
+        "plugin",
+        "compaction"
+      ]
+    },
+    {
       "slug": "dsh-background-agents",
       "name": "dsh-background-agents",
       "version": "0.4.0",
@@ -1975,6 +2203,25 @@
         "deepseek-harness",
         "deepseek-harness-plugin",
         "hot-reload"
+      ]
+    },
+    {
+      "slug": "dsh-update-center",
+      "name": "dsh-update-center",
+      "version": "0.8.1",
+      "description": "dsh (DeepSeek Harness) 更新中心与插件市场：自托管 plugins.json 注册表（GitHub dsh-plugin 主题自动聚合 + npm 包名映射秒级安装），一键安装/更新/卸载/禁用插件与更新 dsh 本体。Update center & plugin marketplace for DeepSeek Harness.",
+      "weekly_downloads": 0,
+      "stars": 1,
+      "grade": "B",
+      "overall": 64,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T09:59:01.528Z",
+      "keywords": [
+        "dsh-plugin",
+        "deepseek-harness",
+        "dsh",
+        "plugin-market",
+        "update-center"
       ]
     },
     {
@@ -2738,25 +2985,6 @@
       ]
     },
     {
-      "slug": "hto404--dsh-chime",
-      "name": "@hto404/dsh-chime",
-      "version": "0.1.2",
-      "description": "Task-completion notification chime for the dsh web GUI: plays a sound when a root agent turn finishes, even while the tab is in the background. Persistent host+client plugin with 10 preset sounds, custom sound import, volume control and a Settings > Plugi",
-      "weekly_downloads": 0,
-      "stars": 0,
-      "grade": "B",
-      "overall": 64,
-      "dsh_compat": true,
-      "last_publish": "2026-08-15T19:25:01.081Z",
-      "keywords": [
-        "dsh",
-        "dsh-plugin",
-        "notification",
-        "sound",
-        "chime"
-      ]
-    },
-    {
       "slug": "dsh-turn-rail",
       "name": "dsh-turn-rail",
       "version": "0.1.0",
@@ -2773,25 +3001,6 @@
         "dsh-plugin",
         "turn",
         "navigation"
-      ]
-    },
-    {
-      "slug": "dsh-expression",
-      "name": "dsh-expression",
-      "version": "0.1.3",
-      "description": "DeepSeek Harness 表情包插件:内置默认图库(官方-001,92 张),bigram Dice 语义检索,send_meme 发图(Web/QQ),设置页管理面板。",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "B",
-      "overall": 64,
-      "dsh_compat": true,
-      "last_publish": "2026-08-16T09:27:05.765Z",
-      "keywords": [
-        "dsh-plugin",
-        "deepseek-harness",
-        "meme",
-        "emoticon",
-        "sticker"
       ]
     },
     {
@@ -2868,25 +3077,6 @@
         "deepseek-harness",
         "github",
         "github-actions"
-      ]
-    },
-    {
-      "slug": "dsh-oh-my-theme",
-      "name": "dsh-oh-my-theme",
-      "version": "0.5.1",
-      "description": "Theme + file workspace plugin for DeepSeek Harness (dsh) web GUI: curated --dsw-alias-* skin palettes with live hover preview, @file mentions in the composer, a lazy-loading project file tree, and Markdown preview. 为 dsh 网页端定制的主题 + 文件工作台插件：精选皮肤与悬停预览、输入框 @",
-      "weekly_downloads": 0,
-      "stars": 3,
-      "grade": "B",
-      "overall": 64,
-      "dsh_compat": true,
-      "last_publish": "2026-08-16T01:36:59.649Z",
-      "keywords": [
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "plugin",
-        "theme"
       ]
     },
     {
@@ -3419,25 +3609,6 @@
         "kubernetes",
         "k8s",
         "sre"
-      ]
-    },
-    {
-      "slug": "dsh-codex-approval",
-      "name": "dsh-codex-approval",
-      "version": "0.2.2",
-      "description": "Codex-style approval autopilot for DeepSeek Harness: ordered glob rules (allow/ask/deny) plus an AI risk judge (low/medium/high) mapped through a risk tolerance, as an approval answerer.",
-      "weekly_downloads": 0,
-      "stars": 1,
-      "grade": "B",
-      "overall": 63,
-      "dsh_compat": true,
-      "last_publish": "2026-08-15T19:45:57.803Z",
-      "keywords": [
-        "dsh",
-        "dsh-plugin",
-        "deepseek-harness",
-        "approval",
-        "codex"
       ]
     },
     {
@@ -4334,6 +4505,25 @@
       ]
     },
     {
+      "slug": "hto404--dsh-chime",
+      "name": "@hto404/dsh-chime",
+      "version": "0.1.2",
+      "description": "Task-completion notification chime for the dsh web GUI: plays a sound when a root agent turn finishes, even while the tab is in the background. Persistent host+client plugin with 10 preset sounds, custom sound import, volume control and a Settings > Plugi",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "B",
+      "overall": 63,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T19:25:01.081Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "notification",
+        "sound",
+        "chime"
+      ]
+    },
+    {
       "slug": "dsh-plugin-uisfx",
       "name": "dsh-plugin-uisfx",
       "version": "0.1.1",
@@ -5017,41 +5207,22 @@
       ]
     },
     {
-      "slug": "dsh-ikun-pet",
-      "name": "dsh-ikun-pet",
-      "version": "2.2.0",
-      "description": "dsh-ikun-pet · ikun 桌宠 —— DeepSeek Harness 永久插件：在 DSH Deep diving 回答期间，用坤宠动图填满深潜状态行下方区块，进度 0%→100%，每 20% 切换动作与文案，完成时系统级播放提示音",
+      "slug": "dsh-codex-approval",
+      "name": "dsh-codex-approval",
+      "version": "0.2.2",
+      "description": "Codex-style approval autopilot for DeepSeek Harness: ordered glob rules (allow/ask/deny) plus an AI risk judge (low/medium/high) mapped through a risk tolerance, as an approval answerer.",
       "weekly_downloads": 0,
-      "stars": 3,
+      "stars": 1,
       "grade": "B",
       "overall": 62,
       "dsh_compat": true,
-      "last_publish": "2026-08-15T19:08:32.116Z",
-      "keywords": [
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "plugin",
-        "deep-dive"
-      ]
-    },
-    {
-      "slug": "pet-whale",
-      "name": "pet-whale",
-      "version": "0.6.1",
-      "description": "桌宠小鲸鱼：随 agent 状态切换动画的 DeepSeek Harness Web 桌宠插件（官方轮廓版）",
-      "weekly_downloads": 0,
-      "stars": 2,
-      "grade": "B",
-      "overall": 62,
-      "dsh_compat": true,
-      "last_publish": "2026-08-16T04:48:02.606Z",
+      "last_publish": "2026-08-15T19:45:57.803Z",
       "keywords": [
         "dsh",
         "dsh-plugin",
         "deepseek-harness",
-        "desktop-pet",
-        "whale"
+        "approval",
+        "codex"
       ]
     },
     {
@@ -5241,6 +5412,25 @@
         "deepseek-harness",
         "openai",
         "chatgpt"
+      ]
+    },
+    {
+      "slug": "dsh-market-plus",
+      "name": "dsh-market-plus",
+      "version": "0.1.0",
+      "description": "DSH 插件市场增强版：dsh-market 基座 + dsh-store 的 npm 权威源/质量验证/GitHub 热度/代理注入/回退安装（MIT，融合 dsh-market 与 dsh-store）",
+      "weekly_downloads": 0,
+      "stars": 416,
+      "grade": "B",
+      "overall": 62,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T09:46:06.071Z",
+      "keywords": [
+        "deepseek",
+        "harness",
+        "dsh",
+        "dsh-plugin",
+        "marketplace"
       ]
     },
     {
@@ -5642,25 +5832,6 @@
       ]
     },
     {
-      "slug": "dsh-movein",
-      "name": "dsh-movein",
-      "version": "0.4.0",
-      "description": "Move your whole Claude Code setup into DeepSeek Harness (DSH) with one command - skills, MCP servers, hooks, instructions. 从 Claude Code 拎包入住 DSH。",
-      "weekly_downloads": 0,
-      "stars": 3,
-      "grade": "B",
-      "overall": 62,
-      "dsh_compat": true,
-      "last_publish": "2026-08-15T16:37:57.011Z",
-      "keywords": [
-        "dsh",
-        "deepseek-harness",
-        "dsh-plugin",
-        "claude-code",
-        "migration"
-      ]
-    },
-    {
       "slug": "dsh-complete-notify",
       "name": "dsh-complete-notify",
       "version": "0.1.0",
@@ -5677,6 +5848,25 @@
         "dsh",
         "dsh-plugin",
         "notification"
+      ]
+    },
+    {
+      "slug": "dsh-excel-panel",
+      "name": "dsh-excel-panel",
+      "version": "0.3.1",
+      "description": "DSH 右侧栏 Excel 编辑插件 v2：支持多工作表、单击选中/双击编辑、多选批量格式、色盘单步撤销、选中动画，并保存回原文件。",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "B",
+      "overall": 62,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T10:15:27.189Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "excel",
+        "xlsx",
+        "editor"
       ]
     },
     {
@@ -5810,25 +6000,6 @@
         "thinking-mode",
         "qwen",
         "llm"
-      ]
-    },
-    {
-      "slug": "dsh-openai-codex-auth",
-      "name": "dsh-openai-codex-auth",
-      "version": "0.3.0",
-      "description": "Unofficial OpenAI Codex provider for DeepSeek Harness with ChatGPT subscription sign-in.",
-      "weekly_downloads": 0,
-      "stars": 0,
-      "grade": "B",
-      "overall": 62,
-      "dsh_compat": true,
-      "last_publish": "2026-08-15T19:33:02.915Z",
-      "keywords": [
-        "deepseek-harness",
-        "dsh-plugin",
-        "openai",
-        "codex",
-        "chatgpt"
       ]
     },
     {
@@ -6510,6 +6681,25 @@
       ]
     },
     {
+      "slug": "dsh-ikun-pet",
+      "name": "dsh-ikun-pet",
+      "version": "2.2.0",
+      "description": "dsh-ikun-pet · ikun 桌宠 —— DeepSeek Harness 永久插件：在 DSH Deep diving 回答期间，用坤宠动图填满深潜状态行下方区块，进度 0%→100%，每 20% 切换动作与文案，完成时系统级播放提示音",
+      "weekly_downloads": 0,
+      "stars": 3,
+      "grade": "B",
+      "overall": 61,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T19:08:32.116Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "plugin",
+        "deep-dive"
+      ]
+    },
+    {
       "slug": "dsh-plugin-genui",
       "name": "dsh-plugin-genui",
       "version": "0.12.2",
@@ -6526,6 +6716,25 @@
         "generative-ui",
         "genui",
         "mcp"
+      ]
+    },
+    {
+      "slug": "dsh-project-memory",
+      "name": "dsh-project-memory",
+      "version": "0.1.0",
+      "description": "Evidence-backed, human-approved project memory for DeepSeek Harness",
+      "weekly_downloads": 0,
+      "stars": 1,
+      "grade": "B",
+      "overall": 61,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T09:31:26.311Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "project-memory",
+        "decision-log"
       ]
     },
     {
@@ -6849,6 +7058,44 @@
       ]
     },
     {
+      "slug": "dsh-bill",
+      "name": "dsh-bill",
+      "version": "0.5.0",
+      "description": "DSH 费用统计插件:会话费用行 + 成本归因报告,llm-pricing 动态价格。 / DSH cost attribution and usage dashboard, priced by llm-pricing.",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "B",
+      "overall": 61,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T09:36:48.910Z",
+      "keywords": [
+        "deepseek",
+        "harness",
+        "dsh",
+        "dsh-plugin",
+        "cost"
+      ]
+    },
+    {
+      "slug": "dsh-workstate",
+      "name": "dsh-workstate",
+      "version": "0.1.0",
+      "description": "A structured work-state protocol for DeepSeek Harness agent handoffs",
+      "weekly_downloads": 0,
+      "stars": 1,
+      "grade": "B",
+      "overall": 61,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T09:31:13.393Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "agent-handoff",
+        "work-state"
+      ]
+    },
+    {
       "slug": "reasoning-slider",
       "name": "reasoning-slider",
       "version": "0.0.2",
@@ -7020,6 +7267,25 @@
       ]
     },
     {
+      "slug": "dsh-web-terminal",
+      "name": "dsh-web-terminal",
+      "version": "0.1.0",
+      "description": "Local terminal plugin for the DeepSeek Harness web GUI: a multi-tab xterm.js panel over real node-pty shells, streamed through a WebSocket route on the host process. Hot-pluggable — mounted via the web profile bundle list, no dsh source changes.",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "B",
+      "overall": 61,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T09:30:04.278Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "terminal",
+        "xterm"
+      ]
+    },
+    {
       "slug": "dsh-side-panel",
       "name": "dsh-side-panel",
       "version": "1.0.0",
@@ -7074,6 +7340,25 @@
         "deepseek-harness",
         "plugin",
         "web-search"
+      ]
+    },
+    {
+      "slug": "dsh-openai-codex-auth",
+      "name": "dsh-openai-codex-auth",
+      "version": "0.3.0",
+      "description": "Unofficial OpenAI Codex provider for DeepSeek Harness with ChatGPT subscription sign-in.",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "B",
+      "overall": 61,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T19:33:02.915Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "openai",
+        "codex",
+        "chatgpt"
       ]
     },
     {
@@ -7302,6 +7587,25 @@
         "deepseek-harness",
         "flomo",
         "memo"
+      ]
+    },
+    {
+      "slug": "moguiyu--dsh-tavily",
+      "name": "@moguiyu/dsh-tavily",
+      "version": "0.1.4",
+      "description": "Tavily Search for DSH: multiple API keys, rotation/failover, usage gauge, settings card, and web_search toggle in one plugin.",
+      "weekly_downloads": 0,
+      "stars": 1,
+      "grade": "B",
+      "overall": 61,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T10:04:26.334Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "tavily",
+        "web-search"
       ]
     },
     {
@@ -8328,6 +8632,25 @@
       ]
     },
     {
+      "slug": "dsh-desktop-windows-launcher",
+      "name": "dsh-desktop-windows-launcher",
+      "version": "0.1.0",
+      "description": "dsh plugin: launch the dsh-desktop Windows shell (region screenshot, tray, session manager) from the DSH conversation via a desktop_launch tool.",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "B",
+      "overall": 60,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T09:55:28.569Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek",
+        "deepseek-harness",
+        "electron"
+      ]
+    },
+    {
       "slug": "deepseek-ai-harness--tui",
       "name": "@deepseek-ai-harness/tui",
       "version": "0.0.1-beta",
@@ -8950,25 +9273,6 @@
       ]
     },
     {
-      "slug": "dsh-web-mobile-fix",
-      "name": "dsh-web-mobile-fix",
-      "version": "1.0.1",
-      "description": "Mobile layout fixes for the DeepSeek Harness Web UI: settings panel, popups, sidebar, and session header on narrow (≤700px) screens. Pure client-side CSS overlay.",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "B",
-      "overall": 60,
-      "dsh_compat": true,
-      "last_publish": "2026-08-15T00:36:06.880Z",
-      "keywords": [
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "mobile",
-        "web-ui"
-      ]
-    },
-    {
       "slug": "frog755--dsh-wallpaper",
       "name": "@frog755/dsh-wallpaper",
       "version": "0.3.1",
@@ -9434,25 +9738,6 @@
         "dsh",
         "dsh-plugin",
         "acp"
-      ]
-    },
-    {
-      "slug": "dsh-web-lan-access",
-      "name": "dsh-web-lan-access",
-      "version": "1.0.0",
-      "description": "LAN / remote access support for the DeepSeek Harness Web UI: polyfills crypto.randomUUID on insecure (plain-HTTP) origins so the frontend survives LAN or Tailscale IP direct links. Host-side index-tap plugin.",
-      "weekly_downloads": 0,
-      "stars": 9,
-      "grade": "B",
-      "overall": 59,
-      "dsh_compat": true,
-      "last_publish": "2026-08-14T14:57:40.646Z",
-      "keywords": [
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "lan",
-        "remote-access"
       ]
     },
     {
@@ -10245,25 +10530,6 @@
       ]
     },
     {
-      "slug": "dsh-excel-chat",
-      "name": "dsh-excel-chat",
-      "version": "0.33.0",
-      "description": "Talk to Excel in DeepSeek Harness: create/edit spreadsheets, formulas, styles, filters, and tables by conversation; auto-verifies formulas after every edit, repairs silent errors, and validates charts.",
-      "weekly_downloads": 0,
-      "stars": 5,
-      "grade": "B",
-      "overall": 58,
-      "dsh_compat": true,
-      "last_publish": "2026-08-15T11:15:37.449Z",
-      "keywords": [
-        "deepseek",
-        "harness",
-        "dsh",
-        "dsh-plugin",
-        "excel"
-      ]
-    },
-    {
       "slug": "dsh-agent-run-logger",
       "name": "dsh-agent-run-logger",
       "version": "0.1.0",
@@ -10832,6 +11098,24 @@
       ]
     },
     {
+      "slug": "dsh-archive-vault",
+      "name": "dsh-archive-vault",
+      "version": "0.2.1",
+      "description": "dsh 插件：在设置面板中查看、恢复与永久删除归档会话",
+      "weekly_downloads": 0,
+      "stars": 1,
+      "grade": "B",
+      "overall": 57,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T09:48:50.533Z",
+      "keywords": [
+        "dsh-plugin",
+        "dsh",
+        "deepseek-harness",
+        "archive"
+      ]
+    },
+    {
       "slug": "dsh-reasoning-zh",
       "name": "dsh-reasoning-zh",
       "version": "0.2.4",
@@ -11219,6 +11503,25 @@
       "keywords": [
         "dsh-plugin",
         "cpa"
+      ]
+    },
+    {
+      "slug": "univerxyz--dsh-dsov-plugin",
+      "name": "@univerxyz/dsh-dsov-plugin",
+      "version": "1.0.1",
+      "description": "DSH Web GUI plugin: a first-position 銆愭瑙堛€憈ab in the right panel (context window / session metrics with active-only 1s runtime / per-model usage analysis) plus a settings entry 銆怐eepSeek 寮€鏀惧钩鍙般€?that opens platform.deepseek.com. Web-profile only, theme-",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "B",
+      "overall": 55,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T10:07:35.801Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek",
+        "usage",
+        "overview"
       ]
     },
     {
@@ -11958,41 +12261,22 @@
       ]
     },
     {
-      "slug": "ya8d--dsh-directive-compact",
-      "name": "@ya8d/dsh-directive-compact",
-      "version": "0.1.0-rc.0",
-      "description": "Pure-incremental directive-driven compaction for DeepSeek Harness: /compact-directive <requirement> summarizes the session middle per your requirement, /trim-directive <requirement> trims the whole conversation per your requirement",
+      "slug": "dsh-quant",
+      "name": "dsh-quant",
+      "version": "0.7.0",
+      "description": "dsh plugin: quantitative tools for agents — market data (Binance public API), technical indicators (SMA/EMA/RSI/MACD/Bollinger/ATR) and MA-crossover backtest, with structured canonical outputs consumable from Code Mode",
       "weekly_downloads": 0,
       "stars": 0,
       "grade": "C",
       "overall": 53,
       "dsh_compat": true,
-      "last_publish": "2026-08-15T14:11:17.389Z",
-      "keywords": [
-        "deepseek-harness",
-        "deepseek-ai",
-        "dsh-plugin",
-        "plugin",
-        "compaction"
-      ]
-    },
-    {
-      "slug": "dsh-messager",
-      "name": "dsh-messager",
-      "version": "0.1.5",
-      "description": "DeepSeek Harness 通知插件：会话交互/任务完成/出错时通过系统通知、浏览器通知、飞书机器人（webhook）推送提醒",
-      "weekly_downloads": 0,
-      "stars": 0,
-      "grade": "C",
-      "overall": 53,
-      "dsh_compat": true,
-      "last_publish": "2026-08-15T14:40:31.778Z",
+      "last_publish": "2026-08-16T10:02:16.510Z",
       "keywords": [
         "dsh",
         "dsh-plugin",
         "deepseek-harness",
-        "deepseek-harness-plugin",
-        "notification"
+        "quant",
+        "trading"
       ]
     },
     {
@@ -12766,6 +13050,44 @@
       ]
     },
     {
+      "slug": "dsh-license-guard",
+      "name": "dsh-license-guard",
+      "version": "0.1.0",
+      "description": "依赖许可证合规：扫描 node_modules 许可证、归一化 SPDX 标识、按宽松/弱传染/强传染分类，并做发布前合规校验",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "C",
+      "overall": 51,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T10:13:32.490Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "license",
+        "spdx"
+      ]
+    },
+    {
+      "slug": "dsh-video-creator",
+      "name": "dsh-video-creator",
+      "version": "0.1.0",
+      "description": "视频号创作助手：内置主流短视频创作模板，调用中国境内大模型一键生成内容包，适配抖音/视频号/B站/快手/小红书/微博/西瓜视频快速发布",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "C",
+      "overall": 51,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T10:13:34.835Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "video",
+        "short-video"
+      ]
+    },
+    {
       "slug": "tiyirt--dsh-prompt-order-fix",
       "name": "@tiyirt/dsh-prompt-order-fix",
       "version": "0.1.0",
@@ -12935,6 +13257,25 @@
       ]
     },
     {
+      "slug": "dsh-api-contract",
+      "name": "dsh-api-contract",
+      "version": "0.1.0",
+      "description": "接口契约助手：解析 OpenAPI 3.x（JSON/YAML），生成 TypeScript / Python 类型化客户端，并检测接口升级的破坏性变更",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "C",
+      "overall": 51,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T10:13:30.529Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "openapi",
+        "swagger"
+      ]
+    },
+    {
       "slug": "huanlin--dsh-plugin-yet-another-subagent",
       "name": "@huanlin/dsh-plugin-yet-another-subagent",
       "version": "0.1.2",
@@ -13023,6 +13364,25 @@
         "dsh",
         "dsh-plugin",
         "quota"
+      ]
+    },
+    {
+      "slug": "dsh-test-coverage",
+      "name": "dsh-test-coverage",
+      "version": "0.1.0",
+      "description": "测试覆盖率分析：解析 LCOV / Cobertura / Istanbul-JSON / Go cover.out 覆盖率报告，产出结构化覆盖率数据与未覆盖行区间，指导补写测试",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "C",
+      "overall": 51,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T10:13:28.462Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "coverage",
+        "test"
       ]
     },
     {
@@ -13476,25 +13836,6 @@
       ]
     },
     {
-      "slug": "dsh-suite--preset-center",
-      "name": "@dsh-suite/preset-center",
-      "version": "0.1.1",
-      "description": "中文开箱即用预设全家桶：小红书笔记助手 / 中文文案润色 / 日报周报生成器，一键应用到官方 Agent presets / Out-of-the-box Chinese agent presets: Xiaohongshu notes, copy polishing, daily/weekly reports.",
-      "weekly_downloads": 0,
-      "stars": 0,
-      "grade": "C",
-      "overall": 50,
-      "dsh_compat": true,
-      "last_publish": "2026-08-15T05:59:17.299Z",
-      "keywords": [
-        "deepseek-harness",
-        "dsh-plugin",
-        "presets",
-        "agent-presets",
-        "xiaohongshu"
-      ]
-    },
-    {
       "slug": "dsh-onlyne",
       "name": "dsh-onlyne",
       "version": "0.1.1",
@@ -13511,25 +13852,6 @@
         "deepseek-harness",
         "onlyne",
         "messaging"
-      ]
-    },
-    {
-      "slug": "dsh-suite--themes",
-      "name": "@dsh-suite/themes",
-      "version": "0.2.0",
-      "description": "151 款 AionUi 皮肤聚合 + 皮肤中心试穿面板 / A 151-skin pack with a try-on panel for DSH Web UI.",
-      "weekly_downloads": 0,
-      "stars": 0,
-      "grade": "C",
-      "overall": 50,
-      "dsh_compat": true,
-      "last_publish": "2026-08-15T02:50:22.476Z",
-      "keywords": [
-        "deepseek-harness",
-        "dsh-plugin",
-        "themes",
-        "skin",
-        "aionui"
       ]
     },
     {
@@ -13622,25 +13944,6 @@
         "dsh-plugin",
         "password",
         "security"
-      ]
-    },
-    {
-      "slug": "dsh-suite--plugin-deus",
-      "name": "@dsh-suite/plugin-deus",
-      "version": "0.2.0",
-      "description": "神模扳机 Deus Trigger — 极简提示词触发实验台：预设库 + 一键注入 + 起手识别器 + 触发率统计（Wilson CI）。社区观察未获官方证实，本插件不承诺解锁任何隐藏能力。",
-      "weekly_downloads": 0,
-      "stars": 0,
-      "grade": "C",
-      "overall": 50,
-      "dsh_compat": true,
-      "last_publish": "2026-08-15T14:19:36.719Z",
-      "keywords": [
-        "deepseek-harness",
-        "dsh-plugin",
-        "deus",
-        "prompt-experiment",
-        "a-b-test"
       ]
     },
     {

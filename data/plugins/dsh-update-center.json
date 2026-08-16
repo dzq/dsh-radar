@@ -1,0 +1,54 @@
+{
+  "slug": "dsh-update-center",
+  "name": "dsh-update-center",
+  "version": "0.8.1",
+  "description": "dsh (DeepSeek Harness) 更新中心与插件市场：自托管 plugins.json 注册表（GitHub dsh-plugin 主题自动聚合 + npm 包名映射秒级安装），一键安装/更新/卸载/禁用插件与更新 dsh 本体。Update center & plugin marketplace for DeepSeek Harness.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "plugin-market",
+    "update-center",
+    "cordis"
+  ],
+  "license": "BSD-3-Clause",
+  "repo": "git+ssh://git@github.com/Britneycode/dsh-update-center.git",
+  "homepage": "https://github.com/Britneycode/dsh-update-center#readme",
+  "npm": "https://www.npmjs.com/package/dsh-update-center",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T09:59:01.528Z",
+  "created_at": "2026-08-16T09:41:04.804Z",
+  "gh": {
+    "full_name": "Britneycode/dsh-update-center",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T09:58:02Z",
+    "archived": false,
+    "license": "BSD-3-Clause"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 64,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T10:16:19.705Z"
+}

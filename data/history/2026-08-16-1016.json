@@ -1,0 +1,206 @@
+{
+  "stats": {
+    "total": 846,
+    "by_grade": {
+      "S": 3,
+      "A": 57,
+      "B": 549,
+      "C": 224,
+      "D": 13
+    },
+    "by_compat": 777,
+    "total_weekly_downloads": 58808,
+    "generated_at": "2026-08-16T10:16:48.341Z",
+    "build_ms": 39431
+  },
+  "top10": [
+    {
+      "slug": "dshmarket",
+      "name": "dshmarket",
+      "version": "1.9.0",
+      "description": "Visual plugin market inside DeepSeek Harness — browse, search, and one-click install community plugins. · DSH 可视化插件市场：逛一逛，点一下，装好。",
+      "weekly_downloads": 11862,
+      "stars": 416,
+      "grade": "S",
+      "overall": 87,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T07:23:17.632Z",
+      "keywords": [
+        "deepseek",
+        "harness",
+        "dsh",
+        "dsh-plugin",
+        "marketplace"
+      ]
+    },
+    {
+      "slug": "dsh-pocket",
+      "name": "dsh-pocket",
+      "version": "1.4.4",
+      "description": "把 DeepSeek Harness 装进你的口袋：一个包、一个设置页，手机扫码即同步访问电脑上的 DSH（局域网 + 公网，实时同屏）。",
+      "weekly_downloads": 4381,
+      "stars": 5,
+      "grade": "S",
+      "overall": 86,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T09:22:40.861Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "mobile",
+        "remote"
+      ]
+    },
+    {
+      "slug": "liustack--modsearch",
+      "name": "@liustack/modsearch",
+      "version": "5.4.2",
+      "description": "Plug-in web search, X search, and page fetch for models without native web access, powered by the free Antigravity CLI",
+      "weekly_downloads": 4097,
+      "stars": 106,
+      "grade": "S",
+      "overall": 85,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T05:18:30.432Z",
+      "keywords": [
+        "search",
+        "web-fetch",
+        "cli",
+        "llm",
+        "agent"
+      ]
+    },
+    {
+      "slug": "dsh-builtin-browser",
+      "name": "dsh-builtin-browser",
+      "version": "0.1.15",
+      "description": "Shared real browser plugin for DeepSeek Harness: install-and-use — a visible native browser the human can take over, driven by the agent over CDP. DOM-level interaction (React/Vue safe), per-task session isolation, cookie persistence (browser_auth), CAPTC",
+      "weekly_downloads": 1808,
+      "stars": 4,
+      "grade": "A",
+      "overall": 84,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T21:48:30.045Z",
+      "keywords": [
+        "dsh-plugin",
+        "deepseek-harness",
+        "browser",
+        "cdp"
+      ]
+    },
+    {
+      "slug": "dsh-deepread",
+      "name": "dsh-deepread",
+      "version": "0.5.4",
+      "description": "AI deep-reading assistant: extract core claims, argument structure, and key evidence from books and articles. Five modes (quick, deep, knowledge map, Feynman, full book); knowledge-map reports include confidence levels, data facts, relation labels, Mermai",
+      "weekly_downloads": 1130,
+      "stars": 1,
+      "grade": "A",
+      "overall": 84,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T08:17:55.002Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "deepseek",
+        "deep-read",
+        "deep-reading"
+      ]
+    },
+    {
+      "slug": "dsh-win32",
+      "name": "dsh-win32",
+      "version": "0.9.4",
+      "description": "DeepSeek Harness 的 Windows 插件：沙箱内唯一能跑的持久 shell、可用的极简模式、前台命令识别、旧编码读取与安装体检 | First-class Windows for DSH",
+      "weekly_downloads": 1535,
+      "stars": 4,
+      "grade": "A",
+      "overall": 83,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T09:21:38.055Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek-harness",
+        "windows"
+      ]
+    },
+    {
+      "slug": "dsh-mnemon",
+      "name": "dsh-mnemon",
+      "version": "0.1.6",
+      "description": "Cross-agent, local-first persistent memory plugin for DeepSeek Harness (DSH), powered by Mnemon. It shares long-term memory across Mnemon-enabled agents and adds runtime memory, searchable project documents, semantic recall, knowledge graph, and a Sidebar",
+      "weekly_downloads": 1129,
+      "stars": 43,
+      "grade": "A",
+      "overall": 83,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T08:46:05.805Z",
+      "keywords": [
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "dsh",
+        "dsh-plugin",
+        "mnemon"
+      ]
+    },
+    {
+      "slug": "dttxorg--deepseekeyes",
+      "name": "@dttxorg/deepseekeyes",
+      "version": "0.5.2",
+      "description": "Auditable vision and cross-platform Computer Use runtime for DeepSeek Harness with source-preserving evidence.",
+      "weekly_downloads": 575,
+      "stars": 1,
+      "grade": "A",
+      "overall": 83,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T08:10:09.806Z",
+      "keywords": [
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "vision",
+        "multimodal"
+      ]
+    },
+    {
+      "slug": "dsh-better-edit",
+      "name": "dsh-better-edit",
+      "version": "0.1.9",
+      "description": "Hash-anchored read/edit/batch_edit/undo_last_edit tools for DeepSeek Harness (dsh). Every line gets a unique 3-char hash (A-Za-z0-9) that stays stable across edits; stale or ambiguous anchors are rejected, never fuzzy-matched. Undo persists across restart",
+      "weekly_downloads": 1404,
+      "stars": 4,
+      "grade": "A",
+      "overall": 82,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T16:46:59.351Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek-harness",
+        "coding-agent",
+        "hashline"
+      ]
+    },
+    {
+      "slug": "pi2dsh",
+      "name": "pi2dsh",
+      "version": "0.12.1",
+      "description": "Bridge the Pi and DeepSeek Harness ecosystems: a general Pi Host ABI that runs unmodified Pi extensions as native DSH plugins, plus per-package conversion and MCP config translation.",
+      "weekly_downloads": 1482,
+      "stars": 13,
+      "grade": "A",
+      "overall": 82,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T02:05:56.354Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "pi-package",
+        "migration",
+        "compatibility"
+      ]
+    }
+  ]
+}

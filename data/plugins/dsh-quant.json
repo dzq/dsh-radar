@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-quant",
+  "name": "dsh-quant",
+  "version": "0.7.0",
+  "description": "dsh plugin: quantitative tools for agents — market data (Binance public API), technical indicators (SMA/EMA/RSI/MACD/Bollinger/ATR) and MA-crossover backtest, with structured canonical outputs consumable from Code Mode",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "quant",
+    "trading",
+    "technical-analysis",
+    "indicators",
+    "backtest"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-quant",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T10:02:16.510Z",
+  "created_at": "2026-08-16T09:54:55.742Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T10:16:33.119Z"
+}
