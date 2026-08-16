@@ -1,8 +1,8 @@
 {
   "slug": "dsh-hot-reload",
   "name": "dsh-hot-reload",
-  "version": "0.1.2",
-  "description": "Live-reload upgraded DeepSeek Harness (dsh) plugins without restarting dsh — safe plugins are hot-reloaded in place; unsafe ones are flagged for a manual restart.",
+  "version": "0.2.0",
+  "description": "Live-reload upgraded DeepSeek Harness (dsh) plugins without restarting dsh — the running plugin is swapped in place, and a reload that fails rolls back to the working old version and asks for a manual restart.",
   "keywords": [
     "dsh",
     "dsh-plugin",
@@ -21,6 +21,9 @@
   "dsh_meta": {
     "bundle": {
       "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
     }
   },
   "engines": {
@@ -28,17 +31,24 @@
   },
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-16T00:55:47.024Z",
+  "last_publish": "2026-08-16T08:10:05.202Z",
   "created_at": "2026-08-16T00:25:33.399Z",
-  "gh": null,
+  "gh": {
+    "full_name": "stuarthu/dsh-hot-reload",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T08:09:49Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
-    "quality": 75,
+    "maintenance": 100,
+    "quality": 100,
     "security": 50,
-    "dsh_compat": 75,
-    "overall": 50,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 64,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T07:58:47.299Z"
+  "updated_at": "2026-08-16T09:25:19.597Z"
 }

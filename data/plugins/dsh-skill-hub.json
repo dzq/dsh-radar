@@ -38,15 +38,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T15:36:25.151Z",
   "created_at": "2026-08-14T08:29:55.998Z",
-  "gh": null,
+  "gh": {
+    "full_name": "cheshireez/dsh-skill-hub",
+    "stars": 3,
+    "open_issues": 1,
+    "pushed_at": "2026-08-14T15:38:34Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 99,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 63,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:01:10.029Z"
+  "updated_at": "2026-08-16T09:28:38.761Z"
 }

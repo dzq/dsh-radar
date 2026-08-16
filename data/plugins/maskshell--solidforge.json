@@ -21,15 +21,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T10:09:05.129Z",
   "created_at": "2026-08-14T09:57:44.790Z",
-  "gh": null,
+  "gh": {
+    "full_name": "maskshell/solidforge-dsh",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T10:21:40Z",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 98,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 40,
+    "overall": 50,
     "grade": "C"
   },
-  "updated_at": "2026-08-16T08:01:28.432Z"
+  "updated_at": "2026-08-16T09:29:05.177Z"
 }

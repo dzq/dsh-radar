@@ -36,15 +36,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T21:43:09.422Z",
   "created_at": "2026-08-14T02:01:08.170Z",
-  "gh": null,
+  "gh": {
+    "full_name": "fang2hou/dsh-locale-ja",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T09:12:36Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
-    "quality": 75,
+    "maintenance": 100,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 85,
-    "overall": 52,
-    "grade": "C"
+    "overall": 62,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T07:59:06.262Z"
+  "updated_at": "2026-08-16T09:25:44.509Z"
 }

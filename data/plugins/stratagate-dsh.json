@@ -1,0 +1,48 @@
+{
+  "slug": "stratagate-dsh",
+  "name": "stratagate-dsh",
+  "version": "0.1.0",
+  "description": "Native StrataGate layered long-term memory for DeepSeek Harness",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "agent-memory",
+    "long-term-memory",
+    "evidence-gate"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/diqierjia/StrataGate-AgentMemory.git",
+  "homepage": "https://github.com/diqierjia/StrataGate-AgentMemory#readme",
+  "npm": "https://www.npmjs.com/package/stratagate-dsh",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T08:46:19.305Z",
+  "created_at": "2026-08-16T08:46:18.989Z",
+  "gh": {
+    "full_name": "diqierjia/StrataGate-AgentMemory",
+    "stars": 1,
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T09:25:20Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 64,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T09:26:19.532Z"
+}

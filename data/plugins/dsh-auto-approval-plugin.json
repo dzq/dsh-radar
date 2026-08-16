@@ -35,15 +35,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T18:24:24.432Z",
   "created_at": "2026-08-14T15:59:20.169Z",
-  "gh": null,
+  "gh": {
+    "full_name": "StyxNether/dsh-auto-approval-plugin",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T17:41:26Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 99,
+    "quality": 100,
     "security": 65,
     "dsh_compat": 85,
-    "overall": 57,
+    "overall": 67,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T07:58:54.599Z"
+  "updated_at": "2026-08-16T09:25:25.661Z"
 }

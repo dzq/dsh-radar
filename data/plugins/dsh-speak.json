@@ -1,7 +1,7 @@
 {
   "slug": "dsh-speak",
   "name": "dsh-speak",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Make your AI harness speak — verified voice announcements for DSH and other AI coding harnesses (Windows SAPI5 + macOS system voices)",
   "keywords": [
     "dsh",
@@ -34,17 +34,24 @@
   },
   "weekly_downloads": 315,
   "monthly_downloads": 315,
-  "last_publish": "2026-08-15T16:17:43.052Z",
+  "last_publish": "2026-08-16T06:47:27.601Z",
   "created_at": "2026-08-14T19:35:28.838Z",
-  "gh": null,
+  "gh": {
+    "full_name": "Alan2Z/dsh-speak",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:09:03Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 62,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 100,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 68,
-    "grade": "B"
+    "overall": 78,
+    "grade": "A"
   },
-  "updated_at": "2026-08-16T07:58:19.881Z"
+  "updated_at": "2026-08-16T09:24:40.625Z"
 }

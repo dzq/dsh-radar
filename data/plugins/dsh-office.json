@@ -1,7 +1,7 @@
 {
   "slug": "dsh-office",
   "name": "dsh-office",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Office workspace & session dashboard plugin for DeepSeek Harness (DSH): a 6-column sprite office visualizing workspaces, sessions, token usage and subagents. 给 DeepSeek Harness 的「办公室」工作区/会话/子代理可视化插件。",
   "keywords": [
     "dsh-plugin",
@@ -44,24 +44,24 @@
   },
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-15T13:22:53.751Z",
+  "last_publish": "2026-08-16T02:41:58.722Z",
   "created_at": "2026-08-15T13:22:53.528Z",
   "gh": {
     "full_name": "Fayelin12/dsh-office",
     "stars": 0,
     "open_issues": 0,
-    "pushed_at": "2026-08-15T13:07:27Z",
+    "pushed_at": "2026-08-16T02:41:24Z",
     "archived": false,
     "license": "MIT"
   },
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
+    "maintenance": 100,
     "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 60,
+    "overall": 61,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T07:58:35.391Z"
+  "updated_at": "2026-08-16T09:25:12.701Z"
 }

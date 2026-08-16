@@ -38,15 +38,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T05:43:48.053Z",
   "created_at": "2026-08-14T02:03:09.110Z",
-  "gh": null,
+  "gh": {
+    "full_name": "NexusAgentX/dsh-mcp-adapter",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T05:42:47Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 98,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 63,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:01:27.401Z"
+  "updated_at": "2026-08-16T09:29:02.630Z"
 }

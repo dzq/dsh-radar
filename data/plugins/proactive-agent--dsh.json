@@ -1,8 +1,8 @@
 {
   "slug": "proactive-agent--dsh",
   "name": "@proactive-agent/dsh",
-  "version": "0.2.0",
-  "description": "ProactiveAgent × DeepSeek Harness 插件组：主动记忆 + 主动建议接入 DSH（bundle 聚合包，dsh plugin add 一键安装）",
+  "version": "0.5.0",
+  "description": "ProactiveAgent × DeepSeek Harness 插件组（P2-14 收拢：3 服务端 + 1 客户端，bundle 一键安装）",
   "keywords": [
     "dsh",
     "dsh-plugin",
@@ -25,17 +25,24 @@
   "engines": {},
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-14T14:40:39.015Z",
+  "last_publish": "2026-08-16T03:58:18.379Z",
   "created_at": "2026-08-14T14:40:38.668Z",
-  "gh": null,
+  "gh": {
+    "full_name": "ConradLu2740/pa-dsh",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T02:36:47Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 100,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 60,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:00:11.824Z"
+  "updated_at": "2026-08-16T09:27:01.103Z"
 }

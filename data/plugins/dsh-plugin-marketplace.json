@@ -1,7 +1,7 @@
 {
   "slug": "dsh-plugin-marketplace",
   "name": "dsh-plugin-marketplace",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "DeepSeek Harness Web UI 内置插件市场：在设置页直接浏览 github.com/topics/dsh-plugin，支持搜索、按 Star 排序、查看安装方式。",
   "keywords": [
     "dsh",
@@ -26,19 +26,26 @@
   "engines": {
     "node": ">=20.18"
   },
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
-  "last_publish": "2026-08-16T00:10:57.489Z",
+  "weekly_downloads": 507,
+  "monthly_downloads": 507,
+  "last_publish": "2026-08-16T08:14:22.542Z",
   "created_at": "2026-08-13T16:21:15.434Z",
-  "gh": null,
+  "gh": {
+    "full_name": "Scorp1o117/dsh-plugin-marketplace",
+    "stars": 2,
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T08:09:10Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
-    "popularity": 0,
-    "maintenance": 60,
-    "quality": 75,
+    "popularity": 68,
+    "maintenance": 100,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 51,
-    "grade": "C"
+    "overall": 78,
+    "grade": "A"
   },
-  "updated_at": "2026-08-16T08:00:07.818Z"
+  "updated_at": "2026-08-16T09:24:37.948Z"
 }

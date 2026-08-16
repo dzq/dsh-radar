@@ -1,0 +1,54 @@
+{
+  "slug": "dsh-music-alert",
+  "name": "dsh-music-alert",
+  "version": "0.1.0",
+  "description": "Completion sound + on-demand music playback for DSH agents (Host afplay/aplay/ffplay/mpg123, Web settings tab)",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "music",
+    "sound",
+    "notification"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/67-68/dsh-music-alert.git",
+  "homepage": "https://github.com/67-68/dsh-music-alert#readme",
+  "npm": "https://www.npmjs.com/package/dsh-music-alert",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T08:14:06.876Z",
+  "created_at": "2026-08-16T08:14:06.678Z",
+  "gh": {
+    "full_name": "67-68/dsh-music-alert",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T09:08:39Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 61,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T09:29:22.088Z"
+}

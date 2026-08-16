@@ -34,15 +34,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T11:45:05.633Z",
   "created_at": "2026-08-14T09:47:23.411Z",
-  "gh": null,
+  "gh": {
+    "full_name": "DEEP-IOS/dsh-humanizer",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T11:41:31Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 99,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 85,
-    "overall": 54,
-    "grade": "C"
+    "overall": 64,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:00:02.902Z"
+  "updated_at": "2026-08-16T09:26:47.210Z"
 }

@@ -34,15 +34,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T13:04:22.286Z",
   "created_at": "2026-08-14T14:45:14.219Z",
-  "gh": null,
+  "gh": {
+    "full_name": "SPYQWER1/dsh-codex-tools",
+    "stars": 3,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T13:02:49Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 99,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 62,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:01:38.787Z"
+  "updated_at": "2026-08-16T09:29:18.559Z"
 }

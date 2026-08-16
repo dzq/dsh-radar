@@ -1,7 +1,7 @@
 {
   "slug": "dsh-result-only-view",
   "name": "dsh-result-only-view",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "Results-only toggle for the DeepSeek Harness Web GUI: hides thinking and tool-call process nodes so a conversation shows only final answers, while keeping a single live status line (the latest running step) during agent activity. Whitelisted interactive c",
   "keywords": [
     "dsh",
@@ -32,17 +32,24 @@
   "engines": {},
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-15T20:25:02.780Z",
+  "last_publish": "2026-08-16T04:46:18.003Z",
   "created_at": "2026-08-15T19:06:49.980Z",
-  "gh": null,
+  "gh": {
+    "full_name": "YEYEYEYESHIFU/dsh-result-only-view",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T03:01:55Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
-    "quality": 90,
+    "maintenance": 100,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 54,
-    "grade": "C"
+    "overall": 64,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:00:09.382Z"
+  "updated_at": "2026-08-16T09:27:00.117Z"
 }

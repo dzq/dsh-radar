@@ -1,7 +1,7 @@
 {
   "slug": "microi.net--cli",
   "name": "@microi.net/cli",
-  "version": "5.0.7",
+  "version": "5.0.8",
   "description": "Microi吾码 AI 开发 CLI 与多宿主 Plugin：服务器连接、Skills、MCP、V8 同步和低代码交付",
   "keywords": [
     "microi",
@@ -56,17 +56,17 @@
   },
   "weekly_downloads": 1966,
   "monthly_downloads": 1966,
-  "last_publish": "2026-08-15T12:49:32.629Z",
+  "last_publish": "2026-08-16T05:00:12.777Z",
   "created_at": "2026-08-03T07:15:52.704Z",
   "gh": null,
   "scores": {
     "popularity": 82,
-    "maintenance": 59,
+    "maintenance": 60,
     "quality": 65,
     "security": 50,
     "dsh_compat": 75,
     "overall": 68,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T07:58:16.181Z"
+  "updated_at": "2026-08-16T09:24:30.921Z"
 }

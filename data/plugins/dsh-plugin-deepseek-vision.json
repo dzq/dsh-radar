@@ -40,15 +40,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T11:11:57.040Z",
   "created_at": "2026-08-15T10:53:38.901Z",
-  "gh": null,
+  "gh": {
+    "full_name": "GOU-GEE/deepseek-vision",
+    "stars": 3,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T09:21:42Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 99,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 95,
-    "overall": 56,
+    "overall": 66,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T08:01:38.991Z"
+  "updated_at": "2026-08-16T09:29:18.914Z"
 }

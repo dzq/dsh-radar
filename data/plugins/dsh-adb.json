@@ -1,8 +1,8 @@
 {
   "slug": "dsh-adb",
   "name": "dsh-adb",
-  "version": "0.1.5",
-  "description": "ADB device & bench operations for DeepSeek Harness: device discovery, structured logcat, apk install, file pull/push, performance snapshots",
+  "version": "0.2.0",
+  "description": "ADB device & bench operations for DeepSeek Harness: device discovery, structured logcat, apk install, file pull/push, performance snapshots, perf baselines, crash reports",
   "keywords": [
     "dsh",
     "dsh-plugin",
@@ -24,17 +24,17 @@
   "engines": {},
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-14T10:10:21.811Z",
+  "last_publish": "2026-08-16T03:16:12.733Z",
   "created_at": "2026-08-14T08:43:43.210Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 60,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
+    "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-16T07:59:02.781Z"
+  "updated_at": "2026-08-16T09:25:41.567Z"
 }

@@ -1,8 +1,8 @@
 {
   "slug": "lqing2018--dsh-desktop-client",
   "name": "@lqing2018/dsh-desktop-client",
-  "version": "0.1.1",
-  "description": "DeepSeek Harness desktop client helper: locate the native WebView2 client and launch it from the agent",
+  "version": "0.2.0",
+  "description": "DeepSeek Harness desktop client helper: locate, launch, install and update the native WebView2 client from the agent",
   "keywords": [
     "dsh-plugin",
     "deepseek-harness",
@@ -21,7 +21,7 @@
   },
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-16T06:19:19.920Z",
+  "last_publish": "2026-08-16T08:30:39.571Z",
   "created_at": "2026-08-16T06:13:53.184Z",
   "gh": null,
   "scores": {
@@ -33,5 +33,5 @@
     "overall": 41,
     "grade": "C"
   },
-  "updated_at": "2026-08-16T08:00:47.169Z"
+  "updated_at": "2026-08-16T09:28:22.039Z"
 }

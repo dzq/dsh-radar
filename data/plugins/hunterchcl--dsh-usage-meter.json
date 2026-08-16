@@ -1,0 +1,53 @@
+{
+  "slug": "hunterchcl--dsh-usage-meter",
+  "name": "@hunterchcl/dsh-usage-meter",
+  "version": "1.1.0",
+  "description": "DeepSeek Harness 余额/用量插件，用于显示官方API下的余额、充值入口，与本会话费用，悬停查看明细，价格表与峰谷定价可配置",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "usage",
+    "balance",
+    "pricing"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/HunterCHCL/dsh-usage-meter.git",
+  "homepage": "https://github.com/HunterCHCL/dsh-usage-meter#readme",
+  "npm": "https://www.npmjs.com/package/@hunterchcl/dsh-usage-meter",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-web-react",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-api-remotes"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T09:19:08.026Z",
+  "created_at": "2026-08-16T09:19:07.669Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T09:27:08.765Z"
+}

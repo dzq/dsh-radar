@@ -1,8 +1,8 @@
 {
   "slug": "dsh-win32",
   "name": "dsh-win32",
-  "version": "0.6.0",
-  "description": "First-class Windows for DeepSeek Harness: real persistent-bash Minimal mode (Git Bash PTY), a doctor for the known install traps, one-command setup | 让 DeepSeek Harness 在 Windows 上成为一等公民",
+  "version": "0.9.4",
+  "description": "DeepSeek Harness 的 Windows 插件：沙箱内唯一能跑的持久 shell、可用的极简模式、前台命令识别、旧编码读取与安装体检 | First-class Windows for DSH",
   "keywords": [
     "dsh",
     "dsh-plugin",
@@ -24,17 +24,24 @@
   },
   "weekly_downloads": 1535,
   "monthly_downloads": 1535,
-  "last_publish": "2026-08-15T14:39:48.564Z",
+  "last_publish": "2026-08-16T09:21:38.055Z",
   "created_at": "2026-08-15T08:45:58.080Z",
-  "gh": null,
+  "gh": {
+    "full_name": "sjh9714/dsh-win32",
+    "stars": 4,
+    "open_issues": 5,
+    "pushed_at": "2026-08-16T09:24:23Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 80,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 100,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 69,
-    "grade": "B"
+    "overall": 83,
+    "grade": "A"
   },
-  "updated_at": "2026-08-16T07:58:16.798Z"
+  "updated_at": "2026-08-16T09:24:32.222Z"
 }

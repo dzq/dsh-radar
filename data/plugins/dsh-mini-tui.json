@@ -1,7 +1,7 @@
 {
   "slug": "dsh-mini-tui",
   "name": "dsh-mini-tui",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "DSH Mini TUI: a minimalist terminal interface plugin for DeepSeek Harness",
   "keywords": [
     "dsh-tui",
@@ -13,8 +13,8 @@
     "ai-agent"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/boxeryao/deepseek-harness-tui.git",
-  "homepage": "https://github.com/boxeryao/deepseek-harness-tui#readme",
+  "repo": "git+https://github.com/boxeryao/dsh-mini-tui.git",
+  "homepage": "https://github.com/boxeryao/dsh-mini-tui#readme",
   "npm": "https://www.npmjs.com/package/dsh-mini-tui",
   "dsh_compat": true,
   "dsh_meta": {
@@ -27,17 +27,24 @@
   },
   "weekly_downloads": 145,
   "monthly_downloads": 145,
-  "last_publish": "2026-08-15T12:04:31.458Z",
+  "last_publish": "2026-08-16T07:42:42.779Z",
   "created_at": "2026-08-15T12:04:31.060Z",
-  "gh": null,
+  "gh": {
+    "full_name": "boxeryao/dsh-mini-tui",
+    "stars": 7,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:46:30Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 54,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 100,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 64,
-    "grade": "B"
+    "overall": 77,
+    "grade": "A"
   },
-  "updated_at": "2026-08-16T07:58:22.674Z"
+  "updated_at": "2026-08-16T09:24:45.412Z"
 }

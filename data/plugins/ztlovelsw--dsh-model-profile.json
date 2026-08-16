@@ -1,0 +1,56 @@
+{
+  "slug": "ztlovelsw--dsh-model-profile",
+  "name": "@ztlovelsw/dsh-model-profile",
+  "version": "0.2.0",
+  "description": "DSH Web GUI 模型能力配置：在「设置 → 模型」的模型目录编辑器内，为每个已配置的模型直接设置是否支持图像与思考等级（reasoning efforts），写入 llm-pi-ai 设置命名空间。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "dsh-web",
+    "model-profile",
+    "reasoning-efforts"
+  ],
+  "license": "BSD-3-Clause",
+  "repo": "git+https://github.com/ztlovelsw/dsh-model-profile.git",
+  "homepage": "https://github.com/ztlovelsw/dsh-model-profile#readme",
+  "npm": "https://www.npmjs.com/package/@ztlovelsw/dsh-model-profile",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T08:40:33.463Z",
+  "created_at": "2026-08-16T04:10:12.771Z",
+  "gh": {
+    "full_name": "ztlovelsw/dsh-model-profile",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T08:38:10Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 62,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T09:28:21.037Z"
+}

@@ -29,15 +29,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T04:46:43.351Z",
   "created_at": "2026-08-14T04:46:43.056Z",
-  "gh": null,
+  "gh": {
+    "full_name": "Clizo1209/dsh-playwright-browser",
+    "stars": 8,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T05:51:22Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 98,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 63,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T07:59:27.743Z"
+  "updated_at": "2026-08-16T09:25:59.935Z"
 }

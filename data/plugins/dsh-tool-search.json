@@ -29,15 +29,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T10:20:33.979Z",
   "created_at": "2026-08-14T09:32:32.429Z",
-  "gh": null,
+  "gh": {
+    "full_name": "Letter2025/dsh-tool-search",
+    "stars": 3,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T10:20:59Z",
+    "archived": false,
+    "license": null
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 98,
     "quality": 90,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 60,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T07:59:58.794Z"
+  "updated_at": "2026-08-16T09:26:37.396Z"
 }

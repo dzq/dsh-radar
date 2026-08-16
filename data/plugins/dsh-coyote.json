@@ -35,15 +35,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T23:25:07.637Z",
   "created_at": "2026-08-15T14:17:16.643Z",
-  "gh": null,
+  "gh": {
+    "full_name": "THEWOLFWALKER/dsh-coyote",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T03:34:52Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
-    "quality": 90,
+    "maintenance": 100,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 54,
-    "grade": "C"
+    "overall": 64,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:01:32.130Z"
+  "updated_at": "2026-08-16T09:29:13.056Z"
 }

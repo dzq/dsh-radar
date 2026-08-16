@@ -26,15 +26,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T23:47:24.020Z",
   "created_at": "2026-08-14T23:30:38.407Z",
-  "gh": null,
+  "gh": {
+    "full_name": "jeremy9682/dsh-skill-pack",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T23:47:07Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 99,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 60,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T07:59:27.128Z"
+  "updated_at": "2026-08-16T09:25:58.463Z"
 }

@@ -30,15 +30,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T12:44:14.318Z",
   "created_at": "2026-08-13T22:31:12.853Z",
-  "gh": null,
+  "gh": {
+    "full_name": "gnulife/dsh-plugin-wechat",
+    "stars": 3,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T02:53:02Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 99,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 59,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:00:05.160Z"
+  "updated_at": "2026-08-16T09:26:51.344Z"
 }

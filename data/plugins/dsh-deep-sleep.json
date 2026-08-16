@@ -30,15 +30,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T11:45:42.711Z",
   "created_at": "2026-08-15T11:45:42.513Z",
-  "gh": null,
+  "gh": {
+    "full_name": "peach0x33a/dsh-deep-sleep",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T11:45:23Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 99,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 60,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:00:34.466Z"
+  "updated_at": "2026-08-16T09:27:39.529Z"
 }

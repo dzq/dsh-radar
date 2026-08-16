@@ -34,15 +34,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T23:00:17.527Z",
   "created_at": "2026-08-13T21:59:28.326Z",
-  "gh": null,
+  "gh": {
+    "full_name": "PlutoKeating/dsh-lark-bot",
+    "stars": 16,
+    "open_issues": 2,
+    "pushed_at": "2026-08-16T09:16:02Z",
+    "archived": false,
+    "license": "AGPL-3.0"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
-    "quality": 90,
+    "maintenance": 100,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 53,
-    "grade": "C"
+    "overall": 63,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T07:58:35.187Z"
+  "updated_at": "2026-08-16T09:25:12.468Z"
 }

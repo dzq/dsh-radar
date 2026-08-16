@@ -1,0 +1,54 @@
+{
+  "slug": "dsh-notion-connector",
+  "name": "dsh-notion-connector",
+  "version": "0.1.1",
+  "description": "Notion connector for DeepSeek Harness: Integration Token config (~/.dsh/notion.json, 0600), agent tools (notion_search / notion_read_page / notion_query_database / notion_create_page / notion_update_page / notion_append_blocks), and a Web GUI settings pag",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "notion",
+    "knowledge-base",
+    "notes"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zhengjy01/dsh-notion-connector.git",
+  "homepage": "https://github.com/zhengjy01/dsh-notion-connector#readme",
+  "npm": "https://www.npmjs.com/package/dsh-notion-connector",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T08:51:37.313Z",
+  "created_at": "2026-08-16T08:32:13.609Z",
+  "gh": {
+    "full_name": "zhengjy01/dsh-notion-connector",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T08:51:30Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 59,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T09:27:45.294Z"
+}

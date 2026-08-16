@@ -32,15 +32,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-13T13:34:56.507Z",
   "created_at": "2026-08-13T13:23:13.683Z",
-  "gh": null,
+  "gh": {
+    "full_name": "btspoony/mstar-harness",
+    "stars": 46,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T08:14:52Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 80,
+    "maintenance": 99,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 51,
-    "grade": "C"
+    "overall": 61,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T07:59:51.823Z"
+  "updated_at": "2026-08-16T09:26:23.085Z"
 }

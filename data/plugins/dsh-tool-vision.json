@@ -1,7 +1,7 @@
 {
   "slug": "dsh-tool-vision",
   "name": "dsh-tool-vision",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "description": "DeepSeek Harness 外置视觉模型插件：inspect_image 把本地图片或 http(s) 图片 URL 发给任意 OpenAI 兼容端点，视觉模型看图的文字回答直接带回对话；附 Web UI 设置栏。",
   "keywords": [
     "dsh",
@@ -21,6 +21,9 @@
   "npm": "https://www.npmjs.com/package/dsh-tool-vision",
   "dsh_compat": true,
   "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
     "client": {
       "platform": "web"
     }
@@ -28,19 +31,26 @@
   "engines": {
     "node": ">=20.18"
   },
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
-  "last_publish": "2026-08-14T10:21:18.577Z",
+  "weekly_downloads": 355,
+  "monthly_downloads": 355,
+  "last_publish": "2026-08-16T08:13:59.765Z",
   "created_at": "2026-08-13T15:51:04.233Z",
-  "gh": null,
-  "scores": {
-    "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
-    "security": 50,
-    "dsh_compat": 65,
-    "overall": 50,
-    "grade": "C"
+  "gh": {
+    "full_name": "Scorp1o117/dsh-tool-vision",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T08:07:24Z",
+    "archived": false,
+    "license": "MIT"
   },
-  "updated_at": "2026-08-16T07:59:58.999Z"
+  "scores": {
+    "popularity": 64,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 80,
+    "grade": "A"
+  },
+  "updated_at": "2026-08-16T09:24:39.590Z"
 }

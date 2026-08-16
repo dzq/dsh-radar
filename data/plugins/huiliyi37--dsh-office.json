@@ -1,8 +1,8 @@
 {
   "slug": "huiliyi37--dsh-office",
   "name": "@huiliyi37/dsh-office",
-  "version": "0.1.7",
-  "description": "Office document tools (xlsx / pdf / pptx) for DeepSeek Harness: generate, read, and edit spreadsheets, PDFs, and presentations",
+  "version": "0.2.1",
+  "description": "Office document tools (xlsx / pdf / pptx / docx) for DeepSeek Harness: generate, read, and edit spreadsheets, PDFs, presentations, and Word documents",
   "keywords": [
     "dsh-plugin",
     "deepseek-harness",
@@ -25,17 +25,17 @@
   "engines": {},
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-15T05:29:14.857Z",
+  "last_publish": "2026-08-16T03:54:29.388Z",
   "created_at": "2026-08-14T13:03:13.932Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 60,
     "quality": 90,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
+    "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-16T08:01:18.060Z"
+  "updated_at": "2026-08-16T09:28:50.738Z"
 }

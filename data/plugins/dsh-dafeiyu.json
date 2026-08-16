@@ -15,14 +15,14 @@
   "npm": "https://www.npmjs.com/package/dsh-dafeiyu",
   "dsh_compat": true,
   "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
     "client": {
       "inject": [
         "@deepseek-ai/dsh-client-ui-settings-plugins"
       ],
       "platform": "web"
-    },
-    "bundle": {
-      "patch": "./cordis.patch.yml"
     }
   },
   "engines": {
@@ -32,15 +32,22 @@
   "monthly_downloads": 137,
   "last_publish": "2026-08-14T11:27:09.683Z",
   "created_at": "2026-08-14T11:27:08.569Z",
-  "gh": null,
+  "gh": {
+    "full_name": "QCYTSN/dsh-dafeiyu",
+    "stars": 41,
+    "open_issues": 4,
+    "pushed_at": "2026-08-16T05:09:46Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 53,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 100,
+    "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 67,
-    "grade": "B"
+    "overall": 70,
+    "grade": "A"
   },
-  "updated_at": "2026-08-16T07:58:23.088Z"
+  "updated_at": "2026-08-16T09:24:46.751Z"
 }

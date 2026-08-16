@@ -35,15 +35,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T06:39:27.634Z",
   "created_at": "2026-08-15T05:13:31.670Z",
-  "gh": null,
+  "gh": {
+    "full_name": "yuhangkang/dsh-ide-sidebar",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T06:48:46Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 99,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 63,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:01:04.490Z"
+  "updated_at": "2026-08-16T09:28:27.142Z"
 }

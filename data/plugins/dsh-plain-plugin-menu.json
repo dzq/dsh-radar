@@ -1,0 +1,58 @@
+{
+  "slug": "dsh-plain-plugin-menu",
+  "name": "dsh-plain-plugin-menu",
+  "version": "0.1.1",
+  "description": "A plain-language plugin catalog and profile manager for the DeepSeek Harness Web UI.",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "plugin-manager",
+    "plugin-menu"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/4mForAI/dsh-plain-plugin-menu.git",
+  "homepage": "https://github.com/4mForAI/dsh-plain-plugin-menu#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plain-plugin-menu",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T09:16:09.553Z",
+  "created_at": "2026-08-16T09:16:09.086Z",
+  "gh": {
+    "full_name": "4mForAI/dsh-plain-plugin-menu",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T09:06:30Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 65,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T09:25:24.172Z"
+}

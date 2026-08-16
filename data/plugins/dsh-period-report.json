@@ -1,0 +1,61 @@
+{
+  "slug": "dsh-period-report",
+  "name": "dsh-period-report",
+  "version": "0.2.1",
+  "description": "Free-interval session reports for DeepSeek Harness: AI-narrated daily/weekly/monthly digests over any date range, with every-N-days scheduled reminders that generate the report and pop a system notification (macOS Notification Center / Linux notify-send).",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "report",
+    "daily-report",
+    "digest",
+    "reminder",
+    "session",
+    "analytics"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zhengjy01/dsh-period-report.git",
+  "homepage": "https://github.com/zhengjy01/dsh-period-report#readme",
+  "npm": "https://www.npmjs.com/package/dsh-period-report",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T08:51:12.578Z",
+  "created_at": "2026-08-16T08:32:22.062Z",
+  "gh": {
+    "full_name": "zhengjy01/dsh-period-report",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T08:51:06Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 62,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T09:25:23.953Z"
+}

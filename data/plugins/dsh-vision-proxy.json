@@ -35,15 +35,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T14:43:48.072Z",
   "created_at": "2026-08-14T02:28:01.114Z",
-  "gh": null,
+  "gh": {
+    "full_name": "Flyvhidbwo/dsh-vision-proxy",
+    "stars": 9,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T14:52:31Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 99,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 85,
-    "overall": 54,
-    "grade": "C"
+    "overall": 64,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:00:22.426Z"
+  "updated_at": "2026-08-16T09:27:20.073Z"
 }

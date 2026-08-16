@@ -32,15 +32,22 @@
   "monthly_downloads": 1158,
   "last_publish": "2026-08-15T10:35:27.390Z",
   "created_at": "2026-08-15T03:08:42.234Z",
-  "gh": null,
+  "gh": {
+    "full_name": "eons2long/dsh-codex-oauth",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T10:35:24Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 77,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 99,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 85,
-    "overall": 71,
+    "overall": 81,
     "grade": "A"
   },
-  "updated_at": "2026-08-16T07:58:18.239Z"
+  "updated_at": "2026-08-16T09:24:35.522Z"
 }

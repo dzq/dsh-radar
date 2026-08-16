@@ -1,7 +1,7 @@
 {
   "slug": "dsh-llm-fallbacks",
   "name": "dsh-llm-fallbacks",
-  "version": "0.1.7",
+  "version": "0.2.0",
   "description": "Automatic provider/model fallback chains for DeepSeek Harness agents when LLM requests keep failing (retry exhausted, auth, quota, rate limit)",
   "keywords": [
     "dsh",
@@ -34,17 +34,24 @@
   },
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-16T00:13:18.869Z",
+  "last_publish": "2026-08-16T04:20:23.554Z",
   "created_at": "2026-08-13T16:29:42.722Z",
-  "gh": null,
+  "gh": {
+    "full_name": "omdsh-dev/dsh-llm-fallbacks",
+    "stars": 5,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T04:20:25Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
-    "quality": 70,
+    "maintenance": 100,
+    "quality": 80,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 60,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:01:20.755Z"
+  "updated_at": "2026-08-16T09:28:52.409Z"
 }

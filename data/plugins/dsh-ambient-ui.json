@@ -1,0 +1,62 @@
+{
+  "slug": "dsh-ambient-ui",
+  "name": "dsh-ambient-ui",
+  "version": "1.0.1",
+  "description": "Ambient UI for DeepSeek Harness Web: a glassmorphism balance/token floating widget plus a pixel-art agent-trail animation.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "plugin",
+    "glassmorphism",
+    "ui",
+    "agent"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Q04291/dsh-ambient-ui.git",
+  "homepage": "https://github.com/Q04291/dsh-ambient-ui#readme",
+  "npm": "https://www.npmjs.com/package/dsh-ambient-ui",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-settings-general"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T09:04:06.617Z",
+  "created_at": "2026-08-16T09:04:06.424Z",
+  "gh": {
+    "full_name": "Q04291/dsh-ambient-ui",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T08:45:54Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 64,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T09:26:22.290Z"
+}

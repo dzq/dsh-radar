@@ -1,7 +1,7 @@
 {
   "slug": "dshd--dsh-usage",
   "name": "@dshd/dsh-usage",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "DSH 用量面板：供应商 API 余额 · token 用量 · 缓存命中率 · 成本折线图 · GitHub 样式热力图（成本为估算值，USD/CNY 可切换）",
   "keywords": [
     "dsh-plugin",
@@ -31,17 +31,17 @@
   "engines": {},
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-15T17:04:28.014Z",
+  "last_publish": "2026-08-16T04:51:02.035Z",
   "created_at": "2026-08-15T13:04:47.070Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 60,
     "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 48,
+    "overall": 49,
     "grade": "C"
   },
-  "updated_at": "2026-08-16T07:58:42.235Z"
+  "updated_at": "2026-08-16T09:25:17.645Z"
 }
