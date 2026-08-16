@@ -37,6 +37,15 @@ const pastReports: any[] = [];
       <a href={`/reports/${currentReport.id}`} class="btn btn-primary" style="margin-top:16px;">阅读全文 →</a>
     </div>
 
+    {/* 日报入口 */}
+    <a href="/reports/daily" class="info-block" style="margin-top:16px;text-decoration:none;border-left:3px solid var(--link);">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">
+        <span style="font-size:13px;">📅 每日</span>
+      </div>
+      <h3 style="font-size:20px;color:var(--text);">日报</h3>
+      <p style="color:var(--text-dim);font-size:14px;margin-top:4px;">每日数据快照 · 新增/跌出插件 · 趋势变化</p>
+    </a>
+
     {/* 历史列表（占位） */}
     <h2 style="margin-top:48px;font-size:24px;">历史周报</h2>
     {pastReports.length === 0 ? (
