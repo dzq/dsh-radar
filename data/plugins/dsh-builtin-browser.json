@@ -1,0 +1,40 @@
+{
+  "slug": "dsh-builtin-browser",
+  "name": "dsh-builtin-browser",
+  "version": "0.1.15",
+  "description": "Shared real browser plugin for DeepSeek Harness: install-and-use — a visible native browser the human can take over, driven by the agent over CDP. DOM-level interaction (React/Vue safe), per-task session isolation, cookie persistence (browser_auth), CAPTC",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "browser",
+    "cdp"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/wqty123/dsh-browser.git",
+  "homepage": "https://github.com/wqty123/dsh-browser",
+  "npm": "https://www.npmjs.com/package/dsh-builtin-browser",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19"
+  },
+  "weekly_downloads": 1808,
+  "monthly_downloads": 1808,
+  "last_publish": "2026-08-15T21:48:30.045Z",
+  "created_at": "2026-08-14T19:01:44.811Z",
+  "gh": null,
+  "scores": {
+    "popularity": 81,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 74,
+    "grade": "A"
+  },
+  "updated_at": "2026-08-16T07:58:16.173Z"
+}

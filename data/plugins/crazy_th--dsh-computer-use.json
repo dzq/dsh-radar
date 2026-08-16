@@ -1,0 +1,49 @@
+{
+  "slug": "crazy_th--dsh-computer-use",
+  "name": "@crazy_th/dsh-computer-use",
+  "version": "0.2.1",
+  "description": "Native Windows Computer Use tools for DeepSeek Harness.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "computer-use",
+    "windows"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/ThreeBody6666/dsh-computer-use.git",
+  "homepage": "https://github.com/ThreeBody6666/dsh-computer-use#readme",
+  "npm": "https://www.npmjs.com/package/@crazy_th/dsh-computer-use",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-api-remotes"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 1148,
+  "monthly_downloads": 1148,
+  "last_publish": "2026-08-15T14:19:18.466Z",
+  "created_at": "2026-08-15T08:15:11.651Z",
+  "gh": null,
+  "scores": {
+    "popularity": 77,
+    "maintenance": 59,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 69,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:18.033Z"
+}

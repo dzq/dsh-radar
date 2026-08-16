@@ -1,0 +1,41 @@
+{
+  "slug": "dsh-meta-orchestrator",
+  "name": "dsh-meta-orchestrator",
+  "version": "0.2.0",
+  "description": "A model-native meta-agent plugin for DeepSeek Harness: the model synthesizes task-specific workflows at runtime from five agentic workflow patterns (prompt chaining, parallel workers, router, supervisor, evaluation loop) and coordinates tools and subagent",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "orchestration",
+    "multi-agent",
+    "agentic-workflow"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/jiruidai/dsh-meta-orchestrator.git",
+  "homepage": "https://github.com/jiruidai/dsh-meta-orchestrator#readme",
+  "npm": "https://www.npmjs.com/package/dsh-meta-orchestrator",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T07:02:02.419Z",
+  "created_at": "2026-08-14T07:02:02.233Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 40,
+    "dsh_compat": 75,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:55.417Z"
+}

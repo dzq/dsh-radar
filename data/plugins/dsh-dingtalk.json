@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-dingtalk",
+  "name": "dsh-dingtalk",
+  "version": "0.1.0",
+  "description": "钉钉群机器人单向通知工具（DeepSeek Harness 插件）：agent 推送 Markdown / 纯文本消息到钉钉群，支持加签安全模式。",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "dingtalk",
+    "dingtalk-robot",
+    "webhook"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/STARDUSTLC666/dsh-dingtalk.git",
+  "homepage": "https://github.com/STARDUSTLC666/dsh-dingtalk#readme",
+  "npm": "https://www.npmjs.com/package/dsh-dingtalk",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T22:50:11.368Z",
+  "created_at": "2026-08-13T22:50:11.179Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:40.912Z"
+}

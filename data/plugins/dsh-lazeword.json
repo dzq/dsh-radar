@@ -1,0 +1,68 @@
+{
+  "slug": "dsh-lazeword",
+  "name": "dsh-lazeword",
+  "version": "0.2.0",
+  "description": "躺着背单词 lazeword — cozy offline vocabulary & subject learning for DeepSeek Harness (dsh): 15,000 words (EDB math/science/geography, Oxford 5000, Chinese classics, engineers' words), FSRS-5 scheduling, Anki sync, word Gomoku & 3D racing games. Also runs stan",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "desktop",
+    "vocabulary",
+    "english",
+    "kids",
+    "education",
+    "flashcards",
+    "spaced-repetition",
+    "fsrs",
+    "anki",
+    "offline"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/xczhanjun/lazeword.git",
+  "homepage": "https://github.com/xczhanjun/lazeword#readme",
+  "npm": "https://www.npmjs.com/package/dsh-lazeword",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-primitives",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-api-remotes"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T06:20:47.251Z",
+  "created_at": "2026-08-16T06:20:46.910Z",
+  "gh": {
+    "full_name": "xczhanjun/lazeword",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T06:33:26Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 64,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:47.975Z"
+}

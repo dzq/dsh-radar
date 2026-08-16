@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-im-wecom",
+  "name": "dsh-im-wecom",
+  "version": "1.0.5",
+  "description": "企业微信 渠道适配器（dsh-im 插件家族）。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "wecom",
+    "wechat-work",
+    "im-bridge"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/shaobeichen/dsh-im-bridge.git",
+  "homepage": "https://github.com/shaobeichen/dsh-im-bridge",
+  "npm": "https://www.npmjs.com/package/dsh-im-wecom",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T09:08:03.770Z",
+  "created_at": "2026-08-15T06:05:03.186Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:51.463Z"
+}

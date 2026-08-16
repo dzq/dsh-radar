@@ -1,0 +1,41 @@
+{
+  "slug": "huanlin--dsh-plugin-anti-ads",
+  "name": "@huanlin/dsh-plugin-anti-ads",
+  "version": "0.2.0",
+  "description": "DSH ad-suppression plugin: writes dsh-ads's own settings key to all-false, broadcasts its retire event, scrubs its portal from the DOM, and short-circuits its dynamic-tier fetch. Four layers, all client-side, all removable from a settings page of its own.",
+  "keywords": [
+    "dsh-plugin"
+  ],
+  "license": "AGPL-3.0",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@huanlin/dsh-plugin-anti-ads",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T14:27:38.909Z",
+  "created_at": "2026-08-13T14:27:38.543Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:52.031Z"
+}

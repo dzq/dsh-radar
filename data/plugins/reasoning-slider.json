@@ -1,0 +1,42 @@
+{
+  "slug": "reasoning-slider",
+  "name": "reasoning-slider",
+  "version": "0.0.2",
+  "description": "Codex-style reasoning-effort slider embedded in the DSH model selector",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "reasoning",
+    "slider"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/qjcnmd/dsh-reasoning-slider.git",
+  "homepage": "https://github.com/qjcnmd/dsh-reasoning-slider#readme",
+  "npm": "https://www.npmjs.com/package/reasoning-slider",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T12:54:36.505Z",
+  "created_at": "2026-08-14T12:48:13.695Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:22.219Z"
+}

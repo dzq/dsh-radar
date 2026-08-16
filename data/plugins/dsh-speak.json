@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-speak",
+  "name": "dsh-speak",
+  "version": "1.3.0",
+  "description": "Make your AI harness speak — verified voice announcements for DSH and other AI coding harnesses (Windows SAPI5 + macOS system voices)",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "tts",
+    "text-to-speech",
+    "voice",
+    "speech",
+    "voice-announcement",
+    "sapi5",
+    "windows",
+    "powershell",
+    "macos",
+    "darwin",
+    "say"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Alan2Z/dsh-speak.git",
+  "homepage": "https://github.com/Alan2Z/dsh-speak#readme",
+  "npm": "https://www.npmjs.com/package/dsh-speak",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 315,
+  "monthly_downloads": 315,
+  "last_publish": "2026-08-15T16:17:43.052Z",
+  "created_at": "2026-08-14T19:35:28.838Z",
+  "gh": null,
+  "scores": {
+    "popularity": 62,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 68,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:19.881Z"
+}

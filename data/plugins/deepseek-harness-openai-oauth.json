@@ -1,0 +1,54 @@
+{
+  "slug": "deepseek-harness-openai-oauth",
+  "name": "deepseek-harness-openai-oauth",
+  "version": "0.3.1",
+  "description": "DeepSeek Harness LLM provider for Codex models using managed ChatGPT OAuth",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "codex",
+    "oauth"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/DGPisces/deepseek-harness-openai-oauth.git",
+  "homepage": "https://github.com/DGPisces/deepseek-harness-openai-oauth#readme",
+  "npm": "https://www.npmjs.com/package/deepseek-harness-openai-oauth",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T15:48:52.381Z",
+  "created_at": "2026-08-14T04:11:39.809Z",
+  "gh": {
+    "full_name": "DGPisces/dsh-openai-oauth",
+    "stars": 5,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T14:54:41Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 60,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:29.034Z"
+}

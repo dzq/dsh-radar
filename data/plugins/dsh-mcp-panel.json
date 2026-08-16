@@ -1,0 +1,54 @@
+{
+  "slug": "dsh-mcp-panel",
+  "name": "dsh-mcp-panel",
+  "version": "0.3.0",
+  "description": "Read-only runtime management panel for the official DeepSeek Harness MCP client: /mcp command, a Settings page MCP tab with connection status, recent errors, reconnect counts and tool inventory (sanitized for display), controlled enable/disable patch sugg",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "cordis",
+    "mcp",
+    "mcp-client",
+    "observability",
+    "panel"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/PerryLink/dsh-mcp-panel.git",
+  "homepage": "https://github.com/PerryLink/dsh-mcp-panel#readme",
+  "npm": "https://www.npmjs.com/package/dsh-mcp-panel",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T06:13:21.261Z",
+  "created_at": "2026-08-14T11:23:18.016Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:39.939Z"
+}

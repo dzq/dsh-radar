@@ -1,0 +1,37 @@
+{
+  "slug": "hyperionykx--primordial-soup-dsh",
+  "name": "@hyperionykx/primordial-soup-dsh",
+  "version": "0.1.0",
+  "description": "Collision-based memory for DeepSeek Harness: registers the soup-memory skill (cross-conversation association mechanism) as a runtime skill. User-invocable; scripts run via the session's own shell tool.",
+  "keywords": [
+    "dsh-plugin",
+    "memory",
+    "agent-memory",
+    "cross-conversation-memory",
+    "serendipity",
+    "llm-agents",
+    "primordial-soup"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/Hyperionjust/Primordial-soup-.git",
+  "homepage": "https://github.com/Hyperionjust/Primordial-soup-#readme",
+  "npm": "https://www.npmjs.com/package/@hyperionykx/primordial-soup-dsh",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T03:42:18.032Z",
+  "created_at": "2026-08-14T03:42:17.730Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 40,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:53.666Z"
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-searxng",
+  "name": "dsh-searxng",
+  "version": "0.1.0",
+  "description": "SearXNG-backed search provider for the DeepSeek Harness web capability seam (ctx.web)",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "searxng",
+    "search",
+    "metasearch",
+    "agent"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/rogerdigital/dsh-searxng.git",
+  "homepage": "https://github.com/rogerdigital/dsh-searxng#readme",
+  "npm": "https://www.npmjs.com/package/dsh-searxng",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T05:02:36.462Z",
+  "created_at": "2026-08-16T05:02:36.260Z",
+  "gh": {
+    "full_name": "rogerdigital/dsh-searxng",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T04:46:28Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:59:44.337Z"
+}

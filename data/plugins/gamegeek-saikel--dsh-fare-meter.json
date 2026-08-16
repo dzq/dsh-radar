@@ -1,0 +1,56 @@
+{
+  "slug": "gamegeek-saikel--dsh-fare-meter",
+  "name": "@gamegeek-saikel/dsh-fare-meter",
+  "version": "0.1.0",
+  "description": "Cost tracking plugin for the DeepSeek Harness Web GUI — snapshot-anchored per-turn pricing, account balance, and live cost estimates.",
+  "keywords": [
+    "deepseek",
+    "dsh",
+    "dsh-plugin",
+    "cost-tracking",
+    "pricing",
+    "token-meter",
+    "typescript",
+    "react",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Saikel-Orado-Liu/dsh-fare-meter.git",
+  "homepage": "https://github.com/Saikel-Orado-Liu/dsh-fare-meter#readme",
+  "npm": "https://www.npmjs.com/package/@gamegeek-saikel/dsh-fare-meter",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-primitives",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-token-meter"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T11:03:50.453Z",
+  "created_at": "2026-08-15T11:03:50.088Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:28.978Z"
+}

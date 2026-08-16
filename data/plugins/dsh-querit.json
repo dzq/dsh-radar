@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-querit",
+  "name": "dsh-querit",
+  "version": "1.0.0",
+  "description": "Querit-backed search and fetch providers for the DeepSeek Harness web capability seam (ctx.web)",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "querit",
+    "web-search",
+    "web-fetch"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/querit-ai/querit-plugins.git",
+  "homepage": "https://github.com/querit-ai/querit-plugins#readme",
+  "npm": "https://www.npmjs.com/package/dsh-querit",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T07:51:19.727Z",
+  "created_at": "2026-08-15T07:51:19.453Z",
+  "gh": {
+    "full_name": "querit-ai/querit-plugins",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T07:43:25Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:50.438Z"
+}

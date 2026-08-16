@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-plugin-notify-sound",
+  "name": "dsh-plugin-notify-sound",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness plugin: per-workspace task-completion ringtones plus attention sounds for approval / question / plan-review / goal-blocked / task-failure events (Web UI; built-in synth, voice (TTS), custom audio)",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "plugin",
+    "notification",
+    "sound",
+    "ringtone",
+    "tts",
+    "voice"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/ldchaowin/dsh-plugin-notify-sound.git",
+  "homepage": "https://github.com/ldchaowin/dsh-plugin-notify-sound#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-notify-sound",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T10:44:36.829Z",
+  "created_at": "2026-08-14T10:44:36.487Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:28.635Z"
+}

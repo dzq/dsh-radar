@@ -1,0 +1,67 @@
+{
+  "slug": "dsh-harmony",
+  "name": "dsh-harmony",
+  "version": "0.1.2",
+  "description": "A library for patching, replacing and decorating dsh plugin during runtime",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "deepseek-harness-plugin",
+    "dsh",
+    "dsh-plugin",
+    "harmony",
+    "plugin",
+    "plugin-development",
+    "runtime-patching",
+    "typescript-ast"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/CH4ACKO3/dsh-harmony.git",
+  "homepage": "https://github.com/CH4ACKO3/dsh-harmony#readme",
+  "npm": "https://www.npmjs.com/package/dsh-harmony",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "plugin": {
+      "schemaVersion": 1,
+      "displayName": {
+        "zh-CN": "Harmony",
+        "en": "Harmony"
+      },
+      "summary": {
+        "zh-CN": "在运行时补丁、替换和装饰 DSH 插件，并提供 Patch 排序、检查和热重载。",
+        "en": "Patch, replace, and decorate DSH plugins at runtime with Patch ordering, inspection, and hot reload."
+      },
+      "category": "plugin-development"
+    },
+    "bundle": {
+      "patch": "./harmony.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-settings-general"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.22.3 || >=24.11.1"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T12:41:52.777Z",
+  "created_at": "2026-08-14T21:40:45.927Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 90,
+    "overall": 55,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:59:10.529Z"
+}

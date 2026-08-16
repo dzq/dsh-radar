@@ -1,0 +1,60 @@
+{
+  "slug": "dsh-oh-my-theme",
+  "name": "dsh-oh-my-theme",
+  "version": "0.5.0",
+  "description": "Theme + file workspace plugin for DeepSeek Harness (dsh) web GUI: curated --dsw-alias-* skin palettes with live hover preview, @file mentions in the composer, a lazy-loading project file tree, and Markdown preview. 为 dsh 网页端定制的主题 + 文件工作台插件：精选皮肤与悬停预览、输入框 @",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "plugin",
+    "theme",
+    "skin",
+    "file-system",
+    "file-explorer",
+    "file-tree",
+    "at-mentions",
+    "markdown",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zhxqc/dsh-oh-my-theme.git",
+  "homepage": "https://github.com/zhxqc/dsh-oh-my-theme#readme",
+  "npm": "https://www.npmjs.com/package/dsh-oh-my-theme",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-client-ui-input-trigger",
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-connection"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T10:24:58.464Z",
+  "created_at": "2026-08-15T08:08:29.968Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:39.198Z"
+}

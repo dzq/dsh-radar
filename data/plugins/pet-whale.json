@@ -1,0 +1,46 @@
+{
+  "slug": "pet-whale",
+  "name": "pet-whale",
+  "version": "0.6.0",
+  "description": "桌宠小鲸鱼：随 agent 状态切换动画的 DeepSeek Harness Web 桌宠插件（官方轮廓版）",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "desktop-pet",
+    "whale",
+    "pet"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/nzl153/pet-whale.git",
+  "homepage": "https://nzl153.github.io/pet-whale/preview.html",
+  "npm": "https://www.npmjs.com/package/pet-whale",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T19:21:33.027Z",
+  "created_at": "2026-08-15T12:58:54.100Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 80,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:11.345Z"
+}

@@ -1,0 +1,66 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { loadJson } from '../lib/paths.mjs';
+
+const potholes = await loadJson('potholes.json');
+
+const sevColor: Record<string, string> = {
+  critical: 'var(--bad)',
+  high: 'var(--grade-C)',
+  medium: 'var(--warn)',
+  low: 'var(--text-dim)',
+};
+
+const sevLabel: Record<string, string> = {
+  critical: '🔴 严重',
+  high: '🟠 高',
+  medium: '🟡 中',
+  low: '⚪ 低',
+};
+---
+<Layout title="踩坑 Wiki — DSH Radar" active="potholes">
+  <section class="container section">
+    <h1 style="font-size:36px;margin-bottom:8px;">🚧 踩坑 Wiki</h1>
+    <p class="sub">聚合 GitHub Discussions / V2EX / linux.do 的踩坑贴 · 共 {potholes.length} 条</p>
+
+    <div class="lead">
+      别人踩过的坑，你别再踩。<br/>
+      按严重程度排序，每条都附<strong>症状 / 原因 / 修复方案 / 原文链接</strong>。
+    </div>
+
+    {potholes.map((p: any) => (
+      <div class="info-block" style={`border-left:3px solid ${sevColor[p.severity]};`}>
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">
+          <span style={`font-size:12px;color:${sevColor[p.severity]};font-weight:700;`}>{sevLabel[p.severity]}</span>
+          <span style="color:var(--text-mute);font-size:12px;">dsh@{p.dsh_version} · {p.submitted_at}</span>
+        </div>
+
+        <h3 style="font-size:20px;color:var(--text);margin-bottom:12px;">{p.title}</h3>
+
+        <div style="display:grid;gap:12px;margin-top:12px;">
+          <div>
+            <h4 style="font-size:12px;text-transform:uppercase;color:var(--text-mute);letter-spacing:0.5px;margin-bottom:4px;">症状</h4>
+            <p style="color:var(--text);font-size:14px;">{p.symptom}</p>
+          </div>
+          <div>
+            <h4 style="font-size:12px;text-transform:uppercase;color:var(--text-mute);letter-spacing:0.5px;margin-bottom:4px;">原因</h4>
+            <p style="color:var(--text-dim);font-size:14px;">{p.cause}</p>
+          </div>
+          <div>
+            <h4 style="font-size:12px;text-transform:uppercase;color:var(--good);letter-spacing:0.5px;margin-bottom:4px;">修复</h4>
+            <p style="color:var(--text);font-size:14px;">{p.fix}</p>
+          </div>
+        </div>
+
+        <p style="margin-top:16px;font-size:12px;color:var(--text-mute);">
+          原文：<a href={p.source} target="_blank" rel="noopener">{p.source}</a>
+        </p>
+      </div>
+    ))}
+
+    <div class="empty" style="margin-top:48px;">
+      <h3 style="color:var(--text);margin-bottom:8px;">踩了新坑？</h3>
+      <p>编辑 <code>data/potholes.json</code> 提交 PR，把你的痛苦分享给社区 🙏</p>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,49 @@
+{
+  "slug": "suhan-dsh--taskboard",
+  "name": "@suhan-dsh/taskboard",
+  "version": "0.1.2",
+  "description": "DSH Web taskboard plugin with workspace-scoped Agent sessions, staged human review, delivery confirmation, and durable archival",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "taskboard",
+    "workflow",
+    "project-management",
+    "agent",
+    "review"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/ElonYsuhan/suhan-dsh-forge.git",
+  "homepage": "https://github.com/ElonYsuhan/suhan-dsh-forge#readme",
+  "npm": "https://www.npmjs.com/package/@suhan-dsh/taskboard",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T14:43:06.205Z",
+  "created_at": "2026-08-15T12:17:52.801Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:32.706Z"
+}

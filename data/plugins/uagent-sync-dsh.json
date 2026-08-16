@@ -1,0 +1,40 @@
+{
+  "slug": "uagent-sync-dsh",
+  "name": "uagent-sync-dsh",
+  "version": "2.0.3",
+  "description": "U同步 / Uagent Sync — cross-device workspace sync for DeepSeek Harness: backup, restore, and ecosystem update via the uagent-sync CLI.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "sync",
+    "backup",
+    "restore",
+    "workspace"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/severin-ye/uagent-sync.git",
+  "homepage": "https://github.com/severin-ye/uagent-sync#readme",
+  "npm": "https://www.npmjs.com/package/uagent-sync-dsh",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T13:28:51.625Z",
+  "created_at": "2026-08-14T13:07:45.549Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:20.958Z"
+}

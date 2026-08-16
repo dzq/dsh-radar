@@ -1,0 +1,43 @@
+{
+  "slug": "dsh-plugin-claude-bridge",
+  "name": "dsh-plugin-claude-bridge",
+  "version": "0.1.1",
+  "description": "Bridge Claude Code's memory, skills, and configuration into DeepSeek Harness — zero migration, full compatibility",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "claude-code",
+    "memory",
+    "skills",
+    "migration",
+    "bridge"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/YYTbit/dsh-plugin-claude-bridge.git",
+  "homepage": "https://github.com/YYTbit/dsh-plugin-claude-bridge#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-claude-bridge",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T09:29:47.745Z",
+  "created_at": "2026-08-13T14:37:40.111Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:56.124Z"
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-fail-logger",
+  "name": "dsh-fail-logger",
+  "version": "0.5.1",
+  "description": "DSH 插件：全模式工具失败自动实录——把原生工具、PTC(Code Mode) run_code、代码内嵌工具调用的失败按错因去重计数，自动写入 skill 的机器维护区段，越用越少错。Auto-record tool failures from every execution mode into a skill's machine-maintained section (dedup + counts).",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "code-mode",
+    "ptc",
+    "fail-logger",
+    "tool-error",
+    "skill"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Areium/dsh-fail-logger.git",
+  "homepage": "https://github.com/Areium/dsh-fail-logger#readme",
+  "npm": "https://www.npmjs.com/package/dsh-fail-logger",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T22:01:26.637Z",
+  "created_at": "2026-08-13T21:01:43.446Z",
+  "gh": {
+    "full_name": "Areium/dsh-fail-logger",
+    "stars": 8,
+    "open_issues": 1,
+    "pushed_at": "2026-08-14T21:52:53Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 40,
+    "dsh_compat": 75,
+    "overall": 61,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:29.239Z"
+}

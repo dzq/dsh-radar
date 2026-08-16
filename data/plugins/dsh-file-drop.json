@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-file-drop",
+  "name": "dsh-file-drop",
+  "version": "0.1.0",
+  "description": "文件拖拽：把文件拖到 DSH 窗口，真实路径瞬间写入输入框（本地透明窗截获，零内容传输）",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "drag-drop",
+    "file-path"
+  ],
+  "license": "BSD-3-Clause",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-file-drop",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T06:15:18.109Z",
+  "created_at": "2026-08-16T06:15:17.872Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:48.601Z"
+}

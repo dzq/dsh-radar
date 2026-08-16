@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-composer-expand",
+  "name": "dsh-composer-expand",
+  "version": "0.1.1",
+  "description": "Composer expand toggle for DeepSeek Harness: a ⬆/⬇ button in the composer tool row toggles the input between the default capped height and a tall 70vh writing view, so long drafts stay readable.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "composer",
+    "expand",
+    "textarea",
+    "resize"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/13071301808/dsh-composer-expand.git",
+  "homepage": "https://github.com/13071301808/dsh-composer-expand#readme",
+  "npm": "https://www.npmjs.com/package/dsh-composer-expand",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T07:20:14.981Z",
+  "created_at": "2026-08-15T07:18:24.703Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:29.453Z"
+}

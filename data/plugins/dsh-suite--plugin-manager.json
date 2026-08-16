@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-suite--plugin-manager",
+  "name": "@dsh-suite/plugin-manager",
+  "version": "0.8.0",
+  "description": "DSH Web UI 插件应用商店：目录浏览/搜索/一键安装/兼容徽章/已装列表。A plugin store for DSH Web UI — catalog browse, search, one-click install, compat badges, installed list.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "plugin-manager",
+    "plugin-store",
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/whyihaveyou/dsh-suite.git",
+  "homepage": "https://github.com/whyihaveyou/dsh-suite#readme",
+  "npm": "https://www.npmjs.com/package/@dsh-suite/plugin-manager",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T15:50:03.263Z",
+  "created_at": "2026-08-14T08:26:48.574Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:11.142Z"
+}

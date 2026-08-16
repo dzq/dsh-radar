@@ -1,0 +1,57 @@
+{
+  "slug": "dsh-lan-gate",
+  "name": "dsh-lan-gate",
+  "version": "0.1.2",
+  "description": "Password + CIDR gate for DeepSeek Harness web / DeepSeek Harness 局域网密码门禁",
+  "keywords": [
+    "deepseek",
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "plugin",
+    "lan",
+    "homelab",
+    "self-hosted",
+    "authentication",
+    "password",
+    "cidr",
+    "ai-agent",
+    "web-ui",
+    "i18n"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/maxesisnclaw/dsh-lan-gate.git",
+  "homepage": "https://github.com/maxesisnclaw/dsh-lan-gate#readme",
+  "npm": "https://www.npmjs.com/package/dsh-lan-gate",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T11:41:42.230Z",
+  "created_at": "2026-08-15T11:16:00.358Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:00.938Z"
+}

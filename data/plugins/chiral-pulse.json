@@ -1,0 +1,50 @@
+{
+  "slug": "chiral-pulse",
+  "name": "chiral-pulse",
+  "version": "1.2.7",
+  "description": "CHIRAL PULSE - a Death Stranding-styled BB pod vital-signs monitor for the DeepSeek Harness web UI: the session's heartbeat waveform is the hero, and the pulse reacts to real agent activity.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "death-stranding",
+    "bb-pod",
+    "heartbeat",
+    "ecg",
+    "ui-plugin"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/chiral-pulse",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T23:17:25.805Z",
+  "created_at": "2026-08-14T04:17:59.175Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:54.278Z"
+}

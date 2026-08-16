@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-llm-failover",
+  "name": "dsh-llm-failover",
+  "version": "0.3.0",
+  "description": "Provider failover for DeepSeek Harness: on rate-limit (429) or quota exhaustion, automatically switch between providers with configurable per-provider models, fall back to the last one (e.g. DeepSeek official), and show a visible notice in the UI.",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "llm",
+    "failover",
+    "rate-limit",
+    "429"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/HB00/dsh-llm-failover.git",
+  "homepage": "https://github.com/HB00/dsh-llm-failover",
+  "npm": "https://www.npmjs.com/package/dsh-llm-failover",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T17:37:38.179Z",
+  "created_at": "2026-08-15T17:37:37.968Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:05.725Z"
+}

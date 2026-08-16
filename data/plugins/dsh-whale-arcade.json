@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-whale-arcade",
+  "name": "dsh-whale-arcade",
+  "version": "0.1.0",
+  "description": "Community-maintained floating whale arcade for DeepSeek Harness with four browser-local games",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "whale",
+    "arcade",
+    "browser-game",
+    "gomoku"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/jitengfei/dsh-whale-arcade.git",
+  "homepage": "https://github.com/jitengfei/dsh-whale-arcade#readme",
+  "npm": "https://www.npmjs.com/package/dsh-whale-arcade",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0",
+    "pnpm": ">=11.7.0 <12"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T07:30:48.607Z",
+  "created_at": "2026-08-15T07:30:48.309Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:26.331Z"
+}

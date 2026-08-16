@@ -1,0 +1,44 @@
+{
+  "slug": "proactive-agent--dsh-proactive-ui",
+  "name": "@proactive-agent/dsh-proactive-ui",
+  "version": "0.5.0",
+  "description": "ProactiveAgent 客户端 UI：turnTail 记忆状态卡片（S2b 最小原型）",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "proactive-agent",
+    "memory"
+  ],
+  "license": "",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@proactive-agent/dsh-proactive-ui",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T02:32:29.839Z",
+  "created_at": "2026-08-16T02:32:29.411Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 40,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:31.681Z"
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "ohtokaah-sys--dsh-modes",
+  "name": "@ohtokaah-sys/dsh-modes",
+  "version": "0.1.1",
+  "description": "协作模式 systemPrompt 插件：注入第十人/镜子/参谋/翻译/翻牌五种协作模式（迁移自 Hermes），可逆。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "prompt",
+    "collaboration",
+    "red-team",
+    "modes"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@ohtokaah-sys/dsh-modes",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T02:16:33.790Z",
+  "created_at": "2026-08-14T02:11:33.268Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 38,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-16T08:01:16.820Z"
+}

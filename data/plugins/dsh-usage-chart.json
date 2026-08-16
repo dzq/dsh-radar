@@ -1,0 +1,57 @@
+{
+  "slug": "dsh-usage-chart",
+  "name": "dsh-usage-chart",
+  "version": "1.0.0",
+  "description": "DeepSeek 用量 / 成本 / 余额仪表盘 for DSH Web：输入框下方实时指标指示器 + 零依赖 SVG 用量可视化图表（含每轮成本视角、耗时叠加、异常标记、成本徽章、上下文压力条），token 数据来自官方 adapter 上报，成本按官方刊例价 + 用户覆盖 pricing.json 解析，余额来自官方 /user/balance 接口。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "plugin",
+    "usage",
+    "tokens",
+    "cost",
+    "balance",
+    "dashboard",
+    "charts",
+    "visualization"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Max-Samson/dsh-usage-chart.git",
+  "homepage": "https://github.com/Max-Samson/dsh-usage-chart#readme",
+  "npm": "https://www.npmjs.com/package/dsh-usage-chart",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T07:49:32.345Z",
+  "created_at": "2026-08-14T10:04:33.751Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:09.822Z"
+}

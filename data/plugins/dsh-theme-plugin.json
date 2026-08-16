@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-theme-plugin",
+  "name": "dsh-theme-plugin",
+  "version": "0.3.3",
+  "description": "中国传统色 DeepSeek Harness 主题包 · Chinese traditional color themes for DeepSeek Harness",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "theme",
+    "design-tokens",
+    "chinese-traditional-colors",
+    "wcag"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/nevertoday/dsh-theme-plugin.git",
+  "homepage": "https://github.com/nevertoday/dsh-theme-plugin#readme",
+  "npm": "https://www.npmjs.com/package/dsh-theme-plugin",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "immediately": true
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T11:41:11.275Z",
+  "created_at": "2026-08-14T13:38:58.232Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:11.877Z"
+}

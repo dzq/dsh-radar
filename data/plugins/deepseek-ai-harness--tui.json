@@ -1,0 +1,42 @@
+{
+  "slug": "deepseek-ai-harness--tui",
+  "name": "@deepseek-ai-harness/tui",
+  "version": "0.0.1-beta",
+  "description": "DeepSeek Build (dsh-tui) — grok-build style terminal UI for the deepseek-harness agent runtime; standalone CLI or dsh profile bundle",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "tui",
+    "agent",
+    "deepseek-harness",
+    "dsh-plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/openma-ai/deepseek-harness-tui.git",
+  "homepage": "https://github.com/openma-ai/deepseek-harness-tui#readme",
+  "npm": "https://www.npmjs.com/package/@deepseek-ai-harness/tui",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T17:33:10.209Z",
+  "created_at": "2026-08-13T17:33:09.902Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:18.932Z"
+}

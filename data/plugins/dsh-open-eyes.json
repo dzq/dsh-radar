@@ -1,0 +1,59 @@
+{
+  "slug": "dsh-open-eyes",
+  "name": "dsh-open-eyes",
+  "version": "0.1.0",
+  "description": "A lightweight DeepSeek Harness vision delegation tool for text-only routes, with native OpenAI Responses, Chat Completions, and Anthropic Messages adapters.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "vision",
+    "multimodal",
+    "tool-plugin",
+    "openai-responses",
+    "openai",
+    "anthropic",
+    "typescript"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Hyp6666/dsh-open-eyes.git",
+  "homepage": "https://github.com/Hyp6666/dsh-open-eyes#readme",
+  "npm": "https://www.npmjs.com/package/dsh-open-eyes",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T07:55:12.658Z",
+  "created_at": "2026-08-15T07:55:12.321Z",
+  "gh": {
+    "full_name": "Hyp6666/dsh-open-eyes",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T13:20:06Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 95,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:50.643Z"
+}

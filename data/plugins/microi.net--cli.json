@@ -1,0 +1,72 @@
+{
+  "slug": "microi.net--cli",
+  "name": "@microi.net/cli",
+  "version": "5.0.7",
+  "description": "Microi吾码 AI 开发 CLI 与多宿主 Plugin：服务器连接、Skills、MCP、V8 同步和低代码交付",
+  "keywords": [
+    "microi",
+    "吾码",
+    "cli",
+    "codex-plugin",
+    "workbuddy-plugin",
+    "codebuddy-plugin",
+    "deepseek-harness-plugin",
+    "dsh-plugin",
+    "qoder",
+    "comate",
+    "mcp",
+    "mcp-server",
+    "skills",
+    "codex",
+    "chatgpt",
+    "low-code",
+    "lowcode",
+    "low-code-platform",
+    "低代码",
+    "低代码平台",
+    "低代码开发平台",
+    "ai",
+    "artificial-intelligence",
+    "ai-coding",
+    "ai-development",
+    "ai-agent",
+    "agentic-ai",
+    "ai-low-code",
+    "AI编程",
+    "AI开发",
+    "AI低代码",
+    "人工智能",
+    "AI智能体",
+    "智能开发",
+    "v8",
+    "v8-engine"
+  ],
+  "license": "MIT",
+  "repo": "https://git.itdos.net:88/anderson/microi.vscode.git",
+  "homepage": "https://microi.net/doc/v8-engine/vs-code-plugin.html",
+  "npm": "https://www.npmjs.com/package/@microi.net/cli",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "weekly_downloads": 1966,
+  "monthly_downloads": 1966,
+  "last_publish": "2026-08-15T12:49:32.629Z",
+  "created_at": "2026-08-03T07:15:52.704Z",
+  "gh": null,
+  "scores": {
+    "popularity": 82,
+    "maintenance": 59,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 68,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:16.181Z"
+}

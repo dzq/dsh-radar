@@ -1,0 +1,57 @@
+{
+  "slug": "gamegeek-saikel--dsh-archive-manager",
+  "name": "@gamegeek-saikel/dsh-archive-manager",
+  "version": "0.1.1",
+  "description": "Archived-session management plugin for the DSH Web GUI — show archived, unarchive, and permanently delete sessions with zero changes to official packages.",
+  "keywords": [
+    "deepseek",
+    "dsh",
+    "dsh-plugin",
+    "archive",
+    "session-management",
+    "cordis",
+    "typert",
+    "workspace",
+    "nodejs",
+    "esm"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Saikel-Orado-Liu/dsh-archive-manager.git",
+  "homepage": "https://github.com/Saikel-Orado-Liu/dsh-archive-manager#readme",
+  "npm": "https://www.npmjs.com/package/@gamegeek-saikel/dsh-archive-manager",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-typert-registry",
+        "@deepseek-ai/dsh-client-connection"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T14:26:17.117Z",
+  "created_at": "2026-08-15T11:46:55.207Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:02.284Z"
+}

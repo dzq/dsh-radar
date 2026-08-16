@@ -1,0 +1,52 @@
+{
+  "slug": "nanmicoder--dsh-agent-teams",
+  "name": "@nanmicoder/dsh-agent-teams",
+  "version": "0.1.5",
+  "description": "AgentTeams for DeepSeek Harness: multi-agent team collaboration (captain, members, tasks with dependencies, messaging) driven by natural language, with a tree monitor in the web GUI",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent-teams",
+    "multi-agent",
+    "subagent",
+    "ai-agent",
+    "llm"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/NanmiCoder/dsh-agent-teams.git",
+  "homepage": "https://github.com/NanmiCoder/dsh-agent-teams#readme",
+  "npm": "https://www.npmjs.com/package/@nanmicoder/dsh-agent-teams",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T15:05:44.705Z",
+  "created_at": "2026-08-14T10:27:18.824Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:43.168Z"
+}

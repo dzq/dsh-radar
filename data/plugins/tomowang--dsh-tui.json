@@ -1,0 +1,40 @@
+{
+  "slug": "tomowang--dsh-tui",
+  "name": "@tomowang/dsh-tui",
+  "version": "0.2.1",
+  "description": "Terminal front door for DeepSeek Harness (dsh): an out-of-tree TUI mode bundle over dsh-base",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "tui",
+    "agent"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/tomowang/dsh-tui.git",
+  "homepage": "https://github.com/tomowang/dsh-tui#readme",
+  "npm": "https://www.npmjs.com/package/@tomowang/dsh-tui",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T17:02:58.946Z",
+  "created_at": "2026-08-15T11:02:11.785Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:37.551Z"
+}

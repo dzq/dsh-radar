@@ -1,0 +1,56 @@
+{
+  "slug": "dsh-auto-approve",
+  "name": "dsh-auto-approve",
+  "version": "0.4.2",
+  "description": "为 DeepSeek Harness 增加介于 Workspace Write 与 Full access 之间的自动批准权限档：例行沙箱升级由分类模型一次性放行，危险或不确定的操作仍转人工审批。An auto-approval permission preset for DeepSeek Harness between workspace-write and full access: routine sandbox escalations are granted once by a classifier",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "permissions",
+    "permission-preset",
+    "approval",
+    "auto-approve",
+    "sandbox",
+    "escalation",
+    "security",
+    "自动批准",
+    "权限预设",
+    "沙箱",
+    "审批",
+    "安全"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Jiao-XXX/dsh-auto-approve.git",
+  "homepage": "https://github.com/Jiao-XXX/dsh-auto-approve#readme",
+  "npm": "https://www.npmjs.com/package/dsh-auto-approve",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T03:41:07.415Z",
+  "created_at": "2026-08-15T03:28:56.030Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 65,
+    "dsh_compat": 80,
+    "overall": 56,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:25.095Z"
+}

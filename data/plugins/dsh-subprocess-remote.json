@@ -1,0 +1,34 @@
+{
+  "slug": "dsh-subprocess-remote",
+  "name": "dsh-subprocess-remote",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness ctx.subprocess provider backed by the remote-sandbox sidecar: managed process trees with real signals, bounded output, tree-scoped termination, and backend-native terminals.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "subprocess",
+    "sandbox"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-subprocess-remote",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T01:58:20.923Z",
+  "created_at": "2026-08-14T01:58:20.529Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 55,
+    "security": 65,
+    "dsh_compat": 30,
+    "overall": 39,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-16T08:00:19.146Z"
+}

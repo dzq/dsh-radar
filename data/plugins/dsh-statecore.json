@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-statecore",
+  "name": "dsh-statecore",
+  "version": "0.1.0",
+  "description": "Native memory for DeepSeek Harness — auditable facts with evidence chains, powered by StateCore",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "mcp",
+    "memory",
+    "agent-memory",
+    "provenance",
+    "audit",
+    "statecore"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/yul761/dsh-statecore.git",
+  "homepage": "https://github.com/yul761/dsh-statecore#readme",
+  "npm": "https://www.npmjs.com/package/dsh-statecore",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./statecore.cordis.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T21:49:21.517Z",
+  "created_at": "2026-08-15T21:49:21.230Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 65,
+    "dsh_compat": 75,
+    "overall": 55,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:07.613Z"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-session-status-alert",
+  "name": "dsh-session-status-alert",
+  "version": "0.2.0",
+  "description": "DSH web plugin: cross-workspace session status alerts — floating capsule toasts (aligned with the composer) above the current workspace when any session completes or enters a pending interaction (approval / ask_user_question / plan-review). Inline approva",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "plugin",
+    "web",
+    "toast",
+    "notification",
+    "approval",
+    "session"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-session-status-alert",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "timer"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T20:35:49.320Z",
+  "created_at": "2026-08-15T18:15:23.742Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:31.906Z"
+}

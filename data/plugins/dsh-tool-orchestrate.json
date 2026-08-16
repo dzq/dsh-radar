@@ -1,0 +1,43 @@
+{
+  "slug": "dsh-tool-orchestrate",
+  "name": "dsh-tool-orchestrate",
+  "version": "0.1.0",
+  "description": "Declarative task-DAG orchestration plugin for DeepSeek Harness workflows",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "orchestration",
+    "workflow",
+    "dag",
+    "subagent"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/apheli0os/deepseek-harness-orchestrate.git",
+  "homepage": "https://github.com/apheli0os/deepseek-harness-orchestrate#readme",
+  "npm": "https://www.npmjs.com/package/dsh-tool-orchestrate",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T11:37:05.480Z",
+  "created_at": "2026-08-15T11:37:05.161Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:34.056Z"
+}

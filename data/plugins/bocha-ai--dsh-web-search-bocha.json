@@ -1,0 +1,40 @@
+{
+  "slug": "bocha-ai--dsh-web-search-bocha",
+  "name": "@bocha-ai/dsh-web-search-bocha",
+  "version": "0.1.0",
+  "description": "Bocha-backed WebSearchProvider and installable profile bundle for DeepSeek Harness",
+  "keywords": [
+    "bocha",
+    "deepseek-harness",
+    "dsh-plugin",
+    "web-search"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/bocha-ai/dsh-web-search-bocha.git",
+  "homepage": "https://github.com/bocha-ai/dsh-web-search-bocha#readme",
+  "npm": "https://www.npmjs.com/package/@bocha-ai/dsh-web-search-bocha",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T07:37:46.379Z",
+  "created_at": "2026-08-14T07:37:46.106Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:28.565Z"
+}

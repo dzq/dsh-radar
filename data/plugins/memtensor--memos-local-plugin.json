@@ -1,0 +1,45 @@
+{
+  "slug": "memtensor--memos-local-plugin",
+  "name": "@memtensor/memos-local-plugin",
+  "version": "2.0.16",
+  "description": "Reflect2Evolve memory plugin: layered L1/L2/L3 memory, reflection-weighted value backprop, cross-task policy induction, skill crystallization, and three-tier retrieval for OpenClaw, Hermes Agent, and DeepSeek Harness.",
+  "keywords": [
+    "memory",
+    "agent",
+    "reflect2evolve",
+    "self-evolution",
+    "skill-crystallization",
+    "openclaw",
+    "hermes",
+    "deepseek-harness",
+    "dsh-plugin"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@memtensor/memos-local-plugin",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./adapters/deepseek-harness/cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "weekly_downloads": 907,
+  "monthly_downloads": 4210,
+  "last_publish": "2026-08-16T05:42:46.087Z",
+  "created_at": "2026-04-27T11:33:26.672Z",
+  "gh": null,
+  "scores": {
+    "popularity": 74,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 40,
+    "dsh_compat": 75,
+    "overall": 70,
+    "grade": "A"
+  },
+  "updated_at": "2026-08-16T07:58:11.619Z"
+}

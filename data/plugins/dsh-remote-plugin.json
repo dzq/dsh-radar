@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-remote-plugin",
+  "name": "dsh-remote-plugin",
+  "version": "0.4.8",
+  "description": "DSH Remote 官方 bundle 插件：DSH 左侧原生边栏入口 + 右侧抽屉内嵌管理控制台；内置网关随 DSH 自动启停(systemd 独立单元)，抽屉直显令牌与设备监控；网关提供 /fs/* 文件传输端点(列表/断点下载/上传)，配合 Android App 远程操控会话/审批/提问/goal 与文件互传(多服务器测速切换、聊天记录离线缓存)。",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "bundle",
+    "remote-control",
+    "mobile"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Blank-not-black/dsh-Remote.git",
+  "homepage": "https://github.com/Blank-not-black/dsh-Remote",
+  "npm": "https://www.npmjs.com/package/dsh-remote-plugin",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 389,
+  "monthly_downloads": 389,
+  "last_publish": "2026-08-15T16:28:05.792Z",
+  "created_at": "2026-08-15T14:03:41.429Z",
+  "gh": null,
+  "scores": {
+    "popularity": 65,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 68,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:19.472Z"
+}

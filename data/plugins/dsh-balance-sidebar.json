@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-balance-sidebar",
+  "name": "dsh-balance-sidebar",
+  "version": "0.1.0",
+  "description": "DeepSeek API 余额实时显示插件：侧边栏余额行（设置上方）+ 设置→插件 明细卡片，25 秒自动刷新，复用 Harness 已配置的凭据",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "deepseek-harness",
+    "balance",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/cwen63970-coder/dsh-balance.git",
+  "homepage": "https://github.com/cwen63970-coder/dsh-balance#readme",
+  "npm": "https://www.npmjs.com/package/dsh-balance-sidebar",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "slots"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T14:48:15.409Z",
+  "created_at": "2026-08-15T14:48:15.204Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:35.903Z"
+}

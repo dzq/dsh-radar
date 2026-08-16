@@ -1,0 +1,46 @@
+{
+  "slug": "mstar-harness--dsh",
+  "name": "@mstar-harness/dsh",
+  "version": "2.2.0",
+  "description": "Morning Star harness dsh (DeepSeek Harness) cordis function plugin — in-process engine gates (status/dispatch/lease) with hard refusal channels.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/btspoony/mstar-harness.git",
+  "homepage": "https://github.com/btspoony/mstar-harness#readme",
+  "npm": "https://www.npmjs.com/package/@mstar-harness/dsh",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./bundle/cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "bun": ">=1.2.17"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T13:34:56.507Z",
+  "created_at": "2026-08-13T13:23:13.683Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 80,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:51.823Z"
+}

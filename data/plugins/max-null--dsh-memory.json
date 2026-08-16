@@ -1,0 +1,42 @@
+{
+  "slug": "max-null--dsh-memory",
+  "name": "@max-null/dsh-memory",
+  "version": "0.2.0",
+  "description": "Cross-session plaintext memory plugin for the DeepSeek Harness — deterministic BM25 recall, human-owned, no embeddings",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "memory",
+    "plugin",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Max-Null/dsh-memory.git",
+  "homepage": "https://github.com/Max-Null/dsh-memory#readme",
+  "npm": "https://www.npmjs.com/package/@max-null/dsh-memory",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T16:09:08.311Z",
+  "created_at": "2026-08-15T07:31:55.453Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:34.671Z"
+}

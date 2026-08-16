@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-lark-link",
+  "name": "dsh-lark-link",
+  "version": "0.3.0",
+  "description": "High-reliability Feishu/Lark bridge for DeepSeek Harness — QR one-click auth, multi-mode agents, card-based commands, zero-loss outbox, media in/out, session logs, reusable DSH Web GUI",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness",
+    "feishu",
+    "lark",
+    "bridge",
+    "bot"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-lark-link",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T21:59:15.638Z",
+  "created_at": "2026-08-13T18:36:11.201Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 55,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:01:12.289Z"
+}

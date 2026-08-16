@@ -1,0 +1,180 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { loadJson } from '../lib/paths.mjs';
+import { readdir, readFile } from 'node:fs/promises';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const HISTORY_DIR = join(__dirname, '..', '..', 'data', 'history');
+
+const stats = await loadJson('stats.json');
+
+// 加载所有历史快照
+async function loadHistory() {
+  try {
+    const files = (await readdir(HISTORY_DIR))
+      .filter((f) => f.endsWith('.json'))
+      .sort();
+    const snapshots = [];
+    for (const f of files) {
+      const data = JSON.parse(await readFile(join(HISTORY_DIR, f), 'utf8'));
+      snapshots.push({
+        file: f,
+        date: f.replace(/\.json$/, ''),
+        ...data,
+      });
+    }
+    return snapshots;
+  } catch (e) {
+    return [];
+  }
+}
+
+const history = await loadHistory();
+const hasEnoughData = history.length >= 2;
+
+// SVG 折线图：插件总数 + S+A 级插件数 + 周下载
+function lineChartData(history: any[]) {
+  if (history.length === 0) return null;
+  const w = 720, h = 240, pad = 40;
+  const maxTotal = Math.max(...history.map((s) => s.stats.total));
+  const minTotal = Math.min(...history.map((s) => s.stats.total));
+  const range = Math.max(maxTotal - minTotal, 1);
+
+  function y(val: number) {
+    return h - pad - ((val - minTotal) / range) * (h - 2 * pad);
+  }
+  function x(i: number) {
+    if (history.length === 1) return w / 2;
+    return pad + (i / (history.length - 1)) * (w - 2 * pad);
+  }
+
+  const totalPoints = history.map((s, i) => `${x(i)},${y(s.stats.total)}`).join(' ');
+  const sPlusAPoints = history.map((s, i) => `${x(i)},${y((s.stats.by_grade.S || 0) + (s.stats.by_grade.A || 0))}`).join(' ');
+
+  return {
+    width: w,
+    height: h,
+    totalPolyline: totalPoints,
+    sPlusAPolyline: sPlusAPoints,
+    minTotal,
+    maxTotal,
+    points: history.map((s, i) => ({
+      x: x(i),
+      y: y(s.stats.total),
+      total: s.stats.total,
+      date: s.date,
+    })),
+  };
+}
+
+const chart = hasEnoughData ? lineChartData(history) : null;
+---
+<Layout title="趋势图 — DSH Radar" active="trends">
+  <section class="container section">
+    <h1 style="font-size:36px;margin-bottom:8px;">📈 趋势图</h1>
+    <p class="sub">DSH 生态每周数据变化 · <strong>{history.length}</strong> 个历史快照</p>
+
+    <div class="lead">
+      所有数据点来自 <code>data/history/</code> 目录的真实快照。每周构建自动新增一条。
+    </div>
+
+    {!hasEnoughData ? (
+      <div class="empty" style="margin-top:32px;">
+        <h3 style="color:var(--text);margin-bottom:8px;">📊 需要更多历史</h3>
+        <p>当前只有 <strong>{history.length}</strong> 个快照，需要 ≥2 个才能绘制趋势线。</p>
+        <p style="margin-top:12px;">每跑一次 <code>node scripts/build-data.mjs && node scripts/build-changelog.mjs</code> 会新增一个快照。</p>
+        <p style="margin-top:12px;">首次部署后，GitHub Actions 每周一自动跑，趋势线会自动累积。</p>
+        <p style="margin-top:24px;font-size:14px;color:var(--text-dim);">当前快照：</p>
+        {history.length > 0 && (
+          <pre style="margin-top:12px;background:var(--bg-elev);padding:12px;border-radius:6px;color:var(--accent);font-size:12px;text-align:left;display:inline-block;"><code>{JSON.stringify({
+            date: history[0].date,
+            stats: history[0].stats,
+          }, null, 2)}</code></pre>
+        )}
+      </div>
+    ) : (
+      <>
+        {/* 总插件数趋势 */}
+        <div class="info-block" style="margin-top:32px;">
+          <h3>插件总数趋势</h3>
+          {chart && (
+            <svg viewBox={`0 0 ${chart.width} ${chart.height}`} style="width:100%;max-width:900px;display:block;margin:16px auto;">
+              {/* 网格 */}
+              {[0, 0.25, 0.5, 0.75, 1].map((p) => (
+                <line x1="40" y1={40 + p * (chart.height - 80)} x2={chart.width - 40} y2={40 + p * (chart.height - 80)} stroke="#232b3d" stroke-dasharray="4 4" stroke-width="1"/>
+              ))}
+
+              {/* 总数折线 */}
+              <polyline points={chart.totalPolyline} fill="none" stroke="#5eead4" stroke-width="3" />
+
+              {/* S+A 折线 */}
+              <polyline points={chart.sPlusAPolyline} fill="none" stroke="#fbbf24" stroke-width="2" stroke-dasharray="6 3" />
+
+              {/* 数据点 */}
+              {chart.points.map((p, i) => (
+                <g>
+                  <circle cx={p.x} cy={p.y} r="5" fill="#5eead4" />
+                  <text x={p.x} y={p.y - 12} text-anchor="middle" fill="#5eead4" font-size="11" font-family="monospace" font-weight="700">{p.total}</text>
+                </g>
+              ))}
+
+              {/* Y 轴标签 */}
+              <text x="8" y="44" fill="#8b96a8" font-size="11" font-family="monospace">{chart.maxTotal}</text>
+              <text x="8" y={chart.height - 40} fill="#8b96a8" font-size="11" font-family="monospace">{chart.minTotal}</text>
+
+              {/* 图例 */}
+              <g transform={`translate(${chart.width - 180},20)`}>
+                <line x1="0" y1="10" x2="24" y2="10" stroke="#5eead4" stroke-width="3"/>
+                <text x="32" y="14" fill="#e6edf7" font-size="12" font-family="monospace">插件总数</text>
+                <line x1="0" y1="30" x2="24" y2="30" stroke="#fbbf24" stroke-width="2" stroke-dasharray="6 3"/>
+                <text x="32" y="34" fill="#e6edf7" font-size="12" font-family="monospace">S+A 级</text>
+              </g>
+            </svg>
+          )}
+        </div>
+
+        {/* 详细数据表 */}
+        <div class="info-block" style="margin-top:24px;">
+          <h3>历史快照（{history.length} 条）</h3>
+          <table class="matrix-table" style="margin-top:16px;">
+            <thead>
+              <tr>
+                <th>日期</th>
+                <th>总数</th>
+                <th>S</th>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+                <th>D</th>
+                <th>DSH 标准</th>
+                <th>周下载</th>
+              </tr>
+            </thead>
+            <tbody>
+              {history.map((s: any) => (
+                <tr>
+                  <td><code>{s.date}</code></td>
+                  <td><strong>{s.stats.total}</strong></td>
+                  <td style="color:var(--grade-S);">{s.stats.by_grade.S || 0}</td>
+                  <td style="color:var(--grade-A);">{s.stats.by_grade.A || 0}</td>
+                  <td style="color:var(--grade-B);">{s.stats.by_grade.B || 0}</td>
+                  <td style="color:var(--grade-C);">{s.stats.by_grade.C || 0}</td>
+                  <td style="color:var(--grade-D);">{s.stats.by_grade.D || 0}</td>
+                  <td>{s.stats.by_compat}</td>
+                  <td>{s.stats.total_weekly_downloads.toLocaleString()}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </>
+    )}
+
+    <div class="empty" style="margin-top:48px;">
+      <h3 style="color:var(--text);margin-bottom:8px;">🔔 订阅趋势更新</h3>
+      <p>用 <a href="/feeds/rss.xml">RSS</a> 自动获取每周新数据点，或 <a href="/changelog">查看 changelog</a>。</p>
+    </div>
+  </section>
+</Layout>

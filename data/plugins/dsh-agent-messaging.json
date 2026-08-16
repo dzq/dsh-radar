@@ -1,0 +1,55 @@
+{
+  "slug": "dsh-agent-messaging",
+  "name": "dsh-agent-messaging",
+  "version": "0.11.0",
+  "description": "Cross-session agent-to-agent messaging for DeepSeek Harness: claims, verification and a decision ledger, so two agent sessions don't repeat, contradict or deadlock each other.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent",
+    "agents",
+    "multi-agent",
+    "agent-to-agent",
+    "messaging",
+    "cross-session",
+    "coordination",
+    "a2a"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/happyren/dsh-agent-messaging.git",
+  "homepage": "https://github.com/happyren/dsh-agent-messaging#readme",
+  "npm": "https://www.npmjs.com/package/dsh-agent-messaging",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T11:36:45.509Z",
+  "created_at": "2026-08-15T11:36:45.136Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:02.698Z"
+}

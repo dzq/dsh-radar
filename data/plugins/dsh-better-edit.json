@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-better-edit",
+  "name": "dsh-better-edit",
+  "version": "0.1.9",
+  "description": "Hash-anchored read/edit/batch_edit/undo_last_edit tools for DeepSeek Harness (dsh). Every line gets a unique 3-char hash (A-Za-z0-9) that stays stable across edits; stale or ambiguous anchors are rejected, never fuzzy-matched. Undo persists across restart",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "coding-agent",
+    "hashline",
+    "hash-anchored",
+    "hash",
+    "anchors",
+    "read",
+    "edit",
+    "batch-edit",
+    "undo",
+    "file-editing",
+    "stable"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Rianico/dsh-better-edit.git",
+  "homepage": "https://github.com/Rianico/dsh-better-edit",
+  "npm": "https://www.npmjs.com/package/dsh-better-edit",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 1404,
+  "monthly_downloads": 1404,
+  "last_publish": "2026-08-15T16:46:59.351Z",
+  "created_at": "2026-08-14T16:33:12.590Z",
+  "gh": null,
+  "scores": {
+    "popularity": 79,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 72,
+    "grade": "A"
+  },
+  "updated_at": "2026-08-16T07:58:16.591Z"
+}

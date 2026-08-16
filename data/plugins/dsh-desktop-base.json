@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-desktop-base",
+  "name": "dsh-desktop-base",
+  "version": "0.1.0",
+  "description": "Base aggregate for DeepSeek Harness Desktop features: Web UI collection, plugin market, Codex Connect, and reasoning controls.",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "desktop",
+    "aggregate"
+  ],
+  "license": "BSD-3-Clause",
+  "repo": "git+https://github.com/ningbainb/deepseek-harness-desktop.git",
+  "homepage": "https://github.com/ningbainb/deepseek-harness-desktop#readme",
+  "npm": "https://www.npmjs.com/package/dsh-desktop-base",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T14:57:17.141Z",
+  "created_at": "2026-08-15T14:57:16.882Z",
+  "gh": {
+    "full_name": "ningbainb/deepseek-harness-desktop",
+    "stars": 48,
+    "open_issues": 3,
+    "pushed_at": "2026-08-15T18:33:25Z",
+    "archived": false,
+    "license": "BSD-3-Clause"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 60,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:01:00.045Z"
+}

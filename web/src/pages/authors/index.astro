@@ -1,0 +1,40 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { loadJson } from '../../lib/paths.mjs';
+
+const authors = await loadJson('authors.json');
+const top = authors.slice(0, 50);
+---
+<Layout title="插件作者 — DSH Radar" active="authors">
+  <section class="container section" style="padding-top:32px;">
+    <h1 style="font-size:36px;margin-bottom:8px;">👥 插件作者</h1>
+    <p class="sub">DSH 生态 <strong>{authors.length}</strong> 位贡献者 · 按插件数量排序</p>
+
+    <div class="lead">
+      想知道谁在 DSH 生态最活跃？这里聚合了所有插件作者（含 GitHub owner 和 npm scope）的插件数、Stars、平均评分。
+    </div>
+
+    <div style="background:var(--bg-elev);border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-top:32px;">
+      {top.map((a: any) => (
+        <a href={`/authors/${a.handle}`} class="plugin-row" style="text-decoration:none;">
+          <div style="width:56px;height:56px;border-radius:50%;background:var(--accent-glow);display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:700;font-size:20px;font-family:monospace;">
+            {a.handle.slice(0, 2).toUpperCase()}
+          </div>
+          <div>
+            <div style="font-family:monospace;font-size:15px;color:var(--link);font-weight:600;">@{a.handle}</div>
+            <div style="font-size:12px;color:var(--text-mute);margin-top:2px;">
+              {a.grades.S > 0 && <span style="color:var(--grade-S);font-weight:600;">{a.grades.S}S </span>}
+              {a.grades.A > 0 && <span style="color:var(--grade-A);font-weight:600;">{a.grades.A}A </span>}
+              {a.grades.B > 0 && <span style="color:var(--grade-B);">{a.grades.B}B </span>}
+              {a.grades.C > 0 && <span style="color:var(--grade-C);">{a.grades.C}C </span>}
+              {a.grades.D > 0 && <span style="color:var(--grade-D);">{a.grades.D}D</span>}
+            </div>
+          </div>
+          <div class="meta"><strong>{a.plugin_count}</strong>插件</div>
+          <div class="meta"><strong>★ {a.total_stars}</strong>stars</div>
+          <div class="meta"><strong>{a.avg_overall}</strong>avg</div>
+        </a>
+      ))}
+    </div>
+  </section>
+</Layout>

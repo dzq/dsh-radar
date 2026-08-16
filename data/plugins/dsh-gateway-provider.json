@@ -1,0 +1,62 @@
+{
+  "slug": "dsh-gateway-provider",
+  "name": "dsh-gateway-provider",
+  "version": "1.0.2",
+  "description": "Generic LLM gateway model provider plugin for DeepSeek Harness: mounts newapi / LiteLLM / Higress / any OpenAI-compatible gateway as provider routes, auto-discovers the model list, enriches every model with models.dev parameters, and dispatches each model",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "cordis",
+    "llm",
+    "llm-provider",
+    "provider",
+    "newapi",
+    "new-api",
+    "openai",
+    "anthropic",
+    "gemini",
+    "models.dev",
+    "dsh-plugin",
+    "pi-ai"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Luck9Star/dsh-gateway-provider.git",
+  "homepage": "https://github.com/Luck9Star/dsh-gateway-provider#readme",
+  "npm": "https://www.npmjs.com/package/dsh-gateway-provider",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-web-react"
+      ],
+      "platform": "web"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T03:20:01.549Z",
+  "created_at": "2026-08-15T03:11:29.344Z",
+  "gh": {
+    "full_name": "Luck9Star/dsh-gateway-provider",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T03:21:02Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:27.601Z"
+}

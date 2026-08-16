@@ -1,0 +1,51 @@
+{
+  "slug": "nanmicoder--dsh-plugin-market",
+  "name": "@nanmicoder/dsh-plugin-market",
+  "version": "0.1.1",
+  "description": "Verified plugin marketplace for DeepSeek Harness: discover, inspect, install, and remove DSH plugins from the Web UI",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "plugin-marketplace",
+    "plugin-catalog",
+    "plugin-manager",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/NanmiCoder/dsh-plugin-market.git",
+  "homepage": "https://dsh-plugin-market-flax.vercel.app/",
+  "npm": "https://www.npmjs.com/package/@nanmicoder/dsh-plugin-market",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T14:52:54.284Z",
+  "created_at": "2026-08-15T13:43:41.732Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:10.938Z"
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-anthropic-fonts",
+  "name": "dsh-anthropic-fonts",
+  "version": "0.2.0",
+  "description": "Switch the DSH web interface to Anthropic Sans Web Text and model conversation to Anthropic Serif Web Text.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "cordis",
+    "web-ui",
+    "font",
+    "anthropic"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Isilsolme/dsh-anthropic-fonts.git",
+  "homepage": "https://github.com/Isilsolme/dsh-anthropic-fonts#readme",
+  "npm": "https://www.npmjs.com/package/dsh-anthropic-fonts",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T15:41:22.327Z",
+  "created_at": "2026-08-15T15:22:13.804Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:01.755Z"
+}

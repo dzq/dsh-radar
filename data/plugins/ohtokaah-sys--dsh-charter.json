@@ -1,0 +1,37 @@
+{
+  "slug": "ohtokaah-sys--dsh-charter",
+  "name": "@ohtokaah-sys/dsh-charter",
+  "version": "0.1.2",
+  "description": "行为宪法 systemPrompt 插件：把 SOUL 的停止条件/发送前闸门/发送前扫描规则注入系统提示（迁移自 Hermes），可逆。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "prompt",
+    "soul",
+    "charter",
+    "governance"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@ohtokaah-sys/dsh-charter",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T18:44:42.592Z",
+  "created_at": "2026-08-14T02:11:17.350Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 40,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:10.032Z"
+}

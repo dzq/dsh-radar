@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-observability",
+  "name": "dsh-observability",
+  "version": "0.1.0",
+  "description": "OpenTelemetry traces backend for the DeepSeek Harness telemetry seam: folds agent session events into OTLP span trees",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "opentelemetry",
+    "otlp",
+    "observability"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/CodePrometheus/dsh-observability.git",
+  "homepage": "https://github.com/CodePrometheus/dsh-observability#readme",
+  "npm": "https://www.npmjs.com/package/dsh-observability",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T09:00:06.232Z",
+  "created_at": "2026-08-15T09:00:05.971Z",
+  "gh": {
+    "full_name": "CodePrometheus/dsh-observability",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T09:12:24Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 62,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:51.258Z"
+}

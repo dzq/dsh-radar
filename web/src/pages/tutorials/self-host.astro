@@ -1,0 +1,254 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+<Layout title="自托管教程 — DSH Radar" active="tutorials">
+  <section class="container section" style="max-width:760px;">
+    <a href="/tutorials" style="font-size:13px;color:var(--text-dim);">← 教程列表</a>
+    <h1 style="font-size:32px;margin:12px 0 8px;">🖥️ 自托管 DSH Radar（30 分钟）</h1>
+    <p style="color:var(--text-mute);font-size:13px;">中级 · 30 分钟 · 2026-08-16</p>
+
+    <div class="lead" style="margin-top:24px;">
+      把 DSH Radar 部署到自己的服务器 / Cloudflare Pages / Vercel，<strong>完全掌控数据</strong>。
+      整站是 MIT 开源、零追踪的 Astro 静态站——没有后端、没有数据库、没有登录态，
+      产物就是 <code>web/dist/</code> 里的一堆 HTML/JS/JSON，扔到任何能发静态文件的地方都能跑。
+      本教程涵盖 3 种托管方案 + 自建 Nginx，按推荐度排序。
+    </div>
+
+    <h2 style="margin-top:40px;font-size:24px;">先跑通本地构建</h2>
+    <p style="color:var(--text-dim);margin-top:12px;">
+      不管选哪种方案，前提都是这两步能跑通。抓数据脚本零依赖，只要 Node.js ≥ 18（内置 fetch）：
+    </p>
+    <pre style="background:var(--bg);padding:16px;border-radius:8px;color:var(--accent);font-size:12px;margin-top:12px;overflow-x:auto;"><code>{`git clone https://github.com/dsh-radar/dsh-radar.git
+cd dsh-radar
+
+# ① 抓 npm + GitHub 数据，算 5 维评分，写入 data/
+node scripts/build-data.mjs
+# 初次试跑建议限流：LIMIT=50 node scripts/build-data.mjs
+
+# ② 构建静态站，产物在 web/dist/
+cd web && npm install && npm run build`}</code></pre>
+
+    <h2 style="margin-top:40px;font-size:24px;">方案对比</h2>
+    <table style="width:100%;border-collapse:collapse;margin-top:12px;font-size:13px;">
+      <thead>
+        <tr style="background:var(--bg-elev2);">
+          <th style="padding:10px;text-align:left;">方案</th>
+          <th style="padding:10px;text-align:left;">难度</th>
+          <th style="padding:10px;text-align:left;">费用</th>
+          <th style="padding:10px;text-align:left;">推荐场景</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom:1px solid var(--border);"><td style="padding:10px;font-weight:600;color:var(--accent);">Cloudflare Pages</td><td style="padding:10px;">⭐ 简单</td><td style="padding:10px;">免费（不限带宽）</td><td style="padding:10px;">99% 的人；国内访问最稳</td></tr>
+        <tr style="border-bottom:1px solid var(--border);"><td style="padding:10px;">GitHub Pages</td><td style="padding:10px;">⭐ 简单</td><td style="padding:10px;">免费（吃 Actions 配额）</td><td style="padding:10px;">数据更新已经跑在 Actions 上，想一条龙</td></tr>
+        <tr style="border-bottom:1px solid var(--border);"><td style="padding:10px;">Vercel</td><td style="padding:10px;">⭐⭐</td><td style="padding:10px;">免费额度</td><td style="padding:10px;">想要 preview deploy / CLI 一把梭</td></tr>
+        <tr><td style="padding:10px;">自建 Nginx</td><td style="padding:10px;">⭐⭐⭐</td><td style="padding:10px;">服务器费用</td><td style="padding:10px;">内网 / 数据合规 / 接私有 registry</td></tr>
+      </tbody>
+    </table>
+
+    <p style="color:var(--text-dim);margin-top:16px;">
+      三个托管平台的<strong>本质差异只有一个</strong>：谁来跑 <code>build-data.mjs</code>。
+      在平台构建容器里直接抓数据会撞上 GitHub API 60 次/小时的匿名限流；
+      更稳的做法是让 GitHub Actions 定时抓数据并提交回仓库，托管平台只负责 <code>npm run build</code>。
+      GitHub Pages 天然适合前者，Cloudflare / Vercel 适合后者。
+    </p>
+
+    <h2 style="margin-top:40px;font-size:24px;">方案 1：Cloudflare Pages（推荐）</h2>
+
+    <h3 style="margin-top:20px;font-size:18px;">步骤 1：准备 fork</h3>
+    <ol style="margin-top:12px;color:var(--text-dim);padding-left:24px;line-height:1.9;">
+      <li>Fork <a href="https://github.com/dsh-radar/dsh-radar/fork" target="_blank" rel="noopener">dsh-radar/dsh-radar</a></li>
+      <li>本地 clone：
+        <pre style="background:var(--bg);padding:10px;border-radius:6px;color:var(--accent);font-size:11px;margin-top:6px;"><code>git clone https://github.com/YOU/dsh-radar.git</code></pre>
+      </li>
+      <li>跑一次构建确保环境 OK：
+        <pre style="background:var(--bg);padding:10px;border-radius:6px;color:var(--accent);font-size:11px;margin-top:6px;"><code>cd dsh-radar/web
+npm install --cache /tmp/npm-cache
+npm run build</code></pre>
+      </li>
+    </ol>
+
+    <h3 style="margin-top:20px;font-size:18px;">步骤 2：连 Cloudflare Pages</h3>
+    <ol style="margin-top:12px;color:var(--text-dim);padding-left:24px;line-height:1.9;">
+      <li>登录 <a href="https://dash.cloudflare.com/" target="_blank" rel="noopener">Cloudflare Dashboard</a></li>
+      <li>Workers & Pages → Create application → Pages → Connect to Git</li>
+      <li>选你的 fork 仓库</li>
+      <li>配置：
+        <pre style="background:var(--bg);padding:12px;border-radius:6px;color:var(--accent);font-size:11px;margin-top:8px;overflow-x:auto;"><code>{`Build command:   cd web && npm install --cache /tmp/npm-cache && npm run build
+Build output:    web/dist
+Root directory:  /`}</code></pre>
+      </li>
+      <li>环境变量（Settings → Environment variables）：
+        <pre style="background:var(--bg);padding:12px;border-radius:6px;color:var(--accent);font-size:11px;margin-top:8px;overflow-x:auto;"><code>{`NODE_VERSION         = 22
+PUBLIC_WEB3FORMS_KEY = <your-key>`}</code></pre>
+      </li>
+      <li>Save and Deploy</li>
+    </ol>
+
+    <h3 style="margin-top:20px;font-size:18px;">步骤 3：自定义域名</h3>
+    <ol style="margin-top:12px;color:var(--text-dim);padding-left:24px;line-height:1.9;">
+      <li>Pages → 你的项目 → Custom domains → Set up a custom domain</li>
+      <li>输入域名（如 <code>radar.yourcompany.com</code>）</li>
+      <li>Cloudflare 会给一个 CNAME，在你的 DNS 添加</li>
+      <li>等待 DNS 生效（5-30 分钟）</li>
+    </ol>
+
+    <h2 style="margin-top:40px;font-size:24px;">方案 2：Vercel（最简单）</h2>
+    <pre style="background:var(--bg);padding:16px;border-radius:8px;color:var(--accent);font-size:12px;margin-top:12px;overflow-x:auto;"><code>{`# 1. 安装 vercel CLI
+npm i -g vercel
+
+# 2. 在项目根目录
+cd dsh-radar
+vercel login
+vercel --prod
+
+# 3. 跟着提示选 framework = Other
+#    Root Directory = web
+#    Build Command Override = npm run build
+#    Output Directory Override = dist
+
+# 或者跳过全部交互，一行搞定：
+cd dsh-radar/web
+vercel --prod --yes \\
+  --build-env NODE_VERSION=22 \\
+  --env PUBLIC_WEB3FORMS_KEY=<your-key>`}</code></pre>
+    <p style="color:var(--text-dim);margin-top:12px;">
+      Vercel 会把这些设置写进 <code>.vercel/project.json</code>，之后每次只要 <code>vercel --prod</code> 即可。
+    </p>
+
+    <h2 style="margin-top:40px;font-size:24px;">方案 3：自建 Nginx</h2>
+
+    <h3 style="margin-top:20px;font-size:18px;">构建产物</h3>
+    <pre style="background:var(--bg);padding:12px;border-radius:6px;color:var(--accent);font-size:12px;margin-top:8px;overflow-x:auto;"><code>{`# 本地
+cd dsh-radar/web
+npm run build
+
+# 上传
+rsync -avz --delete dist/ user@server:/var/www/dsh-radar/`}</code></pre>
+
+    <h3 style="margin-top:20px;font-size:18px;">Nginx 配置</h3>
+    <pre style="background:var(--bg);padding:16px;border-radius:8px;color:var(--accent);font-size:12px;margin-top:8px;overflow-x:auto;"><code>{`server {
+    listen 443 ssl http2;
+    server_name radar.yourcompany.com;
+
+    ssl_certificate     /etc/letsencrypt/live/radar.yourcompany.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/radar.yourcompany.com/privkey.pem;
+
+    root /var/www/dsh-radar;
+    index index.html;
+
+    # 启用 gzip
+    gzip on;
+    gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
+
+    # 静态资源长缓存（文件名带 hash）
+    location /_astro/ {
+        expires 1y;
+        add_header Cache-Control "public, immutable";
+    }
+
+    # 数据 JSON 短缓存：每周才更新一次，5 分钟足够
+    location ~* \\.json$ {
+        expires 5m;
+        add_header Cache-Control "public, must-revalidate";
+    }
+
+    # 关键：目录式路径 + SPA fallback
+    # astro.config 用了 build.format: 'directory'，页面产物是 /plugins/index.html，
+    # 少了这行，直接刷新 /plugins/xxx 这类深链接会 404
+    location / {
+        try_files $uri $uri/ $uri.html /index.html;
+    }
+
+    # sitemap + robots 显式返回
+    location = /sitemap.xml { add_header Cache-Control "public, max-age=3600"; }
+    location = /robots.txt { add_header Cache-Control "public, max-age=86400"; }
+
+    # 安全头
+    add_header X-Content-Type-Options "nosniff";
+    add_header X-Frame-Options "SAMEORIGIN";
+    add_header Referrer-Policy "no-referrer-when-downgrade";
+}`}</code></pre>
+
+    <h3 style="margin-top:20px;font-size:18px;">每周自动更新（cron）</h3>
+    <pre style="background:var(--bg);padding:12px;border-radius:6px;color:var(--accent);font-size:11px;margin-top:8px;overflow-x:auto;"><code>{`# crontab -e
+# 每周一 UTC 02:00 重新拉数据 + 重新 build + 重启 nginx
+0 2 * * 1 cd /opt/dsh-radar && git pull && node scripts/build-data.mjs && (cd web && npm run build) && rsync -avz --delete web/dist/ /var/www/dsh-radar/ && nginx -s reload`}</code></pre>
+
+    <h2 style="margin-top:40px;font-size:24px;">环境变量配置</h2>
+    <p style="color:var(--text-dim);margin-top:12px;">
+      整站<strong>只有一个前端环境变量</strong>：<code>PUBLIC_WEB3FORMS_KEY</code>，
+      供 <a href="/subscribe">/subscribe</a> 和 <a href="/team">/team</a> 两个页面的表单使用。
+      <code>PUBLIC_</code> 是 Astro 的约定前缀——带这个前缀的变量会被<strong>编译进客户端产物</strong>，
+      所以它天生就是公开的，绝对不要往里塞任何私密凭据。
+    </p>
+    <pre style="background:var(--bg);padding:16px;border-radius:8px;color:var(--accent);font-size:12px;margin-top:12px;overflow-x:auto;"><code>{`# web/.env（本地开发用，已在 .gitignore 里）
+PUBLIC_WEB3FORMS_KEY=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+
+# 代码里这样读，没配置时优雅降级成空串（表单回退 mailto）：
+# const web3formsKey = import.meta.env.PUBLIC_WEB3FORMS_KEY || '';`}</code></pre>
+    <p style="color:var(--text-dim);margin-top:12px;">
+      抓数据阶段另有两个可选变量，它们只作用于 <code>scripts/build-data.mjs</code>，不会进前端产物：
+      <code>GITHUB_TOKEN</code>（把 GitHub API 限流从 60 次/小时提到 5000 次/小时）与
+      <code>LIMIT</code>（只处理下载量前 N 个包，<code>0</code> 表示全量）。
+      DSH Radar 本身零追踪，不需要任何统计脚本的 key。
+    </p>
+
+    <h2 style="margin-top:40px;font-size:24px;">自定义域名 DNS 配置</h2>
+    <p style="color:var(--text-dim);margin-top:12px;">
+      三个平台都是同一套 CNAME 逻辑，区别只在目标值：
+    </p>
+    <pre style="background:var(--bg);padding:16px;border-radius:8px;color:var(--accent);font-size:12px;margin-top:12px;overflow-x:auto;"><code>{`# 子域名（推荐，最省事）
+类型     名称     值
+CNAME    radar    your-project.pages.dev      # Cloudflare Pages
+CNAME    radar    cname.vercel-dns.com        # Vercel
+CNAME    radar    <用户名>.github.io           # GitHub Pages
+
+# 根域名（apex 上 CNAME 不合法，用平台 flatten 或 A 记录）
+Cloudflare : CNAME @ → your-project.pages.dev（自动 CNAME flattening）
+Vercel     : A     @ → 76.76.21.21
+GitHub     : A     @ → 185.199.108.153（官方 4 个 IP 全部添加）`}</code></pre>
+    <p style="color:var(--text-dim);margin-top:12px;">
+      加完记录一定要回平台后台把域名 <strong>Add / Verify</strong> 一遍，证书才会自动签发。
+      用 GitHub Pages 还要额外在 <code>web/public/CNAME</code> 里写上域名，
+      否则每次部署都会把自定义域名重置掉。DNS 生效一般 5-30 分钟。
+    </p>
+
+    <h2 style="margin-top:40px;font-size:24px;">部署后自检清单</h2>
+    <ul style="margin-top:12px;color:var(--text-dim);padding-left:24px;line-height:1.9;">
+      <li><code>/plugins</code> — 711 个插件和 S/A/B/C/D 等级正常渲染</li>
+      <li><code>/search</code> — 搜索索引是客户端 JSON，最容易因缓存出问题</li>
+      <li><code>/plugins/任意插件</code> — 深链接直接刷新不 404（验证 try_files）</li>
+      <li><code>/trends</code> 和 <code>/methodology</code> — 确认 <code>data/stats.json</code> 被正确读取</li>
+      <li>DevTools Network — 确认没有任何第三方请求，这是本项目零追踪的底线</li>
+    </ul>
+
+    <h2 style="margin-top:40px;font-size:24px;">常见问题</h2>
+
+    <details class="info-block" style="margin:0;cursor:pointer;">
+      <summary style="font-weight:600;font-size:15px;">构建失败：Cannot find module 'astro'</summary>
+      <p style="color:var(--text-dim);margin-top:12px;font-size:14px;">
+        没装依赖。跑 <code>cd web && npm install</code>。
+      </p>
+    </details>
+
+    <details class="info-block" style="margin:12px 0 0 0;cursor:pointer;">
+      <summary style="font-weight:600;font-size:15px;">部署后页面是旧的</summary>
+      <p style="color:var(--text-dim);margin-top:12px;font-size:14px;">
+        浏览器缓存。强制刷新（Ctrl+Shift+R / Cmd+Shift+R），或在 URL 加 <code>?v=2</code>。
+      </p>
+    </details>
+
+    <details class="info-block" style="margin:12px 0 0 0;cursor:pointer;">
+      <summary style="font-weight:600;font-size:15px;">怎么绑定自己的域名到 Cloudflare Pages？</summary>
+      <p style="color:var(--text-dim);margin-top:12px;font-size:14px;">
+        Pages → Custom domains → 输入域名 → 按提示加 CNAME。也可以把整个域名 NS 迁到 Cloudflare（推荐，免费 DNSSEC）。
+      </p>
+    </details>
+
+    <div class="empty" style="margin-top:48px;">
+      <h3 style="color:var(--text);margin-bottom:8px;">🚀 下一步</h3>
+      <p>部署好后，配 <a href="/tutorials/github-actions">GitHub Actions 每周自动更新</a>。</p>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-plugin-swift-cycle",
+  "name": "dsh-plugin-swift-cycle",
+  "version": "0.1.1",
+  "description": "DeepSeek Harness adapter for the Swift Cycle governance skill.",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness",
+    "agent-skills",
+    "project-governance",
+    "swift-cycle"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Solismuchengxue/dsh_plugin_swift_cycle.git",
+  "homepage": "https://github.com/Solismuchengxue/dsh_plugin_swift_cycle#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-swift-cycle",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T07:50:01.099Z",
+  "created_at": "2026-08-16T07:50:00.857Z",
+  "gh": {
+    "full_name": "Solismuchengxue/dsh_plugin_swift_cycle",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:57:41Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 60,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:01:01.869Z"
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "hto404--dsh-chime",
+  "name": "@hto404/dsh-chime",
+  "version": "0.1.2",
+  "description": "Task-completion notification chime for the dsh web GUI: plays a sound when a root agent turn finishes, even while the tab is in the background. Persistent host+client plugin with 10 preset sounds, custom sound import, volume control and a Settings > Plugi",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "notification",
+    "sound",
+    "chime",
+    "web-ui"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/HtO404/dsh-chime.git",
+  "homepage": "https://github.com/HtO404/dsh-chime#readme",
+  "npm": "https://www.npmjs.com/package/@hto404/dsh-chime",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T19:25:01.081Z",
+  "created_at": "2026-08-15T05:46:00.621Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:05.932Z"
+}

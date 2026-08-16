@@ -1,0 +1,47 @@
+{
+  "slug": "wishp3--dsh-friend-tts",
+  "name": "@wishp3/dsh-friend-tts",
+  "version": "0.1.1",
+  "description": "TTS provider seam、队列缓存、文本预处理、播放与口型",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/wanghehe123/dsh-Friend.git",
+  "homepage": "https://github.com/wanghehe123/dsh-Friend",
+  "npm": "https://www.npmjs.com/package/@wishp3/dsh-friend-tts",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "platform": "web",
+      "inject": [
+        "settingsScope"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T05:39:36.515Z",
+  "created_at": "2026-08-14T16:01:34.213Z",
+  "gh": {
+    "full_name": "wanghehe123/dsh-Friend",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T05:38:38Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:04.080Z"
+}

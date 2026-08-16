@@ -1,0 +1,36 @@
+{
+  "slug": "dsh-agent-eval",
+  "name": "dsh-agent-eval",
+  "version": "0.1.0",
+  "description": "DSH plugin: evaluate agent performance on defined tasks — run benchmarks, score outcomes, track improvement over prompt/model changes.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "eval",
+    "benchmark",
+    "agent-evaluation",
+    "scoring"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-agent-eval",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T15:27:00.872Z",
+  "created_at": "2026-08-14T15:27:00.646Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 40,
+    "dsh_compat": 30,
+    "overall": 39,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-16T08:01:09.825Z"
+}

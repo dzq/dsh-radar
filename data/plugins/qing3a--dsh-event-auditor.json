@@ -1,0 +1,48 @@
+{
+  "slug": "qing3a--dsh-event-auditor",
+  "name": "@qing3a/dsh-event-auditor",
+  "version": "0.1.0",
+  "description": "Harness 事件流审计面板：观察事件类型、分发模式、计数与最近事件，帮助插件作者理解 harness 内部发生了什么",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "plugin",
+    "audit",
+    "events",
+    "harness"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/qing3a/dsh-event-auditor.git",
+  "homepage": "https://github.com/qing3a/dsh-event-auditor#readme",
+  "npm": "https://www.npmjs.com/package/@qing3a/dsh-event-auditor",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T23:49:48.316Z",
+  "created_at": "2026-08-13T23:49:48.035Z",
+  "gh": {
+    "full_name": "qing3a/dsh-event-auditor",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T05:43:01Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 98,
+    "quality": 75,
+    "security": 65,
+    "dsh_compat": 75,
+    "overall": 59,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:24.316Z"
+}

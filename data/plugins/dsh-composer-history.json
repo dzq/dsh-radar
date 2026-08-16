@@ -1,0 +1,55 @@
+{
+  "slug": "dsh-composer-history",
+  "name": "dsh-composer-history",
+  "version": "0.4.0",
+  "description": "Terminal-style input history for the DeepSeek Harness web composer: edge-first arrows with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, workspace-scoped recall, and fully configurable keys — plus sliding-context aware",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "web-gui",
+    "composer",
+    "input-history",
+    "keyboard-shortcuts",
+    "terminal",
+    "compaction",
+    "sliding-context",
+    "context-window",
+    "typescript",
+    "ui"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/PerryLink/dsh-composer-history.git",
+  "homepage": "https://github.com/PerryLink/dsh-composer-history#readme",
+  "npm": "https://www.npmjs.com/package/dsh-composer-history",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-input-trigger",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T04:03:12.782Z",
+  "created_at": "2026-08-14T10:13:21.083Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 43,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:58.895Z"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "openharness-reply-in-cn",
+  "name": "openharness-reply-in-cn",
+  "version": "0.1.0",
+  "description": "DSH plugin that shows a '中文回复' label in the web sidebar and forces the model to reply in simplified Chinese.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "plugin",
+    "chinese",
+    "zh-cn",
+    "reply-in-cn"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/openharness-reply-in-cn",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T22:47:59.957Z",
+  "created_at": "2026-08-14T22:47:59.742Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:54.072Z"
+}

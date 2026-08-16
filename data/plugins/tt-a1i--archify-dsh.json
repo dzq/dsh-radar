@@ -1,0 +1,40 @@
+{
+  "slug": "tt-a1i--archify-dsh",
+  "name": "@tt-a1i/archify-dsh",
+  "version": "0.1.0",
+  "description": "Opt-in DeepSeek Harness Skill-only bundle for the Archify architecture-diagram skill.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent-skill",
+    "architecture-diagram"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/tt-a1i/archify.git",
+  "homepage": "https://github.com/tt-a1i/archify/tree/main/integrations/deepseek-harness",
+  "npm": "https://www.npmjs.com/package/@tt-a1i/archify-dsh",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T09:12:28.700Z",
+  "created_at": "2026-08-14T09:12:28.270Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:28.154Z"
+}

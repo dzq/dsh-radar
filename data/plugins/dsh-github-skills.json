@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-github-skills",
+  "name": "dsh-github-skills",
+  "version": "0.2.0",
+  "description": "Skill-first GitHub workflows for DeepSeek Harness: PR triage, review feedback, CI diagnosis, and safe publishing.",
+  "keywords": [
+    "dsh-plugin",
+    "dsh-skill",
+    "deepseek-harness",
+    "github",
+    "github-actions",
+    "code-review",
+    "agent-skills",
+    "developer-tools",
+    "git"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/Starfie1d1272/dsh-github-skills.git",
+  "homepage": "https://github.com/Starfie1d1272/dsh-github-skills#readme",
+  "npm": "https://www.npmjs.com/package/dsh-github-skills",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T00:05:29.763Z",
+  "created_at": "2026-08-15T15:42:46.315Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:32.334Z"
+}

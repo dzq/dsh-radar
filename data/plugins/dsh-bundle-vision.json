@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-bundle-vision",
+  "name": "dsh-bundle-vision",
+  "version": "0.1.0",
+  "description": "Vision bundle + plugin for DeepSeek Harness: the describe_image tool reads local images and asks any configured multimodal route, with zero core changes",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "deepseek-harness",
+    "vision",
+    "multimodal",
+    "image",
+    "ocr"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/skillre/dsh-bundle-vision.git",
+  "homepage": "https://github.com/skillre/dsh-bundle-vision#readme",
+  "npm": "https://www.npmjs.com/package/dsh-bundle-vision",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T16:28:31.582Z",
+  "created_at": "2026-08-15T16:28:31.351Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:34.878Z"
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "file": "2026-08-16-1601.json",
+    "prev": "2026-08-16-0955.json",
+    "total_delta": 754,
+    "grades": {
+      "S": 0,
+      "A": 18,
+      "B": 187,
+      "C": 539,
+      "D": 10
+    },
+    "downloads_delta": 38566,
+    "compat_delta": 695,
+    "generated_at": "2026-08-16T08:01:42.881Z",
+    "top10_in": [
+      "dsh-remote",
+      "dsh-plugin-vetting",
+      "dshmarket",
+      "dsh-pocket",
+      "dsh-wechat-mp",
+      "dsh-ui-notify",
+      "dsh-builtin-browser"
+    ],
+    "top10_out": [
+      "plaindeck",
+      "@microi.net/cli",
+      "@sakikotgw/pack-agent",
+      "dsh-llm-auto-route",
+      "dsh-verification-receipt",
+      "@ruihuahe/dsh-plugin-marketplace",
+      "dsh-codex-pet"
+    ]
+  },
+  {
+    "file": "2026-08-16-0955.json",
+    "prev": "2026-08-16-0954.json",
+    "total_delta": 0,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "downloads_delta": 0,
+    "compat_delta": 0,
+    "generated_at": "2026-08-16T01:55:19.531Z",
+    "top10_in": [],
+    "top10_out": []
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "slug": "dsh-llmwiki",
+  "name": "dsh-llmwiki",
+  "version": "0.1.1",
+  "description": "Local Markdown wiki as long-term memory for DeepSeek Harness — ported from llmwiki",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "memory",
+    "wiki",
+    "obsidian",
+    "rag",
+    "agent"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/chancelu/dsh-llmwiki.git",
+  "homepage": "https://github.com/chancelu/dsh-llmwiki#readme",
+  "npm": "https://www.npmjs.com/package/dsh-llmwiki",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T08:00:55.031Z",
+  "created_at": "2026-08-14T02:09:54.654Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:41.938Z"
+}

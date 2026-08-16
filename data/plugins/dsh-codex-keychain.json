@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-codex-keychain",
+  "name": "dsh-codex-keychain",
+  "version": "0.1.0-alpha.1",
+  "description": "Unofficial ChatGPT OAuth provider for DeepSeek Harness with strict native OS keychain storage",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "codex",
+    "chatgpt",
+    "oauth",
+    "keychain"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/CpfPatrick/dsh-codex-keychain.git",
+  "homepage": "https://github.com/CpfPatrick/dsh-codex-keychain#readme",
+  "npm": "https://www.npmjs.com/package/dsh-codex-keychain",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T11:03:27.325Z",
+  "created_at": "2026-08-15T11:03:27.023Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:25.301Z"
+}

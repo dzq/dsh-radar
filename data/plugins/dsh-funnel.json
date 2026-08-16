@@ -1,0 +1,43 @@
+{
+  "slug": "dsh-funnel",
+  "name": "dsh-funnel",
+  "version": "0.1.0",
+  "description": "Curate tool output before it enters the model's context: keep error/warning lines and head/tail, spill the full text to disk with a pointer. Faster turns, smaller context, sharper attention — for every tool, not just bash.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "context",
+    "tokens",
+    "performance",
+    "tool-output"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/YuanyuanMa03/dsh-funnel.git",
+  "homepage": "https://github.com/YuanyuanMa03/dsh-funnel#readme",
+  "npm": "https://www.npmjs.com/package/dsh-funnel",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T09:41:51.010Z",
+  "created_at": "2026-08-15T09:41:50.534Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:08.390Z"
+}

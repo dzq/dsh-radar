@@ -1,0 +1,39 @@
+{
+  "slug": "dsh-docs-zh",
+  "name": "dsh-docs-zh",
+  "version": "0.1.0",
+  "description": "DSH 中文技术文档检索工具：cn_docs(library, query) 按需查询 MDN 中文 / Vue 中文 / 菜鸟教程",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "chinese-docs",
+    "context7"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-docs-zh",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T07:28:17.118Z",
+  "created_at": "2026-08-14T07:28:16.773Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:53.464Z"
+}

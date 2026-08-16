@@ -1,0 +1,57 @@
+{
+  "slug": "dsh-builtin-toggles",
+  "name": "dsh-builtin-toggles",
+  "version": "0.3.1",
+  "description": "Evidence-backed built-in capability inspector with fail-closed controls for DeepSeek Harness Web.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Starfie1d1272/dsh-builtin-toggles.git",
+  "homepage": "https://github.com/Starfie1d1272/dsh-builtin-toggles#readme",
+  "npm": "https://www.npmjs.com/package/dsh-builtin-toggles",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T13:32:28.776Z",
+  "created_at": "2026-08-14T02:03:34.800Z",
+  "gh": {
+    "full_name": "Starfie1d1272/dsh-builtin-toggles",
+    "stars": 7,
+    "open_issues": 1,
+    "pushed_at": "2026-08-15T13:35:09Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 64,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:52.902Z"
+}

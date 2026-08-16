@@ -1,0 +1,45 @@
+{
+  "slug": "loongsuite--dsh-plugin",
+  "name": "@loongsuite/dsh-plugin",
+  "version": "0.1.0-beta.2",
+  "description": "Standalone OpenTelemetry GenAI observability plugin for DeepSeek Harness",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "opentelemetry",
+    "otel",
+    "otlp",
+    "genai",
+    "observability",
+    "loongsuite"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/loongsuite/dsh-plugin.git",
+  "homepage": "https://github.com/loongsuite/dsh-plugin#readme",
+  "npm": "https://www.npmjs.com/package/@loongsuite/dsh-plugin",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T17:25:39.812Z",
+  "created_at": "2026-08-15T12:45:27.433Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:05.521Z"
+}

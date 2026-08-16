@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-turn-diff",
+  "name": "dsh-turn-diff",
+  "version": "0.1.1",
+  "description": "DSH Web UI 插件：每轮结束时汇总本轮所有文件修改差异",
+  "keywords": [
+    "deepseek",
+    "dsh",
+    "dsh-plugin",
+    "diff",
+    "agent",
+    "harness"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/2436238575/dsh-turn-diff.git",
+  "homepage": "https://github.com/2436238575/dsh-turn-diff#readme",
+  "npm": "https://www.npmjs.com/package/dsh-turn-diff",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-primitives"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T15:33:03.463Z",
+  "created_at": "2026-08-14T06:16:42.648Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 48,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:37.297Z"
+}

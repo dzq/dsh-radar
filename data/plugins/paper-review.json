@@ -1,0 +1,58 @@
+{
+  "slug": "paper-review",
+  "name": "paper-review",
+  "version": "2.0.0",
+  "description": "A paper-review panel for the DeepSeek Harness: converts PDF papers into structured, selectable text (columns, headings, tables, sub/superscripts, table of contents) with figure and display-equation rendering, a floating ask-about-the-selection dialog, and",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "paper",
+    "pdf",
+    "reader",
+    "arxiv",
+    "pdf-to-text"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/louwenbo580/read-paper.git",
+  "homepage": "https://github.com/louwenbo580/read-paper#readme",
+  "npm": "https://www.npmjs.com/package/paper-review",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T03:03:49.459Z",
+  "created_at": "2026-08-15T03:03:49.117Z",
+  "gh": {
+    "full_name": "louwenbo580/read-paper",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T03:22:51Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:30.056Z"
+}

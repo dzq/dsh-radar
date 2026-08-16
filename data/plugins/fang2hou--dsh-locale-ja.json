@@ -1,0 +1,50 @@
+{
+  "slug": "fang2hou--dsh-locale-ja",
+  "name": "@fang2hou/dsh-locale-ja",
+  "version": "0.3.2",
+  "description": "Japanese (日本語) interface for DeepSeek Harness — a standard DSH client plugin that adds 日本語 as a selectable UI language alongside 中文 and English, with Japanese system fonts.",
+  "keywords": [
+    "cordis",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "i18n",
+    "japanese",
+    "locale"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/fang2hou/dsh-locale-ja.git",
+  "homepage": "https://github.com/fang2hou/dsh-locale-ja#readme",
+  "npm": "https://www.npmjs.com/package/@fang2hou/dsh-locale-ja",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T21:43:09.422Z",
+  "created_at": "2026-08-14T02:01:08.170Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:06.262Z"
+}

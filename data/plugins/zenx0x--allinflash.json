@@ -1,0 +1,50 @@
+{
+  "slug": "zenx0x--allinflash",
+  "name": "@zenx0x/allinflash",
+  "version": "0.2.0",
+  "description": "DeepSeek Harness Cordis tools for All in Flash, powered by All in Luna",
+  "keywords": [
+    "allinflash",
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "agent-orchestration",
+    "multi-agent"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/zenx0x/allinluna.git",
+  "homepage": "https://github.com/zenx0x/allinluna/tree/main/plugins/deepseek-harness",
+  "npm": "https://www.npmjs.com/package/@zenx0x/allinflash",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T01:41:29.307Z",
+  "created_at": "2026-08-13T14:27:04.316Z",
+  "gh": {
+    "full_name": "zenx0x/allinluna",
+    "stars": 28,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T01:42:33Z",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 98,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 59,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:01:16.614Z"
+}

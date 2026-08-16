@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-markdown-preview",
+  "name": "dsh-markdown-preview",
+  "version": "0.1.1",
+  "description": "In-chat preview for produced files in DeepSeek Harness Web: click a produced-file chip to render Markdown (server-side markdown-it + highlight.js), images, or plain text right in the conversation; system-app open and reveal-in-folder stay one click away.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "markdown",
+    "markdown-preview",
+    "preview",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/GitHubJiKe/dsh-markdown-preview.git",
+  "homepage": "https://github.com/GitHubJiKe/dsh-markdown-preview#readme",
+  "npm": "https://www.npmjs.com/package/dsh-markdown-preview",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T11:38:32.569Z",
+  "created_at": "2026-08-15T06:16:20.174Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:11.672Z"
+}

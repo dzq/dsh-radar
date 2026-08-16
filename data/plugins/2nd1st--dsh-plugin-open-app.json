@@ -1,0 +1,54 @@
+{
+  "slug": "2nd1st--dsh-plugin-open-app",
+  "name": "@2nd1st/dsh-plugin-open-app",
+  "version": "0.1.2",
+  "description": "Brings open-mcp-apps into DeepSeek Harness (dsh): an Apps section in the sidebar, one container per app with its own workspace and conversation, an agent-presence strip under the app, and inline app rendering for MCP tool calls.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "mcp",
+    "mcp-apps",
+    "model-context-protocol",
+    "open-mcp-apps",
+    "cordis",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/2nd1st/dsh-plugin-open-app.git",
+  "homepage": "https://github.com/2nd1st/dsh-plugin-open-app#readme",
+  "npm": "https://www.npmjs.com/package/@2nd1st/dsh-plugin-open-app",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T17:34:52.285Z",
+  "created_at": "2026-08-15T13:55:03.262Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:35.289Z"
+}

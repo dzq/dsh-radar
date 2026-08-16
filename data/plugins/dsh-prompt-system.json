@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-prompt-system",
+  "name": "dsh-prompt-system",
+  "version": "0.1.0",
+  "description": "提示词优化插件：模型选择左侧「优化提示词」按钮，结合当前对话与工作区文件，把草稿优化为「目标/实现措施/约束」三段式精准提示词，支持一键撤销",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "prompt-optimizer",
+    "prompt-enhancement"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/yuloong07-star/dsh-prompt-system.git",
+  "homepage": "https://github.com/yuloong07-star/dsh-prompt-system#readme",
+  "npm": "https://www.npmjs.com/package/dsh-prompt-system",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T03:59:03.371Z",
+  "created_at": "2026-08-15T03:59:03.120Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:56.947Z"
+}

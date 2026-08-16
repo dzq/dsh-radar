@@ -1,0 +1,61 @@
+{
+  "slug": "dsh-model-balance",
+  "name": "dsh-model-balance",
+  "version": "0.1.1",
+  "description": "Multi-provider account balance display for the DeepSeek Harness Web GUI. Queries real billing APIs (DeepSeek, StepFun, Kimi Coding, OpenRouter, MiniMax, xAI) and shows balance/quota in front of the model selector. Providers without an API-level billing en",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "balance",
+    "quota",
+    "billing",
+    "multi-provider"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/nabin-qq273274877/dsh-model-balance.git",
+  "homepage": "https://github.com/nabin-qq273274877/dsh-model-balance#readme",
+  "npm": "https://www.npmjs.com/package/dsh-model-balance",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "plugin": {
+      "schemaVersion": 1,
+      "displayName": {
+        "zh-CN": "模型余额",
+        "en": "Model Balance"
+      },
+      "summary": {
+        "zh-CN": "在模型选择器前显示多供应商真实账户余额与配额",
+        "en": "Show real multi-provider account balance and quota in front of the model selector"
+      },
+      "category": "balance"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-model-selection"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T11:28:17.616Z",
+  "created_at": "2026-08-15T11:19:15.457Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:37.092Z"
+}

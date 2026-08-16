@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-cost-balance-pro",
+  "name": "dsh-cost-balance-pro",
+  "version": "0.1.4",
+  "description": "DSH plugin: visible cost/balance stats pill below the composer, with settings page and one-click reset. Fixed fork-level issues of dsh-cost-balance (slot id collision, missing ctx, invisible 5px bar).",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cost",
+    "balance"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/kingcharleslzy-ai/dsh-cost-balance-pro.git",
+  "homepage": "https://github.com/kingcharleslzy-ai/dsh-cost-balance-pro#readme",
+  "npm": "https://www.npmjs.com/package/dsh-cost-balance-pro",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T23:39:47.100Z",
+  "created_at": "2026-08-15T22:56:51.701Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:12.493Z"
+}

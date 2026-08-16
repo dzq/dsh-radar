@@ -1,0 +1,40 @@
+{
+  "slug": "dsh-obsidian",
+  "name": "dsh-obsidian",
+  "version": "0.1.0",
+  "description": "Connect DeepSeek Harness (dsh) to a local Obsidian vault: search, read, write, move, and trash notes.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "obsidian",
+    "deepseek-harness"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-obsidian",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T04:26:46.647Z",
+  "created_at": "2026-08-16T04:26:46.462Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:55.641Z"
+}

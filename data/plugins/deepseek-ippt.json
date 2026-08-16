@@ -1,0 +1,46 @@
+{
+  "slug": "deepseek-ippt",
+  "name": "deepseek-ippt",
+  "version": "0.1.2",
+  "description": "iPolloWork PPT Studio and its curated slide templates as a native DeepSeek Harness conversation view.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "ppt",
+    "slides",
+    "ipollowork"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "repo": "git+https://github.com/Devin-AXIS/iPolloWork.git",
+  "homepage": "https://github.com/Devin-AXIS/deepseek-design#deepseek-ippt",
+  "npm": "https://www.npmjs.com/package/deepseek-ippt",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T15:20:52.211Z",
+  "created_at": "2026-08-15T12:15:42.262Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:31.288Z"
+}

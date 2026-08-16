@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-plug-manager",
+  "name": "dsh-plug-manager",
+  "version": "0.3.2",
+  "description": "DeepSeek Harness 插件管理器：发现 GitHub dsh-plugin topic 下的插件仓库，通过 `dsh plugin` 安装/移除/更新 profile 插件，并在 设置 → 插件 → 插件市场 标签页中浏览管理。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "plugin-manager",
+    "marketplace"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Casually/deepseek-harness-plugs-manage.git",
+  "homepage": "https://github.com/Casually/deepseek-harness-plugs-manage#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plug-manager",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 111,
+  "monthly_downloads": 111,
+  "last_publish": "2026-08-15T16:33:05.844Z",
+  "created_at": "2026-08-15T16:33:05.542Z",
+  "gh": null,
+  "scores": {
+    "popularity": 51,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 66,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:23.701Z"
+}

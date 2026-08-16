@@ -1,0 +1,42 @@
+{
+  "slug": "qing3a--dsh-tray",
+  "name": "@qing3a/dsh-tray",
+  "version": "0.1.0",
+  "description": "Windows 系统托盘插件：托盘图标 + 菜单（打开界面/状态/退出）+ 气泡通知，基于 trayicon（exe 宿主，无 native 编译）",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "plugin",
+    "tray",
+    "trayicon",
+    "windows",
+    "system-tray"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/qing3a/dsh-tray.git",
+  "homepage": "https://github.com/qing3a/dsh-tray#readme",
+  "npm": "https://www.npmjs.com/package/@qing3a/dsh-tray",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T23:50:03.020Z",
+  "created_at": "2026-08-13T23:50:02.765Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:20.577Z"
+}

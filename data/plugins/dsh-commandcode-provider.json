@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-commandcode-provider",
+  "name": "dsh-commandcode-provider",
+  "version": "0.1.3",
+  "description": "Command Code provider plugin for DeepSeek Harness (dsh) — works with every Command Code plan including the $1 Go plan; uses the Studio authentication API key over /alpha/generate, not the Provider API",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "commandcode",
+    "provider",
+    "llm",
+    "dsh-plugin",
+    "deepseek-harness-plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Kristin130/dsh-commandcode-provider.git",
+  "homepage": "https://github.com/Kristin130/dsh-commandcode-provider#readme",
+  "npm": "https://www.npmjs.com/package/dsh-commandcode-provider",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T11:00:42.406Z",
+  "created_at": "2026-08-14T08:33:57.974Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:26.991Z"
+}

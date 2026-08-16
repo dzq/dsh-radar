@@ -1,0 +1,50 @@
+{
+  "slug": "wasd258--dsh-preset-force",
+  "name": "@wasd258/dsh-preset-force",
+  "version": "0.1.2",
+  "description": "Force-switch the agent preset (mode) of a DSH session after it has started, bypassing the blank-only lock. 会话模式强切插件：绕过「仅空白会话可切换」锁定，随时强制切换当前会话的模式。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "cordis",
+    "preset",
+    "mode",
+    "preset-force"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/WASD258-jpg/dsh-preset-force.git",
+  "homepage": "https://github.com/WASD258-jpg/dsh-preset-force#readme",
+  "npm": "https://www.npmjs.com/package/@wasd258/dsh-preset-force",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "immediately": true
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T08:26:12.112Z",
+  "created_at": "2026-08-15T08:05:54.553Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:58.385Z"
+}

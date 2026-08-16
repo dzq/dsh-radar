@@ -1,0 +1,56 @@
+{
+  "slug": "nyantused--folio-dsh-tools",
+  "name": "@nyantused/folio-dsh-tools",
+  "version": "1.1.0",
+  "description": "兰亭 CLI 命令工具化 + L0 守卫：记忆面 9 工具 + 质量面 6 工具（defineTool 注册，spawn venv _cli.py）+ 直写/直调守卫",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "folio",
+    "兰亭",
+    "consulting",
+    "document-generation",
+    "guard"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/nyantused-cpun/folio.git",
+  "homepage": "https://github.com/nyantused-cpun/folio",
+  "npm": "https://www.npmjs.com/package/@nyantused/folio-dsh-tools",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "verifiedAgainst": {
+      "dshVersion": "0.1.0-rc.6",
+      "evidenceLevel": "L1 源码级（defineTool/subprocess/事件接口逐行核实）；L4 运行级待 dsh web 重启后执行",
+      "testedAt": "2026-08-16"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T01:55:48.247Z",
+  "created_at": "2026-08-16T01:55:47.975Z",
+  "gh": {
+    "full_name": "nyantused-cpun/folio",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T03:22:27Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 60,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:39.723Z"
+}

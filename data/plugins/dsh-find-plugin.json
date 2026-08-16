@@ -1,0 +1,40 @@
+{
+  "slug": "dsh-find-plugin",
+  "name": "dsh-find-plugin",
+  "version": "0.3.6",
+  "description": "Find DeepSeek Harness plugins inside the agent — live GitHub dsh-plugin topic search, ranked by stars.",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "search",
+    "discovery"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/awesome-dsh-plugin/dsh-find-plugin.git",
+  "homepage": "https://github.com/awesome-dsh-plugin/dsh-find-plugin#readme",
+  "npm": "https://www.npmjs.com/package/dsh-find-plugin",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 1198,
+  "monthly_downloads": 1198,
+  "last_publish": "2026-08-14T13:18:06.053Z",
+  "created_at": "2026-08-14T01:49:39.374Z",
+  "gh": null,
+  "scores": {
+    "popularity": 77,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 70,
+    "grade": "A"
+  },
+  "updated_at": "2026-08-16T07:58:17.416Z"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "dsh-whale-bg",
+  "name": "dsh-whale-bg",
+  "version": "0.1.0",
+  "description": "Unofficial DeepSeek Harness Web UI particle-whale background with cursor lighting, idle swimming, and scroll-aware fade.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "dsh",
+    "plugin",
+    "client",
+    "whale",
+    "particles",
+    "background"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/gooosie/dsh-whale-bg.git",
+  "homepage": "https://github.com/gooosie/dsh-whale-bg#readme",
+  "npm": "https://www.npmjs.com/package/dsh-whale-bg",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.18.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T14:19:33.988Z",
+  "created_at": "2026-08-15T14:19:33.682Z",
+  "gh": {
+    "full_name": "gooosie/dsh-whale-bg",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T15:45:20Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 60,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:31.285Z"
+}

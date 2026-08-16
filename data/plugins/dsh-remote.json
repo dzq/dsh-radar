@@ -1,0 +1,55 @@
+{
+  "slug": "dsh-remote",
+  "name": "dsh-remote",
+  "version": "0.5.5",
+  "description": "Remote-work assistant for DeepSeek Harness: connect SSH (password or key), pick a remote workspace, operate on it with rw_pick_workspace / rw_list_dir / rw_read_file / rw_exec / rw_sync tools, and mirror it to a real local directory (SFTP) so the DSH nati",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "remote",
+    "ssh",
+    "tunnel",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/flymysql/dsh-remote.git",
+  "homepage": "https://github.com/flymysql/dsh-remote",
+  "npm": "https://www.npmjs.com/package/dsh-remote",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-workspace"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 691,
+  "monthly_downloads": 691,
+  "last_publish": "2026-08-15T17:02:48.415Z",
+  "created_at": "2026-08-14T04:29:35.533Z",
+  "gh": {
+    "full_name": "flymysql/dsh-remote",
+    "stars": 14,
+    "open_issues": 1,
+    "pushed_at": "2026-08-15T17:02:59Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 71,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 40,
+    "dsh_compat": 85,
+    "overall": 81,
+    "grade": "A"
+  },
+  "updated_at": "2026-08-16T07:58:18.856Z"
+}

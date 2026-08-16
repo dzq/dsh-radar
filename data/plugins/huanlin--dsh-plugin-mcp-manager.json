@@ -1,0 +1,43 @@
+{
+  "slug": "huanlin--dsh-plugin-mcp-manager",
+  "name": "@huanlin/dsh-plugin-mcp-manager",
+  "version": "0.1.0",
+  "description": "MCP 服务器管理面板：GUI 增删改 MCP 服务器配置（写入 profile cordis.patch.yml 的 mcp-client insert 行，配置 HMR 实时挂载）+ 工具浏览 + agent 面 mcp_* 管理工具。连接生命周期委托官方 @deepseek-ai/dsh-mcp-client。",
+  "keywords": [
+    "dsh-plugin"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@huanlin/dsh-plugin-mcp-manager",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-primitives",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T06:42:29.999Z",
+  "created_at": "2026-08-16T06:42:29.737Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:46.837Z"
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-mcp-market",
+  "name": "dsh-mcp-market",
+  "version": "0.1.2",
+  "description": "MCP server marketplace for DeepSeek Harness: browse a curated catalog of MCP servers and install them into the running profile with one click (powered by @deepseek-ai/dsh-mcp-client).",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "mcp",
+    "mcp-server",
+    "marketplace"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/LKMeng2001/dsh-mcp-market.git",
+  "homepage": "https://github.com/LKMeng2001/dsh-mcp-market",
+  "npm": "https://www.npmjs.com/package/dsh-mcp-market",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-theme"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T10:41:31.336Z",
+  "created_at": "2026-08-15T09:47:51.947Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:56.443Z"
+}

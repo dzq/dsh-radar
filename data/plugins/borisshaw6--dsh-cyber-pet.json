@@ -1,0 +1,57 @@
+{
+  "slug": "borisshaw6--dsh-cyber-pet",
+  "name": "@borisshaw6/dsh-cyber-pet",
+  "version": "0.3.1",
+  "description": "Cyber whale pet for DeepSeek Harness: a floating, feedable, color-customizable whale over shell.overlay that reports token usage, quota, interactions, and session counts — one dsh-plugin bundle carrying the host chat brain and the browser surface",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh-plugin",
+    "cyber-pet",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/BorisShaw6/dsh-cyber-pet.git",
+  "homepage": "https://github.com/BorisShaw6/dsh-cyber-pet#readme",
+  "npm": "https://www.npmjs.com/package/@borisshaw6/dsh-cyber-pet",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-api-remotes"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T12:20:37.072Z",
+  "created_at": "2026-08-15T10:12:07.218Z",
+  "gh": {
+    "full_name": "BorisShaw6/dsh-cyber-pet",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T12:13:11Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 60,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:52.697Z"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "dsh-dream-skin",
+  "name": "dsh-dream-skin",
+  "version": "0.2.5",
+  "description": "DeepSeek Harness 换肤插件 (Dream Skin for DeepSeek Harness): curated --dsw-alias-* theme presets, a custom translucent wallpaper with opacity/blur controls, theme-pack import/export + share links, per-user accent, favorites & surprise-me, and durable per-brow",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "plugin",
+    "theme",
+    "skin",
+    "wallpaper",
+    "web-ui",
+    "换肤"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/RevolutionLA/dsh-dream-skin.git",
+  "homepage": "https://github.com/RevolutionLA/dsh-dream-skin#readme",
+  "npm": "https://www.npmjs.com/package/dsh-dream-skin",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-settings-general"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T06:24:57.272Z",
+  "created_at": "2026-08-15T02:53:11.518Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:11.550Z"
+}

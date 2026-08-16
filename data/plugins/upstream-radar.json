@@ -1,0 +1,54 @@
+{
+  "slug": "upstream-radar",
+  "name": "upstream-radar",
+  "version": "0.32.0",
+  "description": "Always-on dependency security monitoring for DeepSeek Harness (DSH) plugins: find exact installed or candidate transitive vulnerable paths and breaking updates, then route evidence to a DSH Agent.",
+  "keywords": [
+    "deepseek-harness",
+    "deepseek",
+    "dsh",
+    "dsh-plugin",
+    "plugin",
+    "plugin-security",
+    "cordis",
+    "dependency-security",
+    "dependency-monitoring",
+    "dependency-vulnerabilities",
+    "vulnerability-monitoring",
+    "breaking-changes",
+    "supply-chain",
+    "dependency-graph",
+    "osv",
+    "agent-security",
+    "ai-agent",
+    "npm"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/MicroMilo/upstream-radar.git",
+  "homepage": "https://github.com/MicroMilo/upstream-radar#readme",
+  "npm": "https://www.npmjs.com/package/upstream-radar",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T23:26:28.787Z",
+  "created_at": "2026-08-15T09:20:27.853Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:46.212Z"
+}

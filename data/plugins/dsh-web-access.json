@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-web-access",
+  "name": "dsh-web-access",
+  "version": "0.2.4",
+  "description": "Web access for DeepSeek Harness — multi-provider search/fetch on ctx.web, plus GitHub/PDF/YouTube extraction.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "web-search",
+    "web-fetch",
+    "exa",
+    "brave",
+    "searxng",
+    "ai",
+    "coding-agent"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/NexusAgentX/dsh-web-access.git",
+  "homepage": "https://github.com/NexusAgentX/dsh-web-access#readme",
+  "npm": "https://www.npmjs.com/package/dsh-web-access",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T06:55:04.280Z",
+  "created_at": "2026-08-14T02:20:25.545Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:59.819Z"
+}

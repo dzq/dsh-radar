@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-plugin-auto-docs",
+  "name": "dsh-plugin-auto-docs",
+  "version": "0.1.0",
+  "description": "Auto documentation generation skill for DeepSeek Harness -- README, API docs, changelogs",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "documentation",
+    "readme",
+    "changelog"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/YYTbit/dsh-plugin-auto-docs.git",
+  "homepage": "https://github.com/YYTbit/dsh-plugin-auto-docs#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-auto-docs",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T15:51:56.291Z",
+  "created_at": "2026-08-13T15:51:56.057Z",
+  "gh": {
+    "full_name": "YYTbit/dsh-plugin-auto-docs",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T07:49:12Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 98,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 59,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:01:03.050Z"
+}

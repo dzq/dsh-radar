@@ -1,0 +1,54 @@
+{
+  "slug": "furongjun1999--dsh-memory",
+  "name": "@furongjun1999/dsh-memory",
+  "version": "0.2.8",
+  "description": "灵枢（Lingshu·líng shū）DeepSeek Harness 插件：完整大脑——长期记忆/知识飞轮/自我认知/递归反思接入 DSH，对话自动沉淀进记忆库",
+  "keywords": [
+    "deepseek",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "memory",
+    "agent",
+    "aeis",
+    "lingshu",
+    "multi-agent",
+    "spatiotemporal",
+    "knowledge-graph"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/FuRongJun-1999/dsh-memory.git",
+  "homepage": "https://github.com/FuRongJun-1999/dsh-memory#readme",
+  "npm": "https://www.npmjs.com/package/@furongjun1999/dsh-memory",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T23:34:06.653Z",
+  "created_at": "2026-08-14T11:04:37.320Z",
+  "gh": {
+    "full_name": "FuRongJun-1999/dsh-memory",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T23:34:16Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:54.543Z"
+}

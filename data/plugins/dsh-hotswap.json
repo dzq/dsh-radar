@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-hotswap",
+  "name": "dsh-hotswap",
+  "version": "0.1.1",
+  "description": "Runtime hot-swap for DeepSeek Harness: hot enable/disable/restart Cordis plugins and auto hot-mount bundles from the Web GUI — no dsh restart.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "plugin-manager",
+    "hot-swap",
+    "hot-reload",
+    "hot-mount",
+    "bundle-sync"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/HongzhongL/dsh-hotswap.git",
+  "homepage": "https://github.com/HongzhongL/dsh-hotswap#readme",
+  "npm": "https://www.npmjs.com/package/dsh-hotswap",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T23:09:15.669Z",
+  "created_at": "2026-08-13T23:02:23.363Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:55.714Z"
+}

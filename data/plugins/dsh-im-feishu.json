@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-im-feishu",
+  "name": "dsh-im-feishu",
+  "version": "1.0.5",
+  "description": "飞书渠道适配器（dsh-im 插件家族，experimental）：WebSocket 长连接免公网 + 审批卡片按钮。需要真实飞书自建应用凭据，未经 CI 实测。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "feishu",
+    "lark",
+    "im-bridge"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/shaobeichen/dsh-im-bridge.git",
+  "homepage": "https://github.com/shaobeichen/dsh-im-bridge",
+  "npm": "https://www.npmjs.com/package/dsh-im-feishu",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T09:08:02.086Z",
+  "created_at": "2026-08-15T06:05:01.050Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:00.529Z"
+}

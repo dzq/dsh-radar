@@ -1,0 +1,54 @@
+{
+  "slug": "dsh-cost-line",
+  "name": "dsh-cost-line",
+  "version": "0.1.0",
+  "description": "DSH web plugin: a real-pricing usage-cost line beside the official token stats — per-model cost breakdown with a verified price table. / DSH 费用统计行：在官方 Token 用量行旁按模型显示真实费用（按模型分别标注，价格均来自官方定价页）。",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "token",
+    "cost",
+    "usage",
+    "pricing"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/LuYquan/dsh-cost.git",
+  "homepage": "https://github.com/LuYquan/dsh-cost",
+  "npm": "https://www.npmjs.com/package/dsh-cost-line",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-primitives"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T12:45:11.536Z",
+  "created_at": "2026-08-15T12:45:11.244Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:36.935Z"
+}

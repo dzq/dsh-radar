@@ -1,0 +1,54 @@
+{
+  "slug": "liustack--pptfast",
+  "name": "@liustack/pptfast",
+  "version": "0.19.2",
+  "description": "Stable, editable PPTX generation for AI agents — semantic IR in, native DrawingML out",
+  "keywords": [
+    "pptx",
+    "powerpoint",
+    "presentation",
+    "ai",
+    "agent",
+    "claude",
+    "svg",
+    "drawingml",
+    "cli",
+    "dsh",
+    "dsh-plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/liustack/pptfast.git",
+  "homepage": "https://github.com/liustack/pptfast#readme",
+  "npm": "https://www.npmjs.com/package/@liustack/pptfast",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19"
+  },
+  "weekly_downloads": 647,
+  "monthly_downloads": 1948,
+  "last_publish": "2026-08-14T20:23:27.522Z",
+  "created_at": "2026-07-17T07:22:14.043Z",
+  "gh": {
+    "full_name": "liustack/pptfast",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T21:38:02Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 70,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 80,
+    "grade": "A"
+  },
+  "updated_at": "2026-08-16T07:58:15.962Z"
+}

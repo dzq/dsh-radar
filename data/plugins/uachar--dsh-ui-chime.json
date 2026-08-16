@@ -1,0 +1,53 @@
+{
+  "slug": "uachar--dsh-ui-chime",
+  "name": "@uachar/dsh-ui-chime",
+  "version": "0.1.2",
+  "description": "DSH 思考结束提示音：每轮对话完成或等待用户答复时在浏览器播放提示音，支持音量调节。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "chime",
+    "sound",
+    "notification"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/uAcharGG/dsh-ui-chime.git",
+  "homepage": "https://github.com/uAcharGG/dsh-ui-chime#readme",
+  "npm": "https://www.npmjs.com/package/@uachar/dsh-ui-chime",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T04:23:02.831Z",
+  "created_at": "2026-08-16T04:07:43.925Z",
+  "gh": {
+    "full_name": "uAcharGG/dsh-ui-chime",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T04:23:37Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 57,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:29.252Z"
+}

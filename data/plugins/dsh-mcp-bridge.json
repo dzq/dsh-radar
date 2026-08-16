@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-mcp-bridge",
+  "name": "dsh-mcp-bridge",
+  "version": "0.1.3",
+  "description": "Curated, verified MCP server bundle for DeepSeek Harness (dsh): one install brings demo, memory, filesystem, GitHub, Playwright and remote HTTP MCP servers, with a connectivity verifier and CI checks.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "deepseek-harness",
+    "mcp",
+    "model-context-protocol",
+    "cordis",
+    "deepseek"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Edge-Echo/dsh-mcp-bridge.git",
+  "homepage": "https://github.com/Edge-Echo/dsh-mcp-bridge#readme",
+  "npm": "https://www.npmjs.com/package/dsh-mcp-bridge",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T14:48:34.551Z",
+  "created_at": "2026-08-14T19:27:53.273Z",
+  "gh": {
+    "full_name": "Edge-Echo/dsh-mcp-bridge",
+    "stars": 3,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T14:47:27Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 62,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:59.840Z"
+}

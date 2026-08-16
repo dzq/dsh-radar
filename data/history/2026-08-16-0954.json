@@ -1,0 +1,208 @@
+{
+  "stats": {
+    "total": 30,
+    "by_grade": {
+      "S": 1,
+      "A": 3,
+      "B": 14,
+      "C": 10,
+      "D": 2
+    },
+    "by_compat": 22,
+    "total_weekly_downloads": 8692,
+    "generated_at": "2026-08-16T01:54:50.281Z",
+    "build_ms": 11564
+  },
+  "top10": [
+    {
+      "slug": "liustack--modsearch",
+      "name": "@liustack/modsearch",
+      "version": "5.4.2",
+      "description": "Plug-in web search, X search, and page fetch for models without native web access, powered by the free Antigravity CLI",
+      "weekly_downloads": 4097,
+      "stars": 105,
+      "grade": "S",
+      "overall": 85,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T05:18:30.432Z",
+      "keywords": [
+        "search",
+        "web-fetch",
+        "cli",
+        "llm",
+        "agent"
+      ]
+    },
+    {
+      "slug": "liustack--pptfast",
+      "name": "@liustack/pptfast",
+      "version": "0.19.2",
+      "description": "Stable, editable PPTX generation for AI agents — semantic IR in, native DrawingML out",
+      "weekly_downloads": 647,
+      "stars": 4,
+      "grade": "A",
+      "overall": 80,
+      "dsh_compat": true,
+      "last_publish": "2026-08-14T20:23:27.522Z",
+      "keywords": [
+        "pptx",
+        "powerpoint",
+        "presentation",
+        "ai",
+        "agent"
+      ]
+    },
+    {
+      "slug": "design-playbook",
+      "name": "design-playbook",
+      "version": "0.20.1",
+      "description": "Design I/O for coding agents: controllable UI generation via declarations (spec/domain/craft/design/components/template) and contracts (skill/evaluator). Use for product UI—console, dashboard, agent-ops, CJK-first apps.",
+      "weekly_downloads": 900,
+      "stars": 1,
+      "grade": "A",
+      "overall": 78,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T17:10:53.616Z",
+      "keywords": [
+        "pi-package",
+        "dsh-plugin",
+        "dsh-bundle",
+        "ui",
+        "ux"
+      ]
+    },
+    {
+      "slug": "plaindeck",
+      "name": "plaindeck",
+      "version": "0.7.0",
+      "description": "Git-native slide format, Agent API, CLI, MCP server, and renderer",
+      "weekly_downloads": 1073,
+      "stars": 2,
+      "grade": "A",
+      "overall": 72,
+      "dsh_compat": false,
+      "last_publish": "2026-08-13T15:39:46.954Z",
+      "keywords": [
+        "slides",
+        "presentation",
+        "git",
+        "json",
+        "ai-agent"
+      ]
+    },
+    {
+      "slug": "microi.net--cli",
+      "name": "@microi.net/cli",
+      "version": "5.0.7",
+      "description": "Microi吾码 AI 开发 CLI 与多宿主 Plugin：服务器连接、Skills、MCP、V8 同步和低代码交付",
+      "weekly_downloads": 1966,
+      "stars": 0,
+      "grade": "B",
+      "overall": 68,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T12:49:32.629Z",
+      "keywords": [
+        "microi",
+        "吾码",
+        "cli",
+        "codex-plugin",
+        "workbuddy-plugin"
+      ]
+    },
+    {
+      "slug": "sakikotgw--pack-agent",
+      "name": "@sakikotgw/pack-agent",
+      "version": "0.4.2",
+      "description": "Pack skills, rules, and MCP into .pack.zip and install them into Claude Code, Codex, Cursor, and other harnesses",
+      "weekly_downloads": 9,
+      "stars": 2,
+      "grade": "B",
+      "overall": 66,
+      "dsh_compat": true,
+      "last_publish": "2026-08-14T08:23:32.510Z",
+      "keywords": [
+        "agent-modpack",
+        "modpack",
+        "packagent",
+        "agent",
+        "claude-code"
+      ]
+    },
+    {
+      "slug": "dsh-llm-auto-route",
+      "name": "dsh-llm-auto-route",
+      "version": "0.1.0",
+      "description": "Provider discovery, matching, health checks, and pre-output failover for DeepSeek Harness.",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "B",
+      "overall": 62,
+      "dsh_compat": true,
+      "last_publish": "2026-08-14T09:11:53.288Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "cordis",
+        "llm",
+        "provider-routing"
+      ]
+    },
+    {
+      "slug": "dsh-verification-receipt",
+      "name": "dsh-verification-receipt",
+      "version": "0.1.0",
+      "description": "Privacy-minimal heuristic per-turn execution summaries for DeepSeek Harness",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "B",
+      "overall": 61,
+      "dsh_compat": true,
+      "last_publish": "2026-08-14T05:17:59.003Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "verification",
+        "observability",
+        "privacy"
+      ]
+    },
+    {
+      "slug": "ruihuahe--dsh-plugin-marketplace",
+      "name": "@ruihuahe/dsh-plugin-marketplace",
+      "version": "0.1.0",
+      "description": "Generated-catalog plugin discovery and npm installation marketplace for DeepSeek Harness",
+      "weekly_downloads": 0,
+      "stars": 3,
+      "grade": "B",
+      "overall": 61,
+      "dsh_compat": true,
+      "last_publish": "2026-08-14T13:35:57.588Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "plugin-marketplace",
+        "plugin-discovery"
+      ]
+    },
+    {
+      "slug": "dsh-codex-pet",
+      "name": "dsh-codex-pet",
+      "version": "0.2.2",
+      "description": "A desktop pet plugin for DeepSeek Harness (DSH): import Codex-style sprite-sheet pets and render them in the DSH Web GUI as a floating shell.overlay, with a pet library, interactions, and Agent-state linkage. / DSH 桌面宠物插件：导入精灵图序列帧宠物并在 Web GUI 悬浮渲染。",
+      "weekly_downloads": 0,
+      "stars": 5,
+      "grade": "B",
+      "overall": 61,
+      "dsh_compat": true,
+      "last_publish": "2026-08-14T14:29:00.878Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek-harness",
+        "cordis",
+        "desktop-pet"
+      ]
+    }
+  ]
+}

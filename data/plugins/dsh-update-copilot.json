@@ -1,0 +1,60 @@
+{
+  "slug": "dsh-update-copilot",
+  "name": "dsh-update-copilot",
+  "version": "0.1.1",
+  "description": "Update copilot for DeepSeek Harness: tracks the DSH core, bundled packages, and every profile plugin across npm and git, summarizes what changed for agent-assisted upgrade decisions, and updates only after explicit confirmation. · DSH 更新助手：追踪 dsh 本体、bundl",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "update-checker",
+    "plugin-manager",
+    "dependency-updates",
+    "version-radar",
+    "semver",
+    "changelog",
+    "agent-tools",
+    "cordis-plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/hezhongtang/dsh-update-copilot.git",
+  "homepage": "https://github.com/hezhongtang/dsh-update-copilot#readme",
+  "npm": "https://www.npmjs.com/package/dsh-update-copilot",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T16:03:06.944Z",
+  "created_at": "2026-08-15T15:20:46.247Z",
+  "gh": {
+    "full_name": "hezhongtang/dsh-update-copilot",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T16:02:36Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 64,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:59.430Z"
+}

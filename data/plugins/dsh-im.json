@@ -1,0 +1,43 @@
+{
+  "slug": "dsh-im",
+  "name": "dsh-im",
+  "version": "1.0.5",
+  "description": "统一 IM 桥核心：让 DeepSeek Harness 通过 IM 可指挥、可通知、可审批（会话映射 / 命令 / 通知总线 / 审批流 / MockChannel）。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "im-bridge",
+    "chatbot",
+    "approval",
+    "notifications"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/shaobeichen/dsh-im-bridge.git",
+  "homepage": "https://github.com/shaobeichen/dsh-im-bridge",
+  "npm": "https://www.npmjs.com/package/dsh-im",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T09:07:58.629Z",
+  "created_at": "2026-08-15T06:04:56.453Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:00.733Z"
+}

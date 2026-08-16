@@ -1,0 +1,57 @@
+{
+  "slug": "wasd258--dsh-port-manager",
+  "name": "@wasd258/dsh-port-manager",
+  "version": "0.1.0",
+  "description": "DSH web port manager plugin: list all local listening ports, pick a free one, and hot-switch the DSH web port without restarting the process. 端口管理插件：查看本机已占用端口并热切换 DSH web 端口。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "cordis",
+    "port",
+    "port-manager"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/WASD258-jpg/dsh-port-manager.git",
+  "homepage": "https://github.com/WASD258-jpg/dsh-port-manager#readme",
+  "npm": "https://www.npmjs.com/package/@wasd258/dsh-port-manager",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "immediately": true
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T06:58:48.903Z",
+  "created_at": "2026-08-15T06:58:48.623Z",
+  "gh": {
+    "full_name": "WASD258-jpg/dsh-port-manager",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T07:08:31Z",
+    "archived": false,
+    "license": "NOASSERTION"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 58,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:29.443Z"
+}

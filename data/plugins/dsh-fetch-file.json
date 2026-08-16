@@ -1,0 +1,37 @@
+{
+  "slug": "dsh-fetch-file",
+  "name": "dsh-fetch-file",
+  "version": "0.1.1",
+  "description": "DSH 插件：把任意 URL 下载为**工作区里的文件**（二进制友好，流式落盘）。纯 ESM、零依赖、无构建。",
+  "keywords": [
+    "dsh-plugin",
+    "download",
+    "http"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-fetch-file",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T03:42:24.580Z",
+  "created_at": "2026-08-15T03:41:03.474Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:24.892Z"
+}

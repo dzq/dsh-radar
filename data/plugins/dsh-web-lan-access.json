@@ -1,0 +1,40 @@
+{
+  "slug": "dsh-web-lan-access",
+  "name": "dsh-web-lan-access",
+  "version": "1.0.0",
+  "description": "LAN / remote access support for the DeepSeek Harness Web UI: polyfills crypto.randomUUID on insecure (plain-HTTP) origins so the frontend survives LAN or Tailscale IP direct links. Host-side index-tap plugin.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "lan",
+    "remote-access",
+    "polyfill"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/AcidGr/dsh-web-lan-access.git",
+  "homepage": "https://github.com/AcidGr/dsh-web-lan-access",
+  "npm": "https://www.npmjs.com/package/dsh-web-lan-access",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T14:57:40.646Z",
+  "created_at": "2026-08-14T14:57:40.425Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:54.893Z"
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-agent-run-logger",
+  "name": "dsh-agent-run-logger",
+  "version": "0.1.0",
+  "description": "Local JSONL run traces for DeepSeek Harness sessions",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "agent-tracing",
+    "agent-observability",
+    "jsonl"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/bluefateludi/dsh-agent-run-logger.git",
+  "homepage": "https://github.com/bluefateludi/dsh-agent-run-logger#readme",
+  "npm": "https://www.npmjs.com/package/dsh-agent-run-logger",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T03:00:00.479Z",
+  "created_at": "2026-08-16T03:00:00.262Z",
+  "gh": {
+    "full_name": "bluefateludi/dsh-agent-run-logger",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T03:56:11Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 58,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:59:34.358Z"
+}

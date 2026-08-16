@@ -1,0 +1,58 @@
+{
+  "slug": "gdkanban",
+  "name": "gdkanban",
+  "version": "0.1.0",
+  "description": "搞定看板 (gdkanban) — a DSH web GUI task board with custom categories, per-task workspace binding, and dual list/kanban views. Tasks execute for real through dsh sessions (session.prompt). Hot-pluggable, no dsh source changes.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "task-board",
+    "kanban",
+    "todo",
+    "cron"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/Alpha961/gdkanban.git",
+  "homepage": "https://github.com/Alpha961/gdkanban#readme",
+  "npm": "https://www.npmjs.com/package/gdkanban",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T11:21:29.789Z",
+  "created_at": "2026-08-15T11:21:29.583Z",
+  "gh": {
+    "full_name": "Alpha961/gdkanban",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T11:15:20Z",
+    "archived": false,
+    "license": "BSD-3-Clause"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 85,
+    "security": 40,
+    "dsh_compat": 80,
+    "overall": 59,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:53.108Z"
+}

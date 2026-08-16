@@ -1,0 +1,47 @@
+{
+  "slug": "sakikotgw--pack-agent-dsh",
+  "name": "@sakikotgw/pack-agent-dsh",
+  "version": "0.4.3",
+  "description": "DeepSeek Harness plugin: project Agent Modpacks into .agent-pack/modpacks and allow them",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent-modpack",
+    "pack-agent"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/sakikoTGW/pack-agent.git",
+  "homepage": "https://github.com/sakikoTGW/pack-agent/blob/main/dsh-plugin/README.md",
+  "npm": "https://www.npmjs.com/package/@sakikotgw/pack-agent-dsh",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T08:24:00.719Z",
+  "created_at": "2026-08-13T20:01:20.516Z",
+  "gh": {
+    "full_name": "sakikoTGW/pack-agent",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T08:25:32Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 98,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 59,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:26.987Z"
+}

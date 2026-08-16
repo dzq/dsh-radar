@@ -1,0 +1,57 @@
+{
+  "slug": "dsh-inspector",
+  "name": "dsh-inspector",
+  "version": "0.1.1",
+  "description": "Inspect and manage the live instruction chain and project skills for the current dsh session, with in-place creation and editing — what you see is what the model gets",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek",
+    "deepseek-harness",
+    "deepseek-ai",
+    "cordis",
+    "plugin",
+    "ai-agent",
+    "coding-agent",
+    "inspector",
+    "devtools",
+    "debugging",
+    "instruction-chain",
+    "skills"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/CocoSgt/dsh-inspector.git",
+  "homepage": "https://github.com/CocoSgt/dsh-inspector#readme",
+  "npm": "https://www.npmjs.com/package/dsh-inspector",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T14:06:40.553Z",
+  "created_at": "2026-08-14T09:19:12.178Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:57.873Z"
+}

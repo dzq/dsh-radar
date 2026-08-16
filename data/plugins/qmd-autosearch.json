@@ -1,0 +1,46 @@
+{
+  "slug": "qmd-autosearch",
+  "name": "qmd-autosearch",
+  "version": "0.1.0",
+  "description": "DSH plugin: auto-supplement QMD semantic search when the model greps/globs a knowledge-base directory",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "qmd",
+    "semantic-search",
+    "mcp",
+    "knowledge-base"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zhangzhenwen1/qmd-autosearch.git",
+  "homepage": "https://github.com/zhangzhenwen1/qmd-autosearch",
+  "npm": "https://www.npmjs.com/package/qmd-autosearch",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T10:52:08.725Z",
+  "created_at": "2026-08-15T10:52:08.511Z",
+  "gh": {
+    "full_name": "zhangzhenwen1/qmd-autosearch",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T01:30:07Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:08.766Z"
+}

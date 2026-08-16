@@ -1,0 +1,39 @@
+{
+  "slug": "yogsoth-ai--dare-dsh",
+  "name": "@yogsoth-ai/dare-dsh",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness plugin for the De-Anthropocentric Research Engine: 920 research skills, with an opt-in MCP server fleet",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "skills",
+    "research",
+    "mcp"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/yogsoth-ai/de-anthropocentric-research-engine.git",
+  "homepage": "https://github.com/yogsoth-ai/de-anthropocentric-research-engine#readme",
+  "npm": "https://www.npmjs.com/package/@yogsoth-ai/dare-dsh",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T07:27:22.769Z",
+  "created_at": "2026-08-15T07:27:22.221Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 43,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:00.121Z"
+}

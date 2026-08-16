@@ -1,0 +1,39 @@
+{
+  "slug": "dsh-plugin-local-vision",
+  "name": "dsh-plugin-local-vision",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness 本地视觉插件：通过 LM Studio 本地视觉模型描述图片/截图，全本地、无云端依赖。提供 vision_describe 工具（Node 原生后端，可选 Python 压缩后端）。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "lm-studio",
+    "vision",
+    "local",
+    "qwen3-vl"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-local-vision",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T02:01:58.517Z",
+  "created_at": "2026-08-16T02:01:58.194Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 41,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:17.853Z"
+}

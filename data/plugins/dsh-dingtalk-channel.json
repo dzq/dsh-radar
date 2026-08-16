@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-dingtalk-channel",
+  "name": "dsh-dingtalk-channel",
+  "version": "0.1.0",
+  "description": "DingTalk IM bot channel for DeepSeek Harness: each chat drives its own agent, replies and thinking come back as messages over the Stream-mode long connection.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "deepseek-harness",
+    "dingtalk",
+    "dingding",
+    "channel",
+    "chatbot",
+    "im-bot",
+    "cordis",
+    "ai-agent",
+    "stream"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/ttmouse/dsh-dingtalk-channel.git",
+  "homepage": "https://github.com/ttmouse/dsh-dingtalk-channel",
+  "npm": "https://www.npmjs.com/package/dsh-dingtalk-channel",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T16:26:04.217Z",
+  "created_at": "2026-08-15T16:26:04.016Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:07.409Z"
+}

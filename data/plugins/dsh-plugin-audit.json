@@ -1,0 +1,41 @@
+{
+  "slug": "dsh-plugin-audit",
+  "name": "dsh-plugin-audit",
+  "version": "0.1.2",
+  "description": "Security audit plugin for DeepSeek Harness: static permission profiling and a runtime sentinel for third-party plugins",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "security",
+    "audit"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-audit",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T05:12:44.893Z",
+  "created_at": "2026-08-14T03:59:47.366Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 65,
+    "dsh_compat": 75,
+    "overall": 55,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:59:25.287Z"
+}

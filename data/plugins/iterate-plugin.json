@@ -1,0 +1,44 @@
+{
+  "slug": "iterate-plugin",
+  "name": "iterate-plugin",
+  "version": "2.3.7",
+  "description": "dsh plugin that turns the iterate skill into an autonomous closed-loop harness: plan -> parallel review xN -> atomic fixes -> validate -> loop -> auto-stop, plus a dry-run pure-review mode with multi-round convergence and a meta-review that audits the rep",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "iterate",
+    "code-review",
+    "autonomous",
+    "dry-run",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/jingzhao-l/iterate-skill.git",
+  "homepage": "https://github.com/jingzhao-l/iterate-skill#readme",
+  "npm": "https://www.npmjs.com/package/iterate-plugin",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T00:26:53.278Z",
+  "created_at": "2026-08-14T12:59:03.522Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 65,
+    "dsh_compat": 75,
+    "overall": 55,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:59:36.241Z"
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "evan-williams--vision-tool",
+  "name": "@evan-williams/vision-tool",
+  "version": "0.1.0",
+  "description": "Conversation-style UI/UX visual review plugin for DeepSeek Harness: vision_review / vision_ask tools backed by any OpenAI-compatible multimodal endpoint (e.g. agnes-2.5-flash)",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "vision",
+    "ui-review",
+    "screenshot",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/HaowenCang/vision-tool.git",
+  "homepage": "https://github.com/HaowenCang/vision-tool#readme",
+  "npm": "https://www.npmjs.com/package/@evan-williams/vision-tool",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T16:36:30.541Z",
+  "created_at": "2026-08-14T16:36:30.106Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:55.510Z"
+}

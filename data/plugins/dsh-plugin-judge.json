@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-plugin-judge",
+  "name": "dsh-plugin-judge",
+  "version": "0.1.1",
+  "description": "Plugin value auditor for DeepSeek Harness: judge a plugin before install and audit installed ones — heuristic scan + LLM judge, with model-switch re-audit reminders. · DSH 插件价值裁判：装前判断值不值得装，装后审计是否还该留，模型切换时提醒复核。",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "plugin-audit",
+    "plugin-judge",
+    "evaluation"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/pengxuding/dsh-plugin-judge.git",
+  "homepage": "https://github.com/pengxuding/dsh-plugin-judge#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-judge",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T06:15:31.759Z",
+  "created_at": "2026-08-15T04:52:14.453Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 55,
+    "dsh_compat": 85,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:30.684Z"
+}

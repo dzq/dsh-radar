@@ -1,0 +1,37 @@
+{
+  "slug": "dsh-safeguard",
+  "name": "dsh-safeguard",
+  "version": "0.1.1",
+  "description": "面向 DeepSeek Harness（DSH）的危险命令 + 密钥泄漏拦截插件。挂载到 `tools/pre-execute` waterfall，在工具解析前短路拒绝，被拦截的副作用不会发生。",
+  "keywords": [
+    "dsh-plugin",
+    "security",
+    "guard"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-safeguard",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T03:42:19.793Z",
+  "created_at": "2026-08-15T03:40:49.977Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 40,
+    "dsh_compat": 75,
+    "overall": 48,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:24.890Z"
+}

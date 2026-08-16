@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-plugin-llmtr",
+  "name": "dsh-plugin-llmtr",
+  "version": "0.1.0",
+  "description": "LLMTR AI gateway provider for the DeepSeek Harness LLM seam: 170+ chat models and Türkiye-hosted LLMs behind one OpenAI-compatible key",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "cordis",
+    "llm",
+    "llmtr",
+    "ai-gateway",
+    "openai-compatible",
+    "turkiye",
+    "kvkk"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/knowhycodata/dsh-plugin-llmtr.git",
+  "homepage": "https://llmtr.com",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-llmtr",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T16:35:40.931Z",
+  "created_at": "2026-08-15T16:35:40.575Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:03.930Z"
+}

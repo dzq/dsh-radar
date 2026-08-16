@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-session-import-codex",
+  "name": "dsh-session-import-codex",
+  "version": "0.1.1",
+  "description": "DeepSeek Harness plugin for importing Codex App Server conversation history",
+  "keywords": [
+    "codex",
+    "cordis",
+    "deepseek-harness",
+    "dsh-plugin",
+    "migration",
+    "session-import"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/xing01l/session-import-codex.git",
+  "homepage": "https://github.com/xing01l/session-import-codex#readme",
+  "npm": "https://www.npmjs.com/package/dsh-session-import-codex",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T09:55:01.893Z",
+  "created_at": "2026-08-14T08:38:55.753Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:57.056Z"
+}

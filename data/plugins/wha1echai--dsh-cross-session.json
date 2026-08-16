@@ -1,0 +1,44 @@
+{
+  "slug": "wha1echai--dsh-cross-session",
+  "name": "@wha1echai/dsh-cross-session",
+  "version": "0.1.0-rc.1",
+  "description": "Same-runtime cross-Session discovery and communication for DeepSeek Harness",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "agent",
+    "multi-agent",
+    "cross-session"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Wha1eChai/dsh-cross-session.git",
+  "homepage": "https://github.com/Wha1eChai/dsh-cross-session#readme",
+  "npm": "https://www.npmjs.com/package/@wha1echai/dsh-cross-session",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T13:24:49.241Z",
+  "created_at": "2026-08-14T13:24:48.898Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:54.685Z"
+}

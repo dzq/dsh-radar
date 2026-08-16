@@ -1,0 +1,36 @@
+{
+  "slug": "npm_thanks-for-forest--my-dsh-tool",
+  "name": "@npm_thanks-for-forest/my-dsh-tool",
+  "version": "0.1.2",
+  "description": "Minimal dsh tool plugin: read a file from disk.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "tool"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@npm_thanks-for-forest/my-dsh-tool",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T02:01:16.053Z",
+  "created_at": "2026-08-15T01:18:27.708Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 38,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-16T07:59:27.747Z"
+}

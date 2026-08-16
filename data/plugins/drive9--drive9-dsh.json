@@ -1,0 +1,42 @@
+{
+  "slug": "drive9--drive9-dsh",
+  "name": "@drive9/drive9-dsh",
+  "version": "0.1.0",
+  "description": "Drive9 workspace and durable evidence components for DeepSeek Harness",
+  "keywords": [
+    "deepseek",
+    "agent",
+    "harness",
+    "dsh-plugin",
+    "workspace",
+    "evidence"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/drive9-ai/drive9-dsh.git",
+  "homepage": "https://github.com/drive9-ai/drive9-dsh#readme",
+  "npm": "https://www.npmjs.com/package/@drive9/drive9-dsh",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T17:59:33.850Z",
+  "created_at": "2026-08-14T17:59:33.546Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:09.206Z"
+}

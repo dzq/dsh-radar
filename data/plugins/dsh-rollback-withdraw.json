@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-rollback-withdraw",
+  "name": "dsh-rollback-withdraw",
+  "version": "0.1.1",
+  "description": "Trae-style withdraw for DeepSeek Harness Web: a rollback button on every user/assistant message that restores the workspace code (git commits or hard-link file snapshots) and forks the session back to the last completed turn. 会话撤回插件：每条消息一键回滚代码与对话。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "rollback",
+    "withdraw",
+    "undo",
+    "version-control",
+    "session-fork"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-rollback-withdraw",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T07:22:03.282Z",
+  "created_at": "2026-08-15T07:06:58.921Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:04.697Z"
+}

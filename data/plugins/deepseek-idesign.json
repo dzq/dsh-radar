@@ -1,0 +1,45 @@
+{
+  "slug": "deepseek-idesign",
+  "name": "deepseek-idesign",
+  "version": "0.2.2",
+  "description": "iPolloWork Design Studio and its curated design templates as a native DeepSeek Harness conversation view.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "design-studio",
+    "ipollowork"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "repo": "git+https://github.com/Devin-AXIS/iPolloWork.git",
+  "homepage": "https://github.com/Devin-AXIS/deepseek-design#deepseek-idesign",
+  "npm": "https://www.npmjs.com/package/deepseek-idesign",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T15:20:31.282Z",
+  "created_at": "2026-08-15T11:26:28.550Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:03.723Z"
+}

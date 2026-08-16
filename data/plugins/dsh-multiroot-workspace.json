@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-multiroot-workspace",
+  "name": "dsh-multiroot-workspace",
+  "version": "0.1.0-rc.1",
+  "description": "Multi-root logical Workspaces for DeepSeek Harness",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "multi-root",
+    "workspace"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Blackoutta/dsh-multiroot-workspace.git",
+  "homepage": "https://github.com/Blackoutta/dsh-multiroot-workspace#readme",
+  "npm": "https://www.npmjs.com/package/dsh-multiroot-workspace",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=24.11.1 <25"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T15:29:57.646Z",
+  "created_at": "2026-08-15T15:20:02.950Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 44,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:11.261Z"
+}

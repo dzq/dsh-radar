@@ -1,0 +1,59 @@
+{
+  "slug": "dsh-plugin-session-import",
+  "name": "dsh-plugin-session-import",
+  "version": "0.1.1",
+  "description": "DeepSeek Harness 插件：导入 claude-code / codex / reasonix / zcode 的聊天记录为 dsh 会话（含工作区绑定）。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "harness",
+    "session",
+    "import",
+    "claude-code",
+    "codex",
+    "reasonix",
+    "zcode"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/huguangyu666/dsh-plugin-session-import.git",
+  "homepage": "https://github.com/huguangyu666/dsh-plugin-session-import#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-session-import",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22.5"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T11:58:10.772Z",
+  "created_at": "2026-08-13T22:48:50.712Z",
+  "gh": {
+    "full_name": "huguangyu666/dsh-plugin-session-import",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T12:21:16Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 90,
+    "overall": 65,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:30.670Z"
+}

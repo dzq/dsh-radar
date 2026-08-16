@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-usage-stats",
+  "name": "dsh-usage-stats",
+  "version": "0.1.15",
+  "description": "Lightweight usage analytics for DeepSeek Harness — token trends, activity heatmaps, model breakdowns, and exports.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "token-usage",
+    "data-visualization",
+    "analytics",
+    "usage-statistics"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/lanlandeli/dsh-usage-stats.git",
+  "homepage": "https://github.com/lanlandeli/dsh-usage-stats#readme",
+  "npm": "https://www.npmjs.com/package/dsh-usage-stats",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T06:47:35.276Z",
+  "created_at": "2026-08-14T05:18:40.317Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:36.652Z"
+}

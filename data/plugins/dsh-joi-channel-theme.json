@@ -1,0 +1,58 @@
+{
+  "slug": "dsh-joi-channel-theme",
+  "name": "dsh-joi-channel-theme",
+  "version": "0.1.1",
+  "description": "轴伊 Joi 双衣装主题（Joi-Flowers / Joi-Library）for DeepSeek Harness — unofficial, non-commercial fan theme plugin",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "theme",
+    "vtuber",
+    "joi",
+    "virtuareal"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/tpmoonchefryan/dsh-joi-channel-theme.git",
+  "homepage": "https://github.com/tpmoonchefryan/dsh-joi-channel-theme#readme",
+  "npm": "https://www.npmjs.com/package/dsh-joi-channel-theme",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T07:50:43.581Z",
+  "created_at": "2026-08-16T06:56:54.392Z",
+  "gh": {
+    "full_name": "tpmoonchefryan/dsh-joi-channel-theme",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:45:28Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 64,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:39.677Z"
+}

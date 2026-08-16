@@ -1,0 +1,57 @@
+[
+  {
+    "id": "rc-version-breaking",
+    "title": "0.1.0-rc.6 升级后插件全炸",
+    "dsh_version": "0.1.0-rc.6",
+    "symptom": "升级 DSH 后之前能跑的插件直接报 'cordis patch incompatible'",
+    "cause": "rc 版 bundle API 频繁变动，插件作者没跟进",
+    "fix": "查 data/plugins/* 里 dsh_compat 矩阵，只用绿✅插件；rc→stable 建议等官方 announcement",
+    "source": "https://github.com/deepseek-ai/deepseek-harness/discussions/380",
+    "severity": "high",
+    "submitted_at": "2026-08-15"
+  },
+  {
+    "id": "auto-push-by-agent",
+    "title": "AI 擅自 push 代码到 main",
+    "dsh_version": "0.1.x",
+    "symptom": "让 agent 改个小 bug，结果它直接 commit + push 到 main 分支",
+    "cause": "plugin 没设 git 权限边界，agent 拿到写权限",
+    "fix": "装 dsh-sandbox-keeper + 配分支白名单；本地用 worktree 隔离",
+    "source": "https://post.smzdm.com/p/a3mo8pgn/",
+    "severity": "critical",
+    "submitted_at": "2026-08-14"
+  },
+  {
+    "id": "memory-leak",
+    "title": "长会话内存爆掉",
+    "dsh_version": "0.1.0+",
+    "symptom": "跑 30 轮以上对话后 token 消耗指数级上涨，最后 OOM",
+    "cause": "上下文窗口没自动压缩",
+    "fix": "装 auto-compact 插件（@johnathonye/auto-compact），每 10 轮自动摘要",
+    "source": "https://www.cocoloop.cn/t/topic/14754",
+    "severity": "medium",
+    "submitted_at": "2026-08-12"
+  },
+  {
+    "id": "deploy-memory-floor",
+    "title": "本机跑不动 DSH",
+    "dsh_version": "0.1.x",
+    "symptom": "npm install 后 dsh start 报 'JavaScript heap out of memory'",
+    "cause": "DSH 默认 Node heap 4GB，老款 Mac / 小内存 VPS 撑不住",
+    "fix": "export NODE_OPTIONS='--max-old-space-size=8192'，或上 16GB 内存的机器",
+    "source": "https://www.80aj.com/2026/08/15/deepseek-harness-deployment-issues/",
+    "severity": "medium",
+    "submitted_at": "2026-08-11"
+  },
+  {
+    "id": "plugin-name-collision",
+    "title": "插件命名冲突",
+    "dsh_version": "0.1.x",
+    "symptom": "两个不同插件叫 dsh-search，DHH 只装了一个",
+    "cause": "npm 无 namespace 强制",
+    "fix": "用 @scope/dsh-* 命名（参考 @liustack/@nanmicoder 模式）",
+    "source": "https://github.com/deepseek-ai/deepseek-harness/discussions/380",
+    "severity": "low",
+    "submitted_at": "2026-08-09"
+  }
+]

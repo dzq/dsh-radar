@@ -1,0 +1,50 @@
+{
+  "slug": "perrylink--dsh-github",
+  "name": "@perrylink/dsh-github",
+  "version": "0.4.1",
+  "description": "GitHub integration for DeepSeek Harness: create pull requests, review PRs with background jobs, and read issues — every write gated by human approval",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "github",
+    "pull-request",
+    "code-review",
+    "issue-tracker"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/PerryLink/dsh-github.git",
+  "homepage": "https://github.com/PerryLink/dsh-github#readme",
+  "npm": "https://www.npmjs.com/package/@perrylink/dsh-github",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T11:26:12.740Z",
+  "created_at": "2026-08-14T11:20:57.922Z",
+  "gh": {
+    "full_name": "PerryLink/dsh-github",
+    "stars": 3,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T11:27:03Z",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 98,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 62,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:01:07.162Z"
+}

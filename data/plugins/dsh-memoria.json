@@ -1,0 +1,40 @@
+{
+  "slug": "dsh-memoria",
+  "name": "dsh-memoria",
+  "version": "0.1.0",
+  "description": "Memoria long-term memory for DeepSeek Harness: one owned Python subprocess + native store/recall tools + auto recall injection",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "memory",
+    "memoria",
+    "long-term-memory",
+    "agent"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-memoria",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T23:18:42.611Z",
+  "created_at": "2026-08-15T23:18:42.405Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:37.917Z"
+}

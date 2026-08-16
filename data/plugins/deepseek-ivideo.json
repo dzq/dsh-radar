@@ -1,0 +1,48 @@
+{
+  "slug": "deepseek-ivideo",
+  "name": "deepseek-ivideo",
+  "version": "0.1.0",
+  "description": "iPolloWork HyperFrames Video Studio and 27 editable video templates as a native DeepSeek Harness conversation view.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "video-studio",
+    "hyperframes",
+    "ipollowork"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "repo": "git+https://github.com/Devin-AXIS/iPolloWork.git",
+  "homepage": "https://github.com/Devin-AXIS/deepseek-design#deepseek-ivideo",
+  "npm": "https://www.npmjs.com/package/deepseek-ivideo",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T18:45:56.282Z",
+  "created_at": "2026-08-15T18:45:55.796Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:02.575Z"
+}

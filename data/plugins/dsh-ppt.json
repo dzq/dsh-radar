@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-ppt",
+  "name": "dsh-ppt",
+  "version": "0.1.0",
+  "description": "DSH 演示文稿技能 + 工具插件：一句话或一篇 Markdown 文档 → 完整演示文稿（独立 HTML 网页放映 + 可编辑 PPTX 导出），内置 5 套视觉主题，中英双语，SKILL.md 双格式跨 harness。",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "plugin",
+    "skills",
+    "ppt",
+    "pptx",
+    "presentation",
+    "slides",
+    "html"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/STARDUSTLC666/dsh-ppt.git",
+  "homepage": "https://github.com/STARDUSTLC666/dsh-ppt#readme",
+  "npm": "https://www.npmjs.com/package/dsh-ppt",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T05:16:59.464Z",
+  "created_at": "2026-08-16T05:16:59.034Z",
+  "gh": {
+    "full_name": "STARDUSTLC666/dsh-ppt",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T19:50:19Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 64,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:12.901Z"
+}

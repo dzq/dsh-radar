@@ -1,0 +1,43 @@
+{
+  "slug": "dsh-clawrouter",
+  "name": "dsh-clawrouter",
+  "version": "0.10.0",
+  "description": "A second brain for your DeepSeek Harness agent — strong-model review before risky tool calls, plus 67 models from one wallet. No accounts, no API keys.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "blockrun",
+    "clawrouter",
+    "x402",
+    "llm-router",
+    "code-review"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/BlockRunAI/dsh-clawrouter.git",
+  "homepage": "https://blockrun.ai",
+  "npm": "https://www.npmjs.com/package/dsh-clawrouter",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T17:31:36.856Z",
+  "created_at": "2026-08-14T01:05:46.855Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:37.758Z"
+}

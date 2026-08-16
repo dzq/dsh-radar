@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-plugin-git-workflow",
+  "name": "dsh-plugin-git-workflow",
+  "version": "0.1.1",
+  "description": "DeepSeek Harness plugin: first-class Git workflow tools for the model — repo status, diffs, commit creation with validated messages, recent history, and branches. No bare-shell git calls; every invocation is a shell-free execFile with path and message val",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "git",
+    "workflow",
+    "commit",
+    "diff",
+    "version-control"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/truelove-dreamer/dsh-plugin-git-workflow.git",
+  "homepage": "https://github.com/truelove-dreamer/dsh-plugin-git-workflow#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-git-workflow",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T10:16:40.659Z",
+  "created_at": "2026-08-14T09:43:45.766Z",
+  "gh": {
+    "full_name": "truelove-dreamer/dsh-plugin-git-workflow",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T10:09:49Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 98,
+    "quality": 75,
+    "security": 40,
+    "dsh_compat": 75,
+    "overall": 56,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:01:16.204Z"
+}

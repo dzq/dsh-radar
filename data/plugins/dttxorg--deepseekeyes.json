@@ -1,0 +1,63 @@
+{
+  "slug": "dttxorg--deepseekeyes",
+  "name": "@dttxorg/deepseekeyes",
+  "version": "0.5.0",
+  "description": "Auditable vision and cross-platform Computer Use runtime for DeepSeek Harness with source-preserving evidence.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "vision",
+    "multimodal",
+    "image",
+    "ocr",
+    "computer-use",
+    "playwright",
+    "desktop-automation",
+    "windows",
+    "macos",
+    "dsh-plugin",
+    "vision-bridge",
+    "auditable-ai",
+    "prompt-injection"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/dttxorg/deepseekeyes.git",
+  "homepage": "https://github.com/dttxorg/deepseekeyes#readme",
+  "npm": "https://www.npmjs.com/package/@dttxorg/deepseekeyes",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-settings-plugins",
+        "@deepseek-ai/dsh-api-remotes"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22.19"
+  },
+  "weekly_downloads": 575,
+  "monthly_downloads": 575,
+  "last_publish": "2026-08-15T16:40:54.792Z",
+  "created_at": "2026-08-15T11:27:10.831Z",
+  "gh": null,
+  "scores": {
+    "popularity": 69,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 65,
+    "dsh_compat": 80,
+    "overall": 73,
+    "grade": "A"
+  },
+  "updated_at": "2026-08-16T07:58:19.062Z"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "dsh-thinking-collapse",
+  "name": "dsh-thinking-collapse",
+  "version": "0.1.0",
+  "description": "Codex-style live reasoning and tool-call collapse for the DSH Web chat view.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "reasoning",
+    "tool-calls",
+    "web"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/SisyphusSQ/dsh-plugins.git",
+  "homepage": "https://github.com/SisyphusSQ/dsh-plugins/tree/main/packages/dsh-thinking-collapse#readme",
+  "npm": "https://www.npmjs.com/package/dsh-thinking-collapse",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-attachment",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-primitives",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-tool"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T14:02:22.692Z",
+  "created_at": "2026-08-15T14:02:22.279Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:39.120Z"
+}

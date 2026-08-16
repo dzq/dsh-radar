@@ -1,0 +1,227 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { loadJson } from '../lib/paths.mjs';
+
+const stats = await loadJson('stats.json');
+
+// 5 维权重
+const weights = {
+  popularity: 25,
+  maintenance: 20,
+  quality: 20,
+  security: 15,
+  dsh_compat: 20,
+};
+
+const totalWeight = Object.values(weights).reduce((s, w) => s + w, 0);
+---
+<Layout title="评分公式 — DSH Radar" active="methodology">
+  <section class="container section">
+    <h1 style="font-size:36px;margin-bottom:8px;">🧮 评分公式</h1>
+    <p class="sub">DSH Radar 怎么给每个插件打分？完全开源，欢迎质疑</p>
+
+    <div class="lead">
+      评分完全基于公开数据（npm registry + GitHub API），<strong>无人工黑箱</strong>。
+      所有代码在 <code>scripts/lib/score.mjs</code>，欢迎 PR 改进。
+    </div>
+
+    {/* 总览 */}
+    <div class="info-block" style="margin-top:32px;">
+      <h3>总分公式</h3>
+      <pre style="background:var(--bg);padding:16px;border-radius:8px;color:var(--accent);font-size:13px;margin-top:12px;overflow-x:auto;"><code>{`overall =
+  popularity   × ${weights.popularity}% +
+  maintenance  × ${weights.maintenance}% +
+  quality      × ${weights.quality}% +
+  security     × ${weights.security}% +
+  dsh_compat   × ${weights.dsh_compat}%
+// 权重总和 = ${totalWeight}%`}</code></pre>
+    </div>
+
+    {/* 5 维详解 */}
+    <h2 style="margin-top:48px;font-size:24px;">5 维详解</h2>
+
+    {/* Popularity */}
+    <div class="info-block" style="margin-top:16px;border-left:3px solid var(--accent);">
+      <h3 style="color:var(--accent);">📊 Popularity（人气） · 权重 {weights.popularity}%</h3>
+      <p style="color:var(--text-dim);margin-top:8px;">
+        基于 npm <strong>weekly downloads</strong>，log scale 归一化到 0-100。
+      </p>
+      <pre style="background:var(--bg);padding:12px;border-radius:6px;color:var(--accent);font-size:12px;margin-top:12px;overflow-x:auto;"><code>{`// log scale：10000 weekly downloads ≈ 满分
+popularity = min(100, round(
+  log10(weekly + 1) / log10(10000 + 1) × 100
+))`}</code></pre>
+      <p style="font-size:12px;color:var(--text-mute);margin-top:8px;">
+        <strong>为什么 log？</strong>头部插件下载量是腰部的 100-1000 倍，log scale 让长尾不被压扁。
+      </p>
+    </div>
+
+    {/* Maintenance */}
+    <div class="info-block" style="margin-top:16px;border-left:3px solid var(--grade-A);">
+      <h3 style="color:var(--grade-A);">🔧 Maintenance（维护活跃度） · 权重 {weights.maintenance}%</h3>
+      <p style="color:var(--text-dim);margin-top:8px;">
+        综合两个信号：npm 最后发布（60%）+ GitHub 最后 push（40%）。
+      </p>
+      <pre style="background:var(--bg);padding:12px;border-radius:6px;color:var(--accent);font-size:12px;margin-top:12px;overflow-x:auto;"><code>{`// 指数衰减：半衰期 4 个月
+maintenance = round(
+  recency(lastPublish, halfLife=120d) × 0.6 +
+  recency(lastPush,    halfLife=90d)  × 0.4
+)
+
+// recency(t, halfLife) = 100 × exp(-ageDays / halfLife)`}</code></pre>
+      <p style="font-size:12px;color:var(--text-mute);margin-top:8px;">
+        <strong>为什么 npm+GitHub 双源？</strong>npm 发版可能滞后于 GitHub 提交，反之亦然。
+      </p>
+    </div>
+
+    {/* Quality */}
+    <div class="info-block" style="margin-top:16px;border-left:3px solid var(--grade-B);">
+      <h3 style="color:var(--grade-B);">📦 Quality（文档质量） · 权重 {weights.quality}%</h3>
+      <p style="color:var(--text-dim);margin-top:8px;">
+        6 个文档信号加分（满分 100）：
+      </p>
+      <table style="width:100%;border-collapse:collapse;margin-top:12px;font-size:13px;">
+        <thead>
+          <tr style="background:var(--bg-elev2);">
+            <th style="padding:8px;text-align:left;color:var(--text-mute);font-size:11px;text-transform:uppercase;">信号</th>
+            <th style="padding:8px;text-align:right;color:var(--text-mute);font-size:11px;text-transform:uppercase;">加分</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom:1px solid var(--border);"><td style="padding:6px;">description &gt; 20 字</td><td style="padding:6px;text-align:right;color:var(--accent);">+15</td></tr>
+          <tr style="border-bottom:1px solid var(--border);"><td style="padding:6px;">description &gt; 60 字</td><td style="padding:6px;text-align:right;color:var(--accent);">+10</td></tr>
+          <tr style="border-bottom:1px solid var(--border);"><td style="padding:6px;">README &gt; 500 字</td><td style="padding:6px;text-align:right;color:var(--accent);">+20</td></tr>
+          <tr style="border-bottom:1px solid var(--border);"><td style="padding:6px;">README &gt; 3000 字</td><td style="padding:6px;text-align:right;color:var(--accent);">+15</td></tr>
+          <tr style="border-bottom:1px solid var(--border);"><td style="padding:6px;">keywords ≥ 3</td><td style="padding:6px;text-align:right;color:var(--accent);">+10</td></tr>
+          <tr style="border-bottom:1px solid var(--border);"><td style="padding:6px;">含 dsh-plugin keyword</td><td style="padding:6px;text-align:right;color:var(--accent);">+10</td></tr>
+          <tr style="border-bottom:1px solid var(--border);"><td style="padding:6px;">License 有效（非 SEE LICENSE IN ...）</td><td style="padding:6px;text-align:right;color:var(--accent);">+10</td></tr>
+          <tr><td style="padding:6px;">GitHub License 明确</td><td style="padding:6px;text-align:right;color:var(--accent);">+10</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    {/* Security */}
+    <div class="info-block" style="margin-top:16px;border-left:3px solid var(--bad);">
+      <h3 style="color:var(--bad);">🔒 Security（安全） · 权重 {weights.security}%</h3>
+      <p style="color:var(--text-dim);margin-top:8px;">
+        基础分 50，信号加减分（满分 100）：
+      </p>
+      <pre style="background:var(--bg);padding:12px;border-radius:6px;color:var(--accent);font-size:12px;margin-top:12px;overflow-x:auto;"><code>{`security = 50  // baseline
+  + trustedPublisher.oidcConfigId ? 25 : 0
+  + publisher.username ? 5 : 0
+  + /audit|sandbox|permission|allowlist/.test(desc) ? 15 : 0
+  - /eval|exec|child_process/.test(desc) && !/safe|sandbox/ ? 10 : 0
+  - gh.archived ? 30 : 0
+// clamp to [0, 100]`}</code></pre>
+      <p style="font-size:12px;color:var(--text-mute);margin-top:8px;">
+        <strong>局限性：</strong>这是<strong>启发式</strong>安全审计，不是真实代码审查。真实安全评估请用专业的 dsh-plugin-audit 或 Snyk。
+      </p>
+    </div>
+
+    {/* DSH Compat */}
+    <div class="info-block" style="margin-top:16px;border-left:3px solid var(--grade-S);">
+      <h3 style="color:var(--grade-S);">🔌 DSH Compat（DSH 兼容性） · 权重 {weights.dsh_compat}%</h3>
+      <p style="color:var(--text-dim);margin-top:8px;">
+        检测 package.json 里 DSH 标准字段：
+      </p>
+      <pre style="background:var(--bg);padding:12px;border-radius:6px;color:var(--accent);font-size:12px;margin-top:12px;overflow-x:auto;"><code>{`dsh_compat = 30  // baseline（挂了 dsh-plugin 标签就算）
+  + package.dsh ? 30 : 0
+  + package.dsh.bundle.patch ? 15 : 0
+  + package.dsh.client.platform ? 5 : 0
+  + engines.dsh ? 10 : 0
+  + (deps 或 peerDeps 包含 @deepseek-ai/dsh) ? 10 : 0
+  + exports['./cordis.patch.yml'] ? 5 : 0
+// clamp to [0, 100]`}</code></pre>
+      <p style="font-size:12px;color:var(--text-mute);margin-top:8px;">
+        <strong>cordis patch 是 DSH 插件标准格式</strong>：见 <a href="https://github.com/deepseek-ai/deepseek-harness" target="_blank" rel="noopener">deepseek-ai/deepseek-harness</a> 文档。
+      </p>
+    </div>
+
+    {/* 等级阈值 */}
+    <h2 style="margin-top:48px;font-size:24px;">等级阈值</h2>
+    <div class="info-block" style="margin-top:16px;">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:16px;margin-top:12px;">
+        <div style="text-align:center;">
+          <span class="grade grade-S" style="width:48px;height:48px;line-height:48px;font-size:24px;">S</span>
+          <div style="margin-top:8px;font-size:13px;color:var(--text-dim);">≥ 85</div>
+          <div style="margin-top:4px;font-size:12px;color:var(--grade-S);font-weight:700;">生产就绪</div>
+        </div>
+        <div style="text-align:center;">
+          <span class="grade grade-A" style="width:48px;height:48px;line-height:48px;font-size:24px;">A</span>
+          <div style="margin-top:8px;font-size:13px;color:var(--text-dim);">≥ 70</div>
+          <div style="margin-top:4px;font-size:12px;color:var(--grade-A);font-weight:700;">推荐使用</div>
+        </div>
+        <div style="text-align:center;">
+          <span class="grade grade-B" style="width:48px;height:48px;line-height:48px;font-size:24px;">B</span>
+          <div style="margin-top:8px;font-size:13px;color:var(--text-dim);">≥ 55</div>
+          <div style="margin-top:4px;font-size:12px;color:var(--grade-B);font-weight:700;">可用</div>
+        </div>
+        <div style="text-align:center;">
+          <span class="grade grade-C" style="width:48px;height:48px;line-height:48px;font-size:24px;">C</span>
+          <div style="margin-top:8px;font-size:13px;color:var(--text-dim);">≥ 40</div>
+          <div style="margin-top:4px;font-size:12px;color:var(--grade-C);font-weight:700;">谨慎</div>
+        </div>
+        <div style="text-align:center;">
+          <span class="grade grade-D" style="width:48px;height:48px;line-height:48px;font-size:24px;">D</span>
+          <div style="margin-top:8px;font-size:13px;color:var(--text-dim);">&lt; 40</div>
+          <div style="margin-top:4px;font-size:12px;color:var(--grade-D);font-weight:700;">高风险</div>
+        </div>
+      </div>
+    </div>
+
+    {/* 当前分布 */}
+    <h2 style="margin-top:48px;font-size:24px;">当前分布（{stats.total} 插件）</h2>
+    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:16px;">
+      {(['S', 'A', 'B', 'C', 'D'] as const).map((g) => {
+        const count = stats.by_grade[g] || 0;
+        const pct = (count / stats.total * 100).toFixed(1);
+        return (
+          <div style="text-align:center;padding:16px;background:var(--bg-elev);border:1px solid var(--border);border-radius:8px;">
+            <span class={`grade grade-${g}`} style="width:40px;height:40px;line-height:40px;font-size:18px;">{g}</span>
+            <div style="font-size:20px;font-weight:700;margin-top:8px;">{count}</div>
+            <div style="font-size:12px;color:var(--text-mute);">{pct}%</div>
+          </div>
+        );
+      })}
+    </div>
+
+    {/* 边界情况 */}
+    <h2 style="margin-top:48px;font-size:24px;">边界情况</h2>
+    <div style="display:grid;gap:12px;margin-top:16px;">
+      <details class="info-block" style="margin:0;cursor:pointer;">
+        <summary style="font-weight:600;color:var(--text);font-size:16px;">🆕 没有下载量的新插件怎么办？</summary>
+        <p style="color:var(--text-dim);margin-top:12px;font-size:14px;">
+          weekly_downloads=0 → popularity=0。整体分会被压低，除非 maintenance/quality/dsh_compat 很高。
+          这是合理的"冷启动惩罚"——新插件需要时间证明自己。
+        </p>
+      </details>
+
+      <details class="info-block" style="margin:0;cursor:pointer;">
+        <summary style="font-weight:600;color:var(--text);font-size:16px;">📦 没有 GitHub 仓库的包怎么办？</summary>
+        <p style="color:var(--text-dim);margin-top:12px;font-size:14px;">
+          gh=null → maintenance 只算 npm publish；quality/security 不算 GitHub 信号。
+          会比有 GitHub 的包略低，但不会被直接降到 D 级。
+        </p>
+      </details>
+
+      <details class="info-block" style="margin:0;cursor:pointer;">
+        <summary style="font-weight:600;color:var(--text);font-size:16px;">🔒 Archived 包会被惩罚吗？</summary>
+        <p style="color:var(--text-dim);margin-top:12px;font-size:14px;">
+          会。security 直接 -30 分。这是有意的——我们不希望团队误装已不维护的包。
+        </p>
+      </details>
+
+      <details class="info-block" style="margin:0;cursor:pointer;">
+        <summary style="font-weight:600;color:var(--text);font-size:16px;">🤔 怎么反馈评分不准？</summary>
+        <p style="color:var(--text-dim);margin-top:12px;font-size:14px;">
+          在 <a href="https://github.com/dsh-radar/dsh-radar/issues" target="_blank" rel="noopener">GitHub Issues</a> 提：
+          (1) 插件名；(2) 你认为应该的分数；(3) 理由。算法在 <code>scripts/lib/score.mjs</code>，可直接 PR 改公式。
+        </p>
+      </details>
+    </div>
+
+    <div class="empty" style="margin-top:48px;">
+      <h3 style="color:var(--text);margin-bottom:8px;">📝 想调整权重？</h3>
+      <p>改 <code>scripts/lib/score.mjs</code> 里的权重，跑 <code>node scripts/build-data.mjs</code> 重算。完全可复现。</p>
+    </div>
+  </section>
+</Layout>

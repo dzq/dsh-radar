@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-liquid-glass",
+  "name": "dsh-liquid-glass",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness 液态玻璃：点一下，整个界面通透起来。透明度随心调，背景图自由换——让你的 Agent 住进风景里。Liquid glass for DeepSeek Harness: one toggle to turn the whole shell translucent, with a live opacity slider and a custom full-page background.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "theme",
+    "skin",
+    "wallpaper",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Ultronen/dsh-liquid-glass.git",
+  "homepage": "https://github.com/Ultronen/dsh-liquid-glass",
+  "npm": "https://www.npmjs.com/package/dsh-liquid-glass",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-theme"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T01:03:21.669Z",
+  "created_at": "2026-08-16T01:03:21.360Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:26.946Z"
+}

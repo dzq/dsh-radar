@@ -1,0 +1,19 @@
+{
+  "name": "DSH Radar",
+  "short_name": "DSH Radar",
+  "description": "给 DSH 插件打 S/A/B/C 评分 · 版本兼容矩阵 · 实战配方 · 踩坑 Wiki",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0e1a",
+  "theme_color": "#5eead4",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["developer", "utilities", "productivity"],
+  "lang": "zh-CN"
+}

@@ -1,0 +1,243 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { loadJson } from '../lib/paths.mjs';
+
+const index = await loadJson('index.json');
+const stats = await loadJson('stats.json');
+
+// 只取 grade >= B 的插件作为推荐（避免冷门干扰叠加效果）
+const recommended = index.plugins.filter((p: any) => p.grade === 'S' || p.grade === 'A' || p.grade === 'B').slice(0, 50);
+---
+<Layout title="插件组合实验场 — DSH Radar" active="playground">
+  <section class="container section">
+    <h1 style="font-size:36px;margin-bottom:8px;">🧪 插件组合实验场</h1>
+    <p class="sub">挑几个插件 · 看组合雷达 · 一键导出 profile</p>
+
+    <div class="lead">
+      想知道"PPT 生成 + 自动路由 + 多 Agent 团队"的雷达叠加长什么样？
+      <br/>左边勾插件，右边实时看叠加效果，URL 自动同步可以分享。
+    </div>
+
+    <div style="display:grid;grid-template-columns:360px 1fr;gap:32px;margin-top:32px;">
+      {/* 左侧：插件选择 */}
+      <div>
+        <div style="display:flex;gap:8px;margin-bottom:16px;">
+          <input id="pg-filter" type="search" placeholder="搜索插件…" style="flex:1;padding:8px 12px;background:var(--bg-elev);border:1px solid var(--border);border-radius:6px;color:var(--text);font-size:13px;" />
+          <select id="pg-grade" style="padding:8px;background:var(--bg-elev);border:1px solid var(--border);border-radius:6px;color:var(--text);font-size:12px;">
+            <option value="">全部等级</option>
+            <option value="S">S</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+          </select>
+        </div>
+        <div id="pg-list" style="max-height:600px;overflow-y:auto;background:var(--bg-elev);border:1px solid var(--border);border-radius:8px;">
+          {recommended.map((p: any) => (
+            <label
+              class="pg-row"
+              data-name={p.name.toLowerCase()}
+              data-slug={p.slug}
+              data-grade={p.grade}
+              data-overall={p.overall}
+              data-popularity={p.weekly_downloads}
+              data-maintenance={0}
+              data-quality={0}
+              data-security={0}
+              data-dsh_compat={0}
+              style="display:flex;align-items:center;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);cursor:pointer;font-size:13px;"
+            >
+              <input type="checkbox" class="pg-check" value={p.slug} style="cursor:pointer;" />
+              <span class={`grade grade-${p.grade}`} style="width:24px;height:24px;line-height:24px;font-size:12px;">{p.grade}</span>
+              <div style="flex:1;min-width:0;">
+                <div style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">{p.name}</div>
+                <div style="font-size:11px;color:var(--text-mute);font-family:monospace;">{p.weekly_downloads.toLocaleString()} dl/wk · ★{p.stars}</div>
+              </div>
+            </label>
+          ))}
+        </div>
+      </div>
+
+      {/* 右侧：组合雷达 + 摘要 */}
+      <div>
+        <div class="radar-wrap" id="pg-radar-wrap" style="background:var(--bg-elev);border:1px solid var(--border);border-radius:12px;padding:20px;text-align:center;">
+          <h3 style="margin-bottom:12px;">组合雷达（叠加）</h3>
+          <svg id="pg-radar" viewBox="0 0 300 300" style="width:100%;max-width:340px;">
+            <text x="150" y="150" text-anchor="middle" fill="#5a6376" font-size="14" font-family="monospace">← 选插件</text>
+          </svg>
+          <div id="pg-summary" style="display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:16px;font-size:12px;">
+            <div><span style="color:var(--text-mute);">Pop</span><br/><strong id="pg-pop" style="color:var(--accent);font-size:18px;">—</strong></div>
+            <div><span style="color:var(--text-mute);">Maint</span><br/><strong id="pg-maint" style="color:var(--accent);font-size:18px;">—</strong></div>
+            <div><span style="color:var(--text-mute);">Qual</span><br/><strong id="pg-qual" style="color:var(--accent);font-size:18px;">—</strong></div>
+            <div><span style="color:var(--text-mute);">Sec</span><br/><strong id="pg-sec" style="color:var(--accent);font-size:18px;">—</strong></div>
+            <div><span style="color:var(--text-mute);">DSH</span><br/><strong id="pg-dsh" style="color:var(--accent);font-size:18px;">—</strong></div>
+          </div>
+        </div>
+
+        <div class="info-block" style="margin-top:16px;">
+          <h3>导出 profile</h3>
+          <p style="color:var(--text-dim);font-size:13px;margin-bottom:8px;">
+            选中 {<span id="pg-count">0</span>} 个插件 · 平均 Overall <strong id="pg-overall" style="color:var(--accent);">—</strong>
+          </p>
+          <pre id="pg-json" style="background:var(--bg);padding:12px;border-radius:6px;color:var(--accent);font-size:11px;overflow-x:auto;max-height:200px;"><code>{`{
+  "profile": "my-dsh-stack",
+  "plugins": []
+}`}</code></pre>
+          <button id="pg-copy" class="btn" style="margin-top:8px;">📋 复制 JSON</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<script is:inline>
+(function() {
+  const filter = document.getElementById('pg-filter');
+  const grade = document.getElementById('pg-grade');
+  const list = document.getElementById('pg-list');
+  const rows = Array.from(list.querySelectorAll('.pg-row'));
+  const checks = Array.from(list.querySelectorAll('.pg-check'));
+  const radar = document.getElementById('pg-radar');
+  const summary = {
+    pop: document.getElementById('pg-pop'),
+    maint: document.getElementById('pg-maint'),
+    qual: document.getElementById('pg-qual'),
+    sec: document.getElementById('pg-sec'),
+    dsh: document.getElementById('pg-dsh'),
+  };
+  const countEl = document.getElementById('pg-count');
+  const overallEl = document.getElementById('pg-overall');
+  const jsonEl = document.getElementById('pg-json');
+  const copyBtn = document.getElementById('pg-copy');
+
+  // 过滤
+  function applyFilter() {
+    const term = (filter.value || '').toLowerCase();
+    const g = grade.value;
+    rows.forEach((r) => {
+      const match = (!term || r.dataset.name.includes(term)) && (!g || r.dataset.grade === g);
+      r.style.display = match ? '' : 'none';
+    });
+  }
+  filter.addEventListener('input', applyFilter);
+  grade.addEventListener('change', applyFilter);
+
+  // 从 URL 恢复选择
+  const params = new URLSearchParams(location.search);
+  const initialSlugs = (params.get('p') || '').split(',').filter(Boolean);
+  if (initialSlugs.length > 0) {
+    initialSlugs.forEach((slug) => {
+      const check = checks.find((c) => c.value === slug);
+      if (check) check.checked = true;
+    });
+  }
+
+  // 雷达渲染
+  function renderRadar(selected) {
+    if (selected.length === 0) {
+      radar.innerHTML = '<text x="150" y="150" text-anchor="middle" fill="#5a6376" font-size="14" font-family="monospace">← 选插件</text>';
+      ['pop', 'maint', 'qual', 'sec', 'dsh'].forEach((k) => summary[k].textContent = '—');
+      countEl.textContent = '0';
+      overallEl.textContent = '—';
+      jsonEl.querySelector('code').textContent = '{\n  "profile": "my-dsh-stack",\n  "plugins": []\n}';
+      return;
+    }
+
+    // 计算叠加（取平均）
+    const sums = { pop: 0, maint: 0, qual: 0, sec: 0, dsh: 0 };
+    let overallSum = 0;
+    selected.forEach((r) => {
+      sums.pop += Number(r.dataset.popularity);
+      sums.maint += Number(r.dataset.maintenance);
+      sums.qual += Number(r.dataset.quality);
+      sums.sec += Number(r.dataset.security);
+      sums.dsh += Number(r.dataset.dsh_compat);
+      overallSum += Number(r.dataset.overall);
+    });
+    const n = selected.length;
+    const avg = {
+      pop: Math.round(sums.pop / n),
+      maint: Math.round(sums.maint / n),
+      qual: Math.round(sums.qual / n),
+      sec: Math.round(sums.sec / n),
+      dsh: Math.round(sums.dsh / n),
+      overall: Math.round(overallSum / n),
+    };
+
+    ['pop', 'maint', 'qual', 'sec', 'dsh'].forEach((k) => summary[k].textContent = avg[k]);
+    countEl.textContent = n;
+    overallEl.textContent = avg.overall;
+
+    jsonEl.querySelector('code').textContent = JSON.stringify({
+      profile: 'my-dsh-stack',
+      plugins: selected.map((r) => r.dataset.slug),
+      avg_scores: avg,
+    }, null, 2);
+
+    // 画雷达图
+    const dims = [
+      { key: 'pop', label: 'Popularity' },
+      { key: 'maint', label: 'Maintenance' },
+      { key: 'qual', label: 'Quality' },
+      { key: 'sec', label: 'Security' },
+      { key: 'dsh', label: 'DSH Compat' },
+    ];
+    const cx = 150, cy = 150, r = 110;
+    function point(angle, val) {
+      const rad = (angle - 90) * (Math.PI / 180);
+      const dist = (r * val) / 100;
+      return { x: cx + dist * Math.cos(rad), y: cy + dist * Math.sin(rad) };
+    }
+    const dataPoly = dims.map((d, i) => {
+      const angle = (360 / dims.length) * i;
+      return point(angle, avg[d.key]);
+    }).map((p) => `${p.x},${p.y}`).join(' ');
+
+    radar.innerHTML = `
+      ${[20, 40, 60, 80, 100].map((lv) => {
+        const pts = dims.map((_, i) => {
+          const angle = (360 / dims.length) * i;
+          return point(angle, lv);
+        }).map((p) => `${p.x},${p.y}`).join(' ');
+        return `<polygon points="${pts}" fill="none" stroke="#232b3d" stroke-width="1"/>`;
+      }).join('')}
+      <polygon points="${dataPoly}" fill="rgba(94,234,212,0.2)" stroke="#5eead4" stroke-width="2"/>
+      ${dims.map((d, i) => {
+        const p = point((360 / dims.length) * i, avg[d.key]);
+        return `<circle cx="${p.x}" cy="${p.y}" r="3" fill="#5eead4"/>`;
+      }).join('')}
+      ${dims.map((d, i) => {
+        const angle = (360 / dims.length) * i;
+        const rad = (angle - 90) * (Math.PI / 180);
+        const lx = cx + (r + 16) * Math.cos(rad);
+        const ly = cy + (r + 16) * Math.sin(rad);
+        return `<text x="${lx}" y="${ly - 2}" text-anchor="middle" fill="#8b96a8" font-size="9" font-family="monospace">${d.label}</text>
+                <text x="${lx}" y="${ly + 10}" text-anchor="middle" fill="#5eead4" font-size="11" font-family="monospace" font-weight="700">${avg[d.key]}</text>`;
+      }).join('')}
+    `;
+
+    // URL 同步
+    const slugs = selected.map((r) => r.dataset.slug).join(',');
+    const u = new URLSearchParams(location.search);
+    if (slugs) u.set('p', slugs); else u.delete('p');
+    history.replaceState(null, '', u.toString() ? '?' + u : location.pathname);
+  }
+
+  checks.forEach((c) => {
+    c.addEventListener('change', () => {
+      const selected = rows.filter((r) => r.querySelector('.pg-check').checked);
+      renderRadar(selected);
+    });
+  });
+
+  copyBtn.addEventListener('click', () => {
+    const text = jsonEl.querySelector('code').textContent;
+    navigator.clipboard.writeText(text).then(() => {
+      copyBtn.textContent = '✅ 已复制';
+      setTimeout(() => copyBtn.textContent = '📋 复制 JSON', 2000);
+    });
+  });
+
+  // 初始渲染
+  const initialSelected = rows.filter((r) => r.querySelector('.pg-check').checked);
+  renderRadar(initialSelected);
+})();
+</script>

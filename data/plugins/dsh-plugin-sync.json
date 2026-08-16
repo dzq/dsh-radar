@@ -1,0 +1,57 @@
+{
+  "slug": "dsh-plugin-sync",
+  "name": "dsh-plugin-sync",
+  "version": "1.0.0",
+  "description": "DSH 插件同步：将 DeepSeek Harness 已安装插件清单同步到 GitHub Gist（OAuth 快捷登录，导出/导入，导入后自动安装依赖）。",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "gist",
+    "sync",
+    "plugin-manager"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/AngLi1997/dsh-plugin-sync.git",
+  "homepage": "https://github.com/AngLi1997/dsh-plugin-sync#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-sync",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T15:59:59.306Z",
+  "created_at": "2026-08-15T15:59:58.982Z",
+  "gh": {
+    "full_name": "AngLi1997/dsh-plugin-sync",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T16:02:10Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 60,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:59.224Z"
+}

@@ -1,0 +1,298 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+<Layout title="GitHub Actions 配置 — DSH Radar" active="tutorials">
+  <section class="container section" style="max-width:760px;">
+    <a href="/tutorials" style="font-size:13px;color:var(--text-dim);">← 教程列表</a>
+    <h1 style="font-size:32px;margin:12px 0 8px;">⚙️ 配置 GitHub Actions 每周自动更新</h1>
+    <p style="color:var(--text-mute);font-size:13px;">中级 · 15 分钟 · 2026-08-16</p>
+
+    <div class="lead" style="margin-top:24px;">
+      让 CI 每周一自动跑数据 + 重新 build + 部署 GitHub Pages。<strong>15 分钟配完，一劳永逸。</strong>
+    </div>
+
+    <h2 style="margin-top:40px;font-size:24px;">1. 创建 workflow 文件</h2>
+    <p style="color:var(--text-dim);">仓库根目录已经有 <code>.github/workflows/update-data.yml</code>。如果你 fork 了一份，先看下：</p>
+    <pre style="background:var(--bg);padding:12px;border-radius:6px;color:var(--accent);font-size:11px;margin-top:8px;overflow-x:auto;"><code>{`.github/workflows/update-data.yml`}</code></pre>
+
+    <h2 style="margin-top:40px;font-size:24px;">2. 完整 workflow 代码</h2>
+    <pre style="background:var(--bg);padding:16px;border-radius:8px;color:var(--accent);font-size:11px;margin-top:8px;overflow-x:auto;"><code>{`name: Update DSH Radar data
+
+on:
+  # 每周一 UTC 02:00（北京时间 10:00）自动跑
+  schedule:
+    - cron: '0 2 * * 1'
+  # 允许手动触发（Actions → Run workflow）
+  workflow_dispatch:
+  # 脚本改动时也触发（方便调试）
+  push:
+    paths:
+      - 'scripts/**'
+
+jobs:
+  build-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Cache npm + GitHub data
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.npm
+            data/.cache
+          key: cache-\${{ runner.os }}-\${{ hashFiles('scripts/**') }}
+          restore-keys: |
+            cache-\${{ runner.os }}-
+
+      - name: Fetch + score plugins
+        env:
+          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+          LIMIT: '0'  # 0 = 全量 711；初次试跑可设 100
+        run: node scripts/build-data.mjs
+
+      - name: Build search index
+        run: node scripts/build-search-index.mjs
+
+      - name: Build changelog
+        run: node scripts/build-changelog.mjs
+
+      - name: Build authors index
+        run: node scripts/build-authors.mjs
+
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'data: refresh plugin scores [skip ci]'
+          file_pattern: 'data/**'
+
+  build-web:
+    needs: build-data
+    runs-on: ubuntu-latest
+    # deploy-pages@v4 必须要这三个权限，少一个就是 Permission denied
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: \${{ steps.deployment.outputs.page_url }}
+    steps:
+      # 注意：要拉上一个 job 刚提交的最新数据
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+          cache-dependency-path: web/pnpm-lock.yaml
+
+      - name: Install + build web
+        working-directory: web
+        run: |
+          pnpm install --frozen-lockfile
+          pnpm build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4`}</code></pre>
+
+    <h2 style="margin-top:40px;font-size:24px;">3. 步骤拆解</h2>
+    <p style="color:var(--text-dim);">这套 workflow 分成两个 job，六个关键步骤，各自负责一件事：</p>
+    <table style="width:100%;border-collapse:collapse;margin-top:12px;font-size:13px;">
+      <thead>
+        <tr style="background:var(--bg-elev2);">
+          <th style="padding:8px;text-align:left;color:var(--text-mute);font-size:11px;text-transform:uppercase;">步骤</th>
+          <th style="padding:8px;text-align:left;color:var(--text-mute);font-size:11px;text-transform:uppercase;">干什么</th>
+          <th style="padding:8px;text-align:left;color:var(--text-mute);font-size:11px;text-transform:uppercase;">耗时</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom:1px solid var(--border);">
+          <td style="padding:8px;"><strong>① checkout</strong></td>
+          <td style="padding:8px;">把仓库拉到 runner。build-web 里要指定 <code>ref: main</code>，否则拿不到上一个 job 刚提交的新数据</td>
+          <td style="padding:8px;">~5s</td>
+        </tr>
+        <tr style="border-bottom:1px solid var(--border);">
+          <td style="padding:8px;"><strong>② setup-node</strong></td>
+          <td style="padding:8px;">装 Node 22。抓数据脚本零依赖，只需要内置 fetch（Node ≥ 18）</td>
+          <td style="padding:8px;">~10s</td>
+        </tr>
+        <tr style="border-bottom:1px solid var(--border);">
+          <td style="padding:8px;"><strong>③ cache</strong></td>
+          <td style="padding:8px;">缓存 <code>data/.cache</code>（npm metadata + GitHub 响应），二次跑省掉绝大部分网络请求</td>
+          <td style="padding:8px;">~5s</td>
+        </tr>
+        <tr style="border-bottom:1px solid var(--border);">
+          <td style="padding:8px;"><strong>④ build-data</strong></td>
+          <td style="padding:8px;"><code>build-data.mjs</code> 抓包 + 算 5 维分 + 写 <code>data/</code>，再跑 search-index / changelog / authors 三个衍生脚本，最后自动 commit</td>
+          <td style="padding:8px;">2-25min</td>
+        </tr>
+        <tr style="border-bottom:1px solid var(--border);">
+          <td style="padding:8px;"><strong>⑤ build-web</strong></td>
+          <td style="padding:8px;"><code>pnpm build</code> 把 <code>data/*.json</code> 编译进 Astro 静态站，产物在 <code>web/dist/</code></td>
+          <td style="padding:8px;">~60s</td>
+        </tr>
+        <tr>
+          <td style="padding:8px;"><strong>⑥ deploy</strong></td>
+          <td style="padding:8px;"><code>upload-pages-artifact</code> 打包 <code>web/dist</code>，<code>deploy-pages</code> 发布到 Pages 环境</td>
+          <td style="padding:8px;">~30s</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="color:var(--text-dim);margin-top:16px;font-size:14px;">
+      两个 job 用 <code>needs: build-data</code> 串起来：数据没抓完就不会 build 站点，
+      避免把半截数据推上线。commit message 里的 <code>[skip ci]</code> 则防止自动提交再次触发 workflow 造成死循环。
+    </p>
+
+    <h2 style="margin-top:40px;font-size:24px;">4. 配置 secrets</h2>
+    <p style="color:var(--text-dim);">GitHub Actions 里需要这些 secrets。仓库 → Settings → Secrets and variables → Actions → New repository secret：</p>
+    <table style="width:100%;border-collapse:collapse;margin-top:12px;font-size:13px;">
+      <thead>
+        <tr style="background:var(--bg-elev2);">
+          <th style="padding:10px;text-align:left;color:var(--text-mute);font-size:11px;text-transform:uppercase;">Secret 名</th>
+          <th style="padding:10px;text-align:left;color:var(--text-mute);font-size:11px;text-transform:uppercase;">值</th>
+          <th style="padding:10px;text-align:left;color:var(--text-mute);font-size:11px;text-transform:uppercase;">必需？</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom:1px solid var(--border);">
+          <td style="padding:8px;font-family:monospace;color:var(--accent);">GITHUB_TOKEN</td>
+          <td style="padding:8px;">自动提供</td>
+          <td style="padding:8px;">✅ 必需</td>
+        </tr>
+        <tr style="border-bottom:1px solid var(--border);">
+          <td style="padding:8px;font-family:monospace;color:var(--accent);">PUBLIC_WEB3FORMS_KEY</td>
+          <td style="padding:8px;">你的 web3forms access_key</td>
+          <td style="padding:8px;">⚪ 可选（不填则表单回退 mailto）</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p style="color:var(--text-dim);margin-top:16px;">
+      <code>GITHUB_TOKEN</code> 是 GitHub Actions 自动提供的，不用手动设。
+      它让你的 build 能调 5000 次/小时 GitHub API（vs 60 次/小时未认证）。
+    </p>
+
+    <h2 style="margin-top:40px;font-size:24px;">5. cron 语法速查</h2>
+    <p style="color:var(--text-dim);">GitHub Actions 的 cron 是 UTC 时区：</p>
+    <pre style="background:var(--bg);padding:12px;border-radius:6px;color:var(--accent);font-size:11px;margin-top:8px;overflow-x:auto;"><code>{`┌──────── 分钟 (0 - 59)
+│  ┌───── 小时 (0 - 23, UTC)
+│  │  ┌── 日 (1 - 31)
+│  │  │  ┌─ 月 (1 - 12)
+│  │  │  │  ┌ 周 (0 - 7, 0 和 7 都是周日)
+│  │  │  │  │
+*  *  *  *  *
+
+# 常见例子：
+'0 2 * * 1'     # 每周一 02:00 UTC = 北京周一 10:00（本项目默认）
+'0 0 * * 0'     # 每周日 00:00 UTC
+'0 14 * * *'    # 每天 14:00 UTC
+'0 */6 * * *'   # 每 6 小时一次`}</code></pre>
+
+    <p style="color:var(--text-dim);margin-top:16px;">
+      ⚠️ GitHub Actions 的定时 schedule 有时延迟（10-30 分钟），不要用来做精确任务。
+    </p>
+
+    <h2 style="margin-top:40px;font-size:24px;">6. 启用 GitHub Pages</h2>
+    <ol style="margin-top:12px;color:var(--text-dim);padding-left:24px;line-height:1.9;">
+      <li>仓库 → Settings → Pages</li>
+      <li>Source: <strong>GitHub Actions</strong>（不是 "Deploy from a branch"）</li>
+      <li>保存</li>
+      <li>第一次跑 workflow 后会自动创建 Pages 环境</li>
+    </ol>
+
+    <h2 style="margin-top:40px;font-size:24px;">7. 手动触发测试（workflow_dispatch）</h2>
+    <ol style="margin-top:12px;color:var(--text-dim);padding-left:24px;line-height:1.9;">
+      <li>仓库 → Actions 标签</li>
+      <li>左侧选 "Update DSH Radar data"</li>
+      <li>右侧 "Run workflow" → 选 main 分支 → Run</li>
+      <li>等 5-30 分钟，看日志</li>
+    </ol>
+
+    <h2 style="margin-top:40px;font-size:24px;">8. 常见故障排查</h2>
+
+    <details class="info-block" style="margin:0;cursor:pointer;">
+      <summary style="font-weight:600;font-size:15px;">❌ Rate limit exceeded</summary>
+      <p style="color:var(--text-dim);margin-top:12px;font-size:14px;">
+        GitHub API 限速。<strong>解法</strong>：确保 workflow 用了 <code>secrets.GITHUB_TOKEN</code>（提供 5000/h 而非 60/h）。
+        也可以分批跑（设 LIMIT=100 跑几次）。
+      </p>
+    </details>
+
+    <details class="info-block" style="margin:12px 0 0 0;cursor:pointer;">
+      <summary style="font-weight:600;font-size:15px;">❌ Build timeout</summary>
+      <p style="color:var(--text-dim);margin-top:12px;font-size:14px;">
+        全量跑 711 个插件 + GitHub 要 ~25 分钟。<strong>解法</strong>：workflow 里加 <code>timeout-minutes: 30</code>（已加）。
+        或者用 LIMIT=200 先跑头部。
+      </p>
+    </details>
+
+    <details class="info-block" style="margin:12px 0 0 0;cursor:pointer;">
+      <summary style="font-weight:600;font-size:15px;">❌ npm install 失败</summary>
+      <p style="color:var(--text-dim);margin-top:12px;font-size:14px;">
+        多半是 lockfile 与 <code>package.json</code> 不同步，<code>--frozen-lockfile</code> 直接失败。<strong>解法</strong>：本地跑一次 <code>pnpm install</code> 把 <code>web/pnpm-lock.yaml</code> 提交上去；临时绕过可以去掉 <code>--frozen-lockfile</code>。
+      </p>
+    </details>
+
+    <details class="info-block" style="margin:12px 0 0 0;cursor:pointer;">
+      <summary style="font-weight:600;font-size:15px;">❌ Pages 部署失败：Permission denied</summary>
+      <p style="color:var(--text-dim);margin-top:12px;font-size:14px;">
+        两处都要检查。<strong>解法 A</strong>：Settings → Actions → General → Workflow permissions 设为 <strong>"Read and write permissions"</strong>。
+        <strong>解法 B</strong>：build-web job 里必须带 <code>permissions: pages: write</code> 和 <code>id-token: write</code>，
+        <code>deploy-pages@v4</code> 靠 OIDC 换取部署凭据，少了 <code>id-token</code> 一定失败。
+      </p>
+    </details>
+
+    <details class="info-block" style="margin:12px 0 0 0;cursor:pointer;">
+      <summary style="font-weight:600;font-size:15px;">⚠️ 数据没更新 / 缓存太旧</summary>
+      <p style="color:var(--text-dim);margin-top:12px;font-size:14px;">
+        <code>actions/cache</code> 的 key 是 <code>hashFiles('scripts/**')</code>——只要脚本没改，
+        就会一直命中同一份 <code>data/.cache</code>，npm metadata 可能是一周前的。
+      </p>
+      <ul style="color:var(--text-dim);margin-top:8px;padding-left:22px;font-size:14px;line-height:1.8;">
+        <li>想让缓存按周失效：key 里加上周数，例如 <code>cache-$&#123;&#123; runner.os &#125;&#125;-week$&#123;&#123; github.run_number / 7 &#125;&#125;</code></li>
+        <li>想立刻清空：仓库 → Actions → Caches → 手动删除条目，再手动触发一次</li>
+        <li>只是想验证一次全新抓取：改 key 前缀（<code>cache-v2-...</code>）比删缓存更快</li>
+      </ul>
+      <p style="color:var(--text-dim);margin-top:8px;font-size:14px;">
+        另一个常见误判：数据其实更新了，但 build-web 的 checkout 拿的是旧 commit。
+        确认它带了 <code>ref: main</code>，否则你会永远部署上一周的 <code>data/</code>。
+      </p>
+    </details>
+
+    <details class="info-block" style="margin:12px 0 0 0;cursor:pointer;">
+      <summary style="font-weight:600;font-size:15px;">⚠️ schedule 到点没跑</summary>
+      <p style="color:var(--text-dim);margin-top:12px;font-size:14px;">
+        两个已知行为：一是 GitHub 高峰期排队，延迟 10-30 分钟属正常；
+        二是<strong>仓库连续 60 天没有任何 push，schedule 会被自动停用</strong>，
+        邮件提醒里点一下 re-enable 即可。fork 出来的仓库默认关闭 Actions，也要先手动 Enable。
+      </p>
+    </details>
+
+    <div class="empty" style="margin-top:48px;">
+      <h3 style="color:var(--text);margin-bottom:8px;">🎯 优化建议</h3>
+      <p>每周跑一次够用。如果想更频繁，加多个 cron（每小时跑一次头部 100 个插件，weekly 跑全量）。</p>
+      <p style="margin-top:12px;">或者接 <a href="https://github.com/features/actions" target="_blank" rel="noopener">GitHub Actions cache</a> 缓存 npm metadata（已配），二次跑只 5-30 秒。</p>
+    </div>
+  </section>
+</Layout>

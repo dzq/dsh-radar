@@ -1,0 +1,57 @@
+{
+  "slug": "dsh-routing-suite",
+  "name": "dsh-routing-suite",
+  "version": "0.1.2",
+  "description": "A lightweight, selectable smart-routing mode for DeepSeek Harness.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh-plugin",
+    "agent",
+    "routing"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/dragonbaba/dsh-routing-suite.git",
+  "homepage": "https://github.com/dragonbaba/dsh-routing-suite#readme",
+  "npm": "https://www.npmjs.com/package/dsh-routing-suite",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    },
+    "desktop": {
+      "presets": [
+        {
+          "id": "routing-suite",
+          "path": "./preset/routing-suite"
+        }
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T17:49:24.595Z",
+  "created_at": "2026-08-15T10:44:30.521Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:34.980Z"
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-with-pencil",
+  "name": "dsh-with-pencil",
+  "version": "0.5.0-beta.2",
+  "description": "Session-aware Pencil integration for DeepSeek Harness with official MCP tools and an on-demand browser canvas.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "pencil",
+    "pen.dev",
+    "design",
+    "mcp"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/IWAIBAOLI/dsh-with-pencil.git",
+  "homepage": "https://github.com/IWAIBAOLI/dsh-with-pencil#readme",
+  "npm": "https://www.npmjs.com/package/dsh-with-pencil",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22.15.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T00:26:41.680Z",
+  "created_at": "2026-08-15T00:26:41.332Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:05.570Z"
+}

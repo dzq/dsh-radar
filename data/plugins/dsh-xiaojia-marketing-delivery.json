@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-xiaojia-marketing-delivery",
+  "name": "dsh-xiaojia-marketing-delivery",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin for the full Xiaojia marketing OpenAPI.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "xiaojia",
+    "justai",
+    "marketing",
+    "ai-agent"
+  ],
+  "license": "",
+  "repo": "git+https://github.com/qinshimeng18/xiaojia-Marketing-Delivery.git",
+  "homepage": "https://github.com/qinshimeng18/xiaojia-Marketing-Delivery/tree/main/skills/xiaojia-Marketing-Delivery#readme",
+  "npm": "https://www.npmjs.com/package/dsh-xiaojia-marketing-delivery",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T15:34:59.335Z",
+  "created_at": "2026-08-14T15:34:59.011Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 80,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:31.508Z"
+}

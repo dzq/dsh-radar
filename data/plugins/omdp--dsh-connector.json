@@ -1,0 +1,46 @@
+{
+  "slug": "omdp--dsh-connector",
+  "name": "@omdp/dsh-connector",
+  "version": "0.1.1",
+  "description": "Unified DeepSeek Harness connector: edit MCP servers (cordis.patch.yml) and user skills (~/.dsh/skills) from one Web UI settings page.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "mcp",
+    "skill",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/XJungit/omdp.git",
+  "homepage": "https://github.com/XJungit/omdp#readme",
+  "npm": "https://www.npmjs.com/package/@omdp/dsh-connector",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "platform": "web",
+      "inject": [
+        "slots"
+      ]
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T18:08:31.317Z",
+  "created_at": "2026-08-15T17:59:49.268Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:34.158Z"
+}

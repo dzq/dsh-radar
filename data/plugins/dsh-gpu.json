@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-gpu",
+  "name": "dsh-gpu",
+  "version": "0.1.4",
+  "description": "GPU-aware execution layer for DeepSeek Harness: gpu_status / gpu_exec / gpu_run_bg tools, per-step GPU context injection, automatic CUDA_VISIBLE_DEVICES card selection",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "gpu",
+    "nvidia",
+    "cuda",
+    "nvidia-smi"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zytsyj/dsh-gpu.git",
+  "homepage": "https://github.com/zytsyj/dsh-gpu#readme",
+  "npm": "https://www.npmjs.com/package/dsh-gpu",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T11:48:43.779Z",
+  "created_at": "2026-08-14T10:39:11.367Z",
+  "gh": {
+    "full_name": "zytsyj/dsh-gpu",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T11:21:39Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 98,
+    "quality": 100,
+    "security": 40,
+    "dsh_compat": 75,
+    "overall": 61,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:01:07.368Z"
+}

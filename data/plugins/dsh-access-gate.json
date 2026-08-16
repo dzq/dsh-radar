@@ -1,0 +1,60 @@
+{
+  "slug": "dsh-access-gate",
+  "name": "dsh-access-gate",
+  "version": "0.5.0",
+  "description": "DSH plugin: password gate for remote (non-loopback) /api access (passwordless by default), unblock the loopback-pinned privileged endpoints, restore everything on uninstall, and give the local 127.0.0.1 user the native OS folder picker for workspace selec",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek-harness-plugin",
+    "auth",
+    "gate",
+    "remote-access",
+    "公网",
+    "认证",
+    "typescript"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/bamboostrip/dsh-access-gate.git",
+  "homepage": "https://github.com/bamboostrip/dsh-access-gate#readme",
+  "npm": "https://www.npmjs.com/package/dsh-access-gate",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-workspace"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T15:22:51.080Z",
+  "created_at": "2026-08-15T14:17:14.711Z",
+  "gh": {
+    "full_name": "bamboostrip/dsh-access-gate",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T15:24:03Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:58.404Z"
+}

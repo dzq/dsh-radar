@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-open-browser",
+  "name": "dsh-open-browser",
+  "version": "0.1.1",
+  "description": "DSH plugin: open the system default browser automatically once `dsh web` is ready to serve.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "browser",
+    "web"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/peach0x33a/dsh-open-browser.git",
+  "homepage": "https://github.com/peach0x33a/dsh-open-browser#readme",
+  "npm": "https://www.npmjs.com/package/dsh-open-browser",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T02:49:45.665Z",
+  "created_at": "2026-08-14T02:47:46.462Z",
+  "gh": {
+    "full_name": "peach0x33a/dsh-open-browser",
+    "stars": 3,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T02:50:16Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 98,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 62,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:01:15.383Z"
+}

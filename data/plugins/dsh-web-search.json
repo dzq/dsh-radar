@@ -1,0 +1,63 @@
+{
+  "slug": "dsh-web-search",
+  "name": "dsh-web-search",
+  "version": "0.1.2",
+  "description": "pi-web-access for the DeepSeek Harness: multi-provider web search with automatic fallback (SearXNG → Tavily → Brave → keyless DuckDuckGo) plus URL content extraction, wired into the web seam so the built-in web_search tool is powered by piwa. Search engin",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "web-search",
+    "pi-web-access",
+    "searxng",
+    "tavily",
+    "brave",
+    "duckduckgo"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/haibinwang9/dsh-web-search.git",
+  "homepage": "https://github.com/haibinwang9/dsh-web-search",
+  "npm": "https://www.npmjs.com/package/dsh-web-search",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-api-remotes"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T20:02:58.485Z",
+  "created_at": "2026-08-15T19:48:16.221Z",
+  "gh": {
+    "full_name": "haibinwang9/dsh-web-search",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T20:02:43Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 61,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:54.339Z"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "dsh-otel",
+  "name": "dsh-otel",
+  "version": "0.0.2",
+  "description": "OpenTelemetry plugin for DeepSeek Harness (dsh) — traces and metrics for agent runs, tools, and model calls",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "opentelemetry",
+    "otel",
+    "observability",
+    "tracing",
+    "agent"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-otel",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "node": ">=20.6.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T16:14:28.572Z",
+  "created_at": "2026-08-15T14:07:18.518Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 43,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:34.675Z"
+}

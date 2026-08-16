@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-hooks",
+  "name": "dsh-hooks",
+  "version": "0.2.2",
+  "description": "Config-driven lifecycle hooks plugin for DeepSeek Harness: declare event -> command hooks in cordis.patch.yml, no plugin code required.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek",
+    "deepseek-harness",
+    "hooks",
+    "automation",
+    "lifecycle",
+    "notification"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/PeterBon/dsh-hooks.git",
+  "homepage": "https://github.com/PeterBon/dsh-hooks#readme",
+  "npm": "https://www.npmjs.com/package/dsh-hooks",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T08:49:07.778Z",
+  "created_at": "2026-08-15T07:41:27.962Z",
+  "gh": {
+    "full_name": "PeterBon/dsh-hooks",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T16:28:13Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 62,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:51.053Z"
+}

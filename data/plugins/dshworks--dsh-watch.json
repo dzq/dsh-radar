@@ -1,0 +1,46 @@
+{
+  "slug": "dshworks--dsh-watch",
+  "name": "@dshworks/dsh-watch",
+  "version": "0.2.0",
+  "description": "Background stream listeners that wake the DeepSeek Harness agent — put a watch on a command or file and receive new lines as in-session notices. Ships a daemon host so a watcher can run unattended for weeks.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "monitor",
+    "watcher",
+    "daemon",
+    "background-jobs",
+    "notifications",
+    "tail"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/dshworks/dsh-watch.git",
+  "homepage": "https://github.com/dshworks/dsh-watch#readme",
+  "npm": "https://www.npmjs.com/package/@dshworks/dsh-watch",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T16:38:49.565Z",
+  "created_at": "2026-08-15T16:38:49.298Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:30.669Z"
+}

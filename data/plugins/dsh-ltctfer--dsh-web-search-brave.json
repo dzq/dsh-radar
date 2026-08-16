@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-ltctfer--dsh-web-search-brave",
+  "name": "@dsh-ltctfer/dsh-web-search-brave",
+  "version": "0.2.4",
+  "description": "Brave Search API-backed search provider for the DeepSeek Harness web capability seam (ctx.web). One search is one HTTP request - no model turn.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "web-search",
+    "brave-search"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/LTctfer/dsh-web-search-brave.git",
+  "homepage": "https://github.com/LTctfer/dsh-web-search-brave#readme",
+  "npm": "https://www.npmjs.com/package/@dsh-ltctfer/dsh-web-search-brave",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T01:47:48.906Z",
+  "created_at": "2026-08-14T08:32:25.432Z",
+  "gh": {
+    "full_name": "LTctfer/dsh-web-search-brave",
+    "stars": 3,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T01:48:12Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 60,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:28.008Z"
+}

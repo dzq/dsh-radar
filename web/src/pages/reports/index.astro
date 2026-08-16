@@ -1,0 +1,66 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { loadJson } from '../../lib/paths.mjs';
+
+const stats = await loadJson('stats.json');
+const index = await loadJson('index.json');
+
+// 当前周报
+const currentReport = {
+  id: '2026-w33',
+  title: 'DSH 生态周报 #1 · 2026-W33',
+  date: '2026-08-16',
+  summary: 'DSH 生态 711 个插件首次全量评分完成 · 1S / 3A / 147B / 549C / 11D',
+};
+
+// 历史周报列表（占位）
+const pastReports: any[] = [];
+---
+<Layout title="周报 — DSH Radar" active="reports">
+  <section class="container section">
+    <h1 style="font-size:36px;margin-bottom:8px;">📅 周报</h1>
+    <p class="sub">DSH 生态每周数据报告 · 自动生成</p>
+
+    <div class="lead">
+      每周一 GitHub Actions 自动跑数据 + 生成周报。结构：
+      <strong>新增插件</strong> · <strong>头部变化</strong> · <strong>等级变化</strong> · <strong>下载趋势</strong> · <strong>本周看点</strong>。
+    </div>
+
+    {/* 最新周报卡片 */}
+    <div class="info-block" style="margin-top:32px;border-top:3px solid var(--accent);">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+        <span style="background:var(--accent);color:#0a0e1a;padding:4px 12px;border-radius:6px;font-weight:700;font-size:13px;">最新</span>
+        <span style="color:var(--text-mute);font-size:13px;">{currentReport.date}</span>
+      </div>
+      <h3 style="font-size:24px;color:var(--text);margin-bottom:8px;">{currentReport.title}</h3>
+      <p style="color:var(--text-dim);">{currentReport.summary}</p>
+      <a href={`/reports/${currentReport.id}`} class="btn btn-primary" style="margin-top:16px;">阅读全文 →</a>
+    </div>
+
+    {/* 历史列表（占位） */}
+    <h2 style="margin-top:48px;font-size:24px;">历史周报</h2>
+    {pastReports.length === 0 ? (
+      <div class="empty">
+        <h3 style="color:var(--text);margin-bottom:8px;">📭 暂无历史</h3>
+        <p>每周构建自动生成新周报。第一次是 W33（本期）。</p>
+        <p style="margin-top:12px;font-size:13px;color:var(--text-mute);">
+          配置 GitHub Actions（见 <a href="/tutorials/github-actions">教程</a>）后，每周自动累积。
+        </p>
+      </div>
+    ) : (
+      <div style="display:grid;gap:12px;margin-top:16px;">
+        {pastReports.map((r: any) => (
+          <a href={`/reports/${r.id}`} class="info-block" style="margin:0;text-decoration:none;">
+            <h4 style="font-size:18px;color:var(--text);">{r.title}</h4>
+            <p style="color:var(--text-dim);font-size:13px;margin-top:4px;">{r.summary}</p>
+          </a>
+        ))}
+      </div>
+    )}
+
+    <div class="empty" style="margin-top:48px;">
+      <h3 style="color:var(--text);margin-bottom:8px;">📬 订阅周报</h3>
+      <p>用 <a href="/feeds/rss.xml">RSS</a> / <a href="/subscribe">邮件订阅</a>，每周一自动收到。</p>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,49 @@
+{
+  "slug": "bujue3184--dsh-tool-vision",
+  "name": "@bujue3184/dsh-tool-vision",
+  "version": "0.1.2",
+  "description": "Vision tools (analyze_image, locate_element) for DeepSeek Harness: local ollama, DSH subagent (qwen-vl etc), or OpenAI-compatible HTTP endpoints",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "vision",
+    "ollama",
+    "multimodal",
+    "qwen-vl",
+    "tool"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@bujue3184/dsh-tool-vision",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T14:10:16.604Z",
+  "created_at": "2026-08-14T14:01:01.847Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:00.031Z"
+}

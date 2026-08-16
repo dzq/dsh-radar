@@ -1,0 +1,56 @@
+{
+  "slug": "tecfancy--dsh-mobile",
+  "name": "@tecfancy/dsh-mobile",
+  "version": "0.1.2",
+  "description": "DSH web shell mobile adapter plugin: overlay sidebar/details drawers, responsive composer and settings below 768px, zero desktop regression. DSH Web 移动端适配插件:抽屉浮层化、输入栏与设置页响应式适配,桌面零回归。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "mobile",
+    "responsive",
+    "layout",
+    "web"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/TecFancy/dsh-mobile.git",
+  "homepage": "https://github.com/TecFancy/dsh-mobile",
+  "npm": "https://www.npmjs.com/package/@tecfancy/dsh-mobile",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T08:00:10.080Z",
+  "created_at": "2026-08-16T07:28:30.518Z",
+  "gh": {
+    "full_name": "TecFancy/dsh-mobile",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:59:23Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 62,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:01:23.674Z"
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-suite--themes",
+  "name": "@dsh-suite/themes",
+  "version": "0.2.0",
+  "description": "151 款 AionUi 皮肤聚合 + 皮肤中心试穿面板 / A 151-skin pack with a try-on panel for DSH Web UI.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "themes",
+    "skin",
+    "aionui",
+    "skin-center"
+  ],
+  "license": "Apache-2.0",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@dsh-suite/themes",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T02:50:22.476Z",
+  "created_at": "2026-08-14T18:14:09.468Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:24.276Z"
+}

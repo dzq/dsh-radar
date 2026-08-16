@@ -1,0 +1,54 @@
+{
+  "slug": "dsh-plugin-prune",
+  "name": "dsh-plugin-prune",
+  "version": "0.3.0",
+  "description": "Prune dead plugins in DeepSeek Harness: measures the real usage of every plugin's tools and skills (calls, error rate, latency, sessions) plus your value ratings, and flags the plugins you can safely remove. · 死插件修剪器：统计每个插件工具/技能的真实使用（调用、错误率、耗时、跨会话）与你的价值评分",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "usage",
+    "telemetry",
+    "statistics",
+    "prune",
+    "cleanup"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-prune",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19 || >=24",
+    "dsh": ">=0.1.0-rc.5"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T01:32:24.729Z",
+  "created_at": "2026-08-16T01:22:54.444Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 95,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:55.384Z"
+}

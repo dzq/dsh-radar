@@ -1,0 +1,50 @@
+{
+  "slug": "plur-ai--dsh",
+  "name": "@plur-ai/dsh",
+  "version": "0.1.0",
+  "description": "PLUR memory for DeepSeek Harness — engrams injected straight into the prompt, no tool call required",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "agent-memory",
+    "llm-memory",
+    "persistent-memory",
+    "local-first",
+    "plur"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/plur-ai/plur.git",
+  "homepage": "https://plur.ai",
+  "npm": "https://www.npmjs.com/package/@plur-ai/dsh",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T11:59:13.948Z",
+  "created_at": "2026-08-15T11:59:13.686Z",
+  "gh": {
+    "full_name": "plur-ai/plur",
+    "stars": 237,
+    "open_issues": 79,
+    "pushed_at": "2026-08-15T20:26:33Z",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 62,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:30.466Z"
+}

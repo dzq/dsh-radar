@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-worktree-workspaces",
+  "name": "dsh-worktree-workspaces",
+  "version": "0.1.0",
+  "description": "Git worktree creation, archival, and Web slash-command picker for DeepSeek Harness",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "git",
+    "worktree"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/SisyphusSQ/dsh-plugins.git",
+  "homepage": "https://github.com/SisyphusSQ/dsh-plugins/tree/main/packages/dsh-worktree-workspaces#readme",
+  "npm": "https://www.npmjs.com/package/dsh-worktree-workspaces",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-commands"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T14:02:26.824Z",
+  "created_at": "2026-08-15T14:02:26.515Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:33.748Z"
+}

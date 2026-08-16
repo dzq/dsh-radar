@@ -1,0 +1,63 @@
+{
+  "slug": "dshworks--dsh-meter",
+  "name": "@dshworks/dsh-meter",
+  "version": "0.2.2",
+  "description": "The DeepSeek time-of-use meter for dsh: what this session cost, which tariff is running, when it flips, and the account balance behind it — one line under the composer.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cost",
+    "pricing",
+    "peak-offpeak",
+    "time-of-use",
+    "token-usage",
+    "billing",
+    "balance",
+    "usage"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/dshworks/dsh-meter.git",
+  "homepage": "https://github.com/dshworks/dsh-meter#readme",
+  "npm": "https://www.npmjs.com/package/@dshworks/dsh-meter",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T16:11:31.169Z",
+  "created_at": "2026-08-15T16:06:29.807Z",
+  "gh": {
+    "full_name": "dshworks/dsh-meter",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T16:12:01Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:54.135Z"
+}

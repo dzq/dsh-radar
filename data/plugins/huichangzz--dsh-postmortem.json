@@ -1,0 +1,36 @@
+{
+  "slug": "huichangzz--dsh-postmortem",
+  "name": "@huichangzz/dsh-postmortem",
+  "version": "0.3.0",
+  "description": "Local-first failure postmortems for DeepSeek Harness sessions.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent-debugging",
+    "postmortem"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zzh-newlearner/dsh-postmortem.git",
+  "homepage": "https://github.com/zzh-newlearner/dsh-postmortem#readme",
+  "npm": "https://www.npmjs.com/package/@huichangzz/dsh-postmortem",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T14:32:02.405Z",
+  "created_at": "2026-08-13T14:04:30.882Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 43,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:26.511Z"
+}

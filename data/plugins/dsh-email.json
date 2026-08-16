@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-email",
+  "name": "dsh-email",
+  "version": "0.6.2",
+  "description": "IMAP/SMTP email tools for DeepSeek Harness: list, read, search and send mail, with QQ/163/126/Sina/Aliyun/Gmail/Outlook/iCloud presets.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "email",
+    "imap",
+    "smtp"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/STARDUSTLC666/dsh-email",
+  "homepage": "https://github.com/STARDUSTLC666/dsh-email#readme",
+  "npm": "https://www.npmjs.com/package/dsh-email",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T07:50:45.257Z",
+  "created_at": "2026-08-13T20:25:23.798Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:57.154Z"
+}

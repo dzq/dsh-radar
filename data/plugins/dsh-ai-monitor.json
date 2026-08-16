@@ -1,0 +1,41 @@
+{
+  "slug": "dsh-ai-monitor",
+  "name": "dsh-ai-monitor",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin: query AI Monitor balance / usage from local SQLite — cost-aware agent, auto bookkeeping with the AI Monitor proxy.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "ai-monitor",
+    "balance",
+    "usage",
+    "token",
+    "cost"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/WinterOne-hub/ai-monitor.git",
+  "homepage": "https://github.com/WinterOne-hub/ai-monitor#readme",
+  "npm": "https://www.npmjs.com/package/dsh-ai-monitor",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T05:31:01.579Z",
+  "created_at": "2026-08-14T05:31:01.344Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:42.756Z"
+}

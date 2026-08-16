@@ -1,0 +1,52 @@
+{
+  "slug": "loongport",
+  "name": "loongport",
+  "version": "0.2.0",
+  "description": "LoongPort DeepSeek Harness (dsh) Cordis bundle and setup CLI",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "loongport",
+    "openai-compatible",
+    "cordis",
+    "cli"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/SailingLoong/loongport-dsh.git",
+  "homepage": "https://github.com/SailingLoong/loongport-dsh#readme",
+  "npm": "https://www.npmjs.com/package/loongport",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-api-remotes"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T03:01:10.015Z",
+  "created_at": "2026-08-14T06:11:02.387Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 80,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:24.888Z"
+}

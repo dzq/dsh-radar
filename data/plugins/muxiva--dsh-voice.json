@@ -1,0 +1,60 @@
+{
+  "slug": "muxiva--dsh-voice",
+  "name": "@muxiva/dsh-voice",
+  "version": "0.1.0-alpha.1",
+  "description": "Local-first, full-duplex voice for DeepSeek Harness, orchestrated by Muxiva",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "muxiva",
+    "voice-agent",
+    "speech-to-text",
+    "text-to-speech",
+    "vad",
+    "apple-silicon",
+    "local-first"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/PiyotaHu/muxiva-dsh-voice.git",
+  "homepage": "https://piyotahu.github.io/muxiva-dsh-voice/",
+  "npm": "https://www.npmjs.com/package/@muxiva/dsh-voice",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "react"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=22.19"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T05:43:33.735Z",
+  "created_at": "2026-08-16T05:43:33.457Z",
+  "gh": {
+    "full_name": "PiyotaHu/muxiva-dsh-voice",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T06:45:56Z",
+    "archived": false,
+    "license": "NOASSERTION"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 59,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:15.518Z"
+}

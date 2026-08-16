@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-free-search",
+  "name": "dsh-free-search",
+  "version": "0.4.2",
+  "description": "Free web search for DeepSeek Harness: 8 engines (Bing/DuckDuckGo/AnySearch/SearXNG/Exa keyless) + platform search + web_fetch, with web settings UI.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "web-search",
+    "duckduckgo",
+    "bing",
+    "exa",
+    "perplexity",
+    "search",
+    "free"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/DDDMUC/dsh-free-search.git",
+  "homepage": "https://github.com/DDDMUC/dsh-free-search#readme",
+  "npm": "https://www.npmjs.com/package/dsh-free-search",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T22:19:47.451Z",
+  "created_at": "2026-08-15T20:30:58.085Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:02.779Z"
+}

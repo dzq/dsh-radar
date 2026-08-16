@@ -1,0 +1,57 @@
+{
+  "slug": "dsh-codex-timeline",
+  "name": "dsh-codex-timeline",
+  "version": "0.2.0",
+  "description": "Codex-style turn timeline and local conversation search for DeepSeek Harness Web",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "conversation",
+    "timeline",
+    "navigation",
+    "search",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Wine-Red/dsh-codex-timeline.git",
+  "homepage": "https://github.com/Wine-Red/dsh-codex-timeline#readme",
+  "npm": "https://www.npmjs.com/package/dsh-codex-timeline",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T18:14:09.753Z",
+  "created_at": "2026-08-15T12:48:47.174Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:02.370Z"
+}

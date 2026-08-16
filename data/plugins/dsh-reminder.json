@@ -1,0 +1,59 @@
+{
+  "slug": "dsh-reminder",
+  "name": "dsh-reminder",
+  "version": "0.1.4",
+  "description": "peon-ping sound notifications for DeepSeek Harness — a faithful port of the pi plugin pi-peon-ping-win (native Windows audio fallback, WinForms popup, OpenPeon sound packs). Beeps only when a task completes or terminates unexpectedly, by default. Settings",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "peon-ping",
+    "sound",
+    "notification",
+    "windows",
+    "dsh-plugin",
+    "deepseek-harness-plugin",
+    "port"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Victor-770/dsh-reminder.git",
+  "homepage": "https://github.com/Victor-770/dsh-reminder",
+  "npm": "https://www.npmjs.com/package/dsh-reminder",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-web-react",
+        "@deepseek-ai/dsh-client-ui-primitives",
+        "@deepseek-ai/dsh-api-remotes"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T14:26:40.016Z",
+  "created_at": "2026-08-15T03:58:54.619Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:35.492Z"
+}

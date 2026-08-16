@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-plugin-hooks",
+  "name": "dsh-plugin-hooks",
+  "version": "0.1.1",
+  "description": "DeepSeek Harness plugin: Claude-Code-style lifecycle hooks for DSH. Configure shell commands that run automatically before/after model tool calls (pre-tool / post-tool) with a JSON payload on stdin; pre-tool non-zero exits block the call.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "hooks",
+    "automation",
+    "lifecycle",
+    "PreToolUse",
+    "PostToolUse"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/truelove-dreamer/dsh-plugin-hooks.git",
+  "homepage": "https://github.com/truelove-dreamer/dsh-plugin-hooks#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-hooks",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T10:21:24.037Z",
+  "created_at": "2026-08-14T09:43:49.258Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:23.249Z"
+}

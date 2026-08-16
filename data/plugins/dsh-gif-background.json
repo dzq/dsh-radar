@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-gif-background",
+  "name": "dsh-gif-background",
+  "version": "0.1.0",
+  "description": "Custom background (images / GIFs / animated wallpapers) plugin for the DeepSeek Harness (DSH) Web GUI: an enable switch plus a local asset library, with separate display mechanisms for the official theme and skin-center skins.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "web-ui",
+    "background",
+    "wallpaper",
+    "gif"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/alcohol-101/dsh-gif-background.git",
+  "homepage": "https://github.com/alcohol-101/dsh-gif-background#readme",
+  "npm": "https://www.npmjs.com/package/dsh-gif-background",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T18:27:38.258Z",
+  "created_at": "2026-08-15T18:27:37.936Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:31.081Z"
+}

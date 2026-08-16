@@ -1,0 +1,39 @@
+{
+  "slug": "dsh-suite--plugin-team-board",
+  "name": "@dsh-suite/plugin-team-board",
+  "version": "0.1.0",
+  "description": "DSH plugin: a shared task board for multi-agent / subagent collaboration — create, claim, transition, and query tasks via a Cordis service key.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "task-board",
+    "multi-agent",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/whyihaveyou/dsh-suite.git",
+  "homepage": "https://github.com/whyihaveyou/dsh-suite#readme",
+  "npm": "https://www.npmjs.com/package/@dsh-suite/plugin-team-board",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T09:09:07.140Z",
+  "created_at": "2026-08-14T09:09:06.834Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:33.645Z"
+}

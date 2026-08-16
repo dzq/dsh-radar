@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-plugin-langfuse",
+  "name": "dsh-plugin-langfuse",
+  "version": "0.2.0",
+  "description": "Langfuse observability for DeepSeek Harness: OpenTelemetry traces, feedback Scores, and fork lineage",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "langfuse",
+    "opentelemetry",
+    "observability",
+    "llm-tracing"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/linyp/dsh-plugin-langfuse.git",
+  "homepage": "https://github.com/linyp/dsh-plugin-langfuse#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-langfuse",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T14:53:26.890Z",
+  "created_at": "2026-08-14T06:18:19.789Z",
+  "gh": {
+    "full_name": "linyp/dsh-plugin-langfuse",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T14:54:17Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:31.901Z"
+}

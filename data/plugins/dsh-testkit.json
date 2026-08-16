@@ -1,0 +1,43 @@
+{
+  "slug": "dsh-testkit",
+  "name": "dsh-testkit",
+  "version": "0.3.1",
+  "description": "Real-host lifecycle testing for DeepSeek Harness plugins.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "harness",
+    "plugin-testing",
+    "lifecycle-testing"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/iiwish/dsh-testkit.git",
+  "homepage": "https://github.com/iiwish/dsh-testkit#readme",
+  "npm": "https://www.npmjs.com/package/dsh-testkit",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 1027,
+  "monthly_downloads": 1027,
+  "last_publish": "2026-08-15T17:43:00.249Z",
+  "created_at": "2026-08-15T08:52:03.554Z",
+  "gh": null,
+  "scores": {
+    "popularity": 75,
+    "maintenance": 60,
+    "quality": 80,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 70,
+    "grade": "A"
+  },
+  "updated_at": "2026-08-16T07:58:17.826Z"
+}

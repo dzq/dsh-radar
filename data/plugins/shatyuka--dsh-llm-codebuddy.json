@@ -1,0 +1,51 @@
+{
+  "slug": "shatyuka--dsh-llm-codebuddy",
+  "name": "@shatyuka/dsh-llm-codebuddy",
+  "version": "0.1.0",
+  "description": "Tencent CodeBuddy plugin for DeepSeek Harness (dsh).",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "llm",
+    "codebuddy",
+    "tencent",
+    "oauth"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/shatyuka/dsh-llm-codebuddy.git",
+  "homepage": "https://github.com/shatyuka/dsh-llm-codebuddy#readme",
+  "npm": "https://www.npmjs.com/package/@shatyuka/dsh-llm-codebuddy",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T11:17:13.426Z",
+  "created_at": "2026-08-14T11:17:13.111Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 48,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:21.604Z"
+}

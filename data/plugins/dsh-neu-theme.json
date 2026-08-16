@@ -1,0 +1,59 @@
+{
+  "slug": "dsh-neu-theme",
+  "name": "dsh-neu-theme",
+  "version": "0.1.0",
+  "description": "Neumorphism soft-UI theme for DeepSeek Harness web — gentle raised-and-recessed surfaces in a cream light and an ink-dark palette. · DeepSeek Harness 轻拟物主题:柔和浮起与凹陷,奶油浅色与墨蓝深色两套配色。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "dsh-plugin",
+    "theme",
+    "skin",
+    "neumorphism",
+    "soft-ui",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Lhy723/dsh-neu-theme.git",
+  "homepage": "https://github.com/Lhy723/dsh-neu-theme",
+  "npm": "https://www.npmjs.com/package/dsh-neu-theme",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-theme"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T04:10:54.927Z",
+  "created_at": "2026-08-16T04:10:54.691Z",
+  "gh": {
+    "full_name": "Lhy723/dsh-neu-theme",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T04:14:02Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 61,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:01:19.300Z"
+}

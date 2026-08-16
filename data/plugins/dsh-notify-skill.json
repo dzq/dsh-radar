@@ -1,0 +1,43 @@
+{
+  "slug": "dsh-notify-skill",
+  "name": "dsh-notify-skill",
+  "version": "0.1.0",
+  "description": "Email reminders from your DSH agent when you're away — fires at goal completion, blockage, before asking the user a decision, and at long-task milestones.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "skill",
+    "notify",
+    "email",
+    "smtp",
+    "reminder"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/PAKIKNOWLEDGE/dsh-notify-skill.git",
+  "homepage": "https://github.com/PAKIKNOWLEDGE/dsh-notify-skill#readme",
+  "npm": "https://www.npmjs.com/package/dsh-notify-skill",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T05:58:41.424Z",
+  "created_at": "2026-08-15T05:58:41.250Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:57.974Z"
+}

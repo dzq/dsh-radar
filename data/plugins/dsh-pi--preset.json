@@ -1,0 +1,39 @@
+{
+  "slug": "dsh-pi--preset",
+  "name": "@dsh-pi/preset",
+  "version": "0.1.0",
+  "description": "dsh-pi agent preset: installs the dsh-pi preset and makes it the default for web sessions",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "pi",
+    "preset"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/AndPuQing/dsh-pi.git",
+  "homepage": "https://github.com/AndPuQing/dsh-pi#readme",
+  "npm": "https://www.npmjs.com/package/@dsh-pi/preset",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T07:52:53.575Z",
+  "created_at": "2026-08-14T07:52:53.317Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:20.781Z"
+}

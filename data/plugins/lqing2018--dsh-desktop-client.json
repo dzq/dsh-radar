@@ -1,0 +1,37 @@
+{
+  "slug": "lqing2018--dsh-desktop-client",
+  "name": "@lqing2018/dsh-desktop-client",
+  "version": "0.1.1",
+  "description": "DeepSeek Harness desktop client helper: locate the native WebView2 client and launch it from the agent",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "desktop-client",
+    "webview2",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@lqing2018/dsh-desktop-client",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T06:19:19.920Z",
+  "created_at": "2026-08-16T06:13:53.184Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 41,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:47.169Z"
+}

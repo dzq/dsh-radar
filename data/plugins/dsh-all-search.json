@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-all-search",
+  "name": "dsh-all-search",
+  "version": "0.1.1",
+  "description": "DeepSeek Harness plugin: AnySearch-backed web search provider (aggregates exa/tavily/firecrawl via one MCP gateway) registered into ctx.web.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "anysearch",
+    "search"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/RealAlexandreAI/dsh-all-search.git",
+  "homepage": "https://github.com/RealAlexandreAI/dsh-all-search#readme",
+  "npm": "https://www.npmjs.com/package/dsh-all-search",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T16:44:04.023Z",
+  "created_at": "2026-08-13T15:00:55.579Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:40.292Z"
+}

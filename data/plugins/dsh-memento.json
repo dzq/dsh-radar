@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-memento",
+  "name": "dsh-memento",
+  "version": "0.3.1",
+  "description": "Bounded, layered, approval-gated, auditable cross-session memory for DeepSeek Harness — a capability seam (ctx.memory service + local SQLite provider + memory tool + frozen snapshot injection), not another memory warehouse",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "memory",
+    "agent-memory",
+    "approval",
+    "audit",
+    "sqlite",
+    "cordis",
+    "llm"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/PerryLink/dsh-memento.git",
+  "homepage": "https://github.com/PerryLink/dsh-memento#readme",
+  "npm": "https://www.npmjs.com/package/dsh-memento",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T07:07:18.709Z",
+  "created_at": "2026-08-14T15:29:36.911Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 65,
+    "dsh_compat": 85,
+    "overall": 57,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:48.798Z"
+}

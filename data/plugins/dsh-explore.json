@@ -1,0 +1,40 @@
+{
+  "slug": "dsh-explore",
+  "name": "dsh-explore",
+  "version": "0.1.1",
+  "description": "Trajectory-level parallel exploration for DeepSeek Harness agents",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "agent",
+    "search",
+    "plugin",
+    "dsh-plugin"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-explore",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T16:01:42.743Z",
+  "created_at": "2026-08-15T15:57:40.331Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:36.731Z"
+}

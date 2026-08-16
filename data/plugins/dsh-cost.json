@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-cost",
+  "name": "dsh-cost",
+  "version": "0.2.1",
+  "description": "DeepSeek Harness (DSH) plugin: live conversation cost and DeepSeek account balance in the composer stats row — RMB in Chinese UI, USD in English UI",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "harness",
+    "plugin",
+    "cost",
+    "balance",
+    "rmb"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/GiantGKL/dsh-cost.git",
+  "homepage": "https://github.com/GiantGKL/dsh-cost#readme",
+  "npm": "https://www.npmjs.com/package/dsh-cost",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T16:47:02.770Z",
+  "created_at": "2026-08-13T16:30:32.888Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 43,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:52.439Z"
+}

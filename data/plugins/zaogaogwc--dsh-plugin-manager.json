@@ -1,0 +1,52 @@
+{
+  "slug": "zaogaogwc--dsh-plugin-manager",
+  "name": "@zaogaogwc/dsh-plugin-manager",
+  "version": "0.4.7",
+  "description": "DSH Web GUI Mod 管理器：按预设/来源包/分类三级浏览，批量热开关、变更预览与撤销、AI 筛选，以及基于任意现有预设创建新预设。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "plugin-manager",
+    "mod-manager"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Zaogaogwc/dsh-plugin-manager.git",
+  "homepage": "https://github.com/Zaogaogwc/dsh-plugin-manager#readme",
+  "npm": "https://www.npmjs.com/package/@zaogaogwc/dsh-plugin-manager",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T18:35:14.353Z",
+  "created_at": "2026-08-15T18:01:25.454Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:39.530Z"
+}

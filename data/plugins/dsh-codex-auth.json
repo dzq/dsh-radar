@@ -1,0 +1,54 @@
+{
+  "slug": "dsh-codex-auth",
+  "name": "dsh-codex-auth",
+  "version": "0.2.0",
+  "description": "One DeepSeek Harness Codex capability bundle for ChatGPT login, LLM access, Web Search, and durable Image Creation",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "codex",
+    "chatgpt",
+    "oauth",
+    "web-search",
+    "image-generation"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/suntianc/dsh-codex-auth.git",
+  "homepage": "https://github.com/suntianc/dsh-codex-auth#readme",
+  "npm": "https://www.npmjs.com/package/dsh-codex-auth",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-tool",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T09:29:56.039Z",
+  "created_at": "2026-08-14T03:55:17.843Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:38.092Z"
+}

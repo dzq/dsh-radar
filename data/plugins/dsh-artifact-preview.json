@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-artifact-preview",
+  "name": "dsh-artifact-preview",
+  "version": "0.1.1",
+  "description": "Codex-style artifact preview for DeepSeek Harness (DSH): produced-files row in chat with inline image thumbnails, and a resizable split-screen side preview panel rendering Markdown / source code / CSV / JSON / images / HTML, plus localhost port preview.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "artifact",
+    "preview",
+    "markdown",
+    "deepseek-harness"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/nirvanaslash/dsh-artifact-preview.git",
+  "homepage": "https://github.com/nirvanaslash/dsh-artifact-preview#readme",
+  "npm": "https://www.npmjs.com/package/dsh-artifact-preview",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T10:29:30.492Z",
+  "created_at": "2026-08-15T10:13:10.249Z",
+  "gh": {
+    "full_name": "nirvanaslash/dsh-artifact-preview",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T10:29:28Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 57,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:53.723Z"
+}

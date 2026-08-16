@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-plugin-hot-toggle",
+  "name": "dsh-plugin-hot-toggle",
+  "version": "0.1.4",
+  "description": "Hot-toggle any installed plugin in DeepSeek Harness from the Web settings — instant apply, no restart, persisted. 在 DSH 设置页一键热启用/停用任意插件，立即生效、无需重启、状态持久化。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "plugin",
+    "hot-reload",
+    "loader"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/5102a/dsh-plugin-hot-toggle.git",
+  "homepage": "https://github.com/5102a/dsh-plugin-hot-toggle#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-hot-toggle",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T07:39:08.935Z",
+  "created_at": "2026-08-16T06:51:30.853Z",
+  "gh": {
+    "full_name": "5102a/dsh-plugin-hot-toggle",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:48:43Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 65,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:59:13.356Z"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "dsh-agent-relay",
+  "name": "dsh-agent-relay",
+  "version": "0.3.0",
+  "description": "Multi-agent collaboration relay for DeepSeek Harness — send and receive messages between local agents (dsh, Codex, Claude, Hermes, OpenClaw, …) through a small loopback-first broker with HMAC auth. Ships the broker, the dsh plugin, a CLI client and a Pyth",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "relay",
+    "agent",
+    "collaboration",
+    "multi-agent"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Noelune/dsh-agent-relay.git",
+  "homepage": "https://github.com/Noelune/dsh-agent-relay#readme",
+  "npm": "https://www.npmjs.com/package/dsh-agent-relay",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T02:20:17.941Z",
+  "created_at": "2026-08-14T16:36:22.496Z",
+  "gh": {
+    "full_name": "Noelune/dsh-agent-relay",
+    "stars": 3,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T00:58:57Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 64,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:51.873Z"
+}

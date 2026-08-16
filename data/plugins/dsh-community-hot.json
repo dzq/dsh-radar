@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-community-hot",
+  "name": "dsh-community-hot",
+  "version": "0.1.1",
+  "description": "DSH 社区热门悬浮面板：24 小时热门话题 + 热门插件 TOP10，悬浮可拖动、置顶、点击居中展开、列表直达内容页。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "community",
+    "hot-topics",
+    "plugins"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/littleboylittlegirl/dsh-community-hot.git",
+  "homepage": "https://github.com/littleboylittlegirl/dsh-community-hot#readme",
+  "npm": "https://www.npmjs.com/package/dsh-community-hot",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T07:00:21.380Z",
+  "created_at": "2026-08-15T06:18:31.821Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 48,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:40.143Z"
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-inspiration-deck-workshop",
+  "name": "dsh-inspiration-deck-workshop",
+  "version": "0.1.1",
+  "description": "灵感演示工坊的 DSH 插件化分发：注册 inspiration-deck-workshop 技能（本地 HTML 演示文稿工作台，含 6 套 deck 模板、25+ 布局、validate/export CLI 与 smoke 测试）。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "skill",
+    "presentation",
+    "html-deck",
+    "ppt",
+    "slides"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zjsthmjialin/inspiration-deck-workshop.git",
+  "homepage": "https://github.com/zjsthmjialin/inspiration-deck-workshop#readme",
+  "npm": "https://www.npmjs.com/package/dsh-inspiration-deck-workshop",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T02:32:35.341Z",
+  "created_at": "2026-08-16T02:14:36.290Z",
+  "gh": {
+    "full_name": "zjsthmjialin/inspiration-deck-workshop",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:36:35Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 60,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:40.988Z"
+}

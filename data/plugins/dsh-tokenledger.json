@@ -1,0 +1,59 @@
+{
+  "slug": "dsh-tokenledger",
+  "name": "dsh-tokenledger",
+  "version": "0.1.0",
+  "description": "Token usage accounting for DeepSeek Harness, attributed to the relay site that served each request — no configuration, no credentials",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "token-usage",
+    "billing",
+    "newapi",
+    "sub2api",
+    "dsh-bundle",
+    "cordis-plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zh667/TokenLedger.git",
+  "homepage": "https://github.com/zh667/TokenLedger#readme",
+  "npm": "https://www.npmjs.com/package/dsh-tokenledger",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-primitives"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T12:58:18.689Z",
+  "created_at": "2026-08-15T12:58:18.452Z",
+  "gh": {
+    "full_name": "zh667/TokenLedger",
+    "stars": 9,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T15:26:50Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:33.133Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-doc",
+  "name": "dsh-doc",
+  "version": "0.1.1",
+  "description": "Local PDF, Office, image, and OCR document intelligence for DeepSeek Harness.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "document-intelligence",
+    "xberg",
+    "ocr",
+    "pdf",
+    "office"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Sqhao-O/dsh-docs.git",
+  "homepage": "https://github.com/Sqhao-O/dsh-docs#readme",
+  "npm": "https://www.npmjs.com/package/dsh-doc",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T16:01:58.302Z",
+  "created_at": "2026-08-15T06:43:52.319Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:32.091Z"
+}

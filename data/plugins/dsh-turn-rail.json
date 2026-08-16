@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-turn-rail",
+  "name": "dsh-turn-rail",
+  "version": "0.1.0",
+  "description": "Codex-style auto-hiding turn rail for DeepSeek Harness Web: edge-peek navigation, per-turn tooltips, search, 30-turn scrolling window and scroll-follow.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "turn",
+    "navigation",
+    "timeline",
+    "codex"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Yujm888/dsh-turn-rail.git",
+  "homepage": "https://github.com/Yujm888/dsh-turn-rail#readme",
+  "npm": "https://www.npmjs.com/package/dsh-turn-rail",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T12:29:24.057Z",
+  "created_at": "2026-08-15T12:29:23.800Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:06.137Z"
+}

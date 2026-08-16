@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-pocket",
+  "name": "dsh-pocket",
+  "version": "1.0.25",
+  "description": "把 DeepSeek Harness 装进你的口袋：一个包、一个设置页，手机扫码即同步访问电脑上的 DSH（局域网 + 公网，实时同屏）。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "mobile",
+    "remote",
+    "qr",
+    "tunnel"
+  ],
+  "license": "GPL-2.0",
+  "repo": "git+https://github.com/shaobeichen/dsh-pocket.git",
+  "homepage": "https://github.com/shaobeichen/dsh-pocket",
+  "npm": "https://www.npmjs.com/package/dsh-pocket",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-session-log-export"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 4381,
+  "monthly_downloads": 4381,
+  "last_publish": "2026-08-15T18:01:23.650Z",
+  "created_at": "2026-08-15T09:47:40.513Z",
+  "gh": null,
+  "scores": {
+    "popularity": 91,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 76,
+    "grade": "A"
+  },
+  "updated_at": "2026-08-16T07:58:12.035Z"
+}

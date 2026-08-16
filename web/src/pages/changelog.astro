@@ -1,0 +1,104 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { loadJson } from '../lib/paths.mjs';
+
+let changelog = [];
+try {
+  changelog = await loadJson('changelog.json');
+} catch (e) {
+  // 第一次跑，没有历史数据
+}
+const stats = await loadJson('stats.json');
+
+function fmtDate(iso: string) {
+  if (!iso) return '';
+  return iso.replace(/T.*$/, '').replace(/-/g, '/');
+}
+---
+<Layout title="Changelog — DSH Radar" active="changelog">
+  <section class="container section">
+    <h1 style="font-size:36px;margin-bottom:8px;">📝 Changelog</h1>
+    <p class="sub">DSH 生态每周变化 · 数据每周一自动更新</p>
+
+    <div class="lead">
+      本页由 <code>data/history/</code> 目录的快照对比生成 — 记录每次构建的<strong>新增 / 退出 / 等级变化</strong>。
+      <br/>首次部署后会自动累积历史，下次构建即可看到变化。
+    </div>
+
+    {changelog.length === 0 ? (
+      <div class="empty">
+        <h3 style="color:var(--text);margin-bottom:8px;">📭 暂无历史</h3>
+        <p>第一次跑 <code>node scripts/build-data.mjs && node scripts/build-changelog.mjs</code> 后开始累积。</p>
+        <p style="margin-top:12px;">当前最新数据：<strong>{stats.total}</strong> 个插件 · 数据更新于 <strong>{new Date(stats.generated_at).toLocaleString('zh-CN')}</strong></p>
+      </div>
+    ) : (
+      <div style="display:grid;gap:16px;margin-top:32px;">
+        {changelog.map((d: any) => (
+          <div class="info-block" style="margin:0;border-left:3px solid var(--accent);">
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+              <strong style="color:var(--accent);font-family:monospace;">📅 {fmtDate(d.generated_at)}</strong>
+              <span style="color:var(--text-mute);font-size:12px;">对比 {fmtDate(d.prev)}</span>
+            </div>
+
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-bottom:16px;">
+              <div>
+                <div style="font-size:11px;color:var(--text-mute);text-transform:uppercase;">插件总数</div>
+                <div style={`font-size:24px;font-weight:700;color:${d.total_delta > 0 ? 'var(--good)' : d.total_delta < 0 ? 'var(--bad)' : 'var(--text-dim)'};`}>
+                  {d.total_delta > 0 ? '+' : ''}{d.total_delta}
+                </div>
+              </div>
+              <div>
+                <div style="font-size:11px;color:var(--text-mute);text-transform:uppercase;">周下载</div>
+                <div style={`font-size:24px;font-weight:700;color:${d.downloads_delta > 0 ? 'var(--good)' : d.downloads_delta < 0 ? 'var(--bad)' : 'var(--text-dim)'};`}>
+                  {d.downloads_delta > 0 ? '+' : ''}{d.downloads_delta.toLocaleString()}
+                </div>
+              </div>
+              <div>
+                <div style="font-size:11px;color:var(--text-mute);text-transform:uppercase;">DSH 标准</div>
+                <div style={`font-size:24px;font-weight:700;color:${d.compat_delta > 0 ? 'var(--good)' : d.compat_delta < 0 ? 'var(--bad)' : 'var(--text-dim)'};`}>
+                  {d.compat_delta > 0 ? '+' : ''}{d.compat_delta}
+                </div>
+              </div>
+              <div>
+                <div style="font-size:11px;color:var(--text-mute);text-transform:uppercase;">S 级变化</div>
+                <div style={`font-size:24px;font-weight:700;color:${d.grades.S !== 0 ? 'var(--grade-S)' : 'var(--text-dim)'};`}>
+                  {d.grades.S > 0 ? '+' : ''}{d.grades.S}
+                </div>
+              </div>
+            </div>
+
+            <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:8px;font-size:12px;color:var(--text-dim);margin-bottom:16px;">
+              <div>S: <strong style="color:var(--grade-S);">{d.grades.S > 0 ? '+' : ''}{d.grades.S}</strong></div>
+              <div>A: <strong style="color:var(--grade-A);">{d.grades.A > 0 ? '+' : ''}{d.grades.A}</strong></div>
+              <div>B: <strong style="color:var(--grade-B);">{d.grades.B > 0 ? '+' : ''}{d.grades.B}</strong></div>
+              <div>C: <strong style="color:var(--grade-C);">{d.grades.C > 0 ? '+' : ''}{d.grades.C}</strong></div>
+              <div>D: <strong style="color:var(--grade-D);">{d.grades.D > 0 ? '+' : ''}{d.grades.D}</strong></div>
+            </div>
+
+            {(d.top10_in?.length > 0 || d.top10_out?.length > 0) && (
+              <div style="border-top:1px solid var(--border);padding-top:12px;">
+                {d.top10_in?.length > 0 && (
+                  <div style="margin-bottom:6px;">
+                    <span style="color:var(--good);">↑ 新进 Top 10：</span>
+                    <code style="font-size:12px;color:var(--text-dim);">{d.top10_in.join(', ')}</code>
+                  </div>
+                )}
+                {d.top10_out?.length > 0 && (
+                  <div>
+                    <span style="color:var(--bad);">↓ 退出 Top 10：</span>
+                    <code style="font-size:12px;color:var(--text-dim);">{d.top10_out.join(', ')}</code>
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    )}
+
+    <div class="empty" style="margin-top:48px;">
+      <h3 style="color:var(--text);margin-bottom:8px;">📬 想订阅每周变化？</h3>
+      <p>用 <a href="/feeds/rss.xml">RSS</a> / <a href="/feeds/atom.xml">Atom</a> / <a href="/feeds/feed.json">JSON Feed</a> 自动获取，或 <a href="/subscribe">邮件订阅</a>。</p>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,43 @@
+{
+  "slug": "dsh-client-new-session-ungrouped",
+  "name": "dsh-client-new-session-ungrouped",
+  "version": "0.12.1",
+  "description": "dsh Web GUI plugin for project-less chat sessions: adds a \"Work outside of a project\" option to the workspace picker, repairs the ungrouped group-header \"+\", routes new sessions to project-less mode while the current one is ungrouped, unlocks the blank un",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "session",
+    "workspace",
+    "project-less"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-client-new-session-ungrouped",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T07:38:00.387Z",
+  "created_at": "2026-08-14T07:24:49.005Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:25.348Z"
+}

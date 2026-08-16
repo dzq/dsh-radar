@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-plugin-claude-import",
+  "name": "dsh-plugin-claude-import",
+  "version": "0.1.0",
+  "description": "Import Claude Code sessions into DeepSeek Harness: agent tools (claude_session_list / claude_session_import) plus a Web GUI one-click import dock.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "claude-code",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/changhang155/dsh-plugin-claude-import.git",
+  "homepage": "https://github.com/changhang155/dsh-plugin-claude-import#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-claude-import",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T02:06:23.647Z",
+  "created_at": "2026-08-15T02:06:23.279Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:05.445Z"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "deepseek-harness-auth",
+  "name": "deepseek-harness-auth",
+  "version": "0.2.1",
+  "description": "Fail-closed password authentication proxy bundle for the DeepSeek Harness Web profile",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "authentication",
+    "reverse-proxy"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/taichuy/deepseek-harness-auth.git",
+  "homepage": "https://github.com/taichuy/deepseek-harness-auth#readme",
+  "npm": "https://www.npmjs.com/package/deepseek-harness-auth",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T07:15:15.816Z",
+  "created_at": "2026-08-16T02:33:52.664Z",
+  "gh": {
+    "full_name": "taichuy/deepseek-harness-auth",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:15:17Z",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 65,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:59:24.875Z"
+}

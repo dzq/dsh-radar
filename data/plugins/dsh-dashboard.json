@@ -1,0 +1,58 @@
+{
+  "slug": "dsh-dashboard",
+  "name": "dsh-dashboard",
+  "version": "0.7.0",
+  "description": "A Symphony-compatible multi-provider task orchestrator and dashboard for DeepSeek Harness",
+  "keywords": [
+    "ai-agent",
+    "dashboard",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "github",
+    "gitlab",
+    "jira",
+    "linear",
+    "asana",
+    "local-tasks",
+    "symphony"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Uddoo/dsh-dashboard.git",
+  "homepage": "https://github.com/Uddoo/dsh-dashboard#readme",
+  "npm": "https://www.npmjs.com/package/dsh-dashboard",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T06:30:07.445Z",
+  "created_at": "2026-08-14T04:24:24.936Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:40.349Z"
+}

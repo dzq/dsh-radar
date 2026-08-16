@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-native-memory",
+  "name": "dsh-native-memory",
+  "version": "0.2.0",
+  "description": "Native, per-workspace long-term memory for DeepSeek Harness: facts and profiles on DSH's own storage-domain, cross-session recall through session-query FTS, approval-gated writes, and cited provenance — no external server, no extra runtime dependency.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "memory",
+    "long-term-memory",
+    "agent"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/highland0971/dsh-native-memory.git",
+  "homepage": "https://github.com/highland0971/dsh-native-memory#readme",
+  "npm": "https://www.npmjs.com/package/dsh-native-memory",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T15:28:31.080Z",
+  "created_at": "2026-08-15T06:20:29.529Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:36.523Z"
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-codex-oauth",
+  "name": "dsh-codex-oauth",
+  "version": "0.2.6",
+  "description": "Use a ChatGPT Codex subscription in DeepSeek Harness through standalone OAuth",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "openai-codex",
+    "oauth"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/eons2long/dsh-codex-oauth.git",
+  "homepage": "https://github.com/eons2long/dsh-codex-oauth#readme",
+  "npm": "https://www.npmjs.com/package/dsh-codex-oauth",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 1158,
+  "monthly_downloads": 1158,
+  "last_publish": "2026-08-15T10:35:27.390Z",
+  "created_at": "2026-08-15T03:08:42.234Z",
+  "gh": null,
+  "scores": {
+    "popularity": 77,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 71,
+    "grade": "A"
+  },
+  "updated_at": "2026-08-16T07:58:18.239Z"
+}

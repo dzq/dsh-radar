@@ -1,0 +1,41 @@
+{
+  "slug": "dsh-all-warmup",
+  "name": "dsh-all-warmup",
+  "version": "0.1.0",
+  "description": "Global frictionless warm-up layer plugin for DeepSeek Harness: every session (top-level, every subagent depth, after compaction) runs one independent warmup call with a minimal catalog, then exposes the full original mode from the second round on.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "warmup"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-all-warmup",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T17:53:38.527Z",
+  "created_at": "2026-08-15T17:53:38.344Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:33.955Z"
+}

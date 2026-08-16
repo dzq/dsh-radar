@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-persona-memory",
+  "name": "dsh-persona-memory",
+  "version": "0.1.12",
+  "description": "Persistent long-term persona memory for DeepSeek Harness: MEMORY.md/USER.md storage, memory + memory_search tools, per-request context injection, and secret scanning. Ported in spirit from pi-hermes-memory.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "plugin",
+    "memory",
+    "persistent-memory",
+    "persona",
+    "long-term-memory"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Quophic/dsh-persona-memory.git",
+  "homepage": "https://github.com/Quophic/dsh-persona-memory#readme",
+  "npm": "https://www.npmjs.com/package/dsh-persona-memory",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T17:04:35.562Z",
+  "created_at": "2026-08-14T13:05:36.964Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:08.972Z"
+}

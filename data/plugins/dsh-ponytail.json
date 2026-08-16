@@ -1,0 +1,41 @@
+{
+  "slug": "dsh-ponytail",
+  "name": "dsh-ponytail",
+  "version": "0.2.0",
+  "description": "Ponytail lazy senior dev mode for DeepSeek Harness: per-turn minimal-code ruleset injection, /ponytail mode command, deactivation words, and the six ponytail skills.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "ponytail",
+    "yagni",
+    "minimalism",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-ponytail",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T03:31:11.258Z",
+  "created_at": "2026-08-15T03:31:11.044Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:04.700Z"
+}

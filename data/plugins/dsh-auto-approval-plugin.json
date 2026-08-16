@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-auto-approval-plugin",
+  "name": "dsh-auto-approval-plugin",
+  "version": "2.0.0",
+  "description": "A middle permission tier for DeepSeek Harness between workspace-write and danger-full-access: auto-approves harmless commands and operations targeting configured trusted areas, beyond the current workspace.",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "approval",
+    "sandbox",
+    "permission",
+    "trusted",
+    "auto-approve"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/StyxNether/dsh-auto-approval-plugin.git",
+  "homepage": "https://github.com/StyxNether/dsh-auto-approval-plugin#readme",
+  "npm": "https://www.npmjs.com/package/dsh-auto-approval-plugin",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T18:24:24.432Z",
+  "created_at": "2026-08-14T15:59:20.169Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 65,
+    "dsh_compat": 85,
+    "overall": 57,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:54.599Z"
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "jiesou--dsh-commandcode-go-provider",
+  "name": "@jiesou/dsh-commandcode-go-provider",
+  "version": "0.1.4",
+  "description": "Command Code Go provider adapter for dsh: scan the Go-plan model catalog dynamically and serve /alpha/generate through the harness LLM seam",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "commandcode",
+    "commandcode-go",
+    "llm-provider",
+    "dsh-bundle"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/jiesou/dsh-commandcode-go-provider.git",
+  "homepage": "https://github.com/jiesou/dsh-commandcode-go-provider#readme",
+  "npm": "https://www.npmjs.com/package/@jiesou/dsh-commandcode-go-provider",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T16:04:18.154Z",
+  "created_at": "2026-08-14T15:32:37.673Z",
+  "gh": {
+    "full_name": "jiesou/dsh-commandcode-go-provider",
+    "stars": 3,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T16:04:03Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 60,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:58.609Z"
+}

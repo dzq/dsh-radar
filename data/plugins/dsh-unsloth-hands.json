@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-unsloth-hands",
+  "name": "dsh-unsloth-hands",
+  "version": "0.1.0",
+  "description": "Unsloth for DeepSeek Harness - a pure-client tool plugin that connects the harness online model to a locally running Unsloth Desktop (Unsloth Studio) server for repetitive text and vision (OCR) labor.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "unsloth",
+    "unsloth-desktop",
+    "llm",
+    "gguf",
+    "local",
+    "offline"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/MicroHEROX/dsh-unsloth-hands.git",
+  "homepage": "https://github.com/MicroHEROX/dsh-unsloth-hands",
+  "npm": "https://www.npmjs.com/package/dsh-unsloth-hands",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T05:07:04.553Z",
+  "created_at": "2026-08-15T05:07:04.355Z",
+  "gh": {
+    "full_name": "MicroHEROX/dsh-unsloth-hands",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T05:23:13Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 62,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:29.648Z"
+}

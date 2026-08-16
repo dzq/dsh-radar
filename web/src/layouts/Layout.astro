@@ -1,0 +1,185 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  active?: string;
+}
+
+const {
+  title = 'DSH Radar — DeepSeek Harness 插件雷达',
+  description = '给 DSH 插件打 S/A/B/C 评分 · 版本兼容矩阵 · 实战配方 · 踩坑 Wiki',
+  active = '',
+} = Astro.props;
+
+// Plausible Analytics: 通过 PUBLIC_PLAUSIBLE_DOMAIN 环境变量启用
+// 不填则完全不上报（默认行为，零追踪）
+const plausibleDomain = import.meta.env.PUBLIC_PLAUSIBLE_DOMAIN || '';
+
+// JSON-LD: WebSite + Organization 结构化数据（SEO 强化）
+const siteUrl = Astro.site?.toString().replace(/\/$/, '') || 'https://dsh.pub';
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': `${siteUrl}/#website`,
+      url: siteUrl,
+      name: 'DSH Radar',
+      description: '给 DSH 插件打 S/A/B/C 雷达评分 · 版本兼容矩阵 · 实战配方 · 踩坑 Wiki',
+      inLanguage: ['zh-CN', 'en'],
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: `${siteUrl}/search?q={search_term_string}`,
+        'query-input': 'required name=search_term_string',
+      },
+    },
+    {
+      '@type': 'Organization',
+      '@id': `${siteUrl}/#org`,
+      name: 'DSH Radar',
+      url: siteUrl,
+      logo: `${siteUrl}/favicon.svg`,
+      sameAs: [
+        'https://github.com/dsh-radar/dsh-radar',
+      ],
+    },
+  ],
+};
+---
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="description" content={description} />
+<meta name="theme-color" content="#0a0e1a" media="(prefers-color-scheme: dark)" />
+<meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/favicon.svg" />
+<link rel="manifest" href="/manifest.json" />
+<link rel="canonical" href={Astro.url.toString()} />
+<link rel="preconnect" href="https://registry.npmjs.org" />
+<link rel="dns-prefetch" href="https://api.github.com" />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:type" content="website" />
+<meta property="og:url" content={Astro.url.toString()} />
+<meta property="og:image" content={`${siteUrl}/og.svg`} />
+<meta property="og:locale" content="zh_CN" />
+<meta property="og:site_name" content="DSH Radar" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={`${siteUrl}/og.svg`} />
+<link rel="alternate" type="application/rss+xml" title="DSH Radar RSS" href="/feeds/rss.xml" />
+<link rel="alternate" type="application/atom+xml" title="DSH Radar Atom" href="/feeds/atom.xml" />
+<link rel="alternate" type="application/feed+json" title="DSH Radar JSON Feed" href="/feeds/feed.json" />
+<title>{title}</title>
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+{plausibleDomain && (
+  <script defer data-domain={plausibleDomain} src="https://plausible.io/js/script.js"></script>
+)}
+<script is:inline>
+  /* 主题初始化（FOUC 防护）— 仅应用用户已保存的偏好 */
+  (function() {
+    try {
+      var saved = localStorage.getItem('theme');
+      if (saved === 'light' || saved === 'dark') {
+        document.documentElement.setAttribute('data-theme', saved);
+      }
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="inner container">
+    <a href="/" class="logo">
+      <span class="pulse"></span>
+      <span>DSH<span style="color:var(--accent)">·</span>Radar</span>
+    </a>
+
+    <button class="menu-toggle" id="menu-toggle" aria-label="菜单">☰</button>
+
+    <nav id="primary-nav">
+      <a href="/plugins" class={active === 'plugins' ? 'active' : ''}>插件雷达</a>
+      <a href="/search" class={active === 'search' ? 'active' : ''}>搜索</a>
+      <a href="/authors" class={active === 'authors' ? 'active' : ''}>作者</a>
+      <a href="/recipes" class={active === 'recipes' ? 'active' : ''}>配方</a>
+      <a href="/compare" class={active === 'compare' ? 'active' : ''}>横评</a>
+      <a href="/potholes" class={active === 'potholes' ? 'active' : ''}>踩坑</a>
+      <a href="/trends" class={active === 'trends' ? 'active' : ''}>趋势</a>
+      <a href="/changelog" class={active === 'changelog' ? 'active' : ''}>Changelog</a>
+      <a href="/methodology" class={active === 'methodology' ? 'active' : ''}>公式</a>
+      <a href="/tutorials" class={active === 'tutorials' ? 'active' : ''}>教程</a>
+      <a href="/faq" class={active === 'faq' ? 'active' : ''}>FAQ</a>
+      <a href="/reports" class={active === 'reports' ? 'active' : ''}>周报</a>
+      <a href="/subscribe" class={active === 'subscribe' ? 'active' : ''}>订阅</a>
+      <a href="/team" class={active === 'team' ? 'active' : ''} style="color:var(--accent);font-weight:600;">团队版</a>
+      <a href="https://github.com/dsh-radar/dsh-radar" target="_blank" rel="noopener">GitHub ↗</a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="切换主题">🌙</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <slot />
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>
+      DSH Radar · 数据每周自动更新 ·
+      <a href="https://github.com/dsh-radar/dsh-radar">开源仓库</a> ·
+      基于 <a href="https://deepseek.ai" target="_blank" rel="noopener">DeepSeek Harness</a> 生态
+    </p>
+    <p style="margin-top:8px;font-size:11px;">
+      数据来源：npm registry + GitHub API · 仅做聚合与评分，不审核插件代码本体 · 零追踪承诺
+    </p>
+  </div>
+</footer>
+
+<script is:inline>
+  /* 主题切换 + 移动端菜单 */
+  (function() {
+    // 主题切换
+    var themeBtn = document.getElementById('theme-toggle');
+    var root = document.documentElement;
+
+    function updateBtn() {
+      // 按钮文案 = 用户点击后会切换到的那个主题
+      var isLight = root.getAttribute('data-theme') === 'light';
+      themeBtn.textContent = isLight ? '🌙' : '☀️';
+    }
+    updateBtn();
+
+    themeBtn.addEventListener('click', function() {
+      var isLight = root.getAttribute('data-theme') === 'light';
+      // 始终显式设置对方，不用 remove——避免 CSS 系统偏好自动覆盖回来
+      var next = isLight ? 'dark' : 'light';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+      updateBtn();
+    });
+
+    // 移动端汉堡菜单
+    var menuBtn = document.getElementById('menu-toggle');
+    var nav = document.getElementById('primary-nav');
+    menuBtn.addEventListener('click', function() {
+      nav.classList.toggle('open');
+      menuBtn.textContent = nav.classList.contains('open') ? '✕' : '☰';
+    });
+    nav.querySelectorAll('a').forEach(function(a) {
+      a.addEventListener('click', function() {
+        if (nav.classList.contains('open')) {
+          nav.classList.remove('open');
+          menuBtn.textContent = '☰';
+        }
+      });
+    });
+  })();
+</script>
+</body>
+</html>

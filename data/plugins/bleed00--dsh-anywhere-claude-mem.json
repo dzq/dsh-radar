@@ -1,0 +1,42 @@
+{
+  "slug": "bleed00--dsh-anywhere-claude-mem",
+  "name": "@bleed00/dsh-anywhere-claude-mem",
+  "version": "0.1.0",
+  "description": "A DeepSeek Harness plugin that turns the anywhere-claude-mem git sync into a DSH peer: pull cross-machine memory at session start and push new prompts/observations as they land in the claude-mem worker",
+  "keywords": [
+    "dsh-plugin",
+    "anywhere-claude-mem",
+    "claude-mem",
+    "memory",
+    "sync",
+    "deepseek-harness"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Bleed00/Anywhere-claude-mem.git",
+  "homepage": "https://github.com/Bleed00/Anywhere-claude-mem#readme",
+  "npm": "https://www.npmjs.com/package/@bleed00/dsh-anywhere-claude-mem",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20.12.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T12:02:24.850Z",
+  "created_at": "2026-08-14T12:02:23.480Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:58.077Z"
+}

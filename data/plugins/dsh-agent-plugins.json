@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-agent-plugins",
+  "name": "dsh-agent-plugins",
+  "version": "0.1.0",
+  "description": "Agent Plugins 1.0.0 adapter for DeepSeek Harness: discovers skills/ and mcp.json from agent-plugin stores, registers skills and MCP servers, and manages them through a CLI and the settings panel.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "agent-plugins",
+    "skills",
+    "mcp"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/SisyphusSQ/dsh-plugins.git",
+  "homepage": "https://github.com/SisyphusSQ/dsh-plugins/tree/main/packages/dsh-agent-plugins#readme",
+  "npm": "https://www.npmjs.com/package/dsh-agent-plugins",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T14:02:08.305Z",
+  "created_at": "2026-08-15T14:02:07.940Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:31.697Z"
+}

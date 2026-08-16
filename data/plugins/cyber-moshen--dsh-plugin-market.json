@@ -1,0 +1,41 @@
+{
+  "slug": "cyber-moshen--dsh-plugin-market",
+  "name": "@cyber-moshen/dsh-plugin-market",
+  "version": "0.3.0",
+  "description": "Open-source plugin market for the DSH web GUI: card grid with GitHub stars, last-commit freshness, and one-click install/uninstall. The catalog is this repo's own data/plugins.json — anyone can add a plugin via pull request. · 开源 DSH 插件市场：卡片式排布、星数、最近提交、一键",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "market",
+    "marketplace"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@cyber-moshen/dsh-plugin-market",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T15:26:36.413Z",
+  "created_at": "2026-08-14T14:12:19.293Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:03.725Z"
+}

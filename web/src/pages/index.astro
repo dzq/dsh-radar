@@ -1,0 +1,124 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { loadJson } from '../lib/paths.mjs';
+
+const stats = await loadJson('stats.json');
+const index = await loadJson('index.json');
+const recipes = await loadJson('recipes.json');
+
+const topPlugins = index.plugins.slice(0, 10);
+---
+<Layout active="home">
+  <section class="hero">
+    <div class="container">
+      <h1>DSH Radar 📡</h1>
+      <p class="tagline">
+        给 DSH 插件打 <strong>S/A/B/C</strong> 雷达评分 · 自动维护<strong>版本兼容矩阵</strong> · 收集<strong>实战配方</strong> · 聚合<strong>踩坑 Wiki</strong>
+      </p>
+      <div class="cta">
+        <a href="/plugins" class="btn btn-primary">查看插件雷达 →</a>
+        <a href="https://github.com/dsh-radar/dsh-radar" class="btn">★ Star on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="stats-grid">
+      <div class="stat-card">
+        <span class="num">{stats.total}</span>
+        <span class="label">评分插件</span>
+      </div>
+      <div class="stat-card">
+        <span class="num">{stats.by_compat}</span>
+        <span class="label">DSH 标准插件</span>
+      </div>
+      <div class="stat-card">
+        <span class="num">{(stats.total_weekly_downloads / 1000).toFixed(1)}k</span>
+        <span class="label">周下载</span>
+      </div>
+      <div class="stat-card">
+        <span class="num">{stats.by_grade.S || 0}</span>
+        <span class="label">S 级插件</span>
+      </div>
+      <div class="stat-card">
+        <span class="num">{new Date(stats.generated_at).toLocaleDateString('zh-CN')}</span>
+        <span class="label">数据更新于</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="container section">
+    <h2>🏆 头部插件雷达</h2>
+    <p class="sub">按综合评分排序的 Top 10 · <a href="/plugins">查看全部 →</a></p>
+
+    <div style="background:var(--bg-elev);border:1px solid var(--border);border-radius:12px;overflow:hidden;">
+      {topPlugins.map((p: any) => (
+        <a href={`/plugins/${p.slug}`} class="plugin-row" style="text-decoration:none;">
+          <span class={`grade grade-${p.grade}`}>{p.grade}</span>
+          <div>
+            <div class="name">{p.name}<span class="version">v{p.version}</span></div>
+            <div class="desc">{p.description || '—'}</div>
+          </div>
+          <div class="meta"><strong>{p.weekly_downloads.toLocaleString()}</strong>dl/wk</div>
+          <div class="meta"><strong>★ {p.stars}</strong>stars</div>
+          <div class="meta"><strong>{p.overall}</strong>overall</div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="container section">
+    <h2>📖 实战配方 · 精选</h2>
+    <p class="sub">社区贡献的"任务 → 插件组合"配方 · <a href="/recipes">查看全部 →</a></p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;">
+      {recipes.slice(0, 3).map((r: any) => (
+        <div class="info-block" style="margin:0;">
+          <h3 style="margin-bottom:8px;">{r.title}</h3>
+          <p style="font-size:13px;color:var(--text-dim);margin-bottom:12px;">{r.task}</p>
+          <div class="tags">
+            {r.plugins.map((pl: string) => <span class="tag dsh">{pl}</span>)}
+          </div>
+          <p style="font-size:12px;color:var(--text-mute);margin-top:12px;">♥ {r.likes} · @{r.submitted_by}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="container section">
+    <h2>为什么需要 DSH Radar？</h2>
+    <div class="lead">
+      DSH 生态已有 <strong>708+</strong> 插件（npm `dsh-plugin` 标签），但 <strong>6+ 个市场项目各自为战</strong>，没有统一评分、没有版本兼容表、没有配方库。
+      <br/>DSH Radar 做的是<strong>大家不愿意做的脏活</strong>：持续评测、兼容性矩阵、实战配方、横向对比。
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:24px;">
+      <a href="/plugins" class="info-block" style="margin:0;text-decoration:none;">
+        <h3>📊 雷达评分</h3>
+        <p style="color:var(--text-dim);font-size:14px;">5 维度：popularity / maintenance / quality / security / DSH compat</p>
+      </a>
+      <a href="/search" class="info-block" style="margin:0;text-decoration:none;">
+        <h3>🔍 搜索 + 筛选</h3>
+        <p style="color:var(--text-dim);font-size:14px;">按名称/关键词/等级/兼容性 实时过滤 700+ 插件</p>
+      </a>
+      <a href="/recipes" class="info-block" style="margin:0;text-decoration:none;">
+        <h3>📖 配方库</h3>
+        <p style="color:var(--text-dim);font-size:14px;">任务 → 插件组合 → 实测 tips，社区共建</p>
+      </a>
+      <a href="/potholes" class="info-block" style="margin:0;text-decoration:none;">
+        <h3>🚧 踩坑 Wiki</h3>
+        <p style="color:var(--text-dim);font-size:14px;">聚合 GitHub Discussions / V2EX / linux.do 的踩坑贴</p>
+      </a>
+      <a href="/compare" class="info-block" style="margin:0;text-decoration:none;">
+        <h3>📊 横评对比</h3>
+        <p style="color:var(--text-dim);font-size:14px;">DSH vs BitFun vs Claude Code vs Cursor 6 维雷达</p>
+      </a>
+      <a href="/subscribe" class="info-block" style="margin:0;text-decoration:none;">
+        <h3>📬 订阅更新</h3>
+        <p style="color:var(--text-dim);font-size:14px;">RSS / Atom / JSON Feed，每周自动推送变化</p>
+      </a>
+      <a href="/team" class="info-block" style="margin:0;text-decoration:none;border-color:var(--accent);">
+        <h3 style="color:var(--accent);">🚀 团队版 🚀</h3>
+        <p style="color:var(--text-dim);font-size:14px;">插件白名单 + 审计 + 私有 registry · $19/seat/月</p>
+      </a>
+    </div>
+  </section>
+</Layout>

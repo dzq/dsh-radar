@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-sidebar-files",
+  "name": "dsh-sidebar-files",
+  "version": "0.1.0",
+  "description": "Sidebar file tree for DeepSeek Harness: a files panel with a lazy, per-extension-icon tree, copy-path and send-to-agent actions",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "plugin",
+    "sidebar",
+    "file-tree",
+    "files"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Fallen0543/dsh-sidebar-files.git",
+  "homepage": "https://github.com/Fallen0543/dsh-sidebar-files#readme",
+  "npm": "https://www.npmjs.com/package/dsh-sidebar-files",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-primitives",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T11:55:27.349Z",
+  "created_at": "2026-08-15T11:55:27.147Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:12.081Z"
+}

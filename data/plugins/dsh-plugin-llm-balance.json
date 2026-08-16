@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-plugin-llm-balance",
+  "name": "dsh-plugin-llm-balance",
+  "version": "0.2.1",
+  "description": "DSH（DeepSeek Harness）插件：页面右上角可拖动的 API 余额/配额悬浮卡片——自动发现 DeepSeek / Moonshot / Kimi For Coding 等 provider，按余额分档变色、实时刷新",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "deepseek-harness",
+    "deepseek",
+    "moonshot",
+    "kimi",
+    "api-balance",
+    "quota",
+    "billing"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/FengHuoLinShan/dsh-plugin-llm-balance.git",
+  "homepage": "https://github.com/FengHuoLinShan/dsh-plugin-llm-balance",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-llm-balance",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T02:54:09.306Z",
+  "created_at": "2026-08-14T20:06:46.185Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:36.035Z"
+}

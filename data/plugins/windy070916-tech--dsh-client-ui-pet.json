@@ -1,0 +1,53 @@
+{
+  "slug": "windy070916-tech--dsh-client-ui-pet",
+  "name": "@windy070916-tech/dsh-client-ui-pet",
+  "version": "0.1.0",
+  "description": "蜗蜗 (Sumikko Gurashi snail) desktop pet for the DeepSeek Harness Web UI: 8-direction crawling, slime trail, file-drop feeding, sleep, and conversation reactions",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "desktop-pet",
+    "sumikko-gurashi",
+    "client-plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/windy070916-tech/deepseek-harness.git",
+  "homepage": "https://github.com/windy070916-tech/deepseek-harness#readme",
+  "npm": "https://www.npmjs.com/package/@windy070916-tech/dsh-client-ui-pet",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ],
+      "platform": "web"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T04:24:48.715Z",
+  "created_at": "2026-08-15T04:24:48.370Z",
+  "gh": {
+    "full_name": "windy070916-tech/deepseek-harness",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T04:26:09Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 60,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:27.805Z"
+}

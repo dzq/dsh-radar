@@ -1,0 +1,45 @@
+{
+  "slug": "wishp3--dsh-friend-memory",
+  "name": "@wishp3/dsh-friend-memory",
+  "version": "0.1.1",
+  "description": "Markdown 记忆存储、记忆工具、自动小结、夜间归纳",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/wanghehe123/dsh-Friend.git",
+  "homepage": "https://github.com/wanghehe123/dsh-Friend",
+  "npm": "https://www.npmjs.com/package/@wishp3/dsh-friend-memory",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T05:39:19.566Z",
+  "created_at": "2026-08-14T16:01:11.246Z",
+  "gh": {
+    "full_name": "wanghehe123/dsh-Friend",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T05:38:38Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 55,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:49.003Z"
+}

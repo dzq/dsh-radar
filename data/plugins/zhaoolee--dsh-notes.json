@@ -1,0 +1,42 @@
+{
+  "slug": "zhaoolee--dsh-notes",
+  "name": "@zhaoolee/dsh-notes",
+  "version": "0.1.2",
+  "description": "DeepSeek Harness 插件：把用户对话导出为锤子便签（通过便签服务 API 写入云端工作区）。",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "smartisan",
+    "notes",
+    "markdown",
+    "ai-agent"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zhaoolee/notes.git",
+  "homepage": "https://github.com/zhaoolee/notes/tree/main/dsh-plugin#readme",
+  "npm": "https://www.npmjs.com/package/@zhaoolee/dsh-notes",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T13:11:53.368Z",
+  "created_at": "2026-08-14T02:06:46.963Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 80,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:05.775Z"
+}

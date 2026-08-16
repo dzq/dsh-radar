@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-model-meta-autofill",
+  "name": "dsh-model-meta-autofill",
+  "version": "0.2.0",
+  "description": "DSH plugin: auto-fill metadata (context length, output cap, display name, input modalities) for custom-provider models from the Model Metadata Registry (models.dev).",
+  "keywords": [
+    "dsh-plugin",
+    "llm",
+    "provider",
+    "metadata",
+    "context-window",
+    "max-tokens",
+    "models.dev",
+    "publicproviderconf"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/QJAG1024/dsh-model-meta-autofill.git",
+  "homepage": "https://github.com/QJAG1024/dsh-model-meta-autofill#readme",
+  "npm": "https://www.npmjs.com/package/dsh-model-meta-autofill",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T13:01:48.907Z",
+  "created_at": "2026-08-15T13:01:48.710Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:01.142Z"
+}

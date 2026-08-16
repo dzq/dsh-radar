@@ -1,0 +1,40 @@
+{
+  "slug": "jeremy9682--dsh-skill-pack",
+  "name": "@jeremy9682/dsh-skill-pack",
+  "version": "0.2.0",
+  "description": "A shareable set of 12 workflow skills for the DeepSeek Harness",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "skills",
+    "workflow"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/jeremy9682/dsh-skill-pack.git",
+  "homepage": "https://github.com/jeremy9682/dsh-skill-pack#readme",
+  "npm": "https://www.npmjs.com/package/@jeremy9682/dsh-skill-pack",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T23:47:24.020Z",
+  "created_at": "2026-08-14T23:30:38.407Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:27.128Z"
+}

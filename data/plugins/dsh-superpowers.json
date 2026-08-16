@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-superpowers",
+  "name": "dsh-superpowers",
+  "version": "0.1.0",
+  "description": "Superpowers (obra/superpowers) for DeepSeek Harness: the software-development methodology skills plus their session bootstrap, as a dsh plugin",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "superpowers",
+    "skills",
+    "tdd",
+    "agent"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/codeAnqiang-ma/dsh-superpowers.git",
+  "homepage": "https://github.com/codeAnqiang-ma/dsh-superpowers#readme",
+  "npm": "https://www.npmjs.com/package/dsh-superpowers",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T16:05:24.436Z",
+  "created_at": "2026-08-13T16:05:24.075Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:18.520Z"
+}

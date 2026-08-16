@@ -1,0 +1,208 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+<Layout title="定制评分公式 — DSH Radar" active="tutorials">
+  <section class="container section" style="max-width:760px;">
+    <a href="/tutorials" style="font-size:13px;color:var(--text-dim);">← 教程列表</a>
+    <h1 style="font-size:32px;margin:12px 0 8px;">🧮 定制你的评分公式</h1>
+    <p style="color:var(--text-mute);font-size:13px;">高级 · 20 分钟 · 2026-08-16</p>
+
+    <div class="lead" style="margin-top:24px;">
+      DSH Radar 的评分公式完全开源。<strong>改权重、改阈值</strong>，跑通完整重算流程 — 20 分钟搞定。
+    </div>
+
+    <h2 style="margin-top:40px;font-size:24px;">1. 文件结构</h2>
+    <p style="color:var(--text-dim);">核心算法在 <code>scripts/lib/score.mjs</code>，只有这一个文件：</p>
+    <pre style="background:var(--bg);padding:12px;border-radius:6px;color:var(--accent);font-size:11px;margin-top:8px;overflow-x:auto;"><code>{`scripts/lib/score.mjs
+├── logNormalize()        // log scale 归一化
+├── recencyScore()        // 指数衰减时间评分
+├── score()               // 主入口，返回 5 维分数 + grade
+├── gradeOf()             // 分数→等级
+└── parseGhRepo()         // 从 URL 解析 GitHub owner/repo`}</code></pre>
+
+    <h2 style="margin-top:40px;font-size:24px;">2. 改权重</h2>
+    <p style="color:var(--text-dim);">打开 <code>scripts/lib/score.mjs</code>，找 <code>score()</code> 函数末尾：</p>
+    <pre style="background:var(--bg);padding:16px;border-radius:8px;color:var(--accent);font-size:12px;margin-top:8px;overflow-x:auto;"><code>{`const overall = Math.round(
+  popularity  * 0.25 +   // ← 改这里
+  maintenance * 0.20 +
+  quality     * 0.20 +
+  security    * 0.15 +
+  dsh_compat  * 0.20
+);`}</code></pre>
+
+    <p style="color:var(--text-dim);margin-top:16px;">
+      改成你想要的比例（建议总和 = 1.0，否则 overall 会超 100 或低于 0）。
+    </p>
+
+    <h3 style="margin-top:24px;font-size:18px;">典型调整场景</h3>
+    <table style="width:100%;border-collapse:collapse;margin-top:12px;font-size:13px;">
+      <thead>
+        <tr style="background:var(--bg-elev2);">
+          <th style="padding:8px;text-align:left;color:var(--text-mute);font-size:11px;text-transform:uppercase;">场景</th>
+          <th style="padding:8px;text-align:left;color:var(--text-mute);font-size:11px;text-transform:uppercase;">建议调整</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom:1px solid var(--border);">
+          <td style="padding:8px;">企业场景，押注<strong>安全</strong></td>
+          <td style="padding:8px;">security 0.15 → <strong>0.30</strong>，其他等比下调</td>
+        </tr>
+        <tr style="border-bottom:1px solid var(--border);">
+          <td style="padding:8px;">个人开发者，<strong>不关心下载量</strong></td>
+          <td style="padding:8px;">popularity 0.25 → <strong>0.10</strong>，quality → 0.30</td>
+        </tr>
+        <tr style="border-bottom:1px solid var(--border);">
+          <td style="padding:8px;">想找<strong>冷门优质</strong>插件</td>
+          <td style="padding:8px;">popularity 0.25 → <strong>0.10</strong>，quality 0.20 → <strong>0.35</strong></td>
+        </tr>
+        <tr>
+          <td style="padding:8px;">只信 <strong>DSH 标准</strong></td>
+          <td style="padding:8px;">dsh_compat 0.20 → <strong>0.40</strong>，其他等比下调</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3 style="margin-top:28px;font-size:18px;">实战建议：popularity 该调高还是调低？</h3>
+    <p style="color:var(--text-dim);margin-top:12px;">
+      五维里最容易吵起来的就是 popularity。它衡量的是 weekly downloads 的 log 归一化值，
+      本质上是<strong>「别人替你踩过多少坑」的代理指标</strong>——不是质量本身。判断标准：
+    </p>
+
+    <div class="info-block" style="margin-top:16px;border-left:3px solid var(--grade-A);">
+      <strong style="color:var(--grade-A);">📈 该调高（0.25 → 0.35 甚至 0.40）</strong>
+      <ul style="margin-top:8px;color:var(--text-dim);padding-left:22px;line-height:1.8;font-size:14px;">
+        <li><strong>团队要定白名单</strong>：装机量本身就是最便宜的稳定性证据，出问题时能搜到别人的解法</li>
+        <li><strong>生产环境、不能当小白鼠</strong>：冷门包的 bug 往往要你自己修，隐性成本远超评分差距</li>
+        <li><strong>插件面向终端用户</strong>：下载量高意味着边界情况已经被大量真实输入打磨过</li>
+        <li><strong>你不打算读源码</strong>：不看代码就装，只能靠群众基数兜底</li>
+      </ul>
+    </div>
+
+    <div class="info-block" style="margin-top:12px;border-left:3px solid var(--grade-C);">
+      <strong style="color:var(--grade-C);">📉 该调低（0.25 → 0.10 甚至 0.05）</strong>
+      <ul style="margin-top:8px;color:var(--text-dim);padding-left:22px;line-height:1.8;font-size:14px;">
+        <li><strong>你在做选型调研</strong>：想挖被低估的新包，高权重会让榜单永远是那几个老面孔</li>
+        <li><strong>DSH 生态还年轻</strong>：全站周下载量不到一万，头部和腰部差距被 log 放大后噪声很大</li>
+        <li><strong>细分领域插件</strong>：某个垂直场景全网就 30 个用户，下载量根本没有区分度</li>
+        <li><strong>内网 / 私有 registry</strong>：npm 公网下载量对你毫无意义，直接压到 0.05 更诚实</li>
+      </ul>
+    </div>
+
+    <p style="color:var(--text-dim);margin-top:16px;font-size:14px;">
+      一个经验法则：<strong>popularity 权重 + maintenance 权重</strong>代表你有多依赖「社区替你验证」，
+      <strong>quality + security + dsh_compat</strong> 代表你有多依赖「自己看代码验证」。
+      两组加起来永远是 1.0，先想清楚自己站哪边，再动数字。
+    </p>
+
+    <h2 style="margin-top:40px;font-size:24px;">3. 改等级阈值</h2>
+    <p style="color:var(--text-dim);">同一文件，找 <code>gradeOf()</code> 函数：</p>
+    <pre style="background:var(--bg);padding:16px;border-radius:8px;color:var(--accent);font-size:12px;margin-top:8px;overflow-x:auto;"><code>{`function gradeOf(score) {
+  if (score >= 85) return 'S';   // ← 改这里
+  if (score >= 70) return 'A';
+  if (score >= 55) return 'B';
+  if (score >= 40) return 'C';
+  return 'D';
+}`}</code></pre>
+
+    <p style="color:var(--text-dim);margin-top:16px;">
+      例：想让 D 级更严格，可以改成 <code>score &gt;= 30</code> 才是 D（即低于 30 全部归到 "F 禁用"）。
+    </p>
+
+    <h2 style="margin-top:40px;font-size:24px;">4. 改 Security 启发式</h2>
+    <p style="color:var(--text-dim);">Security 维度最容易定制：</p>
+    <pre style="background:var(--bg);padding:16px;border-radius:8px;color:var(--accent);font-size:11px;margin-top:8px;overflow-x:auto;"><code>{`// score() 函数里 Security 部分：
+let s = 50; // baseline
+  + trustedPublisher.oidcConfigId ? 25 : 0
+  + publisher.username ? 5 : 0
+  + /audit|sandbox|permission|allowlist/.test(lowerDesc) ? 15 : 0   // ← 改关键词
+  - /eval|exec|child_process/.test(lowerDesc) && !/safe|sandbox/ ? 10 : 0
+  - gh.archived ? 30 : 0`}</code></pre>
+
+    <p style="color:var(--text-dim);margin-top:16px;">
+      例：你想给 "测试覆盖率" 加分：
+    </p>
+    <pre style="background:var(--bg);padding:12px;border-radius:6px;color:var(--accent);font-size:11px;margin-top:8px;overflow-x:auto;"><code>{`+ /test|coverage|vitest|jest/.test(lowerDesc) ? 10 : 0`}</code></pre>
+
+    <h2 style="margin-top:40px;font-size:24px;">5. 跑完整重算</h2>
+    <p style="color:var(--text-dim);">改完公式，跑：</p>
+    <pre style="background:var(--bg);padding:12px;border-radius:6px;color:var(--accent);font-size:11px;margin-top:8px;overflow-x:auto;"><code>{`# 重算所有插件评分（增量 5-30 秒）
+cd /path/to/dsh-radar
+node scripts/build-data.mjs
+
+# 重算搜索索引
+node scripts/build-search-index.mjs
+
+# 重算 changelog（基于历史快照对比）
+node scripts/build-changelog.mjs
+
+# 重新 build 站点
+cd web && npm run build`}</code></pre>
+
+    <h2 style="margin-top:40px;font-size:24px;">6. 验证效果</h2>
+    <p style="color:var(--text-dim);">看 <code>data/stats.json</code> 的 by_grade 分布（下面是全量 711 个插件时的示意）：</p>
+    <pre style="background:var(--bg);padding:16px;border-radius:8px;color:var(--accent);font-size:12px;margin-top:8px;overflow-x:auto;"><code>{`{
+  "total": 711,
+  "by_grade": {
+    "S": 1,    // ← 改权重后数字会变
+    "A": 3,
+    "B": 147,
+    "C": 549,
+    "D": 11
+  },
+  "by_compat": 505,
+  "total_weekly_downloads": 8692,
+  "generated_at": "2026-08-16T01:55:19.531Z"
+}`}</code></pre>
+
+    <p style="color:var(--text-dim);margin-top:16px;">
+      最快的验证方式是 <strong>git diff</strong>。改公式前先确保工作区干净，
+      重算后一条命令就能看出这次调参到底影响了谁：
+    </p>
+    <pre style="background:var(--bg);padding:16px;border-radius:8px;color:var(--accent);font-size:11px;margin-top:8px;overflow-x:auto;"><code>{`# ① 只看等级分布怎么变（最直观）
+git diff data/stats.json
+
+# ② 看有多少个插件的 grade 真的翻了
+git diff -U0 data/plugins/ | grep '"grade"' | sort | uniq -c
+
+# ③ 看首页 Top 10 排名有没有洗牌
+git diff data/index.json | head -60
+
+# ④ 只想知道"改动波及多少文件"
+git diff --stat data/`}</code></pre>
+
+    <div class="info-block" style="margin-top:20px;border-left:3px solid var(--warn);">
+      <strong style="color:var(--warn);">判断标准</strong>
+      <p style="color:var(--text-dim);font-size:14px;margin-top:6px;">
+        健康的调参：<strong>10%-30% 的插件换档</strong>，Top 10 里有 2-3 个位次变化。
+        如果 <code>git diff</code> 几乎没输出，说明这次调整没意义；
+        如果 90% 插件全部换档、S 级一下子冒出 50 个，说明权重和阈值不匹配，回去改 <code>gradeOf()</code>。
+      </p>
+    </div>
+
+    <h2 style="margin-top:40px;font-size:24px;">7. 提交 PR</h2>
+    <p style="color:var(--text-dim);">如果你的公式改得不错，欢迎 PR 回主仓库：</p>
+    <pre style="background:var(--bg);padding:12px;border-radius:6px;color:var(--accent);font-size:11px;margin-top:8px;overflow-x:auto;"><code>{`# 1. fork → 改 score.mjs → 测试 OK
+# 2. 提交
+git checkout -b formula/my-tuning
+git add scripts/lib/score.mjs data/stats.json
+git commit -m "formula: 调整 security 权重到 0.30（企业安全优先）"
+
+# 3. 推送 + 开 PR
+git push origin formula/my-tuning`}</code></pre>
+
+    <p style="color:var(--text-dim);margin-top:16px;">
+      PR 描述里写清楚：
+    </p>
+    <ul style="margin-top:8px;color:var(--text-dim);padding-left:24px;line-height:1.9;">
+      <li>改了什么（具体行 + diff）</li>
+      <li>为什么（场景）</li>
+      <li>前后对比（git diff stats.json）</li>
+      <li>对现有插件排名的影响（前 10 变化）</li>
+    </ul>
+
+    <div class="empty" style="margin-top:48px;">
+      <h3 style="color:var(--text);margin-bottom:8px;">⚠️ 注意事项</h3>
+      <p>改公式会让所有评分变化，影响现有用户的认知。<strong>谨慎改动主仓库公式</strong>，建议先在自己的 fork 跑两周，看社区反馈再提 PR。</p>
+    </div>
+  </section>
+</Layout>

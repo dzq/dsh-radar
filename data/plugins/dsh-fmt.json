@@ -1,0 +1,39 @@
+{
+  "slug": "dsh-fmt",
+  "name": "dsh-fmt",
+  "version": "0.1.0",
+  "description": "DSH plugin: format/validate JSON, YAML, TOML and SQL text.",
+  "keywords": [
+    "dsh-plugin",
+    "format",
+    "json",
+    "yaml",
+    "sql"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-fmt",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T03:38:55.991Z",
+  "created_at": "2026-08-15T03:38:55.646Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:04.699Z"
+}

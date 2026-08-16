@@ -1,0 +1,55 @@
+{
+  "slug": "dsh-store",
+  "name": "dsh-store",
+  "version": "0.5.1",
+  "description": "DeepSeek Harness 插件商店：npm 权威源 + awesome 精选 + 自动雷达（550+ 插件、11 分类、运行级验证），官方 dsh plugin add/remove 一键安装卸载，dsh 原生 UI",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "store",
+    "marketplace",
+    "plugin-manager"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/huguangyu666/dsh-store.git",
+  "homepage": "https://github.com/huguangyu666/dsh-store#readme",
+  "npm": "https://www.npmjs.com/package/dsh-store",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22.5"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T11:30:19.640Z",
+  "created_at": "2026-08-14T15:21:23.181Z",
+  "gh": {
+    "full_name": "huguangyu666/dsh-store",
+    "stars": 3,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T12:21:13Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:53.313Z"
+}

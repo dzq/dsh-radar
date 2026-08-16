@@ -1,0 +1,52 @@
+{
+  "slug": "deepseek-harness-zh_pro",
+  "name": "deepseek-harness-zh_pro",
+  "version": "0.5.0",
+  "description": "DSH 中文增强插件：中文界面修正残留英文、统一术语与格式，统计行完整显示，并可注入「中文优先提示」让大模型优先用中文回复与思考（默认关闭）",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "chinese",
+    "zh",
+    "enhancement",
+    "中文",
+    "汉化"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/magian1127/deepseek-harness-zh_pro.git",
+  "homepage": "https://github.com/magian1127/deepseek-harness-zh_pro#readme",
+  "npm": "https://www.npmjs.com/package/deepseek-harness-zh_pro",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T13:42:42.815Z",
+  "created_at": "2026-08-15T07:33:55.586Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:38.914Z"
+}

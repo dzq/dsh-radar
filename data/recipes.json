@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ppt-from-prompt",
+    "title": "一句话生成专业 PPT",
+    "task": "把一段大纲 / 报告生成可编辑的 PPTX",
+    "plugins": ["@liustack/pptfast"],
+    "why": "DrawingML 原生输出，PPT 里每个文本框都可二次编辑，不像 PptxGenJS 那种贴图版",
+    "tip": "搭配 @liustack/modsearch 做素材检索，token 节省 40%",
+    "submitted_by": "liustack",
+    "submitted_at": "2026-08-15",
+    "likes": 24
+  },
+  {
+    "id": "research-loop",
+    "title": "自动研究循环（auto-research）",
+    "task": "给定研究问题，自动搜索 + 阅读 + 写综述",
+    "plugins": ["@liustack/modsearch", "dsh-llm-auto-route"],
+    "why": "modsearch 提供搜索/抓取，llm-auto-route 按任务复杂度切模型，省 token",
+    "tip": "用 dsh-agent-teams 起 3 个并行 subagent（搜索/阅读/写作），速度 ×3",
+    "submitted_by": "nanmicoder",
+    "submitted_at": "2026-08-14",
+    "likes": 18
+  },
+  {
+    "id": "code-review",
+    "title": "代码审查 + 雷达打分",
+    "task": "提交前自动跑多维代码健康评分",
+    "plugins": ["dsh-plugin-review"],
+    "why": "雷达图输出可读性高，CI 里直接 fail on grade < B",
+    "tip": "结合 dsh-plugin-audit 做安全扫描，双保险",
+    "submitted_by": "Mingxi2077",
+    "submitted_at": "2026-08-12",
+    "likes": 11
+  },
+  {
+    "id": "multi-agent-team",
+    "title": "多 Agent 团队（前端 / 后端 / QA）",
+    "task": "复杂项目分解给多个 subagent 并行开发",
+    "plugins": ["dsh-agent-teams", "@orange-jzh/dsh-team"],
+    "why": "AgentTeams 提供角色编排 + 共享上下文，避免 subagent 之间打架",
+    "tip": "team profile 里定义角色边界，不然 token 爆炸",
+    "submitted_by": "Relakkes",
+    "submitted_at": "2026-08-10",
+    "likes": 33
+  },
+  {
+    "id": "safe-deploy",
+    "title": "生产部署前 4 道防线",
+    "task": "让 AI 改完代码后安全提交",
+    "plugins": ["dsh-plugin-audit", "dsh-sandbox-keeper", "dsh-verification-receipt", "dsh-failure-capsule"],
+    "why": "审计 → 沙箱执行 → 验证回执 → 失败回滚，全流程可追溯",
+    "tip": "企业场景必装，参见 smzdm 那篇 '4 道防线' 文章",
+    "submitted_by": "YiHarvest",
+    "submitted_at": "2026-08-08",
+    "likes": 27
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-codex-tools",
+  "name": "dsh-codex-tools",
+  "version": "1.0.1",
+  "description": "Codex-backed web search, image generation, and image understanding tools for the DeepSeek Harness.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "plugin",
+    "image-generation",
+    "image-understanding",
+    "web-search",
+    "vision",
+    "chatgpt",
+    "codex",
+    "openai",
+    "gpt-image"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/SPYQWER1/dsh-codex-tools.git",
+  "homepage": "https://github.com/SPYQWER1/dsh-codex-tools#readme",
+  "npm": "https://www.npmjs.com/package/dsh-codex-tools",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T13:04:22.286Z",
+  "created_at": "2026-08-14T14:45:14.219Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:38.787Z"
+}

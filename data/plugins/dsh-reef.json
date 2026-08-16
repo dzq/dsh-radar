@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-reef",
+  "name": "dsh-reef",
+  "version": "1.5.2",
+  "description": "DSH 插件全家桶:浏览器自动化 + MCP Server + GitHub/GitLab 自动评审 + 原生嵌入面板。One install, five modules for DeepSeek Harness: browser automation, an MCP server exposing your agents to any MCP client, GitHub & GitLab automation, and a native in-app panel.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "browser",
+    "playwright",
+    "mcp",
+    "github",
+    "gitlab",
+    "agent"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-reef",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T18:13:34.014Z",
+  "created_at": "2026-08-15T17:56:05.987Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:05.318Z"
+}

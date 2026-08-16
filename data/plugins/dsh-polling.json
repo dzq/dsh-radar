@@ -1,0 +1,59 @@
+{
+  "slug": "dsh-polling",
+  "name": "dsh-polling",
+  "version": "0.1.1",
+  "description": "Recurring/scheduled tasks (轮询任务/定时任务) plugin for DeepSeek Harness: cron-driven polling jobs as real sessions, natural-language creation, model tools (polling_create/list/edit/delete/trigger) and a web UI. Install-and-go via `dsh plugin add`.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "cron",
+    "cron-scheduler",
+    "scheduler",
+    "scheduled-tasks",
+    "recurring-tasks",
+    "automation",
+    "polling",
+    "agent",
+    "轮询任务",
+    "定时任务",
+    "定时调度",
+    "自动化"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/cnyac/dsh-polling.git",
+  "homepage": "https://github.com/cnyac/dsh-polling#readme",
+  "npm": "https://www.npmjs.com/package/dsh-polling",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-primitives"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T06:30:41.246Z",
+  "created_at": "2026-08-14T06:21:57.910Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:24.067Z"
+}

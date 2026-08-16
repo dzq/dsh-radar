@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-emoji",
+  "name": "dsh-emoji",
+  "version": "0.2.1",
+  "description": "Tiny semantic inline emoji for DSH Agent responses",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "emoji",
+    "inline-emoji"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/hellodigua/dsh-emoji.git",
+  "homepage": "https://github.com/hellodigua/dsh-emoji#readme",
+  "npm": "https://www.npmjs.com/package/dsh-emoji",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-primitives",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-settings-plugins",
+        "@deepseek-ai/dsh-api-remotes"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T03:36:52.814Z",
+  "created_at": "2026-08-15T02:04:52.484Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 44,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:38.298Z"
+}

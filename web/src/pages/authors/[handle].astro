@@ -1,0 +1,91 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { loadJson } from '../../lib/paths.mjs';
+
+export async function getStaticPaths() {
+  const authors = await loadJson('authors.json');
+  return authors.map((a: any) => ({
+    params: { handle: a.handle },
+    props: { author: a },
+  }));
+}
+
+const { author } = Astro.props;
+
+const gradeLabels: any = { S: 'S 级', A: 'A 级', B: 'B 级', C: 'C 级', D: 'D 级' };
+const gradeColor: any = { S: 'var(--grade-S)', A: 'var(--grade-A)', B: 'var(--grade-B)', C: 'var(--grade-C)', D: 'var(--grade-D)' };
+---
+<Layout title={`@${author.handle} — DSH Radar`} active="authors">
+  <section class="container" style="padding-top:32px;">
+    <a href="/authors" style="font-size:13px;color:var(--text-dim);">← 返回作者列表</a>
+
+    <div style="display:flex;align-items:center;gap:20px;margin-top:20px;">
+      <div style="width:80px;height:80px;border-radius:50%;background:var(--accent-glow);display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:700;font-size:32px;font-family:monospace;">
+        {author.handle.slice(0, 2).toUpperCase()}
+      </div>
+      <div>
+        <h1 style="font-size:28px;margin:0;font-family:monospace;">@{author.handle}</h1>
+        <p style="color:var(--text-dim);margin:4px 0 0;">
+          <a href={author.gh_url} target="_blank" rel="noopener">GitHub ↗</a> ·
+          <a href={author.npm_url} target="_blank" rel="noopener">npm ↗</a>
+        </p>
+      </div>
+    </div>
+
+    {/* 数据卡片 */}
+    <div class="stats-grid" style="margin-top:32px;">
+      <div class="stat-card">
+        <span class="num">{author.plugin_count}</span>
+        <span class="label">插件数</span>
+      </div>
+      <div class="stat-card">
+        <span class="num">★ {author.total_stars.toLocaleString()}</span>
+        <span class="label">GitHub Stars 总和</span>
+      </div>
+      <div class="stat-card">
+        <span class="num">{author.total_weekly_dl.toLocaleString()}</span>
+        <span class="label">周下载总和</span>
+      </div>
+      <div class="stat-card">
+        <span class="num">{author.avg_overall}</span>
+        <span class="label">平均 Overall</span>
+      </div>
+    </div>
+
+    {/* 等级分布 */}
+    <div class="info-block" style="margin-top:24px;">
+      <h3>等级分布</h3>
+      <div style="display:flex;gap:16px;margin-top:12px;flex-wrap:wrap;">
+        {Object.entries(author.grades).map(([g, count]) => (
+          count > 0 && (
+            <div style="display:flex;align-items:center;gap:8px;">
+              <span class={`grade grade-${g}`} style="width:32px;height:32px;line-height:32px;">{g}</span>
+              <div>
+                <div style="font-size:24px;font-weight:700;color:{gradeColor[g]};">{count}</div>
+                <div style="font-size:11px;color:var(--text-mute);">{gradeLabels[g]}</div>
+              </div>
+            </div>
+          )
+        ))}
+      </div>
+    </div>
+
+    {/* 插件列表 */}
+    <h2 style="margin-top:48px;font-size:24px;">📦 所有插件（{author.plugin_count}）</h2>
+    <p class="sub" style="margin-bottom:16px;">按 Overall 评分排序</p>
+
+    <div style="background:var(--bg-elev);border:1px solid var(--border);border-radius:12px;overflow:hidden;">
+      {author.plugins.map((p: any) => (
+        <a href={`/plugins/${p.slug}`} class="plugin-row" style="text-decoration:none;">
+          <span class={`grade grade-${p.grade}`}>{p.grade}</span>
+          <div>
+            <div class="name">{p.name}</div>
+          </div>
+          <div class="meta"><strong>{p.weekly_dl.toLocaleString()}</strong>dl/wk</div>
+          <div class="meta"><strong>★ {p.stars}</strong></div>
+          <div class="meta"><strong>{p.overall}</strong>overall</div>
+        </a>
+      ))}
+    </div>
+  </section>
+</Layout>

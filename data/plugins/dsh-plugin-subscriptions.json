@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-plugin-subscriptions",
+  "name": "dsh-plugin-subscriptions",
+  "version": "0.1.1",
+  "description": "Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers, with OAuth login from the web Settings page",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "llm",
+    "oauth",
+    "chatgpt",
+    "codex",
+    "claude",
+    "grok"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/V1ki/dsh-plugin-subscriptions.git",
+  "homepage": "https://github.com/V1ki/dsh-plugin-subscriptions#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-subscriptions",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T10:40:42.233Z",
+  "created_at": "2026-08-14T08:54:31.292Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:43.165Z"
+}

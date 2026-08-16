@@ -1,0 +1,43 @@
+{
+  "slug": "dsh-plugin-dit",
+  "name": "dsh-plugin-dit",
+  "version": "0.1.2",
+  "description": "Dual-protocol DIT.ai provider bundle for DeepSeek Harness",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh-plugin",
+    "dit",
+    "ai-gateway",
+    "openai-compatible",
+    "anthropic-messages"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/cuboteam/Dit.git",
+  "homepage": "https://dit.ai",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-dit",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T07:12:03.418Z",
+  "created_at": "2026-08-14T03:37:37.363Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 48,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:42.959Z"
+}

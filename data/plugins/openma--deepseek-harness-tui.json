@@ -1,0 +1,42 @@
+{
+  "slug": "openma--deepseek-harness-tui",
+  "name": "@openma/deepseek-harness-tui",
+  "version": "0.2.1",
+  "description": "Terminal-native agent UI for DeepSeek Harness; standalone CLI or dsh profile bundle",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "tui",
+    "agent",
+    "deepseek-harness",
+    "dsh-plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/openma-ai/deepseek-harness-tui.git",
+  "homepage": "https://github.com/openma-ai/deepseek-harness-tui#readme",
+  "npm": "https://www.npmjs.com/package/@openma/deepseek-harness-tui",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T15:56:23.683Z",
+  "created_at": "2026-08-13T18:22:16.137Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:07.982Z"
+}

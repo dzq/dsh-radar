@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-update-notifier",
+  "name": "dsh-update-notifier",
+  "version": "0.1.1",
+  "description": "Hourly checks npm for newer versions of your installed DeepSeek Harness (dsh) plugins and pops an approval bubble asking which to upgrade; approved upgrades are handed to the agent to run.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek-harness-plugin",
+    "update-notifier",
+    "outdated",
+    "upgrade",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/stuarthu/dsh-update-notifier.git",
+  "homepage": "https://github.com/stuarthu/dsh-update-notifier#readme",
+  "npm": "https://www.npmjs.com/package/dsh-update-notifier",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T06:02:48.178Z",
+  "created_at": "2026-08-16T05:14:16.854Z",
+  "gh": {
+    "full_name": "stuarthu/dsh-update-notifier",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T06:23:21Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:59:45.503Z"
+}

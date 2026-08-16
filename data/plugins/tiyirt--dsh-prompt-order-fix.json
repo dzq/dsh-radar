@@ -1,0 +1,40 @@
+{
+  "slug": "tiyirt--dsh-prompt-order-fix",
+  "name": "@tiyirt/dsh-prompt-order-fix",
+  "version": "0.1.0",
+  "description": "Deterministic system-prompt section ordering for DeepSeek Harness — fixes KV-cache invalidation from unstable same-order section ordering across session resume. / 确定性 system-prompt section 排序：修复会话恢复时同 order section 排序漂移导致的 KV 缓存断层。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "system-prompt",
+    "kv-cache",
+    "cache"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@tiyirt/dsh-prompt-order-fix",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T21:36:02.793Z",
+  "created_at": "2026-08-15T21:36:02.431Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:10.939Z"
+}

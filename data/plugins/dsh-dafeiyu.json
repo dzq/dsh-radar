@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-dafeiyu",
+  "name": "dsh-dafeiyu",
+  "version": "0.1.0-alpha.6",
+  "description": "A desktop-native BigFish companion driven by DeepSeek Harness session events.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "desktop-pet",
+    "agent-companion"
+  ],
+  "license": "SEE LICENSE IN ASSET_LICENSE.md",
+  "repo": "git+https://github.com/QCYTSN/dsh-dafeiyu.git",
+  "homepage": "https://github.com/QCYTSN/dsh-dafeiyu#readme",
+  "npm": "https://www.npmjs.com/package/dsh-dafeiyu",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings-plugins"
+      ],
+      "platform": "web"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19"
+  },
+  "weekly_downloads": 137,
+  "monthly_downloads": 137,
+  "last_publish": "2026-08-14T11:27:09.683Z",
+  "created_at": "2026-08-14T11:27:08.569Z",
+  "gh": null,
+  "scores": {
+    "popularity": 53,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 67,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:23.088Z"
+}

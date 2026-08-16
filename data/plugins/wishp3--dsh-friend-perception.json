@@ -1,0 +1,40 @@
+{
+  "slug": "wishp3--dsh-friend-perception",
+  "name": "@wishp3/dsh-friend-perception",
+  "version": "0.1.1",
+  "description": "视觉感知 seam 预留（v1 无实现）",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/wanghehe123/dsh-Friend.git",
+  "homepage": "https://github.com/wanghehe123/dsh-Friend",
+  "npm": "https://www.npmjs.com/package/@wishp3/dsh-friend-perception",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T05:39:22.572Z",
+  "created_at": "2026-08-14T16:01:14.390Z",
+  "gh": {
+    "full_name": "wanghehe123/dsh-Friend",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T05:38:38Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 40,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 41,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:57.769Z"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "dsh-workspace-files",
+  "name": "dsh-workspace-files",
+  "version": "0.1.0",
+  "description": "为 DSH Web 提供当前工作区文件树右侧栏",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "workspace",
+    "file-tree"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/brickmaker/dsh-workspace-files.git",
+  "homepage": "https://github.com/brickmaker/dsh-workspace-files#readme",
+  "npm": "https://www.npmjs.com/package/dsh-workspace-files",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T01:42:39.753Z",
+  "created_at": "2026-08-16T01:42:39.468Z",
+  "gh": {
+    "full_name": "brickmaker/dsh-workspace-files",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T02:06:55Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 59,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:57.291Z"
+}

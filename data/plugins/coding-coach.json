@@ -1,0 +1,43 @@
+{
+  "slug": "coding-coach",
+  "name": "coding-coach",
+  "version": "1.0.2",
+  "description": "面向非开发人员的 35 个技能 bundle（DSH profile bundle，非 Agent 预设）：编排 + 工程 + 产品 + 界面/上线。dsh plugin add coding-coach 即可把技能装进任意 profile；完整「编程教练」Agent 见仓库 dsh/coding-coach 目录。",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "skills",
+    "agent-preset",
+    "non-developer",
+    "tdd",
+    "code-review",
+    "grilling",
+    "chinese"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/xiehuan123/coding-coach.git",
+  "homepage": "https://github.com/xiehuan123/coding-coach#readme",
+  "npm": "https://www.npmjs.com/package/coding-coach",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T16:40:48.267Z",
+  "created_at": "2026-08-14T14:33:18.938Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:21.192Z"
+}

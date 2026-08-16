@@ -1,0 +1,51 @@
+{
+  "slug": "michengai--dsh-skills-manager",
+  "name": "@michengai/dsh-skills-manager",
+  "version": "0.1.7",
+  "description": "NPM-installable DSH Web plugin for managing local skills and viewing shared Agent skills safely.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "skill",
+    "skills",
+    "cordis"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/MichengAI/dsh-skills-manager.git",
+  "homepage": "https://github.com/MichengAI/dsh-skills-manager#readme",
+  "npm": "https://www.npmjs.com/package/@michengai/dsh-skills-manager",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-workspace"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 905,
+  "monthly_downloads": 905,
+  "last_publish": "2026-08-15T15:56:11.926Z",
+  "created_at": "2026-08-15T10:50:22.540Z",
+  "gh": null,
+  "scores": {
+    "popularity": 74,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 72,
+    "grade": "A"
+  },
+  "updated_at": "2026-08-16T07:58:18.443Z"
+}

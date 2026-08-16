@@ -1,0 +1,35 @@
+{
+  "slug": "ohtokaah-sys--dsh-memory-host",
+  "name": "@ohtokaah-sys/dsh-memory-host",
+  "version": "0.5.0",
+  "description": "记忆 domain host 插件：用 storageDomain 开一次 'memory' domain（画像表 + 记忆表），供 preset 侧 dsh-memory 用 get() 取。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "memory",
+    "storage-domain"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@ohtokaah-sys/dsh-memory-host",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T18:44:26.999Z",
+  "created_at": "2026-08-14T04:35:54.509Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 40,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:49.414Z"
+}

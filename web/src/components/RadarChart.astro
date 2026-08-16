@@ -1,0 +1,93 @@
+---
+// RadarChart.astro — 纯 SVG 雷达图
+interface Props {
+  scores: {
+    popularity: number;
+    maintenance: number;
+    quality: number;
+    security: number;
+    dsh_compat: number;
+  };
+  size?: number;
+}
+const { scores, size = 300 } = Astro.props;
+
+const dims = [
+  { key: 'popularity', label: 'Popularity' },
+  { key: 'maintenance', label: 'Maintenance' },
+  { key: 'quality', label: 'Quality' },
+  { key: 'security', label: 'Security' },
+  { key: 'dsh_compat', label: 'DSH Compat' },
+];
+
+const cx = size / 2;
+const cy = size / 2;
+const radius = size * 0.36;
+const labelOffset = size * 0.46;
+
+function point(angle: number, value: number) {
+  const rad = (angle - 90) * (Math.PI / 180);
+  const r = (radius * value) / 100;
+  return { x: cx + r * Math.cos(rad), y: cy + r * Math.sin(rad) };
+}
+
+// 网格多边形 (20, 40, 60, 80, 100)
+const gridLevels = [20, 40, 60, 80, 100];
+const gridPolys = gridLevels.map((lv) => {
+  return dims.map((_, i) => {
+    const angle = (360 / dims.length) * i;
+    return point(angle, lv);
+  }).map((p) => `${p.x},${p.y}`).join(' ');
+});
+
+// 数据多边形
+const dataPoly = dims.map((d, i) => {
+  const angle = (360 / dims.length) * i;
+  return point(angle, scores[d.key as keyof typeof scores]);
+}).map((p) => `${p.x},${p.y}`).join(' ');
+---
+<svg viewBox={`0 0 ${size} ${size}`} role="img" aria-label="Radar chart">
+  <defs>
+    <radialGradient id="radar-fill" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5eead4" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#5eead4" stop-opacity="0.05"/>
+    </radialGradient>
+  </defs>
+
+  {/* 背景网格 */}
+  {gridPolys.map((poly) => (
+    <polygon points={poly} fill="none" stroke="#232b3d" stroke-width="1" />
+  ))}
+
+  {/* 轴线 */}
+  {dims.map((_, i) => {
+    const angle = (360 / dims.length) * i;
+    const end = point(angle, 100);
+    return <line x1={cx} y1={cy} x2={end.x} y2={end.y} stroke="#232b3d" stroke-width="1" />;
+  })}
+
+  {/* 数据区域 */}
+  <polygon points={dataPoly} fill="url(#radar-fill)" stroke="#5eead4" stroke-width="2" stroke-linejoin="round" />
+
+  {/* 数据点 */}
+  {dims.map((d, i) => {
+    const angle = (360 / dims.length) * i;
+    const p = point(angle, scores[d.key as keyof typeof scores]);
+    return <circle cx={p.x} cy={p.y} r="4" fill="#5eead4" />;
+  })}
+
+  {/* 标签 */}
+  {dims.map((d, i) => {
+    const angle = (360 / dims.length) * i;
+    const rad = (angle - 90) * (Math.PI / 180);
+    const lx = cx + labelOffset * Math.cos(rad);
+    const ly = cy + labelOffset * Math.sin(rad);
+    const value = scores[d.key as keyof typeof scores];
+    return (
+      <g>
+        <text x={lx} y={ly - 6} text-anchor="middle" fill="#8b96a8" font-size="11" font-family="ui-monospace, monospace">{d.label}</text>
+        <text x={lx} y={ly + 10} text-anchor="middle" fill="#5eead4" font-size="13" font-family="ui-monospace, monospace" font-weight="700">{value}</text>
+      </g>
+    );
+  })}
+</svg>

@@ -1,0 +1,202 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { loadJson } from '../../lib/paths.mjs';
+
+const stats = await loadJson('stats.json');
+const index = await loadJson('index.json');
+
+// Top 5 + Bottom 5
+const top = index.plugins.slice(0, 5);
+const bottom = [...index.plugins].sort((a, b) => a.overall - b.overall).slice(0, 5);
+
+// 下载 Top 5
+const byDownloads = [...index.plugins].sort((a, b) => b.weekly_downloads - a.weekly_downloads).slice(0, 5);
+
+// 按 grade 分组
+const gradeGroups = {
+  S: index.plugins.filter((p: any) => p.grade === 'S'),
+  A: index.plugins.filter((p: any) => p.grade === 'A'),
+  B: index.plugins.filter((p: any) => p.grade === 'B'),
+  C: index.plugins.filter((p: any) => p.grade === 'C'),
+  D: index.plugins.filter((p: any) => p.grade === 'D'),
+};
+---
+<Layout title="周报 #1 · 2026-W33 — DSH Radar" active="reports">
+  <article class="container" style="max-width:760px;padding-top:32px;">
+    <a href="/reports" style="font-size:13px;color:var(--text-dim);">← 周报列表</a>
+
+    <header style="margin:16px 0 32px;">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+        <span style="background:var(--accent);color:#0a0e1a;padding:4px 12px;border-radius:6px;font-weight:700;font-size:13px;">#1</span>
+        <span style="color:var(--text-mute);font-size:14px;">2026-W33 · 2026-08-16</span>
+      </div>
+      <h1 style="font-size:36px;line-height:1.2;margin-bottom:12px;">DSH 生态首次全量评分</h1>
+      <p style="color:var(--text-dim);font-size:18px;line-height:1.6;">
+        711 个 npm dsh-plugin 包 · 100% 评分覆盖 · 22 分钟跑完
+      </p>
+    </header>
+
+    <div class="lead">
+      本期是 DSH Radar 的<strong>创刊号</strong>。
+      我们把 npm 上所有挂 <code>dsh-plugin</code> 标签的 711 个包挨个打分，给 DSH 生态一个客观起点。
+    </div>
+
+    {/* TL;DR */}
+    <div class="info-block" style="margin-top:32px;border-left:3px solid var(--accent);">
+      <h3>📌 TL;DR</h3>
+      <ul style="margin-top:12px;color:var(--text-dim);padding-left:20px;line-height:1.9;">
+        <li><strong>{stats.total}</strong> 个 npm 包挂 <code>dsh-plugin</code> 标签 · 100% 评分覆盖</li>
+        <li><strong>{stats.by_grade.S}</strong> 个 S 级（生产就绪） · <strong>{stats.by_grade.A}</strong> 个 A 级（推荐）</li>
+        <li><strong>{stats.by_grade.B}</strong> 个 B 级 · <strong>{stats.by_grade.C}</strong> 个 C 级 · <strong>{stats.by_grade.D}</strong> 个 D 级</li>
+        <li><strong>{stats.by_compat}</strong> 个插件符合 DSH 标准（<code>{((stats.by_compat / stats.total) * 100).toFixed(1)}%</code>）</li>
+        <li>周下载总和 <strong>{stats.total_weekly_downloads.toLocaleString()}</strong></li>
+        <li>构建耗时 <strong>{Math.round(stats.build_ms / 1000)} 秒</strong> · 零 npm 依赖</li>
+      </ul>
+    </div>
+
+    {/* 头部 5 名 */}
+    <h2 style="margin-top:48px;font-size:28px;">🏆 头部 5 名</h2>
+    <p style="color:var(--text-dim);">综合评分（popularity + maintenance + quality + security + DSH compat）</p>
+
+    <div style="display:grid;gap:12px;margin-top:16px;">
+      {top.map((p: any, i: number) => (
+        <div class="info-block" style="margin:0;display:grid;grid-template-columns:40px 1fr auto;gap:16px;align-items:center;">
+          <div style="font-family:monospace;font-size:24px;color:var(--accent);font-weight:700;">#{i + 1}</div>
+          <div>
+            <a href={`/plugins/${p.slug}`} style="font-family:monospace;font-size:15px;color:var(--link);font-weight:600;">{p.name}</a>
+            <div style="color:var(--text-dim);font-size:13px;margin-top:4px;">{p.description}</div>
+            <div style="margin-top:8px;display:flex;gap:12px;font-size:12px;color:var(--text-mute);">
+              <span>📥 {p.weekly_downloads.toLocaleString()} dl/wk</span>
+              <span>★ {p.stars}</span>
+              <span>📅 {p.last_publish ? new Date(p.last_publish).toLocaleDateString('zh-CN') : '—'}</span>
+            </div>
+          </div>
+          <span class={`grade grade-${p.grade}`} style="width:48px;height:48px;line-height:48px;font-size:24px;">{p.grade}</span>
+        </div>
+      ))}
+    </div>
+
+    {/* 下载 Top */}
+    <h2 style="margin-top:48px;font-size:28px;">📥 周下载 Top 5</h2>
+    <p style="color:var(--text-dim);">npm weekly downloads 排序（log scale）</p>
+
+    <table class="matrix-table" style="margin-top:16px;">
+      <thead>
+        <tr><th>#</th><th>插件</th><th>周下载</th><th>等级</th></tr>
+      </thead>
+      <tbody>
+        {byDownloads.map((p: any, i: number) => (
+          <tr>
+            <td style="color:var(--text-mute);font-family:monospace;">#{i + 1}</td>
+            <td><a href={`/plugins/${p.slug}`} style="font-family:monospace;">{p.name}</a></td>
+            <td><strong>{p.weekly_downloads.toLocaleString()}</strong></td>
+            <td><span class={`grade grade-${p.grade}`} style="width:28px;height:28px;line-height:28px;font-size:13px;">{p.grade}</span></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+
+    {/* 等级分布 */}
+    <h2 style="margin-top:48px;font-size:28px;">📊 等级分布</h2>
+
+    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:16px;">
+      {(['S', 'A', 'B', 'C', 'D'] as const).map((g) => {
+        const count = gradeGroups[g].length;
+        const pct = (count / stats.total * 100).toFixed(1);
+        return (
+          <div style="text-align:center;padding:16px;background:var(--bg-elev);border:1px solid var(--border);border-radius:8px;">
+            <span class={`grade grade-${g}`} style="width:36px;height:36px;line-height:36px;font-size:16px;">{g}</span>
+            <div style="font-size:20px;font-weight:700;margin-top:8px;">{count}</div>
+            <div style="font-size:11px;color:var(--text-mute);">{pct}%</div>
+          </div>
+        );
+      })}
+    </div>
+
+    <div class="info-block" style="margin-top:16px;background:var(--bg);">
+      <p style="color:var(--text-dim);font-size:14px;line-height:1.7;margin:0;">
+        <strong>📌 观察：</strong>C 级占 <strong>{((stats.by_grade.C / stats.total) * 100).toFixed(1)}%</strong>（{stats.by_grade.C} 个），是 DSH 生态的"主流"。
+        这些插件质量中等，有用但需要使用者自己评估风险。
+        <br/><br/>
+        D 级 {stats.by_grade.D} 个 — 建议<strong>团队白名单默认禁用</strong>，直到作者修复。
+        详见 <a href="/methodology">评分公式</a> 了解 D 级判定标准。
+      </p>
+    </div>
+
+    {/* D 级名单（建议警惕） */}
+    <h2 style="margin-top:48px;font-size:28px;">🚧 D 级插件（建议警惕）</h2>
+    <p style="color:var(--text-dim);">评分 &lt; 40 的插件 — 可能是冷门未验证、或已归档、或缺 DSH 标准</p>
+
+    <div style="background:var(--bg-elev);border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-top:16px;">
+      {gradeGroups.D.map((p: any) => (
+        <a href={`/plugins/${p.slug}`} class="plugin-row" style="text-decoration:none;">
+          <span class={`grade grade-D`}>{p.grade}</span>
+          <div>
+            <div class="name">{p.name}</div>
+            <div class="desc">{p.description || '—'}</div>
+          </div>
+          <div class="meta"><strong>{p.weekly_downloads.toLocaleString()}</strong>dl/wk</div>
+          <div class="meta"><strong>★ {p.stars}</strong></div>
+          <div class="meta"><strong>{p.overall}</strong>overall</div>
+        </a>
+      ))}
+    </div>
+
+    {/* 本周看点 */}
+    <h2 style="margin-top:48px;font-size:28px;">🔥 本周看点</h2>
+
+    <div style="display:grid;gap:16px;">
+      <div class="info-block" style="margin:0;border-left:3px solid var(--grade-S);">
+        <h3 style="color:var(--grade-S);">🌟 唯一 S 级：@liustack/modsearch</h3>
+        <p style="color:var(--text-dim);margin-top:8px;">
+          一周 4,097 下载、★105、cordis patch 完整、维护活跃。
+          <strong>团队可放心装。</strong>给不能上网的模型提供 web/X search + 抓取，由免费的 Antigravity CLI 驱动。
+        </p>
+        <a href="/plugins/liustack--modsearch" style="font-size:13px;">→ 查看详情</a>
+      </div>
+
+      <div class="info-block" style="margin:0;border-left:3px solid var(--grade-A);">
+        <h3 style="color:var(--grade-A);">🎨 PPT 生成三巨头</h3>
+        <p style="color:var(--text-dim);margin-top:8px;">
+          A 级里 3 个全是 PPT 相关：<code>@liustack/pptfast</code>（DrawingML 原生输出）/ <code>design-playbook</code>（设计系统）/ <code>plaindeck</code>（Git-native 格式）。
+          "一句话生成可编辑 PPT" 这事 DSH 生态已经做到了。
+        </p>
+      </div>
+
+      <div class="info-block" style="margin:0;border-left:3px solid var(--bad);">
+        <h3 style="color:var(--bad);">⚠️ 91% 插件没"自我描述"</h3>
+        <p style="color:var(--text-dim);margin-top:8px;">
+          649 / 711 个插件挂了 <code>dsh-plugin</code> 标签，但只有 91% 含 <code>dsh.*</code> 元数据。
+          剩下 9% 可能是早期作品、命名空间不规范、或 fork 仓库。
+        </p>
+      </div>
+
+      <div class="info-block" style="margin:0;border-left:3px solid var(--accent);">
+        <h3 style="color:var(--accent);">📦 下载极度集中</h3>
+        <p style="color:var(--text-dim);margin-top:8px;">
+          头部 5 个插件占了 <strong>{((byDownloads.slice(0, 5).reduce((s, p) => s + p.weekly_downloads, 0) / stats.total_weekly_downloads) * 100).toFixed(1)}%</strong> 的周下载量。
+          长尾的 706 个插件大部分是 0 下载 — 生态还在早期，"赢家通吃"格局未定。
+        </p>
+      </div>
+    </div>
+
+    {/* 后续预告 */}
+    <h2 style="margin-top:48px;font-size:28px;">📅 下期预告</h2>
+    <p style="color:var(--text-dim);">
+      下周 W34 周报将包含：
+    </p>
+    <ul style="margin-top:12px;color:var(--text-dim);padding-left:24px;line-height:1.9;">
+      <li>本周新增插件（如有）</li>
+      <li>头部插件排名变化</li>
+      <li>等级迁移（S→A / C→D 等）</li>
+      <li>周下载变化趋势</li>
+      <li>本周新收录的踩坑 + 配方</li>
+    </ul>
+
+    <div class="empty" style="margin-top:48px;">
+      <h3 style="color:var(--text);margin-bottom:8px;">📬 订阅下周报</h3>
+      <p>RSS: <a href="/feeds/rss.xml">/feeds/rss.xml</a> · 邮件: <a href="/subscribe">/subscribe</a></p>
+      <p style="margin-top:12px;font-size:12px;color:var(--text-mute);">每周一北京时间 10:00 自动发布</p>
+    </div>
+  </article>
+</Layout>

@@ -1,0 +1,50 @@
+{
+  "slug": "wasd258--dsh-prompt-inject",
+  "name": "@wasd258/dsh-prompt-inject",
+  "version": "0.1.2",
+  "description": "Per-session system prompt injection for DSH: template library, per-session picker, default template for new sessions. 会话级系统提示词注入器：模板库、按会话选择、新会话默认模板。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "cordis",
+    "prompt",
+    "system-prompt",
+    "prompt-inject"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/WASD258-jpg/dsh-prompt-inject.git",
+  "homepage": "https://github.com/WASD258-jpg/dsh-prompt-inject#readme",
+  "npm": "https://www.npmjs.com/package/@wasd258/dsh-prompt-inject",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "immediately": true
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T08:26:29.201Z",
+  "created_at": "2026-08-15T08:05:40.595Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:08.799Z"
+}

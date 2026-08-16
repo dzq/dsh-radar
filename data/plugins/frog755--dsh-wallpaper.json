@@ -1,0 +1,49 @@
+{
+  "slug": "frog755--dsh-wallpaper",
+  "name": "@frog755/dsh-wallpaper",
+  "version": "0.3.1",
+  "description": "Persistent image and locally compressed MP4 wallpaper for DeepSeek Harness with opacity, blur, and a fixed web origin.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "wallpaper",
+    "background",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Frog755/dsh-wallpaper.git",
+  "homepage": "https://github.com/Frog755/dsh-wallpaper#readme",
+  "npm": "https://www.npmjs.com/package/@frog755/dsh-wallpaper",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-theme"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T14:08:44.651Z",
+  "created_at": "2026-08-15T12:18:22.087Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:10.643Z"
+}

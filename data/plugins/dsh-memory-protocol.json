@@ -1,0 +1,39 @@
+{
+  "slug": "dsh-memory-protocol",
+  "name": "dsh-memory-protocol",
+  "version": "0.1.0",
+  "description": "Memory protocol enforcement plugin for DeepSeek Harness — forces memory_weave before tool calls, auto-ingests session turns, injects memory context into agent steps. Bridges the opencode-memory MCP server with a hard protocol gate.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "memory",
+    "mcp"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-memory-protocol",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T12:30:18.524Z",
+  "created_at": "2026-08-15T12:30:18.307Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:52.700Z"
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-safe-web-fetch",
+  "name": "dsh-safe-web-fetch",
+  "version": "0.1.0-next.0",
+  "description": "SSRF-resistant HTTP(S) fetch provider for DeepSeek Harness",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "ssrf",
+    "web-fetch",
+    "security",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/MostlyHarmlessxyz/dsh-safe-web-fetch.git",
+  "homepage": "https://github.com/MostlyHarmlessxyz/dsh-safe-web-fetch#readme",
+  "npm": "https://www.npmjs.com/package/dsh-safe-web-fetch",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T02:08:39.245Z",
+  "created_at": "2026-08-14T02:08:38.895Z",
+  "gh": {
+    "full_name": "MostlyHarmlessxyz/dsh-safe-web-fetch",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T02:02:37Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 98,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 58,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:01:16.819Z"
+}

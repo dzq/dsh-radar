@@ -1,0 +1,100 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+<Layout title="入门教程 — DSH Radar" active="tutorials">
+  <section class="container section" style="max-width:760px;">
+    <a href="/tutorials" style="font-size:13px;color:var(--text-dim);">← 教程列表</a>
+    <h1 style="font-size:32px;margin:12px 0 8px;">📚 DSH Radar 入门</h1>
+    <p style="color:var(--text-mute);font-size:13px;">入门 · 5 分钟 · 2026-08-16</p>
+
+    <div class="lead" style="margin-top:24px;">
+      这篇教程帮你 <strong>5 分钟</strong> 搞懂 DSH Radar 怎么看、怎么用、怎么避坑。
+      假设你已经在用 DSH（DeepSeek Harness），想找到好插件。
+    </div>
+
+    <h2 style="margin-top:40px;font-size:24px;">1. 等级是什么意思？</h2>
+    <p style="color:var(--text-dim);margin-top:12px;">
+      DSH Radar 给每个插件打 <strong>S / A / B / C / D</strong> 五个等级，综合 5 维评分：
+    </p>
+
+    <div style="display:grid;gap:12px;margin-top:16px;">
+      <div class="info-block" style="margin:0;border-left:3px solid var(--grade-S);">
+        <strong style="color:var(--grade-S);">S 级（≥85）</strong> — 生产就绪，团队可放心装
+      </div>
+      <div class="info-block" style="margin:0;border-left:3px solid var(--grade-A);">
+        <strong style="color:var(--grade-A);">A 级（≥70）</strong> — 推荐使用，社区验证
+      </div>
+      <div class="info-block" style="margin:0;border-left:3px solid var(--grade-B);">
+        <strong style="color:var(--grade-B);">B 级（≥55）</strong> — 可用，但需自己验证
+      </div>
+      <div class="info-block" style="margin:0;border-left:3px solid var(--grade-C);">
+        <strong style="color:var(--grade-C);">C 级（≥40）</strong> — 谨慎使用，可能有坑
+      </div>
+      <div class="info-block" style="margin:0;border-left:3px solid var(--grade-D);">
+        <strong style="color:var(--grade-D);">D 级（&lt;40）</strong> — 高风险，建议白名单禁用
+      </div>
+    </div>
+
+    <h2 style="margin-top:40px;font-size:24px;">2. 雷达图怎么看？</h2>
+    <p style="color:var(--text-dim);margin-top:12px;">
+      每个插件详情页右侧有 <strong>5 维雷达图</strong>：
+    </p>
+    <ul style="margin-top:12px;color:var(--text-dim);padding-left:24px;">
+      <li><strong>Popularity</strong> — 下载量，越高越好（log scale）</li>
+      <li><strong>Maintenance</strong> — 是否还在维护（半衰期 4 个月）</li>
+      <li><strong>Quality</strong> — README / keywords / license 完整度</li>
+      <li><strong>Security</strong> — trusted publisher / 关键词审计</li>
+      <li><strong>DSH Compat</strong> — 是否符合 DSH 标准（cordis patch）</li>
+    </ul>
+    <p style="color:var(--text-dim);margin-top:16px;">
+      <strong>形状越接近正五边形，越"全能"。</strong>
+      短板（比如 Security 很低但 Popularity 很高）通常是真实风险信号。
+    </p>
+
+    <h2 style="margin-top:40px;font-size:24px;">3. 实操：装插件的 4 步法</h2>
+    <ol style="margin-top:12px;color:var(--text-dim);padding-left:24px;line-height:1.9;">
+      <li>在 <a href="/plugins">插件雷达</a> 按 grade 排序，找 A/B 级</li>
+      <li>看 <strong>雷达图</strong>，避开短板明显的（比如 Security &lt; 50）</li>
+      <li>查 <strong>兼容矩阵</strong>，确认支持你用的 DSH 版本</li>
+      <li>看 <a href="/recipes">实战配方</a>，参考别人怎么组合</li>
+    </ol>
+
+    <h2 style="margin-top:40px;font-size:24px;">4. 升级 DSH 前要做什么？</h2>
+    <p style="color:var(--text-dim);margin-top:12px;">
+      DSH 升级到新版本（特别是 rc）经常让插件炸。升级前必做：
+    </p>
+    <ol style="margin-top:12px;color:var(--text-dim);padding-left:24px;line-height:1.9;">
+      <li>查每个插件详情页的 <strong>版本兼容矩阵</strong></li>
+      <li>看 <a href="/changelog">Changelog</a> 最近有没有兼容性警告</li>
+      <li>看 <a href="/potholes">踩坑 Wiki</a> 别人升级踩了什么坑</li>
+    </ol>
+
+    <h2 style="margin-top:40px;font-size:24px;">5. 团队怎么用？</h2>
+    <p style="color:var(--text-dim);margin-top:12px;">
+      团队用 DSH 时，<strong>插件白名单</strong>比个人更重要。
+      <a href="/team">团队版</a> 提供：
+    </p>
+    <ul style="margin-top:12px;color:var(--text-dim);padding-left:24px;line-height:1.9;">
+      <li>基于 S/A/B/C/D 评分的白名单起点</li>
+      <li>共享 profile + 角色继承</li>
+      <li>安装/卸载审计日志</li>
+      <li>飞书 / 钉钉 / Slack 变更通知</li>
+    </ul>
+
+    <h2 style="margin-top:40px;font-size:24px;">下一步</h2>
+    <div style="display:grid;gap:12px;margin-top:16px;">
+      <a href="/tutorials/contribute-recipe" class="info-block" style="margin:0;text-decoration:none;border-left:3px solid var(--accent);">
+        <strong>📝 贡献你的实战配方</strong>
+        <p style="color:var(--text-dim);font-size:14px;margin-top:4px;">10 分钟学会贡献一个配方，让社区受益。</p>
+      </a>
+      <a href="/methodology" class="info-block" style="margin:0;text-decoration:none;border-left:3px solid var(--accent);">
+        <strong>📊 看完整评分公式</strong>
+        <p style="color:var(--text-dim);font-size:14px;margin-top:4px;">想深入了解算法？这篇完整公开 5 维公式。</p>
+      </a>
+      <a href="/playground" class="info-block" style="margin:0;text-decoration:none;border-left:3px solid var(--accent);">
+        <strong>🧪 插件组合实验场</strong>
+        <p style="color:var(--text-dim);font-size:14px;margin-top:4px;">挑几个插件看叠加雷达图，预演你的 stack。</p>
+      </a>
+    </div>
+  </section>
+</Layout>

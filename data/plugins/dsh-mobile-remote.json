@@ -1,0 +1,58 @@
+{
+  "slug": "dsh-mobile-remote",
+  "name": "dsh-mobile-remote",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness WeChat remote-control plugin: control your dsh agent from WeChat (iLink long-polling, fully outbound, works over any network)",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "wechat",
+    "weixin",
+    "ilink",
+    "remote-control",
+    "chat-channel"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/good-boy4069/dsh-mobile-remote.git",
+  "homepage": "https://github.com/good-boy4069/dsh-mobile-remote#readme",
+  "npm": "https://www.npmjs.com/package/dsh-mobile-remote",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T07:16:59.186Z",
+  "created_at": "2026-08-16T07:16:58.850Z",
+  "gh": {
+    "full_name": "good-boy4069/dsh-mobile-remote",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:18:04Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 65,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:59:51.412Z"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "proactive-agent--dsh",
+  "name": "@proactive-agent/dsh",
+  "version": "0.2.0",
+  "description": "ProactiveAgent × DeepSeek Harness 插件组：主动记忆 + 主动建议接入 DSH（bundle 聚合包，dsh plugin add 一键安装）",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "proactive-agent",
+    "memory",
+    "suggestion"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/ConradLu2740/pa-dsh.git",
+  "homepage": "https://github.com/ConradLu2740/pa-dsh#readme",
+  "npm": "https://www.npmjs.com/package/@proactive-agent/dsh",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T14:40:39.015Z",
+  "created_at": "2026-08-14T14:40:38.668Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:11.824Z"
+}

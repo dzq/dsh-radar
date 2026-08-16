@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-wechat-mp",
+  "name": "dsh-wechat-mp",
+  "version": "0.1.1",
+  "description": "DeepSeek Harness plugin: turn markdown into a typeset WeChat Official Account draft.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "wechat",
+    "markdown"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/coolbreezecoin/dsh-wechat-mp.git",
+  "homepage": "https://github.com/coolbreezecoin/dsh-wechat-mp#readme",
+  "npm": "https://www.npmjs.com/package/dsh-wechat-mp",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 278,
+  "monthly_downloads": 278,
+  "last_publish": "2026-08-15T16:07:37.463Z",
+  "created_at": "2026-08-15T14:56:43.171Z",
+  "gh": {
+    "full_name": "coolbreezecoin/dsh-wechat-mp",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T16:49:58Z",
+    "archived": false,
+    "license": "NOASSERTION"
+  },
+  "scores": {
+    "popularity": 61,
+    "maintenance": 99,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 76,
+    "grade": "A"
+  },
+  "updated_at": "2026-08-16T07:58:20.085Z"
+}

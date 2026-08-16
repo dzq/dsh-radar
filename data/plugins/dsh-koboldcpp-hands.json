@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-koboldcpp-hands",
+  "name": "dsh-koboldcpp-hands",
+  "version": "0.1.1",
+  "description": "KoboldCpp for DeepSeek Harness - a tool plugin that lets the harness online model hand repetitive text and vision (OCR) labor to a local KoboldCpp (llama.cpp) server.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "koboldcpp",
+    "llm",
+    "llama.cpp",
+    "local",
+    "offline"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/MicroHEROX/dsh-koboldcpp-hands.git",
+  "homepage": "https://github.com/MicroHEROX/dsh-koboldcpp-hands#readme",
+  "npm": "https://www.npmjs.com/package/dsh-koboldcpp-hands",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T06:05:01.104Z",
+  "created_at": "2026-08-15T05:06:48.165Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:59.714Z"
+}

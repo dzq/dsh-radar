@@ -1,0 +1,54 @@
+{
+  "slug": "design-playbook",
+  "name": "design-playbook",
+  "version": "0.20.1",
+  "description": "Design I/O for coding agents: controllable UI generation via declarations (spec/domain/craft/design/components/template) and contracts (skill/evaluator). Use for product UI—console, dashboard, agent-ops, CJK-first apps.",
+  "keywords": [
+    "pi-package",
+    "dsh-plugin",
+    "dsh-bundle",
+    "ui",
+    "ux",
+    "design",
+    "design-io",
+    "design-playbook",
+    "spec",
+    "craft",
+    "evaluator",
+    "console",
+    "cjk"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Bandersnatch0x/design-playbook.git",
+  "homepage": "https://github.com/Bandersnatch0x/design-playbook",
+  "npm": "https://www.npmjs.com/package/design-playbook",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 900,
+  "monthly_downloads": 1330,
+  "last_publish": "2026-08-15T17:10:53.616Z",
+  "created_at": "2026-07-27T02:06:22.607Z",
+  "gh": {
+    "full_name": "Bandersnatch0x/design-playbook",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T17:08:41Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 74,
+    "maintenance": 99,
+    "quality": 90,
+    "security": 40,
+    "dsh_compat": 75,
+    "overall": 77,
+    "grade": "A"
+  },
+  "updated_at": "2026-08-16T07:58:17.621Z"
+}

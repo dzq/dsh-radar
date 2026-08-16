@@ -1,0 +1,55 @@
+{
+  "slug": "dsh-mcp-lens",
+  "name": "dsh-mcp-lens",
+  "version": "0.1.0-rc.9",
+  "description": "Cut MCP context and API cost in DeepSeek Harness with two model-facing tools, lazy discovery, and exact-schema calls",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "mcp",
+    "mcp-gateway",
+    "model-context-protocol",
+    "progressive-disclosure",
+    "context-optimization",
+    "cost-optimization",
+    "tool-discovery",
+    "tool-routing"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/labmimors/dsh-mcp-lens.git",
+  "homepage": "https://github.com/labmimors/dsh-mcp-lens#readme",
+  "npm": "https://www.npmjs.com/package/dsh-mcp-lens",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T20:06:27.680Z",
+  "created_at": "2026-08-15T20:06:27.373Z",
+  "gh": {
+    "full_name": "labmimors/dsh-mcp-lens",
+    "stars": 4,
+    "open_issues": 4,
+    "pushed_at": "2026-08-15T23:48:43Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 64,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:33.339Z"
+}

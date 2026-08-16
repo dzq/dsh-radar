@@ -1,0 +1,51 @@
+{
+  "slug": "lmmzss--dsh-plugin-balance",
+  "name": "@lmmzss/dsh-plugin-balance",
+  "version": "0.1.1",
+  "description": "DeepSeek Harness web plugin: header balance button (left of the native Session log), dropdown with account balance, live per-session model + token usage and official-rate cost estimates; auto-hides on the settings page",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "balance",
+    "token-usage"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/lmmzss-jk/dsh-plugin-balance.git",
+  "homepage": "https://github.com/lmmzss-jk/dsh-plugin-balance#readme",
+  "npm": "https://www.npmjs.com/package/@lmmzss/dsh-plugin-balance",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T16:35:36.211Z",
+  "created_at": "2026-08-14T16:27:03.197Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:58.691Z"
+}

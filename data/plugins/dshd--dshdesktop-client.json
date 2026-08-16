@@ -1,0 +1,42 @@
+{
+  "slug": "dshd--dshdesktop-client",
+  "name": "@dshd/dshdesktop-client",
+  "version": "0.1.2",
+  "description": "DSH Desktop client 插件（sidebar.footer.action 市场入口 + settings.section 环境检查与设置）。",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "marketplace"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@dshd/dshdesktop-client",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 252,
+  "monthly_downloads": 252,
+  "last_publish": "2026-08-15T17:01:45.039Z",
+  "created_at": "2026-08-15T13:57:50.114Z",
+  "gh": null,
+  "scores": {
+    "popularity": 60,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 65,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:20.702Z"
+}

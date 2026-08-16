@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-ide-sidebar",
+  "name": "dsh-ide-sidebar",
+  "version": "0.1.1",
+  "description": "IDE-style workspace switcher sidebar for DSH (DeepSeek Harness): floating workspace dropdown, session filtering, done/pending status lights, workspace & session search, and workspace rename/delete/archive/add.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "sidebar",
+    "workspace",
+    "ide",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/yuhangkang/dsh-ide-sidebar.git",
+  "homepage": "https://github.com/yuhangkang/dsh-ide-sidebar#readme",
+  "npm": "https://www.npmjs.com/package/dsh-ide-sidebar",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ],
+      "platform": "web"
+    },
+    "compatibility": "web, dsh >= 0.1.0-rc"
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T06:39:27.634Z",
+  "created_at": "2026-08-15T05:13:31.670Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:04.490Z"
+}

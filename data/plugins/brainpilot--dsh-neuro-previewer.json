@@ -1,0 +1,48 @@
+{
+  "slug": "brainpilot--dsh-neuro-previewer",
+  "name": "@brainpilot/dsh-neuro-previewer",
+  "version": "0.1.0",
+  "description": "A read-only neuroscience data preview plugin for DeepSeek Harness (DSH)",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "neuroscience",
+    "nifti",
+    "neuroimaging"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/NeuroAIHub/NeuroPreviewer.git",
+  "homepage": "https://github.com/NeuroAIHub/NeuroPreviewer#readme",
+  "npm": "https://www.npmjs.com/package/@brainpilot/dsh-neuro-previewer",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-tool"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T13:32:53.249Z",
+  "created_at": "2026-08-14T13:32:52.922Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:57.669Z"
+}

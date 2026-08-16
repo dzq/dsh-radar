@@ -1,0 +1,37 @@
+{
+  "slug": "dsh-slack",
+  "name": "dsh-slack",
+  "version": "0.2.3",
+  "description": "DSH 社区插件：Slack 通知/桥接（v0.2 支持 Socket Mode 双向：收件箱 + 线程回复）",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/STARDUSTLC666/dsh-slack",
+  "homepage": "https://github.com/STARDUSTLC666/dsh-slack#readme",
+  "npm": "https://www.npmjs.com/package/dsh-slack",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T07:50:04.562Z",
+  "created_at": "2026-08-13T22:50:23.644Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 44,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:37.064Z"
+}

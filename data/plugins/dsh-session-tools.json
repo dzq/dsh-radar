@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-session-tools",
+  "name": "dsh-session-tools",
+  "version": "0.1.0",
+  "description": "Cross-session tools and Web @session mentions for DeepSeek Harness.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "sessions",
+    "agent-tools"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/SisyphusSQ/dsh-plugins.git",
+  "homepage": "https://github.com/SisyphusSQ/dsh-plugins/tree/main/packages/dsh-session-tools#readme",
+  "npm": "https://www.npmjs.com/package/dsh-session-tools",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-input-trigger"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T14:02:16.814Z",
+  "created_at": "2026-08-15T14:02:16.523Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:01.669Z"
+}

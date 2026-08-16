@@ -1,0 +1,36 @@
+{
+  "slug": "aprilwizard--dsh-multi-cot",
+  "name": "@aprilwizard/dsh-multi-cot",
+  "version": "0.1.0",
+  "description": "Multi-sampled test-time compute plugin for DeepSeek Harness: parallel planning, internal voting, and a plan/execute/review workflow",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "multi-cot",
+    "test-time-compute"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/aprilwizard/dsh-multi-cot.git",
+  "homepage": "https://github.com/aprilwizard/dsh-multi-cot#readme",
+  "npm": "https://www.npmjs.com/package/@aprilwizard/dsh-multi-cot",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T17:10:21.015Z",
+  "created_at": "2026-08-13T17:10:20.630Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 40,
+    "dsh_compat": 30,
+    "overall": 42,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:25.898Z"
+}

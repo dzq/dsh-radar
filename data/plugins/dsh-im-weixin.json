@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-im-weixin",
+  "name": "dsh-im-weixin",
+  "version": "1.0.5",
+  "description": "微信渠道适配器（dsh-im 插件家族）：腾讯 iLink 个人微信机器人，官方协议 getupdates 长轮询免公网；npx -y dsh-im-weixin-qr 扫码绑定。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "weixin",
+    "wechat",
+    "ilink",
+    "im-bridge"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/shaobeichen/dsh-im-bridge.git",
+  "homepage": "https://github.com/shaobeichen/dsh-im-bridge",
+  "npm": "https://www.npmjs.com/package/dsh-im-weixin",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T09:08:05.513Z",
+  "created_at": "2026-08-15T08:55:15.942Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:51.668Z"
+}

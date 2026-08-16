@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-chat-index-rail",
+  "name": "dsh-chat-index-rail",
+  "version": "0.1.1",
+  "description": "对话右侧悬浮\"输入目录\"：每条用户输入一根横条，悬停预览前 15 字（移入气泡展开到 40 字），点击平滑定位到对应消息，滚动时当前横条高亮。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "chat",
+    "index",
+    "sidebar",
+    "navigation"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Mobai-read/dsh-chat-index-rail.git",
+  "homepage": "https://github.com/Mobai-read/dsh-chat-index-rail#readme",
+  "npm": "https://www.npmjs.com/package/dsh-chat-index-rail",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T12:56:50.779Z",
+  "created_at": "2026-08-15T11:48:39.223Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:26.740Z"
+}

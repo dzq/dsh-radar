@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-colorful-output",
+  "name": "dsh-colorful-output",
+  "version": "0.0.2",
+  "description": "Colorize AI replies in the DSH Web chat with switchable palettes (Aurora/Nord/Sunset/Cyber) via a settings card.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "theme",
+    "colorful",
+    "ui"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Echos625/dsh-colorful-output.git",
+  "homepage": "https://github.com/Echos625/dsh-colorful-output#readme",
+  "npm": "https://www.npmjs.com/package/dsh-colorful-output",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-primitives",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-settings-plugins"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T17:22:00.634Z",
+  "created_at": "2026-08-15T15:44:08.421Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:04.750Z"
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "dsh-netcafe",
+  "name": "dsh-netcafe",
+  "version": "0.2.0",
+  "description": "DeepSeek Harness bundle: adds AI NetCafé's hosted outcome tools to your dsh profile in one install — invoice batches and bank statements that arithmetic-check themselves, SQL dialect transpile, mainland-China reachability from a real China Mobile vantage ",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "mcp",
+    "agent-tools"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/mario03690/dsh-netcafe.git",
+  "homepage": "https://ainetcafe.com/mcp.html",
+  "npm": "https://www.npmjs.com/package/dsh-netcafe",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T06:20:08.549Z",
+  "created_at": "2026-08-14T02:32:48.294Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:59.614Z"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "dsh-catppuccin",
+  "name": "dsh-catppuccin",
+  "version": "0.1.0",
+  "description": "🐱 Soothing pastel theme for DeepSeek Harness: the four Catppuccin flavors (Latte, Frappé, Macchiato, Mocha) registered into the built-in theme runtime",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "dsh-plugin",
+    "theme",
+    "catppuccin",
+    "skin",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zhijun-dai/Catppuccin-dsh-theme.git",
+  "homepage": "https://github.com/zhijun-dai/Catppuccin-dsh-theme#readme",
+  "npm": "https://www.npmjs.com/package/dsh-catppuccin",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-theme"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T15:50:30.103Z",
+  "created_at": "2026-08-14T15:50:29.857Z",
+  "gh": {
+    "full_name": "zhijun-dai/Catppuccin-dsh-theme",
+    "stars": 7,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T15:01:38Z",
+    "archived": false,
+    "license": "NOASSERTION"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 61,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:01:07.778Z"
+}

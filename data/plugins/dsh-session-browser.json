@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-session-browser",
+  "name": "dsh-session-browser",
+  "version": "0.2.0",
+  "description": "DSH plugin: same-workspace cross-session read-only browsing for models — list_sessions / read_session / search_sessions tools with strict cwd scoping, UNTRUSTED snapshot marking, and bounded budgets (optional SQLite FTS full-text search).",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "plugin",
+    "session",
+    "cross-session",
+    "workspace",
+    "read-only",
+    "full-text-search",
+    "fts"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-session-browser",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T20:35:29.880Z",
+  "created_at": "2026-08-15T18:54:10.161Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:31.905Z"
+}

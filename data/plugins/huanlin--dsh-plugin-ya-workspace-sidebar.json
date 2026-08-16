@@ -1,0 +1,48 @@
+{
+  "slug": "huanlin--dsh-plugin-ya-workspace-sidebar",
+  "name": "@huanlin/dsh-plugin-ya-workspace-sidebar",
+  "version": "0.2.0",
+  "description": "Two-level DSH workspace sidebar with global recent sessions and breadcrumb navigation.",
+  "keywords": [
+    "dsh-plugin"
+  ],
+  "license": "AGPL-3.0",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@huanlin/dsh-plugin-ya-workspace-sidebar",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-primitives"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T08:09:04.701Z",
+  "created_at": "2026-08-13T14:28:37.460Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 44,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:58.182Z"
+}

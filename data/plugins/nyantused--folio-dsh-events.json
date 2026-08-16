@@ -1,0 +1,56 @@
+{
+  "slug": "nyantused--folio-dsh-events",
+  "name": "@nyantused/folio-dsh-events",
+  "version": "1.0.1",
+  "description": "兰亭会话协议事件插件：session-start 入口协议提醒 + disposed 自动 save（纪律变机械；preset 层挂载）",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "folio",
+    "兰亭",
+    "consulting",
+    "document-generation",
+    "session-protocol"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/nyantused-cpun/folio.git",
+  "homepage": "https://github.com/nyantused-cpun/folio",
+  "npm": "https://www.npmjs.com/package/@nyantused/folio-dsh-events",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "verifiedAgainst": {
+      "dshVersion": "0.1.0-rc.6",
+      "evidenceLevel": "L1 源码级（agent/* 词汇、session/event、followup、createUserMessage 逐行核实）；L4 运行级待 dsh web 重启后执行",
+      "testedAt": "2026-08-14"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T01:55:53.902Z",
+  "created_at": "2026-08-16T01:55:53.534Z",
+  "gh": {
+    "full_name": "nyantused-cpun/folio",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T03:22:27Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 60,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:59:31.206Z"
+}

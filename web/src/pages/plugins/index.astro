@@ -1,0 +1,36 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { loadJson } from '../../lib/paths.mjs';
+
+const index = await loadJson('index.json');
+const stats = await loadJson('stats.json');
+const allPlugins = index.plugins;
+---
+<Layout title="插件雷达 — DSH Radar" active="plugins">
+  <section class="container section" style="padding-top:32px;">
+    <h1 style="font-size:36px;margin-bottom:8px;">插件雷达</h1>
+    <p class="sub">
+      全部 <strong>{stats.total}</strong> 个评分插件 ·
+      <span style="color:var(--grade-S)">S:{stats.by_grade.S||0}</span> ·
+      <span style="color:var(--grade-A)">A:{stats.by_grade.A||0}</span> ·
+      <span style="color:var(--grade-B)">B:{stats.by_grade.B||0}</span> ·
+      <span style="color:var(--grade-C)">C:{stats.by_grade.C||0}</span> ·
+      <span style="color:var(--grade-D)">D:{stats.by_grade.D||0}</span>
+    </p>
+
+    <div style="background:var(--bg-elev);border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-top:24px;">
+      {allPlugins.map((p: any) => (
+        <a href={`/plugins/${p.slug}`} class="plugin-row" style="text-decoration:none;">
+          <span class={`grade grade-${p.grade}`}>{p.grade}</span>
+          <div>
+            <div class="name">{p.name}<span class="version">v{p.version}</span></div>
+            <div class="desc">{p.description || '—'}</div>
+          </div>
+          <div class="meta"><strong>{p.weekly_downloads.toLocaleString()}</strong>dl/wk</div>
+          <div class="meta"><strong>★ {p.stars}</strong>stars</div>
+          <div class="meta"><strong>{p.overall}</strong>overall</div>
+        </a>
+      ))}
+    </div>
+  </section>
+</Layout>

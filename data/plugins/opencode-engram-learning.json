@@ -1,0 +1,46 @@
+{
+  "slug": "opencode-engram-learning",
+  "name": "opencode-engram-learning",
+  "version": "1.13.1",
+  "description": "Evidence-based learning engine for OpenCode — learn anything, verify by free recall, schedule with FSRS, adapt from your own data.",
+  "keywords": [
+    "opencode",
+    "plugin",
+    "learning",
+    "fsrs",
+    "spaced-repetition",
+    "pi-package",
+    "dsh-plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/nagisanzenin/engram.git",
+  "homepage": "https://github.com/nagisanzenin/engram#readme",
+  "npm": "https://www.npmjs.com/package/opencode-engram-learning",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "opencode": ">=1.0.0 || >=0.0.0-0"
+  },
+  "weekly_downloads": 101,
+  "monthly_downloads": 2022,
+  "last_publish": "2026-08-16T06:13:10.494Z",
+  "created_at": "2026-07-17T04:52:48.396Z",
+  "gh": {
+    "full_name": "nagisanzenin/engram",
+    "stars": 1333,
+    "open_issues": 3,
+    "pushed_at": "2026-08-16T05:54:26Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 50,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 66,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:15.756Z"
+}

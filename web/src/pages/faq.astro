@@ -1,0 +1,162 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const categories = [
+  {
+    name: '基础',
+    icon: '📖',
+    faqs: [
+      {
+        q: 'DSH Radar 是什么？',
+        a: '给 DeepSeek Harness（DSH）生态的 711 个 npm 插件打 S/A/B/C/D 雷达评分的开源观察站。不做第 7 个插件市场，做市场不愿意做的脏活：持续评测、兼容矩阵、配方库、横评。',
+      },
+      {
+        q: '和 DeepSeek 官方有关系吗？',
+        a: '没有。社区项目，由一线 DSH 开发者维护。已通过邮件告知 DeepSeek 团队，等回复。',
+      },
+      {
+        q: '评分算法靠谱吗？',
+        a: '完全基于公开数据（npm registry + GitHub API），无人工黑箱。完整算法在 scripts/lib/score.mjs，欢迎 PR 改进。',
+      },
+      {
+        q: '数据怎么保证真实？',
+        a: '每周一 GitHub Actions 自动跑 npm search + metadata + GitHub API，所有 JSON 都 git-tracked 可审计。可以手动跑 `node scripts/build-data.mjs` 重现。',
+      },
+    ],
+  },
+  {
+    name: '技术',
+    icon: '⚙️',
+    faqs: [
+      {
+        q: '技术栈是什么？',
+        a: '抓取脚本：纯 Node 18+ 内置 fetch（零 npm 依赖）。静态站：Astro 5 + 纯 CSS（无 Tailwind）+ 手写 SVG 雷达图。部署：任意静态托管。',
+      },
+      {
+        q: '为什么不用数据库？',
+        a: '没必要。数据完全 git-tracked，所有页面都是 build-time 生成。零服务器、零 CDN 成本、SEO 满分。',
+      },
+      {
+        q: '搜索为什么是客户端的？',
+        a: '711 个插件摘要只有 ~260KB，inline 到 HTML 完全可以。客户端搜索零服务器成本、即时响应、可分享 URL（/search?q=...）。',
+      },
+      {
+        q: '为什么用 Web3Forms 而不是 Formspree？',
+        a: 'Web3Forms 完全免费无限提交（Formspree 免费层 50/月）。配置也更简单：一个 access_key 就够。',
+      },
+    ],
+  },
+  {
+    name: '使用',
+    icon: '🎯',
+    faqs: [
+      {
+        q: '怎么选插件？',
+        a: '按 S/A/B/C/D 排序 → 看雷达图避开短板 → 查兼容矩阵 → 参考实战配方。完整教程见 /tutorials/getting-started。',
+      },
+      {
+        q: '升级 DSH 会让插件炸吗？',
+        a: 'rc 版经常炸。升级前必查每个插件详情页的兼容矩阵，看 Changelog，看踩坑 Wiki。',
+      },
+      {
+        q: '怎么订阅每周变化？',
+        a: 'RSS / Atom / JSON Feed（/feeds/ 下）任选；或邮件订阅（/subscribe 表单）。去中心化、零注册。',
+      },
+      {
+        q: '团队怎么用？',
+        a: '个人直接用 Free 版（完全够）。团队看 /team：插件白名单 + 审计 + 共享 profile。$19/seat/月。',
+      },
+    ],
+  },
+  {
+    name: '贡献',
+    icon: '🤝',
+    faqs: [
+      {
+        q: '怎么贡献配方？',
+        a: '编辑 data/recipes.json，加一条 JSON；标题+任务+插件+为什么+tip。提交 PR。详见 /tutorials/contribute-recipe。',
+      },
+      {
+        q: '怎么贡献踩坑？',
+        a: '编辑 data/potholes.json，加一条；包含 dsh_version/symptom/cause/fix/source。提交 PR。',
+      },
+      {
+        q: '怎么修正评分？',
+        a: '在 GitHub Issues 提：(1) 插件名 (2) 建议分数 (3) 理由。或直接 PR 改 scripts/lib/score.mjs 的公式。',
+      },
+      {
+        q: '插件作者怎么自荐？',
+        a: '不需要。GitHub owner / npm publisher 自动聚合成 /authors/[handle] 主页。看你的插件排名。',
+      },
+    ],
+  },
+  {
+    name: '隐私',
+    icon: '🔒',
+    faqs: [
+      {
+        q: 'DSH Radar 上报我的访问数据吗？',
+        a: '不。默认零追踪。不接 GA / Plausible / Umami / Cloudflare Analytics。承诺：不卖数据、不接广告。',
+      },
+      {
+        q: 'Web3Forms 会追踪我吗？',
+        a: '不会。只有你点提交时才会发请求到 web3forms.com（用来转邮件）。浏览页面完全本地。',
+      },
+      {
+        q: 'GitHub Pages 会追踪我吗？',
+        a: 'GitHub 自身可能会记录 IP（这是 Pages 的事），但 DSH Radar 代码本身不打点。',
+      },
+    ],
+  },
+  {
+    name: '商业',
+    icon: '💰',
+    faqs: [
+      {
+        q: '可以商用吗？',
+        a: '可以。MIT 协议，data/ 目录随便用。免费版已涵盖个人 / 小团队需求。',
+      },
+      {
+        q: '团队版定价？',
+        a: '$19/seat/月（年付 8 折）。Enterprise 议价。详见 /team。',
+      },
+      {
+        q: '可以定制吗？',
+        a: '可以。整个仓库开源，自己改 / 二次分发都行。企业版可定制部署。',
+      },
+    ],
+  },
+];
+
+const totalFaqs = categories.reduce((s, c) => s + c.faqs.length, 0);
+---
+<Layout title="FAQ — DSH Radar" active="faq">
+  <section class="container section">
+    <h1 style="font-size:36px;margin-bottom:8px;">❓ FAQ</h1>
+    <p class="sub"><strong>{totalFaqs}</strong> 个常见问题 · 6 个分类</p>
+
+    <div class="lead">
+      没找到答案？在 <a href="https://github.com/dsh-radar/dsh-radar/issues">GitHub Issues</a> 提问，或加 <a href="/subscribe">邮件订阅</a> 收更新通知。
+    </div>
+
+    {categories.map((cat) => (
+      <div style="margin-top:40px;">
+        <h2 style="font-size:24px;">{cat.icon} {cat.name}</h2>
+
+        <div style="display:grid;gap:12px;margin-top:16px;">
+          {cat.faqs.map((f) => (
+            <details class="info-block" style="margin:0;cursor:pointer;">
+              <summary style="font-weight:600;color:var(--text);font-size:16px;">{f.q}</summary>
+              <p style="color:var(--text-dim);margin-top:12px;font-size:14px;line-height:1.7;">{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    ))}
+
+    <div class="empty" style="margin-top:48px;">
+      <h3 style="color:var(--text);margin-bottom:8px;">💬 还有问题？</h3>
+      <p>在 <a href="https://github.com/dsh-radar/dsh-radar/issues">GitHub Issues</a> 提问，或发邮件到 <a href="mailto:hello@dsh.pub">hello@dsh.pub</a>。</p>
+    </div>
+  </section>
+</Layout>

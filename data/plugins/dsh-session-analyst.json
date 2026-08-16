@@ -1,0 +1,35 @@
+{
+  "slug": "dsh-session-analyst",
+  "name": "dsh-session-analyst",
+  "version": "0.1.0",
+  "description": "Session quality analysis plugin for DeepSeek Harness — detect inefficiencies, redundant tool calls, and regressions in agent behavior.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "session-analysis",
+    "testing",
+    "quality"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-session-analyst",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T15:03:39.867Z",
+  "created_at": "2026-08-14T15:03:39.626Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 40,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:48.182Z"
+}

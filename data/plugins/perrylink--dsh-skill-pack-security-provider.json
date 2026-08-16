@@ -1,0 +1,42 @@
+{
+  "slug": "perrylink--dsh-skill-pack-security-provider",
+  "name": "@perrylink/dsh-skill-pack-security-provider",
+  "version": "1.3.0",
+  "description": "Optional provider plugin for dsh-skill-pack-security: registers the pack's skills/ (zh) or skills-en/ (en) edition on ctx.skills. Ships both editions embedded in pack/.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "skill-pack",
+    "skills",
+    "security",
+    "security-audit",
+    "supply-chain"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/PerryLink/dsh-skill-pack-security.git",
+  "homepage": "https://github.com/PerryLink/dsh-skill-pack-security#readme",
+  "npm": "https://www.npmjs.com/package/@perrylink/dsh-skill-pack-security-provider",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T15:20:07.620Z",
+  "created_at": "2026-08-14T15:20:07.273Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 65,
+    "dsh_compat": 75,
+    "overall": 55,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:42.350Z"
+}

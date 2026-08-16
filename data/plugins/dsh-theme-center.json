@@ -1,0 +1,57 @@
+{
+  "slug": "dsh-theme-center",
+  "name": "dsh-theme-center",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness 主题中心 · Theme Center for dsh web UI：精选主题画廊（浅色/深色分组）、一键切换、自定义壁纸、dsh-theme 导入导出",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "dsh",
+    "theme",
+    "theming",
+    "skin",
+    "wallpaper",
+    "theme-center",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/dac114514/dsh-theme-center.git",
+  "homepage": "https://github.com/dac114514/dsh-theme-center#readme",
+  "npm": "https://www.npmjs.com/package/dsh-theme-center",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-api-remotes"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T03:48:31.875Z",
+  "created_at": "2026-08-15T03:48:31.541Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:30.276Z"
+}

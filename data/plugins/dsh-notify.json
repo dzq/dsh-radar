@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-notify",
+  "name": "dsh-notify",
+  "version": "0.1.2",
+  "description": "DeepSeek Harness (dsh) Windows notification plugin: a native toast when the agent stops running (finished / aborted / error / waiting for your choice / session closed), plus a system-tray icon. Pure host-side, zero dependencies, zero build.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "harness",
+    "cordis",
+    "plugin",
+    "notify",
+    "notification",
+    "toast",
+    "windows"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Pasumao/dsh-plugin-notify.git",
+  "homepage": "https://github.com/Pasumao/dsh-plugin-notify#readme",
+  "npm": "https://www.npmjs.com/package/dsh-notify",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.5"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T04:12:04.379Z",
+  "created_at": "2026-08-14T14:34:35.903Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:09.616Z"
+}

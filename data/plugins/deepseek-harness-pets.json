@@ -1,0 +1,51 @@
+{
+  "slug": "deepseek-harness-pets",
+  "name": "deepseek-harness-pets",
+  "version": "0.2.3",
+  "description": "DeepSeek Harness 桌宠插件：像素鲸鱼/机械章鱼随评测与回合状态在 DSH Web UI 中动起来；宠物资产兼容 Petdex 格式。",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "pet",
+    "pixel-art",
+    "petdex"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/orxz/deepseek-harness-pets.git",
+  "homepage": "https://github.com/orxz/deepseek-harness-pets#readme",
+  "npm": "https://www.npmjs.com/package/deepseek-harness-pets",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T04:18:35.952Z",
+  "created_at": "2026-08-15T03:38:32.030Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:59.101Z"
+}

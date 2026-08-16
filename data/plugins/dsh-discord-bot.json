@@ -1,0 +1,43 @@
+{
+  "slug": "dsh-discord-bot",
+  "name": "dsh-discord-bot",
+  "version": "0.3.3",
+  "description": "Map dsh workspaces onto Discord — watch every session live, drive and steer agents, and reach the harness's own commands from anywhere, with no inbound port.",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness",
+    "cordis-plugin",
+    "discord",
+    "discord-bot",
+    "remote-access"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Oliver0804/dsh-discord-bot.git",
+  "homepage": "https://github.com/Oliver0804/dsh-discord-bot#readme",
+  "npm": "https://www.npmjs.com/package/dsh-discord-bot",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T16:56:55.262Z",
+  "created_at": "2026-08-15T12:51:15.025Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:37.885Z"
+}

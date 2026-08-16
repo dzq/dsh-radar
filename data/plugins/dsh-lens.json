@@ -1,0 +1,64 @@
+{
+  "slug": "dsh-lens",
+  "name": "dsh-lens",
+  "version": "0.2.5",
+  "description": "Real-time code feedback for DeepSeek Harness — LSP, linters, formatters, type-checking, and structural analysis.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "lsp",
+    "linter",
+    "formatter",
+    "ast-grep",
+    "tree-sitter",
+    "code-quality",
+    "ai",
+    "coding-agent",
+    "webui"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/NexusAgentX/dsh-lens.git",
+  "homepage": "https://github.com/NexusAgentX/dsh-lens#readme",
+  "npm": "https://www.npmjs.com/package/dsh-lens",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-primitives"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T08:35:41.792Z",
+  "created_at": "2026-08-14T02:21:51.925Z",
+  "gh": {
+    "full_name": "NexusAgentX/dsh-lens",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T08:34:18Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 98,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:01:16.000Z"
+}

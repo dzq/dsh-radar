@@ -1,0 +1,39 @@
+{
+  "slug": "dsh-ssh",
+  "name": "dsh-ssh",
+  "version": "0.2.0",
+  "description": "SSH remote-execution plugin for DeepSeek Harness — ProxyJump chain, SFTP filesystem, subprocess and PTY over ssh2",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "ssh",
+    "remote-development",
+    "proxyjump",
+    "sftp"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/UynajGI/dsh-ssh.git",
+  "homepage": "https://github.com/UynajGI/dsh-ssh",
+  "npm": "https://www.npmjs.com/package/dsh-ssh",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T15:17:47.645Z",
+  "created_at": "2026-08-13T14:36:30.285Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 40,
+    "dsh_compat": 30,
+    "overall": 42,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:40.497Z"
+}

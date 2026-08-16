@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-model-failover",
+  "name": "dsh-model-failover",
+  "version": "0.1.2",
+  "description": "Two-level model circuit breaker with failover for DeepSeek Harness: trip a model or a whole provider after repeated request failures and route the next request to a configured fallback",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "circuit-breaker",
+    "failover",
+    "high-availability",
+    "model-routing",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Letter2025/dsh-model-failover.git",
+  "homepage": "https://github.com/Letter2025/dsh-model-failover",
+  "npm": "https://www.npmjs.com/package/dsh-model-failover",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T10:19:08.388Z",
+  "created_at": "2026-08-14T09:29:29.593Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:57.260Z"
+}

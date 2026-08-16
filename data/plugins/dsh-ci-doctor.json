@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-ci-doctor",
+  "name": "dsh-ci-doctor",
+  "version": "0.1.2",
+  "description": "CI doctor plugin for DeepSeek Harness: watch GitHub Actions failures, diagnose logs into structured findings, and drive the fix loop",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "ci",
+    "github-actions",
+    "diagnostics"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-ci-doctor",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T10:15:49.322Z",
+  "created_at": "2026-08-14T09:01:42.662Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:42.147Z"
+}

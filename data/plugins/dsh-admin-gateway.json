@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-admin-gateway",
+  "name": "dsh-admin-gateway",
+  "version": "0.1.7",
+  "description": "DeepSeek Harness 管理员验证网关插件 — 自起独立 HTTP 网关，密码登录 + 反向代理 + WebSocket/SSE 透传，防止未授权访问",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "plugin",
+    "admin-gateway",
+    "auth",
+    "reverse-proxy"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/myfire2014/dsh-admin-gateway.git",
+  "homepage": "https://github.com/myfire2014/dsh-admin-gateway",
+  "npm": "https://www.npmjs.com/package/dsh-admin-gateway",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T14:47:23.280Z",
+  "created_at": "2026-08-15T14:10:58.718Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:10.850Z"
+}

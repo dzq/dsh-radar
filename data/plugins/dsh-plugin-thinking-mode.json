@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-plugin-thinking-mode",
+  "name": "dsh-plugin-thinking-mode",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin: per-request thinking-mode switch (enable_thinking) for Qwen3-family models on OpenAI-compatible endpoints",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "thinking-mode",
+    "qwen",
+    "llm"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/lovedheart/dsh-plugin-thinking-mode.git",
+  "homepage": "https://github.com/lovedheart/dsh-plugin-thinking-mode#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-thinking-mode",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T23:01:55.442Z",
+  "created_at": "2026-08-14T23:01:55.242Z",
+  "gh": {
+    "full_name": "lovedheart/dsh-plugin-thinking-mode",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T22:57:32Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 62,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:53.518Z"
+}

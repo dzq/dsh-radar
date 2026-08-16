@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.astro/
+.env
+.env.local
+.DS_Store
+*.log
+.cache/
+web/dist/
+web/.astro/
+web/node_modules/
+
+# Keep data dir tracked
+!data/

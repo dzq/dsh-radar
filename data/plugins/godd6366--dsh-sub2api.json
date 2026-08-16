@@ -1,0 +1,54 @@
+{
+  "slug": "godd6366--dsh-sub2api",
+  "name": "@godd6366/dsh-sub2api",
+  "version": "0.1.4",
+  "description": "Connect your sub2api gateway to DeepSeek Harness: OpenAI-compatible multi-provider routes (OpenAI / Claude / Grok / Gemini) behind one base URL, with per-key model discovery, usage lookup, global vision/image tools, and a settings page.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "sub2api",
+    "llm",
+    "openai",
+    "claude",
+    "grok",
+    "gemini",
+    "vision",
+    "image-generation"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/GodD6366/dsh-sub2api.git",
+  "homepage": "https://github.com/GodD6366/dsh-sub2api#readme",
+  "npm": "https://www.npmjs.com/package/@godd6366/dsh-sub2api",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T10:16:33.387Z",
+  "created_at": "2026-08-15T08:28:17.725Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:37.706Z"
+}

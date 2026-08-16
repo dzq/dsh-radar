@@ -1,0 +1,45 @@
+{
+  "slug": "wishp3--dsh-friend-persona",
+  "name": "@wishp3/dsh-friend-persona",
+  "version": "0.1.1",
+  "description": "角色卡存取、预设注册、人格提示词分区",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/wanghehe123/dsh-Friend.git",
+  "homepage": "https://github.com/wanghehe123/dsh-Friend",
+  "npm": "https://www.npmjs.com/package/@wishp3/dsh-friend-persona",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T05:39:30.027Z",
+  "created_at": "2026-08-14T16:01:25.963Z",
+  "gh": {
+    "full_name": "wanghehe123/dsh-Friend",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T05:38:38Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 60,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:29.249Z"
+}

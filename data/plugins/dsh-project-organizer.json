@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-project-organizer",
+  "name": "dsh-project-organizer",
+  "version": "0.2.0",
+  "description": "Rename project conversations into clear, content-based Category｜Topic titles.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent-skills",
+    "ai-agents",
+    "chatgpt",
+    "conversation-management"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/caoqinnan-web/dsh-project-organizer.git",
+  "homepage": "https://github.com/caoqinnan-web/dsh-project-organizer#readme",
+  "npm": "https://www.npmjs.com/package/dsh-project-organizer",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T16:32:54.934Z",
+  "created_at": "2026-08-14T16:08:48.227Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:55.305Z"
+}

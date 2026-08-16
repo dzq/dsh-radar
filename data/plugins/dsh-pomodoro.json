@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-pomodoro",
+  "name": "dsh-pomodoro",
+  "version": "0.2.0",
+  "description": "DeepSeek Harness Web 番茄钟插件：可配置专注与休息时长，提供侧栏入口和可拖动浮动面板",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "pomodoro",
+    "productivity",
+    "timer"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/causebefore/dsh-pomodoro.git",
+  "homepage": "https://github.com/causebefore/dsh-pomodoro#readme",
+  "npm": "https://www.npmjs.com/package/dsh-pomodoro",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-primitives",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-api-remotes"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T12:50:33.803Z",
+  "created_at": "2026-08-14T00:38:30.713Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 80,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:54.481Z"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "wishp3--dsh-friend-all",
+  "name": "@wishp3/dsh-friend-all",
+  "version": "0.1.1",
+  "description": "dsh-Friend 聚合包：人格化伴侣、Live2D、语音与记忆。DeepSeek Harness dsh-plugin。",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness",
+    "live2d"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/wanghehe123/dsh-Friend.git",
+  "homepage": "https://github.com/wanghehe123/dsh-Friend",
+  "npm": "https://www.npmjs.com/package/@wishp3/dsh-friend-all",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T05:39:41.955Z",
+  "created_at": "2026-08-14T16:01:41.603Z",
+  "gh": {
+    "full_name": "wanghehe123/dsh-Friend",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T05:38:38Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 56,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:22.836Z"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-hdc-bridge",
+  "name": "dsh-hdc-bridge",
+  "version": "0.6.1",
+  "description": "DSH-native HarmonyOS dev-assistant plugin: hdc device bridge with a live device panel, official-first versioned API docs (SDK .d.ts + offline bundled Tier-1 knowledge), and an optional DevEco CLI backend for build/sign/lint.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "harmonyos",
+    "openharmony",
+    "arkts",
+    "hdc",
+    "plugin",
+    "agent"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/1na-ko/dsh-hdc-bridge.git",
+  "homepage": "https://github.com/1na-ko/dsh-hdc-bridge#readme",
+  "npm": "https://www.npmjs.com/package/dsh-hdc-bridge",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T16:13:51.663Z",
+  "created_at": "2026-08-13T15:46:07.317Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:42.554Z"
+}

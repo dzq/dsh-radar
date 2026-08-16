@@ -1,0 +1,79 @@
+{
+  "slug": "dsh-mnemon",
+  "name": "dsh-mnemon",
+  "version": "0.1.4",
+  "description": "Cross-agent, local-first persistent memory plugin for DeepSeek Harness (DSH), powered by Mnemon. It shares long-term memory across Mnemon-enabled agents and adds runtime memory, searchable project documents, semantic recall, knowledge graph, and a Sidebar",
+  "keywords": [
+    "deepseek-harness",
+    "deepseek-harness-plugin",
+    "dsh",
+    "dsh-plugin",
+    "mnemon",
+    "memory-system",
+    "memory-plugin",
+    "agent-memory",
+    "cross-agent-memory",
+    "shared-agent-memory",
+    "multi-agent-memory",
+    "llm-memory",
+    "persistent-memory",
+    "long-term-memory",
+    "runtime-memory",
+    "working-memory",
+    "project-memory",
+    "project-documents",
+    "document-search",
+    "semantic-recall",
+    "memory-space",
+    "workspace-memory",
+    "subagent",
+    "knowledge-graph",
+    "ai-agent",
+    "llm-agent",
+    "external-memory",
+    "local-first",
+    "sqlite",
+    "typescript",
+    "cordis",
+    "web-ui",
+    "sidebar"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/omdsh-dev/dsh-mnemon.git",
+  "homepage": "https://github.com/omdsh-dev/dsh-mnemon#readme",
+  "npm": "https://www.npmjs.com/package/dsh-mnemon",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T23:50:07.651Z",
+  "created_at": "2026-08-13T19:28:45.151Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:27.332Z"
+}

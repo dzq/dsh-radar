@@ -1,0 +1,113 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import RadarChart from '../../components/RadarChart.astro';
+import { loadJson, listPlugins, DATA_DIR } from '../../lib/paths.mjs';
+import { join } from 'node:path';
+
+export async function getStaticPaths() {
+  const slugs = await listPlugins();
+  return slugs.map((slug) => ({ params: { slug: slug.replace(/\.json$/, '') } }));
+}
+
+const { slug } = Astro.params;
+const plugin = await loadJson(`plugins/${slug}.json`);
+
+const compatMatrix = [
+  { version: '0.1.0-rc.6', status: plugin.dsh_compat ? 'ok' : 'unknown', note: plugin.dsh_compat ? 'cordis patch ✅' : 'metadata 缺失' },
+  { version: '0.1.0', status: plugin.dsh_compat ? 'ok' : 'unknown', note: plugin.dsh_compat ? '标准 patch ✅' : '—' },
+  { version: '0.2.0', status: 'warn', note: '待实测（API 可能在变）' },
+  { version: '0.3.0+', status: 'unknown', note: '尚未发布' },
+];
+
+function daysAgo(iso: string) {
+  if (!iso) return '—';
+  return Math.floor((Date.now() - new Date(iso).getTime()) / (24*60*60*1000)) + ' 天前';
+}
+---
+<Layout title={`${plugin.name} — DSH Radar`} active="plugins">
+  <section class="container" style="padding-top:32px;">
+    <a href="/plugins" style="font-size:13px;color:var(--text-dim);">← 返回列表</a>
+
+    <div style="display:flex;align-items:center;gap:16px;margin-top:16px;">
+      <span class={`grade grade-${plugin.scores.grade}`} style="width:48px;height:48px;line-height:48px;font-size:24px;">{plugin.scores.grade}</span>
+      <div>
+        <h1 style="font-size:28px;margin:0;">{plugin.name}</h1>
+        <p style="color:var(--text-dim);margin:4px 0 0;">v{plugin.version} · {daysAgo(plugin.last_publish)}发布</p>
+      </div>
+    </div>
+
+    <p style="color:var(--text-dim);margin:16px 0;">{plugin.description}</p>
+
+    {plugin.keywords?.length > 0 && (
+      <div class="tags">
+        {plugin.keywords.map((k: string) => (
+          <span class={`tag ${k.includes('dsh') ? 'dsh' : ''}`}>{k}</span>
+        ))}
+      </div>
+    )}
+
+    <div class="plugin-detail">
+      <div>
+        <div class="info-block">
+          <h3>版本兼容矩阵</h3>
+          <table class="matrix-table">
+            <thead>
+              <tr><th>DSH 版本</th><th>状态</th><th>说明</th></tr>
+            </thead>
+            <tbody>
+              {compatMatrix.map((row) => (
+                <tr>
+                  <td><code>dsh@{row.version}</code></td>
+                  <td class={`status-${row.status === 'ok' ? 'ok' : row.status === 'warn' ? 'warn' : row.status === 'bad' ? 'bad' : 'unknown'}`}>
+                    {row.status === 'ok' ? '✅ 兼容' : row.status === 'warn' ? '⚠️ 待验证' : row.status === 'bad' ? '❌ 不兼容' : '❓ 未知'}
+                  </td>
+                  <td style="color:var(--text-dim);font-size:13px;">{row.note}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          <p style="font-size:12px;color:var(--text-mute);margin-top:12px;">
+            💡 兼容矩阵每周末自动跑实测，欢迎 PR 修正
+          </p>
+        </div>
+
+        <div class="info-block">
+          <h3>元数据</h3>
+          <dl class="kv">
+            <dt>License</dt><dd>{plugin.license || '—'}</dd>
+            <dt>npm</dt><dd><a href={plugin.npm} target="_blank" rel="noopener">{plugin.name}</a></dd>
+            <dt>Repo</dt><dd>{plugin.repo ? <a href={plugin.repo.replace(/^git\+/, '').replace(/\.git$/, '')} target="_blank" rel="noopener">{plugin.repo}</a> : '—'}</dd>
+            <dt>Engines</dt><dd><code>{JSON.stringify(plugin.engines)}</code></dd>
+            <dt>Weekly DL</dt><dd>{plugin.weekly_downloads.toLocaleString()}</dd>
+            <dt>Monthly DL</dt><dd>{plugin.monthly_downloads.toLocaleString()}</dd>
+            {plugin.gh && (
+              <>
+                <dt>Stars</dt><dd>★ {plugin.gh.stars}</dd>
+                <dt>Open Issues</dt><dd>{plugin.gh.open_issues}</dd>
+                <dt>GH License</dt><dd>{plugin.gh.license || '—'}</dd>
+                <dt>Archived</dt><dd>{plugin.gh.archived ? '⚠️ 已归档' : '否'}</dd>
+              </>
+            )}
+            <dt>dsh.bundle</dt><dd><code>{JSON.stringify(plugin.dsh_meta || {})}</code></dd>
+          </dl>
+        </div>
+      </div>
+
+      <aside>
+        <div class="radar-wrap">
+          <h3 style="margin-bottom:12px;">雷达评分</h3>
+          <RadarChart scores={plugin.scores} />
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:16px;font-size:13px;">
+            <div><span style="color:var(--text-mute);">Overall</span><br/><strong style="font-size:20px;color:var(--accent);">{plugin.scores.overall}</strong></div>
+            <div><span style="color:var(--text-mute);">Grade</span><br/><strong style="font-size:20px;color:var(--accent);">{plugin.scores.grade}</strong></div>
+          </div>
+        </div>
+
+        <div class="info-block" style="margin-top:16px;">
+          <h3>安装</h3>
+          <pre style="background:var(--bg);padding:12px;border-radius:6px;overflow-x:auto;color:var(--accent);font-size:12px;"><code>npm install {plugin.name}</code></pre>
+        </div>
+      </aside>
+    </div>
+  </section>
+</Layout>

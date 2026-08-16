@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-llm-auto-route",
+  "name": "dsh-llm-auto-route",
+  "version": "0.1.0",
+  "description": "Provider discovery, matching, health checks, and pre-output failover for DeepSeek Harness.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "cordis",
+    "llm",
+    "provider-routing",
+    "typescript"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/qinyu765/dsh-llm-auto-route.git",
+  "homepage": "https://github.com/qinyu765/dsh-llm-auto-route#readme",
+  "npm": "https://www.npmjs.com/package/dsh-llm-auto-route",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T09:11:53.288Z",
+  "created_at": "2026-08-14T09:11:52.902Z",
+  "gh": {
+    "full_name": "qinyu765/dsh-llm-auto-route",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T08:12:30Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 98,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 62,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:25.551Z"
+}

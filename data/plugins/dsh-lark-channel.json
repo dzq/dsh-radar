@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-lark-channel",
+  "name": "dsh-lark-channel",
+  "version": "0.0.6",
+  "description": "Lark/Feishu IM bot channel for DeepSeek Harness: chats drive agents, replies and approvals return as messages and cards",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "deepseek-harness",
+    "lark",
+    "feishu",
+    "larksuite",
+    "channel",
+    "chatbot",
+    "im-bot",
+    "cordis",
+    "ai-agent"
+  ],
+  "license": "BSD-3-Clause",
+  "repo": "git+https://github.com/omdsh-dev/dsh-lark.git",
+  "homepage": "https://github.com/omdsh-dev/dsh-lark#readme",
+  "npm": "https://www.npmjs.com/package/dsh-lark-channel",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T13:05:03.101Z",
+  "created_at": "2026-08-14T06:14:06.578Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:05.365Z"
+}

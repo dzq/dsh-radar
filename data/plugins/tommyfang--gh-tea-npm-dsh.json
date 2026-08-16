@@ -1,0 +1,49 @@
+{
+  "slug": "tommyfang--gh-tea-npm-dsh",
+  "name": "@tommyfang/gh-tea-npm-dsh",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness (dsh) plugin for GitHub (gh), Gitea (tea) and npm CLIs: detect/install, guided auth/config (incl. npm token rotation), issue and package tools.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "github",
+    "gitea",
+    "npm",
+    "gh",
+    "tea",
+    "github-cli",
+    "gitea-cli",
+    "issues",
+    "publish",
+    "nodejs",
+    "cli"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/TommyFang2077/gh-tea-npm-dsh.git",
+  "homepage": "https://github.com/TommyFang2077/gh-tea-npm-dsh#readme",
+  "npm": "https://www.npmjs.com/package/@tommyfang/gh-tea-npm-dsh",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T01:51:53.623Z",
+  "created_at": "2026-08-15T01:51:53.239Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:03.873Z"
+}

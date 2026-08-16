@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-checkpoint-rewind",
+  "name": "dsh-checkpoint-rewind",
+  "version": "0.4.0",
+  "description": "Claude Code /rewind equivalent for DeepSeek Harness: git-first workspace file snapshots before every mutating tool execution, turn-boundary session forks, and a one-shot /rewind command that restores files and forks the session back to a checkpoint",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "rewind",
+    "checkpoint",
+    "snapshot",
+    "session-fork",
+    "workspace-safety",
+    "undo",
+    "cordis-plugin"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/PerryLink/dsh-checkpoint-rewind.git",
+  "homepage": "https://github.com/PerryLink/dsh-checkpoint-rewind#readme",
+  "npm": "https://www.npmjs.com/package/dsh-checkpoint-rewind",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T05:08:26.653Z",
+  "created_at": "2026-08-14T10:15:34.037Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:05.107Z"
+}

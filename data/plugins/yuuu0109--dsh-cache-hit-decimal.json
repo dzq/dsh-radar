@@ -1,0 +1,54 @@
+{
+  "slug": "yuuu0109--dsh-cache-hit-decimal",
+  "name": "@yuuu0109/dsh-cache-hit-decimal",
+  "version": "0.1.4",
+  "description": "DeepSeek Harness web plugin that displays cache-hit rate with two decimal places",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cache-hit",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Yuuu0109/dsh-cache-hit-decimal.git",
+  "homepage": "https://github.com/Yuuu0109/dsh-cache-hit-decimal#readme",
+  "npm": "https://www.npmjs.com/package/@yuuu0109/dsh-cache-hit-decimal",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T14:22:46.864Z",
+  "created_at": "2026-08-15T09:40:11.724Z",
+  "gh": {
+    "full_name": "Yuuu0109/dsh-cache-hit-decimal",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T14:26:52Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 61,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:31.492Z"
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-plugin-vetting",
+  "name": "dsh-plugin-vetting",
+  "version": "0.5.1",
+  "description": "DeepSeek Harness plugin: heuristic vetting of installed third-party plugins — static code scan for exfiltration, credential access, obfuscation, and persistence patterns, plus an optional runtime subprocess tripwire.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "security",
+    "malware",
+    "vetting",
+    "scanner"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/truelove-dreamer/dsh-plugin-vetting.git",
+  "homepage": "https://github.com/truelove-dreamer/dsh-plugin-vetting#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-vetting",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 819,
+  "monthly_downloads": 819,
+  "last_publish": "2026-08-15T07:37:01.811Z",
+  "created_at": "2026-08-15T02:51:16.365Z",
+  "gh": {
+    "full_name": "truelove-dreamer/dsh-plugin-vetting",
+    "stars": 1,
+    "open_issues": 3,
+    "pushed_at": "2026-08-15T08:27:41Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 73,
+    "maintenance": 99,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 79,
+    "grade": "A"
+  },
+  "updated_at": "2026-08-16T07:58:18.649Z"
+}

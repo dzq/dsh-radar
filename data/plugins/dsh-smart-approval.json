@@ -1,0 +1,56 @@
+{
+  "slug": "dsh-smart-approval",
+  "name": "dsh-smart-approval",
+  "version": "0.1.0-rc.5",
+  "description": "Fail-closed LLM-assisted approval reviewer for DeepSeek Harness",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "approval",
+    "security"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/TingRuDeng/dsh-smart-approval.git",
+  "homepage": "https://github.com/TingRuDeng/dsh-smart-approval#readme",
+  "npm": "https://www.npmjs.com/package/dsh-smart-approval",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T12:03:50.825Z",
+  "created_at": "2026-08-15T03:03:44.599Z",
+  "gh": {
+    "full_name": "TingRuDeng/dsh-smart-approval",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T11:58:12Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 57,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:32.928Z"
+}

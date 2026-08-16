@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-theme-machine",
+  "name": "dsh-theme-machine",
+  "version": "0.1.1",
+  "description": "Person-of-Interest skin for DeepSeek Harness: THE MACHINE surveillance-HUD theme (dark, cyan-on-black). Token override layer + HUD chrome + live telemetry panel for the dsh web UI.",
+  "keywords": [
+    "dsh-plugin",
+    "dsh-theme",
+    "deepseek-harness",
+    "theme",
+    "skin",
+    "person-of-interest"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/yuqisun/dsh-theme-machine.git",
+  "homepage": "https://github.com/yuqisun/dsh-theme-machine#readme",
+  "npm": "https://www.npmjs.com/package/dsh-theme-machine",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T07:55:42.046Z",
+  "created_at": "2026-08-16T07:41:22.466Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:42.877Z"
+}

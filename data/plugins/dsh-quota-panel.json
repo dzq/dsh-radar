@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-quota-panel",
+  "name": "dsh-quota-panel",
+  "version": "0.8.0",
+  "description": "Provider quota/balance widget for the dsh web surface: collapsed glanceable capsule expanding into a Harness-native card with a settings panel (provider visibility / refresh interval / warn thresholds), fed by a loopback Connection RPC channel whose host ",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "quota",
+    "balance",
+    "usage",
+    "opencode"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/wenzetan/dsh-quota-panel.git",
+  "homepage": "https://github.com/wenzetan/dsh-quota-panel#readme",
+  "npm": "https://www.npmjs.com/package/dsh-quota-panel",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-cordis-client-runner"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T07:31:21.506Z",
+  "created_at": "2026-08-15T07:13:57.009Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:37.269Z"
+}

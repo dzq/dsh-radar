@@ -1,0 +1,54 @@
+{
+  "slug": "dsh-ltctfer--dsh-opencode-go-usage",
+  "name": "@dsh-ltctfer/dsh-opencode-go-usage",
+  "version": "0.1.1",
+  "description": "OpenCode Go 套餐用量查询插件：opencode_usage 工具实时查询 opencode.ai 官方用量 API（滚动 5h / 每周 / 每月三个窗口的用量百分比与重置时间），API key 自动从 opencode 认证文件 / 环境变量 / 插件配置解析，无需额外登录。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "opencode",
+    "opencode-go",
+    "usage",
+    "quota"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/LTctfer/dsh-opencode-go-usage.git",
+  "homepage": "https://github.com/LTctfer/dsh-opencode-go-usage#readme",
+  "npm": "https://www.npmjs.com/package/@dsh-ltctfer/dsh-opencode-go-usage",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T01:33:59.189Z",
+  "created_at": "2026-08-14T08:25:30.240Z",
+  "gh": {
+    "full_name": "LTctfer/dsh-opencode-go-usage",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T01:38:25Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 60,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:49.617Z"
+}

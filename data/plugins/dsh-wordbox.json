@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-wordbox",
+  "name": "dsh-wordbox",
+  "version": "0.1.0",
+  "description": "Common Word Box (常用词盒子) — DeepSeek Harness web client plugin: a persistent slide-up word/phrase panel next to the composer input, with global/current-project buckets and one-click insert. Works in every workspace.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "client-plugin",
+    "common-words",
+    "snippets",
+    "composer"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/arcmosin/dsh-wordbox.git",
+  "homepage": "https://github.com/arcmosin/dsh-wordbox#readme",
+  "npm": "https://www.npmjs.com/package/dsh-wordbox",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T07:16:12.611Z",
+  "created_at": "2026-08-14T07:16:12.367Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:53.464Z"
+}

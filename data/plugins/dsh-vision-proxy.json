@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-vision-proxy",
+  "name": "dsh-vision-proxy",
+  "version": "0.2.3",
+  "description": "DeepSeek brain + automatic image transcription for DeepSeek Harness: a deepseek-vision provider route that transcribes attached images to text via any OpenAI-compatible VLM before delegating to the text-only DeepSeek adapter. Paid fast path with a key (Da",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "plugin",
+    "vision",
+    "multimodal",
+    "image",
+    "image-understanding",
+    "ocr",
+    "vlm",
+    "qwen",
+    "dashscope"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Flyvhidbwo/dsh-vision-proxy.git",
+  "homepage": "https://github.com/Flyvhidbwo/dsh-vision-proxy#readme",
+  "npm": "https://www.npmjs.com/package/dsh-vision-proxy",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0",
+    "dsh": ">=0.1.0-rc.6"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T14:43:48.072Z",
+  "created_at": "2026-08-14T02:28:01.114Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:22.426Z"
+}

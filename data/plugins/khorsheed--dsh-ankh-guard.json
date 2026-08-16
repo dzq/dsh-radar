@@ -1,0 +1,43 @@
+{
+  "slug": "khorsheed--dsh-ankh-guard",
+  "name": "@khorsheed/dsh-ankh-guard",
+  "version": "0.1.0-rc.6.3",
+  "description": "Hard gate for self-modification restarts: a green-build credential bound to the git HEAD, checked before any restart of the running instance",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "guard",
+    "self-modification",
+    "self-restart",
+    "watchdog",
+    "canary",
+    "rollback"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Khorsheed/dsh-ankh-guard.git",
+  "homepage": "https://github.com/Khorsheed/dsh-ankh-guard#readme",
+  "npm": "https://www.npmjs.com/package/@khorsheed/dsh-ankh-guard",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 239,
+  "monthly_downloads": 239,
+  "last_publish": "2026-08-15T03:55:23.616Z",
+  "created_at": "2026-08-14T10:37:48.630Z",
+  "gh": null,
+  "scores": {
+    "popularity": 60,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 67,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:20.493Z"
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "dsh-deepread",
+  "name": "dsh-deepread",
+  "version": "0.5.3",
+  "description": "AI deep-reading assistant: extract core claims, argument structure, and key evidence from books and articles. Five modes (quick, deep, knowledge map, Feynman, full book); knowledge-map reports include confidence levels, data facts, relation labels, Mermai",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "deepseek",
+    "deep-read",
+    "deep-reading",
+    "reading",
+    "reading-companion",
+    "article",
+    "book",
+    "summarization",
+    "analysis",
+    "knowledge-map",
+    "mindmap",
+    "feynman",
+    "study",
+    "pdf",
+    "markdown",
+    "html",
+    "wechat",
+    "xmind",
+    "freemind"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/xiehuan123/dsh-deepread.git",
+  "homepage": "https://github.com/xiehuan123/dsh-deepread#readme",
+  "npm": "https://www.npmjs.com/package/dsh-deepread",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    },
+    "skills": [
+      "./skills/dsh-deepread/SKILL.md"
+    ]
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T21:01:21.106Z",
+  "created_at": "2026-08-15T13:03:09.107Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 55,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:59:11.754Z"
+}

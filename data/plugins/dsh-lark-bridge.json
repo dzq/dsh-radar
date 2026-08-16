@@ -1,0 +1,43 @@
+{
+  "slug": "dsh-lark-bridge",
+  "name": "dsh-lark-bridge",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin: real-time Feishu/Lark notifications when a DSH session pauses for user interaction (permission asks, questions, fatal errors).",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "lark",
+    "feishu",
+    "notification",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/leo-lab-2026/dsh-lark-bridge.git",
+  "homepage": "https://github.com/leo-lab-2026/dsh-lark-bridge#readme",
+  "npm": "https://www.npmjs.com/package/dsh-lark-bridge",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T13:24:05.553Z",
+  "created_at": "2026-08-14T13:24:05.260Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 55,
+    "security": 65,
+    "dsh_compat": 75,
+    "overall": 48,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:21.397Z"
+}

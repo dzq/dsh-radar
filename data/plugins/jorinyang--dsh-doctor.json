@@ -1,0 +1,44 @@
+{
+  "slug": "jorinyang--dsh-doctor",
+  "name": "@jorinyang/dsh-doctor",
+  "version": "0.3.2",
+  "description": "DeepSeek Harness diagnostic, repair, and rollback plugin: dsh_doctor (diagnose), dsh_doctor_fix (journaled repair), dsh_doctor_rollback (LIFO undo), plus a Cordis runtime service for dynamic self-healing.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "diagnostic",
+    "doctor",
+    "repair",
+    "cli",
+    "agent",
+    "dsh-doctor"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/jorinyang/dsh-doctor.git",
+  "homepage": "https://github.com/jorinyang/dsh-doctor#readme",
+  "npm": "https://www.npmjs.com/package/@jorinyang/dsh-doctor",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T21:00:59.087Z",
+  "created_at": "2026-08-13T19:41:52.138Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:48.591Z"
+}

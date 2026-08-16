@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-webgate",
+  "name": "dsh-webgate",
+  "version": "0.2.3",
+  "description": "DSH 远程访问插件：局域网直连（二维码）、cloudflared 快速隧道、frp + 自有服务器反代（含登录门户）",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "dsh-plugin",
+    "lan",
+    "tunnel",
+    "frp",
+    "cloudflared"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/pppolf/dsh-webgate.git",
+  "homepage": "https://github.com/pppolf/dsh-webgate#readme",
+  "npm": "https://www.npmjs.com/package/dsh-webgate",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T02:31:32.960Z",
+  "created_at": "2026-08-16T02:08:37.507Z",
+  "gh": {
+    "full_name": "pppolf/dsh-webgate",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T02:42:21Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 80,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 61,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:33.440Z"
+}

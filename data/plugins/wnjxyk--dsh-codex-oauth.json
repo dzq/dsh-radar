@@ -1,0 +1,53 @@
+{
+  "slug": "wnjxyk--dsh-codex-oauth",
+  "name": "@wnjxyk/dsh-codex-oauth",
+  "version": "0.4.2",
+  "description": "Unified OpenAI Codex subscription plugin for DeepSeek Harness: GPT models, OAuth, quota, image generation, and web search.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "openai",
+    "codex",
+    "oauth",
+    "subscription"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/WNJXYK/dsh-codex-oauth.git",
+  "homepage": "https://github.com/WNJXYK/dsh-codex-oauth#readme",
+  "npm": "https://www.npmjs.com/package/@wnjxyk/dsh-codex-oauth",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-tool"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T17:24:29.351Z",
+  "created_at": "2026-08-15T12:19:27.903Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:30.874Z"
+}

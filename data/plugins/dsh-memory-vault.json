@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-memory-vault",
+  "name": "dsh-memory-vault",
+  "version": "0.1.5",
+  "description": "Cross-session memory vault for DeepSeek Harness: remember / recall / forget tools, per-turn prompt injection, and a browser management page.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "memory",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/flymysql/dsh-memory.git",
+  "homepage": "https://github.com/flymysql/dsh-memory#readme",
+  "npm": "https://www.npmjs.com/package/dsh-memory-vault",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T08:13:18.711Z",
+  "created_at": "2026-08-14T03:51:07.802Z",
+  "gh": {
+    "full_name": "flymysql/dsh-memory",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T08:04:03Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 98,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 61,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:01:15.795Z"
+}

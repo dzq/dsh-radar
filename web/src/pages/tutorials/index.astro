@@ -1,0 +1,76 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const tutorials = [
+  {
+    slug: 'getting-started',
+    title: 'DSH Radar 入门：5 分钟看懂插件评分',
+    summary: '怎么读懂 S/A/B/C/D 等级？怎么用雷达图选插件？怎么避开 D 级坑？',
+    level: '入门',
+    time: '5 分钟',
+    date: '2026-08-16',
+  },
+  {
+    slug: 'contribute-recipe',
+    title: '贡献你的实战配方',
+    summary: '编辑 data/recipes.json 提交 PR，让你的插件组合经验帮到更多人。',
+    level: '入门',
+    time: '10 分钟',
+    date: '2026-08-16',
+  },
+  {
+    slug: 'self-host',
+    title: '自托管 DSH Radar（30 分钟）',
+    summary: '把 DSH Radar 部署到自己的服务器 / Cloudflare / Vercel，完全掌控数据。',
+    level: '中级',
+    time: '30 分钟',
+    date: '2026-08-16',
+  },
+  {
+    slug: 'score-formula',
+    title: '定制你的评分公式',
+    summary: '改 scripts/lib/score.mjs 的权重和阈值，跑通完整重算流程。',
+    level: '高级',
+    time: '20 分钟',
+    date: '2026-08-16',
+  },
+  {
+    slug: 'github-actions',
+    title: '配置 GitHub Actions 每周自动更新',
+    summary: '让 CI 每周一自动抓数据 + 重新 build + 部署 Pages，含权限和 secrets 配置。',
+    level: '中级',
+    time: '15 分钟',
+    date: '2026-08-16',
+  },
+];
+---
+<Layout title="教程 — DSH Radar" active="tutorials">
+  <section class="container section" style="padding-top:32px;">
+    <h1 style="font-size:36px;margin-bottom:8px;">📚 教程</h1>
+    <p class="sub">{tutorials.length} 篇 · 从入门到部署，从看数据到改公式</p>
+
+    <div class="lead">
+      不只是用 DSH Radar，还要会<strong>贡献内容</strong>、<strong>部署自己的实例</strong>、<strong>改公式</strong>。
+      这里是完整路径。
+    </div>
+
+    <div style="display:grid;gap:16px;margin-top:32px;">
+      {tutorials.map((t) => (
+        <a href={`/tutorials/${t.slug}`} class="info-block" style="margin:0;text-decoration:none;border-left:3px solid var(--accent);">
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">
+            <span style="font-size:11px;padding:2px 8px;background:var(--accent-glow);color:var(--accent);border-radius:4px;font-weight:700;">{t.level}</span>
+            <span style="font-size:12px;color:var(--text-mute);">⏱ {t.time}</span>
+            <span style="font-size:12px;color:var(--text-mute);">· {t.date}</span>
+          </div>
+          <h3 style="color:var(--text);font-size:20px;margin-bottom:8px;">{t.title}</h3>
+          <p style="color:var(--text-dim);font-size:14px;">{t.summary}</p>
+        </a>
+      ))}
+    </div>
+
+    <div class="empty" style="margin-top:48px;">
+      <h3 style="color:var(--text);margin-bottom:8px;">💡 想贡献一篇？</h3>
+      <p>编辑 <code>web/src/pages/tutorials/index.astro</code> 加新条目 + 创建 <code>[slug].astro</code> 页面，提交 PR。</p>
+    </div>
+  </section>
+</Layout>

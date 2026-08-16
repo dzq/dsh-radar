@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-xmemo",
+  "name": "dsh-xmemo",
+  "version": "0.1.0",
+  "description": "Native DeepSeek Harness (dsh) plugin: hybrid local and XMemo cloud memory for Cordis-based agents.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "xmemo",
+    "memory"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/yonro/xmemo-deepseek-plugin.git",
+  "homepage": "https://github.com/yonro/xmemo-deepseek-plugin#readme",
+  "npm": "https://www.npmjs.com/package/dsh-xmemo",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T15:09:38.447Z",
+  "created_at": "2026-08-15T15:09:38.161Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:03.314Z"
+}

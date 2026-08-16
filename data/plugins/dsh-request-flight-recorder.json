@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-request-flight-recorder",
+  "name": "dsh-request-flight-recorder",
+  "version": "1.0.0",
+  "description": "Content-free request and stream diagnostics for DeepSeek Harness",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "diagnostics",
+    "observability",
+    "debugging",
+    "llm",
+    "developer-tools"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/abinzhao/dsh-request-flight-recorder.git",
+  "homepage": "https://github.com/abinzhao/dsh-request-flight-recorder#readme",
+  "npm": "https://www.npmjs.com/package/dsh-request-flight-recorder",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || ^24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T19:02:13.207Z",
+  "created_at": "2026-08-15T19:02:12.888Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:34.563Z"
+}

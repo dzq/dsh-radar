@@ -1,0 +1,64 @@
+{
+  "slug": "dsh-vision-recognizer",
+  "name": "dsh-vision-recognizer",
+  "version": "0.1.2",
+  "description": "DeepSeek Harness image recognition plugin: keep DeepSeek as the conversation brain while a configurable vision model (15+ providers, OpenAI-compatible + Anthropic) transcribes attached images. Configurable from Settings → Plugins.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "plugin",
+    "vision",
+    "multimodal",
+    "image",
+    "image-understanding",
+    "ocr",
+    "vlm",
+    "qwen",
+    "dashscope",
+    "openai",
+    "anthropic",
+    "gemini",
+    "zhipu",
+    "ollama"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/kaixinbaba/dsh-vision-recognizer.git",
+  "homepage": "https://github.com/kaixinbaba/dsh-vision-recognizer#readme",
+  "npm": "https://www.npmjs.com/package/dsh-vision-recognizer",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-theme"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0",
+    "dsh": ">=0.1.0-rc.6"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T14:15:43.425Z",
+  "created_at": "2026-08-15T01:39:57.828Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 95,
+    "overall": 56,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:59:01.345Z"
+}

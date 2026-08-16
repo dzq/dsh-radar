@@ -1,0 +1,54 @@
+{
+  "slug": "dsh-skills",
+  "name": "dsh-skills",
+  "version": "0.1.1",
+  "description": "Global skill hub for dsh: aggregates Claude Code, project, and .skill-package skills into ~/.dsh/skills with reference/copy import and slash-menu usage",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek",
+    "deepseek-harness",
+    "deepseek-ai",
+    "cordis",
+    "plugin",
+    "ai-agent",
+    "coding-agent",
+    "skills",
+    "skill-hub",
+    "slash-commands",
+    "claude-skills"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/CocoSgt/dsh-skills.git",
+  "homepage": "https://github.com/CocoSgt/dsh-skills#readme",
+  "npm": "https://www.npmjs.com/package/dsh-skills",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-api-remotes"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T14:06:25.206Z",
+  "created_at": "2026-08-14T09:29:05.518Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:48.179Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-engramory",
+  "name": "dsh-engramory",
+  "version": "0.1.1",
+  "description": "Curated file-based long-term memory for DeepSeek Harness — human-readable markdown notes, one git-versioned store shared across hosts, and a deterministic index cap enforced by ctx.tools.guard()",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "memory",
+    "agent-memory",
+    "long-term-memory",
+    "engramory",
+    "markdown"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/tinqiao-oss/engramory.git",
+  "homepage": "https://github.com/tinqiao-oss/engramory/tree/master/adapters/dsh#readme",
+  "npm": "https://www.npmjs.com/package/dsh-engramory",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T12:11:23.687Z",
+  "created_at": "2026-08-15T12:03:47.287Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:35.832Z"
+}

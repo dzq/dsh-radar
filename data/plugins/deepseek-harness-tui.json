@@ -1,0 +1,45 @@
+{
+  "slug": "deepseek-harness-tui",
+  "name": "deepseek-harness-tui",
+  "version": "0.3.0",
+  "description": "Interactive terminal UI for deepseek-harness, installed as a dsh profile bundle",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "tui",
+    "terminal",
+    "cli",
+    "agent",
+    "ai"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Demo-0416/deepseek-harness-tui.git",
+  "homepage": "https://github.com/Demo-0416/deepseek-harness-tui#readme",
+  "npm": "https://www.npmjs.com/package/deepseek-harness-tui",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T18:15:03.028Z",
+  "created_at": "2026-08-14T17:57:22.255Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:05.314Z"
+}

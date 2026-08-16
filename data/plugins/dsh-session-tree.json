@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-session-tree",
+  "name": "dsh-session-tree",
+  "version": "0.1.0-beta.1",
+  "description": "Git-like immutable session lineage for DeepSeek Harness",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness",
+    "session-management",
+    "conversation",
+    "typescript"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/ZhengQingJing/dsh-session-tree.git",
+  "homepage": "https://github.com/ZhengQingJing/dsh-session-tree",
+  "npm": "https://www.npmjs.com/package/dsh-session-tree",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-primitives"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T09:54:50.417Z",
+  "created_at": "2026-08-14T09:54:50.121Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:57.465Z"
+}

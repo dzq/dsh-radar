@@ -1,0 +1,40 @@
+{
+  "slug": "dsh-yali-image-generator",
+  "name": "dsh-yali-image-generator",
+  "version": "0.1.1",
+  "description": "DeepSeek-Harness 图像生成插件。申请 Yali AI API Key：https://api.yaliai.com/",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "image-generation",
+    "yali-ai"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/pptt121212/dsh-yali-image-generator.git",
+  "homepage": "https://github.com/pptt121212/dsh-yali-image-generator#readme",
+  "npm": "https://www.npmjs.com/package/dsh-yali-image-generator",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T01:51:28.289Z",
+  "created_at": "2026-08-13T17:39:14.703Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:54.396Z"
+}

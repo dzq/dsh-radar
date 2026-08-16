@@ -1,0 +1,62 @@
+{
+  "slug": "dsh-token-data",
+  "name": "dsh-token-data",
+  "version": "0.1.0",
+  "description": "Token usage dashboard, provider balances, and subscription quotas for the dsh web GUI",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "token-usage",
+    "token-data",
+    "usage",
+    "dsh-plugin",
+    "deepseek-harness-plugin",
+    "dashboard",
+    "observability",
+    "balance",
+    "quota",
+    "llm"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/dawsondx/dsh-token-data.git",
+  "homepage": "https://github.com/dawsondx/dsh-token-data#readme",
+  "npm": "https://www.npmjs.com/package/dsh-token-data",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-primitives"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T05:41:48.904Z",
+  "created_at": "2026-08-16T05:41:48.694Z",
+  "gh": {
+    "full_name": "dawsondx/dsh-token-data",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T05:44:42Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 64,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:46.312Z"
+}

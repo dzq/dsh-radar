@@ -1,0 +1,56 @@
+{
+  "slug": "dsh-ui-notify",
+  "name": "dsh-ui-notify",
+  "version": "0.1.0",
+  "description": "Completion sound notifications for DeepSeek Harness: plays an embedded chime when a session's output finishes, with a Notifications row in General settings. Settings persist in browser localStorage — a standalone web plugin, no Host settings dependency.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "notification",
+    "completion-sound"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/xingke-seeker/dsh-ui-notify.git",
+  "homepage": "https://github.com/xingke-seeker/dsh-ui-notify#readme",
+  "npm": "https://www.npmjs.com/package/dsh-ui-notify",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24"
+  },
+  "weekly_downloads": 149,
+  "monthly_downloads": 149,
+  "last_publish": "2026-08-15T13:10:44.436Z",
+  "created_at": "2026-08-15T13:10:44.103Z",
+  "gh": {
+    "full_name": "xingke-seeker/dsh-ui-notify",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:45:31Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 54,
+    "maintenance": 99,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 75,
+    "grade": "A"
+  },
+  "updated_at": "2026-08-16T07:58:22.266Z"
+}

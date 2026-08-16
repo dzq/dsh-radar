@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-harness-zh-cn",
+  "name": "dsh-harness-zh-cn",
+  "version": "0.1.2",
+  "description": "DeepSeek Harness 中文汉化插件：在运行时把所有系统提示词、工具描述与运行时上下文翻译成中文（通过 system-prompt/assemble 瀑布钩子，不修改任何源码）。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "chinese",
+    "zh-cn",
+    "localization",
+    "i18n",
+    "l10n"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zjl1989-li/dsh-harness-zh-cn.git",
+  "homepage": "https://github.com/zjl1989-li/dsh-harness-zh-cn#readme",
+  "npm": "https://www.npmjs.com/package/dsh-harness-zh-cn",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T07:36:50.595Z",
+  "created_at": "2026-08-16T06:55:04.508Z",
+  "gh": {
+    "full_name": "zjl1989-li/dsh-harness-zh-cn",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:40:14Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 64,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:59:50.245Z"
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "ersss--dsh-migrate",
+  "name": "@ersss/dsh-migrate",
+  "version": "0.2.0",
+  "description": "Import chat history and memory from other AI agents (Claude Code, Codex CLI, Gemini CLI, Aider, Cline, OpenCode, Hermes Agent, OpenClaw) into DeepSeek Harness",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "agent",
+    "migration",
+    "chat-history",
+    "memory"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/kkkkkkkkki/dsh-migrate.git",
+  "homepage": "https://github.com/kkkkkkkkki/dsh-migrate#readme",
+  "npm": "https://www.npmjs.com/package/@ersss/dsh-migrate",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T06:53:19.408Z",
+  "created_at": "2026-08-16T06:28:30.379Z",
+  "gh": {
+    "full_name": "kkkkkkkkki/dsh-migrate",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T06:53:06Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:59:15.393Z"
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "dshbase-catalog",
+  "name": "dshbase-catalog",
+  "version": "0.2.0",
+  "description": "Query the dshbase plugin directory from inside DeepSeek Harness — search, list, and get install commands for 1100+ plugins.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "plugin-directory",
+    "catalog"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dshbase-catalog",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T16:29:15.298Z",
+  "created_at": "2026-08-14T09:52:08.203Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:03.726Z"
+}

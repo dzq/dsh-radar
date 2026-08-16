@@ -1,0 +1,49 @@
+{
+  "slug": "picgo--dsh-plugin",
+  "name": "@picgo/dsh-plugin",
+  "version": "0.1.0",
+  "description": "Upload images and files to your image host from DeepSeek Harness, powered by PicGo",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "picgo",
+    "image-upload",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/PicGo/dsh-plugin.git",
+  "homepage": "https://picgo.app/",
+  "npm": "https://www.npmjs.com/package/@picgo/dsh-plugin",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T03:18:54.048Z",
+  "created_at": "2026-08-14T03:18:53.733Z",
+  "gh": {
+    "full_name": "PicGo/dsh-plugin",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T03:18:00Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 98,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 61,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:01:15.588Z"
+}

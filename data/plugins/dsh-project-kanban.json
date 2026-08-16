@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-project-kanban",
+  "name": "dsh-project-kanban",
+  "version": "0.8.1",
+  "description": "DeepSeek Harness 项目看板（双端）：浏览器看板 UI + 8 个 kanban_* 模型工具，按工作区（项目）隔离，磁盘持久化",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "kanban",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/StruggleYang/dsh-project-kanban.git",
+  "homepage": "https://github.com/StruggleYang/dsh-project-kanban#readme",
+  "npm": "https://www.npmjs.com/package/dsh-project-kanban",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "slots",
+        "sessions"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T12:50:49.572Z",
+  "created_at": "2026-08-15T07:13:16.809Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:43.374Z"
+}

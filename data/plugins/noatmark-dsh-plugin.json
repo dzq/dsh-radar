@@ -1,0 +1,40 @@
+{
+  "slug": "noatmark-dsh-plugin",
+  "name": "noatmark-dsh-plugin",
+  "version": "0.1.0",
+  "description": "NoAtMark text hygiene as a DeepSeek Harness (dsh) plugin — sanitize untrusted text, scan invisible characters, clean LLM formatting, and escape CSV formula injection.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek",
+    "harness",
+    "text hygiene",
+    "sanitize",
+    "prompt injection"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/noatmark-dsh-plugin",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T05:39:52.066Z",
+  "created_at": "2026-08-14T05:39:51.817Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:26.783Z"
+}

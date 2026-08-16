@@ -1,0 +1,54 @@
+{
+  "slug": "dsh-plugin-deepseek-vision",
+  "name": "dsh-plugin-deepseek-vision",
+  "version": "0.3.2",
+  "description": "DeepSeek Harness 原生视觉 Bundle：粘贴或拖入图片，通过托管的 deepseek-vision-mcp 调用 OpenAI 兼容视觉模型。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "mcp",
+    "vision",
+    "image-analysis",
+    "ocr",
+    "glm-4.6v-flash"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/GOU-GEE/deepseek-vision.git",
+  "homepage": "https://github.com/GOU-GEE/deepseek-vision#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-deepseek-vision",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-settings-plugins"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T11:11:57.040Z",
+  "created_at": "2026-08-15T10:53:38.901Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 95,
+    "overall": 56,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:01:38.991Z"
+}

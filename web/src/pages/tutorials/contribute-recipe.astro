@@ -1,0 +1,156 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+<Layout title="贡献你的实战配方 — DSH Radar" active="tutorials">
+  <section class="container section" style="max-width:760px;">
+    <a href="/tutorials" style="font-size:13px;color:var(--text-dim);">← 教程列表</a>
+    <h1 style="font-size:32px;margin:12px 0 8px;">📝 贡献你的实战配方</h1>
+    <p style="color:var(--text-mute);font-size:13px;">入门 · 10 分钟 · 2026-08-16</p>
+
+    <div class="lead" style="margin-top:24px;">
+      DSH Radar 的评分是机器算的，<strong>配方（recipes）是人写的</strong>。
+      你踩过的坑、你调好的插件组合，只要 10 分钟就能变成 <a href="/recipes">/recipes</a> 页面上的一张卡片，
+      帮到下一个遇到同样任务的人。整个流程只需要改一个文件：<code>data/recipes.json</code>。
+    </div>
+
+    <h2 style="margin-top:40px;font-size:24px;">1. 什么样的内容算「配方」？</h2>
+    <p style="color:var(--text-dim);margin-top:12px;">
+      配方不是插件介绍，而是<strong>「任务 → 插件组合 → 为什么这么搭」</strong>的三段式经验。
+      判断标准很简单：如果只装一个插件、看 README 就能搞定，那不是配方；
+      如果你花了半天时间试错才把 2-4 个插件串起来，那就是好配方。
+    </p>
+    <ul style="margin-top:12px;color:var(--text-dim);padding-left:24px;line-height:1.9;">
+      <li>✅ 「自动研究循环」= modsearch 搜索 + llm-auto-route 切模型省 token</li>
+      <li>✅ 「生产部署 4 道防线」= 审计 → 沙箱 → 验证回执 → 失败回滚</li>
+      <li>❌ 「xxx 插件很好用」——这属于评分维度，交给雷达算</li>
+    </ul>
+
+    <h2 style="margin-top:40px;font-size:24px;">2. recipes.json 字段说明</h2>
+    <p style="color:var(--text-dim);margin-top:12px;">
+      <code>data/recipes.json</code> 是一个纯数组，每个元素就是一条配方。字段一共 9 个，全部必填：
+    </p>
+
+    <table class="matrix-table" style="margin-top:16px;width:100%;">
+      <thead>
+        <tr><th>字段</th><th>类型</th><th>说明</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><code>id</code></td><td>string</td><td>唯一 slug，小写连字符，如 <code>ppt-from-prompt</code>。作为锚点用，不要改已有的</td></tr>
+        <tr><td><code>title</code></td><td>string</td><td>配方标题，10-20 字，动词开头最好读</td></tr>
+        <tr><td><code>task</code></td><td>string</td><td>解决的具体任务，一句话说清输入和输出</td></tr>
+        <tr><td><code>plugins</code></td><td>string[]</td><td>用到的插件包名数组，必须是 npm 上真实存在的包名</td></tr>
+        <tr><td><code>why</code></td><td>string</td><td>为什么这么组合，最有价值的一段，写清楚技术原因</td></tr>
+        <tr><td><code>tip</code></td><td>string</td><td>额外的调优建议 / 搭配建议 / 避坑提醒</td></tr>
+        <tr><td><code>submitted_by</code></td><td>string</td><td>你的 GitHub 用户名（不带 @）</td></tr>
+        <tr><td><code>submitted_at</code></td><td>string</td><td>提交日期，<code>YYYY-MM-DD</code> 格式</td></tr>
+        <tr><td><code>likes</code></td><td>number</td><td>新提交一律填 <code>0</code>，由社区后续累加</td></tr>
+      </tbody>
+    </table>
+
+    <div class="info-block" style="margin-top:20px;border-left:3px solid var(--warn);">
+      <strong style="color:var(--warn);">⚠️ 两个硬要求</strong>
+      <p style="color:var(--text-dim);font-size:14px;margin-top:6px;">
+        <code>plugins</code> 里的包名会被前端拿去关联插件详情页，拼错就是死链；
+        <code>id</code> 全局唯一，重复会导致 Astro 渲染时 key 冲突。提交前自己搜一遍。
+      </p>
+    </div>
+
+    <h2 style="margin-top:40px;font-size:24px;">3. 完整示例</h2>
+    <p style="color:var(--text-dim);margin-top:12px;">
+      把你的条目<strong>追加到数组末尾</strong>（注意给上一条补逗号），格式照抄这个：
+    </p>
+    <pre style="background:var(--bg);padding:16px;border-radius:8px;color:var(--accent);font-size:12px;margin-top:12px;overflow-x:auto;"><code>{`{
+  "id": "changelog-digest",
+  "title": "每周依赖变更摘要",
+  "task": "扫描 lockfile 变更，自动生成人类可读的升级摘要",
+  "plugins": ["@liustack/modsearch", "dsh-plugin-review"],
+  "why": "modsearch 负责拉取每个包的 release notes，review 插件把 diff 归类成 breaking / feature / fix 三档，避免人工翻 20 个 changelog",
+  "tip": "在 CI 里跑，把输出贴到 PR 评论；配合 dsh-llm-auto-route 用小模型做摘要，成本降到 1/5",
+  "submitted_by": "your-github-name",
+  "submitted_at": "2026-08-16",
+  "likes": 0
+}`}</code></pre>
+
+    <p style="color:var(--text-dim);margin-top:16px;">
+      改完先本地校验 JSON 合法性，一个多余的逗号就会让整站 build 失败：
+    </p>
+    <pre style="background:var(--bg);padding:12px;border-radius:6px;color:var(--accent);font-size:12px;margin-top:12px;overflow-x:auto;"><code>{`# 校验 JSON 语法
+node -e "JSON.parse(require('fs').readFileSync('data/recipes.json','utf8'))" && echo "✅ JSON OK"
+
+# 本地预览效果
+cd web && pnpm install && pnpm dev
+# 打开 http://localhost:4321/recipes 看看你的卡片`}</code></pre>
+
+    <h2 style="margin-top:40px;font-size:24px;">4. 提交流程：fork → 编辑 → PR</h2>
+    <p style="color:var(--text-dim);margin-top:12px;">
+      DSH Radar 是 MIT 开源、零追踪的项目，任何人都能改。三步走：
+    </p>
+    <pre style="background:var(--bg);padding:16px;border-radius:8px;color:var(--accent);font-size:12px;margin-top:12px;overflow-x:auto;"><code>{`# ① Fork 后克隆你自己的副本
+git clone https://github.com/<你的用户名>/dsh-radar.git
+cd dsh-radar
+git remote add upstream https://github.com/dsh-radar/dsh-radar.git
+
+# ② 开分支 + 编辑
+git checkout -b recipe/changelog-digest
+$EDITOR data/recipes.json
+
+# ③ 提交 + 推送
+git add data/recipes.json
+git commit -m "recipe: 每周依赖变更摘要"
+git push origin recipe/changelog-digest`}</code></pre>
+
+    <p style="color:var(--text-dim);margin-top:16px;">
+      推送完 GitHub 会提示 “Compare &amp; pull request”，点进去填 PR 描述即可。
+      <strong>只改 <code>data/recipes.json</code> 的 PR 不需要跑 <code>build-data.mjs</code></strong>，
+      配方数据不参与评分计算，CI 只会校验 JSON 格式。
+    </p>
+
+    <h2 style="margin-top:40px;font-size:24px;">5. PR 模板</h2>
+    <p style="color:var(--text-dim);margin-top:12px;">
+      标题统一用 <code>recipe: 配方标题</code> 前缀，维护者靠这个前缀做快速分流：
+    </p>
+    <pre style="background:var(--bg);padding:16px;border-radius:8px;color:var(--accent);font-size:12px;margin-top:12px;overflow-x:auto;"><code>{`标题：recipe: 每周依赖变更摘要
+
+--- 描述 ---
+## 配方 ID
+changelog-digest
+
+## 解决什么问题
+每周升级依赖时要手翻十几个 changelog，容易漏掉 breaking change。
+
+## 用到的插件
+- @liustack/modsearch — 拉 release notes
+- dsh-plugin-review — diff 归类
+
+## 我真的跑过吗
+是。在自己的 monorepo 上连续跑了 3 周，每周约 40 个包，
+误报 2 次（都是 pre-release tag 造成的），已在 tip 里写了规避方法。
+
+## Checklist
+- [x] id 全局唯一，未与现有条目重复
+- [x] plugins 里的包名在 npm 上真实存在
+- [x] likes 填 0
+- [x] node -e JSON.parse 校验通过
+- [x] 本地 /recipes 页面预览正常`}</code></pre>
+
+    <div class="info-block" style="margin-top:24px;border-left:3px solid var(--grade-A);">
+      <strong style="color:var(--grade-A);">✅ 合并标准</strong>
+      <p style="color:var(--text-dim);font-size:14px;margin-top:6px;">
+        维护者只看三件事：JSON 合法、包名真实、<strong>你真的跑过</strong>。
+        没跑过的「理论组合」会被要求补证据，不会直接关掉。一般 48 小时内有回应。
+      </p>
+    </div>
+
+    <h2 style="margin-top:40px;font-size:24px;">下一步</h2>
+    <div style="display:grid;gap:12px;margin-top:16px;">
+      <a href="/tutorials/self-host" class="info-block" style="margin:0;text-decoration:none;border-left:3px solid var(--accent);">
+        <strong>🚀 自托管 DSH Radar（30 分钟）</strong>
+        <p style="color:var(--text-dim);font-size:14px;margin-top:4px;">想给团队跑一个内网实例？Cloudflare / Vercel / Nginx 全覆盖。</p>
+      </a>
+      <a href="/potholes" class="info-block" style="margin:0;text-decoration:none;border-left:3px solid var(--accent);">
+        <strong>🕳 踩坑 Wiki</strong>
+        <p style="color:var(--text-dim);font-size:14px;margin-top:4px;">配方之外，坑也值得记录：<code>data/potholes.json</code> 同样欢迎 PR。</p>
+      </a>
+    </div>
+  </section>
+</Layout>

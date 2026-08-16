@@ -1,0 +1,53 @@
+{
+  "slug": "liustack--modsearch",
+  "name": "@liustack/modsearch",
+  "version": "5.4.2",
+  "description": "Plug-in web search, X search, and page fetch for models without native web access, powered by the free Antigravity CLI",
+  "keywords": [
+    "search",
+    "web-fetch",
+    "cli",
+    "llm",
+    "agent",
+    "agent-skill",
+    "antigravity",
+    "modsearch",
+    "dsh-plugin",
+    "deepseek-harness"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/liustack/modsearch.git",
+  "homepage": "https://github.com/liustack/modsearch#readme",
+  "npm": "https://www.npmjs.com/package/@liustack/modsearch",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "weekly_downloads": 4097,
+  "monthly_downloads": 4380,
+  "last_publish": "2026-08-15T05:18:30.432Z",
+  "created_at": "2026-02-22T08:23:12.840Z",
+  "gh": {
+    "full_name": "liustack/modsearch",
+    "stars": 105,
+    "open_issues": 1,
+    "pushed_at": "2026-08-15T05:18:00Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 90,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 85,
+    "grade": "S"
+  },
+  "updated_at": "2026-08-16T07:58:11.825Z"
+}

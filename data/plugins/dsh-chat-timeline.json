@@ -1,0 +1,59 @@
+{
+  "slug": "dsh-chat-timeline",
+  "name": "dsh-chat-timeline",
+  "version": "0.1.1",
+  "description": "DeepSeek 官网风格右侧消息时间线：常驻显示当前会话的用户消息卡片，悬停高亮、点击跳转到对应消息。",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "conversation",
+    "navigation",
+    "timeline"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/jjxjjjjiik-bot/dsh-chat-timeline.git",
+  "homepage": "https://github.com/jjxjjjjiik-bot/dsh-chat-timeline#readme",
+  "npm": "https://www.npmjs.com/package/dsh-chat-timeline",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T06:46:08.969Z",
+  "created_at": "2026-08-16T04:16:43.651Z",
+  "gh": {
+    "full_name": "jjxjjjjiik-bot/dsh-chat-timeline",
+    "stars": 7,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:19:50Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 56,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:48.109Z"
+}

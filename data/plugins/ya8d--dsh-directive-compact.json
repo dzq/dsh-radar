@@ -1,0 +1,43 @@
+{
+  "slug": "ya8d--dsh-directive-compact",
+  "name": "@ya8d/dsh-directive-compact",
+  "version": "0.1.0-rc.0",
+  "description": "Pure-incremental directive-driven compaction for DeepSeek Harness: /compact-directive <requirement> summarizes the session middle per your requirement, /trim-directive <requirement> trims the whole conversation per your requirement",
+  "keywords": [
+    "deepseek-harness",
+    "deepseek-ai",
+    "dsh-plugin",
+    "plugin",
+    "compaction",
+    "directive",
+    "context-compression"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/ya8D/dsh-directive-compact.git",
+  "homepage": "https://github.com/ya8D/dsh-directive-compact",
+  "npm": "https://www.npmjs.com/package/@ya8d/dsh-directive-compact",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T14:11:17.389Z",
+  "created_at": "2026-08-15T14:11:17.081Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:02.079Z"
+}

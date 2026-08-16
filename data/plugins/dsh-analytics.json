@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-analytics",
+  "name": "dsh-analytics",
+  "version": "0.4.0",
+  "description": "Agent FinOps / token analytics for DeepSeek Harness: usage collection, time-aware cost engine, cache analysis, and session drill-down",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "analytics",
+    "finops",
+    "tokens",
+    "cost",
+    "cache"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/hccccc01333/dsh-analytics.git",
+  "homepage": "https://github.com/hccccc01333/dsh-analytics",
+  "npm": "https://www.npmjs.com/package/dsh-analytics",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "permissions": "none",
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T06:23:25.065Z",
+  "created_at": "2026-08-14T03:28:47.068Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:28.023Z"
+}

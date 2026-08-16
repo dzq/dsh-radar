@@ -1,0 +1,61 @@
+{
+  "slug": "dsh-session-import",
+  "name": "dsh-session-import",
+  "version": "0.1.1",
+  "description": "Cross-tool session migration plugin for the DeepSeek Harness (dsh): high-fidelity ingest, continue, knowledge extraction, bidirectional export, privacy redaction.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "session-import",
+    "session-migration"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/devmom/dsh-session-import.git",
+  "homepage": "https://github.com/devmom/dsh-session-import#readme",
+  "npm": "https://www.npmjs.com/package/dsh-session-import",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ]
+    },
+    "category": "integration",
+    "supportedVersion": ">=0.1.0",
+    "verifiedCommit": "1a412e1",
+    "description": "Import conversations from 15+ tools (Codex, Claude Code, ChatGPT, Kimi Code, ZCode, WorkBuddy, OpenClaw, Gemini, Cursor, Continue, Cline, OpenCode, Reasonix, Copilot Chat, Aider, generic JSON) into DeepSeek Harness with high-fidelity mapping, privacy redaction, knowledge extraction and bidirectional export."
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T18:25:59.466Z",
+  "created_at": "2026-08-14T18:25:58.975Z",
+  "gh": {
+    "full_name": "devmom/dsh-session-import",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T18:28:23Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:49.412Z"
+}

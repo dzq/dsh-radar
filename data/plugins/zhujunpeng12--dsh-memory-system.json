@@ -1,0 +1,42 @@
+{
+  "slug": "zhujunpeng12--dsh-memory-system",
+  "name": "@zhujunpeng12/dsh-memory-system",
+  "version": "0.1.0",
+  "description": "Local-first persistent memory infrastructure for DeepSeek Harness: bounded hot-memory bootstrap, explainable cold recall (exact + Chinese BM25), lease-lock transactional writes, read-only governance, and trajectory review. Pure Python + Markdown, zero ext",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "memory",
+    "memory-system",
+    "agent-memory",
+    "local-first",
+    "obsidian"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zhujunpeng12/dsh-memory-system.git",
+  "homepage": "https://github.com/zhujunpeng12/dsh-memory-system#readme",
+  "npm": "https://www.npmjs.com/package/@zhujunpeng12/dsh-memory-system",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T07:26:20.752Z",
+  "created_at": "2026-08-15T07:26:20.454Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:36.858Z"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "dsh-qq-bridge",
+  "name": "dsh-qq-bridge",
+  "version": "0.1.2",
+  "description": "QQ official bot bridge plugin for DeepSeek Harness (port of pi-qq-bridge): bidirectional QQ (C2C + group chat) with isolated persistent agent sessions, commands, media pipeline and outbound file delivery.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "qq",
+    "qqbot",
+    "qq-bot",
+    "qq-robot",
+    "agent",
+    "bridge"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/xiaomengxinbb/dsh-qq-bridge.git",
+  "homepage": "https://github.com/xiaomengxinbb/dsh-qq-bridge#readme",
+  "npm": "https://www.npmjs.com/package/dsh-qq-bridge",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "node": ">=22.19"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T19:36:19.986Z",
+  "created_at": "2026-08-13T17:28:46.496Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 43,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:52.645Z"
+}

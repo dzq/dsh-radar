@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-usage",
+  "name": "dsh-usage",
+  "version": "0.1.1",
+  "description": "Replay-aware per-turn model usage and session cost for DeepSeek Harness",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "llm",
+    "cost",
+    "token-usage"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/kestiny18/dsh-plugins.git",
+  "homepage": "https://github.com/kestiny18/dsh-plugins/tree/main/dsh-usage#readme",
+  "npm": "https://www.npmjs.com/package/dsh-usage",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22.18.0",
+    "pnpm": ">=11 <12"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T13:16:55.080Z",
+  "created_at": "2026-08-14T07:46:10.338Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:26.924Z"
+}

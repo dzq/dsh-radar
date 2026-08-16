@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-codex-migrate",
+  "name": "dsh-codex-migrate",
+  "version": "0.1.3",
+  "description": "Migrate Codex CLI conversations, MCP servers, memories and project files into DeepSeek Harness sessions, workspaces and MCP registrations. 把 Codex CLI 的对话、MCP、记忆与项目文件迁移为 DSH 会话、工作区与 MCP 注册。",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "codex",
+    "migration",
+    "plugin",
+    "dsh-plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/polarskicpl/dsh-codex-migrate.git",
+  "homepage": "https://github.com/polarskicpl/dsh-codex-migrate#readme",
+  "npm": "https://www.npmjs.com/package/dsh-codex-migrate",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-web-react"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T12:47:58.892Z",
+  "created_at": "2026-08-15T11:51:36.160Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:29.183Z"
+}

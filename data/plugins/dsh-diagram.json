@@ -1,0 +1,57 @@
+{
+  "slug": "dsh-diagram",
+  "name": "dsh-diagram",
+  "version": "0.1.1",
+  "description": "Turn articles in DeepSeek Harness into editable Excalidraw canvases",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "canvas",
+    "diagram",
+    "diagram-editor",
+    "excalidraw",
+    "flowchart",
+    "visualization",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/hanzhangzzz/dsh-diagram.git",
+  "homepage": "https://github.com/hanzhangzzz/dsh-diagram#readme",
+  "npm": "https://www.npmjs.com/package/dsh-diagram",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T07:02:16.345Z",
+  "created_at": "2026-08-15T05:56:09.851Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:05.854Z"
+}

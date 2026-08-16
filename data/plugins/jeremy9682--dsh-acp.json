@@ -1,0 +1,42 @@
+{
+  "slug": "jeremy9682--dsh-acp",
+  "name": "@jeremy9682/dsh-acp",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness ACP bundle for editor delegation: a one-command Agent Client Protocol stdio server profile that shares dsh credentials and session logs.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "acp",
+    "agent-client-protocol"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/jeremy9682/dsh-cursor-codex.git",
+  "homepage": "https://github.com/jeremy9682/dsh-cursor-codex#readme",
+  "npm": "https://www.npmjs.com/package/@jeremy9682/dsh-acp",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.15"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T23:04:35.850Z",
+  "created_at": "2026-08-14T23:04:35.463Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:54.275Z"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-ponytail-skills",
+  "name": "dsh-ponytail-skills",
+  "version": "0.1.1",
+  "description": "Ponytail, lazy senior dev mode, for DeepSeek Harness: 6 skills (ponytail, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help, ponytail-review) adapted from DietrichGebert/ponytail (MIT)",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "plugin",
+    "skills",
+    "ponytail",
+    "yagni",
+    "minimal"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/gongyijie85/dsh-ponytail.git",
+  "homepage": "https://github.com/gongyijie85/dsh-ponytail",
+  "npm": "https://www.npmjs.com/package/dsh-ponytail-skills",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T04:55:35.471Z",
+  "created_at": "2026-08-16T03:47:57.776Z",
+  "gh": {
+    "full_name": "gongyijie85/dsh-ponytail",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:37:28Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 85,
+    "security": 65,
+    "dsh_compat": 75,
+    "overall": 62,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:43.123Z"
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-starter-pack",
+  "name": "dsh-starter-pack",
+  "version": "0.1.1",
+  "description": "One-click curated plugin starter pack for DeepSeek Harness — install & configure the most useful community plugins in a batch. · DSH 精选插件包：一键批量安装并配置最值得装的社区插件。",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "starter",
+    "essentials",
+    "plugin-pack",
+    "onboarding"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-starter-pack",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T09:04:11.618Z",
+  "created_at": "2026-08-15T06:38:09.209Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:04.957Z"
+}

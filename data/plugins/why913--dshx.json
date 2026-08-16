@@ -1,0 +1,45 @@
+{
+  "slug": "why913--dshx",
+  "name": "@why913/dshx",
+  "version": "0.2.0",
+  "description": "The missing companion CLI for DeepSeek Harness (dsh): manage MCP servers with one command — add/list/remove/test with dry-run connection checks, plus one-shot import from Claude Code / Codex. Also mounts as a dsh plugin so the agent can manage MCP itself.",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "dshx",
+    "deepseek-harness",
+    "mcp",
+    "model-context-protocol",
+    "claude-code",
+    "codex",
+    "cli"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/why913/dshx.git",
+  "homepage": "https://github.com/why913/dshx#readme",
+  "npm": "https://www.npmjs.com/package/@why913/dshx",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T18:45:38.828Z",
+  "created_at": "2026-08-13T18:19:16.060Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:59.409Z"
+}

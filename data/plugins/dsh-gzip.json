@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-gzip",
+  "name": "dsh-gzip",
+  "version": "0.1.1",
+  "description": "DeepSeek Harness plugin: gzip /api responses — fixes history loading failures over slow links",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "gzip",
+    "compression"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/040822/dsh-gzip.git",
+  "homepage": "https://github.com/040822/dsh-gzip#readme",
+  "npm": "https://www.npmjs.com/package/dsh-gzip",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "node": ">=22.19"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T14:26:28.848Z",
+  "created_at": "2026-08-14T13:39:40.995Z",
+  "gh": {
+    "full_name": "040822/dsh-gzip",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T14:26:42Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:26.370Z"
+}

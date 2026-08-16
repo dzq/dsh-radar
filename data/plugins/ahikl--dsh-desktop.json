@@ -1,0 +1,46 @@
+{
+  "slug": "ahikl--dsh-desktop",
+  "name": "@ahikl/dsh-desktop",
+  "version": "0.1.0",
+  "description": "A dsh desktop bundle: an Electron shell over the dsh Web UI with a system tray and a dsh-styled custom title bar.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "electron",
+    "desktop",
+    "deepseek-harness"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/ahikl/dsh-desktop.git",
+  "homepage": "https://github.com/ahikl/dsh-desktop#readme",
+  "npm": "https://www.npmjs.com/package/@ahikl/dsh-desktop",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T07:02:48.234Z",
+  "created_at": "2026-08-16T07:02:47.876Z",
+  "gh": {
+    "full_name": "ahikl/dsh-desktop",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:56:25Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 61,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:00:38.632Z"
+}

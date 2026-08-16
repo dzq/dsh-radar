@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-suite--plugin-deus",
+  "name": "@dsh-suite/plugin-deus",
+  "version": "0.2.0",
+  "description": "神模扳机 Deus Trigger — 极简提示词触发实验台：预设库 + 一键注入 + 起手识别器 + 触发率统计（Wilson CI）。社区观察未获官方证实，本插件不承诺解锁任何隐藏能力。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "deus",
+    "prompt-experiment",
+    "a-b-test",
+    "极简提示词",
+    "触发率统计"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@dsh-suite/plugin-deus",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T14:19:36.719Z",
+  "created_at": "2026-08-15T11:39:52.172Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:10.647Z"
+}

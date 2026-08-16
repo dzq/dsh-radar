@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-status-plugin",
+  "name": "dsh-status-plugin",
+  "version": "0.5.2",
+  "description": "A dsh status plugin with host-plane and browser halves: harness runtime health (process, listener, API-key presence, memory, disk, uptime, plugin inventory) as JSON plus server-pushed SSE alerts and live-tunable settings, surfaced as a header badge with a",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "status",
+    "monitoring",
+    "sse"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/woshi-Tom/dsh-status-plugin.git",
+  "homepage": "https://github.com/woshi-Tom/dsh-status-plugin#readme",
+  "npm": "https://www.npmjs.com/package/dsh-status-plugin",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T16:27:07.572Z",
+  "created_at": "2026-08-14T11:27:06.206Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:37.912Z"
+}

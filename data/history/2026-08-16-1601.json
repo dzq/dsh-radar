@@ -1,0 +1,206 @@
+{
+  "stats": {
+    "total": 784,
+    "by_grade": {
+      "S": 1,
+      "A": 21,
+      "B": 201,
+      "C": 549,
+      "D": 12
+    },
+    "by_compat": 717,
+    "total_weekly_downloads": 47258,
+    "generated_at": "2026-08-16T08:01:42.881Z",
+    "build_ms": 221034
+  },
+  "top10": [
+    {
+      "slug": "liustack--modsearch",
+      "name": "@liustack/modsearch",
+      "version": "5.4.2",
+      "description": "Plug-in web search, X search, and page fetch for models without native web access, powered by the free Antigravity CLI",
+      "weekly_downloads": 4097,
+      "stars": 105,
+      "grade": "S",
+      "overall": 85,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T05:18:30.432Z",
+      "keywords": [
+        "search",
+        "web-fetch",
+        "cli",
+        "llm",
+        "agent"
+      ]
+    },
+    {
+      "slug": "dsh-remote",
+      "name": "dsh-remote",
+      "version": "0.5.5",
+      "description": "Remote-work assistant for DeepSeek Harness: connect SSH (password or key), pick a remote workspace, operate on it with rw_pick_workspace / rw_list_dir / rw_read_file / rw_exec / rw_sync tools, and mirror it to a real local directory (SFTP) so the DSH nati",
+      "weekly_downloads": 691,
+      "stars": 14,
+      "grade": "A",
+      "overall": 81,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T17:02:48.415Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "remote",
+        "ssh"
+      ]
+    },
+    {
+      "slug": "liustack--pptfast",
+      "name": "@liustack/pptfast",
+      "version": "0.19.2",
+      "description": "Stable, editable PPTX generation for AI agents — semantic IR in, native DrawingML out",
+      "weekly_downloads": 647,
+      "stars": 4,
+      "grade": "A",
+      "overall": 80,
+      "dsh_compat": true,
+      "last_publish": "2026-08-14T20:23:27.522Z",
+      "keywords": [
+        "pptx",
+        "powerpoint",
+        "presentation",
+        "ai",
+        "agent"
+      ]
+    },
+    {
+      "slug": "dsh-plugin-vetting",
+      "name": "dsh-plugin-vetting",
+      "version": "0.5.1",
+      "description": "DeepSeek Harness plugin: heuristic vetting of installed third-party plugins — static code scan for exfiltration, credential access, obfuscation, and persistence patterns, plus an optional runtime subprocess tripwire.",
+      "weekly_downloads": 819,
+      "stars": 1,
+      "grade": "A",
+      "overall": 79,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T07:37:01.811Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek-harness",
+        "security",
+        "malware"
+      ]
+    },
+    {
+      "slug": "design-playbook",
+      "name": "design-playbook",
+      "version": "0.20.1",
+      "description": "Design I/O for coding agents: controllable UI generation via declarations (spec/domain/craft/design/components/template) and contracts (skill/evaluator). Use for product UI—console, dashboard, agent-ops, CJK-first apps.",
+      "weekly_downloads": 900,
+      "stars": 1,
+      "grade": "A",
+      "overall": 77,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T17:10:53.616Z",
+      "keywords": [
+        "pi-package",
+        "dsh-plugin",
+        "dsh-bundle",
+        "ui",
+        "ux"
+      ]
+    },
+    {
+      "slug": "dshmarket",
+      "name": "dshmarket",
+      "version": "1.5.0",
+      "description": "Visual plugin market inside DeepSeek Harness — browse, search, and one-click install community plugins. · DSH 可视化插件市场：逛一逛，点一下，装好。",
+      "weekly_downloads": 11862,
+      "stars": 0,
+      "grade": "A",
+      "overall": 76,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T15:22:18.484Z",
+      "keywords": [
+        "deepseek",
+        "harness",
+        "dsh",
+        "dsh-plugin",
+        "marketplace"
+      ]
+    },
+    {
+      "slug": "dsh-pocket",
+      "name": "dsh-pocket",
+      "version": "1.0.25",
+      "description": "把 DeepSeek Harness 装进你的口袋：一个包、一个设置页，手机扫码即同步访问电脑上的 DSH（局域网 + 公网，实时同屏）。",
+      "weekly_downloads": 4381,
+      "stars": 0,
+      "grade": "A",
+      "overall": 76,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T18:01:23.650Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "mobile",
+        "remote"
+      ]
+    },
+    {
+      "slug": "dsh-wechat-mp",
+      "name": "dsh-wechat-mp",
+      "version": "0.1.1",
+      "description": "DeepSeek Harness plugin: turn markdown into a typeset WeChat Official Account draft.",
+      "weekly_downloads": 278,
+      "stars": 0,
+      "grade": "A",
+      "overall": 76,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T16:07:37.463Z",
+      "keywords": [
+        "dsh-plugin",
+        "deepseek-harness",
+        "wechat",
+        "markdown"
+      ]
+    },
+    {
+      "slug": "dsh-ui-notify",
+      "name": "dsh-ui-notify",
+      "version": "0.1.0",
+      "description": "Completion sound notifications for DeepSeek Harness: plays an embedded chime when a session's output finishes, with a Notifications row in General settings. Settings persist in browser localStorage — a standalone web plugin, no Host settings dependency.",
+      "weekly_downloads": 149,
+      "stars": 0,
+      "grade": "A",
+      "overall": 75,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T13:10:44.436Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek-harness",
+        "notification",
+        "completion-sound"
+      ]
+    },
+    {
+      "slug": "dsh-builtin-browser",
+      "name": "dsh-builtin-browser",
+      "version": "0.1.15",
+      "description": "Shared real browser plugin for DeepSeek Harness: install-and-use — a visible native browser the human can take over, driven by the agent over CDP. DOM-level interaction (React/Vue safe), per-task session isolation, cookie persistence (browser_auth), CAPTC",
+      "weekly_downloads": 1808,
+      "stars": 0,
+      "grade": "A",
+      "overall": 74,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T21:48:30.045Z",
+      "keywords": [
+        "dsh-plugin",
+        "deepseek-harness",
+        "browser",
+        "cdp"
+      ]
+    }
+  ]
+}

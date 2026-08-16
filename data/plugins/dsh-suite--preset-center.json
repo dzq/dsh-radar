@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-suite--preset-center",
+  "name": "@dsh-suite/preset-center",
+  "version": "0.1.1",
+  "description": "中文开箱即用预设全家桶：小红书笔记助手 / 中文文案润色 / 日报周报生成器，一键应用到官方 Agent presets / Out-of-the-box Chinese agent presets: Xiaohongshu notes, copy polishing, daily/weekly reports.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "presets",
+    "agent-presets",
+    "xiaohongshu",
+    "中文预设"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@dsh-suite/preset-center",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T05:59:17.299Z",
+  "created_at": "2026-08-15T05:54:01.579Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:23.045Z"
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "lanxing--dsh-skill-manager",
+  "name": "@lanxing/dsh-skill-manager",
+  "version": "0.2.0",
+  "description": "Skill manager for the dsh web GUI: a sidebar entry plus a panel listing the skills visible to the current session (split into global / local groups) with per-skill on/off switches, create / import / edit / delete. Disabling a skill removes it from the mod",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "plugin",
+    "skill",
+    "skills",
+    "skill-manager",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Lanxing6480/dsh-skill-manager.git",
+  "homepage": "https://github.com/Lanxing6480/dsh-skill-manager",
+  "npm": "https://www.npmjs.com/package/@lanxing/dsh-skill-manager",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T14:00:45.806Z",
+  "created_at": "2026-08-14T14:00:45.410Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:28.227Z"
+}

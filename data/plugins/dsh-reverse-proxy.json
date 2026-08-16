@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-reverse-proxy",
+  "name": "dsh-reverse-proxy",
+  "version": "0.1.0",
+  "description": "Authenticated provider-neutral reverse proxy and mobile control UI for DeepSeek Harness Web",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "reverse-proxy",
+    "remote-access",
+    "tunnel",
+    "mobile"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/JUANWANG-BUAA/dsh-remote.git",
+  "homepage": "https://github.com/JUANWANG-BUAA/dsh-remote#readme",
+  "npm": "https://www.npmjs.com/package/dsh-reverse-proxy",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T11:07:46.049Z",
+  "created_at": "2026-08-15T11:07:45.696Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:25.507Z"
+}

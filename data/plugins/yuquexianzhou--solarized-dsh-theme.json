@@ -1,0 +1,51 @@
+{
+  "slug": "yuquexianzhou--solarized-dsh-theme",
+  "name": "@yuquexianzhou/solarized-dsh-theme",
+  "version": "0.1.1",
+  "description": "Solarized + Selenized themes for DeepSeek Harness: four faithful palettes (Solarized Dark/Light, Selenized Dark/Light) registered into DSH's theme runtime with a picker row in Settings, including the canonical syntax colors for markdown code blocks",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "dsh-plugin",
+    "theme",
+    "solarized",
+    "selenized",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zhijun-dai/Solarized-dsh-theme.git",
+  "homepage": "https://github.com/zhijun-dai/Solarized-dsh-theme#readme",
+  "npm": "https://www.npmjs.com/package/@yuquexianzhou/solarized-dsh-theme",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-theme"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T04:18:10.220Z",
+  "created_at": "2026-08-14T15:42:31.965Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:24.479Z"
+}

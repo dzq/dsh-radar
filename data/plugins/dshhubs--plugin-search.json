@@ -1,0 +1,48 @@
+{
+  "slug": "dshhubs--plugin-search",
+  "name": "@dshhubs/plugin-search",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness tools for finding and inspecting plugins in the dshhub catalog",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "agent-tool",
+    "plugin-search",
+    "skills"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/coderPerseus/dsh-hub.git",
+  "homepage": "https://github.com/coderPerseus/dsh-hub#readme",
+  "npm": "https://www.npmjs.com/package/@dshhubs/plugin-search",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T05:31:16.807Z",
+  "created_at": "2026-08-14T05:31:16.388Z",
+  "gh": {
+    "full_name": "coderPerseus/dsh-hub",
+    "stars": 3,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T21:38:16Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 57,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:01:16.408Z"
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "huanlin--dsh-plugin-d399",
+  "name": "@huanlin/dsh-plugin-d399",
+  "version": "0.1.1",
+  "description": "贪玩蓝鲸 — 模型生成时右下角弹出小游戏菜单（wordle / 消消乐，可拓展游戏注册表）",
+  "keywords": [
+    "dsh-plugin"
+  ],
+  "license": "AGPL-3.0",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@huanlin/dsh-plugin-d399",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T09:06:06.664Z",
+  "created_at": "2026-08-13T14:28:12.805Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 42,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:33.853Z"
+}

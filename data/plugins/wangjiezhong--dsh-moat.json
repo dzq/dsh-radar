@@ -1,0 +1,39 @@
+{
+  "slug": "wangjiezhong--dsh-moat",
+  "name": "@wangjiezhong/dsh-moat",
+  "version": "0.2.1",
+  "description": "代码质量门禁 —— 智能检查代码语法、启动链、API 和跨系统关联",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "moat",
+    "code-quality",
+    "testing"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@wangjiezhong/dsh-moat",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T11:34:37.560Z",
+  "created_at": "2026-08-15T07:06:20.336Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 44,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:32.298Z"
+}

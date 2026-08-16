@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e1a"/>
+      <stop offset="100%" stop-color="#111727"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Logo / Radar -->
+  <g transform="translate(80, 100)">
+    <circle cx="40" cy="40" r="10" fill="#5eead4"/>
+    <circle cx="40" cy="40" r="30" fill="none" stroke="#5eead4" stroke-width="3" opacity="0.7"/>
+    <circle cx="40" cy="40" r="50" fill="none" stroke="#5eead4" stroke-width="2" opacity="0.4"/>
+    <circle cx="40" cy="40" r="70" fill="none" stroke="#5eead4" stroke-width="1" opacity="0.2"/>
+
+    <text x="140" y="55" font-family="ui-monospace, monospace" font-size="56" font-weight="800" fill="#e6edf7">DSH</text>
+    <text x="270" y="55" font-family="ui-monospace, monospace" font-size="56" font-weight="800" fill="#5eead4">·</text>
+    <text x="300" y="55" font-family="ui-monospace, monospace" font-size="56" font-weight="800" fill="#e6edf7">Radar</text>
+  </g>
+
+  <!-- Title -->
+  <text x="80" y="320" font-family="-apple-system, system-ui, sans-serif" font-size="64" font-weight="800" fill="#e6edf7">DSH 插件雷达</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="400" font-family="-apple-system, system-ui, sans-serif" font-size="32" fill="#8b96a8">S / A / B / C / D 评分 · 兼容矩阵 · 配方 · 踩坑 Wiki</text>
+
+  <!-- Stats -->
+  <g transform="translate(80, 470)">
+    <rect width="280" height="120" rx="16" fill="#111727" stroke="#232b3d"/>
+    <text x="140" y="60" text-anchor="middle" font-family="ui-monospace, monospace" font-size="48" font-weight="800" fill="#5eead4">711</text>
+    <text x="140" y="90" text-anchor="middle" font-family="-apple-system, system-ui, sans-serif" font-size="16" fill="#8b96a8">评分插件</text>
+
+    <rect x="300" width="280" height="120" rx="16" fill="#111727" stroke="#232b3d"/>
+    <text x="440" y="60" text-anchor="middle" font-family="ui-monospace, monospace" font-size="48" font-weight="800" fill="#fbbf24">5维</text>
+    <text x="440" y="90" text-anchor="middle" font-family="-apple-system, system-ui, sans-serif" font-size="16" fill="#8b96a8">雷达评分</text>
+
+    <rect x="600" width="280" height="120" rx="16" fill="#111727" stroke="#232b3d"/>
+    <text x="740" y="60" text-anchor="middle" font-family="ui-monospace, monospace" font-size="48" font-weight="800" fill="#4ade80">708+</text>
+    <text x="740" y="90" text-anchor="middle" font-family="-apple-system, system-ui, sans-serif" font-size="16" fill="#8b96a8">npm 标签总数</text>
+  </g>
+
+  <!-- URL -->
+  <text x="80" y="610" font-family="ui-monospace, monospace" font-size="20" fill="#5eead4">dsh.pub</text>
+</svg>

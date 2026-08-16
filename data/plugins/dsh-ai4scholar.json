@@ -1,0 +1,71 @@
+{
+  "slug": "dsh-ai4scholar",
+  "name": "dsh-ai4scholar",
+  "version": "0.3.0",
+  "description": "AI4Scholar for DeepSeek Harness (dsh): 38 native academic tools — Semantic Scholar, PubMed, Google Scholar, arXiv, bioRxiv/medRxiv, DOI resolution, PDF full text, auto-cite, scientific figures, credit balance — with an API-key card in the Web UI settings.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "ai4scholar",
+    "academic",
+    "literature",
+    "paper-search",
+    "semantic-scholar",
+    "pubmed",
+    "google-scholar",
+    "arxiv",
+    "biorxiv",
+    "medrxiv",
+    "doi",
+    "auto-cite",
+    "scientific-figures",
+    "citation-graph"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/literaf/ai4scholar-plugin-dsh.git",
+  "homepage": "https://ai4scholar.net?src=dsh",
+  "npm": "https://www.npmjs.com/package/dsh-ai4scholar",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-ui-settings-plugins",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T06:17:28.696Z",
+  "created_at": "2026-08-16T05:55:59.455Z",
+  "gh": {
+    "full_name": "literaf/ai4scholar-plugin-dsh",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T06:58:50Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 64,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:59:47.116Z"
+}

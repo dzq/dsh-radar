@@ -1,0 +1,57 @@
+{
+  "slug": "cronjob-dsh-plugin",
+  "name": "cronjob-dsh-plugin",
+  "version": "0.1.0",
+  "description": "Machine-level cron jobs for DeepSeek Harness: configure scheduled tasks in the Web settings page; the host fires internally-driven agent requests into a dedicated session, hands-off.",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "cron",
+    "scheduler",
+    "定时任务"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/peng-huiyang/cronjob-dsh-plugin.git",
+  "homepage": "https://github.com/peng-huiyang/cronjob-dsh-plugin#readme",
+  "npm": "https://www.npmjs.com/package/cronjob-dsh-plugin",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T07:12:35.386Z",
+  "created_at": "2026-08-16T07:12:35.192Z",
+  "gh": {
+    "full_name": "peng-huiyang/cronjob-dsh-plugin",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:53:40Z",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 62,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:01:00.936Z"
+}

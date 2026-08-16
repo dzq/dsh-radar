@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-bookmarks",
+  "name": "dsh-bookmarks",
+  "version": "0.1.0",
+  "description": "Bookmark assistant replies in DeepSeek Harness: per-message bookmarks with notes and tags, a cross-session bookmark center, and one-click Markdown export.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "bookmark",
+    "web"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/penguin-oo/dsh-bookmarks.git",
+  "homepage": "https://github.com/penguin-oo/dsh-bookmarks#readme",
+  "npm": "https://www.npmjs.com/package/dsh-bookmarks",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T17:33:30.811Z",
+  "created_at": "2026-08-14T17:33:30.321Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:26.718Z"
+}

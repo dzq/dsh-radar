@@ -1,0 +1,38 @@
+{
+  "slug": "shelken--dsh-co-authored-by",
+  "name": "@shelken/dsh-co-authored-by",
+  "version": "0.1.1",
+  "description": "dsh (DeepSeek Harness) 插件:agent 提交代码时自动注入 Co-authored-by 信息",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "git",
+    "co-authored-by"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/shelken/dsh-co-authored-by.git",
+  "homepage": "https://github.com/shelken/dsh-co-authored-by#readme",
+  "npm": "https://www.npmjs.com/package/@shelken/dsh-co-authored-by",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T18:07:54.701Z",
+  "created_at": "2026-08-13T17:37:44.014Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:53.055Z"
+}

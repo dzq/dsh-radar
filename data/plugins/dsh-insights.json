@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-insights",
+  "name": "dsh-insights",
+  "version": "0.2.0",
+  "description": "DSH plugin: replica of Claude Code's /insights command — cross-workspace session usage analysis powered by the global session-query corpus, with per-session LLM facet extraction (cached), 8 analysis prompts, and a self-contained interactive HTML report. R",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "plugin",
+    "insights",
+    "analytics",
+    "cross-session",
+    "workspace",
+    "report",
+    "usage-analysis"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-insights",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T20:35:53.280Z",
+  "created_at": "2026-08-15T19:38:34.193Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:37.916Z"
+}

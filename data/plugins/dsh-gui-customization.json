@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-gui-customization",
+  "name": "dsh-gui-customization",
+  "version": "0.6.2",
+  "description": "DSH theme plugin for the DeepSeek Harness Web UI: Nous Blue palette, ambient glow, dynamic image/video backgrounds. DSH 界面设定插件：配色 / 氛围光 / 动态背景（中英双语）",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "theme",
+    "skin",
+    "gui",
+    "background",
+    "video"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/LAN-TINA-WS/dsh-gui-customization.git",
+  "homepage": "https://github.com/LAN-TINA-WS/dsh-gui-customization#readme",
+  "npm": "https://www.npmjs.com/package/dsh-gui-customization",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T00:29:48.045Z",
+  "created_at": "2026-08-14T10:27:01.356Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:36.446Z"
+}

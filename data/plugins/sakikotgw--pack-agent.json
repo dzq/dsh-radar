@@ -1,0 +1,56 @@
+{
+  "slug": "sakikotgw--pack-agent",
+  "name": "@sakikotgw/pack-agent",
+  "version": "0.4.2",
+  "description": "Pack skills, rules, and MCP into .pack.zip and install them into Claude Code, Codex, Cursor, and other harnesses",
+  "keywords": [
+    "agent-modpack",
+    "modpack",
+    "packagent",
+    "agent",
+    "claude-code",
+    "codex",
+    "mcp",
+    "skills",
+    "modpack",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/sakikoTGW/pack-agent.git",
+  "homepage": "https://github.com/sakikoTGW/pack-agent#readme",
+  "npm": "https://www.npmjs.com/package/@sakikotgw/pack-agent",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./dsh-plugin/cordis.root.yml"
+    }
+  },
+  "engines": {
+    "bun": ">=1.1.0",
+    "node": ">=20.11.0"
+  },
+  "weekly_downloads": 9,
+  "monthly_downloads": 205,
+  "last_publish": "2026-08-14T08:23:32.510Z",
+  "created_at": "2026-06-24T16:57:00.963Z",
+  "gh": {
+    "full_name": "sakikoTGW/pack-agent",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T08:25:32Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 25,
+    "maintenance": 98,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 65,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:20.907Z"
+}

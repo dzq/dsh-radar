@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-web-search-exa",
+  "name": "dsh-web-search-exa",
+  "version": "0.1.2",
+  "description": "Exa-backed search provider for the DeepSeek Harness web capability seam (ctx.web). Calls the Exa REST API (neural/keyword/auto search) and normalizes results into the seam's citeable source shape, replacing or complementing the bundled DeepSeek native sea",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "exa",
+    "web-search",
+    "search",
+    "dsh-plugin",
+    "deepseek-harness-plugin"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-web-search-exa",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T15:43:54.636Z",
+  "created_at": "2026-08-15T15:36:32.535Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:34.468Z"
+}

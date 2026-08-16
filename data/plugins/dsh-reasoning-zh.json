@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-reasoning-zh",
+  "name": "dsh-reasoning-zh",
+  "version": "0.2.4",
+  "description": "DeepSeek Harness 插件：把「推理等级」(reasoning effort) 档位名翻译成中文，并为接入的自定义第三方模型注入推理等级显示（官方 DSH 默认不注入），所选档位写入出站请求体。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "reasoning-effort",
+    "i18n",
+    "chinese",
+    "中文"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/jiayuxuan123/dsh-reasoning-zh.git",
+  "homepage": "https://github.com/jiayuxuan123/dsh-reasoning-zh",
+  "npm": "https://www.npmjs.com/package/dsh-reasoning-zh",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T02:14:45.736Z",
+  "created_at": "2026-08-15T02:01:16.610Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:31.715Z"
+}

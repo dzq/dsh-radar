@@ -1,0 +1,61 @@
+{
+  "slug": "dsh-approve-for-me",
+  "name": "dsh-approve-for-me",
+  "version": "0.1.0-beta.3",
+  "description": "Rule-gated automatic approval for DeepSeek Harness sandbox escalations with an optional LLM reviewer and native human fallback.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "approval",
+    "auto-review",
+    "auto-approve",
+    "automatic-approval",
+    "sandbox-approval",
+    "sandbox-escalation",
+    "llm-reviewer",
+    "ai-safety",
+    "sandbox",
+    "llm",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/timeance/dsh-approve-for-me.git",
+  "homepage": "https://github.com/timeance/dsh-approve-for-me#readme",
+  "npm": "https://www.npmjs.com/package/dsh-approve-for-me",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-settings-plugins",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-api-remotes"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T11:41:58.111Z",
+  "created_at": "2026-08-15T07:37:47.644Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 55,
+    "security": 65,
+    "dsh_compat": 85,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:34.261Z"
+}

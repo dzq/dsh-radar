@@ -1,0 +1,141 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { loadJson } from '../lib/paths.mjs';
+
+const stats = await loadJson('stats.json');
+const index = await loadJson('index.json');
+const recipes = await loadJson('recipes.json');
+
+// Web3Forms access key: 通过 PUBLIC_WEB3FORMS_KEY 环境变量配置
+// 不填则表单回退到 mailto（开发友好）
+const web3formsKey = import.meta.env.PUBLIC_WEB3FORMS_KEY || '';
+const subscribeAction = web3formsKey
+  ? 'https://api.web3forms.com/submit'
+  : 'mailto:subscribe@dsh.pub';
+
+// 本周亮点：S 级 + A 级插件 + 新配方
+const highlights = index.plugins.filter((p: any) => p.grade === 'S' || p.grade === 'A').slice(0, 8);
+---
+<Layout title="订阅 — DSH Radar" active="subscribe">
+  <section class="container section">
+    <h1 style="font-size:36px;margin-bottom:8px;">📬 订阅更新</h1>
+    <p class="sub">DSH 生态每周都在变 — 订阅我们，第一时间收到评分变化、新插件、踩坑和配方</p>
+
+    <div class="lead">
+      上次更新：<strong>{new Date(stats.generated_at).toLocaleString('zh-CN')}</strong> ·
+      共追踪 <strong>{stats.total}</strong> 个插件
+    </div>
+
+    {/* Feed 选项 */}
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:32px;">
+      <a href="/feeds/rss.xml" class="info-block" style="margin:0;text-decoration:none;border-top:3px solid #fb923c;">
+        <h3 style="color:#fb923c;">📡 RSS 2.0</h3>
+        <p style="color:var(--text-dim);font-size:14px;">经典格式，Feedly / Inoreader / NetNewsWire 一键订阅</p>
+        <code style="display:block;background:var(--bg);padding:8px;border-radius:4px;font-size:11px;color:var(--accent);margin-top:8px;">/feeds/rss.xml</code>
+      </a>
+      <a href="/feeds/atom.xml" class="info-block" style="margin:0;text-decoration:none;border-top:3px solid #a78bfa;">
+        <h3 style="color:#a78bfa;">⚛️ Atom</h3>
+        <p style="color:var(--text-dim);font-size:14px;">IETF 标准，GitHub Pages / Jekyll 友好</p>
+        <code style="display:block;background:var(--bg);padding:8px;border-radius:4px;font-size:11px;color:var(--accent);margin-top:8px;">/feeds/atom.xml</code>
+      </a>
+      <a href="/feeds/feed.json" class="info-block" style="margin:0;text-decoration:none;border-top:3px solid #5eead4;">
+        <h3 style="color:#5eead4;">{`{ json }`} JSON Feed</h3>
+        <p style="color:var(--text-dim);font-size:14px;">机器可读，适合 Zapier / n8n / 自建 bot</p>
+        <code style="display:block;background:var(--bg);padding:8px;border-radius:4px;font-size:11px;color:var(--accent);margin-top:8px;">/feeds/feed.json</code>
+      </a>
+    </div>
+
+    {/* 邮件订阅 */}
+    <div class="info-block" style="margin-top:32px;">
+      <h3>📧 邮件订阅（每周一 10:00 发送）</h3>
+      <p style="color:var(--text-dim);font-size:14px;margin-bottom:12px;">
+        不发垃圾邮件 · 不卖数据 · 一键退订 · 永远免费
+      </p>
+      <form
+        action={subscribeAction}
+        method="POST"
+        style="display:flex;gap:8px;flex-wrap:wrap;"
+      >
+        <input type="hidden" name="access_key" value={web3formsKey} />
+        <input type="hidden" name="subject" value="DSH Radar 邮件订阅" />
+        <input type="hidden" name="from_name" value="DSH Radar Subscribe Form" />
+        <input type="hidden" name="redirect" value="/subscribe?subscribed=1" />
+        <input type="hidden" name="botcheck" />
+        <input
+          type="email"
+          name="email"
+          required
+          placeholder="your@email.com"
+          style="flex:1;min-width:200px;padding:10px 14px;background:var(--bg);border:1px solid var(--border);border-radius:6px;color:var(--text);font-size:14px;"
+        />
+        <button type="submit" class="btn btn-primary">订阅</button>
+      </form>
+      <p style="font-size:12px;color:var(--text-mute);margin-top:8px;">
+        {web3formsKey ? '✅ Web3Forms 已接入 · 每周一自动发送' : '⏳ Web3Forms 未配置 · 当前回退到 mailto'}
+      </p>
+    </div>
+
+    {/* 一次性 webhook */}
+    <div class="info-block" style="margin-top:16px;">
+      <h3>🔔 Webhook 推送（自建 Bot / Lark / 飞书 / Slack / 钉钉）</h3>
+      <p style="color:var(--text-dim);font-size:14px;">
+        监控 JSON Feed 的 <code>/feeds/feed.json</code>，用 n8n / Zapier / Huginn 触发 webhook 推送
+      </p>
+      <pre style="background:var(--bg);padding:12px;border-radius:6px;overflow-x:auto;color:var(--accent);font-size:12px;margin-top:12px;"><code># 每 5 分钟拉一次 diff，发送到你的 webhook
+while true; do
+  curl -s https://dsh.pub/feeds/feed.json \
+    | jq '.items[0:5]' \
+    | curl -X POST -H "Content-Type: application/json" \
+        -d @- https://your-webhook.example.com/dsh-radar
+  sleep 300
+done</code></pre>
+    </div>
+
+    {/* 本周亮点 */}
+    <div style="margin-top:48px;">
+      <h2 style="font-size:24px;margin-bottom:8px;">🌟 本周亮点</h2>
+      <p class="sub">S / A 级插件 + 最新配方</p>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:16px;margin-top:24px;">
+        <div>
+          <h3 style="font-size:14px;color:var(--text-mute);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:12px;">头部插件</h3>
+          <div style="background:var(--bg-elev);border:1px solid var(--border);border-radius:12px;overflow:hidden;">
+            {highlights.slice(0, 5).map((p: any) => (
+              <a href={`/plugins/${p.slug}`} class="plugin-row" style="text-decoration:none;">
+                <span class={`grade grade-${p.grade}`}>{p.grade}</span>
+                <div>
+                  <div class="name">{p.name}<span class="version">v{p.version}</span></div>
+                  <div class="desc">{p.description || '—'}</div>
+                </div>
+                <div class="meta"><strong>{p.weekly_downloads.toLocaleString()}</strong>dl/wk</div>
+                <div class="meta"><strong>★ {p.stars}</strong></div>
+                <div class="meta"></div>
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <h3 style="font-size:14px;color:var(--text-mute);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:12px;">最新配方</h3>
+          {recipes.slice(0, 4).map((r: any) => (
+            <div class="info-block" style="margin:0 0 12px 0;">
+              <h4 style="font-size:15px;margin-bottom:4px;">{r.title}</h4>
+              <p style="font-size:12px;color:var(--text-dim);">{r.task}</p>
+              <div class="tags" style="margin-top:8px;">
+                {r.plugins.slice(0, 3).map((pl: string) => <span class="tag dsh">{pl}</span>)}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <div class="empty" style="margin-top:48px;">
+      <h3 style="color:var(--text);margin-bottom:8px;">🚫 不想订阅？</h3>
+      <p>RSS / Atom / JSON Feed 都是<strong>无需注册</strong>的去中心化订阅 — 没人追踪你。</p>
+      <p style="margin-top:8px;font-size:13px;color:var(--text-mute);">
+        DSH Radar 承诺：<strong>不卖用户数据、不接广告、不发推送通知</strong>。
+      </p>
+    </div>
+  </section>
+</Layout>

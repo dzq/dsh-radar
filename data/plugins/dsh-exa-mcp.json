@@ -1,0 +1,41 @@
+{
+  "slug": "dsh-exa-mcp",
+  "name": "dsh-exa-mcp",
+  "version": "0.1.0",
+  "description": "Exa Search MCP for DeepSeek Harness: mounts the remote Exa MCP endpoint (https://mcp.exa.ai/mcp) through the in-box @deepseek-ai/dsh-mcp-client bridge",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "exa",
+    "mcp",
+    "web-search",
+    "web-fetch"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/MicroHEROX/dsh-exa-mcp.git",
+  "homepage": "https://github.com/MicroHEROX/dsh-exa-mcp#readme",
+  "npm": "https://www.npmjs.com/package/dsh-exa-mcp",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T05:06:33.321Z",
+  "created_at": "2026-08-15T05:06:33.128Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:24.683Z"
+}

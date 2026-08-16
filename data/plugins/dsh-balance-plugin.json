@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-balance-plugin",
+  "name": "dsh-balance-plugin",
+  "version": "0.2.0",
+  "description": "DeepSeek wallet-balance readout at the sidebar foot: card icon + amount, status-tinted, refreshed on turn end and on click, with a floating delta animation on change",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh-plugin",
+    "balance",
+    "wallet"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/luokai-demo/dsh-plugins.git",
+  "homepage": "https://github.com/luokai-demo/dsh-plugins#readme",
+  "npm": "https://www.npmjs.com/package/dsh-balance-plugin",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T02:22:19.981Z",
+  "created_at": "2026-08-14T17:08:08.048Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:04.954Z"
+}

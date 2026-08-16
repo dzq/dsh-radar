@@ -1,0 +1,64 @@
+{
+  "slug": "chang416--deepsee",
+  "name": "@chang416/deepsee",
+  "version": "4.0.2",
+  "description": "DeepSee: DeepSeek Harness vision, multi-model routing, and Gemini visual self-checks before delivery",
+  "keywords": [
+    "cli",
+    "vision",
+    "ocr",
+    "antigravity",
+    "agent-skill",
+    "claude-code",
+    "skill",
+    "image-to-text",
+    "multimodal",
+    "deepsee",
+    "deepseek-harness",
+    "dsh-plugin",
+    "model-routing",
+    "visual-testing",
+    "gemini",
+    "opencode"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/chang416/deepsee.git",
+  "homepage": "https://github.com/chang416/deepsee#readme",
+  "npm": "https://www.npmjs.com/package/@chang416/deepsee",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {
+    "node": ">=22.19"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T05:11:08.974Z",
+  "created_at": "2026-08-14T23:30:04.024Z",
+  "gh": {
+    "full_name": "chang416/deepsee",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T12:46:47Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:29.853Z"
+}

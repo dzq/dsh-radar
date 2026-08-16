@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-verification-receipt",
+  "name": "dsh-verification-receipt",
+  "version": "0.1.0",
+  "description": "Privacy-minimal heuristic per-turn execution summaries for DeepSeek Harness",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "verification",
+    "observability",
+    "privacy"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/030611/dsh-verification-receipt.git",
+  "homepage": "https://github.com/030611/dsh-verification-receipt#readme",
+  "npm": "https://www.npmjs.com/package/dsh-verification-receipt",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T05:17:59.003Z",
+  "created_at": "2026-08-14T05:17:58.624Z",
+  "gh": {
+    "full_name": "030611/dsh-verification-receipt",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T15:20:37Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 98,
+    "quality": 100,
+    "security": 40,
+    "dsh_compat": 75,
+    "overall": 61,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:25.139Z"
+}

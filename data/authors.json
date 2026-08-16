@@ -1,0 +1,8156 @@
+[
+  {
+    "handle": "huanlin",
+    "plugins": [
+      {
+        "slug": "huanlin--dsh-plugin-merge-tool-calls",
+        "name": "@huanlin/dsh-plugin-merge-tool-calls",
+        "grade": "B",
+        "overall": 58,
+        "stars": 0,
+        "weekly_dl": 132
+      },
+      {
+        "slug": "huanlin--dsh-plugin-yet-another-subagent",
+        "name": "@huanlin/dsh-plugin-yet-another-subagent",
+        "grade": "C",
+        "overall": 51,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "huanlin--dsh-plugin-anti-ads",
+        "name": "@huanlin/dsh-plugin-anti-ads",
+        "grade": "C",
+        "overall": 49,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "huanlin--dsh-plugin-better-sidebar-plugin-office",
+        "name": "@huanlin/dsh-plugin-better-sidebar-plugin-office",
+        "grade": "C",
+        "overall": 49,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "huanlin--dsh-plugin-auto-blame",
+        "name": "@huanlin/dsh-plugin-auto-blame",
+        "grade": "C",
+        "overall": 48,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "huanlin--dsh-plugin-mineru",
+        "name": "@huanlin/dsh-plugin-mineru",
+        "grade": "C",
+        "overall": 48,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "huanlin--dsh-plugin-spur",
+        "name": "@huanlin/dsh-plugin-spur",
+        "grade": "C",
+        "overall": 48,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "huanlin--dsh-plugin-interpreters",
+        "name": "@huanlin/dsh-plugin-interpreters",
+        "grade": "C",
+        "overall": 47,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "huanlin--dsh-plugin-sleep",
+        "name": "@huanlin/dsh-plugin-sleep",
+        "grade": "C",
+        "overall": 47,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "huanlin--dsh-plugin-mcp-manager",
+        "name": "@huanlin/dsh-plugin-mcp-manager",
+        "grade": "C",
+        "overall": 46,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "huanlin--dsh-plugin-ya-workspace-sidebar",
+        "name": "@huanlin/dsh-plugin-ya-workspace-sidebar",
+        "grade": "C",
+        "overall": 44,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "huanlin--dsh-plugin-d399",
+        "name": "@huanlin/dsh-plugin-d399",
+        "grade": "C",
+        "overall": 42,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 132,
+    "avg_overall": 48,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 11,
+      "D": 0
+    },
+    "plugin_count": 12,
+    "gh_url": "https://github.com/huanlin",
+    "npm_url": "https://www.npmjs.com/~huanlin"
+  },
+  {
+    "handle": "wanghehe123",
+    "plugins": [
+      {
+        "slug": "wishp3--dsh-friend-all",
+        "name": "@wishp3/dsh-friend-all",
+        "grade": "B",
+        "overall": 56,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wishp3--dsh-friend-memory",
+        "name": "@wishp3/dsh-friend-memory",
+        "grade": "B",
+        "overall": 55,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wishp3--dsh-friend-stage",
+        "name": "@wishp3/dsh-friend-stage",
+        "grade": "B",
+        "overall": 55,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wishp3--dsh-friend-persona",
+        "name": "@wishp3/dsh-friend-persona",
+        "grade": "C",
+        "overall": 52,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wishp3--dsh-friend-settings",
+        "name": "@wishp3/dsh-friend-settings",
+        "grade": "C",
+        "overall": 52,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wishp3--dsh-friend-growth",
+        "name": "@wishp3/dsh-friend-growth",
+        "grade": "C",
+        "overall": 51,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wishp3--dsh-friend-tts",
+        "name": "@wishp3/dsh-friend-tts",
+        "grade": "C",
+        "overall": 51,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wishp3--dsh-friend-asr",
+        "name": "@wishp3/dsh-friend-asr",
+        "grade": "C",
+        "overall": 48,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wishp3--dsh-friend-reactions",
+        "name": "@wishp3/dsh-friend-reactions",
+        "grade": "C",
+        "overall": 48,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wishp3--dsh-friend-shared",
+        "name": "@wishp3/dsh-friend-shared",
+        "grade": "C",
+        "overall": 48,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wishp3--dsh-friend-perception",
+        "name": "@wishp3/dsh-friend-perception",
+        "grade": "C",
+        "overall": 41,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 22,
+    "total_weekly_dl": 0,
+    "avg_overall": 51,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 3,
+      "C": 8,
+      "D": 0
+    },
+    "plugin_count": 11,
+    "gh_url": "https://github.com/wanghehe123",
+    "npm_url": "https://www.npmjs.com/~wanghehe123"
+  },
+  {
+    "handle": "wishp3",
+    "plugins": [
+      {
+        "slug": "wishp3--dsh-friend-all",
+        "name": "@wishp3/dsh-friend-all",
+        "grade": "B",
+        "overall": 56,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wishp3--dsh-friend-memory",
+        "name": "@wishp3/dsh-friend-memory",
+        "grade": "B",
+        "overall": 55,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wishp3--dsh-friend-stage",
+        "name": "@wishp3/dsh-friend-stage",
+        "grade": "B",
+        "overall": 55,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wishp3--dsh-friend-persona",
+        "name": "@wishp3/dsh-friend-persona",
+        "grade": "C",
+        "overall": 52,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wishp3--dsh-friend-settings",
+        "name": "@wishp3/dsh-friend-settings",
+        "grade": "C",
+        "overall": 52,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wishp3--dsh-friend-growth",
+        "name": "@wishp3/dsh-friend-growth",
+        "grade": "C",
+        "overall": 51,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wishp3--dsh-friend-tts",
+        "name": "@wishp3/dsh-friend-tts",
+        "grade": "C",
+        "overall": 51,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wishp3--dsh-friend-asr",
+        "name": "@wishp3/dsh-friend-asr",
+        "grade": "C",
+        "overall": 48,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wishp3--dsh-friend-reactions",
+        "name": "@wishp3/dsh-friend-reactions",
+        "grade": "C",
+        "overall": 48,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wishp3--dsh-friend-shared",
+        "name": "@wishp3/dsh-friend-shared",
+        "grade": "C",
+        "overall": 48,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wishp3--dsh-friend-perception",
+        "name": "@wishp3/dsh-friend-perception",
+        "grade": "C",
+        "overall": 41,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 22,
+    "total_weekly_dl": 0,
+    "avg_overall": 51,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 3,
+      "C": 8,
+      "D": 0
+    },
+    "plugin_count": 11,
+    "gh_url": "https://github.com/wanghehe123",
+    "npm_url": "https://www.npmjs.com/~wishp3"
+  },
+  {
+    "handle": "ohtokaah-sys",
+    "plugins": [
+      {
+        "slug": "ohtokaah-sys--dsh-memory",
+        "name": "@ohtokaah-sys/dsh-memory",
+        "grade": "C",
+        "overall": 43,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "ohtokaah-sys--dsh-charter",
+        "name": "@ohtokaah-sys/dsh-charter",
+        "grade": "C",
+        "overall": 40,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "ohtokaah-sys--dsh-gates",
+        "name": "@ohtokaah-sys/dsh-gates",
+        "grade": "C",
+        "overall": 40,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "ohtokaah-sys--dsh-memory-host",
+        "name": "@ohtokaah-sys/dsh-memory-host",
+        "grade": "C",
+        "overall": 40,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "ohtokaah-sys--dsh-knowledge",
+        "name": "@ohtokaah-sys/dsh-knowledge",
+        "grade": "D",
+        "overall": 39,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "ohtokaah-sys--dsh-modes",
+        "name": "@ohtokaah-sys/dsh-modes",
+        "grade": "D",
+        "overall": 38,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "ohtokaah-sys--dsh-deliver",
+        "name": "@ohtokaah-sys/dsh-deliver",
+        "grade": "D",
+        "overall": 36,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 39,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 4,
+      "D": 3
+    },
+    "plugin_count": 7,
+    "gh_url": "https://github.com/ohtokaah-sys",
+    "npm_url": "https://www.npmjs.com/~ohtokaah-sys"
+  },
+  {
+    "handle": "dsh-suite",
+    "plugins": [
+      {
+        "slug": "dsh-suite--plugin-manager",
+        "name": "@dsh-suite/plugin-manager",
+        "grade": "C",
+        "overall": 53,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "dsh-suite--plugin-team-board",
+        "name": "@dsh-suite/plugin-team-board",
+        "grade": "C",
+        "overall": 52,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "dsh-suite--plugin-deus",
+        "name": "@dsh-suite/plugin-deus",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "dsh-suite--preset-center",
+        "name": "@dsh-suite/preset-center",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "dsh-suite--themes",
+        "name": "@dsh-suite/themes",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 51,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 5,
+      "D": 0
+    },
+    "plugin_count": 5,
+    "gh_url": "https://github.com/dsh-suite",
+    "npm_url": "https://www.npmjs.com/~dsh-suite"
+  },
+  {
+    "handle": "wasd258",
+    "plugins": [
+      {
+        "slug": "wasd258--dsh-port-manager",
+        "name": "@wasd258/dsh-port-manager",
+        "grade": "B",
+        "overall": 58,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wasd258--dsh-context-surgery",
+        "name": "@wasd258/dsh-context-surgery",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wasd258--dsh-preset-force",
+        "name": "@wasd258/dsh-preset-force",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wasd258--dsh-prompt-inject",
+        "name": "@wasd258/dsh-prompt-inject",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 52,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 3,
+      "D": 0
+    },
+    "plugin_count": 4,
+    "gh_url": "https://github.com/WASD258-jpg",
+    "npm_url": "https://www.npmjs.com/~wasd258"
+  },
+  {
+    "handle": "qing3a",
+    "plugins": [
+      {
+        "slug": "qing3a--dsh-event-auditor",
+        "name": "@qing3a/dsh-event-auditor",
+        "grade": "B",
+        "overall": 59,
+        "stars": 1,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "qing3a--dsh-tray",
+        "name": "@qing3a/dsh-tray",
+        "grade": "C",
+        "overall": 49,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "qing3a--dsh-repo-context",
+        "name": "@qing3a/dsh-repo-context",
+        "grade": "C",
+        "overall": 45,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "qing3a--dsh-plugin-verify",
+        "name": "@qing3a/dsh-plugin-verify",
+        "grade": "C",
+        "overall": 43,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 49,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 3,
+      "D": 0
+    },
+    "plugin_count": 4,
+    "gh_url": "https://github.com/qing3a",
+    "npm_url": "https://www.npmjs.com/~qing3a"
+  },
+  {
+    "handle": "dsh-pi",
+    "plugins": [
+      {
+        "slug": "dsh-pi--fff",
+        "name": "@dsh-pi/fff",
+        "grade": "C",
+        "overall": 49,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "dsh-pi--preset",
+        "name": "@dsh-pi/preset",
+        "grade": "C",
+        "overall": 49,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "dsh-pi--prompt",
+        "name": "@dsh-pi/prompt",
+        "grade": "C",
+        "overall": 49,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "dsh-pi--tools",
+        "name": "@dsh-pi/tools",
+        "grade": "C",
+        "overall": 49,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 49,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 4,
+      "D": 0
+    },
+    "plugin_count": 4,
+    "gh_url": "https://github.com/dsh-pi",
+    "npm_url": "https://www.npmjs.com/~dsh-pi"
+  },
+  {
+    "handle": "PerryLink",
+    "plugins": [
+      {
+        "slug": "dsh-background-agents",
+        "name": "dsh-background-agents",
+        "grade": "B",
+        "overall": 64,
+        "stars": 3,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "dsh-lsp-actions",
+        "name": "dsh-lsp-actions",
+        "grade": "B",
+        "overall": 62,
+        "stars": 3,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "perrylink--dsh-github",
+        "name": "@perrylink/dsh-github",
+        "grade": "B",
+        "overall": 62,
+        "stars": 3,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 9,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 3,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 3,
+    "gh_url": "https://github.com/PerryLink",
+    "npm_url": "https://www.npmjs.com/~PerryLink"
+  },
+  {
+    "handle": "ChuanTianML",
+    "plugins": [
+      {
+        "slug": "dsh-open-with",
+        "name": "dsh-open-with",
+        "grade": "B",
+        "overall": 65,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "chuantian--dsh-share",
+        "name": "@chuantian/dsh-share",
+        "grade": "B",
+        "overall": 62,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "dsh-chat-tidy",
+        "name": "dsh-chat-tidy",
+        "grade": "B",
+        "overall": 62,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 3,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 3,
+    "gh_url": "https://github.com/ChuanTianML",
+    "npm_url": "https://www.npmjs.com/~ChuanTianML"
+  },
+  {
+    "handle": "gamegeek-saikel",
+    "plugins": [
+      {
+        "slug": "gamegeek-saikel--dsh-archive-manager",
+        "name": "@gamegeek-saikel/dsh-archive-manager",
+        "grade": "C",
+        "overall": 53,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "gamegeek-saikel--dsh-fare-meter",
+        "name": "@gamegeek-saikel/dsh-fare-meter",
+        "grade": "C",
+        "overall": 53,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "gamegeek-saikel--dsh-coding-agent-preset",
+        "name": "@gamegeek-saikel/dsh-coding-agent-preset",
+        "grade": "C",
+        "overall": 52,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 53,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 3,
+      "D": 0
+    },
+    "plugin_count": 3,
+    "gh_url": "https://github.com/gamegeek-saikel",
+    "npm_url": "https://www.npmjs.com/~gamegeek-saikel"
+  },
+  {
+    "handle": "omdp",
+    "plugins": [
+      {
+        "slug": "omdp--dsh-connector",
+        "name": "@omdp/dsh-connector",
+        "grade": "C",
+        "overall": 54,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "omdp--dsh-vision-bridge",
+        "name": "@omdp/dsh-vision-bridge",
+        "grade": "C",
+        "overall": 54,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "omdp--dsh-gitbash-win",
+        "name": "@omdp/dsh-gitbash-win",
+        "grade": "C",
+        "overall": 53,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 54,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 3,
+      "D": 0
+    },
+    "plugin_count": 3,
+    "gh_url": "https://github.com/omdp",
+    "npm_url": "https://www.npmjs.com/~omdp"
+  },
+  {
+    "handle": "proactive-agent",
+    "plugins": [
+      {
+        "slug": "proactive-agent--dsh",
+        "name": "@proactive-agent/dsh",
+        "grade": "C",
+        "overall": 49,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "proactive-agent--dsh-proactive-ui",
+        "name": "@proactive-agent/dsh-proactive-ui",
+        "grade": "C",
+        "overall": 40,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "proactive-agent--dsh-proactive-types",
+        "name": "@proactive-agent/dsh-proactive-types",
+        "grade": "D",
+        "overall": 37,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 42,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 2,
+      "D": 1
+    },
+    "plugin_count": 3,
+    "gh_url": "https://github.com/proactive-agent",
+    "npm_url": "https://www.npmjs.com/~proactive-agent"
+  },
+  {
+    "handle": "liustack",
+    "plugins": [
+      {
+        "slug": "liustack--modsearch",
+        "name": "@liustack/modsearch",
+        "grade": "S",
+        "overall": 85,
+        "stars": 105,
+        "weekly_dl": 4097
+      },
+      {
+        "slug": "liustack--pptfast",
+        "name": "@liustack/pptfast",
+        "grade": "A",
+        "overall": 80,
+        "stars": 4,
+        "weekly_dl": 647
+      }
+    ],
+    "total_stars": 109,
+    "total_weekly_dl": 4744,
+    "avg_overall": 83,
+    "grades": {
+      "S": 1,
+      "A": 1,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/liustack",
+    "npm_url": "https://www.npmjs.com/~liustack"
+  },
+  {
+    "handle": "flymysql",
+    "plugins": [
+      {
+        "slug": "dsh-remote",
+        "name": "dsh-remote",
+        "grade": "A",
+        "overall": 81,
+        "stars": 14,
+        "weekly_dl": 691
+      },
+      {
+        "slug": "dsh-memory-vault",
+        "name": "dsh-memory-vault",
+        "grade": "B",
+        "overall": 61,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 14,
+    "total_weekly_dl": 691,
+    "avg_overall": 71,
+    "grades": {
+      "S": 0,
+      "A": 1,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/flymysql",
+    "npm_url": "https://www.npmjs.com/~flymysql"
+  },
+  {
+    "handle": "huguangyu666",
+    "plugins": [
+      {
+        "slug": "dsh-plugin-session-import",
+        "name": "dsh-plugin-session-import",
+        "grade": "B",
+        "overall": 65,
+        "stars": 4,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "dsh-store",
+        "name": "dsh-store",
+        "grade": "B",
+        "overall": 63,
+        "stars": 3,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 7,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 2,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/huguangyu666",
+    "npm_url": "https://www.npmjs.com/~huguangyu666"
+  },
+  {
+    "handle": "LTctfer",
+    "plugins": [
+      {
+        "slug": "dsh-ltctfer--dsh-opencode-go-usage",
+        "name": "@dsh-ltctfer/dsh-opencode-go-usage",
+        "grade": "B",
+        "overall": 60,
+        "stars": 1,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "dsh-ltctfer--dsh-web-search-brave",
+        "name": "@dsh-ltctfer/dsh-web-search-brave",
+        "grade": "B",
+        "overall": 60,
+        "stars": 3,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 4,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 2,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/LTctfer",
+    "npm_url": "https://www.npmjs.com/~LTctfer"
+  },
+  {
+    "handle": "dsh-ltctfer",
+    "plugins": [
+      {
+        "slug": "dsh-ltctfer--dsh-opencode-go-usage",
+        "name": "@dsh-ltctfer/dsh-opencode-go-usage",
+        "grade": "B",
+        "overall": 60,
+        "stars": 1,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "dsh-ltctfer--dsh-web-search-brave",
+        "name": "@dsh-ltctfer/dsh-web-search-brave",
+        "grade": "B",
+        "overall": 60,
+        "stars": 3,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 4,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 2,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/LTctfer",
+    "npm_url": "https://www.npmjs.com/~dsh-ltctfer"
+  },
+  {
+    "handle": "YYTbit",
+    "plugins": [
+      {
+        "slug": "dsh-plugin-auto-docs",
+        "name": "dsh-plugin-auto-docs",
+        "grade": "B",
+        "overall": 59,
+        "stars": 1,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "dsh-plugin-opencode-bridge",
+        "name": "dsh-plugin-opencode-bridge",
+        "grade": "B",
+        "overall": 59,
+        "stars": 3,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 4,
+    "total_weekly_dl": 0,
+    "avg_overall": 59,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 2,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/YYTbit",
+    "npm_url": "https://www.npmjs.com/~YYTbit"
+  },
+  {
+    "handle": "nyantused-cpun",
+    "plugins": [
+      {
+        "slug": "nyantused--folio-dsh-events",
+        "name": "@nyantused/folio-dsh-events",
+        "grade": "B",
+        "overall": 60,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "nyantused--folio-dsh-tools",
+        "name": "@nyantused/folio-dsh-tools",
+        "grade": "B",
+        "overall": 60,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 4,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 2,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/nyantused-cpun",
+    "npm_url": "https://www.npmjs.com/~nyantused-cpun"
+  },
+  {
+    "handle": "nyantused",
+    "plugins": [
+      {
+        "slug": "nyantused--folio-dsh-events",
+        "name": "@nyantused/folio-dsh-events",
+        "grade": "B",
+        "overall": 60,
+        "stars": 2,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "nyantused--folio-dsh-tools",
+        "name": "@nyantused/folio-dsh-tools",
+        "grade": "B",
+        "overall": 60,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 4,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 2,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/nyantused-cpun",
+    "npm_url": "https://www.npmjs.com/~nyantused"
+  },
+  {
+    "handle": "sakikoTGW",
+    "plugins": [
+      {
+        "slug": "sakikotgw--pack-agent",
+        "name": "@sakikotgw/pack-agent",
+        "grade": "B",
+        "overall": 65,
+        "stars": 2,
+        "weekly_dl": 9
+      },
+      {
+        "slug": "sakikotgw--pack-agent-dsh",
+        "name": "@sakikotgw/pack-agent-dsh",
+        "grade": "B",
+        "overall": 59,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 4,
+    "total_weekly_dl": 9,
+    "avg_overall": 62,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 2,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/sakikoTGW",
+    "npm_url": "https://www.npmjs.com/~sakikoTGW"
+  },
+  {
+    "handle": "sakikotgw",
+    "plugins": [
+      {
+        "slug": "sakikotgw--pack-agent",
+        "name": "@sakikotgw/pack-agent",
+        "grade": "B",
+        "overall": 65,
+        "stars": 2,
+        "weekly_dl": 9
+      },
+      {
+        "slug": "sakikotgw--pack-agent-dsh",
+        "name": "@sakikotgw/pack-agent-dsh",
+        "grade": "B",
+        "overall": 59,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 4,
+    "total_weekly_dl": 9,
+    "avg_overall": 62,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 2,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/sakikoTGW",
+    "npm_url": "https://www.npmjs.com/~sakikotgw"
+  },
+  {
+    "handle": "jiesou",
+    "plugins": [
+      {
+        "slug": "jiesou--dsh-commandcode-go-provider",
+        "name": "@jiesou/dsh-commandcode-go-provider",
+        "grade": "B",
+        "overall": 60,
+        "stars": 3,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "jiesou--dsh-stream-rules",
+        "name": "@jiesou/dsh-stream-rules",
+        "grade": "C",
+        "overall": 49,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 3,
+    "total_weekly_dl": 0,
+    "avg_overall": 55,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/jiesou",
+    "npm_url": "https://www.npmjs.com/~jiesou"
+  },
+  {
+    "handle": "perrylink",
+    "plugins": [
+      {
+        "slug": "perrylink--dsh-github",
+        "name": "@perrylink/dsh-github",
+        "grade": "B",
+        "overall": 62,
+        "stars": 3,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "perrylink--dsh-skill-pack-security-provider",
+        "name": "@perrylink/dsh-skill-pack-security-provider",
+        "grade": "B",
+        "overall": 55,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 3,
+    "total_weekly_dl": 0,
+    "avg_overall": 59,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 2,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/PerryLink",
+    "npm_url": "https://www.npmjs.com/~perrylink"
+  },
+  {
+    "handle": "Bandersnatch0x",
+    "plugins": [
+      {
+        "slug": "design-playbook",
+        "name": "design-playbook",
+        "grade": "A",
+        "overall": 77,
+        "stars": 1,
+        "weekly_dl": 900
+      },
+      {
+        "slug": "dsh-design-playbook",
+        "name": "dsh-design-playbook",
+        "grade": "B",
+        "overall": 57,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 900,
+    "avg_overall": 67,
+    "grades": {
+      "S": 0,
+      "A": 1,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/Bandersnatch0x",
+    "npm_url": "https://www.npmjs.com/~Bandersnatch0x"
+  },
+  {
+    "handle": "RealAlexandreAI",
+    "plugins": [
+      {
+        "slug": "dsh-cloudflare-browser-run",
+        "name": "dsh-cloudflare-browser-run",
+        "grade": "B",
+        "overall": 59,
+        "stars": 1,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "dsh-nocturne-memory",
+        "name": "dsh-nocturne-memory",
+        "grade": "B",
+        "overall": 59,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 59,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 2,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/RealAlexandreAI",
+    "npm_url": "https://www.npmjs.com/~RealAlexandreAI"
+  },
+  {
+    "handle": "zjsthmjialin",
+    "plugins": [
+      {
+        "slug": "dsh-inspiration-deck-workshop",
+        "name": "dsh-inspiration-deck-workshop",
+        "grade": "B",
+        "overall": 60,
+        "stars": 1,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "dsh-commercial-ui-ux",
+        "name": "dsh-commercial-ui-ux",
+        "grade": "B",
+        "overall": 58,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 59,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 2,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/zjsthmjialin",
+    "npm_url": "https://www.npmjs.com/~zjsthmjialin"
+  },
+  {
+    "handle": "TecFancy",
+    "plugins": [
+      {
+        "slug": "tecfancy--dsh-mobile",
+        "name": "@tecfancy/dsh-mobile",
+        "grade": "B",
+        "overall": 62,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "dsh-deeptutor",
+        "name": "dsh-deeptutor",
+        "grade": "B",
+        "overall": 61,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 62,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 2,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/TecFancy",
+    "npm_url": "https://www.npmjs.com/~TecFancy"
+  },
+  {
+    "handle": "truelove-dreamer",
+    "plugins": [
+      {
+        "slug": "dsh-plugin-vetting",
+        "name": "dsh-plugin-vetting",
+        "grade": "A",
+        "overall": 79,
+        "stars": 1,
+        "weekly_dl": 819
+      },
+      {
+        "slug": "dsh-plugin-git-workflow",
+        "name": "dsh-plugin-git-workflow",
+        "grade": "B",
+        "overall": 56,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 819,
+    "avg_overall": 68,
+    "grades": {
+      "S": 0,
+      "A": 1,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/truelove-dreamer",
+    "npm_url": "https://www.npmjs.com/~truelove-dreamer"
+  },
+  {
+    "handle": "michengai",
+    "plugins": [
+      {
+        "slug": "michengai--dsh-skills-manager",
+        "name": "@michengai/dsh-skills-manager",
+        "grade": "A",
+        "overall": 72,
+        "stars": 0,
+        "weekly_dl": 905
+      },
+      {
+        "slug": "michengai--dsh-archive-manager",
+        "name": "@michengai/dsh-archive-manager",
+        "grade": "B",
+        "overall": 64,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 905,
+    "avg_overall": 68,
+    "grades": {
+      "S": 0,
+      "A": 1,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/michengai",
+    "npm_url": "https://www.npmjs.com/~michengai"
+  },
+  {
+    "handle": "bleed00",
+    "plugins": [
+      {
+        "slug": "bleed00--dsh-anywhere-claude-mem",
+        "name": "@bleed00/dsh-anywhere-claude-mem",
+        "grade": "C",
+        "overall": 52,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "bleed00--dsh-claude-mem",
+        "name": "@bleed00/dsh-claude-mem",
+        "grade": "C",
+        "overall": 52,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 52,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 2,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/bleed00",
+    "npm_url": "https://www.npmjs.com/~bleed00"
+  },
+  {
+    "handle": "gooosie",
+    "plugins": [
+      {
+        "slug": "dsh-openai-codex-auth",
+        "name": "dsh-openai-codex-auth",
+        "grade": "B",
+        "overall": 62,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "dsh-whale-bg",
+        "name": "dsh-whale-bg",
+        "grade": "B",
+        "overall": 60,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 61,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 2,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/gooosie",
+    "npm_url": "https://www.npmjs.com/~gooosie"
+  },
+  {
+    "handle": "gongyijie85",
+    "plugins": [
+      {
+        "slug": "dsh-ponytail-skills",
+        "name": "dsh-ponytail-skills",
+        "grade": "B",
+        "overall": 62,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "dsh-repo-setup",
+        "name": "dsh-repo-setup",
+        "grade": "B",
+        "overall": 60,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 61,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 2,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/gongyijie85",
+    "npm_url": "https://www.npmjs.com/~gongyijie85"
+  },
+  {
+    "handle": "dshd",
+    "plugins": [
+      {
+        "slug": "dshd--dshdesktop-client",
+        "name": "@dshd/dshdesktop-client",
+        "grade": "B",
+        "overall": 65,
+        "stars": 0,
+        "weekly_dl": 252
+      },
+      {
+        "slug": "dshd--dsh-usage",
+        "name": "@dshd/dsh-usage",
+        "grade": "C",
+        "overall": 48,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 252,
+    "avg_overall": 57,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/dshd",
+    "npm_url": "https://www.npmjs.com/~dshd"
+  },
+  {
+    "handle": "dshworks",
+    "plugins": [
+      {
+        "slug": "dshworks--dsh-meter",
+        "name": "@dshworks/dsh-meter",
+        "grade": "B",
+        "overall": 63,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "dshworks--dsh-watch",
+        "name": "@dshworks/dsh-watch",
+        "grade": "C",
+        "overall": 52,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 58,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/dshworks",
+    "npm_url": "https://www.npmjs.com/~dshworks"
+  },
+  {
+    "handle": "fakechris",
+    "plugins": [
+      {
+        "slug": "fakechris--dsh-track",
+        "name": "@fakechris/dsh-track",
+        "grade": "C",
+        "overall": 52,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "fakechris--dsh-restart-recover",
+        "name": "@fakechris/dsh-restart-recover",
+        "grade": "C",
+        "overall": 44,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 48,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 2,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/fakechris",
+    "npm_url": "https://www.npmjs.com/~fakechris"
+  },
+  {
+    "handle": "jeremy9682",
+    "plugins": [
+      {
+        "slug": "jeremy9682--dsh-skill-pack",
+        "name": "@jeremy9682/dsh-skill-pack",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "jeremy9682--dsh-acp",
+        "name": "@jeremy9682/dsh-acp",
+        "grade": "C",
+        "overall": 49,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 50,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 2,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/jeremy9682",
+    "npm_url": "https://www.npmjs.com/~jeremy9682"
+  },
+  {
+    "handle": "kelearns",
+    "plugins": [
+      {
+        "slug": "kelearns--dsh-token-usage",
+        "name": "@kelearns/dsh-token-usage",
+        "grade": "C",
+        "overall": 53,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "kelearns--dsh-navigation-bar",
+        "name": "@kelearns/dsh-navigation-bar",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 52,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 2,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/kelearns",
+    "npm_url": "https://www.npmjs.com/~kelearns"
+  },
+  {
+    "handle": "lanxing",
+    "plugins": [
+      {
+        "slug": "lanxing--dsh-galgame",
+        "name": "@lanxing/dsh-galgame",
+        "grade": "C",
+        "overall": 53,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "lanxing--dsh-skill-manager",
+        "name": "@lanxing/dsh-skill-manager",
+        "grade": "C",
+        "overall": 53,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 53,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 2,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/lanxing",
+    "npm_url": "https://www.npmjs.com/~lanxing"
+  },
+  {
+    "handle": "max-null",
+    "plugins": [
+      {
+        "slug": "max-null--dsh-chinese-thinking",
+        "name": "@max-null/dsh-chinese-thinking",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "max-null--dsh-memory",
+        "name": "@max-null/dsh-memory",
+        "grade": "C",
+        "overall": 49,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 50,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 2,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/max-null",
+    "npm_url": "https://www.npmjs.com/~max-null"
+  },
+  {
+    "handle": "memtensor",
+    "plugins": [
+      {
+        "slug": "memtensor--memos-local-plugin",
+        "name": "@memtensor/memos-local-plugin",
+        "grade": "A",
+        "overall": 70,
+        "stars": 0,
+        "weekly_dl": 907
+      },
+      {
+        "slug": "memtensor--memos-cloud-dsh-plugin",
+        "name": "@memtensor/memos-cloud-dsh-plugin",
+        "grade": "C",
+        "overall": 52,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 907,
+    "avg_overall": 61,
+    "grades": {
+      "S": 0,
+      "A": 1,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/memtensor",
+    "npm_url": "https://www.npmjs.com/~memtensor"
+  },
+  {
+    "handle": "moguiyu",
+    "plugins": [
+      {
+        "slug": "moguiyu--dsh-tool-tavily-search",
+        "name": "@moguiyu/dsh-tool-tavily-search",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "moguiyu--dsh-tavily-backend",
+        "name": "@moguiyu/dsh-tavily-backend",
+        "grade": "C",
+        "overall": 49,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 50,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 2,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/moguiyu",
+    "npm_url": "https://www.npmjs.com/~moguiyu"
+  },
+  {
+    "handle": "nanmicoder",
+    "plugins": [
+      {
+        "slug": "nanmicoder--dsh-agent-teams",
+        "name": "@nanmicoder/dsh-agent-teams",
+        "grade": "C",
+        "overall": 54,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "nanmicoder--dsh-plugin-market",
+        "name": "@nanmicoder/dsh-plugin-market",
+        "grade": "C",
+        "overall": 54,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 54,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 2,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/nanmicoder",
+    "npm_url": "https://www.npmjs.com/~nanmicoder"
+  },
+  {
+    "handle": "shijunan123",
+    "plugins": [
+      {
+        "slug": "shijunan123--dsh-client-ui-subagent-effort",
+        "name": "@shijunan123/dsh-client-ui-subagent-effort",
+        "grade": "C",
+        "overall": 46,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "shijunan123--dsh-subagent-effort",
+        "name": "@shijunan123/dsh-subagent-effort",
+        "grade": "C",
+        "overall": 45,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 46,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 2,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/shijunan123",
+    "npm_url": "https://www.npmjs.com/~shijunan123"
+  },
+  {
+    "handle": "wangjiezhong",
+    "plugins": [
+      {
+        "slug": "wangjiezhong--dsh-memory-ai",
+        "name": "@wangjiezhong/dsh-memory-ai",
+        "grade": "C",
+        "overall": 45,
+        "stars": 0,
+        "weekly_dl": 0
+      },
+      {
+        "slug": "wangjiezhong--dsh-moat",
+        "name": "@wangjiezhong/dsh-moat",
+        "grade": "C",
+        "overall": 44,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 45,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 2,
+      "D": 0
+    },
+    "plugin_count": 2,
+    "gh_url": "https://github.com/wangjiezhong",
+    "npm_url": "https://www.npmjs.com/~wangjiezhong"
+  },
+  {
+    "handle": "nagisanzenin",
+    "plugins": [
+      {
+        "slug": "opencode-engram-learning",
+        "name": "opencode-engram-learning",
+        "grade": "B",
+        "overall": 66,
+        "stars": 1333,
+        "weekly_dl": 101
+      }
+    ],
+    "total_stars": 1333,
+    "total_weekly_dl": 101,
+    "avg_overall": 66,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/nagisanzenin",
+    "npm_url": "https://www.npmjs.com/~nagisanzenin"
+  },
+  {
+    "handle": "plur-ai",
+    "plugins": [
+      {
+        "slug": "plur-ai--dsh",
+        "name": "@plur-ai/dsh",
+        "grade": "B",
+        "overall": 62,
+        "stars": 237,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 237,
+    "total_weekly_dl": 0,
+    "avg_overall": 62,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/plur-ai",
+    "npm_url": "https://www.npmjs.com/~plur-ai"
+  },
+  {
+    "handle": "Co-Engram",
+    "plugins": [
+      {
+        "slug": "co-engram--dsh",
+        "name": "@co-engram/dsh",
+        "grade": "C",
+        "overall": 54,
+        "stars": 65,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 65,
+    "total_weekly_dl": 0,
+    "avg_overall": 54,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Co-Engram",
+    "npm_url": "https://www.npmjs.com/~Co-Engram"
+  },
+  {
+    "handle": "co-engram",
+    "plugins": [
+      {
+        "slug": "co-engram--dsh",
+        "name": "@co-engram/dsh",
+        "grade": "C",
+        "overall": 54,
+        "stars": 65,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 65,
+    "total_weekly_dl": 0,
+    "avg_overall": 54,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Co-Engram",
+    "npm_url": "https://www.npmjs.com/~co-engram"
+  },
+  {
+    "handle": "ningbainb",
+    "plugins": [
+      {
+        "slug": "dsh-desktop-base",
+        "name": "dsh-desktop-base",
+        "grade": "B",
+        "overall": 60,
+        "stars": 48,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 48,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/ningbainb",
+    "npm_url": "https://www.npmjs.com/~ningbainb"
+  },
+  {
+    "handle": "zenx0x",
+    "plugins": [
+      {
+        "slug": "zenx0x--allinflash",
+        "name": "@zenx0x/allinflash",
+        "grade": "B",
+        "overall": 59,
+        "stars": 28,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 28,
+    "total_weekly_dl": 0,
+    "avg_overall": 59,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/zenx0x",
+    "npm_url": "https://www.npmjs.com/~zenx0x"
+  },
+  {
+    "handle": "zh667",
+    "plugins": [
+      {
+        "slug": "dsh-tokenledger",
+        "name": "dsh-tokenledger",
+        "grade": "B",
+        "overall": 63,
+        "stars": 9,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 9,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/zh667",
+    "npm_url": "https://www.npmjs.com/~zh667"
+  },
+  {
+    "handle": "Areium",
+    "plugins": [
+      {
+        "slug": "dsh-fail-logger",
+        "name": "dsh-fail-logger",
+        "grade": "B",
+        "overall": 61,
+        "stars": 8,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 8,
+    "total_weekly_dl": 0,
+    "avg_overall": 61,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Areium",
+    "npm_url": "https://www.npmjs.com/~Areium"
+  },
+  {
+    "handle": "Starfie1d1272",
+    "plugins": [
+      {
+        "slug": "dsh-builtin-toggles",
+        "name": "dsh-builtin-toggles",
+        "grade": "B",
+        "overall": 64,
+        "stars": 7,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 7,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Starfie1d1272",
+    "npm_url": "https://www.npmjs.com/~Starfie1d1272"
+  },
+  {
+    "handle": "zhijun-dai",
+    "plugins": [
+      {
+        "slug": "dsh-catppuccin",
+        "name": "dsh-catppuccin",
+        "grade": "B",
+        "overall": 61,
+        "stars": 7,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 7,
+    "total_weekly_dl": 0,
+    "avg_overall": 61,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/zhijun-dai",
+    "npm_url": "https://www.npmjs.com/~zhijun-dai"
+  },
+  {
+    "handle": "jjxjjjjiik-bot",
+    "plugins": [
+      {
+        "slug": "dsh-chat-timeline",
+        "name": "dsh-chat-timeline",
+        "grade": "B",
+        "overall": 56,
+        "stars": 7,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 7,
+    "total_weekly_dl": 0,
+    "avg_overall": 56,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/jjxjjjjiik-bot",
+    "npm_url": "https://www.npmjs.com/~jjxjjjjiik-bot"
+  },
+  {
+    "handle": "fly233338",
+    "plugins": [
+      {
+        "slug": "dsh-overleaf",
+        "name": "dsh-overleaf",
+        "grade": "B",
+        "overall": 60,
+        "stars": 7,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 7,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/fly233338",
+    "npm_url": "https://www.npmjs.com/~fly233338"
+  },
+  {
+    "handle": "DGPisces",
+    "plugins": [
+      {
+        "slug": "deepseek-harness-openai-oauth",
+        "name": "deepseek-harness-openai-oauth",
+        "grade": "B",
+        "overall": 60,
+        "stars": 5,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 5,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/DGPisces",
+    "npm_url": "https://www.npmjs.com/~DGPisces"
+  },
+  {
+    "handle": "Tkingxiao",
+    "plugins": [
+      {
+        "slug": "dsh-any-background",
+        "name": "dsh-any-background",
+        "grade": "B",
+        "overall": 63,
+        "stars": 5,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 5,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Tkingxiao",
+    "npm_url": "https://www.npmjs.com/~Tkingxiao"
+  },
+  {
+    "handle": "skr311",
+    "plugins": [
+      {
+        "slug": "dsh-codex-pet",
+        "name": "dsh-codex-pet",
+        "grade": "B",
+        "overall": 61,
+        "stars": 5,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 5,
+    "total_weekly_dl": 0,
+    "avg_overall": 61,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/skr311",
+    "npm_url": "https://www.npmjs.com/~skr311"
+  },
+  {
+    "handle": "liuup",
+    "plugins": [
+      {
+        "slug": "dsh-latex-tools",
+        "name": "dsh-latex-tools",
+        "grade": "B",
+        "overall": 60,
+        "stars": 5,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 5,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/liuup",
+    "npm_url": "https://www.npmjs.com/~liuup"
+  },
+  {
+    "handle": "0lidaxiang",
+    "plugins": [
+      {
+        "slug": "dsh-plugin-greet",
+        "name": "dsh-plugin-greet",
+        "grade": "B",
+        "overall": 57,
+        "stars": 5,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 5,
+    "total_weekly_dl": 0,
+    "avg_overall": 57,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/0lidaxiang",
+    "npm_url": "https://www.npmjs.com/~0lidaxiang"
+  },
+  {
+    "handle": "SaiSenBox",
+    "plugins": [
+      {
+        "slug": "dsh-boot-guard",
+        "name": "dsh-boot-guard",
+        "grade": "B",
+        "overall": 60,
+        "stars": 4,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 4,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/SaiSenBox",
+    "npm_url": "https://www.npmjs.com/~SaiSenBox"
+  },
+  {
+    "handle": "yyh-001",
+    "plugins": [
+      {
+        "slug": "dsh-expression",
+        "name": "dsh-expression",
+        "grade": "B",
+        "overall": 63,
+        "stars": 4,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 4,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/yyh-001",
+    "npm_url": "https://www.npmjs.com/~yyh-001"
+  },
+  {
+    "handle": "labmimors",
+    "plugins": [
+      {
+        "slug": "dsh-mcp-lens",
+        "name": "dsh-mcp-lens",
+        "grade": "B",
+        "overall": 64,
+        "stars": 4,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 4,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/labmimors",
+    "npm_url": "https://www.npmjs.com/~labmimors"
+  },
+  {
+    "handle": "linyp",
+    "plugins": [
+      {
+        "slug": "dsh-plugin-langfuse",
+        "name": "dsh-plugin-langfuse",
+        "grade": "B",
+        "overall": 63,
+        "stars": 4,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 4,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/linyp",
+    "npm_url": "https://www.npmjs.com/~linyp"
+  },
+  {
+    "handle": "030611",
+    "plugins": [
+      {
+        "slug": "dsh-verification-receipt",
+        "name": "dsh-verification-receipt",
+        "grade": "B",
+        "overall": 61,
+        "stars": 4,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 4,
+    "total_weekly_dl": 0,
+    "avg_overall": 61,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/030611",
+    "npm_url": "https://www.npmjs.com/~030611"
+  },
+  {
+    "handle": "sunshine-lang",
+    "plugins": [
+      {
+        "slug": "dsh-weather",
+        "name": "dsh-weather",
+        "grade": "B",
+        "overall": 59,
+        "stars": 4,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 4,
+    "total_weekly_dl": 0,
+    "avg_overall": 59,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/sunshine-lang",
+    "npm_url": "https://www.npmjs.com/~sunshine-lang"
+  },
+  {
+    "handle": "PicGo",
+    "plugins": [
+      {
+        "slug": "picgo--dsh-plugin",
+        "name": "@picgo/dsh-plugin",
+        "grade": "B",
+        "overall": 61,
+        "stars": 4,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 4,
+    "total_weekly_dl": 0,
+    "avg_overall": 61,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/PicGo",
+    "npm_url": "https://www.npmjs.com/~PicGo"
+  },
+  {
+    "handle": "picgo",
+    "plugins": [
+      {
+        "slug": "picgo--dsh-plugin",
+        "name": "@picgo/dsh-plugin",
+        "grade": "B",
+        "overall": 61,
+        "stars": 4,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 4,
+    "total_weekly_dl": 0,
+    "avg_overall": 61,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/PicGo",
+    "npm_url": "https://www.npmjs.com/~picgo"
+  },
+  {
+    "handle": "Noelune",
+    "plugins": [
+      {
+        "slug": "dsh-agent-relay",
+        "name": "dsh-agent-relay",
+        "grade": "B",
+        "overall": 64,
+        "stars": 3,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 3,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Noelune",
+    "npm_url": "https://www.npmjs.com/~Noelune"
+  },
+  {
+    "handle": "SnowCrescenter-tech",
+    "plugins": [
+      {
+        "slug": "dsh-desktop--client",
+        "name": "@dsh-desktop/client",
+        "grade": "C",
+        "overall": 48,
+        "stars": 3,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 3,
+    "total_weekly_dl": 0,
+    "avg_overall": 48,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/SnowCrescenter-tech",
+    "npm_url": "https://www.npmjs.com/~SnowCrescenter-tech"
+  },
+  {
+    "handle": "dsh-desktop",
+    "plugins": [
+      {
+        "slug": "dsh-desktop--client",
+        "name": "@dsh-desktop/client",
+        "grade": "C",
+        "overall": 48,
+        "stars": 3,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 3,
+    "total_weekly_dl": 0,
+    "avg_overall": 48,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/SnowCrescenter-tech",
+    "npm_url": "https://www.npmjs.com/~dsh-desktop"
+  },
+  {
+    "handle": "Edge-Echo",
+    "plugins": [
+      {
+        "slug": "dsh-mcp-bridge",
+        "name": "dsh-mcp-bridge",
+        "grade": "B",
+        "overall": 62,
+        "stars": 3,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 3,
+    "total_weekly_dl": 0,
+    "avg_overall": 62,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Edge-Echo",
+    "npm_url": "https://www.npmjs.com/~Edge-Echo"
+  },
+  {
+    "handle": "AngelosZou",
+    "plugins": [
+      {
+        "slug": "dsh-multi-folder",
+        "name": "dsh-multi-folder",
+        "grade": "B",
+        "overall": 65,
+        "stars": 3,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 3,
+    "total_weekly_dl": 0,
+    "avg_overall": 65,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/AngelosZou",
+    "npm_url": "https://www.npmjs.com/~AngelosZou"
+  },
+  {
+    "handle": "peach0x33a",
+    "plugins": [
+      {
+        "slug": "dsh-open-browser",
+        "name": "dsh-open-browser",
+        "grade": "B",
+        "overall": 62,
+        "stars": 3,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 3,
+    "total_weekly_dl": 0,
+    "avg_overall": 62,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/peach0x33a",
+    "npm_url": "https://www.npmjs.com/~peach0x33a"
+  },
+  {
+    "handle": "agentic-control-plane",
+    "plugins": [
+      {
+        "slug": "dsh-plugin-acp",
+        "name": "dsh-plugin-acp",
+        "grade": "B",
+        "overall": 59,
+        "stars": 3,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 3,
+    "total_weekly_dl": 0,
+    "avg_overall": 59,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/agentic-control-plane",
+    "npm_url": "https://www.npmjs.com/~agentic-control-plane"
+  },
+  {
+    "handle": "rainforest888",
+    "plugins": [
+      {
+        "slug": "dsh-plugins-raincode",
+        "name": "dsh-plugins-raincode",
+        "grade": "C",
+        "overall": 50,
+        "stars": 3,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 3,
+    "total_weekly_dl": 0,
+    "avg_overall": 50,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/rainforest888",
+    "npm_url": "https://www.npmjs.com/~rainforest888"
+  },
+  {
+    "handle": "Qintsg",
+    "plugins": [
+      {
+        "slug": "dsh-safe-delete",
+        "name": "dsh-safe-delete",
+        "grade": "B",
+        "overall": 60,
+        "stars": 3,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 3,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Qintsg",
+    "npm_url": "https://www.npmjs.com/~Qintsg"
+  },
+  {
+    "handle": "coderPerseus",
+    "plugins": [
+      {
+        "slug": "dshhubs--plugin-search",
+        "name": "@dshhubs/plugin-search",
+        "grade": "B",
+        "overall": 57,
+        "stars": 3,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 3,
+    "total_weekly_dl": 0,
+    "avg_overall": 57,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/coderPerseus",
+    "npm_url": "https://www.npmjs.com/~coderPerseus"
+  },
+  {
+    "handle": "dshhubs",
+    "plugins": [
+      {
+        "slug": "dshhubs--plugin-search",
+        "name": "@dshhubs/plugin-search",
+        "grade": "B",
+        "overall": 57,
+        "stars": 3,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 3,
+    "total_weekly_dl": 0,
+    "avg_overall": 57,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/coderPerseus",
+    "npm_url": "https://www.npmjs.com/~dshhubs"
+  },
+  {
+    "handle": "hrhgit",
+    "plugins": [
+      {
+        "slug": "ruihuahe--dsh-plugin-marketplace",
+        "name": "@ruihuahe/dsh-plugin-marketplace",
+        "grade": "B",
+        "overall": 61,
+        "stars": 3,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 3,
+    "total_weekly_dl": 0,
+    "avg_overall": 61,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/hrhgit",
+    "npm_url": "https://www.npmjs.com/~hrhgit"
+  },
+  {
+    "handle": "ruihuahe",
+    "plugins": [
+      {
+        "slug": "ruihuahe--dsh-plugin-marketplace",
+        "name": "@ruihuahe/dsh-plugin-marketplace",
+        "grade": "B",
+        "overall": 61,
+        "stars": 3,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 3,
+    "total_weekly_dl": 0,
+    "avg_overall": 61,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/hrhgit",
+    "npm_url": "https://www.npmjs.com/~ruihuahe"
+  },
+  {
+    "handle": "JohnathonYe",
+    "plugins": [
+      {
+        "slug": "auto-compact",
+        "name": "auto-compact",
+        "grade": "B",
+        "overall": 60,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/JohnathonYe",
+    "npm_url": "https://www.npmjs.com/~JohnathonYe"
+  },
+  {
+    "handle": "BorisShaw6",
+    "plugins": [
+      {
+        "slug": "borisshaw6--dsh-cyber-pet",
+        "name": "@borisshaw6/dsh-cyber-pet",
+        "grade": "B",
+        "overall": 60,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/BorisShaw6",
+    "npm_url": "https://www.npmjs.com/~BorisShaw6"
+  },
+  {
+    "handle": "borisshaw6",
+    "plugins": [
+      {
+        "slug": "borisshaw6--dsh-cyber-pet",
+        "name": "@borisshaw6/dsh-cyber-pet",
+        "grade": "B",
+        "overall": 60,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/BorisShaw6",
+    "npm_url": "https://www.npmjs.com/~borisshaw6"
+  },
+  {
+    "handle": "ben7am1n",
+    "plugins": [
+      {
+        "slug": "dsh-claude-marketplace",
+        "name": "dsh-claude-marketplace",
+        "grade": "B",
+        "overall": 60,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/ben7am1n",
+    "npm_url": "https://www.npmjs.com/~ben7am1n"
+  },
+  {
+    "handle": "YiHarvest",
+    "plugins": [
+      {
+        "slug": "dsh-failure-capsule",
+        "name": "dsh-failure-capsule",
+        "grade": "B",
+        "overall": 63,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/YiHarvest",
+    "npm_url": "https://www.npmjs.com/~YiHarvest"
+  },
+  {
+    "handle": "Moximxxx",
+    "plugins": [
+      {
+        "slug": "dsh-find-skill",
+        "name": "dsh-find-skill",
+        "grade": "B",
+        "overall": 62,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 62,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Moximxxx",
+    "npm_url": "https://www.npmjs.com/~Moximxxx"
+  },
+  {
+    "handle": "zytsyj",
+    "plugins": [
+      {
+        "slug": "dsh-gpu",
+        "name": "dsh-gpu",
+        "grade": "B",
+        "overall": 61,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 61,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/zytsyj",
+    "npm_url": "https://www.npmjs.com/~zytsyj"
+  },
+  {
+    "handle": "040822",
+    "plugins": [
+      {
+        "slug": "dsh-gzip",
+        "name": "dsh-gzip",
+        "grade": "C",
+        "overall": 50,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 50,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/040822",
+    "npm_url": "https://www.npmjs.com/~040822"
+  },
+  {
+    "handle": "PeterBon",
+    "plugins": [
+      {
+        "slug": "dsh-hooks",
+        "name": "dsh-hooks",
+        "grade": "B",
+        "overall": 62,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 62,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/PeterBon",
+    "npm_url": "https://www.npmjs.com/~PeterBon"
+  },
+  {
+    "handle": "LingLambda",
+    "plugins": [
+      {
+        "slug": "dsh-logger-panel",
+        "name": "dsh-logger-panel",
+        "grade": "B",
+        "overall": 60,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/LingLambda",
+    "npm_url": "https://www.npmjs.com/~LingLambda"
+  },
+  {
+    "handle": "CodePrometheus",
+    "plugins": [
+      {
+        "slug": "dsh-observability",
+        "name": "dsh-observability",
+        "grade": "B",
+        "overall": 62,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 62,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/CodePrometheus",
+    "npm_url": "https://www.npmjs.com/~CodePrometheus"
+  },
+  {
+    "handle": "querit-ai",
+    "plugins": [
+      {
+        "slug": "dsh-querit",
+        "name": "dsh-querit",
+        "grade": "C",
+        "overall": 51,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 51,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/querit-ai",
+    "npm_url": "https://www.npmjs.com/~querit-ai"
+  },
+  {
+    "handle": "Fu3rte",
+    "plugins": [
+      {
+        "slug": "dsh-sight",
+        "name": "dsh-sight",
+        "grade": "B",
+        "overall": 64,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Fu3rte",
+    "npm_url": "https://www.npmjs.com/~Fu3rte"
+  },
+  {
+    "handle": "FuRongJun-1999",
+    "plugins": [
+      {
+        "slug": "furongjun1999--dsh-memory",
+        "name": "@furongjun1999/dsh-memory",
+        "grade": "B",
+        "overall": 63,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/FuRongJun-1999",
+    "npm_url": "https://www.npmjs.com/~FuRongJun-1999"
+  },
+  {
+    "handle": "furongjun1999",
+    "plugins": [
+      {
+        "slug": "furongjun1999--dsh-memory",
+        "name": "@furongjun1999/dsh-memory",
+        "grade": "B",
+        "overall": 63,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/FuRongJun-1999",
+    "npm_url": "https://www.npmjs.com/~furongjun1999"
+  },
+  {
+    "handle": "DamonBao",
+    "plugins": [
+      {
+        "slug": "jcy2387--dsh-codex-provider-plugin",
+        "name": "@jcy2387/dsh-codex-provider-plugin",
+        "grade": "B",
+        "overall": 64,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/DamonBao",
+    "npm_url": "https://www.npmjs.com/~DamonBao"
+  },
+  {
+    "handle": "jcy2387",
+    "plugins": [
+      {
+        "slug": "jcy2387--dsh-codex-provider-plugin",
+        "name": "@jcy2387/dsh-codex-provider-plugin",
+        "grade": "B",
+        "overall": 64,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/DamonBao",
+    "npm_url": "https://www.npmjs.com/~jcy2387"
+  },
+  {
+    "handle": "jmcc-guo",
+    "plugins": [
+      {
+        "slug": "jmcc-guo--dsh-ssh",
+        "name": "@jmcc-guo/dsh-ssh",
+        "grade": "B",
+        "overall": 64,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/jmcc-guo",
+    "npm_url": "https://www.npmjs.com/~jmcc-guo"
+  },
+  {
+    "handle": "Phant0Meow",
+    "plugins": [
+      {
+        "slug": "meow-memory",
+        "name": "meow-memory",
+        "grade": "B",
+        "overall": 63,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Phant0Meow",
+    "npm_url": "https://www.npmjs.com/~Phant0Meow"
+  },
+  {
+    "handle": "Mappedinfo",
+    "plugins": [
+      {
+        "slug": "plaindeck",
+        "name": "plaindeck",
+        "grade": "A",
+        "overall": 72,
+        "stars": 2,
+        "weekly_dl": 1073
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 1073,
+    "avg_overall": 72,
+    "grades": {
+      "S": 0,
+      "A": 1,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Mappedinfo",
+    "npm_url": "https://www.npmjs.com/~Mappedinfo"
+  },
+  {
+    "handle": "WASD258-jpg",
+    "plugins": [
+      {
+        "slug": "wasd258--dsh-port-manager",
+        "name": "@wasd258/dsh-port-manager",
+        "grade": "B",
+        "overall": 58,
+        "stars": 2,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 2,
+    "total_weekly_dl": 0,
+    "avg_overall": 58,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/WASD258-jpg",
+    "npm_url": "https://www.npmjs.com/~WASD258-jpg"
+  },
+  {
+    "handle": "chang416",
+    "plugins": [
+      {
+        "slug": "chang416--deepsee",
+        "name": "@chang416/deepsee",
+        "grade": "B",
+        "overall": 63,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/chang416",
+    "npm_url": "https://www.npmjs.com/~chang416"
+  },
+  {
+    "handle": "peng-huiyang",
+    "plugins": [
+      {
+        "slug": "cronjob-dsh-plugin",
+        "name": "cronjob-dsh-plugin",
+        "grade": "B",
+        "overall": 62,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 62,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/peng-huiyang",
+    "npm_url": "https://www.npmjs.com/~peng-huiyang"
+  },
+  {
+    "handle": "bamboostrip",
+    "plugins": [
+      {
+        "slug": "dsh-access-gate",
+        "name": "dsh-access-gate",
+        "grade": "B",
+        "overall": 63,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/bamboostrip",
+    "npm_url": "https://www.npmjs.com/~bamboostrip"
+  },
+  {
+    "handle": "JinkaiLiu",
+    "plugins": [
+      {
+        "slug": "dsh-autonomy",
+        "name": "dsh-autonomy",
+        "grade": "B",
+        "overall": 64,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/JinkaiLiu",
+    "npm_url": "https://www.npmjs.com/~JinkaiLiu"
+  },
+  {
+    "handle": "moonbowterfly",
+    "plugins": [
+      {
+        "slug": "dsh-bio--dsh-bio-genie",
+        "name": "@dsh-bio/dsh-bio-genie",
+        "grade": "B",
+        "overall": 62,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 62,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/moonbowterfly",
+    "npm_url": "https://www.npmjs.com/~moonbowterfly"
+  },
+  {
+    "handle": "dsh-bio",
+    "plugins": [
+      {
+        "slug": "dsh-bio--dsh-bio-genie",
+        "name": "@dsh-bio/dsh-bio-genie",
+        "grade": "B",
+        "overall": 62,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 62,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/moonbowterfly",
+    "npm_url": "https://www.npmjs.com/~dsh-bio"
+  },
+  {
+    "handle": "zjl1989-li",
+    "plugins": [
+      {
+        "slug": "dsh-harness-zh-cn",
+        "name": "dsh-harness-zh-cn",
+        "grade": "B",
+        "overall": 64,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/zjl1989-li",
+    "npm_url": "https://www.npmjs.com/~zjl1989-li"
+  },
+  {
+    "handle": "xxiaoxiong",
+    "plugins": [
+      {
+        "slug": "dsh-kubernetes",
+        "name": "dsh-kubernetes",
+        "grade": "B",
+        "overall": 63,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/xxiaoxiong",
+    "npm_url": "https://www.npmjs.com/~xxiaoxiong"
+  },
+  {
+    "handle": "xczhanjun",
+    "plugins": [
+      {
+        "slug": "dsh-lazeword",
+        "name": "dsh-lazeword",
+        "grade": "B",
+        "overall": 64,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/xczhanjun",
+    "npm_url": "https://www.npmjs.com/~xczhanjun"
+  },
+  {
+    "handle": "Lee-Hilex",
+    "plugins": [
+      {
+        "slug": "dsh-mineru",
+        "name": "dsh-mineru",
+        "grade": "B",
+        "overall": 64,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Lee-Hilex",
+    "npm_url": "https://www.npmjs.com/~Lee-Hilex"
+  },
+  {
+    "handle": "jiay98528-dev",
+    "plugins": [
+      {
+        "slug": "dsh-model-sync",
+        "name": "dsh-model-sync",
+        "grade": "B",
+        "overall": 64,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/jiay98528-dev",
+    "npm_url": "https://www.npmjs.com/~jiay98528-dev"
+  },
+  {
+    "handle": "Lhy723",
+    "plugins": [
+      {
+        "slug": "dsh-neu-theme",
+        "name": "dsh-neu-theme",
+        "grade": "B",
+        "overall": 61,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 61,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Lhy723",
+    "npm_url": "https://www.npmjs.com/~Lhy723"
+  },
+  {
+    "handle": "Hyp6666",
+    "plugins": [
+      {
+        "slug": "dsh-open-eyes",
+        "name": "dsh-open-eyes",
+        "grade": "B",
+        "overall": 63,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Hyp6666",
+    "npm_url": "https://www.npmjs.com/~Hyp6666"
+  },
+  {
+    "handle": "maple-pwn",
+    "plugins": [
+      {
+        "slug": "dsh-paperlab",
+        "name": "dsh-paperlab",
+        "grade": "B",
+        "overall": 63,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/maple-pwn",
+    "npm_url": "https://www.npmjs.com/~maple-pwn"
+  },
+  {
+    "handle": "lovedheart",
+    "plugins": [
+      {
+        "slug": "dsh-plugin-thinking-mode",
+        "name": "dsh-plugin-thinking-mode",
+        "grade": "B",
+        "overall": 62,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 62,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/lovedheart",
+    "npm_url": "https://www.npmjs.com/~lovedheart"
+  },
+  {
+    "handle": "devmom",
+    "plugins": [
+      {
+        "slug": "dsh-session-import",
+        "name": "dsh-session-import",
+        "grade": "B",
+        "overall": 63,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/devmom",
+    "npm_url": "https://www.npmjs.com/~devmom"
+  },
+  {
+    "handle": "sakka6868",
+    "plugins": [
+      {
+        "slug": "dsh-skin-alphacoders",
+        "name": "dsh-skin-alphacoders",
+        "grade": "B",
+        "overall": 60,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/sakka6868",
+    "npm_url": "https://www.npmjs.com/~sakka6868"
+  },
+  {
+    "handle": "dawsondx",
+    "plugins": [
+      {
+        "slug": "dsh-token-data",
+        "name": "dsh-token-data",
+        "grade": "B",
+        "overall": 64,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/dawsondx",
+    "npm_url": "https://www.npmjs.com/~dawsondx"
+  },
+  {
+    "handle": "AlfredChaos",
+    "plugins": [
+      {
+        "slug": "dsh-usage-panel",
+        "name": "dsh-usage-panel",
+        "grade": "B",
+        "overall": 60,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/AlfredChaos",
+    "npm_url": "https://www.npmjs.com/~AlfredChaos"
+  },
+  {
+    "handle": "54xkeee",
+    "plugins": [
+      {
+        "slug": "dsh-vision-web",
+        "name": "dsh-vision-web",
+        "grade": "B",
+        "overall": 66,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 66,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/54xkeee",
+    "npm_url": "https://www.npmjs.com/~54xkeee"
+  },
+  {
+    "handle": "chinng-inta",
+    "plugins": [
+      {
+        "slug": "dsh-web-search-searxng",
+        "name": "dsh-web-search-searxng",
+        "grade": "B",
+        "overall": 63,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/chinng-inta",
+    "npm_url": "https://www.npmjs.com/~chinng-inta"
+  },
+  {
+    "handle": "haibinwang9",
+    "plugins": [
+      {
+        "slug": "dsh-web-search",
+        "name": "dsh-web-search",
+        "grade": "B",
+        "overall": 61,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 61,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/haibinwang9",
+    "npm_url": "https://www.npmjs.com/~haibinwang9"
+  },
+  {
+    "handle": "pppolf",
+    "plugins": [
+      {
+        "slug": "dsh-webgate",
+        "name": "dsh-webgate",
+        "grade": "B",
+        "overall": 61,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 61,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/pppolf",
+    "npm_url": "https://www.npmjs.com/~pppolf"
+  },
+  {
+    "handle": "kazecreator",
+    "plugins": [
+      {
+        "slug": "kazecreator--dsh-im",
+        "name": "@kazecreator/dsh-im",
+        "grade": "B",
+        "overall": 60,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/kazecreator",
+    "npm_url": "https://www.npmjs.com/~kazecreator"
+  },
+  {
+    "handle": "kongxiangyiren",
+    "plugins": [
+      {
+        "slug": "kongxiangyiren--dhs-theme-plugin",
+        "name": "@kongxiangyiren/dhs-theme-plugin",
+        "grade": "B",
+        "overall": 60,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/kongxiangyiren",
+    "npm_url": "https://www.npmjs.com/~kongxiangyiren"
+  },
+  {
+    "handle": "MichengAI",
+    "plugins": [
+      {
+        "slug": "michengai--dsh-archive-manager",
+        "name": "@michengai/dsh-archive-manager",
+        "grade": "B",
+        "overall": 64,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/MichengAI",
+    "npm_url": "https://www.npmjs.com/~MichengAI"
+  },
+  {
+    "handle": "PiyotaHu",
+    "plugins": [
+      {
+        "slug": "muxiva--dsh-voice",
+        "name": "@muxiva/dsh-voice",
+        "grade": "B",
+        "overall": 59,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 59,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/PiyotaHu",
+    "npm_url": "https://www.npmjs.com/~PiyotaHu"
+  },
+  {
+    "handle": "muxiva",
+    "plugins": [
+      {
+        "slug": "muxiva--dsh-voice",
+        "name": "@muxiva/dsh-voice",
+        "grade": "B",
+        "overall": 59,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 59,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/PiyotaHu",
+    "npm_url": "https://www.npmjs.com/~muxiva"
+  },
+  {
+    "handle": "dream-num",
+    "plugins": [
+      {
+        "slug": "univer-cli--dsh-univer-plugin",
+        "name": "@univer-cli/dsh-univer-plugin",
+        "grade": "B",
+        "overall": 63,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/dream-num",
+    "npm_url": "https://www.npmjs.com/~dream-num"
+  },
+  {
+    "handle": "univer-cli",
+    "plugins": [
+      {
+        "slug": "univer-cli--dsh-univer-plugin",
+        "name": "@univer-cli/dsh-univer-plugin",
+        "grade": "B",
+        "overall": 63,
+        "stars": 1,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 1,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/dream-num",
+    "npm_url": "https://www.npmjs.com/~univer-cli"
+  },
+  {
+    "handle": "1e0zj",
+    "plugins": [
+      {
+        "slug": "1e0zj--dsh-plugin-mall",
+        "name": "@1e0zj/dsh-plugin-mall",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 50,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/1e0zj",
+    "npm_url": "https://www.npmjs.com/~1e0zj"
+  },
+  {
+    "handle": "2nd1st",
+    "plugins": [
+      {
+        "slug": "2nd1st--dsh-plugin-open-app",
+        "name": "@2nd1st/dsh-plugin-open-app",
+        "grade": "C",
+        "overall": 54,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 54,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/2nd1st",
+    "npm_url": "https://www.npmjs.com/~2nd1st"
+  },
+  {
+    "handle": "acc1143",
+    "plugins": [
+      {
+        "slug": "acc1143--dsh-vision-bridge",
+        "name": "@acc1143/dsh-vision-bridge",
+        "grade": "C",
+        "overall": 49,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 49,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/acc1143",
+    "npm_url": "https://www.npmjs.com/~acc1143"
+  },
+  {
+    "handle": "agentrq",
+    "plugins": [
+      {
+        "slug": "agentrq--dsh-plugin-agentrq",
+        "name": "@agentrq/dsh-plugin-agentrq",
+        "grade": "C",
+        "overall": 54,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 54,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/agentrq",
+    "npm_url": "https://www.npmjs.com/~agentrq"
+  },
+  {
+    "handle": "ahikl",
+    "plugins": [
+      {
+        "slug": "ahikl--dsh-desktop",
+        "name": "@ahikl/dsh-desktop",
+        "grade": "B",
+        "overall": 61,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 61,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/ahikl",
+    "npm_url": "https://www.npmjs.com/~ahikl"
+  },
+  {
+    "handle": "akslcw",
+    "plugins": [
+      {
+        "slug": "akslcw--dsh-negative-ledger",
+        "name": "@akslcw/dsh-negative-ledger",
+        "grade": "C",
+        "overall": 53,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 53,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/akslcw",
+    "npm_url": "https://www.npmjs.com/~akslcw"
+  },
+  {
+    "handle": "alib8b8",
+    "plugins": [
+      {
+        "slug": "alib8b8--dsh-plugin-aflare",
+        "name": "@alib8b8/dsh-plugin-aflare",
+        "grade": "C",
+        "overall": 49,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 49,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/alib8b8",
+    "npm_url": "https://www.npmjs.com/~alib8b8"
+  },
+  {
+    "handle": "anestis271",
+    "plugins": [
+      {
+        "slug": "anestis271--dsh-desktop",
+        "name": "@anestis271/dsh-desktop",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 50,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/anestis271",
+    "npm_url": "https://www.npmjs.com/~anestis271"
+  },
+  {
+    "handle": "anysearch",
+    "plugins": [
+      {
+        "slug": "anysearch--anysearch-dsh",
+        "name": "@anysearch/anysearch-dsh",
+        "grade": "C",
+        "overall": 52,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 52,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/anysearch",
+    "npm_url": "https://www.npmjs.com/~anysearch"
+  },
+  {
+    "handle": "anysearch-ai",
+    "plugins": [
+      {
+        "slug": "anysearch-ai--dsh",
+        "name": "@anysearch-ai/dsh",
+        "grade": "C",
+        "overall": 52,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 52,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/anysearch-ai",
+    "npm_url": "https://www.npmjs.com/~anysearch-ai"
+  },
+  {
+    "handle": "aprilwizard",
+    "plugins": [
+      {
+        "slug": "aprilwizard--dsh-multi-cot",
+        "name": "@aprilwizard/dsh-multi-cot",
+        "grade": "C",
+        "overall": 42,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 42,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/aprilwizard",
+    "npm_url": "https://www.npmjs.com/~aprilwizard"
+  },
+  {
+    "handle": "artificialnotimbecile",
+    "plugins": [
+      {
+        "slug": "artificialnotimbecile--dsh-context-taxonomy",
+        "name": "@artificialnotimbecile/dsh-context-taxonomy",
+        "grade": "C",
+        "overall": 54,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 54,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/artificialnotimbecile",
+    "npm_url": "https://www.npmjs.com/~artificialnotimbecile"
+  },
+  {
+    "handle": "bocha-ai",
+    "plugins": [
+      {
+        "slug": "bocha-ai--dsh-web-search-bocha",
+        "name": "@bocha-ai/dsh-web-search-bocha",
+        "grade": "C",
+        "overall": 52,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 52,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/bocha-ai",
+    "npm_url": "https://www.npmjs.com/~bocha-ai"
+  },
+  {
+    "handle": "brainpilot",
+    "plugins": [
+      {
+        "slug": "brainpilot--dsh-neuro-previewer",
+        "name": "@brainpilot/dsh-neuro-previewer",
+        "grade": "C",
+        "overall": 53,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 53,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/brainpilot",
+    "npm_url": "https://www.npmjs.com/~brainpilot"
+  },
+  {
+    "handle": "bujue3184",
+    "plugins": [
+      {
+        "slug": "bujue3184--dsh-tool-vision",
+        "name": "@bujue3184/dsh-tool-vision",
+        "grade": "C",
+        "overall": 53,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 53,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/bujue3184",
+    "npm_url": "https://www.npmjs.com/~bujue3184"
+  },
+  {
+    "handle": "chuantian",
+    "plugins": [
+      {
+        "slug": "chuantian--dsh-share",
+        "name": "@chuantian/dsh-share",
+        "grade": "B",
+        "overall": 62,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 62,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/ChuanTianML",
+    "npm_url": "https://www.npmjs.com/~chuantian"
+  },
+  {
+    "handle": "chushixixin",
+    "plugins": [
+      {
+        "slug": "chushixixin--dsh-harness-mcp-server",
+        "name": "@chushixixin/dsh-harness-mcp-server",
+        "grade": "C",
+        "overall": 51,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 51,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/chushixixin",
+    "npm_url": "https://www.npmjs.com/~chushixixin"
+  },
+  {
+    "handle": "claude2dsh",
+    "plugins": [
+      {
+        "slug": "claude2dsh--plugin",
+        "name": "@claude2dsh/plugin",
+        "grade": "C",
+        "overall": 51,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 51,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/claude2dsh",
+    "npm_url": "https://www.npmjs.com/~claude2dsh"
+  },
+  {
+    "handle": "cradler",
+    "plugins": [
+      {
+        "slug": "cradler--dsh-plugin",
+        "name": "@cradler/dsh-plugin",
+        "grade": "C",
+        "overall": 44,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 44,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/cradler",
+    "npm_url": "https://www.npmjs.com/~cradler"
+  },
+  {
+    "handle": "crazy_th",
+    "plugins": [
+      {
+        "slug": "crazy_th--dsh-computer-use",
+        "name": "@crazy_th/dsh-computer-use",
+        "grade": "B",
+        "overall": 69,
+        "stars": 0,
+        "weekly_dl": 1148
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 1148,
+    "avg_overall": 69,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/crazy_th",
+    "npm_url": "https://www.npmjs.com/~crazy_th"
+  },
+  {
+    "handle": "cuttlefish520",
+    "plugins": [
+      {
+        "slug": "cuttlefish520--dsh-token-meter",
+        "name": "@cuttlefish520/dsh-token-meter",
+        "grade": "C",
+        "overall": 47,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 47,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/cuttlefish520",
+    "npm_url": "https://www.npmjs.com/~cuttlefish520"
+  },
+  {
+    "handle": "cyber-moshen",
+    "plugins": [
+      {
+        "slug": "cyber-moshen--dsh-plugin-market",
+        "name": "@cyber-moshen/dsh-plugin-market",
+        "grade": "C",
+        "overall": 54,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 54,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/cyber-moshen",
+    "npm_url": "https://www.npmjs.com/~cyber-moshen"
+  },
+  {
+    "handle": "deepseek-ai-harness",
+    "plugins": [
+      {
+        "slug": "deepseek-ai-harness--tui",
+        "name": "@deepseek-ai-harness/tui",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 50,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/deepseek-ai-harness",
+    "npm_url": "https://www.npmjs.com/~deepseek-ai-harness"
+  },
+  {
+    "handle": "taichuy",
+    "plugins": [
+      {
+        "slug": "deepseek-harness-auth",
+        "name": "deepseek-harness-auth",
+        "grade": "B",
+        "overall": 65,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 65,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/taichuy",
+    "npm_url": "https://www.npmjs.com/~taichuy"
+  },
+  {
+    "handle": "drive9",
+    "plugins": [
+      {
+        "slug": "drive9--drive9-dsh",
+        "name": "@drive9/drive9-dsh",
+        "grade": "C",
+        "overall": 53,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 53,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/drive9",
+    "npm_url": "https://www.npmjs.com/~drive9"
+  },
+  {
+    "handle": "bluefateludi",
+    "plugins": [
+      {
+        "slug": "dsh-agent-run-logger",
+        "name": "dsh-agent-run-logger",
+        "grade": "B",
+        "overall": 58,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 58,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/bluefateludi",
+    "npm_url": "https://www.npmjs.com/~bluefateludi"
+  },
+  {
+    "handle": "literaf",
+    "plugins": [
+      {
+        "slug": "dsh-ai4scholar",
+        "name": "dsh-ai4scholar",
+        "grade": "B",
+        "overall": 64,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/literaf",
+    "npm_url": "https://www.npmjs.com/~literaf"
+  },
+  {
+    "handle": "nirvanaslash",
+    "plugins": [
+      {
+        "slug": "dsh-artifact-preview",
+        "name": "dsh-artifact-preview",
+        "grade": "B",
+        "overall": 57,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 57,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/nirvanaslash",
+    "npm_url": "https://www.npmjs.com/~nirvanaslash"
+  },
+  {
+    "handle": "zerob13",
+    "plugins": [
+      {
+        "slug": "dsh-better-markdown",
+        "name": "dsh-better-markdown",
+        "grade": "B",
+        "overall": 64,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/zerob13",
+    "npm_url": "https://www.npmjs.com/~zerob13"
+  },
+  {
+    "handle": "HuiHuitie-zhu",
+    "plugins": [
+      {
+        "slug": "dsh-check-update",
+        "name": "dsh-check-update",
+        "grade": "B",
+        "overall": 58,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 58,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/HuiHuitie-zhu",
+    "npm_url": "https://www.npmjs.com/~HuiHuitie-zhu"
+  },
+  {
+    "handle": "Walvez",
+    "plugins": [
+      {
+        "slug": "dsh-codex-sync",
+        "name": "dsh-codex-sync",
+        "grade": "B",
+        "overall": 61,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 61,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Walvez",
+    "npm_url": "https://www.npmjs.com/~Walvez"
+  },
+  {
+    "handle": "Moraxyc",
+    "plugins": [
+      {
+        "slug": "dsh-cpa",
+        "name": "dsh-cpa",
+        "grade": "B",
+        "overall": 55,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 55,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Moraxyc",
+    "npm_url": "https://www.npmjs.com/~Moraxyc"
+  },
+  {
+    "handle": "Scorp1o117",
+    "plugins": [
+      {
+        "slug": "dsh-enhancement-suite",
+        "name": "dsh-enhancement-suite",
+        "grade": "C",
+        "overall": 54,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 54,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Scorp1o117",
+    "npm_url": "https://www.npmjs.com/~Scorp1o117"
+  },
+  {
+    "handle": "findshan",
+    "plugins": [
+      {
+        "slug": "dsh-evolving-memory",
+        "name": "dsh-evolving-memory",
+        "grade": "B",
+        "overall": 60,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/findshan",
+    "npm_url": "https://www.npmjs.com/~findshan"
+  },
+  {
+    "handle": "Luck9Star",
+    "plugins": [
+      {
+        "slug": "dsh-gateway-provider",
+        "name": "dsh-gateway-provider",
+        "grade": "B",
+        "overall": 63,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Luck9Star",
+    "npm_url": "https://www.npmjs.com/~Luck9Star"
+  },
+  {
+    "handle": "lussey820",
+    "plugins": [
+      {
+        "slug": "dsh-http-tools",
+        "name": "dsh-http-tools",
+        "grade": "B",
+        "overall": 60,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/lussey820",
+    "npm_url": "https://www.npmjs.com/~lussey820"
+  },
+  {
+    "handle": "tpmoonchefryan",
+    "plugins": [
+      {
+        "slug": "dsh-joi-channel-theme",
+        "name": "dsh-joi-channel-theme",
+        "grade": "B",
+        "overall": 64,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/tpmoonchefryan",
+    "npm_url": "https://www.npmjs.com/~tpmoonchefryan"
+  },
+  {
+    "handle": "htcqp802",
+    "plugins": [
+      {
+        "slug": "dsh-knowledge-base",
+        "name": "dsh-knowledge-base",
+        "grade": "B",
+        "overall": 62,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 62,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/htcqp802",
+    "npm_url": "https://www.npmjs.com/~htcqp802"
+  },
+  {
+    "handle": "NexusAgentX",
+    "plugins": [
+      {
+        "slug": "dsh-lens",
+        "name": "dsh-lens",
+        "grade": "B",
+        "overall": 63,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/NexusAgentX",
+    "npm_url": "https://www.npmjs.com/~NexusAgentX"
+  },
+  {
+    "handle": "qinyu765",
+    "plugins": [
+      {
+        "slug": "dsh-llm-auto-route",
+        "name": "dsh-llm-auto-route",
+        "grade": "B",
+        "overall": 62,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 62,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/qinyu765",
+    "npm_url": "https://www.npmjs.com/~qinyu765"
+  },
+  {
+    "handle": "wyyxhn1314",
+    "plugins": [
+      {
+        "slug": "dsh-mcp-server-image",
+        "name": "dsh-mcp-server-image",
+        "grade": "C",
+        "overall": 48,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 48,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/wyyxhn1314",
+    "npm_url": "https://www.npmjs.com/~wyyxhn1314"
+  },
+  {
+    "handle": "good-boy4069",
+    "plugins": [
+      {
+        "slug": "dsh-mobile-remote",
+        "name": "dsh-mobile-remote",
+        "grade": "B",
+        "overall": 65,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 65,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/good-boy4069",
+    "npm_url": "https://www.npmjs.com/~good-boy4069"
+  },
+  {
+    "handle": "Fayelin12",
+    "plugins": [
+      {
+        "slug": "dsh-office",
+        "name": "dsh-office",
+        "grade": "B",
+        "overall": 60,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Fayelin12",
+    "npm_url": "https://www.npmjs.com/~Fayelin12"
+  },
+  {
+    "handle": "mccray-s",
+    "plugins": [
+      {
+        "slug": "dsh-openai-accounts",
+        "name": "dsh-openai-accounts",
+        "grade": "B",
+        "overall": 62,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 62,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/mccray-s",
+    "npm_url": "https://www.npmjs.com/~mccray-s"
+  },
+  {
+    "handle": "mouse33333",
+    "plugins": [
+      {
+        "slug": "dsh-opencode-quota",
+        "name": "dsh-opencode-quota",
+        "grade": "B",
+        "overall": 60,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/mouse33333",
+    "npm_url": "https://www.npmjs.com/~mouse33333"
+  },
+  {
+    "handle": "YuXuanLiang-dev",
+    "plugins": [
+      {
+        "slug": "dsh-plugin-adaptive-agent-policy",
+        "name": "dsh-plugin-adaptive-agent-policy",
+        "grade": "B",
+        "overall": 56,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 56,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/YuXuanLiang-dev",
+    "npm_url": "https://www.npmjs.com/~YuXuanLiang-dev"
+  },
+  {
+    "handle": "5102a",
+    "plugins": [
+      {
+        "slug": "dsh-plugin-hot-toggle",
+        "name": "dsh-plugin-hot-toggle",
+        "grade": "B",
+        "overall": 65,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 65,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/5102a",
+    "npm_url": "https://www.npmjs.com/~5102a"
+  },
+  {
+    "handle": "Kaiji-Z",
+    "plugins": [
+      {
+        "slug": "dsh-plugin-lookatstudy",
+        "name": "dsh-plugin-lookatstudy",
+        "grade": "B",
+        "overall": 63,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Kaiji-Z",
+    "npm_url": "https://www.npmjs.com/~Kaiji-Z"
+  },
+  {
+    "handle": "Solismuchengxue",
+    "plugins": [
+      {
+        "slug": "dsh-plugin-swift-cycle",
+        "name": "dsh-plugin-swift-cycle",
+        "grade": "B",
+        "overall": 60,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Solismuchengxue",
+    "npm_url": "https://www.npmjs.com/~Solismuchengxue"
+  },
+  {
+    "handle": "AngLi1997",
+    "plugins": [
+      {
+        "slug": "dsh-plugin-sync",
+        "name": "dsh-plugin-sync",
+        "grade": "B",
+        "overall": 60,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/AngLi1997",
+    "npm_url": "https://www.npmjs.com/~AngLi1997"
+  },
+  {
+    "handle": "STARDUSTLC666",
+    "plugins": [
+      {
+        "slug": "dsh-ppt",
+        "name": "dsh-ppt",
+        "grade": "B",
+        "overall": 64,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/STARDUSTLC666",
+    "npm_url": "https://www.npmjs.com/~STARDUSTLC666"
+  },
+  {
+    "handle": "zhaoyilun",
+    "plugins": [
+      {
+        "slug": "dsh-preset-flash-director",
+        "name": "dsh-preset-flash-director",
+        "grade": "C",
+        "overall": 53,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 53,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/zhaoyilun",
+    "npm_url": "https://www.npmjs.com/~zhaoyilun"
+  },
+  {
+    "handle": "MostlyHarmlessxyz",
+    "plugins": [
+      {
+        "slug": "dsh-safe-web-fetch",
+        "name": "dsh-safe-web-fetch",
+        "grade": "B",
+        "overall": 58,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 58,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/MostlyHarmlessxyz",
+    "npm_url": "https://www.npmjs.com/~MostlyHarmlessxyz"
+  },
+  {
+    "handle": "rogerdigital",
+    "plugins": [
+      {
+        "slug": "dsh-searxng",
+        "name": "dsh-searxng",
+        "grade": "B",
+        "overall": 63,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/rogerdigital",
+    "npm_url": "https://www.npmjs.com/~rogerdigital"
+  },
+  {
+    "handle": "pengzhou267-ai",
+    "plugins": [
+      {
+        "slug": "dsh-shop-assistant",
+        "name": "dsh-shop-assistant",
+        "grade": "B",
+        "overall": 60,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/pengzhou267-ai",
+    "npm_url": "https://www.npmjs.com/~pengzhou267-ai"
+  },
+  {
+    "handle": "imkingjh999",
+    "plugins": [
+      {
+        "slug": "dsh-shorts-wall",
+        "name": "dsh-shorts-wall",
+        "grade": "B",
+        "overall": 64,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/imkingjh999",
+    "npm_url": "https://www.npmjs.com/~imkingjh999"
+  },
+  {
+    "handle": "TingRuDeng",
+    "plugins": [
+      {
+        "slug": "dsh-smart-approval",
+        "name": "dsh-smart-approval",
+        "grade": "B",
+        "overall": 57,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 57,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/TingRuDeng",
+    "npm_url": "https://www.npmjs.com/~TingRuDeng"
+  },
+  {
+    "handle": "ZhenHuangLab",
+    "plugins": [
+      {
+        "slug": "dsh-sync",
+        "name": "dsh-sync",
+        "grade": "B",
+        "overall": 64,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/ZhenHuangLab",
+    "npm_url": "https://www.npmjs.com/~ZhenHuangLab"
+  },
+  {
+    "handle": "Mu-scorpio",
+    "plugins": [
+      {
+        "slug": "dsh-token-usage-counter",
+        "name": "dsh-token-usage-counter",
+        "grade": "B",
+        "overall": 61,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 61,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Mu-scorpio",
+    "npm_url": "https://www.npmjs.com/~Mu-scorpio"
+  },
+  {
+    "handle": "xingke-seeker",
+    "plugins": [
+      {
+        "slug": "dsh-ui-notify",
+        "name": "dsh-ui-notify",
+        "grade": "A",
+        "overall": 75,
+        "stars": 0,
+        "weekly_dl": 149
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 149,
+    "avg_overall": 75,
+    "grades": {
+      "S": 0,
+      "A": 1,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/xingke-seeker",
+    "npm_url": "https://www.npmjs.com/~xingke-seeker"
+  },
+  {
+    "handle": "MicroHEROX",
+    "plugins": [
+      {
+        "slug": "dsh-unsloth-hands",
+        "name": "dsh-unsloth-hands",
+        "grade": "B",
+        "overall": 62,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 62,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/MicroHEROX",
+    "npm_url": "https://www.npmjs.com/~MicroHEROX"
+  },
+  {
+    "handle": "hezhongtang",
+    "plugins": [
+      {
+        "slug": "dsh-update-copilot",
+        "name": "dsh-update-copilot",
+        "grade": "B",
+        "overall": 64,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/hezhongtang",
+    "npm_url": "https://www.npmjs.com/~hezhongtang"
+  },
+  {
+    "handle": "stuarthu",
+    "plugins": [
+      {
+        "slug": "dsh-update-notifier",
+        "name": "dsh-update-notifier",
+        "grade": "B",
+        "overall": 63,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/stuarthu",
+    "npm_url": "https://www.npmjs.com/~stuarthu"
+  },
+  {
+    "handle": "renpengfei1027",
+    "plugins": [
+      {
+        "slug": "dsh-web-notify",
+        "name": "dsh-web-notify",
+        "grade": "B",
+        "overall": 64,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/renpengfei1027",
+    "npm_url": "https://www.npmjs.com/~renpengfei1027"
+  },
+  {
+    "handle": "modestoma",
+    "plugins": [
+      {
+        "slug": "dsh-webfile",
+        "name": "dsh-webfile",
+        "grade": "B",
+        "overall": 64,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 64,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/modestoma",
+    "npm_url": "https://www.npmjs.com/~modestoma"
+  },
+  {
+    "handle": "coolbreezecoin",
+    "plugins": [
+      {
+        "slug": "dsh-wechat-mp",
+        "name": "dsh-wechat-mp",
+        "grade": "A",
+        "overall": 76,
+        "stars": 0,
+        "weekly_dl": 278
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 278,
+    "avg_overall": 76,
+    "grades": {
+      "S": 0,
+      "A": 1,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/coolbreezecoin",
+    "npm_url": "https://www.npmjs.com/~coolbreezecoin"
+  },
+  {
+    "handle": "brickmaker",
+    "plugins": [
+      {
+        "slug": "dsh-workspace-files",
+        "name": "dsh-workspace-files",
+        "grade": "B",
+        "overall": 59,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 59,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/brickmaker",
+    "npm_url": "https://www.npmjs.com/~brickmaker"
+  },
+  {
+    "handle": "dttxorg",
+    "plugins": [
+      {
+        "slug": "dttxorg--deepseekeyes",
+        "name": "@dttxorg/deepseekeyes",
+        "grade": "A",
+        "overall": 73,
+        "stars": 0,
+        "weekly_dl": 575
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 575,
+    "avg_overall": 73,
+    "grades": {
+      "S": 0,
+      "A": 1,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/dttxorg",
+    "npm_url": "https://www.npmjs.com/~dttxorg"
+  },
+  {
+    "handle": "eddyskywalker",
+    "plugins": [
+      {
+        "slug": "eddyskywalker--dsh-chatgpt-subscription",
+        "name": "@eddyskywalker/dsh-chatgpt-subscription",
+        "grade": "C",
+        "overall": 54,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 54,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/eddyskywalker",
+    "npm_url": "https://www.npmjs.com/~eddyskywalker"
+  },
+  {
+    "handle": "kkkkkkkkki",
+    "plugins": [
+      {
+        "slug": "ersss--dsh-migrate",
+        "name": "@ersss/dsh-migrate",
+        "grade": "B",
+        "overall": 63,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/kkkkkkkkki",
+    "npm_url": "https://www.npmjs.com/~kkkkkkkkki"
+  },
+  {
+    "handle": "ersss",
+    "plugins": [
+      {
+        "slug": "ersss--dsh-migrate",
+        "name": "@ersss/dsh-migrate",
+        "grade": "B",
+        "overall": 63,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/kkkkkkkkki",
+    "npm_url": "https://www.npmjs.com/~ersss"
+  },
+  {
+    "handle": "evan-williams",
+    "plugins": [
+      {
+        "slug": "evan-williams--vision-tool",
+        "name": "@evan-williams/vision-tool",
+        "grade": "C",
+        "overall": 49,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 49,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/evan-williams",
+    "npm_url": "https://www.npmjs.com/~evan-williams"
+  },
+  {
+    "handle": "fang2hou",
+    "plugins": [
+      {
+        "slug": "fang2hou--dsh-locale-ja",
+        "name": "@fang2hou/dsh-locale-ja",
+        "grade": "C",
+        "overall": 52,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 52,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/fang2hou",
+    "npm_url": "https://www.npmjs.com/~fang2hou"
+  },
+  {
+    "handle": "frog755",
+    "plugins": [
+      {
+        "slug": "frog755--dsh-wallpaper",
+        "name": "@frog755/dsh-wallpaper",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 50,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/frog755",
+    "npm_url": "https://www.npmjs.com/~frog755"
+  },
+  {
+    "handle": "Alpha961",
+    "plugins": [
+      {
+        "slug": "gdkanban",
+        "name": "gdkanban",
+        "grade": "B",
+        "overall": 59,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 59,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Alpha961",
+    "npm_url": "https://www.npmjs.com/~Alpha961"
+  },
+  {
+    "handle": "godd6366",
+    "plugins": [
+      {
+        "slug": "godd6366--dsh-sub2api",
+        "name": "@godd6366/dsh-sub2api",
+        "grade": "C",
+        "overall": 54,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 54,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/godd6366",
+    "npm_url": "https://www.npmjs.com/~godd6366"
+  },
+  {
+    "handle": "gzmuldyxx",
+    "plugins": [
+      {
+        "slug": "gzmuldyxx--dsh-windows-tray",
+        "name": "@gzmuldyxx/dsh-windows-tray",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 50,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/gzmuldyxx",
+    "npm_url": "https://www.npmjs.com/~gzmuldyxx"
+  },
+  {
+    "handle": "hellosz",
+    "plugins": [
+      {
+        "slug": "hellosz--dsh-pets",
+        "name": "@hellosz/dsh-pets",
+        "grade": "C",
+        "overall": 54,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 54,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/hellosz",
+    "npm_url": "https://www.npmjs.com/~hellosz"
+  },
+  {
+    "handle": "hto404",
+    "plugins": [
+      {
+        "slug": "hto404--dsh-chime",
+        "name": "@hto404/dsh-chime",
+        "grade": "C",
+        "overall": 54,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 54,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/hto404",
+    "npm_url": "https://www.npmjs.com/~hto404"
+  },
+  {
+    "handle": "huichangzz",
+    "plugins": [
+      {
+        "slug": "huichangzz--dsh-postmortem",
+        "name": "@huichangzz/dsh-postmortem",
+        "grade": "C",
+        "overall": 43,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 43,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/huichangzz",
+    "npm_url": "https://www.npmjs.com/~huichangzz"
+  },
+  {
+    "handle": "huiliyi37",
+    "plugins": [
+      {
+        "slug": "huiliyi37--dsh-office",
+        "name": "@huiliyi37/dsh-office",
+        "grade": "C",
+        "overall": 52,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 52,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/huiliyi37",
+    "npm_url": "https://www.npmjs.com/~huiliyi37"
+  },
+  {
+    "handle": "hyperionykx",
+    "plugins": [
+      {
+        "slug": "hyperionykx--primordial-soup-dsh",
+        "name": "@hyperionykx/primordial-soup-dsh",
+        "grade": "C",
+        "overall": 40,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 40,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/hyperionykx",
+    "npm_url": "https://www.npmjs.com/~hyperionykx"
+  },
+  {
+    "handle": "icelily",
+    "plugins": [
+      {
+        "slug": "icelily--dsh-gitbash-preset",
+        "name": "@icelily/dsh-gitbash-preset",
+        "grade": "C",
+        "overall": 53,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 53,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/icelily",
+    "npm_url": "https://www.npmjs.com/~icelily"
+  },
+  {
+    "handle": "ironlaw",
+    "plugins": [
+      {
+        "slug": "ironlaw--adapter-dsh",
+        "name": "@ironlaw/adapter-dsh",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 50,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/ironlaw",
+    "npm_url": "https://www.npmjs.com/~ironlaw"
+  },
+  {
+    "handle": "isomoes",
+    "plugins": [
+      {
+        "slug": "isomoes--dsh-ikanban",
+        "name": "@isomoes/dsh-ikanban",
+        "grade": "C",
+        "overall": 53,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 53,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/isomoes",
+    "npm_url": "https://www.npmjs.com/~isomoes"
+  },
+  {
+    "handle": "jieai",
+    "plugins": [
+      {
+        "slug": "jieai--dsh-malong-bridge",
+        "name": "@jieai/dsh-malong-bridge",
+        "grade": "C",
+        "overall": 52,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 52,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/jieai",
+    "npm_url": "https://www.npmjs.com/~jieai"
+  },
+  {
+    "handle": "jinplu",
+    "plugins": [
+      {
+        "slug": "jinplu--dsh-plugin-discussion-intent",
+        "name": "@jinplu/dsh-plugin-discussion-intent",
+        "grade": "B",
+        "overall": 56,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 56,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/jinplu",
+    "npm_url": "https://www.npmjs.com/~jinplu"
+  },
+  {
+    "handle": "jorinyang",
+    "plugins": [
+      {
+        "slug": "jorinyang--dsh-doctor",
+        "name": "@jorinyang/dsh-doctor",
+        "grade": "C",
+        "overall": 53,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 53,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/jorinyang",
+    "npm_url": "https://www.npmjs.com/~jorinyang"
+  },
+  {
+    "handle": "kamitobi",
+    "plugins": [
+      {
+        "slug": "kamitobi--dsh-multi-search",
+        "name": "@kamitobi/dsh-multi-search",
+        "grade": "C",
+        "overall": 53,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 53,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/kamitobi",
+    "npm_url": "https://www.npmjs.com/~kamitobi"
+  },
+  {
+    "handle": "khorsheed",
+    "plugins": [
+      {
+        "slug": "khorsheed--dsh-ankh-guard",
+        "name": "@khorsheed/dsh-ankh-guard",
+        "grade": "B",
+        "overall": 67,
+        "stars": 0,
+        "weekly_dl": 239
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 239,
+    "avg_overall": 67,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/khorsheed",
+    "npm_url": "https://www.npmjs.com/~khorsheed"
+  },
+  {
+    "handle": "liguojiang",
+    "plugins": [
+      {
+        "slug": "liguojiang--dsh-plugin-desktop-pet",
+        "name": "@liguojiang/dsh-plugin-desktop-pet",
+        "grade": "C",
+        "overall": 52,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 52,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/liguojiang",
+    "npm_url": "https://www.npmjs.com/~liguojiang"
+  },
+  {
+    "handle": "lijian-ui",
+    "plugins": [
+      {
+        "slug": "lijian-ui--dsh-im-gateway",
+        "name": "@lijian-ui/dsh-im-gateway",
+        "grade": "B",
+        "overall": 55,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 55,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/lijian-ui",
+    "npm_url": "https://www.npmjs.com/~lijian-ui"
+  },
+  {
+    "handle": "liu__min",
+    "plugins": [
+      {
+        "slug": "liu__min--dsh-vision-bridge",
+        "name": "@liu__min/dsh-vision-bridge",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 50,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/liu__min",
+    "npm_url": "https://www.npmjs.com/~liu__min"
+  },
+  {
+    "handle": "lk251066",
+    "plugins": [
+      {
+        "slug": "lk251066--dsh-tui",
+        "name": "@lk251066/dsh-tui",
+        "grade": "C",
+        "overall": 48,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 48,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/lk251066",
+    "npm_url": "https://www.npmjs.com/~lk251066"
+  },
+  {
+    "handle": "lmmzss",
+    "plugins": [
+      {
+        "slug": "lmmzss--dsh-plugin-balance",
+        "name": "@lmmzss/dsh-plugin-balance",
+        "grade": "C",
+        "overall": 51,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 51,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/lmmzss",
+    "npm_url": "https://www.npmjs.com/~lmmzss"
+  },
+  {
+    "handle": "loongsuite",
+    "plugins": [
+      {
+        "slug": "loongsuite--dsh-plugin",
+        "name": "@loongsuite/dsh-plugin",
+        "grade": "C",
+        "overall": 45,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 45,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/loongsuite",
+    "npm_url": "https://www.npmjs.com/~loongsuite"
+  },
+  {
+    "handle": "lqing2018",
+    "plugins": [
+      {
+        "slug": "lqing2018--dsh-desktop-client",
+        "name": "@lqing2018/dsh-desktop-client",
+        "grade": "C",
+        "overall": 41,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 41,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/lqing2018",
+    "npm_url": "https://www.npmjs.com/~lqing2018"
+  },
+  {
+    "handle": "maskshell",
+    "plugins": [
+      {
+        "slug": "maskshell--solidforge",
+        "name": "@maskshell/solidforge",
+        "grade": "C",
+        "overall": 40,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 40,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/maskshell",
+    "npm_url": "https://www.npmjs.com/~maskshell"
+  },
+  {
+    "handle": "MemTensor",
+    "plugins": [
+      {
+        "slug": "memtensor--memos-cloud-dsh-plugin",
+        "name": "@memtensor/memos-cloud-dsh-plugin",
+        "grade": "C",
+        "overall": 52,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 52,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/MemTensor",
+    "npm_url": "https://www.npmjs.com/~MemTensor"
+  },
+  {
+    "handle": "microi.net",
+    "plugins": [
+      {
+        "slug": "microi.net--cli",
+        "name": "@microi.net/cli",
+        "grade": "B",
+        "overall": 68,
+        "stars": 0,
+        "weekly_dl": 1966
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 1966,
+    "avg_overall": 68,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/microi.net",
+    "npm_url": "https://www.npmjs.com/~microi.net"
+  },
+  {
+    "handle": "mofeng2223",
+    "plugins": [
+      {
+        "slug": "mofeng2223--dsh-claude-provider",
+        "name": "@mofeng2223/dsh-claude-provider",
+        "grade": "C",
+        "overall": 48,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 48,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/mofeng2223",
+    "npm_url": "https://www.npmjs.com/~mofeng2223"
+  },
+  {
+    "handle": "motong",
+    "plugins": [
+      {
+        "slug": "motong--dsh-voice",
+        "name": "@motong/dsh-voice",
+        "grade": "C",
+        "overall": 54,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 54,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/motong",
+    "npm_url": "https://www.npmjs.com/~motong"
+  },
+  {
+    "handle": "moyiyaoyue",
+    "plugins": [
+      {
+        "slug": "moyiyaoyue--dsh-client-ui-mermaid",
+        "name": "@moyiyaoyue/dsh-client-ui-mermaid",
+        "grade": "C",
+        "overall": 47,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 47,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/moyiyaoyue",
+    "npm_url": "https://www.npmjs.com/~moyiyaoyue"
+  },
+  {
+    "handle": "mstar-harness",
+    "plugins": [
+      {
+        "slug": "mstar-harness--dsh",
+        "name": "@mstar-harness/dsh",
+        "grade": "C",
+        "overall": 51,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 51,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/mstar-harness",
+    "npm_url": "https://www.npmjs.com/~mstar-harness"
+  },
+  {
+    "handle": "niyongsheng",
+    "plugins": [
+      {
+        "slug": "niyongsheng--free-vision-skill",
+        "name": "@niyongsheng/free-vision-skill",
+        "grade": "C",
+        "overall": 51,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 51,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/niyongsheng",
+    "npm_url": "https://www.npmjs.com/~niyongsheng"
+  },
+  {
+    "handle": "nonamelego",
+    "plugins": [
+      {
+        "slug": "nonamelego--dsh-catppuccin",
+        "name": "@nonamelego/dsh-catppuccin",
+        "grade": "C",
+        "overall": 53,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 53,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/nonamelego",
+    "npm_url": "https://www.npmjs.com/~nonamelego"
+  },
+  {
+    "handle": "npm_thanks-for-forest",
+    "plugins": [
+      {
+        "slug": "npm_thanks-for-forest--my-dsh-tool",
+        "name": "@npm_thanks-for-forest/my-dsh-tool",
+        "grade": "D",
+        "overall": 38,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 38,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 1
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/npm_thanks-for-forest",
+    "npm_url": "https://www.npmjs.com/~npm_thanks-for-forest"
+  },
+  {
+    "handle": "ohmydsh",
+    "plugins": [
+      {
+        "slug": "ohmydsh--runtime",
+        "name": "@ohmydsh/runtime",
+        "grade": "B",
+        "overall": 56,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 56,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/ohmydsh",
+    "npm_url": "https://www.npmjs.com/~ohmydsh"
+  },
+  {
+    "handle": "openguardrails",
+    "plugins": [
+      {
+        "slug": "openguardrails--dsh-auto-mode",
+        "name": "@openguardrails/dsh-auto-mode",
+        "grade": "B",
+        "overall": 56,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 56,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/openguardrails",
+    "npm_url": "https://www.npmjs.com/~openguardrails"
+  },
+  {
+    "handle": "openma",
+    "plugins": [
+      {
+        "slug": "openma--deepseek-harness-tui",
+        "name": "@openma/deepseek-harness-tui",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 50,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/openma",
+    "npm_url": "https://www.npmjs.com/~openma"
+  },
+  {
+    "handle": "louwenbo580",
+    "plugins": [
+      {
+        "slug": "paper-review",
+        "name": "paper-review",
+        "grade": "B",
+        "overall": 63,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/louwenbo580",
+    "npm_url": "https://www.npmjs.com/~louwenbo580"
+  },
+  {
+    "handle": "paradoxsch",
+    "plugins": [
+      {
+        "slug": "paradoxsch--dsh-worktree",
+        "name": "@paradoxsch/dsh-worktree",
+        "grade": "C",
+        "overall": 47,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 47,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/paradoxsch",
+    "npm_url": "https://www.npmjs.com/~paradoxsch"
+  },
+  {
+    "handle": "pinkbanana",
+    "plugins": [
+      {
+        "slug": "pinkbanana--dsh-balance",
+        "name": "@pinkbanana/dsh-balance",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 50,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/pinkbanana",
+    "npm_url": "https://www.npmjs.com/~pinkbanana"
+  },
+  {
+    "handle": "zhangzhenwen1",
+    "plugins": [
+      {
+        "slug": "qmd-autosearch",
+        "name": "qmd-autosearch",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 50,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/zhangzhenwen1",
+    "npm_url": "https://www.npmjs.com/~zhangzhenwen1"
+  },
+  {
+    "handle": "shatyuka",
+    "plugins": [
+      {
+        "slug": "shatyuka--dsh-llm-codebuddy",
+        "name": "@shatyuka/dsh-llm-codebuddy",
+        "grade": "C",
+        "overall": 48,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 48,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/shatyuka",
+    "npm_url": "https://www.npmjs.com/~shatyuka"
+  },
+  {
+    "handle": "shelken",
+    "plugins": [
+      {
+        "slug": "shelken--dsh-co-authored-by",
+        "name": "@shelken/dsh-co-authored-by",
+        "grade": "C",
+        "overall": 47,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 47,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/shelken",
+    "npm_url": "https://www.npmjs.com/~shelken"
+  },
+  {
+    "handle": "skillroute",
+    "plugins": [
+      {
+        "slug": "skillroute--dsh-plugin",
+        "name": "@skillroute/dsh-plugin",
+        "grade": "C",
+        "overall": 49,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 49,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/skillroute",
+    "npm_url": "https://www.npmjs.com/~skillroute"
+  },
+  {
+    "handle": "Ottohere-Mourn",
+    "plugins": [
+      {
+        "slug": "soyo-dsh-plugin",
+        "name": "soyo-dsh-plugin",
+        "grade": "B",
+        "overall": 63,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 63,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Ottohere-Mourn",
+    "npm_url": "https://www.npmjs.com/~Ottohere-Mourn"
+  },
+  {
+    "handle": "suhan-dsh",
+    "plugins": [
+      {
+        "slug": "suhan-dsh--taskboard",
+        "name": "@suhan-dsh/taskboard",
+        "grade": "C",
+        "overall": 54,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 54,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/suhan-dsh",
+    "npm_url": "https://www.npmjs.com/~suhan-dsh"
+  },
+  {
+    "handle": "tappass",
+    "plugins": [
+      {
+        "slug": "tappass--dsh-governance",
+        "name": "@tappass/dsh-governance",
+        "grade": "C",
+        "overall": 53,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 53,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/tappass",
+    "npm_url": "https://www.npmjs.com/~tappass"
+  },
+  {
+    "handle": "tecfancy",
+    "plugins": [
+      {
+        "slug": "tecfancy--dsh-mobile",
+        "name": "@tecfancy/dsh-mobile",
+        "grade": "B",
+        "overall": 62,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 62,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/TecFancy",
+    "npm_url": "https://www.npmjs.com/~tecfancy"
+  },
+  {
+    "handle": "temotee2103",
+    "plugins": [
+      {
+        "slug": "temotee2103--dsh-ci-co-pilot",
+        "name": "@temotee2103/dsh-ci-co-pilot",
+        "grade": "B",
+        "overall": 61,
+        "stars": 0,
+        "weekly_dl": 66
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 66,
+    "avg_overall": 61,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/temotee2103",
+    "npm_url": "https://www.npmjs.com/~temotee2103"
+  },
+  {
+    "handle": "tiyirt",
+    "plugins": [
+      {
+        "slug": "tiyirt--dsh-prompt-order-fix",
+        "name": "@tiyirt/dsh-prompt-order-fix",
+        "grade": "C",
+        "overall": 51,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 51,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/tiyirt",
+    "npm_url": "https://www.npmjs.com/~tiyirt"
+  },
+  {
+    "handle": "tommyfang",
+    "plugins": [
+      {
+        "slug": "tommyfang--gh-tea-npm-dsh",
+        "name": "@tommyfang/gh-tea-npm-dsh",
+        "grade": "C",
+        "overall": 49,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 49,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/tommyfang",
+    "npm_url": "https://www.npmjs.com/~tommyfang"
+  },
+  {
+    "handle": "tomowang",
+    "plugins": [
+      {
+        "slug": "tomowang--dsh-tui",
+        "name": "@tomowang/dsh-tui",
+        "grade": "C",
+        "overall": 52,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 52,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/tomowang",
+    "npm_url": "https://www.npmjs.com/~tomowang"
+  },
+  {
+    "handle": "tt-a1i",
+    "plugins": [
+      {
+        "slug": "tt-a1i--archify-dsh",
+        "name": "@tt-a1i/archify-dsh",
+        "grade": "C",
+        "overall": 49,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 49,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/tt-a1i",
+    "npm_url": "https://www.npmjs.com/~tt-a1i"
+  },
+  {
+    "handle": "uAcharGG",
+    "plugins": [
+      {
+        "slug": "uachar--dsh-ui-chime",
+        "name": "@uachar/dsh-ui-chime",
+        "grade": "B",
+        "overall": 57,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 57,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/uAcharGG",
+    "npm_url": "https://www.npmjs.com/~uAcharGG"
+  },
+  {
+    "handle": "uachar",
+    "plugins": [
+      {
+        "slug": "uachar--dsh-ui-chime",
+        "name": "@uachar/dsh-ui-chime",
+        "grade": "B",
+        "overall": 57,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 57,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/uAcharGG",
+    "npm_url": "https://www.npmjs.com/~uachar"
+  },
+  {
+    "handle": "ulabe",
+    "plugins": [
+      {
+        "slug": "ulabe--dsh-conversation-nav",
+        "name": "@ulabe/dsh-conversation-nav",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 50,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/ulabe",
+    "npm_url": "https://www.npmjs.com/~ulabe"
+  },
+  {
+    "handle": "wha1echai",
+    "plugins": [
+      {
+        "slug": "wha1echai--dsh-cross-session",
+        "name": "@wha1echai/dsh-cross-session",
+        "grade": "C",
+        "overall": 46,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 46,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/wha1echai",
+    "npm_url": "https://www.npmjs.com/~wha1echai"
+  },
+  {
+    "handle": "why913",
+    "plugins": [
+      {
+        "slug": "why913--dshx",
+        "name": "@why913/dshx",
+        "grade": "C",
+        "overall": 52,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 52,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/why913",
+    "npm_url": "https://www.npmjs.com/~why913"
+  },
+  {
+    "handle": "bainianlaoyao",
+    "plugins": [
+      {
+        "slug": "windows-bash",
+        "name": "windows-bash",
+        "grade": "B",
+        "overall": 60,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/bainianlaoyao",
+    "npm_url": "https://www.npmjs.com/~bainianlaoyao"
+  },
+  {
+    "handle": "windy070916-tech",
+    "plugins": [
+      {
+        "slug": "windy070916-tech--dsh-client-ui-pet",
+        "name": "@windy070916-tech/dsh-client-ui-pet",
+        "grade": "B",
+        "overall": 60,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/windy070916-tech",
+    "npm_url": "https://www.npmjs.com/~windy070916-tech"
+  },
+  {
+    "handle": "wnjxyk",
+    "plugins": [
+      {
+        "slug": "wnjxyk--dsh-codex-oauth",
+        "name": "@wnjxyk/dsh-codex-oauth",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 50,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/wnjxyk",
+    "npm_url": "https://www.npmjs.com/~wnjxyk"
+  },
+  {
+    "handle": "wsgsety",
+    "plugins": [
+      {
+        "slug": "wsgsety--dsh-plugin-manager",
+        "name": "@wsgsety/dsh-plugin-manager",
+        "grade": "C",
+        "overall": 54,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 54,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/wsgsety",
+    "npm_url": "https://www.npmjs.com/~wsgsety"
+  },
+  {
+    "handle": "xiaoso",
+    "plugins": [
+      {
+        "slug": "xiaoso--dsh-turn-navigator",
+        "name": "@xiaoso/dsh-turn-navigator",
+        "grade": "C",
+        "overall": 51,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 51,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/xiaoso",
+    "npm_url": "https://www.npmjs.com/~xiaoso"
+  },
+  {
+    "handle": "xiaweiliang060035",
+    "plugins": [
+      {
+        "slug": "xiaweiliang060035--dsh-opencode-go-usage",
+        "name": "@xiaweiliang060035/dsh-opencode-go-usage",
+        "grade": "C",
+        "overall": 53,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 53,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/xiaweiliang060035",
+    "npm_url": "https://www.npmjs.com/~xiaweiliang060035"
+  },
+  {
+    "handle": "xueayi",
+    "plugins": [
+      {
+        "slug": "xueayi--dsh-opencode-go-usage",
+        "name": "@xueayi/dsh-opencode-go-usage",
+        "grade": "C",
+        "overall": 52,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 52,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/xueayi",
+    "npm_url": "https://www.npmjs.com/~xueayi"
+  },
+  {
+    "handle": "ya8d",
+    "plugins": [
+      {
+        "slug": "ya8d--dsh-directive-compact",
+        "name": "@ya8d/dsh-directive-compact",
+        "grade": "C",
+        "overall": 53,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 53,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/ya8d",
+    "npm_url": "https://www.npmjs.com/~ya8d"
+  },
+  {
+    "handle": "yinging",
+    "plugins": [
+      {
+        "slug": "yinging--dsh-hme",
+        "name": "@yinging/dsh-hme",
+        "grade": "C",
+        "overall": 43,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 43,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/yinging",
+    "npm_url": "https://www.npmjs.com/~yinging"
+  },
+  {
+    "handle": "yogsoth-ai",
+    "plugins": [
+      {
+        "slug": "yogsoth-ai--dare-dsh",
+        "name": "@yogsoth-ai/dare-dsh",
+        "grade": "C",
+        "overall": 43,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 43,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/yogsoth-ai",
+    "npm_url": "https://www.npmjs.com/~yogsoth-ai"
+  },
+  {
+    "handle": "yokesky",
+    "plugins": [
+      {
+        "slug": "yokesky--dsh-usage-lens",
+        "name": "@yokesky/dsh-usage-lens",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 50,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/yokesky",
+    "npm_url": "https://www.npmjs.com/~yokesky"
+  },
+  {
+    "handle": "cchenbin042",
+    "plugins": [
+      {
+        "slug": "yuque-notes-plugin",
+        "name": "yuque-notes-plugin",
+        "grade": "B",
+        "overall": 60,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 60,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/cchenbin042",
+    "npm_url": "https://www.npmjs.com/~cchenbin042"
+  },
+  {
+    "handle": "yuquexianzhou",
+    "plugins": [
+      {
+        "slug": "yuquexianzhou--solarized-dsh-theme",
+        "name": "@yuquexianzhou/solarized-dsh-theme",
+        "grade": "C",
+        "overall": 50,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 50,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/yuquexianzhou",
+    "npm_url": "https://www.npmjs.com/~yuquexianzhou"
+  },
+  {
+    "handle": "Yuuu0109",
+    "plugins": [
+      {
+        "slug": "yuuu0109--dsh-cache-hit-decimal",
+        "name": "@yuuu0109/dsh-cache-hit-decimal",
+        "grade": "B",
+        "overall": 61,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 61,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Yuuu0109",
+    "npm_url": "https://www.npmjs.com/~Yuuu0109"
+  },
+  {
+    "handle": "yuuu0109",
+    "plugins": [
+      {
+        "slug": "yuuu0109--dsh-cache-hit-decimal",
+        "name": "@yuuu0109/dsh-cache-hit-decimal",
+        "grade": "B",
+        "overall": 61,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 61,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/Yuuu0109",
+    "npm_url": "https://www.npmjs.com/~yuuu0109"
+  },
+  {
+    "handle": "zaogaogwc",
+    "plugins": [
+      {
+        "slug": "zaogaogwc--dsh-plugin-manager",
+        "name": "@zaogaogwc/dsh-plugin-manager",
+        "grade": "C",
+        "overall": 54,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 54,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/zaogaogwc",
+    "npm_url": "https://www.npmjs.com/~zaogaogwc"
+  },
+  {
+    "handle": "zhaoolee",
+    "plugins": [
+      {
+        "slug": "zhaoolee--dsh-notes",
+        "name": "@zhaoolee/dsh-notes",
+        "grade": "C",
+        "overall": 51,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 51,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/zhaoolee",
+    "npm_url": "https://www.npmjs.com/~zhaoolee"
+  },
+  {
+    "handle": "zhujunpeng12",
+    "plugins": [
+      {
+        "slug": "zhujunpeng12--dsh-memory-system",
+        "name": "@zhujunpeng12/dsh-memory-system",
+        "grade": "C",
+        "overall": 52,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 52,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/zhujunpeng12",
+    "npm_url": "https://www.npmjs.com/~zhujunpeng12"
+  },
+  {
+    "handle": "zihaovistonwang",
+    "plugins": [
+      {
+        "slug": "zihaovistonwang--stata-ai-skill",
+        "name": "@zihaovistonwang/stata-ai-skill",
+        "grade": "C",
+        "overall": 53,
+        "stars": 0,
+        "weekly_dl": 0
+      }
+    ],
+    "total_stars": 0,
+    "total_weekly_dl": 0,
+    "avg_overall": 53,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0
+    },
+    "plugin_count": 1,
+    "gh_url": "https://github.com/zihaovistonwang",
+    "npm_url": "https://www.npmjs.com/~zihaovistonwang"
+  }
+]

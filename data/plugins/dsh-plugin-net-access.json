@@ -1,0 +1,41 @@
+{
+  "slug": "dsh-plugin-net-access",
+  "name": "dsh-plugin-net-access",
+  "version": "0.1.0",
+  "description": "Net Access permission preset for DeepSeek Harness (Windows): HTTPS works inside the sandbox while file writes stay confined like workspace-write.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "net-access",
+    "sandbox",
+    "windows",
+    "permission"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-net-access",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./plugin/cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T18:01:44.885Z",
+  "created_at": "2026-08-15T18:01:44.612Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 65,
+    "dsh_compat": 85,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:34.162Z"
+}

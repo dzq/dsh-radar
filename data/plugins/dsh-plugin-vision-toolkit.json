@@ -1,0 +1,41 @@
+{
+  "slug": "dsh-plugin-vision-toolkit",
+  "name": "dsh-plugin-vision-toolkit",
+  "version": "0.1.0",
+  "description": "Vision toolkit for DeepSeek Harness -- glance, ground, detect, crop CLI tools for text-only agents to understand images",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "vision",
+    "multimodal",
+    "deepseek-vl",
+    "ocr",
+    "image"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/YYTbit/dsh-plugin-vision-toolkit.git",
+  "homepage": "https://github.com/YYTbit/dsh-plugin-vision-toolkit#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-vision-toolkit",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T15:08:01.714Z",
+  "created_at": "2026-08-13T15:08:01.506Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:59:26.101Z"
+}

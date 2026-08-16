@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-token-usage-counter",
+  "name": "dsh-token-usage-counter",
+  "version": "0.1.0",
+  "description": "Persistent provider-reported token usage statistics for DeepSeek Harness, with per-session, per-model, and daily activity data.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "deepseek-harness",
+    "token-usage",
+    "usage-statistics",
+    "token-analytics",
+    "prompt-cache",
+    "llm-observability",
+    "typescript",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Mu-scorpio/token-usage-counter.git",
+  "homepage": "https://github.com/Mu-scorpio/token-usage-counter#readme",
+  "npm": "https://www.npmjs.com/package/dsh-token-usage-counter",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T06:24:22.087Z",
+  "created_at": "2026-08-16T06:24:21.799Z",
+  "gh": {
+    "full_name": "Mu-scorpio/token-usage-counter",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T06:26:48Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 61,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:59:48.524Z"
+}

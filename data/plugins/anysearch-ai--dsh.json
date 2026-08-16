@@ -1,0 +1,40 @@
+{
+  "slug": "anysearch-ai--dsh",
+  "name": "@anysearch-ai/dsh",
+  "version": "0.1.0",
+  "description": "AnySearch web search provider and advanced tools for DeepSeek Harness",
+  "keywords": [
+    "anysearch",
+    "deepseek-harness",
+    "dsh-plugin",
+    "web-search"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/anysearch-team/anysearch-dsh.git",
+  "homepage": "https://github.com/anysearch-team/anysearch-dsh#readme",
+  "npm": "https://www.npmjs.com/package/@anysearch-ai/dsh",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T04:09:59.416Z",
+  "created_at": "2026-08-14T04:09:59.118Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:55.212Z"
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-safe-delete",
+  "name": "dsh-safe-delete",
+  "version": "0.2.0",
+  "description": "Safe delete plugin for DeepSeek Harness (DSH): move files to trash / staging area instead of permanent removal, with restore and purge support.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "safe-delete",
+    "trash",
+    "file-management"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/Qintsg/dsh-safe-delete.git",
+  "homepage": "https://github.com/Qintsg/dsh-safe-delete#readme",
+  "npm": "https://www.npmjs.com/package/dsh-safe-delete",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T14:31:17.061Z",
+  "created_at": "2026-08-13T15:35:40.524Z",
+  "gh": {
+    "full_name": "Qintsg/dsh-safe-delete",
+    "stars": 3,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T14:29:20Z",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 60,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T08:01:07.573Z"
+}

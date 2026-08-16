@@ -1,0 +1,46 @@
+{
+  "slug": "kamitobi--dsh-multi-search",
+  "name": "@kamitobi/dsh-multi-search",
+  "version": "0.1.6",
+  "description": "Community plugin — NOT affiliated with DeepSeek AI. Extensible multi-provider web search for DSH — built-in DashScope and MiMo, easy to add more.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "web-search",
+    "dashscope",
+    "mimo",
+    "xiaomi",
+    "aliyun",
+    "openai",
+    "qwen"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/kamitobi/dsh-multi-search.git",
+  "homepage": "https://github.com/kamitobi/dsh-multi-search#readme",
+  "npm": "https://www.npmjs.com/package/@kamitobi/dsh-multi-search",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T07:28:48.820Z",
+  "created_at": "2026-08-16T05:13:34.968Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:26.574Z"
+}

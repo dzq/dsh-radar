@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-soul-md",
+  "name": "dsh-soul-md",
+  "version": "0.5.3",
+  "description": "DeepSeek Harness 的 soul.md 风格人设 + 长期记忆插件：设置页输入人设卡名称和内容即可，文件由插件自动管理；可按工作区指定人设、聊天框可给会话单独切人设；AI 可自行演化人设与记忆（soul_read/soul_update/memory_*）。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "persona",
+    "soul",
+    "memory",
+    "roleplay",
+    "system-prompt"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Scorp1o117/dsh-soul-md.git",
+  "homepage": "https://github.com/Scorp1o117/dsh-soul-md",
+  "npm": "https://www.npmjs.com/package/dsh-soul-md",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20.18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T15:20:03.169Z",
+  "created_at": "2026-08-13T15:50:43.258Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:03.519Z"
+}

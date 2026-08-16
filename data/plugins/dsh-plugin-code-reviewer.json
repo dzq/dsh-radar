@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-plugin-code-reviewer",
+  "name": "dsh-plugin-code-reviewer",
+  "version": "0.1.0",
+  "description": "3 local deterministic tools for DeepSeek Harness: code_review (14 static rules incl. OPC UA/Modbus/MQTT/serial/timeout), mqtt_probe (MQTT packet decoder), opcua_validate (NodeId validator). SCADA/MES/LIMS source scanner. 本地静态代码审查与工业协议解析工具插件。",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "plugin",
+    "cordis",
+    "code-review",
+    "static-analysis",
+    "scada",
+    "mes",
+    "lims",
+    "industrial",
+    "opc-ua",
+    "modbus",
+    "mqtt",
+    "factory-automation"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-code-reviewer",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T15:28:23.307Z",
+  "created_at": "2026-08-15T15:28:22.915Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T07:58:37.094Z"
+}

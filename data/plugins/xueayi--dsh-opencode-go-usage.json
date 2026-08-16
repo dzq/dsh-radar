@@ -1,0 +1,50 @@
+{
+  "slug": "xueayi--dsh-opencode-go-usage",
+  "name": "@xueayi/dsh-opencode-go-usage",
+  "version": "0.1.3",
+  "description": "OpenCode Go plan usage monitor for DeepSeek Harness: real-time 5h-rolling / weekly / monthly quota in a floating web dock",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "opencode",
+    "opencode-go",
+    "usage",
+    "quota",
+    "monitor"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/xueayi/dsh-opencode-go-usage.git",
+  "homepage": "https://github.com/xueayi/dsh-opencode-go-usage#readme",
+  "npm": "https://www.npmjs.com/package/@xueayi/dsh-opencode-go-usage",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T17:59:29.482Z",
+  "created_at": "2026-08-15T17:39:56.737Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:36.112Z"
+}

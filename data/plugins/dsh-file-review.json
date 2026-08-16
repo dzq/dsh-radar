@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-file-review",
+  "name": "dsh-file-review",
+  "version": "0.3.1",
+  "description": "Review files produced by DeepSeek Harness turns in a line-numbered unified diff drawer",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "diff",
+    "code-review"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/left0ver/dsh-file-review.git",
+  "homepage": "https://github.com/left0ver/dsh-file-review#readme",
+  "npm": "https://www.npmjs.com/package/dsh-file-review",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T05:51:30.284Z",
+  "created_at": "2026-08-14T06:39:51.203Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:23.042Z"
+}

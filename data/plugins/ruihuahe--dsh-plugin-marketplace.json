@@ -1,0 +1,71 @@
+{
+  "slug": "ruihuahe--dsh-plugin-marketplace",
+  "name": "@ruihuahe/dsh-plugin-marketplace",
+  "version": "0.1.0",
+  "description": "Generated-catalog plugin discovery and npm installation marketplace for DeepSeek Harness",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "plugin-marketplace",
+    "plugin-discovery",
+    "cordis",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/hrhgit/deepseek-harness-plugin-manager.git",
+  "homepage": "https://github.com/hrhgit/deepseek-harness-plugin-manager#readme",
+  "npm": "https://www.npmjs.com/package/@ruihuahe/dsh-plugin-marketplace",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "plugin": {
+      "schemaVersion": 1,
+      "displayName": {
+        "zh-CN": "插件市场",
+        "en": "Plugin Marketplace"
+      },
+      "summary": {
+        "zh-CN": "从自动更新的插件目录中发现并安装经过校验的 DSH 插件。",
+        "en": "Discover and install validated DSH plugins from an automatically updated catalog."
+      },
+      "category": "plugin-marketplace"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-api-gateway"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T13:35:57.588Z",
+  "created_at": "2026-08-14T13:35:57.213Z",
+  "gh": {
+    "full_name": "hrhgit/deepseek-harness-plugin-manager",
+    "stars": 3,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T18:52:19Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 61,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T07:58:26.166Z"
+}

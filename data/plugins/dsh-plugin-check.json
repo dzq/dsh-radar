@@ -1,0 +1,54 @@
+{
+  "slug": "dsh-plugin-check",
+  "name": "dsh-plugin-check",
+  "version": "0.1.0",
+  "description": "Check the dsh plugins you already installed against a registry of verified packages: which ship a broken package, which are pinned to a dsh version that no longer exists, and which run code on your machine at install time. Drafts the issue that fixes each",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness",
+    "doctor",
+    "health-check",
+    "diagnostics"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/stimQQ/dshplugins.git",
+  "homepage": "https://dshplugins.co",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-check",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "plugin": {
+      "schemaVersion": 1,
+      "category": "devtools",
+      "displayName": {
+        "en": "Plugin Check",
+        "zh-CN": "插件体检"
+      },
+      "summary": {
+        "en": "Checks the plugins you already installed against the public registry and reports what is broken, stale, or risky.",
+        "zh-CN": "拿你已装的插件去公开注册表比对，报告哪些坏了、哪些版本过期、哪些有风险。"
+      }
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T00:17:34.475Z",
+  "created_at": "2026-08-16T00:17:34.216Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:18.057Z"
+}

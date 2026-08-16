@@ -1,0 +1,40 @@
+{
+  "slug": "dsh-pi-host",
+  "name": "dsh-pi-host",
+  "version": "0.1.0-rc.2",
+  "description": "Run Pi extensions as agent-scoped DeepSeek Harness plugins",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "pi-extension",
+    "ai-agents"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/TGYD-helige/dsh-pi.git",
+  "homepage": "https://github.com/TGYD-helige/dsh-pi#readme",
+  "npm": "https://www.npmjs.com/package/dsh-pi-host",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T14:43:05.848Z",
+  "created_at": "2026-08-14T14:27:33.608Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 43,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:00:22.631Z"
+}

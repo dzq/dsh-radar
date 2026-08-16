@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-rtk-rewrite",
+  "name": "dsh-rtk-rewrite",
+  "version": "0.1.0",
+  "description": "DSH (DeepSeek Harness) plugin that auto-rewrites pwsh tool commands to their rtk equivalents before execution — cutting shell output tokens by 42-90%. Commands with no rtk equivalent pass through unchanged.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "plugin",
+    "rtk",
+    "token",
+    "optimization",
+    "token-savings"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-rtk-rewrite",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T16:01:42.365Z",
+  "created_at": "2026-08-15T16:01:42.141Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 40,
+    "dsh_compat": 75,
+    "overall": 48,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T08:01:06.347Z"
+}
