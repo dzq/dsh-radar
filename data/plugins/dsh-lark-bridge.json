@@ -29,15 +29,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T13:24:05.553Z",
   "created_at": "2026-08-14T13:24:05.260Z",
-  "gh": null,
+  "gh": {
+    "full_name": "leo-lab-2026/dsh-lark-bridge",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T15:09:00Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 55,
+    "maintenance": 99,
+    "quality": 65,
     "security": 65,
     "dsh_compat": 75,
-    "overall": 48,
-    "grade": "C"
+    "overall": 58,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:00:21.397Z"
+  "updated_at": "2026-08-16T09:27:17.044Z"
 }

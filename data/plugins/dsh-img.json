@@ -1,7 +1,7 @@
 {
   "slug": "dsh-img",
   "name": "dsh-img",
-  "version": "0.2.6",
+  "version": "0.3.0",
   "description": "Give text-only models eyes: an analyze_image tool for DeepSeek Harness, backed by free Chinese vision APIs (GLM-4V-Flash / Qwen-VL) or any OpenAI-compatible vision endpoint. 给纯文本模型装上眼睛。",
   "keywords": [
     "dsh-plugin",
@@ -27,19 +27,19 @@
   "engines": {
     "node": ">=20"
   },
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
-  "last_publish": "2026-08-14T18:31:20.954Z",
+  "weekly_downloads": 74,
+  "monthly_downloads": 74,
+  "last_publish": "2026-08-16T09:00:06.729Z",
   "created_at": "2026-08-14T16:04:48.215Z",
   "gh": null,
   "scores": {
-    "popularity": 0,
-    "maintenance": 59,
+    "popularity": 47,
+    "maintenance": 60,
     "quality": 90,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 64,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:01:28.842Z"
+  "updated_at": "2026-08-16T09:24:47.770Z"
 }

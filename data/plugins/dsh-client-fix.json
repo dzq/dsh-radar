@@ -1,0 +1,40 @@
+{
+  "slug": "dsh-client-fix",
+  "name": "dsh-client-fix",
+  "version": "1.5.0",
+  "description": "客户端修复插件：fs.watch无延迟自动同步web(市场更新即同步) + 预加豁免 + 修复shim",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "fix",
+    "sync"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-client-fix",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T08:40:19.008Z",
+  "created_at": "2026-08-16T08:40:18.793Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 48,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T09:26:20.073Z"
+}

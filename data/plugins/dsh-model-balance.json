@@ -47,15 +47,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T11:28:17.616Z",
   "created_at": "2026-08-15T11:19:15.457Z",
-  "gh": null,
+  "gh": {
+    "full_name": "nabin-qq273274877/dsh-model-balance",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:58:47Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 99,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 63,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T07:58:37.092Z"
+  "updated_at": "2026-08-16T09:25:14.019Z"
 }

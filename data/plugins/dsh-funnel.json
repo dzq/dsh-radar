@@ -29,15 +29,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T09:41:51.010Z",
   "created_at": "2026-08-15T09:41:50.534Z",
-  "gh": null,
+  "gh": {
+    "full_name": "YuanyuanMa03/dsh-funnel",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T09:36:13Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 99,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 60,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:01:08.390Z"
+  "updated_at": "2026-08-16T09:28:34.761Z"
 }

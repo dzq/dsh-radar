@@ -36,15 +36,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T08:08:03.722Z",
   "created_at": "2026-08-15T07:48:21.082Z",
-  "gh": null,
+  "gh": {
+    "full_name": "KeLearns/dsh-navigation-bar",
+    "stars": 3,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T03:27:56Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 99,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 60,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T07:59:58.179Z"
+  "updated_at": "2026-08-16T09:26:36.105Z"
 }

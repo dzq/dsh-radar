@@ -1,8 +1,8 @@
 {
   "slug": "dsh-persona-memory",
   "name": "dsh-persona-memory",
-  "version": "0.1.12",
-  "description": "Persistent long-term persona memory for DeepSeek Harness: MEMORY.md/USER.md storage, memory + memory_search tools, per-request context injection, and secret scanning. Ported in spirit from pi-hermes-memory.",
+  "version": "0.1.18",
+  "description": "Persistent long-term persona memory for DeepSeek Harness: MEMORY.md/USER.md storage, memory + memory_search tools, per-request context injection, secret scanning, and a WebUI memory-management settings page. Ported in spirit from pi-hermes-memory.",
   "keywords": [
     "dsh",
     "dsh-plugin",
@@ -21,22 +21,36 @@
   "dsh_meta": {
     "bundle": {
       "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
     }
   },
   "engines": {},
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-14T17:04:35.562Z",
+  "last_publish": "2026-08-16T01:55:42.724Z",
   "created_at": "2026-08-14T13:05:36.964Z",
-  "gh": null,
+  "gh": {
+    "full_name": "Quophic/dsh-persona-memory",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T01:56:01Z",
+    "archived": false,
+    "license": "NOASSERTION"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 100,
     "quality": 90,
     "security": 50,
-    "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 62,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:00:08.972Z"
+  "updated_at": "2026-08-16T09:26:59.275Z"
 }

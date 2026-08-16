@@ -36,15 +36,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T07:55:43.850Z",
   "created_at": "2026-08-14T03:29:14.681Z",
-  "gh": null,
+  "gh": {
+    "full_name": "chendefine/dsh-plugins-plan-usage",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T07:55:38Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 98,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 63,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T07:59:27.950Z"
+  "updated_at": "2026-08-16T09:26:00.986Z"
 }

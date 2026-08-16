@@ -36,7 +36,7 @@
   "gh": {
     "full_name": "liustack/pptfast",
     "stars": 4,
-    "open_issues": 0,
+    "open_issues": 1,
     "pushed_at": "2026-08-14T21:38:02Z",
     "archived": false,
     "license": "MIT"
@@ -50,5 +50,5 @@
     "overall": 80,
     "grade": "A"
   },
-  "updated_at": "2026-08-16T07:58:15.962Z"
+  "updated_at": "2026-08-16T09:24:30.661Z"
 }

@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-settings-nav-fold",
+  "name": "dsh-settings-nav-fold",
+  "version": "1.0.1",
+  "description": "Fold plugin/extension settings entries in the DSH settings panel into one collapsible \"Plugin entries\" group row — one click to expand or collapse, auto-updating as plugins come and go.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "settings",
+    "sidebar",
+    "nav",
+    "fold",
+    "ui"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zhengjy01/dsh-settings-nav-fold.git",
+  "homepage": "https://github.com/zhengjy01/dsh-settings-nav-fold#readme",
+  "npm": "https://www.npmjs.com/package/dsh-settings-nav-fold",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T08:51:20.038Z",
+  "created_at": "2026-08-16T08:32:17.413Z",
+  "gh": {
+    "full_name": "zhengjy01/dsh-settings-nav-fold",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T08:51:15Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 61,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T09:26:20.429Z"
+}

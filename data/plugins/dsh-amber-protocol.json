@@ -28,15 +28,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T17:43:12.730Z",
   "created_at": "2026-08-13T23:52:21.046Z",
-  "gh": null,
+  "gh": {
+    "full_name": "Bandersnatch0x/amber-protocol",
+    "stars": 1,
+    "open_issues": 3,
+    "pushed_at": "2026-08-15T13:17:45Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 99,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 63,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:00:00.846Z"
+  "updated_at": "2026-08-16T09:26:41.975Z"
 }

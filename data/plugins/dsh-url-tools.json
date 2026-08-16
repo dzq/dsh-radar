@@ -1,0 +1,37 @@
+{
+  "slug": "dsh-url-tools",
+  "name": "dsh-url-tools",
+  "version": "0.1.0",
+  "description": "DSH plugin: URL parse/clean/decode/encode/expand tool (url_tool), zero-dependency pure ESM.",
+  "keywords": [
+    "dsh-plugin",
+    "url",
+    "utility"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-url-tools",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T08:47:15.147Z",
+  "created_at": "2026-08-16T08:47:14.896Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T09:25:20.142Z"
+}

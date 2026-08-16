@@ -1,8 +1,8 @@
 {
   "slug": "dsh-plugin-writing-guard",
   "name": "dsh-plugin-writing-guard",
-  "version": "0.6.0",
-  "description": "DSH plugin: deterministic academic-writing quality guard — Scholarship Lock (protects numbers/citations during polishing), defensive-saturation density, overlong sentence & clause stacking, restatement-loop, author style profile, incremental lint, segment",
+  "version": "0.9.2",
+  "description": "Deterministic manuscript integrity guard for AI-assisted academic revision — protects scientific facts, claim strength (causal & evidential axes), negation, null findings, scope, citations and author style during polishing, while flagging mechanical AI wr",
   "keywords": [
     "deepseek-harness",
     "dsh",
@@ -32,17 +32,24 @@
   },
   "weekly_downloads": 164,
   "monthly_downloads": 164,
-  "last_publish": "2026-08-16T00:45:19.900Z",
+  "last_publish": "2026-08-16T09:13:59.041Z",
   "created_at": "2026-08-15T12:43:30.763Z",
-  "gh": null,
+  "gh": {
+    "full_name": "xmutfyh/dsh-plugin-writing-guard",
+    "stars": 7,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T09:13:43Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 55,
-    "maintenance": 60,
-    "quality": 90,
+    "maintenance": 100,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 66,
-    "grade": "B"
+    "overall": 76,
+    "grade": "A"
   },
-  "updated_at": "2026-08-16T07:58:22.470Z"
+  "updated_at": "2026-08-16T09:24:44.815Z"
 }

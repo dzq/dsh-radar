@@ -34,15 +34,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T06:47:47.523Z",
   "created_at": "2026-08-15T05:49:07.101Z",
-  "gh": null,
+  "gh": {
+    "full_name": "penguin-oo/dsh-pathlink",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T06:47:43Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 99,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 60,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T07:59:05.651Z"
+  "updated_at": "2026-08-16T09:25:43.054Z"
 }

@@ -1,8 +1,8 @@
 {
   "slug": "dsh-plugin-quota",
   "name": "dsh-plugin-quota",
-  "version": "0.1.0",
-  "description": "DeepSeek account quota (balance) and session token usage for the DeepSeek Harness web UI",
+  "version": "0.1.1",
+  "description": "Real-time DeepSeek account balance and per-session token usage for the DeepSeek Harness web UI: per-currency quota card with availability badge and refresh, plus current-session input/output/cache token breakdown, as an installable Settings section.",
   "keywords": [
     "deepseek",
     "deepseek-harness",
@@ -36,7 +36,7 @@
   },
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-16T06:01:25.090Z",
+  "last_publish": "2026-08-16T08:46:16.099Z",
   "created_at": "2026-08-16T06:01:21.852Z",
   "gh": null,
   "scores": {
@@ -48,5 +48,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-16T08:00:36.152Z"
+  "updated_at": "2026-08-16T09:27:44.938Z"
 }

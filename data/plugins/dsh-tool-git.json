@@ -27,15 +27,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T16:11:29.289Z",
   "created_at": "2026-08-14T01:44:11.956Z",
-  "gh": null,
+  "gh": {
+    "full_name": "lxj808624/dsh-tool-git",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T06:17:46Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 99,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 62,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T07:59:55.099Z"
+  "updated_at": "2026-08-16T09:26:30.518Z"
 }

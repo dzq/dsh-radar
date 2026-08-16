@@ -32,15 +32,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:35:40.931Z",
   "created_at": "2026-08-15T16:35:40.575Z",
-  "gh": null,
+  "gh": {
+    "full_name": "knowhycodata/dsh-plugin-llmtr",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T16:36:08Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 99,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 62,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:00:03.930Z"
+  "updated_at": "2026-08-16T09:26:49.063Z"
 }

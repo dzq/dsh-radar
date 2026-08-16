@@ -37,15 +37,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T18:17:52.864Z",
   "created_at": "2026-08-15T18:17:52.463Z",
-  "gh": null,
+  "gh": {
+    "full_name": "pengyue-polaron/deepseek-harness-genui",
+    "stars": 11,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:14:19Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
-    "quality": 80,
+    "maintenance": 99,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 52,
-    "grade": "C"
+    "overall": 61,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T07:59:10.326Z"
+  "updated_at": "2026-08-16T09:25:46.309Z"
 }

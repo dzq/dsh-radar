@@ -34,15 +34,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:26:04.217Z",
   "created_at": "2026-08-15T16:26:04.016Z",
-  "gh": null,
+  "gh": {
+    "full_name": "ttmouse/dsh-dingtalk-channel",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T16:26:13Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 99,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 62,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:00:07.409Z"
+  "updated_at": "2026-08-16T09:26:57.679Z"
 }

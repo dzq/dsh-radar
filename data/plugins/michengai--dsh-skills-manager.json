@@ -1,7 +1,7 @@
 {
   "slug": "michengai--dsh-skills-manager",
   "name": "@michengai/dsh-skills-manager",
-  "version": "0.1.7",
+  "version": "0.1.13",
   "description": "NPM-installable DSH Web plugin for managing local skills and viewing shared Agent skills safely.",
   "keywords": [
     "deepseek-harness",
@@ -35,17 +35,24 @@
   },
   "weekly_downloads": 905,
   "monthly_downloads": 905,
-  "last_publish": "2026-08-15T15:56:11.926Z",
+  "last_publish": "2026-08-16T09:19:52.534Z",
   "created_at": "2026-08-15T10:50:22.540Z",
-  "gh": null,
+  "gh": {
+    "full_name": "MichengAI/dsh-skills-manager",
+    "stars": 5,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T09:19:40Z",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
   "scores": {
     "popularity": 74,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 100,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 72,
+    "overall": 82,
     "grade": "A"
   },
-  "updated_at": "2026-08-16T07:58:18.443Z"
+  "updated_at": "2026-08-16T09:24:35.879Z"
 }

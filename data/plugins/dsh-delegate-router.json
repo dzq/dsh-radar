@@ -1,0 +1,57 @@
+{
+  "slug": "dsh-delegate-router",
+  "name": "dsh-delegate-router",
+  "version": "0.2.1",
+  "description": "Delegate light subagent tasks to cheaper models: automatic Flash/Pro routing for DeepSeek Harness subagent calls, with /delegate overrides, budget caps, and a routing-ledger panel.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "subagent",
+    "router",
+    "model",
+    "cost",
+    "flash"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/penguin-oo/dsh-delegate-router.git",
+  "homepage": "https://github.com/penguin-oo/dsh-delegate-router#readme",
+  "npm": "https://www.npmjs.com/package/dsh-delegate-router",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T09:16:34.435Z",
+  "created_at": "2026-08-16T09:02:28.578Z",
+  "gh": {
+    "full_name": "penguin-oo/dsh-delegate-router",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T09:16:29Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 61,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T09:29:26.147Z"
+}

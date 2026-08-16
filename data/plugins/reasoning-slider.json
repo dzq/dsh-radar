@@ -28,15 +28,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T12:54:36.505Z",
   "created_at": "2026-08-14T12:48:13.695Z",
-  "gh": null,
+  "gh": {
+    "full_name": "qjcnmd/dsh-reasoning-slider",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T12:54:26Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 98,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 85,
-    "overall": 51,
-    "grade": "C"
+    "overall": 61,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:00:22.219Z"
+  "updated_at": "2026-08-16T09:27:19.721Z"
 }

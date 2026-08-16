@@ -42,15 +42,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T11:03:50.453Z",
   "created_at": "2026-08-15T11:03:50.088Z",
-  "gh": null,
+  "gh": {
+    "full_name": "Saikel-Orado-Liu/dsh-fare-meter",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T14:31:58Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 99,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 63,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T07:59:28.978Z"
+  "updated_at": "2026-08-16T09:26:03.556Z"
 }

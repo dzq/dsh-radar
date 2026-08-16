@@ -1,7 +1,7 @@
 {
   "slug": "dshmarket",
   "name": "dshmarket",
-  "version": "1.5.0",
+  "version": "1.9.0",
   "description": "Visual plugin market inside DeepSeek Harness — browse, search, and one-click install community plugins. · DSH 可视化插件市场：逛一逛，点一下，装好。",
   "keywords": [
     "deepseek",
@@ -35,17 +35,24 @@
   "engines": {},
   "weekly_downloads": 11862,
   "monthly_downloads": 11862,
-  "last_publish": "2026-08-15T15:22:18.484Z",
+  "last_publish": "2026-08-16T07:23:17.632Z",
   "created_at": "2026-08-13T15:33:59.185Z",
-  "gh": null,
+  "gh": {
+    "full_name": "dsh-market/dsh-market",
+    "stars": 416,
+    "open_issues": 11,
+    "pushed_at": "2026-08-16T07:22:51Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 100,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 100,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 85,
-    "overall": 76,
-    "grade": "A"
+    "overall": 87,
+    "grade": "S"
   },
-  "updated_at": "2026-08-16T07:58:10.594Z"
+  "updated_at": "2026-08-16T09:24:28.959Z"
 }

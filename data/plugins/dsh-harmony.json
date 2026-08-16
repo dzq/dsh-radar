@@ -53,15 +53,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T12:41:52.777Z",
   "created_at": "2026-08-14T21:40:45.927Z",
-  "gh": null,
+  "gh": {
+    "full_name": "CH4ACKO3/dsh-harmony",
+    "stars": 8,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T13:58:57Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 99,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 90,
-    "overall": 55,
+    "overall": 65,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T07:59:10.529Z"
+  "updated_at": "2026-08-16T09:25:46.579Z"
 }

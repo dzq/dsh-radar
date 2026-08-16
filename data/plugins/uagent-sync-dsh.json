@@ -1,7 +1,7 @@
 {
   "slug": "uagent-sync-dsh",
   "name": "uagent-sync-dsh",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "description": "U同步 / Uagent Sync — cross-device workspace sync for DeepSeek Harness: backup, restore, and ecosystem update via the uagent-sync CLI.",
   "keywords": [
     "deepseek-harness",
@@ -24,17 +24,24 @@
   "engines": {},
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-15T13:28:51.625Z",
+  "last_publish": "2026-08-16T04:56:45.013Z",
   "created_at": "2026-08-14T13:07:45.549Z",
-  "gh": null,
+  "gh": {
+    "full_name": "severin-ye/uagent-sync",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T04:56:53Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 100,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 63,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:01:20.958Z"
+  "updated_at": "2026-08-16T09:28:52.711Z"
 }

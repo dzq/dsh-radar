@@ -35,15 +35,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:08:44.651Z",
   "created_at": "2026-08-15T12:18:22.087Z",
-  "gh": null,
+  "gh": {
+    "full_name": "Frog755/dsh-wallpaper",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T14:08:22Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 99,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 60,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:01:10.643Z"
+  "updated_at": "2026-08-16T09:28:40.438Z"
 }

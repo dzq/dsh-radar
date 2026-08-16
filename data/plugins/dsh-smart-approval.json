@@ -1,7 +1,7 @@
 {
   "slug": "dsh-smart-approval",
   "name": "dsh-smart-approval",
-  "version": "0.1.0-rc.5",
+  "version": "0.1.0-rc.6",
   "description": "Fail-closed LLM-assisted approval reviewer for DeepSeek Harness",
   "keywords": [
     "deepseek-harness",
@@ -31,26 +31,26 @@
   "engines": {
     "node": ">=24.0.0"
   },
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
-  "last_publish": "2026-08-15T12:03:50.825Z",
+  "weekly_downloads": 792,
+  "monthly_downloads": 792,
+  "last_publish": "2026-08-16T08:31:58.504Z",
   "created_at": "2026-08-15T03:03:44.599Z",
   "gh": {
     "full_name": "TingRuDeng/dsh-smart-approval",
     "stars": 0,
     "open_issues": 0,
-    "pushed_at": "2026-08-15T11:58:12Z",
+    "pushed_at": "2026-08-16T08:36:23Z",
     "archived": false,
     "license": "MIT"
   },
   "scores": {
-    "popularity": 0,
-    "maintenance": 99,
+    "popularity": 72,
+    "maintenance": 100,
     "quality": 65,
     "security": 50,
     "dsh_compat": 85,
-    "overall": 57,
-    "grade": "B"
+    "overall": 76,
+    "grade": "A"
   },
-  "updated_at": "2026-08-16T07:58:32.928Z"
+  "updated_at": "2026-08-16T09:24:36.828Z"
 }

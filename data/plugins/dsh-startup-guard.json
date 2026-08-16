@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-startup-guard",
+  "name": "dsh-startup-guard",
+  "version": "1.0.0",
+  "description": "Boot-time guard for DeepSeek Harness: repairs corrupt session logs, snapshots manifests + linked sources, preflights bundle resolution and composition, vm-checks client artifacts, smokes host apply() in a child process and quarantines crash-causing bundle",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "startup",
+    "guard",
+    "preflight",
+    "boot",
+    "self-heal"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/aokamoaki/dsh-startup-guard.git",
+  "homepage": "https://github.com/aokamoaki/dsh-startup-guard#readme",
+  "npm": "https://www.npmjs.com/package/dsh-startup-guard",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T08:35:47.834Z",
+  "created_at": "2026-08-16T08:35:47.476Z",
+  "gh": {
+    "full_name": "aokamoaki/dsh-startup-guard",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T09:07:32Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 64,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T09:29:22.393Z"
+}

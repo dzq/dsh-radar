@@ -1,0 +1,56 @@
+{
+  "slug": "dsh-video-preview",
+  "name": "dsh-video-preview",
+  "version": "0.1.1",
+  "description": "Inline video preview for dsh-better-sidebar: plays .mp4/.webm/.mov/.mkv/.avi etc. in the sidebar editor with HTTP Range (seeking) support via a dedicated /video host route",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "better-sidebar",
+    "video",
+    "preview",
+    "file-viewer"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zemul/dsh-video-preview.git",
+  "homepage": "https://github.com/zemul/dsh-video-preview",
+  "npm": "https://www.npmjs.com/package/dsh-video-preview",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T08:04:54.608Z",
+  "created_at": "2026-08-16T08:04:54.414Z",
+  "gh": {
+    "full_name": "zemul/dsh-video-preview",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:55:15Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 64,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T09:29:21.712Z"
+}

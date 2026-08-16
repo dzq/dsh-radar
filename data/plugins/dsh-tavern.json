@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-tavern",
+  "name": "dsh-tavern",
+  "version": "1.0.0",
+  "description": "DeepSeek 酒馆 - embed the tavern into DeepSeek Harness Web UI as a native management panel: multiple character cards, multiple worldbooks, switchable presets, deep-light theme, auto-dismiss.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "deepseek-harness",
+    "tavern",
+    "character-card",
+    "worldbook",
+    "llm",
+    "ai"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zouyuxuan122/dsh-tavern.git",
+  "homepage": "https://github.com/zouyuxuan122/dsh-tavern#readme",
+  "npm": "https://www.npmjs.com/package/dsh-tavern",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T09:14:34.874Z",
+  "created_at": "2026-08-16T09:14:34.664Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-16T09:29:25.542Z"
+}

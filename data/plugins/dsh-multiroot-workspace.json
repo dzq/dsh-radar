@@ -37,15 +37,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:29:57.646Z",
   "created_at": "2026-08-15T15:20:02.950Z",
-  "gh": null,
+  "gh": {
+    "full_name": "Blackoutta/dsh-multiroot-workspace",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T15:56:56Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 45,
+    "maintenance": 99,
+    "quality": 55,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 44,
+    "overall": 54,
     "grade": "C"
   },
-  "updated_at": "2026-08-16T08:01:11.261Z"
+  "updated_at": "2026-08-16T09:28:41.541Z"
 }

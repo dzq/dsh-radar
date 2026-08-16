@@ -30,15 +30,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T15:24:40.748Z",
   "created_at": "2026-08-14T15:24:40.383Z",
-  "gh": null,
+  "gh": {
+    "full_name": "GZMULDY/dsh-windows-tray",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T15:19:16Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 99,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 60,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:00:00.026Z"
+  "updated_at": "2026-08-16T09:26:39.641Z"
 }

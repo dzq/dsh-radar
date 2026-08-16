@@ -1,7 +1,7 @@
 {
   "slug": "dsh-cockpit",
   "name": "dsh-cockpit",
-  "version": "0.2.0",
+  "version": "0.2.3",
   "description": "A desktop-style project and AI workbench for DeepSeek Harness",
   "keywords": [
     "deepseek-harness",
@@ -22,17 +22,24 @@
   "engines": {},
   "weekly_downloads": 134,
   "monthly_downloads": 134,
-  "last_publish": "2026-08-15T17:49:37.953Z",
+  "last_publish": "2026-08-16T06:32:49.222Z",
   "created_at": "2026-08-15T17:49:37.620Z",
-  "gh": null,
+  "gh": {
+    "full_name": "ethan0084/dsh-cockpit",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T06:45:35Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 53,
-    "maintenance": 60,
-    "quality": 55,
+    "maintenance": 100,
+    "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 60,
-    "grade": "B"
+    "overall": 70,
+    "grade": "A"
   },
-  "updated_at": "2026-08-16T07:58:22.883Z"
+  "updated_at": "2026-08-16T09:24:45.728Z"
 }

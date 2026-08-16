@@ -28,15 +28,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:28:31.080Z",
   "created_at": "2026-08-15T06:20:29.529Z",
-  "gh": null,
+  "gh": {
+    "full_name": "highland0971/dsh-native-memory",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T00:34:11Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 99,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 60,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:01:36.523Z"
+  "updated_at": "2026-08-16T09:29:15.202Z"
 }

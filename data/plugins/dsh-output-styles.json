@@ -37,15 +37,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T07:58:13.136Z",
   "created_at": "2026-08-14T11:20:38.185Z",
-  "gh": null,
+  "gh": {
+    "full_name": "PerryLink/dsh-output-styles",
+    "stars": 3,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T09:13:33Z",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 99,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 85,
-    "overall": 54,
-    "grade": "C"
+    "overall": 64,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T07:59:57.359Z"
+  "updated_at": "2026-08-16T09:26:34.943Z"
 }

@@ -31,15 +31,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:09:38.447Z",
   "created_at": "2026-08-15T15:09:38.161Z",
-  "gh": null,
+  "gh": {
+    "full_name": "yonro/xmemo-deepseek-plugin",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T15:47:11Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 99,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 63,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:00:03.314Z"
+  "updated_at": "2026-08-16T09:26:47.844Z"
 }

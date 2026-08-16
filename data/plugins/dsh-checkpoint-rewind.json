@@ -32,15 +32,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T05:08:26.653Z",
   "created_at": "2026-08-14T10:15:34.037Z",
-  "gh": null,
+  "gh": {
+    "full_name": "PerryLink/dsh-checkpoint-rewind",
+    "stars": 3,
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T05:45:00Z",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 99,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 63,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:01:05.107Z"
+  "updated_at": "2026-08-16T09:28:28.800Z"
 }

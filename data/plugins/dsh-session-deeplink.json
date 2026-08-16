@@ -32,15 +32,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T12:15:45.674Z",
   "created_at": "2026-08-14T11:38:58.902Z",
-  "gh": null,
+  "gh": {
+    "full_name": "R3alloc/dsh-session-deeplink",
+    "stars": 6,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T12:16:22Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 98,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 60,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T07:58:58.485Z"
+  "updated_at": "2026-08-16T09:25:33.754Z"
 }

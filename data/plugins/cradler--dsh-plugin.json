@@ -23,15 +23,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-16T00:35:50.768Z",
   "created_at": "2026-08-16T00:32:28.870Z",
-  "gh": null,
+  "gh": {
+    "full_name": "cradler-ai/dsh-plugin",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T00:35:46Z",
+    "archived": false,
+    "license": null
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 100,
     "quality": 90,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 44,
+    "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-16T08:00:08.022Z"
+  "updated_at": "2026-08-16T09:26:58.695Z"
 }

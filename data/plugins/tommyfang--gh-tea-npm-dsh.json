@@ -35,15 +35,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T01:51:53.623Z",
   "created_at": "2026-08-15T01:51:53.239Z",
-  "gh": null,
+  "gh": {
+    "full_name": "TommyFang2077/gh-tea-npm-dsh",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T02:27:16Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 99,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 59,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:01:03.873Z"
+  "updated_at": "2026-08-16T09:28:26.040Z"
 }

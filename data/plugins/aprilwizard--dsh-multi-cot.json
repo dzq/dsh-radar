@@ -22,15 +22,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-13T17:10:21.015Z",
   "created_at": "2026-08-13T17:10:20.630Z",
-  "gh": null,
+  "gh": {
+    "full_name": "AprilWizard/dsh-multi-cot",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T17:07:32Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 98,
+    "quality": 100,
     "security": 40,
     "dsh_compat": 30,
-    "overall": 42,
+    "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-16T07:59:25.898Z"
+  "updated_at": "2026-08-16T09:25:55.048Z"
 }

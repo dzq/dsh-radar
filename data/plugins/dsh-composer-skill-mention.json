@@ -37,15 +37,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:02:12.542Z",
   "created_at": "2026-08-15T14:02:12.140Z",
-  "gh": null,
+  "gh": {
+    "full_name": "SisyphusSQ/dsh-plugins",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T14:33:18Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 99,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 85,
-    "overall": 51,
-    "grade": "C"
+    "overall": 61,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:00:01.873Z"
+  "updated_at": "2026-08-16T09:26:43.217Z"
 }

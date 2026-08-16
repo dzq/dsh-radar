@@ -1,7 +1,7 @@
 {
   "slug": "dsh-rigorquant",
   "name": "dsh-rigorquant",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "RigorQuant for DeepSeek Harness: session-scoped unattended, context-isolated multi-agent research for empirical/computational mathematics with a four-part pre-implementation check battery and a jacobian/Lean escalation lane.",
   "keywords": [
     "dsh",
@@ -23,17 +23,17 @@
   "engines": {},
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-15T02:45:17.653Z",
+  "last_publish": "2026-08-16T03:35:53.425Z",
   "created_at": "2026-08-14T21:02:55.162Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 60,
     "quality": 90,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
+    "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-16T08:01:14.561Z"
+  "updated_at": "2026-08-16T09:28:44.618Z"
 }

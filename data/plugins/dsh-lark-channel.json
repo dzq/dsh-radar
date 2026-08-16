@@ -34,15 +34,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T13:05:03.101Z",
   "created_at": "2026-08-14T06:14:06.578Z",
-  "gh": null,
+  "gh": {
+    "full_name": "omdsh-dev/dsh-lark",
+    "stars": 23,
+    "open_issues": 2,
+    "pushed_at": "2026-08-15T13:10:06Z",
+    "archived": false,
+    "license": "BSD-3-Clause"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 99,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 62,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:00:05.365Z"
+  "updated_at": "2026-08-16T09:26:51.616Z"
 }

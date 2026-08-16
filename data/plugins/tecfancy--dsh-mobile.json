@@ -1,7 +1,7 @@
 {
   "slug": "tecfancy--dsh-mobile",
   "name": "@tecfancy/dsh-mobile",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "description": "DSH web shell mobile adapter plugin: overlay sidebar/details drawers, responsive composer and settings below 768px, zero desktop regression. DSH Web 移动端适配插件:抽屉浮层化、输入栏与设置页响应式适配,桌面零回归。",
   "keywords": [
     "dsh",
@@ -33,13 +33,13 @@
   },
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-16T08:00:10.080Z",
+  "last_publish": "2026-08-16T09:01:29.591Z",
   "created_at": "2026-08-16T07:28:30.518Z",
   "gh": {
     "full_name": "TecFancy/dsh-mobile",
     "stars": 0,
     "open_issues": 0,
-    "pushed_at": "2026-08-16T07:59:23Z",
+    "pushed_at": "2026-08-16T09:14:09Z",
     "archived": false,
     "license": "MIT"
   },
@@ -52,5 +52,5 @@
     "overall": 62,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T08:01:23.674Z"
+  "updated_at": "2026-08-16T09:28:57.214Z"
 }

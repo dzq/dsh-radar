@@ -1,7 +1,7 @@
 {
   "slug": "dsh-plugin-reload",
   "name": "dsh-plugin-reload",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A DeepSeek Harness plugin: model-facing reload_plugin tool that restarts one Cordis Loader entry (by entry id, module name, or MCP serverName) without touching sibling entries — respawns mcp-client server processes and hard-reloads in-process plugin code ",
   "keywords": [
     "deepseek-harness",
@@ -25,17 +25,24 @@
   "engines": {},
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-15T09:10:46.211Z",
+  "last_publish": "2026-08-16T04:20:32.280Z",
   "created_at": "2026-08-14T08:53:45.909Z",
-  "gh": null,
+  "gh": {
+    "full_name": "reina4xa/dsh-plugin-reload",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T04:20:22Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 100,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 60,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:00:27.153Z"
+  "updated_at": "2026-08-16T09:27:31.056Z"
 }

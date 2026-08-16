@@ -35,15 +35,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T07:25:55.686Z",
   "created_at": "2026-08-14T07:25:55.179Z",
-  "gh": null,
+  "gh": {
+    "full_name": "walnut-a/dsh-user-message-navigation",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T07:24:22Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 98,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 60,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:00:19.555Z"
+  "updated_at": "2026-08-16T09:27:12.693Z"
 }

@@ -35,15 +35,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T19:08:32.116Z",
   "created_at": "2026-08-15T19:08:31.860Z",
-  "gh": null,
+  "gh": {
+    "full_name": "eric-song-dev/dsh-ikun-pet",
+    "stars": 3,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T19:27:33Z",
+    "archived": false,
+    "license": "NOASSERTION"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 100,
     "quality": 90,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 54,
-    "grade": "C"
+    "overall": 62,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T07:59:06.466Z"
+  "updated_at": "2026-08-16T09:25:44.727Z"
 }

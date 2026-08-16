@@ -1,8 +1,8 @@
 {
   "slug": "dsh-engramory",
   "name": "dsh-engramory",
-  "version": "0.1.1",
-  "description": "Curated file-based long-term memory for DeepSeek Harness — human-readable markdown notes, one git-versioned store shared across hosts, and a deterministic index cap enforced by ctx.tools.guard()",
+  "version": "0.2.0",
+  "description": "Curated file-based long-term memory for DeepSeek Harness — human-readable markdown notes, one plain-file store shared across hosts (git-ignored when it lives inside a project repo), and a deterministic index cap enforced by ctx.tools.guard()",
   "keywords": [
     "dsh-plugin",
     "deepseek-harness",
@@ -28,17 +28,24 @@
   },
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-15T12:11:23.687Z",
+  "last_publish": "2026-08-16T03:15:10.815Z",
   "created_at": "2026-08-15T12:03:47.287Z",
-  "gh": null,
+  "gh": {
+    "full_name": "tinqiao-oss/engramory",
+    "stars": 154,
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T04:17:21Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 100,
+    "quality": 100,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 63,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T07:59:35.832Z"
+  "updated_at": "2026-08-16T09:26:07.947Z"
 }

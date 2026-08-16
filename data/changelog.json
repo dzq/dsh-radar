@@ -48,5 +48,42 @@
     "generated_at": "2026-08-16T01:55:19.531Z",
     "top10_in": [],
     "top10_out": []
+  },
+  {
+    "file": "2026-08-16-0954.json",
+    "prev": "2026-08-16-0929.json",
+    "total_delta": -800,
+    "grades": {
+      "S": -2,
+      "A": -47,
+      "B": -526,
+      "C": -214,
+      "D": -11
+    },
+    "downloads_delta": -46353,
+    "compat_delta": -739,
+    "generated_at": "2026-08-16T01:54:50.281Z",
+    "top10_in": [
+      "@liustack/pptfast",
+      "design-playbook",
+      "plaindeck",
+      "@microi.net/cli",
+      "@sakikotgw/pack-agent",
+      "dsh-llm-auto-route",
+      "dsh-verification-receipt",
+      "@ruihuahe/dsh-plugin-marketplace",
+      "dsh-codex-pet"
+    ],
+    "top10_out": [
+      "dshmarket",
+      "dsh-pocket",
+      "dsh-builtin-browser",
+      "dsh-deepread",
+      "dsh-win32",
+      "dsh-mnemon",
+      "@dttxorg/deepseekeyes",
+      "dsh-better-edit",
+      "pi2dsh"
+    ]
   }
 ]

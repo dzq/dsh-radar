@@ -1,0 +1,57 @@
+{
+  "slug": "dsh-checkpoint-diff",
+  "name": "dsh-checkpoint-diff",
+  "version": "0.1.0",
+  "description": "File-diff visualization between checkpoint time nodes for DeepSeek Harness: a read-only timeline + per-file line diff over the dsh-checkpoint-rewind checkpoints storage domain, exposed as a /diff command, a JSON HTTP API, and a GUI panel (session header a",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "diff",
+    "checkpoint",
+    "snapshot",
+    "timeline",
+    "cordis-plugin"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/wonderfulcode1/dsh-checkpoint-diff.git",
+  "homepage": "https://github.com/wonderfulcode1/dsh-checkpoint-diff#readme",
+  "npm": "https://www.npmjs.com/package/dsh-checkpoint-diff",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T09:23:32.822Z",
+  "created_at": "2026-08-16T09:23:32.621Z",
+  "gh": {
+    "full_name": "wonderfulcode1/dsh-checkpoint-diff",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T09:07:20Z",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 65,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-16T09:29:26.384Z"
+}

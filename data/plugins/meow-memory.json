@@ -1,7 +1,7 @@
 {
   "slug": "meow-memory",
   "name": "meow-memory",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Cross-session project memory for DeepSeek Harness: PROJECT.md snapshot injected into the first user message (cache-friendly), memory_remember tool, and automatic reflection after ReAct tasks.",
   "keywords": [
     "deepseek-harness",
@@ -24,24 +24,24 @@
   "engines": {},
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-15T06:02:58.957Z",
+  "last_publish": "2026-08-16T01:40:21.011Z",
   "created_at": "2026-08-15T06:02:58.745Z",
   "gh": {
     "full_name": "Phant0Meow/dsh-memory-meow",
     "stars": 2,
     "open_issues": 0,
-    "pushed_at": "2026-08-15T16:44:07Z",
+    "pushed_at": "2026-08-16T06:57:15Z",
     "archived": false,
     "license": "MIT"
   },
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
+    "maintenance": 100,
     "quality": 100,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 63,
+    "overall": 64,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T08:00:55.845Z"
+  "updated_at": "2026-08-16T09:28:14.446Z"
 }

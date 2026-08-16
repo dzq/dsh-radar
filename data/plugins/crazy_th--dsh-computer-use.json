@@ -35,15 +35,22 @@
   "monthly_downloads": 1148,
   "last_publish": "2026-08-15T14:19:18.466Z",
   "created_at": "2026-08-15T08:15:11.651Z",
-  "gh": null,
+  "gh": {
+    "full_name": "ThreeBody6666/dsh-computer-use",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T14:19:13Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 77,
-    "maintenance": 59,
-    "quality": 65,
+    "maintenance": 99,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 85,
-    "overall": 69,
-    "grade": "B"
+    "overall": 79,
+    "grade": "A"
   },
-  "updated_at": "2026-08-16T07:58:18.033Z"
+  "updated_at": "2026-08-16T09:24:34.816Z"
 }

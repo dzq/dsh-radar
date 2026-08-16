@@ -34,15 +34,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T16:07:06.410Z",
   "created_at": "2026-08-14T16:07:06.218Z",
-  "gh": null,
+  "gh": {
+    "full_name": "luoyu-xingu/dsh-background",
+    "stars": 3,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T16:05:16Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 75,
+    "maintenance": 99,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 60,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T08:00:48.386Z"
+  "updated_at": "2026-08-16T09:27:58.750Z"
 }

@@ -1,7 +1,7 @@
 {
   "slug": "yuque-notes-plugin",
   "name": "yuque-notes-plugin",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Save messy notes (text + images) to a Yuque knowledge base, classified by the model.",
   "keywords": [
     "dsh-plugin",
@@ -22,7 +22,7 @@
   "engines": {},
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-15T06:48:31.502Z",
+  "last_publish": "2026-08-16T04:10:28.221Z",
   "created_at": "2026-08-15T06:48:31.299Z",
   "gh": {
     "full_name": "cchenbin042/yuque-notes-plugin",
@@ -34,12 +34,12 @@
   },
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
+    "maintenance": 100,
     "quality": 90,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 60,
+    "overall": 61,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T07:58:36.679Z"
+  "updated_at": "2026-08-16T09:25:13.058Z"
 }

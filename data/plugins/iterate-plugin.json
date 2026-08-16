@@ -30,15 +30,22 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-16T00:26:53.278Z",
   "created_at": "2026-08-14T12:59:03.522Z",
-  "gh": null,
+  "gh": {
+    "full_name": "jingzhao-l/iterate-skill",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T05:50:08Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
-    "quality": 90,
+    "maintenance": 100,
+    "quality": 100,
     "security": 65,
     "dsh_compat": 75,
-    "overall": 55,
+    "overall": 65,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T07:59:36.241Z"
+  "updated_at": "2026-08-16T09:26:08.866Z"
 }
