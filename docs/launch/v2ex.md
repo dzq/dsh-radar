@@ -79,7 +79,6 @@ Total weekly downloads: 8,692
 /playground    插件组合实验场（即将上线 · 拖拽组合 + 实时兼容性预测）
 /changelog     周报页（即将上线 · 自动汇总本周插件变动）
 /subscribe     RSS / Email (Web3Forms) / Webhook
-/team          B 端团队版（$19/seat/月）
 ```
 
 ---

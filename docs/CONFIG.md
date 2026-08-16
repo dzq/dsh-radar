@@ -6,7 +6,7 @@ DSH Radar 默认**完全零追踪**（不打点、不发请求）。如需启用
 
 ### Formspree（联系表单后端）
 
-**作用**：把 `/subscribe` 和 `/team` 的表单提交转发到你的邮箱
+**作用**：把 `/subscribe` 的表单提交转发到你的邮箱
 
 **步骤**：
 1. 注册 [formspree.io](https://formspree.io/)（免费 50 submissions/月）

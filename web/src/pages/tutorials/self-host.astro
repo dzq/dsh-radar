@@ -178,7 +178,7 @@ rsync -avz --delete dist/ user@server:/var/www/dsh-radar/`}</code></pre>
     <h2 style="margin-top:40px;font-size:24px;">环境变量配置</h2>
     <p style="color:var(--text-dim);margin-top:12px;">
       整站<strong>只有一个前端环境变量</strong>：<code>PUBLIC_WEB3FORMS_KEY</code>，
-      供 <a href="/subscribe">/subscribe</a> 和 <a href="/team">/team</a> 两个页面的表单使用。
+      供 <a href="/subscribe">/subscribe</a> 页面的表单使用。
       <code>PUBLIC_</code> 是 Astro 的约定前缀——带这个前缀的变量会被<strong>编译进客户端产物</strong>，
       所以它天生就是公开的，绝对不要往里塞任何私密凭据。
     </p>

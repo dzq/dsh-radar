@@ -97,7 +97,7 @@ A: 见 `docs/CONFIG.md`，支持 GitHub Pages / Cloudflare Pages / Vercel / 自�
 部署后立刻接：
 
 1. **Plausible**（已集成，填 env 即生效）
-   - 关键页：/、/plugins、/team、/subscribe
+   - 关键页：/、/plugins、/subscribe
    - 目标：首周 1000 PV
 2. **GitHub Stars**（最重要的北极星）
    - 目标：T+7d 50 star · T+30d 200 star
