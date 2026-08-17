@@ -25,19 +25,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-playwright-browser\n\n[English](README.md)\n\n面向 [DeepSeek Harness（DSH）](https://github.com/deepseek-ai/deepseek-harness) 的 Playwright 浏览器自动化插件，提供语义定位、多标签页和持久浏览器控制能力。\n\n本插件在行为设计上参考 Codex Browser 技能，但不包含 Codex 运行时代码，也不依赖 OpenAI 的浏览器绑定。DSH 目前仍是开发者预览版；本项目已针对 DSH `0.1.0-rc.6` 包系列进行测试。\n\n## 主要能力\n\n- 10 个原生 `browser_*` 工具。\n- 可复用浏览器上下文和稳定标签页 ID。\n- 每次交互后返回新的 accessibility 或可见文本快照。\n- `role=button|保存`、`label=邮箱` 等语义定位。\n- 接受快照友好的 `button|保存`、`textbox|邮箱` role 简写。\n- 支持截图、等待、键盘、前进、后退、刷新和多标签管理。\n- Playwright Chromium 缺失时自动尝试系统 Chrome 和 Edge。\n- 操作支持取消，由 Cordis 生命周期统一清理。\n- 不提供任意页面 JavaScript `eval`。\n\n## 环境要求\n\n- Node.js `^22.19.0` 或 `>=24.0.0`。\n- 一个 DSH profile。\n- Playwright Chromium、系统 Chrome/Edge，或明确配置的浏览器可执行文件。\n\n安装 Playwright Chromium：\n\n```sh\nnpx playwright install chromium\n```\n\n## 安装\n\n从 npm 安装：\n\n```sh\nds",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T04:46:43.351Z",
   "created_at": "2026-08-14T04:46:43.056Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:01.759Z"
+  "updated_at": "2026-08-17T04:27:46.445Z"
 }

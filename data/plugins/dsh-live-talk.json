@@ -29,19 +29,19 @@
   "engines": {
     "node": ">=22.13.0"
   },
+  "readme": "# Live Talk\n\nAnimate any photo into a responsive virtual girl. She talks, turns, smiles, and moves naturally in sync with your conversation. Low-lag, high-detail.\n\n## 三层结构\n\n| 层 | 位置 | 职责 |\n|---|---|---|\n| dsh 插件壳（发布/安装/UI） | `package.json`、`cordis.patch.yml`、`src/index.js`、`src/client.js` | dsh bundle/client manifest、host 路由、浏览器 `conversation.view` 标签页与零 Key TTS 试听 |\n| 对话角色可视化 core | `src/core/characters.js`、`character-registry.js`、`dialogue-pipeline.js`、`emotion.js`、`conversation-bridge.js` | 人物 manifest、人物注册表、与供应商无关的语义管线（句子切分、情绪/动作、TTS 清洗）、dsh session 事件桥 |\n| 语音/视频 provider seam | `src/core/seams.js`、`provider-registry.js` | `asr` / `tts` / `avatar-media` 三个可替换能力注册表 |\n\n当前是**能安装、能显示人物、语音/视频/实时 provider 齐备的切片**：人物卡来自 `/live/characters`，UI 通过 dsh slot 注册；host 已注册 `asr-doubao` / `tts-doubao`",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T15:55:25.726Z",
   "created_at": "2026-08-16T14:23:28.074Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 52,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:03:41.598Z"
+  "updated_at": "2026-08-17T04:27:47.705Z"
 }

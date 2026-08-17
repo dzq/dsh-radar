@@ -16,19 +16,19 @@
   "dsh_compat": false,
   "dsh_meta": null,
   "engines": {},
+  "readme": "# dsh-frozen\n\nReserved name — in development.\n\nA prompt-cache guardian plugin for [DeepSeek Harness (dsh)](https://github.com/deepseek-ai/deepseek-harness): cache-hit accounting per turn and a live HUD next to the official stats line.\n\n即将到来：dsh 的 prompt cache 守护插件——逐轮缓存命中对账 + 官方统计行旁的实时 HUD。\n\nBy the authors of `dsh-memory-pyramid`.\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:12:00.450Z",
   "created_at": "2026-08-16T08:12:00.259Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 36,
+    "overall": 25,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:04:57.973Z"
+  "updated_at": "2026-08-17T04:27:47.719Z"
 }

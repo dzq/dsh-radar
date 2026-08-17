@@ -26,19 +26,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-session-browser\n\n[English](README.md) | **中文**\n\n[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)\n\n同一工作区内的跨 session 只读浏览：给每个 session 的模型提供三个工具，让它能**查看同工作区其他 session 的对话内容**。\n\n- `list_sessions` — 列出调用方工作区内的其他 session（id / 标题 / cwd / 创建时间 / live / persisted）。可选 `query`（对 id / 标题 / cwd 的大小写不敏感子串）和 `limit`（默认 50，最大 100）。\n- `read_session` — 读取另一个 session 当前的对话表面（仅用户消息 + 助手文本；工具调用、推理、注入上下文默认排除）。可选 `maxMessages`（保留最新，默认 50）和 `includeToolResults`（默认 false）。\n- `search_sessions` — 在调用方工作区内全文搜索（需启用 SQLite FTS 索引，见下）。可选 `limit`（默认 10，最大 20）。\n\n## 安全与边界\n\n- **严格同工作区限制**：所有读取以调用方 session 的 `cwd`（工作区路径）为界。不同 cwd 的 session 不可见、不可读，没有后门参数；自身 session 一律排除。\n- **只读快照**：内容来自 `ctx.sessionQuery.readSurface()`（live 优先，持久化兜底），是对方 session 当前模型表面的一次性快照，非订阅、非实时。\n- **UNTRUSTED 标记**：所有跨 session 输",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T20:35:29.880Z",
   "created_at": "2026-08-15T18:54:10.161Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:03:43.959Z"
+  "updated_at": "2026-08-17T04:27:47.710Z"
 }

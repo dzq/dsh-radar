@@ -35,26 +35,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "<div align=\"center\">\n\n# dsh-sync\n\n**Git sync for DeepSeek Harness settings and profile configuration.**\n\n*Sync what should travel. Keep secrets, machine-local values, and executable changes under your control.*\n\n[![DeepSeek Harness](https://img.shields.io/badge/DeepSeek_Harness-plugin-4f46e5)](https://github.com/deepseek-ai/deepseek-harness)\n[![npm](https://img.shields.io/npm/v/dsh-sync)](https://www.npmjs.com/package/dsh-sync)\n[![license](https://img.shields.io/github/license/ZhenHuangLab/dsh-sync)](./LICENSE)\n[![stars](https://img.shields.io/github/stars/ZhenHuangLab/dsh-sync?style=flat)](https://github.com/ZhenHuangLab/dsh-sync/stargazers)\n\n</div>\n\n<p align=\"center\">\n  <a href=\"#installation\"><b>Install</b></a>\n  &nbsp;·&nbsp;\n  <a href=\"#quick-start\"><b>Quick start</b></a>\n  &nbsp;·&nb",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T04:25:09.609Z",
   "created_at": "2026-08-15T12:41:38.289Z",
-  "gh": {
-    "full_name": "ZhenHuangLab/dsh-sync",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T04:22:54Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 64,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:44.123Z"
+  "updated_at": "2026-08-17T04:27:51.482Z"
 }

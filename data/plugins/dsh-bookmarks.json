@@ -30,19 +30,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-bookmarks\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com/) [![ci](https://github.com/penguin-oo/dsh-bookmarks/actions/workflows/ci.yml/badge.svg)](https://github.com/penguin-oo/dsh-bookmarks/actions/workflows/ci.yml)\n\n给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）Web 界面加「回复收藏夹」：收藏任意一条已完成的 AI 回复（可加备注和标签），在统一的收藏中心里跨会话浏览、搜索、筛选，一键导出 Markdown。\n\n[English](./README.md)\n\n## 截图\n\n![回复旁的收藏按钮](docs/screenshot-actions.png)\n\n![独立的收藏中心界面](docs/screenshot-center.png)\n\n## 功能\n\n- **逐条收藏** — 每条已定稿的 AI 回复旁边有一个归档按钮（就在 👍/👎 反馈按钮旁），点击收藏，并可内联编辑备注与逗号分隔的标签。\n- **服务端摘要** — 收藏时宿主端自动从会话日志提取该回复的文本预览，不写备注也能在收藏中心里认出来。\n- **跨会话收藏中心** — 一个面板汇集所有会话、所有工作区的收藏，支持全文搜索、标签筛选、内联编辑与删除。\n- **一键跳回** — 每条收藏都能直接打开所属会话。\n- **导出 Markdown** — 一键下载全部收藏为 `dsh-b",
   "weekly_downloads": 88,
-  "monthly_downloads": 88,
   "last_publish": "2026-08-14T17:33:30.811Z",
   "created_at": "2026-08-14T17:33:30.321Z",
   "gh": null,
   "scores": {
     "popularity": 49,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 63,
-    "grade": "B"
+    "overall": 51,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:43.799Z"
+  "updated_at": "2026-08-17T04:27:44.279Z"
 }

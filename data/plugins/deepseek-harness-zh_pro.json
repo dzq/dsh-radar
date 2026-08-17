@@ -34,6 +34,7 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# deepseek-harness-zh_pro\n\n### DeepSeek Harness 中文增强插件\n\n<p align=\"center\">\n  <img alt=\"版本 0.5.0\" src=\"https://img.shields.io/badge/%E7%89%88%E6%9C%AC-0.5.0-5965d8\">\n  <img alt=\"界面 中文\" src=\"https://img.shields.io/badge/%E7%95%8C%E9%9D%A2-%E4%B8%AD%E6%96%87-4aa3ff\">\n  <img alt=\"MIT License\" src=\"https://img.shields.io/badge/license-MIT-3b7a57\">\n</p>\n\n让 DeepSeek Harness 的中文界面更好用。界面增强仅中文界面生效，英文界面零影响；\n另有「提示词注入」为显式开关（默认关闭，注入文本可编辑，聊天记录中可展开查看）。\n\n## 功能\n\n| # | 功能 | 说明 |\n| --- | --- | --- |\n| 1 | **中文补全** | 修正残留英文：`tok/s`→词元/秒、`LLM`→大模型、`API 密钥`→接口密钥、`Full access`→完全访问、`agent`→代理、`plan mode`→计划模式；时长/数量统一中文格式（`48m48s`→48分48秒、`46.7M`→4670万） |\n| 2 | **统计全显示** | 统计行 `9 轮 · 203 步 \\| LLM 49分59秒 · …` 不再省略号截断：单行完整显示，自动缩字号适配，极端超长时同一行横向滚动 |\n| 3 | **自动展开最新思考** | **默认开启**。思考输出流式出现时自动展开最新一条；出现新的思考输出时，把上一条自动展开的缩回。",
   "weekly_downloads": 824,
   "last_publish": "2026-08-15T13:42:42.815Z",
   "created_at": "2026-08-15T07:33:55.586Z",
@@ -47,5 +48,5 @@
     "overall": 57,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T03:56:19.836Z"
+  "updated_at": "2026-08-17T04:27:44.225Z"
 }

@@ -30,26 +30,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-skill-manager · 插件文档\n\n> 让 DSH Web GUI 拥有「Skills」面板：查看已安装的技能列表，并用开关自定义每个技能的启用状态。\n\n## 简介\n\n在 DSH Web GUI 侧边栏提供「Skills」入口，点击打开技能管理面板：列出**当前会话可见**的全部 Skill（名称、描述、来源），按「全局 / 局部」分组，每个 Skill 带一个开关。关闭开关后，该 Skill 对**模型目录**（`<available_skills>`）、**`skill` 工具**与**用户 `/名称` 手势**全部不可用；重新打开即恢复。开关状态持久化于 `~/.dsh/dsh-skill-manager.json`，跨会话、跨重启生效。面板还支持技能的增删改（新增/导入、编辑、删除带二次确认）。\n\n## 能力清单\n\n| 能力 | 说明 |\n|---|---|\n| 侧边栏入口 | 「Skills」按钮，与 dsh-ssh / dsh-task-board 入口共存，折叠侧边栏时只显图标 |\n| 技能列表 | 会话视角：名称、描述（截断）、来源、调用策略状态；分组为「全局 Skill / 局部 Skill」；支持按名称/描述搜索 |\n| 自定义开关 | 每行一个 toggle；禁用/启用即时持久化 |\n| 添加技能 | 每组标题栏「+」按钮：表单模式（name/description/whenToUse/正文）或源码模式（完整 SKILL.md 文本），可导入本地 .md 文件 |\n| 编辑技能 | 可写技能（user-dsh / user-agents / project-dsh / project-agents）行内「笔」按钮：表单或源码视图编辑，frontmatter 其它字段（metadata、disable-model-invocation",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T14:00:45.806Z",
   "created_at": "2026-08-14T14:00:45.410Z",
-  "gh": {
-    "full_name": "Lanxing6480/dsh-skill-manager",
-    "stars": 3,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T14:03:20Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 63,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:45.842Z"
+  "updated_at": "2026-08-17T04:27:54.823Z"
 }

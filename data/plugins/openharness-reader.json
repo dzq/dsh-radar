@@ -30,19 +30,19 @@
     }
   },
   "engines": {},
+  "readme": "# openharness-reader\n\nOpenHarness Reader —— DeepSeek Harness Web 的**工作区文件阅读/编辑器插件**（平行项目，非壳功能）。\n\n规划文档：`000-file-editor-plugin.md`（本仓库内跟踪）。\n\n## 路线\n\n| 里程碑 | 内容 | 状态 |\n|--------|------|------|\n| M1 | 骨架：package.json + cordis.patch.yml + host/client 两半 + esbuild；注册 details 面板（占位） | ✅ 2026-08-14 |\n| M2 | 文件浏览：host fs RPC（list/stat/read）+ client 树/列表 | ✅ 2026-08-14（v0.2.0） |\n| M3 | 编辑保存：CodeMirror 6 + `ctx.fs` 写回（版本守卫 + 冲突提示） | ✅ 2026-08-14（v0.2.0） |\n| M4 | Markdown 渲染预览（GFM + 高亮） | ✅ 2026-08-14（v0.2.0） |\n| 挂载方案改方案 1 | **彻底弃用 `details` 槽**：client 改为 **body portal + fixed 定位面板**（照 DSH-better-sidebar）；per-session store 管布局；apply 全包 try/catch + 错误条兜底；唯一官方槽位 = `settings.section`（list 槽） | ✅ 2026-08-14（v0.3.0） |\n| M5 | npm 发布 + 壳 `AUTO_INSTALL_PLUGINS` 预装 | ⏳ |\n\n## 功能（v0.2.0 · M2–M4；v0.3.0 改挂载方案）\n\n- ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T00:08:23.882Z",
   "created_at": "2026-08-14T17:13:31.816Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:01.763Z"
+  "updated_at": "2026-08-17T04:27:46.449Z"
 }

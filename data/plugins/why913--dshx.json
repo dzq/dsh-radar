@@ -27,19 +27,19 @@
   "engines": {
     "node": ">=22.19"
   },
+  "readme": "# dshx\n\n[English](README.md) | 中文\n\n给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（`dsh`）配的命令行小工具，MCP、skill、记忆一把抓：\n\n- 一条命令增删 MCP 服务器，不用再手改 `cordis.patch.yml`\n- 写入前先真连一次，连不上的直接拒绝，坏配置进不了文件\n- API Key 走环境变量引用，不会明文留在配置里\n- skill 从 GitHub 一条命令装，记住来源 commit，能一键更新\n- `import` 三件套：把 Claude Code / Codex 的 MCP、skill、全局记忆全部搬过来\n- 自带 SKILL.md，装上之后 dsh 里的 agent 自己就会用这个工具\n\n```sh\nnpm install -g @why913/dshx\n\n# 加一个本地服务器\ndshx mcp add everything -- npx -y @modelcontextprotocol/server-everything\n# 连接测试 everything … 通过（2133ms，发现 13 个工具）\n# 已写入 ~/.dsh/profiles/web/cordis.patch.yml\n\n# 从 Claude Code / Codex 一键迁移\ndshx mcp import --yes\n```\n\n## 为什么做这个\n\ndsh 的 MCP 客户端本身不错（stdio / streamable-http、断线重连都有），但官方没给任何管理命令，加一个服务器只能手改 YAML：先找到 `$DSH_HOME/profiles/xxx/cordis.patch.yml`，再搞懂 patch 分层怎么写，还有个坑——原始",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-13T18:45:38.828Z",
   "created_at": "2026-08-13T18:19:16.060Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 58,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:21.869Z"
+  "updated_at": "2026-08-17T04:27:46.956Z"
 }

@@ -25,19 +25,19 @@
     }
   },
   "engines": {},
+  "readme": "# Coding Coach（编程教练）\n\n面向**非开发人员**的「从想法到上线」全流程产品教练：一套**固定编排流水线** + 三套技能，覆盖**产品 → 界面 → 实现 → 上线**。\n\n> ⚠️ **一个仓库，两个分发物，别搞混：**\n> - **Agent 预设「编程教练」**（`dsh/coding-coach/`）→ 一个**完整的 agent**：中文教练人设 + 自动编排引导 + 35 技能。GUI 里能选到它。\n> - **profile bundle 插件**（根目录 `package.json` + `cordis.patch.yml`，已发到 npm 包 `coding-coach`）→ 只是把 35 个**技能**装进某 profile，**不含人设、不会新增 agent**。\n>\n> 想用「编程教练」这个 agent：装 Agent 预设；只想把技能塞进自己已有的 agent：装 bundle。\n\n> 给非开发人员的体验：不需要懂编程术语。直接说「我想做个记账小工具，帮我一步步来」，\n> AI 会先按 `coach-playbook` 选模式走八段流水线（澄清 → 用户路径 → 配色 → UI → 原型验证 → 实现 → 验收 → 上线），\n> 每步产出让你确认后再继续，全程用你能听懂的话汇报，并可以随时要求它讲解（teach）或重讲（wait-what）。\n\n## 技能清单（35 个）\n\n### 编排流水线\n\n| 技能 | 作用（大白话） |\n| --- | --- |\n| `coach-playbook` | 产品编排：从 0 到 1 的八段流水线 + 5 种模式（落地页 / 应用 / 看板 / 小程序 / 内容站） |\n\n### 工程技能（改编自 mattpocock/skills，MIT）\n\n| 技能 | 作用（大白话） |\n| ---",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T16:40:48.267Z",
   "created_at": "2026-08-14T14:33:18.938Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:00:09.495Z"
+  "updated_at": "2026-08-17T04:27:47.685Z"
 }

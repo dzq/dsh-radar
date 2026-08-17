@@ -17,19 +17,19 @@
   "dsh_compat": false,
   "dsh_meta": null,
   "engines": {},
+  "readme": "# dsh-cost-optimizer\r\n\r\nDSH 插件：按任务复杂度自动选模型 — 简单问题用便宜的，难题用贵的。跟踪花费，守住预算。\r\n\r\n## 原理\r\n\r\n```\r\n每次 agent/request:\r\n  分析当前上下文复杂度（消息长度、工具调用次数、是否含图片）\r\n    ├── simple（短对话、无工具）   → Flash（快且便宜）\r\n    ├── moderate（中等复杂度）     → Standard\r\n    └── complex（长上下文、多工具） → Pro（贵但强）\r\n```\r\n\r\n## 配置\r\n\r\n```yaml\r\n- insert:\r\n    - id: cost-optimizer\r\n      name: dsh-cost-optimizer\r\n      config:\r\n        tiers:\r\n          fast:\r\n            provider: deepseek\r\n            model: deepseek-v4-flash\r\n            costPer1kInput: 0.0001\r\n            costPer1kOutput: 0.0004\r\n          standard:\r\n            provider: deepseek\r\n            model: deepseek-v4\r\n            costPer1kInput: 0.0005\r\n            costPer1kOutput: 0.002\r\n          powerful:\r\n            provider: deepseek\r\n            model: deepseek-v4-pro\r\n          ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T15:52:04.602Z",
   "created_at": "2026-08-14T15:52:04.391Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 40,
-    "grade": "C"
+    "overall": 29,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:00.935Z"
+  "updated_at": "2026-08-17T04:27:46.440Z"
 }

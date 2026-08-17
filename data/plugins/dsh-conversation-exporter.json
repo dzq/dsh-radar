@@ -32,26 +32,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# DSH Conversation Exporter\n\nDSH Conversation Exporter adds an **Export Chat** action to DeepSeek Harness (DSH)\nWeb. It downloads the current conversation as a clean Markdown file containing the\nhuman-authored messages and final assistant answers, ready for reading, notes, Git, or\nhandoff to another AI assistant.\n\n## Export Chat vs. Session Log\n\n**Export Chat** is an additive action; it does not replace or modify DSH's official\n**Session Log** export.\n\n| | Export Chat | Official Session Log |\n|---|---|---|\n| Purpose | Reading and AI handoff | Debugging, recovery, and replay |\n| Contents | Human messages and final assistant answers | Raw events, chunks, tool activity, metadata, and attachments |\n| Format | One Markdown file | ZIP of JSONL artifacts and media |\n\nUse **Export Chat** when you ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-17T00:44:43.369Z",
   "created_at": "2026-08-17T00:44:42.847Z",
-  "gh": {
-    "full_name": "liuyuelintop/dsh-conversation-exporter",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-17T02:27:57Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 65,
-    "grade": "B"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:20.146Z"
+  "updated_at": "2026-08-17T04:27:48.673Z"
 }

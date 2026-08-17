@@ -32,19 +32,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-gif-background\n\n[![CI](https://github.com/alcohol-101/dsh-gif-background/actions/workflows/ci.yml/badge.svg)](https://github.com/alcohol-101/dsh-gif-background/actions/workflows/ci.yml)\n\n[English](README.md) | 中文\n\n给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）Web 界面添加自定义背景的独立插件：设置页一个开关 + 一个本地背景库（图片 / GIF / 动态壁纸），官方默认主题与 dsh-web-ui 皮肤中心两套显示机制，互不干扰。\n\n## 功能\n\n- 开启 / 关闭开关（localStorage 持久化，默认开启）。\n- 背景库：添加（上传 `gif / jpg / jpeg / png / webp`，100 MB 上限）、删除、重命名、刷新；删除当前使用中的素材会自动回退到内置背景。\n- 官方主题（无皮肤）：背景直接绘制到布局框架（AppFrame）自己的 `background-image` 上，并注入一套 rgba 半透明 token 覆盖让面板透出背景；内置背景走短 URL API——几 MB 的 base64 塞进 CSS 声明会被浏览器解析器静默丢弃。\n- 皮肤模式：与 dsh-web-ui 皮肤中心的皮肤共存，背景层显示在皮肤面板后方，皮肤自己的配色不受影响。\n- 素材 API 仅本机可用（loopback-only），不会暴露到外部。\n\n## 安装\n\n前置：DSH 0.1.x。安装后重启 `dsh web`，浏览器 Ctrl+F5",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T18:27:38.258Z",
   "created_at": "2026-08-15T18:27:37.936Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:03:43.335Z"
+  "updated_at": "2026-08-17T04:27:47.708Z"
 }

@@ -31,19 +31,19 @@
     }
   },
   "engines": {},
+  "readme": "# 🐤 dsh-ikun-pet · ikun 桌宠\n\n[![DSH Plugin](https://img.shields.io/badge/DSH-plugin-4d6bfe?style=flat-square&logo=deepseek)](https://github.com/eric-song-dev/dsh-ikun-pet)\n[![License](https://img.shields.io/github/license/eric-song-dev/dsh-ikun-pet?style=flat-square)](./LICENSE)\n[![Stars](https://img.shields.io/github/stars/eric-song-dev/dsh-ikun-pet?style=flat-square&logo=github)](https://github.com/eric-song-dev/dsh-ikun-pet/stargazers)\n\n![demo](docs/demo.gif)\n\n> DeepSeek Harness（DSH）插件 —— 只在 DSH **每次回答问题的 Deep diving 期间**，\n> 用坤宠动图**填满「Deep diving...」状态行下方的整行区块**：\n> 进度条 `0% → 100%`，**每 20% 切换一档动图动作与文案**，完成时跳跃庆祝「完成啦！你干嘛~哎哟」🏀\n\n## ✨ 特性\n\n- **只占深潜区块**：注册在 `conversation.input.dock` —— 正是 DSH「Deep diving...」状态行正下方、\n  对话区与输入框之间的整行区块；仅在会话 `running`（深潜回答）时出现，其余时间完全隐形\n- **动图沿进度条行走**：坤宠从 3% 走到 97%，",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T19:08:32.116Z",
   "created_at": "2026-08-15T19:08:31.860Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:16.613Z"
+  "updated_at": "2026-08-17T04:27:44.624Z"
 }

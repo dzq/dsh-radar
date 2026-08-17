@@ -33,19 +33,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-reverse-proxy\n\n[![CI](https://github.com/JUANWANG-BUAA/dsh-remote/actions/workflows/ci.yml/badge.svg)](https://github.com/JUANWANG-BUAA/dsh-remote/actions)\n[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](./LICENSE)\n[![GitHub Repo stars](https://img.shields.io/github/stars/JUANWANG-BUAA/dsh-remote?style=flat-square)](https://github.com/JUANWANG-BUAA/dsh-remote/stargazers)\n[![GitHub last commit](https://img.shields.io/github/last-commit/JUANWANG-BUAA/dsh-remote?style=flat-square)](https://github.com/JUANWANG-BUAA/dsh-remote/commits/main)\n[![Node](https://img.shields.io/badge/node-%5E22.19%20%7C%7C%20%3E%3D24-339933?style=flat-square&logo=nodedotjs&logoColor=white)](./package.json)\n[![DeepSeek Harness](https://img.shields.io/badge/DeepSeek%20Harnes",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T11:07:46.049Z",
   "created_at": "2026-08-15T11:07:45.696Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:00:13.194Z"
+  "updated_at": "2026-08-17T04:27:47.698Z"
 }

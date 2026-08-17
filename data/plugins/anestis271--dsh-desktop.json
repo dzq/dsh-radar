@@ -30,19 +30,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# DeepSeek Harness Desktop\n\n简体中文 | [English](./README.en.md)\n\n[![npm version](https://img.shields.io/npm/v/%40anestis271%2Fdsh-desktop?logo=npm)](https://www.npmjs.com/package/@anestis271/dsh-desktop)\n[![npm downloads](https://img.shields.io/npm/dm/%40anestis271%2Fdsh-desktop)](https://www.npmjs.com/package/@anestis271/dsh-desktop)\n[![license](https://img.shields.io/badge/license-MIT-2EA44F)](./LICENSE)\n![platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-555)\n\n让 DeepSeek Harness 官方 WebUI 自然地成为一个桌面应用。\n\n这不是另一套客户端，也不需要单独下载安装桌面程序。它只是一个轻量的 dsh 插件：保留官方 WebUI 的全部能力，在外面加上一层干净、原生的桌面外壳。\n\n## 预览\n\n![DeepSeek Harness Desktop 界面预览](./docs/images/desktop-preview.png)\n\n## 为什么选择本插件\n\n- **无需单独安装应用**：没有额外的 MSI、DMG 或 AppImage，只需安装一个 npm 插件。\n- **官方 WebUI 是唯一真源**：不复制、不分叉、不重新实现界面，",
   "weekly_downloads": 256,
-  "monthly_downloads": 256,
   "last_publish": "2026-08-15T18:01:22.490Z",
   "created_at": "2026-08-15T14:01:38.694Z",
   "gh": null,
   "scores": {
     "popularity": 60,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 65,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 64,
-    "grade": "B"
+    "dsh_compat": 80,
+    "overall": 52,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:34.555Z"
+  "updated_at": "2026-08-17T04:27:44.257Z"
 }

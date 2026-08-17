@@ -25,26 +25,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "[English](README.en.md)\n\n# dsh-ffmpeg\n\n> **你的 agent 会剪视频了**：探测/剪辑/拼接/转码/字幕/抽帧/GIF，七个工具一条命令。\n\n![npm version](https://img.shields.io/npm/v/dsh-ffmpeg?label=npm&color=blue) ![npm downloads](https://img.shields.io/npm/dm/dsh-ffmpeg) ![license](https://img.shields.io/npm/l/dsh-ffmpeg) ![stars](https://img.shields.io/github/stars/STARDUSTLC666/dsh-ffmpeg?style=social)\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n\n\nDSH（DeepSeek Harness）视频处理工具插件：七个工具覆盖探测、剪辑、拼接、转码、字幕、提取与 GIF 制作，全部由 ffmpeg/ffprobe 完成。\n\n## 安装\n\n```bash\ndsh plugin --profile web add dsh-ffmpeg\n```\n\n需要本机已安装 ffmpeg（`ffmpeg -version` 能出结果即可）；不在 PATH 上时可用 `ffmpegPath`/`ffprobePath` 显式指定，或设置环境变量 `DSH_FFMPEG_PATH` / `DSH_FFPROBE_PATH`。\n\n## 配置\n\n在你自己的 profile 的 `cordis.patch.yml` 里覆盖本插件行（缺省时",
   "weekly_downloads": 57,
-  "monthly_downloads": 57,
   "last_publish": "2026-08-16T11:30:33.763Z",
   "created_at": "2026-08-14T19:36:36.660Z",
-  "gh": {
-    "full_name": "STARDUSTLC666/dsh-ffmpeg",
-    "stars": 3,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T11:28:15Z",
-    "archived": false,
-    "license": null
-  },
+  "gh": null,
   "scores": {
     "popularity": 44,
-    "maintenance": 99,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 69,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:45.853Z"
+  "updated_at": "2026-08-17T04:27:44.283Z"
 }

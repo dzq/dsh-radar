@@ -30,19 +30,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-pathlink\n\n> [中文](README.zh.md) · [English](README.md)\n\n**在 DeepSeek Harness 对话里，Ctrl+点击文件路径与链接。**\n\n自动识别聊天消息（助手回复、用户气泡、代码块、工具卡片）中的文件路径和\nURL，用淡淡的虚线下划线标记，**Ctrl+点击**（macOS 为 ⌘）即可打开：\n\n- **路径 → 打开所在文件夹**——在系统文件管理器中打开该文件所在的文件夹并\n  选中它（Windows `explorer /select`、macOS `open -R`、Linux 用 `xdg-open`\n  打开父目录）；如果路径本身是目录，则直接打开目录。\n- **链接 → 浏览器新标签页打开**——覆盖渲染器未自动转成链接的裸 URL\n  （比如用户消息气泡里的）；markdown 链接本身已在新标签页打开。\n\n普通点击不触发任何行为，不会干扰选中、复制等操作。路径不存在时会弹出\ntoast 提示原因，而不是静默失败。\n\n![Ctrl+点击提示](docs/screenshot-tooltip.png)\n\n![消息中的路径识别](docs/screenshot-recognized.png)\n\n> ① 悬停路径显示 Ctrl+点击提示，点击后在文件夹中定位该文件 ·\n> ② 真实对话中被识别的路径（虚线下划线）。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-pathlink\n```\n\n或从 GitHub 安装：\n\n```sh\ndsh plugin --profile web add github:penguin-oo/dsh-pathlink\n```\n\n安装后重启 Web 界面生效。仅支持 **web** 配置档（点击面是浏览器）。\n\n##",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T06:47:47.523Z",
   "created_at": "2026-08-15T05:49:07.101Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:16.203Z"
+  "updated_at": "2026-08-17T04:27:44.623Z"
 }

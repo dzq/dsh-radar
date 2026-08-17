@@ -22,19 +22,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-plugin-cost-tracker\n\nToken cost tracker for DeepSeek Harness.\n\n## What it does\n\n- Tracks token usage per session\n- Calculates costs based on model pricing\n- Injects cost awareness into system prompt\n- Provides CLI tool for cost estimation\n\n## Install\n\n```sh\ndsh plugin --profile your-profile add dsh-plugin-cost-tracker\n```\n\n## CLI\n\n```sh\ncost --model deepseek-v4 --input 10000 --output 5000\n# Model: deepseek-v4\n# Input: 10,000 tokens @ $0.27/M\n# Output: 5,000 tokens @ $1.10/M\n# Cost: $0.01\n```\n\n## Supported models\n\n- deepseek-v4, deepseek-v4-flash, deepseek-r1, deepseek-vl2\n- gpt-4o, gpt-4o-mini, gpt-5.2\n- claude-sonnet-4, claude-opus-4, claude-haiku-4\n- gemini-2.5-pro, gemini-2.5-flash\n\n## Configuration\n\n```yaml\n- id: cost-tracker\n  name: dsh-plugin-cost-tracker\n  config:\n    defaultM",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-13T15:43:39.792Z",
   "created_at": "2026-08-13T15:43:39.554Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 58,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:29.240Z"
+  "updated_at": "2026-08-17T04:27:46.974Z"
 }

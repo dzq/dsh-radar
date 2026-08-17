@@ -23,19 +23,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-ai-monitor — DeepSeek Harness 插件\n\n> AI Monitor 与 DeepSeek Harness 的桥接插件：让 dsh agent 在跑任务前能感知 AI 预算，\n> 任务后能汇报账单。只读本机 AI Monitor SQLite，不改动其数据。\n\n## 安装（npm 发布后）\n\n```sh\n# 方式一：直接添加到 dsh profile\ncd ~/.dsh/profiles/web\nnpm install dsh-ai-monitor\n\n# 方式二：dsh CLI（若已支持 plugin add）\ndsh plugin add dsh-ai-monitor\n```\n\n然后在 dsh 启动时叠加 bundle（或通过 profile 引用）加载插件。\n\n## 前置要求\n\n- 本机已安装并运行 [AI Monitor](https://github.com/WinterOne-hub/ai-monitor)，且至少添加了一个账户\n- dsh 已配置好模型（Settings → Models 填入 API key）\n- 数据库路径：`~/Library/Application Support/com.ai-monitor.app/ai-monitor.db`（可用 `DSH_AI_MONITOR_DB` 环境变量覆盖）\n\n## 功能\n\n- **`query_ai_balance` 工具**：查询各 AI 平台账户余额 + 今日 token 用量 + 消耗金额\n- 数据来源：AI Monitor 本地 SQLite\n- 只读模式（`readonly: true` + WAL 兼容），不锁库、不改数据\n\n## 配合 AI Monitor 代理使用（推荐）\n\n把 dsh 的 LLM 请求也指向 AI Monitor 本地代理（127.0",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T05:31:01.579Z",
   "created_at": "2026-08-14T05:31:01.344Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:08:28.303Z"
+  "updated_at": "2026-08-17T04:27:47.725Z"
 }

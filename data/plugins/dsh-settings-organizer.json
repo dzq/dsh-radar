@@ -30,26 +30,19 @@
     }
   },
   "engines": {},
+  "readme": "# 🧰 DSH Settings Organizer（DSH 设置整理器）\n\n**为 DeepSeek Harness（DSH）打造的**低侵入式设置展示层**：分组、折叠、隐藏、搜索与恢复设置 —— 全程绝不改动其他插件的配置。**\n\n[English](README.md) · [简体中文](README.zh-CN.md)\n\n![npm version](https://img.shields.io/npm/v/dsh-settings-organizer) ![license](https://img.shields.io/npm/l/dsh-settings-organizer)\n\n---\n\n## ✨ 亮点\n\n| 图标 | 功能 | 一句话 |\n|:---:|---|---|\n| 🗂️ | **按插件分组** | 每个插件的设置渲染为一个可折叠分组 |\n| 🎚️ | **折叠 / 展开** | 按分组独立，状态**持久化**，重启不丢 |\n| 🙈 | **想藏就藏** | 隐藏单个设置，或整个插件的设置 |\n| 🔍 | **搜索** | 匹配 label / key / path / 插件名 / 描述；无视折叠状态 |\n| ↩️ | **Manage Hidden** | 一键恢复单个字段、整个插件或全部 |\n| 🧹 | **零副作用** | 不碰其他插件配置，卸载无残留 |\n\n---\n\n## 🚀 30 秒上手\n\n```\n1️⃣ 安装插件（一条命令，见下）\n2️⃣ 重启 DSH\n3️⃣ 打开 设置 → \"Settings Overview\"\n4️⃣ 折叠不关心的分组 → 搜索 → 隐藏噪音 → 完事\n```\n\n---\n\n## 📥 安装\n\n```bash\ndsh plugin --profile web add dsh-settings-organi",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T22:29:39.724Z",
   "created_at": "2026-08-16T21:04:26.534Z",
-  "gh": {
-    "full_name": "xiajiajun516/dsh-settings-organizer",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T22:29:17Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 61,
-    "grade": "B"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:23.996Z"
+  "updated_at": "2026-08-17T04:27:44.637Z"
 }

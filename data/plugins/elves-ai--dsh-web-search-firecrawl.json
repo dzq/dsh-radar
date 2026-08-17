@@ -27,26 +27,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# dsh-web-search-firecrawl\n\n[English](README.md) | 中文\n\n![DSH 设置中的 Firecrawl 插件页面](docs/firecrawl-settings.png)\n\n由 [Firecrawl](https://firecrawl.dev) 支持的搜索提供方，用于 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的 web 能力 seam（`ctx.web`）：让内置的 `web_search` 工具走 Firecrawl 搜索 API，而不是随产品附带的 DeepSeek 路由。\n\n本插件是一个 Cordis 函数插件，向 seam 注册 `WebSearchProvider`（`id: firecrawl`）——它不拥有 `ctx.web`，也不注册面向模型的工具（工具 schema 仍属于 `@deepseek-ai/dsh-tool-web`）。它调用 Firecrawl 的 `POST /v1/search` 端点，把扁平 `data[]` 映射为 seam 规范化的 `WebSearchResult`。\n\nAPI 密钥在 **DSH 设置页的「Firecrawl」页面**中配置；同时保留 `$FIRECRAWL_API_KEY` 作为兼容性回退。\n\n## 环境要求\n\n- DeepSeek Harness 安装在官方包 `0.1.0-rc.6` 线上（本插件 peer 依赖 `@deepseek-ai/dsh-web ^0.1.0-rc.6` 等——当前发布线）。更旧线上 pnpm 会在 profile 中嵌套安装第二份 seam 包，错误分类会降级（跨副本 `WebError`）；可在 profile 目录执行 `npm",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-17T02:44:00.028Z",
   "created_at": "2026-08-17T02:43:59.660Z",
-  "gh": {
-    "full_name": "elves-ai/dsh-web-search-firecrawl",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-17T03:33:50Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 65,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 63,
-    "grade": "B"
+    "dsh_compat": 80,
+    "overall": 37,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:07.397Z"
+  "updated_at": "2026-08-17T04:27:44.343Z"
 }

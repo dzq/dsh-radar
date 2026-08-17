@@ -34,26 +34,19 @@
   "engines": {
     "node": "^22.19 || >=24"
   },
+  "readme": "# DSH Share\n\n[![CI](https://github.com/ChuanTianML/dsh-share/actions/workflows/ci.yml/badge.svg)](https://github.com/ChuanTianML/dsh-share/actions/workflows/ci.yml)\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n\n面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Session\n的隐私优先 Markdown 与单文件 HTML 分享插件。\nDSH Share 是一个独立的社区插件。\n\n[English](README.md)\n\nDSH Share 会在 Web Session Header 中加入 **分享** 入口。它先在本机生成预览，\n再允许复制源码或下载文件。插件不会上传内容，也不会发起外部网络请求。\n\n## 为什么需要 DSH Share\n\n官方 Session log 导出的无损 ZIP 适合诊断和迁移；DSH Share 生成更小、可直接阅读\n的文档，适合评审、Issue 报告和知识分享。\n\n- 支持 Markdown 或一个无脚本 HTML 文件\n- 默认开启尽力而为的自动脱敏\n- 复制或下载前先预览\n- 工具调用默认关闭，开启后折叠展示\n- 不依赖云服务、账号或公开链接后端\n- 不增加模型可见内容和模型 token 消耗\n\n## 安装\n\nDSH 目前仍处于开发者预览阶段。将 npm bundle 安装到 Web profile：\n\n```sh\ndsh plugin --profile web add",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T06:28:06.728Z",
   "created_at": "2026-08-16T06:28:06.227Z",
-  "gh": {
-    "full_name": "ChuanTianML/dsh-local-share",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T10:01:56Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 61,
-    "grade": "B"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:18.055Z"
+  "updated_at": "2026-08-17T04:27:44.626Z"
 }

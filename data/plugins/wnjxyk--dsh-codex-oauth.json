@@ -35,19 +35,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# 🔐 DSH-Codex-OAuth\n\n[English](README.md) | 简体中文\n\n> **🎯 功能：** 通过 ChatGPT / Codex 订阅登录，在 DeepSeek Harness 中畅享 GPT 的强大模型、图片生成、联网搜索功能，并支持订阅额度。<br>\n> **🧩 兼容性：** 已在 DSH `0.1.0-rc.6` 上验证，后续版本将在 DSH 最新版本上持续测试。<br>\n> **⚠️ 风险：** 本项目基于开源项目构建，依赖非公开的 ChatGPT Codex 后端接口。OpenAI 调整协议后，相关能力可能暂时失效并需要更新插件，也可能存在较低封号风险。\n\n## ✨ 插件亮点\n\n- **🚀 订阅直连**：GPT 模型、图像生成、网页搜索共用 OpenAI 订阅额度。\n- **🧩 可控集成**：模型选择器、生成图片和网页搜索可控地集成进入 DeepSeek Harness。\n- **🔐 多种登录**：支持浏览器登录和 Headless 设备码方法登录授权。\n- **🌗 界面适配**：跟随 DSH 的中英文和浅色、深色、系统主题。\n\n## 📦 安装 / 升级\n\n### 🟢 [npm](https://www.npmjs.com/package/@wnjxyk/dsh-codex-oauth)\n\n```sh\ndsh plugin --profile web add -w @wnjxyk/dsh-codex-oauth@latest\n```\n\n### 🐙 [GitHub](https://github.com/WNJXYK/dsh-codex-oauth)\n\n```sh\ndsh plugin --profile web add -w github:WNJXYK/dsh-codex-oauth\n```\n\n## 🗑️ 卸载",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T17:24:29.351Z",
   "created_at": "2026-08-15T12:19:27.903Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:03:43.127Z"
+  "updated_at": "2026-08-17T04:27:47.707Z"
 }

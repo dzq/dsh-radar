@@ -20,19 +20,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# dsh-tool-hashline\n\nHash-anchored `read`, `edit`, and `grep` tools for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH). Every line carries a short content hash; edits reference `LINE#HASH` anchors that are verified against the file's current content **before anything is written**. Stale anchors fail the whole call — never relocated, never fuzzy-matched, never silently applied to the wrong line.\n\nProtocol adopted from [pi-hashline-edit](https://github.com/RimuruW/pi-hashline-edit) (MIT), inspired by [oh-my-pi](https://github.com/can1357/oh-my-pi).\n\n---\n\n## How to install\n\n### Prerequisites\n\n- **Node.js ≥ 20** (for running dsh and the plugin).\n- **dsh**. Two ways to have it:\n  - No install: `npx @deepseek-ai/dsh <command>` — note the bare command always needs a pro",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T04:12:05.778Z",
   "created_at": "2026-08-14T04:12:05.581Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 43,
-    "grade": "C"
+    "overall": 29,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:59.695Z"
+  "updated_at": "2026-08-17T04:27:45.212Z"
 }

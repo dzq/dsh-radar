@@ -32,19 +32,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-deepseek-quota-bar\n\nDeepSeek API 额度**血条**插件 for [DeepSeek Harness (dsh)](https://github.com/deepseek-ai/deepseek-harness) web GUI：\n右下角悬浮卡片，血条直观显示「余额 / 本月额度」，并展示今日与本月使用量（官方数据优先）。\n\nA floating bottom-right widget for the dsh web GUI: a blood-bar of your remaining\nDeepSeek API balance vs the month-opening balance, plus today's and this month's\nspend (official platform data when configured).\n\n## 功能 Features\n\n- 🩸 **血条**：剩余比例 = 当前余额 / 月初余额快照（≥50% 绿 / ≥20% 橙 / <20% 红）\n- 📅 **今日/本月使用量**：配置 `DEEPSEEK_PLATFORM_TOKEN` 后为官方精确数据；未配置时自动降级为余额差值估算\n- 💬 **当前对话费用**：按官方价格表（含峰谷定价）对会话日志计价，含安装前历史\n- 🖱️ **可拖动**：按住卡片任意位置拖动，位置持久化（localStorage）\n- 🪟 **透明背景**：不遮挡视野\n- 📉 **可折叠**：一键折叠为只显示血条的迷你卡，再点展开\n- 🌗 跟随浅色/深色主题\n- ⏱️ 余额每 60s 自动刷新，支持手动刷新\n\n## 安装 Install\n\n```sh\ndsh plugin --profile web add github:jiangli07/dsh-de",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T08:49:21.488Z",
   "created_at": "2026-08-15T08:49:21.246Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:27.399Z"
+  "updated_at": "2026-08-17T04:27:46.970Z"
 }

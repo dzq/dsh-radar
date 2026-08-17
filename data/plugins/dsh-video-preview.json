@@ -31,26 +31,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "[![dshfind](https://dshfind.com/api/badge/zemul/dsh-video-preview?lang=zh)](https://dshfind.com/zh/plugins/zemul/dsh-video-preview?ref=badge)\n\n> 📌 本插件已收录于 [dshfind](https://dshfind.com/zh) 插件超市（GitHub 仓库打 `dsh-better-sidebar` / `dsh-plugin` topic 后自动收录），点击上方徽章直达主页。\n\n# dsh-video-preview\n\n[![npm version](https://img.shields.io/npm/v/dsh-video-preview)](https://www.npmjs.com/package/dsh-video-preview)\n\n[dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) 的视频文件预览插件：\n在侧边栏打开 `.mp4` / `.webm` / `.mov` / `.mkv` / `.avi` 等视频文件时，内联渲染一个可播放、可拖拽进度条的 `<video>` 播放器。\n\n## 背景\n\nbetter-sidebar 内置的文件预览器只有 image / pdf / markdown / html / code / binary-download，\n**没有视频预览**——视频文件目前会落到 code 视图（乱码）或下载按钮。\n\n直接复用内置的 `/sidebar/file` 媒体路由也不行：\n\n- 该路由**不支持 HTTP Range**（整个文件读进内存、返回 `200`），浏览器无法拖动进度条（seek）",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:04:54.608Z",
   "created_at": "2026-08-16T08:04:54.414Z",
-  "gh": {
-    "full_name": "zemul/dsh-video-preview",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T07:55:15Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 64,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:47.823Z"
+  "updated_at": "2026-08-17T04:27:55.215Z"
 }

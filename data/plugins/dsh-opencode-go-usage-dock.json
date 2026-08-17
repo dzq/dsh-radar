@@ -34,19 +34,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-opencode-go-usage-dock\n\n[![npm version](https://img.shields.io/npm/v/dsh-opencode-go-usage-dock)](https://www.npmjs.com/package/dsh-opencode-go-usage-dock)\n\n**中文** | [English](README.en.md)\n\n一个 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web GUI 插件：在**输入框下方**（与输入栏同宽、出厂\"统计\"行同一读数带）常驻显示你的 **OpenCode Go** 套餐用量。不需要设置页、不需要侧边栏入口——聊天时三个用量窗口（5 小时滚动 / 每周 / 每月）始终可见。\n\n![OpenCode Go 用量条](docs/screenshot-dock.png)\n\n## 功能\n\n- **输入框下方常驻用量条** — 注册在 `conversation.composer.dock`（order 10，与出厂统计行并列），宽度与输入框严格对齐\n- **三个用量窗口** — 滚动(5h) / 每周 / 每月，显示已用百分比与重置时间\n- **健康度彩点** — 绿 <60%、黄 60–85%、红 ≥85%\n- **悬停详情** — tooltip 显示窗口名、限额与重置时间\n- **手动刷新** — 小刷新按钮随时重新请求官方端点\n- **静默回退** — 未配置 opencode-go 时整条**完全不渲染**：没有报错噪音、没有占位；只有真实故障（网络 / HTTP / 解析）才显示错误行 + 重试\n- **i18n** — 中英双语（跟随 DSH 界面语言）\n\n## 前置条件\n\n-",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T05:26:29.258Z",
   "created_at": "2026-08-16T04:25:58.977Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:12.536Z"
+  "updated_at": "2026-08-17T04:27:47.746Z"
 }

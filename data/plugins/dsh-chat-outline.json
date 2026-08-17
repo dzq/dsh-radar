@@ -34,6 +34,7 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-chat-outline — DeepSeek Harness Plugin\r\n\r\n[![awesome · DSH plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\r\n\r\n对话一长就没法一直往上翻了。这个插件在对话栏左侧常驻一个对话大纲：按轮次列出每次提问和该轮最后一条回复，点击任意一条即可跳回对应位置，按住 Ctrl/Shift 再点击则直接切到轨迹视图的同一位置。蓝框会始终标记你当前读到哪，随滚动跟随；顶部的输入框可以按关键词过滤。它有两种模式：默认的轻便模式只反映官方已加载的窗口，零额外开销；需要完整大纲时可切换到全面模式，进入即主动加载全部历史（长会话会有明显的性能开销）。\r\n\r\n![dsh-chat-outline 演示](https://raw.githubusercontent.com/liliuCourier/dsh-chat-outline/main/docs/gif4.gif)\r\n\r\n## 中文文档\r\n\r\n### 功能特性\r\n\r\n- 按轮次列出每次提问与该轮最后一条回复，点击即定位\r\n- 蓝框标记当前阅读位置，随滚动跟随\r\n- 两种模式，头部按钮切换，选择会被记住：\r\n  - **轻便模式**（默认）：大纲只显示官方已加载窗口的内容，零额外加载；\r\n  - **全面模式**：进入即主动加载全部历史，覆盖整个会话\r\n- 按住 Ctrl/Shift 点击条目，直接切到轨迹视图并定位到对应位置\r\n- 支持按关键词过滤\r\n- 跟随 DSH 明暗主题\r\n\r\n### 安装\r\n\r\n通过 npm 安装：\r\n\r\n```sh\r\ndsh plugin --profile web add dsh-chat-outline\r\n```\r\n\r\n或者从 Gi",
   "weekly_downloads": 824,
   "last_publish": "2026-08-15T16:38:43.244Z",
   "created_at": "2026-08-13T20:12:47.379Z",
@@ -41,11 +42,11 @@
   "scores": {
     "popularity": 73,
     "maintenance": 0,
-    "quality": 90,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 60,
+    "overall": 57,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T03:56:20.041Z"
+  "updated_at": "2026-08-17T04:27:44.225Z"
 }

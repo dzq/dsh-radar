@@ -23,8 +23,8 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-commandcode-go-provider\n\nCommand Code Go API provider for dsh.\n\n[English](README.en.md)\n\nCommand Code 提供的订阅分两种：\n\n1. **Provider API**：提供标准 OpenAI 兼容端点，可以直接接入任何 agent harness，不需要第三方插件。\n2. **Go / GOAT / Pro Plan**：调用 Provider API 端点会返回 `403 upgrade_required`，只能通过 Command Code 私有的 CLI 网关 `/alpha/generate` 使用（vendor lock-in）。\n\n本插件针对第二种情况：通过 `/alpha/generate` 流式接入 DSH 的原生 `LlmAdapter`，让 Go / GOAT / Pro Plan 用户直接在 DSH 中使用订阅的模型。模型列表不写死在代码里，插件会定时从 `/provider/v1/models` 拉取实时目录，并按 Go Plan 的规则筛选：\n\n- **默认保留开源模型**（deepseek、Qwen、MiniMaxAI、xiaomi、stepfun、tencent、nvidia、moonshotai 等 provider）。\n- **包含几个 Go Plan 的 premium model 例外**，如 GPT-5.6 Luna、Grok 4.5、Muse Spark 1.2 Contributor。\n- 其余 premium 模型（Claude、Gemini 等）一律排除。\n\n筛选后还会从官方 CLI catalog (CDN) 合并每个模型的 Reasoning Effort 支持。\n\n## 安装\n\n从 npm 安装（预构建产物，推荐",
   "weekly_downloads": 160,
-  "monthly_downloads": 160,
   "last_publish": "2026-08-15T16:04:18.154Z",
   "created_at": "2026-08-14T15:32:37.673Z",
   "gh": {
@@ -37,12 +37,12 @@
   },
   "scores": {
     "popularity": 55,
-    "maintenance": 99,
+    "maintenance": 39,
     "quality": 85,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 74,
-    "grade": "A"
+    "dsh_compat": 75,
+    "overall": 61,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T03:50:38.878Z"
+  "updated_at": "2026-08-17T04:27:44.269Z"
 }

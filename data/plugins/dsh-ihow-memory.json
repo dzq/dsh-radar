@@ -25,19 +25,19 @@
   "engines": {
     "node": ">=22.12"
   },
+  "readme": "",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T14:00:49.766Z",
   "created_at": "2026-08-16T14:00:49.451Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 0,
     "quality": 55,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 46,
-    "grade": "C"
+    "overall": 34,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:11.602Z"
+  "updated_at": "2026-08-17T04:27:46.471Z"
 }

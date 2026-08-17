@@ -27,26 +27,19 @@
   "engines": {
     "node": ">=22.13"
   },
+  "readme": "# 🛡️ dsh-startup-guard\n\n简体中文 | [English](README.en.md)\n\n> DeepSeek Harness 启动守卫 —— 在启动前修复会话日志、预检插件组合、执行宿主插件冒烟测试并隔离崩溃源，让「插件损坏 / 日志损坏」再也无法把 DSH 卡死在启动。\n\n![Check](https://github.com/aokamoaki/dsh-startup-guard/actions/workflows/check.yml/badge.svg) ![version](https://img.shields.io/badge/version-1.0.0-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![node](https://img.shields.io/badge/node-%3E%3D22.13-339933) ![dsh](https://img.shields.io/badge/DSH-web-4d6bfe) ![tests](https://img.shields.io/badge/tests-53%20passed-brightgreen)\n\n---\n\n## 📖 简介\n\nDSH 的功能由大量第三方插件组合而成：某个插件包缺失、patch 语法损坏、client 产物未构建、甚至宿主 `apply()` 抛一个运行时异常，都可能让整个应用**启动即崩**。dsh-startup-guard 在启动早期异步执行七道检查，能自动修复 / 回滚 / 隔离问题源——**它是「解析 → 组合 → 执行 → 崩溃兜底」的四层防线**，而不仅仅是一组文件检查。\n\n安装后**零配置**即生效，日常开销 < 0.5s。\n\n## ✨ 核心能力\n\n| # |",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:35:47.834Z",
   "created_at": "2026-08-16T08:35:47.476Z",
-  "gh": {
-    "full_name": "aokamoaki/dsh-startup-guard",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T09:07:32Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 64,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:47.926Z"
+  "updated_at": "2026-08-17T04:27:55.363Z"
 }

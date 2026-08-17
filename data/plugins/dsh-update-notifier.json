@@ -26,26 +26,19 @@
   "engines": {
     "node": ">=18"
   },
+  "readme": "# dsh-update-notifier\n\nEnglish | [中文](README-zh.md)\n\nA [DeepSeek Harness (dsh)](https://github.com/deepseek-ai) plugin that **hourly checks npm for newer versions of your installed dsh plugins** and, when it finds any, **pops an approval bubble asking which ones to upgrade**. Tick the ones you want; the agent runs the upgrade. It never upgrades anything on its own.\n\nThink of it as [`update-notifier`](https://www.npmjs.com/package/update-notifier), but for the plugins inside your dsh profile — and with a button.\n\n## How it works\n\n1. Every hour (configurable) it enumerates the npm packages backing your profile's loaded plugins and reads each installed version from the profile's `node_modules`. A plugin with no readable package there — linked from a local checkout, or a dsh builtin — is skipp",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T06:02:48.178Z",
   "created_at": "2026-08-16T05:14:16.854Z",
-  "gh": {
-    "full_name": "stuarthu/dsh-update-notifier",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T06:23:21Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 62,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:10.381Z"
+  "updated_at": "2026-08-17T04:27:46.471Z"
 }

@@ -25,19 +25,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-tool-search\n\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）的工具搜索与瘦身插件：Hermes 风格渐进式披露。当工具目录变大（挂了多个 MCP 服务或插件工具）时，每个工具的 JSON schema 都会在每一轮注入模型上下文——大量 token 花在本次任务根本用不到的工具上。本插件把长尾工具折叠到三个桥接工具后面，让模型通过配置的 **rerank 模型**按需搜索、加载和调用。\n\n- **核心工具永远直通**——文件/终端/必备工具始终直接可见。\n- **桥接工具**——`tool_search` / `tool_describe` / `tool_call` 替代被折叠的 schema。\n- **分级披露**——目录越大，模型可见清单自动越精简。\n- **对话式配置**——随包技能 `tool-slimmer-setup` 通过对话帮你分组，并引导配置 rerank 模型。\n- **全局或按项目**——分组/匹配器存在 `~/.dsh/dsh-tool-search.json`（全局）或 `<workspace>/.dsh/dsh-tool-search.json`（按项目），由你选择。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-tool-search\n```\n\n## 工作原理\n\n灵感来自 [Hermes Agent 的 Tool Search](https://hermes-agent.nousresearch.com/docs/zh-Hans/user-guide/features/tool-search)。每一轮，插件的 `system-prompt/assemble` 监听器计算档位并",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T10:20:33.979Z",
   "created_at": "2026-08-14T09:32:32.429Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:21.462Z"
+  "updated_at": "2026-08-17T04:27:46.956Z"
 }

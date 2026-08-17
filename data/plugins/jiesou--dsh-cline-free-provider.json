@@ -22,19 +22,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-cline-free-provider\n\nCline Free provider for dsh.\n\n[English](README.en.md)\n\n本插件可以将 Cline 的免费模型，接入 dsh 使用。\n\n<img height=\"650\" alt=\"截图 2026-08-17 10-39-41\" src=\"https://github.com/user-attachments/assets/849c8ca8-2f97-4603-898a-37598a2dede5\" />\n\nCline 提供 OpenRouter 上可用的各种免费模型，以及 DeepSeek V4 Flash。\n\n如果你使用的是 Cline Pass 订阅计划，可以直接按照 Cline Pass 官方文档配置官方接口和 API Key，不需要本插件。\n\n获取 API Key：<https://app.cline.bot/dashboard/account?tab=api-keys>\n\n## 安装\n\n从 npm 安装（预构建产物，推荐）：\n\n```sh\ndsh plugin --profile web add @jiesou/dsh-cline-free-provider\n```\n\n或从 GitHub 安装：\n\n```sh\ndsh plugin --profile web add github:jiesou/dsh-cline-free-provider\n```\n\n## 安装之后\n\nCline 的 API Key 通过 DSH credentials 服务保存（变量名为 `CLINE_API_KEY`，可在 Web Models 页面填写）。\n\n模型列表**无需任何配置**，插件启动时会自动从远程同步并过滤所有免费模型。在 Web Models 页面选择 Cline provider 和模",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:37:46.093Z",
   "created_at": "2026-08-17T03:37:45.387Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 51,
-    "grade": "C"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:59:29.917Z"
+  "updated_at": "2026-08-17T04:27:47.381Z"
 }

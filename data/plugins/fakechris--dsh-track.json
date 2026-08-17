@@ -33,19 +33,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-track · Track Bridge\n\n[![npm](https://img.shields.io/npm/v/@fakechris/dsh-track)](https://www.npmjs.com/package/@fakechris/dsh-track)\n[![npm downloads](https://img.shields.io/npm/dm/@fakechris/dsh-track)](https://www.npmjs.com/package/@fakechris/dsh-track)\n\n[English](README.en.md) | 中文\n\n> **DeepSeek Harness 的嵌入式任务管理引擎** —— 把「念头、决策、任务」变成结构化、可追溯、可折叠的数据。\n> 捕获零摩擦，决策留痕迹，任务有生命周期。数据全部在 harness 内部（session 事件 + storage KV），零外部依赖。\n\n**状态** Active · **测试** 240 passing · **构建** `pnpm run build` · **版本** 0.5.0\n> **v0.5.0 · 面板任务操作 + 翻页器（2026-08-14）**：任务卡新增「完成/取消」直接操作（两步入确认）\n> 与「批量」模式（复选框 + 批量完成/取消）；翻页器补齐「第一页 / 页码输入跳页 / 最后一页」，\n> 翻页滚动锚定（切换页面时分页器保持在视口原位置，不再跳动）。\n> **v0.4.0 · 自动维护机制 + 配置面板（2026-08-14）**：生命周期 sweep 让僵尸任务浮出「待确认」区；\n> capture 自动促转 + 近似重复自动归并（token 相似度阈值可配）；canceled 提议超宽限期自动确认；\n> 定时 sync（周级 ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T11:39:30.248Z",
   "created_at": "2026-08-14T03:11:55.314Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 80,
+    "maintenance": 0,
+    "quality": 65,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 52,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 37,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:00:09.916Z"
+  "updated_at": "2026-08-17T04:27:47.690Z"
 }

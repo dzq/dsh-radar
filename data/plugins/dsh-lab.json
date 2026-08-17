@@ -16,19 +16,19 @@
   "dsh_compat": false,
   "dsh_meta": null,
   "engines": {},
+  "readme": "# dsh-lab\n\nReserved name — in development.\n\nA LabVIEW-style block-diagram view of a live [DeepSeek Harness (dsh)](https://github.com/deepseek-ai/deepseek-harness) instance: every plugin as a block, every dependency as a wire, unplug preview with blast radius.\n\n即将到来：活着的 dsh 实例的「程序框图」视图——插件是方块、依赖是导线、拔插前预览爆炸半径。\n\nBy the authors of `dsh-memory-pyramid`.\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:12:20.663Z",
   "created_at": "2026-08-16T08:12:20.439Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 36,
+    "overall": 25,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:53.234Z"
+  "updated_at": "2026-08-17T04:27:44.320Z"
 }

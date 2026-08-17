@@ -13,11 +13,7 @@
     "english",
     "kids",
     "education",
-    "flashcards",
-    "spaced-repetition",
-    "fsrs",
-    "anki",
-    "offline"
+    "flashcards"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/xczhanjun/lazeword.git",
@@ -43,26 +39,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# 🛋️ lazeword (dsh-lazeword) — 躺着背单词\n\n[English](README.md) · 中文\n\n**lazeword（躺着背单词）**是一个以词汇为锚点的双语学习系统——**学习即仿真，轨迹即日志**\n（理论基础见 [docs/learning-as-simulation.md](docs/learning-as-simulation.md)）。\n\n它从一个真实的家庭需求出发：一位曾在百度硅谷 AI Lab 与 Dario Amodei 共同撰写 Deep Speech 2、\n后深耕自动驾驶仿真的工程师，为来到香港读书的孩子打造——从语音、到世界模型、到 AI 教育，\n这条职业轨迹本身就是产品的一部分（见「人與詞」与 [docs/ai-governance.md](docs/ai-governance.md)）。\n\n- **底座开源**：作为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（`dsh`，一切皆插件）插件发行，AI 故事/讲解由 DeepSeek 驱动（可选 Cloudflare Worker 托管 key，完全离线可运行）\n- **回答 AI 时代教育的三个问题**：学什么——词汇是知识的接口（15,000+ 词：EDB 官方数学/科学/地理 + Oxford 5000 + 中华文化 + 工程师之词 + AI 素养）；怎么记住——FSRS-5 确定性调度（与 Anki 同参数体系，轨迹可重放）；**学了单词做什么——与 AI 对话与共创**：「The hottest new programming language is English」（Karpathy）；AI 素养 pack 含 prompt/context window/desc",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T06:20:47.251Z",
   "created_at": "2026-08-16T06:20:46.910Z",
-  "gh": {
-    "full_name": "xczhanjun/lazeword",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T06:33:26Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 63,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:06.954Z"
+  "updated_at": "2026-08-17T04:27:47.737Z"
 }

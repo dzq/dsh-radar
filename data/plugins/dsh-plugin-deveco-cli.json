@@ -13,10 +13,7 @@
     "deveco",
     "deveco-cli",
     "hvigor",
-    "ohpm",
-    "hdc",
-    "emulator",
-    "arkts"
+    "ohpm"
   ],
   "license": "MIT",
   "repo": "",
@@ -39,19 +36,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "<div align=\"center\">\n  <h1>dsh-plugin-deveco-cli</h1>\n  <p>在 <a href=\"https://github.com/deepseek-ai/deepseek-harness\">DeepSeek Harness</a>（DSH）里做 HarmonyOS / OpenHarmony 应用开发，底层基于官方 <a href=\"https://gitcode.com/openharmony-sig/deveco-cli\">DevEco CLI</a>。</p>\n  <p>\n    <a href=\"https://www.npmjs.com/package/dsh-plugin-deveco-cli\"><img src=\"https://img.shields.io/npm/v/dsh-plugin-deveco-cli.svg\" alt=\"npm version\" /></a>\n    <a href=\"https://www.npmjs.com/package/dsh-plugin-deveco-cli\"><img src=\"https://img.shields.io/npm/dm/dsh-plugin-deveco-cli.svg\" alt=\"npm downloads\" /></a>\n    <a href=\"./LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-green.svg\" alt=\"MIT\" /></a>\n  </p>\n</div>\n\n一个把官方 [DevEco CLI](https://gitcode.com/openharmony-sig/deveco-cli) 封装成 **Agent 工具 + 对话面板**的 DSH 插件：",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:30:18.790Z",
   "created_at": "2026-08-16T08:30:18.485Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 54,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:14.267Z"
+  "updated_at": "2026-08-17T04:27:46.476Z"
 }

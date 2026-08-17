@@ -18,19 +18,19 @@
   "dsh_compat": false,
   "dsh_meta": null,
   "engines": {},
+  "readme": "# jayhe-dsh-gamemaker\n\n为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 打造的游戏开发角色子代理：三个专用子代理提供者 + 两个随包附带的 Agent 预设。\n\n[English](./README.md)\n\n## 提供什么\n\n| 工具 / 提供者 | 角色 | 模式 |\n| --- | --- | --- |\n| `game-planner-provider`（工具 `game_planner`） | 规划者 | 子代理被**真正挂载**到极简系列预设：固定完整 persona、无运行时上下文、只有两个工具——持久 shell + `str_replace_editor`（Windows 下 bash 自动换成 pwsh） |\n| `game-executor-provider`（工具 `game_executor`） | 执行者 | 硬 PTC（Code Mode）：子代理在自身作用域声明 `presentAs('code')`，模型只见 `run_code` + 生成的 SDK |\n| `game-reviewer-provider`（工具 `game_reviewer`） | 审查者 | 与规划者相同：真实极简预设，只读使用 |\n\n随包预设：\n\n- `game-dev`（游戏开发工坊）——主控：开工前强制问询（技术路线 WEB/UE/Unity/Godot、游戏类型等全部细节）、五阶段流水线、每次模式切换的显式【模式切换】宣告。\n- `game-minimal`（兼容极简模式）——与官方 `minimal` 预设完全一致，外加一个特例：Windows 下持久 bash 替换为部署自带的 `pwsh` 工具。\n\n## 工作原理\n\n规划者/审查者子代理在创建",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T11:21:11.322Z",
   "created_at": "2026-08-15T10:26:00.855Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 40,
-    "grade": "C"
+    "overall": 29,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:01.442Z"
+  "updated_at": "2026-08-17T04:27:44.332Z"
 }

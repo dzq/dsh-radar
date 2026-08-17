@@ -25,26 +25,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# All in Flash for DeepSeek Harness\n\nAll in Flash is a Cordis plugin for DeepSeek Harness (DSH), powered by the\npublic, durable All in Luna CLI. It exposes four model-facing tools:\n\n- `allinflash_start` creates a run from a goal.\n- `allinflash_status` reads a run's durable state.\n- `allinflash_next_actions` returns frozen host actions for the active run.\n- `allinflash_relay_action` starts the matching DSH lane child and immediately\n  persists its observed identity as the exact action receipt.\n\nThe plugin does not translate a returned `HostAction` into another operation.\nIts exact relay and receipt semantics remain owned by All in Luna's runtime.\n\n## Installation\n\nInstall the All in Luna CLI, then let the published package create and resolve\na dedicated DSH profile:\n\n```powershell\npython -m",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T01:41:29.307Z",
   "created_at": "2026-08-13T14:27:04.316Z",
-  "gh": {
-    "full_name": "zenx0x/allinluna",
-    "stars": 28,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T01:42:33Z",
-    "archived": false,
-    "license": "Apache-2.0"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 59,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:43.861Z"
+  "updated_at": "2026-08-17T04:27:49.238Z"
 }

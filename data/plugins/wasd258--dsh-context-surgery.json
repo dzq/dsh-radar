@@ -32,26 +32,19 @@
   "engines": {
     "node": ">=22.19.0"
   },
+  "readme": "# dsh-context-surgery\n\n[English](./README.md) | 中文\n\n强制改写 DSH 会话的**模型可见历史**（surface 替换）。剧情扮演 AI 跑偏（OOC）时把回复改成没跑偏的\n版本、retcon 整场戏、修正措辞——模型下一轮请求读到的就是改后的历史，仿佛从未发生过。\n**回复正文与思考链（reasoning）分开编辑**。\n\n> 社区插件——非 DeepSeek 官方组件，不代表 DeepSeek 背书。\n\n## 功能\n\n- **每条 AI 消息下方的操作按钮**——聊天视图中每条 AI 消息的操作行（插槽\n  `conversation.chat.assistant-actions`，order 20）：✏️ 改回复、💡 改思考链、🗑️ 删除。\n  💡 仅在消息确实带 reasoning 块时出现。\n- **回复与思考链分开编辑**——`part=reply` 只改 text 块（保留思考链与工具调用）；`part=thinking`\n  只改 reasoning 块（留空 = 全部移除）；`part=all` 整条重写为纯文本。\n- **`/context` 命令全家桶**——list / edit / think / clear-think / rewrite / delete / replace，\n  聊天输入框即可完成一切操作。\n- **模型可调用工具**——`context_list` / `context_edit` / `context_delete` / `context_replace`，\n  把同样的能力交给 agent 本身（可用于自我纠错循环）。\n- **HTTP API**——`/api/dsh-context-surgery` 下的 `GET /list`、`GET /message`、",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T08:26:24.303Z",
   "created_at": "2026-08-15T08:05:59.067Z",
-  "gh": {
-    "full_name": "WASD258-jpg/dsh-context-surgery",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T08:26:50Z",
-    "archived": false,
-    "license": "NOASSERTION"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 58,
-    "grade": "B"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:46.568Z"
+  "updated_at": "2026-08-17T04:27:54.829Z"
 }

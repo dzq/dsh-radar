@@ -26,19 +26,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-docs-panel\n\n把你自己整理的 Markdown 手册，直接搬进 DeepSeek Harness 的网页里读。\n\n你攒在 `~/.dsh/docs` 的笔记、排查手册、使用说明，不必再切到别的编辑器——装在 dsh 里就能点开即读：右侧滑出面板、排版干净的正文、随时跳转的大纲，读完一键就能转到 Chrome 或 VS Code 继续编辑。\n\n## 功能一览\n\n- 📚 **列表点选阅读**：自动列出文档目录下所有 `.md` 文件（含子目录），点一下就读；\n- 🎨 **良好排版**：标题、列表、表格、代码块、引用、链接都渲染得规整，自动适配亮色/暗色主题；\n- 📏 **拖拽调宽**：面板左边缘有手柄，自由拉宽拉窄；\n- 🧭 **悬浮大纲**：一键展开文档目录，点标题平滑跳转（默认收起，不打扰阅读）；\n- 🌐 **外部打开**：每篇文档提供「Chrome 打开」「VS Code 打开」按钮，随时转到编辑器继续编辑（目前仅支持 macOS）；\n- 📋 **代码复制**：代码块右上角一键复制；\n- 📁 **目录可配置**：默认读 `~/.dsh/docs`，可在面板里改成任何目录，保存后永久生效。\n\n## 安装\n\n在终端执行一条命令：\n\n```bash\ndsh plugin --profile web add dsh-docs-panel\n```\n\n这条命令会自动完成全部工作：从 npm 拉取插件包、登记到 dsh 的启动清单。**重启 dsh 后生效**（重启方式取决于你自己的启动方式，例如重新运行 `dsh web`）。\n\n重启后打开 dsh 网页，右上角就有「我的文档」按钮了。**以后每次 dsh 启动都会自动加载，无需重新安装。**\n\n## 卸载\n\n在终端执行一条命令：\n\n```bash\ndsh plugin --profile web ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T15:12:21.444Z",
   "created_at": "2026-08-16T15:12:21.217Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 51,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:12.212Z"
+  "updated_at": "2026-08-17T04:27:46.473Z"
 }

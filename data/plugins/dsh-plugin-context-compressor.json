@@ -21,19 +21,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-plugin-context-compressor\n\nContext compression skill for DeepSeek Harness.\n\n## What it does\n\nTeaches the agent how to compress long conversations:\n- Keep decisions, errors, file paths, user preferences\n- Drop repeated info, failed attempts, verbose output\n- Structured summary format for easy recall\n\n## Install\n\n```sh\ndsh plugin --profile your-profile add dsh-plugin-context-compressor\n```\n\n## Usage\n\n- \"Summarize what we've done so far\"\n- \"Compress this conversation\"\n- \"We're running out of context, summarize\"\n\n## License\n\nMIT -- YYTbit\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-13T15:53:35.033Z",
   "created_at": "2026-08-13T15:53:34.848Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 58,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:00:11.556Z"
+  "updated_at": "2026-08-17T04:27:47.694Z"
 }

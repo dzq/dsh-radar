@@ -33,19 +33,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-mcp-market\n\n[English](README.md) | 中文\n\n装在 DeepSeek Harness 里的 **MCP 服务器商场**：浏览精选目录，一键安装 MCP 服务器到当前 profile，**无需重启立即生效**（经由官方 `@deepseek-ai/dsh-mcp-client` 与 loader 服务）。\n\n打开 **设置 → MCP 商场**：搜一搜，点一下，装好。模型马上就能看到 `mcp__<serverName>__<tool>` 前缀的工具。\n\n## 特性\n\n- **浏览与搜索**：内置精选目录（15 个全部实测可用的服务器），支持分类筛选、关键词搜索、中英描述\n- **npm 存在性校验**：加载目录时逐条向 registry.npmjs.org 校验 npm 包是否存在，已下架的条目自动置灰并禁止安装（防死条目/诱饵包）\n- **一键安装**：stdio（本机子进程）与 streamable-http（远程 URL）两种传输；安装前可填写/修改命令、参数、环境变量、URL、请求头\n- **免重启生效**：通过 `ctx.loader.create()` 热注册，模型立即可用；配置已持久化，重启后依然存在\n- **已装管理**：已安装列表展示注册状态，支持启用/停用、编辑配置（HMR 自动重连）、卸载\n- **手动添加**：目录里没有的服务器可以直接手动配置\n- **离线兜底**：目录数据实时抓取远程 JSON，失败时回退到内置快照\n- **持久化干净**：所有安装只写 profile 的 `cordis.patch.yml` 里一个 `# --- dsh-mcp-market managed ---` 注释块，你手动改的配置原样保留\n\n## 安装\n\n```sh\n# 发布到 npm 之后\ndsh plugin --pro",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T10:41:31.336Z",
   "created_at": "2026-08-15T09:47:51.947Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 54,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:10.052Z"
+  "updated_at": "2026-08-17T04:27:44.602Z"
 }

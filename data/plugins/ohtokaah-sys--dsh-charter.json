@@ -19,19 +19,19 @@
   "dsh_compat": false,
   "dsh_meta": null,
   "engines": {},
+  "readme": "# @ohtokaah-sys/dsh-charter\n\n**行为宪法** systemPrompt 插件：把一套「停止条件 + 发送前闸门 + 发送前扫描」规则注入系统提示，让 agent 在动手前被规则机械约束，而不是靠「自觉」。\n\n## 它解决什么问题\n\nLLM agent 的自我约束不可靠。「写在提示词里求它听话」经常失效——尤其是规则长、藏在 prompt 中部时，模型注意力低，会忘。这个插件把**最高价值的几条闸门规则**放进一个专门的、每轮必读的 prompt 段。\n\n## 它注入什么（规则全文）\n\n### 🛑 停止条件（任一触发 → 立刻停止并报告）\n\n- 用户说「停 / 算了 / 取消 / 不用了」→ 停止进行中操作，不辩解。\n- 工具返回超时 / 非零退出 / BLOCKED → 报告进度并等待，禁止自行切换策略。\n- 用户声明外部操作（如「我在重启服务」）→ 确认收到并等待，禁止擅自推进。\n\n### 🚫 发送前闸门（缺对应输出 = 不发）\n\n- **Rule 0 授权**：涉及方案 / 修改 / 创建 / 删除 / 执行等操作 → 用户消息里没有明确授权词（做吧 / 开始 / 执行 / 继续 / 好 / 同意 / 可以 / 行 / 帮我 / 我要 / 请）→ 不执行。纯信息询问直接回答，不受此限。\n- **Rule 5 验证声称**：声称「已验证 / 已发送 / 已部署 / 已完成」→ 下方必须有 `ls -lh` / `grep` / `stat` / `git log` 等验证输出。\n- **Rule 12 数字声称**：本地文件 / DB 计数断言 → 下方必须有 `grep` / `wc` / `ls` / `stat` 输出；无法验证 → 标「🟡 估算」。禁止「我记得」+ 数字组合。\n- **Rule 7B**：正文含字符串 `[SIL",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T18:44:42.592Z",
   "created_at": "2026-08-14T02:11:17.350Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 40,
-    "grade": "C"
+    "overall": 29,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:42.825Z"
+  "updated_at": "2026-08-17T04:27:49.228Z"
 }

@@ -24,26 +24,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-crw\n\n[fastCRW](https://fastcrw.com)-backed `web_search` and `web_fetch` for\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).\n\nThe harness treats web access as a capability seam (`ctx.web`) with pluggable\nproviders. This package registers two of them under the id `crw`, so the model\nkeeps the exact same `web_search` / `web_fetch` tools and only the backend\nchanges.\n\n## Why\n\nThe base composition ships `web_search` on, and **`web_fetch` off**. Its own\nconfig says why:\n\n> Fetch stays disabled and no fetch provider is mounted: that provider defers\n> SSRF protection and the model would choose the request target.\n\nThat is a fair call. The in-box HTTP fetch provider runs `fetch()` in the harness\nprocess, and its README names the gap outright: no blocking of private, loopb",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T21:06:43.113Z",
   "created_at": "2026-08-14T21:06:42.799Z",
-  "gh": {
-    "full_name": "us/dsh-crw",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T20:57:03Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 63,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:42.877Z"
+  "updated_at": "2026-08-17T04:27:49.230Z"
 }

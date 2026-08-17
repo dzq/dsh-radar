@@ -29,19 +29,19 @@
     }
   },
   "engines": {},
+  "readme": "# 🐋 widget-dock · DSH 小组件面板\n\n> DeepSeek Harness (dsh) 客户端插件：在对话两侧的空白区域提供可自由拖动的卡片工作台，一眼掌握 API 余额、Token 用量、会话统计等状态。\n>\n> Widget dock plugin for DeepSeek Harness — a draggable workbench of mini-cards on the blank areas beside the conversation.\n\n[![GitHub stars](https://img.shields.io/github/stars/MorGogh/widget-dock?style=flat-square&label=Stars)](https://github.com/MorGogh/widget-dock/stargazers)\n[![License](https://img.shields.io/github/license/MorGogh/widget-dock?style=flat-square)](LICENSE)\n[![DSH Plugin](https://img.shields.io/badge/DSH-Plugin-4D6BFE?style=flat-square&logo=github)](https://github.com/topics/dsh-plugin)\n[![Release](https://img.shields.io/github/v/release/MorGogh/widget-dock?style=flat-square)](https://github.com/MorGogh/widget-dock/releases)\n\n---\n\n## 🖼️ 效果预览 / Preview\n\n|",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T09:17:42.976Z",
   "created_at": "2026-08-14T12:48:42.159Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 54,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:46.622Z"
+  "updated_at": "2026-08-17T04:27:54.829Z"
 }

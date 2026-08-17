@@ -22,19 +22,19 @@
   "engines": {
     "node": ">=20.12.0"
   },
+  "readme": "# dsh-claude-mem\n\nA [DeepSeek Harness](https://github.com/deepseek-ai) plugin that integrates [claude-mem](https://github.com/thedotmack/claude-mem): query persisted cross-session memory, inject per-project context at session start, save manual memories, and drive session summarization — all through a local claude-mem worker's HTTP API.\n\n[![npm](https://img.shields.io/npm/v/@bleed00/dsh-claude-mem?label=npm&logo=npm)](https://www.npmjs.com/package/@bleed00/dsh-claude-mem)\n[![npm downloads](https://img.shields.io/npm/dm/@bleed00/dsh-claude-mem?logo=npm)](https://www.npmjs.com/package/@bleed00/dsh-claude-mem)\n[![GitHub](https://img.shields.io/badge/github-Bleed00%2Fdsh--claude--mem-181717?logo=github)](https://github.com/Bleed00/dsh-claude-mem)\n[![CI](https://github.com/Bleed00/dsh-claude-me",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T00:52:19.401Z",
   "created_at": "2026-08-13T22:48:42.613Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 58,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:08.011Z"
+  "updated_at": "2026-08-17T04:27:44.345Z"
 }

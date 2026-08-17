@@ -1,0 +1,42 @@
+{
+  "slug": "dshmarketplace-cli",
+  "name": "dshmarketplace-cli",
+  "version": "0.1.3",
+  "description": "Find and install DeepSeek Harness (DSH) plugins from the CLI or from a coding agent. Machine-readable --json output.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "plugins",
+    "cli",
+    "marketplace",
+    "agent-skill",
+    "ai-agent",
+    "mcp"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/DshMarketPlace/dshmarketplace-cli.git",
+  "homepage": "https://dshmarketplace.dev",
+  "npm": "https://www.npmjs.com/package/dshmarketplace-cli",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "node": ">=18"
+  },
+  "readme": "# dshmarketplace-cli\n\nFind and install **DeepSeek Harness (DSH) plugins** from the command line.\n\n```bash\nnpx dshmarketplace-cli find memory\nnpx dshmarketplace-cli add Anionex/dsh-vision-toolkit\n```\n\nNo global install, no dependencies, no account.\n\n## What this does\n\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) is DeepSeek's\nopen-source agent harness, where every capability is a plugin. There are over a\nthousand community plugins spread across the `dsh-plugin` GitHub topic and the\ncommunity registry, which makes finding the right one harder than installing it.\n\nThis CLI searches the [dshmarketplace.dev](https://dshmarketplace.dev) catalogue,\nshows you what a plugin reaches before you run it, and hands DSH the correct\ninstall command — an npm tarball where the plugin ",
+  "weekly_downloads": 0,
+  "last_publish": "2026-08-17T04:05:06.292Z",
+  "created_at": "2026-08-16T16:50:15.555Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:27:54.814Z"
+}

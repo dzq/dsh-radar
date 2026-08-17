@@ -35,26 +35,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "<div align=\"center\">\n\n# dsh-access-gate\n\n**DSH 远程访问认证门禁 · Remote access authentication gate for DeepSeek Harness**\n\n[English](#english) · [中文](#中文)\n\n`dsh plugin --profile web add dsh-access-gate`\n\n</div>\n\n<a name=\"中文\"></a>\n\n# dsh-access-gate（中文）\n\nDSH（DeepSeek Harness）远程访问认证门禁插件：解决\"经 nginx 公网域名转发访问时，`/api/*` 全部 403\"的问题 —— 认证通过后所有被浏览器信任护栏拦截的接口（含 `settings.*`、`credentials.*` 等 loopback 钉死的特权接口）全部可用；本机 `127.0.0.1` 访问不受影响；卸载插件一切还原，零残留、不污染用户配置。\n\n同时是 [dsh-lan-access](https://github.com/Leon0555/dsh-lan-access) 的**完整替代品**（0.0.0.0 绑定 + `crypto.randomUUID` polyfill + 远程认证 + 本机原生目录选择，一个包全包）。\n\n## 功能\n\n| 功能 | 说明 |\n|---|---|\n| 🔐 远程认证门禁 | 配置密码后，除本机直连外的访问（公网域名 / 局域网 IP / 同机 nginx 反代）需密码登录（HttpOnly Cookie，默认 7 天有效） |\n| 🔓 默认无密码 | 未配置密码时远程直接放行（等价纯 lan-access），配置密码即启用门禁，设置界面实时生效、无需重启 |\n| 🗂 本机原生目录选择 | 本机添加工作",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:22:51.080Z",
   "created_at": "2026-08-15T14:17:14.711Z",
-  "gh": {
-    "full_name": "bamboostrip/dsh-access-gate",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T15:24:03Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 63,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:12.942Z"
+  "updated_at": "2026-08-17T04:27:47.746Z"
 }

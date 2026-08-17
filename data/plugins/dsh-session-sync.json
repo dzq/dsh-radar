@@ -28,26 +28,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-session-sync\n\n<div align=\"center\">\n\n**DeepSeek Harness 的跨设备会话同步 —— 为你的会话存储建立专用 git 镜像。**\n\n*在设备间同步会话，冲突时两边都保留，绝不丢失任何一轮。*\n\n[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)\n[![DSH plugin](https://img.shields.io/badge/dsh-plugin-✅-green)](https://github.com/topics/dsh-plugin)\n[![Node](https://img.shields.io/badge/node-%5E22.19%20%7C%7C%20%3E%3D24-brightgreen.svg)](#)\n[![CI](https://img.shields.io/github/actions/workflow/status/PerryLink/dsh-session-sync/ci.yml?branch=main&label=CI)](https://github.com/PerryLink/dsh-session-sync/actions)\n[![Version](https://img.shields.io/github/v/tag/PerryLink/dsh-session-sync?label=version)](https://github.com/PerryLink/dsh-session-sync/releases)\n[![npm version](https://img.shields.io/npm/v/dsh-session-sync)](https://www",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T16:36:20.669Z",
   "created_at": "2026-08-16T16:36:20.327Z",
-  "gh": {
-    "full_name": "PerryLink/dsh-session-sync",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T16:36:07Z",
-    "archived": false,
-    "license": "Apache-2.0"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 64,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:19.693Z"
+  "updated_at": "2026-08-17T04:27:44.629Z"
 }

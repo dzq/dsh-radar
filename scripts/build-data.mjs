@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // scripts/build-data.mjs
-// 主入口：npm search → metadata → 评分 → 输出 JSON
+// 全量抓取 DSH 插件：npm search → metadata → 评分 → 输出 JSON
 // 零依赖，Node ≥ 18
 
 import { writeFile, mkdir, readFile } from 'node:fs/promises';
@@ -18,14 +18,15 @@ const CACHE_DIR = join(DATA_DIR, '.cache');
 
 const GH_TOKEN = process.env.GITHUB_TOKEN || '';
 const HEADERS = GH_TOKEN ? { Authorization: `Bearer ${GH_TOKEN}` } : {};
+const LIMIT = Number(process.env.LIMIT || 0); // 0 = 全量
 
-// ============== 步骤 1：npm search 分页抓取 ==============
-async function fetchNpmSearch(limit) {
+// ============== 步骤 1：npm search 全量抓取 ==============
+async function fetchNpmSearch() {
   const all = [];
   const size = 100;
   let from = 0;
 
-  while (all.length < limit) {
+  while (true) {
     const url = `https://registry.npmjs.org/-/v1/search?text=keywords:dsh-plugin&size=${size}&from=${from}`;
     const data = await fetchJson(url, { skip404: true });
     const objects = data?.objects || [];
@@ -43,17 +44,18 @@ async function fetchNpmSearch(limit) {
       });
     }
     process.stdout.write(`\r  npm: ${all.length} packages…`);
-    if (objects.length < size) break;
+    if (objects.length < size || (LIMIT > 0 && all.length >= LIMIT)) break;
     from += size;
-    await sleep(150);
+    await sleep(100);
   }
   console.log();
-  // 按下载量排，截到 limit
+
+  // 按周下载排，截到 LIMIT
   all.sort((a, b) => b._weekly - a._weekly);
-  return all.slice(0, limit);
+  return LIMIT > 0 ? all.slice(0, LIMIT) : all;
 }
 
-// ============== 步骤 2：npm metadata（缓存，404 直接跳过） ==============
+// ============== 步骤 2：并行 npm metadata ==============
 async function fetchPkgMeta(name) {
   const cacheFile = join(CACHE_DIR, 'pkg', `${slugify(name)}.json`);
   if (existsSync(cacheFile)) {
@@ -67,8 +69,72 @@ async function fetchPkgMeta(name) {
   return meta;
 }
 
-// ============== 步骤 3：GitHub repo（缓存） ==============
-async function fetchGhRepo(owner, repo) {
+// ============== 步骤 3：并行处理单个插件 ==============
+async function processPlugin(hit, ghToken) {
+  const meta = await fetchPkgMeta(hit.name);
+  if (!meta) return null;
+
+  const latest = getLatestVersion(meta);
+  const ver = meta.versions?.[latest] || {};
+  const readme = (meta.readme || '').slice(0, 800); // README 前 800 字符
+
+  const merged = {
+    name: hit.name,
+    version: latest,
+    description: (ver.description || hit.description || '').slice(0, 280),
+    keywords: ver.keywords || hit.keywords || [],
+    license: typeof ver.license === 'string' ? ver.license : hit.license,
+    repository: ver.repository?.url || hit.links?.repository || '',
+    homepage: ver.homepage || hit.links?.homepage || '',
+    dsh: ver.dsh || null,
+    engines: ver.engines || {},
+    readme,
+    publisher: ver.publisher || null,
+    _weekly: hit._weekly,
+  };
+
+  // GitHub（低下载量跳过，节省 API 调用）
+  let gh = null;
+  const parsed = parseGhRepo(merged.repository);
+  if (parsed && (ghToken || hit._weekly >= 100)) {
+    gh = await fetchGhRepo(parsed.owner, parsed.repo, ghToken);
+  }
+
+  const scores = score(merged, gh || {});
+  const slug = slugify(hit.name);
+
+  return {
+    slug,
+    name: hit.name,
+    version: latest,
+    description: merged.description,
+    keywords: merged.keywords.slice(0, 10),
+    license: merged.license,
+    repo: merged.repository,
+    homepage: merged.homepage,
+    npm: `https://www.npmjs.com/package/${hit.name}`,
+    dsh_compat: !!merged.dsh,
+    dsh_meta: merged.dsh || null,
+    engines: merged.engines,
+    readme: merged.readme,
+    weekly_downloads: hit._weekly,
+    last_publish: meta.time?.[latest] || null,
+    created_at: meta.time?.created || null,
+    gh: gh ? {
+      full_name: gh.full_name,
+      stars: gh.stargazers_count,
+      open_issues: gh.open_issues_count,
+      pushed_at: gh.pushed_at,
+      archived: gh.archived,
+      license: gh.license?.spdx_id || null,
+    } : null,
+    scores,
+    updated_at: new Date().toISOString(),
+  };
+}
+
+// ============== 步骤 4：GitHub repo ==============
+async function fetchGhRepo(owner, repo, token) {
   if (!owner || !repo) return null;
   const cacheFile = join(CACHE_DIR, 'gh', `${owner}--${repo}.json`);
   if (existsSync(cacheFile)) {
@@ -78,7 +144,8 @@ async function fetchGhRepo(owner, repo) {
   }
   await mkdir(join(CACHE_DIR, 'gh'), { recursive: true });
   const url = `https://api.github.com/repos/${owner}/${repo}`;
-  const data = await fetchJson(url, { headers: HEADERS, skip404: true });
+  const hdrs = token ? { Authorization: `Bearer ${token}` } : {};
+  const data = await fetchJson(url, { headers: hdrs, skip404: true });
   if (!data) {
     await writeFile(cacheFile, JSON.stringify({ __notfound: true }));
     return null;
@@ -90,96 +157,37 @@ async function fetchGhRepo(owner, repo) {
 // ============== 主流程 ==============
 async function main() {
   const t0 = Date.now();
-  const LIMIT = Number(process.env.LIMIT || 50);
-
-  console.log('📡 DSH Radar — data builder');
-  console.log(`   GitHub token: ${GH_TOKEN ? '✅ yes' : '❌ no (60 req/h)'}`);
-  console.log(`   Daily limit: ${LIMIT} plugins\n`);
+  console.log('📡 DSH Radar — 全量构建');
+  console.log(`   GitHub token: ${GH_TOKEN ? '✅' : '❌ (60 req/h)'}`);
+  console.log(`   LIMIT: ${LIMIT > 0 ? LIMIT : '全量'}\n`);
 
   await mkdir(PLUGINS_DIR, { recursive: true });
 
   console.log('① Fetching npm search…');
-  const hits = await fetchNpmSearch(LIMIT);
+  const hits = await fetchNpmSearch();
   console.log(`   → ${hits.length} packages\n`);
 
-  console.log('② Fetching npm metadata + GitHub stats…');
+  console.log('② Fetching npm metadata + GitHub stats（并行）…');
   const plugins = [];
-  let ghCalls = 0;
+  let done = 0;
 
-  for (let i = 0; i < hits.length; i++) {
-    const hit = hits[i];
-    process.stdout.write(`\r  [${i + 1}/${hits.length}] ${hit.name.padEnd(45)}`);
-
-    const meta = await fetchPkgMeta(hit.name);
-    if (!meta) {
-      process.stdout.write(` ${hit.name} not on npm, skipping\n`);
-      continue;
+  // 并行：每次最多 8 个同时跑
+  const CONCURRENCY = 8;
+  for (let i = 0; i < hits.length; i += CONCURRENCY) {
+    const batch = hits.slice(i, i + CONCURRENCY);
+    const results = await Promise.all(
+      batch.map((hit) => processPlugin(hit, GH_TOKEN))
+    );
+    for (const p of results) {
+      if (!p) { done++; continue; }
+      plugins.push(p);
+      await writeFile(join(PLUGINS_DIR, `${p.slug}.json`), JSON.stringify(p, null, 2));
     }
-
-    const latest = getLatestVersion(meta);
-    const ver = meta.versions?.[latest] || {};
-    const merged = {
-      name: hit.name,
-      version: latest,
-      description: (ver.description || hit.description || '').slice(0, 280),
-      keywords: ver.keywords || hit.keywords || [],
-      license: typeof ver.license === 'string' ? ver.license : hit.license,
-      repository: ver.repository?.url || hit.links?.repository || '',
-      homepage: ver.homepage || hit.links?.homepage || '',
-      dsh: ver.dsh || null,
-      engines: ver.engines || {},
-      readme: (meta.readme || '').slice(0, 4000),
-      publisher: ver.publisher || null,
-      _weekly: hit._weekly,
-    };
-
-    // GitHub
-    const parsed = parseGhRepo(merged.repository);
-    let gh = null;
-    if (parsed) {
-      gh = await fetchGhRepo(parsed.owner, parsed.repo);
-      if (gh) ghCalls++;
-      // 无 token 时对低下载量包跳过 GH 调用
-      const shouldSkipGh = !GH_TOKEN && hit._weekly < 100 && gh;
-      await sleep(GH_TOKEN ? 50 : 200);
-    }
-
-    const scores = score(merged, gh || {});
-    const slug = slugify(hit.name);
-
-    const plugin = {
-      slug,
-      name: hit.name,
-      version: latest,
-      description: merged.description,
-      keywords: merged.keywords.slice(0, 10),
-      license: merged.license,
-      repo: merged.repository,
-      homepage: merged.homepage,
-      npm: `https://www.npmjs.com/package/${hit.name}`,
-      dsh_compat: !!merged.dsh,
-      dsh_meta: merged.dsh || null,
-      engines: merged.engines,
-      weekly_downloads: hit._weekly,
-      last_publish: meta.time?.[latest] || null,
-      created_at: meta.time?.created || null,
-      gh: gh ? {
-        full_name: gh.full_name,
-        stars: gh.stargazers_count,
-        open_issues: gh.open_issues_count,
-        pushed_at: gh.pushed_at,
-        archived: gh.archived,
-        license: gh.license?.spdx_id || null,
-      } : null,
-      scores,
-      updated_at: new Date().toISOString(),
-    };
-
-    plugins.push(plugin);
-    await writeFile(join(PLUGINS_DIR, `${slug}.json`), JSON.stringify(plugin, null, 2));
+    done += batch.length;
+    process.stdout.write(`\r  ${done}/${hits.length} processed, ${plugins.length} saved`);
+    if (done >= hits.length) break;
   }
-
-  console.log(`\n   → ${plugins.length} plugins scored (${ghCalls} GH calls)\n`);
+  console.log(`\n   → ${plugins.length} plugins scored\n`);
 
   console.log('③ Building index…');
   plugins.sort((a, b) => b.scores.overall - a.scores.overall);
@@ -199,17 +207,11 @@ async function main() {
   const index = {
     stats,
     plugins: plugins.map((p) => ({
-      slug: p.slug,
-      name: p.name,
-      version: p.version,
-      description: p.description,
-      weekly_downloads: p.weekly_downloads,
-      stars: p.gh?.stars || 0,
-      grade: p.scores.grade,
-      overall: p.scores.overall,
-      dsh_compat: p.dsh_compat,
-      last_publish: p.last_publish,
-      keywords: p.keywords.slice(0, 5),
+      slug: p.slug, name: p.name, version: p.version,
+      description: p.description, weekly_downloads: p.weekly_downloads,
+      stars: p.gh?.stars || 0, grade: p.scores.grade,
+      overall: p.scores.overall, dsh_compat: p.dsh_compat,
+      last_publish: p.last_publish, keywords: p.keywords.slice(0, 5),
     })),
   };
 
@@ -218,20 +220,14 @@ async function main() {
 
   // 历史快照
   const now = new Date();
-  const histName = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}-${String(now.getHours()).padStart(2,'0')}${String(now.getMinutes()).padStart(2,'0')}.json`;
+  const hn = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}-${String(now.getHours()).padStart(2,'0')}${String(now.getMinutes()).padStart(2,'0')}.json`;
   await mkdir(join(DATA_DIR, 'history'), { recursive: true });
-  await writeFile(
-    join(DATA_DIR, 'history', histName),
-    JSON.stringify({ stats, top10: index.plugins.slice(0, 10) }, null, 2)
-  );
+  await writeFile(join(DATA_DIR, 'history', hn), JSON.stringify({ stats, top10: index.plugins.slice(0, 10) }, null, 2));
 
   console.log('✅ Done!');
   console.log(`   ${stats.total} plugins · ${stats.by_grade.S||0}S · ${stats.by_grade.A||0}A · ${stats.by_grade.B||0}B · ${stats.by_grade.C||0}C · ${stats.by_grade.D||0}D`);
   console.log(`   Weekly downloads: ${stats.total_weekly_downloads.toLocaleString()}`);
-  console.log(`   Build time: ${(stats.build_ms / 1000).toFixed(1)}s\n`);
+  console.log(`   Build time: ${((Date.now()-t0)/1000).toFixed(1)}s\n`);
 }
 
-main().catch((e) => {
-  console.error('❌ Build failed:', e);
-  process.exit(1);
-});
+main().catch((e) => { console.error('❌', e); process.exit(1); });

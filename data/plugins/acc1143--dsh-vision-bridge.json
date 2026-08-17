@@ -23,26 +23,19 @@
     }
   },
   "engines": {},
+  "readme": "# 🚀 dsh-vision-bridge —— 让 DeepSeek 学会「看图」的双模型路由插件\n\n> **重磅！** DeepSeek Harness 专属视觉外挂来了！主对话永远留在 DeepSeek，图片自动交给视觉模型分析，**整轮推理不换人**！\n\n```\nDSH Plugin · LlmAdapter · 双模型路由 · OpenAI 兼容视觉网关 · 图片分析缓存\n```\n\n---\n\n## ✨ 一句话说清它是干嘛的\n\nDeepSeek 是纯文本模型——**你以前传图，DSH 直接拒绝**（`Model does not support image input`）。\n\n装了它，你的 DSH 多了一个 `auto` 模型：**图片进来，自动交给视觉模型翻译成文字，再交回 DeepSeek 完成整轮思考**。你全程无感，就像 DeepSeek 突然长了眼睛 👀\n\n| | 以前 | 现在（auto） |\n|---|---|---|\n| 传图片 | ❌ 直接被拒 | ✅ 自动分发 |\n| 谁看图 | — | 你配的视觉模型（有界分析，≤1024 token） |\n| 谁做整轮推理 | DeepSeek（但看不见图） | **还是 DeepSeek**，图片只是它的\"翻译文本\" |\n| 纯文字对话 | 正常 | 正常，**零额外开销** |\n| 要手动切模型吗 | 不用（但也没图可看） | **不用**，auto 全自动 |\n\n---\n\n## 🔥 三大卖点，每一个都值得\n\n1. **主对话永远留在 DeepSeek** —— 推理、工具调用、作答全在 DeepSeek，不换模型、不切来切去、上下文贯穿全程\n2. **纯文本轮次零开销** —— 没图就不调视觉模型，一分钱不多花\n3. **图片分析按内容缓存** —— 同一张图只分析一次，历史里重复出现不重复烧钱，",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T05:54:19.866Z",
   "created_at": "2026-08-15T05:54:19.535Z",
-  "gh": {
-    "full_name": "Acc1143/dsh-vision-bridge",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T08:49:00Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 59,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:46.307Z"
+  "updated_at": "2026-08-17T04:27:54.827Z"
 }

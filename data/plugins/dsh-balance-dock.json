@@ -30,26 +30,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-balance\n\n在对话下方（消息区与输入框之间）显示 DeepSeek 账户余额的 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）web 插件。\n\nShow the DeepSeek account balance below the conversation in the DSH web UI.\n\n![dsh-plugin](https://img.shields.io/badge/dsh--plugin-v0.1.1-4d6bfe) ![license](https://img.shields.io/badge/license-MIT-green)\n\n## 功能 Features\n\n- 在 `conversation.input.dock` 槽位渲染紧凑余额条：`💰 CNY 19.63`\n- 每 15 秒自动刷新（轮询 host 路由 `/dsh-balance/balance`）\n- 悬停显示「赠送 / 充值」拆分\n- 余额不可用时显示降级文案，不打扰对话\n- 零依赖、无构建脚本；API key 只留在 host 侧，永不下发浏览器\n\n## 安装 Install\n\n前置：DSH 已安装且 `dsh web` 可正常运行；Node.js ≥ 20；pnpm ≥ 10（`dsh plugin` 需要）。\n\n> npm 包名是 **`dsh-balance-dock`**（`dsh-balance` 已被同名插件占用）；GitHub 仓库名是 `dsh-balance`，两者装出来是同一个插件。\n\n```sh\n# 从 npm 安装（推荐）\ndsh plugin --profile web add dsh-balance-dock\n\n# 或从 GitHub 安装\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:51:25.298Z",
   "created_at": "2026-08-16T08:31:08.204Z",
-  "gh": {
-    "full_name": "Shawnxxboxx/dsh-balance",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T08:52:02Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 61,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:48.132Z"
+  "updated_at": "2026-08-17T04:27:55.785Z"
 }

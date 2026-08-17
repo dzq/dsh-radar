@@ -24,19 +24,19 @@
     }
   },
   "engines": {},
+  "readme": "# @zhaoolee/dsh-notes\n\nDeepSeek Harness 插件：把用户对话导出为锤子便签。\n\nHost 面工具插件。安装后，智能体获得一个 `notes_export_conversation` 工具，**分级模式**\n工作：\n\n1. **已配置便签服务**（`NOTES_API_BASE_URL` + Token 或用户名密码）：把对话内容整理成\n   Markdown 后调用，工具通过便签服务 API 在当前账号的云端工作区**新建**一张便签，或按\n   `note_id` **更新**已有便签，返回便签 ID、标题和可打开的前端链接。\n2. **未配置任何用户信息**：回退到默认演示服务器 `https://notes.fangyuanxiaozhan.com` 的\n   匿名导出接口，把对话渲染成锤子便签长图 PNG 保存到本地并返回文件路径——开箱即用尝鲜，\n   但**不能写入便签列表**（匿名模式没有账号工作区）。\n\n配套的开源便签服务：<https://github.com/zhaoolee/notes>\n\n## 安装\n\n可以在 DSH 的“插件市场”中搜索 `notes` 并直接安装。仓库随源码提交预编译的 `lib/`\n产物，因此即使市场保持默认的构建脚本拦截策略，也不需要额外开启 `allowBuilds`。\n\n也可以直接从 npm 安装到目标 profile（例如 `web`）：\n\n```sh\ndsh plugin --profile web add @zhaoolee/dsh-notes\n```\n\n安装后**重启**目标 profile 生效。\n\n已经安装旧版本时，更新到最新版：\n\n```sh\ndsh plugin --profile web update @zhaoolee/dsh-notes --latest\n```\n\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T13:11:53.368Z",
   "created_at": "2026-08-14T02:06:46.963Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 80,
+    "maintenance": 0,
+    "quality": 65,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 51,
-    "grade": "C"
+    "dsh_compat": 75,
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:26.786Z"
+  "updated_at": "2026-08-17T04:27:46.969Z"
 }

@@ -25,19 +25,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-gen3d\n\nDeepSeek Harness（DSH）的 **3D 角色生成插件**：把一句需求 / 一张参考图变成带贴图、游戏可用的 3D 角色资产。直连 **Meshy / 腾讯混元 3D / Tripo3D / Rodin（Hyper3D）四家官方 API**，凭证由用户自行配置，插件不内置任何 key；未配置 key 时自动回退**确定性 mock**（能跑通全链路，但不产生真实模型、不消耗配额）。\n\n## 安装\n\n```bash\ndsh plugin --profile web add dsh-gen3d\n```\n\n## 凭证配置\n\n> 本插件**不含任何 API key**。所有真实生成调用都使用你自己购买并配置的官方 key；未配置时回退 mock，不会偷偷调用任何第三方服务。\n\n插件直连四家官方 API，各配各的 key（变量名与 `src/config.ts` 注册表一致，详见 [docs/CREDENTIALS.md](docs/CREDENTIALS.md)）：\n\n| 供应商 | 凭证变量名 | 获取入口 | 备注 |\n| --- | --- | --- | --- |\n| Meshy | `MESHY_API_KEY` | [platform.meshy.ai](https://platform.meshy.ai) 登录后 **Settings → API（API settings 页）** Create API Key | 注册即可建 key；key 只显示一次，可随时吊销 |\n| 腾讯混元 3D（生成） | `HUNYUAN3D_API_KEY` | **TokenHub 控制台**创建 API Key（[混元调用指南](https://cloud.tencent.com/document/product/1823/132252)）",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T06:25:12.736Z",
   "created_at": "2026-08-14T06:25:12.490Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:51.588Z"
+  "updated_at": "2026-08-17T04:27:44.314Z"
 }

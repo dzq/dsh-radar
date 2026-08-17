@@ -35,19 +35,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "<div align=\"center\">\n\n<h1>🍅 dsh-pomodoro</h1>\n\n<p>为 DeepSeek Harness Web UI 提供专注与休息循环的轻量番茄钟插件。</p>\n\n<p>\n  <a href=\"https://www.npmjs.com/package/dsh-pomodoro\"><img alt=\"npm version\" src=\"https://img.shields.io/npm/v/dsh-pomodoro.svg?logo=npm\"></a>\n  <a href=\"https://www.npmjs.com/package/dsh-pomodoro\"><img alt=\"Node.js version\" src=\"https://img.shields.io/node/v/dsh-pomodoro.svg?logo=node.js\"></a>\n  <a href=\"https://github.com/deepseek-ai/deepseek-harness\"><img alt=\"DSH 0.1.0-rc.6\" src=\"https://img.shields.io/badge/DSH-0.1.0--rc.6-4B8BF5\"></a>\n  <a href=\"https://github.com/causebefore/dsh-pomodoro/blob/main/LICENSE\"><img alt=\"MIT license\" src=\"https://img.shields.io/npm/l/dsh-pomodoro.svg\"></a>\n</p>\n\n<p>\n  <a href=\"#界面预览\">界面预览</a> ·\n  <a href=\"#功能亮点\">功能亮点</a> ·\n  <a href=\"#快速安装\">快速安装</a> ",
   "weekly_downloads": 39,
-  "monthly_downloads": 39,
   "last_publish": "2026-08-14T12:50:33.803Z",
   "created_at": "2026-08-14T00:38:30.713Z",
   "gh": null,
   "scores": {
     "popularity": 40,
-    "maintenance": 59,
-    "quality": 80,
+    "maintenance": 0,
+    "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 61,
-    "grade": "B"
+    "overall": 47,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:47.697Z"
+  "updated_at": "2026-08-17T04:27:44.305Z"
 }

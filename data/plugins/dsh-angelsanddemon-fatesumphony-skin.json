@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-angelsanddemon-fatesumphony-skin",
+  "name": "dsh-angelsanddemon-fatesumphony-skin",
+  "version": "1.0.4",
+  "description": "DeepSeek Harness Web 皮肤：《弹丸论破：天魔命曲》同人游戏素材全量皮肤。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "theme",
+    "skin",
+    "danganronpa",
+    "tenma"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-angelsanddemon-fatesumphony-skin",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "readme": "# 《弹丸论破：天魔命曲》主题DSH皮肤插件\n\n> `dsh-angelsanddemon-fatesumphony-skin` · DeepSeek Harness Web 皮肤插件，使用同人游戏《弹丸论破：天魔命曲》(Angels & Demon Fate Symphony) 的游戏素材制作。\n\n> 全新独立实现：**不基于任何其他皮肤插件**，只用游戏素材与 DSH 公开 DOM 钩子完成。\n\n## ✨ 特性\n\n- 🖱️ **自定义光标** —— `mouse.png` 缩制为 14×19 的 `.cur`（热点 2,2），全局生效\n- 🖼️ **全屏壁纸** —— `background.png` 等比缩放（`cover`）铺满视口，不变形、不随滚动\n- 🔵 **左侧栏梯形条** —— `leftbar.png` 无缝贴左，顶斜帽 78px + 底斜收口 90px，整体约 45% 透明度；展开/折叠渲染不变，折叠时不显示会话光标\n- 💬 **输入框对话条** —— `talkingbar.png` 平行四边形边框\n- 📊 **底部调用数据区** —— `talkingbar_buttom.png` 两端梯形帽 + `buttom-M.png` 拉长中段：\n  - 数据模块单向走马灯：滚动 → 停留 5 秒 → 再滚动，永不回滚\n  - 由插件 JS 主时钟驱动（rAF），智能体运行中统计更新导致的节点重建不会打乱相位、不会重叠\n  - 鼠标悬停时暂停在当前模块\n- ➡️ **发送按钮** —— 使用 `next.png`（蓝 V 箭头）悬浮于输入卡片右侧\n- 💊 **新会话药丸** —— `newsession.png`，紧凑不撑满整行，无阴影\n\n## 🧩 素材映射\n\n| 游戏素材 | 打包文件 | 用途 |\n| --- | --- | --- |\n|",
+  "weekly_downloads": 0,
+  "last_publish": "2026-08-16T19:04:44.523Z",
+  "created_at": "2026-08-16T12:12:39.831Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 37,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:27:55.624Z"
+}

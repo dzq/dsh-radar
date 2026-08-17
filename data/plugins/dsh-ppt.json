@@ -28,26 +28,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "[English](README.en.md)\n\n# dsh-ppt\n\n> **一句话 / 一篇文档 → 完整演示文稿**：HTML 网页放映 + PPTX 导出，5 套视觉主题，中英双语。\n\n![npm version](https://img.shields.io/npm/v/dsh-ppt?label=npm&color=blue) ![npm downloads](https://img.shields.io/npm/dm/dsh-ppt) ![license](https://img.shields.io/npm/l/dsh-ppt) ![stars](https://img.shields.io/github/stars/STARDUSTLC666/dsh-ppt?style=social)\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n\nDSH（DeepSeek Harness）演示文稿技能 + 工具插件：把一句话、一段文字或一篇 Markdown 文档变成可直接放映的 **HTML 网页** 与可编辑的 **PPTX**。纯 Node 实现，**零运行时依赖**，Windows / macOS / Linux 同一份代码。\n\n## 能力一览\n\n| 能力 | 说明 |\n| --- | --- |\n| `ppt_create` 工具 | Markdown / 结构化 slides → `*.html` + `*.pptx` + `*.json` 三件套 |\n| `ppt_themes` 工具 | 列出 5 套内置主题与适用场景 |\n| `dsh-ppt` 技能 | 完整 SOP 注册进 DSH：从一句话到成品 d",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T05:16:59.464Z",
   "created_at": "2026-08-16T05:16:59.034Z",
-  "gh": {
-    "full_name": "STARDUSTLC666/dsh-ppt",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T19:50:19Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 63,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:53:06.782Z"
+  "updated_at": "2026-08-17T04:27:46.982Z"
 }

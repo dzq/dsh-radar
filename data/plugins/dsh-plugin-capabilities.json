@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-plugin-capabilities",
+  "name": "dsh-plugin-capabilities",
+  "version": "0.1.1",
+  "description": "Manage skills and MCP servers from the Web UI Settings. 在设置页管理 dsh 的技能与 MCP 服务器。",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "skills",
+    "mcp"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/qinyre/dsh-plugin-capabilities.git",
+  "homepage": "https://github.com/qinyre/dsh-plugin-capabilities#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-capabilities",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-plugin-capabilities\n\nA dsh plugin that adds \"Skills\" and \"MCP\" tabs to the Web UI's Settings page, so the skill catalog and the profile's MCP servers can be managed in place — including importing MCP servers and picking up skills from Claude Code and Codex.\n\n一个 dsh 插件，在 Web UI 设置页的插件区新增「技能」与「MCP」两个标签页：技能目录和 profile 的 MCP 服务器直接在页面上查看与维护，不必手工编辑文件；来自 Claude Code、Codex 等其他 agent 的技能与 MCP 配置也能一并纳入。`dsh web` 与 [DSH Desktop](https://github.com/qinyre/dsh-Desktop) 均可使用。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-plugin-capabilities\n```\n\n尚未发布到 npm 时，可先安装本地源码检出：`dsh plugin --profile web add file:/path/to/dsh-plugin-capabilities`，包内的 `prepare` 脚本会自动构建出 `lib/`。安装后打开 设置 → 插件，即可看到新增的标签页。\n\n## 技能\n\n「技能」页列出 dsh 当前发现的全部技能，包括名称、描述、来源（项目、用户、内置、运行时、自定义）和调用策略。用户级技能存放在 `$DSH_HOME/skills`，可以在这里新建、编辑、删除：f",
+  "weekly_downloads": 0,
+  "last_publish": "2026-08-16T18:17:36.373Z",
+  "created_at": "2026-08-16T18:10:03.569Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:27:55.646Z"
+}

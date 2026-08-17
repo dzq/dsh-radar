@@ -32,26 +32,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-llm-failover\n\nProvider failover for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`): when a model provider returns rate-limit (429) or quota-exhausted errors, switch to the next provider automatically — with a configurable per-provider model mapping, a permanent final fallback, and a visible notice in the UI.\n\n模型提供方故障转移插件：遇到限流（429）或配额耗尽时，自动切换到下一个提供方——支持按提供方配置模型、永久最终兜底，并在界面显示切换提示。\n\n## Features / 功能\n\n- Automatic switch on `RATE_LIMIT` / `QUOTA` failures, with configurable retry threshold (`fallbackAfterRetries`). / 遇到限流/配额错误自动切换，可配置切换前连续失败次数。\n- Per-provider model mapping — a switched provider can use a different model. / 每个提供方可单独指定切换后使用的模型。\n- Cooldown per provider (`cooldownMs`): a cooled-down provider is skipped until it recovers. / 提供方冷却机制：冷却期间直接跳过，到期自动恢复。",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T17:37:38.179Z",
   "created_at": "2026-08-15T17:37:37.968Z",
-  "gh": {
-    "full_name": "HB00/dsh-llm-failover",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T16:41:11Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 60,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:41.790Z"
+  "updated_at": "2026-08-17T04:27:49.210Z"
 }

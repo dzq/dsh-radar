@@ -26,19 +26,19 @@
   "engines": {
     "node": ">=18"
   },
+  "readme": "# dsh-engramory\n\nCurated, file-based long-term memory for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) —\nplain markdown notes you can read and `git log`, one store shared across every host you\nuse, and an index cap that is a **real refusal** rather than a request.\n\nPart of [Engramory](https://github.com/tinqiao-oss/engramory).\n\n## Why a plugin, when an `AGENTS.md` block already works\n\nThe block does carry the discipline, and for recall that is enough. Two things it cannot\ndo:\n\n**The cap becomes deterministic.** Engramory keeps its index under 200 lines / 25 KB\nbecause the index loads every session and everything past the cap silently stops being\nrecalled. On most hosts that limit is rules plus a checker the agent has to remember to\nrun. dsh exposes `ctx.tools.guard()",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T12:11:23.687Z",
   "created_at": "2026-08-15T12:03:47.287Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:04.836Z"
+  "updated_at": "2026-08-17T04:27:46.457Z"
 }

@@ -22,6 +22,7 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-win32\n\n让 DeepSeek Harness 在 Windows 上成为一等公民。\n\n[English](./README.md) · [![ci](https://github.com/sjh9714/dsh-win32/actions/workflows/ci.yml/badge.svg)](https://github.com/sjh9714/dsh-win32/actions/workflows/ci.yml)\n\n![before and after](./assets/hero.png)\n\n| | 官方 DSH（Windows） | 装上 dsh-win32 |\n|---|---|---|\n| 极简模式 | 无法使用。持久 shell 一启动就抛 `terminal inspection is unsupported on platform win32` | **可用。真正的持久 Git Bash，状态跨调用保留** |\n| 安装深坑 | koffi 崩溃链、PS 5.1 崩溃循环、localhost 403、System32 假 bash | 一条 `doctor` 命令逐项指出问题和修法 |\n| 启动 | 每天早上去 GitHub 找 npx 命令 | `npx dsh-win32 setup`（可选桌面快捷方式） |\n\n## 为什么做这个\n\n社区反复实测说 DeepSeek 模型在 DSH 的极简模式下表现最好。但在 Windows 上，极简模式根本跑不起来：它的持久 bash 需要 PTY，而官方 subprocess 运行时在 win32 上解析平台进程探测器时直接抛错，连 node-pty 都没碰到。所有 Windows 用户都被挡在模型对齐得最好的那个模式之外。\n\ndsh-win32 用三个部分补上这个缺口。\n\n1. **Windo",
   "weekly_downloads": 1535,
   "last_publish": "2026-08-15T14:39:48.564Z",
   "created_at": "2026-08-15T08:45:58.080Z",
@@ -35,5 +36,5 @@
     "overall": 58,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T03:56:16.531Z"
+  "updated_at": "2026-08-17T04:27:44.211Z"
 }

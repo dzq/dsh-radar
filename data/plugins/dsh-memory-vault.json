@@ -27,26 +27,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-memory-vault\n\n为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）打造的跨会话记忆库插件。\n\n每个 DSH 会话都从零开始。`dsh-memory` 给 Agent 一个持久化的\"第二大脑\"：事实、偏好、决策与项目笔记可以跨会话存活，并自动被回忆。\n\n- **3 个模型工具** — `memory_remember` / `memory_recall` / `memory_forget`\n- **每轮提示注入** — 最近的记忆条目会自动注入每次系统提示，Agent 开局就带着上下文\n- **持久化存储** — 记录存放在 [storage domain](https://github.com/deepseek-ai/deepseek-harness)（`dsh_memory` 单元，默认 json 后端；单元名按 `UNIT_NAME_RE` 用 snake_case）\n- **浏览器管理页** — 设置里的\"记忆库\"页面，可浏览、新增、删除条目\n\n## 安装\n\n```bash\ndsh plugin --profile web add dsh-memory-vault\n```\n\n`dsh.bundle` manifest 会自动把 `dsh-memory` 行挂进 profile。也可以手动安装：\n\n```bash\nnpm install dsh-memory-vault\n```\n\n然后在你的 profile `cordis.yml`（或 `cordis.patch.yml`）里加一行：\n\n```yaml\n- id: dsh-memory\n  name: dsh-memory-vault\n```\n\n## 用法\n\n直接告诉 Agent 要记住的事，或让它",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T08:13:18.711Z",
   "created_at": "2026-08-14T03:51:07.802Z",
-  "gh": {
-    "full_name": "flymysql/dsh-memory",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T08:04:03Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 61,
-    "grade": "B"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:43.654Z"
+  "updated_at": "2026-08-17T04:27:49.238Z"
 }

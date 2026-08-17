@@ -13,14 +13,7 @@
     "paper-search",
     "semantic-scholar",
     "pubmed",
-    "google-scholar",
-    "arxiv",
-    "biorxiv",
-    "medrxiv",
-    "doi",
-    "auto-cite",
-    "scientific-figures",
-    "citation-graph"
+    "google-scholar"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/literaf/ai4scholar-plugin-dsh.git",
@@ -46,26 +39,19 @@
   "engines": {
     "node": ">=22.19.0"
   },
+  "readme": "<p align=\"center\"><strong>dsh-ai4scholar</strong></p>\n\n# AI4Scholar for DeepSeek Harness\n\nEnglish | [中文](README_CN.md)\n\n[![npm](https://img.shields.io/npm/v/dsh-ai4scholar?label=npm)](https://www.npmjs.com/package/dsh-ai4scholar) [![CI](https://github.com/literaf/ai4scholar-plugin-dsh/actions/workflows/ci.yml/badge.svg)](https://github.com/literaf/ai4scholar-plugin-dsh/actions/workflows/ci.yml) [![dsh-plugin](https://img.shields.io/badge/topic-dsh--plugin-blue)](https://github.com/topics/dsh-plugin) ![license](https://img.shields.io/badge/license-MIT-green)\n\nAcademic literature tools for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`), delivered as 38 native agent tools — the same coverage as the AI4Scholar plugins for OpenClaw, Codex, and Hermes. Powered by [ai",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T06:17:28.696Z",
   "created_at": "2026-08-16T05:55:59.455Z",
-  "gh": {
-    "full_name": "literaf/ai4scholar-plugin-dsh",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T06:58:50Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 63,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:12.826Z"
+  "updated_at": "2026-08-17T04:27:46.474Z"
 }

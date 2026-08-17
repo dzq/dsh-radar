@@ -26,19 +26,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# dsh-rules-manager-client\n\n> DeepSeek Harness 设置页「规则、命令与技能」面板（client 插件），是 **dsh-rules-manager** 的配套浏览器端。\n\n## 功能\n\n- **规则**：可视化编辑用户全局规则（AGENTS.md）——全文展示、编辑、新增、删除，保存即生效并自动备份；\n- **命令**：只读展示所有可用斜杠命令；\n- **自定义命令**：定义你自己的快捷指令（保存后即注册为可用斜杠命令）；**支持带参数**——预设内容里写 `{input}`，输入命令时 `{input}` 会被替换成你输入的内容；没写 `{input}` 时参数自动追加到末尾；不带参数则只发预设内容；\n- **备份与恢复**：列出所有自动备份（时间 / 规则条数 / 大小），一键恢复到某个备份时刻（恢复前自动再备份当前状态，双保险）。\n\n## 安装\n\n本包发布在 npm（`dsh-rules-manager-client`），与主包 `dsh-rules-manager` 配套：\n\n```sh\n# 在 $DSH_HOME/profiles/web 目录下安装\nnpm install dsh-rules-manager dsh-rules-manager-client\n```\n\n然后按下方「装配」接入 `cordis.patch.yml` 并重启 DSH。\n\n## 装配\n\n本包必须放在 `$DSH_HOME/profiles/node_modules/` 下（DSH 的 client 插件发现机制按 npm 包名解析），并在 `$DSH_HOME/profiles/web/cordis.patch.yml` 装配（见主包 README）。\n\n```yaml\n- insert:\n    - id: rules-manager-cli",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T09:39:44.565Z",
   "created_at": "2026-08-14T10:11:01.344Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 47,
-    "grade": "C"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:00.415Z"
+  "updated_at": "2026-08-17T04:27:44.332Z"
 }

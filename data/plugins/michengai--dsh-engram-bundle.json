@@ -25,19 +25,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "<h1 align=\"center\">DSH Engram Bundle</h1>\n\n<p align=\"center\">\n  <strong>为 DeepSeek Harness 接入 Engram 长期记忆 MCP，并向父代理注入最小记忆规则。</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/MichengAI/dsh-engram-bundle/issues\">反馈问题</a>\n  · <a href=\"https://www.npmjs.com/package/@michengai/dsh-engram-bundle\">在 npm 查看</a>\n  · <a href=\"README.md\">English</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-Apache--2.0-blue.svg\" alt=\"Apache License 2.0\"></a>\n  <a href=\"https://www.npmjs.com/package/@michengai/dsh-engram-bundle\"><img src=\"https://img.shields.io/npm/v/%40michengai/dsh-engram-bundle?label=npm\" alt=\"npm 包\"></a>\n  <img src=\"https://img.shields.io/badge/DSH-Plugin-10b981\" alt=\"DSH Plugin\">\n  <img src=\"https://img.shields.io/badge/Node.js-%E2%",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T16:56:22.158Z",
   "created_at": "2026-08-16T10:27:24.363Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 53,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:31.084Z"
+  "updated_at": "2026-08-17T04:27:46.977Z"
 }

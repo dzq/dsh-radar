@@ -21,19 +21,19 @@
   "dsh_compat": false,
   "dsh_meta": null,
   "engines": {},
+  "readme": "# dsh-frontend-tools-client\n\n[English](README.md) | 中文\n\n前端工具桥的应用侧：把一个应用（浏览器渲染进程、Web 应用或 Node 进程）连接到 [`dsh-frontend-tools-bridge`](../bridge/README.md) 的 WebSocket 服务，并把应用私有的工具暴露给模型。应用保留带完整权限的真实实现——本 SDK 只单向携带注册、反向携带转发调用。\n\n## 功能\n\n`createFrontendToolsClient({ url, key })` 返回一个客户端，持有一条连接和一个工具注册表。凭证归应用自己掌管：用 `generateClientKey()` 生成一次 DSH KEY 并持久化（例如存入 `localStorage`），展示给用户——`buildClientKeyClipboardText({ namespace, key, appName })` 生成推荐的复制文本——由用户在对话中经 `frontend_tools_register_client` 管理工具把它登记到应用的命名空间。KEY 就是客户端的全部身份：握手只呈交 KEY，服务端在 `welcome` 中回显绑定的命名空间——`connect()` 落定后可从 `client.namespace` 读取。`registerTools(tools)` 发送一个 `register` 批次，并按注册顺序以桥注册出的模型侧公开名（`<namespace>__<name>`）落定；`unregisterTools(names)` 按原始名移除工具，并以桥实际移除的原始名落定（未知名被忽略）。传入的 `call` 帧按原始名称分发到对应工具的 `execute`；落定结果——值，或结构化的 `{ code, mess",
   "weekly_downloads": 116,
-  "monthly_downloads": 116,
   "last_publish": "2026-08-15T19:38:38.548Z",
   "created_at": "2026-08-15T19:38:38.258Z",
   "gh": null,
   "scores": {
     "popularity": 52,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 56,
-    "grade": "B"
+    "overall": 42,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:42.365Z"
+  "updated_at": "2026-08-17T04:27:44.277Z"
 }

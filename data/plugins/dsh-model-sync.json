@@ -31,26 +31,19 @@
     }
   },
   "engines": {},
+  "readme": "<p align=\"center\">\n  <img src=\"assets/logo.svg\" width=\"88\" alt=\"dsh-model-sync logo\">\n</p>\n\n<h1 align=\"center\">dsh-model-sync</h1>\n\n<p align=\"center\">\n  <a href=\"README.md\">English</a> · 中文\n</p>\n\n<p align=\"center\">\n  <a href=\"https://www.npmjs.com/package/dsh-model-sync\"><img alt=\"npm\" src=\"https://img.shields.io/npm/v/dsh-model-sync?color=4D6BFE\"></a>\n  <a href=\"https://github.com/topics/dsh-plugin\"><img alt=\"dsh-plugin\" src=\"https://img.shields.io/badge/topic-dsh--plugin-4D6BFE\"></a>\n  <a href=\"https://awesome-dsh-plugin.com\"><img alt=\"Awesome DSH Plugin\" src=\"https://awesome-dsh-plugin.com/badge.svg\"></a>\n  <a href=\"LICENSE\"><img alt=\"MIT\" src=\"https://img.shields.io/badge/license-MIT-111827\"></a>\n</p>\n\n<p align=\"center\">\n  把各提供方线上模型列表写进 DeepSeek Harness 的 settings。输入框圆环只跟当前会话正在用的那个模型，读",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T11:56:31.067Z",
   "created_at": "2026-08-15T08:49:04.483Z",
-  "gh": {
-    "full_name": "jiay98528-dev/dsh-model-sync",
-    "stars": 1,
-    "open_issues": 2,
-    "pushed_at": "2026-08-15T13:07:25Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 64,
-    "grade": "B"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:57.539Z"
+  "updated_at": "2026-08-17T04:27:44.326Z"
 }

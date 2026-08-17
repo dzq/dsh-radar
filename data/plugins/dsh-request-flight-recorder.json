@@ -26,19 +26,19 @@
   "engines": {
     "node": "^22.19.0 || ^24.0.0"
   },
+  "readme": "# dsh-request-flight-recorder\n\n[English](./README.md)\n\n面向 DeepSeek Harness 的无正文模型请求诊断插件。插件通过 Cordis 观察官方\nAgent Loop 请求，关联请求组装与流式结束状态，并在有界内存中保留飞行记录，\n用于定位模型请求结构和流式生命周期问题。\n\n## 能力\n\n- 精确记录 Session、Turn、Step 和请求 Attempt 坐标。\n- 记录 Provider、Model、生成参数、消息结构计数和工具 Schema 大小。\n- 记录 Prompt Section、Context、Tool 和变量名称，但不记录对应值。\n- 记录首个 Chunk 延迟、总耗时、Token Usage、Finish Reason 和结构化失败状态。\n- 提供进程健康状态、保留记录组合查询和确定性的无正文 Diff。\n- 当 Profile 提供 Commands 服务时，注册可选的官方 `/flight` 人类命令。\n\n记录器不会注册模型 Tool、Skill、Prompt Section 或 Context Provider，也不会\n改变 Agent Loop 或 Prompt 语义。\n\n## 兼容性\n\n版本 `1.0.0` 面向 DeepSeek Harness `0.1.0-rc.6`、Cordis `^4.0.1` 和\nNode.js `^22.19.0 || ^24.0.0`。DSH RC 版本可能修改扩展契约，请使用与目标\nDSH 版本匹配的插件版本。\n\n## 安装\n\n### npm\n\n通过 npm 安装时，使用官方 DSH 插件命令将包添加到 Profile：\n\n```sh\ndsh plugin --profile web add dsh-request-flight-recorde",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T19:02:13.207Z",
   "created_at": "2026-08-15T19:02:12.888Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:04.425Z"
+  "updated_at": "2026-08-17T04:27:46.457Z"
 }

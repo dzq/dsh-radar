@@ -32,19 +32,19 @@
     }
   },
   "engines": {},
+  "readme": "# DSH ChatGPT Subscription\r\n\r\n让 DSH（DeepSeek Harness）通过 ChatGPT 订阅使用 Gpt 系列模型的插件。\r\n\r\n插件注册 `codex-chatgpt` Provider（显示名 **“Codex（ChatGPT 订阅）”**），以当前 Windows 用户的 ChatGPT OAuth 登录态访问模型，并在设置页展示账号信息、连接状态与订阅额度。\r\n\r\n## 目录\r\n\r\n- [功能特性](#功能特性)\r\n- [模型目录](#模型目录)\r\n- [环境要求](#环境要求)\r\n- [安装](#安装)\r\n- [使用](#使用)\r\n- [升级、降级与卸载](#升级降级与卸载)\r\n- [安全边界](#安全边界)\r\n- [插件路由](#插件路由)\r\n- [开发与验证](#开发与验证)\r\n- [故障排查](#故障排查)\r\n\r\n## 功能特性\r\n\r\n**登录与会话**\r\n\r\n- Authorization Code + PKCE（S256）登录，一次性 localhost 回调；\r\n- 支持 token 刷新、登录取消与账号注销；\r\n- token 使用 Windows CurrentUser DPAPI 加密存储，明文不发送给 Client。\r\n\r\n**模型接入**\r\n\r\n- 固定 Codex Responses 地址，支持流式文本、reasoning summary、图片输入与工具调用/结果；\r\n- 429/5xx 由 DSH retry policy 接管；401 只强制刷新并重试一次，支持 `AbortSignal`；\r\n- Codex 与 Code review 多窗口额度，60 秒缓存、15 秒上游节流并遵守 `Retry-After`。\r\n\r\n**设置页**\r\n\r\n- 展示账号（脱敏 email、套餐、账号 ID 后四",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T17:45:36.876Z",
   "created_at": "2026-08-14T16:42:04.943Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:16.409Z"
+  "updated_at": "2026-08-17T04:27:44.624Z"
 }

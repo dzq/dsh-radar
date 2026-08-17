@@ -33,26 +33,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-plugin-focus — DeepSeek Harness Agent 专注板\n\n一个真实可安装的 **DSH 插件**（DeepSeek Harness / Cordis profile bundle）：给 agent 一个 `focus` 工具和一块**持久化专注板**（默认 `.dsh/focus.md`，位于会话工作区），钉住**目标、硬约束、已做的决定**——跨上下文压缩、跨同工作区的新会话都能存活。todo 列表管\"下一步做什么\"；专注板管\"为什么做、不能违背什么\"。\n\n## 功能\n\n| 功能 | 状态 |\n| --- | --- |\n| `focus` 工具 —— `set` / `get` / `append` / `clear` | ✅ 稳定 |\n| 提示词指引段落（`focus:instructions`） | ✅ 稳定 |\n| **自动注入** —— 每轮开始及板子变化时自动把专注板放回模型上下文 | ✅ 稳定 |\n| **clear 归档** —— 清空时旧板子归档到 `.dsh/focus.md.bak`（可累积） | ✅ 稳定 |\n| `focusBoard` 会话投影（供 UI 读取） | ✅ 稳定 |\n| **只读 Web 面板**（输入框上方 dock） | 🧪 实验性（手写 loader 格式 client bundle，未在运行中的 web 实例上验证） |\n\n## 工作原理\n\n- 板子是纯文本、追加友好的文件；条目带时间戳按序排列；`get` 最新在前、按字符上限截断（渲染永不删文件）。\n- 单个 Cordis 插件、两面一体：宿主面（`lib/index.js`）注册工具/投影/自动注入，浏览器面（`lib/client.js`）渲染面板；同一组合行通过包的 `dsh.bundle` + `dsh.client` ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T17:06:13.933Z",
   "created_at": "2026-08-16T17:06:13.612Z",
-  "gh": {
-    "full_name": "863683348/dsh-plugin-focus",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T18:18:32Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 64,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:05.754Z"
+  "updated_at": "2026-08-17T04:27:44.341Z"
 }

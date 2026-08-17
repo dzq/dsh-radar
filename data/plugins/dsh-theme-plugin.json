@@ -34,26 +34,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# dsh-theme-plugin\n\n以中国传统色为锚色的 **DeepSeek Harness 主题包**。49 个锚色 × 亮/暗 = **98 套主题**，每套写满完整的令牌词表（98 个：89 个 `--dsw-*` + 9 个 `--shiki-token-*` 语法槽），3136 条对比度断言逐条通过 WCAG AA。其中 12 个锚色标为精选。\n\n📖 [English README](./README.md)\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/nevertoday/dsh-theme-plugin/main/docs/img/theme-zhuqing-light.png\" alt=\"竹青·亮：素绢纸，气泡是一层竹青罩染，发送键是锚色本人\" width=\"49%\">\n  <img src=\"https://raw.githubusercontent.com/nevertoday/dsh-theme-plugin/main/docs/img/theme-zhuhong-dark.png\" alt=\"朱红·暗：熟宣纸压成暖墨，气泡是深绛罩染，发送键是朱砂\" width=\"49%\">\n  <br>\n  <img src=\"https://raw.githubusercontent.com/nevertoday/dsh-theme-plugin/main/docs/img/theme-qunqing-light.png\" alt=\"群青·亮：雪青绢，气泡是一层群青罩染，发送键是群青\" width=\"49%\">\n  <img src=\"https://raw.githubusercontent.com/nevertoday/dsh-theme-plugin/main/d",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T11:41:11.275Z",
   "created_at": "2026-08-14T13:38:58.232Z",
-  "gh": {
-    "full_name": "nevertoday/dsh-theme-plugin",
-    "stars": 13,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T11:41:14Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 63,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:43.187Z"
+  "updated_at": "2026-08-17T04:27:49.231Z"
 }

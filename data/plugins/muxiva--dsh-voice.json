@@ -35,26 +35,19 @@
   "engines": {
     "node": ">=22.19"
   },
+  "readme": "# Muxiva Voice for DeepSeek Harness\n\n这是一个面向官方 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的本地优先、可打断、全双工语音插件，底层实时 Pipeline 由 [Muxiva](https://github.com/PiyotaHu/muxiva) 编排。\n\n麦克风、VAD、ASR、分句、TTS、播放和打断链路都留在 Mac 本机；DSH 继续负责有状态 Agent、工具、权限、会话和 Web 聊天记录。\n\n> 当前是 Alpha：源码联调路径与 M1 Pro 无人值守认证已经完成。Muxiva 0.1.1 已发布 CPython 3.8–3.14 Wheel（包括 macOS universal2）。\n\n## 源码快速开始\n\n前置要求：Apple Silicon Mac、Node.js 22.19+、Python 3.11–3.13、Rust、相邻目录 `../muxiva` 中的 Muxiva 源码、已安装的 `muxiva` CLI 和官方 DSH CLI。\n\n```bash\ncd muxiva-dsh-voice\nnpm run doctor -- --fix\nnpm run models\ndsh plugin --profile web add .\n```\n\n然后分别启动：\n\n```bash\n# 终端 A：Muxiva 本地语音 Graph\nnpm start\n\n# 终端 B：DSH Web\ndsh --profile web\n```\n\n`npm start` 默认是低开销的无界面产品模式，也可以显式运行 `npm run start:headless`。\n排障或调优时，把终端 A 换成 `npm run observe`：它会在",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T05:43:33.735Z",
   "created_at": "2026-08-16T05:43:33.457Z",
-  "gh": {
-    "full_name": "PiyotaHu/muxiva-dsh-voice",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T06:45:56Z",
-    "archived": false,
-    "license": "NOASSERTION"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 58,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:54:52.293Z"
+  "updated_at": "2026-08-17T04:27:46.983Z"
 }

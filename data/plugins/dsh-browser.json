@@ -20,19 +20,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-browser\n\nBrowser automation for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness): a Playwright-powered `browser_*` tool family so the agent can drive real web pages — fill forms, click through flows, scrape SPA content, and take screenshots it can then view with `read_image`.\n\n## Install\n\n```sh\ndsh plugin --profile <name> add dsh-browser\n```\n\nThe plugin depends on `playwright-core` (bundled with the package) and needs a Chromium-based browser. It tries `chromium`, then `chrome`, then `msedge` channels automatically; if none is found:\n\n```sh\nnpx playwright install chromium\n```\n\nor configure `launch.executablePath` / `launch.channel` in the plugin config.\n\n## Tools\n\n| Tool | Purpose |\n|---|---|\n| `browser_open` | Open (or reuse) the browser, optionally navigate to a ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-13T16:21:58.668Z",
   "created_at": "2026-08-13T16:21:58.279Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 58,
+    "maintenance": 0,
     "quality": 75,
     "security": 40,
-    "dsh_compat": 80,
-    "overall": 49,
-    "grade": "C"
+    "dsh_compat": 75,
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:28.830Z"
+  "updated_at": "2026-08-17T04:27:46.972Z"
 }

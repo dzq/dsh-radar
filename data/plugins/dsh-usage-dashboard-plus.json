@@ -13,10 +13,7 @@
     "cost",
     "web",
     "vision",
-    "dashboard",
-    "call-log",
-    "stats",
-    "projection"
+    "dashboard"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/1HelloMan1/dsh-usage-dashboard-plus.git",
@@ -29,19 +26,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-usage-dashboard-plus\n\n[English](README.md) | [中文](README.zh.md)\n\n[dsh-usage-dashboard](https://www.npmjs.com/package/dsh-usage-dashboard) 的增强版（fork），核心新增：**外部视觉调用计入统计**。为 [DeepSeek Harness (dsh)](https://github.com/deepseek-ai/deepseek-harness) 提供侧边栏底部小部件：显示 **DeepSeek API 余额** 和 **今日花费（估算）**。\n\n## Plus 新增了什么\n\n- **统计外部视觉模型调用**（如 `dsh-vision-fallback` 触发的 Mimo V2.5 请求）：通过可选的 JSONL 用量日志并入今日花费——原版只统计 DSH 会话日志里的调用。\n- 内置 **`mimo-v2.5` 计价条目**（opencode Zen GO 费率），开箱即可估算这些调用的费用（可用 `prices` 覆盖）。\n\n## 功能\n\n- **账户余额**：通过 DSH 凭证系统解析 DeepSeek key，查询余额接口（带缓存）。\n- **今日花费（估算）**：扫描会话日志 + 外部用量日志，按 Token 用量 × 价目表估算。\n- **侧边栏底部小部件**：`余额 ¥xx · 今日 ¥xx`，点击展开详情卡片（调用次数、Token、按模型明细、计价说明）。\n- **峰/谷计价**：2026-08-17 起的 DeepSeek 分时段价目表。\n- **无需构建**：host 半（`lib/index.js`）+ 浏览器 bundle（`lib/client.js`），走 `dsh.client` 机制。\n\n#",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T10:57:03.573Z",
   "created_at": "2026-08-14T09:38:39.270Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 47,
-    "grade": "C"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:17.354Z"
+  "updated_at": "2026-08-17T04:27:46.939Z"
 }

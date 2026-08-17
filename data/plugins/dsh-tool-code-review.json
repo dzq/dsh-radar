@@ -17,19 +17,19 @@
   "dsh_compat": false,
   "dsh_meta": null,
   "engines": {},
+  "readme": "# dsh-tool-code-review\r\n\r\nDSH 插件：结构化代码审查 — Agent 读取 git diff，按 checklist 逐项审查，输出可操作的发现。\r\n\r\n## 工具\r\n\r\n| 工具 | 功能 |\r\n|------|------|\r\n| `review_diff` | 获取并解析 git diff，返回结构化文件变更摘要 |\r\n| `review_file` | 读取文件指定行范围（带行号，方便定位问题） |\r\n| `review_checklist` | 生成审查 checklist（bugs/security/style/performance/tests/docs） |\r\n\r\n## 使用示例\r\n\r\n```\r\nUser: 帮我 review 一下当前的改动\r\n\r\nAgent:\r\n→ review_diff({ target: \"main\" })\r\n  // 获取与 main 分支的 diff，了解改了什么\r\n→ review_checklist({ checks: [\"bugs\", \"security\"] })\r\n  // 生成要检查的点\r\n→ review_file({ path: \"src/auth.ts\", startLine: 45, endLine: 80 })\r\n  // 深入看可疑的代码段\r\n\r\n审查结果：\r\n1. [Security] src/auth.ts:52 — 用户输入直接拼接到 SQL，存在注入风险\r\n2. [Bug] src/handler.ts:28 — async 函数缺少 try/catch，错误会被吞掉\r\n3. [Style] src/utils.ts:15 — 未使用的 import\r\n```\r\n\r\n## 配置\r\n\r\n```yaml\r\n- insert:\r\n    - id: code-review\r\n  ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T15:40:57.701Z",
   "created_at": "2026-08-14T15:40:57.476Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 40,
-    "grade": "C"
+    "overall": 29,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:10:51.176Z"
+  "updated_at": "2026-08-17T04:27:47.730Z"
 }

@@ -24,26 +24,19 @@
   "engines": {
     "node": ">=18"
   },
+  "readme": "# @openma/deepseek-harness-tui\n\nTerminal-native UI for DeepSeek Harness, distributed as both a `dsh` profile\nbundle and a standalone `dsh-tui` command.\n\nNative binaries are packaged for macOS arm64, macOS x64, Linux x64, and Windows\nx64. Requires Node.js 18+; plugin installation requires pnpm 10+ and is tested\nwith `dsh 0.1.0-rc.6`.\n\n## Recommended: dsh profile plugin\n\n```sh\ndsh plugin --profile tui add @openma/deepseek-harness-tui\ndsh --profile tui\n```\n\nThe install command does not need `-w`. The profile supplies agents, tools,\nproviders, credentials, and durable sessions; the package supplies the native\nTUI and its JSON-RPC bridge. Harness packages are resolved from the running\n`dsh`, not reinstalled into the profile.\n\n## Demo and standalone CLI\n\n```sh\nnpm install --global @openma/deepse",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T15:56:23.683Z",
   "created_at": "2026-08-13T18:22:16.137Z",
-  "gh": {
-    "full_name": "openma-ai/deepseek-harness-tui",
-    "stars": 28,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T16:29:09Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 60,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:42.307Z"
+  "updated_at": "2026-08-17T04:27:49.224Z"
 }

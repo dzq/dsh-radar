@@ -1,7 +1,7 @@
 {
   "slug": "dsh-delegate-router",
   "name": "dsh-delegate-router",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Delegate light subagent tasks to cheaper models: automatic Flash/Pro routing for DeepSeek Harness subagent calls, with /delegate overrides, budget caps, and a routing-ledger panel.",
   "keywords": [
     "dsh",
@@ -32,26 +32,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-delegate-router\n\n> [中文](README.zh.md) · [English](README.md)\n\n**给 DeepSeek Harness 的子代理调用做 Flash/Pro 自动分派。**\n\n主对话保持跑强模型（如 V4 Pro）；当 agent 派子代理干活时，本插件对任务做\n复杂度分类：**轻任务自动用便宜模型（如 V4 Flash）**，重任务留在强模型——\n确定性分派，不靠模型自觉。每次决策都记入账本，侧边栏点 **⚡ 分派记录**\n随时可查。\n\n- **自动路由** — 轻任务走 Flash、重任务留 Pro\n- **规则可 DIY** — 全部规则在 `~/.dsh/dsh-delegate-router.json`：\n  关键词表、短任务阈值、预算上限、北京时间峰谷降级\n- **手动覆盖** — `subagent`/`subagent_fork` 工具新增 per-call\n  `provider`/`model` 参数，任何一次调用都可强制指定模型\n- **`/delegate` 命令** — 会话级模式切换：`/delegate auto | off | flash-all`\n- **决策账本** — ⚡ 分派记录面板列出当前会话每一次分派（任务、目标模型、\n  触发原因）\n\n## 为什么做这个\n\nDeepSeek V4 Flash 每一档价格都**恰好是 V4 Pro 的三分之一**（2026-08-17\n生效的官方定价；峰谷只是整体缩放，比例不变）。而 DSH 原生的子代理\n**默认继承父模型**——Pro 会话里派一个搜索任务也要按 Pro 计价。用真实会话\n实测：4 次已路由的子代理，共 ~156K tokens，实际花费 ¥0.32（Flash），\n同样的量全走 Pro 要 ¥0.96 ——**每次分派省",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
-  "last_publish": "2026-08-16T09:16:34.435Z",
+  "last_publish": "2026-08-17T04:19:30.401Z",
   "created_at": "2026-08-16T09:02:28.578Z",
-  "gh": {
-    "full_name": "penguin-oo/dsh-delegate-router",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T09:16:29Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 61,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:48.287Z"
+  "updated_at": "2026-08-17T04:27:58.220Z"
 }

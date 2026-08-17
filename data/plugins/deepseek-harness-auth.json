@@ -32,26 +32,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# deepseek-harness-auth\n\n[![CI](https://github.com/taichuy/deepseek-harness-auth/actions/workflows/ci.yml/badge.svg)](https://github.com/taichuy/deepseek-harness-auth/actions/workflows/ci.yml)\n[![npm](https://img.shields.io/npm/v/deepseek-harness-auth.svg)](https://www.npmjs.com/package/deepseek-harness-auth)\n\nDeepSeek Harness Web profile 的树外认证 Bundle。在不修改 Harness 主仓库的条件下，它将原 WebServer 固定到 `127.0.0.1` 随机端口，并在同一进程中启动唯一的公共认证代理；HTTP、SPA 静态文件、RPC、SSE 与 WebSocket upgrade 只有通过认证后才会转发到 Harness。\n\n## 安全模型\n\n```text\nBrowser -> public Auth Proxy -> authenticated -> 127.0.0.1:<random> Harness WebServer\n```\n\n- 未初始化账号时公共代理保持 fail-closed，不生成默认账号或随机密码。\n- 密码由本机拥有者手动设置；除了不能为空，不强制长度、复杂度或必须排除用户名。\n- 默认白名单为空，因此本机和远程地址都必须登录；可用 CLI 添加 IP 或 CIDR。\n- 认证 Bundle 固定使用 Harness 的应用内 `browse` 目录选择器，远程浏览器选择服务器工作区时不会在宿主桌面弹出 ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T07:15:15.816Z",
   "created_at": "2026-08-16T02:33:52.664Z",
-  "gh": {
-    "full_name": "taichuy/deepseek-harness-auth",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T07:15:17Z",
-    "archived": false,
-    "license": "Apache-2.0"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 64,
-    "grade": "B"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:22.564Z"
+  "updated_at": "2026-08-17T04:27:44.634Z"
 }

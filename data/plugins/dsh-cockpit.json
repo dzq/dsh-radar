@@ -20,19 +20,19 @@
     }
   },
   "engines": {},
+  "readme": "# DSH Cockpit 0.2.0\n\nThe single installable Cordis bundle for DSH Cockpit. It embeds the layout and UI entry points, so no component packages need to be installed separately. Full documentation, source code, license, and contribution guide are available in the source repository.\n\n```bash\ndsh plugin --profile web add dsh-cockpit\n```\n\nCompatible with DeepSeek Harness `0.1.0-rc.6`.\n",
   "weekly_downloads": 134,
-  "monthly_downloads": 134,
   "last_publish": "2026-08-15T17:49:37.953Z",
   "created_at": "2026-08-15T17:49:37.620Z",
   "gh": null,
   "scores": {
     "popularity": 53,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 55,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 60,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 47,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:40.720Z"
+  "updated_at": "2026-08-17T04:27:44.272Z"
 }

@@ -16,19 +16,19 @@
   "dsh_compat": false,
   "dsh_meta": null,
   "engines": {},
+  "readme": "# HME — 给 DeepSeek 装上大脑\r\n\r\nDeepSeek Harness 很强，但有个硬伤：**会话结束，记忆清零** ，下次从头再来。\r\n\r\nHME（Harness-Memory-Evolution）就是来治这个的。\r\n\r\n## 鲸宝的三重记忆\r\n\r\n1. **你是谁** —— 你的身份、偏好、习惯，跨项目记住你这个人。\r\n2. **这个项目是什么** —— 每个项目不可替代的技术栈、约定、核心要点。\r\n3. **你踩过的所有坑** —— 优秀经验、核心方法论，只要真有用，就往里记。\r\n\r\n但它不臃肿。核心记忆用有界上限锁死、只留精华；海量经验沉进档案层，按需检索、满时提醒清理——就像 CPU 的多级缓存：**小而快的常驻，大而全的按需取**。\r\n\r\n借鉴 Codex、Claude Code、OpenClaw、Hermes Agent 等成熟记忆系统的优点，让鲸宝**不会失忆，也不会被杂事烦扰**。\r\n\r\n## 和别家比有什么不同？\r\n\r\n| 维度 | Codex CLI | Claude Code | OpenClaw | **HME** |\r\n|---|---|---|---|---|\r\n| 记忆结构 | MEMORY + USER 两文件 | CLAUDE.md + skills | 分层记忆 | USER + MEMORY + archive 三层 |\r\n| 防膨胀 | 硬上限（拒绝式） | 无上限 | 向量库 | **有界 core + 扩容 archive** |\r\n| 检索 | 无（全量注入） | skills 按需 | 向量检索 | recall 关键词检索 |\r\n| 经验进去 | 模型主动写 | 人类手写 | 自动 | **模型主动写 + 4 条蒸馏判据** |\r\n| 可审计 | 纯文本 | 纯文本 | 结构化/黑盒 | **纯文本 § 分",
   "weekly_downloads": 19,
-  "monthly_downloads": 19,
   "last_publish": "2026-08-14T16:47:48.253Z",
   "created_at": "2026-08-14T16:47:48.017Z",
   "gh": null,
   "scores": {
     "popularity": 33,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 52,
-    "grade": "C"
+    "overall": 37,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:48.720Z"
+  "updated_at": "2026-08-17T04:27:44.309Z"
 }

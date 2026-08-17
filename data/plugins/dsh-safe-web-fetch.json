@@ -26,26 +26,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-safe-web-fetch\n\n`dsh-safe-web-fetch` 为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的 `web_fetch` 能力提供一个更稳妥的网络 provider。它接入 DSH 原有的 `ctx.web` 和 profile 机制，不另起一套搜索 API，也不改模型侧工具。\n\n它做的事情很明确：域名必须先解析到公共地址，确认安全后才建立连接；每一跳请求都固定到已经检查过的 IP；重定向只允许留在同一个 origin；响应大小、耗时和并发量都有上限。\n\n## 快速开始\n\n包里带有 DSH bundle，所以一条命令就能安装并加入 profile：\n\n```sh\ndsh plugin --profile safe add dsh-safe-web-fetch@next\ndsh --profile safe --dump-config\n```\n\nbundle 会注册 `safe-http` provider，打开 DSH 原有的 `web_fetch` 工具，搜索仍沿用基础 profile 的 provider。部署时建议固定已经测试过的版本：\n\n```sh\ndsh plugin --profile production add dsh-safe-web-fetch@0.1.0-next.0\n```\n\n也可以固定一个经过审核的 Git commit：\n\n```sh\ndsh plugin --profile safe add github:MostlyHarmlessxyz/dsh-safe-web-fetch#<commit-sha>\n```\n\nGit 安装会在本地构建。如果 pnpm 要求批准构建脚本，按 profile 输出的提示操作；如果希",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T02:08:39.245Z",
   "created_at": "2026-08-14T02:08:38.895Z",
-  "gh": {
-    "full_name": "MostlyHarmlessxyz/dsh-safe-web-fetch",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T02:02:37Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 75,
+    "maintenance": 0,
+    "quality": 65,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 58,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:43.913Z"
+  "updated_at": "2026-08-17T04:27:49.241Z"
 }

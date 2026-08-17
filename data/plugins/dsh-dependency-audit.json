@@ -25,19 +25,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-dependency-audit · 依赖安全审计\n\n扫描项目依赖的安全状态：① 通过 **OSV.dev** 查询每个依赖的已知漏洞；② 对比 **npm registry** 检测过期依赖。纯 Node 实现，仅需联网访问 osv.dev 与 npm registry。\n\n## 提供的工具\n\n| 工具 | 作用 |\n|---|---|\n| `audit_vulnerabilities` | 批量查询 OSV.dev，返回受影响依赖的漏洞 ID、严重级、摘要、修复版本 |\n| `audit_outdated` | 对比已安装 vs 最新版本，返回过期依赖与升级幅度（major/minor/patch） |\n\n## 安装\n\n```bash\ndsh plugin add dsh-dependency-audit\n```\n\n安装后在 profile 的 `package.json` 的 `dsh.profile.bundles` 中加入 `\"dsh-dependency-audit\"`。\n\n## 用法示例\n\n```\n帮我审计这个项目依赖有没有已知漏洞\n→ 调用 audit_vulnerabilities(root=\"/workspace\")\n\n哪些依赖过期了，升级幅度多大\n→ 调用 audit_outdated(root=\"/workspace\")\n```\n\n## 说明\n\n- 漏洞数据来自 [OSV.dev](https://osv.dev)（开源漏洞数据库，覆盖 GitHub Advisory 等来源），查询免费无需 key。\n- 只检查已安装（能解析出确切版本）的依赖；`node_modules` 里解析不到的依赖会跳过。\n- 与 `dsh-license-guard`（许可证合规）、`dsh-secret-scan`（密钥扫描）构成安全三件套。\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T11:02:05.309Z",
   "created_at": "2026-08-16T11:02:05.108Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 65,
-    "dsh_compat": 80,
-    "overall": 53,
+    "dsh_compat": 75,
+    "overall": 40,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:03:47.266Z"
+  "updated_at": "2026-08-17T04:27:47.716Z"
 }

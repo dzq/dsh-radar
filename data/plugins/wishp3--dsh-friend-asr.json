@@ -22,26 +22,19 @@
     }
   },
   "engines": {},
+  "readme": "# @wishp3/dsh-friend-asr\n\n语音输入引擎、三种收音模式、转写代理\n\nThis package is a dsh plugin with a host half (`src/index.ts`) and a client half (`src/client.ts`).\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T05:39:12.472Z",
   "created_at": "2026-08-14T16:01:02.398Z",
-  "gh": {
-    "full_name": "wanghehe123/dsh-Friend",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T05:38:38Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 40,
+    "maintenance": 0,
+    "quality": 30,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 48,
-    "grade": "C"
+    "overall": 27,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:12.719Z"
+  "updated_at": "2026-08-17T04:27:44.619Z"
 }

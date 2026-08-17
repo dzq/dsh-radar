@@ -24,6 +24,7 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "<p align=\"center\">\n  <img src=\"docs/design/desktop-floating-concept.png\" alt=\"dsh-traffic-light 桌面悬浮灯\" width=\"100%\">\n</p>\n<p align=\"center\">\n  <strong>给 DeepSeek Harness 每个 Session 一个桌面红绿灯</strong>\n</p>\n<p align=\"center\">\n  <strong>中文</strong> · <a href=\"README.en.md\">English</a>\n</p>\n<p align=\"center\">\n  <a href=\"https://www.npmjs.com/package/dsh-traffic-light\"><img alt=\"npm\" src=\"https://img.shields.io/npm/v/dsh-traffic-light?style=flat-square&color=4b6fff\"></a>\n  <a href=\"LICENSE\"><img alt=\"MIT License\" src=\"https://img.shields.io/badge/license-MIT-263146?style=flat-square\"></a>\n  <img alt=\"Public beta\" src=\"https://img.shields.io/badge/status-public%20beta-7da1de?style=flat-square\">\n</p>\n\n\n# dsh-traffic-light\n\n> 不用一直盯着 DSH 页面。每个开启监控的 Session 都会在桌面显示一个独立的悬浮灯，运行、等待、完成和失败一眼可见。\n\n## 它能做什么\n\n",
   "weekly_downloads": 574,
   "last_publish": "2026-08-15T18:24:12.983Z",
   "created_at": "2026-08-15T16:19:16.284Z",
@@ -31,11 +32,11 @@
   "scores": {
     "popularity": 69,
     "maintenance": 0,
-    "quality": 90,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 58,
+    "overall": 55,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T03:56:22.309Z"
+  "updated_at": "2026-08-17T04:27:44.235Z"
 }

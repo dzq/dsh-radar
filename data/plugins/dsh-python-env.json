@@ -27,26 +27,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# dsh-python-env\n\n[English](README.md) | **中文**\n\n> 面向 DeepSeek Harness 项目的工作区级 Python 虚拟环境管理——发现、创建、安装、删除虚拟环境，远离沙箱、网络与子进程的坑。\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n[![Node.js >= 20](https://img.shields.io/badge/Node.js-%3E%3D20-brightgreen)](https://nodejs.org/)\n[![npm version](https://img.shields.io/npm/v/dsh-python-env)](https://www.npmjs.com/package/dsh-python-env)\n[![GitHub issues](https://img.shields.io/github/issues/AngelosZou/dsh-python-env)](https://github.com/AngelosZou/dsh-python-env/issues)\n\n一个 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 插件，为每个项目（工作区）提供面向 Agent 的 Python 虚拟环境管理：\n\n- **五个模型工具** —— `pyenv_discover`、`pyenv_create`、`pyenv_install`、`pyenv_uninstall`、`pyenv_remove`，外加 `python-env` 技能与 system-prompt 引导段。\n- 通",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T14:05:22.697Z",
   "created_at": "2026-08-16T14:05:22.416Z",
-  "gh": {
-    "full_name": "AngelosZou/dsh-python-env",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T14:06:07Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 64,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:06.370Z"
+  "updated_at": "2026-08-17T04:27:44.341Z"
 }

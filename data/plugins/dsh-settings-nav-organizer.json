@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-settings-nav-organizer",
+  "name": "dsh-settings-nav-organizer",
+  "version": "1.4.3",
+  "description": "Organize the DSH settings panel nav: fold third-party plugin entries under collapsible group rows, with bookmark-style custom groups and a fold toggle in General settings.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "settings",
+    "sidebar",
+    "nav",
+    "fold",
+    "ui"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zhengjy01/dsh-settings-nav-organizer.git",
+  "homepage": "https://github.com/zhengjy01/dsh-settings-nav-organizer#readme",
+  "npm": "https://www.npmjs.com/package/dsh-settings-nav-organizer",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-settings-nav-organizer\n\n> [**English**](README.md) | **中文**\n\n给 DeepSeek Harness 设置面板「减负」：插件装得越多，设置页侧边栏的入口就越乱。本插件把所有插件/扩展的设置入口折叠成一个可展开的 **插件入口** 分组行，支持**书签式自定义分组**与**折叠总开关**。\n\n![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)\n\n## 功能\n\n- **分组行放在系统配置正下方** —— 通用设置 / 模型 / 插件 / 预设保持平铺；其余入口（插件、扩展、附加页面）全部折叠进「插件入口 (N) ▾」。\n- **折叠总开关** —— 「通用设置」区新增「折叠第三方插件入口」开关：开启（默认）时插件入口折叠为分组行；关闭时导航完全恢复原生平铺。开关状态持久化。\n- **书签式自定义分组** —— 像书签文件夹一样创建命名分组，把任意设置入口归入分组，导航中每个分组独立展开/收起；「分组管理」页可新建、重命名、删除分组，条目移入/移出分组。\n- **一键展开/收起** —— 点击分组行，组内条目在其下方展开；再点即收起。未分组的条目保留在「插件入口 (N) ▾」行。\n- **持久化** —— 分组配置与开关状态存于 localStorage（键 `dsh.settingsNavFold.v1`），重启不丢。\n- **自动更新** —— 计数与折叠位置实时跟随 `settings.section` 台账重算，插件注册/卸载设置页时自动增减，无需任何配置。\n- **当前页不消失** —— 正在查看的插件设置页即使处于折叠状态也保持可见。\n- **跟随界面语言** —— 中文 / English。\n\n## 安装\n\n```sh\n#",
+  "weekly_downloads": 0,
+  "last_publish": "2026-08-16T15:17:23.549Z",
+  "created_at": "2026-08-16T13:21:55.684Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:27:53.549Z"
+}

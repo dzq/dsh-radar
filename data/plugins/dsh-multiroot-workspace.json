@@ -33,26 +33,19 @@
   "engines": {
     "node": ">=24.11.1 <25"
   },
+  "readme": "",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:29:57.646Z",
   "created_at": "2026-08-15T15:20:02.950Z",
-  "gh": {
-    "full_name": "Blackoutta/dsh-multiroot-workspace",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T15:56:56Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 55,
+    "maintenance": 0,
+    "quality": 45,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 54,
-    "grade": "C"
+    "overall": 33,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:43.032Z"
+  "updated_at": "2026-08-17T04:27:49.230Z"
 }

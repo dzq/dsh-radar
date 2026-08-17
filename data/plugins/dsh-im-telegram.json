@@ -24,26 +24,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# dsh-im-telegram（Telegram 适配器）\n\nTelegram 渠道适配器：Bot API **polling 长连接**（免公网、NAT 友好），内联按钮审批卡片，文件交付（`/log`）。\n\n- 依赖：`inject: ['im']`（需 `dsh-im` 核心）\n- 密钥：`token: 'env:TELEGRAM_BOT_TOKEN'`（找 @BotFather 创建 bot）\n- 测试：`npm run test:telegram`（8 个，本地假 Bot API 服务器，无需真实 token）\n\n## 特性\n\n- polling `getUpdates`（long-poll，30s），指数退避重连（FR-1.5）；401/409 致命错误停止并提示（token 冲突检测 C4）\n- 消息/按钮回调 → 统一模型；图片/文件自动下载到本地临时目录（FR-7.1 落盘）\n- 出站文本 + `inline_keyboard` 按钮（审批卡片）；`sendFile` 以 document 交付\n- `/status` 可见连接状态与缺口（FR-9.3）\n\n## 配置\n\n```yaml\n- id: im-telegram\n  name: 'dsh-im-telegram'\n  config:\n    token: 'env:TELEGRAM_BOT_TOKEN'\n    mode: polling          # polling | webhook（webhook 需要公网 HTTPS + webhookUrl）\n```\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T09:08:00.376Z",
   "created_at": "2026-08-15T06:04:58.703Z",
-  "gh": {
-    "full_name": "shaobeichen/dsh-im-bridge",
-    "stars": 2,
-    "open_issues": 2,
-    "pushed_at": "2026-08-15T09:08:06Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 59,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:42.359Z"
+  "updated_at": "2026-08-17T04:27:49.224Z"
 }

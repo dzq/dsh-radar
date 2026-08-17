@@ -23,19 +23,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# dsh-web-auth\n\n[![npm](https://img.shields.io/npm/v/@summersec/dsh-web-auth.svg)](https://www.npmjs.com/package/@summersec/dsh-web-auth)\n[![Node.js](https://img.shields.io/badge/node-%3E%3D22-brightgreen)](https://nodejs.org/)\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)\n[![topic: dsh-plugin](https://img.shields.io/badge/topic-dsh--plugin-111827)](https://github.com/topics/dsh-plugin)\n\nDeepSeek Harness（DSH）Web GUI 的**传输层登录门**。\n\n官方 `webserver` 会直接暴露 GUI、插件 bundle、`/api`、SSE 与 WebSocket，没有统一的身份边界。本插件会**禁用**未鉴权的官方载体，并替换为兼容 `ctx.webServer` 契约的服务：在请求进入业务路由之前完成会话校验。\n\nEnglish: [README.md](./README.md)\n\n---\n\n## 登录页面\n\n![DeepSeek Harness 登录页面](./docs/assets/dsh-web-auth-login-v0.1.2.png)\n\n---\n\n## 为什么需要它\n\nDSH 自带 Web 宿主适合本地调试，但不是产品级访问控制：\n\n- 监听 `0.0.0.0` 或挂到反向代理后，控制面",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T13:01:39.050Z",
   "created_at": "2026-08-16T11:36:38.831Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:09:02.247Z"
+  "updated_at": "2026-08-17T04:27:47.728Z"
 }

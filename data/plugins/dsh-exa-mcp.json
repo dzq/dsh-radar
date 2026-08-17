@@ -23,19 +23,19 @@
     }
   },
   "engines": {},
+  "readme": "# Exa Search MCP for DeepSeek Harness\r\n\r\n<p align=\"center\">\r\n  <a href=\"README.md\"><b>English</b></a> ·\r\n  <a href=\"#中文\"><b>中文</b></a>\r\n</p>\r\n\r\n<p align=\"center\">\r\n  <a href=\"https://github.com/MicroHEROX/dsh-exa-mcp/blob/main/LICENSE\"><img alt=\"License: MIT\" src=\"https://img.shields.io/badge/license-MIT-blue.svg\"></a>\r\n  <a href=\"https://github.com/topics/dsh-plugin\"><img alt=\"dsh-plugin\" src=\"https://img.shields.io/badge/dsh-plugin-8A2BE2\"></a>\r\n  <a href=\"https://github.com/MicroHEROX/dsh-exa-mcp\"><img alt=\"stars\" src=\"https://img.shields.io/github/stars/MicroHEROX/dsh-exa-mcp\"></a>\r\n</p>\r\n\r\n面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（`dsh`）的第三方插件：将 Exa 的[神经网络网页搜索与抓取](https://exa.ai)能力接入 agent。它通过 dsh CLI 自带的 MCP 客户端桥（`@deepseek-ai/dsh-mcp-client`）连接 Exa 托管的 [",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T05:06:33.321Z",
   "created_at": "2026-08-15T05:06:33.128Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:00:12.577Z"
+  "updated_at": "2026-08-17T04:27:47.697Z"
 }

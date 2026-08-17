@@ -24,19 +24,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# dsh-im-wecom（企业微信适配器）\n\n企业微信渠道适配器：**回调 URL + 消息加解密**（官方 `@wecom/crypto`）+ 应用消息收发 + 文件交付。\n\n> ✅ 实现完成（本地 HTTP 服务器 + 官方加解密全链路测试 11/11）。\n> ⚠️ 企微无长连接/轮询——必须公网回调 URL（ngrok/cloudflared/caddy 穿透到本地 8787 端口），\n> 且应用消息**没有交互按钮**——审批走文本降级 `/approve <id> yes|no`。\n> 完整配置步骤见 [`docs/wecom-setup.md`](../../docs/wecom-setup.md)。\n\n- 依赖：`inject: ['im']`（需 `dsh-im` 核心）；`@wecom/crypto`（官方加解密）\n- 密钥（全部 `env:` 引用）：\n  - `WECOM_CORP_ID` / `WECOM_AGENT_ID` / `WECOM_SECRET`\n  - `WECOM_CALLBACK_TOKEN` / `WECOM_ENCODING_AES_KEY`\n- 运行器：`node demo/wecom-real.mjs --mode demo`\n- 测试：`node --test \"packages/im-wecom/test/*.test.js\"`（契约 + 加解密 + HTTP 回调 + 出站）\n\n## 平台四件事（对照 docs/wecom-setup.md）\n\n| # | 事项 | 企微情况 |\n|---|---|---|\n| 1 | 凭证 | 管理后台自建应用：CorpID / AgentId / Secret |\n| 2 | 权限/作用域 | 应用天然有收发消息能力；需配「企业可信IP」否则报 60020 |\n| 3 | 订阅",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T09:08:03.770Z",
   "created_at": "2026-08-15T06:05:03.186Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 65,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 47,
-    "grade": "C"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:09.458Z"
+  "updated_at": "2026-08-17T04:27:47.740Z"
 }

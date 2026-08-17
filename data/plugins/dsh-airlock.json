@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-airlock",
+  "name": "dsh-airlock",
+  "version": "0.1.0",
+  "description": "Provenance-gated tool use for DeepSeek Harness (dsh) — labels every input, propagates the labels, and denies capabilities over labels instead of argument strings",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "security",
+    "prompt-injection",
+    "information-flow",
+    "provenance",
+    "taint",
+    "exfiltration",
+    "guard"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/krimvp/dsh-airlock.git",
+  "homepage": "https://github.com/krimvp/dsh-airlock#readme",
+  "npm": "https://www.npmjs.com/package/dsh-airlock",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "node": ">=20.6.0"
+  },
+  "readme": "# dsh-airlock\n\nProvenance-gated tool use for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh).\n\n> **Status: 0.1.0.**\n> The plugin labels context by origin and enforces rules over those labels at five seams.\n> The seam claims are verified against dsh `0.1.0-rc.6`, which warns of compatibility-breaking changes.\n> The behaviour is verified end to end against dsh `0.1.0-rc.6`. See [Verified end to end](#verified-end-to-end).\n> Expect breaking changes while the harness is a release candidate.\n>\n> **Read [the shell hole](#the-shell-hole) before you rely on `secret-no-egress`.**\n> A secret read through `bash` is not labelled, so egress stays open.\n> A live run reproduced a one-line shell command that read a credential file and\n> posted it, with the plugin mounted, and the",
+  "weekly_downloads": 0,
+  "last_publish": "2026-08-16T13:28:11.246Z",
+  "created_at": "2026-08-16T13:28:11.020Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:27:57.148Z"
+}

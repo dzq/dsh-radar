@@ -24,26 +24,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# Swift Cycle for DeepSeek Harness\n\n这是 [Swift Cycle](https://github.com/Solismuchengxue/skill_swift_cycle) 的 DeepSeek Harness 适配器。它把锁定的 Swift Cycle v1.2.0 载荷注册为只能由用户显式调用的 Harness Skill。\n\n## 当前状态\n\n- 适配器版本：`0.1.1`\n- 上游版本：`v1.2.0`\n- 上游 commit：`af3c5ddafba516c304613ea69081118fc234add7`\n- 上游整体 SHA-256：`e01de6fa081c12c7e481a219d3932e48a2e386f05202e7b8a6e51a0029fad686`\n- 本地源码验证：已通过\n- 候选制品预检：已通过 dry-run 文件合同和临时解包后完整性验证\n- 分发版本：GitHub `v0.1.0` 固定提交与 npm `0.1.1` 固定版本\n- Harness Runtime 兼容性：已通过固定版本的隔离验证、GitHub 固定 commit 安装验证，以及 `0.1.0-rc.6` 真实 Web profile 中空工作区和一个非空 Git 项目的只读显式调用烟测\n\n以上结果证明源码、候选制品、固定版本的隔离 Harness Runtime，以及两个已记录工作区中的真实 Web consumer 调用符合已验证边界；不代表其他项目、写入流程或生产治理已经验证。\n\n## 包含的 Swift Cycle 能力\n\n- Knowledge Promotion：把长期共享事实从本地记录晋升到适当的 Git 管理资产。\n- State Separation：拆分彼此独立的工程、实验、质量和发布结论。\n- Govern",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T07:50:01.099Z",
   "created_at": "2026-08-16T07:50:00.857Z",
-  "gh": {
-    "full_name": "Solismuchengxue/dsh_plugin_swift_cycle",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T07:57:41Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 59,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:10:44.177Z"
+  "updated_at": "2026-08-17T04:27:47.728Z"
 }

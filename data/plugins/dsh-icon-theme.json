@@ -33,19 +33,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# dsh-icon-theme\n\n[English](README.md) | 简体中文\n\n为 DeepSeek Harness 的设置导航和侧边栏功能自动分配统一图标，并支持逐项手动更改。\n\n![设置页总览](docs/images/settings-overview.png)\n\n## 为什么做这个插件\n\nDSH 0.1.x 的设置贡献提供稳定 ID 和名称，但尚未提供图标字段，所以许多第三方页面都会回退成相同的齿轮。`dsh-icon-theme` 从实时插槽账本发现功能，优先保留可信原图标，用一套精简的 Fluent 风格图标补齐缺口，并允许用户覆盖每一项。\n\n- 通用识别实时生效且经过优先级遮蔽后的 `settings.section` 和 `sidebar.footer.action`；只有侧边栏部分渲染、无法按顺序对应时，才使用经过审核的插件兼容记录。\n- 用 `settings.section:market` 这样的稳定键保存选择，不依赖中文、英文或 DOM 顺序。\n- 内置 50 个 Fluent UI 16 Regular 图标，以及经过审核的 dsh-market 单色原图标。\n- 运行时不请求图标 CDN、Iconify、GitHub、webfont，也不扫描其他插件包。\n- 卸载或热重载时完整恢复宿主 SVG 和插件添加的 DOM 标记。\n- 明确区分“当前未渲染”和“非图标卡片”，不会假装已经更改成功。\n- 目标既没有可信匹配、也没有原图标时，统一使用设置齿轮回退。\n\n## 安装\n\nnpm 包目前尚未发布。当前版本可以从源码安装：\n\n```bash\ngit clone https://github.com/yzke/dsh-icon-theme.git\ncd dsh-icon-theme\nnpm ci\nnpm run build\ndsh plug",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-17T01:48:14.394Z",
   "created_at": "2026-08-17T01:48:14.103Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 52,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:16.324Z"
+  "updated_at": "2026-08-17T04:27:46.481Z"
 }

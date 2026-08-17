@@ -24,19 +24,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-plug-manager\n\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的插件管理器：\n发现社区在 [`dsh-plugin`](https://github.com/topics/dsh-plugin) GitHub topic 下\n发布的插件，检查其内容，并通过规范的 `dsh plugin` 包管理路径完成安装 / 移除 /\n更新——可以在 Web UI 的「插件市场」标签页中操作，也可以通过 agent 工具完成。\n\n## 功能\n\n- **设置 → 插件 → 插件市场**（Web UI）\n  - **发现**：搜索带 `dsh-plugin` 标签的 GitHub 仓库（最佳匹配 / 最多 Star /\n    最近更新），打开仓库查看 Star、topics、许可证、README（内置安全的\n    Markdown 渲染：标题 / 代码块 / 表格 / 列表 / 链接 / 图片，相对图片\n    自动改写为 raw.githubusercontent.com 地址），以及关键信息——\n    其 `package.json` 是否声明了 `dsh.bundle`（可激活的 bundle 层）、是否含\n    `prepare` 脚本（git 安装会从源码构建）。\n  - **一键安装**：点击「申请安装」后由插件管理器**直接执行**\n    `dsh plugin add`（宿主进程发起，不经 agent、无需审批——这是你本人在\n    本地界面发起的操作），页面实时滚动显示命令输出，成功 / 失败即时反馈，\n    可随时取消。「已安装」页的更新 / 移除同样直接执行。\n  - **安装源智能解析**：`github:owner/repo` 源会先查证该",
   "weekly_downloads": 111,
-  "monthly_downloads": 111,
   "last_publish": "2026-08-15T16:33:05.844Z",
   "created_at": "2026-08-15T16:33:05.542Z",
   "gh": null,
   "scores": {
     "popularity": 51,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 66,
-    "grade": "B"
+    "overall": 51,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:43.390Z"
+  "updated_at": "2026-08-17T04:27:44.279Z"
 }

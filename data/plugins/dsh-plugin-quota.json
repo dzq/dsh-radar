@@ -34,19 +34,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# dsh-plugin-quota\n\nDeepSeek 账户额度（余额）与 Token 用量，以独立插件形式接入 DeepSeek Harness 的 Web 界面。\n\nAccount quota (balance) and session token usage for the DeepSeek Harness web UI, as a standalone plugin.\n\n## 功能 / Features\n\n- **账户额度 / Account quota**：实时查询 DeepSeek 账户余额（总额度 / 赠送额度 / 充值额度，按币种），带可用性状态、错误提示与重试。\n- **Token 用量 / Token usage**：当前会话的累计消耗（未缓存输入 / 输出 / 缓存读取 / 缓存写入 / 合计）。\n\n安装后在 设置 → **额度** 分区查看（Settings → **Quota**）。\n\n## 安装 / Install\n\n```sh\ndsh plugin --profile web add dsh-plugin-quota\n```\n\n安装完成后**重启** `dsh web`（或重启桌面 App），在 设置 → 额度 中查看。\n\n> 尚未发布到 npm 时，可直接从 GitHub 安装（等价）：\n>\n> ```sh\n> dsh plugin --profile web add github:ArvenWang/dsh-plugin-quota\n> ```\n>\n> 开发期安装本地副本：`dsh plugin --profile web add /path/to/dsh-plugin-quota`\n\n移除：\n\n```sh\ndsh plugin --profile web remove dsh-plugin-quota\n```\n\n## 工作原理 / Ho",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T06:01:25.090Z",
   "created_at": "2026-08-16T06:01:21.852Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:04:58.498Z"
+  "updated_at": "2026-08-17T04:27:47.719Z"
 }

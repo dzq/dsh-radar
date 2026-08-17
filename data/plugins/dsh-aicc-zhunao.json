@@ -21,26 +21,19 @@
     }
   },
   "engines": {},
+  "readme": "# AICC Main Brain for DeepSeek Harness\n\n`@cola1018/dsh-aicc-zhunao` is a public DeepSeek Harness (DSH) preset for a\nmain-brain workflow. It combines a delegation-first persona, a root-session\nexecution gate, and a portable `aicc-law` skill for task boundaries, evidence,\nand safety checks.\n\n## Install\n\nInstall the published package into the DSH profile you use:\n\n```sh\ndsh plugin --profile web add @cola1018/dsh-aicc-zhunao\n```\n\nRestart the profile if DSH reports that a restart is required.\n\n## Use\n\nSelect **AICC Main Brain** as the agent preset. The root session will plan,\ndelegate, and synthesize; direct write, edit, PowerShell, and Bash tool calls\nare denied at the execution layer. Child agents remain available for bounded\nimplementation tasks.\n\nBefore dispatching or closing work, load the",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T13:13:35.522Z",
   "created_at": "2026-08-16T13:13:35.186Z",
-  "gh": {
-    "full_name": "Cola1018/dsh-aicc-zhunao",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T13:12:08Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 40,
     "dsh_compat": 75,
-    "overall": 58,
-    "grade": "B"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:06.163Z"
+  "updated_at": "2026-08-17T04:27:44.341Z"
 }

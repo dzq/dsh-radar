@@ -27,19 +27,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-vision-bridge\n\nDSH 视觉桥插件：自动区分多模态 / 文本模型。\n\n- **多模态模型**（`inputModalities` 含 `image`）→ 不拦截，原图直接进上下文，模型自己看图。\n- **文本模型**（如 deepseek-v4-flash）→ 插件调用**可配置的多模态端点**（baseUrl + apiKey + model）代看，\n  把文字证据返回给文本模型。\n\n**已实测验证**（Windows + DSH rc.6 + Agnes agnes-2.5-flash）：\n\n- 粘贴图片 → 自动截获为临时路径文本 → 模型调 `vision_bridge_read_image` → Agnes 返回文字描述 OK\n- 本地图片 → 转 data URL → 识别成功 OK\n- 公网 URL → 取决于 Agnes 能否抓取（raw.githubusercontent 常不可达，建议用 data URL 或可达图床）\n\n## 功能列表\n\n### 1. 自动分流（多模态 / 文本模型）\n\n工具执行时调用 `llm.resolveModelInfo().inputModalities` 判断当前路由模型能力。\n\n### 2. read_image 工具（`vision_bridge_read_image`）\n\n- 参数：`path`（单图）/ `paths`（多图）/ `prompt`（文本模型的意图）/ `json`（结构化输出）\n- 支持本地路径、http(s) URL、粘贴生成的临时路径\n- 多模态模型调用 → 直接阅读；文本模型 → 调多模态端点代看\n\n### 3. 粘贴 / 拖拽图片（client.js）\n\n- 纯文本模型下：捕获 paste/drop → POST /vision-bridge/paste → 临时文件",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T18:17:31.310Z",
   "created_at": "2026-08-15T17:59:52.518Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:09.561Z"
+  "updated_at": "2026-08-17T04:27:46.467Z"
 }

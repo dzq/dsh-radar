@@ -1,0 +1,54 @@
+{
+  "slug": "wahu--dsh-mobile",
+  "name": "@wahu/dsh-mobile",
+  "version": "0.2.0",
+  "description": "Secure mobile companion bundle for the DeepSeek Harness Web profile",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "plugin",
+    "bundle",
+    "mobile",
+    "mobile-console",
+    "remote-console",
+    "tailscale"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/ZSLsherly/DSH-remote-console.git",
+  "homepage": "https://github.com/ZSLsherly/DSH-remote-console#readme",
+  "npm": "https://www.npmjs.com/package/@wahu/dsh-mobile",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "readme": "# DSH Remote Console\n\nDSH Remote Console 是 [DeepSeek Harness (DSH)](https://github.com/deepseek-ai/deepseek-harness) Web profile 的移动端增强插件，插件 ID 为 `dsh-mobile`。它通过 Tailscale Serve 将本机 DSH 安全地提供给手机浏览器，无需在公网监听端口。\n\n## 功能\n\n- 显示 DSH 连接、运行、等待操作和就绪状态。\n- 统计待处理/已完成会话，并跳转到下一个会话。\n- 在浏览器页面存活时提供待操作/任务完成通知。\n- 支持浏览器的“安装应用”提示。\n- 仅在手机/触摸屏布局中显示，不替换 DSH 原有界面。\n\n## 设计\n\n```text\n手机浏览器\n    |\n    | Tailscale HTTPS（Tailnet 内）\n    v\nTailscale Serve :8443\n    |\n    | http://127.0.0.1:3080\n    v\nDSH Web + dsh-mobile\n    |\n    v\nDSH 官方 Session / RPC / Permission / Reconnect\n```\n\n插件不解析会话 JSONL，不创建额外的 DSH 子进程，不提供终端或 `bypassPermissions`。客户端以附加项方式注册到官方 `conversation.input.dock` Slot。\n\n## 环境要求\n\n- Windows 10/11\n- DSH `0.1.0-rc.6`\n- Node.js `22.19+` 或 `24+`\n- Corepack\n- [Tailscale](https://tailscale.com/download)（远程访问需要）\n\n## 官",
+  "weekly_downloads": 0,
+  "last_publish": "2026-08-16T23:32:57.114Z",
+  "created_at": "2026-08-16T12:20:40.249Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:27:57.653Z"
+}

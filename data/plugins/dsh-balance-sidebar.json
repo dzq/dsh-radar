@@ -28,19 +28,19 @@
     }
   },
   "engines": {},
+  "readme": "﻿# dsh-balance-sidebar\n\nDeepSeek Harness 插件：**实时显示 DeepSeek API 账户余额**。\n\n- 侧边栏\"设置\"上方一行：`● DeepSeek ¥x.xx` + 更新时间 + **↻ 立即刷新**（收起侧边栏时显示数值，点击即刷新）\n- 设置 → 插件 → 可配置插件：余额明细卡片（总余额 / 充值 / 赠金 / 可用 / 更新时间）\n- 每 25 秒自动刷新（Host 另有 20 秒缓存）\n- **API Key 不出本机**：复用 Harness 已配置的凭据（`llm-deepseek` 设置 → `DEEPSEEK_API_KEY` 凭据库），浏览器只访问同源路由 `/dsh-balance`\n\n## 安装\n\n### 从 npm（发布后）\n\n```sh\ndsh plugin --profile web add dsh-balance-sidebar\n```\n\n### 从源码 / 本地目录\n\n```sh\ndsh plugin --profile web add ./dsh-balance        # 相对路径以调用目录为锚点\n# 或 file: 形式\ndsh plugin --profile web add \"file:D:/path/to/dsh-balance\"\n```\n\n安装后重启 `dsh web` 即生效（`dsh.bundle.patch` 声明会自动把本插件的 `cordis.patch.yml` 并入 profile 层栈）。\n\n### 卸载\n\n```sh\ndsh plugin --profile web remove dsh-balance-sidebar\n```\n\n## 依赖要求\n\n| 依赖 | 说明 |\n| --- | --- |\n| DeepSeek Harness | `>= 0.1",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:48:15.409Z",
   "created_at": "2026-08-15T14:48:15.204Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 51,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:03:46.734Z"
+  "updated_at": "2026-08-17T04:27:47.716Z"
 }

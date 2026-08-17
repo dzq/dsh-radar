@@ -20,19 +20,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-pkg-info\n\nDSH 包信息查询工具插件。注册一个 `pkg_info` 工具，查询 **npm** 与 **PyPI** 两个 registry 的包元数据，把结果规范化为一个结构化 JSON 对象，供模型与 Code Mode 程序化调用。**零依赖、纯 ESM、无构建**。\n\n## 简介\n\n- 工具名：`pkg_info`\n- 能力：查询 npm 包（`registry.npmjs.org`）与 PyPI 包（`pypi.org`）的名称、版本、描述、许可证、作者、主页、仓库、版本数、依赖等信息。\n- 行为：**永不抛异常**。404、网络错误、超时、JSON 解析失败都折叠为 `{ ok: false, error: { stage, message?, status? } }`；成功返回 `{ ok: true, registry, name, version, ... }`。\n\n## 安装\n\n```sh\ndsh plugin --profile <name> add file:./plugins/dsh-pkg-info\n# 或发布后：\ndsh plugin --profile <name> add dsh-pkg-info\n```\n\n## 参数\n\n| 参数 | 类型 | 必填 | 默认 | 说明 |\n|---|---|---|---|---|\n| `registry` | enum | — | `npm` | `npm` / `pypi`，选择要查询的 registry |\n| `name` | string | ✅ | — | 包名。npm 作用域包写 `@scope/name`；PyPI 项目名大小写不敏感 |\n| `version` | string | — | latest | 指定版本（npm 也支持 dist-tag 如 `lat",
   "weekly_downloads": 124,
-  "monthly_downloads": 124,
   "last_publish": "2026-08-15T07:01:30.425Z",
   "created_at": "2026-08-15T07:01:30.049Z",
   "gh": null,
   "scores": {
     "popularity": 52,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 62,
-    "grade": "B"
+    "overall": 51,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:41.339Z"
+  "updated_at": "2026-08-17T04:27:44.276Z"
 }

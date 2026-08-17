@@ -20,19 +20,19 @@
   "engines": {
     "node": ">=18"
   },
+  "readme": "# dsh-tool-browser\n\n给 DeepSeek Harness（DSH）的**原生浏览器自动化工具插件**，由 Playwright 驱动。\n默认直接使用本机安装的 **Microsoft Edge**（`channel: \"msedge\"`，无需下载浏览器），\nEdge 缺失时自动回退到 Playwright 自带的 Chromium。\n\n## 能力\n\n面向模型的只读/交互工具（全部注册进 DSH 的 `ctx.tools`）：\n\n| 工具 | 作用 |\n|---|---|\n| `browser_navigate` | 打开 URL，返回标题与最终地址 |\n| `browser_snapshot` | 返回页面可见文本（body innerText，限长） |\n| `browser_click` | 按 CSS 选择器点击元素 |\n| `browser_type` | 按 CSS 选择器向输入框填入文本 |\n| `browser_press_key` | 按键盘键（Enter / Escape 等） |\n| `browser_evaluate` | 在页面执行 JS 表达式并返回 JSON 结果 |\n| `browser_take_screenshot` | 截图保存为 PNG，返回文件路径 |\n| `browser_console_messages` | 返回页面控制台消息 |\n| `browser_wait_for` | 等待固定毫秒数 |\n| `browser_back` | 返回上一页 |\n| `browser_fill_form` | 一次填多个表单字段 |\n| `browser_select_option` | 下拉框选择选项 |\n| `browser_hover` | 悬停元素 |\n| `browser_drag` | 拖拽（源元素 → 目标元",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-13T17:55:37.392Z",
   "created_at": "2026-08-13T17:55:37.155Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 58,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 40,
-    "grade": "C"
+    "overall": 29,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:08:27.067Z"
+  "updated_at": "2026-08-17T04:27:47.723Z"
 }

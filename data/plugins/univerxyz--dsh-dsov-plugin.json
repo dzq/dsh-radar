@@ -26,19 +26,19 @@
     }
   },
   "engines": {},
+  "readme": "中文 | [English](README.en.md)\n\n# dsh-dsov-plugin\n\n为 DSH Web 网页端开发的轻量插件：在右侧侧边栏新增首位【概览】标签，实时统计当前会话运行时长与模型调用用量，并让设置面板中的【DeepSeek 开放平台】一键直达官方平台。\n\n## ✨ 功能特性\n\n- **侧边【概览】面板**：右侧侧边栏新增首位【概览】标签（固定顺序：概览 / 文件 / 变更），实时统计会话运行时长、API 请求次数与模型调用用量（Token、缓存命中率、费用等），数据每秒自动刷新，无需手动操作；\n- **浅色 / 深色主题自适应**：全部界面跟随 DSH 系统主题自动切换浅色 / 深色模式，卡片、文字、进度条等配色自动适配，无需额外设置；\n- **一键直达官方平台**：设置面板左侧新增【DeepSeek 开放平台】导航项，点击后直接唤起系统默认浏览器打开 https://platform.deepseek.com ，无需二次点击，无中间过渡页面。\n\n\n<div align=\"center\">\n<img src=\"./assets/overview-panel.png\" alt=\"概览面板展示\" width=\"250\">\n</div>\n\n<br>\n\n<div align=\"center\">\n<img src=\"./assets/settings-platform-entry.png\" alt=\"设置页平台入口\" width=\"800\">\n</div>\n\n\n## 📋 前置运行要求\n\n- 已安装并可使用 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)，`dsh` 命令行可用（全局安装或已加入 PATH）；\n- Node.js 18 及以上（推荐 20+）；\n- 目标 ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T10:07:35.801Z",
   "created_at": "2026-08-16T09:38:56.544Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 55,
-    "grade": "B"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:45.426Z"
+  "updated_at": "2026-08-17T04:27:51.379Z"
 }

@@ -24,26 +24,19 @@
   "engines": {
     "node": ">=20.0.0"
   },
+  "readme": "<p align=\"center\">\n  <img src=\"assets/readme/hero.zh.svg\" alt=\"dsh-atuin —— 把 dsh 里的每一句话记进 atuin 历史\" width=\"100%\">\n</p>\n\n# dsh-atuin\n\n把你在 DeepSeek Harness 里输入的每一句话写进 **atuin** shell 历史——`atuin search`、shell 集成(Ctrl-R)里都能搜到。\n\n> 由 [pi-atuin](https://github.com/RealAlexandreAI/pi-atuin) 移植。dsh 没有终端 UI,这就是它的 atuin 桥。\n\n[English](README.md) · [中文](README.zh.md)\n\n## 怎么工作\n\n监听 `session/event` → `user/message`,对每条输入执行:\n\n```\natuin history start -- \"<输入>\"\natuin history end --exit 0 <ID>\n```\n\n**只记录你自己输入的话**——回复、工具调用、文件内容一律不记。\n\n## 快速开始\n\n```sh\ndsh plugin --profile web add dsh-atuin\n```\n\n需要 atuin daemon 在运行(标准 atuin 安装自带)。atuin 缺失或 daemon 停了会静默跳过,不会影响会话。\n\n## 配置\n\n```yaml\n- id: atuin\n  name: dsh-atuin\n  config:\n    # atuin_bin: /opt/homebrew/bin/atuin\n    # deny: \"^/clear$,password\"\n    # max_len: 2000\n    ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-13T16:43:53.049Z",
   "created_at": "2026-08-13T15:00:34.739Z",
-  "gh": {
-    "full_name": "RealAlexandreAI/dsh-atuin",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-13T16:43:32Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 59,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:45.477Z"
+  "updated_at": "2026-08-17T04:27:54.421Z"
 }

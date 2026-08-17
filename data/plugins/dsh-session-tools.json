@@ -31,19 +31,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# dsh-session-tools\n\n[English](README.md) | 中文\n\nDeepSeek Harness 的会话能力插件。同一包提供六个模型侧工具，以及 Web 输入框的 `@` 会话候选：选中后把另一会话作为带出处的上下文注入。\n\n已按 `@deepseek-ai/dsh@0.1.0-rc.6` 验证。\n\n## 安装\n\n需要 Node.js 22 或更高版本，并确保 `pnpm` 在 `PATH` 中：\n\n```bash\ndsh plugin --profile web add dsh-session-tools@0.1.0\n```\n\n卸载命令：`dsh plugin --profile web remove dsh-session-tools`。\n\n## 工具\n\n这些工具只允许当前精确、正在运行且由 Agent Loop 驱动的 Root Agent 调用。Subagent 一律拒绝。跨会话消息使用 `source.kind = \"session-relay\"`，不会伪装成直接用户输入。\n\n| 工具 | 行为 |\n| --- | --- |\n| `list_sessions` | 列出普通会话元数据（id、标题、cwd），不搜索正文。不含 subagent 会话。 |\n| `read_session` | 将另一普通会话的受限、不可信快照附加到当前 step。工具调用、思考、内部上下文和未完成片段都会去掉。 |\n| `create_session` | 通过 Host API 创建真实持久会话和 idle Agent。默认继承当前 cwd 与 agent preset。新会话不会自动被提问。 |\n| `rename_session` | 使用与 Web 相同的业务 API 重命名当前会话或其他普通会话。 |\n| `fork_session` | ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:02:16.814Z",
   "created_at": "2026-08-15T14:02:16.523Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:23.514Z"
+  "updated_at": "2026-08-17T04:27:46.960Z"
 }

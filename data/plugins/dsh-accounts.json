@@ -28,26 +28,19 @@
   "engines": {
     "node": ">=18.0.0"
   },
+  "readme": "# dsh-accounts\n\nDSH 多租户账户与授权插件（PostgreSQL 后端，独立插件，不改 DSH 核心）。\n\n## 能力\n- 账户/角色/工作目录映射持久化到 PostgreSQL（schema 默认 `dsh`）\n- 登录守卫（scrypt 密码 + HMAC-SHA256 会话 Cookie，复用 dsh-auth-plugin 设计）\n- admin 管理 API（`/api/accounts`，需 admin 角色 + 会话 Cookie）\n- 每账户独立工作目录（`<workspaceRoot>/<username>`，登录/建户时自动创建）\n\n## admin API\n- `GET /api/accounts/me` —— 当前登录用户信息 + 工作目录\n- `GET /api/accounts` —— 列出全部账户（admin）\n- `POST /api/accounts` —— 建户 {username, password, role?, workspace?}（admin）\n- `PUT /api/accounts/:username` —— 改密/改角色/改目录（admin）\n- `DELETE /api/accounts/:username` —— 删户（admin，不能删自己）\n\n## 配置（profile cordis.patch.yml 内 id-targeted override）\n```yaml\n- id: dsh-accounts\n  config:\n    secret: \"<会话签名密钥>\"\n    postgres:\n      host: 127.0.0.1\n      port: 5432\n      database: postgres\n      user: your_pg_user\n      passwor",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T14:27:26.807Z",
   "created_at": "2026-08-16T13:34:52.960Z",
-  "gh": {
-    "full_name": "kangshifu1/dsh-accounts",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T14:38:24Z",
-    "archived": false,
-    "license": null
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
+    "maintenance": 0,
     "quality": 65,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 56,
-    "grade": "B"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:20.924Z"
+  "updated_at": "2026-08-17T04:27:44.631Z"
 }

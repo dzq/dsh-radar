@@ -13,12 +13,7 @@
     "deepseek-harness",
     "cordis",
     "plugin",
-    "ai",
-    "agent",
-    "security",
-    "guardrails",
-    "ogr",
-    "openguardrails"
+    "ai"
   ],
   "license": "Apache-2.0",
   "repo": "git+https://github.com/openguardrails/openguardrails.git",
@@ -34,19 +29,19 @@
     }
   },
   "engines": {},
+  "readme": "# @openguardrails/dsh-auto-mode\n\n**Auto mode for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`).**\n\ndsh's chat client offers three permission modes: *Read Only · Workspace Write ·\nDanger Full Access*. This plugin adds a fourth — **Auto** — where approval\nprompts are answered by [OpenGuardrails (OGR)](https://openguardrails.com)\npolicy instead of a human: sandbox-escalation retries, tools that ask, wider\nfile access — granted or refused by **your own guardrails** (deterministic\ntext/regex rules, optionally your own model as the judge), with only the\ngenuinely ambiguous asks falling back to you.\n\n**No dsh core changes.** dsh is an *everything is a plugin* harness, so this is\nan ordinary [Cordis](https://github.com/cordiverse/cordis) plugin on dsh's\ndocumented int",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T06:52:21.167Z",
   "created_at": "2026-08-14T02:40:20.266Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 65,
     "dsh_compat": 80,
-    "overall": 56,
-    "grade": "B"
+    "overall": 41,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:51:10.258Z"
+  "updated_at": "2026-08-17T04:27:44.604Z"
 }

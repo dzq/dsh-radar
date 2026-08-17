@@ -25,26 +25,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# dsh-funnel\n\n[English](README.md) | 中文\n\n**在工具输出进入模型上下文之前先过一道漏斗——留住要紧的行，其余落盘留指针。更快、更省、注意力更集中，且对所有工具生效。**\n\n## 问题\n\n每次工具结果都会追加进对话，并在**之后每一轮模型请求里重发**。跑一次 `npm test` 打出 500 行，这 500 行就跟着会话走到底：每一轮都为它付费，上下文窗口被它填满，模型真正需要的那一行 `AssertionError` 反而被埋掉。\n\n现有层都不覆盖这件事：\n\n| 层 | 已有 | 没做的 |\n| --- | --- | --- |\n| 捕获（执行器） | 64 MB spill 防进程 OOM | 与模型看到什么无关 |\n| 执行（仅 bash） | `maxOutputBytes` 字节顶、头部截断 | 只覆盖 shell 工具；盲切，不留 error 行 |\n| 压缩时点 | 官方 `tool-result-pruner` 重写超预算结果的 surface | 只在压缩时触发；盲切头尾；模型读不回原文 |\n| 摄入——每个结果、立即生效 | —— | **← dsh-funnel** |\n\n压缩时点的修剪是预算爆了之后补救；dsh-funnel 让预算别爆。两者互补。\n\n## 你能得到什么\n\n1. **装完即忘。** 一条命令、零配置。覆盖所有返回文本的工具——bash、文件读取、网页抓取、搜索——低于门槛的结果字节级原样通过，省钱之前你完全感觉不到它的存在。\n2. **实测约 24 倍的视图缩减。** 真实 headless 会话中，2001 行（8,893 字节）的 bash 结果以 **370 字符**到达模型：头、尾、加上所有 error/warning 行：\n\n   ```diff\n   - [2001 行原始输出]",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T09:41:51.010Z",
   "created_at": "2026-08-15T09:41:50.534Z",
-  "gh": {
-    "full_name": "YuanyuanMa03/dsh-funnel",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T09:36:13Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 60,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:42.410Z"
+  "updated_at": "2026-08-17T04:27:49.224Z"
 }

@@ -31,6 +31,7 @@
   "engines": {
     "node": ">=24.0.0"
   },
+  "readme": "",
   "weekly_downloads": 792,
   "last_publish": "2026-08-15T12:03:50.825Z",
   "created_at": "2026-08-15T03:03:44.599Z",
@@ -51,5 +52,5 @@
     "overall": 62,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T03:56:20.659Z"
+  "updated_at": "2026-08-17T04:27:44.225Z"
 }

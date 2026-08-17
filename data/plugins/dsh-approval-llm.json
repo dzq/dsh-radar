@@ -23,19 +23,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-approval-llm\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n\n**面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的模型审批插件（approve-for-me）。**\n\n[English](README.md) | 中文\n\n一个社区插件：为 DeepSeek Harness 增加一个**\"帮我批准\"权限模式**。在该模式下，`approval/request` 的审批请求由**独立的评审模型**代替人工判定——评审模型给出 `ALLOW / DENY / ESCALATE`，只有拿不准或模型故障时才转人工。在其他任何权限模式下插件保持沉默，**模型审批永远不会抢在人工审批前面**。\n\n它对应 Codex 的 `approvals_reviewer=auto_review`（`--approve-for-me`），并遵循 AGENTSCOPE-PLAN-058 / 062 / 063 的评审设计（正交的 reviewer 维度、三值决策、路由策略、Prompt 隔离、fail-to-human、熔断）。\n\n> **警告**：AI 评审是一种策略选择，不是安全保证。它可能被工具输出或 agent 自身理由中的提示注入欺骗。建议用于低风险工作流；务必收紧 `humanOnlyList`、`denyList` 和熔断参数。\n\n## 设计对照\n\n| 本插件概念 | Codex | AGENTSCOPE-PLAN-058 |\n| --- | --- | --- |\n| 专门的权限模式激活评审模型 | `approvals",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T10:01:32.073Z",
   "created_at": "2026-08-14T07:30:30.010Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 65,
     "dsh_compat": 75,
-    "overall": 55,
-    "grade": "B"
+    "overall": 40,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:52:02.581Z"
+  "updated_at": "2026-08-17T04:27:46.449Z"
 }

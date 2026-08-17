@@ -25,19 +25,19 @@
     }
   },
   "engines": {},
+  "readme": "# mattpocock-skills-dsh-zh\n\n[![npm version](https://img.shields.io/npm/v/mattpocock-skills-dsh-zh)](https://www.npmjs.com/package/mattpocock-skills-dsh-zh)\n[![GitHub release](https://img.shields.io/github/v/release/gongyijie85/mattpocock-skills-dsh-zh)](https://github.com/gongyijie85/mattpocock-skills-dsh-zh/releases)\n[![CI](https://github.com/gongyijie85/mattpocock-skills-dsh-zh/actions/workflows/ci.yml/badge.svg)](https://github.com/gongyijie85/mattpocock-skills-dsh-zh/actions/workflows/ci.yml)\n[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n\n> **English:** Matt Pocock's skills in Chinese for DeepSeek Harness — all 25\n> promoted SKILL.md files translated to natural Chinese (technical leading\n> words kept in English with first-mention glosses). Install:\n> `ds",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:00:56.785Z",
   "created_at": "2026-08-16T08:00:56.590Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:14.058Z"
+  "updated_at": "2026-08-17T04:27:46.476Z"
 }

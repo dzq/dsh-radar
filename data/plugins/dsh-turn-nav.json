@@ -33,19 +33,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# dsh-turn-nav\n\nDSH（DeepSeek Harness）右侧会话轮次导航栏插件。\n\n像 DeepSeek 网页端聊天界面右侧的目录一样，在 DSH 聊天窗口右侧悬浮一条窄导航，让你在多轮长会话中快速定位、跳转到任意一个历史轮次。\n\n---\n\n## 功能特性\n\n- **右侧悬浮导航**：默认只显示数字圆点，不遮挡聊天内容。\n- **悬停卡片**：鼠标悬停到某个圆点时，左侧弹出该轮次的提示卡片（显示“Q + 用户问题摘要”）。\n- **快速跳转**：点击圆点，平滑滚动定位到对应轮次。\n- **当前阅读位置高亮**：随滚动自动高亮当前所在轮次（蓝色圆点）。\n- **自动刷新**：新消息、流式输出、加载历史时自动重建导航。\n- **自动加载更早历史**：自动调用 DSH 的 `loadOlder()`，把之前分页未加载的轮次也补全，不需要手动滚动到顶部点“加载更早”。\n- **不侵入官方 UI**：使用 `shell.overlay` 全局浮层，不替换、不遮挡 DSH 官方聊天界面。\n- **DSH Bundle 兼容**：已声明 `dsh.bundle.patch`，可通过 `dsh plugin add` 安装。\n\n---\n\n## 界面效果\n\n```\n┌─────────────────────────────────────┐\n│                                     │   ┌───┐\n│  用户问题 1                          │   │ 1 │  ← 悬停弹出卡片：\n│  AI 回答 1                           │   └───┘    “Q 用户问题摘要...”\n│                                     │   ┌───┐\n│  ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T13:28:25.925Z",
   "created_at": "2026-08-16T13:28:25.624Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 54,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:10:10.183Z"
+  "updated_at": "2026-08-17T04:27:47.728Z"
 }

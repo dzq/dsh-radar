@@ -36,8 +36,8 @@
     "node": ">=22",
     "pnpm": ">=10"
   },
+  "readme": "# DSH Workbench\n\n[![npm version](https://img.shields.io/npm/v/dsh-workbench?color=cb3837&logo=npm)](https://www.npmjs.com/package/dsh-workbench)\n[![CI](https://github.com/lee259/dsh-workbench/actions/workflows/ci.yml/badge.svg)](https://github.com/lee259/dsh-workbench/actions)\n[![License](https://img.shields.io/github/license/lee259/dsh-workbench)](./LICENSE)\n\n[English](./README.md) · [Issues](https://github.com/lee259/dsh-workbench/issues) · [npm](https://www.npmjs.com/package/dsh-workbench)\n\n[DeepSeek Harness](https://deepseek-harness.github.io/deepseek-harness/guide/quickstart) 的右侧文件工作区。在 DSH Web 会话里点击路径，即可在对话旁边阅读或对比文件。\n\n![DSH Workbench 在 DeepSeek Harness Web 中运行](./assets/dsh-workbench-demo.png)\n\n```text\nread       → 源码\nwrite/edit → 捕获到的 DSH diff\n```\n\n## 为什么用\n\n- 对话和正在查看的文件同时可见。\n- 只展示真实",
   "weekly_downloads": 398,
-  "monthly_downloads": 398,
   "last_publish": "2026-08-16T14:04:23.917Z",
   "created_at": "2026-08-14T13:33:15.519Z",
   "gh": {
@@ -50,12 +50,12 @@
   },
   "scores": {
     "popularity": 65,
-    "maintenance": 100,
+    "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 75,
-    "grade": "A"
+    "overall": 63,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T03:50:31.273Z"
+  "updated_at": "2026-08-17T04:27:44.249Z"
 }

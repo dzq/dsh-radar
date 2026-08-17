@@ -26,19 +26,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-statecore\n\n[![CI](https://github.com/yul761/dsh-statecore/actions/workflows/ci.yml/badge.svg)](https://github.com/yul761/dsh-statecore/actions/workflows/ci.yml)\n\nNative memory for DeepSeek Harness — auditable facts with evidence chains, powered by [StateCore](https://github.com/yul761/StateCore).\n\n`dsh-statecore` is a [dsh](https://github.com/deepseek-ai/deepseek-harness) plugin, not an MCP server: it mounts StateCore's memory engine straight onto `dsh`'s own plugin context, so memory participates in `dsh`'s session log, permission system, and Code Mode the same way any other native capability does.\n\n## What it does\n\n- **Auto-ingest** — every `user/message` and `assistant/message` in a session is fed into per-project memory as it happens, with no model cooperation required. An MCP se",
   "weekly_downloads": 124,
-  "monthly_downloads": 124,
   "last_publish": "2026-08-15T21:49:21.517Z",
   "created_at": "2026-08-15T21:49:21.230Z",
   "gh": null,
   "scores": {
     "popularity": 52,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 65,
     "dsh_compat": 75,
-    "overall": 68,
-    "grade": "B"
+    "overall": 53,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:43.186Z"
+  "updated_at": "2026-08-17T04:27:44.277Z"
 }

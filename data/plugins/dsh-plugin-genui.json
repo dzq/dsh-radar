@@ -33,19 +33,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# DeepSeek Harness GenUI\n\n[English](README.md) | 简体中文\n\n[![Node.js](https://img.shields.io/badge/Node.js-%E2%89%A522.19-339933?logo=nodedotjs&logoColor=white)](package.json)\n[![License](https://img.shields.io/badge/license-MIT-202124)](LICENSE)\n\n<img src=\"assets/hero-zh-CN.png\" width=\"1280\" alt=\"用户提出代码问题，DeepSeek Harness 返回文字解释和交互式代码路径界面\">\n\n一个为 DeepSeek Harness 提供临时任务页面的插件。Agent 用文字回答问题，只在用户确实需要探索、比较、配置或执行操作时加入交互界面。页面随任务生成，打开即可使用。\n\n> **交互闭环：** Agent 创建页面 → 用户点选、填写或拖动 → 结果写回当前任务 → Agent 下一轮直接继续。用户不必把刚才的操作重新描述成文字。\n\n## 真实场景\n\n<table>\n  <tr>\n    <td><strong>选择日历时段</strong><br><br>找出合适的 90 分钟写作时间，只创建最终确认的日程。<br><br>页面并列显示真实空闲时间、保留选择，并在写入日历前明确申请授权。</td>\n    <td><img src=\"screenshots/zh-CN/calendar-planner.jpg\" width=\"280\" alt=\"读取真实空闲时间后生成的日历时段选择界面\"></td>\n  </tr>\n  <tr>\n    <td><strong>探索光合作用</stro",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T18:17:52.864Z",
   "created_at": "2026-08-15T18:17:52.463Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 80,
+    "maintenance": 0,
+    "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 51,
-    "grade": "C"
+    "overall": 37,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:17.437Z"
+  "updated_at": "2026-08-17T04:27:44.626Z"
 }

@@ -1,0 +1,43 @@
+{
+  "slug": "dsh-mp-automator",
+  "name": "dsh-mp-automator",
+  "version": "0.3.0",
+  "description": "WeChat Mini Program automated testing for DeepSeek Harness (dsh): selector-addressed actions, build-freshness gates, geometry-first assertions that work on text-only models, and screenshot image blocks on vision routes. 微信小程序自动化测试 dsh 插件：选择器寻址、构建新鲜度门、面向纯文",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "wechat",
+    "miniprogram",
+    "automation",
+    "testing",
+    "miniprogram-automator"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/VincentJiang06/dsh-wechatmpdev.git",
+  "homepage": "https://github.com/VincentJiang06/dsh-wechatmpdev#readme",
+  "npm": "https://www.npmjs.com/package/dsh-mp-automator",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "readme": "# dsh-mp-automator\n\n**WeChat Mini Program automated testing for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh)**\n**微信小程序自动化测试 · DeepSeek Harness 插件**\n\n[![npm](https://img.shields.io/badge/npm-dsh--mp--automator-cb3837)](https://www.npmjs.com/package/dsh-mp-automator)\n[![license](https://img.shields.io/badge/license-MIT-blue)](https://github.com/VincentJiang06/dsh-wechatmpdev/blob/main/LICENSE)\n[![tests](https://img.shields.io/badge/tests-51%2F51-brightgreen)](https://github.com/VincentJiang06/dsh-wechatmpdev/blob/main/docs/evidence/green-run.txt)\n\nEight `mp_*` tools that let a dsh agent drive a real Mini Program in WeChat\nDevTools — inspect pages, act on elements, capture screenshots, read the\nconsole — with the correctness discipline built **into the tools** ins",
+  "weekly_downloads": 0,
+  "last_publish": "2026-08-16T16:46:41.354Z",
+  "created_at": "2026-08-16T13:49:22.544Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:27:57.669Z"
+}

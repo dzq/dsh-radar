@@ -13,10 +13,7 @@
     "keyboard-shortcuts",
     "terminal",
     "compaction",
-    "sliding-context",
-    "context-window",
-    "typescript",
-    "ui"
+    "sliding-context"
   ],
   "license": "Apache-2.0",
   "repo": "https://github.com/PerryLink/dsh-composer-history.git",
@@ -37,19 +34,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "",
   "weekly_downloads": 228,
-  "monthly_downloads": 228,
   "last_publish": "2026-08-15T04:03:12.782Z",
   "created_at": "2026-08-14T10:13:21.083Z",
   "gh": null,
   "scores": {
     "popularity": 59,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 55,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 58,
-    "grade": "B"
+    "overall": 46,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:38.053Z"
+  "updated_at": "2026-08-17T04:27:44.264Z"
 }

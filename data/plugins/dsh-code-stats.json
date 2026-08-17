@@ -24,19 +24,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-code-stats · 代码统计\r\n\r\n扫描项目，按语言统计文件数与代码行数，返回语言分布与最大文件清单。纯 Node 实现，无网络、无外部服务。\r\n\r\n## 提供的工具\r\n\r\n| 工具 | 作用 |\r\n|---|---|\r\n| `code_stats` | 统计文件数/行数，按语言分组，列出最大文件 |\r\n\r\n## 安装\r\n\r\n```bash\r\ndsh plugin add dsh-code-stats\r\n```\r\n\r\n安装后在 profile 的 `package.json` 的 `dsh.profile.bundles` 中加入 `\"dsh-code-stats\"`。\r\n\r\n## 用法示例\r\n\r\n```\r\n帮我看看这个项目的规模和技术构成\r\n→ 调用 code_stats(root=\"/workspace\")\r\n```\r\n\r\n## 说明\r\n\r\n- 支持 30+ 语言扩展名识别（JS/TS/Python/Go/Rust/Java/JSON/YAML/Markdown 等）。\r\n- 自动跳过 node_modules、.git、二进制/图片/压缩包/锁文件等。\r\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:23:53.351Z",
   "created_at": "2026-08-17T03:23:52.474Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 0,
     "quality": 45,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 45,
-    "grade": "C"
+    "dsh_compat": 75,
+    "overall": 32,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:57:47.483Z"
+  "updated_at": "2026-08-17T04:27:46.989Z"
 }

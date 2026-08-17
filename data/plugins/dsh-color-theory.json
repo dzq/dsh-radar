@@ -22,19 +22,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-color-theory · 色彩理论与配色方案参考\r\n\r\n纯 Node 实现，无网络、无外部服务。\r\n\r\n## 安装\r\n\r\n```bash\r\ndsh plugin add dsh-color-theory\r\n```\r\n安装后在 profile 的 `package.json` 的 `dsh.profile.bundles` 中加入 `\"dsh-color-theory\"`。\r\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:24:52.704Z",
   "created_at": "2026-08-17T03:24:52.497Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 0,
     "quality": 30,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 42,
-    "grade": "C"
+    "dsh_compat": 75,
+    "overall": 29,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:16.532Z"
+  "updated_at": "2026-08-17T04:27:46.482Z"
 }

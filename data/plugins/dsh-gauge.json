@@ -29,19 +29,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-gauge\n\n中文 | [English](README.en.md)\n\n为 DeepSeek Harness Web UI 提供精确缓存命中率、token 用量与费用估算。\n\n官方统计行把缓存命中率四舍五入成整数——`Math.round` 会把 99.8% 显示成误导性的 **100%**。\ndsh-gauge 用一位小数（可配置）的精确数值顶替它，并补充分桶 token 明细、会话用量面板，以及自动跟随 DeepSeek 官方调价的会话费用估算（使用官方 API）。\n\n## 功能\n\n- **精确缓存命中率** — `cacheRead / (cacheRead + uncached + cacheWrite)`，小数位可配置（默认 1），99.8% 就是 99.8%。\n- **分桶明细** — 命中 / 未命中输入 token 与输出 token。*写入*桶为 0 时自动隐藏（opencode-go/pi-ai 适配器从不报告 cache-write，实际恒为 0）。\n- **费用估算 + 调价对比** — 按实际用量 × 模型单价估算（deepseek-v4-flash / deepseek-v4-pro，自动从会话推导）。官方新价生效前显示 **当前费用 + 新价费用 + 预计涨幅**；生效时刻自动切换到新价。\n- **按请求时刻的峰谷计价** — 估算**不是**\"当前时刻\"快照：每条 assistant 消息按自己的时间戳计价，高峰时段消耗的 token 按高峰价、闲时按折扣价，最后求和。\n- **高峰时段徽标** — 北京时间 09:00–12:00 / 14:00–18:00 为 DeepSeek 峰谷定价的高峰窗口。统计行尾按当前时段显示**高峰**/**闲时**状态（切换为新价后同样按当前时段显示）。\n- **用量面板** — 会话页头 ⓘ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:52:07.925Z",
   "created_at": "2026-08-15T15:52:07.718Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:47.512Z"
+  "updated_at": "2026-08-17T04:27:54.836Z"
 }

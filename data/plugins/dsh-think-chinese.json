@@ -20,19 +20,19 @@
     }
   },
   "engines": {},
+  "readme": "<h1 align=\"center\">dsh-think-chinese</h1>\n\n<p align=\"center\">\n  <strong>让 DeepSeek Harness 里的模型始终用中文进行内部推理与思考</strong><br/>\n  官方 bundle 插件：一条系统提示词段落，作用于安装它的 profile 上的所有会话\n</p>\n\n<p align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://badgen.net/badge/license/MIT/green\" alt=\"license\" /></a>\n  <a href=\"https://www.npmjs.com/package/dsh-think-chinese\"><img src=\"https://img.shields.io/npm/v/dsh-think-chinese\" alt=\"npm\" /></a>\n</p>\n\n---\n\nDSH（DeepSeek Harness）的模型在展示「思考过程（Thinking）」时，默认倾向于用英文推理。本插件通过注册一条全局系统提示词段落，明确指示模型**始终使用中文进行内部推理与思考**——无论系统提示词、工具说明或对话使用何种语言。\n\n## 安装\n\n官方 bundle 插件，经 web profile 安装（安装后**重启 web 生效**）。\n\n**方式一：npm 安装**\n\n```sh\ndsh plugin --profile web add dsh-think-chinese\n# 重启 web\n```\n\n**方式二：GitHub 直装（免构建，纯 JS 包）**\n\n```sh\ndsh plugin --profile web add github:lingtima/dsh-think-chin",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T07:45:48.687Z",
   "created_at": "2026-08-14T07:45:48.483Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 65,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 47,
-    "grade": "C"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:43.655Z"
+  "updated_at": "2026-08-17T04:27:49.238Z"
 }

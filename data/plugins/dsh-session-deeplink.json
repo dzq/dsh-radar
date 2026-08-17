@@ -28,19 +28,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-session-deeplink\n\n[中文](#zh-cn) | [English](#english)\n\n<a id=\"zh-cn\"></a>\n\n## 中文\n\n这是一个 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web 客户端插件，用于通过 URL 直接访问和分享 DSH 会话。\n\n### 功能\n\n- 通过 `/?session=<id>` 直接打开指定会话。\n- 切换当前会话时，自动同步浏览器地址栏中的会话 ID。\n- 保留 URL 中其他查询参数和 fragment。\n- 完全运行在浏览器端，不添加任何 host 服务。\n\n### 从 npm 安装\n\n将插件安装到 `web` profile：\n\n```sh\ndsh plugin --profile web add dsh-session-deeplink\n```\n\n重启 `dsh web`，然后打开任意会话。浏览器地址会变为：\n\n```text\nhttp://127.0.0.1:3080/?session=session-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\n```\n\n只要该会话仍存在于 DSH 会话列表中，打开此 URL 就会恢复到同一会话。\n\n### 从 GitHub 安装\n\nGit 依赖会通过包内的 `prepare` 脚本在本机完成构建：\n\n```sh\ndsh plugin --profile web add github:R3alloc/dsh-session-deeplink\n```\n\npnpm 10 及以上版本可能要求先在对应 profile 的 `pnpm-workspace.yaml` 中明确授权构建，然后重新执行安装命令：\n\n```yaml\nallowBui",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T12:15:45.674Z",
   "created_at": "2026-08-14T11:38:58.902Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:11.897Z"
+  "updated_at": "2026-08-17T04:27:44.617Z"
 }

@@ -34,26 +34,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "<p align=\"center\">\n  <img src=\"./assets/dsh-open-eyes.png\" width=\"240\" alt=\"dsh-open-eyes\">\n</p>\n\n<h1 align=\"center\">dsh-open-eyes</h1>\n\n<p align=\"center\"><strong>让你选择的多模态模型，成为 DeepSeek 的眼睛。</strong></p>\n\n<p align=\"center\"><a href=\"./README.md\">English</a> · 中文</p>\n\n## 功能介绍\n\nDeepSeek Harness 的主模型不一定支持图片。遇到截图、照片、图表或界面时，`dsh-open-eyes` 可以把图片交给另一套多模态模型分析，再把结果以文字形式返回当前会话。\n\n如果当前主模型本身支持图片，插件不会接管，图片仍由 DSH 原生链路处理。只有当前模型明确不支持图片时，WebUI 中粘贴、拖入或选择的图片才会走视觉桥接。\n\n插件也提供 `vision_analyze` 工具，可直接分析本地图片路径或已启用的远程图片 URL。\n\n目前支持三种接口：\n\n- OpenAI Responses\n- OpenAI Chat Completions\n- Anthropic Messages\n\n只要视觉服务支持其中一种接口，就可以把它接入 DSH。接口地址、模型和凭据都由用户自行配置，插件不会绑定特定厂商。\n\nAPI Key 通过 DSH Credential Reference 读取，不应写入 `cordis.patch.yml`、对话内容或工具参数。本地图片默认不能越出当前 workspace；远程图片 URL 默认关闭。\n\n> 通过视觉桥接处理的图片会发送给你配置的第三方 Provider。使用前请确认对方的数据保",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T07:55:12.658Z",
   "created_at": "2026-08-15T07:55:12.321Z",
-  "gh": {
-    "full_name": "Hyp6666/dsh-open-eyes",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T13:20:06Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 95,
-    "overall": 63,
-    "grade": "B"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:08.840Z"
+  "updated_at": "2026-08-17T04:27:47.739Z"
 }

@@ -24,19 +24,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-codex-web-search-mcp\n\n把 [codex-web-search-mcp](https://github.com/dhicoc/codex-web-search-mcp)（模型无关的\nOpenAI Codex / Grok 联网搜索与深度研究 MCP server，Rust 独立二进制）接进\n[DeepSeek Harness (dsh)](https://github.com/deepseek-ai/deepseek-harness) 的\n**一键插件**。\n\n安装并重启 `dsh web` 后，3 个工具会以 dsh 原生 MCP 工具形式出现：\n\n| 工具 | dsh 内名称 |\n| --- | --- |\n| 单步搜索 | `mcp__codex-web-search__codex_web_search` |\n| 多步深度研究 | `mcp__codex-web-search__codex_web_research` |\n| 抓正文 | `mcp__codex-web-search__web_fetch` |\n\n> 与普通 Claude Code / Cursor 的 MCP 接入不同——本插件**不依赖任何模型厂商**，\n> 搜索走 Codex 独立搜索端点，换 Gemini / OpenRouter / 本地模型都不受影响。\n\n---\n\n## 前置条件（重要）\n\n本插件依赖以下已发布到 npm 的包来分发跨平台二进制：\n\n- `@dhicoc/dsh-codex-web-search-mcp`：本 dsh 插件；\n- `codex-web-search-mcp`：跨平台命令及其平台二进制依赖；\n- `@dhicoc/codex-web-search-mcp-*`：各平台的预编译二进制包。\n\n正常使用时不需要手动安装这些依赖，`dsh",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T15:55:43.469Z",
   "created_at": "2026-08-16T13:19:14.659Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 53,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:31.699Z"
+  "updated_at": "2026-08-17T04:27:46.977Z"
 }

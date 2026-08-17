@@ -28,19 +28,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-vision-tools\n\nDeepSeek Harness（DSH）视觉能力全家桶 —— 让 DeepSeek 纯文本模型\"看得见\"。\n\n- **vision_understand 工具**：调用 OpenAI 兼容视觉大模型 API 理解本地图片（描述画面、识别文字、回答问题），注册为全局工具，所有会话可用。\n- **三入口识图**：`Cmd/Ctrl+V` 粘贴截图、拖图到按钮、点按钮选文件 → 图片自动落盘到 `$DSH_HOME/pasted-images/` → 输入框填入 `请识别这张图片：<路径>` → 发送后模型自动调用识图工具。\n\n默认使用**智谱 GLM-4V-Flash（免费）**，支持 4 家 provider 切换。\n\n## 安装\n\n```sh\n# 方式一：npm 安装（推荐）\ndsh plugin --profile web add dsh-vision-tools\n\n# 方式二：GitHub 安装\ndsh plugin --profile web add \"github:moon09300731/dsh-vision-tools#main\"\n```\n\n重启 `dsh web` 后生效。\n\n## 配置（vision_understand 工具需要）\n\n创建 `~/.dsh/vision.env`（全局生效，推荐）：\n\n```env\nVISION_PROVIDER=zhipu        # zhipu | dashscope | siliconflow | openai\nVISION_API_KEY=你的APIKey\n```\n\n可选覆盖：\n\n```env\nVISION_BASE_URL=https://open.bigmodel.cn/api/paas/v4/chat/completions\nVISION_MODEL=glm-4v",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T08:30:39.643Z",
   "created_at": "2026-08-14T07:44:53.448Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:51.795Z"
+  "updated_at": "2026-08-17T04:27:44.317Z"
 }

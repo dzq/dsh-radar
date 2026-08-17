@@ -34,19 +34,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# loongport\n\n`loongport` is a [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)\n(DSH) Cordis bundle for verified LoongPort OpenAI-compatible providers. It also includes an\nadvanced CLI for custom endpoints.\n\n## Install in DeepSeek Harness\n\nInstall the public package into the DSH profile you use:\n\n```bash\ndsh plugin --profile <profile> add loongport\n```\n\nOpen **Settings → LoongPort** in DSH, then:\n\n1. Select a verified provider. The default is BestAPI at\n   `https://api.bestapi.store/v1`.\n2. If you need an account, use the provider's **Register** or **Sign in** link. It opens the\n   provider's own website in your browser.\n3. Generate an API key with the provider and paste it into the dialog.\n4. Select `deepseek-v4-flash` or `deepseek-v4-pro`, then save.\n\nThe signed LoongPo",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T03:01:10.015Z",
   "created_at": "2026-08-14T06:11:02.387Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 80,
+    "maintenance": 0,
+    "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 51,
-    "grade": "C"
+    "overall": 37,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:00:12.782Z"
+  "updated_at": "2026-08-17T04:27:47.697Z"
 }

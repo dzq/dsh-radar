@@ -13,9 +13,7 @@
     "documentation",
     "comments",
     "claude-code",
-    "deepseek-harness",
-    "dsh",
-    "dsh-plugin"
+    "deepseek-harness"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/YuanyuanMa03/cot-lint.git",
@@ -30,19 +28,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# cot-lint\n\n[English](README.md) | 中文\n\n**扫描仓库中的\"思维链泄漏\"——AI 助手留在文档、注释、JSDoc 里的会话残留。**\n\n你的 coding agent 代码写得很好，但会把\"思考过程\"漏得到处都是：\n\n```diff\n- // This PR adds a retry loop (decision 7) so the diff stays reviewable.\n- // The manager used to serialize writes itself; it no longer does after v1.\n- // The cast is safe — it simply narrows the union. Probably fine for now.\n+ // Retries transient provider failures up to 3 times with jittered backoff.\n+ // The shared coordinator serializes writes per session.\n+ // The cast narrows a union already validated at the loader boundary.\n```\n\n左边一列对代码的描述并没有错，错的是**读者设定**：它在和一个早已离开的评审者争论，引用一个谁都打不开的设计会话，叙述一次变更而不是陈述行为。\n\n## 唯一测试\n\n> 站在 HEAD 上的读者——没有任何会话记录、PR 讨论或未提交草稿——能否解析其中每一个引用、验证每一个断言？\n\n不能，就是思维链泄漏。`cot-lint` 负责把它找出来。\n\n## 快速开始\n\n**DeepSeek Harness** —— 以插件形式装入 `cot-tr",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T09:41:39.400Z",
   "created_at": "2026-08-15T07:56:46.855Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:00.618Z"
+  "updated_at": "2026-08-17T04:27:44.332Z"
 }

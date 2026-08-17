@@ -24,26 +24,19 @@
     }
   },
   "engines": {},
+  "readme": "# windows-bash\n\n让 **Windows 上 Git Bash 成为 DeepSeek Harness 唯一终端工具** 的插件(bundle + agent preset)。\n\n官方 dsh 在 Windows 上默认**只给 PowerShell**(`dsh-base` 用 `process.platform` 表达式在 win32 禁用 bash、启用 pwsh);本插件把这一默认翻转成 **只有 git bash**。macOS / Linux 上官方默认本来就是 bash-only,插件是 no-op。\n\n与 `dsh-bash-terminal`(可切换 PowerShell / Git Bash / WSL)不同,本插件是\"**唯一**\"语义:PowerShell 从运行时和模型工具面彻底移除。\n\n## 组件\n\n| 组件 | 说明 |\n|---|---|\n| `cordis.patch.yml` | bundle patch(`dsh.bundle.patch`):宿主平面翻转——`tool-bash` 启用、`tool-pwsh` 禁用;执行器 `bash-sandbox` 启用、`pwsh-sandbox` 禁用;win32 沙箱默认 `danger-full-access` + 审批 `never`(带 `DSH_PERMISSION_MODE` 逃生口,非 Windows 不动) |\n| `presets/standard-bash` `code-bash` `cordis-bash` | bash-only 派生预设(官方预设 + 两行翻转),因为 bundle patch 无法修改 dsh 内置预设文件 |\n| `scripts/install.ps1` | 把三个预设以 junction 形式安装到 `$DSH_HOME\\.age",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T03:19:00.078Z",
   "created_at": "2026-08-16T03:18:59.823Z",
-  "gh": {
-    "full_name": "bainianlaoyao/windows-bash",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T03:19:27Z",
-    "archived": false,
-    "license": "NOASSERTION"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
+    "maintenance": 0,
     "quality": 75,
     "security": 65,
     "dsh_compat": 75,
-    "overall": 60,
-    "grade": "B"
+    "overall": 40,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:51:02.675Z"
+  "updated_at": "2026-08-17T04:27:44.335Z"
 }

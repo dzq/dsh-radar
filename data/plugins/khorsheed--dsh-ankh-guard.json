@@ -25,19 +25,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-ankh-guard\n\n[English](README.en.md) | 中文\n\n让 agent 自己改代码、自己重启，还不把服务搞挂。\n\nagent 改完代码想重启的时候，这个插件会先问一句：这次改动，构建和测试都过了吗？过了才放行，没过就拦下来——免得改坏的代码把整个服务、连同正在进行的对话一起带走。\n\n![重启闭环演示](assets/restart-loop-demo.png)\n\n一次真实的自我重启：agent 重启前先告知验证计划（1)；宿主退出，进行中的 tool call 被安全中断并落盘（2);watchdog 在 10 秒内拉回实例，ankh-guard 把重启上下文注入原会话（3)——agent 醒来后继续执行重启前宣布的验证，用户全程无感知。\n\n## 工作原理\n\n核心就一条规则：**先证明代码是好的，才允许重启。**\n\n构建和测试全绿后，插件记录一个凭证，绑定当时的 git commit，并带 10 分钟有效期（`maxAgeMinutes`）。要重启时检查三点：\n\n1. 有没有凭证；\n2. 凭证超没超过 `maxAgeMinutes`；\n3. 当前 HEAD 和记录凭证时的 commit 一不一致——记录之后任何改动都会让凭证失效。\n\n这条规则能拦住一整类事故：改坏了构建、漏注册配置、导错模块——这些全都会让构建/类型检查失败，于是没有凭证，重启在造成伤害之前就被拒绝。\n\n重启本身交给 watchdog 托管：独立的监督进程，宿主死了自动拉起来，起不来就回滚到检查点，连续四次失败停在崩溃页等人工处理。`checkpoint` 在批次前把整个工作树提交为回滚点，`reset` 硬重置回该点，`canary` 在重启后复检。检查点与凭证存在状态文件里，重启后依然存活，所以 canary 可以在新实例起来之后运行。\n\n## 安装与加载\n\n本包",
   "weekly_downloads": 239,
-  "monthly_downloads": 239,
   "last_publish": "2026-08-15T03:55:23.616Z",
   "created_at": "2026-08-14T10:37:48.630Z",
   "gh": null,
   "scores": {
     "popularity": 60,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 67,
-    "grade": "B"
+    "overall": 53,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:35.987Z"
+  "updated_at": "2026-08-17T04:27:44.264Z"
 }

@@ -25,19 +25,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-db-migration · 数据库迁移生成\n\n对比两个 SQL DDL 文件（`CREATE TABLE` 集合），检测新增/删除/变更的表与列，并生成 `ALTER TABLE` / `DROP TABLE` 迁移 SQL。纯 Node 实现，无网络、无外部服务。\n\n## 提供的工具\n\n| 工具 | 作用 |\n|---|---|\n| `diff_schema` | 对比旧版/新版 DDL，返回结构差异统计 + 迁移 SQL |\n\n## 安装\n\n```bash\ndsh plugin add dsh-db-migration\n```\n\n安装后在 profile 的 `package.json` 的 `dsh.profile.bundles` 中加入 `\"dsh-db-migration\"`。\n\n## 用法示例\n\n```\n对比旧版和新版数据库结构，生成迁移 SQL\n→ 调用 diff_schema(oldFile=\"schema_v1.sql\", newFile=\"schema_v2.sql\", outFile=\"migrations/20260816_up.sql\")\n```\n\n## 识别范围\n\n- 新增/删除表（生成 `CREATE TABLE` / `DROP TABLE`）\n- 新增/删除列（生成 `ALTER TABLE ADD/DROP COLUMN`）\n- 列类型变更（生成 `ALTER TABLE MODIFY COLUMN`）\n- 支持常见类型（含 `DECIMAL(10,2)`、`VARCHAR(255)`、`ENUM('a','b')` 等带括号/逗号类型）\n\n## 说明\n\n- 覆盖常见 `CREATE TABLE`（MySQL/PostgreSQL/SQLite 基础列定义）；**外键、索引、复合主键、复杂默认值/触发器不在处理范围**。\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T11:06:47.705Z",
   "created_at": "2026-08-16T11:06:47.528Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:09.354Z"
+  "updated_at": "2026-08-17T04:27:46.467Z"
 }

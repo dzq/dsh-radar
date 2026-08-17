@@ -20,26 +20,19 @@
     }
   },
   "engines": {},
+  "readme": "# ARC\n\nAgent Research Copilot (ARC) is a research toolkit for theoretical\nphysics. It supports paper discovery and analysis, research-domain\nconstruction, proposer-reviewer loops, translation, companion readers, and\nsource-aware calculation workflows.\n\nARC is designed for coding-agent hosts such as Codex, Claude Code, and similar\nagents.\n\n## Who ARC is for\n\nUse ARC when you need to:\n\n- acquire, parse, search, or summarize research papers;\n- construct a source-aware research domain from seed literature;\n- run proposer-reviewer idea or calculation loops;\n- translate scientific sources or build chapter-aware companion readers; or\n- use durable, inspectable research workflows instead of ad hoc\n  prompts.\n\n## Citation\n\nIf ARC has played a role in your research, please consider citing the ARC ma",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T17:44:09.747Z",
   "created_at": "2026-08-16T17:44:09.480Z",
-  "gh": {
-    "full_name": "troywjz/arc",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T17:32:32Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 65,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 61,
-    "grade": "B"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:10:59.415Z"
+  "updated_at": "2026-08-17T04:27:47.735Z"
 }

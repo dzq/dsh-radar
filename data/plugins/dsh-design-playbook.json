@@ -22,8 +22,8 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-design-playbook\n\nThin DSH (DeepSeek Harness) bundle that bridges **design-playbook**'s `preview` and `evidence` MCP servers into a DSH profile.\n\n## What this is\n\nA separate, thin npm package (`dsh-design-playbook`) that declares a DSH bundle patch. When installed into a profile via `dsh plugin add`, it appends two `@deepseek-ai/dsh-mcp-client` rows to the profile's patch layers, each launching one of design-playbook's Python stdio MCP servers:\n\n- `mcp__design-playbook-preview__preview_prototype`\n- `mcp__design-playbook-evidence__execute_capture_plan`\n\nThe skills provider (P1) lives in the main [`design-playbook`](../design-playbook) package and is unaffected.\n\n## How resolution works\n\nThe Cordis `!!js` evaluation scope provides no global `require`, but:\n\n- DSH runs on Node ≥ 22.19, w",
   "weekly_downloads": 323,
-  "monthly_downloads": 323,
   "last_publish": "2026-08-15T17:11:11.563Z",
   "created_at": "2026-08-14T02:31:31.369Z",
   "gh": {
@@ -36,12 +36,12 @@
   },
   "scores": {
     "popularity": 63,
-    "maintenance": 99,
+    "maintenance": 39,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 73,
-    "grade": "A"
+    "overall": 61,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T03:50:33.119Z"
+  "updated_at": "2026-08-17T04:27:44.252Z"
 }

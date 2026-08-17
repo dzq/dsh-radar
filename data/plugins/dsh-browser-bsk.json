@@ -21,19 +21,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-browser\n\nBrowser automation for DeepSeek Harness via [bsk](https://github.com/anthropics/browser-skill) — lets your agent navigate, snapshot, click, fill, and screenshot the **real Chromium browser** (with your logins).\n\n## Install\n\n```sh\ndsh plugin add dsh-browser\n```\n\nRequires `bsk` on PATH + the browser-skill extension loaded (see browser-skill prerequisites).\n\n## Tools\n\n| Tool | What it does |\n|---|---|\n| `browse_navigate` | Open a URL |\n| `browse_snapshot` | Read the page as an accessibility tree (with @eN refs) |\n| `browse_click` | Click an element by @eN ref or CSS selector |\n| `browse_fill` | Type into an input |\n| `browse_screenshot` | Capture a screenshot |\n| `browse_observe` | Semantic VOM observation |\n\n## Example\n\n> Open https://example.com, read the page, and tell me th",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T12:20:43.776Z",
   "created_at": "2026-08-14T12:20:43.581Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:22.490Z"
+  "updated_at": "2026-08-17T04:27:46.960Z"
 }

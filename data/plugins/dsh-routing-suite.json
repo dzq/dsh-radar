@@ -39,19 +39,19 @@
   "engines": {
     "node": ">=22.19.0"
   },
+  "readme": "# dsh-routing-suite\n\nA lightweight, selectable smart-routing mode for DeepSeek Harness (DSH).\n\n一个轻量、可在模式菜单中选择的 DeepSeek Harness 智能路由模式。\n\n> Community project; not an official DeepSeek product and not endorsed by DeepSeek.\n>\n> 社区项目，并非 DeepSeek 官方产品，也不代表 DeepSeek 官方背书。\n\n## Features / 功能\n\n- Adds a real **智能路由模式 / Smart routing mode** beside Standard, Code, Minimal, and Cordis modes when installed by a compatible desktop installer.\n- Keeps the official Standard preset's persona, contexts, and complete tool catalog.\n- Uses the first durable user task to select a stable working style:\n  - **Automatic / 自动判断（推荐）**\n  - **Inspect first / 检查优先** for fixes, diagnosis, reviews, and migrations\n  - **Direct execution / 直接执行** for creation and implementation\n- Applies routing guidance only while the `rout",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T17:49:24.595Z",
   "created_at": "2026-08-15T10:44:30.521Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:01.026Z"
+  "updated_at": "2026-08-17T04:27:44.332Z"
 }

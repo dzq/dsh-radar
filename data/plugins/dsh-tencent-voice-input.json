@@ -33,19 +33,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-tencent-voice-input\n\n给 DeepSeek Harness（DSH）Web GUI 加腾讯云语音识别（ASR）语音输入的**纯插件 bundle**：输入框工具行 🎤 麦克风、边说边出的实时预览、结束自动填入输入框；引擎与 AppId 在「设置 → 插件 → 插件配置 → 语音识别设置」卡片里配置。\n\n**不修改、不重建任何核心包** —— 全部通过 dsh 公开插拔机制挂载：\n\n- 麦克风挂在官方公开槽 `conversation.input.left`（工具行），写回走公开 `inputActions.setDraft`。\n- 设置卡片挂在官方公开槽 `settings.plugin.item`，读写走本插件宿主半身自带的 `/stt/config` 路由（不依赖任何设置白名单）。\n\n一个包同时是宿主插件（`lib/index.js`，持腾讯云密钥的 STT 代理）和浏览器插件（`lib/client.js`，麦克风 + 卡片），`dsh.bundle.patch` 一行同时接好两边。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-tencent-voice-input\n```\n\n然后**重启 dsh web**。\n\n（或直接加 tarball / git 目录：`dsh plugin --profile web add ./dsh-tencent-voice-input-0.1.0.tgz`）\n\n## 一次性配置\n\n把腾讯云密钥写进 `$DSH_HOME/.env`（dsh 启动时自动加载）：\n\n```\nTENCENTCLOUD_SECRET_ID=AKIDxxxxxxxx\nTENCENTCLOUD_SECRET_KEY=xxxxxxxx\nTENCENTCLOUD_APPID=12345",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T06:21:47.194Z",
   "created_at": "2026-08-16T02:54:52.257Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 51,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:24.201Z"
+  "updated_at": "2026-08-17T04:27:44.639Z"
 }

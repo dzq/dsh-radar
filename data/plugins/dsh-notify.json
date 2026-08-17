@@ -28,26 +28,19 @@
   "engines": {
     "node": ">=22.5"
   },
+  "readme": "# dsh-notify\n\n> ⚠️ **AI 生成项目**：代码与文档由 AI 辅助生成，仅供学习参考，使用前请自行审查。\n\ndsh 的 Windows 通知插件：agent 不再运行时（完成 / 停止 / 出错 / 等你选择 / 会话关闭）弹原生 Toast 提醒，正文标注「工作区 · 会话」，托盘常驻鲸鱼图标。\n\n## 安装\n\n```powershell\ndsh plugin --profile web add dsh-notify\n```\n\nGitHub 安装：`dsh plugin --profile web add github:Pasumao/dsh-plugin-notify`\n\n装完重启 `dsh web`，任务栏出现鲸鱼图标即生效。\n\n## 触发时机\n\n任务完成、被中止、执行出错、达到输出上限、停下来等你选择、运行中的会话被关闭。\n\n## 配置\n\n在 profile 的 `cordis.patch.yml` 按 id `dsh-plugin-notify` 覆盖 config。常用项：\n\n| key | 默认 | 说明 |\n|---|---|---|\n| `cooldownMs` | `10000` | 同会话同类型两次通知的最小间隔（毫秒） |\n| `rootsOnly` | `true` | 仅根会话通知，子代理不刷屏 |\n| `tray` | `true` | 托盘图标开关 |\n| `titlePrefix` | `'dsh'` | 通知标题前缀 |\n\n## 测试\n\n```powershell\nnode scripts/test-harness.mjs   # 弹三条真实 Toast 自测\n```\n\n## 排障\n\nToast 不出现：检查 Windows「通知与操作」是否允许 PowerShell 显示通知。\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T04:12:04.379Z",
   "created_at": "2026-08-14T14:34:35.903Z",
-  "gh": {
-    "full_name": "Pasumao/dsh-plugin-notify",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T04:12:28Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 59,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:42.720Z"
+  "updated_at": "2026-08-17T04:27:49.227Z"
 }

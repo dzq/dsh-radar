@@ -32,6 +32,7 @@
   "engines": {
     "node": "^22.19 || >=24"
   },
+  "readme": "# @dsh-suite/plugin-manager — DSH 插件应用商店 / Plugin Store for DSH Web UI\n\n[![awesome · DSH plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n[💬 问题反馈](https://github.com/whyihaveyou/dsh-suite/issues/new?template=plugin-feedback.yml&labels=feedback&plugin=plugin-manager)\n\n\n> v0.8.0 — Store v2 Batch 3（最近更新排序 / 安装流式日志 / 已装精确匹配）。\n\n> v0.7.0 — Store v2 Batch 2（增量渲染哨兵 / Featured 策展区 / 场景组合一键装 / watchlist 与投稿入口）。\n\n> v0.6.0 — Store v2 Batch 1（详情抽屉 / 分类归一+只看兼容 / 中文别名搜索 / 卡片单语化 / 安装后引导 / 反馈口子）。\n\n> 嵌入 DSH Web UI 设置页的插件商店面板：目录浏览 / 搜索 / 一键安装 / 兼容徽章 / 已装列表。\n> A plugin-store panel embedded in DSH Web UI: catalog browse / search / one-click install / compat badges / installed list.\n\n旗舰功能（本团队）。官方只做了「设置页只读清单 + 命令行安装」，本插件补上「在 Web UI 里发现 + 搜索 + 一键安装」这半截断掉的链路。\n\n## 架构 / Architectur",
   "weekly_downloads": 729,
   "last_publish": "2026-08-15T15:50:03.263Z",
   "created_at": "2026-08-14T08:26:48.574Z",
@@ -39,11 +40,11 @@
   "scores": {
     "popularity": 72,
     "maintenance": 0,
-    "quality": 90,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 60,
+    "overall": 57,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T03:56:21.281Z"
+  "updated_at": "2026-08-17T04:27:44.232Z"
 }

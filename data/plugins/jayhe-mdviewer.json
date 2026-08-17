@@ -30,19 +30,19 @@
     }
   },
   "engines": {},
+  "readme": "# jayhe-mdviewer\n\n一个面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（dsh）的**通用文件预览器**插件。\n\n当 agent 完成一轮工作并产出文件时，收尾消息下方的\"产物\"行以垂直列表展示（默认折叠，点击展开全部）；点击任意产物文件即在**右侧弹出面板**中渲染预览，且**每种文件类型都有符合其风格的渲染**：\n\n| 类型 | 渲染方式 |\n| --- | --- |\n| 📄 markdown | 官方 `MarkdownText`（完整 GFM、表格、代码块、TeX 公式） |\n| 💻 代码（js/ts/py/go/rs/java/c/cpp/json/yaml/css/sql/html 等约 70 种扩展名） | highlight.js 语法高亮 + 语言徽标 |\n| 📊 csv / tsv | 解析为 HTML 表格（支持引号转义字段，500 行封顶） |\n| 🖼 图片（png/jpg/gif/webp/svg/bmp/ico/avif） | 内联展示 |\n| 📃 文本 / 日志 | 等宽纯文本 |\n| 已知二进制（pdf/docx/xlsx/zip 等） | 针对性的\"用 ↗ 外部打开\"提示 |\n\n[English](README.md)\n\n## 特性\n\n- **按类型风格化渲染**——扩展名驱动识别（约 70 种代码语言 + csv/tsv + 图片 + markdown），每种类型各有专属渲染路径；语法高亮器（highlight.js）直接打进 bundle，无需额外安装。\n- **通用预览，不自造解析器**——markdown 直接用 `@deepseek-ai/dsh-client-ui-primitives` 的 `Markdow",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T09:54:14.851Z",
   "created_at": "2026-08-15T09:54:14.635Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 50,
-    "grade": "C"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:09.844Z"
+  "updated_at": "2026-08-17T04:27:44.598Z"
 }

@@ -26,19 +26,19 @@
   "engines": {
     "node": ">=20.18"
   },
+  "readme": "# dsh-plugin-marketplace\r\n\r\n**GitHub**: [Scorp1o117/dsh-plugin-marketplace](https://github.com/Scorp1o117/dsh-plugin-marketplace) · **npm**: [dsh-plugin-marketplace](https://www.npmjs.com/package/dsh-plugin-marketplace) · [English](README.md)\r\n\r\n在 DeepSeek Harness **Web UI 里内置的插件市场**：直接在设置页浏览\r\n[github.com/topics/dsh-plugin](https://github.com/topics/dsh-plugin)，无需打开终端。\r\n\r\n- **搜索**：按关键词搜索主题下的插件，按 Star 或更新时间**排序**\r\n- **插件卡片**：名称、简介、Star 数、语言、更新时间一目了然\r\n- **详情面板**：GitHub README 摘要、安装命令、仓库 / npm 链接\r\n- **AI 解释**：一键调用已配置的默认模型，用中文直接告诉你这个插件大概是干嘛的，不用自己啃 README\r\n- 基于 GitHub 公开搜索 API（浏览器 CORS 直连，无需密钥；未认证限流 60 次/小时）\r\n- 零客户端依赖（只用 React），无构建步骤 —— 手写 ModuleLoader bundle\r\n\r\n## 安装\r\n\r\n作为 profile bundle 安装（推荐）：\r\n\r\n```\r\ndsh plugin --profile web add dsh-plugin-marketplace\r\n```\r\n\r\n或通过包的 `dsh.bundle.patch` 层：把 `d",
   "weekly_downloads": 507,
-  "monthly_downloads": 507,
   "last_publish": "2026-08-16T00:10:57.489Z",
   "created_at": "2026-08-13T16:21:15.434Z",
   "gh": null,
   "scores": {
     "popularity": 68,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 67,
+    "overall": 56,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T03:50:30.044Z"
+  "updated_at": "2026-08-17T04:27:44.242Z"
 }

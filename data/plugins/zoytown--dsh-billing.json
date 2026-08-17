@@ -1,0 +1,53 @@
+{
+  "slug": "zoytown--dsh-billing",
+  "name": "@zoytown/dsh-billing",
+  "version": "0.1.2",
+  "description": "DeepSeek Harness (dsh) plugin for DeepSeek API account balance — a ctx.billing capability seam, a /balance command, and a sidebar balance indicator with a Settings page for the Web UI.",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek",
+    "deepseek-harness",
+    "deepseek-api",
+    "deepseek-balance",
+    "balance",
+    "billing",
+    "account-balance",
+    "api-balance"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zoyluoblue/deepseek-harness-billing.git",
+  "homepage": "https://github.com/zoyluoblue/deepseek-harness-billing#readme",
+  "npm": "https://www.npmjs.com/package/@zoytown/dsh-billing",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "readme": "# @zoytown/dsh-billing\n\n[English](README.md) | 中文\n\n`@zoytown/dsh-billing` 是一个**用于查看 DeepSeek API 账户余额的 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（`dsh`）插件**。它读取平台的 `GET /user/balance` 端点，并以三种方式呈现结果：侧边栏底部的余额胶囊、设置里的「余额」页、以及 `/balance` 命令。它**不注册任何面向模型的工具**，也**不追加任何 session 事件**，因此挂载它对会话零成本。\n\n## 平台实际提供了什么\n\n只有当前余额。没有用量或消费明细端点——`/usage` 与 `/dashboard/billing/usage` 均返回 404——所以本包报告的是**还剩多少**，而非**花了多少**。任何「本次会话花费」都只能是基于 token 数的本地估算，那是另一件事，刻意不在本包范围内。\n\n```json\n{\n  \"is_available\": true,\n  \"balance_infos\": [\n    { \"currency\": \"CNY\", \"total_balance\": \"25.00\", \"granted_balance\": \"0.00\", \"topped_up_balance\": \"25.00\" }\n  ]\n}\n```\n\n`balance_infos` 是**数组**——一个账户可能同时持有 CNY 和 USD——本包所有消费者都完整渲染，而不是只取第一项。\n\n## 安装\n\n```sh\ndsh plugin --profile web add @zoytown/dsh-billing\n```\n\n从 npm 安装拿到的是预",
+  "weekly_downloads": 0,
+  "last_publish": "2026-08-17T04:25:58.272Z",
+  "created_at": "2026-08-17T04:00:30.060Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:27:46.934Z"
+}

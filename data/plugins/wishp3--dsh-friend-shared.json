@@ -20,26 +20,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-Friend shared\n\nCompatibility seams and future shared host/client primitives for dsh-Friend.\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T05:39:08.799Z",
   "created_at": "2026-08-14T16:00:58.392Z",
-  "gh": {
-    "full_name": "wanghehe123/dsh-Friend",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T05:38:38Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 40,
+    "maintenance": 0,
+    "quality": 30,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 48,
-    "grade": "C"
+    "overall": 27,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:07.570Z"
+  "updated_at": "2026-08-17T04:27:47.737Z"
 }

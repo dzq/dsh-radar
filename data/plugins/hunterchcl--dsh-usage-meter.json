@@ -36,19 +36,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-usage-meter\r\n\r\n[English](README.md) | 中文\r\n\r\n想要看到自己账户的余额吗？想要看到自己一句话烧了多少钱，又不需要过多的分析功能？**想要看到涨价对自己的钱包有多大的影响？** 这个插件正适合你\r\n\r\n在界面右上方显示DeepSeek 官方API的余额和本会话已使用的金额；鼠标悬停额度可查看按具体细节。价格表与峰谷定价可在设置页配置。\r\n\r\n> **界面语言**：UI 文案随 DSH 所选择的语言自动切换（中文 / English）。在 DSH 设置页「通用 → 语言」切换语言即可实时生效；未设置时跟随浏览器语言。\r\n\r\n## 功能\r\n\r\n- 会话顶部提示：\r\n  - 余额：调用 DeepSeek 官方 `GET https://api.deepseek.com/user/balance`；非官方 API / 未配置 Key / 查询失败时余额会隐藏。\r\n  - 本会话：显示当前 session 已使用额度（人民币，两位小数）。鼠标悬停显示明细。UI具体：<img width=\"577\" height=\"321\" alt=\"image\" src=\"https://github.com/user-attachments/assets/119c5da4-76db-4655-a26e-9a4ed08d1e2f\" />\r\n\r\n- 设置页「余额 / 用量」：余额详情、以及 **计价设置**：\r\n  - 有峰谷定价开关，在打开开关时会按照峰谷定价的时间对每一次请求进行计算，能得到准确的金额数据，即使这次对话跨越了峰谷时段\r\n  - <img width=\"584\" height=\"326\" alt=\"image\" src=\"https://github.com/user-attachments/assets/8aaa7332-59f7-",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T12:07:35.846Z",
   "created_at": "2026-08-16T09:19:07.669Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:32.311Z"
+  "updated_at": "2026-08-17T04:27:46.979Z"
 }

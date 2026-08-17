@@ -22,26 +22,19 @@
   "engines": {
     "node": ">=22.19"
   },
+  "readme": "# dsh-weather\n\n[English](README.en.md) | 中文\n\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 天气工具：查询任意城市或地点的实时天气与多日预报，数据来自 [Open-Meteo](https://open-meteo.com/)——免费、无需 API key、无需注册。\n\n## 功能特性\n\n- `get_weather` 工具：实时温度、体感温度、湿度、风速与天气状况。\n- 可选多日预报（最多 7 天）：每日最高/最低温度与天气状况。\n- 支持摄氏 / 华氏温度单位。\n- 无需 API key；数据来源：[Open-Meteo](https://open-meteo.com/)。\n\n## 安装\n\n### 从 GitHub 安装\n\n```sh\ndsh plugin --profile web add \"github:sunshine-lang/dsh-weather\"\n```\n\n然后重启 `dsh --profile web`。`lib/` 已预构建并提交，安装无需构建权限。\n\n### 从本地源码安装（开发）\n\n```sh\ndsh plugin --profile web add ./dsh-weather\n```\n\n> 注意：pnpm 对 `link:` 方式的本地依赖不会自动安装其依赖，需要手动添加到 profile（通过 registry 或 GitHub 安装则会自动处理）：\n>\n> ```sh\n> dsh plugin --profile web add @deepseek-ai/dsh-tools @deepseek-ai/cordis @deepseek-ai/schemastery\n> ```\n\n### 验证\n\n```sh\ndsh",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T05:58:44.606Z",
   "created_at": "2026-08-14T05:58:44.437Z",
-  "gh": {
-    "full_name": "sunshine-lang/dsh-weather",
-    "stars": 4,
-    "open_issues": 2,
-    "pushed_at": "2026-08-14T06:05:17Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 59,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:43.497Z"
+  "updated_at": "2026-08-17T04:27:49.236Z"
 }

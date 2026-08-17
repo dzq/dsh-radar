@@ -25,19 +25,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-git-commit · Git 提交助手\n\n分析 git 仓库，生成规范化提交信息、CHANGELOG 与版本号建议。纯 Node + git 实现，无网络、无外部服务。\n\n## 提供的工具\n\n| 工具 | 作用 |\n|---|---|\n| `suggest_commit` | 分析 `git status` 变更，按 Conventional Commits 生成提交信息建议 |\n| `generate_changelog` | 读提交历史（按类型分组）生成 CHANGELOG.md |\n| `suggest_version` | 按 SemVer 规则建议下一个版本号（major/minor/patch） |\n\n## 安装\n\n```bash\ndsh plugin add dsh-git-commit\n```\n\n安装后在 profile 的 `package.json` 的 `dsh.profile.bundles` 中加入 `\"dsh-git-commit\"`。\n\n## 用法示例\n\n```\n帮我生成一条规范的提交信息\n→ 调用 suggest_commit()\n\n生成 CHANGELOG\n→ 调用 generate_changelog(since=\"v1.0.0\", outFile=\"CHANGELOG.md\")\n\n下个版本号该发多少\n→ 调用 suggest_version()\n```\n\n## 说明\n\n- 提交类型按文件分类自动判断：新代码→`feat`、改代码→`fix`、测试→`test`、文档→`docs`、配置→`chore`、样式→`style`。\n- 版本号建议：有 `BREAKING CHANGE`/`!:` → major，有 `feat` → minor，其余 → patch。\n- 建议信息是**启发式默认值**，可让模型在生成后进一步",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T11:04:53.833Z",
   "created_at": "2026-08-16T11:04:53.634Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:53:06.577Z"
+  "updated_at": "2026-08-17T04:27:46.982Z"
 }

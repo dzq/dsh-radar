@@ -21,19 +21,19 @@
     }
   },
   "engines": {},
+  "readme": "# @dsh-pi/preset\n\nMakes dsh-pi the **default** for web sessions — no per-session pick, no setup steps.\n\nInstalling this bundle into a web profile:\n\n1. Installs the preset composition `agent-presets/dsh-pi/agent.cordis.yml` into the auto-discovered user root `$DSH_HOME/.agent-presets/dsh-pi/` (a tiny plugin copies it at boot; the package stays the source of truth);\n2. Patches the `agent-presets` row so new sessions **default to `dsh-pi`** — pi prompt + `ffgrep`/`fffind` + pi-interface `edit`, all on by default.\n\nIt depends on `@dsh-pi/prompt`, `@dsh-pi/fff`, `@dsh-pi/tools`, so installing it pulls the whole kit.\n\n## Usage\n\n```sh\ndsh plugin --profile web add @dsh-pi/preset\ndsh web\n```\n\nExisting sessions keep their preset; new sessions default to `dsh-pi`. Headless profiles have no `agent-pre",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T07:52:53.575Z",
   "created_at": "2026-08-14T07:52:53.317Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:00:09.086Z"
+  "updated_at": "2026-08-17T04:27:47.685Z"
 }

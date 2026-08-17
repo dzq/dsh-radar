@@ -25,26 +25,19 @@
     }
   },
   "engines": {},
+  "readme": "# @plur-ai/dsh\n\n**为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 提供持久记忆。周一纠正过的事，周二依然记得。**\n\n[English](README.md) | 中文\n\n把记忆作为工具暴露出来是常见做法——模型仍然需要自己决定要不要调用它。\n本插件直接把记忆本身放进提示词。\n\n## 概述\n\nDeepSeek Harness 每次开启新会话时对你一无所知。你得把昨天已经解释过的约定、\n纠正和偏好重新解释一遍。\n\n本插件让 dsh 拥有能跨会话存活的记忆：你只纠正一次的内容、项目约定，以及这些\n决定背后的原因。适合任何在同一个代码库中不止一次用 dsh 做实际工作的人。\n\n所有内容都以纯 YAML 保存在你自己的机器上，可读、可改、可删。\n\n## 兼容性\n\n| | |\n|---|---|\n| DeepSeek Harness | `0.1.0-rc.6` 及 `0.1.x` 线上的后续版本（`^0.1.0-rc.6`） |\n| Cordis | `^4.0.1` |\n| Node | 20、22、24、26（四个版本均在 CI 中测试） |\n| 最近验证 | dsh `0.1.0-rc.6`，2026-08-15 |\n\ndsh 仍处于 1.0 之前且演进很快。peer 版本范围使用 caret，以便本插件能随该版本线\n继续安装；如果未来某个版本改变了宿主契约，本插件会退化为「无记忆」，而不会让你\n的 agent 崩溃——每一处宿主注册都做了包裹，`/plur` 会显示失败情况。\n\n## 安装\n\n```sh\ndsh plugin --profile web add @plur-ai/dsh\n```\n\n就这样。重启 `dsh`，你的 agent 就有记忆了。\n\n需要 [`",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T11:59:13.948Z",
   "created_at": "2026-08-15T11:59:13.686Z",
-  "gh": {
-    "full_name": "plur-ai/plur",
-    "stars": 237,
-    "open_issues": 79,
-    "pushed_at": "2026-08-15T20:26:33Z",
-    "archived": false,
-    "license": "Apache-2.0"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 62,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:57.127Z"
+  "updated_at": "2026-08-17T04:27:44.326Z"
 }

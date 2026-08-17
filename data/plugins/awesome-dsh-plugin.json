@@ -18,19 +18,19 @@
   "dsh_compat": false,
   "dsh_meta": null,
   "engines": {},
+  "readme": "# Awesome DSH Plugin [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)\n\n[English](README.md) | 中文\n\n> [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（`dsh`）插件精选列表。\n\n**94** 个插件 · [网站](https://awesome-dsh-plugin.com/zh/) · 欢迎 [PR](#贡献)\n\n## 目录\n\n- [🎨 UI 增强](#-ui-增强)\n- [💬 会话与消息](#-会话与消息)\n- [🛠️ 工具与能力](#️-工具与能力)\n- [🔁 工作流与自动化](#-工作流与自动化)\n- [🔔 通知与集成](#-通知与集成)\n- [🧑‍💻 开发与运行时](#-开发与运行时)\n- [🎮 娱乐](#-娱乐)\n\n## 🎨 UI 增强\n\n- [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) — DeepSeek Harness 的终端 UI（TUI）。\n- [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) — Codex 风格的 `@file` 文件引用，输入框里直接搜索并引用工作区文件。\n- [ui-status-label](https://github.com/alingalingling/ui-status-label) — 把鲸鱼娘思考时的 \"deep diving\" 状态文案自定义成任意你想要的样子。\n- [dsh-openpencil](https://github.com/ZS",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-13T15:33:04.176Z",
   "created_at": "2026-08-13T15:33:03.862Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 58,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 43,
-    "grade": "C"
+    "overall": 29,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:00.720Z"
+  "updated_at": "2026-08-17T04:27:46.439Z"
 }

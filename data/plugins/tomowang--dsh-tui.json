@@ -22,19 +22,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-tui\n\nAn open-source terminal front door for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`).\n\n`@tomowang/dsh-tui` is an **out-of-tree mode bundle**: it stacks on `@deepseek-ai/dsh-base` exactly like the shipped `dsh-web-app` and `dsh-headless` bundles do, but drives the agent from your terminal instead of a browser. The package is both a Cordis plugin (terminal input and presentation) and a dsh bundle (`dsh.bundle.patch` in `package.json` points at [`cordis.patch.yml`](cordis.patch.yml)); everything else — model adapters, tools, session persistence, sandbox and approval policy — stays in `dsh-base` and remains patchable underneath.\n\n![dsh-tui session in a terminal, showing the startup banner, injected context, and tool calls](assets/screenshot.png)\n\n<detai",
   "weekly_downloads": 399,
-  "monthly_downloads": 399,
   "last_publish": "2026-08-15T17:02:58.946Z",
   "created_at": "2026-08-15T11:02:11.785Z",
   "gh": null,
   "scores": {
     "popularity": 65,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 69,
-    "grade": "B"
+    "overall": 54,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:29.635Z"
+  "updated_at": "2026-08-17T04:27:44.249Z"
 }

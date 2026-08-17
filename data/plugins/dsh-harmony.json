@@ -49,19 +49,19 @@
   "engines": {
     "node": "^22.22.3 || >=24.11.1"
   },
+  "readme": "<p align=\"center\"><strong>简体中文</strong> | <a href=\"./README.en.md\">English</a></p>\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n\n<p align=\"center\">\n  <img src=\"./assets/harmony-icon.png\" alt=\"dsh-harmony\" width=\"180\"><br>\n  <strong>dsh-harmony</strong><br>\n  一个在运行时修补、替换和装饰<br>\n  DeepSeek Harness 插件的库。\n</p>\n\n## 插件定位\n\n**dsh-harmony 是 DeepSeek Harness 的运行时 Patch 协调层。** 官方插件 API 负责\n“增加能力”，Harmony 负责“修改已经存在的能力”：一个插件可以在另一个插件加载前\n改写它的实现、替换函数或包裹调用，而不需要维护 Fork，也不会改动磁盘上的安装文件。\n\n| 方式 | 适合做什么 | 边界与代价 |\n| --- | --- | --- |\n| 官方插件 API | 注册官方开放的服务、Slot、工具和页面 | 无法修改未开放扩展点的内部实现 |\n| 维护 Fork | 任意改动目标插件源码 | 需要持续合并上游更新，多个 Fork 难以协调 |\n| **dsh-harmony** | 在运行时 Patch Host 与 WebUI 插件 | Patch 需要跟随目标插件的编译结构变化 |\n\n它不是新的插件安装器，也不替代 Harness Loader。它保留原来的 `dsh` 命令和官方\n插件装",
   "weekly_downloads": 256,
-  "monthly_downloads": 256,
   "last_publish": "2026-08-15T12:41:52.777Z",
   "created_at": "2026-08-14T21:40:45.927Z",
   "gh": null,
   "scores": {
     "popularity": 60,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 90,
-    "overall": 70,
-    "grade": "A"
+    "dsh_compat": 80,
+    "overall": 54,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:36.808Z"
+  "updated_at": "2026-08-17T04:27:44.260Z"
 }

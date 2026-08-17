@@ -20,19 +20,19 @@
     }
   },
   "engines": {},
+  "readme": "",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T09:20:44.424Z",
   "created_at": "2026-08-14T07:05:20.618Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 55,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 45,
-    "grade": "C"
+    "overall": 34,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:00:10.947Z"
+  "updated_at": "2026-08-17T04:27:47.691Z"
 }

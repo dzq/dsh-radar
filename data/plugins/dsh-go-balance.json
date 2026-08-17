@@ -1,7 +1,7 @@
 {
   "slug": "dsh-go-balance",
   "name": "dsh-go-balance",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "OpenCode Go subscription balance widget for DeepSeek Harness Web: rolling/weekly/monthly quota remaining, shown at the right end of the composer tool row.",
   "keywords": [
     "dsh",
@@ -31,26 +31,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-go-balance\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com/)\n\n给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）Web 界面加一个 **OpenCode Go 订阅余额**小部件：在输入框工具行右侧（发送按钮旁）显示滚动 / 每周 / 每月三个配额窗口的**剩余百分比**，数据直接来自 OpenCode Zen 用量接口（Go 订阅仪表页同源），不是估算值。\n\n[English](./README.en.md)\n\n## 功能\n\n- **真实余额，非估算** — 用您的 Go API 密钥轮询 `https://opencode.ai/zen/go/v1/usage`，渲染与 Go 仪表页完全一致的数字。\n- **紧凑胶囊** — `Go 96% · 94% · 97%`（滚动 / 每周 / 每月剩余），位于发送按钮右侧。\n- **悬停明细** — 已用百分比、各窗口重置时间、数据更新时间。\n- **警示配色** — 任一窗口剩余低于 30% 变黄、低于 15% 变红。\n- **容错** — 刷新失败保留上次快照并淡化标记；未配置凭据或尚无数据时不渲染。\n- **凭据安全** — API 密钥运行时经 DSH 凭据服务解析（`OPENCODE_ZERO_API_KEY`），只留在 host 进程内；本仓库不含任何密钥，也不会下发到浏览器。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-go-balance\n```\n\n然后重启 DSH（`dsh web`）。插件会",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
-  "last_publish": "2026-08-16T05:20:20.828Z",
+  "last_publish": "2026-08-15T15:30:40.554Z",
   "created_at": "2026-08-15T15:30:40.349Z",
-  "gh": {
-    "full_name": "iamfromchangsha/dsh-go-balance",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T05:19:47Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 61,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:44.071Z"
+  "updated_at": "2026-08-17T04:27:49.789Z"
 }

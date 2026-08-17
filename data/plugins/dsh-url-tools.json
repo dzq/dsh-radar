@@ -19,19 +19,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-url-tools\n\nDSH URL 工具插件。注册一个 `url_tool` 工具，提供 URL 解析、跟踪参数清理、字符串编解码、重定向展开四种能力。**零依赖、纯 ESM、无构建**。\n\n## 简介\n\n- 工具名：`url_tool`\n- 能力：`parse`（解析）/ `clean`（清理跟踪参数）/ `decode`（解码）/ `encode`（编码）/ `expand`（展开重定向）。\n- 行为：**永不抛异常**。参数错误、非法 URL、网络错误、非法 `%` 序列都折叠为 `{ ok: false, error }`；成功返回 `{ ok: true, ... }`，且始终带回 `action` 回显。\n\n## 安装\n\n```sh\ndsh plugin --profile <name> add file:./plugins/dsh-url-tools\n# 或发布后：\ndsh plugin --profile <name> add dsh-url-tools\n```\n\n## 参数\n\n| 参数 | 类型 | 必填 | 说明 |\n|---|---|---|---|\n| `action` | enum | ✅ | `parse`/`clean`/`decode`/`encode`/`expand` |\n| `url` | string | ✅ | 目标 URL（`decode`/`encode` 时是待处理字符串） |\n\n## action 表\n\n| action | 输入 | 输出（`ok: true`） | 失败 |\n|---|---|---|---|\n| `parse` | 任意合法 URL | `{ scheme, host, port, pathname, search, hash, username, params }`；`params` 为",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T12:46:17.623Z",
   "created_at": "2026-08-16T08:47:14.896Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:04.528Z"
+  "updated_at": "2026-08-17T04:27:44.339Z"
 }

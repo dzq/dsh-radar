@@ -22,19 +22,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-memoria\n\nLong-term memory for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness), backed by the [Memoria](https://github.com/) memory framework.\n\nThe plugin owns one long-lived Python subprocess (`python -m memoria.plugin_server`) so store and recall share a single in-memory Memoria instance. It registers four tools and — by default — auto-injects recalled context at the start of every turn, so the agent stays grounded in what it already remembers without an explicit recall prompt.\n\n## Requirements\n\n- A Python interpreter that can `import memoria` (Memoria installed into that interpreter), **or** a `cwd` that contains the `memoria` package.\n- The `python` and `cwd` defaults are portable (`python`/`python3` on PATH, `process.cwd()`); override them per machine (see [Co",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T23:18:42.611Z",
   "created_at": "2026-08-15T23:18:42.405Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:52.616Z"
+  "updated_at": "2026-08-17T04:27:44.318Z"
 }

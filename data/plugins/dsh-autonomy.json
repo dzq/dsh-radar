@@ -31,26 +31,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# dsh-autonomy\n\nSwitch between **Chat** and **Agent** without leaving your DeepSeek Harness session.\n\n`dsh-autonomy` adds an always-visible `Chat | Agent` control on a dedicated row above the Web composer. It never overlays the text area or consumes space in the composer's tool row. The selection belongs to the current session, survives reloads and resumes, and follows a fork through the durable session log.\n\n## Why\n\nSometimes you want the harness to investigate, edit files, run commands, and keep going. Sometimes you only want a concise answer while you stay in control.\n\nChanging agent presets does not solve that mid-session. `dsh-autonomy` changes the current session's autonomy without replacing its model, preset, history, sandbox, or permission policy.\n\nThe plugin was built in response ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T03:34:05.599Z",
   "created_at": "2026-08-16T03:34:05.268Z",
-  "gh": {
-    "full_name": "JinkaiLiu/dsh-autonomy",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T03:38:00Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 63,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:15.795Z"
+  "updated_at": "2026-08-17T04:27:44.624Z"
 }

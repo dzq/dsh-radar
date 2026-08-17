@@ -30,19 +30,19 @@
   "engines": {
     "node": ">=22.0.0"
   },
+  "readme": "# dsh-auto-blame\n\n![preview](docs/preview.webp)\n\n当模型完成当前轮次对话后，将最后 3 条消息发送给 LLM，生成 3 条批判性跟进请求，显示在输入框上方作为可选项，点击直接发送。生成期间\"领导视野\"标签带 DeepSeek 蓝色流光扫过（同 Deep diving... 特效），建议到达后气泡依次淡入。\n\n## 工作原理\n\n```\n[host] agent/turn-stopping 触发\n  → fire-and-forget 调 ctx.llm.stream() 生成 3 条毒舌跟进\n  → session.append('auto-blame/suggestions', { turn, suggestions })\n  → projection unit 折叠该事件 → session/projection 推送帧\n  ↓\n[client] useProjection('autoBlame') 收到值\n  → conversation.composer.dock 渲染 3 个气泡\n  → 点击 → inputActions.setDraft(text) + submit()\n```\n\n- **fire-and-forget**：LLM 调用不阻塞 turn 关闭，建议晚几百 ms 出现\n- **非 surface 事件**：`auto-blame/suggestions` 不进入 model-visible 历史，不干扰 agent loop\n- **失败静默**：LLM 失败 / 解析失败 → 不 append 事件，不显示气泡\n- **点击发送**：走 InputBar 同一路径（`inputActions.setDraft + submit`）\n- **下一轮清空**：新 turn 开始时 projection ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-13T14:27:45.698Z",
   "created_at": "2026-08-13T14:27:45.408Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 58,
+    "maintenance": 0,
     "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 48,
-    "grade": "C"
+    "overall": 37,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:00:07.448Z"
+  "updated_at": "2026-08-17T04:27:47.390Z"
 }

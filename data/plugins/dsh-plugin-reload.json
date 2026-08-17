@@ -23,19 +23,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-plugin-reload\n\n[English](README.md) | 中文\n\n一个 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 插件，为模型提供 **`reload_plugin` 工具**：按 entry id、模块名或 MCP `serverName` 匹配，恰好重启一个 Cordis Loader 条目。其余条目全部保持运行。\n\n按条目类型选择两种重载策略：\n\n- **`mcp-client` 条目**：重启时拉起 MCP server 子进程（拾取磁盘上的新代码）并重新注册其工具；同族的其他 MCP 连接不受影响。\n- **进程内插件条目**：执行**硬重载**——爆破该条目及其本地源码文件的 Node ESM/CJS 模块缓存，从磁盘重新 import，并把条目的 fiber 换到新模块上（与 `cordis-plugin-hmr` 部分重载同款技术）。插件代码改动**无需重启 host 即可生效**；重新 import 或重新 apply 失败时自动回滚到旧代码。\n\n> 构建在 DeepSeek Harness 的\"一切皆插件\"架构之上。官方仓库当前不接受外部 PR——按照 [CONTRIBUTING.md](https://github.com/deepseek-ai/deepseek-harness/blob/HEAD/CONTRIBUTING.md) 的建议，社区插件独立发布并通过 [`dsh-plugin`](https://github.com/topics/dsh-plugin) 话题分享。\n\n## 安装（自动挂载）\n\n自 **v0.1.2** 起本包声明了 `dsh.bundle`，一条命令即可完成安装**并自动挂载**：\n\n```sh\nd",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T09:10:46.211Z",
   "created_at": "2026-08-14T08:53:45.909Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:03:42.512Z"
+  "updated_at": "2026-08-17T04:27:47.708Z"
 }

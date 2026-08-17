@@ -29,19 +29,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-opencode-go-usage\n\n**简体中文** · [English](README.md)\n\n一个 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的 WebUI 插件：在页面右侧提供**常驻悬浮组件**，实时展示 **OpenCode Go** 套餐中 **key 池内每个 key** 的用量——**滚动 / 每周 / 每月**三个窗口的已用百分比、进度条与重置倒计时。\n\n## 特性\n\n- **悬浮组件**：紧凑按钮固定在页面右侧边缘，角标实时显示**全部 key 中最差窗口**的百分比；颜色分级（绿 / 橙 / 红色脉冲）让你一眼看出是否有 key 接近额度上限。\n- **展开面板**：点击按钮展开面板，每个 key 一张卡（当前生效 key 带 ★ 标记），展示滚动 / 每周 / 每月用量（进度条 + 百分比 + 距重置时间）；被限流的窗口标 ⚠。\n- **实时刷新**：Host 每 60 秒轮询官方用量端点（可配置），面板自动刷新并提供手动刷新按钮。\n- **自动发现 key 池**：自动读取 `$DSH_HOME/.credentials.yaml` 中的 `OPENCODE_GO_KEY_<名>` 条目——**key 的数量与命名均不写死**；无池时回退显示当前生效键（`OPENCODE_GO_API_KEY`）。\n- **中英双语**：按浏览器语言自动切换。\n- **主题适配**：使用 DSH 主题 token，明暗主题均适配。\n\n## 界面预览\n\n![悬浮组件](docs/screenshot.png)\n\n## 工作原理\n\n**Host 半**（Node ESM）：\n\n1. 发现 key 池名称——优先使用 `config.keyNames`，否则自",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:47:47.625Z",
   "created_at": "2026-08-15T16:47:47.368Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:06.473Z"
+  "updated_at": "2026-08-17T04:27:46.461Z"
 }

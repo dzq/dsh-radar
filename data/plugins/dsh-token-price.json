@@ -29,19 +29,19 @@
   "engines": {
     "node": ">=18"
   },
+  "readme": "# dsh-token-price\n\n<!-- README-I18N:START -->\n\n[English](./README.md) | **汉语**\n\n<!-- README-I18N:END -->\n\n为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web 界面提供准确的 Token 成本和账户余额显示。\n\n## 功能\n\n- **单轮成本**：在每条 AI 回复的统计行后按 hover 显示本轮已完成请求步骤的 `¥...` 成本。\n- **会话累计**：汇总每一个已上报用量的请求步骤；已取消但已产生用量、却没有最终回复的请求也会计入。\n- **人民币估算**：仅以 `¥...` 显示按市场 USD/CNY 汇率换算的估算值，界面不显示 USD；它不代表扣款金额，也不是官方单请求 CNY 价格。\n- **账户余额**：直接显示官方 `GET /user/balance` 的返回结果，优先选用返回的 CNY 余额；若接口没有 CNY，则保留接口实际返回的币种。\n\nUSD 仅作为内部精确计费主值。没有明确官方价格规则的 provider/model 路由显示为 **未定价**，不会错误显示为零成本。\n\n## 安装\n\n一条命令（需要 pnpm）：\n\n```sh\ndsh plugin --profile web add dsh-token-price\n```\n\n包声明了 `dsh.bundle` 和 `dsh.client`，会同时启用宿主端服务和浏览器端读数。\n\n## 配置\n\n```yaml\n- id: token-price\n  name: dsh-token-price\n  config:\n    balanceBaseURL: https://api.deepseek.co",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T09:03:12.394Z",
   "created_at": "2026-08-16T09:03:12.184Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 51,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:45.010Z"
+  "updated_at": "2026-08-17T04:27:50.007Z"
 }

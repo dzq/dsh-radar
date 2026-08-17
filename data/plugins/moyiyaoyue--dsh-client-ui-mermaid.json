@@ -23,19 +23,19 @@
     }
   },
   "engines": {},
+  "readme": "# @moyiyaoyue/dsh-client-ui-mermaid\n\nClient-only [dsh](https://github.com/deepseek-ai/deepseek-harness) plugin that\nrenders Mermaid fenced code blocks (```` ```mermaid ````) as inline SVG diagrams\nin the web UI.\n\n## What it does\n\n- Watches the conversation DOM for `md-code-block` elements whose language is\n  `mermaid`.\n- Renders each one to SVG via the Mermaid engine, replacing the plain code body\n  while keeping the copy button and a **源码 / 收起** source toggle.\n- Re-renders diagrams when the DSH light/dark theme flips.\n- Falls back to an inline error message (and keeps the source visible) when the\n  diagram cannot be rendered.\n\n## How it works\n\n- The package declares `dsh.client.platform = \"web\"`, so the `client-modules`\n  host scan serves `lib/client.js` as `/plugins/@moyiyaoyue/dsh-clien",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T03:05:54.774Z",
   "created_at": "2026-08-15T03:05:54.331Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 47,
-    "grade": "C"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:01.551Z"
+  "updated_at": "2026-08-17T04:27:46.444Z"
 }

@@ -26,19 +26,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# @ironlaw/adapter-dsh\n\nIronLaw on [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH).\n\nIronLaw is a governance and evidence layer for coding agents: it records real\nevents, keeps verifiable evidence, and gates \"done\" on reproducible proof\nrather than the model's own claims. DSH runs the agent; IronLaw proves what the\nagent did and whether it actually finished.\n\nThis package is a **native Cordis plugin**, not an MCP bridge. It hangs off the\nDSH extension points themselves.\n\n## What it does\n\n| Capability | DSH extension point | Behavior |\n|---|---|---|\n| Tool-call evidence | `tools/pre-execute`, `tools/result` | Records every tool call's intent and outcome to an append-only NDJSON ledger |\n| Destructive-action blocking | `tools/pre-execute` (waterfall) | In `enforcer`",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-13T18:46:47.353Z",
   "created_at": "2026-08-13T18:46:46.923Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 58,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:08:27.062Z"
+  "updated_at": "2026-08-17T04:27:47.724Z"
 }

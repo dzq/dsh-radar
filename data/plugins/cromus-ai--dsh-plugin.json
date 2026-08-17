@@ -25,19 +25,19 @@
   "engines": {
     "node": ">=18"
   },
+  "readme": "# @cromus-ai/dsh-plugin\n\n**Cromus** plugin for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) — score, validate, and cost-estimate AI skills directly from the `dsh` agent.\n\n## Install\n\n```sh\ndsh plugins add @cromus-ai/dsh-plugin\n```\n\nThen set your API key (get one at [cromus.ai/connect](https://cromus.ai/connect)):\n\n```sh\nexport CROMUS_API_KEY=your_key_here\n```\n\n## Tools\n\nOnce installed, all 11 Cromus tools appear in the model's tool registry under the `mcp__cromus__` namespace:\n\n| Model-facing name | What it does |\n|---|---|\n| `mcp__cromus__score_skill` | Returns a 0–1000 Croms score with a four-dimension breakdown for any skill file |\n| `mcp__cromus__simulate_cost` | Estimates per-run and monthly cost across five routing modes for a given workflow |\n| `mcp__cromus__c",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T15:24:15.513Z",
   "created_at": "2026-08-16T15:24:15.173Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 50,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:32.517Z"
+  "updated_at": "2026-08-17T04:27:46.979Z"
 }

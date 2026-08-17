@@ -34,26 +34,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# TokenLedger\n\n[![License](https://img.shields.io/badge/license-MIT-2da44e)](LICENSE)\n[![DSH](https://img.shields.io/badge/dsh-%3E%3D0.1.0--rc.6-1f6feb)](https://github.com/deepseek-ai/deepseek-harness)\n\n把 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的 Token 用量算清楚，并归属到**实际服务这次请求的中转站**——不用配置，不用凭据。\n\nToken-usage accounting for the DeepSeek Harness Web GUI (`dsh web`), attributed\nto the relay site that served each request. Zero configuration.\n\n![TokenLedger 面板](docs/images/panel.png)\n\n> 展示图使用演示数据与本机模拟中转站；面板上的每个数字都由真实代码路径算出，只是数据是造的。插件不会把 API Key 或上游原始响应发送到浏览器。\n\n## 一眼看懂 / At a glance\n\n| | 能力 | 说明 |\n| --- | --- | --- |\n| 🎯 | **中转站归属** | 按 provider 的 `baseURL` 归一化 origin 分组——同一站的多把 key 合成一行，站名就是域名，不是你自己起的路由别名 |\n| 🔍 | **零配置发现** | 从宿主的 provider 配置里读出中转站，不用你再填一遍。只读 `baseURL`，",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T12:58:18.689Z",
   "created_at": "2026-08-15T12:58:18.452Z",
-  "gh": {
-    "full_name": "zh667/TokenLedger",
-    "stars": 9,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T15:26:50Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 63,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:59.387Z"
+  "updated_at": "2026-08-17T04:27:44.329Z"
 }

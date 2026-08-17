@@ -23,26 +23,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# SOYO\n\n**Selective Observation for Yield-Aware Orchestration**\n\n![SOYO project poster](https://raw.githubusercontent.com/Ottohere-Mourn/SOYO/main/src/SOYO.png)\n\nSOYO is a lightweight, DSH-native video-understanding plugin. It gives a DeepSeek Harness Agent one callable tool—`analyze_video`—backed by a configurable local or API-based multimodal provider.\n\nV0.1 supports two fixed worker modes:\n\n- `vanilla`: ordinary provider-backed video inference;\n- `flashvid`: local visual-token compression using the pinned upstream FlashVID integration.\n\nSOYO is integration software, not a new compression algorithm or a general Video Agent system. V0.1 intentionally has no MCP layer, UI, memory, dynamic budget, or benchmark suite. It includes one frozen 100-question LongVideoBench validation comparison a",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T04:12:05.077Z",
   "created_at": "2026-08-15T03:16:47.353Z",
-  "gh": {
-    "full_name": "Ottohere-Mourn/SOYO",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T03:51:27Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 63,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:55.286Z"
+  "updated_at": "2026-08-17T04:27:44.324Z"
 }

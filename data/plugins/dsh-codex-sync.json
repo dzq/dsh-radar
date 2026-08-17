@@ -25,26 +25,19 @@
   "engines": {
     "node": ">=22.19.0"
   },
+  "readme": "# dsh-codex-sync\n\n**一站式双向同步插件：OpenAI Codex ⇄ DeepSeek Harness (dsh)**\n\n把 Codex 的技能、指令、配置、会话历史、MCP 服务器，全部同步进 DSH；再一键给 Codex 装上反向 MCP 桥——一个插件，双向闭环。\n\n```\n┌─────────────────────┐          方向 A: dsh 能力 → Codex           ┌─────────────────────┐\n│  DeepSeek Harness   │   ┌──────────────────────────────────────┐  │   OpenAI Codex      │\n│                     │   │  [mcp_servers.dsh-plugins]           │  │                     │\n│  技能: ~/.codex/skills ──→ 一等公民 dsh 技能 (skill 工具可加载全文)   │                     │\n│  指令: instructions.md ──→ 注入系统提示词(实时读文件)                │                     │\n│  会话: 历史会话导入(可续聊)   ←───────────────────────────────────  │                     │\n│  MCP: 自动镜像 codex 的 mcp_servers ──→ 同一批 MCP 服务器            │  dsh_plugin_* 15 个工具 │\n│                     │   ◄── codex-install 写入的",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T06:22:45.893Z",
   "created_at": "2026-08-16T06:22:45.659Z",
-  "gh": {
-    "full_name": "Walvez/dsh-codex-sync",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T06:20:25Z",
-    "archived": false,
-    "license": "NOASSERTION"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 60,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:04:59.374Z"
+  "updated_at": "2026-08-17T04:27:47.719Z"
 }

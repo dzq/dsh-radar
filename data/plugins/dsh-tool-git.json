@@ -23,19 +23,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-tool-git\n\n[![npm](https://img.shields.io/npm/v/dsh-tool-git?logo=npm)](https://www.npmjs.com/package/dsh-tool-git)\n[![CI](https://img.shields.io/github/actions/workflow/status/lxj808624/dsh-tool-git/ci.yml?branch=main&logo=githubactions&logoColor=white&label=CI)](https://github.com/lxj808624/dsh-tool-git/actions)\n[![License](https://img.shields.io/npm/l/dsh-tool-git)](LICENSE)\n[![awesome-deepseek-harness](https://img.shields.io/badge/awesome--deepseek--harness-listed-4D6BFE)](https://github.com/0xsline/awesome-deepseek-harness)\n[![GitHub stars](https://img.shields.io/github/stars/lxj808624/dsh-tool-git?style=social)](https://github.com/lxj808624/dsh-tool-git)\n\n为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（`dsh`）开发的结构化、安全 Git 工具插件。\n\n编码 agent 几乎每天都在用 git，但 dsh 默",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T16:11:29.289Z",
   "created_at": "2026-08-14T01:44:11.956Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:17.975Z"
+  "updated_at": "2026-08-17T04:27:46.944Z"
 }

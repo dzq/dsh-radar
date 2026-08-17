@@ -33,19 +33,19 @@
   "engines": {
     "node": "^22.19 || >=24"
   },
+  "readme": "# @dsh-suite/themes — 151 款 DSH 皮肤聚合 / 151-skin pack for DSH Web UI\n\n> 把 dsh-themes 的 151 个皮肤包**一包打尽**：一个 npm 包 + 一个「皮肤中心」试穿面板。\n\n## 安装 / Install\n\n```sh\ndsh plugin --profile web add @dsh-suite/themes\n```\n\n重启 `dsh web` 后，Settings → **皮肤中心 / Skin Center** 即可用。\n\n## 功能 / Features\n\n- **试穿**: 点卡片即写 `body[data-dsh-<id>]` 属性切肤（CSS 变量实时生效），再次点击其他卡片切换，✖ 清除皮肤。\n- **151 款皮肤**: 分组（绝区零 / 原神 / 经典配色 / 节日限定 …，游戏系按品牌分组）、搜索（中文名/英文名/分组/标签）。\n- **昼夜预览**: 昼/夜切换预览各皮肤的 light/dark 缩略图；实际昼夜跟随 DSH 主题（`data-ds-dark-theme`）。\n- **懒加载**: 缩略图经 IntersectionObserver 视口按需加载，151 卡不全量拉图。\n- **收藏**: 卡片 ♡/♥ 收藏按钮，localStorage 持久化（重开面板/重启 DSH 仍在），网格顶部「♡ 只看收藏」开关。\n- **最近试穿**: 最近试穿的 8 款皮肤在网格上方横向展示，点击可再次应用。\n- **随机一款**: 工具条「🎲 随机试穿」从当前筛选结果（无筛选则全部 151 款）随机应用一款。\n\n## 体积 / Volume\n\n| 内容 | 体积 |\n|---|---|\n| 原始预览图（151×2 PNG, 1280×800） | ~67 MB |\n",
   "weekly_downloads": 182,
-  "monthly_downloads": 182,
   "last_publish": "2026-08-15T02:50:22.476Z",
   "created_at": "2026-08-14T18:14:09.468Z",
   "gh": null,
   "scores": {
     "popularity": 57,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 65,
-    "grade": "B"
+    "overall": 53,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:38.675Z"
+  "updated_at": "2026-08-17T04:27:44.266Z"
 }

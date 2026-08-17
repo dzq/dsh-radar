@@ -1,5 +1,32 @@
 [
   {
+    "file": "2026-08-17-1227.json",
+    "prev": "2026-08-17-1156.json",
+    "total_delta": 1025,
+    "grades": {
+      "S": 0,
+      "A": -1,
+      "B": 25,
+      "C": 125,
+      "D": 876
+    },
+    "downloads_delta": 24146,
+    "compat_delta": 948,
+    "generated_at": "2026-08-17T04:27:58.345Z",
+    "top10_in": [
+      "dsh-store",
+      "dsh-workbench",
+      "dsh-update-copilot",
+      "dsh-smart-approval"
+    ],
+    "top10_out": [
+      "design-playbook",
+      "dsh-pocket",
+      "dsh-lark-bot",
+      "dsh-feishu-bot"
+    ]
+  },
+  {
     "file": "2026-08-17-1156.json",
     "prev": "2026-08-17-1148.json",
     "total_delta": 30,

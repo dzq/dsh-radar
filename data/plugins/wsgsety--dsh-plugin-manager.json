@@ -24,19 +24,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-plugin-manager\n\nDSH 网页插件管理：在 Web 设置页直接启用/停用已安装插件。npm 包名 `@wsgsety/dsh-plugin-manager`，运行时条目 id `dsh-plugin-manager`。\n\n- **设置 → 插件 → 插件管理**：搜索、按官方/第三方筛选，每个插件一行开关。切换**立即生效**（Cordis loader 热更新）并**写入用户 patch 层**（`~/.dsh/profiles/<profile>/cordis.patch.yml`），重启后保持。\n- 插件卡片带运行状态点（运行中/已停用/挂载失败…）、「官方」徽标（`@deepseek-ai/*`）与「受保护」标记。\n- 完全自研，不依赖 dshmarket。\n\n## 安装\n\n```bash\n# npm registry（推荐）\ndsh plugin --profile web add @wsgsety/dsh-plugin-manager\n# 或从 GitHub 安装（pin 到具体 commit，保证可复现）\ndsh plugin --profile web add github:WSGsety/dsh-plugin-manager#9cbbcdd59fdce3dd96879924b485ea3e8053d3c2\n# 重启 dsh web（命令行或 DeepSeek Harness 桌面应用）后生效\n```\n\n- 运行时 loader 条目 id 带组前缀（`include:ssh`），patch 层写入时自动去掉前缀（`ssh`），与 bundle 层 id 对齐。\n- 桌面应用（deepseek-harness-desktop）用 app 内置 dsh 启动 web profile、随机端口，profile 仍是 `~/.dsh/pr",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T13:11:22.082Z",
   "created_at": "2026-08-15T12:52:36.497Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 54,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:00.823Z"
+  "updated_at": "2026-08-17T04:27:44.332Z"
 }

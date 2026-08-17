@@ -21,19 +21,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-web-search-opencode\n\n为 DeepSeek Harness（`dsh`）的 `ctx.web` 搜索能力缝提供 **OpenCode 同款搜索** 的 provider 插件：让使用 opencode-go key 驱动 `deepseek-v4-flash` 等模型的会话，`web_search` 工具可以直接可用，不需要 DeepSeek 官方 API key。\n\n## 原理\n\nopencode 的 web 搜索**不经过 opencode-go 服务器**（`opencode.ai/zen/go/v1` 只有 chat/completions、messages、models、responses、usage 五个端点，没有搜索端点），而是客户端直连第三方 MCP 端点（见 sst/opencode 的 `tool/websearch.ts` + `tool/mcp-websearch.ts`）：\n\n| 后端 | 端点 | 工具名 |\n| --- | --- | --- |\n| Exa | `https://mcp.exa.ai/mcp` | `web_search_exa` |\n| Parallel | `https://search.parallel.ai/mcp` | `web_search` |\n\n请求为 JSON-RPC 2.0 `tools/call`，25 秒超时，响应是直接 JSON 或 SSE（`data: ` 前缀行）。本插件完全复刻这套行为，注册进 DSH 的 `ctx.web` 缝：\n\n```\n模型（如 opencode-go/deepseek-v4-flash）\n  → 调用 web_search 工具（DSH tool-web 插件注册）\n  → ctx.web.search()（DSH 搜索能力缝）\n  → 本",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:10:42.671Z",
   "created_at": "2026-08-15T15:10:42.341Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:24.949Z"
+  "updated_at": "2026-08-17T04:27:46.963Z"
 }

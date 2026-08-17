@@ -29,19 +29,19 @@
     }
   },
   "engines": {},
+  "readme": "# openharness-reply-in-cn\n\n一个 DeepSeek Harness（dsh）插件：往**系统提示词**注入「必须用简体中文回复」的高优先级指令，\n并在 dsh **设置页侧边栏**显示「中文回复」一项。\n\n- host 半：`ctx.systemPrompt.section({ name, order: 45, text })` 注入指令（真实逻辑）；\n- client 半：注册 `settings.section` 槽，显示侧边栏项（与 `openharness-rule-for-dsh-plugin` / `adhdgofly-dsh-ext` 完全同构）。\n\n---\n\n## 注入逻辑（host half，`src/host/index.ts`）\n\n```ts\nexport const inject = ['systemPrompt']              // 申报依赖，否则 boot 崩\nexport const name = 'openharness-reply-in-cn'\nexport function apply(ctx, config) {\n  if (config?.enabled === false) return             // 可通过 patch 关闭\n  const disposer = ctx.systemPrompt.section({\n    name: 'openharness:reply-in-cn',\n    order: 45,                                      // persona(0) 之后、工具引导(100+)之前\n    text: (context) => (context.agent === undefined ? '' : <中文回复",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T22:47:59.957Z",
   "created_at": "2026-08-14T22:47:59.742Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:17.358Z"
+  "updated_at": "2026-08-17T04:27:46.939Z"
 }

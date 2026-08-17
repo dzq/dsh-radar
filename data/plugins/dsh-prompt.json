@@ -13,9 +13,7 @@
     "templates",
     "prompt-templates",
     "preset-prompts",
-    "ai",
-    "llm",
-    "palette"
+    "ai"
   ],
   "license": "MIT",
   "repo": "",
@@ -36,19 +34,19 @@
     }
   },
   "engines": {},
+  "readme": "# ⚡ dsh-prompt\n\n**🌐 [中文](README.md) · [English](docs/README.en.md)**\n\n**DeepSeek Harness 的 Prompt 调色板：24 条深度模板、自定义管理、/prompt 触发源、智能推荐悬浮卡——点一下，插入当前对话。**\n\n[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![npm](https://img.shields.io/npm/v/dsh-prompt)](https://www.npmjs.com/package/dsh-prompt)\n[![dsh-plugin](https://img.shields.io/badge/dsh-plugin-orange.svg)](https://github.com/FeatherHunter/dsh-prompt)\n[![platform](https://img.shields.io/badge/platform-DeepSeek%20Harness-1f6feb.svg)](https://github.com/deepseek-ai/DeepSeek-Harness)\n\n![hero](assets/hero-zh.svg)\n\n## 痛点\n\n写对话时最烦的三件事：**想不起来用什么 Prompt**、**满屏找历史记录里那条好用的**、**复制粘贴改来改去**。\n\ndsh-prompt 解决它：**点一下，模板正文就进输入框**——不用记忆、不用搜索、不用复制粘贴。\n\n## 一条命令安装\n\n需要 **DSH CLI**（DeepSeek Harness 命令行工具）。还没有就先装：\n\n```bash\nnpm install",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-17T01:17:16.201Z",
   "created_at": "2026-08-17T01:17:15.983Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 52,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:22.155Z"
+  "updated_at": "2026-08-17T04:27:45.211Z"
 }

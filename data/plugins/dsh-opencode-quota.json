@@ -27,26 +27,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-opencode-quota\n\n一个 DeepSeek Harness (DSH) Web 插件：在界面**左下角**显示一个**额度监控窗口**，\n同时监控：\n\n- **OpenCode Go 套餐** —— 滚动 / 本周 / 本月三个窗口的 已用%、余量%、重置时间；\n- **DeepSeek API** —— 余额（`/user/balance` 官方接口）+ 累计用量（本地会话记录聚合）。\n\n## 截图\n\n| 收起态 · DeepSeek 模型 | 收起态 · OpenCode Go 模型 | 展开的监控窗口 |\n|---|---|---|\n| ![DeepSeek 模型卡片](docs/screenshots/card-ds.png) | ![OpenCode Go 模型卡片](docs/screenshots/card-go.png) | ![监控窗口](docs/screenshots/panel.png) |\n\n> 截图由真实组件 + 真实主题渲染生成（`docs/screenshots/`）。\n\n## 它做什么\n\n### 宿主端 (`lib/index.js`) — 两个同源 JSON 路由\n\n| 路由 | 数据来源 |\n|---|---|\n| `GET /opencode-quota` | 读取 opencode 的 `auth.json` 中 `opencode-go` 令牌（令牌只留磁盘），调用官方接口 `GET https://opencode.ai/zen/go/v1/usage` |\n| `GET /deepseek-quota` | 通过 DSH 凭据服务解析 `DEEPSEEK_API_KEY`，调用 `GET https://api.deepseek.com/user/balance`；同时聚合 `$DSH_HOME/sto",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T05:56:35.702Z",
   "created_at": "2026-08-14T04:57:39.230Z",
-  "gh": {
-    "full_name": "mouse33333/dsh-quota-monitor",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T06:09:23Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 60,
-    "grade": "B"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:43.446Z"
+  "updated_at": "2026-08-17T04:27:49.236Z"
 }

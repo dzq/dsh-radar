@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-notify-panel",
+  "name": "dsh-notify-panel",
+  "version": "0.1.0",
+  "description": "DSH web plugin: sidebar notification panel with per-scene sounds (plan / done / ask / fail) for every finished turn, custom sound uploads, and system notifications while the tab is hidden.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "notify",
+    "notification",
+    "sound",
+    "sidebar"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zal572199088-creator/dsh-notify.git",
+  "homepage": "https://github.com/zal572199088-creator/dsh-notify#readme",
+  "npm": "https://www.npmjs.com/package/dsh-notify-panel",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-settings-general",
+        "@deepseek-ai/dsh-api-remotes"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "readme": "# dsh-notify\n\n[English](README.md) | 中文\n\nDeepSeek Harness（`dsh --profile web`）的通知插件：侧边栏底部入口（样式与系统「设置」按钮一致）＋浮层面板——**每次对话结束都有提示音**、每个场景独立选音效、支持上传自定义音效、离开标签页时弹系统通知，不用一直盯着页面。\n\n## 五大场景\n\n| 场景 | 触发条件 | 音效 |\n|---|---|---|\n| 🗂️ 计划出方案 | 回合期间计划模式曾激活（含\"出方案→请求批准→批准退出\"整轮） | plan |\n| ✅ 任务完成 | **其余一切回合结束**——普通问答、纯查询、执行任务统一完成音 | done |\n| 🙋 需要你回应 | agent 提问（`ask_user_question`）/ 计划批准请求（`exit_plan_mode`）/ 审批请求 | ask |\n| ⚠️ 出错 | 回合/步骤报错 | fail |\n\n## 功能\n\n- **侧边栏入口**：底部 🔔 铃铛按钮，与系统「设置」按钮逐值一致（34px 行高、12px 圆角、窄栏 36px 圆形、同一 hover 主题变量）；点击展开浮层面板\n- **每场景独立选音效**：内置音效库——默认 / 铃音 / 柔和 / 响亮（Web Audio 合成，无需资源文件）；下拉选中即播放预览\n- **自定义音效**：每个场景可上传自己的 wav（`audio/*`，≤ 2MB）；上传后下拉出现「自定义」选项，可随时移除\n- **系统通知**：页面隐藏时，非静音场景同时弹浏览器 `Notification`（点击可聚焦回页面）\n- **每次对话结束都响**：计划回合响 plan 音，其余回合结束统一响 done 音（出错回合响 fail，不叠加）\n- **设置持久化**：写入 `setti",
+  "weekly_downloads": 0,
+  "last_publish": "2026-08-16T12:34:48.065Z",
+  "created_at": "2026-08-16T12:34:47.880Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:27:51.055Z"
+}

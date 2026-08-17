@@ -27,26 +27,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-openai-accounts\n\n> ⚠️ **个人自用项目**:本插件按作者个人使用场景开发与维护,非官方项目,不承诺\n> 持续维护、接口稳定或向后兼容。使用前请自行阅读源码,风险自负。\n\n[![npm version](https://img.shields.io/npm/v/dsh-openai-accounts)](https://www.npmjs.com/package/dsh-openai-accounts)\n[![npm downloads](https://img.shields.io/npm/dw/dsh-openai-accounts)](https://www.npmjs.com/package/dsh-openai-accounts)\n[![license](https://img.shields.io/npm/l/dsh-openai-accounts)](LICENSE)\n\nDSH(DeepSeek Harness)的 ChatGPT **订阅账号**(Plus / Pro 等,含 Codex)多账号管理插件。\n\n- **npm**: https://www.npmjs.com/package/dsh-openai-accounts\n- **源码**: https://github.com/mccray-s/dsh-plugins/tree/main/packages/dsh-openai-accounts\n\n![整体演示](https://cdn.jsdelivr.net/npm/dsh-openai-accounts/assets/example.gif)\n\n| 对话额度胶囊与快捷切换 | 设置页账号管理 |\n| --- | --- |\n| ![对话截图](https://cdn.jsdelivr.net/npm/dsh-ope",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T04:12:43.827Z",
   "created_at": "2026-08-16T04:04:55.494Z",
-  "gh": {
-    "full_name": "mccray-s/dsh-plugins",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T04:11:09Z",
-    "archived": false,
-    "license": null
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 61,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:13.237Z"
+  "updated_at": "2026-08-17T04:27:46.474Z"
 }

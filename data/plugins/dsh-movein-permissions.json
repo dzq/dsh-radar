@@ -24,19 +24,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-movein-permissions\n\nFine grained, per tool permission rules for [DeepSeek Harness (DSH)](https://github.com/deepseek-ai/deepseek-harness).\n\nDSH ships three coarse permission presets (read-only, workspace-write, danger-full-access) and its README names the missing piece itself, there is no per tool allowlist. This plugin adds one at the `tools/pre-execute` gate, using Claude Code's battle tested rule syntax. You do not need to be migrating from Claude Code to use it.\n\n为 DSH 补上按工具粒度的权限规则。DSH 自带的三档权限预设没有细粒度控制，这个插件在 `tools/pre-execute` 强制执行 deny/ask 规则，规则语法与 Claude Code 相同。不迁移也能单独用。\n\n## Install\n\n```sh\ndsh plugin --profile web add dsh-movein-permissions\n```\n\nThen add a row to `~/.dsh/cordis.patch.yml` (or your profile's patch):\n\n```yaml\n- insert:\n    - id: cc-permissions\n      name: 'dsh-",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T06:07:19.350Z",
   "created_at": "2026-08-15T03:34:12.573Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 55,
     "dsh_compat": 75,
-    "overall": 50,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:13.129Z"
+  "updated_at": "2026-08-17T04:27:44.619Z"
 }

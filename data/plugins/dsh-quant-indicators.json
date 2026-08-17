@@ -24,19 +24,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-quant-indicators\n\n[![npm](https://img.shields.io/npm/v/dsh-quant-indicators)](https://www.npmjs.com/package/dsh-quant-indicators)\n[![license](https://img.shields.io/npm/l/dsh-quant-indicators)](LICENSE)\n[![ci](https://github.com/pengpengyi92/dsh-quant-indicators/actions/workflows/ci.yml/badge.svg)](https://github.com/pengpengyi92/dsh-quant-indicators/actions)\n[![dsh-plugin](https://img.shields.io/badge/dsh-plugin-blue)](https://github.com/topics/dsh-plugin)\n\n给 dsh 模型的一组量化工具：行情数据获取（Binance 公共 API）+ 技术指标计算（SMA / EMA / RSI / MACD / 布林带 / ATR / KDJ / W%R / CCI / OBV / ADX / ROC）+ 三大策略回测（双均线交叉 / 布林带突破 / RSI 均值回归）+ 资金管理（止损/止盈）。\n\n定位：量化场景的 agent 需要\"取数据 → 算指标 → 回测\"的完整链路。官方工具集（bash/fs/web/terminal/subagent…）目前没有技术指标——本插件填补这个空白。指标与回测为纯函数实现，零外部依赖，可离线验证；行情获取走免费公共 API，无需凭据。\n\n## 工具\n\n| 工具 | 参数 | can",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T09:34:33.707Z",
   "created_at": "2026-08-16T08:17:39.278Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:53.232Z"
+  "updated_at": "2026-08-17T04:27:44.320Z"
 }

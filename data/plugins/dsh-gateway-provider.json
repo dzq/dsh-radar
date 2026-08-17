@@ -13,11 +13,7 @@
     "newapi",
     "new-api",
     "openai",
-    "anthropic",
-    "gemini",
-    "models.dev",
-    "dsh-plugin",
-    "pi-ai"
+    "anthropic"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/Luck9Star/dsh-gateway-provider.git",
@@ -37,26 +33,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-gateway-provider\n\n[![gitleaks](https://github.com/Luck9Star/dsh-gateway-provider/actions/workflows/gitleaks.yml/badge.svg)](https://github.com/Luck9Star/dsh-gateway-provider/actions/workflows/gitleaks.yml)\n\n> 中文文档：[docs/README.zh.md](docs/README.zh.md)\n\nBring any LLM gateway — **newapi, LiteLLM, Higress, or any OpenAI-compatible\nendpoint** — into DeepSeek Harness. The plugin discovers the gateway's model\nlist automatically, enriches every model with real parameters from\n[models.dev](https://models.dev), and serves each model over its native wire\nprotocol (OpenAI / Anthropic / Gemini) through the pi-ai SDK.\n\n## Why this exists\n\nDeepSeek Harness ships first-party adapters (`llm-deepseek`, `llm-pi-ai`) that\neach speak for one provider. If your models live behind a gateway, the\nalternati",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T03:20:01.549Z",
   "created_at": "2026-08-15T03:11:29.344Z",
-  "gh": {
-    "full_name": "Luck9Star/dsh-gateway-provider",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T03:21:02Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 63,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:54.256Z"
+  "updated_at": "2026-08-17T04:27:44.322Z"
 }

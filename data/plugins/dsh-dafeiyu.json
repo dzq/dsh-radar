@@ -28,19 +28,19 @@
   "engines": {
     "node": ">=22.19"
   },
+  "readme": "<div align=\"center\">\n\n# DSH 大肥鱼 🐋\n\n**住在 Windows 桌面上、由 DeepSeek Harness 真实工作状态驱动的 Agent 伴侣。**\n\n入口属于 DSH，生命周期属于 DSH，显示层属于桌面。\n\n[English](README_EN.md) · [npm](https://www.npmjs.com/package/dsh-dafeiyu) · [下载最新版本](https://github.com/QCYTSN/dsh-dafeiyu/releases/latest) · [更新与回退](docs/UPDATING.md) · [验收记录](docs/ACCEPTANCE.md)\n\n</div>\n\n![DSH 大肥鱼在真实任务中显示项目状态](docs/images/dsh-bigfish-running.png)\n\nDSH 大肥鱼不是一个需要单独启动的桌宠应用。它由 DSH 插件启用，跟随 DSH\n一起启动和退出，并以透明、无边框、始终置顶的原生窗口显示在桌面上。即使切换到\nVS Code、浏览器或文件管理器，也能知道 DSH 当前在思考、修改、测试、等待还是已经完成。\n\n> 当前版本：`0.1.0-alpha.6` · Windows MVP Alpha\n\n## 它有什么用？\n\n- **离开 DSH 页面也能看到状态**：大肥鱼始终显示在 Windows 桌面最上层。\n- **反馈来自真实 Agent 事件**：不会读取屏幕，也不会把你在其他软件里的操作误判为 DSH 工作。\n- **展示足够但不过量的信息**：项目名、当前阶段、正在进行的步骤和真实待办进度会显示在状态卡上。\n- **有生命力但不打扰**：思考、查找、修改、执行、验证、等待、完成和错误都有对应动作与自然文案。\n- **没有第二套应用入口**：无需",
   "weekly_downloads": 137,
-  "monthly_downloads": 137,
   "last_publish": "2026-08-14T11:27:09.683Z",
   "created_at": "2026-08-14T11:27:08.569Z",
   "gh": null,
   "scores": {
     "popularity": 53,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 67,
-    "grade": "B"
+    "overall": 52,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:41.747Z"
+  "updated_at": "2026-08-17T04:27:44.272Z"
 }

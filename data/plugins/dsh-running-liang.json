@@ -34,19 +34,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# 梁大快跑 · dsh-running-liang\n\n[English](README.md) | 中文\n\n> 穷玩车，富玩表，顶富就玩梁大快跑。\n\n> 本项目由 DeepSeek Harness + DeepSeek-V4-Flash 100% vibe coding 开发，仅供娱乐。\n\n![梁大快跑游戏界面](assets/screenshot.png)\n\n为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web 打造的等待小游戏：agent 回复期间，输入框上方出现一条与\"目标\"栏同排的进度条，带播放键。点击展开游戏，`Space`/`↑` 跳跃、`↓` 下蹲，得分从「梁子」冲向「梁圣」，进度条在游戏收回后依然保留。\n\n> 灵感来源：Chrome 的恐龙快跑——Chrome 浏览器内置的离线小游戏（T-Rex Runner，Chromium 项目）。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-running-liang\n```\n\n或仅 GitHub：\n\n```sh\ndsh plugin --profile web add skiuniverse/dsh-running-liang\n```\n\n重启 `dsh web`，发一条消息，点击进度条上的播放键即可开玩。\n\n## 玩法\n\n- **等待窗口**：会话运行期间进度条常驻；回合结束游戏短暂显示\"已暂停\"后自动收回，只留进度条。\n- **折叠即暂停**：点播放键/× 收起面板并暂停；再展开仍处于暂停，按任意键或点击画面恢复。收起不会重置速度与得分。\n- **失焦暂停**：点击输入框、或点击游戏面板以外任意处都会暂停；焦点在输入框时按键照常打字。\n- **速度档**：每回合从 0 档",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:04:13.924Z",
   "created_at": "2026-08-15T13:02:39.262Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:28.217Z"
+  "updated_at": "2026-08-17T04:27:46.972Z"
 }

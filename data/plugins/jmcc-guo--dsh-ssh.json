@@ -13,8 +13,7 @@
     "xshell",
     "remote",
     "agent",
-    "cordis",
-    "plugin"
+    "cordis"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/jmcc-guo/dsh-ssh.git",
@@ -36,26 +35,19 @@
   "engines": {
     "node": ">=18.0.0"
   },
+  "readme": "# @jmcc-guo/dsh-ssh\n\n[English](README.md) · [简体中文](README.zh.md)\n\n![License: MIT](https://img.shields.io/github/license/jmcc-guo/dsh-ssh.svg)\n![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen.svg)\n![Type](https://img.shields.io/badge/type-ESM-blueviolet.svg)\n\n> DeepSeek Harness 的 SSH 终端插件：AI 自主管理连接 + XShell 风格多标签实时终端面板。\n\nDeepSeek Harness（DSH）的 SSH 终端插件：AI 代理可在对话中自主管理远程连接，Web GUI 右侧提供 XShell / Uniterm 风格的多标签终端面板，模型与人工执行的命令同屏实时显示。\n\n## 功能\n\n- **模型自主管理连接**：`ssh_connect` / `ssh_exec` / `ssh_list` / `ssh_status` / `ssh_disconnect` / `ssh_exec_read` / `ssh_exec_kill` / `ssh_delete`。同一服务端可建立多个独立连接（各自拥有连接名、会话状态与命令队列）。\n- **自动保存与复用**：连接按名称持久化（AI 与用户连接全局唯一）。重启 DSH 后，`ssh_exec` 直接按已保存名称自动建连执行，无需重新传参。\n- **来源模型 `ai` / `user`**：AI 建的连接为 `ai`，设置页建的连接为 `user`。AI 完全不可访问 `user` 连接（`ssh_list` 不列出、其",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:12:19.281Z",
   "created_at": "2026-08-15T13:48:22.976Z",
-  "gh": {
-    "full_name": "jmcc-guo/dsh-ssh",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T16:11:42Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 64,
-    "grade": "B"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:12.532Z"
+  "updated_at": "2026-08-17T04:27:47.745Z"
 }

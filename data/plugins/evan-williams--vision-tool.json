@@ -25,19 +25,19 @@
   "engines": {
     "node": ">=22.19.0"
   },
+  "readme": "# vision-tool：DSH 视觉对话评审插件\n\n为纯文本主模型提供**对话式界面视觉评审**的 DeepSeek Harness (dsh) 插件：围绕具体任务（如美化 HTML）对页面截图进行针对性评审与追问，返回自由文本的专业意见，供主模型据此修改代码。视觉后端为任意 OpenAI 兼容多模态端点（如 agnes-2.5-flash），零运行时依赖（仅 Node 内置能力）。\n\n## 工具\n\n| 工具 | 作用 | 参数 |\n|---|---|---|\n| `vision_review` | 首次评审：按六项默认维度全面评估（风格一致性、配色、间距对齐、视觉层级、可读性、组件一致性），模型有权自主增加评审维度 | `path`（必填）、`focus`（可选）、`dimensions`（可选） |\n| `vision_ask` | 对话式追问：结合前一轮结论深入询问具体问题 | `path`（必填）、`question`（必填）、`context`（可选） |\n\n多轮对话为无状态设计：历史由主模型在会话中自然累积，通过 `vision_ask` 的 `context` 参数传递。\n\n## 设计原则\n\n所有读取操作均在**当前会话内**完成：插件只注册读取工具，不创建新对话、不管理会话分组、不依赖 workspace 服务。\n\n## 官方安装指令（npm 插件市场）\n\n```bash\nnpx -y @deepseek-ai/dsh plugin --profile web add @evan-williams/vision-tool\n```\n\n安装后重启 dsh 进程生效：\n\n```bash\nnpx -y @deepseek-ai/dsh web\n```\n\n## 视觉后端配置\n\n插件按以下优先级解析 OpenAI 兼容后端（任一即可）：\n\n1. `~/.modlen",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T16:36:30.541Z",
   "created_at": "2026-08-14T16:36:30.106Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:18.386Z"
+  "updated_at": "2026-08-17T04:27:46.944Z"
 }

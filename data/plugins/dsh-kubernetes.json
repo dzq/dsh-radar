@@ -26,26 +26,19 @@
   "engines": {
     "node": ">=18.18"
   },
+  "readme": "# dsh-kubernetes\n\n> `dsh-kubernetes` 为 DeepSeek Harness 提供安全的 Kubernetes 能力：检查工作负载、获取有界日志与事件、诊断常见故障，并在审批后执行受控变更。\n\n[DeepSeek Harness (DSH)](https://github.com/deepseek-ai/deepseek-harness) 社区插件。它**不是** `kubectl` 包装器 —— 而是把 Kubernetes 变成结构化、对 Agent 友好的运行时能力，并内置 Read-first 安全模型。\n\n```text\nDSH Agent\n   ↓\n通用 Kubernetes Tools（10 个）\n   ↓\nctx.kubernetes 能力服务\n   ↓\nKubernetesService（策略 · 诊断 · 边界控制）\n   ↓\nKubernetesClientProvider（@kubernetes/client-node）\n   ↓\nKubernetes API\n```\n\n## 核心特性\n\n- **默认只读** —— 开箱即 `readOnly: true`。真实写操作需要显式开启**并且**通过 DSH 审批门。\n- **10 个结构化工具** —— 每个工具都返回带 schema 的 JSON 和紧凑文本渲染；不解析脆弱的 CLI 输出。\n- **`k8s_diagnose` 证据引擎** —— 沿 Deployment/StatefulSet → Pod → 容器 → 事件 → 有界日志逐层收集并归类常见故障（CrashLoopBackOff、ImagePullBackOff、OOMKilled、探针失败等）。插件内部**不调用第二个 LLM**：插件负责收集证据，DSH Agent 负责推理。\n- **有界、脱",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T02:07:10.117Z",
   "created_at": "2026-08-16T02:07:09.834Z",
-  "gh": {
-    "full_name": "xxiaoxiong/dsh-kubernetes",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T01:18:42Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 62,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:17.026Z"
+  "updated_at": "2026-08-17T04:27:44.626Z"
 }

@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-oomol",
+  "name": "dsh-oomol",
+  "version": "0.1.2",
+  "description": "OOMOL Connector integration for DeepSeek Harness: connect apps and call Actions through progressive MCP discovery.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "mcp",
+    "oomol",
+    "connector",
+    "agent-tools"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/oomol-lab/dsh-oomol.git",
+  "homepage": "https://github.com/oomol-lab/dsh-oomol#readme",
+  "npm": "https://www.npmjs.com/package/dsh-oomol",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings-plugins"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "readme": "# OOMOL Connector for DeepSeek Harness\n\nUse apps and services connected through OOMOL directly from DeepSeek Harness.\n\n`dsh-oomol` gives DeepSeek Harness progressive access to OOMOL Connector: discover the connectors available to an account, inspect an Action only when it is needed, and execute it without copying Provider credentials into Harness.\n\n[npm package](https://www.npmjs.com/package/dsh-oomol) · [中文文档](./docs/README.zh-CN.md)\n\n> [!IMPORTANT]\n> This project is a developer preview tested with DeepSeek Harness `0.1.0-rc.6`. DeepSeek Harness is evolving quickly, so test compatibility before upgrading either package.\n\n## What you can do\n\nWith this plugin, DeepSeek Harness can:\n\n- discover apps connected to your personal or team OOMOL identity;\n- search the Actions exposed by a Connecto",
+  "weekly_downloads": 0,
+  "last_publish": "2026-08-16T14:30:44.930Z",
+  "created_at": "2026-08-16T14:17:47.797Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:27:51.863Z"
+}

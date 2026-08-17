@@ -23,6 +23,7 @@
   "engines": {
     "node": ">=22.19.0"
   },
+  "readme": "# pi2dsh\n\n[English](README.md) | **中文**\n\n**让 Pi 生态的插件原样跑在 DeepSeek Harness 上。**\n\n```sh\ndsh plugin add pi2dsh          # 装一次\ndsh plugin add <任意 Pi 插件>   # 之后想装谁装谁，直接用 npm 原包\n```\n\n## 为什么有这个项目\n\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）的\n理念值得押注——可重建的持久会话日志、干净的服务组合、一条真能讲清楚的 agent\n循环。它现在缺的是插件生态：还处在早期，而大家开箱就想要的那些能力——联网搜索、\n记忆、代码导航、子代理、看图——大多还没人为它写。\n\n[Pi](https://pi.dev/) 的生态已经成熟：几百个已发布的包，很多都有真实用户。\n\npi2dsh 是一层兼容层，把 Pi 的公开扩展 ABI 实现在 DSH 的原生服务之上，让 Pi 包\n**以发布的原样**跑在 DSH 上——不 fork、不打补丁、不为每个包写适配器。你像装任何\nDSH 插件一样装一个 Pi 插件，它就能用。\n\n这是桥，不是终点。你在这里用到的每一项能力，DSH 自己的生态早晚都会有原生实现；\n哪天某个能力出现了更原生、更好的插件，你就应该换过去——那正说明这座桥起到了作用。\n\n## 安装\n\n一次引擎，之后想装谁装谁：\n\n```sh\ndsh plugin --profile <你的 profile> add pi2dsh\ndsh plugin --profile <你的 profile> add @kassing/pi-vision\n```\n\n然后**重启 `dsh`**——插件在启动时挂载。\n\n就这一",
   "weekly_downloads": 1482,
   "last_publish": "2026-08-15T17:36:53.874Z",
   "created_at": "2026-08-14T02:54:40.604Z",
@@ -30,11 +31,11 @@
   "scores": {
     "popularity": 79,
     "maintenance": 0,
-    "quality": 90,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 60,
+    "overall": 57,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T03:56:16.737Z"
+  "updated_at": "2026-08-17T04:27:44.211Z"
 }

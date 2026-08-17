@@ -24,26 +24,19 @@
   "engines": {
     "node": ">=22.19.0"
   },
+  "readme": "# dsh-web-search-public — credential-free web search for DeepSeek Harness\n\nA zero-API-key web search provider for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).\nThe model-facing `web_search` tool runs a **sequential chain — Startpage first, then\nDuckDuckGo → Ecosia → Google → Mojeek** — and returns the first engine that yields organic\nresults. No API keys, no accounts, no fetch provider, no setup.\n\n| Identity | Value |\n| --- | --- |\n| Package | `@hy-sde-org/dsh-web-search-public` |\n| Plugin id | `web-search-public` |\n| Provider id | `public` |\n| Engines (in order) | `startpage`, `duckduckgo`, `ecosia`, `google`, `mojeek` |\n> **Based on [oh-my-pi](https://github.com/can1357/oh-my-pi)** — the credential-free engine\n> chain and per-engine scrapers are ported from oh-my-p",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-17T00:33:52.241Z",
   "created_at": "2026-08-17T00:33:51.960Z",
-  "gh": {
-    "full_name": "hy-sde/dsh-web-search-public",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-17T00:42:46Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 64,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:07.192Z"
+  "updated_at": "2026-08-17T04:27:44.343Z"
 }

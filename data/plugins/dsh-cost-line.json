@@ -36,26 +36,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# dsh-cost-line · DSH 费用统计行\n\n在 DeepSeek Harness Web 界面的 **官方 Token 用量统计行下方**，新增一行**按模型分别标注**的**真实费用**统计——格式与官方统计行完全一致（管道分隔、自动截断、悬停显示全量明细）。\n\n> 仓库：<https://github.com/LuYquan/dsh-cost> · 开源协议：MIT\n\n![dsh-cost-line 效果截图](docs/screenshot.png)\n\n> 价格来源保证真实：内置价格表全部逐条核对自**官方定价页**（每条注明来源 URL 与核对日期 `checkedAt`），**绝不虚构**；未收录的模型一律显示\"价格未知\"，绝不估算。\n\n## 特性\n\n- **按模型追溯**：从会话日志逐条归因每次模型调用（`request/header` → `assistant/message`），会话中切换模型自动拆分，分别标注每个模型的使用量与费用；\n- **格式与官方一致**：12px 次级文本、管道分隔统计组、超长省略号截断、延迟悬停 Tooltip 展示全量（含每个模型的输入/输出/缓存 token 明细）；\n- **价格真实**：内置价格表带 `source` + `checkedAt`（见 [价格来源](#价格来源)）；价格未知的模型显示 `?`，可用 `priceOverrides` 配置真实价格；\n- **按时间自动计价**：DeepSeek 官方 2026-08-16 起切换峰谷计费，插件按每次调用的**实际发生时间**自动选择平峰价/峰谷价（峰时 01:00–04:00、06:00–10:00 UTC），无需手动切换；\n- **双数据路径**：宿主侧以官方投影机制（`sessionProjections`）计算，可跨分页/压缩存活；投影注册表",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T12:45:11.536Z",
   "created_at": "2026-08-15T12:45:11.244Z",
-  "gh": {
-    "full_name": "LuYquan/dsh-cost",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T12:45:48Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 63,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:47.199Z"
+  "updated_at": "2026-08-17T04:27:54.834Z"
 }

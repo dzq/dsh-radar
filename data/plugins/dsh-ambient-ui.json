@@ -37,19 +37,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-ambient-ui\n\nAmbient UI for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH) Web:\n\n- **API 余额悬浮窗** — a glassmorphism chip in the composer tool row (level with the input box) showing the DeepSeek account balance and the current session's token pressure. Opacity and blur are adjustable from the Harness Settings panel.\n- **Agent 轨迹像素动画** — a 30×8 dot-matrix strip above the input box that maps agent steps to flowing pixels: `think → #00ff88`, `tool → #ff8800`, `output → #4488ff`.\n\nBoth features are pure-CSS (CSS Modules), follow the Harness light/dark theme (via `--dsw-alias-*` tokens), and have zero runtime dependencies beyond the official Harness packages + React.\n\n> 插件 ID：`dsh-ambient-ui`，版本 `1.0.0`\n\n## 安装\n\n### 从本地目录（开发）\n\n```sh\n# 构建\npnpm install\npnpm run build\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T09:04:06.617Z",
   "created_at": "2026-08-16T09:04:06.424Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:13.853Z"
+  "updated_at": "2026-08-17T04:27:46.476Z"
 }

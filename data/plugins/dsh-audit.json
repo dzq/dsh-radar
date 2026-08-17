@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-audit",
+  "name": "dsh-audit",
+  "version": "0.2.0",
+  "description": "Ecosystem-wide plugin health audit for DeepSeek Harness: syncs the GitHub dsh-plugin topic into a local catalog, probes npm, static-scans plugin files for security (v0.2), and scores every plugin (maintenance / docs / npm / ecosystem + security veto) with",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "plugin",
+    "audit",
+    "health",
+    "quality",
+    "marketplace",
+    "vetting"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/863683348/dsh-plugin-audit.git",
+  "homepage": "https://github.com/863683348/dsh-plugin-audit#readme",
+  "npm": "https://www.npmjs.com/package/dsh-audit",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "last_publish": "2026-08-17T02:21:23.731Z",
+  "created_at": "2026-08-17T02:21:22.804Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 55,
+    "security": 65,
+    "dsh_compat": 80,
+    "overall": 37,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:27:57.435Z"
+}

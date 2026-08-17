@@ -21,19 +21,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-plugin-meta-memory\n\nStructured long-term memory system for DeepSeek Harness.\n\n## What it does\n\nTeaches the agent how to organize memories using a structured system:\n- **Units**: Work categories named `verb-modifier-noun.unit`\n- **Records**: Each memory has a brief (quick scan) and full (detailed) version\n- **Index**: Self-maintained global storyline\n- **Auto-injection**: Relevant briefs are injected into context automatically\n\n## Install\n\n```sh\ndsh plugin --profile your-profile add dsh-plugin-meta-memory\n```\n\n## How it works\n\n### Memory structure\n\n```\n.meta-memory/\n├── index.md\n└── units/\n    ├── debug-auth-module.unit/\n    │   ├── 0.token-refresh-fail.brief.md\n    │   └── 0.token-refresh-fail.full.md\n    └── read-deeplearning-paper.unit/\n        ├── 0.transformer-attention.brief.md\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T09:30:09.751Z",
   "created_at": "2026-08-13T15:31:51.937Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:19.207Z"
+  "updated_at": "2026-08-17T04:27:46.948Z"
 }

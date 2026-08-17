@@ -28,19 +28,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-file-drop — 拖放文件到 DSH 输入框\n\n把文件/文件夹拖到 DSH 窗口任意位置，**真实磁盘路径瞬间写入对话输入框**——零内容传输，与文件大小无关。\n\n## 特性\n\n- **像正常窗口一样拖拽文件**：解决 WebUI 无法直接读取文件地址的痛点——拖放体验与桌面应用一致\n- **本地透明拦截窗**：浏览器检测到文件拖拽后，一个跟随鼠标的 200×200 透明窗（opacity 2%、纯黑背景、无感）接管 OLE 拖放，从 Windows 拖放系统直接读取**真实完整路径**（`CF_HDROP`）\n- 文件夹直接给文件夹路径；多文件逐行粘贴；已有草稿自动追加\n- 纯图片拖拽保留应用原生的\"拖图片到此添加\"\n- 全链路自愈：点击关闭、8 秒无活动自动隐藏、追加式命令防竞态、DLL 缓存冷启 ~1s、看门狗 20s 自动重启、PowerShell 异常全捕获\n- 失败自动回退内容上传（文本 fs 直写 / 二进制 Node 批量写盘到 `.dsh-file-drop/`）\n\n## 安装\n\n> `dsh plugin` 是官方插件管理命令（内部转发 pnpm，自动将声明 `dsh.bundle` 的依赖并入 profile bundles），需先安装 pnpm：`npm install -g pnpm`\n\n### 方式一：npm 发布后\n\n```bash\ndsh plugin --profile <name> add dsh-file-drop\n```\n\n### 方式二：本地目录 / GitHub Release tgz（无需 npm 发布）\n\n```bash\ndsh plugin --profile <name> add D:\\path\\to\\dsh-file-drop      # 本地目录\ndsh plugin --profile <name",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T06:15:18.109Z",
   "created_at": "2026-08-16T06:15:17.872Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 48,
-    "grade": "C"
+    "overall": 37,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:06.989Z"
+  "updated_at": "2026-08-17T04:27:44.343Z"
 }

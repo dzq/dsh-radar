@@ -31,19 +31,19 @@
     }
   },
   "engines": {},
+  "readme": "# @suhan-dsh/taskboard\n\nDeepSeek Harness Web 客户端插件：**项目级需求追溯看板**，左侧「新会话」下方的「看板」按钮切换右侧主工作台，任务可与聊天页 agent 会话联动执行。\n\n## 形态\n\n- **浏览器半**（`src/client/`）\n  - `shell.overlay` 条目：侧栏看板入口 + 右侧全尺寸工作台（项目切换 / 自定义环节列 / 拖拽流转 / 工作项详情与需求追溯时间线 / 执行 / 历史任务 / 看板设置）\n  - `conversation.input.left` 条目：聊天页 composer「＋待办」按钮，对话中直接创建待办任务到项目看板\n  - 会话联动：工作项详情「执行」下发任务到 agent 会话；点击「打开会话」或左侧任一会话时，关闭看板并切回聊天页\n- **Node 半**（`src/index.ts`）\n  - `/taskboard` REST：项目看板 CRUD、工作项 CRUD、自定义环节/类型设置、执行\n  - **并行执行**：首次执行创建独立 Git worktree、任务分支和完整 Agent + Session（使用 Web profile 当前模型与默认 Agent preset，`cwd`=任务 worktree）；不同任务不共享文件目录\n  - **自动提交与集成**：人工确认交付后由插件生成单任务提交；同一仓库的最终集成在短时互斥锁内先 rebase 最新目标分支，再以 `ff-only` 更新主工作区\n  - **冲突编排**：无法自动集成时保留源提交和分支、归档原任务，并自动创建关联的「处理集成冲突」任务\n  - **agent 工具 `taskboard_progress`**：汇报环节完成、阻塞和待交付；看板每 3 秒刷新执行状态\n  - 数据落盘 ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:43:06.205Z",
   "created_at": "2026-08-15T12:17:52.801Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 54,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:03.811Z"
+  "updated_at": "2026-08-17T04:27:46.453Z"
 }

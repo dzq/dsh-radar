@@ -33,19 +33,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# dsh-agent-plugins\n\n[English](README.md) | 中文\n\n[DeepSeek Harness (DSH)](https://github.com/deepseek-ai/deepseek-harness) 的 [Agent Plugins 1.0.0](https://github.com/agentplugins/agent-plugins-spec) 适配插件。一个包覆盖 host bundle、Web 侧栏面板和 `agent-plugins` CLI。\n\n已按 `@deepseek-ai/dsh@0.1.0-rc.6` 验证。\n\n## 安装\n\n需要 Node.js 22 或更高版本，并确保 `pnpm` 在 `PATH` 中：\n\n```bash\ndsh plugin --profile web add dsh-agent-plugins@0.1.0\n```\n\n卸载命令：`dsh plugin --profile web remove dsh-agent-plugins`。\n\n## 做什么\n\n让 DSH 直接消费标准 Agent Plugin 包（`plugin.json` + `skills/` + `mcp.json`）：\n\n- `skills/<name>/SKILL.md` 注册进 DSH 的 Skill registry（provider 名为 `agent-plugins`）。\n- `mcp.json` 里的 server 映射进托管的 home patch，由 DSH 按 MCP 行拉起。\n- CLI 负责在机器级 store 里安装、更新、启停和卸载。\n- Web 侧栏的「插件」按钮打开覆盖会话列的面板：插件卡片、Skill/MCP 开关、筛选，以及 CLI 速查。\n\n![Agent Plugins 面板](scr",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:02:08.305Z",
   "created_at": "2026-08-15T14:02:07.940Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:03:43.957Z"
+  "updated_at": "2026-08-17T04:27:47.710Z"
 }

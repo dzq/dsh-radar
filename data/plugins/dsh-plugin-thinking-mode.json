@@ -21,26 +21,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-plugin-thinking-mode\n\nDeepSeek Harness 插件：为 **Qwen3 系列模型**（Qwen3.8-27B 等，经 OpenAI 兼容端点提供，如 SGLang / vLLM / Qwen Cloud 兼容网关）**切换思考（thinking）模式**。\n\n参考：\n\n- 模型卡片 <https://huggingface.co/Qwen/Qwen3.8-27B> —— Qwen3.8 默认**开启**思考，可通过 Chat Completions API 的 `chat_template_kwargs: { enable_thinking: true|false }` 按请求开关。\n- DSH 插件教程 <https://deepseek-harness.github.io/deepseek-harness/develop/basic/>\n\n## 功能\n\n| 组件 | 说明 |\n| --- | --- |\n| `thinking_mode` 工具 | 模型或用户可调用：`get` / `on` / `off` / `auto` / `toggle`。输出当前模式、说明、是否变更、两套采样预设，以及默认模型路由上拦截是否生效（`interceptActive`）。 |\n| `thinking-mode` 设置节 | 持久化在 `~/.dsh/settings.yaml`，`applies: live` 即时生效，并在 Web 设置页中显示（设置页里也能直接切换，是第二个切换入口）。 |\n| 系统提示段 | 每轮重新渲染，向模型报告当前模式及可用操作（模型知道如何响应\"关闭思考/打开思考\"这类指令）。 |\n| `llm/stream` 拦截器 | 全局 waterfall 监听器。当模式为 `on`/`off` **且** 请求命中",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T23:01:55.442Z",
   "created_at": "2026-08-14T23:01:55.242Z",
-  "gh": {
-    "full_name": "lovedheart/dsh-plugin-thinking-mode",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T22:57:32Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 62,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:11.097Z"
+  "updated_at": "2026-08-17T04:27:47.742Z"
 }

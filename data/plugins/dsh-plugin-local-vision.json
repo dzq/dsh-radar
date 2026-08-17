@@ -21,19 +21,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# dsh-plugin-local-vision\n\nDeepSeek Harness 本地视觉插件：通过 [LM Studio](https://lmstudio.ai) 的 OpenAI 兼容端点调用**本地视觉模型**（默认 `qwen3-vl-8b-instruct-abliterated-v2.0`）描述图片/截图。\n\n- 🖼️ **全本地**：图片不出机器，无云端 API、无费用、无隐私外泄\n- ⚡ **零依赖后端**：默认用 Node 原生 `fetch` 直连，不需要 Python/Pillow/httpx\n- 🐍 **可选 Python 后端**：配置 `pythonPath` 后自动委托 `scripts/vision-describe.py`（带缩放/压缩，适合超大截图）\n- 🔍 **友好报错**：LM Studio 未运行 / API key 错误 / 图片超限 / 超时，都有中文提示\n\n## 前置条件\n\n1. LM Studio 已启动，且本地端口 `1234` 可访问\n2. LM Studio **开发者模式**已开启（Settings → Developer），拿到 `sk-lm-...` 的 API key\n3. 已加载一个视觉模型（如 Qwen3-VL 系列），记下**精确的模型 ID**（API 用 ID，不是显示名）\n4. （可选）先跑一次探针验证连通性：\n\n```bash\nLMSTUDIO_API_KEY=sk-lm-xxxx node scripts/vision-probe.mjs \"C:\\path\\to\\image.png\"\n# 输出 HTTP 200 即通\n```\n\n## 安装\n\n```bash\nnpm install dsh-plugin-local-vision\n```\n\n在 agent preset 的 `agen",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T02:01:58.517Z",
   "created_at": "2026-08-16T02:01:58.194Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 41,
-    "grade": "C"
+    "overall": 29,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:43.916Z"
+  "updated_at": "2026-08-17T04:27:49.241Z"
 }

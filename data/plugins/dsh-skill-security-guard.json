@@ -1,0 +1,41 @@
+{
+  "slug": "dsh-skill-security-guard",
+  "name": "dsh-skill-security-guard",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness community Bundle for the skill-security-guard static scanner",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "agent-skill",
+    "security",
+    "static-analysis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/rrrrrredy/skill-security-guard.git",
+  "homepage": "https://github.com/rrrrrredy/skill-security-guard#deepseek-harness",
+  "npm": "https://www.npmjs.com/package/dsh-skill-security-guard",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "readme": "# dsh-skill-security-guard\n\nCommunity DeepSeek Harness Bundle for [`skill-security-guard`](https://github.com/rrrrrredy/skill-security-guard). It registers the existing static-analysis skill and packages its Python scanner as a resolvable skill resource.\n\nThis is a community plugin, not an official DeepSeek plugin.\n\n## Compatibility\n\n- DeepSeek Harness / `@deepseek-ai/dsh`: `0.1.0-rc.6`\n- Node.js: `22.19.x` or `24+` (matching the package `engines` declaration)\n- Python: `3.10+`\n\n## Install\n\nInstall the public npm package into a Harness profile:\n\n```bash\ndsh plugin --profile headless add dsh-skill-security-guard@0.1.0\ndsh --profile headless --dump-config\n```\n\nFor a local release candidate, replace the npm specifier with the path to the packed `.tgz`.\n\nUse the npm package or a reviewed tarba",
+  "weekly_downloads": 0,
+  "last_publish": "2026-08-17T02:56:06.673Z",
+  "created_at": "2026-08-17T02:56:06.349Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:27:54.015Z"
+}

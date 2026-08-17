@@ -30,19 +30,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-token-budget — DSH 自定义插件示例\n\n一个完整的 DSH（DeepSeek Harness）自定义插件：统计每个会话的累计 token\n用量（K/M 紧凑格式）、缓存命中率、当前模型，并按**模型单价**估算花费。\n同时作为\"如何写 DSH 插件\"的参考实现。\n\n## 它做了什么\n\n1. **注册一个会话投影单元 `tokenCost`**：从会话日志的 `assistant/message`\n   事件（携带 provider 上报的 usage）折叠出全日志总量\n   （输入/输出/缓存读/缓存写 token + 估算金额 + 缓存命中率 + 模型）。\n   Web UI 通过投影通道实时读取（事件推送，无需刷新页面）。\n2. **注册一个模型工具 `token_cost_report`**：agent 自己可以调用它查询当前\n   会话的用量、命中率、模型与金额（从持久化日志尾部重放，无插件可变状态）。\n3. **双面 UI 半区（`lib/client.js`）**：把花费徽标注册进会话头部\n   `conversation.session.header.actions` 插槽，显示如\n   `19.2M tokens · 缓存命中 98% · ≈0.91 CNY`。\n\n## 按模型计价\n\n`request/context` 事件在模型切换时记录 `provider/model`；投影按事件顺序\nfold，**每条请求的用量增量用当时生效的模型单价计价后累加**——会话中途\n切换模型，后续请求自动用新价格，历史请求保持原价，与真实账单一致。\n\n## 文件结构\n\n```\ndsh-token-cost/\n├── package.json          # 包元数据 + 依赖 + dsh.client 双面声明\n├── UI-SLOTS.",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T07:26:04.352Z",
   "created_at": "2026-08-14T07:23:19.407Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:45.636Z"
+  "updated_at": "2026-08-17T04:27:54.819Z"
 }

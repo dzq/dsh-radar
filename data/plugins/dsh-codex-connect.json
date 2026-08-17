@@ -35,19 +35,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "",
   "weekly_downloads": 196,
-  "monthly_downloads": 196,
   "last_publish": "2026-08-14T08:11:53.737Z",
   "created_at": "2026-08-14T04:47:20.931Z",
   "gh": null,
   "scores": {
     "popularity": 57,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 45,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 60,
-    "grade": "B"
+    "dsh_compat": 80,
+    "overall": 47,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:38.668Z"
+  "updated_at": "2026-08-17T04:27:44.266Z"
 }

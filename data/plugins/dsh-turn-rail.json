@@ -32,26 +32,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-turn-rail\n\nA Codex-style auto-hiding turn rail for DeepSeek Harness Web.\n\nThe rail lives on the right edge of the conversation. Move the pointer near the\nedge and it fades in; move away and it fades out. Hover the thin zone around a\nmarker to preview that turn, click anywhere in the wider marker area to jump.\nLong conversations keep at most 30 visible markers and scroll inside the rail,\nfollowing the current reading position.\n\n> This project is not affiliated with DeepSeek. The interaction pattern is\n> inspired by common turn-navigation rails such as Codex and the DeepSeek web\n> client; the implementation is independent.\n\n## Features\n\n- **Edge-peek auto-hide** — appears when the pointer is within 110 px of the\n  right edge, fades out 120 ms after leaving. Leaving the browser window o",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T12:29:24.057Z",
   "created_at": "2026-08-15T12:29:23.800Z",
-  "gh": {
-    "full_name": "Yujm888/dsh-turn-rail",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T13:18:03Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 64,
-    "grade": "B"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:41.893Z"
+  "updated_at": "2026-08-17T04:27:49.210Z"
 }

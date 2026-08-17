@@ -23,19 +23,19 @@
     }
   },
   "engines": {},
+  "readme": "# @proactive-agent/dsh\n\nProactiveAgent（主动记忆 + 主动建议）× DeepSeek Harness 的 **bundle 聚合包**。\n\n一条命令安装整个 PA 插件组到 dsh profile：\n\n```bash\ndsh plugin --profile web add @proactive-agent/dsh\n```\n\n## 包含（6 个 cordis 插件）\n\n| 包 | cordis id | 职责 |\n| --- | --- | --- |\n| @proactive-agent/dsh-proactive-core | pa-core | 引擎单例宿主（必须最先装） |\n| @proactive-agent/dsh-proactive-memory | pa-memory | 记忆工具 + persona 画像 + 每轮记忆注入 |\n| @proactive-agent/dsh-proactive-suggest | pa-suggest | 主动建议引擎（五触发器） |\n| @proactive-agent/dsh-proactive-injector | pa-injector | 建议箱摘要 + accept/dismiss 反馈闭环 |\n| @proactive-agent/dsh-proactive-daily | pa-daily | 每日回顾 |\n| @proactive-agent/dsh-proactive-skills | pa-skills | sop 记忆 → dsh skills |\n\n## 细粒度安装（高级）\n\n不用 bundle、逐个启用时，直接安装对应包并在 profile 的 `cordis.patch.yml` 手写 insert 行（见本包 `cordis.patch.yml` 内容）。",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T14:40:39.015Z",
   "created_at": "2026-08-14T14:40:38.668Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:55:27.120Z"
+  "updated_at": "2026-08-17T04:27:46.986Z"
 }

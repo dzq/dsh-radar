@@ -22,19 +22,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-adb\n\n> ADB 设备·台架运维工具集 for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)\n\n让 DSH agent 直接操作 Android 设备 / 车机台架：设备发现、结构化 logcat、apk 安装、文件 pull/push、性能快照。面向实车与台架联调场景，业务内通用（不限 Unity、不限具体车机协议）。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-adb\n```\n\n或从 GitHub 直装：`dsh plugin --profile web add github:SamXiaBing/dsh-adb`\n\n## 生态收录\n\n- ✅ [npm](https://www.npmjs.com/package/dsh-adb) — `dsh-adb@0.1.0` 已发布（2026-08-14）\n- ✅ [awesome-deepseek-harness#87](https://github.com/0xsline/awesome-deepseek-harness/pull/87) — **已合并**\n- ✅ [awesome-dsh-plugin#85](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/85) — **已合并**\n- ⏳ [awesome-DSH-plugin#29](https://github.com/Alex-Yanggg/awesome-DSH-plugin/pull/29) — 待合并\n\nTopics：`dsh-plugin` `dsh` `adb` `android` `automotive` `bench`\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T10:10:21.811Z",
   "created_at": "2026-08-14T08:43:43.210Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:15.387Z"
+  "updated_at": "2026-08-17T04:27:44.623Z"
 }

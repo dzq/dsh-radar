@@ -26,19 +26,19 @@
   "engines": {
     "node": ">=18"
   },
+  "readme": "# dsh-plugin-hooks\n\nDeepSeek Harness 插件:把 **Claude Code 风格的 lifecycle hooks** 带到 DSH —— 配置驱动的 shell 命令,在模型工具调用前后自动执行。\n\n## 背景\n\nDSH 0.1.0-rc.6 没有 hooks 能力,但架构已经预留了接缝:`tools/pre-execute` / `tools/post-execute` 两个有序 waterfall,以及 shell 服务\"通过 stdin 给命令喂 JSON payload\"的词汇表(见 `@deepseek-ai/dsh-shell`)。这个插件以**纯外部插件**形式补上这块空白,设计对齐官方预留接口:\n\n- `pre-tool` hook:匹配的工具执行**前**运行;命令非零退出 → **阻止**该工具调用(等价 Claude Code PreToolUse 返回 error);\n- `post-tool` hook:工具结果落地后运行;退出码只记录,不改变工具结果。\n\n## 配置\n\nJSON 配置,来源二选一或叠加:\n\n1. **文件**(默认 `$DSH_HOME/hooks.json`):\n```json\n{\n  \"hooks\": [\n    {\n      \"id\": \"lint-after-edit\",\n      \"event\": \"post-tool\",\n      \"tools\": [\"edit\", \"write\"],\n      \"command\": \"npm run lint -- --quiet\",\n      \"timeoutMs\": 30000\n    },\n    {\n      \"id\": \"guard-prod\",\n      \"event\": \"pre-tool\",\n      \"tools",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T10:21:24.037Z",
   "created_at": "2026-08-14T09:43:49.258Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:00:11.150Z"
+  "updated_at": "2026-08-17T04:27:47.694Z"
 }

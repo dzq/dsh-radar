@@ -1,0 +1,206 @@
+{
+  "stats": {
+    "total": 1075,
+    "by_grade": {
+      "A": 1,
+      "B": 69,
+      "C": 129,
+      "D": 876
+    },
+    "by_compat": 995,
+    "total_weekly_downloads": 95418,
+    "generated_at": "2026-08-17T04:27:58.345Z",
+    "build_ms": 23507
+  },
+  "top10": [
+    {
+      "slug": "liustack--modsearch",
+      "name": "@liustack/modsearch",
+      "version": "5.4.2",
+      "description": "Plug-in web search, X search, and page fetch for models without native web access, powered by the free Antigravity CLI",
+      "weekly_downloads": 4097,
+      "stars": 105,
+      "grade": "A",
+      "overall": 70,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T05:18:30.432Z",
+      "keywords": [
+        "search",
+        "web-fetch",
+        "cli",
+        "llm",
+        "agent"
+      ]
+    },
+    {
+      "slug": "dsh-any-background",
+      "name": "dsh-any-background",
+      "version": "0.1.4",
+      "description": "Appearance plugin for DeepSeek Harness: custom theme color (PS-style color wheel), background wallpaper with opacity/blur controls, and separate main/settings interface opacity.",
+      "weekly_downloads": 814,
+      "stars": 5,
+      "grade": "B",
+      "overall": 67,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T16:42:44.966Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "plugin",
+        "dsh-plugin",
+        "theme"
+      ]
+    },
+    {
+      "slug": "dsh-remote",
+      "name": "dsh-remote",
+      "version": "0.5.5",
+      "description": "Remote-work assistant for DeepSeek Harness: connect SSH (password or key), pick a remote workspace, operate on it with rw_pick_workspace / rw_list_dir / rw_read_file / rw_exec / rw_sync tools, and mirror it to a real local directory (SFTP) so the DSH nati",
+      "weekly_downloads": 691,
+      "stars": 14,
+      "grade": "B",
+      "overall": 65,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T17:02:48.415Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "remote",
+        "ssh"
+      ]
+    },
+    {
+      "slug": "liustack--pptfast",
+      "name": "@liustack/pptfast",
+      "version": "0.19.2",
+      "description": "Stable, editable PPTX generation for AI agents — semantic IR in, native DrawingML out",
+      "weekly_downloads": 647,
+      "stars": 4,
+      "grade": "B",
+      "overall": 65,
+      "dsh_compat": true,
+      "last_publish": "2026-08-14T20:23:27.522Z",
+      "keywords": [
+        "pptx",
+        "powerpoint",
+        "presentation",
+        "ai",
+        "agent"
+      ]
+    },
+    {
+      "slug": "dsh-store",
+      "name": "dsh-store",
+      "version": "0.5.1",
+      "description": "DeepSeek Harness 插件商店：npm 权威源 + awesome 精选 + 自动雷达（550+ 插件、11 分类、运行级验证），官方 dsh plugin add/remove 一键安装卸载，dsh 原生 UI",
+      "weekly_downloads": 433,
+      "stars": 3,
+      "grade": "B",
+      "overall": 65,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T11:30:19.640Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek-harness",
+        "store",
+        "marketplace"
+      ]
+    },
+    {
+      "slug": "dshmarket",
+      "name": "dshmarket",
+      "version": "1.5.0",
+      "description": "Visual plugin market inside DeepSeek Harness — browse, search, and one-click install community plugins. · DSH 可视化插件市场：逛一逛，点一下，装好。",
+      "weekly_downloads": 11862,
+      "stars": 0,
+      "grade": "B",
+      "overall": 64,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T15:22:18.484Z",
+      "keywords": [
+        "deepseek",
+        "harness",
+        "dsh",
+        "dsh-plugin",
+        "marketplace"
+      ]
+    },
+    {
+      "slug": "dsh-plugin-vetting",
+      "name": "dsh-plugin-vetting",
+      "version": "0.5.1",
+      "description": "DeepSeek Harness plugin: heuristic vetting of installed third-party plugins — static code scan for exfiltration, credential access, obfuscation, and persistence patterns, plus an optional runtime subprocess tripwire.",
+      "weekly_downloads": 819,
+      "stars": 1,
+      "grade": "B",
+      "overall": 64,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T07:37:01.811Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek-harness",
+        "security",
+        "malware"
+      ]
+    },
+    {
+      "slug": "dsh-workbench",
+      "name": "dsh-workbench",
+      "version": "0.6.0",
+      "description": "A right-side file workspace for DeepSeek Harness Web.",
+      "weekly_downloads": 398,
+      "stars": 3,
+      "grade": "B",
+      "overall": 63,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T14:04:23.917Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "cordis",
+        "workbench"
+      ]
+    },
+    {
+      "slug": "dsh-update-copilot",
+      "name": "dsh-update-copilot",
+      "version": "0.1.1",
+      "description": "Update copilot for DeepSeek Harness: tracks the DSH core, bundled packages, and every profile plugin across npm and git, summarizes what changed for agent-assisted upgrade decisions, and updates only after explicit confirmation. · DSH 更新助手：追踪 dsh 本体、bundl",
+      "weekly_downloads": 253,
+      "stars": 0,
+      "grade": "B",
+      "overall": 63,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T16:03:06.944Z",
+      "keywords": [
+        "dsh-plugin",
+        "deepseek-harness",
+        "dsh",
+        "update-checker",
+        "plugin-manager"
+      ]
+    },
+    {
+      "slug": "dsh-smart-approval",
+      "name": "dsh-smart-approval",
+      "version": "0.1.0-rc.5",
+      "description": "Fail-closed LLM-assisted approval reviewer for DeepSeek Harness",
+      "weekly_downloads": 792,
+      "stars": 0,
+      "grade": "B",
+      "overall": 62,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T12:03:50.825Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "approval",
+        "security"
+      ]
+    }
+  ]
+}

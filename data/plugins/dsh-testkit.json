@@ -25,6 +25,7 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "<div align=\"center\">\n\n# DSH Testkit\n\n**为 DeepSeek Harness 插件提供确定性的真实宿主生命周期测试。**\n\n[English](README.md) · [场景参考](docs/scenarios.md) · [架构](docs/architecture.md) · [参与贡献](docs/contributing.md)\n\n[![CI](https://github.com/iiwish/dsh-testkit/actions/workflows/ci.yml/badge.svg)](https://github.com/iiwish/dsh-testkit/actions/workflows/ci.yml)\n[![npm](https://img.shields.io/npm/v/dsh-testkit?color=cb3837)](https://www.npmjs.com/package/dsh-testkit)\n[![Node.js](https://img.shields.io/node/v/dsh-testkit)](package.json)\n[![License: MIT](https://img.shields.io/badge/license-MIT-0b7285)](LICENSE)\n\n</div>\n\nDSH Testkit 会打包插件，在一次性环境中将其与精确版本的 DSH 一同安装，启动真实宿主，执行确定性能力探测，卸载插件，重启同一个 profile，并保留可复核的证据。整个过程不调用模型，也不需要模型 API Key。\n\n```text\nresolve -> install-dsh -> package -> install-plugin -> assemble -> boot -> re",
   "weekly_downloads": 1027,
   "last_publish": "2026-08-15T17:43:00.249Z",
   "created_at": "2026-08-15T08:52:03.554Z",
@@ -32,11 +33,11 @@
   "scores": {
     "popularity": 75,
     "maintenance": 0,
-    "quality": 80,
+    "quality": 65,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 57,
-    "grade": "B"
+    "overall": 54,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:56:18.798Z"
+  "updated_at": "2026-08-17T04:27:44.219Z"
 }

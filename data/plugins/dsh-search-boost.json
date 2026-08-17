@@ -1,8 +1,8 @@
 {
   "slug": "dsh-search-boost",
   "name": "dsh-search-boost",
-  "version": "0.0.2",
-  "description": "Multi-engine fused web search, page fetch, X (Twitter) search, deep research and parallel multi-agent research for DeepSeek Harness. Free-by-default engine chain (Antigravity CLI / Bing / DeepSeek-native) with keyed Tavily/Brave/Exa failover.",
+  "version": "0.1.1",
+  "description": "Multi-engine fused web search, page fetch, real-time X (Twitter) search with credential-free fallback, deep research and parallel multi-agent research for DeepSeek Harness. Free-by-default engine chain (Antigravity CLI / Bing / DuckDuckGo / Exa MCP) with ",
   "keywords": [
     "deepseek-harness",
     "dsh",
@@ -10,6 +10,8 @@
     "web-search",
     "x-search",
     "twitter",
+    "guest-graphql",
+    "oembed",
     "search",
     "cordis"
   ],
@@ -26,26 +28,19 @@
   "engines": {
     "node": ">=22.13"
   },
+  "readme": "# dsh-search-boost\n\n> Search boost for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH): multi-engine fused search, focused page fetching, X (Twitter) search, step-mode deep research, parallel multi-agent research, and an injected proactive-search policy.\n\nA **bundle plugin** for DSH that upgrades the built-in `web_search` and registers a family of search tools:\n\n- Free-by-default engines run **in parallel**: **Antigravity CLI / Bing / DuckDuckGo / Exa MCP (exa-free)** (all keyless), with keyed **Tavily / Brave / Exa** joining when keys are present.\n- **Two search layers, switched with `/web_change`**: `free` (keyless engines only — no credits, ideal for research loops) vs `api` (full pool incl. keyed Tavily / Brave / Exa). Choice persists across reloads.\n- Fused m",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
-  "last_publish": "2026-08-16T08:54:34.513Z",
+  "last_publish": "2026-08-17T03:01:08.479Z",
   "created_at": "2026-08-16T08:54:34.290Z",
-  "gh": {
-    "full_name": "Mr-remon219/dsh-search-boost",
-    "stars": 8,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T08:37:33Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 63,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:48.029Z"
+  "updated_at": "2026-08-17T04:27:58.340Z"
 }

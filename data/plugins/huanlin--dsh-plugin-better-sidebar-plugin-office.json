@@ -25,19 +25,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# dsh-better-sidebar-plugin-office\n\nDSH web 插件：为 better-sidebar 的编辑器提供 Office 三件套文件预览（`.docx` / `.xlsx` / `.pptx`）。\n\n## 背景\n\nbetter-sidebar 曾内置这三个 viewer，但 docx-preview / Univer（+ SheetJS）/ pptx-renderer 会把 client bundle 撑到约 23MB。本插件把它们拆成独立 bundle，better-sidebar 本体不再内联 Office 渲染库（约 5.9MB 全套 → 2.2MB 压缩），需要 Office 预览的用户单独安装本插件即可。\n\n## 功能\n\n- 通过 `ctx.betterSidebar.registerFileViewer` 注册 3 个 viewer（id 与内置一致）：\n  - `docx`：`.docx`，docx-preview 保真渲染（样式/图片/表格，Alt+滚轮缩放）\n  - `xlsx`：`.xlsx`，Univer sheets 预设（数据 + 公式 + 合并单元格 + 列宽/行高）\n  - `pptx`：`.pptx`，@aiden0z/pptx-renderer 浏览器原生预览（翻页导航）\n- viewer 描述符形状与原内置完全一致（`mediaUrl` 策略、priority 0、title/icon），因此：\n  - 既有文件路由行为不变（扩展名匹配优先于 binary-download / code 兜底）\n  - Side card 设置页自动显示这三个 viewer 的启用开关\n  - 加载/渲染失败回退到「下载查看」链接\n- 客户端组件自包含：自带 locale（中/英）与 CSS，不依赖 better-sid",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-13T14:28:06.904Z",
   "created_at": "2026-08-13T14:28:06.439Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 65,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 49,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 37,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:45.478Z"
+  "updated_at": "2026-08-17T04:27:54.421Z"
 }

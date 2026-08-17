@@ -28,6 +28,7 @@
   "engines": {
     "node": ">=22.19"
   },
+  "readme": "<p align=\"center\"><img src=\"assets/banner.jpg\" alt=\"pptfast：PPT 不用等，马上就好\" width=\"100%\"></p>\n\n<h1 align=\"center\">pptfast</h1>\n\n<p align=\"center\"><b>PPT 不用等，马上就好。</b></p>\n\n<p align=\"center\">🥇 <b>全网第一个 DeepSeek Harness PPT 生成插件</b> 🥇</p>\n\n<p align=\"center\">\n  <a href=\"./README.md\">English</a> ·\n  <a href=\"./INSTALL.md\">安装（转发给你的 AI）</a> ·\n  <a href=\"./docs/cli.zh-CN.md\">命令</a> ·\n  <a href=\"./docs/ir.zh-CN.md\">IR</a> ·\n  <a href=\"./docs/themes.zh-CN.md\">主题</a> ·\n  <a href=\"./skills/pptfast/SKILL.zh-CN.md\">Agent skill</a> ·\n  <a href=\"https://github.com/liustack/modlens\">ModLens（视觉）</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://x.com/liustack\"><img src=\"https://img.shields.io/badge/follow-%40liustack-black?style=flat-square&logo=x&logoColor=white\" alt=\"Follow @liustack on X\"></a>\n  <a href=\"",
   "weekly_downloads": 647,
   "last_publish": "2026-08-14T20:23:27.522Z",
   "created_at": "2026-07-17T07:22:14.043Z",
@@ -42,11 +43,11 @@
   "scores": {
     "popularity": 70,
     "maintenance": 39,
-    "quality": 100,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 68,
+    "overall": 65,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T03:56:22.103Z"
+  "updated_at": "2026-08-17T04:27:44.232Z"
 }

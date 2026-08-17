@@ -38,6 +38,7 @@
   "engines": {
     "node": ">=22.0.0"
   },
+  "readme": "# 📖 DeepRead 精读助手（dsh-deepread）\n\n[English](README.md) | 中文\n\n> 精读一本书或一篇文章：提取核心观点、论证结构与关键论据，输出「观点—证据—数据—关系」结构化报告。\n> 官方 bundle 插件：Node half 注册 `deepread` 工具，client half 提供结果卡片与输入区精读条。\n\n[![npm version](https://img.shields.io/npm/v/dsh-deepread)](https://www.npmjs.com/package/dsh-deepread)\n[![Awesome DSH Plugin](https://beancookie.github.io/awesome-dsh-plugin/badge.svg)](https://beancookie.github.io/awesome-dsh-plugin)\n[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)\n\n## 功能\n\n| 能力 | 说明 |\n| --- | --- |\n| 🎛️ 五种模式 | `quick` 快速抓要点 · `deep` 深度精读 · `map` 知识地图 · `feynman` 费曼读书法（11 步闭环 + 间隔复习）· `book` 整本书分部分精读（对比见下方「五种模式对比」） |\n| 🗺️ 知识地图模式 | 核心问题 / 核心结论 / 十类内容分类（核心结论、分论点、原因或作用机制、事实、数据、案例、隐含前提、反对意见、限制条件、可执行建议）/ 观点必配证据（无证据标注「原文未提供证据」）/ 关键数据表（数值与单位、时间范围、样本、比较基准、来源、位置）/ 八种关系标注",
   "weekly_downloads": 1130,
   "last_publish": "2026-08-15T21:01:21.106Z",
   "created_at": "2026-08-15T13:03:09.107Z",
@@ -45,11 +46,11 @@
   "scores": {
     "popularity": 76,
     "maintenance": 0,
-    "quality": 90,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 61,
+    "overall": 58,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T03:56:17.977Z"
+  "updated_at": "2026-08-17T04:27:44.219Z"
 }

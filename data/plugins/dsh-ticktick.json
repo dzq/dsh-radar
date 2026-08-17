@@ -36,26 +36,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-ticktick\n\n> [**English**](README.md) | **中文** · 中英对照 / Bilingual\n\nDeepSeek Harness 的滴答清单（[TickTick](https://ticktick.com) / [Dida365](https://dida365.com)）双向任务同步插件，基于官方 OAuth 2.0 Open API：拉取各清单任务、创建 / 更新 / 完成 / 删除任务、一键去重同步——agent 与 Web 设置面板均可使用。\n\n## 功能\n\n- **官方 Open API** — 基于滴答清单开放平台（`/open/v1`）的 OAuth 2.0 授权码流程，401 时自动用 refresh_token 刷新。\n- **双区域** — Dida365（国内，默认）与 TickTick（国际版）可选，设置面板或 `ticktick_config` 均可切换。\n- **拉取** — `ticktick_tasks` / `ticktick_sync` 汇总各清单未完成（或已完成）任务，按截止时间排序，带清单名。\n- **推送** — `ticktick_add` 创建单个或多个任务（标题、按 id 或名称指定清单、ISO 8601 或纯日期截止时间、优先级 0-5 或 none/low/medium/high、标签、备注）。\n- **一键同步** — `ticktick_sync` 的 `direction=pull`（按清单分组汇总）或 `direction=push`（按清单内标题去重创建，重复执行不会产生副本）。\n- **维护** — `ticktick_update`、`ticktick_complete`、`ticktick_delete`（清单 id 可省略，自动查找）。\n- **设置面板**",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:50:59.778Z",
   "created_at": "2026-08-16T08:30:53.358Z",
-  "gh": {
-    "full_name": "zhengjy01/dsh-ticktick",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T08:51:16Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 61,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:47.978Z"
+  "updated_at": "2026-08-17T04:27:55.632Z"
 }

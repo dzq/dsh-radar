@@ -25,19 +25,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-chinese-thinking\n\n一个\"小而美\"的 DeepSeek Harness 插件，只做一件事：**注入一条固定的 system-prompt section，让 agent 始终用中文思考和回复**——无论用户用什么语言。\n\n无存储、无工具、无状态。一条固定文本，前缀稳定、缓存安全。\n\n## 注入的文案\n\n> 始终使用中文进行思考和回复，无论用户使用什么语言。\n\n## 用法\n\n```bash\nnpm install @max-null/dsh-chinese-thinking\n```\n\n在你的 `cordis.yml` 加一条（`system-prompt` 由宿主已有）：\n\n```yaml\n- id: chinese-thinking\n  name: '@max-null/dsh-chinese-thinking'\n```\n\n## 实现\n\n```ts\nctx.systemPrompt.section({\n  name: 'chinese-thinking',\n  order: -90,   // persona 之前（身份声明 -100 之后），每轮最先读到\n  text: '始终使用中文进行思考和回复，无论用户使用什么语言。',\n})\n```\n\n## 依赖（peerDependencies，由宿主提供）\n\n`@deepseek-ai/cordis`、`@deepseek-ai/dsh-system-prompt`\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:38:08.814Z",
   "created_at": "2026-08-15T10:22:11.307Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:28.014Z"
+  "updated_at": "2026-08-17T04:27:46.971Z"
 }

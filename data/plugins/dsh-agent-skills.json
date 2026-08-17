@@ -34,19 +34,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# dsh-agent-skills\n\n[![npm](https://img.shields.io/npm/v/dsh-agent-skills)](https://www.npmjs.com/package/dsh-agent-skills)\n[![license](https://img.shields.io/npm/l/dsh-agent-skills)](./LICENSE)\n[![DeepSeek Harness plugin](https://img.shields.io/badge/DSH-plugin-4f46e5)](https://github.com/deepseek-ai/deepseek-harness)\n\n把 Claude Code、Codex、Gemini CLI、Cursor 等工具的本地 Agent Skills 接入 DeepSeek Harness，并在「设置 → Agent Skills」里统一查看、启停和管理。\n\n## 它解决什么问题\n\n很多 AI 编程工具都使用 `<技能名>/SKILL.md`，但技能分散在不同目录。`dsh-agent-skills` 会自动发现这些目录，把有效技能汇总进 DSH，并提供一个可视化设置页：\n\n- 自动发现 `~/.agents/skills`、`~/.claude/skills`、`~/.codex/skills`、`~/.gemini/skills` 等常用目录。\n- 支持添加任意自定义技能目录。\n- 显示每个来源是否存在、包含多少有效技能，以及技能名称和描述。\n- 可按目录或单个技能启停；变更会持久化，并在下一次 Agent step 生效。\n- 监听技能文件变化，也可随时手动重新扫描。\n- 不修改原始 `SKILL.md` 文件。\n\n## 安装\n\n### 方式一：DSH 插件市场（推荐）",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:45:42.402Z",
   "created_at": "2026-08-17T03:45:41.977Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 55,
-    "grade": "B"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:08:26.230Z"
+  "updated_at": "2026-08-17T04:27:47.721Z"
 }

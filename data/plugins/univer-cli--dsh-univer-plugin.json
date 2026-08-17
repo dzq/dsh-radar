@@ -30,26 +30,19 @@
     }
   },
   "engines": {},
+  "readme": "# DSH × Univer 插件\n\n[English](README.md) · [中文](README.zh-CN.md)\n\n在 DeepSeek Harness 应用内直接预览 Univer 表格：跑过 univer 命令的回合会自动出现预览卡片，点击即在应用内全屏展开 —— 无需浏览器、无需手动起服务。\n\n```\n┌────────────────────────────────────────┐\n│ 📊 销售表格.univer  [wt-xxx]  [展开预览 ▾] │  ← 回合尾部卡片\n│ /Users/.../销售表格.univer              │\n└────────────────────────────────────────┘\n```\n\n## 功能\n\n- **回合尾部预览卡片** —— 回合内 bash 调用中出现过 `.univer` 文件的，回合结束后自动出现预览卡片（支持 `--worktree`）。\n- **应用内全屏预览** —— 点卡片在应用内 iframe 中打开表格；✕ / 遮罩 / Esc 关闭。\n- **daemon 管理** —— 绿点 = daemon 运行中；黄点 = 未运行，点击自动启动。\n- **多会话并行** —— 各会话显示各自回合的卡片。\n- **双语界面** —— 卡片跟随应用语言（中/英）。\n\n## 环境要求\n\n- macOS（或 Linux）+ 已安装 DeepSeek Harness\n- 建议安装 [univer-cli](https://github.com/dream-num/univer-cli)：`npm i -g univer-cli`；未安装时插件仍可安装，需要时会提示\n\n## 安装\n\n本包是一个标准 [DSH bundle](https://github.com/deepseek",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T17:34:21.407Z",
   "created_at": "2026-08-15T17:34:21.179Z",
-  "gh": {
-    "full_name": "dream-num/dsh-univer-plugin",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T17:51:56Z",
-    "archived": false,
-    "license": "Apache-2.0"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 63,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:13.147Z"
+  "updated_at": "2026-08-17T04:27:47.746Z"
 }

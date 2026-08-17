@@ -13,11 +13,7 @@
     "automatic-approval",
     "sandbox-approval",
     "sandbox-escalation",
-    "llm-reviewer",
-    "ai-safety",
-    "sandbox",
-    "llm",
-    "cordis"
+    "llm-reviewer"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/timeance/dsh-approve-for-me.git",
@@ -43,19 +39,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T11:41:58.111Z",
   "created_at": "2026-08-15T07:37:47.644Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 55,
     "security": 65,
-    "dsh_compat": 85,
-    "overall": 50,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 37,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:03:44.980Z"
+  "updated_at": "2026-08-17T04:27:47.713Z"
 }

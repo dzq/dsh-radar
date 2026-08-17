@@ -23,19 +23,19 @@
   "engines": {
     "node": ">=22.19"
   },
+  "readme": "# dsh-qq-bridge\n\n[![npm version](https://img.shields.io/npm/v/dsh-qq-bridge)](https://www.npmjs.com/package/dsh-qq-bridge)\n[![npm downloads](https://img.shields.io/npm/dm/dsh-qq-bridge)](https://www.npmjs.com/package/dsh-qq-bridge)\n[![License](https://img.shields.io/npm/l/dsh-qq-bridge)](LICENSE)\n[![GitHub repo](https://img.shields.io/badge/GitHub-xiaomengxinbb%2Fdsh--qq--bridge-blue?logo=github)](https://github.com/xiaomengxinbb/dsh-qq-bridge)\n\n**将 QQ 接入 DeepSeek Harness 的双向桥插件**——通过 QQ 官方机器人 API v2（私聊 + 群聊），\n让你直接在 QQ 里驱动 DeepSeek Harness 的 Agent：每个 QQ 对话拥有独立、持久的隔离 Agent 会话，\n像在 Web 里一样使用完整的工具链、模型切换与工作区。\n\n## ✨ 特性\n\n- 🔌 **零依赖网关**：QQ 官方 WebSocket 协议（token 预刷新 / 心跳假死检测 / 指数退避重连 / Resume 补发），仅用 Node 内置能力\n- 🧊 **隔离会话**：每 QQ 对话 ↔ 一个持久 DSH Agent（`agents.create/resume`），历史按 (对话, 工作区) 隔离，重启自动恢复\n- ⚡",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-13T19:36:19.986Z",
   "created_at": "2026-08-13T17:28:46.496Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 58,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 43,
-    "grade": "C"
+    "overall": 29,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:29.649Z"
+  "updated_at": "2026-08-17T04:27:46.974Z"
 }

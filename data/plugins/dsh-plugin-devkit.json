@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-plugin-devkit",
+  "name": "dsh-plugin-devkit",
+  "version": "0.3.0",
+  "description": "开发者工具包：一键生成合规 dsh 插件脚手架（默认 TypeScript，可选 JavaScript）、按三条硬规则校验 schema、生成社区注册表发布条目。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "scaffold",
+    "devkit",
+    "plugin-development"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/d-ouyang/dsh-plugin-devkit.git",
+  "homepage": "https://github.com/d-ouyang/dsh-plugin-devkit#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-devkit",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "engines": {},
+  "readme": "> 🇨🇳 简体中文 | 🇬🇧 [English](./README.md)\n\n# dsh-plugin-devkit\n\n用于开发 DeepSeek Harness（dsh）插件的开发者工具包。一键生成合规脚手架、按三条硬规则校验 schema、生成发布到社区注册表的条目。\n\n## 安装\n\n```bash\n# 方式一（推荐）：从 npm 安装（包名即 dsh-plugin-devkit）\ndsh plugin --profile web add dsh-plugin-devkit\n\n# 方式二：从 GitHub 安装\ndsh plugin --profile web add github:d-ouyang/dsh-plugin-devkit\n\n# 本地开发：dsh plugin --profile web add ./dsh-plugin-devkit\n```\n\n装完重启 web 服务（:3080）。\n\n## 工具\n\n### `scaffold_plugin` —— 生成合规脚手架\n对话里说：「帮我生成一个 dsh 插件，名字 my-tool，品类 tools，作者 d-ouyang」\n→ 在 `~/dsh-plugin-my-tool/` 生成入口文件（**默认 TypeScript**：`index.ts` + `<name>-core.ts` + `tsconfig.json`）、`package.json`、`cordis.patch.yml`、`README.md`、`test.ts`、`examples/`。\n→ 想生成纯 JavaScript，传 `language: \"js\"`，则为 `index.js` + `<name>-core.js` + `test.mjs`。\n→ TypeScript 插件运行时由 dsh 的 tsx 即时转译（零构建），且",
+  "weekly_downloads": 0,
+  "last_publish": "2026-08-16T11:51:55.824Z",
+  "created_at": "2026-08-16T11:06:30.759Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:27:51.069Z"
+}

@@ -1,7 +1,7 @@
 {
   "slug": "dsh-advisor",
   "name": "dsh-advisor",
-  "version": "0.2.0",
+  "version": "0.1.4",
   "description": "dsh plugin bundle porting the omp advisor subsystem: a per-session reviewer model that observes the primary transcript and injects severity-ranked advice (nit/concern/blocker).",
   "keywords": [
     "dsh",
@@ -28,26 +28,19 @@
   "engines": {
     "node": "^22.19 || >=24"
   },
+  "readme": "# dsh-advisor\n\n[English](README.md) | 中文\n\n[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n![node](https://img.shields.io/badge/node-%5E22.19%20%7C%7C%20%3E%3D24-339933.svg)\n![dsh](https://img.shields.io/badge/dsh-DeepSeek%20Harness%20compatible-4B32C3.svg)\n[![dshfind](https://dshfind.com/api/badge/omdsh-dev/dsh-advisor?lang=zh)](https://dshfind.com/zh/plugins/omdsh-dev/dsh-advisor?ref=badge)\n\n一个移植 omp「advisor」子系统的独立 dsh 插件组合包：一个按会话运行的评审模型，观察主会话 transcript，用显式配置的模型（provider 与 model 均为必填）评审每个已完成的 stepped turn，并把按严重度排序的建议（nit / concern / blocker）注入回会话 —— 不污染主循环，也不递归地评审自己。\n\n一条命令即可安装：\n\n```sh\ndsh plugin --profile web add dsh-advisor   # <name> = 你的 profile 名\n```\n\n**仅作建议。** advisor 从不批准或否决主 agent 的动作，也绝不会像主 agent 那样发出命令。每条送达的消息都是自我描述的 advisory 内容；一个行为异常的评审者会被端到端约束（emissio",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
-  "last_publish": "2026-08-16T04:53:47.144Z",
+  "last_publish": "2026-08-15T15:27:26.979Z",
   "created_at": "2026-08-13T16:28:20.871Z",
-  "gh": {
-    "full_name": "omdsh-dev/dsh-advisor",
-    "stars": 11,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T04:58:30Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 62,
-    "grade": "B"
+    "overall": 37,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:44.175Z"
+  "updated_at": "2026-08-17T04:27:51.481Z"
 }

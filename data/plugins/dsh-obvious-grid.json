@@ -24,26 +24,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-obvious-grid\n\n**npm**: [dsh-obvious-grid](https://www.npmjs.com/package/dsh-obvious-grid) · **source**: [github.com/ray062/dsh-obvious-grid](https://github.com/ray062/dsh-obvious-grid)\n\nHost plugin for DeepSeek Harness: makes session status **obvious** — visible from\nacross the room and reaching you when you are AFK. Port of the *idea* of\n[opencode-obvious-grid](https://github.com/ray062/opencode-obvious-grid) (its \"HOW\":\nan ambient glanceable grid + push/alarm on turn-finished / error / approval-wait),\nonto DSH's own seams instead of opencode hooks + temp files.\n\n## What you get\n\n- **Ambient grid page** served by the harness itself at `/obvious-grid` (web profile):\n  a fullscreen port of opencode-obvious-grid's UI — distance-readable cards that\n  fill the viewport, the whole card ti",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T18:14:20.880Z",
   "created_at": "2026-08-16T17:22:53.695Z",
-  "gh": {
-    "full_name": "ray062/dsh-obvious-grid",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T18:27:11Z",
-    "archived": false,
-    "license": "NOASSERTION"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 61,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:01.563Z"
+  "updated_at": "2026-08-17T04:27:47.735Z"
 }

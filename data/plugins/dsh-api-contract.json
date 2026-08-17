@@ -24,19 +24,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-api-contract · 接口契约助手\n\n解析 OpenAPI 3.x（JSON 或 YAML），生成 **TypeScript / Python 类型化客户端**，并检测两个规范版本之间的**破坏性变更**。纯 Node 实现，无网络、无外部服务。\n\n## 提供的工具\n\n| 工具 | 作用 |\n|---|---|\n| `gen_client` | 解析规范，生成类型化客户端（TS 基于 fetch / Python 基于 requests） |\n| `diff_spec` | 对比旧版/新版规范，列出破坏性变更与非破坏性变更 |\n\n## 安装\n\n```bash\ndsh plugin add dsh-api-contract\n```\n\n安装后在 profile 的 `package.json` 的 `dsh.profile.bundles` 中加入 `\"dsh-api-contract\"`。\n\n## 用法示例\n\n```\n根据 openapi.yaml 生成一个 TypeScript 客户端\n→ 调用 gen_client(spec=\"openapi.yaml\", lang=\"typescript\", outDir=\"./src/api\")\n\n升级接口前看看有没有破坏性变更\n→ 调用 diff_spec(oldSpec=\"openapi.v1.json\", newSpec=\"openapi.v2.json\")\n```\n\n## 破坏性变更检测项\n\n- 删除接口路径、删除方法\n- 删除必填参数、参数类型变化\n- 移除 2xx 响应、响应结构变化\n\n## 说明\n\n- 支持 JSON 与常见块结构 YAML（嵌套映射、序列、`$ref`、内联 `[]`/`{}`、字面量块 `|`）。\n- Python 客户端依赖 `requests`（`pip install req",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T10:13:30.529Z",
   "created_at": "2026-08-16T10:13:30.345Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:53:07.680Z"
+  "updated_at": "2026-08-17T04:27:46.981Z"
 }

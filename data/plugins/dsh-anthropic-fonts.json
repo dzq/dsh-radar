@@ -30,19 +30,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# dsh-anthropic-fonts\r\n\r\n给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web 界面换上 Anthropic 字体：\r\n\r\n- **界面**（侧栏、标题、按钮、设置）：`Anthropic Sans Web Text`\r\n- **模型对话**（Markdown 正文 / 标题 / 表格）：`Anthropic Serif Web Text`\r\n- **代码 / 代码块**：`Anthropic Mono Variable`\r\n\r\n中文回退到思源字体（`Noto Sans SC` / `Source Han Sans SC` / `Noto Serif SC`），未安装时回退到系统字体（苹方 / 微软雅黑 / 宋体）。\r\n\r\n## 字体\r\n\r\n> **重要：插件不内置字体**。npm 包不随包分发字体文件；安装插件后还需手动安装字体（见下表），然后刷新 / 重启 web 才会生效。\r\n\r\n插件引用的三个 Anthropic 拉丁字体（建议安装，英文 / 代码效果最佳）：\r\n\r\n| 字体 | 用途 | 获取方式 |\r\n|---|---|---|\r\n| Anthropic Sans Web Text | 界面 | 仓库 [`fonts/`](fonts/) 下载，或从 Claude 应用提取 |\r\n| Anthropic Serif Web Text | 模型对话 | 仓库 [`fonts/`](fonts/) 下载，或从 Claude 应用提取 |\r\n| Anthropic Mono Variable | 代码 | 仓库 [`fonts/`](fonts/) 下载，或从 Claude 应用提取 |\r\n\r\n安装：Windows 双击每个 `.ttf` → 点「安装",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:41:22.327Z",
   "created_at": "2026-08-15T15:22:13.804Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:14.768Z"
+  "updated_at": "2026-08-17T04:27:44.621Z"
 }

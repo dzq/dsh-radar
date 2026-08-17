@@ -25,26 +25,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-prometheus\r\n\r\n[English](README.md) | 中文\r\n\r\n面向 DeepSeek Harness 的 Prometheus 指标插件与可直接导入的 Grafana Dashboard。插件只观察 DSH 的公开生命周期扩展点，在导出前限制指标序列基数，并避免输出对话或工具载荷。\r\n\r\n> 发布状态：`0.1.0` 是首个 Developer Preview 版本，已针对 DSH `0.1.0-rc.6` 完成测试。\r\n\r\n## 监控范围\r\n\r\n- 活跃 Session；Agent turn、step、error 及耗时直方图\r\n- LLM 请求速率、终止状态、延迟，以及互不重叠的输入/输出/推理/缓存 token 计数\r\n- Tool 调用速率、规范化成功/失败状态及延迟\r\n- Approval 请求和固定结果计数\r\n- Subagent 启动、结果及耗时\r\n- 后台 job 的活跃/启动/完成/终止/失败数量及耗时\r\n- 进程启动时间和标签溢出诊断\r\n\r\n完整指标名、标签和语义见 [docs/metrics.md](docs/metrics.md)。\r\n\r\n## 兼容性\r\n\r\n| 组件 | 已测试版本 |\r\n|---|---|\r\n| DeepSeek Harness npm packages | `0.1.0-rc.6` |\r\n| 官方源码基线 | `47f943859bef60e4160492346772ded9b24f765a`（2026-08-13） |\r\n| Cordis | `^4.0.1` |\r\n| Node.js | `^22.19.0 || >=24.0.0` |\r\n| prom-client | `15.1.3` |\r\n\r\nDeepSeek Harness 当前仍是 Developer Preview。每次升级 D",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T06:21:44.195Z",
   "created_at": "2026-08-15T06:21:43.830Z",
-  "gh": {
-    "full_name": "xxiaoxiong/dsh-prometheus",
-    "stars": 1,
-    "open_issues": 6,
-    "pushed_at": "2026-08-15T06:24:03Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 63,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:41.425Z"
+  "updated_at": "2026-08-17T04:27:49.205Z"
 }

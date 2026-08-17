@@ -31,26 +31,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# DSH Workspace Files\n\n`DSH Workspace Files` 是一个精简的 [DeepSeek Harness（DSH）](https://github.com/deepseek-ai/deepseek-harness) Web 插件。它在 DSH Web 右侧显示当前会话工作区的文件树；点击目录可展开下一层，点击文件会调用 DSH 已有的 `openPath` 能力，由宿主操作系统使用默认应用打开。侧栏默认关闭，可通过会话右上角的面板图标打开或关闭。\n\n## 功能\n\n- 在 DSH Web 的 `details` 右侧栏显示当前工作区。\n- 在会话右上角提供侧栏开关图标，默认不占用右侧空间。\n- 文件树按需逐层读取，不会启动时递归扫描整个项目。\n- 每层最多返回 1000 个条目，避免超大目录产生无界响应。\n- 目录在前、文件在后，同类按名称排序。\n- 文件通过 DSH 的宿主接口打开，不在浏览器中读取或预览内容。\n- 目录读取以当前会话记录的工作区为根，并校验真实路径；`..` 和越界符号链接不能读取工作区外部目录。\n- 插件卸载后，路由、样式和右栏注册会由 Cordis 生命周期自动清理。\n\n## 兼容性\n\n- DSH：`0.1.0-rc.5` 至 `0.1.x`\n- Node.js：`^22.19.0` 或 `>=24`\n- 界面：DSH Web\n\nDSH 仍处于开发者预览阶段，Web 插槽接口可能发生不兼容变更。插件使用 DSH `0.1.0-rc.6` 的发布类型构建，并在同级源码检出 `0.1.0-rc.5` 上完成了真实 Web 组合验证。\n\n## 安装\n\n### 从本地目录安装\n\n```bash\ndsh plugin --profile web add /absolute/path/to/dsh-workspace-files\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T01:42:39.753Z",
   "created_at": "2026-08-16T01:42:39.468Z",
-  "gh": {
-    "full_name": "brickmaker/dsh-workspace-files",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T02:06:55Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 75,
+    "maintenance": 0,
+    "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 58,
-    "grade": "B"
+    "overall": 37,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:12.328Z"
+  "updated_at": "2026-08-17T04:27:47.744Z"
 }

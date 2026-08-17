@@ -26,19 +26,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# dsh-rtk-rewrite\n\n**DSH (DeepSeek Harness) 插件**：自动把 pwsh 工具的命令改写为 [rtk](https://github.com/rtk-ai/rtk) 等价命令，削减 shell 输出 token **42-90%**。\n\n```\n你发: git status\ndsh 执行: rtk git status   ← 插件自动改写\n输出: * master...origin/master      （极简，省 42%）\n      ?? plans/xxx.md\n```\n\n- **不替换** dsh 基础工具（pwsh/bash 原样保留）\n- **不阻塞**任何命令——rtk 缺失/不支持/超时一律原样放行\n- **不绕** sandbox/approval 栈——只改命令字符串，走原执行管线\n\n## 原理\n\ndsh 的 `tools/pre-execute` 瀑布（官方扩展点）携带**可改写的原始参数**。插件在此拦截：\n\n```\ntools/pre-execute ──→ spawnSync(\"rtk.exe rewrite <cmd>\")\n                      ├─ stdout 以 \"rtk \" 开头 → 替换 exec.arguments.command\n                      └─ 否则 → 原样放行\n```\n\n> ⚠️ 为什么不用 `tools/execute`？它的契约是 \"wrappers may change only\n> `exec.signal`, while call identity remains immutable\"——参数在该阶段已冻结，\n> 不可改写。`tools/pre-execute` 是唯一合法的命令改写点（已实测验证）。\n\n## 安装\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:01:42.365Z",
   "created_at": "2026-08-15T16:01:42.141Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 40,
     "dsh_compat": 75,
-    "overall": 48,
-    "grade": "C"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:41.946Z"
+  "updated_at": "2026-08-17T04:27:49.212Z"
 }

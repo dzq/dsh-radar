@@ -26,19 +26,19 @@
   "engines": {
     "node": ">=18"
   },
+  "readme": "# free-vision-skill\n\n[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)\n[![Platform](https://img.shields.io/badge/Platform-macOS-lightgrey?logo=apple&logoColor=white)](https://www.apple.com/macos/)\n[![Framework](https://img.shields.io/badge/Framework-Vision-blueviolet)](https://developer.apple.com/documentation/vision)\n[![Privacy](https://img.shields.io/badge/Fully%20Local-Yes-success)](https://en.wikipedia.org/wiki/Local_computing)\n\nFully-local image understanding (OCR / table extraction / description) via macOS Vision. Images never leave your Mac.\n\n## Install (DSH-Plugin)\n\n```bash\ndsh plugin add @niyongsheng/free-vision-skill\n```\n\nThen add to `cordis.patch.yml`:\n\n```yaml\n- insert:\n    - id: free-vision-skill\n      name: '@niyongsheng/free-vision-skill'\n      config:\n   ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T10:39:44.133Z",
   "created_at": "2026-08-14T06:33:30.101Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 51,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:00:12.786Z"
+  "updated_at": "2026-08-17T04:27:47.697Z"
 }

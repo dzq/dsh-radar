@@ -27,26 +27,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# deepseek-harness-tui\n\n[![npm](https://img.shields.io/npm/v/deepseek-harness-tui)](https://www.npmjs.com/package/deepseek-harness-tui)\n[![license](https://img.shields.io/npm/l/deepseek-harness-tui)](./LICENSE)\n\n[English](./README.md) | **简体中文**\n\n[deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) 的交互式终端\nUI，以 dsh profile bundle 的形式安装。它直接渲染在终端主屏上——不用备用屏\n（alternate screen），退出后对话仍留在终端回滚缓冲区里——并且与它驱动的 agent\n运行在同一个进程内。\n\n![dsh TUI 演示：启动、提问、看着 agent 读文件并回答](assets/demo.gif)\n\n## 亮点\n\n- **为 agent 而生的对话视图**——流式回答、带实时输出的工具卡片；连续的只读调用\n  折叠成一行（`Thought for 8s, searched for 3 patterns, read 2 files`），\n  Ctrl+O 随时展开回卡片。\n- **运行中随时介入**——turn 进行时编辑器保持可用：Enter 追加引导（steer），\n  Esc 或 Ctrl+C 取消，取消时排队中的输入会原样退还。agent 还没读到的那条会自己\n  说明（`插入指令 · 待认领`），提示行给出还排着几条，`/status` 列出它们。输入框\n  为空时按 Up 把最新一条排队消息取回来改；改",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T18:15:03.028Z",
   "created_at": "2026-08-14T17:57:22.255Z",
-  "gh": {
-    "full_name": "Demo-0416/deepseek-harness-tui",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T18:14:26Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 63,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:41.687Z"
+  "updated_at": "2026-08-17T04:27:49.213Z"
 }

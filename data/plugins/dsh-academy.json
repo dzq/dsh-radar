@@ -26,19 +26,19 @@
   "engines": {
     "node": ">=22.19.0"
   },
+  "readme": "<p align=\"center\"><a href=\"https://ai4scholar.net?src=dsh\"><img src=\"https://raw.githubusercontent.com/literaf/ai4scholar-plugin-dsh/main/docs/logo.svg\" width=\"110\" alt=\"AI4Scholar\"></a></p>\n<p align=\"center\"><strong>dsh-academy</strong></p>\n\n# Academic mode for DeepSeek Harness\n\nEnglish | [中文](README_CN.md)\n\n[![npm](https://img.shields.io/npm/v/dsh-academy?label=npm)](https://www.npmjs.com/package/dsh-academy) ![license](https://img.shields.io/badge/license-MIT-green)\n\nOne small plugin that changes how the agent *behaves* on scholarly work: a research persona, the anti-fabrication rules that matter most in academic writing, and bilingual conventions.\n\nIt registers **no tools and no skills** — capabilities belong to other plugins. This is the behaviour layer that makes them read like a res",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T17:29:15.922Z",
   "created_at": "2026-08-16T17:29:15.655Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 50,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:54:51.876Z"
+  "updated_at": "2026-08-17T04:27:46.983Z"
 }

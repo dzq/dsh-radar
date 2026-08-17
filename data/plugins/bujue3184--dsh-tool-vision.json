@@ -31,19 +31,19 @@
     }
   },
   "engines": {},
+  "readme": "# @bujue3184/dsh-tool-vision\n\n视觉\"眼睛\"插件（DeepSeek Harness / DSH）—— 让纯文本主模型能\"看懂\"图片。\n\n迁移自 DeepAgents（Python FastAPI + Electron）的视觉能力，重构为**生态优先**架构：\n零框架补丁、纯官方 API、标准 npm 包，任何 DSH 用户可安装。\n\n## 工具\n\n| 工具 | 说明 |\n|------|------|\n| `analyze_image` | 分析图片内容（支持 region 裁剪 + 自定义问题） |\n| `locate_element` | 在图片中定位目标元素，返回 0-1000 归一化坐标 |\n\n## 视觉驱动（三模式）\n\n| 模式 | 说明 | 适用 |\n|------|------|------|\n| `local`（默认） | 直调本地 ollama HTTP | 本地优先、离线可用 |\n| `subagent` | DSH 子代理驱动**任意已配置**多模态模型 | qwen-vl / GLM-4V / DSH 配置的 ollama |\n| `http` | 直连 OpenAI 兼容视觉端点（标准协议） | 任何支持 image_url 的云模型 |\n\n**subagent 模式**复用 DSH 的 LLM 路由（`ctx.agents.create` + `provider/model`），\n因此在 DSH 模型设置页配置的**任何视觉模型**都能用，无需额外协议代码。\n\n**http 模式**直连 OpenAI 兼容端点（如 DashScope `https://dashscope.aliyuncs.com/compatible-mode/v1`），\n支持 `qwen-vl-max` 等云模型。\n\n## 安装（一键）\n\n```b",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T14:10:16.604Z",
   "created_at": "2026-08-14T14:01:01.847Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:22.492Z"
+  "updated_at": "2026-08-17T04:27:46.960Z"
 }

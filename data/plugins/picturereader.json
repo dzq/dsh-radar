@@ -13,8 +13,7 @@
     "ascii",
     "ocr",
     "paddleocr",
-    "hue",
-    "multimodal"
+    "hue"
   ],
   "license": "MIT",
   "repo": "",
@@ -29,19 +28,19 @@
   "engines": {
     "node": "^22.19 || >=24"
   },
+  "readme": "# picturereader\n\n> DSH 插件（`dsh-plugin`）— 给纯文本模型（如 deepseek-v4-flash）的\"读图\"能力。\n> 把图片**降分辨率 + 降色深 + 结构/色彩指纹提取**，渲染成文本网格喂回对话，\n> 让模型像多模态模型一样\"看\"图：描述场景、主体、环境、光线与语义内容。\n> **纯本地、零外部模型依赖、零 API key、零 Python（PaddleOCR 为可选增强）**。\n\n[![dsh-plugin](https://awesome-dsh-plugin.com/badge.svg)](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)\n\n## 这是什么\n\nDeepSeek 等纯文本模型没有视觉编码器，无法直接看图。picturereader 把\"看图\"翻译成\n模型能理解的**结构化文本证据**，并提供一套经过大量真实图片迭代验证的**读图方法论\nskill（image-reading）**，让模型像人一样分步看图：\n\n1. **全局定调**：hue families（纯色相指纹）→ structure（条带/对称）→ texture（写实度）→ regions（色块结构）\n2. **主动找主体**：px_per_cell 定向放大（深色/低对比/小色块不会漏）\n3. **文字验证**：PaddleOCR 实读（防多模态幻觉）\n4. **材质判断**：image_sample 像素取样\n5. **综合描述**：带证据等级的连贯画面描述\n\n## 工具\n\n| 工具 | 作用 |\n|---|---|\n| `image_scan` | 全局/区域扫描：亮度/颜色网格 + regions 色块 + shade diversity + texture mix + st",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T07:04:58.863Z",
   "created_at": "2026-08-16T07:02:17.709Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:21.949Z"
+  "updated_at": "2026-08-17T04:27:44.634Z"
 }

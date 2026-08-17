@@ -27,26 +27,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# dsh-tools\n\nDSH web 插件：个人通用工具箱。一个插件收纳多个功能/工具想法，设置页\n（设置 → **dsh 工具箱**）采用页签式导航：「功能开关」页签顶部为常驻功能\n（一键重启、桌面通知授权，强制开启无开关），下方为可选功能的开关列表；\n每个已启用的可选功能一个页签入口（页签超出宽度时可按住左右拖动查看）；\n开关即时生效并持久化（重启后保留）。\n\n> ⚠️ **使用提示**：本插件纯 AI 制作，无人工含量，可能后续不会对其进行维护，请谨慎使用。\n\n## 当前功能\n\n| key | 功能 | 说明 | 默认 |\n| --- | --- | --- | --- |\n| `notify.task-done` | 任务完成提示 | 当前对话任务完成且网页未聚焦时，在 Windows 桌面右下角弹出系统提示框（置顶），点击跳回会话 | 强制开启（无开关） |\n| `restart.web` | 一键重启 dsh web | 「功能开关」页签顶部按钮：重启服务并自动刷新页面（开发测试快循环） | 强制开启（无开关） |\n| `delete-chat` | 会话管理 | 归档会话查看（每次 dsh web 启动后首次打开自动加载，可手动刷新）、单条/批量删除会话；删除会话页点击工作区路径可打开对应文件夹 | 开 |\n| `plugin-toggle` | 插件开关 | profile 已安装插件的启用/停用开关；点击插件名可跳转其 GitHub 页（有则显示），行内展示插件功能描述 | 开 |\n| `update-plugin` | 更新检查 | 检查/更新/卸载 profile 已安装插件；支持 npm 注册表与 GitHub（`github:`/URL spec，Releases/tags API 探测）两类安装来源；点击插件名可跳转其 GitHub 页（有则",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T10:36:55.277Z",
   "created_at": "2026-08-16T09:11:17.155Z",
-  "gh": {
-    "full_name": "qq1376868542-lang/dsh-tools",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T10:35:57Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 64,
-    "grade": "B"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:20.513Z"
+  "updated_at": "2026-08-17T04:27:44.631Z"
 }

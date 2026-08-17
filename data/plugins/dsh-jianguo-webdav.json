@@ -1,0 +1,54 @@
+{
+  "slug": "dsh-jianguo-webdav",
+  "name": "dsh-jianguo-webdav",
+  "version": "0.1.1",
+  "description": "WebDAV sync for DeepSeek Harness - sync settings, sessions, attachments, profiles to JiaGuoYun (坚果云).",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "webdav",
+    "sync",
+    "jianguoyun",
+    "坚果云"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/guaguaXXXX/dsh-jianguo-webdav.git",
+  "homepage": "https://github.com/guaguaXXXX/dsh-jianguo-webdav#readme",
+  "npm": "https://www.npmjs.com/package/dsh-jianguo-webdav",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-commands",
+        "@deepseek-ai/dsh-client-ui-input-trigger"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "readme": "# dsh-jianguo-webdav\n\n通过 WebDAV 协议将 DeepSeek Harness (DSH) 的配置和会话历史同步到坚果云等云存储。\n\n## 同步内容\n\n| 内容 | 本地路径 | 云端路径 |\n|------|---------|---------|\n| 会话历史 | `~/.dsh/sessions/<project>/<id>/` | `/sessions/<project>/<id>/` |\n| 设置 | `~/.dsh/settings.yaml` | `/config/settings.yaml` |\n| 附件 | `~/.dsh/attachments/v1/objects/` | `/attachments/v1/objects/` |\n| Profile 配置 | `~/.dsh/profiles/web/` | `/profiles/web/` |\n| Agent Presets | `~/.dsh/.agent-presets/` | `/presets/` |\n| Pet | `~/.dsh/pet.json` | `/config/pet.json` |\n\n**不同步：** `.credentials.yaml`、`node_modules/`、临时文件、本地缓存。\n\n## 配置\n\n创建 `~/.dsh/jianguo-webdav.yaml`：\n\n```yaml\nremoteUrl: \"https://dav.jianguoyun.com/dav/\"\nusername: \"your@email.com\"\npassword: \"your-password\"\n\nsyncSessions: true\nsyncSettings: true\nsyncAttachments: true\nsyncProfiles: true\nsyncP",
+  "weekly_downloads": 0,
+  "last_publish": "2026-08-17T04:23:05.293Z",
+  "created_at": "2026-08-17T04:12:49.605Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:27:44.594Z"
+}

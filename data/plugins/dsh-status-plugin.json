@@ -32,19 +32,19 @@
   "engines": {
     "node": "^22.19 || >=24"
   },
+  "readme": "# dsh-status-plugin\n\n中文 | [English](README.md)\n\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（dsh）的状态插件，一个包内含两个平面：\n\n- **Host 平面** — 以 JSON 形式暴露运行中 harness 的运行时健康状态：进程、监听器、API Key 是否存在、内存、磁盘、运行时长，以及实时的插件清单。\n- **Client 平面** — Web UI（会话右上角）的头部徽标：显示运行时长，点击展开详情面板；当 host 上报过载、内存压力或磁盘告警时弹出提示；另有「状态」设置页可实时调整告警阈值。\n\n- **包名**：`dsh-status-plugin`\n- **运行时**：host（ESM）+ 浏览器 bundle（CJS factory，按 dsh client-modules 的 `__ModuleLoader__` 契约包装），使用 `tsc` + esbuild 构建到 `lib/`。\n- **语言**：TypeScript。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-status-plugin\n```\n\nCLI 会自动协调 `dsh.profile.bundles`：因为 manifest 声明了 `dsh.bundle.patch`，该包会加入 profile 的 bundle 层栈。停止正在运行的进程并重启 profile 以加载：\n\n```sh\ndsh web   # 或：dsh --profile <name>\n```\n\n无需启动即可验证插件已加入组合树：\n\n```sh\ndsh --profile web --dump-config\n```\n\nClie",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:27:07.572Z",
   "created_at": "2026-08-14T11:27:06.206Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 54,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:02.468Z"
+  "updated_at": "2026-08-17T04:27:44.335Z"
 }

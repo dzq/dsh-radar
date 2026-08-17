@@ -21,26 +21,19 @@
     }
   },
   "engines": {},
+  "readme": "# @agenticcontrolplane/dsh\n\n[Agentic Control Plane](https://agenticcontrolplane.com) for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness): every tool call is checked against your policies before it runs, and every decision is recorded — what ran, what was blocked, and why.\n\nThis is a native Cordis plugin on dsh's typed interception points, not a shell-hook shim. It registers on:\n\n- `tools/pre-execute` — the policy decision. `allow` lets the call through, `deny` blocks it with the reason in the trajectory, `ask` hands off to dsh's own approval flow.\n- `tools/post-execute` — output scanning. A server-side block turns the result into corrective feedback; shadow-mode notices surface what enforcement *would* have done.\n\n## Install\n\n```sh\ncurl -sf https://agenticcontrolplane.c",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T20:37:10.822Z",
   "created_at": "2026-08-16T20:37:10.455Z",
-  "gh": {
-    "full_name": "agentic-control-plane/dsh-acp-plugin",
-    "stars": 3,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T19:23:16Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 62,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:15.455Z"
+  "updated_at": "2026-08-17T04:27:47.749Z"
 }

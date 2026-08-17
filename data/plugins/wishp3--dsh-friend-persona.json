@@ -20,26 +20,19 @@
     }
   },
   "engines": {},
+  "readme": "# @wishp3/dsh-friend-persona\n\n角色卡存取、酒馆卡导入、预设注册、人格提示词分区。\n\nHost 入口仍是 `src/index.ts`（由接线任务挂载）。本包已导出的模块：\n\n- `src/store.ts` — 角色卡 CRUD、默认角色种子、数据根解析\n- `src/tavern-import.ts` — SillyTavern PNG / JSON 导入\n\n## 数据根目录解析优先级\n\n`resolveFriendDataDir({ dshHome?, override?, env?, homedir? })` 是纯函数，**不会写死 `~/.dsh`**。第一个非空值生效：\n\n1. `options.override` — 直接指定 friend 数据根（已含 `friend/`，测试注入用）\n2. 环境变量 `FRIEND_DATA_DIR` — 同样是 friend 数据根\n3. `options.dshHome` — 拼成 `<dshHome>/friend`\n4. 环境变量 `DSH_HOME` — 拼成 `<DSH_HOME>/friend`（冒烟脚本的隔离临时 home 走这条）\n5. `<homedir || os.homedir()>/.dsh/friend`\n\n角色卡路径：`<friendDataDir>/characters/<slug>/persona.json`。\n\n单元测试一律把 `override` 指到 `os.tmpdir()`；读取默认回退时传入 `env: {}`，避免本机真实 `DSH_HOME` 泄漏进断言。\n\n## 角色卡 schema\n\n写入前校验这些字段（手写类型守卫，不引入 zod，也不运行时依赖 `@deepseek-ai/schemastery`）：\n\n| 字段 | 类型 | 约束 |\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T05:39:30.027Z",
   "created_at": "2026-08-14T16:01:25.963Z",
-  "gh": {
-    "full_name": "wanghehe123/dsh-Friend",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T05:38:38Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 60,
+    "maintenance": 0,
+    "quality": 50,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 52,
-    "grade": "C"
+    "overall": 31,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:46.100Z"
+  "updated_at": "2026-08-17T04:27:54.823Z"
 }

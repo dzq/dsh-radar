@@ -19,19 +19,19 @@
   "engines": {
     "node": ">=18.0.0"
   },
+  "readme": "# dsh-sleep\n\nDSH 插件：向模型暴露一个 `sleep` 工具，让模型按指定毫秒数暂停执行后再返回。适合等待时间相关条件成立（服务重启、debounce 窗口、retry backoff）且没有事件型工具可用的场景。\n\n## 安装\n\n```sh\n# 从 git 安装（推荐）：\ndsh plugin --profile <profile> add github:huanlinoto/dsh-plugin-sleep\n\n# 从本地 checkout 开发安装：\ndsh plugin --profile <profile> add link:D:\\Projects\\deepseek-harness\\dsh-sleep\n```\n\n预构建策略：`lib/` 入库，无 `prepare` 脚本，`github:` 安装开箱即用，无需 `allowBuilds`。\n\n## 配置\n\n在 DSH GUI 设置页或 `cordis.patch.yml` 中配置：\n\n| 字段 | 类型 | 默认值 | 说明 |\n|------|------|--------|------|\n| `maxDurationMs` | number | `60000` | 单次 sleep 上限毫秒数。超过会被 clamp 到此值，并在返回中标 `clamped: true`。 |\n| `defaultDurationMs` | number | `0` | 当模型省略 `duration_ms` 时的回退值。 |\n\n## 工具\n\n### `sleep`\n\n暂停 N 毫秒后返回。\n\n**参数：**\n\n| 参数 | 类型 | 必填 | 说明 |\n|------|------|------|------|\n| `duration_ms` | integer | 是 | 暂停毫秒数，必须 ≥ 0。超过 `ma",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-13T14:21:45.269Z",
   "created_at": "2026-08-13T14:21:44.949Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 58,
+    "maintenance": 0,
     "quality": 65,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 47,
-    "grade": "C"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:00.724Z"
+  "updated_at": "2026-08-17T04:27:46.439Z"
 }

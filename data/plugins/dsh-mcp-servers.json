@@ -31,19 +31,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-mcp-servers\n\nExpose [Model Context Protocol](https://modelcontextprotocol.io) servers as tools inside [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness). A dsh **bundle** with both a server half (connects to MCP servers, registers their tools) and a client half (a settings UI in the web app).\n\nMade with DeepSeek V4 Flash.\n\n## Features\n\n- **stdio, streamable http, and legacy SSE** transports — one shared endpoint field, tabs in the UI\n- **Tools registered automatically** under `<serverId>_<toolName>` (e.g. server id `shadcn` → `shadcn_get_component`)\n- **Live status dots** — green when connected, red with the reason on failure; auto-reconnects with backoff when a connection drops (idle SSE streams, crashed processes)\n- **Test button** per card — probes connect + tool ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T17:35:50.255Z",
   "created_at": "2026-08-16T17:24:22.071Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 55,
-    "grade": "B"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:13.032Z"
+  "updated_at": "2026-08-17T04:27:46.474Z"
 }

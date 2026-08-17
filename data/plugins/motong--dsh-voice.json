@@ -39,26 +39,19 @@
   "engines": {
     "node": ">=18"
   },
+  "readme": "# @motong/dsh-voice\n\n[![npm](https://img.shields.io/npm/v/@motong/dsh-voice?style=flat-square&label=npm)](https://www.npmjs.com/package/@motong/dsh-voice)\n[![DeepSeek Harness 插件](https://img.shields.io/badge/DeepSeek%20Harness-DSH%20%E6%8F%92%E4%BB%B6-4a90d9?style=flat-square)](https://github.com/topics/dsh-plugin)\n[![GitHub](https://img.shields.io/github/stars/motongv/dsh-voice?style=flat-square&label=stars)](https://github.com/motongv/dsh-voice)\n[![license](https://img.shields.io/npm/l/@motong/dsh-voice?style=flat-square)](LICENSE)\n\n> 这是 **DeepSeek Harness（DSH）专属插件**，安装：`dsh plugin --profile web add @motong/dsh-voice`\n> English readers: [README.en.md](./README.en.md)\n\n给 **DeepSeek Harness（DSH / DeepSeek Hermes）** 加语音能力的社区插件，装完即用、**无需任何 API Key**：\n\n1. **语音输入**：输入框工具行多一个 🎤 麦克风按钮，点一下说话，识别出",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T17:48:15.390Z",
   "created_at": "2026-08-15T09:32:40.828Z",
-  "gh": {
-    "full_name": "motongv/dsh-voice",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T17:48:05Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 63,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:47.615Z"
+  "updated_at": "2026-08-17T04:27:54.835Z"
 }

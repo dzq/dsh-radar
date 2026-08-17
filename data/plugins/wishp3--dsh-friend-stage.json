@@ -22,26 +22,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-Friend Live2D stage\n\n`@wishp3/dsh-friend-stage` provides the standalone companion viewer at\n`/friend/pet`. Built-in models are **奶龙** (first-party Cubism 4.2 runtime zip\nextracted to `vendor/nailong/`) and official **Hiyori Momose - FREE** (downloaded\nafter the user accepts Live2D terms). Rendering uses PixiJS and\n`pixi-live2d-display`.\n\n## First run\n\n1. Start DSH with this package mounted.\n2. Open `http://127.0.0.1:<port>/friend/pet`.\n3. Read and accept the applicable official Live2D terms in the page, then\n   select **下载并启用 Live2D**.\n\nThe page downloads the Hiyori FREE model and the official Cubism 5 R5 Core to\n`$DSH_HOME/friend/vendor/` (or `~/.dsh/friend/vendor/` when `DSH_HOME` is not\nset). They are deliberately excluded from this package, Git, and npm. The\noriginal model `ReadM",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T05:39:33.745Z",
   "created_at": "2026-08-14T16:01:30.641Z",
-  "gh": {
-    "full_name": "wanghehe123/dsh-Friend",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T05:38:38Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 75,
+    "maintenance": 0,
+    "quality": 50,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 55,
-    "grade": "B"
+    "overall": 31,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:56.922Z"
+  "updated_at": "2026-08-17T04:27:44.325Z"
 }

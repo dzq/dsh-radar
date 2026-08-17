@@ -13,9 +13,7 @@
     "ast-grep",
     "tree-sitter",
     "code-quality",
-    "ai",
-    "coding-agent",
-    "webui"
+    "ai"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/NexusAgentX/dsh-lens.git",
@@ -39,26 +37,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# dsh-lens\n\nReal-time code feedback for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness): LSP, linters, formatters, type-checking, and structural analysis while the agent writes.\n\nCurrent release: **`dsh-lens@0.2.0`**.\n\nEnglish | [中文](#中文)\n\n## What it does\n\nThis is a host-native port of [pi-lens](https://github.com/apmantza/pi-lens). The analysis engine stays in `pi-lens`; this plugin is the DeepSeek Harness adapter.\n\nOn every `write` / `edit` / `bash` mutation it runs the same pipeline pi-lens uses inside Pi:\n\n1. format queue / safe autofix\n2. LSP file sync and diagnostics\n3. ast-grep, tree-sitter, fact rules, and language scanners\n4. cascade diagnostics on likely neighbors\n5. turn-end blockers and advisories injected into the next model request\n\nIt also registers the f",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T08:35:41.792Z",
   "created_at": "2026-08-14T02:21:51.925Z",
-  "gh": {
-    "full_name": "NexusAgentX/dsh-lens",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T08:34:18Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 63,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:43.707Z"
+  "updated_at": "2026-08-17T04:27:49.238Z"
 }

@@ -13,8 +13,7 @@
     "aeis",
     "lingshu",
     "multi-agent",
-    "spatiotemporal",
-    "knowledge-graph"
+    "spatiotemporal"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/FuRongJun-1999/dsh-memory.git",
@@ -29,26 +28,19 @@
   "engines": {
     "node": ">=18"
   },
+  "readme": "# 让 AI Agent 拥有不可遗忘的自我\r\n## 灵枢（AEIS）× DeepSeek Harness · AGI 的长期记忆基础设施\r\n\r\n> **一句话**：dsh-memory 让 DeepSeek Agent 拥有 **AGI 级别的长期记忆——跨会话、自演化、可审计**。\r\n\r\n这不是又一个\"记忆插件\"。灵枢（AEIS）是一套遵循「智能论 v3.2」协议的**时空记忆引擎**，它把当前大模型范式缺失的 AGI 能力逐一给了工程实现。\r\n\r\n---\r\n\r\n## ⚡ 三步快启（30 秒上手）\r\n\r\n```bash\r\n# ① 装灵枢大脑（一条命令，零外部依赖）\r\npip install aeis-0.3.0-py3-none-any.whl          # 或 git+ 在线安装\r\n\r\n# ② 克隆并启用插件\r\ngit clone https://github.com/FuRongJun-1999/dsh-memory.git\r\ncd dsh-memory\r\nnpm install && npm run build\r\n\r\n# ③ 在 DSH profile 配置 cordis.yml 启用\r\n```\r\n```yaml\r\n- id: lingshu-memory\r\n  name: '@furongjun1999/dsh-memory'\r\n  config:\r\n    dbPath: 'data/lingshu.db'\r\n    identity: '灵枢'\r\n    tools: 'brain'      # 'brain' 全心智 | 'core' 精选\r\n```\r\n\r\n> 从\"看\"到\"用\"，三条命令 + 一段配置。已兼容 DSH 官方列表（Memory 分类）与 npm `@furongjun1999/dsh-memory`。\r\n\r\n---\r\n\r\n## AG",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T23:34:06.653Z",
   "created_at": "2026-08-14T11:04:37.320Z",
-  "gh": {
-    "full_name": "FuRongJun-1999/dsh-memory",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T23:34:16Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 62,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:12.122Z"
+  "updated_at": "2026-08-17T04:27:47.744Z"
 }

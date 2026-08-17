@@ -33,19 +33,19 @@
     }
   },
   "engines": {},
+  "readme": "# Solarized-dsh-theme\n\n[English](README.md) | 中文\n\nDeepSeek Harness（dsh）的忠实 [Solarized](https://github.com/altercation/solarized)\n与 [Selenized](https://github.com/jan-warchol/selenized) 主题。它向 DSH 内置的\n主题运行时注册四套精选色板，并在 **设置 → 通用**（内置\"外观\"行下方）添加一个\n选择行：\n\n| id               | 模式  | 色板  |\n|------------------|--------|----------|\n| `solarized-dark` | 深色   | Solarized base03 |\n| `solarized-light`| 浅色   | Solarized base3 |\n| `selenized-dark` | 深色   | Selenized dark |\n| `selenized-light`| 浅色   | Selenized light |\n\n每个令牌都由源色板推导而来——色板家族之外没有任何颜色。Markdown 代码块还会\n获得规范的 Solarized / Selenized 语法配色（通过 `--shiki-*` 令牌），让代码保持\n其标志性的观感。\n\n选择 **默认** 会恢复内置外观并清除已存储的主题。\n\n## 安装\n\n从 GitHub 仓库安装：\n\n```sh\ndsh plugin --profile web add github:zhijun-dai/Solarized-dsh-theme\n```\n\n从本地检出安装（`-w` 标志必需——profile 目录是 pnpm workspace 根）：\n\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T04:18:10.220Z",
   "created_at": "2026-08-14T15:42:31.965Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:00:12.375Z"
+  "updated_at": "2026-08-17T04:27:47.695Z"
 }

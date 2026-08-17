@@ -29,26 +29,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-update-center\n\n[![npm version](https://img.shields.io/npm/v/dsh-update-center.svg)](https://www.npmjs.com/package/dsh-update-center)\n\nDeepSeek Harness 的本地更新中心：内置插件市场（浏览/搜索/一键安装/卸载/禁用），统一管理已装插件与 dsh 本体、profile 中的 npm/link 插件以及 agent preset 的更新。\n\n## 安装\n\n插件声明了 `dsh.bundle`（bundle patch 位于 `cordis.patch.yml`），构建产物随包分发，用官方 CLI 安装即可挂载为 profile 层。\n\n推荐 npm 安装（秒级，无需构建）：\n\n```bash\ndsh plugin --profile web add dsh-update-center\n```\n\n或从 GitHub 安装：\n\n```bash\ndsh plugin --profile web add github:Britneycode/dsh-update-center\n```\n\n本地开发时也可以 link 安装：\n\n```bash\ndsh plugin --profile web add link:<本插件目录>\n```\n\n安装后重启 dsh web，设置页会出现「更新中心」面板。不需要第三方注入器。\n\n## 插件市场\n\n- 注册表：本仓库根目录 [`plugins.json`](./plugins.json)（raw 直链拉取，可独立于插件发版更新），初始内容为 GitHub `topic:dsh-plugin` 星标前 500 + 本插件，共 501 条。\n- 增量扫描：后台每 12 小时扫描 GitHub `to",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T09:59:01.528Z",
   "created_at": "2026-08-16T09:41:04.804Z",
-  "gh": {
-    "full_name": "Britneycode/dsh-update-center",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-17T02:31:30Z",
-    "archived": false,
-    "license": "BSD-3-Clause"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 63,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:53.847Z"
+  "updated_at": "2026-08-17T04:27:44.322Z"
 }

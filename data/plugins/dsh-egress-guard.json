@@ -28,19 +28,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# dsh-egress-guard\n\n[English](README.md) | 中文\n\n给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 工具调用加的**运行时**安全网关。\n\n生态里已有的安全插件都是在 agent 跑起来**之前**静态扫描配置文件。这个插件挂在工具执行管线上，作用于调用本身：\n\n| 规则 | 扩展点 | 作用 |\n|---|---|---|\n| **出站白名单** | `tools/pre-execute` | 调用里出现白名单之外的网络目的地时拒绝（或转审批）——`curl` 到某个 paste 站、`git push` 到陌生远端、fetch 到外传端点。 |\n| **密钥脱敏** | `tools/post-execute` | 在模型、持久化会话日志、Code Mode 程序读到之前，把工具结果里的凭据改写掉。 |\n| **审计日志** | 两条瀑布 | 每个决策都追加成一行 JSONL，包括 `monitor` 模式下\"本来会拦\"的那些。 |\n\n不 fork、不改 loop：三个监听器挂在文档化的扩展点上，卸载时干净释放。\n\n## 安装\n\n```sh\ndsh plugin --profile <名字> add dsh-egress-guard\n```\n\nbundle 默认是 `mode: monitor`，所以**装上它不会弄坏你现有的配置**：所有规则照常评估、照常写审计日志，但不拦截、不改写。先看一天日志，再去 profile 的 `cordis.patch.yml` 里打开强制：\n\n```yaml\n- id: egress-guard\n  config:\n    mode: enforce\n    egress:\n      enabled:",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:37:15.720Z",
   "created_at": "2026-08-15T15:37:15.527Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 65,
-    "dsh_compat": 80,
-    "overall": 56,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 40,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:43.084Z"
+  "updated_at": "2026-08-17T04:27:49.231Z"
 }

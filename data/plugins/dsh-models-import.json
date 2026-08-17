@@ -29,26 +29,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-models-import\n\nEnglish | [中文](README.zh.md)\n\nA DeepSeek Harness (DSH) plugin that adds a \"**Models Pro**\" settings section with **capability-aware model import and editing** — the stock Models section stays untouched.\n\n- \"Fetch available models\" recognizes the `capabilities` extensions OpenAI-compatible gateways return in `/v1/models` (vision, reasoning/thinking, tools, search, thinking dialect, …) and adopts them into the imported model entries;\n- a model row's disclosure edits more than capacities — **can-think (with thinking levels)** and **accepts images** are editable beside context window and max output.\n\n## The problem it solves\n\nStock dsh model discovery reads only the plain OpenAI fields (`id`, `context_window`, `max_output_tokens`) and drops the gateway `capabilities` objec",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-17T00:14:10.825Z",
   "created_at": "2026-08-16T16:53:53.444Z",
-  "gh": {
-    "full_name": "Dudo-m/dsh-models-import",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-17T00:13:56Z",
-    "archived": false,
-    "license": "NOASSERTION"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 62,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:06.985Z"
+  "updated_at": "2026-08-17T04:27:44.343Z"
 }

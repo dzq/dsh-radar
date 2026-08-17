@@ -29,26 +29,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# dsh-opencode-go-usage\r\n\r\nDSH（DeepSeek Harness）插件：**OpenCode Go 套餐用量查询**。\r\n\r\n通过 `opencode_usage` 工具实时查询 [opencode.ai](https://opencode.ai/go) 官方用量 API，返回**滚动 5 小时 / 每周 / 每月**三个计费窗口的用量百分比与重置时间。一次查询 = 一次 HTTP 请求，不消耗任何模型额度。\r\n\r\n## 功能\r\n\r\n- `opencode_usage` agent 工具：查询三个窗口的用量百分比、状态、重置时间（本地时区展示）\r\n- **设置页「opencodego」卡片**：DSH 设置 → 插件 → opencodego，可直接填入自己的 API key（secret，不显示明文、留空不修改），并调整 key 来源 / 超时 / 代理等参数，保存即时生效，无需改任何文件\r\n- **侧边栏「用量」可视化面板**（客户端插件，无需构建步骤的手写 bundle）：\r\n  - 三条进度条（滚动 5 小时 / 每周 / 每月），按用量分级着色（<60% 绿 / 60-85% 黄 / ≥85% 红）\r\n  - 显示百分比、状态、重置倒计时、重置时刻；`⟳` 手动刷新，打开面板自动刷新；面板右上角 `✕` 随时关闭\r\n  - 与 SSH / 任务看板面板互斥（共享 `dsh-panel-activate` 事件与激活属性，自动互踢）\r\n- key 自动解析，通常**零配置**：\r\n  1. 插件设置里的 `apiKey`（secret）\r\n  2. 环境变量 `OPENCODE_GO_API_KEY` / `OPENCODE_API_KEY`\r\n  3. opencode 自己的认证文件 `~/.local/share/opencode",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T01:33:59.189Z",
   "created_at": "2026-08-14T08:25:30.240Z",
-  "gh": {
-    "full_name": "LTctfer/dsh-opencode-go-usage",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T01:38:25Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 60,
-    "grade": "B"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:07.981Z"
+  "updated_at": "2026-08-17T04:27:47.739Z"
 }

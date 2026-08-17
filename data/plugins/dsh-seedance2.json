@@ -26,19 +26,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# Seedance 2 DeepSeek Harness 插件\n\n[![npm](https://img.shields.io/npm/v/dsh-seedance2.svg)](https://www.npmjs.com/package/dsh-seedance2)\n[![DeepSeek Harness](https://img.shields.io/badge/DeepSeek-Harness-4D6BFE)](https://github.com/deepseek-ai/deepseek-harness)\n[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)\n\n`dsh-seedance2` 通过 Seedance 2 AI 自己的公开 API，让 DeepSeek Harness 同时\n具备生图和生视频能力：\n\n- 图片：Nano Banana Pro、Nano Banana 2 Lite、GPT Image 2\n- 视频：Seedance 2、Seedance 2.5\n- 查询：统一通过任务 ID 继续查询或等待\n\n插件工具：\n\n- `seedance2_generate_image`\n- `seedance2_generate_video`\n- `seedance2_get_task`\n- `seedance2_account_help`\n\n## 注册、充值和 API Key\n\n1. 打开 <https://seedance2ai.io/sign-up> 注册或登录。\n2. 打开 <https://seedance2ai.io/pricing> 购买积分。\n3. 打开 <https://seedance2ai.io/app/api> 创建和管理 API",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T09:37:58.573Z",
   "created_at": "2026-08-14T09:37:58.263Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:19.411Z"
+  "updated_at": "2026-08-17T04:27:46.948Z"
 }

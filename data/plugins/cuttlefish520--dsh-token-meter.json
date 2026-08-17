@@ -22,19 +22,19 @@
     }
   },
   "engines": {},
+  "readme": "# @cuttlefish520/dsh-token-meter\n\nDeepSeek Harness 的实时 Token 用量浮窗插件（供应商无关）。A real-time, provider-agnostic token usage dashboard for DeepSeek Harness — a draggable floating panel in the style of Claude Desktop.\n\n## 功能 Features\n\n- **供应商无关**：拦截 `llm/stream` 统一出口，任何走 Harness `llm` 服务的供应商（DeepSeek、OpenAI、Anthropic…）都会被统计；供应商返回官方 `usage` 时自动采用精确值，否则按字符数/4 估算。\n- **实时面板**：流式输出 token 实时跳动（呼吸灯），每 1 秒刷新。\n- **统计卡**：会话、消息、总 Token、活跃天数、当前/最长连续、高峰时段、最爱模型。\n- **分布**：按供应商 / 按模型的 Token 条形图 + 最近调用列表。\n- **交互**：\n  - 拖动位置（面板顶部标题栏）\n  - 调整大小（右下角手柄，最小 260×200）\n  - 最小化 / 展开（标题栏「—」/ 右上角胶囊）\n  - 重置统计（标题栏「重置」）\n  - 侧边栏底部常驻开关「⏱ Token 开/关」\n  - 全局快捷键 **`Ctrl/Cmd + Shift + M`** 一键显示/隐藏（自动避开输入框）\n\n## 安装 Install（已验证的正确方法）\n\nDeepSeek Harness 的 host 组合位于 **profile 根目录**，通常为：\n\n| 系统 | 路径 |\n| --- | --- |\n| Windows | `%USERPROFILE%\\.d",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T12:30:06.526Z",
   "created_at": "2026-08-15T11:52:00.513Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 47,
-    "grade": "C"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:13.950Z"
+  "updated_at": "2026-08-17T04:27:44.619Z"
 }

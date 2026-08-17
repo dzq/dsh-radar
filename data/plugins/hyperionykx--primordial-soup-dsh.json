@@ -19,19 +19,19 @@
   "dsh_compat": false,
   "dsh_meta": null,
   "engines": {},
+  "readme": "# @hyperionykx/primordial-soup-dsh\n\nDSH cordis 插件：把 [primordial-soup](https://github.com/Hyperionjust/Primordial-soup-)（首个撞击式记忆系统）以官方 npm 通道装进 DeepSeek Harness。\n\n**它只做一件事**：注册 `soup-memory` skill（运行时注册）——装这个包，机制指令集就绪，不用手动放 SKILL.md。跑脚本、登记台账、写卡等动作，由模型按 skill 指令用会话里**现成的 pwsh/bash 工具**完成，本插件不重复造工具。\n\n- `user-invocable`（不随窗口默认加载，用户显式点名「闪电/抽卡」「沉淀/存卡」才进场）\n- 范围守卫：仅当工作区是汤根（存在 `_氨基酸库/INDEX.md`）才生效\n\n## 安装\n\n在 agent preset 的 `cordis.yml` 加一行（消费 host `skills` registry、不 publish service，**无需 isolate realm**）：\n\n```yaml\n- id: soup-skill\n  name: '@hyperionykx/primordial-soup-dsh'\n```\n\n前提：composition 已挂载 `@deepseek-ai/dsh-skill`（skill registry，host 侧）与 `@deepseek-ai/dsh-tool-skill`（skill 加载工具）。\n\n## 用法\n\n1. 用户说「闪电 / 抽卡」→ 模型加载 `soup-memory` skill；\n2. 按 skill 正文 T1-T6 执行：跑抽样器（用 pwsh 工具跑 GitHub 仓库的 `scripts/闪电抽样",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T03:42:18.032Z",
   "created_at": "2026-08-14T03:42:17.730Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 40,
-    "grade": "C"
+    "overall": 29,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:16.944Z"
+  "updated_at": "2026-08-17T04:27:46.938Z"
 }

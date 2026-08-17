@@ -17,26 +17,19 @@
   "dsh_compat": false,
   "dsh_meta": null,
   "engines": {},
+  "readme": "# @maskshell/solidforge\n\nSolidForge on the DeepSeek Harness — the globally installed plugin face. Mounted\nthrough a dsh profile's user patch layer, it gives sessions of **any preset**:\n\n- the five SolidForge skills in the host skill layer (`/` menu + model catalog);\n- `/solidforge:<skill>` colon gestures (full names or `pd`/`bc`/`csr`/`psv`/`pas`)\n  with deterministic `<skill_content>` injection at the pre-step boundary —\n  the plugin-ecosystem answer to Claude Code's `/plugin:skill` addressing;\n- an additive `solidforge:discipline` system-prompt section (two-axis discipline\n  + the abbreviation map), enabled with `config: { persona: true }`.\n\nThe same package can be mounted as a **solidforge preset row**\n(`config: { commands: true, gestures: false, skills: false }`) to register the\n`/soli",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T10:09:05.129Z",
   "created_at": "2026-08-14T09:57:44.790Z",
-  "gh": {
-    "full_name": "maskshell/solidforge-dsh",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T10:21:40Z",
-    "archived": false,
-    "license": "Apache-2.0"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 50,
-    "grade": "C"
+    "overall": 29,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:45.894Z"
+  "updated_at": "2026-08-17T04:27:54.823Z"
 }

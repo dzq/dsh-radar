@@ -33,19 +33,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-npm\n\n[DeepSeek Harness](https://github.com/deepseek-ai/dsh) 的 NPM 包管理插件：查包信息、列版本、搜索 registry、发布包、标记弃用，全部可由 agent 直接完成。\n\n- **查询类工具**直接走 npm registry JSON API（不需要本地 npm，公共包无需认证）。\n- **发布 / 弃用**调用本地 `npm` CLI，复用你自己 `~/.npmrc` 的登录凭据——也可以在插件里配置一个 token。\n\n## 工具\n\n| 工具 | 用途 |\n|---|---|\n| `npm_status` | 插件状态：生效 registry、token 是否配置、本机 npm CLI 是否可用、配置路径 |\n| `npm_config` | 配置 registry 基础地址和/或 auth token（存 `~/.dsh/dsh-npm.json`，权限 0600）；`reset: true` 清除 |\n| `npm_info` | 包元数据：最新版本、dist-tags、描述、作者、license、主页、仓库、创建/更新时间、依赖摘要 |\n| `npm_versions` | 全部已发布版本及发布时间（dist-tags.latest 置顶）——发布前先查 |\n| `npm_search` | 按关键词搜索 registry（名称、描述、作者、相关度） |\n| `npm_publish` | 真实执行 `npm publish`：支持 `dir`、`tag`、`access`、`otp`、`registry`、`dryRun`、`force` |\n| `npm_deprecate` | 标记包/版本弃用（真实写入 registry，请谨慎） |\n\n## 安装\n\n```bash\n# 本地",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:30:42.792Z",
   "created_at": "2026-08-16T08:30:42.605Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:55:26.497Z"
+  "updated_at": "2026-08-17T04:27:46.983Z"
 }

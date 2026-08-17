@@ -27,19 +27,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# dsh-img\n\n给纯文本模型装上眼睛 · **Give text-only models eyes** — a [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugin that adds an `analyze_image` tool, bridging any text-only coding agent to a vision API.\n\n- 🇨🇳 **零成本开箱**：默认接智谱 **GLM-4V-Flash（免费）**，备选通义 **Qwen-VL（免费额度）**\n- 📦 **npm 一键安装**：纯 JavaScript、零构建步骤（对比 GitHub 源码类插件的手动构建）\n- 🔌 **任意端点**：`custom` 预设支持任何 OpenAI 兼容视觉端点（中转站 / 自建 vLLM / GPT-4o…）\n\n## 安装（Install）\n\n**前置条件**：Node.js ≥ 20；已装 dsh 本体（`npm i -g @deepseek-ai/dsh`，跑 `dsh web` 能开 http://127.0.0.1:3080 即可）；智谱免费 key 一分钟申请：https://open.bigmodel.cn/\n\n**① 装插件（一条命令）**\n\n```sh\ndsh plugin --profile web add dsh-img\n```\n\n它会在 `~/.dsh/profiles/web/` 里执行 pnpm 安装并登记 bundle。如果报\"找不到版本\"，是 npm 镜像同步延迟，绕开镜像走官方源：\n\n```sh\ncd ~/.dsh/profiles/web && pnpm add dsh-img --registry https://regis",
   "weekly_downloads": 74,
-  "monthly_downloads": 74,
   "last_publish": "2026-08-14T18:31:20.954Z",
   "created_at": "2026-08-14T16:04:48.215Z",
   "gh": null,
   "scores": {
     "popularity": 47,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 64,
-    "grade": "B"
+    "overall": 49,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:44.622Z"
+  "updated_at": "2026-08-17T04:27:44.283Z"
 }

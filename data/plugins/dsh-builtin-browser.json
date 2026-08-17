@@ -22,6 +22,7 @@
   "engines": {
     "node": ">=22.19"
   },
+  "readme": "<p align=\"center\">\n  <img src=\"https://img.shields.io/github/stars/wqty123/dsh-browser?style=flat&amp;label=%E2%98%85&amp;color=08C\" alt=\"GitHub stars\">\n  <img src=\"https://img.shields.io/npm/v/dsh-builtin-browser?style=flat&amp;label=npm&amp;color=CB3837\" alt=\"npm version\">\n  <img src=\"https://img.shields.io/badge/license-MIT-2EA44F?style=flat\" alt=\"MIT License\">\n  <img src=\"https://img.shields.io/badge/DSH-Plugin-47848F?style=flat\" alt=\"DeepSeek Harness plugin\">\n  <img src=\"https://img.shields.io/badge/Platform-Windows-4493F8?style=flat-square\" alt=\"Platform: Windows (verified)\">\n</p>\n\n<p align=\"center\"><sub>中文 · <a href=\"README.en.md\">English</a></sub></p>\n\n<h3 align=\"center\">为 DeepSeek Harness 生态打造的<b>共享真实浏览器</b>插件（装好即用，人机同页）</h3>\n\n<h4 align=\"center\">agent 驱动一个真实、可见、可随时人工接管的浏览器——人与 age",
   "weekly_downloads": 1808,
   "last_publish": "2026-08-15T21:48:30.045Z",
   "created_at": "2026-08-14T19:01:44.811Z",
@@ -29,11 +30,11 @@
   "scores": {
     "popularity": 81,
     "maintenance": 0,
-    "quality": 90,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 61,
+    "overall": 58,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T03:56:16.321Z"
+  "updated_at": "2026-08-17T04:27:44.198Z"
 }

@@ -34,19 +34,19 @@
     "node": "^22.19.0 || >=24.0.0",
     "pnpm": ">=10"
   },
+  "readme": "# Vision Mix\n\n[![npm](https://img.shields.io/npm/v/dsh-vision-mix?color=cb3837)](https://www.npmjs.com/package/dsh-vision-mix)\n![License](https://img.shields.io/badge/license-MIT-22a06b)\n![DeepSeek Harness](https://img.shields.io/badge/DeepSeek_Harness-plugin-6f5cff)\n\nVision Mix 是 DeepSeek Harness 的视觉增强插件。它把文本模型、视觉模型和可选的图片生成 API 组合成一个 `Mix` 模型，让原本不支持图片的 Agent 能识别上传图片、理解网页截图、持续追问图片内容，并生成或编辑图片。\n\n模型的 Base URL、协议和 API Key 仍由 DSH 的“设置 → 模型”统一管理。Vision Mix 只引用已经配置好的 Provider，不复制凭据。\n\n## 三分钟上手\n\n### 1. 安装\n\n在 DeepSeek Harness 仓库目录执行：\n\n```powershell\npnpm dsh plugin --profile web add dsh-vision-mix\n```\n\n启动 Web：\n\n```powershell\npnpm dsh web\n```\n\n安装后的正常启动不需要 `--patch`。\n\n### 2. 配置准备使用的模型\n\n打开“设置 → 模型”，配置至少两个模型：\n\n| 用途 | 要求 | 示例 |\n|---|---|---|\n| 基础模型 | 能处理文本、推理和工具调用 | `deepseek-chat`、`deepseek-v4-pro` |\n| 识",
   "weekly_downloads": 255,
-  "monthly_downloads": 255,
   "last_publish": "2026-08-15T19:03:05.439Z",
   "created_at": "2026-08-15T17:59:22.408Z",
   "gh": null,
   "scores": {
     "popularity": 60,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 69,
-    "grade": "B"
+    "dsh_compat": 80,
+    "overall": 54,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:35.783Z"
+  "updated_at": "2026-08-17T04:27:44.260Z"
 }

@@ -20,8 +20,8 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-wechat-mp\n\n[English](README.md) | 中文\n\n一个 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 插件:把 markdown 变成排好版的微信公众号**草稿**。\n\n> 「把 `~/posts/why-inline-css.md` 用 grace 主题发到草稿箱。」\n\nagent 负责渲染文章、上传图片、创建草稿。**不做群发**——发送这一步留给你在公众平台后台确认。\n\n## 为什么需要它\n\n公众号编辑器会把 `<style>` 块和 class 名整个扔掉,还会过滤掉所有不在 `mmbiz.qpic.cn` 上的图片。所以「把 HTML 粘进去」是行不通的,引用自己图床的文章也一样。这个插件替你干那两件无聊又容易错的事:**把每条样式内联到元素上**,以及**让每张图都走微信自己的上传接口**。\n\n## 两层,只有一层需要账号\n\n| 层 | 要凭据吗 | 得到什么 |\n|---|---|---|\n| **排版层**(`mp_render`) | 不要 | 内联样式的 HTML + 本地预览页,可以手动粘进后台编辑器 |\n| **API 层**(`mp_upload_image`、`mp_create_draft`、`mp_list_drafts`) | 要 | agent 直接把草稿建好 |\n\n如果你的公众号调不了草稿箱接口——未认证的个人订阅号经常如此,见[公众号类型](#公众号类型)——排版层照样能用,而且这部分本身就值。\n\n## 安装\n\n```bash\ndsh plugin --profile web add dsh-wechat-mp\n```\n\n照常启动 dsh,`mp_render` 立刻可用。\n\n## 凭据\n\nAPI 层读两个凭",
   "weekly_downloads": 278,
-  "monthly_downloads": 278,
   "last_publish": "2026-08-15T16:07:37.463Z",
   "created_at": "2026-08-15T14:56:43.171Z",
   "gh": {
@@ -34,12 +34,12 @@
   },
   "scores": {
     "popularity": 61,
-    "maintenance": 99,
-    "quality": 90,
+    "maintenance": 39,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 76,
-    "grade": "A"
+    "overall": 61,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T03:50:33.731Z"
+  "updated_at": "2026-08-17T04:27:44.254Z"
 }

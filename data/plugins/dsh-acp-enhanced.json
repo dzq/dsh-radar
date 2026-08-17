@@ -26,19 +26,19 @@
     }
   },
   "engines": {},
+  "readme": "**[English](README-en.md) | 中文**\n\n# dsh-acp-enhanced\n\n面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（dsh）的增强版\n[Agent Client Protocol](https://agentclientprotocol.com)（ACP）服务器，为 **Zed** 等 ACP\n编辑器设计。它是官方 `@deepseek-ai/dsh-acp` 桥接器的即插即用替代品：官方桥只做纯文本\n输出，本桥把 Web GUI 的能力（流式、遥测、模型/权限控制、会话管理、MCP）全部暴露到\nACP 线上。\n\n## 特性\n\n### 输出与遥测\n\n- **块级流式 + 推理流式**：文本块与思考过程实时到达（`agent_message_chunk` /\n  `agent_thought_chunk`），取消/重试不留半截输出\n- **完整遥测**：上下文用量环 + 缓存命中率 / TPS / 输入-输出-推理 token / 工具耗时 /\n  轮次计数（`usage_update._meta` 携带全量明细）\n\n### 模型与权限\n\n- **模型切换**：实时 `provider/model` 目录下拉（按 ACP 规范分组线格式）\n- **推理强度**：`reasoning_effort` 下拉——仅当当前路由暴露可选 efforts 时出现\n- **权限预设**：read-only / workspace-write / full-access 三种会话模式\n- **审批**：工具调用弹出原生 allow-once / reject-once 审批\n\n### Zed 深度集成\n\n- **工具卡片**：展开可见每次调用的完整参数与结果预",
   "weekly_downloads": 390,
-  "monthly_downloads": 390,
   "last_publish": "2026-08-16T00:27:31.744Z",
   "created_at": "2026-08-15T14:34:53.583Z",
   "gh": null,
   "scores": {
     "popularity": 65,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 65,
     "dsh_compat": 75,
-    "overall": 71,
-    "grade": "A"
+    "overall": 56,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T03:50:31.478Z"
+  "updated_at": "2026-08-17T04:27:44.249Z"
 }

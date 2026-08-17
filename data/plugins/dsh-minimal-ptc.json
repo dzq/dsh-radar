@@ -13,9 +13,7 @@
     "deepseek",
     "llm-agent",
     "minimal",
-    "ptc",
-    "we-lets",
-    "chain-of-thought"
+    "ptc"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/STARDUSTLC666/dsh-minimal-ptc.git",
@@ -30,19 +28,19 @@
   "engines": {
     "node": ">=18"
   },
+  "readme": "# dsh-minimal-ptc\n\n> 极简提示词 × PTC 全能力 —— 一个更\"干净\"的编码 Agent。\n> 安装即获得新的 Agent 模式：**极简 PTC 模式**；Windows 自动启用 Git Bash，bash 工具与 RL 训练分布对齐。\n\n## 卖点\n\n- **对齐 RL 训练**：系统提示词只有一句 `You are a helpful software engineer assistant.`，\n  贴近 RL 微调时的简洁指令分布，没有长提示词带来的格式偏置与上下文噪音，\n  让模型按训练时的节奏干活。\n- **工具完整**：完整继承 PTC 模式的全部工具 —— Code Mode SDK 多步编排、\n  文件读写与检索、Shell、Skills、计划、目标、子代理、工作流，一个不少。\n- **We / Let's 思维链**：Code Mode SDK 把\"想\"和\"做\"装进一个 TypeScript 程序，\n  多步操作先编排、再一次执行。这与 DeepSeek 官方跑分环境（Project2 V4.1b）中\n  Minimal 高分轨迹一致：99/96 的两跑以 `we` / `let's` 为主，而不是\n  Standard/PTC 常见的 `let me` / `I` 长块。\n- **Windows 保持 bash**：预设内置 Git Bash executor（自动探测 GIT_BASH → Program Files\\Git → LOCALAPPDATA\\Git → PATH），`bash` 工具不再在 Windows 上被禁用；pwsh 仍保留为备用。\n\n## 安装\n\n1. 把本包加入 web profile（`package.json`）：\n\n   ```json\n   \"dependencies\": { \"dsh-mi",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T13:30:27.872Z",
   "created_at": "2026-08-16T13:30:27.672Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 51,
-    "grade": "C"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:11.194Z"
+  "updated_at": "2026-08-17T04:27:46.471Z"
 }

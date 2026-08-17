@@ -28,26 +28,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-cost-balance-pro\n\nDSH 插件：输入框下方**可见文字**的会话花费/余额统计条，带设置页与一键还原。\n\n## 能力\n\n- 折叠态直接显示 **余额（¥）· 本次花费（$）**，点击展开明细（缓存命中 / Token / 花费 / 余额）\n- **设置页**（设置 → 插件 → 余额统计条）：显示开关（余额/花费/命中率）、字号（10–16px）、颜色（跟随主题/灰色/自定义取色器）、**一键还原**\n- 配置持久化于 `$DSH_HOME/dsh-cost-balance-pro.json`，重启保留，保存后统计条即时刷新\n\n## 设置页字段\n\n| 字段 | 类型 | 默认值 | 说明 |\n|---|---|---|---|\n| `showBalance` | boolean | `true` | 折叠态显示余额 |\n| `showCost` | boolean | `true` | 折叠态显示本次花费 |\n| `showHitRate` | boolean | `true` | 展开面板显示缓存命中率 |\n| `fontSize` | number | `12` | 折叠态字号，限制 10–16 |\n| `colorMode` | enum | `auto` | `auto` 跟随主题 / `mono` 灰色 / `custom` 自定义 |\n| `customColor` | string | `#8b5cf6` | `colorMode=custom` 时的文字颜色（#RRGGBB） |\n\n## 相对 dsh-cost-balance 的修复\n\n1. 槽位注册 id 改为唯一 `cost-balance-pro`，不再与官方统计栏冲突（原版同槽同 id 同 priority 会挂掉整个前端）；\n2. `ctx` 经 props 传入组件",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T23:39:47.100Z",
   "created_at": "2026-08-15T22:56:51.701Z",
-  "gh": {
-    "full_name": "kingcharleslzy-ai/dsh-cost-balance-pro",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T23:39:31Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 61,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:43.342Z"
+  "updated_at": "2026-08-17T04:27:49.235Z"
 }

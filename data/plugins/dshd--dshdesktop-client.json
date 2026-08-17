@@ -24,19 +24,19 @@
     }
   },
   "engines": {},
+  "readme": "# dshdesktop-client\n\n![dshdesktop-client](assets/social-preview.png)\n\n<p align=\"center\">\n  <strong>简体中文</strong> | <a href=\"README.en.md\">English</a>\n</p>\n\n<p align=\"center\">\n  <strong>DSH Desktop 的官方 client 插件：把「插件市场」和「DSH Desktop 设置」装进 dsh web 侧栏。</strong><br>\n  市场发现、安装、更新、启停一次搞定，配置面板与桌面端共享同一套 host bridge。\n</p>\n`dshdesktop-client` 通过 dsh 官方 slots 机制注入两个入口：\n\n- 侧栏**设置按钮上方**注入「插件市场」按钮（`sidebar.footer.action`），点击打开页内市场面板；\n- dsh 设置面板新增「DSH Desktop」区（`settings.section`），展示软件介绍与 dshd 配置。\n\n所有能力通过 `chrome.webview.hostObjects.dshdesktop` 与 DSH Desktop 主窗口通信（GitHub 发现、`dsh plugin` 安装、环境/配置读写都在 host 侧完成），**浏览器侧不做特权操作**。\n\n## 市场面板\n\n![市场面板：发现 tab 的搜索 + 分类卡片 + 详情侧栏](assets/market-discover.png)\n\n### 发现\n\n- **来源**：GitHub topic 搜索（默认 `dsh-plugin` / `dsh-plugins`，配置可改）+ 社区收录目录（seed catalog），按 star 排序、去重、本地缓存",
   "weekly_downloads": 252,
-  "monthly_downloads": 252,
   "last_publish": "2026-08-15T17:01:45.039Z",
   "created_at": "2026-08-15T13:57:50.114Z",
   "gh": null,
   "scores": {
     "popularity": 60,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 65,
-    "grade": "B"
+    "overall": 51,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:36.810Z"
+  "updated_at": "2026-08-17T04:27:44.260Z"
 }

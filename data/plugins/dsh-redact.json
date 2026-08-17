@@ -24,19 +24,19 @@
     "node": ">=22.18.0",
     "pnpm": ">=11 <12"
   },
+  "readme": "# dsh-redact\n\nFail-closed canonical tool-output tokenization for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).\n\n`dsh-redact` replaces common credentials with opaque, Agent-scoped tokens before the final tool result reaches model context or durable Session history. It replaces the successful canonical value through `tools/post-execute`, so Harness validates the replacement against the tool's declared output schema and renders model content from the accepted value again.\n\n```text\npassword=FAKE_PASSWORD\n\n→ password=⟦dsh:redact:550e8400-e29b-41d4-a716-446655440000⟧\n```\n\nThe token mapping exists only in process memory. Agent disposal clears it, and a restart makes old tokens intentionally unrestorable.\n\n## Install\n\nFrom a Harness environment:\n\n```sh\ndsh plugin --profile w",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T03:22:25.083Z",
   "created_at": "2026-08-15T03:18:28.358Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:20.233Z"
+  "updated_at": "2026-08-17T04:27:46.951Z"
 }

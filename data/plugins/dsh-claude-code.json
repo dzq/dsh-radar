@@ -22,19 +22,19 @@
     }
   },
   "engines": {},
+  "readme": "[![dsh-plugin](https://img.shields.io/badge/dsh--plugin-blue?logo=github)](https://github.com/topics/dsh-plugin) [![npm](https://img.shields.io/npm/v/dsh-claude-code)](https://www.npmjs.com/package/dsh-claude-code) [![license](https://img.shields.io/badge/license-MIT-green)](LICENSE)\n\n# dsh-claude-code\n\n一个 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 工具插件：把**自包含的编码子任务**委派给**本地 Claude Code 订阅**执行，结果回传给 DSH。DSH 是 leader，Claude Code 是 worker。\n\n- 走官方 [Claude Agent SDK](https://www.npmjs.com/package/@anthropic-ai/claude-agent-sdk)，驱动 `claude` CLI，**不提取任何 OAuth token**，合规使用订阅。\n- 内置 **claude-code-delegation skill**（Leader-Worker 委派 SOP），装好即出现在技能目录。\n- 支持 **resume** 跨轮记忆：把上次返回的 `sessionId` 传回，Claude Code 会记住之前的上下文，适合多轮迭代。\n\n## 安装（用户侧）\n\n```bash\n# 方式一（最简单，自动接线）：通过 dsh 插件命令安装\ndsh",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T13:27:50.372Z",
   "created_at": "2026-08-16T13:12:40.726Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 53,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:31.292Z"
+  "updated_at": "2026-08-17T04:27:46.977Z"
 }

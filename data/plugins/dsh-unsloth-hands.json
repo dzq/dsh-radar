@@ -27,26 +27,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "<div align=\"center\">\r\n\r\n# Unsloth for DeepSeek Harness\r\n\r\n**`dsh-unsloth-hands`** — 给 DeepSeek Harness 的智能体一双本地的手。\r\n\r\n[![English README](https://img.shields.io/badge/English-Switch-green?style=for-the-badge&logo=readme)](README.md)\r\n\r\n[![version](https://img.shields.io/badge/version-0.1.0-blue)](https://github.com/MicroHEROX/dsh-unsloth-hands/releases)\r\n[![license](https://img.shields.io/badge/license-MIT-green)](LICENSE)\r\n[![node](https://img.shields.io/badge/node-%3E%3D20-339933)](https://nodejs.org)\r\n[![harness](https://img.shields.io/badge/DeepSeek%20Harness-0.1.0--rc-4D6BFE)](https://github.com/deepseek-ai/deepseek-harness)\r\n[![unsloth](https://img.shields.io/badge/Unsloth%20Desktop-any%20recent-F7B500)](https://unsloth.ai)\r\n\r\n</div>\r\n\r\n一个为 [DeepSeek Harness](https://github.com/deepse",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T05:07:04.553Z",
   "created_at": "2026-08-15T05:07:04.355Z",
-  "gh": {
-    "full_name": "MicroHEROX/dsh-unsloth-hands",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T05:23:13Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 62,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:56.310Z"
+  "updated_at": "2026-08-17T04:27:44.324Z"
 }

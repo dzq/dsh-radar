@@ -33,19 +33,19 @@
   "engines": {
     "node": "^22.19.0 || >=24"
   },
+  "readme": "# dsh-dock\n\n[English](README.md) | 中文\n\n> 面向 DeepSeek Harness Web UI、由插件自行拥有的停靠系统。它为浏览器插件提供稳定的 keyed 面板 slot 和 `ctx.dock` 服务，无需修改 Harness 仓库。\n\n[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![dsh-plugin](https://img.shields.io/badge/DeepSeek%20Harness-dsh--plugin-4b6fff)](https://github.com/topics/dsh-plugin)\n\n![面板并排停靠的 dock 工作台](https://raw.githubusercontent.com/mattismegevand/dsh-dock/main/assets/dock-workbench.png)\n\n## 功能\n\n- 支持左侧、右侧、底部和浮动面板，并可将同一区域的面板组成标签组。\n- 支持指针与键盘调整大小、拖动标题栏、边缘预览以及 `Alt+Shift+方向键` 停靠。\n- 支持延迟分离子项，并在拖动取消时回滚。\n- 按会话保存带版本的 `localStorage` 布局，并限制保留的 scope 数量。\n- 在低于配置的紧凑断点时折叠侧边面板。\n- 面板移动、隐藏或切换标签时保持组件挂载。\n- 提供会话标题栏启动器，以及供多面板功能使用的逻辑启动器组。\n\n## 面板 API\n\n先通过 `ctx.dock` 注册元数据，再使用相同 id 向 keyed `dock.panel` slot 提供内容：\n\n```ts\nconst disposePanel = ctx.dock.re",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T14:34:16.098Z",
   "created_at": "2026-08-16T14:34:15.712Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 52,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:54:16.443Z"
+  "updated_at": "2026-08-17T04:27:46.982Z"
 }

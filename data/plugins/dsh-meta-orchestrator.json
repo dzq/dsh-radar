@@ -23,19 +23,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "<div align=\"center\">\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/jiruidai/dsh-meta-orchestrator/main/assets/banner-dark.svg\">\n  <img src=\"https://raw.githubusercontent.com/jiruidai/dsh-meta-orchestrator/main/assets/banner-light.svg\" alt=\"dsh-meta-orchestrator — The model is the orchestrator\" width=\"760\">\n</picture>\n\n<br>\n\n[![CI](https://github.com/jiruidai/dsh-meta-orchestrator/actions/workflows/ci.yml/badge.svg)](https://github.com/jiruidai/dsh-meta-orchestrator/actions/workflows/ci.yml)\n[![npm](https://img.shields.io/npm/v/dsh-meta-orchestrator.svg)](https://www.npmjs.com/package/dsh-meta-orchestrator)\n[![Tests](https://img.shields.io/badge/tests-46%20passing-2ea44f.svg)](tests)\n[![License: MIT](https://img.shields.io/badge/license-",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T07:02:02.419Z",
   "created_at": "2026-08-14T07:02:02.233Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 40,
     "dsh_compat": 75,
-    "overall": 51,
-    "grade": "C"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:09.232Z"
+  "updated_at": "2026-08-17T04:27:44.597Z"
 }

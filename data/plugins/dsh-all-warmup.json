@@ -23,19 +23,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# All-WarmUp\n\n全局\"无感提升\"热身层插件（DeepSeek Harness）。\n\n任何会话（任何非极简模式、所有层 subagent、压缩后）都自动走同一套流程：\n\n```\n用户发第一条真实消息\n  ↓\n插件偷偷发起一次独立热身调用（Minimal 人设 + bash/str_replace_editor + \"你是谁\"）\n  ↓\n真实消息轮：只有极简工具对 + 白名单消息（正文只多一个折叠的\"热身\"条目）\n  ↓\n模型回复 → 提升\n  ↓\n第二轮起：完整原模式一切照旧\n```\n\n## 安装\n\n### 方式一：bundle 安装（推荐）\n\n```sh\ndsh plugin --profile web add dsh-all-warmup\n```\n\n或从 GitHub 直接安装：\n\n```sh\ndsh plugin --profile web add github:brunhildzhou/dsh-all-warmup\n```\n\n### 方式二：手动挂载\n\n- 位置：`$DSH_HOME/profiles/web/all-warmup/`（6 个文件 + 测试）\n- 挂载：`$DSH_HOME/profiles/web/cordis.patch.yml` 一行 insert\n- 生效方式：配置文件保存后自动热重载（官方 watchUserPatches 契约），无需重启\n- 官方包零修改\n\n## 卸载\n\n删掉 `cordis.patch.yml` 里 all-warmup 那一行（或删除文件）→ 保存即失效。\n\n## 配置\n\n```yaml\n- insert:\n    - id: all-warmup\n      name: dsh-all-warmup\n      config:\n        excludePresets: [minimal]   # 排",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T17:53:38.527Z",
   "created_at": "2026-08-15T17:53:38.344Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:00.208Z"
+  "updated_at": "2026-08-17T04:27:44.329Z"
 }

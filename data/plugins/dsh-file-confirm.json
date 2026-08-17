@@ -32,19 +32,19 @@
   "engines": {
     "node": ">=18"
   },
+  "readme": "# dsh-file-confirm — 文件改动确认机制\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n[![npm](https://img.shields.io/npm/v/dsh-file-confirm)](https://www.npmjs.com/package/dsh-file-confirm)\n[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n\n双面插件：**任何文件改动（write / edit / str_replace_editor 的写命令）执行前，都会在\n输入区出现确认条，确认条内直接展示 diff 红绿文本**（新建全绿、编辑红删绿增）；\n用户点「允许本次」才放行，点「拒绝」则该次工具调用以失败结束（模型能看到拒绝原因并调整）。\n\n## 演示效果\n\n![文件改动确认演示](showtime.png)\n\n## 使用流程\n\n```\n模型调用 write / edit / str_replace_editor\n  → 确认条弹出（标题 + 文件路径 + 内嵌 diff 红绿预览）\n  → 你点「允许本次」→ 工具执行，文件写入\n  → 你点「拒绝」   → 工具失败，模型收到拒绝原因并调整\n```\n\n- 只拦文件写操作；`read`、搜索、bash 等不受影响\n- 其他工具的审批（如 bash 沙箱升级）仍走内置面板\n- 长文本 diff 不截断，块内滚动查看\n\n## 文档\n\n- [Changelog](CHANGELOG.md)\n- [测试说明](TESTING.md)\n\n## 与生态对比\n\n| 插件 |",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T14:55:29.207Z",
   "created_at": "2026-08-16T14:49:23.845Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 55,
-    "grade": "B"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:10.584Z"
+  "updated_at": "2026-08-17T04:27:46.470Z"
 }

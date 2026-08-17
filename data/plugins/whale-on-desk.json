@@ -28,19 +28,19 @@
     }
   },
   "engines": {},
+  "readme": "# whale-on-desk 🐳\n\nEnglish | [中文](docs/README.zh.md)\n\n**A pixel-art whale companion for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).**\nIt swims while your agents work, blows bubbles for tool calls, and taps the glass when an approval is waiting.\n\n![status](https://img.shields.io/badge/status-early%20preview-orange) ![license](https://img.shields.io/badge/license-MIT-blue) ![dsh](https://img.shields.io/badge/DSH-plugin-4D6BFE)\n\n<!-- demo gif placeholder: docs/demo.gif — add once glass-tap art lands -->\n\n## What it does\n\nThe whale lives in the corner of your DeepSeek Harness web UI and reacts to what your agents are doing:\n\n| Agent activity | Whale reaction |\n|---|---|\n| Turn running | swims fast 🏊 |\n| Model streaming | thinks along, thought bubble 💭 |\n| Tool call ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T14:44:53.027Z",
   "created_at": "2026-08-16T13:20:00.914Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 54,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:10:57.582Z"
+  "updated_at": "2026-08-17T04:27:47.735Z"
 }

@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-feishu-remote",
+  "name": "dsh-feishu-remote",
+  "version": "0.1.0",
+  "description": "Control your DeepSeek Harness agent from Feishu/Lark: DM a task, a DSH agent runs it with your LLM, and the answer comes back to the chat. Image understanding, image generation round-trip, feishu_send tools, resident launcher. Powered by lark-cli.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "feishu",
+    "lark",
+    "remote",
+    "mobile",
+    "bot",
+    "im"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/ShiXiangYu2/dsh-feishu-remote.git",
+  "homepage": "https://github.com/ShiXiangYu2/dsh-feishu-remote#readme",
+  "npm": "https://www.npmjs.com/package/dsh-feishu-remote",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "readme": "# 📱 DSH Feishu Remote\n\n> Control your [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) agent from **Feishu / Lark** on your phone. Send a task by DM — get the result back in chat. **Fully working closed loop.**\n\n[![dsh-plugin](https://img.shields.io/badge/dsh-plugin-4d7fff)](https://github.com/topics/dsh-plugin) [![DeepSeek Harness](https://img.shields.io/badge/deepseek--harness-plugin-4d7fff)](https://github.com/deepseek-ai/deepseek-harness) [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)\n\n## ✨ What it does\n\n- 📨 **Feishu → Agent → Feishu**: DM your bot a task (e.g. `2+3等于几？`), a DSH agent runs it with your configured LLM, and the **answer comes back to the chat**.\n- 🖼️ **Image understanding**: send a screenshot or photo — it's downloaded an",
+  "weekly_downloads": 0,
+  "last_publish": "2026-08-16T10:41:27.957Z",
+  "created_at": "2026-08-16T10:41:27.745Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:27:55.632Z"
+}

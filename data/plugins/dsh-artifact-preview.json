@@ -25,26 +25,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-artifact-preview\n\n[English](README.md) · [中文](README.zh-CN.md)\n\n为 **DeepSeek Harness (DSH)** 提供 Codex 风格的产物预览。\n\n`dsh-artifact-preview` 是一个客户端插件（`dsh.client.platform: \"web\"`），让产出的文件在对话中直接可见、可检查：\n\n- **对话内产物卡片行** —— agent 写完文件后，消息末尾会出现\"产物\"行：按类型着色的卡片（Markdown 蓝 / 代码 绿 / CSV 青 / JSON 琥珀 / 图片 粉 / HTML 橙 / 文档 灰），**图片卡片内嵌缩略图**；点击任意卡片打开侧边预览。\n- **分屏侧边预览面板** —— 可拖宽的真分屏右侧面板（对话内容完整可见、不被遮挡），支持渲染：\n  - **Markdown** → 富文本（标题、表格、列表、代码块、链接、图片；相对路径本地图片自动解析）\n  - **源代码**（`.py .js .ts .sh .css …`）→ 深色语法高亮\n  - **CSV** → HTML 表格\n  - **JSON** → 可折叠树\n  - **图片**（`.png .jpg .gif .webp .svg …`）→ 棋盘格衬底居中\n  - **HTML / 本地端口** → iframe（含开发服务器端口 chips、地址栏、后退/前进/刷新、外部打开）\n- 全局钩子（`window.__dshOpenFilePreview` / `__dshCanPreviewPath`），其他插件可把\"打开文件\"意图路由进预览面板。\n\n## 安装\n\nDSH Web 的 **设置 → 插件 → 市场**（搜索 `dsh-artifact-preview`），或命令",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T10:29:30.492Z",
   "created_at": "2026-08-15T10:13:10.249Z",
-  "gh": {
-    "full_name": "nirvanaslash/dsh-artifact-preview",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T10:29:28Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 57,
-    "grade": "B"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:11.302Z"
+  "updated_at": "2026-08-17T04:27:47.742Z"
 }

@@ -21,26 +21,19 @@
   "dsh_compat": false,
   "dsh_meta": null,
   "engines": {},
+  "readme": "# dsh-plugins-raincode\n\n让 **raincode** 成为 **DeepSeek Harness(dsh)** 的模型层:低价模型池 + StablePrefix\n提示缓存 + 重试/故障转移,由本地 OpenAI 兼容 gateway 驱动。在 dsh 里你可以从\nraincode 模型池里任意选模型,并用 `/skills` 浏览 raincode 的 skill 库。\n\n插件是「嘴」——把 dsh 的 `GenerateOptions` 翻译成 OpenAI wire 发给 raincode\ngateway,再把 OpenAI chunk 翻译回 dsh `StreamChunk`;raincode gateway(Rust)是\n「脑」,持有 profile 选择、缓存与重试。插件不持有任何模型逻辑。\n\n## 前置条件\n\n1. **安装 raincode**(≥ 0.1.0,含 gateway 的 `/v1/models` 与 `/skills`):\n\n   ```bash\n   cd raincode\n   cargo install --path crates/rc-cli\n   # 或用 ./install.sh\n   ```\n\n2. **配置 profile(模型池)**:\n\n   ```bash\n   raincode setup\n   # 写入 ~/.raincode/profiles.toml\n   ```\n\n3. **启动 gateway**(保持运行):\n\n   ```bash\n   raincode proxy --port 8787\n   ```\n\n   验证:`curl http://127.0.0.1:8787/health` → `{\"ok\":true,\"service\":\"raincode-gateway\"}`。\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T01:57:25.454Z",
   "created_at": "2026-08-14T01:57:25.119Z",
-  "gh": {
-    "full_name": "rainforest888/dsh-plugins-raincode",
-    "stars": 3,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T23:29:19Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 50,
-    "grade": "C"
+    "overall": 29,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:49.948Z"
+  "updated_at": "2026-08-17T04:27:44.312Z"
 }

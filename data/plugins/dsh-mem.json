@@ -24,19 +24,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-mem — 跨会话记忆能力接缝\n\n一个面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)(dsh)的**树外 bundle 插件**,实现完整的**能力接缝**(capability seam)三件套:Service Definition + Service Provider + Consumer(模型工具)。它给 Agent 提供跨会话的长期记忆:`memory_save` / `memory_recall` / `memory_forget` / `memory_list` 四个工具,把事实、偏好、决策存入 `$DSH_HOME/memory/memory.json`,任何会话都能检索。\n\n## 接缝三件套\n\n| 角色 | 模块 | 挂载行 | 说明 |\n|---|---|---|---|\n| Service Definition | `src/memory.ts`(`dsh-mem/memory`) | —(不是插件行) | 抽象类 `MemoryService`,声明 `ctx.memory` 契约与类型;直接加载会报错 |\n| Service Provider | `src/provider.ts`(`dsh-mem/provider`) | `memory` | `MemoryFile extends MemoryService`,JSON 文件持久化,原子写入 |\n| Consumer | `src/tool.ts`(`dsh-mem/tool`) | `tool-memory` | 函数插件,在 `ctx.tools` 上注册四个工具;每次调用经 `ctx.get('memory')` 解析服务 |\n\n参考 dsh 仓库里的同类结构:`ctx.jobs`(D",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T02:34:57.703Z",
   "created_at": "2026-08-14T02:28:27.879Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:43.498Z"
+  "updated_at": "2026-08-17T04:27:49.236Z"
 }

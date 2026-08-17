@@ -1,0 +1,41 @@
+{
+  "slug": "dsh-scout",
+  "name": "dsh-scout",
+  "version": "0.8.0",
+  "description": "Evidence-driven company and job intelligence plugin for DeepSeek Harness.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "company-research",
+    "job-intelligence",
+    "hrbp"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/MaxHou-infinity/dsh-scout.git",
+  "homepage": "https://github.com/MaxHou-infinity/dsh-scout#readme",
+  "npm": "https://www.npmjs.com/package/dsh-scout",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "readme": "# dsh-scout · 司察（Scout）\n\n[![ci](https://github.com/MaxHou-infinity/dsh-scout/actions/workflows/ci.yml/badge.svg)](https://github.com/MaxHou-infinity/dsh-scout/actions/workflows/ci.yml)\n[![license MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)\n[![node >=22.19](https://img.shields.io/badge/node-%3E%3D22.19-brightgreen)](package.json)\n[![dsh-tools 0.1.0-rc.6](https://img.shields.io/badge/dsh-tools-0.1.0--rc.6-4b32c3)](package.json)\n[![tests 32 passing](https://img.shields.io/badge/tests-32%20passing-green)](tests/model.test.mjs)\n[![English README](https://img.shields.io/badge/README-English-blue)](README.en.md)\n\n**司察（Scout）** —— 面向 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness) 的**证据驱动型公司与岗位尽调 / 背调插件**。\n\n一句话说清楚：**它让 AI 帮你回答——\"这家公司和这个岗位，值得进入下一轮吗？面试中还有哪些事项必须核",
+  "weekly_downloads": 0,
+  "last_publish": "2026-08-16T10:34:29.852Z",
+  "created_at": "2026-08-16T10:34:29.551Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:27:55.637Z"
+}

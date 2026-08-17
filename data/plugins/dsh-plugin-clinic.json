@@ -32,19 +32,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-plugin-clinic\n\n**插件诊所** —— 对 DeepSeek Harness（DSH）已安装插件集合的只读健康体检。\n\n[English](README.md) · [规划](docs/PLAN.md) · [进度](docs/STATUS.md) · [使用指南](docs/usage.md) · [检查项参考](docs/checks.md)\n\nDSH 的\"一切皆插件\"把稳定性风险分散到了用户可自由组合的配置层——但没有任何东西告诉你\n已安装的插件集合是否健康。`dsh-plugin-clinic` 补上这一环：体检 Harness home 下每个\nprofile 的插件，报告加载健康、依赖完整、版本兼容、安装脚本风险、重复与 patch 引用完整性；\n全程只读、无外部状态。\n\n## 特性\n\n- **模型工具 `plugin_health`** —— agent 可以在会话内自检环境，把发现转成具体的修复建议。\n- **Web 体检面板** —— 设置 → 插件 下的\"体检\"tab，按 profile 展示带严重性着色的插件卡片。\n- **JSON 报告** —— 稳定的 `schemaVersion: 1` 契约，供 CI 与脚本消费。\n- **8 项只读检查** —— 见 [docs/checks.md](docs/checks.md)：`load-health`（加载健康）、\n  `bundle-manifest`（清单完整）、`peer-deps`（依赖满足）、`runtime-compat`（版本兼容）、\n  `install-scripts`（安装脚本风险）、`duplicate`（重复）、`patch-health`（patch 引用完整）、\n  `provenance`（来源标注）。\n- **一行安装** —— 单个 npm ",
   "weekly_downloads": 136,
-  "monthly_downloads": 136,
   "last_publish": "2026-08-15T16:30:36.329Z",
   "created_at": "2026-08-15T16:30:36.134Z",
   "gh": null,
   "scores": {
     "popularity": 53,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 67,
-    "grade": "B"
+    "overall": 52,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:40.516Z"
+  "updated_at": "2026-08-17T04:27:44.271Z"
 }

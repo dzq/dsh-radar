@@ -31,6 +31,7 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-pet 🐾\n\n<p align=\"center\">\n  <a href=\"https://www.npmjs.com/package/dsh-pet\"><img alt=\"npm version\" src=\"https://img.shields.io/npm/v/dsh-pet?label=npm&color=blue\"></a>\n  <a href=\"https://www.npmjs.com/package/dsh-pet\"><img alt=\"npm downloads\" src=\"https://img.shields.io/npm/dm/dsh-pet?color=brightgreen\"></a>\n  <a href=\"https://github.com/PC2005-cloud/dsh-pet\"><img alt=\"stars\" src=\"https://img.shields.io/github/stars/PC2005-cloud/dsh-pet?style=social\"></a>\n  <a href=\"https://github.com/PC2005-cloud/dsh-pet/blob/master/LICENSE\"><img alt=\"license\" src=\"https://img.shields.io/github/license/PC2005-cloud/dsh-pet?color=orange\"></a>\n  <a href=\"https://awesome-dsh-plugin.com\"><img alt=\"awesome dsh plugin\" src=\"https://awesome-dsh-plugin.com/badge.svg\"></a>\n  <img alt=\"platform\" src=\"https:/",
   "weekly_downloads": 571,
   "last_publish": "2026-08-15T09:24:48.504Z",
   "created_at": "2026-08-14T08:48:57.448Z",
@@ -38,11 +39,11 @@
   "scores": {
     "popularity": 69,
     "maintenance": 0,
-    "quality": 90,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 59,
+    "overall": 56,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T03:56:22.512Z"
+  "updated_at": "2026-08-17T04:27:44.236Z"
 }

@@ -33,19 +33,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-codex-keychain\n\n[English](README.md)\n\n这是一个独立、非官方的 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)\nChatGPT OAuth 插件。它注册 `openai-codex` 模型路由，并把完整 OAuth 凭据严格保存到操作系统原生凭据库：\n\n- macOS Keychain\n- Windows Credential Manager\n- Linux Secret Service\n\n它不需要 OpenAI Platform API key，不会降级到普通凭据文件，也不会读取或修改\n`~/.codex/auth.json`。\n\n> [!IMPORTANT]\n> ChatGPT 订阅与 OpenAI Platform API 是不同产品。本插件只连接符合条件的 ChatGPT\n> 账户所能使用的 Codex 后端，不代表 OpenAI 或 DeepSeek 官方产品。\n\n## 当前状态\n\n`0.1.0-alpha.1` 是开发者预览版，初始兼容目标为 DeepSeek Harness\n`0.1.0-rc.6` 与 `@earendil-works/pi-ai` `0.82.1`。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-codex-keychain@next\ndsh web\n```\n\n打开 **设置 → OpenAI Codex**，点击 **使用浏览器登录**，再点击 **打开授权页面**\n并完成 OpenAI 授权。插件不会修改默认模型；登录后请在 DSH 模型选择器中手动选择\n`openai-codex` 模型。\n\n无界面服务器或本地回调端口不可用时，使用设备码：\n\n```sh",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T11:03:27.325Z",
   "created_at": "2026-08-15T11:03:27.023Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 54,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:00:12.989Z"
+  "updated_at": "2026-08-17T04:27:47.698Z"
 }

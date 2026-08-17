@@ -27,26 +27,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-webgate — DSH 远程访问插件\n\n一个 **DeepSeek Harness（DSH）生态插件**，让手机或任何设备远程访问本机运行的\n`dsh web`（DeepSeek Harness 浏览器界面），支持三种访问方式：\n\n| # | 方式 | 适用场景 | 需要什么 | 安全 |\n|---|---|---|---|---|\n| 1 | **内网访问**（默认开启） | 手机与电脑同一 Wi-Fi/内网 | 无 | ⚠️ 网内无密码（可另配登录门户） |\n| 2 | **外网 · cloudflared 一键隧道** | 临时应急、不想碰服务器 | 下载一个二进制 | ⚠️ 链接即权限（随机 URL） |\n| 3 | **外网 · frp + 自有服务器反代** | 长期稳定、有域名/服务器 | 一台公网服务器（推荐 Caddy） | ✅ 密码登录门户 + HTTPS |\n\n![整体架构示意图](images/pic.png)\n\n---\n\n## 功能总览\n\n- **内网直连**：把 webserver 默认绑定 `0.0.0.0`，自动信任局域网 IPv4/IPv6 与\n  `主机名.local`，设置页「手机访问」展示**二维码**；\n- **cloudflared 快速隧道**：插件托管 cloudflared 进程，公网域名自动加入信任列表；\n- **frp 隧道 + 自有服务器**：插件托管 frpc（断线自动重连），配合服务端 frps 与\n  Caddy 反代 + 自有域名；\n- **登录门户**（frp 方式的推荐安全层）：内置零依赖 Web 登录页 + scrypt 密码校验 +\n  30 天 HttpOnly Cookie 会话 + 每 IP 限速，彻底解决 iOS Safari 对 Basic Auth 的\n  弹框死循环；\n- ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T02:31:32.960Z",
   "created_at": "2026-08-16T02:08:37.507Z",
-  "gh": {
-    "full_name": "pppolf/dsh-webgate",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T02:42:21Z",
-    "archived": false,
-    "license": null
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 80,
+    "maintenance": 0,
+    "quality": 65,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 60,
-    "grade": "B"
+    "dsh_compat": 80,
+    "overall": 37,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:03:44.162Z"
+  "updated_at": "2026-08-17T04:27:47.710Z"
 }

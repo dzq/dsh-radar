@@ -31,19 +31,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# dsh-im-feishu（飞书适配器）\n\n飞书渠道适配器：**官方 SDK `@larksuiteoapi/node-sdk`** 长连接接收事件（免公网）+ 交互卡片审批按钮 + 文件消息。\n\n> ✅ 状态：**已在真实飞书自建应用上跑通**（长连接 ready、文本收发、审批卡片）。\n> 配置步骤见 [`docs/feishu-setup.md`](../../docs/feishu-setup.md)（含 `card.action.trigger` 回调配置的准确位置）。\n\n- 依赖：`inject: ['im']`（需 `dsh-im` 核心）\n- 密钥：`appId: 'env:FEISHU_APP_ID'`、`appSecret: 'env:FEISHU_APP_SECRET'`（§9：密钥不落明文）\n- 联调脚本：`node demo/feishu-real.mjs --trust-first`\n- 测试：`npm run test:feishu`（stub 官方 SDK，验证事件→ImMessage/回调→出站接线）\n\n## 实现说明\n\n- 事件订阅（长连接）：\n  - `im.message.receive_v1`（接收消息）→ 统一 ImMessage → `ctx.im.dispatchInbound`\n  - `card.action.trigger`（卡片回传交互，**在开放平台「回调配置」页签添加**）→ `ctx.im.handleCallback`\n- 出站：\n  - 文本消息 `im.message.create`（`receive_id_type` 按入站学习 + id 前缀启发：`ou_`=open_id / `oc_`=chat_id）\n  - 审批卡片：`msg_type: interactive`，按钮 value 携带 `",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T09:08:02.086Z",
   "created_at": "2026-08-15T06:05:01.050Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:13.742Z"
+  "updated_at": "2026-08-17T04:27:44.620Z"
 }

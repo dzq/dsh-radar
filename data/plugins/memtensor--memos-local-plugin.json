@@ -27,6 +27,7 @@
   "engines": {
     "node": ">=20.0.0"
   },
+  "readme": "# @memtensor/memos-local-plugin\n\n> Reflect2Evolve memory plugin for AI agents.\n> One algorithm core, with adapters for OpenClaw, Hermes Agent, and DeepSeek\n> Harness.\n\n## What it is\n\nA local-first, file-backed memory system that gives an agent four cooperating\nlayers of memory and a feedback-driven self-evolution loop:\n\n- **L1 trace** — step-level grounded records (action + observation + reflection + value).\n- **L2 policy** — sub-task strategies induced across many traces.\n- **L3 world model** — compressed environmental cognition derived from L2 + L1.\n- **Skill** — callable, crystallized capabilities the agent can invoke directly.\n\nThe plugin learns continuously from two feedback channels:\n\n- **Step-level** — model ↔ environment (tool result, observation deltas).\n- **Task-level** — human ↔",
   "weekly_downloads": 907,
   "last_publish": "2026-08-16T05:42:46.087Z",
   "created_at": "2026-04-27T11:33:26.672Z",
@@ -34,11 +35,11 @@
   "scores": {
     "popularity": 74,
     "maintenance": 0,
-    "quality": 90,
+    "quality": 75,
     "security": 40,
     "dsh_compat": 75,
-    "overall": 58,
+    "overall": 55,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T03:56:19.224Z"
+  "updated_at": "2026-08-17T04:27:44.224Z"
 }

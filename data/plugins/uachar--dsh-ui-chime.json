@@ -28,26 +28,19 @@
     }
   },
   "engines": {},
+  "readme": "# @uachar/dsh-ui-chime（思考结束提示音）\n\nDeepSeek Harness 的浏览器提示音插件：每当模型到达用户关心的边界——一轮对话完成，或正在等待用户——浏览器播放一声短促的合成\"叮\"。无音频资源、不写会话日志、不改 dsh 核心；作为独立包安装。\n\n## 插件功能\n\n- **每轮对话全部完成**时响（`turn/end`，`completed` / `max-tokens`）——多步骤回合中间的间歇思考不响。\n- **等待用户确认权限**时响（`approval/asked`）——模型在等权限决定。\n- **模型调用 `ask_user_question`** 时响（`tool/call`）——它在等用户选择方案。\n- **音量调节**，拖动滑条即时试听，设置持久保存。\n- 音效由 Web Audio 合成（振荡器 + 增益包络）——**零音频文件**，不增加任何资源体积。\n- 历史回放（打开会话、翻页、重连）不响：事件距现在 10 秒内才视为实时。\n\n## 如何使用\n\n- **音量调节**：聊天输入框工具行左侧的喇叭按钮（Windows 风格线条图标），点击弹出音量滑条；**拖动滑条时会即时播放对应音量的试听音**。设置保存在 `localStorage`（`dsh.ui-chime.volume`）。\n- **自动播放策略**：浏览器在首次用户手势前挂起 `AudioContext`，因此页面未被点击过时提示音静默——点击页面任意位置后即正常。\n\n## 安装与卸载\n\n> 需要可用的 `dsh` CLI（pnpm）与一个 profile，例如 `web`。\n\n### 从 npm 安装（推荐）\n\n```sh\npnpm dsh plugin --profile web add @uachar/dsh-ui-chime\n```\n\n### 从 Git",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T04:23:02.831Z",
   "created_at": "2026-08-16T04:07:43.925Z",
-  "gh": {
-    "full_name": "uAcharGG/dsh-ui-chime",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T04:23:37Z",
-    "archived": false,
-    "license": null
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
+    "maintenance": 0,
     "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 56,
-    "grade": "B"
+    "overall": 37,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:03:40.836Z"
+  "updated_at": "2026-08-17T04:27:47.704Z"
 }

@@ -19,19 +19,19 @@
   "dsh_compat": false,
   "dsh_meta": null,
   "engines": {},
+  "readme": "# @ohtokaah-sys/dsh-gates\n\n**机械门禁** 插件：两个代码级守卫，在 `tools/pre-execute` 阶段拦截不安全的文件写入——文件名安全 + 凭据泄露。**不是 prompt 规则，是代码拦截，物理上无法绕过。**\n\n## 它解决什么问题\n\n「写在提示词里求 agent 别写危险文件 / 别泄密钥」是不可靠的——模型会忘、会忽略（「文本存在 ≠ 被遵守」）。这个插件把规则变成**拦截在工具真正执行之前的代码**，agent 想绕过也不可能。\n\n## 两个守卫\n\n### 守卫 1 · §2C 文件名安全\n\n对 `write` / `edit` 工具的 `file_path`，拦截：\n\n- 含 emoji（可能导致 NAS/SMB 静默失败）\n- 含 Windows 保留字符（`/ : * ? < > |`）\n- 含控制字符\n- 尾随空格或点号\n- 前导连字符\n\n### 守卫 2 · §14 凭据泄露\n\n对 `write` 的 `content` / `edit` 的 `new_string`，拦截疑似明文密钥：\n\n- `sk-` + 20 位以上字符（DeepSeek / OpenAI 风格）\n- `api_key` / `apikey` / `api-key` 后接 `=` 或 `:` + 长值\n\n## 场景例子\n\n| 场景 | 结果 |\n|---|---|\n| `write(\"报告😀.md\", ...)` | 🚫 拦截：「文件名含 emoji」 |\n| `write(\"config.md\", \"DEEPSEEK_API_KEY: sk-…\")` | 🚫 拦截：「凭据泄露，请改用环境变量」 |\n| `write(\"正常文档.md\", \"普通内容\")` | ✅ 放行 |\n| `write(\"a:b.md\", ...)` | 🚫 ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T02:16:38.148Z",
   "created_at": "2026-08-14T02:11:35.993Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 40,
-    "grade": "C"
+    "overall": 29,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:45.480Z"
+  "updated_at": "2026-08-17T04:27:54.421Z"
 }

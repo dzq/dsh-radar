@@ -25,6 +25,7 @@
   "engines": {
     "node": ">=18"
   },
+  "readme": "# dsh-movein\n\n<p align=\"center\">\n  <a href=\"https://www.npmjs.com/package/dsh-movein\"><img alt=\"npm\" src=\"https://img.shields.io/npm/v/dsh-movein?style=flat-square&color=4b6fff\"></a>\n  <a href=\"https://github.com/sjh9714/dsh-movein/actions/workflows/ci.yml\"><img alt=\"CI\" src=\"https://github.com/sjh9714/dsh-movein/actions/workflows/ci.yml/badge.svg\"></a>\n  <a href=\"LICENSE\"><img alt=\"MIT\" src=\"https://img.shields.io/badge/license-MIT-2EA44F?style=flat-square\"></a>\n  <img alt=\"zero dependencies\" src=\"https://img.shields.io/badge/dependencies-0-brightgreen?style=flat-square\">\n</p>\n\nMove your whole Claude Code setup into [DeepSeek Harness (DSH)](https://github.com/deepseek-ai/deepseek-harness) with one command. Skills, MCP servers, hooks and instructions arrive together, so DSH feels like home",
   "weekly_downloads": 897,
   "last_publish": "2026-08-15T16:37:57.011Z",
   "created_at": "2026-08-15T03:14:57.649Z",
@@ -32,11 +33,11 @@
   "scores": {
     "popularity": 74,
     "maintenance": 0,
-    "quality": 90,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 59,
+    "overall": 56,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T03:56:19.632Z"
+  "updated_at": "2026-08-17T04:27:44.225Z"
 }

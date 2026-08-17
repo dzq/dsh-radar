@@ -24,19 +24,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-model-failover\n\n[中文](README.zh.md) | [English](README.md)\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n\n为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 打造的两级模型熔断与回退插件。当某个模型（或整个平台）持续失败时，插件打开熔断并把下一个模型请求路由到配置好的备用模型——零核心改动，`dsh plugin` 即可安装。\n\n## 功能\n\n- **模型级熔断** — 某个 `provider/model` 在 `burstWindowMs` 内失败达到 `modelCircuitThreshold` 次即打开。\n- **平台级熔断** — 同一 provider 下有 `platformCircuitThreshold` 个不同模型同时打开时，整个平台熔断（平台故障通常连带所有模型）。\n- **自动回退** — 下一个请求路由到 `fallbacks` 里第一个健康的备用路由；切换由 loop 自身落库（`request/header` 变更），可选追加用户可见提示。\n- **恢复探测** — 打开的模型熔断在 `modelCooldownMs` 后用一次极小的真实调用探测；探测成功关闭熔断，失败则顺延冷却。\n- **与 `llm-retry` 协作** — 单次请求的重试仍归官方 `llm-retry` 策略负责，熔断器只观察逃逸出重试的失败；重试后恢复的瞬时抖动不会误触发熔断。\n\n## 安装\n\n```sh\ndsh plugin --profile web add",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T10:19:08.388Z",
   "created_at": "2026-08-14T09:29:29.593Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:10.666Z"
+  "updated_at": "2026-08-17T04:27:44.604Z"
 }

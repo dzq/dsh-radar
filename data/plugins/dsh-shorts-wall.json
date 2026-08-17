@@ -13,9 +13,7 @@
     "deepseek-harness-plugin",
     "youtube-shorts",
     "bilibili",
-    "vertical-video",
-    "floating-window",
-    "docked-window"
+    "vertical-video"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/imkingjh999/dsh-shorts-wall.git",
@@ -34,26 +32,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# dsh-shorts-wall\n\n> 仓库：<https://github.com/imkingjh999/dsh-shorts-wall> · Issues 欢迎\n\n[English](README_EN.md) | 中文\n\n**竖屏短视频墙** —— 默认以**贴边竖栏**形态运行的 DeepSeek Harness（DSH）竖屏短视频插件：可切换为可拖拽/缩放浮窗，也能关闭后从右下角按钮唤回。双源：**YouTube Shorts** + **B站竖屏**，滚轮/键盘/按钮逐条切换，播完自动下一条，到尾自动续批。\n\n> 仅供个人观看。全部走匿名公开接口与官方播放通道：不登录、不破解、不伪造签名。请遵守对应平台服务条款。\n\n## 功能\n\n### 双源轮播\n\n顶栏 `YT` / `B站` chip 一键切换（记住选择），切换时提示「切换中…」。\n\n|          | YouTube Shorts              | B站竖屏                                                      |\n| -------- | --------------------------- | ------------------------------------------------------------ |\n| 播放方式 | 官方 iframe embed           | **原生 mp4 `<video>`**（经宿主代理，Range 可拖进度）         |\n| 内容获取 | 匿名搜索页（shorts 过滤器） | 匿名搜索 + **竖屏预检**（并发 view 确认 9:16，横版自动过滤） |\n| 自动连播 | 播完事件 + 看门狗双保险     | 原生事件（最稳）               ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T06:13:23.292Z",
   "created_at": "2026-08-16T05:56:53.881Z",
-  "gh": {
-    "full_name": "imkingjh999/dsh-shorts-wall",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T06:14:59Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 64,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:44.381Z"
+  "updated_at": "2026-08-17T04:27:51.483Z"
 }

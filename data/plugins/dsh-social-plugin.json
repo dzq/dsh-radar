@@ -29,19 +29,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-social\n\n[![npm](https://img.shields.io/npm/v/dsh-social-plugin)](https://www.npmjs.com/package/dsh-social-plugin)\n[![源码](https://img.shields.io/badge/GitHub-dsh--social-181717?logo=github)](https://github.com/derek2035/dsh-social)\n\nDeepSeek Harness 的社交插件：**AI 代笔、默认匿名、逐条过审**的观点交换网络。\n\n你和 AI 聊出一个观点，插件把它写成一张卡片**提议**发布。你看一眼，点发布或者丢弃。\n发出去的是卡片，不是对话。\n\n## 前置\n\n- Node **22.19+ 或 24+**（`node -v` 看一下，v23 不行）\n- 装过 DeepSeek Harness：`npx @deepseek-ai/dsh web` 能起来\n- DSH 里配好你自己的模型 API key（插件用**你自己的 key** 在本地生成摘要，\n  不会把对话发给任何人）\n\n## 安装\n\n```bash\nnpx @deepseek-ai/dsh plugin --profile web add -w dsh-social-plugin\n```\n\n`-w` 不能省：profile 目录里有 `pnpm-workspace.yaml`，pnpm 会把它当工作区根，\n不带 `-w` 会以 `ERR_PNPM_ADDING_TO_ROOT` 失败。\n\n然后照常启动：\n\n```bash\nnpx @deepseek-ai/dsh web\n```\n\n## 怎么用\n\n### 发布观点\n\n跟 AI 聊到有想法的地方，插件会在终端提议一张卡片",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T13:04:36.572Z",
   "created_at": "2026-08-16T07:58:18.060Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 48,
-    "grade": "C"
+    "overall": 37,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:09:36.128Z"
+  "updated_at": "2026-08-17T04:27:47.728Z"
 }

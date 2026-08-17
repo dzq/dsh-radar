@@ -22,19 +22,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-skill-pack\n\n一套可分享的 **12 个工作流 skills**，面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（`dsh`）。一个插件、一个 `FileSystemSkillProvider`、十二个 skill。\n\n本包是单包 `dsh` 插件（与 Hermes / DSH 社区 bundle 同一形态）。安装后注册一个文件系统 skill provider，指向包内自带的 `skills/` 目录——**叠加**在你自己的项目与用户 skills 之上，绝不替代它们。\n\n## 要求\n\n- `dsh` >= **0.1.0-rc.6**\n\n本包**不声明**任何 `@deepseek-ai/*` 依赖。与其他 DSH bundle 一样，官方包（`@deepseek-ai/dsh-skill-filesystem` 等）由 profile 闭包在启动时注入，因此插件从 profile 自身的 `node_modules` 解析它们。\n\n## 12 个 skill\n\n| Skill | 一句话介绍 |\n| --- | --- |\n| `dsh-mode-routing` | DSH 会话模式（agent preset）选型与路由——四套内置 preset（`standard`/`code`/`minimal`/`cordis`）+ 用户自建 preset。 |\n| `handoff` | 把当前对话压缩成交接文档，交给另一个 agent 接手。 |\n| `triage` | 让 issue 与外部 PR 走过 triage 状态机——分类、验证、质询、产出 agent-ready brief。 |\n| `to-spec` | 把当前对话变成一份 spec 并",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T23:47:24.020Z",
   "created_at": "2026-08-14T23:30:38.407Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:01.345Z"
+  "updated_at": "2026-08-17T04:27:46.444Z"
 }

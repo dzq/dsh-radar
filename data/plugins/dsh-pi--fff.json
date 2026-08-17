@@ -24,19 +24,19 @@
     }
   },
   "engines": {},
+  "readme": "# @dsh-pi/fff\n\npi-style frecency-ranked search tools for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh-pi).\n\nRegisters two tools on `ctx.tools`, powered by the [FFF engine](https://github.com/dmtrKovalenko/fff) (`@ff-labs/fff-node`, native Rust core):\n\n- **`ffgrep`** — grep file contents. Smart-case, auto-detects regex vs literal. **Results ranked by frecency (most-accessed files first)**; matches within a file stay in source order.\n- **`fffind`** — fuzzy, typo-resistant file search by name pattern. **Frecency-ranked**.\n\nThe FFF engine's frecency DB is persisted per workspace under `$DSH_HOME/dsh-pi/fff-<workspace>.db`, so access rankings build up across sessions — same behavior as pi's `ffgrep`/`fffind` (from `@ff-labs/pi-fff`).\n\n## Install into a profile\n\n```sh",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T06:12:39.610Z",
   "created_at": "2026-08-14T06:12:39.313Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:08:27.475Z"
+  "updated_at": "2026-08-17T04:27:47.725Z"
 }

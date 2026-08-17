@@ -20,26 +20,19 @@
     }
   },
   "engines": {},
+  "readme": "# @wishp3/dsh-friend-growth\n\n人生故事流水线（outline → expand → reflect），草稿审阅后写入 `story.md` / `beliefs.md` / MEMORY.md「近期主题」。**不是** XP / 等级系统。\n\nHost 半区挂 `GET /friend/growth` 配置页与生成/提交 API。不注册伴侣会话工具。\n\n## 验证\n\n- 单测：`export CI=true && pnpm exec vitest run packages/dsh-friend-growth/test`\n- 手册：打开 `/friend/growth` → 生成 → 预览勾除 1 条 → 提交，确认 `characters/<slug>/story.md` 不含被勾除节拍。\n- 真实模型全程 < 5 min、以及「问小时候的事」引用 story.md，需要 live dsh + 已接线的 `completePrompt`，CI 只走 mock。\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T05:39:15.302Z",
   "created_at": "2026-08-14T16:01:06.805Z",
-  "gh": {
-    "full_name": "wanghehe123/dsh-Friend",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T05:38:38Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 55,
+    "maintenance": 0,
+    "quality": 45,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 51,
-    "grade": "C"
+    "overall": 30,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:07.498Z"
+  "updated_at": "2026-08-17T04:27:46.463Z"
 }

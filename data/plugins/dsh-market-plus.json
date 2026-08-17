@@ -33,19 +33,19 @@
     }
   },
   "engines": {},
+  "readme": "<p align=\"center\">\r\n  <img src=\"assets/logo.svg\" width=\"96\" alt=\"dsh-market logo\">\r\n</p>\r\n\r\n# dsh-market\r\n\r\n[English](README.md) | 中文\r\n\r\n[![npm](https://img.shields.io/npm/v/dshmarket)](https://www.npmjs.com/package/dshmarket)\r\n[![stars](https://img.shields.io/github/stars/dsh-market/dsh-market?style=flat)](https://github.com/dsh-market/dsh-market)\r\n\r\n装在 DeepSeek Harness 里的插件市场。打开设置 → **插件市场** → 逛一逛，点一下，装好。\r\n\r\n![dsh-market](assets/demo-zh.png)\r\n\r\n主题一键换——装完即生效，点一下切换，不用重启：\r\n\r\n![主题](assets/themes-zh.png)\r\n\r\n## 安装\r\n\r\n```sh\r\ndsh plugin --profile web add dshmarket\r\n```\r\n\r\n重启 `dsh web`，打开 **设置 → 插件市场**。\r\n\r\n## 你会得到\r\n\r\n- **逛与搜**——完整社区目录（800+ 插件，每天在涨），分类筛选、star 数、最热/最新排序，中英描述跟随界面语言\r\n- **截图展示**——安装弹窗内 App Store 式截图：作者可在 registry 里策展，没有则自动从 README 抽取；图片仅从 GitHub 图床加载，且只在你打开弹窗后才发请求\r\n- **主题**——独立主题页：装完立",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T11:18:35.651Z",
   "created_at": "2026-08-16T09:46:05.839Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 51,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:09.969Z"
+  "updated_at": "2026-08-17T04:27:46.467Z"
 }

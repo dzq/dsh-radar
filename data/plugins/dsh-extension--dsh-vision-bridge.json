@@ -13,21 +13,7 @@
     "multimodal",
     "vision-language-model",
     "vlm",
-    "image-understanding",
-    "image-analysis",
-    "screenshot",
-    "ocr",
-    "openai",
-    "openai-compatible",
-    "chat-completions",
-    "llm",
-    "llm-agent",
-    "agent",
-    "text-only-llm",
-    "on-demand-vision",
-    "cost-saving",
-    "one-api",
-    "vllm"
+    "image-understanding"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/sfyyy/dsh-vision-bridge.git",
@@ -49,26 +35,19 @@
     }
   },
   "engines": {},
+  "readme": "# @dsh-extension/dsh-vision-bridge\n\n> 让 DSH 的纯文本 DeepSeek 会话获得**按需多模态能力**。\n\n[![JavaScript](https://img.shields.io/badge/JavaScript-ES2022-F7DF1E.svg?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)\n[![TypeScript](https://img.shields.io/badge/TypeScript-typings-3178C6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)\n[![npm version](https://img.shields.io/npm/v/@dsh-extension/dsh-vision-bridge.svg?logo=npm&color=cb3837)](https://www.npmjs.com/package/@dsh-extension/dsh-vision-bridge)\n[![npm downloads](https://img.shields.io/npm/dm/@dsh-extension/dsh-vision-bridge.svg?color=cb3837)](https://www.npmjs.com/package/@dsh-extension/dsh-vision-bridge)\n[![GitHub stars](https://img.shields.io/github/stars/sfyyy/dsh-vision-bridge.svg)](ht",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T15:53:56.187Z",
   "created_at": "2026-08-16T15:27:14.847Z",
-  "gh": {
-    "full_name": "sfyyy/dsh-vision-bridge",
-    "stars": 3,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T16:01:34Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 64,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:18.465Z"
+  "updated_at": "2026-08-17T04:27:44.628Z"
 }

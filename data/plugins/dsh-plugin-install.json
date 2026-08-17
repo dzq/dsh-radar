@@ -29,19 +29,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-plugin-install\n\nA dsh plugin that adds an \"Install\" tab to the Web UI's Settings page, so any dsh plugin can be installed by npm spec without leaving the app.\n\n一个 dsh 插件：在 Web UI 的设置页中新增「安装」标签页，可按 npm spec 安装任意 dsh 插件，无需借助插件市场，也无需使用命令行。`dsh web` 与 DSH Desktop 均可使用。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-plugin-install\n```\n\n安装后打开 Web UI 的 设置 → 插件，即可看到新增的「安装」标签页。卸载可在同一页面完成，或执行：\n\n```sh\ndsh plugin --profile web remove dsh-plugin-install\n```\n\n开发时也可以直接安装本地源码检出：`dsh plugin --profile web add file:/path/to/dsh-plugin-install`。包内的 `prepare` 脚本会自动构建出 `lib/`。\n\n## 工作原理\n\n插件由服务端与客户端两部分组成。服务端在 Web 服务器上注册 `/dsh-plugin-install/*` 路由：安装与卸载分别调用 `dsh plugin add` / `remove`，与命令行完全同一条路径，`dsh.profile.bundles` 的同步由 CLI 负责。客户端向设置页贡献「安装」标签页，提供 spec 输入、安装进度、已安装列表与卸载操作。\n\n对于 patch 仅包含普通 insert 行的简单插件，安装后会",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T15:30:04.430Z",
   "created_at": "2026-08-16T14:58:59.764Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 52,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:12.620Z"
+  "updated_at": "2026-08-17T04:27:46.473Z"
 }

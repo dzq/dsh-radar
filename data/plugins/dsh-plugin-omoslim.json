@@ -1,7 +1,7 @@
 {
   "slug": "dsh-plugin-omoslim",
   "name": "dsh-plugin-omoslim",
-  "version": "0.3.0",
+  "version": "0.2.0",
   "description": "DeepSeek Harness bundle: oh-my-opencode-slim style Orchestrator agent preset with model-pinned specialist subagents (explorer/oracle/librarian/designer/fixer/council).",
   "keywords": [
     "dsh-plugin",
@@ -21,26 +21,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-plugin-omoslim\n\nDeepSeek Harness (`dsh`) bundle that installs an **Orchestrator agent preset**\nin the style of [oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim):\nthe main agent plans and dispatches, and model-pinned specialist subagents do\nthe work.\n\n## What you get\n\nOne agent preset, `orchestrator`:\n\n- **Main agent = Orchestrator** — a workflow manager persona (plan → dispatch →\n  reconcile → verify), delegating instead of implementing.\n- **11 subagent tools**, each with its own persona and a model slot in\n  `models.json` (`provider` defaults to `null`, i.e. inherit the main\n  agent's provider):\n\n| Tool | Role | Model |\n|---|---|---|\n| `subagent` | generic worker (background, continuable) | inherit |\n| `subagent_fork` | forks parent context | inherit |\n| `sub",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
-  "last_publish": "2026-08-16T02:12:36.814Z",
+  "last_publish": "2026-08-16T00:50:11.977Z",
   "created_at": "2026-08-16T00:50:11.794Z",
-  "gh": {
-    "full_name": "tevenfeng/dsh-plugin-omoslim",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T02:12:02Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 63,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:47.563Z"
+  "updated_at": "2026-08-17T04:27:54.835Z"
 }

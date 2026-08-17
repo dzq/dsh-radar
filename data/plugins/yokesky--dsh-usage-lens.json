@@ -13,11 +13,7 @@
     "dashboard",
     "analytics",
     "heatmap",
-    "cordis",
-    "usage-dashboard",
-    "token-analytics",
-    "statistics",
-    "stats"
+    "cordis"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/yokesky/dsh-usage-lens.git",
@@ -40,19 +36,19 @@
   "engines": {
     "node": ">=24"
   },
+  "readme": "# dsh-usage-lens\n\n[![npm](https://img.shields.io/npm/v/@yokesky/dsh-usage-lens)](https://www.npmjs.com/package/@yokesky/dsh-usage-lens)\n[![license](https://img.shields.io/github/license/yokesky/dsh-usage-lens)](./LICENSE)\n[![stars](https://img.shields.io/github/stars/yokesky/dsh-usage-lens?style=social)](https://github.com/yokesky/dsh-usage-lens)\n\nDeepSeek Harness（DSH）Web UI 的**用量统计面板**，风格参考作者喜欢的 ZCode Harness 设计。\n安装后，设置面板会新增「用量统计」页面，直观展示你的使用情况。\n\n## 预览\n\n<img src=\"assets/demo.gif\" width=\"80%\" alt=\"dsh-usage-lens demo\" />\n\n<details>\n<summary>静态截图</summary>\n\n<img src=\"assets/preview/预览1.png\" width=\"90%\" alt=\"预览1\" />\n\n<img src=\"assets/preview/预览2.png\" width=\"90%\" alt=\"预览2\" />\n\n</details>\n\n## 功能\n\n- **总览卡片**：tokens 用量、会话数量、消息数量、活跃天数、当前连续天数、最常用模型。\n- **活跃热力图**：GitHub 风格的 280 天活跃热力图，一眼看清使用节奏。\n- **每",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T13:18:30.059Z",
   "created_at": "2026-08-15T10:53:35.581Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:26.990Z"
+  "updated_at": "2026-08-17T04:27:46.969Z"
 }

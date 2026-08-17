@@ -17,19 +17,19 @@
   "dsh_compat": false,
   "dsh_meta": null,
   "engines": {},
+  "readme": "# dsh-tool-backtest\r\n\r\nDSH 插件：策略回测引擎 — 定义买卖信号，跑历史数据，输出绩效指标。\r\n\r\n## 工具清单\r\n\r\n| 工具 | 功能 |\r\n|------|------|\r\n| `run_backtest` | 输入 K 线 + 信号 → 输出收益率、夏普、回撤、胜率、交易记录 |\r\n| `calc_indicator` | 技术指标计算：SMA、EMA、RSI、MACD、布林带 |\r\n\r\n## 安装\r\n\r\n```bash\r\ndsh plugin add dsh-tool-backtest\r\n```\r\n\r\n## 配置\r\n\r\n```yaml\r\n- insert:\r\n    - id: backtest\r\n      name: dsh-tool-backtest\r\n      config:\r\n        defaultCapital: 100000    # 默认初始资金\r\n        defaultCommission: 0.001  # 默认手续费率 0.1%\r\n```\r\n\r\n## 使用流程\r\n\r\nAgent 的标准回测工作流：\r\n\r\n```\r\n1. market_kline 获取历史数据\r\n2. calc_indicator 计算技术指标\r\n3. 根据策略规则生成 signals（Agent 自行判断）\r\n4. run_backtest 执行回测\r\n5. 分析结果，给出建议\r\n```\r\n\r\n## 工具详解\r\n\r\n### `run_backtest`\r\n\r\n**输入**：\r\n\r\n```json\r\n{\r\n  \"strategyName\": \"MA5/20 金叉\",\r\n  \"bars\": [{\"date\":\"2024-01-02\",\"open\":100,\"high\":102,\"low\":99,\"close\":101,\"volume\"",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T15:16:38.030Z",
   "created_at": "2026-08-14T15:16:37.823Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 40,
-    "grade": "C"
+    "overall": 29,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:00:09.705Z"
+  "updated_at": "2026-08-17T04:27:47.685Z"
 }

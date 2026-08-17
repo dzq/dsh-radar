@@ -22,8 +22,8 @@
     }
   },
   "engines": {},
+  "readme": "# meow-memory 🐱📝\n\nCross-session project memory for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH).\nBorn from the \"meow\" fork — hence the name — but works on any DSH profile.\n\n**The idea**: every workspace keeps one human-readable memory file (`.dsh-meow/PROJECT.md`).\nNew sessions get it injected as a **prefix of the first user message** (not the system prompt), so\nthe prompt prefix — and your LLM provider's KV/context cache — stays untouched. The full file is\ninjected, never truncated. When the model finishes a task (a ReAct turn that used tools), the\nplugin gently asks it to reflect and save what's worth remembering.\n\n## ✨ Features\n\n- **Cache-friendly by design**: memory is injected as a plain user-message prefix on the\n  session's first user message — the com",
   "weekly_downloads": 144,
-  "monthly_downloads": 144,
   "last_publish": "2026-08-15T06:02:58.957Z",
   "created_at": "2026-08-15T06:02:58.745Z",
   "gh": {
@@ -36,12 +36,12 @@
   },
   "scores": {
     "popularity": 54,
-    "maintenance": 98,
-    "quality": 100,
+    "maintenance": 39,
+    "quality": 85,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 77,
-    "grade": "A"
+    "dsh_compat": 75,
+    "overall": 61,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T03:50:39.898Z"
+  "updated_at": "2026-08-17T04:27:44.269Z"
 }

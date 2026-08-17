@@ -18,19 +18,19 @@
   "dsh_compat": false,
   "dsh_meta": null,
   "engines": {},
+  "readme": "# dsh-lan-proxy\n\n[![npm](https://img.shields.io/npm/v/dsh-lan-proxy)](https://www.npmjs.com/package/dsh-lan-proxy)\n[![GitHub](https://img.shields.io/badge/GitHub-bluecobaltum%2Fdsh--lan--proxy-blue)](https://github.com/bluecobaltum/dsh-lan-proxy)\n\nDeepSeek Harness（DSH）Web UI 的局域网访问插件 —— 一个插件解决三件事：\n\n1. **局域网反向代理**：在 `0.0.0.0:<port>` 提供完整 Web UI，转发到回环后端并重写 Host/Origin，\n   使 /api 信任围栏（含特权方法）放行局域网客户端；WebSocket（events.mux / events.host）同样支持。\n2. **应用内目录选择器**：把默认的 native 系统对话框（弹在宿主机桌面、局域网设备看不到）换成\n   网页内目录浏览器，任何设备都能选工作区。\n3. **UUID polyfill**：向页面注入基于 `crypto.getRandomValues` 的 `crypto.randomUUID` 兜底，\n   修复局域网明文 HTTP（非安全上下文）下页面崩溃（如「新建文件夹」报\n   `crypto.randomUUID is not a function`）。\n\n> ⚠️ **安全警告**：DSH Web 控制面**没有任何认证**，且 Agent 可执行代码。本插件有意把这一点暴露给网络——\n> 任何能连到代理端口的人都等于拿到该机器的远程代码执行能力。**只建议在可信局域网使用**，\n> 并",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T06:55:53.530Z",
   "created_at": "2026-08-14T06:55:53.322Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 40,
-    "grade": "C"
+    "overall": 29,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:51.590Z"
+  "updated_at": "2026-08-17T04:27:44.314Z"
 }

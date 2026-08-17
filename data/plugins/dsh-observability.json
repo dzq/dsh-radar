@@ -21,26 +21,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-observability\n\n[English](README.md) | 中文\n\n为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（`dsh`）导出 OpenTelemetry **traces**：把每个 agent 会话导出成 OTLP span 树——turn 对应 trace，模型 step 对应子 span，工具调用对应该 step 的子 span——带 GenAI 语义约定属性，发往任何接受 OTLP/HTTP 的 collector。\n\n这是社区插件（`dsh-plugin` topic），不属于官方仓库。它实现 harness 公开的遥测 Service Definition（`@deepseek-ai/dsh-session-telemetry`），作为官方 Provider 之外的第二个 Service Provider——官方那个导出的是 OTLP **logs**。\n\n## 安装\n\n本包自带 `cordis.patch.yml`，因此可以作为 profile bundle 安装：\n\n```sh\ndsh plugin --profile web add dsh-observability\nexport DSH_OBSERVABILITY_MODE=FULL\nexport DSH_OBSERVABILITY_OTLP_URL=http://127.0.0.1:4318/v1/traces\n```\n\n在 `DSH_OBSERVABILITY_MODE` 明确开启之前，共享始终关闭。配置了 endpoint 不等于同意上传会话内容，参见 [离开本机的数据](#离开本机的数据)。\n\n自带的 patch 会关掉 base profile 的 `session-",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T09:00:06.232Z",
   "created_at": "2026-08-15T09:00:05.971Z",
-  "gh": {
-    "full_name": "CodePrometheus/dsh-observability",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T09:12:24Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 62,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:09.253Z"
+  "updated_at": "2026-08-17T04:27:47.739Z"
 }

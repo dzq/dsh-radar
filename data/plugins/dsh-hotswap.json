@@ -33,19 +33,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-hotswap\n\nDSH Web 插件热插拔管理器：在 **设置 → 插件 → 「插件管理」** 标签页里列出当前挂载的所有 Cordis 插件，支持**运行时热启用 / 热停用 / 热重启**，以及**监视 profile 的 `package.json` 自动热挂载 / 卸载 bundle**——全程无需重启 `dsh web`。\n\n> 原名 `@dsh-external/dsh-plugin-manager`（未公开发布）。\n\n## 功能\n\n- **热停用**：调用 Loader 的 `entry.update({ disabled: true })`，插件当场卸载（服务、工具、监听器全部回收）。\n- **热启用**：`entry.update({ disabled: false })`，当场导入并启动插件——包括启动时就处于停用状态的插件。\n- **热重启**：卸载后重新加载，并尽力清除 Node ESM 模块缓存，让磁盘上的新代码生效（best-effort，见「已知限制」）。\n- **Bundle 自动同步（热挂载）**：监视 profile 的 `package.json`，当 `dsh.profile.bundles` 增删条目时，通过 Include 根分组热挂载 / 卸载对应 bundle——`dsh plugin add/remove` 之后无需重启。\n- **持久化**：每次开关都会把 `disabled: true` 写入 / 移除 profile 的 `cordis.patch.yml` 中一个由本插件维护的自动区块（`# === dsh-hotswap managed block ===`），因此重启 DSH 后开关状态依然生效。\n- **安全护栏**：\n  - 保护名单：`webserver`、`connection`、`api-",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-13T23:09:15.669Z",
   "created_at": "2026-08-13T23:02:23.363Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 58,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 51,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:18.592Z"
+  "updated_at": "2026-08-17T04:27:46.948Z"
 }

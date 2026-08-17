@@ -24,26 +24,19 @@
   "engines": {
     "node": "^22.19 || >=24"
   },
+  "readme": "# dsh-shop-assistant（电商小助手）\n\n[English](README.md) | 中文\n\n面向**电商运营（非程序员）**的 DeepSeek Harness（**dsh**）组合包：CSV 批量工具、可复现利润公式、中文 Skill、可替换的店铺政策知识库。\n\n**不是**又一个「写一句文案」的聊天机器人。相对直接问 AI，优势在：**整表批量、政策口径统一、利润用公式算、少粘贴**。\n\n## 安装\n\n需已安装 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（例如 `npx @deepseek-ai/dsh`）。\n\n```sh\n# npm（发布后）\ndsh plugin --profile web add dsh-shop-assistant\n\n# GitHub\ndsh plugin --profile web add github:pengzhou267-ai/dsh-shop-assistant\n\n# 本地目录\ndsh plugin --profile web add /path/to/dsh-shop-assistant\n```\n\n启动 Web UI，把店铺导出的 CSV 放进工作区即可。\n\n## 三个旗舰案例（相对直接问 AI）\n\n### 案例 1：差评批量回复（每天高频）\n\n1. **场景**：客服每天要回大量差评/中评，怕口径不一致。  \n2. **直接问 AI**：把 30 条评价粘贴进对话框 → 上下文爆炸；每轮重讲退货规则。  \n3. **用本插件**：把 `examples/reviews.csv` 放进工作区 → 复制下面提示词。  \n4. **对比**：一次处理整表；回复遵守 `kb/sample/售后政策.md`。\n\n```text\n工作",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T02:03:54.350Z",
   "created_at": "2026-08-15T02:03:54.096Z",
-  "gh": {
-    "full_name": "pengzhou267-ai/dsh-shop-assistant",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T15:58:37Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 60,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:08.431Z"
+  "updated_at": "2026-08-17T04:27:47.739Z"
 }

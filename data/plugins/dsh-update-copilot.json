@@ -13,8 +13,7 @@
     "version-radar",
     "semver",
     "changelog",
-    "agent-tools",
-    "cordis-plugin"
+    "agent-tools"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/hezhongtang/dsh-update-copilot.git",
@@ -35,8 +34,8 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-update-copilot\n\n[![License: MIT](https://img.shields.io/badge/license-MIT-0B7285?style=flat-square)](LICENSE)\n[![DSH core](https://img.shields.io/badge/DSH-%3E%3D%200.1.0--rc.6-5B4CF0?style=flat-square)](https://www.npmjs.com/package/@deepseek-ai/dsh)\n[![Zero build](https://img.shields.io/badge/zero--build-no%20bundler-2EA44F?style=flat-square)](lib)\n[![GitHub stars](https://img.shields.io/github/stars/hezhongtang/dsh-update-copilot?style=flat-square&logo=github)](https://github.com/hezhongtang/dsh-update-copilot/stargazers)\n\n**[DeepSeek Harness](https://www.npmjs.com/package/@deepseek-ai/dsh) 的更新助手：追踪 dsh 本体、官方 bundle 和每个 profile 已装插件的版本状态 —— 先帮你决策，确认后才更新。**\n\n<p align=\"center\">\n  <img src=\"assets/popup.png\" width=\"480\" alt=\"更新助手弹窗：核心包列表、落后项优先的插件行、已最新项折叠。\" />\n</p>\n\n[English](README.m",
   "weekly_downloads": 253,
-  "monthly_downloads": 253,
   "last_publish": "2026-08-15T16:03:06.944Z",
   "created_at": "2026-08-15T15:20:46.247Z",
   "gh": {
@@ -49,12 +48,12 @@
   },
   "scores": {
     "popularity": 60,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 39,
+    "quality": 85,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 79,
-    "grade": "A"
+    "dsh_compat": 80,
+    "overall": 63,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T03:50:34.758Z"
+  "updated_at": "2026-08-17T04:27:44.260Z"
 }

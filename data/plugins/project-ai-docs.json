@@ -21,19 +21,19 @@
     }
   },
   "engines": {},
+  "readme": "# project-ai-docs\n\n通用项目 AI 文档协议 skill：每项目一份 `docs/.ai/` 认知库，agent 会话先读索引再动手、改动必回写，防上下文涣散、保项目认知精细。\n\n英文版见 [README.en.md](README.en.md)。\n\n## 通用法则\n\n1. **地图先行** — `index.md` 唯一入口，全文档优先级路由表\n2. **分层预算** — core/modules/config/best-practices 四层，显式优先级管 token 开销\n3. **红线前置** — 硬约束（禁止项）放 index 最顶，先于一切技术信息\n4. **点读代替全读** — 模块化文档，按任务只读相关切片\n5. **写回闭环** — 任务结束 = 文档更新，知识沉淀在文档不靠会话记忆\n6. **增量感知** — changelog 台账，新会话读尾部即知项目现状\n7. **人机分离** — README 给用户，docs/.ai 给 agent\n8. **事实可验** — 只写实测路径/版本/命令，不写猜测\n\n## 内容\n\n```\nproject-ai-docs/\n├── skills/project-ai-docs/   # 运行时技能单元（DSH 插件式安装的发现根）\n│   ├── SKILL.md              # 协议本体（中文）\n│   ├── SKILL.en.md           # 协议英文版（替换式：改名覆盖 SKILL.md 即用）\n│   ├── template/             # Init 骨架·中文（复制即用）\n│   └── template.en/          # Init 骨架·英文\n├── extensions/dsh/index.js   # DSH bundle ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T14:17:13.631Z",
   "created_at": "2026-08-16T12:48:16.373Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 53,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:11.400Z"
+  "updated_at": "2026-08-17T04:27:46.471Z"
 }

@@ -26,19 +26,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "<div align=\"center\">\r\n\r\n# KoboldCpp for DeepSeek Harness\r\n\r\n**`dsh-koboldcpp-hands`** — 给 DeepSeek Harness 的智能体一双本地的手。\r\n\r\n[![version](https://img.shields.io/badge/version-0.1.0-blue)](https://github.com/MicroHEROX/dsh-koboldcpp-hands)\r\n[![license](https://img.shields.io/badge/license-MIT-green)](LICENSE)\r\n[![node](https://img.shields.io/badge/node-%3E%3D20-339933)](https://nodejs.org)\r\n[![harness](https://img.shields.io/badge/DeepSeek%20Harness-0.1.0--rc-4D6BFE)](https://github.com/deepseek-ai/deepseek-harness)\r\n\r\n**[English](README.md) · [中文](README.zh-CN.md)**\r\n\r\n</div>\r\n\r\n一个为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 编写的**第三方工具插件**：让**在线大模型**（你的主对话模型）把重复、耗 token 的简单劳动交给**本机 KoboldCpp**（llama.cpp）服务器完成——包括纯文本工作**和**视觉工作（识图 / OCR / 图片对比）。\r\n\r\n主模型保持在你部署的位置不变。当它认为某个",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T06:05:01.104Z",
   "created_at": "2026-08-15T05:06:48.165Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:12.924Z"
+  "updated_at": "2026-08-17T04:27:44.619Z"
 }

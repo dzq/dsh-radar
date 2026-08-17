@@ -19,8 +19,8 @@
   "engines": {
     "node": ">=22.19.0"
   },
+  "readme": "# dsh-querit\n\n[![license](https://img.shields.io/badge/license-MIT-yellow.svg)](./LICENSE)\n\nQuerit-backed search and fetch providers for the DeepSeek Harness [web capability seam](https://www.npmjs.com/package/@deepseek-ai/dsh-web) (`ctx.web`). It is the DeepSeek Harness counterpart of [`pi-querit`](https://www.npmjs.com/package/pi-querit): the model-facing `web_search` and `web_fetch` tools keep working unchanged, and this package swaps their backend to [Querit](https://www.querit.ai) — live web search and clean page content through `POST https://api.querit.ai/v1/search` and `/v1/contents`.\n\nSign up on [Querit.ai](https://www.querit.ai) to get an API key with **1,000 free API calls per month** — no credit card required.\n\n## Quick start\n\n1. Install the package (see **Install and update** b",
   "weekly_downloads": 159,
-  "monthly_downloads": 159,
   "last_publish": "2026-08-15T07:51:19.727Z",
   "created_at": "2026-08-15T07:51:19.453Z",
   "gh": {
@@ -33,12 +33,12 @@
   },
   "scores": {
     "popularity": 55,
-    "maintenance": 98,
-    "quality": 90,
+    "maintenance": 39,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 65,
-    "grade": "B"
+    "overall": 50,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:39.083Z"
+  "updated_at": "2026-08-17T04:27:44.269Z"
 }

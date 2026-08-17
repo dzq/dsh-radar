@@ -13,14 +13,7 @@
     "rag",
     "retrieval",
     "fts5",
-    "bm25",
-    "pdf",
-    "document-management",
-    "file-import",
-    "agent",
-    "llm",
-    "ai",
-    "知识库"
+    "bm25"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/htcqp802/dsh-knowledge-base.git",
@@ -43,26 +36,19 @@
   "engines": {
     "node": ">=22.5"
   },
+  "readme": "<div align=\"center\">\n\n# 🐳 dsh-knowledge-base\n\n**DeepSeek Harness (DSH) 通用知识库插件**\n\n文件导入 · 目录化管理 · FTS5 全文检索 · 知识库管理 UI\n\n[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![Node](https://img.shields.io/badge/node-%3E%3D22.5-brightgreen)](package.json)\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n\n[English](README.md) · **简体中文** · [Español](README.es.md) · [日本語](README.ja.md)\n\n</div>\n\n---\n\n**dsh-knowledge-base** 把文档变成 DeepSeek Harness agent 可检索的知识库：丢进一个 PDF、Word 或 Markdown 文件，自动解析、按章节切块入库，agent 即可用 FTS5（BM25）相关度排序检索。内置 Web 管理界面支持像文件管理器一样管理知识库：新建/重命名/删除目录、移动文件、浏览内容。\n\n## ✨ 功能特性\n\n- 📥 **导入任意文件** — `md / txt / json / yml / docx / pdf`，无大小限制；PDF 内置 [pdfjs-dist](https://github.com/mozilla/pdf.js) 解析（跨平台、零系统依赖）\n- 🔪 **",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T07:36:33.946Z",
   "created_at": "2026-08-16T07:31:56.616Z",
-  "gh": {
-    "full_name": "htcqp802/dsh-knowledge-base",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T07:56:17Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 40,
     "dsh_compat": 80,
-    "overall": 62,
-    "grade": "B"
+    "overall": 37,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:30.465Z"
+  "updated_at": "2026-08-17T04:27:46.974Z"
 }

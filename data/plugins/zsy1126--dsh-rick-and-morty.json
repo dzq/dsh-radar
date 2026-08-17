@@ -33,26 +33,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# 🌀 Rick and Morty for dsh\n\n[English](README.md) | 中文\n\n> **Wubba lubba dub dub!** 给 [DeepSeek Harness (dsh)](https://github.com/deepseek-ai/deepseek-harness) Web 界面的 Rick and Morty 全家桶:三套主题皮肤 + 一只会看你 agent 干活的桌宠。一条命令安装,一个插件全搞定。\n\n![C-137 传送门暗色主题](docs/screenshot-c137-dark.png)\n\n## ✨ 功能\n\n### 🎨 三套主题皮肤\n\n76 个界面颜色变量全量接管,设置页里三个方块一键切换(顶替了原生的 Light/Dark/System 按钮,图标是每套主题的真实色板):\n\n| 主题 | 明暗 | 气质 |\n|---|---|---|\n| 🥼 **白大褂 Lab Coat** | 亮色 | Rick 的白大褂 + 深传送门绿点缀 |\n| 🔵 **Meeseeks 蓝 Meeseeks Blue** | 亮色 | Mr. Meeseeks 的治愈蓝色世界 |\n| 🌀 **C-137 传送门 C-137 Portal** | 暗色 | 深空绿黑 + 荧光传送门绿,Morty 黄警告色 |\n\n![Meeseeks 蓝亮色主题](docs/screenshot-meeseeks-light.png)\n\n### 🐾 桌宠:被召唤出来陪你写代码的它们\n\n六个角色任选(设置页实时换装),**它能感知你的 agent 正在做什么**:\n\n| agent 状态 | 桌宠反应 |\n|---|---|\n| 开始干活 | 加速抖动,喊角色台词(\"干活干活干活!\") |\n| 任务完成 | 开心跳跃 + 庆祝台词 |\n| 出错 ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T17:12:16.095Z",
   "created_at": "2026-08-16T17:12:15.617Z",
-  "gh": {
-    "full_name": "zsyayo112/dsh-rick-and-morty",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T17:01:28Z",
-    "archived": false,
-    "license": "NOASSERTION"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 59,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:05.549Z"
+  "updated_at": "2026-08-17T04:27:44.340Z"
 }

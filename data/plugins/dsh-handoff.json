@@ -20,19 +20,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-handoff\n\nDSH 插件：**会话交接一键导出**。把当前会话的目标、已完成/未完成、关键文件与统计，导出为一份**确定性的 Markdown 交接文档**。纯 ESM、零依赖、无构建。\n\n## 简介\n\n`handoff` 工具从 `exec.agent.session` 的会话事件流中收集事实，**不调用任何 LLM**，直接生成确定性的 `HANDOFF.md`（或你指定的路径），适合在会话结束 / 切换上下文 / 交给接手者时，快速产出一份可读的交接材料。\n\n- **确定性导出，不调模型，零成本**：所有内容来自会话事件流（用户消息、工具调用、工具结果、todo、goal/change、token 统计），不做模型推断、不读时钟、不用随机数，同样输入必然得到同样输出。\n- **与记忆插件的区别**：这是一次性交接文档，而不是持久记忆库——它把「此刻」的会话状态冻结成一份文件，供人（或下一会话）阅读；记忆插件则是持续累积、随会话演进的状态。\n\n## 安装\n\n```sh\ndsh plugin --profile <你的 profile> add file:./plugins/dsh-handoff\n# 或发布到 npm 后：\ndsh plugin --profile <你的 profile> add dsh-handoff\n```\n\n## 参数\n\n| 参数 | 类型 | 必填 | 默认 | 说明 |\n|---|---|---|---|---|\n| `dest` | string | 否 | `HANDOFF.md` | 导出文件路径（**相对工作区根**） |\n| `overwrite` | boolean | 否 | `false` | `dest` 已存在时是否覆盖；`false` 且已存在则返回规范错误值 |\n\n## 输出（规范值）\n\n- 成功：`",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:46:52.961Z",
   "created_at": "2026-08-16T08:46:52.655Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:17.851Z"
+  "updated_at": "2026-08-17T04:27:44.626Z"
 }

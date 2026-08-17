@@ -19,19 +19,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-clipboard\n\n把文本写入**系统剪贴板**的 DSH 插件。零依赖、纯 ESM JavaScript、无需构建。\n\n## 简介\n\n注册一个工具 `clipboard_write`，接收任意文本并写入系统剪贴板，方便 agent 把生成的结果直接交给用户粘贴使用（例如复制命令、代码片段、URL、密钥等）。\n\n执行结果始终返回规范 JSON 值，**任何失败都不抛异常**：\n\n```jsonc\n{ \"ok\": true,  \"bytes\": 42, \"tool\": \"pbcopy\" }\n{ \"ok\": false, \"bytes\": 42, \"tool\": null, \"error\": \"no clipboard tool available (install xclip or xsel): ...\" }\n```\n\n## 安装\n\n```sh\ndsh plugin --profile <profile-name> add dsh-clipboard\n# 本地开发：\ndsh plugin --profile <profile-name> add file:./plugins/dsh-clipboard\n```\n\n## 平台依赖\n\n| 平台 | 实现 | 是否需要安装 |\n|---|---|---|\n| macOS | `pbcopy`（`/usr/bin/pbcopy`） | 免装，系统自带 |\n| Windows | `clip` | 免装，系统自带 |\n| Linux | `xclip`（优先）或 `xsel` | 需要安装其一：`sudo apt install xclip` 或 `sudo apt install xsel`；两者都没装时工具返回 `ok: false` 并提示安装 |\n\n> 注意：Linux 下需要可用的 X11/Wayland 会话（",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T03:38:59.633Z",
   "created_at": "2026-08-15T03:38:59.356Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:09.873Z"
+  "updated_at": "2026-08-17T04:27:47.740Z"
 }

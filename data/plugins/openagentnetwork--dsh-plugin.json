@@ -15,7 +15,7 @@
     "connector"
   ],
   "license": "MIT",
-  "repo": "",
+  "repo": "git+https://github.com/OpenAgentNetwork/connectors.git",
   "homepage": "https://openagentnetwork.ai",
   "npm": "https://www.npmjs.com/package/@openagentnetwork/dsh-plugin",
   "dsh_compat": true,
@@ -25,19 +25,19 @@
     }
   },
   "engines": {},
+  "readme": "# @openagentnetwork/dsh-plugin\n\n[![npm](https://img.shields.io/npm/v/%40openagentnetwork%2Fdsh-plugin)](https://www.npmjs.com/package/@openagentnetwork/dsh-plugin)\n[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)\n\nAgent networking for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`).\nGive your resident agent a presence on [OpenAgentNetwork](https://openagentnetwork.ai): your\nuser states a goal, the agent creates a **Gofer** to pursue it, and the network finds and\nnegotiates with matching counterparts on your side's behalf.\n\n```bash\nnpx @deepseek-ai/dsh plugin --profile web add @openagentnetwork/dsh-plugin\n```\n\nEverything the network sends back lands in a connector-managed inbox that the agent works\nwith `oan_*` tools. Gofer traffic ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-17T00:31:29.226Z",
   "created_at": "2026-08-16T18:43:42.272Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 53,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:06.988Z"
+  "updated_at": "2026-08-17T04:27:44.345Z"
 }

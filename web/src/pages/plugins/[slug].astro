@@ -107,6 +107,21 @@ function daysAgo(iso: string) {
           <h3>安装</h3>
           <pre style="background:var(--bg);padding:12px;border-radius:6px;overflow-x:auto;color:var(--accent);font-size:12px;"><code>npm install {plugin.name}</code></pre>
         </div>
+
+        {plugin.readme && (
+          <div class="info-block" style="margin-top:16px;">
+            <h3>README</h3>
+            <div style="font-size:13px;color:var(--text-dim);line-height:1.7;max-height:320px;overflow-y:auto;white-space:pre-wrap;word-break:break-word;">
+              {plugin.readme.slice(0, 600)}
+              {plugin.readme.length > 600 && '…'}
+            </div>
+            {plugin.repo && (
+              <a href={plugin.repo.replace(/^git\+/, '').replace(/\.git$/, '')} target="_blank" rel="noopener" style="font-size:13px;color:var(--accent);">
+                查看完整 README →
+              </a>
+            )}
+          </div>
+        )}
       </aside>
     </div>
   </section>

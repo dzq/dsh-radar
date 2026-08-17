@@ -24,19 +24,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-tool-user-memory\n\n**DeepSeek Harness 用户偏好记忆插件**：让 agent 跨会话记住你的偏好——语言习惯、沟通风格、项目背景、目标……每个新会话都不必重新自我介绍。\n\n> **独立开源插件** —— 作为 DeepSeek Harness 社区生态的一部分独立开发与维护\n> （GitHub 话题：[`dsh-plugin`](https://github.com/topics/dsh-plugin)）。\n> 与官方仓库无关；直接通过 npm 安装，30 秒启用。\n\n[English](README.en.md) ｜ [更新日志](CHANGELOG.md)\n\n---\n\n## 1. 项目介绍\n\n### 它解决什么问题\n\n默认情况下，DeepSeek Harness 的 agent **每次新会话都是\"陌生人\"**：不知道你偏好简洁还是详细、不知道你做什么项目、不知道你用什么语言交流——每个新会话都得重新交代一遍。\n\n这个插件给 agent 加了一块**持久化的用户画像**：\n\n- 你说一句\"我喜欢简洁的中文回答\"，agent 把它写进记忆文件；\n- **之后每一个新会话**，这段记忆会自动注入系统提示词，agent 天生就知道——不用你提醒，也不用调工具。\n\n### 核心能力\n\n| 能力 | 说明 |\n|---|---|\n| `memory_update(key, value, mode?)` | agent 学到你的稳定偏好时，自动记录 / 追加 / 删除 |\n| `memory_get(query?, limit?)` | 需要个性化回答时，主动读取你的画像 |\n| `{{user_profile}}` 系统提示词注入 | **每个会话每轮自动携带**你的画像（空画像零 token 成本） |\n| 持久化存储 | `$DS",
   "weekly_downloads": 32,
-  "monthly_downloads": 32,
   "last_publish": "2026-08-14T08:36:54.396Z",
   "created_at": "2026-08-14T08:18:18.501Z",
   "gh": null,
   "scores": {
     "popularity": 38,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 62,
-    "grade": "B"
+    "overall": 47,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:47.903Z"
+  "updated_at": "2026-08-17T04:27:44.305Z"
 }

@@ -34,19 +34,19 @@
   "engines": {
     "node": "^22.19 || >=24"
   },
+  "readme": "# @dsh-suite/plugin-deus · 神模扳机（Deus Trigger）\n\n> ⚠️ **诚实声明 / Honesty note**\n> 「神模 3 模式」（纯区版 / 中版 / 神版）来自**社区观察**（X @NFT_Chen 推文，72 赞），**未获 DeepSeek 官方证实**。\n> 本插件只做**提示词注入 + 回复起手判定 + 本地日志统计**，把\"口耳相传的极简触发词\"变成可重复、可量化的实验。\n> 它**不承诺、也不声称**触发任何隐藏能力；观测到的触发率**可能只是随机采样噪音**。\n>\n> The \"3 modes\" are a **community observation**, NOT confirmed by DeepSeek. This plugin injects candidate\n> minimal prompts, heuristically classifies reply openers, and keeps a local experiment log.\n> It does not promise or claim any hidden capability; observed trigger rates may be sampling noise.\n\n## 它做什么 / What it does\n\n把\"触发神模\"从玄学变成可重复实验：\n\n1. **触发预设库** — 5 个内置极简提示词模式（空输入 / 单字符 / we-引导 / Let-me 起手 / 纯斜杠），全部可编辑、增删。\n2. **一键注入** — 两档：\n   - **档 A（保守）**：Settings 面板一键复制 → 粘贴进输入框发送；宿主按 prompt 精确匹配自动配对判定。\n   - **档 B（增强）**：对话输入框上方的芯片行，",
   "weekly_downloads": 312,
-  "monthly_downloads": 312,
   "last_publish": "2026-08-15T14:19:36.719Z",
   "created_at": "2026-08-15T11:39:52.172Z",
   "gh": null,
   "scores": {
     "popularity": 62,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 66,
-    "grade": "B"
+    "overall": 54,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:32.506Z"
+  "updated_at": "2026-08-17T04:27:44.254Z"
 }

@@ -25,19 +25,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-permissions\n\n[English](./README.md) | 中文\n\n面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（dsh）的 **Claude Code 风格权限规则引擎**。双面 Cordis 插件：宿主侧在 `tools/pre-execute` 瀑布上做拦截判定，浏览器侧提供 **设置 → 权限** 可视化编辑器。\n\n## 亮点\n\n- **四级规则、严格优先级**：`hard` > `deny` > `ask` > `allow`。\n- **`hard` 高于全访问**：即使会话处于全访问档（审批策略 `never`），hard 规则依然拦截、不可豁免；`ask` 规则跟随会话策略，全访问下自动放行。\n- **作用域**：`global` 规则全局生效；按 `workspace` 的规则叠加合并（冲突时 deny 永远胜出）。\n- **通配符匹配**（文件类工具 `read`/`write`/`edit`/`glob`/`grep`/`read_image`）：\n  - `write(*.pem)` —— 路径以 `.pem` 结尾\n  - `write(*secret*)` —— 路径包含 `secret`\n  - `write(.ssh)` —— 路径任意位置出现 `.ssh` 片段（大小写不敏感，`\\`/`/` 统一归一化）\n  - `write(C:\\users\\*)` —— 绝对路径前缀\n  - 裸 `write` —— 该工具全部调用\n- **持久化**：规则存于 `dsh-permissions` 设置命名空间，跨重启保留（`<harness home>/settings.yaml`）。\n- **模型透明**：生效规则注入系统提示（",
   "weekly_downloads": 209,
-  "monthly_downloads": 209,
   "last_publish": "2026-08-15T19:32:22.317Z",
   "created_at": "2026-08-15T19:28:49.998Z",
   "gh": null,
   "scores": {
     "popularity": 58,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 65,
     "dsh_compat": 80,
-    "overall": 67,
+    "overall": 55,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T03:50:38.260Z"
+  "updated_at": "2026-08-17T04:27:44.266Z"
 }

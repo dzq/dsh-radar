@@ -26,6 +26,7 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# `@isomoes/dsh-ikanban`\n\nKeyboard-oriented iKanban web application bundle for DeepSeek Harness.\n\nThe host runtime uses the published DSH prerelease (`0.1.0-rc.6`) backends but\nowns its Web startup and runtime glue. The full browser surface is locally owned as TS/TSX/CSS in the private sibling\n`packages/web-ui` package. The public package ships its Vite shell and\n30 isolated virtual client bundles, so a DSH profile installs only\n`@isomoes/dsh-ikanban`.\n\n## Usage\n\nInstall the published plugin into an `ikanban` profile. The `dsh plugin`\ncommand creates the profile if it does not already exist:\n\n```bash\ndsh plugin --profile ikanban add @isomoes/dsh-ikanban --registry=https://registry.npmjs.org\n```\n\nRun iKanban through that profile:\n\n```bash\ndsh --profile ikanban\n```\n\nSee the project [changelo",
   "weekly_downloads": 535,
   "last_publish": "2026-08-15T15:14:49.189Z",
   "created_at": "2026-08-15T12:04:35.021Z",
@@ -33,11 +34,11 @@
   "scores": {
     "popularity": 68,
     "maintenance": 0,
-    "quality": 90,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 58,
+    "overall": 55,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T03:56:22.919Z"
+  "updated_at": "2026-08-17T04:27:44.236Z"
 }

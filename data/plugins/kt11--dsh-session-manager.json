@@ -1,0 +1,57 @@
+{
+  "slug": "kt11--dsh-session-manager",
+  "name": "@kt11/dsh-session-manager",
+  "version": "0.1.0",
+  "description": "dsh plugin: session management card in the sidebar footer",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "session",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@kt11/dsh-session-manager",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "pluginCenter": {
+      "expectedEntries": [
+        "dsh-session-manager"
+      ],
+      "expectedClientModules": [
+        "@kt11/dsh-session-manager"
+      ],
+      "expectedSkillIds": []
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {
+    "node": ">=22.19"
+  },
+  "readme": "ERROR: No README data found!",
+  "weekly_downloads": 0,
+  "last_publish": "2026-08-17T03:25:12.853Z",
+  "created_at": "2026-08-17T03:25:12.505Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:27:53.732Z"
+}

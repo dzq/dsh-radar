@@ -25,19 +25,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-notify-skill\r\n\r\n[English](README.md) | 中文\r\n\r\n**你不在电脑前时，agent 用邮件提醒你回来。**\r\n\r\n你在 [DSH](https://github.com/deepseek-ai)（或其他 AI 编码 agent）里派一个长任务 goal，然后离开电脑。当 agent 完成、卡住、或需要你决策时，它发一封邮件到你手机邮箱——你看到就回来。单向通知，不做远程指挥。\r\n\r\n## 设计理念：自带发送器，教会兜底实现\r\n\r\n本 skill 打包**一个零依赖实现**——`sender.mjs`（约 70 行，只用 Node 内置 `tls`/`net`），让 agent 在每个正常 DSH 会话里都能确定地发信（DSH 本身就跑在 Node 上）。`SKILL.md` 仍然承载完整契约：\r\n\r\n- **何时**通知（goal 完成 / 阻塞 / 提问决策前 / 长任务节点），\r\n- **写什么**（具体、用你的语言、简短），\r\n- **配置契约**（`config.json`：发件邮箱、SMTP 授权码、收件邮箱；QQ/163 邮箱自动推断服务器），\r\n- 配置缺失时如何**引导用户**获取 SMTP 授权码，\r\n- 故障处理与安全规则。\r\n\r\n万一 Node 真的不可用（极少见），skill 指令会告诉 agent **自己实现那 ~15 行 SMTP 调用**——环境里有什么用什么：Python `smtplib`、curl、`mail`…… 这样 skill 依然跨平台（Windows/Linux/macOS）且不过时。\r\n\r\n## 触发时机\r\n\r\n| 时机 | 建议标记 |\r\n|---|---|\r\n| goal 完成 | `done` |\r\n| goal 阻塞/卡住 | `block` |\r\n| 即将向你提问决",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T05:58:41.424Z",
   "created_at": "2026-08-15T05:58:41.250Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:20.642Z"
+  "updated_at": "2026-08-17T04:27:46.951Z"
 }

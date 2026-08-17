@@ -30,26 +30,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# dsh-peak-avoidance\n\nDeepSeek Harness 高峰期模型自动切换插件：在高峰期开始前自动把模型切换到指定的替代供应商模型，高峰结束后自动切回官方模型，规避 DeepSeek 官方高峰计费。\n\n**维护：柚木夏实 · 代码由 AI（DeepSeek Harness）编写**\n\n## 免责声明\n\n> 本插件**完全由 DSH（AI）全权开发**，作者没有任何编程经验，代码未经专业审查。\n> 请使用者**自行测试**，自行判断其危险性、稳定性与正确性后再使用。\n> 本仓库中的安装指令可能包含 **AI 幻觉**（不准确或不存在的步骤、包名、路径），执行前请自行核实安全性。\n> 因使用本插件产生的任何后果，作者不承担任何责任。\n\n## 功能\n\n- **自动调度**：每个高峰窗口的 `start − leadMinutes`（默认 30 分钟）进入避峰，`end` 恢复。\n- **双轨切换**：`agentDefaultModel`（默认路由，覆盖未来/未打开会话）+ `apiProxy.sessions.selectModel`（正在使用的活动会话，下一轮起生效）。\n- **多高峰窗口**：任意数量，支持跨午夜（如 `22:00-02:00`）。\n- **思考强度**：避峰/官方模型均可指定 `reasoningEffort`（如 `high`），下拉按模型目录实际支持档位填充。\n- **供应商/模型目录下拉**：从 `llm` 服务实时获取，无需手填。\n- **切换提醒横幅**：进/出峰时全帧弹提醒（可关闭；关闭后停止轮询）。\n- **手动干预**：卡片与模型工具（`peak_avoidance_status` / `peak_avoidance_control`）提供立即避峰/恢复。\n- **安全**：高峰内手动改回的会话不会被插件强制覆盖；停止",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-17T01:36:14.421Z",
   "created_at": "2026-08-17T01:36:14.081Z",
-  "gh": {
-    "full_name": "yuzuki-natsumi/dsh-peak-avoidance",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-17T01:38:12Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 61,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:22.359Z"
+  "updated_at": "2026-08-17T04:27:44.634Z"
 }

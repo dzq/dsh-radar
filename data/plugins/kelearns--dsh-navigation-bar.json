@@ -32,19 +32,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-navigation-bar\n\n钢琴键风格的**会话内**导航条 —— 为 DeepSeek Harness Web GUI 的单个会话提供多轮对话导航：\n每根键锚定一条用户消息，悬停显示该轮「用户消息 + 模型回复」预览，点击平滑跳转到对应消息。\n基于 DSH 官方双面插件机制（host + browser half），不侵入 DSH 源码。\n\n[English](README.en.md)\n\n## 截图\n\n**深色主题 · 悬停态**（全屏 + 聚焦细节）：\n\n![深色悬停全屏](screenshots/promo-dark-hover-full.png)\n\n| 深色悬停聚焦 | 深色非悬停聚焦 |\n| --- | --- |\n| ![深色悬停聚焦](screenshots/promo-dark-hover-focus.png) | ![深色非悬停聚焦](screenshots/promo-dark-idle-focus.png) |\n\n**浅色主题**（悬停 / 非悬停全屏）：\n\n![浅色悬停全屏](screenshots/promo-light-hover-full.png)\n\n| 浅色悬停聚焦 | 浅色非悬停聚焦 |\n| --- | --- |\n| ![浅色悬停聚焦](screenshots/promo-light-hover-focus.png) | ![浅色非悬停聚焦](screenshots/promo-light-idle-focus.png) |\n\n> 全屏图展示导航条在会话界面中的实际位置；聚焦图展示钢琴键细节（键形、悬停阶梯与消息预览气泡）。\n\n## 功能\n\n- **会话内导航**：一根键 = 一条用户消息（含 agent 运行中发送的 steering 消息），按时间正序；\n  模型回复不单独占键，并入对应轮次的预览。\n- **参考图级",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T08:08:03.722Z",
   "created_at": "2026-08-15T07:48:21.082Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:20.848Z"
+  "updated_at": "2026-08-17T04:27:46.952Z"
 }

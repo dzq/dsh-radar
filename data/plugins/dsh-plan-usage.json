@@ -32,19 +32,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-plan-usage\n\n在 DeepSeek Harness 的 Web 对话框**右下角**显示套餐用量角标，持续展示每个套餐的三个用量窗口：\n\n- **5小时**（滚动窗口）\n- **周限**\n- **月限**\n\n当前支持四个套餐（渠道）：**OpenCode Go**（5小时 $12 滚动 / 周 $30 / 月 $60）、**GLM Z.AI**（GLM Coding Plan 国际版）、**GLM 智谱**（GLM Coding Plan 国内版，5小时 token 窗口 / 周 token 窗口 / 月 MCP 工具额度）与 **Kimi Code**（Kimi 会员套餐额度：5小时频限窗口 / 7 天周限；月度会员额度可经可选的 kimi-auth Cookie 增强）。\n\n胶囊为**多行**样式：每个套餐一行，依次列出 5小时/周限/月限 三个窗口的百分比（缺失的窗口按 0% 计，如 Z.AI 套餐无周限、Kimi Code 未配 Cookie 时无月限）；每行前一颗状态圆点按该套餐最差窗口分级（<50% 绿 / 50–89% 黄 / ≥90% 红），例如：\n\n```\nOpenCode Go 0% 79% 42%\nGLM 智谱 1% 0% 1%\nKimi Code 12% 6% 0%\n```\n\n胶囊外形自适应：只有一行时保持圆弧胶囊，多行时自动改为圆角矩形。\n\n点击胶囊展开面板，面板按套餐分区，每区展示各窗口（以实际返回为准，如未取到的窗口不占行）的进度条与重置倒计时，每 60 秒自动刷新。\n\n![dsh-plan-usage 效果图](dsh-plan-usage.png)\n\n## 安装\n\n这是一个 DSH **bundle**（组合包）。用 `dsh plugin` 安装到某个 profile (以下两条命令**二选一**)：\n\n```sh\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T07:55:43.850Z",
   "created_at": "2026-08-14T03:29:14.681Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:01.967Z"
+  "updated_at": "2026-08-17T04:27:46.449Z"
 }

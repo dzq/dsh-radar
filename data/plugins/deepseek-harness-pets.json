@@ -33,19 +33,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# deepseek-harness-pets\n\n[English](README.md) | 简体中文\n\n> 让 DeepSeek Harness 的状态动起来——官方原生 dsh 桌宠插件。\n\n## 安装\n\n两条命令（v0.2.2 起已上 npm）：\n\n```sh\ndsh plugin --profile web add deepseek-harness-pets\ndsh web\n```\n\n打开 `http://localhost:3080`——鲸鱼已经在右下角了。完整指南（前置条件、源码安装、手写 patch 行、故障排查）：[docs/installation.zh.md](docs/installation.zh.md)。\n\n---\n\n本项目是一个**符合 [DeepSeek Harness (dsh)](https://github.com/deepseek-ai/deepseek-harness) 官方原生安装要求的插件**：按官方 bundle/profile 机制安装后，一只鲸鱼（官方 DeepSeek Whale SVG，v0.2 艺术层）会常驻 DSH Web UI 的**右下角悬浮窗**（`shell.overlay` 插槽，不占用聊天流），随你的评测与回合状态实时换动作、弹气泡——像 Codex 桌宠一样，但零外部依赖。\n\n宠物可通过 cordis.yml 一行配置**切换或随机**；宠物资产采用 [Petdex](https://github.com/crafter-station/petdex) 标准格式（`pet.json` + 8×9 spritesheet），将来可直接复用到 Petdex 桌面悬浮端或提交到 petdex.dev 社区画廊。\n\n> 效果演示：（待像素图就绪后补 GIF——见 [皮肤创作指南](#-皮肤创作指南)）\n\n--",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T04:18:35.952Z",
   "created_at": "2026-08-15T03:38:32.030Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:12.308Z"
+  "updated_at": "2026-08-17T04:27:44.617Z"
 }

@@ -33,26 +33,19 @@
   "engines": {
     "node": ">=22.12.0"
   },
+  "readme": "# dsh-mobile-remote\n\n[English](README.md) | 中文\n\n**手机微信 = 你的 DeepSeek Harness 电脑遥控器。**\n\n微信扫码绑定机器人后，在任何网络（4G/任何 WiFi）通过微信指挥你的 dsh agent：\n发命令、发任务、收结果、`/ls` 看电脑文件夹目录、**双向收发文件**、**主动推送通知**、**多会话切换**。\n\n- 全权限模式：agent 全部工具可用，不弹确认直接执行（permissionMode 可切 strict 逃生舱）\n- 语音消息：不存不转写，回复「无法识别语音消息」\n- 消息经腾讯 iLink 服务器中转（微信没有第三方 API），**非端到端加密**——见「风险与边界」\n\n## 突出特点与优势\n\n相比同类 dsh 微信桥接插件（`dsh-weixin`、`dsh-chatnode-wechat`、`dsh-im-bridge` 等）：\n\n1. **协议最扎实**：wire 细节逐字对照腾讯官方 openclaw-weixin SDK v2.4.6（核对笔记与参考源码见 `docs/`）——出站 aes_key 编码、上传/消息两套媒体编号、CDN 上传下载流程全部与官方一致；入站 AES 密钥双编码态（base64 原字节 / base64 hex）全支持，坏密钥明确报错不降级\n2. **双向文件收发**：入站图片/文件/视频自动下载解密落盘（稳定命名防崩溃重放 + 明文 md5 校验 + 100MB 上限）；出站 `/send` 与模型回复中的 `[[send-file:路径]]` 双入口，共用唯一路径白名单校验（symlink 穿透/越界/目录一律拒绝）\n3. **主动通知闭环**：模型工具 `weixin_send`（文本+文件）+ 未绑定会话完成通知（规则化去重防双发）；会",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T07:16:59.186Z",
   "created_at": "2026-08-16T07:16:58.850Z",
-  "gh": {
-    "full_name": "good-boy4069/dsh-mobile-remote",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T07:18:04Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 64,
-    "grade": "B"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:13.649Z"
+  "updated_at": "2026-08-17T04:27:46.476Z"
 }

@@ -13,10 +13,7 @@
     "dashscope",
     "vision",
     "ocr",
-    "multimodal",
-    "text-only-llm",
-    "image-to-text",
-    "coding-agent"
+    "multimodal"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/zjcdkj/dsh-plugins.git",
@@ -31,26 +28,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# dsh-plugin-qwen-image\n\n[![npm](https://img.shields.io/npm/v/dsh-plugin-qwen-image)](https://www.npmjs.com/package/dsh-plugin-qwen-image)\n[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![DeepSeek Harness](https://img.shields.io/badge/DeepSeek%20Harness-plugin-black)](https://github.com/deepseek-ai/deepseek-harness)\n\n[English](README.md) | 中文\n\n**给纯文本模型装上眼睛。** 本地图片交给一条视觉路由，**回来的是文本** —— DeepSeek 继续当编码模型，千问只负责看图。\n\n```sh\ndsh plugin --profile web add -w dsh-plugin-qwen-image\n```\n\n![在 DeepSeek 会话里用 qwen_image 读一张幻灯片](https://raw.githubusercontent.com/zjcdkj/dsh-plugins/main/packages/qwen-image/assets/demo.png)\n\n## 安装\n\n**`-w` 是必需的。** profile 目录是个 pnpm workspace 根，不带 `-w` 时 pnpm 会以 `ERR_PNPM_ADDING_TO_ROOT` 拒绝，什么都不会装上。\n\n**装的时候不索要构建授权。** 纯 ESM 无构建步骤，所以没有 `prepare` 脚本。pnp",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T17:04:42.649Z",
   "created_at": "2026-08-16T11:55:48.879Z",
-  "gh": {
-    "full_name": "zjcdkj/dsh-plugins",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-17T02:06:24Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 64,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:05.344Z"
+  "updated_at": "2026-08-17T04:27:44.341Z"
 }

@@ -1,8 +1,8 @@
 {
   "slug": "dsh-checkpoint-diff",
   "name": "dsh-checkpoint-diff",
-  "version": "0.1.0",
-  "description": "File-diff visualization between checkpoint time nodes for DeepSeek Harness: a read-only timeline + per-file line diff over the dsh-checkpoint-rewind checkpoints storage domain, exposed as a /diff command, a JSON HTTP API, and a GUI panel (session header a",
+  "version": "0.4.2",
+  "description": "File-diff visualization between checkpoint time nodes for DeepSeek Harness: a read-only timeline + per-file line diff over the dsh-checkpoint-rewind checkpoints storage domain, with preview-first rollback (restore workspace files from any time node, singl",
   "keywords": [
     "deepseek-harness",
     "dsh",
@@ -14,8 +14,8 @@
     "cordis-plugin"
   ],
   "license": "Apache-2.0",
-  "repo": "git+https://github.com/wonderfulcode1/dsh-checkpoint-diff.git",
-  "homepage": "https://github.com/wonderfulcode1/dsh-checkpoint-diff#readme",
+  "repo": "git+https://github.com/tmpdot/dsh-checkpoint-diff.git",
+  "homepage": "https://github.com/tmpdot/dsh-checkpoint-diff#readme",
   "npm": "https://www.npmjs.com/package/dsh-checkpoint-diff",
   "dsh_compat": true,
   "dsh_meta": {
@@ -23,35 +23,28 @@
       "patch": "./cordis.patch.yml"
     },
     "client": {
-      "platform": "web",
       "inject": [
         "@deepseek-ai/dsh-client-runtime"
-      ]
+      ],
+      "platform": "web"
     }
   },
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-checkpoint-diff\n\n把 [dsh-checkpoint-rewind](https://github.com/PerryLink/dsh-checkpoint-rewind) 的检查点（快照）当作**时间节点**，提供任意两个节点之间的**文件差异可视化**：会话头部 \"Diff\" 按钮打开浮层面板（时间线 → 文件清单 A/M/D → 逐行 diff），另有 `/diff` 命令与 JSON HTTP API 供 headless 使用。\n\n只读设计，唯一显式例外是**回滚**：可从任意时间节点把工作区文件恢复回来（整节点或单文件），经面板、`/rollback` 命令或 API 触发。回滚**只覆盖写、绝不删除**（节点之后新建的文件保留并报告）、绝不碰 `.git`/`.dsh`、绝不写快照存储/git/会话。\"绝不删除\"的唯一例外是回滚的**单次撤销**（`/rollback --undo`、面板按钮）：只删除恢复操作自己刚创建的文件，其余一律不动（进程内记忆，重启即失效）。\n\n## 安装\n\n```bash\ndsh plugin --profile web add dsh-checkpoint-rewind   # 快照生产者（先装）\ndsh plugin --profile web add dsh-checkpoint-diff     # 本插件\n```\n\n两个都是 bundle 插件：`dsh plugin add` 把它们写进 profile 的 `dsh.profile.bundles`，各自的 `cordis.patch.yml` 插入插件行。**host 侧变更需重启 harness**；浏览器 bundle 以 `no-cache` 直出，客户端修复刷新页面即可。\n\n> bundle 层顺序必须是 **rewind 在 di",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
-  "last_publish": "2026-08-16T09:23:32.822Z",
+  "last_publish": "2026-08-16T15:32:29.226Z",
   "created_at": "2026-08-16T09:23:32.621Z",
-  "gh": {
-    "full_name": "wonderfulcode1/dsh-checkpoint-diff",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T09:07:20Z",
-    "archived": false,
-    "license": "Apache-2.0"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 65,
-    "grade": "B"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:48.339Z"
+  "updated_at": "2026-08-17T04:27:56.286Z"
 }

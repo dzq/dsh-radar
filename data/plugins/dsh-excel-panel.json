@@ -25,19 +25,19 @@
     }
   },
   "engines": {},
+  "readme": "# 📊 dsh-excel-panel\n\n> DSH 右侧栏 Excel 编辑插件：在 `dsh-better-sidebar` 中直接预览、编辑和保存 `.xlsx` 文件。\n\n[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n![Platform](https://img.shields.io/badge/platform-DSH%20Web-blue)\n![Version](https://img.shields.io/badge/version-0.6.1-orange)\n\n## 简介\n\n`dsh-excel-panel` 是一个面向 DSH Web 的右侧栏插件，让你不用离开聊天界面就能：\n\n- 打开 `.xlsx` 文件并直接编辑单元格\n- 像 Excel 一样操作工作表、合并单元格、调整字体样式\n- 实时预览公式计算结果\n- 一键保存回原文件\n\n## ✨ 功能特性\n\n### 交互\n\n- 单击选中单元格\n- 双击编辑文字\n- 点击空白处取消选中\n- 拖动 / Shift+点击多选范围\n- 多选范围使用淡蓝色半透明叠加，不遮挡单元格底色\n\n### 格式工具栏\n\n- 字体大小下拉框\n  - 多选时如果字体大小不一致，显示空白“字号”\n- 加粗 `B` / 斜体 `I` / 下划线 `U`\n  - 多选时能识别统一状态\n- 左对齐 / 居中 / 右对齐\n- 字体颜色菜单\n  - 20 个标准色\n  - 自定义颜色：5 个自定义色块 + RGB 滑块 + HEX 输入\n- 背景颜色菜单\n  - 20 个标准色\n  - 自定义颜色：5 个自定义色块 + RGB 滑块 + HEX 输入\n\n### 自定义颜色\n\n- 左键点击自定义色块：直接使用该颜色\n- 右键点击自定义色块：打开",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-17T02:49:35.223Z",
   "created_at": "2026-08-16T09:25:39.447Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 52,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:06:41.922Z"
+  "updated_at": "2026-08-17T04:27:47.721Z"
 }

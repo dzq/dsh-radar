@@ -24,19 +24,19 @@
   "engines": {
     "node": ">=18"
   },
+  "readme": "# @deepseek-ai-harness/tui\n\nDeepSeek Build (`dsh-tui`) — grok-build style terminal UI for the deepseek-harness agent runtime.\n\nThis package bundles a platform-native binary and installs two commands:\n\n- `dsh-tui` (primary)\n- `dsb` (alias)\n\n## Install\n\n```sh\nnpm i -g @deepseek-ai-harness/tui@beta\n```\n\nOr from a local tarball built from source:\n\n```sh\n# From the repo root, after building the tarball:\nnpm i -g ./dist/<tgz>\n```\n\n## Runtime discovery\n\nThe deepseek-harness runtime is discovered separately from this package. Either:\n\n- install the SDK into a `.venv` next to your workspace:\n\n  ```sh\n  python -m venv .venv\n  .venv/bin/pip install deepseek-harness-sdk\n  ```\n\n- or point directly at a runtime binary with the `DSH_RUNTIME_BIN` environment variable.\n\n## Uninstall\n\n```sh\nnpm uninstall -g",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-13T17:33:10.209Z",
   "created_at": "2026-08-13T17:33:09.902Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 58,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:00:07.233Z"
+  "updated_at": "2026-08-17T04:27:47.389Z"
 }

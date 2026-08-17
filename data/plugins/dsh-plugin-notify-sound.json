@@ -34,26 +34,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# dsh-plugin-notify-sound\n\n[English](README.md) | 中文\n\nDeepSeek Harness（DSH）Web 端插件：**任务完成后按工作区播放可定制的通知铃声**，\n并在**需要人介入时**（审批、提问、计划评审、目标受阻、任务失败）播放注意提示音。\n\n## 功能\n\n### 完成铃声（按工作区）\n\n- 会话「一次回答结束」（回合完成，`running: true → false`）或后台任务完成时播放。\n- 铃声按工作区解析：先查该工作区的单独配置，未配置则使用默认铃声。\n- 声音来源三选：\n  - **内置合成音** — 6 种（叮咚 / 风铃 / 铃铛 / 完成 / 成功 / 静音），Web Audio 实时合成，无需音频文件；\n  - **语音播报（TTS）** — 浏览器用系统中文语音朗读自定义文案（如「我做完啦！」），可选声音与语速；\n  - **自定义音频** — 上传任意 MP3/WAV 等文件。\n\n### 注意铃声（需要人介入时）\n\n以下事件**始终响铃**（不受「当前会话不响铃」限制）：\n\n| 事件 | 检测来源 | 默认声音 |\n|---|---|---|\n| 审批请求 | 会话 `pendingInteraction: approval` | 通用注意音 |\n| 用户提问 | `pendingInteraction: question` | 通用注意音 |\n| 计划评审 | `pendingInteraction: plan-review` | 通用注意音 |\n| 目标受阻 | goal 投影进入 `blocked` | 通用注意音 |\n| 后台任务失败 | 任务状态 `failed` | 铃铛（独立失败音） |\n\n每类事件可单独覆盖声音（或跟随通用注意音），也可统一使用一句播报文案\n（如「需要你的确认",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T10:44:36.829Z",
   "created_at": "2026-08-14T10:44:36.487Z",
-  "gh": {
-    "full_name": "ldchaowin/dsh-plugin-notify-sound",
-    "stars": 2,
-    "open_issues": 2,
-    "pushed_at": "2026-08-14T10:32:39Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 60,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:45.946Z"
+  "updated_at": "2026-08-17T04:27:54.823Z"
 }

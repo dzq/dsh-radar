@@ -30,8 +30,8 @@
   "engines": {
     "node": ">=22.5"
   },
+  "readme": "# dsh-store\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n\n> 已收录于 [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) 精选列表（Development & Runtime）\n\nDeepSeek Harness 插件商店：**上游基础设施**。聚合 npm registry + awesome 精选 + GitHub 星标的 dsh 插件目录，质量验证 + 分类 + 星标排序，在 dsh 内一键安装 / 卸载（走官方 `dsh plugin add/remove`），装完重启即生效。\n\n## 与社区其他商店的差异\n\n| 能力 | dsh-store | 社区其他商店（dsh-market / plugin-hub / workshop 等） |\n|---|---|---|\n| 数据源 | **npm registry 权威源**（插件实际安装处）+ awesome 精选 + GitHub 星标 | 多为 GitHub topic / awesome 目录（二手源、含蹭话题噪声） |\n| 质量验证 | **`dsh` 字段后台验证**，自动剔除噪声（250→222 实测） | 无 |\n| 安装 | **官方 `dsh plugin add/remove`**（`dsh.profile.bundles` 层，与命令行等价），失败自动回退 pnpm + patch | 多为 clone / 手改 patch |\n| 可安装性 | 目录里每个 npm 条目**都能真的装上** | GitHub-only 列表装",
   "weekly_downloads": 433,
-  "monthly_downloads": 433,
   "last_publish": "2026-08-15T11:30:19.640Z",
   "created_at": "2026-08-14T15:21:23.181Z",
   "gh": {
@@ -44,12 +44,12 @@
   },
   "scores": {
     "popularity": 66,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 39,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 80,
-    "grade": "A"
+    "overall": 65,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T03:50:28.610Z"
+  "updated_at": "2026-08-17T04:27:44.243Z"
 }

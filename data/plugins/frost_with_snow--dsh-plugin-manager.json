@@ -21,19 +21,19 @@
     }
   },
   "engines": {},
+  "readme": "# @frost_with_snow/dsh-plugin-manager\n\n个人 dsh 插件管理控制台。\n\n## 功能\n\n- Web UI 控制台（端口 12333）\n- 双来源插件列表：本地文件 + npm 远程搜索（`@frost_with_snow/dsh-*`）\n- 一键启用/禁用本地插件\n- npm 远程插件可一键安装\n- 重启 dsh 后生效\n\n## 安装\n\n```bash\n# 通过 npm 安装\nnpm install -g @frost_with_snow/dsh-plugin-manager\n\n# 或通过 link 安装（开发模式）\nnpx dsh plugin add link:C:\\path\\to\\dsh-plugin-manager\n```\n\n## 使用\n\n1. 启动 dsh：`npx dsh --profile web`\n2. 访问管理界面：`http://127.0.0.1:12333`\n3. 在界面中查看/启用/禁用插件\n4. 重启 dsh 使更改生效\n\n## 技术栈\n\n- 纯 Node.js，零依赖\n- 内置 HTTP 服务器 + 静态文件服务\n- npm 注册表搜索 + cordis.patch.yml 管理\n\n## 许可证\n\nMIT",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T12:14:14.779Z",
   "created_at": "2026-08-16T12:14:14.369Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:03.504Z"
+  "updated_at": "2026-08-17T04:27:44.337Z"
 }

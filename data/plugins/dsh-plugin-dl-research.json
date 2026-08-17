@@ -33,19 +33,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-plugin-dl-research\n\n为 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness) 打造的深度学习研究插件：检索最前沿的 AI 论文、代码实现、引用量与中文解读 —— 既可以在对话中直接使用，也可以通过专属研究面板浏览。\n\n- **模型工具**（任何对话中直接调用）\n  - `dl_paper_search` — arXiv / Semantic Scholar 论文检索，中文关键词自动翻译，支持时间 / 相关度 / 引用量排序\n  - `dl_latest_papers` — 指定分类（cs.LG / cs.CV / cs.CL / cs.AI / cs.NE）的 arXiv 最新论文\n  - `dl_find_paper_code` — 查找论文的 GitHub 开源实现\n  - `dl_bibtex` — 生成 arXiv 论文的 BibTeX 引用条目\n  - `dl_paper_citations` — Semantic Scholar 引用量、会议/期刊、年份与开放获取 PDF\n  - `dl_paper_summary` — 拉取完整元数据与摘要，供输出结构化中文要点总结\n  - `dl_ai_trends` — 最新 AI 研究热点与行业动态\n- **研究面板** — 对话视图中的「论文研究」标签页：最新论文、关键词搜索（数据源 + 排序选择、中文解读开关）、AI 热点；论文卡片支持摘要展开、BibTeX 一键复制、代码查找与引用量查询。\n\n## 安装\n\n从 DSH 插件市场安装，或写入 profile：\n\n```bash\ndsh plugin --profile <profile> add dsh-plugin-dl-research\n```\n\n##",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T07:39:42.228Z",
   "created_at": "2026-08-16T07:39:42.003Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 52,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:47.720Z"
+  "updated_at": "2026-08-17T04:27:54.838Z"
 }

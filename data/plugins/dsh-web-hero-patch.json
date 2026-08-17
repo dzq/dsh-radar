@@ -22,19 +22,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-web-hero-patch\n\nA [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) web-surface\nplugin: a hero character image tucked behind the composer input plus a lifted\nheadline — the \"everything is a plugin\" way to dress up the new-session hero.\n\n## What it does\n\nIn the new-session hero state of the Web GUI:\n\n- renders `assets/deepseek_smile.png` above the composer input, tucked slightly\n  behind the input card (layer relationship: input bar in front, character\n  behind), with a soft silhouette drop shadow;\n- keeps the workspace / mode row right above the input bar, floating over the\n  image's lower area;\n- lifts the headline (\"探索未至之境\" / \"Into the Unknown\") 52px up.\n\n## How it works\n\n- **Host half** (`lib/index.js`): registers a `/hero-image/` prefix route on the\n  DSH webser",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T01:55:34.736Z",
   "created_at": "2026-08-15T01:55:34.446Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 47,
-    "grade": "C"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:09.871Z"
+  "updated_at": "2026-08-17T04:27:47.740Z"
 }

@@ -25,26 +25,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T04:55:02.705Z",
   "created_at": "2026-08-15T03:30:10.893Z",
-  "gh": {
-    "full_name": "YuXuanLiang-dev/dsh-plugin-adaptive-agent-policy",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T04:57:31Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 65,
+    "maintenance": 0,
+    "quality": 55,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 56,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 34,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:10.077Z"
+  "updated_at": "2026-08-17T04:27:47.741Z"
 }

@@ -25,19 +25,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# dsh-image-plugins\n\n[![npm version](https://img.shields.io/npm/v/dsh-image-plugins)](https://www.npmjs.com/package/dsh-image-plugins)\n\nMultimodal capability for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) behind a text-only main model (e.g. DeepSeek's official chat route, which cannot carry images). The plugin understands image files and generates images through **fully configurable endpoints** — bring your own `baseUrl` / `apiKey` / `model` for a vision model and for an image-generation model. Any OpenAI-compatible endpoint works; an optional `dashscope` adapter speaks the Alibaba Model Studio native API.\n\nEverything is optional: a capability is enabled only when its config block is present, so an unconfigured install is inert and safe. No API keys are shi",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T13:04:02.468Z",
   "created_at": "2026-08-16T12:47:38.057Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:05:33.099Z"
+  "updated_at": "2026-08-17T04:27:47.719Z"
 }

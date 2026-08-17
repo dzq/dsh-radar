@@ -13,17 +13,7 @@
     "workspace",
     "session",
     "dashboard",
-    "visualization",
-    "subagent",
-    "token-usage",
-    "agent",
-    "productivity",
-    "办公室",
-    "工作区",
-    "会话",
-    "可视化",
-    "仪表盘",
-    "插件"
+    "visualization"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/Fayelin12/dsh-office.git",
@@ -42,8 +32,8 @@
   "engines": {
     "node": ">=18"
   },
+  "readme": "# 🏢 dsh-office\n\n> Office workspace & session dashboard plugin for **DeepSeek Harness (DSH)**.\n> 给 **DeepSeek Harness (DSH)** 的「办公室」工作区 / 会话 / 子代理可视化插件。\n\n[![npm](https://img.shields.io/npm/v/dsh-office)](https://www.npmjs.com/package/dsh-office)\n[![npm downloads](https://img.shields.io/npm/dm/dsh-office)](https://www.npmjs.com/package/dsh-office)\n[![license](https://img.shields.io/npm/l/dsh-office)](./LICENSE)\n[![dsh-plugin](https://img.shields.io/badge/dsh-plugin-deepseek--harness-4D6BFE)](https://github.com/topics/dsh-plugin)\n\n---\n\n## What is dsh-office? / 这是什么\n\ndsh-office is a floating **office panel** for DeepSeek Harness. It turns your\n**workspaces, sessions, token usage and subagents** into a 6-column sprite office,\nso you can see what every agent is doing at a glance — without openi",
   "weekly_downloads": 142,
-  "monthly_downloads": 142,
   "last_publish": "2026-08-15T13:22:53.751Z",
   "created_at": "2026-08-15T13:22:53.528Z",
   "gh": {
@@ -56,12 +46,12 @@
   },
   "scores": {
     "popularity": 54,
-    "maintenance": 99,
+    "maintenance": 39,
     "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 74,
-    "grade": "A"
+    "overall": 62,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T03:50:40.307Z"
+  "updated_at": "2026-08-17T04:27:44.272Z"
 }

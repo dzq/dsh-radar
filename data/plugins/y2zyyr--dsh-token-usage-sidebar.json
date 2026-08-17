@@ -31,26 +31,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-token-usage-sidebar\n\n[English](README.md) | 简体中文\n\n这是一个面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）Web Profile 的社区插件，在侧边栏显示由 provider/runtime 上报并持久化保存的 Token 用量，并在原生设置中提供完整的 **Token 用量** 页面。\n\n```text\nTOKEN USAGE\nToday       今日\nYesterday   昨日\nTotal       累计\n```\n\n这是社区插件，并非 DeepSeek 官方插件。\n\n## 功能\n\n- 侧边栏显示今日、昨日和累计 Token 用量。\n- 在 **设置 → Token 用量** 中提供独立页面，位置在 Agent 预设之后、插件市场之前。\n- 固定概览卡片：全部时间、今天、昨天、最近 7 天。\n- 明细支持今天、昨天、7 天、全部时间四种范围。\n- 显示输入、输出、缓存读取、缓存写入、推理、调用次数。\n- 按供应商/模型汇总（按总量排序），并始终展示最近 7 个本地自然日（包含零值日期）。\n- 本地持久化统计；重启 DSH 后不会归零。\n- **可扩展的持久化账本（v1.1）。** 累计统计改由插件自有的 SQLite 数据库支撑（Node 内置 `node:sqlite`、WAL 日志），取代单一大 JSON 文件。每次新调用只是一次小的行级 upsert，无论历史记录有多少条，写入延迟都基本保持平稳。\n- **自动校验迁移（v1.1）。** 升级时会自动把 v1.0.1 的现有统计迁移到新账本，并校验生命周期总计、记录数、按日与按供应商/模型统计完全一致后才切换。不会丢失或重复统计，切换前会备份 v1",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T17:54:11.512Z",
   "created_at": "2026-08-16T17:54:11.187Z",
-  "gh": {
-    "full_name": "y2zyyr/dsh-token-usage-sidebar",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T18:21:56Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 64,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:19.897Z"
+  "updated_at": "2026-08-17T04:27:44.631Z"
 }

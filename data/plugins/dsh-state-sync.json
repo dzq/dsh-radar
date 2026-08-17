@@ -30,19 +30,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-state-sync\n\n给 DeepSeek Harness（dsh）提供一键**状态打包与同步**：把可移植的 dsh 状态导出为一个 `.tar.gz`，在新机器上恢复并按 profile 重装插件。\n\n- **设置页** — 设置 → DSH 状态打包与同步：导出、导入、浏览历史备份。\n- **斜杠命令** — `/dsh-state export|import|list|home`，可在输入框直接使用。\n- **独立脚本** — `scripts/dsh-state-export.sh` / `scripts/dsh-state-restore.sh`，不装插件也能用。\n\n## 打包内容\n\n| 路径 | 是否打包 | 说明 |\n| --- | --- | --- |\n| `settings.yaml` | ✅ | 偏好设置（主题 / 语言 / 模型 / 各插件设置） |\n| `profiles/*/package.json` | ✅ | 插件依赖 + `dsh.profile.bundles` 激活列表 |\n| `profiles/*/cordis.patch.yml` | ✅ | 每个 profile 的用户覆盖层 |\n| `profiles/*/pnpm-lock.yaml` | ✅ | 依赖锁文件 |\n| `profiles/*/pnpm-workspace.yaml` | ✅ | profile 的 pnpm 配置 |\n| 全局 `cordis.patch.yml` | ✅ | 存在时打包 |\n| `skills/` | ✅ | 自定义技能 |\n| `sessions/` | 可选 | `--with-sessions` 或设置页勾选 |\n| `.credentials.yaml` | ❌ | 永不打包 — 请单独、加密复制 |\n| `profi",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:36:59.550Z",
   "created_at": "2026-08-16T08:36:59.380Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:10:50.112Z"
+  "updated_at": "2026-08-17T04:27:47.730Z"
 }

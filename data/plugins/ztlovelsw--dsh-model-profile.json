@@ -31,26 +31,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-model-profile · 模型能力配置（图像 + 思考等级）\n\n[![dsh-plugin](https://img.shields.io/badge/topic-dsh--plugin-8A2BE2)](https://github.com/topics/dsh-plugin)\n\n在 **「设置 → 模型」** 的模型目录编辑器里，**每个已配置模型的行内**直接加两个官方编辑器没有的控件：\n\n- **是否支持图像**：继承默认 / 支持图像（`input: ['text','image']`）/ 仅文本（`input: ['text']`）。\n- **思考等级**：继承默认 / 不支持思考（`reasoningEfforts: false`）/ 自定义等级\n  （`off` / `minimal` / `low` / `medium` / `high` / `xhigh` / `max`，逐级勾选并填写接口取值）。\n\n控件块标题行有 **「按 models.dev 预设」** 按钮：按模型 ID 查询\n[models.dev](https://models.dev) 开放数据库（自动去掉网关前缀并容忍 `-high` / `-medium`\n等思考档后缀，一方厂商条目优先），命中后自动写入该模型的图像支持\n（`modalities.input`）、思考等级（`reasoning_options` 枚举，`none` → `off` 且取值为空）\n与容量上限（`limit.context` / `limit.output` → 官方行内的「上下文窗口 / 最大输出\ntoken」输入框）；models.dev 没有意见的字段保持原值不动。\n\n**新添加的模型自动按 models.dev 预设**：通过「获取可用模型 / 添加模型」新增的行\n在保存前就会显示",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:40:33.463Z",
   "created_at": "2026-08-16T04:10:12.771Z",
-  "gh": {
-    "full_name": "ztlovelsw/dsh-model-profile",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T08:38:10Z",
-    "archived": false,
-    "license": null
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 61,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:10:49.808Z"
+  "updated_at": "2026-08-17T04:27:47.730Z"
 }

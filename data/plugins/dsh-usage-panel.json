@@ -32,26 +32,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "<div align=\"center\">\n\n# dsh-usage-panel\n\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的 Token 用量统计插件，在 Web GUI 的「设置 → 消耗统计」下展示。插件只重算持久化的会话日志，不会写回任何数据。\n\n[English](README.md) · [![npm](https://img.shields.io/npm/v/dsh-usage-panel)](https://www.npmjs.com/package/dsh-usage-panel) [![dsh-plugin](https://img.shields.io/badge/topic-dsh--plugin-blue)](https://github.com/topics/dsh-plugin) [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)\n\n<img src=\"assets/screenshot-hero.png\" width=\"620\" alt=\"DeepSeek Harness 设置中的消耗统计页面\" />\n\n</div>\n\n## 页面内容\n\n- **汇总数据（全部历史）** —— 输入 / 输出 Token 用量、会话数量、最常用模型及其占比。\n- **活跃热力图** —— 最近半年，GitHub 贡献图式布局（列为周、行为星期）。按非零日用量的四分位分 4 级色阶。\n- **每日柱状图** —— 按模型堆叠的每日用量，可切换最近 7 / 14 / 30 天。\n- **模型环形图** —— 各模型全历史占比，旁边列出前 5 名，其余合并为「其他」。\n\n悬停柱",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T13:26:26.479Z",
   "created_at": "2026-08-15T13:26:26.252Z",
-  "gh": {
-    "full_name": "AlfredChaos/dsh-usage-panel",
-    "stars": 1,
-    "open_issues": 1,
-    "pushed_at": "2026-08-15T17:30:52Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 60,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:58.975Z"
+  "updated_at": "2026-08-17T04:27:44.327Z"
 }

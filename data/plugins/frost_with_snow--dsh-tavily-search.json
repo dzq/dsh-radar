@@ -21,19 +21,19 @@
     }
   },
   "engines": {},
+  "readme": "# @frost_with_snow/dsh-tavily-search\n\n个人 dsh 搜索插件，Tavily API 后端。\n\n## 功能\n\n- `web_search` 工具：搜索网页\n- `tavily_status` 工具：查看所有 API Key 状态\n- 多 API Key 自动轮换\n- 本地用量持久化（`~/.tavily-usage.json`）\n- 跨月自动重置\n- 阈值切换（默认 50 次）\n\n## 安装\n\n```bash\n# 通过 npm 安装\nnpm install -g @frost_with_snow/dsh-tavily-search\n\n# 或通过 link 安装（开发模式）\nnpx dsh plugin add link:C:\\path\\to\\dsh-tavily-search\n```\n\n## 配置\n\n```bash\n# 单个 key\nexport TAVILY_API_KEY=\"tvly-your-key\"\n\n# 多个 key（逗号分隔）\nexport TAVILY_API_KEY=\"tvly-key1,tvly-key2,tvly-key3\"\n\n# 或创建 ~/.tavily-keys 文件，每行一个 key\n\n# 切换阈值（可选，默认 50）\nexport TAVILY_THRESHOLD=50\n```\n\n## 技术细节\n\n- 先搜再说：直接搜索，成功后本地累加用量\n- 失败处理：429/403 → 查远端 /usage → 标记耗尽 → 切下一个 key\n- 跨月自动重置用量\n\n## 许可证\n\nMIT",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T12:14:19.530Z",
   "created_at": "2026-08-16T12:14:19.160Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:32.314Z"
+  "updated_at": "2026-08-17T04:27:46.979Z"
 }

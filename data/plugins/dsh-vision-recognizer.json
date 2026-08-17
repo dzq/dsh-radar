@@ -13,14 +13,7 @@
     "image",
     "image-understanding",
     "ocr",
-    "vlm",
-    "qwen",
-    "dashscope",
-    "openai",
-    "anthropic",
-    "gemini",
-    "zhipu",
-    "ollama"
+    "vlm"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/kaixinbaba/dsh-vision-recognizer.git",
@@ -46,19 +39,19 @@
     "node": ">=22.19.0",
     "dsh": ">=0.1.0-rc.6"
   },
+  "readme": "# dsh-vision-recognizer\n\n[English](README.md) | 简体中文\n\n**保持 DeepSeek 作为对话大脑，图片照样直接发，并且可以在「设置 → 插件」里随时切换识图供应商。** 面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的识图插件。\n\n它注册一条新的提供商路由（默认 `vision-recognizer`，模型选择器里显示为 **DeepSeek + 识图**），包装真正的 DeepSeek 适配器：对外声明支持图片输入（附件预检与 `read_image` 门禁放行），并在请求流里**把每张附加图片经你选定的视觉模型转译成文字**，再交给纯文本的 DeepSeek 作答。对话仍由 DeepSeek 完成，识图只是附加能力。\n\n```\n用户附加图片 ──▶ vision-recognizer 路由 ──▶ 视觉模型转译（OCR + 版式 + 细节）\n                     │                        │\n                     ▼                        ▼\n              DeepSeek 作答 ◀── 纯文本对话（图片已替换为 [图片转译] 文字）\n```\n\n## 特性\n\n- **一键安装**：`dsh plugin --profile web add dsh-vision-recognizer`，无需构建脚本、无需 approve `sharp`（不依赖任何原生模块）。\n- **在「设置 → 插件 → 识图」里配置**：下拉选择供应商、填 API Key、可覆盖模型 / 接口地址 / token 上限 / 超时 / 标记，保存后**立即",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:15:43.425Z",
   "created_at": "2026-08-15T01:39:57.828Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 95,
-    "overall": 56,
-    "grade": "B"
+    "dsh_compat": 90,
+    "overall": 41,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:51:14.359Z"
+  "updated_at": "2026-08-17T04:27:44.621Z"
 }

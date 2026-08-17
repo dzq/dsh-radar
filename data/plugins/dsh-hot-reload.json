@@ -26,19 +26,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# dsh-hot-reload\n\n[English](README.md) | 中文\n\n**无需重启 dsh** 即可热重载已升级的 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（dsh）插件。\n\ndsh 自带的热重载（`cordis-plugin-hmr`）刻意忽略 `node_modules`，所以升级一个已\n安装的插件（`dsh plugin add pkg@x`）通常要整体重启 `dsh` 才能生效。本插件补上\n这个缺口：它监听所在 profile 的 `pnpm-lock.yaml`，当一个**已加载**插件包的版本\n变化时，就地把运行中的插件换成新版。\n\n## 行为\n\n插件包升级时，对每个受影响的插件：\n\n- **就地热重载**：使模块缓存失效、重新导入新代码、并就地重建插件 fiber。dsh、\n  你的会话、以及其它所有插件都不受影响、继续运行。\n- **若重载失败**：你保留的是**可用的旧版本**，绝不会留下一个失效的插件，同时\n  记录一条“需要手动重启 `dsh`”的提示来加载新代码。两种情况都已处理：\n  - 新代码在**加载**阶段失败（错误的 import、语法错误）会在触及运行中的插件\n    **之前**被捕获——旧插件完全不受打扰；\n  - 新代码在**初始化**阶段失败（新的 `apply` 抛错，**同步或异步**）会被回滚——\n    旧版本就地重新实例化。\n\n它**绝不会替你重启 dsh**——重启交给你（以及你的守护进程，如果有的话）。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-hot-reload\n```\n\n然后重启一次 dsh（bundle 补丁层在启动时加载）。此后升级即实时生效：",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T00:55:47.024Z",
   "created_at": "2026-08-16T00:25:33.399Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:06.576Z"
+  "updated_at": "2026-08-17T04:27:44.341Z"
 }

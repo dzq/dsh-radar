@@ -13,9 +13,7 @@
     "gitlab",
     "jira",
     "linear",
-    "asana",
-    "local-tasks",
-    "symphony"
+    "asana"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/Uddoo/dsh-dashboard.git",
@@ -40,19 +38,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-dashboard\n\n[English](./README.md) | 简体中文\n\n`dsh-dashboard` 是一个面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的 Symphony 兼容任务编排器与运行看板。它可以把 Linear、GitHub、Jira、Asana、GitLab 或 Host 本地任务转换为相互隔离的 Harness Agent 运行，同时保留 Harness 原生外壳、侧栏、会话、工具、模型选择和权限系统。\n\n![运行在 DeepSeek Harness 原生外壳中的任务看板](https://raw.githubusercontent.com/Uddoo/dsh-dashboard/main/docs/images/dashboard-board.jpg)\n\n## 主要能力\n\n- 读取包含 YAML frontmatter 和 Liquid prompt 的 `WORKFLOW.md`；无效热更新会被拒绝，最后一个有效定义继续生效。\n- 支持 Linear、GitHub Issues、Jira Cloud、Asana 项目、GitLab 项目 Issue，以及不需要凭据的本地任务。\n- 执行确定性的优先级排序、必需标签、全局并发限制和按状态并发限制。\n- 为每个任务创建持久工作区，并执行可配置的 `after_create`、`before_run`、`after_run` 和 `before_remove` 生命周期 Hook。\n- 通过 Harness 原生 Agent 执行任务，并在配置的 turn 上限内续跑同一个 Harness session。\n- 对失败运行执行有上限的指数退避，并在每次派发前重新核对任务源状态。\n- 在 H",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T06:30:07.445Z",
   "created_at": "2026-08-14T04:24:24.936Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:08.533Z"
+  "updated_at": "2026-08-17T04:27:46.464Z"
 }

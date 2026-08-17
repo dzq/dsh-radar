@@ -33,26 +33,19 @@
     }
   },
   "engines": {},
+  "readme": "# auto-compact\n\n**会话级自动上下文压缩插件**（DeepSeek Harness / DSH）\n\n在输入区右侧显示一个阈值圆环：当前会话上下文用量实时显示，拖动滑杆设置该会话的压缩阈值（1%–90%，**默认 50%**）。每当用量超过阈值，插件自动触发上下文压缩（compact）——回合中每走一步之前检查一次，回合结束时再检查一次——压缩摘要注入上下文后会话自然继续，全程无需手动干预，也不发送任何「继续」消息。\n\n## 特性\n\n- 🔴 **会话级阈值**：每个会话独立设置，互不影响（按 `sessionId` 持久化）\n- 📊 **实时用量**：与自带 ContextMeter 同源（`useProjection(\"contextPressure\")`），面板打开即实时刷新，无需轮询\n- 🎚️ **1%–90% 细腻调节**：步进 1%，适合精细控制（**未设置时默认 50%**）\n- 🤖 **全自动**：回合中每步前 + 回合结束自动检测 → 超阈值自动 compact → 摘要注入后自然继续\n- 🛡️ **零崩溃风险**：所有检查都在 `agent/pre-step`（waterfall 中间件）与 `agent/turn-stopping`（串行事件）里做，全程 try/catch，绝不抛出\n- 💾 **持久化**：阈值存于 `settings.yaml` 的 `auto-compact` 命名空间，重启不丢\n- 🧊 **与内置安全网并存**：DSH 自带的 `compaction-basic`（默认 80% 压力阈值）保留为兜底，互不干扰\n\n## 安装\n\n**前置**：已装好 DSH（`dsh web` 能正常运行），Node.js ≥ 20、pnpm ≥ 10。\n\n### 一键安装（推荐，复制粘贴即可）\n\n**macOS / Li",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T13:04:36.090Z",
   "created_at": "2026-08-14T11:28:08.117Z",
-  "gh": {
-    "full_name": "JohnathonYe/auto-compact",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T13:05:15Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 60,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:51.584Z"
+  "updated_at": "2026-08-17T04:27:44.314Z"
 }

@@ -17,19 +17,19 @@
   "dsh_compat": false,
   "dsh_meta": null,
   "engines": {},
+  "readme": "<div align=\"center\">\n\n# dsh-ess-proposal\n\n**根据电费单一键生成「光伏 + 储能」方案的 DSH 插件（马来西亚市场）**\n*A DSH plugin that turns an electricity bill into a solar + energy-storage proposal (Malaysia)*\n\n[![DSH Plugin](https://img.shields.io/badge/DSH-plugin-4B5FFF)](https://github.com/deepseek-ai)\n[![TypeScript](https://img.shields.io/badge/TypeScript-5+-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)\n[![Vision](https://img.shields.io/badge/Vision-Qwen--VL-FF6A00)](https://bailian.console.aliyun.com/)\n[![LLM](https://img.shields.io/badge/LLM-DeepSeek-4B5FFF)](https://api.deepseek.com/)\n[![License](https://img.shields.io/badge/License-MIT-green.svg)](./License)\n\n**简体中文** ｜ [English](#-english)\n\n</div>\n\n---\n\n## 目录\n\n- [简介](#简介)\n- [效果预览](#️-效果预览)\n- [特性](#-特性)\n- [工作原理](#️-工作原理)\n- [目录结构](#-目录",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T02:18:52.827Z",
   "created_at": "2026-08-14T16:16:52.740Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 43,
-    "grade": "C"
+    "overall": 29,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:09.869Z"
+  "updated_at": "2026-08-17T04:27:47.741Z"
 }

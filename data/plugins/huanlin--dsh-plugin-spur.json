@@ -29,19 +29,19 @@
   "engines": {
     "node": ">=22.0.0"
   },
+  "readme": "# dsh-spur\n\n> 小鲸鱼不听话？抽就完了。\n\n一根悬挂在 DSH 聊天流中的辫子（皮鞭）。抓住辫梢甩动——速度足够快时，向 agent 发送一条 `go work!` 消息，鞭策它去干活。\n\n## 功能\n\n- Verlet 物理引擎渲染的辫子，作为 `position: fixed` 的 SVG 叠层，锚定在视口右上角，垂入聊天区域。\n- 辫梢圆点是唯一可抓取的元素（在整体 `pointer-events: none` 的叠层上设为 `pointer-events: auto`）。\n- 鼠标按下 → 辫梢锁定到光标；鼠标移动 → 跟踪速度（指数移动平均）；鼠标释放 → 带末速度释放。\n- 释放速度超过阈值（2.0 px/ms）时：\n  1. 保存当前输入草稿。\n  2. `inputActions.setDraft('go work!')`\n  3. `inputActions.submit()`\n  4. 提交事务完成后（phase 回到 `plain`）恢复原草稿。\n- 释放后辫子继续摆动，阻尼振荡直至静止。\n\n## 架构\n\n单 bundle 双入口（host `.` + 浏览器 `./client` + invariant `./invariant`），仿照 `yet-another-subagent`。\n\n- **宿主半边**（`src/index.ts`）：空 `apply`——纯客户端插件。\n- **浏览器半边**（`src/client/index.ts`）：注册 `conversation.composer.dock` list slot（id `dsh-spur`，order 50）。dock 是编辑器卡片下方的条带；辫子本身是 `position: fixed` 的 SVG 叠层，通过 `createPortal` 挂载到 `document.",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-13T14:28:32.051Z",
   "created_at": "2026-08-13T14:28:31.757Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 58,
+    "maintenance": 0,
     "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 48,
-    "grade": "C"
+    "overall": 37,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:00:07.444Z"
+  "updated_at": "2026-08-17T04:27:47.390Z"
 }

@@ -22,26 +22,19 @@
   "engines": {
     "node": ">=18"
   },
+  "readme": "# dsh-preset-flash-director\n\n**Flash 主控 · Pro 专家** —— DeepSeek Harness 的省 token 模式预设。\n\n> flash 级模型当主控（分诊 / 取证 / 机械执行 / 验收），深度思考类任务通过**策略工具**委派给 deepseek-v4-pro 专家子代理；简报强制校验 + 硬性预算，从机制上防止\"弱智能指挥强智能\"和\"pro 烧钱失控\"。\n\n[![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE) [![topic](https://img.shields.io/badge/topic-dsh--plugin-1f883d)](https://github.com/topics/dsh-plugin)\n\n---\n\n## 目录\n\n- [这是什么](#这是什么)\n- [为什么省 token](#为什么省-token)\n- [架构](#架构)\n- [协议摘要](#协议摘要)\n- [安装](#安装)\n- [使用指南](#使用指南)\n- [配置](#配置)\n- [卸载](#卸载)\n- [排障](#排障)\n- [安全与信任](#安全与信任)\n- [许可证](#许可证)\n\n---\n\n## 这是什么\n\n一个 DeepSeek Harness **agent preset**（代理预设），由三部分构成：\n\n| 文件 | 作用 |\n|---|---|\n| `flash-director/agent.cordis.yml` | 组合文件：controller persona 协议 + 行裁剪（移除裸 `subagent`/`subagent_fork`/`workflow`/`ralph`） |\n| `flash-director/exper",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T09:31:02.248Z",
   "created_at": "2026-08-14T08:32:46.227Z",
-  "gh": {
-    "full_name": "zhaoyilun/dsh-preset-flash-director",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T09:30:52Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 53,
-    "grade": "C"
+    "overall": 29,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:50.356Z"
+  "updated_at": "2026-08-17T04:27:44.312Z"
 }

@@ -19,19 +19,19 @@
   "dsh_compat": false,
   "dsh_meta": null,
   "engines": {},
+  "readme": "# NightWhale 夜鲲\n\n> DeepSeek Harness (dsh) 的社区增强层。\n> 把生态里散落的好插件、skill、工作流吞进来,用评测集筛一遍,只把真正让 dsh 变强的喂回去。\n\ndsh 官方的图腾是黑鲸。NightWhale 是它的夜间版——不做第 15 个 harness,做一层寄生在 dsh 上的增强。\n\n## 为什么做这个\n\ndsh 官方仓库暂时不收外部 PR,社区能力全散在各自的仓库里,没有一个汇聚的地方。NightWhale 把它们收拢、筛选、分发。\n\n关键是\"筛\":不是什么插件都往里塞。很多 prompt 是给弱模型用的扶手,在 V4 这种模型上要么没用、要么拖后腿。NightWhale 用一套评测集判断——在斩杀线以上的模型上,这个东西到底涨点还是掉点。涨点才留,掉点淘汰。\n\n## 现状\n\n早期开发中(developer preview)。想跟进就点个 Star。\n\n## 安装\n\n即将上线。\n\n## License\n\nMIT\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-13T21:07:59.921Z",
   "created_at": "2026-08-13T21:07:59.515Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 58,
+    "maintenance": 0,
     "quality": 55,
     "security": 40,
     "dsh_compat": 30,
-    "overall": 35,
+    "overall": 23,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:00:07.653Z"
+  "updated_at": "2026-08-17T04:27:47.681Z"
 }

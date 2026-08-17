@@ -21,19 +21,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-htmlrun\n\n把 [html.run](https://html.run) 的 HTML 发布能力从 **agent skill** 封装成 **DeepSeek Harness（DSH）插件**，让 DSH 会话内的模型可以直接把本地 HTML 发布成可分享链接。\n\n> GitHub 仓库名与 npm 包名均为 **`dsh-htmlrun`**；harness 插件列表显示时会剥离 `dsh-` 前缀 → **htmlrun**；工具名、插件 `name` 均为 `htmlrun`。\n\n```\n用户：\"帮我把这个页面发布一下，发给我看看\"\n   ↓\nDSH 模型调用动态工具 htmlrun (action=publish, file=...)\n   ↓\n插件通过 ctx.subprocess 调用 skill 自带 CLI（scripts/htmlrun.cjs）\n   ↓\n返回链接、版本、敏感词、指引等信息，由模型原样转达给用户\n```\n\n## 目录结构\n\n```\ndsh-htmlrun/\n├── README.md                        # 本文件\n├── package.json                     # 组合包（bundle）manifest：包名 dsh-htmlrun，声明 dsh.bundle\n├── cordis.patch.yml                 # 组合包 patch：条目 id=htmlrun，name=dsh-htmlrun\n├── lib/\n│   └── index.js                     # 插件真实模块入口（ESM，import defineTool + ctx.tools.register）\n├── plugin/\n│   └── htmlr",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:40:59.072Z",
   "created_at": "2026-08-17T03:40:58.874Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 53,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:59:30.721Z"
+  "updated_at": "2026-08-17T04:27:47.381Z"
 }

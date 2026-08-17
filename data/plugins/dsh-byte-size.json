@@ -22,19 +22,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-byte-size · 字节大小格式化\r\n\r\n纯 Node 实现，无网络、无外部服务。\r\n\r\n## 安装\r\n\r\n```bash\r\ndsh plugin add dsh-byte-size\r\n```\r\n安装后在 profile 的 `package.json` 的 `dsh.profile.bundles` 中加入 `\"dsh-byte-size\"`。\r\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:23:27.926Z",
   "created_at": "2026-08-17T03:23:27.709Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 0,
     "quality": 55,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 47,
-    "grade": "C"
+    "dsh_compat": 75,
+    "overall": 34,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:57:47.835Z"
+  "updated_at": "2026-08-17T04:27:46.990Z"
 }

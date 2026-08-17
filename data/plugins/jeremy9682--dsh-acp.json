@@ -24,19 +24,19 @@
   "engines": {
     "node": ">=22.15"
   },
+  "readme": "# @jeremy9682/dsh-acp\n\nDeepSeek Harness as an [Agent Client Protocol](https://agentclientprotocol.com) agent — one command, sharing `$DSH_HOME` credentials and session logs with `dsh web`.\n\nThis package is part of [dsh-cursor-codex](../../README.md), the Cursor / Codex ↔ DeepSeek Harness integration kit.\n\n## Install\n\nRequires Node.js >= 22.15, the [`dsh`](https://github.com/deepseek-ai/deepseek-harness) launcher, and pnpm (first provisioning only).\n\n```sh\ndsh plugin --profile acp add @jeremy9682/dsh-acp\ndsh --profile acp          # ACP stdio server; stdout = JSON-RPC only\n```\n\nBefore the npm publish lands, install from a local checkout of this repo:\n\n```sh\ndsh plugin --profile acp add file:/path/to/dsh-cursor-codex/acp\n```\n\nOr let the standalone entry provision and boot in one step:\n\n```sh",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T23:04:35.850Z",
   "created_at": "2026-08-14T23:04:35.463Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:17.561Z"
+  "updated_at": "2026-08-17T04:27:46.939Z"
 }

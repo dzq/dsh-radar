@@ -26,26 +26,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# dsh-cpa\n\n> [English](README.en.md) | **简体中文**\n\nCLI Proxy API（CPA）的 `dsh` bundle 插件。注册 `cpa` provider，请求走\nCPA 的 `/v1/chat/completions`，同步 `/v1/models` 模型列表。\n\n## 快速开始\n\n```sh\nnpx @deepseek-ai/dsh plugin --profile web add dsh-cpa\n```\n\nheadless profile 同理：\n\n```sh\nnpx @deepseek-ai/dsh plugin --profile headless add dsh-cpa\n```\n\n## 从源码安装\n\n开发或本地构建时使用：\n\n```sh\nnpx @deepseek-ai/dsh plugin --profile web add .\n```\n\nheadless profile 同理：\n\n```sh\nnpx @deepseek-ai/dsh plugin --profile headless add .\n```\n\n## 使用已有 CPA\n\n在设置面板切换到“外部 CPA”，填写 `URL`、API key、management key 后点击\n“应用”。\n\n## 自动启动 CPA\n\n默认生成 `$DSH_HOME/cpa/config.yaml`，启动 `cli-proxy-api`，并把生成的 key\n注入 provider 适配器。启动前会先在 PATH 中解析可执行文件；二进制不在 PATH\n时，在 CPA 设置页的内部 CPA 路径中填写绝对路径。\n\n模型每 5 分钟从 `/v1/models` 同步一次。\n\n## 设置面板\n\nCPA 页面使用 dsh web-app 组件，支持内部、外部两种启动方式，保存到",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T07:38:42.036Z",
   "created_at": "2026-08-16T07:03:47.723Z",
-  "gh": {
-    "full_name": "Moraxyc/dsh-cpa",
-    "stars": 0,
-    "open_issues": 1,
-    "pushed_at": "2026-08-16T07:39:41Z",
-    "archived": false,
-    "license": null
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
+    "maintenance": 0,
     "quality": 55,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 55,
-    "grade": "B"
+    "overall": 35,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:44.433Z"
+  "updated_at": "2026-08-17T04:27:50.819Z"
 }

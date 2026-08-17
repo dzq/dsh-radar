@@ -34,26 +34,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# dsh-flomo\n\n> [**English**](README.md) | **中文**\n\n让 DeepSeek Harness 直接往 [flomo](https://flomo.app)（浮墨笔记）写笔记。配置一次 flomo API URL / API Key 后，Agent 就能通过 `flomo_send` 工具把想法、摘要、待办记进 flomo。\n\n## 功能\n\n- **设置面板** — 在 Web 设置页（设置 → Flomo）里配置 API URL / API Key：保存、测试、清除，还有快捷发送框。\n- **flomo_send** — 发送一条笔记，`tags` 参数自动转成 `#标签`；内容支持 `#标签`、`**加粗**`、`![](图片URL)`。\n- **flomo_config** — 配置 `apiKey`（新版 Key）或 `webhookUrl`（flomo 设置页的 API URL，形如 `https://flomoapp.com/iwh/<token>/`）；`reset: true` 清除凭据。\n- **flomo_status** — 查看是否已配置、凭据来源与配置文件路径，不回显完整 Key。\n- 凭据持久化到 `~/.dsh/dsh-flomo.json`（权限 0600）。\n- 系统提示公告：Agent 知道何时该用这个插件。\n\n## 安装\n\n```sh\n# GitHub 发布后（仓库带 dsh-plugin topic）\ndsh plugin --profile web add github:zhengjy01/dsh-flomo\n\n# 本地开发\ndsh plugin --profile web add link:/path/to/dsh-flomo\n```\n\n重启 `dsh web` 生效。插件无需构建——`l",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:51:11.404Z",
   "created_at": "2026-08-16T08:32:07.308Z",
-  "gh": {
-    "full_name": "zhengjy01/dsh-flomo",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T08:51:05Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 61,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:45.113Z"
+  "updated_at": "2026-08-17T04:27:50.750Z"
 }

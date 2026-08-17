@@ -24,19 +24,19 @@
   "engines": {
     "node": "^22.19 || >=24"
   },
+  "readme": "<p align=\"center\">\n  <img src=\"assets/banner.svg\" width=\"900\" alt=\"dsh-web-launcher — 一键直达，零摩擦\">\n</p>\n\n<div align=\"center\">\n\n[![npm version](https://img.shields.io/npm/v/dsh-web-launcher?color=1d4ed8&label=npm)](https://www.npmjs.com/package/dsh-web-launcher)\n[![GitHub Stars](https://img.shields.io/github/stars/hanwuji1/dsh-web-launcher?style=social)](https://github.com/hanwuji1/dsh-web-launcher/stargazers)\n[![License](https://img.shields.io/github/license/hanwuji1/dsh-web-launcher?color=64748b)](LICENSE)\n[![test](https://img.shields.io/github/actions/workflow/status/hanwuji1/dsh-web-launcher/test.yml?label=test)](https://github.com/hanwuji1/dsh-web-launcher/actions)\n\n[English](README.md) · 中文\n\n</div>\n\n> **别敲命令，别输网址。双击鲸鱼，直接开干。**\n>\n> [DeepSeek Harness](https://github.com/deepseek-ai/deepsee",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:46:38.737Z",
   "created_at": "2026-08-15T13:04:13.616Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 52,
-    "grade": "C"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:24.743Z"
+  "updated_at": "2026-08-17T04:27:46.964Z"
 }

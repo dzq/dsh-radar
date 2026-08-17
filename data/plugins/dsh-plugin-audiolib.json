@@ -31,19 +31,19 @@
   "engines": {
     "node": "^22.19 || >=24"
   },
+  "readme": "# dsh-plugin-audiolib\n\n[English](README.md) | 中文\n\n[![npm](https://img.shields.io/npm/v/dsh-plugin-audiolib.svg)](https://www.npmjs.com/package/dsh-plugin-audiolib)\n[![license](https://img.shields.io/npm/l/dsh-plugin-audiolib.svg)](LICENSE)\n\n\n给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的环境音轨插件：音乐由 agent 自己的状态驱动，曲库来自 [AudioLib.ai](https://audiolib.ai)——10 万首以上全版权清理的原创曲目，一次 API 调用换一首完整曲子。\n\nagent 需要的状态信号本来就在会话事件流里：一个 turn 打开，说明它在干活；所有 turn 关闭，房间安静下来。这个插件把那条事件流变成声音。\n\n**状态变化永远不打断正在播的曲子。** turn 的开合远比一首歌短，中途切歌听起来是噪音而不是反馈。曲子放完那一刻你处于什么状态，才决定下一首放什么。只有显式的 `music_stop` 会立刻停——要安静就得立刻安静。\n\n## 安装\n\n如果你是用 `npx @deepseek-ai/dsh web` 装的 DSH——不装全局包，CLI 就活在 profile 里——那 `dsh` 根本不在 `PATH` 上，直接敲 `dsh` 只会得到 command not found。改用 `npx` 调用它，并且先启用 pnpm：DSH 用 pnpm 管理 profile 插件，没装就直接拒绝。\n\n```sh\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T16:44:21.762Z",
   "created_at": "2026-08-14T11:05:29.900Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:00.937Z"
+  "updated_at": "2026-08-17T04:27:46.445Z"
 }

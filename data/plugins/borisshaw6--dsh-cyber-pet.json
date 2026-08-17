@@ -32,26 +32,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# @borisshaw6/dsh-cyber-pet\n\nA cyber whale pet for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness): a floating, feedable, color-customizable whale that lives inside the Web UI and reports your token usage, quota, context occupancy, interactions, and conversation counts — with three chat backends, growth levels, moods, milestone celebrations, and a one-click PNG report card.\n\nThis is the **dsh-plugin bundle** build of [dsh-cyber-pet](https://github.com/BorisShaw6/dsh-cyber-pet): one package carrying both halves — the host-side `petChat` Remote (the whale's online brain over the llm seam, credentials stay on the host) and the browser surface (the whale, the glass dashboard panel, report card).\n\n## Install (one line)\n\nRequires DeepSeek Harness ≥ `0.1.0-rc.6` and pnpm on PA",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T12:20:37.072Z",
   "created_at": "2026-08-15T10:12:07.218Z",
-  "gh": {
-    "full_name": "BorisShaw6/dsh-cyber-pet",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T12:13:11Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 60,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:10.486Z"
+  "updated_at": "2026-08-17T04:27:47.742Z"
 }

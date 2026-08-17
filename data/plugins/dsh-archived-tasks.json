@@ -29,26 +29,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-archived-tasks — DeepSeek Harness 已归档任务插件\n\n[English](README.md) | 中文\n\n> DeepSeek Harness Web GUI 插件：在设置页新增一个**已归档任务**页面，列出所有\n> 已归档会话，可一键恢复，或彻底删除其日志文件与注册表引用。\n\n## 安装\n\n已发布到 npm，作为 profile bundle 一条命令安装：\n\n```sh\ndsh plugin --profile web add dsh-archived-tasks\n```\n\n安装后**重启 `dsh web`**，打开 **设置 → 已归档任务** 即可看到。\n\n卸载：\n\n```sh\ndsh plugin --profile web remove dsh-archived-tasks\n```\n\n## 功能\n\n设置页列出 workspace 注册表中归档集合（`archivedSessionIds`）里的会话：\n\n- **恢复**：把会话 id 从注册表的 `archivedSessionIds` 中移除；会话日志与\n  workspace 记账保持不变。\n- **删除**：破坏性且不可恢复。会 `rm -rf` 删除 `data/sessions` 下的会话日志\n  目录，从归档集合中移除该 id，摘除内存中的会话，并从所有 workspace 的\n  记账列表中清除该 id。\n\n删除路由有刻意防护：\n\n- 仅接受 POST 且同源请求（对 Origin 头做轻量 CSRF 校验）。\n- 会话 id 必须匹配 `^session-[0-9a-f-]+$`，杜绝路径穿越。\n- 删除前会确认解析出的会话路径恰好位于 `data/sessions/<encoded-cwd>/`\n  下一层。\n- `dataRoot` 解析顺序：",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T18:12:18.854Z",
   "created_at": "2026-08-15T18:12:18.612Z",
-  "gh": {
-    "full_name": "zhaoyw220716-oss/dsh-archived-tasks",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T18:15:02Z",
-    "archived": false,
-    "license": "Apache-2.0"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 60,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:47.667Z"
+  "updated_at": "2026-08-17T04:27:54.838Z"
 }

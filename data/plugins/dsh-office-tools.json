@@ -13,8 +13,7 @@
     "powerpoint",
     "docx",
     "xlsx",
-    "pptx",
-    "tools"
+    "pptx"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/kw78/dsh-office-tools.git",
@@ -29,26 +28,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# dsh-office-tools\n\n为 DeepSeek Harness 提供 7 个模型可调用的 Office 文件工具，全部运行在 host 半。\n\n[![ci](https://github.com/kw78/dsh-office-tools/actions/workflows/ci.yml/badge.svg)](https://github.com/kw78/dsh-office-tools/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![已收录于 awesome-dsh-plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n\n> 安装：`dsh plugin --profile web add github:kw78/dsh-office-tools`\n\n| 工具 | 作用 | 依赖 |\n|---|---|---|\n| `word_create` | 创建 `.docx`（标题、段落、项目符号、一个表格） | `docx` |\n| `word_read` | 提取 `.docx` 纯文本 | `mammoth` |\n| `excel_create` | 创建多 sheet 的 `.xlsx`（标量单元格网格） | SheetJS (`xlsx`) |\n| `excel_read` | 读取一个或全部 sheet，返回标量行 | SheetJS |\n| `excel_update` | 就地替换/新建整张 sheet，或按 A1 地址写单元格 | SheetJS |\n| `ppt_cre",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T07:04:24.517Z",
   "created_at": "2026-08-15T07:04:24.169Z",
-  "gh": {
-    "full_name": "kw78/dsh-office-tools",
-    "stars": 1,
-    "open_issues": 1,
-    "pushed_at": "2026-08-15T07:29:50Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 59,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:41.529Z"
+  "updated_at": "2026-08-17T04:27:49.205Z"
 }

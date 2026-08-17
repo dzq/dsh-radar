@@ -25,19 +25,19 @@
   "engines": {
     "node": ">=22.19"
   },
+  "readme": "# dsh-multimodal-bridge\n\n**DeepSeek Harness plugin bundle** — 给纯文本模型补上视觉理解与图像生成能力。\n\n把 [multimodal-bridge](../README.md) 的 MCP 能力带进 DeepSeek Harness（`dsh`）：\n本包是一个 Cordis 插件 bundle，注册两个模型可见工具：\n\n| 工具 | 功能 | 后端模型 |\n|------|------|----------|\n| `qwen_vision(image_path, prompt)` | 图片理解、OCR、结构分析 | Qwen-VL 系列（`qwen-vl-max` / `qwen-vl-plus` / `qwen3-vl-flash` …） |\n| `qwen_generate(prompt, size, n, negative_prompt)` | 文生图，保存为本地 PNG | Qwen-Image 系列（`qwen-image-2.0` / `wanx2.1-t2i-turbo` …） |\n\n适用场景与 [multimodal-bridge 的\"备选线\"](../README.md)相同：DeepSeek 等纯文本模型没有视觉，\n`qwen_vision` 是它看图的唯一途径；`qwen_generate` 为任何模型补上出图能力。\n\n## 安装\n\n以下命令默认在**仓库根目录** `multimodal-bridge/` 下执行（若已 `cd dsh-plugin`，\n则把 `./dsh-plugin` 换成 `.`）：\n\n```sh\n# 从 npm（发布后）\ndsh plugin --profile <name> add dsh-multimodal-bridge\n\n# 从本仓库 checkout（在仓",
   "weekly_downloads": 241,
-  "monthly_downloads": 241,
   "last_publish": "2026-08-13T18:17:18.725Z",
   "created_at": "2026-08-13T18:14:21.621Z",
   "gh": null,
   "scores": {
     "popularity": 60,
-    "maintenance": 58,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 67,
-    "grade": "B"
+    "overall": 53,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:37.435Z"
+  "updated_at": "2026-08-17T04:27:44.264Z"
 }

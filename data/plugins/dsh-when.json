@@ -20,19 +20,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-when\n\nDSH 插件：把**中文自然语言相对时间短语**解析成 **ISO 时间戳**，注册一个 `when` 工具。纯 ESM、零依赖、无构建。\n\n## 安装\n\n```sh\ndsh plugin --profile <name> add file:./plugins/dsh-when\n# 或 npm 发布后：dsh plugin --profile <name> add dsh-when\n```\n\n安装后组合层挂载 `when` 工具（`when` 层 id）。\n\n## 工具：`when`\n\n参数：\n\n| 参数 | 类型 | 必填 | 说明 |\n|---|---|---|---|\n| `text` | string | 是 | 自然语言时间短语，如 `明天 9 点`、`2 小时后`、`下周一 9 点`、`18:30` 或 ISO 8601 |\n| `tz` | string | 否 | IANA 时区名（如 `Asia/Shanghai`、`UTC`），默认本地时区；无效时区返回规范错误 |\n| `now` | string | 否 | ISO 8601 基准时间，默认当前时间 |\n\n返回规范值：`{ ok, text, iso, local, relativeSeconds, matchedPattern, errors }`\n\n- `iso`：UTC ISO 8601 字符串（带 `Z`）。\n- `local`：目标时区本地 ISO 字符串（带 `±HH:MM` 偏移）。\n- `relativeSeconds`：目标时刻相对 `now` 的秒数（目标 − now，可为负）。\n- `matchedPattern`：命中的模式名（`day-offset` / `duration` / `weekday` / `clock-time` / `iso`）。\n-",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:45:17.889Z",
   "created_at": "2026-08-16T08:45:17.569Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 0,
     "quality": 65,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 48,
-    "grade": "C"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:45.114Z"
+  "updated_at": "2026-08-17T04:27:50.808Z"
 }

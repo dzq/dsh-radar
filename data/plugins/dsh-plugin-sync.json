@@ -32,26 +32,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-plugin-sync\n\n把 DeepSeek Harness 已安装的插件清单同步到 GitHub Gist 的 DSH 插件。\n\n- GitHub OAuth **设备流快捷登录**（无需手动粘贴 token）\n- **导出**：将 `profiles/<profile>/package.json` 的 `dependencies` + `dsh.profile.bundles` + `cordis.patch.yml` 打包为 `dsh-plugins.json` 上传到 Gist\n- **导入**：从 Gist 读取插件清单，写回 `package.json` / `cordis.patch.yml` 并**自动执行 `pnpm install`**，提示重启 Harness 生效\n- 未指定 Gist 地址时，自动创建名为 `dsh_plugin_sync_XXXX`（4 位随机字符）的私有 Gist\n\n## 安装\n\n在 profile 的 `package.json` 中：\n\n```json\n{\n  \"dependencies\": {\n    \"dsh-plugin-sync\": \"github:AngLi1997/dsh-plugin-sync\"\n  },\n  \"dsh\": {\n    \"profile\": {\n      \"bundles\": [\"dsh-plugin-sync\"]\n    }\n  }\n}\n```\n\n然后 `pnpm install` 并重启 Harness。或通过 dsh-market 一键安装。\n\n## 使用\n\n1. 打开设置 →「插件同步」\n2. 点「登录 GitHub」，按提示跳转 GitHub 授权（仅需 `gist` 权限）\n3. 点「导出到 Gist」上传插件清单；「从 Gist 导入」填写 Gist 地址后自动安装",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:59:59.306Z",
   "created_at": "2026-08-15T15:59:58.982Z",
-  "gh": {
-    "full_name": "AngLi1997/dsh-plugin-sync",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T16:02:10Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 60,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:11:13.558Z"
+  "updated_at": "2026-08-17T04:27:47.746Z"
 }

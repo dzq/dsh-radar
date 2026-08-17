@@ -37,19 +37,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# dsh-messager\n\n[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)\n[![npm version](https://img.shields.io/npm/v/dsh-messager)](https://www.npmjs.com/package/dsh-messager)\n[![Node](https://img.shields.io/badge/node-%3E%3D20-blue.svg)](package.json)\n\n> **DeepSeek Harness（DSH）任务状态通知插件** / *Task-status notification plugin for DeepSeek Harness (DSH)*\n>\n> 会话需要交互、任务完成、任务出错时，通过**系统通知**（OS toast）、**浏览器通知**、**飞书机器人（webhook）**推送提醒——不再依赖盯着会话列表的圆点。\n> *Get notified via system notifications, browser notifications, and a Feishu (Lark) bot whenever a session needs attention, a task completes, or a task errors.*\n\n单包双运行端（dual-runtime）结构：**host 端**（Node）负责系统通知与飞书 webhook，**client 端**（浏览器）负责 Web Notification。两者配置同源（命名空间 `messager`），设置页「通知&信使」分区可编辑、实时生效——配置经插件自身的 webServer 路由（`/dsh-m",
   "weekly_downloads": 265,
-  "monthly_downloads": 265,
   "last_publish": "2026-08-15T14:40:31.778Z",
   "created_at": "2026-08-15T14:29:13.902Z",
   "gh": null,
   "scores": {
     "popularity": 61,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 69,
-    "grade": "B"
+    "overall": 54,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:37.646Z"
+  "updated_at": "2026-08-17T04:27:44.257Z"
 }

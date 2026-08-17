@@ -28,19 +28,19 @@
   "engines": {
     "node": "^22.19.0 || >=24"
   },
+  "readme": "# dsh-shell\r\n\r\n> A DeepSeek Harness (DSH) plugin that lets the model run **cmd** and **PowerShell** commands on Windows — with the safety model of the standard `bash` tool.\r\n\r\n## Why\r\n\r\nThe stock `bash` tool of many agents fails on Windows (`subprocess-local: terminal inspection is unsupported on platform win32`). `dsh-shell` registers a `shell_exec` tool that understands Windows natively:\r\n\r\n- `cmd.exe /d /s /c ...` by default\r\n- `powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command ...`\r\n- `sh`/`bash` fallback on Linux/macOS hosts\r\n\r\nIt mirrors the `bash` tool's safety contract:\r\n\r\n| Feature | Behavior |\r\n| --- | --- |\r\n| Persistent cwd | `cd` persists across calls (per session, on disk) |\r\n| Timeout | per-command `timeout` ms, capped by `maxTimeout` |\r\n| Output tru",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-17T00:25:35.362Z",
   "created_at": "2026-08-17T00:25:35.092Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 0,
     "quality": 75,
     "security": 65,
-    "dsh_compat": 80,
-    "overall": 53,
+    "dsh_compat": 75,
+    "overall": 40,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T03:57:45.940Z"
+  "updated_at": "2026-08-17T04:27:46.986Z"
 }

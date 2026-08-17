@@ -23,26 +23,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-ecc\n\n把 [affaan-m/ECC](https://github.com/affaan-m/ECC)(~227k⭐ 的\"操作员系统\",285 个\n技能)渐进移植到 **DeepSeek Harness (DSH)** 的 Cordis 插件架构。\n\n> **English:** ECC (227k⭐ operator system) skills for DeepSeek Harness —\n> progressive port. v0.1.0 ships 20 curated, self-contained single-file skills;\n> the remaining 270+ follow in later batches. Adapted from\n> [affaan-m/ECC](https://github.com/affaan-m/ECC) (MIT, © Affaan Mustafa).\n\n插件向 `ctx.skills` 注册表的 **host 层** 注册技能提供者;技能随包分发\n(`skills/<name>/SKILL.md`),无需用户配置。\n\n> **非官方移植**:技能内容改编自 [affaan-m/ECC](https://github.com/affaan-m/ECC)(MIT, © Affaan Mustafa)。\n> ECC 的 Claude Code 专属基础设施(agents/hooks/commands/mcp-configs)不在本包内。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-ecc\n# 或 GitHub\ndsh plugin --profile web add github:gongyijie85/dsh-ecc\n```\n\n装完重启 profi",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:26:54.091Z",
   "created_at": "2026-08-16T08:16:08.869Z",
-  "gh": {
-    "full_name": "gongyijie85/dsh-ecc",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T15:54:45Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 40,
     "dsh_compat": 75,
-    "overall": 61,
-    "grade": "B"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:54:53.454Z"
+  "updated_at": "2026-08-17T04:27:46.983Z"
 }

@@ -21,26 +21,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-plugin-auto-docs\n\nAuto documentation generation skill for DeepSeek Harness.\n\n## What it does\n\nTeaches the agent how to generate documentation:\n- README files from project structure\n- API docs from code signatures\n- Changelogs from git history\n- Inline JSDoc comments\n\n## Install\n\n```sh\ndsh plugin --profile your-profile add dsh-plugin-auto-docs\n```\n\n## Usage\n\n- \"Write a README for this project\"\n- \"Generate API docs for src/utils.ts\"\n- \"Create a changelog from the last tag\"\n- \"Add JSDoc comments to all exported functions\"\n\n## License\n\nMIT -- YYTbit\n",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-13T15:51:56.291Z",
   "created_at": "2026-08-13T15:51:56.057Z",
-  "gh": {
-    "full_name": "YYTbit/dsh-plugin-auto-docs",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T07:49:12Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 59,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:41.114Z"
+  "updated_at": "2026-08-17T04:27:48.673Z"
 }

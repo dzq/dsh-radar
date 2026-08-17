@@ -24,26 +24,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "<div align=\"center\">\n\n<img src=\"docs/assets/logo.svg\" width=\"120\" alt=\"PaperLab logo\">\n\n# PaperLab\n\n**Overleaf 式论文迭代修改工作台，AI 引擎是 DeepSeek Harness 插件。**\n\n[English](README.en.md) · [快速开始](docs/快速开始.md) · [架构](docs/architecture.md) · [贡献指南](CONTRIBUTING.md)\n\n[![license](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)\n[![npm](https://img.shields.io/npm/v/dsh-paperlab?style=flat-square)](https://www.npmjs.com/package/dsh-paperlab)\n[![dsh-plugin](https://img.shields.io/badge/dsh--plugin-%E2%9C%93-4D6BFE?style=flat-square)](https://github.com/topics/dsh-plugin)\n[![stars](https://img.shields.io/github/stars/maple-pwn/paperlab?style=flat-square)](https://github.com/maple-pwn/paperlab)\n\n</div>\n\n在浏览器里编辑 LaTeX、看真实排版的 PDF、选中任意文字写批注；点一下按钮，DeepSeek Harness 的 agent 就会按批注逐条改写论文、",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T18:29:35.091Z",
   "created_at": "2026-08-15T18:08:52.794Z",
-  "gh": {
-    "full_name": "maple-pwn/paperlab",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T18:36:07Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 62,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:59.182Z"
+  "updated_at": "2026-08-17T04:27:44.328Z"
 }

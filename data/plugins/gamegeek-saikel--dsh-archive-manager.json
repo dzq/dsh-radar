@@ -39,19 +39,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "<h1 align=\"center\">DSH Archive Manager（归档会话管理）</h1>\n\n<p align=\"center\">\n  <a href=\"./README.md\">English</a>\n  &nbsp;·&nbsp;\n  <strong>简体中文</strong>\n</p>\n\n**DSH Archive Manager** 是为 DeepSeek Harness（DSH）Web GUI 打造的归档会话管理插件——**「显示归档」视图开关**、**归档会话的样式与守卫**（红色标题、红色背景、「已归档」角标、不可打开）、**取消归档**，以及**彻底删除会话**（转录目录、workspace 记账、归档标记与投影缓存行全部清除；live 会话先 dispose，界面不崩）。\n\n- Host 半区（内部 `dsh-archive-manager-workspace` / `dsh-archive-manager-projcache`）：`WorkspaceRegistry` 与 `SessionProjectionCache` 子类，新增 `unarchiveSession` / `deleteSession` 与 `delete(id)` / `whenIdle()`，并以 Typert Remote 端点暴露。\n- Client 半区（内部 `dsh-archive-manager-client`）：fork 的 `dsh-client-ui-workspace` 浏览器 bundle——视图开关、归档行样式、守卫打开、行菜单、二次确认对话框与 Toast，内置简体中文与英文。\n\n插件以**单个 npm 包**（`@gamegeek-saikel/dsh-archive-manager`）交付，三个实现作为包内子模块。根 `cordis.pat",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:26:17.117Z",
   "created_at": "2026-08-15T11:46:55.207Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:23.923Z"
+  "updated_at": "2026-08-17T04:27:46.963Z"
 }

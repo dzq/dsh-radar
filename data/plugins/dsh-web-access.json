@@ -35,19 +35,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# dsh-web-access\n\nWeb search, URL extraction, and video/PDF/GitHub understanding for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).\n\nEnglish | [中文](#中文)\n\nThis plugin ports the [pi-web-access](https://github.com/nicobailon/pi-web-access) product onto dsh:\n\n- `web_search` / `web_access_search` with 20+ providers and fallback\n- `fetch_content` for pages, GitHub clones, PDFs, YouTube, and local video\n- `get_search_content` for stored slices and passage find\n- `source_check` for claim verification\n- optional `ctx.web` providers so official `web_search` / `web_fetch` can use the same backends\n- `/websearch`, `/curator`, `/search`, `/google-account`, `/webaccess`\n- Web UI overlay registered on the official `shell.overlay` slot via `dsh.client` (falls back to a script inject ",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T06:55:04.280Z",
   "created_at": "2026-08-14T02:20:25.545Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:52:22.280Z"
+  "updated_at": "2026-08-17T04:27:46.956Z"
 }

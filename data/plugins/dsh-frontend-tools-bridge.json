@@ -24,19 +24,19 @@
     }
   },
   "engines": {},
+  "readme": "# dsh-frontend-tools-bridge\n\n[English](README.md) | 中文\n\n前端工具桥的 dsh 侧：一个仅监听回环地址的 WebSocket 服务，让任意数量的已连接应用把自己私有的工具镜像注册到 `ctx.tools` 上，每个应用占据独立的命名空间。工具的真实实现只存在于应用（浏览器渲染进程、Web 应用、Node 进程）——本桥接插件不含任何业务知识；它把模型调用转发给持有的应用并返回其结果。应用侧的对应件是 [`dsh-frontend-tools-client`](../client/README.md)。\n\n## 功能\n\n插件启动一个绑定 `127.0.0.1` 的 `WebSocketServer`（绑定非回环地址会把模型的工具访问暴露给本地网络；握手 KEY 是客户端身份，不是网络边界）。认证依托客户端名单：应用自行生成 DSH KEY（客户端 SDK 产出 64 位十六进制），用户在对话中把它登记到某个命名空间——KEY 因此兼任客户端身份，凭证的生命周期归应用自己掌管。连接先完成 `hello` 握手（协议版本、key）；服务端以 `welcome` 应答并回显绑定的命名空间。每个命名空间同一时刻只允许一个会话——第二个连接呈交已被占据的命名空间时收到 `duplicate_connection` 拒绝；持有者断开后，其镜像工具被注销、在途调用被拒绝，该命名空间立即接受替代连接。不同命名空间的客户端并发连接，互相看不见对方的工具。\n\n注册以 `register` 批次为单位、整批生效或整批拒绝：批次内任一工具校验失败或名称冲突，整批以非致命的 `invalid_tool` 错误拒绝，客户端可修正定义后再次发送 `register`。每个被接受的工具以公开名 `<namespace>__<rawName>`（沿用 `m",
   "weekly_downloads": 125,
-  "monthly_downloads": 125,
   "last_publish": "2026-08-15T19:38:49.073Z",
   "created_at": "2026-08-15T19:38:48.752Z",
   "gh": null,
   "scores": {
     "popularity": 53,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 67,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 51,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:42.571Z"
+  "updated_at": "2026-08-17T04:27:44.277Z"
 }

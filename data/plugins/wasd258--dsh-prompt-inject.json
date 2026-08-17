@@ -32,26 +32,19 @@
   "engines": {
     "node": ">=22.19.0"
   },
+  "readme": "# dsh-prompt-inject\n\n[English](./README.md) | 中文\n\nDeepSeek Harness（DSH）的**会话级**系统提示词注入器：每个会话可独立选择一段注入到系统提示词的文本（渲染在 persona 之后、工具引导之前）。\n\n> 社区项目——非 DeepSeek 官方插件，不代表 DeepSeek 背书。\n\n## 功能特性\n\n- **按会话注入**——每个会话独立选择模板（或「无」），不同会话互不干扰。section 从 `agent.ctx` 注册（cordis caller 绑定 → 该会话的 scope 层），只影响顶层会话。\n- **模板库**——保存/编辑/删除命名模板（`name + text + order`）；可设默认模板，新会话自动套用。\n- **输入框工具行下拉**——「会话提示词」选择器（`conversation.input.right` 插槽）直接在输入行为当前会话挑选模板，无需敲命令。\n- **设置页两个区块**——设置 →「会话提示词模板」管理模板库与新会话默认模板；设置 →「系统提示词」是只读查看器，展示任意 live 会话完整组装出的系统提示词。\n- **分层查看**——按来源分组：全局层（所有模式共有）、preset 层（该模式专有段）、会话层（仅本会话）、注入段（本插件自定义）——每段带名称、order、字数。\n- **变量插值**——模板文本支持 `{{model}}` / `{{cwd}}`。\n- **运行中即时生效**——切换模板 = dispose 旧段 + 注册新段，该会话**下一个模型请求**生效，无需重启。\n- **验证端点**——`GET /assemble` 返回实际组装出的系统提示词，并在 preset 锁定提示词时如实报告 `completeBlocksInjectio",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T08:26:29.201Z",
   "created_at": "2026-08-15T08:05:40.595Z",
-  "gh": {
-    "full_name": "WASD258-jpg/dsh-prompt-inject",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T08:26:54Z",
-    "archived": false,
-    "license": "NOASSERTION"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 58,
-    "grade": "B"
+    "overall": 36,
+    "grade": "D"
   },
-  "updated_at": "2026-08-16T10:16:42.514Z"
+  "updated_at": "2026-08-17T04:27:49.227Z"
 }

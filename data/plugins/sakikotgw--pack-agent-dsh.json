@@ -22,26 +22,19 @@
   "engines": {
     "node": ">=20.11.0"
   },
+  "readme": "# pack-agent-dsh\r\n\r\n[![awesome · DSH plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\r\n\r\n[English](README.md) | 中文\r\n\r\n像 MC 整合包一样管理 DeepSeek Harness 配置。`@sakikotgw/pack-agent-dsh` 是 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 插件。把 `.pack.json` / `.pack.zip` 投影到 `.agent-pack/modpacks/`，按项目白名单暴露 skill。\r\n\r\n## 安装\r\n\r\nnpm：[`@sakikotgw/pack-agent-dsh`](https://www.npmjs.com/package/@sakikotgw/pack-agent-dsh)\r\n\r\n```sh\r\ndsh plugin --profile web add @sakikotgw/pack-agent-dsh\r\n```\r\n\r\npnpm 9 报 `ERR_PNPM_ADDING_TO_ROOT` 时加 `-w`。\r\n\r\n投影 / map / allow 的命令行在另一个包：[`@sakikotgw/pack-agent`](https://www.npmjs.com/package/@sakikotgw/pack-agent)。\r\n\r\n## 使用\r\n\r\n```sh\r\npackagent dsh project path/to/foo.pack.json\r\npackagent dsh allow <id>\r\npackagent dsh map pat",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T08:24:00.719Z",
   "created_at": "2026-08-13T20:01:20.516Z",
-  "gh": {
-    "full_name": "sakikoTGW/pack-agent",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T08:25:32Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 59,
-    "grade": "B"
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:51.793Z"
+  "updated_at": "2026-08-17T04:27:44.317Z"
 }

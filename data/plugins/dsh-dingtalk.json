@@ -24,19 +24,19 @@
   "engines": {
     "node": ">=20"
   },
+  "readme": "# dsh-dingtalk\n\nDeepSeek Harness 钉钉群机器人通知插件：让 agent 能**单向推送 Markdown / 纯文本消息到钉钉群**。纯插件实现，零核心改动，安装即可用。\n\n纯 Node 实现，**全平台通用**（Windows / macOS / Linux 同一份代码），只依赖 `node:crypto` 与内置 `fetch`，无运行时依赖、无原生二进制。\n\n## 工具一览\n\n| 工具 | 作用 |\n|---|---|\n| `dingtalk_notify` | 向配置的钉钉群发一条 **Markdown** 消息（`title` 标题 + `text` Markdown 正文） |\n| `dingtalk_text` | 向配置的钉钉群发一条 **纯文本** 消息（`content`） |\n\n示例对话：\n\n> 帮我给钉钉群发一条消息：标题「构建完成」，正文「流水线 #123 已通过 ✅」。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-dingtalk\n```\n\n装好后重启 `dsh web`。插件自带空配置，**不会弄崩启动**；配置前调用任何 `dingtalk_*` 工具都会返回明确的中文配置提示。\n\n## 第一步：拿到 webhook 与加签密钥\n\n用钉钉【自定义机器人】方式，**不需要企业应用、不需要管理员权限**：\n\n1. 打开目标钉钉群 → **群设置** → **智能群助手** → **添加机器人** → **自定义（通过 Webhook 接入自定义服务）**\n2. 机器人名称随意，**安全设置勾选「加签」**，完成\n3. 复制两样东西：\n   - **Webhook 地址**：形如 `https://oapi.dingtalk.com/robot/send?access",
   "weekly_downloads": 11,
-  "monthly_downloads": 11,
   "last_publish": "2026-08-13T22:50:11.368Z",
   "created_at": "2026-08-13T22:50:11.179Z",
   "gh": null,
   "scores": {
     "popularity": 27,
-    "maintenance": 58,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 60,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 44,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T03:50:49.131Z"
+  "updated_at": "2026-08-17T04:27:44.310Z"
 }

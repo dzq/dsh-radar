@@ -25,26 +25,19 @@
   "engines": {
     "node": ">=22.19"
   },
+  "readme": "# dsh-project-memory\n\n面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的“证据驱动、人工审批”项目记忆插件。\n\n模型只能提出候选；只有人类执行 `/memory approve` 后，候选才会成为正式项目记忆。记忆类型包括决策、约束、约定、经验和事实。\n\n> DeepSeek Harness 当前仍是开发者预览版。本插件适配 `0.1.0-rc.6`，Harness API 更新后可能需要同步调整。\n\n## 核心差异\n\n- 人工审批是硬边界：模型工具无法批准或归档记忆。\n- 证据采用项目相对路径、精确行号和 SHA-256 校验，不复制源码片段。\n- 新旧记忆冲突时，必须声明 `supersedes`，或由人明确选择 `--keep-both`。\n- 正式记忆是适合 Git 管理的 JSON；候选项进入独立待审队列。\n- 完全本地、确定性搜索，不依赖向量库或云服务。\n\n## 安装\n\n```bash\ndsh plugin --profile web add dsh-project-memory\n```\n\n安装后重启对应 Harness profile。\n\n## 命令\n\n```text\n/memory capture [备注]\n/memory candidates\n/memory approve <候选ID> [--keep-both]\n/memory reject <候选ID> [原因]\n/memory search <关键词>\n/memory show <记忆ID>\n/memory validate [记忆ID]\n/memory archive <记忆ID>\n/memory timeline\n```\n\n## 数据位置\n\n```text\n.dsh/project",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-16T09:31:26.311Z",
   "created_at": "2026-08-16T09:31:25.948Z",
-  "gh": {
-    "full_name": "luoyuejun9/dsh-project-memory",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T09:31:52Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 60,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:24.199Z"
+  "updated_at": "2026-08-17T04:27:44.637Z"
 }

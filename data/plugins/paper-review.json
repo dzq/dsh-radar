@@ -33,26 +33,19 @@
   "engines": {
     "node": ">=22"
   },
+  "readme": "# paper-review\n\nA paper-review panel for the **DeepSeek Harness**: upload a PDF paper and read\nit as structured, selectable text beside the conversation, with figures and\ndisplay equations rendered visually.\n\n## Features\n\n- **PDF → structured text** (runs on the Harness host, via poppler):\n  - two-column layout reconstruction (gutter detection + full-width line reassembly)\n  - headings (size + all-caps normalization) and run-in heading splitting\n  - tables (geometric column detection, wrapped-cell continuation)\n  - sub/superscripts, dot-leader table of contents\n  - scanned-PDF fallback to page images\n- **Figures and display equations rendered as images** (`pdftoppm` crops +\n  `pdfimages` raster extraction), with equation text kept as hidden spans so it\n  stays searchable.\n- **Right-side re",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-15T03:03:49.459Z",
   "created_at": "2026-08-15T03:03:49.117Z",
-  "gh": {
-    "full_name": "louwenbo580/read-paper",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T03:22:51Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 63,
-    "grade": "B"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:50:56.719Z"
+  "updated_at": "2026-08-17T04:27:44.325Z"
 }

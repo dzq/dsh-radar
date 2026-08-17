@@ -32,19 +32,19 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
+  "readme": "# @artificialnotimbecile/dsh-context-taxonomy\n\n**See how DeepSeek Harness assembles each ordinary agent call:** the complete system prompt, conversation history, current prompt, tool definitions, model options, token composition, cache usage, and logical reasoning evidence.\n\nThis read-only Web-profile plugin is designed for learning Harness architecture and debugging agent behavior. It captures the provider-neutral `GenerateOptions` values that reach this plugin's public `llm/stream` listener and presents them as an explorable Context Taxonomy beside the conversation. Use it to study prompt construction, compare presets, audit which tools the model could call, diagnose context growth, and understand retries without reading a Session log by hand.\n\n![A real DeepSeek Harness session opening C",
   "weekly_downloads": 0,
-  "monthly_downloads": 0,
   "last_publish": "2026-08-14T03:33:27.708Z",
   "created_at": "2026-08-14T03:33:27.426Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 59,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 54,
-    "grade": "C"
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T03:51:59.485Z"
+  "updated_at": "2026-08-17T04:27:45.211Z"
 }

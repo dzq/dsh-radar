@@ -28,6 +28,7 @@
   "engines": {
     "node": "^22.19 || >=24"
   },
+  "readme": "# dsh-excel-chat\n\n在 DeepSeek Harness 里对话完成 Excel 工作的 dsh 插件。\n\n[![npm version](https://img.shields.io/npm/v/dsh-excel-chat)](https://www.npmjs.com/package/dsh-excel-chat)\n\n## 一分钟上手（使用者）\n\n前提：已安装 DeepSeek Harness（`dsh` CLI 或桌面端）。\n\n```sh\ndsh plugin --profile demo add dsh-excel-chat\ndsh web --profile demo\n```\n\n对话示例：“帮我把 report.xlsx 做成报表：D 列毛利、E 列合计、表头加粗、冻结首行、\n加筛选”；“检查 sales.xlsx 的公式哪里错了并修复”；“按区域生成透视表和柱状图”。\n\n平台说明：公式校验/修复、读写、样式、汇总、合并、邮件合并跨平台；图表创建/改参、\n原生透视表、图表导出需要 Windows + 本机 Excel。\n\n安装（从 npm 或本地 bundle）：\n\n```sh\ndsh plugin --profile demo add dsh-excel-chat\ndsh plugin --profile demo add ./bundle\n```\n\n工具：\n\n- `excel_validate_formulas` — 公式静默错误检测（列 pattern、hardcode、空行、循环引用、错误值）\n- `excel_compile_formula` — Formula IR → 确定性 Excel 公式\n- `excel_read` — 精确读取单元格状态（值/公式/类型/格式/合并/数据有效性）\n- `excel_undo` — 按审计日志",
   "weekly_downloads": 717,
   "last_publish": "2026-08-15T11:15:37.449Z",
   "created_at": "2026-08-14T03:38:23.444Z",
@@ -41,5 +42,5 @@
     "overall": 55,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T03:56:21.487Z"
+  "updated_at": "2026-08-17T04:27:44.232Z"
 }
