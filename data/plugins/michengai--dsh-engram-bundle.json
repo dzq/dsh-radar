@@ -1,0 +1,43 @@
+{
+  "slug": "michengai--dsh-engram-bundle",
+  "name": "@michengai/dsh-engram-bundle",
+  "version": "0.1.1",
+  "description": "NPM-installable DeepSeek Harness plugin that bundles Engram persistent memory MCP and injects parent-agent memory protocol.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "engram",
+    "memory",
+    "mcp",
+    "cordis"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/MichengAI/dsh-engram-bundle.git",
+  "homepage": "https://github.com/MichengAI/dsh-engram-bundle#readme",
+  "npm": "https://www.npmjs.com/package/@michengai/dsh-engram-bundle",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T16:56:22.158Z",
+  "created_at": "2026-08-16T10:27:24.363Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:52:31.084Z"
+}

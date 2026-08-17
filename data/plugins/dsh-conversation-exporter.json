@@ -1,0 +1,57 @@
+{
+  "slug": "dsh-conversation-exporter",
+  "name": "dsh-conversation-exporter",
+  "version": "0.1.0",
+  "description": "Local clean-Markdown export for the current DeepSeek Harness Web conversation.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "conversation-export",
+    "conversation-exporter",
+    "markdown"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/liuyuelintop/dsh-conversation-exporter.git",
+  "homepage": "https://github.com/liuyuelintop/dsh-conversation-exporter#readme",
+  "npm": "https://www.npmjs.com/package/dsh-conversation-exporter",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T00:44:43.369Z",
+  "created_at": "2026-08-17T00:44:42.847Z",
+  "gh": {
+    "full_name": "liuyuelintop/dsh-conversation-exporter",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T02:27:57Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 65,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T04:11:20.146Z"
+}

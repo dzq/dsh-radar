@@ -25,26 +25,19 @@
   "engines": {
     "node": ">=18"
   },
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
+  "weekly_downloads": 158,
+  "monthly_downloads": 158,
   "last_publish": "2026-08-15T02:12:17.421Z",
   "created_at": "2026-08-14T10:42:47.563Z",
-  "gh": {
-    "full_name": "wulun811/LiuHe",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T15:23:05Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
-    "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "popularity": 55,
+    "maintenance": 59,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 62,
+    "overall": 66,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:42.669Z"
+  "updated_at": "2026-08-17T03:50:39.287Z"
 }

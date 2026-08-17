@@ -1,8 +1,8 @@
 {
   "slug": "dsh-plugin-llm-balance",
   "name": "dsh-plugin-llm-balance",
-  "version": "0.2.4",
-  "description": "DSH（DeepSeek Harness）插件：页面右上角可拖动的 API 余额/配额悬浮卡片——自动发现 DeepSeek / Moonshot / Kimi For Coding / OpenAI Codex（Codex Connect）/ OpenCode Go 等 provider，按余额分档变色、实时刷新",
+  "version": "0.2.1",
+  "description": "DSH（DeepSeek Harness）插件：页面右上角可拖动的 API 余额/配额悬浮卡片——自动发现 DeepSeek / Moonshot / Kimi For Coding 等 provider，按余额分档变色、实时刷新",
   "keywords": [
     "dsh",
     "dsh-plugin",
@@ -11,12 +11,6 @@
     "deepseek",
     "moonshot",
     "kimi",
-    "openai-codex",
-    "codex",
-    "chatgpt",
-    "oauth",
-    "opencode",
-    "opencode-go",
     "api-balance",
     "quota",
     "billing"
@@ -37,24 +31,17 @@
   "engines": {},
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-16T03:17:24.823Z",
+  "last_publish": "2026-08-15T02:54:09.306Z",
   "created_at": "2026-08-14T20:06:46.185Z",
-  "gh": {
-    "full_name": "FengHuoLinShan/dsh-plugin-llm-balance",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T05:27:21Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 59,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 85,
-    "overall": 65,
-    "grade": "B"
+    "overall": 54,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:25.202Z"
+  "updated_at": "2026-08-17T03:52:05.040Z"
 }

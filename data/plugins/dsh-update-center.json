@@ -37,18 +37,18 @@
     "full_name": "Britneycode/dsh-update-center",
     "stars": 1,
     "open_issues": 0,
-    "pushed_at": "2026-08-16T09:58:02Z",
+    "pushed_at": "2026-08-17T02:31:30Z",
     "archived": false,
     "license": "BSD-3-Clause"
   },
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
+    "maintenance": 99,
     "quality": 100,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 64,
+    "overall": 63,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:19.705Z"
+  "updated_at": "2026-08-17T03:50:53.847Z"
 }

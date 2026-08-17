@@ -35,26 +35,26 @@
     }
   },
   "engines": {},
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
+  "weekly_downloads": 253,
+  "monthly_downloads": 253,
   "last_publish": "2026-08-15T16:03:06.944Z",
   "created_at": "2026-08-15T15:20:46.247Z",
   "gh": {
     "full_name": "hezhongtang/dsh-update-copilot",
     "stars": 0,
     "open_issues": 0,
-    "pushed_at": "2026-08-16T08:32:14Z",
+    "pushed_at": "2026-08-15T16:02:36Z",
     "archived": false,
     "license": "MIT"
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 60,
     "maintenance": 99,
     "quality": 100,
     "security": 50,
     "dsh_compat": 85,
-    "overall": 64,
-    "grade": "B"
+    "overall": 79,
+    "grade": "A"
   },
-  "updated_at": "2026-08-16T10:16:40.542Z"
+  "updated_at": "2026-08-17T03:50:34.758Z"
 }

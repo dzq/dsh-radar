@@ -1,7 +1,7 @@
 {
   "slug": "dsh-mnemon",
   "name": "dsh-mnemon",
-  "version": "0.1.6",
+  "version": "0.1.4",
   "description": "Cross-agent, local-first persistent memory plugin for DeepSeek Harness (DSH), powered by Mnemon. It shares long-term memory across Mnemon-enabled agents and adds runtime memory, searchable project documents, semantic recall, knowledge graph, and a Sidebar",
   "keywords": [
     "deepseek-harness",
@@ -13,30 +13,7 @@
     "memory-plugin",
     "agent-memory",
     "cross-agent-memory",
-    "shared-agent-memory",
-    "multi-agent-memory",
-    "llm-memory",
-    "persistent-memory",
-    "long-term-memory",
-    "runtime-memory",
-    "working-memory",
-    "project-memory",
-    "project-documents",
-    "document-search",
-    "semantic-recall",
-    "memory-space",
-    "workspace-memory",
-    "subagent",
-    "knowledge-graph",
-    "ai-agent",
-    "llm-agent",
-    "external-memory",
-    "local-first",
-    "sqlite",
-    "typescript",
-    "cordis",
-    "web-ui",
-    "sidebar"
+    "shared-agent-memory"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/omdsh-dev/dsh-mnemon.git",
@@ -62,25 +39,17 @@
     "node": ">=20"
   },
   "weekly_downloads": 1129,
-  "monthly_downloads": 1129,
-  "last_publish": "2026-08-16T08:46:05.805Z",
+  "last_publish": "2026-08-14T23:50:07.651Z",
   "created_at": "2026-08-13T19:28:45.151Z",
-  "gh": {
-    "full_name": "omdsh-dev/dsh-mnemon",
-    "stars": 43,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T09:21:54Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 76,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 83,
-    "grade": "A"
+    "overall": 61,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:12.887Z"
+  "updated_at": "2026-08-17T03:56:18.182Z"
 }

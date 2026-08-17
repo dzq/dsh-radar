@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-plugin-smooth-stream",
+  "name": "dsh-plugin-smooth-stream",
+  "version": "1.0.1",
+  "description": "Better streaming text animation for DeepSeek Harness.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis-plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/SpookySandwich/dsh-plugin-smooth-stream.git",
+  "homepage": "https://github.com/SpookySandwich/dsh-plugin-smooth-stream#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-smooth-stream",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T18:18:29.088Z",
+  "created_at": "2026-08-16T14:08:24.004Z",
+  "gh": {
+    "full_name": "SpookySandwich/dsh-plugin-smooth-stream",
+    "stars": 8,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T18:03:13Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 56,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:04.115Z"
+}

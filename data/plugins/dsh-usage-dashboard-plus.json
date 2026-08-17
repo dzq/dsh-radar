@@ -33,22 +33,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T10:57:03.573Z",
   "created_at": "2026-08-14T09:38:39.270Z",
-  "gh": {
-    "full_name": "1HelloMan1/dsh-usage-dashboard-plus",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T10:57:23Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 85,
+    "maintenance": 59,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 57,
-    "grade": "B"
+    "overall": 47,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:27.864Z"
+  "updated_at": "2026-08-17T03:52:17.354Z"
 }

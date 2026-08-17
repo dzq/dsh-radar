@@ -27,22 +27,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T10:01:32.073Z",
   "created_at": "2026-08-14T07:30:30.010Z",
-  "gh": {
-    "full_name": "Letter2025/dsh-approval-llm",
-    "stars": 6,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T10:01:57Z",
-    "archived": false,
-    "license": null
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
+    "maintenance": 59,
     "quality": 90,
     "security": 65,
     "dsh_compat": 75,
-    "overall": 62,
+    "overall": 55,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:24.531Z"
+  "updated_at": "2026-08-17T03:52:02.581Z"
 }

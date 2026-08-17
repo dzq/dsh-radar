@@ -1,0 +1,54 @@
+{
+  "slug": "dsh-yogacara",
+  "name": "dsh-yogacara",
+  "version": "0.1.1",
+  "description": "A Yogācāra (唯识) self-model plugin for DeepSeek Harness — eight consciousnesses, the 51 mental factors, a perfumed seed store, and a measurable self-grasping meter, rendered back to the agent as first-person state.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "yogacara",
+    "vijnaptimatra",
+    "self-model",
+    "affect",
+    "introspection",
+    "cordis",
+    "agent",
+    "memory"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/tancheng33/dsh-yogacara.git",
+  "homepage": "https://github.com/tancheng33/dsh-yogacara#readme",
+  "npm": "https://www.npmjs.com/package/dsh-yogacara",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T15:07:10.919Z",
+  "created_at": "2026-08-16T13:52:46.491Z",
+  "gh": {
+    "full_name": "tancheng33/dsh-yogacara",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T03:51:46Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T04:11:05.527Z"
+}

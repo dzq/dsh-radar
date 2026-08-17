@@ -39,22 +39,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T17:24:29.351Z",
   "created_at": "2026-08-15T12:19:27.903Z",
-  "gh": {
-    "full_name": "WNJXYK/dsh-codex-oauth",
-    "stars": 6,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T17:23:25Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 59,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 60,
-    "grade": "B"
+    "overall": 50,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:35.566Z"
+  "updated_at": "2026-08-17T04:03:43.127Z"
 }

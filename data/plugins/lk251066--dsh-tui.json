@@ -1,7 +1,7 @@
 {
   "slug": "lk251066--dsh-tui",
   "name": "@lk251066/dsh-tui",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "Interactive terminal UI plugin for DeepSeek Harness",
   "keywords": [
     "deepseek",
@@ -25,24 +25,17 @@
   },
   "weekly_downloads": 52,
   "monthly_downloads": 52,
-  "last_publish": "2026-08-16T08:32:18.836Z",
+  "last_publish": "2026-08-15T17:33:01.110Z",
   "created_at": "2026-08-15T17:33:00.782Z",
-  "gh": {
-    "full_name": "lk251066/dsh-tui-pro",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T08:28:23Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 43,
-    "maintenance": 100,
-    "quality": 90,
+    "maintenance": 59,
+    "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 72,
-    "grade": "A"
+    "overall": 59,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:15.328Z"
+  "updated_at": "2026-08-17T03:50:45.442Z"
 }

@@ -1,0 +1,61 @@
+{
+  "slug": "dsh-flomo-report",
+  "name": "dsh-flomo-report",
+  "version": "0.1.1",
+  "description": "Daily session report generator for DeepSeek Harness with one-click flomo sync: generates AI-narrated daily/weekly/monthly digests over any date range from the session corpus and pushes them straight into flomo (浮墨笔记) using a configurable tag (default #wri",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "report",
+    "daily-report",
+    "flomo",
+    "memo",
+    "sync",
+    "digest"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zhengjy01/dsh-flomo-report.git",
+  "homepage": "https://github.com/zhengjy01/dsh-flomo-report#readme",
+  "npm": "https://www.npmjs.com/package/dsh-flomo-report",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T15:12:05.719Z",
+  "created_at": "2026-08-16T15:03:22.557Z",
+  "gh": {
+    "full_name": "zhengjy01/dsh-flomo-report",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T15:17:30Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 62,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:17.849Z"
+}

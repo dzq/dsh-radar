@@ -1,7 +1,7 @@
 {
   "slug": "dsh-enhancement-suite",
   "name": "dsh-enhancement-suite",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "Enhancement suite for DeepSeek Harness — the official installer and registry for Scorp1o117's Vision, Soul/Persona, Memory & Marketplace plugins.",
   "keywords": [
     "deepseek-harness",
@@ -24,24 +24,24 @@
   },
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-16T08:14:27.544Z",
+  "last_publish": "2026-08-16T03:43:19.157Z",
   "created_at": "2026-08-16T03:43:18.933Z",
   "gh": {
     "full_name": "Scorp1o117/dsh-enhancement-suite",
     "stars": 0,
     "open_issues": 0,
-    "pushed_at": "2026-08-16T08:07:45Z",
+    "pushed_at": "2026-08-16T03:40:00Z",
     "archived": false,
     "license": "MIT"
   },
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
+    "maintenance": 99,
     "quality": 100,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 54,
+    "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:33.170Z"
+  "updated_at": "2026-08-17T03:52:32.108Z"
 }

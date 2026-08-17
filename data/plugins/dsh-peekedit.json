@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-peekedit",
+  "name": "dsh-peekedit",
+  "version": "0.1.1",
+  "description": "Enhanced file tools for DeepSeek Harness: peek (windowed view), peek_edit (literal replace / insert), peek_write (create / overwrite).",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "filesystem",
+    "tools"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/lhp343969656/dsh-peekedit.git",
+  "homepage": "https://github.com/lhp343969656/dsh-peekedit#readme",
+  "npm": "https://www.npmjs.com/package/dsh-peekedit",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T13:31:49.251Z",
+  "created_at": "2026-08-16T13:17:24.532Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:01:56.543Z"
+}

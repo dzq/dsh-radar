@@ -1,7 +1,7 @@
 {
   "slug": "nonamelego--dsh-catppuccin",
   "name": "@nonamelego/dsh-catppuccin",
-  "version": "0.1.2",
+  "version": "0.1.1",
   "description": "Catppuccin themes for the DeepSeek Harness web GUI — Latte, Frappé, Macchiato and Mocha registered into the official theme system (Appearance settings), fully remapping the --dsw-* token ladder.",
   "keywords": [
     "dsh",
@@ -32,26 +32,19 @@
     }
   },
   "engines": {},
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
-  "last_publish": "2026-08-16T03:39:24.300Z",
+  "weekly_downloads": 303,
+  "monthly_downloads": 303,
+  "last_publish": "2026-08-15T08:13:03.710Z",
   "created_at": "2026-08-15T07:48:53.499Z",
-  "gh": {
-    "full_name": "NoNameLeGo/dsh-catppuccin",
-    "stars": 7,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T08:35:12Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
-    "popularity": 0,
-    "maintenance": 100,
-    "quality": 100,
+    "popularity": 62,
+    "maintenance": 59,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 64,
+    "overall": 69,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:31.564Z"
+  "updated_at": "2026-08-17T03:50:36.191Z"
 }

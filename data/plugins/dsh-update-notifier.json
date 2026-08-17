@@ -1,7 +1,7 @@
 {
   "slug": "dsh-update-notifier",
   "name": "dsh-update-notifier",
-  "version": "0.2.0",
+  "version": "0.1.1",
   "description": "Hourly checks npm for newer versions of your installed DeepSeek Harness (dsh) plugins and pops an approval bubble asking which to upgrade; approved upgrades are handed to the agent to run.",
   "keywords": [
     "dsh",
@@ -28,24 +28,24 @@
   },
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-16T08:22:39.442Z",
+  "last_publish": "2026-08-16T06:02:48.178Z",
   "created_at": "2026-08-16T05:14:16.854Z",
   "gh": {
     "full_name": "stuarthu/dsh-update-notifier",
     "stars": 0,
     "open_issues": 0,
-    "pushed_at": "2026-08-16T08:22:22Z",
+    "pushed_at": "2026-08-16T06:23:21Z",
     "archived": false,
     "license": "MIT"
   },
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
+    "maintenance": 99,
     "quality": 100,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 63,
+    "overall": 62,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:26.755Z"
+  "updated_at": "2026-08-17T03:52:10.381Z"
 }

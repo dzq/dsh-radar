@@ -1,7 +1,7 @@
 {
   "slug": "dsh-quant-indicators",
   "name": "dsh-quant-indicators",
-  "version": "0.3.0",
+  "version": "0.5.0",
   "description": "dsh plugin: quantitative tools for agents — market data (Binance public API), technical indicators (SMA/EMA/RSI/MACD/Bollinger/ATR) and MA-crossover backtest, with structured canonical outputs consumable from Code Mode",
   "keywords": [
     "dsh",
@@ -26,17 +26,17 @@
   "engines": {},
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-16T09:21:51.317Z",
+  "last_publish": "2026-08-16T09:34:33.707Z",
   "created_at": "2026-08-16T08:17:39.278Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 59,
     "quality": 90,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 53,
+    "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:19.423Z"
+  "updated_at": "2026-08-17T03:50:53.232Z"
 }

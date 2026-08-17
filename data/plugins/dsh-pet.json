@@ -31,26 +31,18 @@
     }
   },
   "engines": {},
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
+  "weekly_downloads": 571,
   "last_publish": "2026-08-15T09:24:48.504Z",
   "created_at": "2026-08-14T08:48:57.448Z",
-  "gh": {
-    "full_name": "PC2005-cloud/dsh-pet",
-    "stars": 51,
-    "open_issues": 3,
-    "pushed_at": "2026-08-15T09:43:16Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
-    "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "popularity": 69,
+    "maintenance": 0,
+    "quality": 90,
     "security": 50,
-    "dsh_compat": 85,
-    "overall": 64,
+    "dsh_compat": 80,
+    "overall": 59,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:29.859Z"
+  "updated_at": "2026-08-17T03:56:22.512Z"
 }

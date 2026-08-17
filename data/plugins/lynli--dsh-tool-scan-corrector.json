@@ -1,0 +1,50 @@
+{
+  "slug": "lynli--dsh-tool-scan-corrector",
+  "name": "@lynli/dsh-tool-scan-corrector",
+  "version": "1.0.2",
+  "description": "DSH (DeepSeek Harness) 工具插件 — 扫描件智能纠偏：6 种方法融合决策，自动检测并修正 PDF 页面方向（0/90/180/270），纯本地处理，生成可解释的 JSON 修正报告。",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "scan-corrector",
+    "pdf",
+    "ocr",
+    "orientation",
+    "rotation",
+    "tesseract",
+    "scanner",
+    "document",
+    "audit"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/LynLiCoder/scan-corrector.git",
+  "homepage": "https://github.com/LynLiCoder/scan-corrector",
+  "npm": "https://www.npmjs.com/package/@lynli/dsh-tool-scan-corrector",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T03:38:35.478Z",
+  "created_at": "2026-08-17T03:14:00.620Z",
+  "gh": {
+    "full_name": "LynLiCoder/scan-corrector",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T03:34:18Z",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 65,
+    "dsh_compat": 30,
+    "overall": 56,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:07.805Z"
+}

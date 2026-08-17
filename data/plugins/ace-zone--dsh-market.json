@@ -1,0 +1,55 @@
+{
+  "slug": "ace-zone--dsh-market",
+  "name": "@ace-zone/dsh-market",
+  "version": "0.1.56",
+  "description": "DSH 社区插件市场：设置内「插件市场」入口 + 卡片弹窗 + 一键安装/卸载/管理（bundle 走 dsh plugin add，pack 走 zip 落盘）",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin-market",
+    "marketplace",
+    "dsh-plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/losebird/dsh-plugin-market.git",
+  "homepage": "https://www.dsh-plugin.shop/",
+  "npm": "https://www.npmjs.com/package/@ace-zone/dsh-market",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-cordis-client-runner"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T14:00:46.875Z",
+  "created_at": "2026-08-16T13:09:07.111Z",
+  "gh": {
+    "full_name": "losebird/dsh-plugin-market",
+    "stars": 1,
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T14:36:41Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:20.719Z"
+}

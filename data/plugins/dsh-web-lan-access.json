@@ -26,22 +26,15 @@
   "monthly_downloads": 90,
   "last_publish": "2026-08-14T14:57:40.646Z",
   "created_at": "2026-08-14T14:57:40.425Z",
-  "gh": {
-    "full_name": "AcidGr/dsh-web-lan-access",
-    "stars": 9,
-    "open_issues": 1,
-    "pushed_at": "2026-08-15T20:08:47Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 49,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 59,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 72,
-    "grade": "A"
+    "overall": 62,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:15.223Z"
+  "updated_at": "2026-08-17T03:50:44.620Z"
 }

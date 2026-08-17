@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-hyperframes",
+  "name": "dsh-hyperframes",
+  "version": "0.1.1",
+  "description": "DSH 视频创作技能插件：注册 HyperFrames by HeyGen 官方移植技能五件套（hyperframes / hyperframes-cli / hyperframes-registry / website-to-hyperframes / gsap），安装即用。",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "skills",
+    "video",
+    "dsh-plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/STARDUSTLC666/dsh-hyperframes.git",
+  "homepage": "https://github.com/STARDUSTLC666/dsh-hyperframes#readme",
+  "npm": "https://www.npmjs.com/package/dsh-hyperframes",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 46,
+  "monthly_downloads": 46,
+  "last_publish": "2026-08-16T11:14:22.872Z",
+  "created_at": "2026-08-14T20:42:53.748Z",
+  "gh": {
+    "full_name": "STARDUSTLC666/dsh-hyperframes",
+    "stars": 3,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T11:10:02Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 42,
+    "maintenance": 99,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 69,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:50:47.283Z"
+}

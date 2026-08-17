@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-research",
+  "name": "dsh-research",
+  "version": "0.2.0",
+  "description": "AI4Scholar research pack for DeepSeek Harness (dsh): research skills, literature-first workflow guidance and workspace conventions. Pairs with dsh-ai4scholar for search, full text, citations and figures.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "ai4scholar",
+    "academic",
+    "research",
+    "skills",
+    "paper-writing",
+    "peer-review"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/literaf/dsh-research.git",
+  "homepage": "https://ai4scholar.net?src=dsh",
+  "npm": "https://www.npmjs.com/package/dsh-research",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T01:03:48.561Z",
+  "created_at": "2026-08-16T17:09:56.786Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:56:34.402Z"
+}

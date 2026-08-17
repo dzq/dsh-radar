@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-aicc-zhunao",
+  "name": "dsh-aicc-zhunao",
+  "version": "0.1.0",
+  "description": "A public DeepSeek Harness preset for main-brain orchestration, execution gating, and reusable AI-LAW rules.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "agent-preset",
+    "orchestration"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Cola1018/dsh-aicc-zhunao.git",
+  "homepage": "https://github.com/Cola1018/dsh-aicc-zhunao#readme",
+  "npm": "https://www.npmjs.com/package/dsh-aicc-zhunao",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./agent.cordis.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T13:13:35.522Z",
+  "created_at": "2026-08-16T13:13:35.186Z",
+  "gh": {
+    "full_name": "Cola1018/dsh-aicc-zhunao",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T13:12:08Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 85,
+    "security": 40,
+    "dsh_compat": 75,
+    "overall": 58,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:06.163Z"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "dsh-notification-sounds",
+  "name": "dsh-notification-sounds",
+  "version": "0.1.2",
+  "description": "Cross-platform waiting-for-user and completion sound notifications for the DeepSeek Harness web UI.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "notification",
+    "sound",
+    "audio"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/qq33357486/dsh-notification-sounds.git",
+  "homepage": "https://github.com/qq33357486/dsh-notification-sounds#readme",
+  "npm": "https://www.npmjs.com/package/dsh-notification-sounds",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T21:42:14.989Z",
+  "created_at": "2026-08-16T20:48:28.858Z",
+  "gh": {
+    "full_name": "qq33357486/dsh-notification-sounds",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T21:41:36Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 58,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:23.176Z"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "jumpserver-east--jumpserver-dsh",
+  "name": "@jumpserver-east/jumpserver-dsh",
+  "version": "0.1.1",
+  "description": "DeepSeek Harness plugin: manage JumpServer assets and operate on them through KoKo",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "jumpserver",
+    "koko",
+    "pam"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/jumpserver-east/jumpserver-dsh.git",
+  "homepage": "https://github.com/jumpserver-east/jumpserver-dsh#readme",
+  "npm": "https://www.npmjs.com/package/@jumpserver-east/jumpserver-dsh",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T03:52:42.246Z",
+  "created_at": "2026-08-17T03:38:06.204Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:58:55.153Z"
+}

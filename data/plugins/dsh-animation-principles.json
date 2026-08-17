@@ -1,0 +1,40 @@
+{
+  "slug": "dsh-animation-principles",
+  "name": "dsh-animation-principles",
+  "version": "0.1.0",
+  "description": "迪士尼动画12法则知识库",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "animation",
+    "disney",
+    "12-principles"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-animation-principles",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T03:22:46.325Z",
+  "created_at": "2026-08-17T03:22:45.722Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 30,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 42,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:00:06.241Z"
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "dsh-workbench",
+  "name": "dsh-workbench",
+  "version": "0.6.0",
+  "description": "A right-side file workspace for DeepSeek Harness Web.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "workbench",
+    "file-preview",
+    "file-tree",
+    "diff"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/lee259/dsh-workbench.git",
+  "homepage": "https://github.com/lee259/dsh-workbench#readme",
+  "npm": "https://www.npmjs.com/package/dsh-workbench",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-tool"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22",
+    "pnpm": ">=10"
+  },
+  "weekly_downloads": 398,
+  "monthly_downloads": 398,
+  "last_publish": "2026-08-16T14:04:23.917Z",
+  "created_at": "2026-08-14T13:33:15.519Z",
+  "gh": {
+    "full_name": "lee259/dsh-workbench",
+    "stars": 3,
+    "open_issues": 8,
+    "pushed_at": "2026-08-16T14:03:47Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 65,
+    "maintenance": 100,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 75,
+    "grade": "A"
+  },
+  "updated_at": "2026-08-17T03:50:31.273Z"
+}

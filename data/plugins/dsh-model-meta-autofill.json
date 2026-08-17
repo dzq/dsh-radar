@@ -29,26 +29,19 @@
   "engines": {
     "node": ">=22.0.0"
   },
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
+  "weekly_downloads": 149,
+  "monthly_downloads": 149,
   "last_publish": "2026-08-15T13:01:48.907Z",
   "created_at": "2026-08-15T13:01:48.710Z",
-  "gh": {
-    "full_name": "QJAG1024/dsh-model-meta-autofill",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T13:03:05Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
-    "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "popularity": 54,
+    "maintenance": 59,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 63,
+    "overall": 67,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:21.503Z"
+  "updated_at": "2026-08-17T03:50:40.924Z"
 }

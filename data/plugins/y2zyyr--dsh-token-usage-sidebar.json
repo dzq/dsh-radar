@@ -1,0 +1,56 @@
+{
+  "slug": "y2zyyr--dsh-token-usage-sidebar",
+  "name": "@y2zyyr/dsh-token-usage-sidebar",
+  "version": "1.1.1",
+  "description": "Persistent Token Usage insights for DeepSeek Harness, backed by a scalable durable SQLite ledger.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "token-usage"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/y2zyyr/dsh-token-usage-sidebar.git",
+  "homepage": "https://github.com/y2zyyr/dsh-token-usage-sidebar#readme",
+  "npm": "https://www.npmjs.com/package/@y2zyyr/dsh-token-usage-sidebar",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-settings-general"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T17:54:11.512Z",
+  "created_at": "2026-08-16T17:54:11.187Z",
+  "gh": {
+    "full_name": "y2zyyr/dsh-token-usage-sidebar",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T18:21:56Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 64,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:19.897Z"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "dsh-paper-slides",
+  "name": "dsh-paper-slides",
+  "version": "0.2.0",
+  "description": "Turn a paper into an academic talk for DeepSeek Harness (dsh) — 论文转 PPT / 组会汇报 / 会议报告 / 答辩 / 开题. Reads the real full text, budgets the slot per venue, and builds the deck around the figures with the speaker notes written as the script. Drives dsh-ai4schol",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "ai4scholar",
+    "academic",
+    "paper",
+    "slides",
+    "presentation",
+    "ppt",
+    "论文转ppt",
+    "组会汇报",
+    "答辩"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/literaf/dsh-paper-slides.git",
+  "homepage": "https://ai4scholar.net?src=dsh",
+  "npm": "https://www.npmjs.com/package/dsh-paper-slides",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T01:30:06.928Z",
+  "created_at": "2026-08-17T01:04:15.527Z",
+  "gh": {
+    "full_name": "literaf/dsh-paper-slides",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T01:18:04Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:04.526Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-recipe",
+  "name": "dsh-recipe",
+  "version": "0.1.0",
+  "description": "Scenario bundles of dsh plugins ('插件界的 dotfiles'): a recipe tool that lists, searches, applies and composes ready-made plugin environments with ordered install sequences",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "plugin",
+    "recipe",
+    "bundle",
+    "environment",
+    "组合",
+    "配方"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-recipe",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T02:43:27.100Z",
+  "created_at": "2026-08-17T02:43:26.794Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:07:17.882Z"
+}

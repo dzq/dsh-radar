@@ -1,7 +1,7 @@
 {
   "slug": "pet-whale",
   "name": "pet-whale",
-  "version": "0.6.1",
+  "version": "0.6.0",
   "description": "桌宠小鲸鱼：随 agent 状态切换动画的 DeepSeek Harness Web 桌宠插件（官方轮廓版）",
   "keywords": [
     "dsh",
@@ -12,8 +12,8 @@
     "pet"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/nzl153/dsh-pet-whale.git",
-  "homepage": "https://nzl153.github.io/dsh-pet-whale/preview.html",
+  "repo": "git+https://github.com/nzl153/pet-whale.git",
+  "homepage": "https://nzl153.github.io/pet-whale/preview.html",
   "npm": "https://www.npmjs.com/package/pet-whale",
   "dsh_compat": true,
   "dsh_meta": {
@@ -30,24 +30,17 @@
   "engines": {},
   "weekly_downloads": 270,
   "monthly_downloads": 270,
-  "last_publish": "2026-08-16T04:48:02.606Z",
+  "last_publish": "2026-08-15T19:21:33.027Z",
   "created_at": "2026-08-15T12:58:54.100Z",
-  "gh": {
-    "full_name": "nzl153/dsh-pet-whale",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T08:57:15Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 61,
-    "maintenance": 100,
-    "quality": 90,
+    "maintenance": 59,
+    "quality": 80,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 77,
-    "grade": "A"
+    "overall": 67,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:14.238Z"
+  "updated_at": "2026-08-17T03:50:36.396Z"
 }

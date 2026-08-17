@@ -1,7 +1,7 @@
 {
   "slug": "dsh-bill",
   "name": "dsh-bill",
-  "version": "0.5.0",
+  "version": "0.12.0",
   "description": "DSH 费用统计插件:会话费用行 + 成本归因报告,llm-pricing 动态价格。 / DSH cost attribution and usage dashboard, priced by llm-pricing.",
   "keywords": [
     "deepseek",
@@ -35,24 +35,17 @@
   },
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-16T09:36:48.910Z",
+  "last_publish": "2026-08-16T15:52:00.744Z",
   "created_at": "2026-08-16T09:36:48.566Z",
-  "gh": {
-    "full_name": "Jannchie/dsh-bill",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T10:15:03Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 85,
+    "maintenance": 60,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 61,
-    "grade": "B"
+    "overall": 54,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:32.630Z"
+  "updated_at": "2026-08-17T03:52:31.495Z"
 }

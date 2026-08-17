@@ -27,22 +27,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:46:19.305Z",
   "created_at": "2026-08-16T08:46:18.989Z",
-  "gh": {
-    "full_name": "diqierjia/StrataGate-AgentMemory",
-    "stars": 1,
-    "open_issues": 1,
-    "pushed_at": "2026-08-16T09:25:20Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 59,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 64,
-    "grade": "B"
+    "overall": 53,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:26.704Z"
+  "updated_at": "2026-08-17T03:52:14.470Z"
 }

@@ -53,19 +53,19 @@
   "gh": {
     "full_name": "hrhgit/deepseek-harness-plugin-manager",
     "stars": 3,
-    "open_issues": 1,
-    "pushed_at": "2026-08-16T07:04:13Z",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T18:52:19Z",
     "archived": false,
     "license": "MIT"
   },
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
+    "maintenance": 98,
     "quality": 85,
     "security": 50,
     "dsh_compat": 85,
     "overall": 61,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:16.001Z"
+  "updated_at": "2026-08-17T03:50:51.174Z"
 }

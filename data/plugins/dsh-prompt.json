@@ -1,0 +1,54 @@
+{
+  "slug": "dsh-prompt",
+  "name": "dsh-prompt",
+  "version": "0.1.0",
+  "description": "DSH prompt 调色板：预制 + 自定义 prompt 模板，点击即插入当前对话输入框（v1 常规模式 + v1.1 智能模式悬浮卡） | Prompt palette for DeepSeek Harness: preset + custom prompt templates, one-click insert into the conversation.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "deepseek-harness",
+    "prompt",
+    "prompts",
+    "templates",
+    "prompt-templates",
+    "preset-prompts",
+    "ai",
+    "llm",
+    "palette"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-prompt",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T01:17:16.201Z",
+  "created_at": "2026-08-17T01:17:15.983Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:51:22.155Z"
+}

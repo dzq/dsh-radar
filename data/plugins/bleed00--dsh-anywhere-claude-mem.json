@@ -28,22 +28,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T12:02:24.850Z",
   "created_at": "2026-08-14T12:02:23.480Z",
-  "gh": {
-    "full_name": "Bleed00/Anywhere-claude-mem",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T18:29:03Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 100,
+    "maintenance": 59,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 62,
-    "grade": "B"
+    "overall": 52,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:20.726Z"
+  "updated_at": "2026-08-17T03:51:11.488Z"
 }

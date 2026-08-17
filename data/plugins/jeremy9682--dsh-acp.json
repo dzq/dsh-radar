@@ -28,22 +28,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T23:04:35.850Z",
   "created_at": "2026-08-14T23:04:35.463Z",
-  "gh": {
-    "full_name": "jeremy9682/dsh-cursor-codex",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T23:47:35Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 59,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 59,
-    "grade": "B"
+    "overall": 49,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:28.021Z"
+  "updated_at": "2026-08-17T03:52:17.561Z"
 }

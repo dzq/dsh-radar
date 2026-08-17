@@ -1,7 +1,7 @@
 {
   "slug": "dsh-memory-pyramid",
   "name": "dsh-memory-pyramid",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "给 DeepSeek Harness 补上时间轴记忆：定宽只追加的事实日志 + agent 自己维护的摘要金字塔，固定阅读预算下 recall 成本不随记忆量增长。",
   "keywords": [
     "dsh",
@@ -23,24 +23,24 @@
   "engines": {},
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-16T08:11:43.198Z",
+  "last_publish": "2026-08-16T09:56:09.665Z",
   "created_at": "2026-08-16T08:11:43.010Z",
   "gh": {
     "full_name": "33moren33/dsh-memory-pyramid",
     "stars": 0,
     "open_issues": 0,
-    "pushed_at": "2026-08-16T08:26:25Z",
+    "pushed_at": "2026-08-17T01:23:03Z",
     "archived": false,
     "license": "MIT"
   },
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
+    "maintenance": 99,
     "quality": 100,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 63,
+    "overall": 62,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:41.063Z"
+  "updated_at": "2026-08-17T04:10:53.410Z"
 }

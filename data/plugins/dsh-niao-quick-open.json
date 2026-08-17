@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-niao-quick-open",
+  "name": "dsh-niao-quick-open",
+  "version": "0.2.0",
+  "description": "Workspace quick actions on the DeepSeek Harness workspace hover card: copy folder name / path, open in file manager or editor, pick a default editor (auto-discovered). · DeepSeek Harness 工作区悬浮卡片快捷操作：复制名称/路径、文件管理器打开、编辑器打开、自动发现并设置常用编辑器。",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "workspace",
+    "editor",
+    "quick-open",
+    "finder",
+    "ui-enhancement"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-niao-quick-open",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T03:38:55.842Z",
+  "created_at": "2026-08-16T14:30:50.406Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:51:07.807Z"
+}

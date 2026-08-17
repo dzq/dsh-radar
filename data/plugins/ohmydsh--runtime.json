@@ -26,22 +26,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T08:31:30.402Z",
   "created_at": "2026-08-15T08:31:30.061Z",
-  "gh": {
-    "full_name": "omdsh-dev/omdsh-runtime",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T08:30:08Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 59,
+    "quality": 90,
     "security": 65,
     "dsh_compat": 80,
-    "overall": 66,
+    "overall": 56,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:35.103Z"
+  "updated_at": "2026-08-17T04:00:13.602Z"
 }

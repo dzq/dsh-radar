@@ -33,22 +33,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T11:09:31.532Z",
   "created_at": "2026-08-14T03:14:11.420Z",
-  "gh": {
-    "full_name": "biociao/dsh-science",
-    "stars": 12,
-    "open_issues": 1,
-    "pushed_at": "2026-08-16T06:41:58Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 59,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 62,
-    "grade": "B"
+    "overall": 52,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:30.117Z"
+  "updated_at": "2026-08-17T03:52:24.128Z"
 }

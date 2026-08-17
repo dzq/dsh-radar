@@ -1,0 +1,47 @@
+{
+  "slug": "winterchenhuan--dsh-shadow-mind",
+  "name": "@winterchenhuan/dsh-shadow-mind",
+  "version": "0.1.5",
+  "description": "Parallel cognitive runtime for DeepSeek Harness, ported from pi-shadow-mind",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "agent",
+    "multi-agent",
+    "shadow-mind"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/winterhuan/dsh-shadow-mind.git",
+  "homepage": "https://github.com/winterhuan/dsh-shadow-mind#readme",
+  "npm": "https://www.npmjs.com/package/@winterchenhuan/dsh-shadow-mind",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T23:34:29.123Z",
+  "created_at": "2026-08-16T23:34:28.833Z",
+  "gh": {
+    "full_name": "winterhuan/dsh-shadow-mind",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T23:34:18Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T04:11:18.637Z"
+}

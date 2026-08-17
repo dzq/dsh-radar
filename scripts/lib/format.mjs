@@ -22,22 +22,29 @@ export function sleep(ms) {
 }
 
 /**
- * 带重试的 fetch
+ * 带重试 + 退避的 fetch
+ * - 404 直接返回 null（包不存在）
+ * - 429/5xx 重试
  */
 export async function fetchJson(url, opts = {}) {
-  const { retries = 3, baseDelay = 500, headers = {} } = opts;
+  const { retries = 3, baseDelay = 800, headers = {}, skip404 = false } = opts;
   let lastErr;
   for (let i = 0; i < retries; i++) {
     try {
       const res = await fetch(url, {
         headers: { 'User-Agent': 'dsh-radar/0.1 (+https://dsh.pub)', ...headers },
       });
+      if (res.status === 404 && skip404) return null;
       if (res.status === 429 || res.status >= 500) throw new Error(`HTTP ${res.status}`);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       return await res.json();
     } catch (e) {
       lastErr = e;
-      if (i < retries - 1) await sleep(baseDelay * Math.pow(2, i));
+      const delay = baseDelay * Math.pow(2, i);
+      if (i < retries - 1) {
+        console.warn(`  ⏳ ${url.slice(0, 50)} — ${e.message} — 重试 ${i + 1}/${retries - 1}…`);
+        await sleep(delay);
+      }
     }
   }
   throw lastErr;

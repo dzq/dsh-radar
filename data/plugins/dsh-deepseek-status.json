@@ -32,22 +32,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T10:03:41.477Z",
   "created_at": "2026-08-14T10:03:41.290Z",
-  "gh": {
-    "full_name": "KekuKase/dsh-deepseek-status",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T15:35:06Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 85,
+    "maintenance": 59,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 60,
-    "grade": "B"
+    "overall": 50,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:29.288Z"
+  "updated_at": "2026-08-17T03:52:21.257Z"
 }

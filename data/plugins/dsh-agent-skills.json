@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-agent-skills",
+  "name": "dsh-agent-skills",
+  "version": "0.1.0",
+  "description": "Discover and manage Claude Code, Codex, Gemini CLI, and other Agent Skills inside DeepSeek Harness.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent-skills",
+    "skills",
+    "codex",
+    "claude-code"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/minivv/dsh-agent-skills.git",
+  "homepage": "https://weispot.vercel.app/projects/dsh-agent-skills",
+  "npm": "https://www.npmjs.com/package/dsh-agent-skills",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-api-remotes"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T03:45:42.402Z",
+  "created_at": "2026-08-17T03:45:41.977Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 55,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T04:08:26.230Z"
+}

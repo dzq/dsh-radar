@@ -24,26 +24,18 @@
     }
   },
   "engines": {},
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
+  "weekly_downloads": 521,
   "last_publish": "2026-08-15T14:17:18.858Z",
   "created_at": "2026-08-15T08:18:10.682Z",
-  "gh": {
-    "full_name": "PAKIKNOWLEDGE/dsh-auto-classifier",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T08:45:08Z",
-    "archived": false,
-    "license": null
-  },
+  "gh": null,
   "scores": {
-    "popularity": 0,
-    "maintenance": 99,
+    "popularity": 68,
+    "maintenance": 0,
     "quality": 90,
     "security": 55,
-    "dsh_compat": 80,
-    "overall": 62,
+    "dsh_compat": 75,
+    "overall": 58,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:46.783Z"
+  "updated_at": "2026-08-17T03:56:23.531Z"
 }

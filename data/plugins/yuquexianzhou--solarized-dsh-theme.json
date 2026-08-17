@@ -37,22 +37,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T04:18:10.220Z",
   "created_at": "2026-08-14T15:42:31.965Z",
-  "gh": {
-    "full_name": "zhijun-dai/Solarized-dsh-theme",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T14:15:08Z",
-    "archived": false,
-    "license": "NOASSERTION"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
+    "maintenance": 59,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 58,
-    "grade": "B"
+    "overall": 50,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:34.740Z"
+  "updated_at": "2026-08-17T04:00:12.375Z"
 }

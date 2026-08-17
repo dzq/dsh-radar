@@ -53,12 +53,12 @@
   },
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
+    "maintenance": 99,
     "quality": 100,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 64,
+    "overall": 63,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:23.544Z"
+  "updated_at": "2026-08-17T03:51:19.283Z"
 }

@@ -1,0 +1,57 @@
+{
+  "slug": "dsh-plugin-list-plus",
+  "name": "dsh-plugin-list-plus",
+  "version": "0.1.0",
+  "description": "An elevated Plugin list for DeepSeek Harness Web Settings — trust tiers, collapsible groups, and complete per-plugin detail",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "plugin-list",
+    "web-settings"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/yibiner/dsh-plugin-list-plus.git",
+  "homepage": "https://github.com/yibiner/dsh-plugin-list-plus#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-list-plus",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T10:26:59.875Z",
+  "created_at": "2026-08-16T10:26:59.644Z",
+  "gh": {
+    "full_name": "yibiner/dsh-plugin-list-plus",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T10:25:02Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 61,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:22.769Z"
+}

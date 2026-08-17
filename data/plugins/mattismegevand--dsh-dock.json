@@ -1,0 +1,51 @@
+{
+  "slug": "mattismegevand--dsh-dock",
+  "name": "@mattismegevand/dsh-dock",
+  "version": "0.1.0-rc.1",
+  "description": "A workbench-quality docking system for DeepSeek Harness Web plugins",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "dock",
+    "layout",
+    "ui",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/mattismegevand/dsh-dock.git",
+  "homepage": "https://github.com/mattismegevand/dsh-dock#readme",
+  "npm": "https://www.npmjs.com/package/@mattismegevand/dsh-dock",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T14:34:16.098Z",
+  "created_at": "2026-08-16T14:34:15.712Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:54:16.443Z"
+}

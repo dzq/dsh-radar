@@ -1,0 +1,42 @@
+{
+  "slug": "i6060--dsh-color",
+  "name": "@i6060/dsh-color",
+  "version": "0.1.0",
+  "description": "颜色工具：hex/rgb/hsl 互转，计算补色、明暗与前景对比度",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "color",
+    "hex",
+    "rgb",
+    "hsl",
+    "颜色"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@i6060/dsh-color",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T03:24:11.073Z",
+  "created_at": "2026-08-17T03:24:10.636Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:57:47.186Z"
+}

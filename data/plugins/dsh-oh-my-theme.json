@@ -1,7 +1,7 @@
 {
   "slug": "dsh-oh-my-theme",
   "name": "dsh-oh-my-theme",
-  "version": "0.5.1",
+  "version": "0.5.0",
   "description": "Theme + file workspace plugin for DeepSeek Harness (dsh) web GUI: curated --dsw-alias-* skin palettes with live hover preview, @file mentions in the composer, a lazy-loading project file tree, and Markdown preview. 为 dsh 网页端定制的主题 + 文件工作台插件：精选皮肤与悬停预览、输入框 @",
   "keywords": [
     "deepseek-harness",
@@ -44,24 +44,17 @@
   },
   "weekly_downloads": 423,
   "monthly_downloads": 423,
-  "last_publish": "2026-08-16T01:36:59.649Z",
+  "last_publish": "2026-08-15T10:24:58.464Z",
   "created_at": "2026-08-15T08:08:29.968Z",
-  "gh": {
-    "full_name": "zhxqc/dsh-oh-my-theme",
-    "stars": 3,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T01:46:07Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 66,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 59,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 80,
+    "overall": 70,
     "grade": "A"
   },
-  "updated_at": "2026-08-16T10:16:13.823Z"
+  "updated_at": "2026-08-17T03:50:29.224Z"
 }

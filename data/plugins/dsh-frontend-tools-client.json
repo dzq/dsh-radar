@@ -1,7 +1,7 @@
 {
   "slug": "dsh-frontend-tools-client",
   "name": "dsh-frontend-tools-client",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "description": "Frontend tools client SDK: register an application's tools with the DeepSeek Harness frontend-tools bridge over WebSocket (browser, Electron, Tauri, Node)",
   "keywords": [
     "dsh",
@@ -23,24 +23,17 @@
   "engines": {},
   "weekly_downloads": 116,
   "monthly_downloads": 116,
-  "last_publish": "2026-08-16T06:01:37.390Z",
+  "last_publish": "2026-08-15T19:38:38.548Z",
   "created_at": "2026-08-15T19:38:38.258Z",
-  "gh": {
-    "full_name": "lukaiwuyi/dsh-frontend-tools",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T06:51:31Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 52,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 59,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 67,
+    "overall": 56,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:15.069Z"
+  "updated_at": "2026-08-17T03:50:42.365Z"
 }

@@ -1,0 +1,36 @@
+{
+  "slug": "dsh-plugin-inspector",
+  "name": "dsh-plugin-inspector",
+  "version": "0.2.1",
+  "description": "Know what a DeepSeek Harness plugin does before you install it — static pre-install analysis of a plugin directory or tarball",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "static-analysis",
+    "supply-chain"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/CharlotteN7/dsh-plugin-inspector.git",
+  "homepage": "https://github.com/CharlotteN7/dsh-plugin-inspector#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-inspector",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "node": "^22.19.0 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T22:29:23.850Z",
+  "created_at": "2026-08-16T13:04:05.354Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 44,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:03:40.630Z"
+}

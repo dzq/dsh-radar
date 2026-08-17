@@ -1,8 +1,8 @@
 {
   "slug": "dsh-complete-notify",
   "name": "dsh-complete-notify",
-  "version": "0.1.0",
-  "description": "任务完成时播放提示音并弹出小通知（页面内 toast + 后台时系统通知）。纯浏览器方案，零系统依赖，跨 Windows/macOS/Linux。",
+  "version": "0.4.0",
+  "description": "任务完成时播放提示音并弹出小通知（页面内 toast + 后台时系统通知），按结果状态着色（完成/阻塞等待反馈/中断/失败），附带一句话小结（recap）与运行统计（时长/tokens/步骤）。纯浏览器方案，零系统依赖，跨 Windows/macOS/Linux。",
   "keywords": [
     "deepseek",
     "deepseek-harness",
@@ -23,6 +23,7 @@
   "dsh_meta": {
     "category": "extension",
     "displayName": "任务完成通知",
+    "image": "https://raw.githubusercontent.com/kaixinbaba/dsh-complete-notify/main/assets/cover.png",
     "bundle": {
       "patch": "./cordis.patch.yml"
     },
@@ -40,24 +41,17 @@
   "engines": {},
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-16T08:56:59.768Z",
+  "last_publish": "2026-08-17T03:16:42.124Z",
   "created_at": "2026-08-16T08:56:59.444Z",
-  "gh": {
-    "full_name": "kaixinbaba/dsh-complete-notify",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T09:04:08Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 85,
+    "maintenance": 60,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 85,
-    "overall": 62,
+    "overall": 55,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:36.653Z"
+  "updated_at": "2026-08-17T04:07:51.118Z"
 }

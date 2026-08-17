@@ -1,0 +1,50 @@
+{
+  "slug": "hy-sde-org--dsh-tool-edit",
+  "name": "@hy-sde-org/dsh-tool-edit",
+  "version": "0.1.0-rc.6",
+  "description": "The rich `edit` tool for DeepSeek Harness (replace / patch / apply_patch / hashline modes) with embedded format-on-write and diagnostics — a standalone plugin with no upstream harness changes required.",
+  "keywords": [
+    "deepseek",
+    "agent",
+    "harness",
+    "dsh-plugin",
+    "edit",
+    "code-editing",
+    "lsp"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/hy-sde/dsh-tool-edit.git",
+  "homepage": "https://github.com/hy-sde/dsh-tool-edit#readme",
+  "npm": "https://www.npmjs.com/package/@hy-sde-org/dsh-tool-edit",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T00:02:55.635Z",
+  "created_at": "2026-08-17T00:01:33.918Z",
+  "gh": {
+    "full_name": "hy-sde/dsh-tool-edit",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T00:07:29Z",
+    "archived": false,
+    "license": "NOASSERTION"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 55,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:22.152Z"
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "project-ai-docs",
+  "name": "project-ai-docs",
+  "version": "0.1.1",
+  "description": "通用项目 AI 文档协议 skill：每项目一份 docs/.ai 认知库，防上下文涣散、保项目认知精细。（DSH plugin）",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "skill",
+    "project-docs",
+    "agent-context"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/project-ai-docs",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T14:17:13.631Z",
+  "created_at": "2026-08-16T12:48:16.373Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:52:11.400Z"
+}

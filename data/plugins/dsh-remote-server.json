@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-remote-server",
+  "name": "dsh-remote-server",
+  "version": "0.1.0",
+  "description": "Mention a server with @ in a DeepSeek Harness session and run commands on it over SSH, behind a two-tier approval gate that fails closed.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "ssh",
+    "remote-execution",
+    "devops",
+    "agent",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/MRZHUH/dsh-remote-server.git",
+  "homepage": "https://github.com/MRZHUH/dsh-remote-server#readme",
+  "npm": "https://www.npmjs.com/package/dsh-remote-server",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-input-trigger"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T02:09:42.248Z",
+  "created_at": "2026-08-17T02:09:41.665Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 40,
+    "dsh_compat": 80,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:06:07.137Z"
+}

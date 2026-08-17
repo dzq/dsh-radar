@@ -1,0 +1,46 @@
+{
+  "slug": "qianwenxue1--dsh-shell",
+  "name": "@qianwenxue1/dsh-shell",
+  "version": "0.1.0",
+  "description": "dsh-shell for DeepSeek Harness: runs cmd / PowerShell commands on Windows (and bash-like shells on POSIX) with a bash-inspired safety model — timeouts, output truncation, exit codes, background jobs and a cwd allowlist",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "shell",
+    "powershell",
+    "cmd",
+    "windows",
+    "terminal",
+    "command-execution",
+    "ai-agent"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/qianwenxue1/dsh-shell.git",
+  "homepage": "https://github.com/qianwenxue1/dsh-shell#readme",
+  "npm": "https://www.npmjs.com/package/@qianwenxue1/dsh-shell",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T00:25:35.362Z",
+  "created_at": "2026-08-17T00:25:35.092Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 65,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:57:45.940Z"
+}

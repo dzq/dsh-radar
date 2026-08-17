@@ -1,0 +1,61 @@
+{
+  "slug": "dsh-theme-kit",
+  "name": "dsh-theme-kit",
+  "version": "0.1.2",
+  "description": "A DeepSeek Harness Web GUI appearance kit: 32 preset themes, custom backgrounds (wallpaper / glass / texture), per-zone text depth, and a keyboard desktop pet.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "ui",
+    "theme",
+    "web-ui",
+    "appearance",
+    "skin",
+    "wallpaper",
+    "texture",
+    "keyboard-pet",
+    "pet",
+    "customization",
+    "visual"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/ink5897/dsh-theme-kit.git",
+  "homepage": "https://github.com/ink5897/dsh-theme-kit",
+  "npm": "https://www.npmjs.com/package/dsh-theme-kit",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-api-gateway"
+      ]
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T12:34:32.558Z",
+  "created_at": "2026-08-16T11:32:14.017Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:52:11.806Z"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "dsh-artifact",
+  "name": "dsh-artifact",
+  "version": "0.4.0",
+  "description": "Claude-Code-style artifacts for dsh: an `artifact` tool that writes self-contained HTML, a bundled authoring skill, a sidebar nav button, and an in-app artifact browser with sandboxed HTML preview",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "artifact",
+    "html",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Jannchie/dsh-artifact.git",
+  "homepage": "https://github.com/Jannchie/dsh-artifact#readme",
+  "npm": "https://www.npmjs.com/package/dsh-artifact",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-api-remotes"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T16:40:16.247Z",
+  "created_at": "2026-08-16T12:03:05.604Z",
+  "gh": {
+    "full_name": "Jannchie/dsh-artifact",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T16:39:58Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 85,
+    "security": 65,
+    "dsh_compat": 85,
+    "overall": 64,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:04.935Z"
+}

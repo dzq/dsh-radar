@@ -31,26 +31,19 @@
     "node": ">=22.19.0",
     "dsh": ">=0.1.0-rc.6"
   },
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
+  "weekly_downloads": 435,
+  "monthly_downloads": 435,
   "last_publish": "2026-08-14T14:43:48.072Z",
   "created_at": "2026-08-14T02:28:01.114Z",
-  "gh": {
-    "full_name": "Flyvhidbwo/dsh-vision-proxy",
-    "stars": 9,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T14:52:31Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
-    "popularity": 0,
-    "maintenance": 98,
-    "quality": 100,
+    "popularity": 66,
+    "maintenance": 59,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 85,
-    "overall": 64,
-    "grade": "B"
+    "overall": 71,
+    "grade": "A"
   },
-  "updated_at": "2026-08-16T10:16:34.224Z"
+  "updated_at": "2026-08-17T03:50:30.251Z"
 }

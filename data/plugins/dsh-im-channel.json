@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-im-channel",
+  "name": "dsh-im-channel",
+  "version": "0.2.1",
+  "description": "Multi-channel IM bridge for DeepSeek Harness: Feishu, Telegram, DingTalk, Slack, Discord — persistent sessions, true streaming, slash commands",
+  "keywords": [
+    "feishu",
+    "lark",
+    "dsh",
+    "deepseek",
+    "bridge",
+    "chatbot",
+    "openclaw",
+    "dsh-plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/shrekcg/dsh-im-channel.git",
+  "homepage": "https://github.com/shrekcg/dsh-im-channel#readme",
+  "npm": "https://www.npmjs.com/package/dsh-im-channel",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T20:07:00.828Z",
+  "created_at": "2026-08-16T20:05:56.272Z",
+  "gh": {
+    "full_name": "shrekcg/dsh-im-channel",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T20:06:49Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:06.780Z"
+}

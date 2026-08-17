@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-cursor-acp",
+  "name": "dsh-cursor-acp",
+  "version": "0.1.0",
+  "description": "Hand a standalone job to the Cursor CLI already signed in on this machine.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "cursor",
+    "acp"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/loeanxi/dsh-cursor-acp.git",
+  "homepage": "https://github.com/loeanxi/dsh-cursor-acp#readme",
+  "npm": "https://www.npmjs.com/package/dsh-cursor-acp",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T18:59:31.158Z",
+  "created_at": "2026-08-16T18:59:30.592Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:01:22.849Z"
+}

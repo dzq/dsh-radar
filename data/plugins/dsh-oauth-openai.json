@@ -40,22 +40,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T15:05:21.972Z",
   "created_at": "2026-08-14T15:05:21.640Z",
-  "gh": {
-    "full_name": "hrhgit/dsh-oauth-openai",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T15:04:49Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 59,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 60,
-    "grade": "B"
+    "overall": 50,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:29.755Z"
+  "updated_at": "2026-08-17T03:52:23.104Z"
 }

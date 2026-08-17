@@ -1,0 +1,206 @@
+{
+  "stats": {
+    "total": 50,
+    "by_grade": {
+      "A": 2,
+      "B": 44,
+      "C": 4
+    },
+    "by_compat": 47,
+    "total_weekly_downloads": 71272,
+    "generated_at": "2026-08-17T03:56:23.942Z",
+    "build_ms": 10610
+  },
+  "top10": [
+    {
+      "slug": "liustack--modsearch",
+      "name": "@liustack/modsearch",
+      "version": "5.4.2",
+      "description": "Plug-in web search, X search, and page fetch for models without native web access, powered by the free Antigravity CLI",
+      "weekly_downloads": 4097,
+      "stars": 105,
+      "grade": "A",
+      "overall": 73,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T05:18:30.432Z",
+      "keywords": [
+        "search",
+        "web-fetch",
+        "cli",
+        "llm",
+        "agent"
+      ]
+    },
+    {
+      "slug": "dsh-any-background",
+      "name": "dsh-any-background",
+      "version": "0.1.4",
+      "description": "Appearance plugin for DeepSeek Harness: custom theme color (PS-style color wheel), background wallpaper with opacity/blur controls, and separate main/settings interface opacity.",
+      "weekly_downloads": 814,
+      "stars": 5,
+      "grade": "A",
+      "overall": 70,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T16:42:44.966Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "plugin",
+        "dsh-plugin",
+        "theme"
+      ]
+    },
+    {
+      "slug": "dsh-remote",
+      "name": "dsh-remote",
+      "version": "0.5.5",
+      "description": "Remote-work assistant for DeepSeek Harness: connect SSH (password or key), pick a remote workspace, operate on it with rw_pick_workspace / rw_list_dir / rw_read_file / rw_exec / rw_sync tools, and mirror it to a real local directory (SFTP) so the DSH nati",
+      "weekly_downloads": 691,
+      "stars": 14,
+      "grade": "B",
+      "overall": 68,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T17:02:48.415Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "remote",
+        "ssh"
+      ]
+    },
+    {
+      "slug": "liustack--pptfast",
+      "name": "@liustack/pptfast",
+      "version": "0.19.2",
+      "description": "Stable, editable PPTX generation for AI agents — semantic IR in, native DrawingML out",
+      "weekly_downloads": 647,
+      "stars": 4,
+      "grade": "B",
+      "overall": 68,
+      "dsh_compat": true,
+      "last_publish": "2026-08-14T20:23:27.522Z",
+      "keywords": [
+        "pptx",
+        "powerpoint",
+        "presentation",
+        "ai",
+        "agent"
+      ]
+    },
+    {
+      "slug": "dsh-plugin-vetting",
+      "name": "dsh-plugin-vetting",
+      "version": "0.5.1",
+      "description": "DeepSeek Harness plugin: heuristic vetting of installed third-party plugins — static code scan for exfiltration, credential access, obfuscation, and persistence patterns, plus an optional runtime subprocess tripwire.",
+      "weekly_downloads": 819,
+      "stars": 1,
+      "grade": "B",
+      "overall": 67,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T07:37:01.811Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek-harness",
+        "security",
+        "malware"
+      ]
+    },
+    {
+      "slug": "design-playbook",
+      "name": "design-playbook",
+      "version": "0.20.1",
+      "description": "Design I/O for coding agents: controllable UI generation via declarations (spec/domain/craft/design/components/template) and contracts (skill/evaluator). Use for product UI—console, dashboard, agent-ops, CJK-first apps.",
+      "weekly_downloads": 687,
+      "stars": 1,
+      "grade": "B",
+      "overall": 65,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T17:10:53.616Z",
+      "keywords": [
+        "pi-package",
+        "dsh-plugin",
+        "dsh-bundle",
+        "ui",
+        "ux"
+      ]
+    },
+    {
+      "slug": "dshmarket",
+      "name": "dshmarket",
+      "version": "1.5.0",
+      "description": "Visual plugin market inside DeepSeek Harness — browse, search, and one-click install community plugins. · DSH 可视化插件市场：逛一逛，点一下，装好。",
+      "weekly_downloads": 11862,
+      "stars": 0,
+      "grade": "B",
+      "overall": 64,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T15:22:18.484Z",
+      "keywords": [
+        "deepseek",
+        "harness",
+        "dsh",
+        "dsh-plugin",
+        "marketplace"
+      ]
+    },
+    {
+      "slug": "dsh-pocket",
+      "name": "dsh-pocket",
+      "version": "1.0.25",
+      "description": "把 DeepSeek Harness 装进你的口袋：一个包、一个设置页，手机扫码即同步访问电脑上的 DSH（局域网 + 公网，实时同屏）。",
+      "weekly_downloads": 4381,
+      "stars": 0,
+      "grade": "B",
+      "overall": 64,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T18:01:23.650Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "mobile",
+        "remote"
+      ]
+    },
+    {
+      "slug": "dsh-lark-bot",
+      "name": "dsh-lark-bot",
+      "version": "0.11.0",
+      "description": "Bridge DeepSeek Harness (dsh) into Feishu / Lark with streaming cards, project workspaces, approvals and scheduling",
+      "weekly_downloads": 3640,
+      "stars": 0,
+      "grade": "B",
+      "overall": 63,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T23:00:14.099Z",
+      "keywords": [
+        "dsh",
+        "deepseek",
+        "deepseek harness",
+        "feishu",
+        "lark"
+      ]
+    },
+    {
+      "slug": "dsh-feishu-bot",
+      "name": "dsh-feishu-bot",
+      "version": "0.11.0",
+      "description": "Bridge DeepSeek Harness (dsh) into Feishu / Lark with streaming cards, project workspaces, approvals and scheduling",
+      "weekly_downloads": 3614,
+      "stars": 0,
+      "grade": "B",
+      "overall": 63,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T23:00:17.527Z",
+      "keywords": [
+        "dsh",
+        "deepseek",
+        "deepseek harness",
+        "feishu",
+        "lark"
+      ]
+    }
+  ]
+}

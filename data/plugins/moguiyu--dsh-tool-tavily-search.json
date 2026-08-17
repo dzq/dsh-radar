@@ -1,7 +1,7 @@
 {
   "slug": "moguiyu--dsh-tool-tavily-search",
   "name": "@moguiyu/dsh-tool-tavily-search",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "Tavily-backed web search for the DeepSeek Harness: rotation-aware tavily_search model tool plus the Tavily Search settings card (keys, usage strategy, usage gauge, on/off switch).",
   "keywords": [
     "deepseek-harness",
@@ -31,24 +31,17 @@
   "engines": {},
   "weekly_downloads": 127,
   "monthly_downloads": 127,
-  "last_publish": "2026-08-16T09:10:48.142Z",
+  "last_publish": "2026-08-15T14:33:42.119Z",
   "created_at": "2026-08-15T14:33:41.746Z",
-  "gh": {
-    "full_name": "moguiyu/dsh-tavily",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T09:15:09Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 53,
-    "maintenance": 100,
-    "quality": 85,
+    "maintenance": 59,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 74,
-    "grade": "A"
+    "overall": 64,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:15.018Z"
+  "updated_at": "2026-08-17T03:50:41.335Z"
 }

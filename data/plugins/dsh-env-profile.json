@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-env-profile",
+  "name": "dsh-env-profile",
+  "version": "0.1.1",
+  "description": "DSH 全局经验插件（骨架）：自动探测本地依赖/便捷路径/网络/磁盘并沉淀为跨会话环境档案，订阅 session/event 折叠每会话统计，把低开销摘要注入每轮系统提示，env_profile 工具按需查全量——减少重复探测、加快会话、降低 token 消耗。",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "memory",
+    "environment",
+    "experience",
+    "token-saving"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Yvesgao/dsh-env-profile.git",
+  "homepage": "https://github.com/Yvesgao/dsh-env-profile#readme",
+  "npm": "https://www.npmjs.com/package/dsh-env-profile",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T14:23:10.534Z",
+  "created_at": "2026-08-16T14:23:10.235Z",
+  "gh": {
+    "full_name": "Yvesgao/dsh-env-profile",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T13:45:28Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 64,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:21.538Z"
+}

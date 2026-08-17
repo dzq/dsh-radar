@@ -29,22 +29,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T16:36:30.541Z",
   "created_at": "2026-08-14T16:36:30.106Z",
-  "gh": {
-    "full_name": "HaowenCang/vision-tool",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T16:30:57Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 59,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 59,
-    "grade": "B"
+    "overall": 49,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:28.513Z"
+  "updated_at": "2026-08-17T03:52:18.386Z"
 }

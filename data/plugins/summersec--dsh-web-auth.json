@@ -1,0 +1,41 @@
+{
+  "slug": "summersec--dsh-web-auth",
+  "name": "@summersec/dsh-web-auth",
+  "version": "0.1.2",
+  "description": "Transport-level authentication gate for the DeepSeek Harness Web GUI",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "authentication",
+    "web"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/SummerSec/dsh-web-auth.git",
+  "homepage": "https://github.com/SummerSec/dsh-web-auth#readme",
+  "npm": "https://www.npmjs.com/package/@summersec/dsh-web-auth",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T13:01:39.050Z",
+  "created_at": "2026-08-16T11:36:38.831Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:09:02.247Z"
+}

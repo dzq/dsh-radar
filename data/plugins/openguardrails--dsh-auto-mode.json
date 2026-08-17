@@ -38,22 +38,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T06:52:21.167Z",
   "created_at": "2026-08-14T02:40:20.266Z",
-  "gh": {
-    "full_name": "openguardrails/openguardrails",
-    "stars": 27,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T13:19:08Z",
-    "archived": false,
-    "license": "Apache-2.0"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 100,
+    "maintenance": 59,
+    "quality": 90,
     "security": 65,
     "dsh_compat": 80,
-    "overall": 65,
+    "overall": 56,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:20.417Z"
+  "updated_at": "2026-08-17T03:51:10.258Z"
 }

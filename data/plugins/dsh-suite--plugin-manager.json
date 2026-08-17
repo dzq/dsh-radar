@@ -1,7 +1,7 @@
 {
   "slug": "dsh-suite--plugin-manager",
   "name": "@dsh-suite/plugin-manager",
-  "version": "0.8.1",
+  "version": "0.8.0",
   "description": "DSH Web UI 插件应用商店：目录浏览/搜索/一键安装/兼容徽章/已装列表。A plugin store for DSH Web UI — catalog browse, search, one-click install, compat badges, installed list.",
   "keywords": [
     "deepseek-harness",
@@ -32,26 +32,18 @@
   "engines": {
     "node": "^22.19 || >=24"
   },
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
-  "last_publish": "2026-08-16T05:16:51.839Z",
+  "weekly_downloads": 729,
+  "last_publish": "2026-08-15T15:50:03.263Z",
   "created_at": "2026-08-14T08:26:48.574Z",
-  "gh": {
-    "full_name": "whyihaveyou/dsh-suite",
-    "stars": 35,
-    "open_issues": 9,
-    "pushed_at": "2026-08-16T08:48:20Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
-    "popularity": 0,
-    "maintenance": 100,
-    "quality": 100,
+    "popularity": 72,
+    "maintenance": 0,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 64,
+    "overall": 60,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:22.744Z"
+  "updated_at": "2026-08-17T03:56:21.281Z"
 }

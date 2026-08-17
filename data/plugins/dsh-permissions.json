@@ -1,12 +1,11 @@
 {
   "slug": "dsh-permissions",
   "name": "dsh-permissions",
-  "version": "1.0.3",
-  "description": "DeepSeek Harness 权限规则引擎：hard/deny/ask/allow 四级规则（hard 高于全访问）、全局与 workspace 作用域、通配符路径保护、可视化草稿式编辑器，规则持久化于 settings.yaml",
+  "version": "1.0.1",
+  "description": "Claude Code-style permission rules engine for DeepSeek Harness: hard/deny/ask/allow tiers (hard outranks full access), global + per-workspace scopes, wildcard path matching, a visual settings editor, and persistent rules in settings.yaml.",
   "keywords": [
-    "deepseek-harness",
-    "dsh",
     "dsh-plugin",
+    "deepseek-harness",
     "permissions",
     "security",
     "approval"
@@ -17,30 +16,28 @@
   "npm": "https://www.npmjs.com/package/dsh-permissions",
   "dsh_compat": true,
   "dsh_meta": {
+    "client": {
+      "inject": [],
+      "platform": "web"
+    },
     "bundle": {
       "patch": "./cordis.patch.yml"
-    },
-    "client": {
-      "inject": [
-        "@deepseek-ai/dsh-client-locale"
-      ],
-      "platform": "web"
     }
   },
   "engines": {},
   "weekly_downloads": 209,
   "monthly_downloads": 209,
-  "last_publish": "2026-08-16T08:01:09.458Z",
+  "last_publish": "2026-08-15T19:32:22.317Z",
   "created_at": "2026-08-15T19:28:49.998Z",
   "gh": null,
   "scores": {
     "popularity": 58,
-    "maintenance": 60,
+    "maintenance": 59,
     "quality": 75,
     "security": 65,
-    "dsh_compat": 85,
-    "overall": 68,
+    "dsh_compat": 80,
+    "overall": 67,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:14.552Z"
+  "updated_at": "2026-08-17T03:50:38.260Z"
 }

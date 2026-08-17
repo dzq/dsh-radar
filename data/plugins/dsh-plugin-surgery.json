@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-plugin-surgery",
+  "name": "dsh-plugin-surgery",
+  "version": "0.2.0",
+  "description": "给 DSH 插件一把手术刀:看得见影响面的安全卸载、一键回滚、restart-pending 确认与插件体检。Safe uninstall with impact preview, snapshot rollback, restart-pending confirmation, and a plugin doctor for DeepSeek Harness.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "uninstall",
+    "rollback",
+    "plugin-manager",
+    "卸载",
+    "回滚",
+    "插件管理"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-surgery",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T02:58:29.646Z",
+  "created_at": "2026-08-16T15:00:49.784Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 55,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T04:00:05.496Z"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "reddapi--dsh-reddit-radar",
+  "name": "@reddapi/dsh-reddit-radar",
+  "version": "1.0.0",
+  "description": "dsh plugin: periodic Reddit lead radar backed by reddapi.dev",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "reddit",
+    "reddapi",
+    "leads",
+    "mcp"
+  ],
+  "license": "ISC",
+  "repo": "git+https://github.com/reddapidev/dsh-reddit-radar.git",
+  "homepage": "https://reddapi.dev",
+  "npm": "https://www.npmjs.com/package/@reddapi/dsh-reddit-radar",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T03:46:28.726Z",
+  "created_at": "2026-08-17T03:46:28.424Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 80,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 42,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:51:59.278Z"
+}

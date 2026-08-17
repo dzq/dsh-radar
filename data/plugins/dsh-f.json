@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-f",
+  "name": "dsh-f",
+  "version": "0.13.3",
+  "description": "Bridge DeepSeek Harness (dsh) into Feishu / Lark with streaming cards, project workspaces, approvals and scheduling",
+  "keywords": [
+    "dsh",
+    "deepseek",
+    "deepseek harness",
+    "feishu",
+    "lark",
+    "bridge",
+    "bot",
+    "typescript",
+    "chatbot",
+    "messaging",
+    "deepseek-harness",
+    "dsh-plugin"
+  ],
+  "license": "AGPL-3.0",
+  "repo": "git+https://github.com/PlutoKeating/dsh-lark-bot.git",
+  "homepage": "https://github.com/PlutoKeating/dsh-lark-bot#readme",
+  "npm": "https://www.npmjs.com/package/dsh-f",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T03:41:18.418Z",
+  "created_at": "2026-08-16T12:57:55.022Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:51:24.611Z"
+}

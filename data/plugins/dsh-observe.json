@@ -1,0 +1,56 @@
+{
+  "slug": "dsh-observe",
+  "name": "dsh-observe",
+  "version": "0.1.0",
+  "description": "OpenTelemetry and Langfuse observability exporter for DeepSeek Harness: turn/step/tool/LLM spans, token and cost metrics, and sanitized LLM prompt/completion capture from the session/event stream, with async batching, bounded offline buffering, and retry ",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "cordis",
+    "opentelemetry",
+    "otel",
+    "otlp",
+    "langfuse",
+    "observability",
+    "tracing",
+    "metrics",
+    "llm-observability"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/PerryLink/dsh-observe.git",
+  "homepage": "https://github.com/PerryLink/dsh-observe#readme",
+  "npm": "https://www.npmjs.com/package/dsh-observe",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T17:17:55.474Z",
+  "created_at": "2026-08-16T17:17:55.208Z",
+  "gh": {
+    "full_name": "PerryLink/dsh-observe",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T17:17:39Z",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:05.959Z"
+}

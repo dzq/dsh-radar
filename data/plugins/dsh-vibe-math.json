@@ -27,26 +27,19 @@
     }
   },
   "engines": {},
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
+  "weekly_downloads": 119,
+  "monthly_downloads": 119,
   "last_publish": "2026-08-15T07:09:16.645Z",
   "created_at": "2026-08-15T07:09:16.292Z",
-  "gh": {
-    "full_name": "ChongCyrus/Vibe-Mathematics",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T07:10:57Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
-    "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "popularity": 52,
+    "maintenance": 59,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 63,
+    "overall": 66,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:46.620Z"
+  "updated_at": "2026-08-17T03:50:41.952Z"
 }

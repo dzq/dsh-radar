@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-api-testgen",
+  "name": "dsh-api-testgen",
+  "version": "0.1.0",
+  "description": "接口测试生成：解析 OpenAPI 3.x，为每个接口生成覆盖成功/缺参/非法枚举的测试用例，输出 Python(pytest) 或 TypeScript(vitest) 测试骨架",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "openapi",
+    "testing",
+    "test-generation",
+    "接口",
+    "测试"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-api-testgen",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T10:58:56.654Z",
+  "created_at": "2026-08-16T10:58:56.439Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:03:45.912Z"
+}

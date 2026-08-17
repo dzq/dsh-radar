@@ -1,0 +1,56 @@
+{
+  "slug": "starpivot--dsh-plugin-marketplace",
+  "name": "@starpivot/dsh-plugin-marketplace",
+  "version": "0.1.15",
+  "description": "可安装的 DeepSeek Harness 插件市场，替换设置里的插件页",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "marketplace"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/StarPivotNet/dsh-plugins-public.git",
+  "homepage": "https://github.com/StarPivotNet/dsh-plugins-public/tree/main/packages/plugin-marketplace",
+  "npm": "https://www.npmjs.com/package/@starpivot/dsh-plugin-marketplace",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-modules",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-commands"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T01:32:08.595Z",
+  "created_at": "2026-08-16T14:31:23.171Z",
+  "gh": {
+    "full_name": "StarPivotNet/dsh-plugins-public",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T01:32:05Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:52:16.112Z"
+}

@@ -1,7 +1,7 @@
 {
   "slug": "dsh-vision-mix",
   "name": "dsh-vision-mix",
-  "version": "0.2.2",
+  "version": "0.2.1",
   "description": "A DeepSeek Harness Mix plugin for vision routing plus GPT Image generation and editing.",
   "keywords": [
     "deepseek-harness",
@@ -36,24 +36,17 @@
   },
   "weekly_downloads": 255,
   "monthly_downloads": 255,
-  "last_publish": "2026-08-16T06:56:43.232Z",
+  "last_publish": "2026-08-15T19:03:05.439Z",
   "created_at": "2026-08-15T17:59:22.408Z",
-  "gh": {
-    "full_name": "haiziyao/dsh-vision-mix",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T06:56:09Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 60,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 59,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 85,
-    "overall": 80,
-    "grade": "A"
+    "overall": 69,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:14.342Z"
+  "updated_at": "2026-08-17T03:50:35.783Z"
 }

@@ -1,8 +1,8 @@
 {
   "slug": "hunterchcl--dsh-usage-meter",
   "name": "@hunterchcl/dsh-usage-meter",
-  "version": "1.1.0",
-  "description": "DeepSeek Harness 余额/用量插件，用于显示官方API下的余额、充值入口，与本会话费用，悬停查看明细，价格表与峰谷定价可配置",
+  "version": "1.2.0",
+  "description": "DeepSeek Harness Balance/Usage plugin: Usage and balance meter for DeepSeek Harness (DSH), providing real-time usage statistics and balance information.",
   "keywords": [
     "deepseek",
     "deepseek-harness",
@@ -25,6 +25,7 @@
       "platform": "web",
       "inject": [
         "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
         "@deepseek-ai/dsh-client-ui-slots",
         "@deepseek-ai/dsh-client-ui-settings",
         "@deepseek-ai/dsh-client-ui-conversation",
@@ -37,17 +38,17 @@
   "engines": {},
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-16T09:19:08.026Z",
+  "last_publish": "2026-08-16T12:07:35.846Z",
   "created_at": "2026-08-16T09:19:07.669Z",
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 59,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 51,
+    "overall": 50,
     "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:32.287Z"
+  "updated_at": "2026-08-17T03:52:32.311Z"
 }

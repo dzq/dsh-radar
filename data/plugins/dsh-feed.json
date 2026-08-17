@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-feed",
+  "name": "dsh-feed",
+  "version": "0.1.0",
+  "description": "Cross-ecosystem aggregation base ('聚合的聚合'): syncs the GitHub dsh-plugin topic + npm registry into one open JSON index, queried by model tools, a CLI (dsh-feed), and a minimal stdio MCP server",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "plugin",
+    "feed",
+    "index",
+    "aggregation",
+    "mcp",
+    "数据源"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-feed",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T02:45:58.714Z",
+  "created_at": "2026-08-17T02:45:58.403Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:00:05.191Z"
+}

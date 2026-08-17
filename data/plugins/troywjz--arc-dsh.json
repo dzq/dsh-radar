@@ -1,0 +1,45 @@
+{
+  "slug": "troywjz--arc-dsh",
+  "name": "@troywjz/arc-dsh",
+  "version": "0.1.1",
+  "description": "DeepSeek Harness adapter for Agent Research Copilot (ARC)",
+  "keywords": [
+    "dsh-plugin",
+    "arc",
+    "research",
+    "theoretical-physics"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/troywjz/arc.git",
+  "homepage": "https://github.com/troywjz/arc#readme",
+  "npm": "https://www.npmjs.com/package/@troywjz/arc-dsh",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./plugins/arc/dsh/cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T17:44:09.747Z",
+  "created_at": "2026-08-16T17:44:09.480Z",
+  "gh": {
+    "full_name": "troywjz/arc",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T17:32:32Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 61,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T04:10:59.415Z"
+}

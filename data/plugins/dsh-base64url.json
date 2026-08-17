@@ -1,0 +1,40 @@
+{
+  "slug": "dsh-base64url",
+  "name": "dsh-base64url",
+  "version": "0.1.0",
+  "description": "Base64URL 编解码",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "base64",
+    "url",
+    "编码"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-base64url",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T03:23:17.929Z",
+  "created_at": "2026-08-17T03:23:17.639Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 30,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 42,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:07:52.048Z"
+}

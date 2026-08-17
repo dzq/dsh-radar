@@ -1,0 +1,58 @@
+{
+  "slug": "dsh-vision-subagent",
+  "name": "dsh-vision-subagent",
+  "version": "0.1.0",
+  "description": "Vision for text-only DeepSeek Harness agents: delegate image reading to a one-shot subagent on a configurable vision route (MiniMax / Kimi / any OpenAI-compatible provider), keeping image bytes and the vision model's context out of the main session.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "vision",
+    "multimodal",
+    "subagent",
+    "minimax",
+    "kimi",
+    "moonshot",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/ruby1304/dsh-vision-subagent.git",
+  "homepage": "https://github.com/ruby1304/dsh-vision-subagent#readme",
+  "npm": "https://www.npmjs.com/package/dsh-vision-subagent",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T03:35:34.742Z",
+  "created_at": "2026-08-17T03:35:34.471Z",
+  "gh": {
+    "full_name": "ruby1304/dsh-vision-subagent",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T03:17:25Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 65,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:07.603Z"
+}

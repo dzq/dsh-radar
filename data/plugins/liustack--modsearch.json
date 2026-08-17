@@ -29,12 +29,11 @@
     "node": ">=22.13"
   },
   "weekly_downloads": 4097,
-  "monthly_downloads": 4380,
   "last_publish": "2026-08-15T05:18:30.432Z",
   "created_at": "2026-02-22T08:23:12.840Z",
   "gh": {
     "full_name": "liustack/modsearch",
-    "stars": 106,
+    "stars": 105,
     "open_issues": 1,
     "pushed_at": "2026-08-15T05:18:00Z",
     "archived": false,
@@ -42,12 +41,12 @@
   },
   "scores": {
     "popularity": 90,
-    "maintenance": 99,
+    "maintenance": 39,
     "quality": 100,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 85,
-    "grade": "S"
+    "overall": 73,
+    "grade": "A"
   },
-  "updated_at": "2026-08-16T10:16:12.357Z"
+  "updated_at": "2026-08-17T03:56:15.498Z"
 }

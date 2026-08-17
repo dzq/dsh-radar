@@ -1,0 +1,61 @@
+{
+  "slug": "dsh-trilium",
+  "name": "dsh-trilium",
+  "version": "0.1.0",
+  "description": "DSH 记忆知识库插件：通过 ETAPI 把 Trilium 笔记库接入 agent（记忆读写/笔记管理/搜索/周报/附件/日历/备份），GUI 提供独立设置页。 · DSH memory-knowledge plugin: connect Trilium to the agent via ETAPI.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "trilium",
+    "etapi",
+    "memory",
+    "notes",
+    "knowledge-base",
+    "weekly-report"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/MineRPi/dsh-trilium.git",
+  "homepage": "https://github.com/MineRPi/dsh-trilium#readme",
+  "npm": "https://www.npmjs.com/package/dsh-trilium",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T11:42:06.410Z",
+  "created_at": "2026-08-16T11:42:06.180Z",
+  "gh": {
+    "full_name": "MineRPi/dsh-trilium",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T12:17:53Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:03.496Z"
+}

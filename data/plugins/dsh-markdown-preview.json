@@ -32,26 +32,19 @@
     }
   },
   "engines": {},
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
+  "weekly_downloads": 294,
+  "monthly_downloads": 294,
   "last_publish": "2026-08-15T11:38:32.569Z",
   "created_at": "2026-08-15T06:16:20.174Z",
-  "gh": {
-    "full_name": "GitHubJiKe/dsh-markdown-preview",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T11:37:48Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
-    "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "popularity": 62,
+    "maintenance": 59,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 60,
+    "overall": 66,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:43.135Z"
+  "updated_at": "2026-08-17T03:50:32.914Z"
 }

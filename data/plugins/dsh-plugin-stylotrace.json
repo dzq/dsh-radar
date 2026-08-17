@@ -1,0 +1,59 @@
+{
+  "slug": "dsh-plugin-stylotrace",
+  "name": "dsh-plugin-stylotrace",
+  "version": "0.1.1",
+  "description": "Stylotrace 深度协作写作 Agent 的 DeepSeek Harness 插件：40 个 MCP 写作工具 + 完整技能包。风格学习（四层向量+外层调制器）、澄清→大纲→逐节写作→红队审计→读者群像，全流程可被 DSH Agent 调用。",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness-plugin",
+    "deepseek-harness",
+    "dsh",
+    "writing",
+    "style",
+    "agent",
+    "chinese-writing",
+    "mcp"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zhangyoufu-123/stylotrace.git",
+  "homepage": "https://github.com/zhangyoufu-123/stylotrace#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-stylotrace",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T14:49:06.953Z",
+  "created_at": "2026-08-16T14:42:54.137Z",
+  "gh": {
+    "full_name": "zhangyoufu-123/stylotrace",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T20:51:18Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:21.129Z"
+}

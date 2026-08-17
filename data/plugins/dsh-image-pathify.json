@@ -1,8 +1,8 @@
 {
   "slug": "dsh-image-pathify",
   "name": "dsh-image-pathify",
-  "version": "0.1.1",
-  "description": "DeepSeek Harness plugin: let text-only models receive pasted images, and analyze them with a built-in OpenAI-compatible vision tool",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin: let text-only models (deepseek-v4-flash, ...) receive image messages as 'Saved attachments: <path>' text at dispatch, so vision skills (claude-vision-skill's vision.js) can read the durable files",
   "keywords": [
     "dsh",
     "deepseek",
@@ -20,15 +20,6 @@
   "dsh_meta": {
     "bundle": {
       "patch": "./cordis.patch.yml"
-    },
-    "client": {
-      "platform": "web",
-      "inject": [
-        "@deepseek-ai/dsh-client-runtime",
-        "@deepseek-ai/dsh-client-ui-slots",
-        "@deepseek-ai/dsh-client-locale",
-        "@deepseek-ai/dsh-client-connection"
-      ]
     }
   },
   "engines": {
@@ -36,24 +27,17 @@
   },
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-16T01:35:54.748Z",
+  "last_publish": "2026-08-15T12:35:05.128Z",
   "created_at": "2026-08-15T12:35:04.794Z",
-  "gh": {
-    "full_name": "dami9527/dsh-image-pathify",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T02:08:52Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 85,
+    "maintenance": 59,
+    "quality": 75,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 61,
-    "grade": "B"
+    "dsh_compat": 75,
+    "overall": 49,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:35.980Z"
+  "updated_at": "2026-08-17T04:03:44.570Z"
 }

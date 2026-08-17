@@ -1,7 +1,7 @@
 {
   "slug": "dsh-graphlint",
   "name": "dsh-graphlint",
-  "version": "0.2.1",
+  "version": "0.2.0",
   "description": "DeepSeek Harness plugin bundle: graphlint dead-code detection tools for agents (graphlint_query / graphlint_build / graphlint_config + graphlint skill).",
   "keywords": [
     "dsh-plugin",
@@ -28,24 +28,17 @@
   },
   "weekly_downloads": 167,
   "monthly_downloads": 167,
-  "last_publish": "2026-08-16T07:45:18.000Z",
+  "last_publish": "2026-08-15T09:59:00.300Z",
   "created_at": "2026-08-14T17:06:44.457Z",
-  "gh": {
-    "full_name": "AngelosZou/graphlint",
-    "stars": 4,
-    "open_issues": 2,
-    "pushed_at": "2026-08-16T09:09:59Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 56,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 59,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 78,
-    "grade": "A"
+    "overall": 67,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:14.604Z"
+  "updated_at": "2026-08-17T03:50:39.490Z"
 }

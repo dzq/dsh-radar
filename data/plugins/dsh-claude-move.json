@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-claude-move",
+  "name": "dsh-claude-move",
+  "version": "0.2.2",
+  "description": "Copy Claude Code transcripts, memories, skills and CLAUDE.md into DeepSeek Harness as resumable sessions 閳?one workspace per project, copy-only, seamlessly resumable",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "claude-code",
+    "migration",
+    "session-import",
+    "resume"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/PerryLink/dsh-claude-move.git",
+  "homepage": "https://github.com/PerryLink/dsh-claude-move#readme",
+  "npm": "https://www.npmjs.com/package/dsh-claude-move",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T16:25:36.493Z",
+  "created_at": "2026-08-16T16:08:34.281Z",
+  "gh": {
+    "full_name": "PerryLink/dsh-claude-move",
+    "stars": 6,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T16:40:28Z",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 65,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:19.078Z"
+}

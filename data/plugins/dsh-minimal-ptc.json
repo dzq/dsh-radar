@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-minimal-ptc",
+  "name": "dsh-minimal-ptc",
+  "version": "0.4.0",
+  "description": "Minimal prompt x full PTC tools for DeepSeek Harness - aligned with the Project2 we/let's trajectory (Minimal 99/96).",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "agent-preset",
+    "code-mode",
+    "dsh-plugin",
+    "deepseek",
+    "llm-agent",
+    "minimal",
+    "ptc",
+    "we-lets",
+    "chain-of-thought"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/STARDUSTLC666/dsh-minimal-ptc.git",
+  "homepage": "https://github.com/STARDUSTLC666/dsh-minimal-ptc#readme",
+  "npm": "https://www.npmjs.com/package/dsh-minimal-ptc",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T13:30:27.872Z",
+  "created_at": "2026-08-16T13:30:27.672Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:52:11.194Z"
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "dsh-htmlrun",
+  "name": "dsh-htmlrun",
+  "version": "0.1.1",
+  "description": "Publish local single-file HTML to shareable html.run links as a DeepSeek Harness model tool (wraps the zero-dependency htmlrun.cjs CLI).",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "htmlrun",
+    "publish",
+    "share"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-htmlrun",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T03:40:59.072Z",
+  "created_at": "2026-08-17T03:40:58.874Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:59:30.721Z"
+}

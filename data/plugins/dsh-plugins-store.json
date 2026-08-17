@@ -1,0 +1,55 @@
+{
+  "slug": "dsh-plugins-store",
+  "name": "dsh-plugins-store",
+  "version": "0.1.1",
+  "description": "Native DSH browser integration for the DSH Plugin Store",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "plugin-store",
+    "marketplace",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/ZASENJC/dsh-plugins-store.git",
+  "homepage": "https://dshmk.com/",
+  "npm": "https://www.npmjs.com/package/dsh-plugins-store",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-commands",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-primitives",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-settings-plugins"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T15:59:49.198Z",
+  "created_at": "2026-08-16T15:16:12.241Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:52:08.941Z"
+}

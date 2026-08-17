@@ -1,0 +1,40 @@
+{
+  "slug": "dsh-deepseek-harness",
+  "name": "dsh-deepseek-harness",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness: Everything is a Plugin.",
+  "keywords": [
+    "ai-agents",
+    "cordis",
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/deepseek-ai/deepseek-harness",
+  "homepage": "https://deepseek.com/harness",
+  "npm": "https://www.npmjs.com/package/dsh-deepseek-harness",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T13:00:21Z",
+  "created_at": null,
+  "gh": {
+    "full_name": "deepseek-ai/deepseek-harness",
+    "stars": 137374,
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T13:00:21Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T03:53:47.624Z"
+}

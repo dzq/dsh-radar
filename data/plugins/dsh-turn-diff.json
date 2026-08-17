@@ -38,22 +38,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:33:03.463Z",
   "created_at": "2026-08-14T06:16:42.648Z",
-  "gh": {
-    "full_name": "2436238575/dsh-turn-diff",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T15:30:54Z",
-    "archived": false,
-    "license": null
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
+    "maintenance": 59,
     "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 56,
-    "grade": "B"
+    "overall": 48,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:18.438Z"
+  "updated_at": "2026-08-17T03:51:01.852Z"
 }

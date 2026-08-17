@@ -38,18 +38,18 @@
     "full_name": "labmimors/dsh-mcp-lens",
     "stars": 4,
     "open_issues": 4,
-    "pushed_at": "2026-08-16T02:15:54Z",
+    "pushed_at": "2026-08-15T23:48:43Z",
     "archived": false,
     "license": "MIT"
   },
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
+    "maintenance": 99,
     "quality": 100,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 64,
+    "overall": 63,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:17.711Z"
+  "updated_at": "2026-08-17T03:50:59.591Z"
 }

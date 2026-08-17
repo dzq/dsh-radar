@@ -1,5 +1,65 @@
 [
   {
+    "file": "2026-08-17-1156.json",
+    "prev": "2026-08-17-1148.json",
+    "total_delta": 30,
+    "grades": {
+      "S": -1,
+      "A": -12,
+      "B": 39,
+      "C": 4,
+      "D": 0
+    },
+    "downloads_delta": 21651,
+    "compat_delta": 30,
+    "generated_at": "2026-08-17T03:56:23.942Z",
+    "top10_in": [
+      "dsh-any-background",
+      "dsh-remote",
+      "@liustack/pptfast",
+      "dsh-plugin-vetting",
+      "design-playbook"
+    ],
+    "top10_out": [
+      "@nanmicoder/dsh-agent-teams",
+      "dsh-builtin-browser",
+      "dsh-deepread",
+      "pi2dsh",
+      "dsh-better-edit"
+    ]
+  },
+  {
+    "file": "2026-08-17-1148.json",
+    "prev": "2026-08-16-1601.json",
+    "total_delta": -764,
+    "grades": {
+      "S": 0,
+      "A": -7,
+      "B": -196,
+      "C": -549,
+      "D": -12
+    },
+    "downloads_delta": 2363,
+    "compat_delta": -700,
+    "generated_at": "2026-08-17T03:48:49.409Z",
+    "top10_in": [
+      "@nanmicoder/dsh-agent-teams",
+      "dsh-lark-bot",
+      "dsh-feishu-bot",
+      "dsh-deepread",
+      "pi2dsh",
+      "dsh-better-edit"
+    ],
+    "top10_out": [
+      "dsh-remote",
+      "@liustack/pptfast",
+      "dsh-plugin-vetting",
+      "design-playbook",
+      "dsh-wechat-mp",
+      "dsh-ui-notify"
+    ]
+  },
+  {
     "file": "2026-08-16-1601.json",
     "prev": "2026-08-16-1016.json",
     "total_delta": -62,

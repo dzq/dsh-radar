@@ -1,7 +1,7 @@
 {
   "slug": "dsh-remote",
   "name": "dsh-remote",
-  "version": "0.5.7",
+  "version": "0.5.5",
   "description": "Remote-work assistant for DeepSeek Harness: connect SSH (password or key), pick a remote workspace, operate on it with rw_pick_workspace / rw_list_dir / rw_read_file / rw_exec / rw_sync tools, and mirror it to a real local directory (SFTP) so the DSH nati",
   "keywords": [
     "deepseek-harness",
@@ -31,25 +31,24 @@
   },
   "engines": {},
   "weekly_downloads": 691,
-  "monthly_downloads": 691,
-  "last_publish": "2026-08-16T07:34:44.162Z",
+  "last_publish": "2026-08-15T17:02:48.415Z",
   "created_at": "2026-08-14T04:29:35.533Z",
   "gh": {
     "full_name": "flymysql/dsh-remote",
     "stars": 14,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T07:34:48Z",
+    "open_issues": 1,
+    "pushed_at": "2026-08-15T17:02:59Z",
     "archived": false,
     "license": "MIT"
   },
   "scores": {
     "popularity": 71,
-    "maintenance": 100,
+    "maintenance": 39,
     "quality": 100,
     "security": 40,
-    "dsh_compat": 85,
-    "overall": 81,
-    "grade": "A"
+    "dsh_compat": 80,
+    "overall": 68,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:13.512Z"
+  "updated_at": "2026-08-17T03:56:21.692Z"
 }

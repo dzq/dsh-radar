@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-codex-port",
+  "name": "dsh-codex-port",
+  "version": "0.1.1",
+  "description": "DSH 技能移植工具插件：把 ~/.codex 里的 Codex 官方插件（170+ 个）一键移植为 DSH 技能（codex_list / codex_port / codex_status），frontmatter 自动转换、名称清洗、幂等跳过。",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "codex",
+    "skills",
+    "migration",
+    "dsh-plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/STARDUSTLC666/dsh-codex-port.git",
+  "homepage": "https://github.com/STARDUSTLC666/dsh-codex-port#readme",
+  "npm": "https://www.npmjs.com/package/dsh-codex-port",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 50,
+  "monthly_downloads": 50,
+  "last_publish": "2026-08-16T11:14:00.561Z",
+  "created_at": "2026-08-14T19:57:35.210Z",
+  "gh": {
+    "full_name": "STARDUSTLC666/dsh-codex-port",
+    "stars": 6,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T11:09:54Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 43,
+    "maintenance": 99,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 69,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:50:46.674Z"
+}

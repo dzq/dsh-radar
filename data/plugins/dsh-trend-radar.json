@@ -1,0 +1,43 @@
+{
+  "slug": "dsh-trend-radar",
+  "name": "dsh-trend-radar",
+  "version": "0.1.0",
+  "description": "Ecosystem trend dashboard ('行情面板') for dsh plugins: snapshot the dsh-plugin topic and awesome list into local history, then report weekly trends — new plugins, star gainers, category heat, awesome coverage — plus keyword radar for new plugins and star sur",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "plugin",
+    "trend",
+    "dashboard",
+    "radar",
+    "analytics"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-trend-radar",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T02:41:52.281Z",
+  "created_at": "2026-08-17T02:41:51.997Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 50,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:06:08.829Z"
+}

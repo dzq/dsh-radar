@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-voice",
+  "name": "dsh-voice",
+  "version": "0.1.1",
+  "description": "DSH 语音双件套插件：voice_tts（edge-tts 协议零成本微软神经语音合成）/ voice_stt（OpenAI 兼容 ASR 语音转文字）/ voice_list（音色列表），原生 WebSocket + 插件级代理。",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "tts",
+    "stt",
+    "whisper",
+    "voice",
+    "dsh-plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/STARDUSTLC666/dsh-voice.git",
+  "homepage": "https://github.com/STARDUSTLC666/dsh-voice#readme",
+  "npm": "https://www.npmjs.com/package/dsh-voice",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 131,
+  "monthly_downloads": 131,
+  "last_publish": "2026-08-16T11:15:04.714Z",
+  "created_at": "2026-08-14T20:17:13.460Z",
+  "gh": {
+    "full_name": "STARDUSTLC666/dsh-voice",
+    "stars": 2,
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T11:10:13Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 53,
+    "maintenance": 99,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 72,
+    "grade": "A"
+  },
+  "updated_at": "2026-08-17T03:50:42.156Z"
+}

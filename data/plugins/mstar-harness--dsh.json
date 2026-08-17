@@ -28,26 +28,19 @@
   "engines": {
     "bun": ">=1.2.17"
   },
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
+  "weekly_downloads": 239,
+  "monthly_downloads": 239,
   "last_publish": "2026-08-13T13:34:56.507Z",
   "created_at": "2026-08-13T13:23:13.683Z",
-  "gh": {
-    "full_name": "btspoony/mstar-harness",
-    "stars": 46,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T08:14:52Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
-    "popularity": 0,
-    "maintenance": 99,
-    "quality": 90,
+    "popularity": 60,
+    "maintenance": 58,
+    "quality": 80,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 61,
+    "overall": 66,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:27.238Z"
+  "updated_at": "2026-08-17T03:50:38.258Z"
 }

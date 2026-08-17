@@ -1,7 +1,7 @@
 {
   "slug": "dsh-full-remote",
   "name": "dsh-full-remote",
-  "version": "0.2.4",
+  "version": "0.2.2",
   "description": "Remote DeepSeek Harness with full server-side API access: Host/Origin rewrite restores settings.*, credentials.*, and host.listDirectory that other tunnels 403. Token-gated reverse proxy plus mobile control UI.",
   "keywords": [
     "dsh",
@@ -34,24 +34,17 @@
   },
   "weekly_downloads": 422,
   "monthly_downloads": 422,
-  "last_publish": "2026-08-16T06:17:32.589Z",
+  "last_publish": "2026-08-15T16:23:07.702Z",
   "created_at": "2026-08-15T14:00:42.853Z",
-  "gh": {
-    "full_name": "JUANWANG-BUAA/dsh-full-remote",
-    "stars": 4,
-    "open_issues": 6,
-    "pushed_at": "2026-08-16T06:53:07Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 66,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 59,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 80,
+    "overall": 70,
     "grade": "A"
   },
-  "updated_at": "2026-08-16T10:16:13.771Z"
+  "updated_at": "2026-08-17T03:50:29.020Z"
 }

@@ -78,8 +78,8 @@ function daysAgo(iso: string) {
             <dt>npm</dt><dd><a href={plugin.npm} target="_blank" rel="noopener">{plugin.name}</a></dd>
             <dt>Repo</dt><dd>{plugin.repo ? <a href={plugin.repo.replace(/^git\+/, '').replace(/\.git$/, '')} target="_blank" rel="noopener">{plugin.repo}</a> : '—'}</dd>
             <dt>Engines</dt><dd><code>{JSON.stringify(plugin.engines)}</code></dd>
-            <dt>Weekly DL</dt><dd>{plugin.weekly_downloads.toLocaleString()}</dd>
-            <dt>Monthly DL</dt><dd>{plugin.monthly_downloads.toLocaleString()}</dd>
+            <dt>Weekly DL</dt><dd>{(plugin.weekly_downloads || 0).toLocaleString()}</dd>
+            <dt>Monthly DL</dt><dd>{(plugin.monthly_downloads || 0).toLocaleString()}</dd>
             {plugin.gh && (
               <>
                 <dt>Stars</dt><dd>★ {plugin.gh.stars}</dd>

@@ -1,0 +1,52 @@
+{
+  "slug": "elves-ai--dsh-web-search-firecrawl",
+  "name": "@elves-ai/dsh-web-search-firecrawl",
+  "version": "1.0.0",
+  "description": "Firecrawl-backed search provider for the DeepSeek Harness web capability seam (ctx.web)",
+  "keywords": [
+    "dsh-plugin",
+    "firecrawl"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/elves-ai/dsh-web-search-firecrawl.git",
+  "homepage": "https://github.com/elves-ai/dsh-web-search-firecrawl#readme",
+  "npm": "https://www.npmjs.com/package/@elves-ai/dsh-web-search-firecrawl",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T02:44:00.028Z",
+  "created_at": "2026-08-17T02:43:59.660Z",
+  "gh": {
+    "full_name": "elves-ai/dsh-web-search-firecrawl",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T03:33:50Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:07.397Z"
+}

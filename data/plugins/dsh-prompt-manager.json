@@ -32,22 +32,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T13:23:41.031Z",
   "created_at": "2026-08-15T13:23:40.692Z",
-  "gh": {
-    "full_name": "SaiSenBox/dsh-prompt-manager",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T13:51:53Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 59,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 85,
-    "overall": 61,
-    "grade": "B"
+    "overall": 51,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:30.997Z"
+  "updated_at": "2026-08-17T03:52:27.195Z"
 }

@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-accounts",
+  "name": "dsh-accounts",
+  "version": "0.1.1",
+  "description": "DSH 多租户账户与授权插件：PostgreSQL 存储 + admin 管理 API + 每账户独立工作目录（独立插件，不改 DSH 核心）",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "auth",
+    "authentication",
+    "authorization",
+    "multi-tenant",
+    "postgresql",
+    "user-management",
+    "login",
+    "workspace-isolation"
+  ],
+  "license": "",
+  "repo": "git+https://github.com/kangshifu1/dsh-accounts.git",
+  "homepage": "https://github.com/kangshifu1/dsh-accounts#readme",
+  "npm": "https://www.npmjs.com/package/dsh-accounts",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T14:27:26.807Z",
+  "created_at": "2026-08-16T13:34:52.960Z",
+  "gh": {
+    "full_name": "kangshifu1/dsh-accounts",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T14:38:24Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 56,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:20.924Z"
+}

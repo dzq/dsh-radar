@@ -13,9 +13,7 @@
     "bot",
     "typescript",
     "chatbot",
-    "messaging",
-    "deepseek-harness",
-    "dsh-plugin"
+    "messaging"
   ],
   "license": "AGPL-3.0",
   "repo": "git+https://github.com/PlutoKeating/dsh-lark-bot.git",
@@ -30,26 +28,18 @@
   "engines": {
     "node": ">=22.19.0"
   },
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
+  "weekly_downloads": 3614,
   "last_publish": "2026-08-15T23:00:17.527Z",
   "created_at": "2026-08-13T21:59:28.326Z",
-  "gh": {
-    "full_name": "PlutoKeating/dsh-lark-bot",
-    "stars": 16,
-    "open_issues": 2,
-    "pushed_at": "2026-08-16T09:16:02Z",
-    "archived": false,
-    "license": "AGPL-3.0"
-  },
+  "gh": null,
   "scores": {
-    "popularity": 0,
-    "maintenance": 100,
-    "quality": 100,
+    "popularity": 89,
+    "maintenance": 0,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 75,
     "overall": 63,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:18.179Z"
+  "updated_at": "2026-08-17T03:56:15.909Z"
 }

@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-python-env",
+  "name": "dsh-python-env",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin: workspace-scoped Python virtual environment management for agents (pyenv_discover / pyenv_create / pyenv_install / pyenv_uninstall / pyenv_remove). Runs the standard library python -m venv / pip through the host subprocess channel",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness",
+    "python",
+    "venv",
+    "virtualenv",
+    "pip",
+    "workspace",
+    "cross-platform"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/AngelosZou/dsh-python-env.git",
+  "homepage": "https://github.com/AngelosZou/dsh-python-env#readme",
+  "npm": "https://www.npmjs.com/package/dsh-python-env",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T14:05:22.697Z",
+  "created_at": "2026-08-16T14:05:22.416Z",
+  "gh": {
+    "full_name": "AngelosZou/dsh-python-env",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T14:06:07Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 64,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:06.370Z"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "dsh-lean",
+  "name": "dsh-lean",
+  "version": "0.8.0",
+  "description": "DeepSeek bills peak hours at 2x, and peak is 09-12 and 14-18 Beijing time. npx dsh-lean audit shows what your session paid and what it costs off-peak. DeepSeek 峰时按 2 倍计费，峰时正好是上班时间。",
+  "keywords": [
+    "agent-preset",
+    "cost-optimization",
+    "deepseek",
+    "deepseek-harness",
+    "deepseek-pricing",
+    "dsh",
+    "dsh-plugin",
+    "dsh-plugins",
+    "llm",
+    "off-peak",
+    "peak-pricing",
+    "prompt-cache",
+    "token-cost"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/sjh9714/dsh-lean.git",
+  "homepage": "https://github.com/sjh9714/dsh-lean#readme",
+  "npm": "https://www.npmjs.com/package/dsh-lean",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T02:42:49.763Z",
+  "created_at": "2026-08-16T12:54:09.954Z",
+  "gh": {
+    "full_name": "sjh9714/dsh-lean",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T02:42:51Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 65,
+    "dsh_compat": 75,
+    "overall": 65,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:20.103Z"
+}

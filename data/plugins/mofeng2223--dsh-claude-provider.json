@@ -35,22 +35,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T14:15:35.481Z",
   "created_at": "2026-08-14T12:47:32.012Z",
-  "gh": {
-    "full_name": "MoFeng2223/dsh-claude-provider",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T15:03:33Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 75,
+    "maintenance": 59,
+    "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 58,
-    "grade": "B"
+    "overall": 48,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:29.651Z"
+  "updated_at": "2026-08-17T03:52:22.694Z"
 }

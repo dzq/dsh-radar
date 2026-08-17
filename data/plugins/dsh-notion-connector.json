@@ -33,22 +33,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:51:37.313Z",
   "created_at": "2026-08-16T08:32:13.609Z",
-  "gh": {
-    "full_name": "zhengjy01/dsh-notion-connector",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T08:51:30Z",
-    "archived": false,
-    "license": null
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
+    "maintenance": 59,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 59,
-    "grade": "B"
+    "overall": 50,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:36.601Z"
+  "updated_at": "2026-08-17T04:04:57.048Z"
 }

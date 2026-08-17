@@ -30,7 +30,7 @@
   "created_at": "2026-08-14T06:18:19.789Z",
   "gh": {
     "full_name": "linyp/dsh-plugin-langfuse",
-    "stars": 6,
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-15T14:54:17Z",
     "archived": false,
@@ -45,5 +45,5 @@
     "overall": 63,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:17.451Z"
+  "updated_at": "2026-08-17T03:50:58.564Z"
 }

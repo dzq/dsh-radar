@@ -46,12 +46,12 @@
   "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 60,
+    "maintenance": 59,
     "quality": 90,
     "security": 50,
     "dsh_compat": 85,
-    "overall": 55,
-    "grade": "B"
+    "overall": 54,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:26.652Z"
+  "updated_at": "2026-08-17T03:52:14.267Z"
 }

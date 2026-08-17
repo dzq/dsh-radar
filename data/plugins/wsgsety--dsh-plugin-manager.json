@@ -28,22 +28,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T13:11:22.082Z",
   "created_at": "2026-08-15T12:52:36.497Z",
-  "gh": {
-    "full_name": "WSGsety/dsh-plugin-manager",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T13:19:16Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 59,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 85,
-    "overall": 64,
-    "grade": "B"
+    "overall": 54,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:18.074Z"
+  "updated_at": "2026-08-17T03:51:00.823Z"
 }

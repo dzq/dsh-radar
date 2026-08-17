@@ -43,22 +43,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-13T19:55:45.895Z",
   "created_at": "2026-08-13T19:55:45.610Z",
-  "gh": {
-    "full_name": "Hu9956/dsh-codex-provider",
-    "stars": 5,
-    "open_issues": 0,
-    "pushed_at": "2026-08-13T20:38:35Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 85,
+    "maintenance": 58,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 60,
-    "grade": "B"
+    "overall": 50,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:37.743Z"
+  "updated_at": "2026-08-17T04:08:27.270Z"
 }

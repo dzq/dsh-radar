@@ -1,7 +1,7 @@
 {
   "slug": "dsh-stock-watch",
   "name": "dsh-stock-watch",
-  "version": "1.0.6",
+  "version": "1.0.5",
   "description": "A股自选股实时行情盯盘插件 - DeepSeek Harness Web 右上角可折叠弹窗（分时/K线/目标价/主题切换/可拖动/添加股票分组）",
   "keywords": [
     "dsh",
@@ -29,19 +29,18 @@
     }
   },
   "engines": {},
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
-  "last_publish": "2026-08-16T04:21:12.158Z",
+  "weekly_downloads": 949,
+  "last_publish": "2026-08-15T06:33:17.873Z",
   "created_at": "2026-08-14T22:29:56.460Z",
   "gh": null,
   "scores": {
-    "popularity": 0,
-    "maintenance": 60,
+    "popularity": 74,
+    "maintenance": 0,
     "quality": 90,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 54,
-    "grade": "C"
+    "overall": 60,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:40.024Z"
+  "updated_at": "2026-08-17T03:56:19.015Z"
 }

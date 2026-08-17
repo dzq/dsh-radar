@@ -1,0 +1,60 @@
+{
+  "slug": "dsh-capability-optimizer",
+  "name": "dsh-capability-optimizer",
+  "version": "0.4.3",
+  "description": "External-expert consultation for DeepSeek Harness: headlessly invokes the Claude Code CLI with role personas (advisor / reviewer / designer, extensible via config) and returns the subscription model's replies as reference answers for the agent to weigh. ·",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "claude-code",
+    "advisor",
+    "reviewer",
+    "designer",
+    "second-opinion",
+    "agent-tools",
+    "cordis-plugin",
+    "capability"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/hezhongtang/dsh-capability-optimizer.git",
+  "homepage": "https://github.com/hezhongtang/dsh-capability-optimizer#readme",
+  "npm": "https://www.npmjs.com/package/dsh-capability-optimizer",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T11:41:01.359Z",
+  "created_at": "2026-08-16T11:26:55.854Z",
+  "gh": {
+    "full_name": "hezhongtang/dsh-capability-optimizer",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T11:40:58Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 64,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:19.487Z"
+}

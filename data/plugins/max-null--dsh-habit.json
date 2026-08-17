@@ -1,0 +1,50 @@
+{
+  "slug": "max-null--dsh-habit",
+  "name": "@max-null/dsh-habit",
+  "version": "0.1.0",
+  "description": "Self-learning habit engine for the DeepSeek Harness — detects user-correction signals, judges habits with a low-cost model on threshold, settles candidates behind a two-level human gate",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "habit",
+    "self-learning",
+    "plugin",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Max-Null/dsh-habit.git",
+  "homepage": "https://github.com/Max-Null/dsh-habit#readme",
+  "npm": "https://www.npmjs.com/package/@max-null/dsh-habit",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T12:16:45.902Z",
+  "created_at": "2026-08-16T12:16:45.649Z",
+  "gh": {
+    "full_name": "Max-Null/dsh-habit",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T12:36:35Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 99,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 57,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T04:10:55.272Z"
+}

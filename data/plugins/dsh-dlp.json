@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-dlp",
+  "name": "dsh-dlp",
+  "version": "0.3.0",
+  "description": "Data-loss-prevention plugin for DeepSeek Harness: a non-configurable tool guard floor, tool-result redaction, and fail-closed telemetry redaction",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dlp",
+    "data-loss-prevention",
+    "secret-detection",
+    "redaction",
+    "secretlint"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/CharlotteN7/dsh-dlp.git",
+  "homepage": "https://github.com/CharlotteN7/dsh-dlp#readme",
+  "npm": "https://www.npmjs.com/package/dsh-dlp",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T22:29:13.159Z",
+  "created_at": "2026-08-16T13:05:17.028Z",
+  "gh": {
+    "full_name": "CharlotteN7/dsh-dlp",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T22:28:43Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:23.585Z"
+}

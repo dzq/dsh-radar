@@ -1,7 +1,7 @@
 {
   "slug": "pi2dsh",
   "name": "pi2dsh",
-  "version": "0.12.1",
+  "version": "0.11.0",
   "description": "Bridge the Pi and DeepSeek Harness ecosystems: a general Pi Host ABI that runs unmodified Pi extensions as native DSH plugins, plus per-package conversion and MCP config translation.",
   "keywords": [
     "deepseek-harness",
@@ -24,25 +24,17 @@
     "node": ">=22.19.0"
   },
   "weekly_downloads": 1482,
-  "monthly_downloads": 1482,
-  "last_publish": "2026-08-16T02:05:56.354Z",
+  "last_publish": "2026-08-15T17:36:53.874Z",
   "created_at": "2026-08-14T02:54:40.604Z",
-  "gh": {
-    "full_name": "weijiafu14/pi2dsh",
-    "stars": 13,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T05:27:20Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 79,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 82,
-    "grade": "A"
+    "overall": 60,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:12.783Z"
+  "updated_at": "2026-08-17T03:56:16.737Z"
 }

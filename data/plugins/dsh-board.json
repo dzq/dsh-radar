@@ -1,0 +1,55 @@
+{
+  "slug": "dsh-board",
+  "name": "dsh-board",
+  "version": "0.1.0",
+  "description": "dsh client bundle: a sidebar usage & cost dashboard — token stats, peak/off-peak aware per-model pricing, membership ladder, achievements and a daily heatmap.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "dashboard",
+    "usage",
+    "cost",
+    "billing",
+    "pricing",
+    "tokens",
+    "sidebar",
+    "ui"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/dfkai/dsh-board.git",
+  "homepage": "https://github.com/dfkai/dsh-board#readme",
+  "npm": "https://www.npmjs.com/package/dsh-board",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-primitives"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T13:24:19.848Z",
+  "created_at": "2026-08-16T13:24:19.454Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:52:10.991Z"
+}

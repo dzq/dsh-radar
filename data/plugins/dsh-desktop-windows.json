@@ -1,8 +1,8 @@
 {
   "slug": "dsh-desktop-windows",
   "name": "dsh-desktop-windows",
-  "version": "0.2.8",
-  "description": "DeepSeek Harness 桌面版（Windows）· Electron desktop shell for DeepSeek Harness — 双击即用 / double-click to run · 支持选区截图提问、系统托盘、会话管理 / region screenshot, system tray, session manager",
+  "version": "0.2.3",
+  "description": "DeepSeek Harness 桌面版（Windows）· Electron desktop shell for DeepSeek Harness (dsh web) — 双击即用，无需终端 / double-click to run the harness in a standalone window",
   "keywords": [
     "deepseek",
     "deepseek-harness",
@@ -22,25 +22,17 @@
     "node": ">=22"
   },
   "weekly_downloads": 1238,
-  "monthly_downloads": 1238,
-  "last_publish": "2026-08-16T02:20:07.054Z",
+  "last_publish": "2026-08-15T16:32:10.885Z",
   "created_at": "2026-08-14T07:20:09.922Z",
-  "gh": {
-    "full_name": "ReachGa0/dsh-desktop",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T04:39:18Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 77,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 73,
-    "grade": "A"
+    "overall": 48,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:12.835Z"
+  "updated_at": "2026-08-17T03:56:17.147Z"
 }

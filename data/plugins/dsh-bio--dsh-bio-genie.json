@@ -38,18 +38,18 @@
     "full_name": "moonbowterfly/dsh-bio-genie",
     "stars": 1,
     "open_issues": 0,
-    "pushed_at": "2026-08-16T07:37:07Z",
+    "pushed_at": "2026-08-15T20:09:51Z",
     "archived": false,
     "license": "NOASSERTION"
   },
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
+    "maintenance": 99,
     "quality": 90,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 62,
+    "overall": 61,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:17.763Z"
+  "updated_at": "2026-08-17T03:50:59.795Z"
 }

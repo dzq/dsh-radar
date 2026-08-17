@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-artifacts",
+  "name": "dsh-artifacts",
+  "version": "0.1.1",
+  "description": "Claude-Artifacts-style rendering for DeepSeek Harness: turn agent output (Markdown + JSON) into beautiful, shareable, self-contained HTML cards, dashboards, galleries, and documents. Zero runtime dependencies.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "artifacts",
+    "markdown",
+    "html",
+    "dashboard",
+    "gallery",
+    "card",
+    "visualization",
+    "agent",
+    "zero-dependency"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zoahdev/dsh-artifacts.git",
+  "homepage": "https://github.com/zoahdev/dsh-artifacts#readme",
+  "npm": "https://www.npmjs.com/package/dsh-artifacts",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T13:39:15.788Z",
+  "created_at": "2026-08-16T13:35:39.241Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:52:11.398Z"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-mcp-servers",
+  "name": "dsh-mcp-servers",
+  "version": "1.260817.4",
+  "description": "DeepSeek Harness bundle that exposes Model Context Protocol (MCP) servers — stdio, streamable HTTP and legacy SSE — as native Harness tools, with a settings UI, live status, auto-reconnect, and backup/restore via local files or WebDAV.",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "mcp",
+    "model-context-protocol",
+    "tool"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/meltartica/dsh-mcp-servers.git",
+  "homepage": "https://github.com/meltartica/dsh-mcp-servers#readme",
+  "npm": "https://www.npmjs.com/package/dsh-mcp-servers",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T17:35:50.255Z",
+  "created_at": "2026-08-16T17:24:22.071Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 55,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:52:13.032Z"
+}

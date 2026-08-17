@@ -34,22 +34,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T09:41:39.400Z",
   "created_at": "2026-08-15T07:56:46.855Z",
-  "gh": {
-    "full_name": "YuanyuanMa03/cot-lint",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T09:40:51Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 85,
+    "maintenance": 59,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 60,
-    "grade": "B"
+    "overall": 50,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:18.023Z"
+  "updated_at": "2026-08-17T03:51:00.618Z"
 }

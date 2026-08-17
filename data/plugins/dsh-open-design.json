@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-open-design",
+  "name": "dsh-open-design",
+  "version": "0.0.0",
+  "description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / ",
+  "keywords": [
+    "agent-skills",
+    "ai-design",
+    "byok",
+    "claude-code-for-design",
+    "claude-design",
+    "codex-design",
+    "coding-agents",
+    "cursor-design",
+    "deepseek",
+    "deepseek-harness"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/nexu-io/open-design",
+  "homepage": "https://open-design.ai",
+  "npm": "https://www.npmjs.com/package/dsh-open-design",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T03:52:09Z",
+  "created_at": null,
+  "gh": {
+    "full_name": "nexu-io/open-design",
+    "stars": 87732,
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T03:52:09Z",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T03:54:21.524Z"
+}

@@ -39,26 +39,18 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
+  "weekly_downloads": 562,
   "last_publish": "2026-08-15T18:14:09.753Z",
   "created_at": "2026-08-15T12:48:47.174Z",
-  "gh": {
-    "full_name": "Wine-Red/dsh-codex-timeline",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T18:05:39Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
-    "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "popularity": 69,
+    "maintenance": 0,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 63,
+    "overall": 59,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:21.814Z"
+  "updated_at": "2026-08-17T03:56:22.716Z"
 }

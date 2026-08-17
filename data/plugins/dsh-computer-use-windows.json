@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-computer-use-windows",
+  "name": "dsh-computer-use-windows",
+  "version": "0.2.0",
+  "description": "Safety-gated Windows Computer Use tools for DeepSeek Harness with ModLens visual grounding.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "computer-use",
+    "windows",
+    "modlens",
+    "accessibility"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-computer-use-windows",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T21:27:22.461Z",
+  "created_at": "2026-08-16T21:27:21.453Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:56:35.369Z"
+}

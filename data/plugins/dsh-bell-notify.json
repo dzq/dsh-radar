@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-bell-notify",
+  "name": "dsh-bell-notify",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness (dsh) plugin: lifecycle bells & status. dsh Agent 生命周期铃声与状态插件（零音频文件，Web Audio 合成）。",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "dsh",
+    "cordis",
+    "notification",
+    "sound",
+    "web-audio"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Laplace-bit/dsh-bell-notify.git",
+  "homepage": "https://github.com/Laplace-bit/dsh-bell-notify#readme",
+  "npm": "https://www.npmjs.com/package/dsh-bell-notify",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T12:54:30.356Z",
+  "created_at": "2026-08-16T12:54:30.135Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:52:30.877Z"
+}

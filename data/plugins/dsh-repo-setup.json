@@ -31,18 +31,18 @@
     "full_name": "gongyijie85/dsh-repo-setup",
     "stars": 0,
     "open_issues": 0,
-    "pushed_at": "2026-08-16T08:35:46Z",
+    "pushed_at": "2026-08-16T07:25:48Z",
     "archived": false,
     "license": "MIT"
   },
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
+    "maintenance": 99,
     "quality": 85,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 60,
+    "overall": 59,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:35.462Z"
+  "updated_at": "2026-08-17T04:03:42.717Z"
 }

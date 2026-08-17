@@ -1,0 +1,58 @@
+{
+  "slug": "kt11--dsh-deepseek-balance",
+  "name": "@kt11/dsh-deepseek-balance",
+  "version": "0.1.0",
+  "description": "dsh plugin: DeepSeek API balance and daily spend card in the sidebar footer",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "deepseek",
+    "balance",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@kt11/dsh-deepseek-balance",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "pluginCenter": {
+      "expectedEntries": [
+        "deepseek-balance"
+      ],
+      "expectedClientModules": [
+        "@kt11/dsh-deepseek-balance"
+      ],
+      "expectedSkillIds": []
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {
+    "node": ">=22.19"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T03:24:40.886Z",
+  "created_at": "2026-08-17T03:24:40.549Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:51:24.407Z"
+}

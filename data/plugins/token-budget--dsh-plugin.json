@@ -1,0 +1,49 @@
+{
+  "slug": "token-budget--dsh-plugin",
+  "name": "@token-budget/dsh-plugin",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness 插件 — 通过读取企划书 / 半成品软件 / 资料预估特定模型的 token 消耗量并实时按各家定价计费",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "token",
+    "pricing",
+    "cost-estimator",
+    "budget"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/tachika710/token-budget.git",
+  "homepage": "https://github.com/tachika710/token-budget#readme",
+  "npm": "https://www.npmjs.com/package/@token-budget/dsh-plugin",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "displayName": "Token Budget & Cost Estimator",
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T14:10:12.922Z",
+  "created_at": "2026-08-16T14:10:12.600Z",
+  "gh": {
+    "full_name": "tachika710/token-budget",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T14:17:13Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 85,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 60,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T04:11:03.409Z"
+}

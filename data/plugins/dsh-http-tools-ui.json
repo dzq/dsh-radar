@@ -1,0 +1,55 @@
+{
+  "slug": "dsh-http-tools-ui",
+  "name": "dsh-http-tools-ui",
+  "version": "0.2.0",
+  "description": "UI cards for dsh-http-tools: keyed toolview rows for http_request / curl_parse / request_history",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "ui",
+    "http",
+    "tool"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/lussey820/dsh-http-tools.git",
+  "homepage": "https://github.com/lussey820/dsh-http-tools#readme",
+  "npm": "https://www.npmjs.com/package/dsh-http-tools-ui",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-tool",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T13:33:46.773Z",
+  "created_at": "2026-08-16T13:33:46.573Z",
+  "gh": {
+    "full_name": "lussey820/dsh-http-tools",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:30:40Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 57,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:53:42.745Z"
+}

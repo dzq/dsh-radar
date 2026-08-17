@@ -49,26 +49,19 @@
   "engines": {
     "node": "^22.22.3 || >=24.11.1"
   },
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
+  "weekly_downloads": 256,
+  "monthly_downloads": 256,
   "last_publish": "2026-08-15T12:41:52.777Z",
   "created_at": "2026-08-14T21:40:45.927Z",
-  "gh": {
-    "full_name": "CH4ACKO3/dsh-harmony",
-    "stars": 8,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T13:58:57Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
-    "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "popularity": 60,
+    "maintenance": 59,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 90,
-    "overall": 65,
-    "grade": "B"
+    "overall": 70,
+    "grade": "A"
   },
-  "updated_at": "2026-08-16T10:16:22.640Z"
+  "updated_at": "2026-08-17T03:50:36.808Z"
 }

@@ -27,22 +27,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-13T14:51:48.726Z",
   "created_at": "2026-08-13T14:51:48.501Z",
-  "gh": {
-    "full_name": "YYTbit/dsh-plugin-codex-bridge",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T07:48:38Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 85,
+    "maintenance": 58,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 59,
-    "grade": "B"
+    "overall": 49,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:20.000Z"
+  "updated_at": "2026-08-17T03:51:08.824Z"
 }

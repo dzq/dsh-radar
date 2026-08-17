@@ -27,22 +27,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T08:00:55.031Z",
   "created_at": "2026-08-14T02:09:54.654Z",
-  "gh": {
-    "full_name": "chancelu/dsh-llmwiki",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T06:54:08Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 98,
-    "quality": 100,
+    "maintenance": 59,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 62,
-    "grade": "B"
+    "overall": 52,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:37.949Z"
+  "updated_at": "2026-08-17T04:08:27.886Z"
 }

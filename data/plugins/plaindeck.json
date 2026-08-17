@@ -24,7 +24,6 @@
     "node": ">=22"
   },
   "weekly_downloads": 1073,
-  "monthly_downloads": 1612,
   "last_publish": "2026-08-13T15:39:46.954Z",
   "created_at": "2026-08-02T11:48:07.635Z",
   "gh": {
@@ -37,12 +36,12 @@
   },
   "scores": {
     "popularity": 76,
-    "maintenance": 98,
+    "maintenance": 38,
     "quality": 100,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 72,
-    "grade": "A"
+    "overall": 60,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:12.624Z"
+  "updated_at": "2026-08-17T03:56:18.592Z"
 }

@@ -1,7 +1,7 @@
 {
   "slug": "dsh-plug-manager",
   "name": "dsh-plug-manager",
-  "version": "0.6.3",
+  "version": "0.3.2",
   "description": "DeepSeek Harness 插件管理器：发现 GitHub dsh-plugin topic 下的插件仓库，通过 `dsh plugin` 安装/移除/更新 profile 插件，并在 设置 → 插件 → 插件市场 标签页中浏览管理。",
   "keywords": [
     "dsh",
@@ -26,24 +26,17 @@
   "engines": {},
   "weekly_downloads": 111,
   "monthly_downloads": 111,
-  "last_publish": "2026-08-16T08:36:38.220Z",
+  "last_publish": "2026-08-15T16:33:05.844Z",
   "created_at": "2026-08-15T16:33:05.542Z",
-  "gh": {
-    "full_name": "Casually/deepseek-harness-plugs-manage",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T08:36:34Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 51,
-    "maintenance": 100,
-    "quality": 100,
+    "maintenance": 59,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 76,
-    "grade": "A"
+    "overall": 66,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:15.172Z"
+  "updated_at": "2026-08-17T03:50:43.390Z"
 }

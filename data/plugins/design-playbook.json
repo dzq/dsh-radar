@@ -13,10 +13,7 @@
     "design-io",
     "design-playbook",
     "spec",
-    "craft",
-    "evaluator",
-    "console",
-    "cjk"
+    "craft"
   ],
   "license": "MIT",
   "repo": "git+https://github.com/Bandersnatch0x/design-playbook.git",
@@ -29,8 +26,7 @@
     }
   },
   "engines": {},
-  "weekly_downloads": 900,
-  "monthly_downloads": 1330,
+  "weekly_downloads": 687,
   "last_publish": "2026-08-15T17:10:53.616Z",
   "created_at": "2026-07-27T02:06:22.607Z",
   "gh": {
@@ -42,13 +38,13 @@
     "license": null
   },
   "scores": {
-    "popularity": 74,
-    "maintenance": 99,
+    "popularity": 71,
+    "maintenance": 39,
     "quality": 90,
     "security": 40,
     "dsh_compat": 75,
-    "overall": 77,
-    "grade": "A"
+    "overall": 65,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:12.991Z"
+  "updated_at": "2026-08-17T03:56:21.898Z"
 }

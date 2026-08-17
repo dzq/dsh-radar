@@ -1,0 +1,51 @@
+{
+  "slug": "lijian-ui--dsh-session-cleaner",
+  "name": "@lijian-ui/dsh-session-cleaner",
+  "version": "0.1.1",
+  "description": "Session management plugin for DeepSeek Harness (dsh): list / delete / archive & restore sessions, with a built-in \"Archived\" group and a delete confirm dialog (real delete, not trash). 为 DeepSeek Harness 提供会话管理：列表 / 真删除（二次确认）/ 归档分组与恢复。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "session",
+    "session-cleaner",
+    "archive",
+    "delete",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/lijian-ui/dsh-session-cleaner.git",
+  "homepage": "https://github.com/lijian-ui/dsh-session-cleaner#readme",
+  "npm": "https://www.npmjs.com/package/@lijian-ui/dsh-session-cleaner",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-api-gateway"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T02:56:22.420Z",
+  "created_at": "2026-08-17T02:40:16.773Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:52:15.905Z"
+}

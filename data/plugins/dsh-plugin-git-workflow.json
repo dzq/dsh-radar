@@ -26,26 +26,26 @@
   "engines": {
     "node": ">=18"
   },
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
+  "weekly_downloads": 78,
+  "monthly_downloads": 78,
   "last_publish": "2026-08-14T10:16:40.659Z",
   "created_at": "2026-08-14T09:43:45.766Z",
   "gh": {
     "full_name": "truelove-dreamer/dsh-plugin-git-workflow",
-    "stars": 2,
+    "stars": 1,
     "open_issues": 0,
     "pushed_at": "2026-08-14T10:09:49Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 47,
     "maintenance": 98,
     "quality": 75,
     "security": 40,
     "dsh_compat": 75,
-    "overall": 56,
+    "overall": 67,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:43.758Z"
+  "updated_at": "2026-08-17T03:50:44.415Z"
 }

@@ -27,22 +27,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-13T19:36:19.986Z",
   "created_at": "2026-08-13T17:28:46.496Z",
-  "gh": {
-    "full_name": "xiaomengxinbb/dsh-qq-bridge",
-    "stars": 4,
-    "open_issues": 7,
-    "pushed_at": "2026-08-16T06:55:16Z",
-    "archived": false,
-    "license": "Apache-2.0"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "maintenance": 58,
+    "quality": 90,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 53,
+    "overall": 43,
     "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:27.445Z"
+  "updated_at": "2026-08-17T03:52:29.649Z"
 }

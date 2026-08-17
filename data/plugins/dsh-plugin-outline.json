@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-plugin-outline",
+  "name": "dsh-plugin-outline",
+  "version": "0.2.1",
+  "description": "ChatGPT-style right-edge quick navigation for dsh web: one dash per user turn, hover to expand an outline panel, click to jump. Styled 1:1 with chat.deepseek.com design tokens.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "outline",
+    "navigation"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/iluluyu/dsh-plugin-outline.git",
+  "homepage": "https://github.com/iluluyu/dsh-plugin-outline#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-outline",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "cordis.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T18:07:11.060Z",
+  "created_at": "2026-08-16T17:34:50.987Z",
+  "gh": {
+    "full_name": "iluluyu/dsh-plugin-outline",
+    "stars": 1,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T18:44:12Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 64,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:03.912Z"
+}

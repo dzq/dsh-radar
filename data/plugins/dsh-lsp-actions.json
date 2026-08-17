@@ -32,26 +32,26 @@
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
+  "weekly_downloads": 180,
+  "monthly_downloads": 180,
   "last_publish": "2026-08-15T08:40:09.605Z",
   "created_at": "2026-08-15T08:40:09.230Z",
   "gh": {
     "full_name": "PerryLink/dsh-lsp-actions",
-    "stars": 4,
+    "stars": 3,
     "open_issues": 0,
     "pushed_at": "2026-08-15T13:22:04Z",
     "archived": false,
     "license": "Apache-2.0"
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 56,
     "maintenance": 99,
     "quality": 100,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 62,
-    "grade": "B"
+    "overall": 76,
+    "grade": "A"
   },
-  "updated_at": "2026-08-16T10:16:39.088Z"
+  "updated_at": "2026-08-17T03:50:38.464Z"
 }

@@ -1,0 +1,57 @@
+{
+  "slug": "mattismegevand--dsh-open",
+  "name": "@mattismegevand/dsh-open",
+  "version": "0.1.0-rc.1",
+  "description": "A Codex-style workspace Open menu for DeepSeek Harness Web",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "launcher",
+    "ui",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/mattismegevand/dsh-open.git",
+  "homepage": "https://github.com/mattismegevand/dsh-open#readme",
+  "npm": "https://www.npmjs.com/package/@mattismegevand/dsh-open",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@mattismegevand/dsh-dock",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T14:34:40.053Z",
+  "created_at": "2026-08-16T14:34:39.807Z",
+  "gh": {
+    "full_name": "mattismegevand/dsh-open",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T14:30:45Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 60,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:21.741Z"
+}

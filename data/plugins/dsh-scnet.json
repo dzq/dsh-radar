@@ -14,8 +14,8 @@
     "dcu"
   ],
   "license": "MIT",
-  "repo": "",
-  "homepage": "",
+  "repo": "git+https://github.com/lql341/dsh-scnet.git",
+  "homepage": "https://github.com/lql341/dsh-scnet#readme",
   "npm": "https://www.npmjs.com/package/dsh-scnet",
   "dsh_compat": true,
   "dsh_meta": {
@@ -29,19 +29,26 @@
   "engines": {
     "node": ">=20"
   },
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
+  "weekly_downloads": 22,
+  "monthly_downloads": 22,
   "last_publish": "2026-08-14T16:58:52.000Z",
   "created_at": "2026-08-14T16:58:51.729Z",
-  "gh": null,
+  "gh": {
+    "full_name": "lql341/dsh-scnet",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T14:46:04Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
-    "popularity": 0,
-    "maintenance": 59,
-    "quality": 75,
+    "popularity": 34,
+    "maintenance": 98,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 69,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:16.574Z"
+  "updated_at": "2026-08-17T03:50:48.515Z"
 }

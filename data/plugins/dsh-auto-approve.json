@@ -38,26 +38,19 @@
   "engines": {
     "node": ">=22.19.0"
   },
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
+  "weekly_downloads": 420,
+  "monthly_downloads": 420,
   "last_publish": "2026-08-15T03:41:07.415Z",
   "created_at": "2026-08-15T03:28:56.030Z",
-  "gh": {
-    "full_name": "Jiao-XXX/dsh-auto-approve",
-    "stars": 4,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T03:40:54Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
-    "popularity": 0,
-    "maintenance": 99,
-    "quality": 100,
+    "popularity": 66,
+    "maintenance": 59,
+    "quality": 90,
     "security": 65,
     "dsh_compat": 80,
-    "overall": 66,
-    "grade": "B"
+    "overall": 72,
+    "grade": "A"
   },
-  "updated_at": "2026-08-16T10:16:34.895Z"
+  "updated_at": "2026-08-17T03:50:30.456Z"
 }

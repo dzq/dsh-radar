@@ -1,0 +1,53 @@
+{
+  "slug": "dshmarketplace-plugin",
+  "name": "dshmarketplace-plugin",
+  "version": "0.1.1",
+  "description": "Browse and install DeepSeek Harness plugins from inside DSH, in English or Chinese.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "plugin-store",
+    "marketplace"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/DshMarketPlace/dsh-plugins-store.git",
+  "homepage": "https://dshmarketplace.dev",
+  "npm": "https://www.npmjs.com/package/dshmarketplace-plugin",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-commands",
+        "@deepseek-ai/dsh-client-ui-primitives",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-settings-plugins"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T04:05:28.494Z",
+  "created_at": "2026-08-17T03:07:10.418Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 54,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:07:17.030Z"
+}

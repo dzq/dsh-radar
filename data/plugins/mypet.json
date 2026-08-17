@@ -15,8 +15,8 @@
     "coding-companion"
   ],
   "license": "MIT",
-  "repo": "",
-  "homepage": "",
+  "repo": "git+https://github.com/qiqikuaidianpao/mypet.git",
+  "homepage": "https://github.com/qiqikuaidianpao/mypet#readme",
   "npm": "https://www.npmjs.com/package/mypet",
   "dsh_compat": true,
   "dsh_meta": {
@@ -32,19 +32,26 @@
     }
   },
   "engines": {},
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
+  "weekly_downloads": 56,
+  "monthly_downloads": 56,
   "last_publish": "2026-08-14T03:27:01.502Z",
   "created_at": "2026-08-14T02:30:15.298Z",
-  "gh": null,
+  "gh": {
+    "full_name": "qiqikuaidianpao/mypet",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T15:44:54Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
-    "popularity": 0,
-    "maintenance": 59,
-    "quality": 75,
+    "popularity": 44,
+    "maintenance": 98,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
-    "grade": "C"
+    "overall": 71,
+    "grade": "A"
   },
-  "updated_at": "2026-08-16T10:16:15.692Z"
+  "updated_at": "2026-08-17T03:50:45.237Z"
 }

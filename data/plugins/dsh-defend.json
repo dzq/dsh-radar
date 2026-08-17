@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-defend",
+  "name": "dsh-defend",
+  "version": "0.1.0",
+  "description": "Prompt-injection, jailbreak, and secret-leak detection with allow/ask/block interception for DeepSeek Harness: an Aho-Corasick pattern engine and heuristics ported from the Prompt-Injection-Payloads, Jailbreak-Detector, and Secret-Key-Leaker-Detect assets",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "cordis",
+    "security",
+    "prompt-injection",
+    "jailbreak",
+    "secret-scanning",
+    "llm-security"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/PerryLink/dsh-defend.git",
+  "homepage": "https://github.com/PerryLink/dsh-defend#readme",
+  "npm": "https://www.npmjs.com/package/dsh-defend",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T17:51:53.612Z",
+  "created_at": "2026-08-16T17:51:53.203Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:52:15.493Z"
+}

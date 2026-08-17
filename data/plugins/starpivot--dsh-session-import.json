@@ -1,0 +1,57 @@
+{
+  "slug": "starpivot--dsh-session-import",
+  "name": "@starpivot/dsh-session-import",
+  "version": "0.1.1",
+  "description": "Import Cursor, Codex, and Claude Code sessions and skills into DeepSeek Harness",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "session-import",
+    "claude-code",
+    "codex",
+    "cursor"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/StarPivotNet/dsh-plugins-public.git",
+  "homepage": "https://github.com/StarPivotNet/dsh-plugins-public/tree/main/packages/session-import",
+  "npm": "https://www.npmjs.com/package/@starpivot/dsh-session-import",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-connection"
+      ]
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T00:52:40.158Z",
+  "created_at": "2026-08-17T00:43:40.945Z",
+  "gh": {
+    "full_name": "StarPivotNet/dsh-plugins-public",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T01:32:05Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 56,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:22.973Z"
+}

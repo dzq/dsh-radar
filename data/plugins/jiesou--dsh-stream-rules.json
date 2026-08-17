@@ -23,26 +23,19 @@
     }
   },
   "engines": {},
-  "weekly_downloads": 0,
-  "monthly_downloads": 0,
+  "weekly_downloads": 13,
+  "monthly_downloads": 13,
   "last_publish": "2026-08-14T02:30:04.994Z",
   "created_at": "2026-08-14T02:30:04.714Z",
-  "gh": {
-    "full_name": "jiesou/dsh-stream-rules",
-    "stars": 4,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T15:31:11Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
-    "popularity": 0,
-    "maintenance": 98,
-    "quality": 85,
+    "popularity": 29,
+    "maintenance": 58,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 59,
+    "overall": 56,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:37.795Z"
+  "updated_at": "2026-08-17T03:50:48.924Z"
 }

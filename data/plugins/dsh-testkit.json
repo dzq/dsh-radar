@@ -26,25 +26,17 @@
     "node": ">=22"
   },
   "weekly_downloads": 1027,
-  "monthly_downloads": 1027,
   "last_publish": "2026-08-15T17:43:00.249Z",
   "created_at": "2026-08-15T08:52:03.554Z",
-  "gh": {
-    "full_name": "iiwish/dsh-testkit",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T04:30:36Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 75,
-    "maintenance": 99,
-    "quality": 90,
+    "maintenance": 0,
+    "quality": 80,
     "security": 50,
-    "dsh_compat": 80,
-    "overall": 80,
-    "grade": "A"
+    "dsh_compat": 75,
+    "overall": 57,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:13.095Z"
+  "updated_at": "2026-08-17T03:56:18.798Z"
 }

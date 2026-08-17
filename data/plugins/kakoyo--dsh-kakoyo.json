@@ -1,0 +1,42 @@
+{
+  "slug": "kakoyo--dsh-kakoyo",
+  "name": "@kakoyo/dsh-kakoyo",
+  "version": "0.2.0",
+  "description": "@kakoyo DeepSeek Harness settings card: shows the Kakoyo plugin roster in Settings → Plugins → Plugin config list (standalone; no bundled dependencies)",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "kakoyo",
+    "settings"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/@kakoyo/dsh-kakoyo",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T20:14:07.584Z",
+  "created_at": "2026-08-16T19:00:48.450Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 48,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T03:56:35.878Z"
+}

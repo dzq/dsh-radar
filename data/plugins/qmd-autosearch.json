@@ -1,7 +1,7 @@
 {
   "slug": "qmd-autosearch",
   "name": "qmd-autosearch",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "DSH plugin: auto-supplement QMD semantic search when the model greps/globs a knowledge-base directory",
   "keywords": [
     "dsh-plugin",
@@ -16,18 +16,14 @@
   "repo": "git+https://github.com/zhangzhenwen1/qmd-autosearch.git",
   "homepage": "https://github.com/zhangzhenwen1/qmd-autosearch",
   "npm": "https://www.npmjs.com/package/qmd-autosearch",
-  "dsh_compat": true,
-  "dsh_meta": {
-    "bundle": {
-      "patch": "./cordis.patch.yml"
-    }
-  },
+  "dsh_compat": false,
+  "dsh_meta": null,
   "engines": {
     "node": ">=18"
   },
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-16T01:30:34.054Z",
+  "last_publish": "2026-08-15T10:52:08.725Z",
   "created_at": "2026-08-15T10:52:08.511Z",
   "gh": {
     "full_name": "zhangzhenwen1/qmd-autosearch",
@@ -39,12 +35,12 @@
   },
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
+    "maintenance": 99,
     "quality": 85,
     "security": 50,
-    "dsh_compat": 75,
-    "overall": 60,
-    "grade": "B"
+    "dsh_compat": 30,
+    "overall": 50,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:31.461Z"
+  "updated_at": "2026-08-17T03:55:26.707Z"
 }

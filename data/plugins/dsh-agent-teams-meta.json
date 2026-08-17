@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-agent-teams-meta",
+  "name": "dsh-agent-teams-meta",
+  "version": "0.1.1",
+  "description": "Independent team coordination, dynamic routing, usage ledger, and Web panel for DeepSeek Harness",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "team-coordination",
+    "routing",
+    "ledger",
+    "llm"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-agent-teams-meta",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T15:56:38.813Z",
+  "created_at": "2026-08-16T15:04:12.596Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 60,
+    "quality": 90,
+    "security": 50,
+    "dsh_compat": 85,
+    "overall": 55,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:52:31.702Z"
+}

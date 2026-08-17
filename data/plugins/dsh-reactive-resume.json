@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-reactive-resume",
+  "name": "dsh-reactive-resume",
+  "version": "0.0.0",
+  "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
+  "keywords": [
+    "ai",
+    "better-auth",
+    "hacktoberfest",
+    "javascript",
+    "react",
+    "resume-builder",
+    "self-hosted",
+    "tailwindcss",
+    "tanstack-start",
+    "typescript"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/amruthpillai/reactive-resume",
+  "homepage": "https://rxresu.me",
+  "npm": "https://www.npmjs.com/package/dsh-reactive-resume",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T14:51:18Z",
+  "created_at": null,
+  "gh": {
+    "full_name": "amruthpillai/reactive-resume",
+    "stars": 40655,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T14:51:18Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T03:54:55.350Z"
+}

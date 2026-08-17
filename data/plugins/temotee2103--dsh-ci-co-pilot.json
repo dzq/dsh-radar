@@ -1,7 +1,7 @@
 {
   "slug": "temotee2103--dsh-ci-co-pilot",
   "name": "@temotee2103/dsh-ci-co-pilot",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "description": "GitHub CI co-pilot for DeepSeek Harness: PR review, CI failure fixing, issue triage and release notes. Everything is a plugin.",
   "keywords": [
     "deepseek-harness",
@@ -30,17 +30,17 @@
   },
   "weekly_downloads": 66,
   "monthly_downloads": 66,
-  "last_publish": "2026-08-16T06:27:38.106Z",
+  "last_publish": "2026-08-15T12:21:01.157Z",
   "created_at": "2026-08-15T12:21:00.850Z",
   "gh": null,
   "scores": {
     "popularity": 46,
-    "maintenance": 60,
+    "maintenance": 59,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
     "overall": 61,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:15.225Z"
+  "updated_at": "2026-08-17T03:50:44.828Z"
 }

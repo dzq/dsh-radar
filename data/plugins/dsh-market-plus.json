@@ -1,7 +1,7 @@
 {
   "slug": "dsh-market-plus",
   "name": "dsh-market-plus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DSH 插件市场增强版：dsh-market 基座 + dsh-store 的 npm 权威源/质量验证/GitHub 热度/代理注入/回退安装（MIT，融合 dsh-market 与 dsh-store）",
   "keywords": [
     "deepseek",
@@ -35,24 +35,17 @@
   "engines": {},
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-16T09:46:06.071Z",
+  "last_publish": "2026-08-16T11:18:35.651Z",
   "created_at": "2026-08-16T09:46:05.839Z",
-  "gh": {
-    "full_name": "dsh-market/dsh-market",
-    "stars": 416,
-    "open_issues": 11,
-    "pushed_at": "2026-08-16T07:22:51Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 85,
+    "maintenance": 59,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 85,
-    "overall": 62,
-    "grade": "B"
+    "overall": 51,
+    "grade": "C"
   },
-  "updated_at": "2026-08-16T10:16:27.082Z"
+  "updated_at": "2026-08-17T03:52:09.969Z"
 }

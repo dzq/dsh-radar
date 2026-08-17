@@ -24,12 +24,12 @@
       "patch": "./cordis.patch.yml"
     },
     "client": {
+      "platform": "web",
       "inject": [
         "@deepseek-ai/dsh-client-runtime",
         "@deepseek-ai/dsh-client-ui-conversation",
         "react"
-      ],
-      "platform": "web"
+      ]
     }
   },
   "engines": {
@@ -43,18 +43,18 @@
     "full_name": "PiyotaHu/muxiva-dsh-voice",
     "stars": 1,
     "open_issues": 0,
-    "pushed_at": "2026-08-16T08:22:29Z",
+    "pushed_at": "2026-08-16T06:45:56Z",
     "archived": false,
-    "license": "Apache-2.0"
+    "license": "NOASSERTION"
   },
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
-    "quality": 65,
+    "maintenance": 99,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 57,
+    "overall": 58,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:31.978Z"
+  "updated_at": "2026-08-17T03:54:52.293Z"
 }

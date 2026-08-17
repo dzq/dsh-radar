@@ -1,7 +1,7 @@
 {
   "slug": "dsh-remote-plugin",
   "name": "dsh-remote-plugin",
-  "version": "0.5.3",
+  "version": "0.4.8",
   "description": "DSH Remote 官方 bundle 插件：DSH 左侧原生边栏入口 + 右侧抽屉内嵌管理控制台；内置网关随 DSH 自动启停(systemd 独立单元)，抽屉直显令牌与设备监控；网关提供 /fs/* 文件传输端点(列表/断点下载/上传)，配合 Android App 远程操控会话/审批/提问/goal 与文件互传(多服务器测速切换、聊天记录离线缓存)。",
   "keywords": [
     "dsh-plugin",
@@ -33,24 +33,17 @@
   },
   "weekly_downloads": 389,
   "monthly_downloads": 389,
-  "last_publish": "2026-08-16T08:04:13.075Z",
+  "last_publish": "2026-08-15T16:28:05.792Z",
   "created_at": "2026-08-15T14:03:41.429Z",
-  "gh": {
-    "full_name": "Blank-not-black/dsh-Remote",
-    "stars": 4,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T08:10:53Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 65,
-    "maintenance": 100,
-    "quality": 85,
+    "maintenance": 59,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 85,
-    "overall": 78,
-    "grade": "A"
+    "overall": 68,
+    "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:13.978Z"
+  "updated_at": "2026-08-17T03:50:31.681Z"
 }

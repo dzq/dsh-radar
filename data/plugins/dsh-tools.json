@@ -1,7 +1,7 @@
 {
   "slug": "dsh-tools",
   "name": "dsh-tools",
-  "version": "0.5.3",
+  "version": "0.6.0",
   "description": "DSH web plugin: personal toolbox with per-feature toggles, task-done corner notification, and one-click dsh web restart.",
   "keywords": [
     "deepseek",
@@ -29,24 +29,24 @@
   },
   "weekly_downloads": 0,
   "monthly_downloads": 0,
-  "last_publish": "2026-08-16T09:11:17.413Z",
+  "last_publish": "2026-08-16T10:36:55.277Z",
   "created_at": "2026-08-16T09:11:17.155Z",
   "gh": {
     "full_name": "qq1376868542-lang/dsh-tools",
     "stars": 0,
     "open_issues": 0,
-    "pushed_at": "2026-08-16T08:48:23Z",
+    "pushed_at": "2026-08-16T10:35:57Z",
     "archived": false,
     "license": "MIT"
   },
   "scores": {
     "popularity": 0,
-    "maintenance": 100,
+    "maintenance": 99,
     "quality": 100,
     "security": 50,
     "dsh_compat": 85,
-    "overall": 65,
+    "overall": 64,
     "grade": "B"
   },
-  "updated_at": "2026-08-16T10:16:22.951Z"
+  "updated_at": "2026-08-17T03:51:20.513Z"
 }

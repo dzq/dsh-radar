@@ -1,0 +1,43 @@
+{
+  "slug": "dsh-dependency-audit",
+  "name": "dsh-dependency-audit",
+  "version": "0.1.0",
+  "description": "依赖安全审计：扫描项目依赖的已知漏洞（OSV.dev）并检测过期依赖（npm registry），返回漏洞严重级/修复版本与升级幅度",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "security",
+    "vulnerability",
+    "osv",
+    "audit",
+    "依赖",
+    "漏洞"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-dependency-audit",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T11:02:05.309Z",
+  "created_at": "2026-08-16T11:02:05.108Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 59,
+    "quality": 75,
+    "security": 65,
+    "dsh_compat": 80,
+    "overall": 53,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:03:47.266Z"
+}

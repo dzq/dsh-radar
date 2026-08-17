@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-remotion",
+  "name": "dsh-remotion",
+  "version": "0.1.1",
+  "description": "DSH 视频创作技能插件：注册 Remotion 官方移植技能（React 编程式视频：动画/音频/字幕/3D/图表/字体，38 个规则文件），安装即用。",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "skills",
+    "video",
+    "dsh-plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/STARDUSTLC666/dsh-remotion.git",
+  "homepage": "https://github.com/STARDUSTLC666/dsh-remotion#readme",
+  "npm": "https://www.npmjs.com/package/dsh-remotion",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "weekly_downloads": 54,
+  "monthly_downloads": 54,
+  "last_publish": "2026-08-16T11:14:35.026Z",
+  "created_at": "2026-08-14T20:42:23.205Z",
+  "gh": {
+    "full_name": "STARDUSTLC666/dsh-remotion",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T11:10:06Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 44,
+    "maintenance": 99,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 69,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:50:46.469Z"
+}

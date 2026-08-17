@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-click",
+  "name": "dsh-click",
+  "version": "0.1.1",
+  "description": "Cross-platform native desktop control tools for DeepSeek Harness (Windows first): screen_shot, screen_read (accessibility tree + pixel description for text-only models), click/type/scroll/key, and app_list/app_launch — every mutating action gated by appro",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "cordis",
+    "computer-use",
+    "windows-automation",
+    "uiautomation",
+    "desktop-control",
+    "screen-reader"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/PerryLink/dsh-click.git",
+  "homepage": "https://github.com/PerryLink/dsh-click#readme",
+  "npm": "https://www.npmjs.com/package/dsh-click",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T15:28:33.619Z",
+  "created_at": "2026-08-16T15:20:31.073Z",
+  "gh": {
+    "full_name": "PerryLink/dsh-click",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T15:28:18Z",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T04:11:04.454Z"
+}

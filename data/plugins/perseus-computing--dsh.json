@@ -1,0 +1,50 @@
+{
+  "slug": "perseus-computing--dsh",
+  "name": "@perseus-computing/dsh",
+  "version": "0.1.1",
+  "description": "Perseus Vault memory plugin for DeepSeek Harness: automatic pre-step recall injection from a governed memory vault",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "memory",
+    "perseus-vault",
+    "mcp",
+    "agent-memory"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Perseus-Computing-LLC/perseus-vault-dsh.git",
+  "homepage": "https://github.com/Perseus-Computing-LLC/perseus-vault-dsh#readme",
+  "npm": "https://www.npmjs.com/package/@perseus-computing/dsh",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T18:43:33.355Z",
+  "created_at": "2026-08-16T17:28:25.443Z",
+  "gh": {
+    "full_name": "Perseus-Computing-LLC/perseus-vault-dsh",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T18:44:25Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 100,
+    "quality": 100,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 63,
+    "grade": "B"
+  },
+  "updated_at": "2026-08-17T03:51:04.322Z"
+}
