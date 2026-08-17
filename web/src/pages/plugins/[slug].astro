@@ -1,8 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import RadarChart from '../../components/RadarChart.astro';
-import { loadJson, listPlugins, DATA_DIR } from '../../lib/paths.mjs';
-import { join } from 'node:path';
+import { loadJson, listPlugins } from '../../lib/paths.mjs';
 
 export async function getStaticPaths() {
   const slugs = await listPlugins();
@@ -23,7 +22,39 @@ function daysAgo(iso: string) {
   if (!iso) return '—';
   return Math.floor((Date.now() - new Date(iso).getTime()) / (24*60*60*1000)) + ' 天前';
 }
+
+// 轻量 Markdown → HTML 转换（npm readme 通常已是 HTML，直接返回）
+function mdToHtml(md: string): string {
+  if (!md) return '';
+  // npm readme 字段通常已经是 HTML（以 < 开头）
+  if (md.trim().startsWith('<')) {
+    // 限制长度，截断过长内容
+    return md.slice(0, 800);
+  }
+  let h = md
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/```[\s\S]*?```/g, (m) => `<pre><code>${m.slice(3,-3).replace(/</g,'&lt;').replace(/>/g,'&gt;')}</code></pre>`)
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
+    .replace(/^### (.+)$/gm, '<h4>$1</h4>')
+    .replace(/^## (.+)$/gm, '<h3>$1</h3>')
+    .replace(/^# (.+)$/gm, '<h2>$1</h2>')
+    .replace(/\*\*\*(.+?)\*\*\*/g, '<strong><em>$1</em></strong>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
+    .replace(/^[-*] (.+)$/gm, '<li>$1</li>')
+    .replace(/^&gt; (.+)$/gm, '<blockquote>$1</blockquote>')
+    .split(/\n{2,}/)
+    .map((p) => p.trim().replace(/\n/g, '<br/>'))
+    .filter(Boolean)
+    .map((p) => (p.startsWith('<h') || p.startsWith('<pre') || p.startsWith('<blockquote') || p.startsWith('<li') || p.startsWith('<ul') || p.startsWith('<ol')) ? p : `<p>${p}</p>`)
+    .join('\n');
+  return h;
+}
+
+const readmeHtml = plugin.readme ? mdToHtml(plugin.readme.slice(0, 800)) : '';
 ---
+
 <Layout title={`${plugin.name} — DSH Radar`} active="plugins">
   <section class="container" style="padding-top:32px;">
     <a href="/plugins" style="font-size:13px;color:var(--text-dim);">← 返回列表</a>
@@ -48,6 +79,18 @@ function daysAgo(iso: string) {
 
     <div class="plugin-detail">
       <div>
+        {readmeHtml && (
+          <div class="info-block">
+            <h3>README</h3>
+            <div class="readme-preview" set:html={readmeHtml} />
+            {plugin.repo && (
+              <a href={plugin.repo.replace(/^git\+/, '').replace(/\.git$/, '')} target="_blank" rel="noopener" style="font-size:13px;color:var(--accent);">
+                查看完整 README →
+              </a>
+            )}
+          </div>
+        )}
+
         <div class="info-block">
           <h3>版本兼容矩阵</h3>
           <table class="matrix-table">
@@ -107,22 +150,28 @@ function daysAgo(iso: string) {
           <h3>安装</h3>
           <pre style="background:var(--bg);padding:12px;border-radius:6px;overflow-x:auto;color:var(--accent);font-size:12px;"><code>npm install {plugin.name}</code></pre>
         </div>
-
-        {plugin.readme && (
-          <div class="info-block" style="margin-top:16px;">
-            <h3>README</h3>
-            <div style="font-size:13px;color:var(--text-dim);line-height:1.7;max-height:320px;overflow-y:auto;white-space:pre-wrap;word-break:break-word;">
-              {plugin.readme.slice(0, 600)}
-              {plugin.readme.length > 600 && '…'}
-            </div>
-            {plugin.repo && (
-              <a href={plugin.repo.replace(/^git\+/, '').replace(/\.git$/, '')} target="_blank" rel="noopener" style="font-size:13px;color:var(--accent);">
-                查看完整 README →
-              </a>
-            )}
-          </div>
-        )}
       </aside>
     </div>
   </section>
 </Layout>
+
+<style>
+.readme-preview {
+  font-size: 13px;
+  color: var(--text-dim);
+  line-height: 1.7;
+  max-height: 280px;
+  overflow-y: auto;
+}
+.readme-preview :global(h2) { font-size: 15px; color: var(--text); margin: 12px 0 6px; }
+.readme-preview :global(h3) { font-size: 14px; color: var(--text); margin: 10px 0 4px; }
+.readme-preview :global(h4) { font-size: 13px; color: var(--text); margin: 8px 0 4px; }
+.readme-preview :global(p) { margin: 6px 0; }
+.readme-preview :global(a) { color: var(--accent); }
+.readme-preview :global(code) { background: var(--bg); padding: 1px 5px; border-radius: 3px; font-size: 12px; }
+.readme-preview :global(pre) { background: var(--bg); padding: 10px; border-radius: 6px; overflow-x: auto; margin: 8px 0; }
+.readme-preview :global(pre code) { background: none; padding: 0; }
+.readme-preview :global(li) { margin-left: 16px; }
+.readme-preview :global(blockquote) { border-left: 3px solid var(--accent); padding-left: 10px; color: var(--text-mute); margin: 8px 0; }
+.readme-preview :global(strong) { color: var(--text); }
+</style>
