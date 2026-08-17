@@ -1,0 +1,70 @@
+{
+  "stats": {
+    "total": 3,
+    "by_grade": {
+      "B": 2,
+      "D": 1
+    },
+    "by_compat": 0,
+    "total_weekly_downloads": 0,
+    "generated_at": "2026-08-17T05:42:25.376Z",
+    "build_ms": 68837
+  },
+  "top10": [
+    {
+      "slug": "dsh-open-design",
+      "name": "dsh-open-design",
+      "version": "0.0.0",
+      "description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / ",
+      "weekly_downloads": 0,
+      "stars": 87763,
+      "grade": "B",
+      "overall": 58,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "agent-skills",
+        "ai-design",
+        "byok",
+        "claude-code-for-design",
+        "claude-design"
+      ]
+    },
+    {
+      "slug": "dsh-reactive-resume",
+      "name": "dsh-reactive-resume",
+      "version": "0.0.0",
+      "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
+      "weekly_downloads": 0,
+      "stars": 40661,
+      "grade": "B",
+      "overall": 58,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "ai",
+        "better-auth",
+        "hacktoberfest",
+        "javascript",
+        "react"
+      ]
+    },
+    {
+      "slug": "dsh-deepseek-harness",
+      "name": "dsh-deepseek-harness",
+      "version": "0.0.0",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "weekly_downloads": 0,
+      "stars": 8,
+      "grade": "D",
+      "overall": 35,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "ai-agents",
+        "cordis",
+        "dsh"
+      ]
+    }
+  ]
+}

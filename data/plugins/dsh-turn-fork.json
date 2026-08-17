@@ -1,0 +1,55 @@
+{
+  "slug": "dsh-turn-fork",
+  "name": "dsh-turn-fork",
+  "version": "0.1.0",
+  "description": "Turn-atomic message editing, retry, reroll and version-tree navigation for DeepSeek Harness conversations",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "plugin",
+    "message-edit",
+    "retry",
+    "reroll",
+    "fork",
+    "version-tree"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/ruby1304/dsh-turn-fork.git",
+  "homepage": "https://github.com/ruby1304/dsh-turn-fork#readme",
+  "npm": "https://www.npmjs.com/package/dsh-turn-fork",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "readme": "# dsh-turn-fork\n\n为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 会话提供\n回合级（turn-atomic）的消息编辑、重试、重新生成与版本树导航。\n\n[English](README.md)\n\n- 编辑任意已落定的用户消息，并从该回合重新分支执行（后续回合 `截断` 或 `保留`）。\n- 重试任意历史回合；重新生成最后一轮的回复。\n- 版本树 Timeline + 跨分支撤销/重做导航。\n- 分支日志**在 dsh 进程重启后仍可读取**——这正是社区插件 `dsh-message-edit`\n  未通过的 P0 耐久性保证（见下文）。\n- 只使用官方插槽：Timeline 标签页、会话头部操作、每条助手消息的操作区。\n  无 DOM 注入、无文本猜测定位。\n- 通过 `dsh-client-locale` 接入的中英双语界面。\n\n## 安装\n\n```bash\ndsh plugin add dsh-turn-fork\n```\n\n重启 dsh 后生效。插件会注册一个 **回合分支（Turn Fork）** 标签页（位于\nTrajectory 与 Prompt Studio 之间）、会话头部的撤销/重做/重新生成按钮，以及\n每条已落定助手消息上的重试/重新生成按钮。\n\n## 为什么会有这个插件\n\n`dsh-message-edit`（v0.2.3）存在一个 P0 致命缺陷：其持久化溯源事件\n`message-edit/version` **没有** `ignorable` 标记。live 写盘路径照单全收，\n但 dsh 重启后持久层的冷读词汇表守卫（`assertEventsSupported`）会以\n`SessionFormatUnsupportedError` 拒绝",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T05:21:14.275Z",
+  "created_at": "2026-08-17T05:21:13.954Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T05:46:02.416Z"
+}

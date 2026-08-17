@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-quota-status",
+  "name": "dsh-quota-status",
+  "version": "0.2.0",
+  "description": "Live account quota/balance widget for DeepSeek Harness web: DeepSeek API balance plus Kimi For Coding plan usage (weekly + 5h windows, remaining and reset countdowns) in one compact card.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "quota",
+    "balance",
+    "kimi",
+    "kimi-coding",
+    "billing"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/ruby1304/dsh-quota-status.git",
+  "homepage": "https://github.com/ruby1304/dsh-quota-status",
+  "npm": "https://www.npmjs.com/package/dsh-quota-status",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-cordis-client-runner"
+      ],
+      "immediately": true
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-quota-status\n\n[![npm](https://img.shields.io/npm/v/dsh-quota-status)](https://www.npmjs.com/package/dsh-quota-status)\n[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n\n> DeepSeek Harness (DSH) web 插件：在一个极简卡片里实时查看 **DeepSeek API 余额** 和 **Kimi For Coding 套餐余量**（周限 + 5 小时窗口），带剩余量、进度条、重置倒计时和 DeepSeek 波峰/波谷电价提醒。\n>\n> A DeepSeek Harness (DSH) web plugin: one minimal card for the **DeepSeek API balance** and the **Kimi For Coding plan quota** (weekly + 5h windows) — remaining amounts, progress bars, reset countdowns, and a DeepSeek peak/off-peak pricing reminder.\n\n![收起 / Collapsed](docs/images/card-collapsed.png)\n\n![展开 / Expanded](docs/images/card-expanded.png)\n\n## 功能 / Features\n\n- 开箱即用：默认读取 `DEEPSEEK_API_KEY` 与 `KIMI_CODING_API_KEY`（经 dsh credentials seam，密钥永不进入浏览器）。",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T05:20:52.041Z",
+  "created_at": "2026-08-17T05:20:51.849Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T05:46:02.288Z"
+}

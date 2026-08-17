@@ -110,7 +110,28 @@ async function fetchNpmSearch() {
   return LIMIT > 0 ? all.slice(0, LIMIT) : all;
 }
 
-// ============== 步骤 3：npm metadata（缓存）==============
+// ============== 步骤 3：GitHub 仓库名搜索（纠正 npm repository 错误）==============
+async function searchGhRepoByName(pkgName) {
+  if (!pkgName || !GH_TOKEN) return null;
+  // 去掉 @scope/ 前缀中的 @
+  const searchName = pkgName.replace(/^@/, '').replace(/\//g, '--');
+  const url = `https://api.github.com/search/repositories?q=${encodeURIComponent(searchName + ' in:name')}&sort=stars&order=desc&per_page=5`;
+  try {
+    const data = await fetchJson(url, { headers: HDR, skip404: true });
+    for (const r of data?.items || []) {
+      // 优先选名字完全匹配的
+      if (r.name.toLowerCase() === searchName.toLowerCase() ||
+          r.name.toLowerCase() === pkgName.replace(/^@/, '').replace(/\//g, '-').toLowerCase()) {
+        return r.html_url;
+      }
+    }
+    // 其次选第一个
+    if (data?.items?.[0]) return data.items[0].html_url;
+  } catch (_) {}
+  return null;
+}
+
+// ============== 步骤 4：npm metadata（缓存）==============
 async function fetchPkgMeta(name) {
   const cacheFile = join(CACHE_DIR, 'pkg', `${slugify(name)}.json`);
   if (existsSync(cacheFile)) return JSON.parse(await readFile(cacheFile, 'utf8'));
@@ -166,7 +187,13 @@ async function processOne(gh, npmHit) {
   const description = (ver.description || npmHit?.description || gh?.description || '').slice(0, 280);
   const keywords = (ver.keywords || npmHit?.keywords || gh?.topics?.filter(t => t !== 'dsh-plugin') || []).slice(0, 10);
   const license = typeof ver.license === 'string' ? ver.license : (gh?.license || npmHit?.license || '');
-  const repository = ver.repository?.url || npmHit?.links?.repository || (gh ? `https://github.com/${gh.full_name}` : '');
+
+  // 优先用 npm 的 repository；如果指向 deepseek-harness 主仓库（不是插件自己的），用 GitHub 搜索纠正
+  let repository = ver.repository?.url || npmHit?.links?.repository || (gh ? `https://github.com/${gh.full_name}` : '');
+  if (name && repository.includes('deepseek-ai/deepseek-harness')) {
+    const corrected = await searchGhRepoByName(name);
+    if (corrected) repository = corrected;
+  }
 
   // GitHub 详细数据（补充 stars/issues 等）
   let ghDetail = null;

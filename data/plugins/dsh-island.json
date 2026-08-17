@@ -1,0 +1,41 @@
+{
+  "slug": "dsh-island",
+  "name": "dsh-island",
+  "version": "0.0.0",
+  "description": "把 DeepSeek Harness(DSH) agent 实时状态桥接到 CodeIsland 刘海面板 — sessions/tools/approvals on the Dynamic Island",
+  "keywords": [
+    "codeisland",
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "",
+  "repo": "https://github.com/cdxiaodong/dsh-island",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-island",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "cdxiaodong/dsh-island",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T00:03:23Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 19,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T05:45:49.003Z"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-plugin-deepdiving",
+  "name": "dsh-plugin-deepdiving",
+  "version": "0.1.0",
+  "description": "Continuous water-flow light for the dsh web 'Deep diving...' turn status: three parallax gradient currents sweep the text like flowing water, replacing the stock single-band shimmer. Light/dark themes and reduced-motion respected.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "deep-diving",
+    "deepdiving",
+    "animation",
+    "water-flow",
+    "shimmer"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/iluluyu/dsh-plugin-deepdiving.git",
+  "homepage": "https://github.com/iluluyu/dsh-plugin-deepdiving#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-deepdiving",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "cordis.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-plugin-deepdiving\n\nContinuous water-flow light for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh) web \"Deep diving…\" turn status.\n\n为 dsh web 端的 \"Deep diving…\" 运行状态条提供连续流动的水流光影。\n\n---\n\n## Why\n\nThe stock effect is a single pale band sweeping a flat-blue text every 1.8s — between sweeps the label is static, so the water stops. This plugin keeps the glyphs under a permanent current: three parallax gradient layers flow left→right like a river — a broad slow color undulation as the bed, medium highlight waves over it, and fast narrow sparkle streaks on the surface.\n\n原版效果是一条淡色光带每 1.8s 扫过一次静态蓝字——两次扫过之间文字是静止的，\"水\"会停下来。本插件让文字永远处于水流之中：三层视差渐变从左向右流动——底层是宽幅缓慢的色浪河床，中层是斜切高光波浪，表层是快速掠过的窄亮流光。\n\n| Stock 原版 | Deepdiving 本插件 |\n|:---:|:---:|\n| single band, mostly flat | three pa",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T05:27:12.651Z",
+  "created_at": "2026-08-17T05:27:12.203Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T05:46:01.098Z"
+}

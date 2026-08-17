@@ -1,16 +1,16 @@
 {
   "stats": {
-    "total": 1926,
+    "total": 1929,
     "by_grade": {
       "A": 3,
-      "B": 182,
-      "C": 504,
-      "D": 1237
+      "B": 180,
+      "C": 505,
+      "D": 1241
     },
-    "by_compat": 1186,
-    "total_weekly_downloads": 110429,
-    "generated_at": "2026-08-17T05:25:36.985Z",
-    "build_ms": 139017
+    "by_compat": 1188,
+    "total_weekly_downloads": 110733,
+    "generated_at": "2026-08-17T05:46:09.616Z",
+    "build_ms": 144379
   },
   "plugins": [
     {
@@ -38,7 +38,7 @@
       "version": "0.1.0",
       "description": "Opt-in DeepSeek Harness Skill-only bundle for the Archify architecture-diagram skill.",
       "weekly_downloads": 0,
-      "stars": 13515,
+      "stars": 13532,
       "grade": "A",
       "overall": 70,
       "dsh_compat": true,
@@ -170,7 +170,7 @@
       "version": "0.1.1",
       "description": "DSH 插件市场增强版：dsh-market 基座 + dsh-store 的 npm 权威源/质量验证/GitHub 热度/代理注入/回退安装（MIT，融合 dsh-market 与 dsh-store）",
       "weekly_downloads": 0,
-      "stars": 661,
+      "stars": 664,
       "grade": "B",
       "overall": 66,
       "dsh_compat": true,
@@ -227,7 +227,7 @@
       "version": "0.11.0",
       "description": "Bridge DeepSeek Harness (dsh) into Feishu / Lark with streaming cards, project workspaces, approvals and scheduling",
       "weekly_downloads": 3640,
-      "stars": 18,
+      "stars": 19,
       "grade": "B",
       "overall": 66,
       "dsh_compat": true,
@@ -339,7 +339,7 @@
       "version": "0.3.1",
       "description": "Import Claude Code / Codex / ChatGPT / Cursor / Gemini / Reasonix / Pi Coding Agent / opencode / ZCode / Grok Build / OpenClaw / Hermes conversation histories as resumable DeepSeek Harness sessions",
       "weekly_downloads": 761,
-      "stars": 49,
+      "stars": 51,
       "grade": "B",
       "overall": 65,
       "dsh_compat": true,
@@ -429,25 +429,6 @@
       ]
     },
     {
-      "slug": "deepseek-harness-zh_pro",
-      "name": "deepseek-harness-zh_pro",
-      "version": "0.5.0",
-      "description": "DSH 中文增强插件：中文界面修正残留英文、统一术语与格式，统计行完整显示，并可注入「中文优先提示」让大模型优先用中文回复与思考（默认关闭）",
-      "weekly_downloads": 824,
-      "stars": 6,
-      "grade": "B",
-      "overall": 65,
-      "dsh_compat": true,
-      "last_publish": "2026-08-15T13:42:42.815Z",
-      "keywords": [
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "chinese",
-        "zh"
-      ]
-    },
-    {
       "slug": "dsh-better-edit",
       "name": "dsh-better-edit",
       "version": "0.1.9",
@@ -464,6 +445,25 @@
         "deepseek-harness",
         "coding-agent",
         "hashline"
+      ]
+    },
+    {
+      "slug": "deepseek-harness-zh_pro",
+      "name": "deepseek-harness-zh_pro",
+      "version": "0.5.0",
+      "description": "DSH 中文增强插件：中文界面修正残留英文、统一术语与格式，统计行完整显示，并可注入「中文优先提示」让大模型优先用中文回复与思考（默认关闭）",
+      "weekly_downloads": 824,
+      "stars": 6,
+      "grade": "B",
+      "overall": 65,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T13:42:42.815Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "chinese",
+        "zh"
       ]
     },
     {
@@ -548,7 +548,7 @@
       "version": "0.1.3",
       "description": "A floating desktop pet for the DeepSeek Harness Web UI: idle breathing, occasional direction turns, random actions, and screen wandering.",
       "weekly_downloads": 571,
-      "stars": 68,
+      "stars": 69,
       "grade": "B",
       "overall": 64,
       "dsh_compat": true,
@@ -600,25 +600,6 @@
       ]
     },
     {
-      "slug": "dsh-hdc-bridge",
-      "name": "dsh-hdc-bridge",
-      "version": "0.6.1",
-      "description": "DSH-native HarmonyOS dev-assistant plugin: hdc device bridge with a live device panel, official-first versioned API docs (SDK .d.ts + offline bundled Tier-1 knowledge), and an optional DevEco CLI backend for build/sign/lint.",
-      "weekly_downloads": 517,
-      "stars": 10,
-      "grade": "B",
-      "overall": 64,
-      "dsh_compat": true,
-      "last_publish": "2026-08-14T16:13:51.663Z",
-      "keywords": [
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "harmonyos",
-        "openharmony"
-      ]
-    },
-    {
       "slug": "dsh-vision-proxy",
       "name": "dsh-vision-proxy",
       "version": "0.2.3",
@@ -635,6 +616,25 @@
         "dsh-plugin",
         "plugin",
         "vision"
+      ]
+    },
+    {
+      "slug": "dsh-hdc-bridge",
+      "name": "dsh-hdc-bridge",
+      "version": "0.6.1",
+      "description": "DSH-native HarmonyOS dev-assistant plugin: hdc device bridge with a live device panel, official-first versioned API docs (SDK .d.ts + offline bundled Tier-1 knowledge), and an optional DevEco CLI backend for build/sign/lint.",
+      "weekly_downloads": 517,
+      "stars": 10,
+      "grade": "B",
+      "overall": 64,
+      "dsh_compat": true,
+      "last_publish": "2026-08-14T16:13:51.663Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "harmonyos",
+        "openharmony"
       ]
     },
     {
@@ -825,6 +825,25 @@
       ]
     },
     {
+      "slug": "liustack--pptfast",
+      "name": "@liustack/pptfast",
+      "version": "0.19.2",
+      "description": "Stable, editable PPTX generation for AI agents — semantic IR in, native DrawingML out",
+      "weekly_downloads": 647,
+      "stars": 4,
+      "grade": "B",
+      "overall": 63,
+      "dsh_compat": true,
+      "last_publish": "2026-08-14T20:23:27.522Z",
+      "keywords": [
+        "pptx",
+        "powerpoint",
+        "presentation",
+        "ai",
+        "agent"
+      ]
+    },
+    {
       "slug": "dsh-workbench",
       "name": "dsh-workbench",
       "version": "0.6.0",
@@ -863,25 +882,6 @@
       ]
     },
     {
-      "slug": "liustack--pptfast",
-      "name": "@liustack/pptfast",
-      "version": "0.19.2",
-      "description": "Stable, editable PPTX generation for AI agents — semantic IR in, native DrawingML out",
-      "weekly_downloads": 647,
-      "stars": 4,
-      "grade": "B",
-      "overall": 63,
-      "dsh_compat": true,
-      "last_publish": "2026-08-14T20:23:27.522Z",
-      "keywords": [
-        "pptx",
-        "powerpoint",
-        "presentation",
-        "ai",
-        "agent"
-      ]
-    },
-    {
       "slug": "dsh-auto-review",
       "name": "dsh-auto-review",
       "version": "0.4.0",
@@ -906,7 +906,7 @@
       "version": "0.1.0",
       "description": "A curated list of DeepSeek Harness (dsh) plugins · DeepSeek Harness 插件精选列表",
       "weekly_downloads": 0,
-      "stars": 6082,
+      "stars": 6145,
       "grade": "B",
       "overall": 62,
       "dsh_compat": false,
@@ -1034,25 +1034,6 @@
       ]
     },
     {
-      "slug": "nanmicoder--dsh-plugin-market",
-      "name": "@nanmicoder/dsh-plugin-market",
-      "version": "0.1.1",
-      "description": "Verified plugin marketplace for DeepSeek Harness: discover, inspect, install, and remove DSH plugins from the Web UI",
-      "weekly_downloads": 251,
-      "stars": 5,
-      "grade": "B",
-      "overall": 62,
-      "dsh_compat": true,
-      "last_publish": "2026-08-15T14:52:54.284Z",
-      "keywords": [
-        "dsh",
-        "dsh-plugin",
-        "deepseek-harness",
-        "plugin-marketplace",
-        "plugin-catalog"
-      ]
-    },
-    {
       "slug": "dsh-web-mobile-fix",
       "name": "dsh-web-mobile-fix",
       "version": "1.0.1",
@@ -1069,6 +1050,25 @@
         "dsh-plugin",
         "mobile",
         "web-ui"
+      ]
+    },
+    {
+      "slug": "nanmicoder--dsh-plugin-market",
+      "name": "@nanmicoder/dsh-plugin-market",
+      "version": "0.1.1",
+      "description": "Verified plugin marketplace for DeepSeek Harness: discover, inspect, install, and remove DSH plugins from the Web UI",
+      "weekly_downloads": 251,
+      "stars": 5,
+      "grade": "B",
+      "overall": 62,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T14:52:54.284Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek-harness",
+        "plugin-marketplace",
+        "plugin-catalog"
       ]
     },
     {
@@ -1166,25 +1166,6 @@
       ]
     },
     {
-      "slug": "dsh-green-meter",
-      "name": "dsh-green-meter",
-      "version": "1.0.1",
-      "description": "Token-profile energy and carbon estimation for agentic sessions",
-      "weekly_downloads": 0,
-      "stars": 138123,
-      "grade": "B",
-      "overall": 61,
-      "dsh_compat": false,
-      "last_publish": "2026-08-14T07:59:02.573Z",
-      "keywords": [
-        "carbon-footprint",
-        "deepseek-harness",
-        "dsh",
-        "energy",
-        "green-ai"
-      ]
-    },
-    {
       "slug": "dsh-checkpoint-rewind",
       "name": "dsh-checkpoint-rewind",
       "version": "0.4.0",
@@ -1266,7 +1247,7 @@
       "version": "0.1.0",
       "description": "Browser automation for DeepSeek Harness: Playwright-powered open/click/type/screenshot/eval tools so the agent can drive real web pages.",
       "weekly_downloads": 0,
-      "stars": 217,
+      "stars": 219,
       "grade": "B",
       "overall": 60,
       "dsh_compat": true,
@@ -1321,7 +1302,7 @@
       "version": "2.2.0",
       "description": "Morning Star harness dsh (DeepSeek Harness) cordis function plugin — in-process engine gates (status/dispatch/lease) with hard refusal channels.",
       "weekly_downloads": 239,
-      "stars": 47,
+      "stars": 48,
       "grade": "B",
       "overall": 60,
       "dsh_compat": true,
@@ -1389,25 +1370,6 @@
       ]
     },
     {
-      "slug": "dsh-tool-vision",
-      "name": "dsh-tool-vision",
-      "version": "0.3.8",
-      "description": "DeepSeek Harness 外置视觉模型插件：inspect_image 把本地图片或 http(s) 图片 URL 发给任意 OpenAI 兼容端点，视觉模型看图的文字回答直接带回对话；附 Web UI 设置栏。",
-      "weekly_downloads": 355,
-      "stars": 4,
-      "grade": "B",
-      "overall": 60,
-      "dsh_compat": true,
-      "last_publish": "2026-08-14T10:21:18.577Z",
-      "keywords": [
-        "dsh",
-        "dsh-plugin",
-        "deepseek-harness",
-        "vision",
-        "multimodal"
-      ]
-    },
-    {
       "slug": "dsh-background-agents",
       "name": "dsh-background-agents",
       "version": "0.4.0",
@@ -1424,6 +1386,25 @@
         "deepseek-harness",
         "subagent",
         "background-agent"
+      ]
+    },
+    {
+      "slug": "dsh-tool-vision",
+      "name": "dsh-tool-vision",
+      "version": "0.3.8",
+      "description": "DeepSeek Harness 外置视觉模型插件：inspect_image 把本地图片或 http(s) 图片 URL 发给任意 OpenAI 兼容端点，视觉模型看图的文字回答直接带回对话；附 Web UI 设置栏。",
+      "weekly_downloads": 355,
+      "stars": 4,
+      "grade": "B",
+      "overall": 60,
+      "dsh_compat": true,
+      "last_publish": "2026-08-14T10:21:18.577Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek-harness",
+        "vision",
+        "multimodal"
       ]
     },
     {
@@ -1786,6 +1767,25 @@
       ]
     },
     {
+      "slug": "dsh-deepseek-harness-desktop",
+      "name": "dsh-deepseek-harness-desktop",
+      "version": "0.0.0",
+      "description": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」",
+      "weekly_downloads": 0,
+      "stars": 9946,
+      "grade": "B",
+      "overall": 58,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "cordis",
+        "cordis-plugin",
+        "deepseek",
+        "deepseek-harness",
+        "desktop"
+      ]
+    },
+    {
       "slug": "dsh-openpencil",
       "name": "dsh-openpencil",
       "version": "0.0.0",
@@ -2071,7 +2071,7 @@
       "version": "0.2.5",
       "description": "DeepSeek Harness 换肤插件 (Dream Skin for DeepSeek Harness): curated --dsw-alias-* theme presets, a custom translucent wallpaper with opacity/blur controls, theme-pack import/export + share links, per-user accent, favorites & surprise-me, and durable per-brow",
       "weekly_downloads": 0,
-      "stars": 34,
+      "stars": 36,
       "grade": "B",
       "overall": 57,
       "dsh_compat": true,
@@ -2104,25 +2104,6 @@
       ]
     },
     {
-      "slug": "dsh-lark-link",
-      "name": "dsh-lark-link",
-      "version": "0.3.0",
-      "description": "High-reliability Feishu/Lark bridge for DeepSeek Harness — QR one-click auth, multi-mode agents, card-based commands, zero-loss outbox, media in/out, session logs, reusable DSH Web GUI",
-      "weekly_downloads": 0,
-      "stars": 16,
-      "grade": "B",
-      "overall": 57,
-      "dsh_compat": true,
-      "last_publish": "2026-08-15T21:59:15.638Z",
-      "keywords": [
-        "dsh-plugin",
-        "dsh",
-        "deepseek-harness",
-        "feishu",
-        "lark"
-      ]
-    },
-    {
       "slug": "dsh-milestone",
       "name": "dsh-milestone",
       "version": "0.6.0",
@@ -2139,6 +2120,25 @@
         "dsh",
         "dsh-plugin",
         "conversation"
+      ]
+    },
+    {
+      "slug": "dsh-lark-link",
+      "name": "dsh-lark-link",
+      "version": "0.3.0",
+      "description": "High-reliability Feishu/Lark bridge for DeepSeek Harness — QR one-click auth, multi-mode agents, card-based commands, zero-loss outbox, media in/out, session logs, reusable DSH Web GUI",
+      "weekly_downloads": 0,
+      "stars": 16,
+      "grade": "B",
+      "overall": 57,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T21:59:15.638Z",
+      "keywords": [
+        "dsh-plugin",
+        "dsh",
+        "deepseek-harness",
+        "feishu",
+        "lark"
       ]
     },
     {
@@ -2367,25 +2367,6 @@
         "chatgpt",
         "gpt-image-2",
         "image-prompts"
-      ]
-    },
-    {
-      "slug": "dsh-deepseek-harness-desktop",
-      "name": "dsh-deepseek-harness-desktop",
-      "version": "0.0.0",
-      "description": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案",
-      "weekly_downloads": 0,
-      "stars": 9946,
-      "grade": "B",
-      "overall": 56,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "cordis",
-        "cordis-plugin",
-        "deepseek",
-        "deepseek-harness",
-        "desktop"
       ]
     },
     {
@@ -2806,23 +2787,6 @@
       ]
     },
     {
-      "slug": "dsh-deepseek-harness",
-      "name": "dsh-deepseek-harness",
-      "version": "0.0.0",
-      "description": "DeepSeek Harness: Everything is a Plugin.",
-      "weekly_downloads": 0,
-      "stars": 138123,
-      "grade": "B",
-      "overall": 55,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "ai-agents",
-        "cordis",
-        "dsh"
-      ]
-    },
-    {
       "slug": "dsh-learn-harness-engineering",
       "name": "dsh-learn-harness-engineering",
       "version": "0.0.0",
@@ -3067,25 +3031,6 @@
       ]
     },
     {
-      "slug": "dsh-codex-connect",
-      "name": "dsh-codex-connect",
-      "version": "0.1.0-alpha.4.5",
-      "description": "ChatGPT OAuth and Codex models for DeepSeek Harness.",
-      "weekly_downloads": 196,
-      "stars": 17,
-      "grade": "B",
-      "overall": 55,
-      "dsh_compat": true,
-      "last_publish": "2026-08-14T08:11:53.737Z",
-      "keywords": [
-        "dsh-plugin",
-        "deepseek-harness",
-        "openai-codex",
-        "chatgpt-oauth",
-        "oauth"
-      ]
-    },
-    {
       "slug": "dsh-recommend",
       "name": "dsh-recommend",
       "version": "0.2.0",
@@ -3102,6 +3047,25 @@
         "plugin",
         "ranking",
         "leaderboard"
+      ]
+    },
+    {
+      "slug": "dsh-codex-connect",
+      "name": "dsh-codex-connect",
+      "version": "0.1.0-alpha.4.5",
+      "description": "ChatGPT OAuth and Codex models for DeepSeek Harness.",
+      "weekly_downloads": 196,
+      "stars": 17,
+      "grade": "B",
+      "overall": 55,
+      "dsh_compat": true,
+      "last_publish": "2026-08-14T08:11:53.737Z",
+      "keywords": [
+        "dsh-plugin",
+        "deepseek-harness",
+        "openai-codex",
+        "chatgpt-oauth",
+        "oauth"
       ]
     },
     {
@@ -3275,25 +3239,6 @@
       ]
     },
     {
-      "slug": "dsh-passwords",
-      "name": "dsh-passwords",
-      "version": "2.4.5",
-      "description": "dsh-passwords: a server-grade gateway that turns DeepSeek Harness into a multi-tenant platform — remote access + automatic HTTPS, per-subuser permissions & quotas, sandbox enforcement, first-run setup, SQLite auth with at-rest encryption, rate-limit and a",
-      "weekly_downloads": 0,
-      "stars": 6,
-      "grade": "B",
-      "overall": 55,
-      "dsh_compat": true,
-      "last_publish": "2026-08-16T15:48:46.304Z",
-      "keywords": [
-        "deepseek",
-        "harness",
-        "dsh",
-        "gateway",
-        "auth"
-      ]
-    },
-    {
       "slug": "dsh-science-workbench",
       "name": "dsh-science-workbench",
       "version": "0.1.0",
@@ -3310,6 +3255,25 @@
         "dsh-plugin",
         "bioinformatics",
         "reproducible-research"
+      ]
+    },
+    {
+      "slug": "dsh-passwords",
+      "name": "dsh-passwords",
+      "version": "2.4.5",
+      "description": "dsh-passwords: a server-grade gateway that turns DeepSeek Harness into a multi-tenant platform — remote access + automatic HTTPS, per-subuser permissions & quotas, sandbox enforcement, first-run setup, SQLite auth with at-rest encryption, rate-limit and a",
+      "weekly_downloads": 0,
+      "stars": 6,
+      "grade": "B",
+      "overall": 55,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T15:48:46.304Z",
+      "keywords": [
+        "deepseek",
+        "harness",
+        "dsh",
+        "gateway",
+        "auth"
       ]
     },
     {
@@ -4511,6 +4475,25 @@
       ]
     },
     {
+      "slug": "dsh-skills",
+      "name": "dsh-skills",
+      "version": "0.1.1",
+      "description": "Global skill hub for dsh: aggregates Claude Code, project, and .skill-package skills into ~/.dsh/skills with reference/copy import and slash-menu usage",
+      "weekly_downloads": 0,
+      "stars": 8,
+      "grade": "C",
+      "overall": 53,
+      "dsh_compat": true,
+      "last_publish": "2026-08-14T14:06:25.206Z",
+      "keywords": [
+        "dsh-plugin",
+        "dsh",
+        "deepseek",
+        "deepseek-harness",
+        "deepseek-ai"
+      ]
+    },
+    {
       "slug": "dsh-session-health",
       "name": "dsh-session-health",
       "version": "0.6.0",
@@ -4548,25 +4531,6 @@
       ]
     },
     {
-      "slug": "dsh-skills",
-      "name": "dsh-skills",
-      "version": "0.1.1",
-      "description": "Global skill hub for dsh: aggregates Claude Code, project, and .skill-package skills into ~/.dsh/skills with reference/copy import and slash-menu usage",
-      "weekly_downloads": 0,
-      "stars": 8,
-      "grade": "C",
-      "overall": 53,
-      "dsh_compat": true,
-      "last_publish": "2026-08-14T14:06:25.206Z",
-      "keywords": [
-        "dsh-plugin",
-        "dsh",
-        "deepseek",
-        "deepseek-harness",
-        "deepseek-ai"
-      ]
-    },
-    {
       "slug": "dsh-usage-stats",
       "name": "dsh-usage-stats",
       "version": "0.1.15",
@@ -4586,25 +4550,6 @@
       ]
     },
     {
-      "slug": "dsh-overleaf",
-      "name": "dsh-overleaf",
-      "version": "0.1.0",
-      "description": "DSH bundle that exposes multiple Overleaf projects through OverleafMCP",
-      "weekly_downloads": 0,
-      "stars": 7,
-      "grade": "C",
-      "overall": 53,
-      "dsh_compat": true,
-      "last_publish": "2026-08-14T12:14:10.400Z",
-      "keywords": [
-        "dsh",
-        "dsh-plugin",
-        "overleaf",
-        "mcp",
-        "latex"
-      ]
-    },
-    {
       "slug": "dsh-extension-hub",
       "name": "dsh-extension-hub",
       "version": "0.2.12",
@@ -4621,6 +4566,25 @@
         "skill",
         "mcp",
         "plugin"
+      ]
+    },
+    {
+      "slug": "dsh-overleaf",
+      "name": "dsh-overleaf",
+      "version": "0.1.0",
+      "description": "DSH bundle that exposes multiple Overleaf projects through OverleafMCP",
+      "weekly_downloads": 0,
+      "stars": 7,
+      "grade": "C",
+      "overall": 53,
+      "dsh_compat": true,
+      "last_publish": "2026-08-14T12:14:10.400Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "overleaf",
+        "mcp",
+        "latex"
       ]
     },
     {
@@ -4776,6 +4740,25 @@
       ]
     },
     {
+      "slug": "dsh-vision-web",
+      "name": "dsh-vision-web",
+      "version": "0.1.0",
+      "description": "Eyes for text-only DeepSeek on DeepSeek Harness: image understanding via Doubao Web by default (zero cost, no API key), Antigravity IDE quota (flash/pro), Gemini API, or Cockpit proxy — model-invokable vision tool, wrapper adapters, evidence memory, and a",
+      "weekly_downloads": 0,
+      "stars": 1,
+      "grade": "C",
+      "overall": 53,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T06:21:55.325Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek",
+        "deepseek-harness",
+        "plugin"
+      ]
+    },
+    {
       "slug": "qiushi-dsh-evidence-audit",
       "name": "qiushi-dsh-evidence-audit",
       "version": "0.1.0",
@@ -4909,25 +4892,6 @@
       ]
     },
     {
-      "slug": "dsh-vision-web",
-      "name": "dsh-vision-web",
-      "version": "0.1.0",
-      "description": "Eyes for text-only DeepSeek on DeepSeek Harness: image understanding via Doubao Web by default (zero cost, no API key), Antigravity IDE quota (flash/pro), Gemini API, or Cockpit proxy — model-invokable vision tool, wrapper adapters, evidence memory, and a",
-      "weekly_downloads": 0,
-      "stars": 1,
-      "grade": "C",
-      "overall": 53,
-      "dsh_compat": true,
-      "last_publish": "2026-08-16T06:21:55.325Z",
-      "keywords": [
-        "dsh",
-        "dsh-plugin",
-        "deepseek",
-        "deepseek-harness",
-        "plugin"
-      ]
-    },
-    {
       "slug": "dsh-smart-approval",
       "name": "dsh-smart-approval",
       "version": "0.1.0-rc.5",
@@ -5000,6 +4964,25 @@
         "deepseek-harness",
         "tts",
         "text-to-speech"
+      ]
+    },
+    {
+      "slug": "dsh-cloudflare-browser-run",
+      "name": "dsh-cloudflare-browser-run",
+      "version": "0.1.1",
+      "description": "DeepSeek Harness plugin: web browsing tools (markdown / screenshot / pdf) powered by Cloudflare Browser Run — real headless Chrome with JS rendering, login sessions and WebMCP support.",
+      "weekly_downloads": 304,
+      "stars": 0,
+      "grade": "C",
+      "overall": 53,
+      "dsh_compat": true,
+      "last_publish": "2026-08-13T16:43:57.021Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek-harness",
+        "cordis",
+        "cloudflare"
       ]
     },
     {
@@ -5505,22 +5488,21 @@
       ]
     },
     {
-      "slug": "dsh-tavern",
-      "name": "dsh-tavern",
-      "version": "1.1.0",
-      "description": "DeepSeek 酒馆 - embed the tavern into DeepSeek Harness Web UI as a native management panel: multiple character cards, multiple worldbooks, switchable presets, deep-light theme, auto-dismiss.",
+      "slug": "dsh-ui-appearance",
+      "name": "dsh-ui-appearance",
+      "version": "0.1.1",
+      "description": "Appearance customization plugin for DeepSeek Harness WebUI: theme palette, background image, transparency and blur over the --dsw-* token system",
       "weekly_downloads": 0,
-      "stars": 7,
+      "stars": 6,
       "grade": "C",
       "overall": 52,
       "dsh_compat": true,
-      "last_publish": "2026-08-16T17:58:59.784Z",
+      "last_publish": "2026-08-16T10:45:14.855Z",
       "keywords": [
-        "dsh",
-        "dsh-plugin",
-        "deepseek",
+        "customization",
         "deepseek-harness",
-        "tavern"
+        "plugin",
+        "theme"
       ]
     },
     {
@@ -5540,6 +5522,25 @@
         "codex",
         "chatgpt",
         "oauth"
+      ]
+    },
+    {
+      "slug": "dsh-tavern",
+      "name": "dsh-tavern",
+      "version": "1.1.0",
+      "description": "DeepSeek 酒馆 - embed the tavern into DeepSeek Harness Web UI as a native management panel: multiple character cards, multiple worldbooks, switchable presets, deep-light theme, auto-dismiss.",
+      "weekly_downloads": 0,
+      "stars": 7,
+      "grade": "C",
+      "overall": 52,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T17:58:59.784Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek",
+        "deepseek-harness",
+        "tavern"
       ]
     },
     {
@@ -5578,43 +5579,6 @@
         "deepseek",
         "deepseek-harness",
         "hud"
-      ]
-    },
-    {
-      "slug": "dsh-ui-appearance",
-      "name": "dsh-ui-appearance",
-      "version": "0.1.1",
-      "description": "Appearance customization plugin for DeepSeek Harness WebUI: theme palette, background image, transparency and blur over the --dsw-* token system",
-      "weekly_downloads": 0,
-      "stars": 6,
-      "grade": "C",
-      "overall": 52,
-      "dsh_compat": true,
-      "last_publish": "2026-08-16T10:45:14.855Z",
-      "keywords": [
-        "customization",
-        "deepseek-harness",
-        "plugin",
-        "theme"
-      ]
-    },
-    {
-      "slug": "dsh-balance-plugin",
-      "name": "dsh-balance-plugin",
-      "version": "0.2.0",
-      "description": "DeepSeek wallet-balance readout at the sidebar foot: card icon + amount, status-tinted, refreshed on turn end and on click, with a floating delta animation on change",
-      "weekly_downloads": 0,
-      "stars": 6,
-      "grade": "C",
-      "overall": 52,
-      "dsh_compat": true,
-      "last_publish": "2026-08-15T02:22:19.981Z",
-      "keywords": [
-        "deepseek",
-        "deepseek-harness",
-        "dsh-plugin",
-        "balance",
-        "wallet"
       ]
     },
     {
@@ -5691,6 +5655,25 @@
         "deepseek",
         "deepseek-harness",
         "tavern"
+      ]
+    },
+    {
+      "slug": "dsh-balance-plugin",
+      "name": "dsh-balance-plugin",
+      "version": "0.2.0",
+      "description": "DeepSeek wallet-balance readout at the sidebar foot: card icon + amount, status-tinted, refreshed on turn end and on click, with a floating delta animation on change",
+      "weekly_downloads": 0,
+      "stars": 6,
+      "grade": "C",
+      "overall": 52,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T02:22:19.981Z",
+      "keywords": [
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin",
+        "balance",
+        "wallet"
       ]
     },
     {
@@ -5845,25 +5828,6 @@
       ]
     },
     {
-      "slug": "dsh-session-management",
-      "name": "dsh-session-management",
-      "version": "1.0.6",
-      "description": "Session management for DSH Web: archive / unarchive / truly delete chats / export data (bilingual). 会话管理：归档 / 取消归档 / 真正删除聊天记录 / 导出数据（中英双语）。",
-      "weekly_downloads": 0,
-      "stars": 5,
-      "grade": "C",
-      "overall": 52,
-      "dsh_compat": true,
-      "last_publish": "2026-08-17T01:54:24.215Z",
-      "keywords": [
-        "dsh",
-        "deepseek-harness",
-        "plugin",
-        "session",
-        "archive"
-      ]
-    },
-    {
       "slug": "dsh-github-intelligence",
       "name": "dsh-github-intelligence",
       "version": "2.9.0",
@@ -5880,6 +5844,25 @@
         "github",
         "integration",
         "releases"
+      ]
+    },
+    {
+      "slug": "dsh-session-management",
+      "name": "dsh-session-management",
+      "version": "1.0.6",
+      "description": "Session management for DSH Web: archive / unarchive / truly delete chats / export data (bilingual). 会话管理：归档 / 取消归档 / 真正删除聊天记录 / 导出数据（中英双语）。",
+      "weekly_downloads": 0,
+      "stars": 5,
+      "grade": "C",
+      "overall": 52,
+      "dsh_compat": true,
+      "last_publish": "2026-08-17T01:54:24.215Z",
+      "keywords": [
+        "dsh",
+        "deepseek-harness",
+        "plugin",
+        "session",
+        "archive"
       ]
     },
     {
@@ -6520,6 +6503,25 @@
       ]
     },
     {
+      "slug": "dsh-verification-receipt",
+      "name": "dsh-verification-receipt",
+      "version": "0.1.0",
+      "description": "Privacy-minimal heuristic per-turn execution summaries for DeepSeek Harness",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "C",
+      "overall": 51,
+      "dsh_compat": true,
+      "last_publish": "2026-08-14T05:17:59.003Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "verification",
+        "observability",
+        "privacy"
+      ]
+    },
+    {
       "slug": "dsh-orchestrator",
       "name": "dsh-orchestrator",
       "version": "0.1.3",
@@ -6556,22 +6558,22 @@
       ]
     },
     {
-      "slug": "dsh-verification-receipt",
-      "name": "dsh-verification-receipt",
+      "slug": "dsh-plugin-greet",
+      "name": "dsh-plugin-greet",
       "version": "0.1.0",
-      "description": "Privacy-minimal heuristic per-turn execution summaries for DeepSeek Harness",
+      "description": "A minimal greet tool plugin for DeepSeek Harness.",
       "weekly_downloads": 0,
-      "stars": 4,
+      "stars": 5,
       "grade": "C",
       "overall": 51,
       "dsh_compat": true,
-      "last_publish": "2026-08-14T05:17:59.003Z",
+      "last_publish": "2026-08-14T09:51:57.903Z",
       "keywords": [
         "deepseek-harness",
+        "dsh",
         "dsh-plugin",
-        "verification",
-        "observability",
-        "privacy"
+        "agent-tool",
+        "cordis"
       ]
     },
     {
@@ -6610,25 +6612,6 @@
         "plugin",
         "web",
         "attention"
-      ]
-    },
-    {
-      "slug": "dsh-plugin-greet",
-      "name": "dsh-plugin-greet",
-      "version": "0.1.0",
-      "description": "A minimal greet tool plugin for DeepSeek Harness.",
-      "weekly_downloads": 0,
-      "stars": 5,
-      "grade": "C",
-      "overall": 51,
-      "dsh_compat": true,
-      "last_publish": "2026-08-14T09:51:57.903Z",
-      "keywords": [
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "agent-tool",
-        "cordis"
       ]
     },
     {
@@ -6686,6 +6669,25 @@
         "agent-skills",
         "skills",
         "codex"
+      ]
+    },
+    {
+      "slug": "dsh-plugin-opencode-bridge",
+      "name": "dsh-plugin-opencode-bridge",
+      "version": "0.1.0",
+      "description": "Bridge OpenCode's skills and configuration into DeepSeek Harness",
+      "weekly_downloads": 0,
+      "stars": 3,
+      "grade": "C",
+      "overall": 51,
+      "dsh_compat": true,
+      "last_publish": "2026-08-13T14:51:55.714Z",
+      "keywords": [
+        "dsh-plugin",
+        "deepseek-harness",
+        "opencode",
+        "memory",
+        "skills"
       ]
     },
     {
@@ -6765,25 +6767,6 @@
       ]
     },
     {
-      "slug": "dsh-agent-message",
-      "name": "dsh-agent-message",
-      "version": "1.5.1",
-      "description": "跨会话 Agent 通信：让 DeepSeek Harness 里不同的 Agent 会话互相收发消息。",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "C",
-      "overall": 51,
-      "dsh_compat": true,
-      "last_publish": "2026-08-15T08:46:42.672Z",
-      "keywords": [
-        "deepseek",
-        "deepseek-harness",
-        "agent",
-        "multi-agent",
-        "messaging"
-      ]
-    },
-    {
       "slug": "dsh-session-link",
       "name": "dsh-session-link",
       "version": "0.1.4",
@@ -6803,22 +6786,41 @@
       ]
     },
     {
-      "slug": "dsh-plugin-opencode-bridge",
-      "name": "dsh-plugin-opencode-bridge",
-      "version": "0.1.0",
-      "description": "Bridge OpenCode's skills and configuration into DeepSeek Harness",
+      "slug": "dsh-agent-message",
+      "name": "dsh-agent-message",
+      "version": "1.5.1",
+      "description": "跨会话 Agent 通信：让 DeepSeek Harness 里不同的 Agent 会话互相收发消息。",
       "weekly_downloads": 0,
-      "stars": 3,
+      "stars": 4,
       "grade": "C",
       "overall": 51,
       "dsh_compat": true,
-      "last_publish": "2026-08-13T14:51:55.714Z",
+      "last_publish": "2026-08-15T08:46:42.672Z",
       "keywords": [
-        "dsh-plugin",
+        "deepseek",
         "deepseek-harness",
-        "opencode",
-        "memory",
-        "skills"
+        "agent",
+        "multi-agent",
+        "messaging"
+      ]
+    },
+    {
+      "slug": "dsh-humanizer",
+      "name": "dsh-humanizer",
+      "version": "0.3.0-rc.1",
+      "description": "中文写作与润色 bundle 插件：让模型动笔前完整读入全部理论、在思考中成为作者，然后一口气写。不评分、不检测、不画像、不配额。写作辅助，非 AI 检测器。",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "C",
+      "overall": 51,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T11:45:05.633Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "humanizer",
+        "chinese-writing",
+        "novel"
       ]
     },
     {
@@ -6838,25 +6840,6 @@
         "multi-server",
         "session-management",
         "session-sync"
-      ]
-    },
-    {
-      "slug": "dsh-file-upload",
-      "name": "dsh-file-upload",
-      "version": "0.4.2",
-      "description": "DeepSeek Harness dual-face plugin: Claude-style drag-and-drop / paperclip uploads, fully bundled document→Markdown (MarkItDown engine, 20+ formats, image OCR), text inlining, voice input, audio transcription (optional ASR), read_document tool.",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "C",
-      "overall": 51,
-      "dsh_compat": true,
-      "last_publish": "2026-08-16T05:05:40.209Z",
-      "keywords": [
-        "deepseek",
-        "harness",
-        "dsh",
-        "cordis",
-        "plugin"
       ]
     },
     {
@@ -6898,22 +6881,22 @@
       ]
     },
     {
-      "slug": "dsh-humanizer",
-      "name": "dsh-humanizer",
-      "version": "0.3.0-rc.1",
-      "description": "中文写作与润色 bundle 插件：让模型动笔前完整读入全部理论、在思考中成为作者，然后一口气写。不评分、不检测、不画像、不配额。写作辅助，非 AI 检测器。",
+      "slug": "dsh-file-upload",
+      "name": "dsh-file-upload",
+      "version": "0.4.2",
+      "description": "DeepSeek Harness dual-face plugin: Claude-style drag-and-drop / paperclip uploads, fully bundled document→Markdown (MarkItDown engine, 20+ formats, image OCR), text inlining, voice input, audio transcription (optional ASR), read_document tool.",
       "weekly_downloads": 0,
       "stars": 4,
       "grade": "C",
       "overall": 51,
       "dsh_compat": true,
-      "last_publish": "2026-08-15T11:45:05.633Z",
+      "last_publish": "2026-08-16T05:05:40.209Z",
       "keywords": [
+        "deepseek",
+        "harness",
         "dsh",
-        "dsh-plugin",
-        "humanizer",
-        "chinese-writing",
-        "novel"
+        "cordis",
+        "plugin"
       ]
     },
     {
@@ -7476,24 +7459,6 @@
       ]
     },
     {
-      "slug": "dsh-mcp-manager",
-      "name": "dsh-mcp-manager",
-      "version": "0.5.0",
-      "description": "MCP server manager for DeepSeek Harness: manage MCP servers from the Web settings page, stored globally in $DSH_HOME/mcp-servers.json, connected/disconnected at runtime.",
-      "weekly_downloads": 0,
-      "stars": 7,
-      "grade": "C",
-      "overall": 50,
-      "dsh_compat": true,
-      "last_publish": "2026-08-15T08:21:40.194Z",
-      "keywords": [
-        "dsh",
-        "dsh-plugin",
-        "mcp",
-        "deepseek-harness"
-      ]
-    },
-    {
       "slug": "dsh-billing",
       "name": "dsh-billing",
       "version": "0.4.1",
@@ -7510,6 +7475,24 @@
         "deepseek-api",
         "deepseek-harness",
         "plugin"
+      ]
+    },
+    {
+      "slug": "dsh-mcp-manager",
+      "name": "dsh-mcp-manager",
+      "version": "0.5.0",
+      "description": "MCP server manager for DeepSeek Harness: manage MCP servers from the Web settings page, stored globally in $DSH_HOME/mcp-servers.json, connected/disconnected at runtime.",
+      "weekly_downloads": 0,
+      "stars": 7,
+      "grade": "C",
+      "overall": 50,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T08:21:40.194Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "mcp",
+        "deepseek-harness"
       ]
     },
     {
@@ -7770,21 +7753,22 @@
       ]
     },
     {
-      "slug": "dsh-context-provenance",
-      "name": "dsh-context-provenance",
-      "version": "0.1.0",
-      "description": "Observe-only provenance ledger over public DeepSeek Harness runtime evidence",
+      "slug": "dsh-obsidian-assistant",
+      "name": "dsh-obsidian-assistant",
+      "version": "1.0.1",
+      "description": "DeepSeek Harness plugin (Cordis toolset) for reading, searching, and editing a local Obsidian vault, with optional Local REST API integration.",
       "weekly_downloads": 0,
       "stars": 4,
       "grade": "C",
       "overall": 50,
       "dsh_compat": true,
-      "last_publish": "2026-08-14T09:49:36.264Z",
+      "last_publish": "2026-08-17T04:13:53.436Z",
       "keywords": [
-        "deepseek-harness",
-        "observability",
-        "privacy",
-        "provenance"
+        "obsidian",
+        "deepseek",
+        "harness",
+        "dsh",
+        "cordis"
       ]
     },
     {
@@ -7826,22 +7810,21 @@
       ]
     },
     {
-      "slug": "dsh-obsidian-assistant",
-      "name": "dsh-obsidian-assistant",
-      "version": "1.0.1",
-      "description": "DeepSeek Harness plugin (Cordis toolset) for reading, searching, and editing a local Obsidian vault, with optional Local REST API integration.",
+      "slug": "dsh-context-provenance",
+      "name": "dsh-context-provenance",
+      "version": "0.1.0",
+      "description": "Observe-only provenance ledger over public DeepSeek Harness runtime evidence",
       "weekly_downloads": 0,
       "stars": 4,
       "grade": "C",
       "overall": 50,
       "dsh_compat": true,
-      "last_publish": "2026-08-17T04:13:53.436Z",
+      "last_publish": "2026-08-14T09:49:36.264Z",
       "keywords": [
-        "obsidian",
-        "deepseek",
-        "harness",
-        "dsh",
-        "cordis"
+        "deepseek-harness",
+        "observability",
+        "privacy",
+        "provenance"
       ]
     },
     {
@@ -8221,25 +8204,6 @@
       ]
     },
     {
-      "slug": "dsh-token-stats",
-      "name": "dsh-token-stats",
-      "version": "0.2.0",
-      "description": "Floating draggable token usage statistics panel for DeepSeek Harness: totals, cache & hit rate, per-provider and per-model usage, current-month heatmap with per-day view, per-session detail and per-request records.",
-      "weekly_downloads": 0,
-      "stars": 6,
-      "grade": "C",
-      "overall": 49,
-      "dsh_compat": true,
-      "last_publish": "2026-08-13T20:45:53.344Z",
-      "keywords": [
-        "deepseek-harness",
-        "dsh",
-        "cordis",
-        "plugin",
-        "token"
-      ]
-    },
-    {
       "slug": "dsh-usage-dashboard",
       "name": "dsh-usage-dashboard",
       "version": "0.1.0",
@@ -8256,6 +8220,25 @@
         "deepseek-harness",
         "deepseek",
         "balance"
+      ]
+    },
+    {
+      "slug": "dsh-token-stats",
+      "name": "dsh-token-stats",
+      "version": "0.2.0",
+      "description": "Floating draggable token usage statistics panel for DeepSeek Harness: totals, cache & hit rate, per-provider and per-model usage, current-month heatmap with per-day view, per-session detail and per-request records.",
+      "weekly_downloads": 0,
+      "stars": 6,
+      "grade": "C",
+      "overall": 49,
+      "dsh_compat": true,
+      "last_publish": "2026-08-13T20:45:53.344Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "cordis",
+        "plugin",
+        "token"
       ]
     },
     {
@@ -8290,6 +8273,25 @@
       "keywords": [
         "deepseek-harness",
         "dsh"
+      ]
+    },
+    {
+      "slug": "dsh-skin-switcher",
+      "name": "dsh-skin-switcher",
+      "version": "0.2.1",
+      "description": "DSH Web GUI 皮肤切换器：在设置界面列出已安装的皮肤并提供一键切换按钮。切换通过 ~/.dsh/cordis.patch.yml managed section 实现，DSH 配置监视器热重载，无需重启服务器。",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "C",
+      "overall": 49,
+      "dsh_compat": true,
+      "last_publish": "2026-08-14T07:17:32.579Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "skin",
+        "theme",
+        "plugin"
       ]
     },
     {
@@ -8330,25 +8332,6 @@
       ]
     },
     {
-      "slug": "dsh-skin-switcher",
-      "name": "dsh-skin-switcher",
-      "version": "0.2.1",
-      "description": "DSH Web GUI 皮肤切换器：在设置界面列出已安装的皮肤并提供一键切换按钮。切换通过 ~/.dsh/cordis.patch.yml managed section 实现，DSH 配置监视器热重载，无需重启服务器。",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "C",
-      "overall": 49,
-      "dsh_compat": true,
-      "last_publish": "2026-08-14T07:17:32.579Z",
-      "keywords": [
-        "deepseek-harness",
-        "dsh",
-        "skin",
-        "theme",
-        "plugin"
-      ]
-    },
-    {
       "slug": "dsh-doctor",
       "name": "dsh-doctor",
       "version": "0.4.3",
@@ -8365,23 +8348,6 @@
         "dsh",
         "doctor",
         "diagnostics"
-      ]
-    },
-    {
-      "slug": "dsh-side-chat",
-      "name": "dsh-side-chat",
-      "version": "0.1.2",
-      "description": "DSH Side Chat — 并行侧边对话插件：真实并行 agent 会话、独立上下文、摘要带回主对话。",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "C",
-      "overall": 49,
-      "dsh_compat": true,
-      "last_publish": "2026-08-15T04:52:16.997Z",
-      "keywords": [
-        "cordis",
-        "deepseek-harness",
-        "dsh"
       ]
     },
     {
@@ -8587,25 +8553,6 @@
       ]
     },
     {
-      "slug": "dsh-Abu-Cowork",
-      "name": "dsh-Abu-Cowork",
-      "version": "0.0.0",
-      "description": "Open-source alternative to Claude Cowork — a local-first AI agent desktop app · multi-model · self-evolving skills · privacy-first · multi-Harness roadmap · DeepSeek Harness integration in progress",
-      "weekly_downloads": 0,
-      "stars": 330,
-      "grade": "C",
-      "overall": 48,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "ai-agent",
-        "ai-assistant",
-        "automation",
-        "desktop-app",
-        "dsh-plugins"
-      ]
-    },
-    {
       "slug": "dsh-deepseek-harness-desktop",
       "name": "dsh-deepseek-harness-desktop",
       "version": "0.0.0",
@@ -8622,6 +8569,25 @@
         "desktop",
         "dsh",
         "tauri"
+      ]
+    },
+    {
+      "slug": "dsh-Abu-Cowork",
+      "name": "dsh-Abu-Cowork",
+      "version": "0.0.0",
+      "description": "Open-source alternative to Claude Cowork — a local-first AI agent desktop app · multi-model · self-evolving skills · privacy-first · multi-Harness roadmap · DeepSeek Harness integration in progress",
+      "weekly_downloads": 0,
+      "stars": 330,
+      "grade": "C",
+      "overall": 48,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "ai-agent",
+        "ai-assistant",
+        "automation",
+        "desktop-app",
+        "dsh-plugins"
       ]
     },
     {
@@ -8849,25 +8815,6 @@
       ]
     },
     {
-      "slug": "dsh-gadgets",
-      "name": "dsh-gadgets",
-      "version": "0.4.1",
-      "description": "Lightweight DeepSeek Harness tweaks, one install: dsh-skin (custom appearance) + dsh-tidy (conversation folding, nav rail & total-token badge) + dsh-task-alerts (task-done / approval chime + popup).",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "C",
-      "overall": 48,
-      "dsh_compat": true,
-      "last_publish": "2026-08-16T05:31:14.571Z",
-      "keywords": [
-        "dsh",
-        "deepseek-harness",
-        "plugin",
-        "theme",
-        "skin"
-      ]
-    },
-    {
       "slug": "dsh-agent-memory",
       "name": "dsh-agent-memory",
       "version": "0.8.1",
@@ -8884,6 +8831,25 @@
         "memory",
         "agent-memory",
         "cordis"
+      ]
+    },
+    {
+      "slug": "dsh-gadgets",
+      "name": "dsh-gadgets",
+      "version": "0.4.1",
+      "description": "Lightweight DeepSeek Harness tweaks, one install: dsh-skin (custom appearance) + dsh-tidy (conversation folding, nav rail & total-token badge) + dsh-task-alerts (task-done / approval chime + popup).",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "C",
+      "overall": 48,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T05:31:14.571Z",
+      "keywords": [
+        "dsh",
+        "deepseek-harness",
+        "plugin",
+        "theme",
+        "skin"
       ]
     },
     {
@@ -9485,25 +9451,6 @@
       ]
     },
     {
-      "slug": "dsh-humanizer-ru",
-      "name": "dsh-humanizer-ru",
-      "version": "0.0.0",
-      "description": "Скилл для ИИ-агентов: находит и убирает следы машинной генерации из русского текста. 38 паттернов, 39 regex-маркеров с реестром доказательств, слепые парные прогоны, файловый слой снятия C2PA/EXIF/XMP | Russian AI-writing humanizer skill with file metadata cleaning",
-      "weekly_downloads": 0,
-      "stars": 101,
-      "grade": "C",
-      "overall": 46,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "agent-skills",
-        "ai",
-        "ai-detection",
-        "ai-writing",
-        "c2pa"
-      ]
-    },
-    {
       "slug": "dsh-DSH-Plugins-Marketplace",
       "name": "dsh-DSH-Plugins-Marketplace",
       "version": "0.0.0",
@@ -9520,6 +9467,25 @@
         "cordis",
         "deepseek-harness",
         "dsh"
+      ]
+    },
+    {
+      "slug": "dsh-humanizer-ru",
+      "name": "dsh-humanizer-ru",
+      "version": "0.0.0",
+      "description": "Скилл для ИИ-агентов: находит и убирает следы машинной генерации из русского текста. 38 паттернов, 39 regex-маркеров с реестром доказательств, слепые парные прогоны, файловый слой снятия C2PA/EXIF/XMP | Russian AI-writing humanizer skill with file metadata cleaning",
+      "weekly_downloads": 0,
+      "stars": 101,
+      "grade": "C",
+      "overall": 46,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "agent-skills",
+        "ai",
+        "ai-detection",
+        "ai-writing",
+        "c2pa"
       ]
     },
     {
@@ -10065,7 +10031,7 @@
       "slug": "dsh-cost-meter",
       "name": "dsh-cost-meter",
       "version": "0.0.0",
-      "description": "DeepSeek Harness 会话费用统计与opencode go额度显示 ds官方余额显示，类codex token热力图插件:本会话费用、当日费用、预算费用显示、历史记录与官方价格同步",
+      "description": "DeepSeek Harness Session Cost Statistics & OpenCode Go Quota Display, DS Official Balance Display, Codex-like Token Heatmap Plugin: Current Session Cost, Daily Cost, Budget Limit Display, History Records, Synced with Official Pricing    DeepSeek Harness 会话费用统计与opencode go额度显示 ds官",
       "weekly_downloads": 0,
       "stars": 57,
       "grade": "C",
@@ -10228,6 +10194,24 @@
       ]
     },
     {
+      "slug": "dsh-skill-viewer",
+      "name": "dsh-skill-viewer",
+      "version": "0.0.0",
+      "description": "DSH Web UI plugin: Skills settings section with hot enable/disable, delete and add（Web界面的skill管理工具）",
+      "weekly_downloads": 0,
+      "stars": 50,
+      "grade": "C",
+      "overall": 44,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "deepseek",
+        "dsh",
+        "plugin",
+        "skills"
+      ]
+    },
+    {
       "slug": "dsh-SpecFusion",
       "name": "dsh-SpecFusion",
       "version": "0.0.0",
@@ -10244,24 +10228,6 @@
         "api-documentation",
         "chinese-api",
         "claude-code"
-      ]
-    },
-    {
-      "slug": "dsh-skill-viewer",
-      "name": "dsh-skill-viewer",
-      "version": "0.0.0",
-      "description": "DSH Web UI plugin: Skills settings section with hot enable/disable, delete and add（Web界面的skill管理工具）",
-      "weekly_downloads": 0,
-      "stars": 50,
-      "grade": "C",
-      "overall": 44,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "deepseek",
-        "dsh",
-        "plugin",
-        "skills"
       ]
     },
     {
@@ -10338,6 +10304,25 @@
         "cordis",
         "deepseek-harness",
         "dsh"
+      ]
+    },
+    {
+      "slug": "dsh-green-meter",
+      "name": "dsh-green-meter",
+      "version": "1.0.1",
+      "description": "Token-profile energy and carbon estimation for agentic sessions",
+      "weekly_downloads": 0,
+      "stars": 13,
+      "grade": "C",
+      "overall": 44,
+      "dsh_compat": false,
+      "last_publish": "2026-08-14T07:59:02.573Z",
+      "keywords": [
+        "carbon-footprint",
+        "deepseek-harness",
+        "dsh",
+        "energy",
+        "green-ai"
       ]
     },
     {
@@ -10592,24 +10577,6 @@
       ]
     },
     {
-      "slug": "dsh-openbiliclaw",
-      "name": "dsh-openbiliclaw",
-      "version": "0.0.0",
-      "description": "OpenBiliClaw 是本地运行的跨平台个性化内容推荐 Agent，持续理解你的兴趣并主动找内容。本仓库是它的 DeepSeek Harness 插件：DSH 界面常驻第四栏（推荐/内容库/对话/画像/设置），注册 22 个 Agent Bridge 工具，让 Agent 也能读推荐、答探测、闭环学习。",
-      "weekly_downloads": 0,
-      "stars": 36,
-      "grade": "C",
-      "overall": 43,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "agent-bridge",
-        "deepseek-harness",
-        "dsh",
-        "openbiliclaw"
-      ]
-    },
-    {
       "slug": "dsh-dockyard-dsh",
       "name": "dsh-dockyard-dsh",
       "version": "0.0.0",
@@ -10625,6 +10592,24 @@
         "deepseek-harness",
         "macos",
         "oauth"
+      ]
+    },
+    {
+      "slug": "dsh-openbiliclaw",
+      "name": "dsh-openbiliclaw",
+      "version": "0.0.0",
+      "description": "OpenBiliClaw 是本地运行的跨平台个性化内容推荐 Agent，持续理解你的兴趣并主动找内容。本仓库是它的 DeepSeek Harness 插件：DSH 界面常驻第四栏（推荐/内容库/对话/画像/设置），注册 22 个 Agent Bridge 工具，让 Agent 也能读推荐、答探测、闭环学习。",
+      "weekly_downloads": 0,
+      "stars": 36,
+      "grade": "C",
+      "overall": 43,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "agent-bridge",
+        "deepseek-harness",
+        "dsh",
+        "openbiliclaw"
       ]
     },
     {
@@ -10702,23 +10687,6 @@
       ]
     },
     {
-      "slug": "dsh-navbar",
-      "name": "dsh-navbar",
-      "version": "0.0.0",
-      "description": "DSH 插件：对话节点导航条（右缘节点串快速跳转 user 消息）。官方 bundle 插件，dsh plugin --profile web add 安装",
-      "weekly_downloads": 0,
-      "stars": 31,
-      "grade": "C",
-      "overall": 43,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "dsh",
-        "plugin",
-        "ui"
-      ]
-    },
-    {
       "slug": "dsh-awesome-deepseek-harness-plugins",
       "name": "dsh-awesome-deepseek-harness-plugins",
       "version": "0.0.0",
@@ -10735,6 +10703,23 @@
         "deepseek",
         "deepseek-harness",
         "deepseek-harness-plugins"
+      ]
+    },
+    {
+      "slug": "dsh-navbar",
+      "name": "dsh-navbar",
+      "version": "0.0.0",
+      "description": "DSH 插件：对话节点导航条（右缘节点串快速跳转 user 消息）。官方 bundle 插件，dsh plugin --profile web add 安装",
+      "weekly_downloads": 0,
+      "stars": 31,
+      "grade": "C",
+      "overall": 43,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "dsh",
+        "plugin",
+        "ui"
       ]
     },
     {
@@ -10757,24 +10742,6 @@
       ]
     },
     {
-      "slug": "dsh-dshcode",
-      "name": "dsh-dshcode",
-      "version": "0.0.0",
-      "description": "Community desktop companion for DeepSeek Harness — one-click Electron app for macOS and Windows",
-      "weekly_downloads": 0,
-      "stars": 29,
-      "grade": "C",
-      "overall": 43,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "agent",
-        "deepseek",
-        "deepseekharness-plugin",
-        "harness"
-      ]
-    },
-    {
       "slug": "dsh-deepseek-harness-desktop",
       "name": "dsh-deepseek-harness-desktop",
       "version": "0.0.0",
@@ -10791,6 +10758,24 @@
         "deepseek",
         "deepseek-harness",
         "desktop"
+      ]
+    },
+    {
+      "slug": "dsh-dshcode",
+      "name": "dsh-dshcode",
+      "version": "0.0.0",
+      "description": "Community desktop companion for DeepSeek Harness — one-click Electron app for macOS and Windows",
+      "weekly_downloads": 0,
+      "stars": 29,
+      "grade": "C",
+      "overall": 43,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "agent",
+        "deepseek",
+        "deepseekharness-plugin",
+        "harness"
       ]
     },
     {
@@ -10878,6 +10863,25 @@
         "clawbot",
         "ilink",
         "deepseek-harness"
+      ]
+    },
+    {
+      "slug": "dsh-qq-bridge",
+      "name": "dsh-qq-bridge",
+      "version": "0.1.2",
+      "description": "QQ official bot bridge plugin for DeepSeek Harness (port of pi-qq-bridge): bidirectional QQ (C2C + group chat) with isolated persistent agent sessions, commands, media pipeline and outbound file delivery.",
+      "weekly_downloads": 0,
+      "stars": 7,
+      "grade": "C",
+      "overall": 43,
+      "dsh_compat": false,
+      "last_publish": "2026-08-13T19:36:19.986Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek-harness",
+        "qq",
+        "qqbot"
       ]
     },
     {
@@ -11036,6 +11040,25 @@
       ]
     },
     {
+      "slug": "dsh-reverse-skill",
+      "name": "dsh-reverse-skill",
+      "version": "0.0.0",
+      "description": "Complete reverse-skill (85 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authorized pentesting and security research skill pack.",
+      "weekly_downloads": 0,
+      "stars": 21,
+      "grade": "C",
+      "overall": 42,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "ctf",
+        "deepseek-harness",
+        "pentest",
+        "reverse-engineering",
+        "security"
+      ]
+    },
+    {
       "slug": "dsh-opc-nexus",
       "name": "dsh-opc-nexus",
       "version": "0.0.0",
@@ -11071,25 +11094,6 @@
         "deepseek-v4",
         "deepseek-v4-pro",
         "dsh"
-      ]
-    },
-    {
-      "slug": "dsh-reverse-skill",
-      "name": "dsh-reverse-skill",
-      "version": "0.0.0",
-      "description": "Complete reverse-skill (85 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authorized pentesting and security research skill pack.",
-      "weekly_downloads": 0,
-      "stars": 21,
-      "grade": "C",
-      "overall": 42,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "ctf",
-        "deepseek-harness",
-        "pentest",
-        "reverse-engineering",
-        "security"
       ]
     },
     {
@@ -11203,25 +11207,6 @@
         "cordis",
         "plugin",
         "worktree"
-      ]
-    },
-    {
-      "slug": "dsh-qq-bridge",
-      "name": "dsh-qq-bridge",
-      "version": "0.1.2",
-      "description": "QQ official bot bridge plugin for DeepSeek Harness (port of pi-qq-bridge): bidirectional QQ (C2C + group chat) with isolated persistent agent sessions, commands, media pipeline and outbound file delivery.",
-      "weekly_downloads": 0,
-      "stars": 6,
-      "grade": "C",
-      "overall": 42,
-      "dsh_compat": false,
-      "last_publish": "2026-08-13T19:36:19.986Z",
-      "keywords": [
-        "dsh",
-        "dsh-plugin",
-        "deepseek-harness",
-        "qq",
-        "qqbot"
       ]
     },
     {
@@ -11621,6 +11606,25 @@
       ]
     },
     {
+      "slug": "dsh-agent-team-gui",
+      "name": "dsh-agent-team-gui",
+      "version": "0.0.0",
+      "description": "Persistent multi-model agent squads for DeepSeek Harness — reusable teams, per-agent model/tool policies, and ordinary-chat collaboration.",
+      "weekly_downloads": 0,
+      "stars": 14,
+      "grade": "C",
+      "overall": 41,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "agent",
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "dsh",
+        "dsh-plugins"
+      ]
+    },
+    {
       "slug": "dsh-Aria",
       "name": "dsh-Aria",
       "version": "0.0.0",
@@ -11659,20 +11663,20 @@
       ]
     },
     {
-      "slug": "dsh-agent-team-gui",
-      "name": "dsh-agent-team-gui",
+      "slug": "dsh-oh-my-dsh",
+      "name": "dsh-oh-my-dsh",
       "version": "0.0.0",
-      "description": "Persistent multi-model agent squads for DeepSeek Harness — reusable teams, per-agent model/tool policies, and ordinary-chat collaboration.",
+      "description": "A focused, keyboard-first DeepSeek coding agent built on the plugin architecture of DeepSeek Harness and inspired by the interaction quality of oh-my-pi.",
       "weekly_downloads": 0,
-      "stars": 14,
+      "stars": 15,
       "grade": "C",
       "overall": 41,
       "dsh_compat": false,
       "last_publish": null,
       "keywords": [
-        "agent",
+        "coding-agent",
+        "deepseek",
         "deepseek-harness",
-        "deepseek-harness-plugin",
         "dsh",
         "dsh-plugins"
       ]
@@ -11970,21 +11974,6 @@
       ]
     },
     {
-      "slug": "dsh-ui-whale",
-      "name": "dsh-ui-whale",
-      "version": "0.0.0",
-      "description": "【求⭐】🐋DSH Web UI 全手绘像素鲸鱼伙伴插件：会话标题栏常驻，平时眨眼/偶尔摆尾/动胸鳍，思考运行时持续动起来，回合完成头顶喷水，点击还会冒爱心，不工作时还会偷懒睡觉，零核心改动。 【喜欢的话就点点star⭐吧~】",
-      "weekly_downloads": 0,
-      "stars": 29,
-      "grade": "C",
-      "overall": 40,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "dsh"
-      ]
-    },
-    {
       "slug": "dsh-meme-hub",
       "name": "dsh-meme-hub",
       "version": "0.0.0",
@@ -12000,6 +11989,21 @@
         "awesome-list",
         "deepseek",
         "deepseek-harness",
+        "dsh"
+      ]
+    },
+    {
+      "slug": "dsh-ui-whale",
+      "name": "dsh-ui-whale",
+      "version": "0.0.0",
+      "description": "【求⭐】🐋DSH Web UI 全手绘像素鲸鱼伙伴插件：会话标题栏常驻，平时眨眼/偶尔摆尾/动胸鳍，思考运行时持续动起来，回合完成头顶喷水，点击还会冒爱心，不工作时还会偷懒睡觉，零核心改动。 【喜欢的话就点点star⭐吧~】",
+      "weekly_downloads": 0,
+      "stars": 29,
+      "grade": "C",
+      "overall": 40,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
         "dsh"
       ]
     },
@@ -12080,6 +12084,25 @@
       ]
     },
     {
+      "slug": "dsh-DSH-taskboard",
+      "name": "dsh-DSH-taskboard",
+      "version": "0.0.0",
+      "description": "Native local Taskboard plugin for DeepSeek Harness. SQLite-backed projects, Agent claim/review, and a native Web UI — no iframe, no second chat runtime.",
+      "weekly_downloads": 0,
+      "stars": 12,
+      "grade": "C",
+      "overall": 40,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "agent",
+        "cordis",
+        "deepseek-harness",
+        "dsh",
+        "task-management"
+      ]
+    },
+    {
       "slug": "dsh-zerotoken-skill",
       "name": "dsh-zerotoken-skill",
       "version": "0.0.0",
@@ -12115,25 +12138,6 @@
         "deepseek-harness",
         "developer-tools",
         "dsh"
-      ]
-    },
-    {
-      "slug": "dsh-DSH-taskboard",
-      "name": "dsh-DSH-taskboard",
-      "version": "0.0.0",
-      "description": "Native local Taskboard plugin for DeepSeek Harness. SQLite-backed projects, Agent claim/review, and a native Web UI — no iframe, no second chat runtime.",
-      "weekly_downloads": 0,
-      "stars": 12,
-      "grade": "C",
-      "overall": 40,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "agent",
-        "cordis",
-        "deepseek-harness",
-        "dsh",
-        "task-management"
       ]
     },
     {
@@ -12230,6 +12234,24 @@
       ]
     },
     {
+      "slug": "dsh-security-audit",
+      "name": "dsh-security-audit",
+      "version": "0.0.0",
+      "description": "DSH 本机安全审计插件：配置/插件来源/会话/网络暴露面，只读脱敏风险报告",
+      "weekly_downloads": 0,
+      "stars": 12,
+      "grade": "C",
+      "overall": 40,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "audit",
+        "dsh",
+        "secret-scanning",
+        "security"
+      ]
+    },
+    {
       "slug": "dsh-vocaloid-mcp",
       "name": "dsh-vocaloid-mcp",
       "version": "0.0.0",
@@ -12267,21 +12289,22 @@
       ]
     },
     {
-      "slug": "dsh-security-audit",
-      "name": "dsh-security-audit",
+      "slug": "dsh-deepseek-harness-action",
+      "name": "dsh-deepseek-harness-action",
       "version": "0.0.0",
-      "description": "DSH 本机安全审计插件：配置/插件来源/会话/网络暴露面，只读脱敏风险报告",
+      "description": "Community GitHub Action for DeepSeek Harness — AI Code Review · CI Diagnosis · Auto Fix · Issue → PR",
       "weekly_downloads": 0,
-      "stars": 12,
+      "stars": 11,
       "grade": "C",
       "overall": 40,
       "dsh_compat": false,
       "last_publish": null,
       "keywords": [
-        "audit",
-        "dsh",
-        "secret-scanning",
-        "security"
+        "ai-agent",
+        "ci-cd",
+        "code-review",
+        "coding-agent",
+        "deepseek"
       ]
     },
     {
@@ -12318,25 +12341,6 @@
         "deepseek",
         "deepseek-api",
         "peak-hours"
-      ]
-    },
-    {
-      "slug": "dsh-deepseek-harness-action",
-      "name": "dsh-deepseek-harness-action",
-      "version": "0.0.0",
-      "description": "Community GitHub Action for DeepSeek Harness — AI Code Review · CI Diagnosis · Auto Fix · Issue → PR",
-      "weekly_downloads": 0,
-      "stars": 11,
-      "grade": "C",
-      "overall": 40,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "ai-agent",
-        "ci-cd",
-        "code-review",
-        "coding-agent",
-        "deepseek"
       ]
     },
     {
@@ -12545,24 +12549,6 @@
         "dsh",
         "desktop",
         "electron"
-      ]
-    },
-    {
-      "slug": "dsh-DSH-Plugin-Market",
-      "name": "dsh-DSH-Plugin-Market",
-      "version": "0.0.0",
-      "description": "DeepSeek Harness 插件市场：精选目录 + GitHub 实时浏览、中英翻译搜索、安装前静态安全审计闸门。Plugin market for DeepSeek Harness with a pre-install security audit gate.",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "C",
-      "overall": 40,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "deepseek-harness",
-        "marketplace",
-        "plugin-market",
-        "security-audit"
       ]
     },
     {
@@ -13118,23 +13104,6 @@
       ]
     },
     {
-      "slug": "dsh-task-status",
-      "name": "dsh-task-status",
-      "version": "0.0.0",
-      "description": "DSH 插件：后台任务状态条（对话页任务进度 + 实时输出 tail）。官方 bundle 插件，dsh plugin --profile web add 安装",
-      "weekly_downloads": 0,
-      "stars": 9,
-      "grade": "D",
-      "overall": 39,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "dsh",
-        "plugin",
-        "ui"
-      ]
-    },
-    {
       "slug": "dsh-deepseek-harness-mobile",
       "name": "dsh-deepseek-harness-mobile",
       "version": "0.0.0",
@@ -13151,6 +13120,23 @@
         "deepseek",
         "dsh",
         "dsh-plugins"
+      ]
+    },
+    {
+      "slug": "dsh-task-status",
+      "name": "dsh-task-status",
+      "version": "0.0.0",
+      "description": "DSH 插件：后台任务状态条（对话页任务进度 + 实时输出 tail）。官方 bundle 插件，dsh plugin --profile web add 安装",
+      "weekly_downloads": 0,
+      "stars": 9,
+      "grade": "D",
+      "overall": 39,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "dsh",
+        "plugin",
+        "ui"
       ]
     },
     {
@@ -13208,6 +13194,23 @@
         "claude-code",
         "cordis",
         "deepseek-harness"
+      ]
+    },
+    {
+      "slug": "dsh-memoir",
+      "name": "dsh-memoir",
+      "version": "0.0.0",
+      "description": "DSH 项目持久化记忆插件（TypeScript）：会话归纳 + 经验教训沉淀，写入 PROJECT_MEMORY.md 与全局索引；每轮工作结束自动提醒蒸馏、自动注入未来 AGENTS；附 Web GUI 记忆面板（项目/全局 tab、检索、手动记录/删除）。dsh-plugin",
+      "weekly_downloads": 0,
+      "stars": 8,
+      "grade": "D",
+      "overall": 39,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "agent",
+        "deepseek-harness",
+        "memory"
       ]
     },
     {
@@ -13306,6 +13309,24 @@
       ]
     },
     {
+      "slug": "dsh-vision-opencode",
+      "name": "dsh-vision-opencode",
+      "version": "0.0.0",
+      "description": "DSH plugin: Auto-convert images to text for pure-text LLMs (DeepSeek etc.) via any vision model. No need to switch your main model.",
+      "weekly_downloads": 0,
+      "stars": 8,
+      "grade": "D",
+      "overall": 39,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin-market",
+        "dsh-plugins"
+      ]
+    },
+    {
       "slug": "dsh-better-browser",
       "name": "dsh-better-browser",
       "version": "0.0.0",
@@ -13322,24 +13343,6 @@
         "deepseek-harness",
         "dsh",
         "dsh-bundle"
-      ]
-    },
-    {
-      "slug": "dsh-vision-opencode",
-      "name": "dsh-vision-opencode",
-      "version": "0.0.0",
-      "description": "DSH plugin: Auto-convert images to text for pure-text LLMs (DeepSeek etc.) via any vision model. No need to switch your main model.",
-      "weekly_downloads": 0,
-      "stars": 8,
-      "grade": "D",
-      "overall": 39,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin-market",
-        "dsh-plugins"
       ]
     },
     {
@@ -13376,23 +13379,6 @@
         "gdscript",
         "godot",
         "godot-engine"
-      ]
-    },
-    {
-      "slug": "dsh-memoir",
-      "name": "dsh-memoir",
-      "version": "0.0.0",
-      "description": "DSH 项目持久化记忆插件（TypeScript）：会话归纳 + 经验教训沉淀，写入 PROJECT_MEMORY.md 与全局索引；每轮工作结束自动提醒蒸馏、自动注入未来 AGENTS；附 Web GUI 记忆面板（项目/全局 tab、检索、手动记录/删除）。dsh-plugin",
-      "weekly_downloads": 0,
-      "stars": 8,
-      "grade": "D",
-      "overall": 39,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "agent",
-        "deepseek-harness",
-        "memory"
       ]
     },
     {
@@ -14246,6 +14232,25 @@
       ]
     },
     {
+      "slug": "dsh-plugin-deepdiving",
+      "name": "dsh-plugin-deepdiving",
+      "version": "0.1.0",
+      "description": "Continuous water-flow light for the dsh web 'Deep diving...' turn status: three parallax gradient currents sweep the text like flowing water, replacing the stock single-band shimmer. Light/dark themes and reduced-motion respected.",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 39,
+      "dsh_compat": true,
+      "last_publish": "2026-08-17T05:27:12.651Z",
+      "keywords": [
+        "dsh-plugin",
+        "deepseek-harness",
+        "deep-diving",
+        "deepdiving",
+        "animation"
+      ]
+    },
+    {
       "slug": "dsh-ths-holdings",
       "name": "dsh-ths-holdings",
       "version": "0.1.4",
@@ -14701,25 +14706,6 @@
       ]
     },
     {
-      "slug": "dsh-plugin-stylotrace",
-      "name": "dsh-plugin-stylotrace",
-      "version": "0.1.1",
-      "description": "Stylotrace 深度协作写作 Agent 的 DeepSeek Harness 插件：40 个 MCP 写作工具 + 完整技能包。风格学习（四层向量+外层调制器）、澄清→大纲→逐节写作→红队审计→读者群像，全流程可被 DSH Agent 调用。",
-      "weekly_downloads": 0,
-      "stars": 0,
-      "grade": "D",
-      "overall": 39,
-      "dsh_compat": true,
-      "last_publish": "2026-08-16T14:49:06.953Z",
-      "keywords": [
-        "dsh-plugin",
-        "deepseek-harness-plugin",
-        "deepseek-harness",
-        "dsh",
-        "writing"
-      ]
-    },
-    {
       "slug": "dsh-vscode-theme",
       "name": "dsh-vscode-theme",
       "version": "0.1.2",
@@ -14853,25 +14839,6 @@
       ]
     },
     {
-      "slug": "dsh-prompt",
-      "name": "dsh-prompt",
-      "version": "0.1.0",
-      "description": "DSH prompt 调色板：预制 + 自定义 prompt 模板，点击即插入当前对话输入框（v1 常规模式 + v1.1 智能模式悬浮卡） | Prompt palette for DeepSeek Harness: preset + custom prompt templates, one-click insert into the conversation.",
-      "weekly_downloads": 0,
-      "stars": 0,
-      "grade": "D",
-      "overall": 39,
-      "dsh_compat": true,
-      "last_publish": "2026-08-17T01:17:16.201Z",
-      "keywords": [
-        "dsh",
-        "dsh-plugin",
-        "deepseek",
-        "deepseek-harness",
-        "prompt"
-      ]
-    },
-    {
       "slug": "michengai--dsh-archive-manager",
       "name": "@michengai/dsh-archive-manager",
       "version": "0.1.3",
@@ -14888,6 +14855,82 @@
         "dsh-plugin",
         "archive",
         "session-management"
+      ]
+    },
+    {
+      "slug": "dsh-plugin-stylotrace",
+      "name": "dsh-plugin-stylotrace",
+      "version": "0.1.1",
+      "description": "Stylotrace 深度协作写作 Agent 的 DeepSeek Harness 插件：40 个 MCP 写作工具 + 完整技能包。风格学习（四层向量+外层调制器）、澄清→大纲→逐节写作→红队审计→读者群像，全流程可被 DSH Agent 调用。",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 39,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T14:49:06.953Z",
+      "keywords": [
+        "dsh-plugin",
+        "deepseek-harness-plugin",
+        "deepseek-harness",
+        "dsh",
+        "writing"
+      ]
+    },
+    {
+      "slug": "dsh-turn-fork",
+      "name": "dsh-turn-fork",
+      "version": "0.1.0",
+      "description": "Turn-atomic message editing, retry, reroll and version-tree navigation for DeepSeek Harness conversations",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 39,
+      "dsh_compat": true,
+      "last_publish": "2026-08-17T05:21:14.275Z",
+      "keywords": [
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "plugin"
+      ]
+    },
+    {
+      "slug": "dsh-quota-status",
+      "name": "dsh-quota-status",
+      "version": "0.2.0",
+      "description": "Live account quota/balance widget for DeepSeek Harness web: DeepSeek API balance plus Kimi For Coding plan usage (weekly + 5h windows, remaining and reset countdowns) in one compact card.",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 39,
+      "dsh_compat": true,
+      "last_publish": "2026-08-17T05:20:52.041Z",
+      "keywords": [
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "quota"
+      ]
+    },
+    {
+      "slug": "dsh-prompt",
+      "name": "dsh-prompt",
+      "version": "0.1.0",
+      "description": "DSH prompt 调色板：预制 + 自定义 prompt 模板，点击即插入当前对话输入框（v1 常规模式 + v1.1 智能模式悬浮卡） | Prompt palette for DeepSeek Harness: preset + custom prompt templates, one-click insert into the conversation.",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 39,
+      "dsh_compat": true,
+      "last_publish": "2026-08-17T01:17:16.201Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek",
+        "deepseek-harness",
+        "prompt"
       ]
     },
     {
@@ -15518,25 +15561,6 @@
       ]
     },
     {
-      "slug": "zoytown--dsh-billing",
-      "name": "@zoytown/dsh-billing",
-      "version": "0.1.2",
-      "description": "DeepSeek Harness (dsh) plugin for DeepSeek API account balance — a ctx.billing capability seam, a /balance command, and a sidebar balance indicator with a Settings page for the Web UI.",
-      "weekly_downloads": 0,
-      "stars": 0,
-      "grade": "D",
-      "overall": 39,
-      "dsh_compat": true,
-      "last_publish": "2026-08-17T04:25:58.272Z",
-      "keywords": [
-        "dsh-plugin",
-        "dsh",
-        "deepseek",
-        "deepseek-harness",
-        "deepseek-api"
-      ]
-    },
-    {
       "slug": "dsh-plugin-wallpaper-engine",
       "name": "dsh-plugin-wallpaper-engine",
       "version": "0.1.3",
@@ -15629,6 +15653,25 @@
         "dsh",
         "dsh-plugin",
         "mcp"
+      ]
+    },
+    {
+      "slug": "zoytown--dsh-billing",
+      "name": "@zoytown/dsh-billing",
+      "version": "0.1.2",
+      "description": "DeepSeek Harness (dsh) plugin for DeepSeek API account balance — a ctx.billing capability seam, a /balance command, and a sidebar balance indicator with a Settings page for the Web UI.",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 39,
+      "dsh_compat": true,
+      "last_publish": "2026-08-17T04:25:58.272Z",
+      "keywords": [
+        "dsh-plugin",
+        "dsh",
+        "deepseek",
+        "deepseek-harness",
+        "deepseek-api"
       ]
     },
     {
@@ -16333,6 +16376,25 @@
       ]
     },
     {
+      "slug": "zoytown--dsh-token",
+      "name": "@zoytown/dsh-token",
+      "version": "0.1.0",
+      "description": "Machine-wide token usage statistics for DeepSeek Harness, rendered as a tab in the Plugins settings page.",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 39,
+      "dsh_compat": true,
+      "last_publish": "2026-08-17T04:58:44.758Z",
+      "keywords": [
+        "dsh-plugin",
+        "deepseek-harness",
+        "cordis",
+        "token",
+        "usage"
+      ]
+    },
+    {
       "slug": "ikonon--dsh-trade-chart",
       "name": "@ikonon/dsh-trade-chart",
       "version": "0.1.1",
@@ -16368,25 +16430,6 @@
         "dsh",
         "dsh-plugin",
         "appshot"
-      ]
-    },
-    {
-      "slug": "zoytown--dsh-token",
-      "name": "@zoytown/dsh-token",
-      "version": "0.1.0",
-      "description": "Machine-wide token usage statistics for DeepSeek Harness, rendered as a tab in the Plugins settings page.",
-      "weekly_downloads": 0,
-      "stars": 0,
-      "grade": "D",
-      "overall": 39,
-      "dsh_compat": true,
-      "last_publish": "2026-08-17T04:58:44.758Z",
-      "keywords": [
-        "dsh-plugin",
-        "deepseek-harness",
-        "cordis",
-        "token",
-        "usage"
       ]
     },
     {
@@ -16996,6 +17039,25 @@
       ]
     },
     {
+      "slug": "dshmarketplace-plugin",
+      "name": "dshmarketplace-plugin",
+      "version": "0.1.1",
+      "description": "Browse and install DeepSeek Harness plugins from inside DSH, in English or Chinese.",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 39,
+      "dsh_compat": true,
+      "last_publish": "2026-08-17T04:05:28.494Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek-harness",
+        "plugin-store",
+        "marketplace"
+      ]
+    },
+    {
       "slug": "dsh-excel-panel",
       "name": "dsh-excel-panel",
       "version": "0.6.1",
@@ -17050,25 +17112,6 @@
         "dsh",
         "dsh-plugin",
         "notification"
-      ]
-    },
-    {
-      "slug": "dshmarketplace-plugin",
-      "name": "dshmarketplace-plugin",
-      "version": "0.1.1",
-      "description": "Browse and install DeepSeek Harness plugins from inside DSH, in English or Chinese.",
-      "weekly_downloads": 0,
-      "stars": 0,
-      "grade": "D",
-      "overall": 39,
-      "dsh_compat": true,
-      "last_publish": "2026-08-17T04:05:28.494Z",
-      "keywords": [
-        "dsh",
-        "dsh-plugin",
-        "deepseek-harness",
-        "plugin-store",
-        "marketplace"
       ]
     },
     {
@@ -18171,25 +18214,6 @@
       ]
     },
     {
-      "slug": "dsh-what-changed",
-      "name": "dsh-what-changed",
-      "version": "0.2.2",
-      "description": "看得见 Agent 到底改了什么。按会话汇总所有文件改动，一屏审阅后再提交 | See what the agent actually changed. Every file edit in the session, in one review panel.",
-      "weekly_downloads": 0,
-      "stars": 0,
-      "grade": "D",
-      "overall": 39,
-      "dsh_compat": true,
-      "last_publish": "2026-08-17T04:21:36.894Z",
-      "keywords": [
-        "dsh",
-        "dsh-plugin",
-        "dsh-plugins",
-        "deepseek-harness",
-        "deepseek"
-      ]
-    },
-    {
       "slug": "dsh-session-pin",
       "name": "dsh-session-pin",
       "version": "0.4.0",
@@ -18300,6 +18324,25 @@
         "deepseek-harness",
         "deepseek",
         "retry"
+      ]
+    },
+    {
+      "slug": "dsh-what-changed",
+      "name": "dsh-what-changed",
+      "version": "0.2.2",
+      "description": "看得见 Agent 到底改了什么。按会话汇总所有文件改动，一屏审阅后再提交 | See what the agent actually changed. Every file edit in the session, in one review panel.",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 39,
+      "dsh_compat": true,
+      "last_publish": "2026-08-17T04:21:36.894Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugins",
+        "deepseek-harness",
+        "deepseek"
       ]
     },
     {
@@ -19167,6 +19210,23 @@
       ]
     },
     {
+      "slug": "dsh-freestyle-dsh-theme",
+      "name": "dsh-freestyle-dsh-theme",
+      "version": "0.0.0",
+      "description": "DeepSeek Harness 主题体验插件：OKLCH 主题提案 + 主题设计器（跨重启持久化）",
+      "weekly_downloads": 0,
+      "stars": 11,
+      "grade": "D",
+      "overall": 38,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "deepseek-harness",
+        "oklch",
+        "theme"
+      ]
+    },
+    {
       "slug": "dsh-openmaic",
       "name": "dsh-openmaic",
       "version": "0.0.0",
@@ -19196,6 +19256,19 @@
       "keywords": [
         "deepseek-harness"
       ]
+    },
+    {
+      "slug": "dsh-provider-model-configurator",
+      "name": "dsh-provider-model-configurator",
+      "version": "0.0.0",
+      "description": "DSH 模型 Pro:为 DSH WebUI 提供将 pi-ai 预设或任意已配置提供商的模型上下文、输出上限、推理档位与兼容开关一键应用到目标提供商,并集中查看、新建、编辑、复制与删除各提供商模型条目的能力。",
+      "weekly_downloads": 0,
+      "stars": 11,
+      "grade": "D",
+      "overall": 38,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": []
     },
     {
       "slug": "dsh-design-skills",
@@ -19232,36 +19305,6 @@
         "dsh-plugin-market",
         "dsh-plugins",
         "dsh-plugins-terminal"
-      ]
-    },
-    {
-      "slug": "dsh-provider-model-configurator",
-      "name": "dsh-provider-model-configurator",
-      "version": "0.0.0",
-      "description": "DSH 模型 Pro:为 DSH WebUI 提供将 pi-ai 预设或任意已配置提供商的模型上下文、输出上限、推理档位与兼容开关一键应用到目标提供商,并集中查看、新建、编辑、复制与删除各提供商模型条目的能力。",
-      "weekly_downloads": 0,
-      "stars": 11,
-      "grade": "D",
-      "overall": 38,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": []
-    },
-    {
-      "slug": "dsh-freestyle-dsh-theme",
-      "name": "dsh-freestyle-dsh-theme",
-      "version": "0.0.0",
-      "description": "DeepSeek Harness 主题体验插件：OKLCH 主题提案 + 主题设计器（跨重启持久化）",
-      "weekly_downloads": 0,
-      "stars": 11,
-      "grade": "D",
-      "overall": 38,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "deepseek-harness",
-        "oklch",
-        "theme"
       ]
     },
     {
@@ -19482,25 +19525,6 @@
       ]
     },
     {
-      "slug": "dsh-DeepSeek-Harness-Desktop",
-      "name": "dsh-DeepSeek-Harness-Desktop",
-      "version": "0.0.0",
-      "description": "一个 Electron 桌面壳，内嵌官方 DeepSeek Harness Web UI。启动时让用户选择安装模式，自动完成环境检测、安装、服务拉起，以百分比进度条展示各阶段，服务就绪后打开主界面。",
-      "weekly_downloads": 0,
-      "stars": 6,
-      "grade": "D",
-      "overall": 38,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "deepseek",
-        "deepseek-ai",
-        "deepseek-api",
-        "deepseek-harness",
-        "deepseek-v4"
-      ]
-    },
-    {
       "slug": "dsh-codex-plugin-dsh",
       "name": "dsh-codex-plugin-dsh",
       "version": "0.0.0",
@@ -19520,10 +19544,10 @@
       ]
     },
     {
-      "slug": "dsh-helm-d",
-      "name": "dsh-helm-d",
+      "slug": "dsh-DeepSeek-Harness-Desktop",
+      "name": "dsh-DeepSeek-Harness-Desktop",
       "version": "0.0.0",
-      "description": "DeepSeek Harness 破甲一体化安全分析插件：Android · Web · Native · Protocol · Malware · AI-Security 全领域聚合（9 bundle + 1 preset）",
+      "description": "一个 Electron 桌面壳，内嵌官方 DeepSeek Harness Web UI。启动时让用户选择安装模式，自动完成环境检测、安装、服务拉起，以百分比进度条展示各阶段，服务就绪后打开主界面。",
       "weekly_downloads": 0,
       "stars": 6,
       "grade": "D",
@@ -19531,11 +19555,11 @@
       "dsh_compat": false,
       "last_publish": null,
       "keywords": [
-        "cordis",
+        "deepseek",
+        "deepseek-ai",
+        "deepseek-api",
         "deepseek-harness",
-        "dsh",
-        "frida",
-        "reverse-engineering"
+        "deepseek-v4"
       ]
     },
     {
@@ -19558,6 +19582,25 @@
       ]
     },
     {
+      "slug": "dsh-helm-d",
+      "name": "dsh-helm-d",
+      "version": "0.0.0",
+      "description": "DeepSeek Harness 破甲一体化安全分析插件：Android · Web · Native · Protocol · Malware · AI-Security 全领域聚合（9 bundle + 1 preset）",
+      "weekly_downloads": 0,
+      "stars": 6,
+      "grade": "D",
+      "overall": 38,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "cordis",
+        "deepseek-harness",
+        "dsh",
+        "frida",
+        "reverse-engineering"
+      ]
+    },
+    {
       "slug": "dsh-media-skills",
       "name": "dsh-media-skills",
       "version": "0.0.0",
@@ -19574,25 +19617,6 @@
         "image-generation",
         "skill",
         "vision"
-      ]
-    },
-    {
-      "slug": "dsh-annotate",
-      "name": "dsh-annotate",
-      "version": "0.0.0",
-      "description": "Visual browser element annotation for DeepSeek Harness, capturing DOM, styles, accessibility data, comments, and viewport screenshots. DeepSeek Harness 浏览器元素标注插件，捕获 DOM、样式、可访问性数据、评论和视口截图。",
-      "weekly_downloads": 0,
-      "stars": 6,
-      "grade": "D",
-      "overall": 38,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "deepseek-harness",
-        "dom-inspection",
-        "dsh",
-        "frontend-tools",
-        "typescript"
       ]
     },
     {
@@ -19632,6 +19656,43 @@
       ]
     },
     {
+      "slug": "dsh-btw",
+      "name": "dsh-btw",
+      "version": "0.0.0",
+      "description": "个人很喜欢 Claude Code 的 /btw，于是为 DSH 做了复刻：共享当前上下文快速旁路提问，不中断主任务，也不写入主会话历史。",
+      "weekly_downloads": 0,
+      "stars": 6,
+      "grade": "D",
+      "overall": 38,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "btw",
+        "claude-code",
+        "deepseek-harness",
+        "typescript"
+      ]
+    },
+    {
+      "slug": "dsh-annotate",
+      "name": "dsh-annotate",
+      "version": "0.0.0",
+      "description": "Visual browser element annotation for DeepSeek Harness, capturing DOM, styles, accessibility data, comments, and viewport screenshots. DeepSeek Harness 浏览器元素标注插件，捕获 DOM、样式、可访问性数据、评论和视口截图。",
+      "weekly_downloads": 0,
+      "stars": 6,
+      "grade": "D",
+      "overall": 38,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "deepseek-harness",
+        "dom-inspection",
+        "dsh",
+        "frontend-tools",
+        "typescript"
+      ]
+    },
+    {
       "slug": "dsh-Agent_Extensions",
       "name": "dsh-Agent_Extensions",
       "version": "0.0.0",
@@ -19667,24 +19728,6 @@
         "dsh",
         "dsh-plugin-market",
         "dsh-plugin-verify"
-      ]
-    },
-    {
-      "slug": "dsh-btw",
-      "name": "dsh-btw",
-      "version": "0.0.0",
-      "description": "个人很喜欢 Claude Code 的 /btw，于是为 DSH 做了复刻：共享当前上下文快速旁路提问，不中断主任务，也不写入主会话历史。",
-      "weekly_downloads": 0,
-      "stars": 6,
-      "grade": "D",
-      "overall": 38,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "btw",
-        "claude-code",
-        "deepseek-harness",
-        "typescript"
       ]
     },
     {
@@ -19745,6 +19788,43 @@
       ]
     },
     {
+      "slug": "dsh-chatnode-wechat",
+      "name": "dsh-chatnode-wechat",
+      "version": "0.0.0",
+      "description": "Chat with, monitor, and approve your DSH agents from WeChat — an iLink gateway + conversation node bundle for DeepSeek Harness",
+      "weekly_downloads": 0,
+      "stars": 6,
+      "grade": "D",
+      "overall": 38,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "deepseek-harness",
+        "ilink",
+        "wechat",
+        "weixin"
+      ]
+    },
+    {
+      "slug": "dsh-wanjiqi-meme",
+      "name": "dsh-wanjiqi-meme",
+      "version": "0.0.0",
+      "description": "玩机器(6657直播间)烂梗 Skill：22771条真实弹幕烂梗蒸馏成AI Skill，生成玩机器式弹幕/解说吐槽/CS×DOTA双料梗",
+      "weekly_downloads": 0,
+      "stars": 6,
+      "grade": "D",
+      "overall": 38,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "agentskills",
+        "claude-code",
+        "cs2",
+        "csgo",
+        "deepseek-harness"
+      ]
+    },
+    {
       "slug": "dsh-plugin-describe-image",
       "name": "dsh-plugin-describe-image",
       "version": "0.0.0",
@@ -19783,43 +19863,6 @@
       ]
     },
     {
-      "slug": "dsh-wanjiqi-meme",
-      "name": "dsh-wanjiqi-meme",
-      "version": "0.0.0",
-      "description": "玩机器(6657直播间)烂梗 Skill：22771条真实弹幕烂梗蒸馏成AI Skill，生成玩机器式弹幕/解说吐槽/CS×DOTA双料梗",
-      "weekly_downloads": 0,
-      "stars": 6,
-      "grade": "D",
-      "overall": 38,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "agentskills",
-        "claude-code",
-        "cs2",
-        "csgo",
-        "deepseek-harness"
-      ]
-    },
-    {
-      "slug": "dsh-chatnode-wechat",
-      "name": "dsh-chatnode-wechat",
-      "version": "0.0.0",
-      "description": "Chat with, monitor, and approve your DSH agents from WeChat — an iLink gateway + conversation node bundle for DeepSeek Harness",
-      "weekly_downloads": 0,
-      "stars": 6,
-      "grade": "D",
-      "overall": 38,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "deepseek-harness",
-        "ilink",
-        "wechat",
-        "weixin"
-      ]
-    },
-    {
       "slug": "dsh-DSH-Telegram-Relay",
       "name": "dsh-DSH-Telegram-Relay",
       "version": "0.0.0",
@@ -19836,25 +19879,6 @@
         "automation-highway",
         "automotive",
         "autonomous-agents"
-      ]
-    },
-    {
-      "slug": "dsh-amadeus-for-dsh",
-      "name": "dsh-amadeus-for-dsh",
-      "version": "0.0.0",
-      "description": "Amadeus (AI assistant from Steins;Gate 0) for DeepSeek Harness",
-      "weekly_downloads": 0,
-      "stars": 6,
-      "grade": "D",
-      "overall": 38,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "ai",
-        "ai-agents",
-        "dsh",
-        "makise-kurisu",
-        "steins-gate"
       ]
     },
     {
@@ -19877,6 +19901,25 @@
       ]
     },
     {
+      "slug": "dsh-amadeus-for-dsh",
+      "name": "dsh-amadeus-for-dsh",
+      "version": "0.0.0",
+      "description": "Amadeus (AI assistant from Steins;Gate 0) for DeepSeek Harness",
+      "weekly_downloads": 0,
+      "stars": 6,
+      "grade": "D",
+      "overall": 38,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "ai",
+        "ai-agents",
+        "dsh",
+        "makise-kurisu",
+        "steins-gate"
+      ]
+    },
+    {
       "slug": "dsh-plugin-tts",
       "name": "dsh-plugin-tts",
       "version": "0.0.0",
@@ -19891,6 +19934,44 @@
         "deepseek-harness",
         "edge-tts",
         "text-to-speech"
+      ]
+    },
+    {
+      "slug": "dsh-tuning-engines-cli",
+      "name": "dsh-tuning-engines-cli",
+      "version": "0.0.0",
+      "description": "CLI & MCP server for Tuning Engines — fine-tune LLMs on code repositories",
+      "weekly_downloads": 0,
+      "stars": 5,
+      "grade": "D",
+      "overall": 38,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "ai",
+        "cli",
+        "fine-tuning",
+        "llm",
+        "lora"
+      ]
+    },
+    {
+      "slug": "dsh-landscape",
+      "name": "dsh-landscape",
+      "version": "0.0.0",
+      "description": "Agent-first DeepSeek Harness plugin intelligence: verify existing plugins, identify missing capabilities, and generate build-ready briefs.",
+      "weekly_downloads": 0,
+      "stars": 5,
+      "grade": "D",
+      "overall": 38,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "agent-skills",
+        "codex",
+        "deepseek-harness",
+        "ecosystem",
+        "gap-analysis"
       ]
     },
     {
@@ -19968,80 +20049,6 @@
       ]
     },
     {
-      "slug": "dsh-tuning-engines-cli",
-      "name": "dsh-tuning-engines-cli",
-      "version": "0.0.0",
-      "description": "CLI & MCP server for Tuning Engines — fine-tune LLMs on code repositories",
-      "weekly_downloads": 0,
-      "stars": 5,
-      "grade": "D",
-      "overall": 38,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "ai",
-        "cli",
-        "fine-tuning",
-        "llm",
-        "lora"
-      ]
-    },
-    {
-      "slug": "dsh-landscape",
-      "name": "dsh-landscape",
-      "version": "0.0.0",
-      "description": "Agent-first DeepSeek Harness plugin intelligence: verify existing plugins, identify missing capabilities, and generate build-ready briefs.",
-      "weekly_downloads": 0,
-      "stars": 5,
-      "grade": "D",
-      "overall": 38,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "agent-skills",
-        "codex",
-        "deepseek-harness",
-        "ecosystem",
-        "gap-analysis"
-      ]
-    },
-    {
-      "slug": "dsh-model-usage-plugin",
-      "name": "dsh-model-usage-plugin",
-      "version": "0.0.0",
-      "description": "统计各模型 tokens 消耗并估算费用，显示账户余额 | Model token usage stats and cost estimation with account balance for DSH",
-      "weekly_downloads": 0,
-      "stars": 5,
-      "grade": "D",
-      "overall": 38,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "cordis",
-        "cost-estimation",
-        "deepseek-harness",
-        "dsh",
-        "plugin"
-      ]
-    },
-    {
-      "slug": "dsh-prompt-rail",
-      "name": "dsh-prompt-rail",
-      "version": "0.0.0",
-      "description": "Prompt Rail 是 DeepSeek Harness Web 会话页的紧凑纵向提示词快速跳转条。每一条横杠对应一条当前已加载的普通用户提示词。悬停或键盘聚焦会展示预览；点击会滚动跳转到对应提示词。",
-      "weekly_downloads": 0,
-      "stars": 5,
-      "grade": "D",
-      "overall": 38,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "deepseek",
-        "deepseek-harness",
-        "dsh-plugins"
-      ]
-    },
-    {
       "slug": "dsh-tensorlake-sandbox",
       "name": "dsh-tensorlake-sandbox",
       "version": "0.0.0",
@@ -20098,6 +20105,23 @@
       ]
     },
     {
+      "slug": "dsh-prompt-rail",
+      "name": "dsh-prompt-rail",
+      "version": "0.0.0",
+      "description": "Prompt Rail 是 DeepSeek Harness Web 会话页的紧凑纵向提示词快速跳转条。每一条横杠对应一条当前已加载的普通用户提示词。悬停或键盘聚焦会展示预览；点击会滚动跳转到对应提示词。",
+      "weekly_downloads": 0,
+      "stars": 5,
+      "grade": "D",
+      "overall": 38,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugins"
+      ]
+    },
+    {
       "slug": "dsh-client-masquerade",
       "name": "dsh-client-masquerade",
       "version": "0.0.0",
@@ -20114,6 +20138,43 @@
         "deepseek-harness",
         "dsh",
         "llm"
+      ]
+    },
+    {
+      "slug": "dsh-model-usage-plugin",
+      "name": "dsh-model-usage-plugin",
+      "version": "0.0.0",
+      "description": "统计各模型 tokens 消耗并估算费用，显示账户余额 | Model token usage stats and cost estimation with account balance for DSH",
+      "weekly_downloads": 0,
+      "stars": 5,
+      "grade": "D",
+      "overall": 38,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "cordis",
+        "cost-estimation",
+        "deepseek-harness",
+        "dsh",
+        "plugin"
+      ]
+    },
+    {
+      "slug": "dsh-harness-pet",
+      "name": "dsh-harness-pet",
+      "version": "0.0.0",
+      "description": "Harness Pet — an unofficial community pet for DeepSeek Harness. Not affiliated with, endorsed by, or maintained by DeepSeek.",
+      "weekly_downloads": 0,
+      "stars": 5,
+      "grade": "D",
+      "overall": 38,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "deepseek-harness",
+        "desktop-pet",
+        "dsh",
+        "typescript"
       ]
     },
     {
@@ -20187,10 +20248,10 @@
       ]
     },
     {
-      "slug": "dsh-harness-pet",
-      "name": "dsh-harness-pet",
+      "slug": "dsh-loop",
+      "name": "dsh-loop",
       "version": "0.0.0",
-      "description": "Harness Pet — an unofficial community pet for DeepSeek Harness. Not affiliated with, endorsed by, or maintained by DeepSeek.",
+      "description": "DSH 插件：定时循环（/loop 命令 + loop 工具 + 活动状态条）。官方 bundle 插件，dsh plugin --profile web add 安装",
       "weekly_downloads": 0,
       "stars": 5,
       "grade": "D",
@@ -20198,10 +20259,9 @@
       "dsh_compat": false,
       "last_publish": null,
       "keywords": [
-        "deepseek-harness",
-        "desktop-pet",
         "dsh",
-        "typescript"
+        "plugin",
+        "ui"
       ]
     },
     {
@@ -20219,23 +20279,6 @@
         "deepseek",
         "deepseek-harness",
         "dsh-plugins"
-      ]
-    },
-    {
-      "slug": "dsh-loop",
-      "name": "dsh-loop",
-      "version": "0.0.0",
-      "description": "DSH 插件：定时循环（/loop 命令 + loop 工具 + 活动状态条）。官方 bundle 插件，dsh plugin --profile web add 安装",
-      "weekly_downloads": 0,
-      "stars": 5,
-      "grade": "D",
-      "overall": 38,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "dsh",
-        "plugin",
-        "ui"
       ]
     },
     {
@@ -20368,25 +20411,6 @@
         "cordis",
         "llm",
         "provider-routing"
-      ]
-    },
-    {
-      "slug": "dsh-cloudflare-browser-run",
-      "name": "dsh-cloudflare-browser-run",
-      "version": "0.1.1",
-      "description": "DeepSeek Harness plugin: web browsing tools (markdown / screenshot / pdf) powered by Cloudflare Browser Run — real headless Chrome with JS rendering, login sessions and WebMCP support.",
-      "weekly_downloads": 0,
-      "stars": 0,
-      "grade": "D",
-      "overall": 38,
-      "dsh_compat": true,
-      "last_publish": "2026-08-13T16:43:57.021Z",
-      "keywords": [
-        "dsh",
-        "dsh-plugin",
-        "deepseek-harness",
-        "cordis",
-        "cloudflare"
       ]
     },
     {
@@ -20937,25 +20961,6 @@
       ]
     },
     {
-      "slug": "claude2dsh--plugin",
-      "name": "@claude2dsh/plugin",
-      "version": "0.1.0-rc.2",
-      "description": "Import Claude Code sessions and skills into DeepSeek Harness, and sync DSH sessions back to Claude Code",
-      "weekly_downloads": 0,
-      "stars": 0,
-      "grade": "D",
-      "overall": 38,
-      "dsh_compat": true,
-      "last_publish": "2026-08-16T07:49:17.192Z",
-      "keywords": [
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "claude-code",
-        "migration"
-      ]
-    },
-    {
       "slug": "dsh-plugin-qwen-image",
       "name": "dsh-plugin-qwen-image",
       "version": "0.2.0",
@@ -21086,6 +21091,25 @@
         "dsh",
         "openagentnetwork",
         "oan"
+      ]
+    },
+    {
+      "slug": "claude2dsh--plugin",
+      "name": "@claude2dsh/plugin",
+      "version": "0.1.0-rc.2",
+      "description": "Import Claude Code sessions and skills into DeepSeek Harness, and sync DSH sessions back to Claude Code",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 38,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T07:49:17.192Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "claude-code",
+        "migration"
       ]
     },
     {
@@ -23002,6 +23026,25 @@
       ]
     },
     {
+      "slug": "dsh-quant",
+      "name": "dsh-quant",
+      "version": "0.22.1",
+      "description": "dsh plugin: quantitative tools for agents — market data (Binance public API), technical indicators (SMA/EMA/RSI/MACD/Bollinger/ATR) and MA-crossover backtest, with structured canonical outputs consumable from Code Mode",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 38,
+      "dsh_compat": true,
+      "last_publish": "2026-08-17T03:48:19.291Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek-harness",
+        "quant",
+        "trading"
+      ]
+    },
+    {
       "slug": "jiesou--dsh-cline-free-provider",
       "name": "@jiesou/dsh-cline-free-provider",
       "version": "0.1.2",
@@ -23094,25 +23137,6 @@
         "dsh-plugin",
         "cordis",
         "plugin"
-      ]
-    },
-    {
-      "slug": "dsh-quant",
-      "name": "dsh-quant",
-      "version": "0.22.1",
-      "description": "dsh plugin: quantitative tools for agents — market data (Binance public API), technical indicators (SMA/EMA/RSI/MACD/Bollinger/ATR) and MA-crossover backtest, with structured canonical outputs consumable from Code Mode",
-      "weekly_downloads": 0,
-      "stars": 0,
-      "grade": "D",
-      "overall": 38,
-      "dsh_compat": true,
-      "last_publish": "2026-08-17T03:48:19.291Z",
-      "keywords": [
-        "dsh",
-        "dsh-plugin",
-        "deepseek-harness",
-        "quant",
-        "trading"
       ]
     },
     {
@@ -25462,25 +25486,6 @@
       ]
     },
     {
-      "slug": "elementor-i--dsh-agentmemory",
-      "name": "@elementor-i/dsh-agentmemory",
-      "version": "0.1.3",
-      "description": "agentmemory for DeepSeek Harness (dsh): full memory_* tools, capture hooks, and context injection over the local REST server",
-      "weekly_downloads": 0,
-      "stars": 0,
-      "grade": "D",
-      "overall": 38,
-      "dsh_compat": true,
-      "last_publish": "2026-08-17T03:55:56.585Z",
-      "keywords": [
-        "deepseek",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "agentmemory"
-      ]
-    },
-    {
       "slug": "tingrudeng--dsh-feishu-bot",
       "name": "@tingrudeng/dsh-feishu-bot",
       "version": "0.1.0-rc.7",
@@ -25497,6 +25502,25 @@
         "feishu",
         "lark",
         "chatbot"
+      ]
+    },
+    {
+      "slug": "elementor-i--dsh-agentmemory",
+      "name": "@elementor-i/dsh-agentmemory",
+      "version": "0.1.3",
+      "description": "agentmemory for DeepSeek Harness (dsh): full memory_* tools, capture hooks, and context injection over the local REST server",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 38,
+      "dsh_compat": true,
+      "last_publish": "2026-08-17T03:55:56.585Z",
+      "keywords": [
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "agentmemory"
       ]
     },
     {
@@ -25667,6 +25691,25 @@
       "keywords": []
     },
     {
+      "slug": "dsh-crew",
+      "name": "dsh-crew",
+      "version": "0.0.0",
+      "description": "DeepSeek Harness (DSH) plugin: dispatch work to DSH agents from Claude Code / Codex — native subagent progress, in-host worker sessions with per-tier presets, and a multimodal bridge that lends the text-only harness vision and image generation.",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "D",
+      "overall": 37,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "coding-agent",
+        "deepseek-harness"
+      ]
+    },
+    {
       "slug": "dsh-plugin-skills",
       "name": "dsh-plugin-skills",
       "version": "0.0.0",
@@ -25766,25 +25809,6 @@
       ]
     },
     {
-      "slug": "dsh-crew",
-      "name": "dsh-crew",
-      "version": "0.0.0",
-      "description": "DeepSeek Harness (DSH) plugin: dispatch work to DSH agents from Claude Code / Codex — native subagent progress, in-host worker sessions with per-tier presets, and a multimodal bridge that lends the text-only harness vision and image generation.",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "D",
-      "overall": 37,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "ai-agents",
-        "claude-code",
-        "codex",
-        "coding-agent",
-        "deepseek-harness"
-      ]
-    },
-    {
       "slug": "dsh-Oh-My-DSH",
       "name": "dsh-Oh-My-DSH",
       "version": "0.0.0",
@@ -25859,23 +25883,6 @@
       ]
     },
     {
-      "slug": "dsh-plugin-healthcheck",
-      "name": "dsh-plugin-healthcheck",
-      "version": "0.0.0",
-      "description": "害怕插件装了就崩溃？用这个插件帮你检测插件是否正常/是否含木马！",
-      "weekly_downloads": 0,
-      "stars": 8,
-      "grade": "D",
-      "overall": 37,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "dsh",
-        "dsh-plugins",
-        "dsharpplus"
-      ]
-    },
-    {
       "slug": "dsh-deepseek-harness-docker",
       "name": "dsh-deepseek-harness-docker",
       "version": "0.0.0",
@@ -25892,6 +25899,23 @@
         "deepseek-harness-plugin",
         "docker",
         "dsh"
+      ]
+    },
+    {
+      "slug": "dsh-plugin-healthcheck",
+      "name": "dsh-plugin-healthcheck",
+      "version": "0.0.0",
+      "description": "害怕插件装了就崩溃？用这个插件帮你检测插件是否正常/是否含木马！",
+      "weekly_downloads": 0,
+      "stars": 8,
+      "grade": "D",
+      "overall": 37,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "dsh",
+        "dsh-plugins",
+        "dsharpplus"
       ]
     },
     {
@@ -25929,6 +25953,25 @@
       ]
     },
     {
+      "slug": "dsh-Jnpz",
+      "name": "dsh-Jnpz",
+      "version": "0.0.0",
+      "description": "改配置+重启才能加 MCP？DeepSeek Harness (DSH) 插件「技能配置」解决：设置页粘贴 JSON 即连 MCP 服务器、热加载免重启；上传 zip/.skill 自动识别 SKILL.md，创建/编辑/启停技能，即点即用",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "D",
+      "overall": 37,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "ai-agents",
+        "ai-tools",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools"
+      ]
+    },
+    {
       "slug": "dsh-plugin-working-status",
       "name": "dsh-plugin-working-status",
       "version": "0.0.0",
@@ -25941,6 +25984,22 @@
       "last_publish": null,
       "keywords": [
         "deepseek",
+        "deepseek-harness",
+        "dsh-plugins"
+      ]
+    },
+    {
+      "slug": "dsh-read-url",
+      "name": "dsh-read-url",
+      "version": "0.0.0",
+      "description": "DeepSeek Harness URL reader: fetch any page and return clean main-content text/Markdown. Auto charset (GBK/GB2312/UTF-8/Big5), token-efficient (6000-char cap, cache, offset), zero deps, no API key. 网页一键读全文 → 干净正文 / 结构化 Markdown",
+      "weekly_downloads": 0,
+      "stars": 7,
+      "grade": "D",
+      "overall": 37,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
         "deepseek-harness",
         "dsh-plugins"
       ]
@@ -25996,22 +26055,6 @@
         "thread",
         "trajectory",
         "visualization"
-      ]
-    },
-    {
-      "slug": "dsh-read-url",
-      "name": "dsh-read-url",
-      "version": "0.0.0",
-      "description": "DeepSeek Harness URL reader: fetch any page and return clean main-content text/Markdown. Auto charset (GBK/GB2312/UTF-8/Big5), token-efficient (6000-char cap, cache, offset), zero deps, no API key. 网页一键读全文 → 干净正文 / 结构化 Markdown",
-      "weekly_downloads": 0,
-      "stars": 7,
-      "grade": "D",
-      "overall": 37,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "deepseek-harness",
-        "dsh-plugins"
       ]
     },
     {
@@ -26254,25 +26297,6 @@
       ]
     },
     {
-      "slug": "dsh-loop-dock",
-      "name": "dsh-loop-dock",
-      "version": "0.0.0",
-      "description": "A loop dock for DeepSeek Harness: one harness, multiple agent loops.",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "D",
-      "overall": 37,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "agent-loop",
-        "deepseek-harness",
-        "heterogeneous-agents",
-        "llm",
-        "multi-agent"
-      ]
-    },
-    {
       "slug": "dsh-openapi",
       "name": "dsh-openapi",
       "version": "0.0.0",
@@ -26308,6 +26332,25 @@
         "deepseek-harness",
         "deepseekharness",
         "dsh"
+      ]
+    },
+    {
+      "slug": "dsh-loop-dock",
+      "name": "dsh-loop-dock",
+      "version": "0.0.0",
+      "description": "A loop dock for DeepSeek Harness: one harness, multiple agent loops.",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "D",
+      "overall": 37,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "agent-loop",
+        "deepseek-harness",
+        "heterogeneous-agents",
+        "llm",
+        "multi-agent"
       ]
     },
     {
@@ -26383,42 +26426,6 @@
       ]
     },
     {
-      "slug": "dsh-input-plus",
-      "name": "dsh-input-plus",
-      "version": "0.0.0",
-      "description": "DSH Web UI plugin for workspace file references, prompt history, and lightweight composer enhancements.",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "D",
-      "overall": 37,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "deepseek-harness",
-        "dsh",
-        "dsh-web"
-      ]
-    },
-    {
-      "slug": "dsh-ds-vision-plugin",
-      "name": "dsh-ds-vision-plugin",
-      "version": "0.0.0",
-      "description": "Paste images into DeepSeek Harness with a four-model vision race, OCR, and an automatic text bridge.",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "D",
-      "overall": 37,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "deepseek",
-        "deepseek-harness",
-        "image-to-text",
-        "multimodal",
-        "ocr"
-      ]
-    },
-    {
       "slug": "dsh-JujutsuKaisen-rainlove",
       "name": "dsh-JujutsuKaisen-rainlove",
       "version": "0.0.0",
@@ -26469,6 +26476,60 @@
         "cordis",
         "deepseek-harness",
         "dsh"
+      ]
+    },
+    {
+      "slug": "dsh-input-plus",
+      "name": "dsh-input-plus",
+      "version": "0.0.0",
+      "description": "DSH Web UI plugin for workspace file references, prompt history, and lightweight composer enhancements.",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "D",
+      "overall": 37,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-web"
+      ]
+    },
+    {
+      "slug": "dsh-ds-vision-plugin",
+      "name": "dsh-ds-vision-plugin",
+      "version": "0.0.0",
+      "description": "Paste images into DeepSeek Harness with a four-model vision race, OCR, and an automatic text bridge.",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "D",
+      "overall": 37,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "deepseek",
+        "deepseek-harness",
+        "image-to-text",
+        "multimodal",
+        "ocr"
+      ]
+    },
+    {
+      "slug": "dsh-system-proxy",
+      "name": "dsh-system-proxy",
+      "version": "0.0.0",
+      "description": "DSH host plugin - smart outbound HTTP(S) routing: named proxies (http/https/socks4/4a/5/5h), per-host/provider/plugin rules, direct-first fallback with health memory (global fetch + node http/https)",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "D",
+      "overall": 37,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "api-proxy",
+        "deepseek-harness",
+        "http-proxy",
+        "system-proxy"
       ]
     },
     {
@@ -26582,42 +26643,6 @@
       ]
     },
     {
-      "slug": "dsh-sticky-notes",
-      "name": "dsh-sticky-notes",
-      "version": "0.0.0",
-      "description": "Sticky notes for DeepSeek Harness: draggable notes with text & image support, 9 skins, and AI-powered read/write. DeepSeek Harness 便签插件:可拖拽,支持文字与图片、9 款皮肤,AI 可读写。",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "D",
-      "overall": 37,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "ai-agent",
-        "deepseek-harness",
-        "plugin",
-        "sticky-notes"
-      ]
-    },
-    {
-      "slug": "dsh-system-proxy",
-      "name": "dsh-system-proxy",
-      "version": "0.0.0",
-      "description": "DSH host plugin - smart outbound HTTP(S) routing: named proxies (http/https/socks4/4a/5/5h), per-host/provider/plugin rules, direct-first fallback with health memory (global fetch + node http/https)",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "D",
-      "overall": 37,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "api-proxy",
-        "deepseek-harness",
-        "http-proxy",
-        "system-proxy"
-      ]
-    },
-    {
       "slug": "dsh-vision-provider",
       "name": "dsh-vision-provider",
       "version": "0.0.0",
@@ -26652,6 +26677,78 @@
         "deepseek",
         "deepseek-harness",
         "reasoning-effort"
+      ]
+    },
+    {
+      "slug": "dsh-Code2Skill",
+      "name": "dsh-Code2Skill",
+      "version": "0.0.0",
+      "description": "Generate Function, MCP, Agent Skill, and offline test packages from existing code; installable as a DeepSeek Harness bundle.",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "D",
+      "overall": 37,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "agent-skills",
+        "deepseek-harness",
+        "dsh"
+      ]
+    },
+    {
+      "slug": "dsh-sticky-notes",
+      "name": "dsh-sticky-notes",
+      "version": "0.0.0",
+      "description": "Sticky notes for DeepSeek Harness: draggable notes with text & image support, 9 skins, and AI-powered read/write. DeepSeek Harness 便签插件:可拖拽,支持文字与图片、9 款皮肤,AI 可读写。",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "D",
+      "overall": 37,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "ai-agent",
+        "deepseek-harness",
+        "plugin",
+        "sticky-notes"
+      ]
+    },
+    {
+      "slug": "dsh-plugin-mermaid",
+      "name": "dsh-plugin-mermaid",
+      "version": "0.0.0",
+      "description": "DeepSeek Harness web client plugin: render mermaid code blocks with a chart/source toggle.",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "D",
+      "overall": 37,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "deepseek-harness",
+        "diagrams",
+        "dsh",
+        "mermaid"
+      ]
+    },
+    {
+      "slug": "dsh-DshCockpit",
+      "name": "dsh-DshCockpit",
+      "version": "0.0.0",
+      "description": "Desktop cockpit for DeepSeek Harness (dsh): token usage & cost tracking, budget alerts, runtime auto-update with rollback, Quick Ask hotkey, scheduled tasks, session search. Win+macOS. DeepSeek Harness 桌面驾驶舱：成本/用量监控 · 自动更新 · 定时任务",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "D",
+      "overall": 37,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "agent-dashboard",
+        "ai-agent",
+        "auto-update",
+        "budget-tracker",
+        "cockpit"
       ]
     },
     {
@@ -26786,43 +26883,6 @@
       ]
     },
     {
-      "slug": "dsh-plugin-mermaid",
-      "name": "dsh-plugin-mermaid",
-      "version": "0.0.0",
-      "description": "DeepSeek Harness web client plugin: render mermaid code blocks with a chart/source toggle.",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "D",
-      "overall": 37,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "deepseek-harness",
-        "diagrams",
-        "dsh",
-        "mermaid"
-      ]
-    },
-    {
-      "slug": "dsh-DshCockpit",
-      "name": "dsh-DshCockpit",
-      "version": "0.0.0",
-      "description": "Desktop cockpit for DeepSeek Harness (dsh): token usage & cost tracking, budget alerts, runtime auto-update with rollback, Quick Ask hotkey, scheduled tasks, session search. Win+macOS. DeepSeek Harness 桌面驾驶舱：成本/用量监控 · 自动更新 · 定时任务",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "D",
-      "overall": 37,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "agent-dashboard",
-        "ai-agent",
-        "auto-update",
-        "budget-tracker",
-        "cockpit"
-      ]
-    },
-    {
       "slug": "dsh-anchorlaw",
       "name": "dsh-anchorlaw",
       "version": "0.0.0",
@@ -26839,6 +26899,61 @@
         "code-verification",
         "cpp",
         "deepseek-harness"
+      ]
+    },
+    {
+      "slug": "dsh-mcp-admin",
+      "name": "dsh-mcp-admin",
+      "version": "0.0.0",
+      "description": "dsh plugin for MCP status inspection and server management | dsh 的 MCP状态查看与服务管理插件",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "D",
+      "overall": 37,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "cordis",
+        "deepseek",
+        "dsh",
+        "mcp",
+        "mcp-client"
+      ]
+    },
+    {
+      "slug": "dsh-subagent-max",
+      "name": "dsh-subagent-max",
+      "version": "0.0.0",
+      "description": "DeepSeek Harness (DSH) plugin — a subagent_with_model tool plus a live multi-panel subagent viewer.",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "D",
+      "overall": 37,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "dsh-plugins",
+        "panel",
+        "subagents"
+      ]
+    },
+    {
+      "slug": "dsh-terrain",
+      "name": "dsh-terrain",
+      "version": "0.0.0",
+      "description": "AI-native engineering environment management that makes your codebase agent-ready.",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "D",
+      "overall": 37,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "deepseek",
+        "deepwiki",
+        "dsh",
+        "knowledge-base",
+        "okf"
       ]
     },
     {
@@ -26898,80 +27013,6 @@
       ]
     },
     {
-      "slug": "dsh-Jnpz",
-      "name": "dsh-Jnpz",
-      "version": "0.0.0",
-      "description": "改配置+重启才能加 MCP？DeepSeek Harness (DSH) 插件「技能配置」解决：设置页粘贴 JSON 即连 MCP 服务器、热加载免重启；上传 zip/.skill 自动识别 SKILL.md，创建/编辑/启停技能，即点即用",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "D",
-      "overall": 37,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "ai-agents",
-        "ai-tools",
-        "deepseek",
-        "deepseek-harness",
-        "developer-tools"
-      ]
-    },
-    {
-      "slug": "dsh-mcp-admin",
-      "name": "dsh-mcp-admin",
-      "version": "0.0.0",
-      "description": "dsh plugin for MCP status inspection and server management | dsh 的 MCP状态查看与服务管理插件",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "D",
-      "overall": 37,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "cordis",
-        "deepseek",
-        "dsh",
-        "mcp",
-        "mcp-client"
-      ]
-    },
-    {
-      "slug": "dsh-subagent-max",
-      "name": "dsh-subagent-max",
-      "version": "0.0.0",
-      "description": "DeepSeek Harness (DSH) plugin — a subagent_with_model tool plus a live multi-panel subagent viewer.",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "D",
-      "overall": 37,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "dsh-plugins",
-        "panel",
-        "subagents"
-      ]
-    },
-    {
-      "slug": "dsh-terrain",
-      "name": "dsh-terrain",
-      "version": "0.0.0",
-      "description": "AI-native engineering environment management that makes your codebase agent-ready.",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "D",
-      "overall": 37,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "deepseek",
-        "deepwiki",
-        "dsh",
-        "knowledge-base",
-        "okf"
-      ]
-    },
-    {
       "slug": "dsh-vscode",
       "name": "dsh-vscode",
       "version": "0.0.0",
@@ -27004,25 +27045,6 @@
         "deepseek-harness",
         "openspec",
         "spec-driven-development"
-      ]
-    },
-    {
-      "slug": "dsh-Better_Deepseek_Harness",
-      "name": "dsh-Better_Deepseek_Harness",
-      "version": "0.0.0",
-      "description": "Better Deepseek Harness, with some functional extensions to webui and Deepseek Harness·更好的deepseek harness，对webui和deepseek harness进行了一些功能扩展",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "D",
-      "overall": 37,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "ai-agent",
-        "ai-tools",
-        "deepseek",
-        "deepseek-harness",
-        "dsh"
       ]
     },
     {
@@ -27844,25 +27866,6 @@
       ]
     },
     {
-      "slug": "dsh-LorebookMD",
-      "name": "dsh-LorebookMD",
-      "version": "0.0.0",
-      "description": "DSH lorebook-driven fiction writer plugin: import Tavern/SillyTavern character cards & world books, save local Markdown settings, generate novel prose referencing the world.",
-      "weekly_downloads": 0,
-      "stars": 11,
-      "grade": "D",
-      "overall": 36,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "deepseek",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugins",
-        "lorebook"
-      ]
-    },
-    {
       "slug": "dsh-deepseek-visionary",
       "name": "dsh-deepseek-visionary",
       "version": "0.0.0",
@@ -27882,10 +27885,10 @@
       ]
     },
     {
-      "slug": "dsh-explain",
-      "name": "dsh-explain",
+      "slug": "dsh-LorebookMD",
+      "name": "dsh-LorebookMD",
       "version": "0.0.0",
-      "description": "DSH 本地优先学习模式插件：跨会话全局学习线程、按来源讲解、ExplainContext、压缩与可诊断设置界面",
+      "description": "DSH lorebook-driven fiction writer plugin: import Tavern/SillyTavern character cards & world books, save local Markdown settings, generate novel prose referencing the world.",
       "weekly_downloads": 0,
       "stars": 11,
       "grade": "D",
@@ -27893,8 +27896,11 @@
       "dsh_compat": false,
       "last_publish": null,
       "keywords": [
+        "deepseek",
+        "deepseek-harness",
         "dsh",
-        "dsh-plugins"
+        "dsh-plugins",
+        "lorebook"
       ]
     },
     {
@@ -27909,6 +27915,22 @@
       "dsh_compat": false,
       "last_publish": null,
       "keywords": []
+    },
+    {
+      "slug": "dsh-explain",
+      "name": "dsh-explain",
+      "version": "0.0.0",
+      "description": "DSH 本地优先学习模式插件：跨会话全局学习线程、按来源讲解、ExplainContext、压缩与可诊断设置界面",
+      "weekly_downloads": 0,
+      "stars": 11,
+      "grade": "D",
+      "overall": 36,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "dsh",
+        "dsh-plugins"
+      ]
     },
     {
       "slug": "dsh-DeepSeek-harness-qqbot",
@@ -28027,17 +28049,38 @@
       ]
     },
     {
-      "slug": "dsh-archived-conversations",
-      "name": "dsh-archived-conversations",
+      "slug": "dsh-blue-whale",
+      "name": "dsh-blue-whale",
       "version": "0.0.0",
-      "description": "归档对话查看 (archived-conversation-viewer)：在 DSH 设置页查看、恢复与删除归档会话的 Cordis 插件",
+      "description": "复刻 DeepSeek Chat 蓝鲸配色的皮肤，亮色/深色跟随系统外观。",
       "weekly_downloads": 0,
       "stars": 6,
       "grade": "D",
       "overall": 36,
       "dsh_compat": false,
       "last_publish": null,
-      "keywords": []
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "theme"
+      ]
+    },
+    {
+      "slug": "dsh-plugin-diff-review",
+      "name": "dsh-plugin-diff-review",
+      "version": "0.0.0",
+      "description": "Codex-style diff review inside DeepSeek Harness",
+      "weekly_downloads": 0,
+      "stars": 6,
+      "grade": "D",
+      "overall": 36,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "deepseek",
+        "deepseek-harness",
+        "diff"
+      ]
     },
     {
       "slug": "dsh-ux",
@@ -28072,38 +28115,17 @@
       "keywords": []
     },
     {
-      "slug": "dsh-blue-whale",
-      "name": "dsh-blue-whale",
+      "slug": "dsh-archived-conversations",
+      "name": "dsh-archived-conversations",
       "version": "0.0.0",
-      "description": "复刻 DeepSeek Chat 蓝鲸配色的皮肤，亮色/深色跟随系统外观。",
+      "description": "归档对话查看 (archived-conversation-viewer)：在 DSH 设置页查看、恢复与删除归档会话的 Cordis 插件",
       "weekly_downloads": 0,
       "stars": 6,
       "grade": "D",
       "overall": 36,
       "dsh_compat": false,
       "last_publish": null,
-      "keywords": [
-        "deepseek-harness",
-        "dsh",
-        "theme"
-      ]
-    },
-    {
-      "slug": "dsh-plugin-diff-review",
-      "name": "dsh-plugin-diff-review",
-      "version": "0.0.0",
-      "description": "Codex-style diff review inside DeepSeek Harness",
-      "weekly_downloads": 0,
-      "stars": 6,
-      "grade": "D",
-      "overall": 36,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "deepseek",
-        "deepseek-harness",
-        "diff"
-      ]
+      "keywords": []
     },
     {
       "slug": "dsh-composer-polish",
@@ -28170,21 +28192,6 @@
       ]
     },
     {
-      "slug": "dsh-plugin-guard",
-      "name": "dsh-plugin-guard",
-      "version": "0.0.0",
-      "description": "Install safety net for DeepSeek Harness: pre-install snapshots, one-click/automatic rollback, guarded boot, and incident reports that auto-trigger agent analysis. 中文: DeepSeek Harness 插件安装安全网（安装前自动快照、一键/自动回退、守护启动、事故报告自动触发 Agent 分析）。",
-      "weekly_downloads": 0,
-      "stars": 6,
-      "grade": "D",
-      "overall": 36,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "deepseek-harness"
-      ]
-    },
-    {
       "slug": "dsh-context-vista",
       "name": "dsh-context-vista",
       "version": "0.0.0",
@@ -28198,6 +28205,21 @@
       "keywords": [
         "deepseekharness",
         "dsh"
+      ]
+    },
+    {
+      "slug": "dsh-plugin-guard",
+      "name": "dsh-plugin-guard",
+      "version": "0.0.0",
+      "description": "Install safety net for DeepSeek Harness: pre-install snapshots, one-click/automatic rollback, guarded boot, and incident reports that auto-trigger agent analysis. 中文: DeepSeek Harness 插件安装安全网（安装前自动快照、一键/自动回退、守护启动、事故报告自动触发 Agent 分析）。",
+      "weekly_downloads": 0,
+      "stars": 6,
+      "grade": "D",
+      "overall": 36,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "deepseek-harness"
       ]
     },
     {
@@ -28262,6 +28284,22 @@
       ]
     },
     {
+      "slug": "dsh-oh-my-dsh",
+      "name": "dsh-oh-my-dsh",
+      "version": "0.0.0",
+      "description": "🐋 All you need is oh-my-dsh ｜ DeepSeek Harness 社区插件索引与精选（自动更新）",
+      "weekly_downloads": 0,
+      "stars": 5,
+      "grade": "D",
+      "overall": 36,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "deepseek-harness",
+        "dsh"
+      ]
+    },
+    {
       "slug": "dsh-DSH-changeproof",
       "name": "dsh-DSH-changeproof",
       "version": "0.0.0",
@@ -28292,22 +28330,6 @@
       "dsh_compat": false,
       "last_publish": null,
       "keywords": []
-    },
-    {
-      "slug": "dsh-oh-my-dsh",
-      "name": "dsh-oh-my-dsh",
-      "version": "0.0.0",
-      "description": "🐋 All you need is oh-my-dsh ｜ DeepSeek Harness 社区插件索引与精选（自动更新）",
-      "weekly_downloads": 0,
-      "stars": 5,
-      "grade": "D",
-      "overall": 36,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "deepseek-harness",
-        "dsh"
-      ]
     },
     {
       "slug": "dsh-minigames",
@@ -28443,24 +28465,6 @@
       ]
     },
     {
-      "slug": "dsh-session-seed-plugin",
-      "name": "dsh-session-seed-plugin",
-      "version": "0.0.0",
-      "description": "对话自动注入，可用于高概率破甲模型，放开限制",
-      "weekly_downloads": 0,
-      "stars": 5,
-      "grade": "D",
-      "overall": 36,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "deepseek",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugins"
-      ]
-    },
-    {
       "slug": "dsh-tool-stat",
       "name": "dsh-tool-stat",
       "version": "0.0.0",
@@ -28495,6 +28499,22 @@
       ]
     },
     {
+      "slug": "dsh-Dsh-FileExplorer",
+      "name": "dsh-Dsh-FileExplorer",
+      "version": "0.0.0",
+      "description": "给 DeepSeek Harness (DSH) Web 界面加一个 VS Code 风格的工作区文件浏览器：右侧文件树 + 可编辑标签页 + Markdown 阅读/编辑/分屏 + 悬浮大纲 + Quick Open 搜索。",
+      "weekly_downloads": 0,
+      "stars": 5,
+      "grade": "D",
+      "overall": 36,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "file",
+        "file-explorer"
+      ]
+    },
+    {
       "slug": "dsh-win-terminal-inspector",
       "name": "dsh-win-terminal-inspector",
       "version": "0.0.0",
@@ -28524,22 +28544,6 @@
         "deepseek-harness",
         "deepseek-v4",
         "windows"
-      ]
-    },
-    {
-      "slug": "dsh-Dsh-FileExplorer",
-      "name": "dsh-Dsh-FileExplorer",
-      "version": "0.0.0",
-      "description": "给 DeepSeek Harness (DSH) Web 界面加一个 VS Code 风格的工作区文件浏览器：右侧文件树 + 可编辑标签页 + Markdown 阅读/编辑/分屏 + 悬浮大纲 + Quick Open 搜索。",
-      "weekly_downloads": 0,
-      "stars": 5,
-      "grade": "D",
-      "overall": 36,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "file",
-        "file-explorer"
       ]
     },
     {
@@ -28579,19 +28583,6 @@
       ]
     },
     {
-      "slug": "dsh-server-deployment",
-      "name": "dsh-server-deployment",
-      "version": "0.0.0",
-      "description": "服务器端部署：DeepSeek Harness Web 多用户网关（登录门户 / 每用户实例隔离 / 交付文件抽屉）。部署于远程服务器，用户通过浏览器访问，非本机工具。",
-      "weekly_downloads": 0,
-      "stars": 5,
-      "grade": "D",
-      "overall": 36,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": []
-    },
-    {
       "slug": "dsh-session-context-menu",
       "name": "dsh-session-context-menu",
       "version": "0.0.0",
@@ -28627,6 +28618,19 @@
         "deepseek-harness",
         "dsh"
       ]
+    },
+    {
+      "slug": "dsh-server-deployment",
+      "name": "dsh-server-deployment",
+      "version": "0.0.0",
+      "description": "服务器端部署：DeepSeek Harness Web 多用户网关（登录门户 / 每用户实例隔离 / 交付文件抽屉）。部署于远程服务器，用户通过浏览器访问，非本机工具。",
+      "weekly_downloads": 0,
+      "stars": 5,
+      "grade": "D",
+      "overall": 36,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": []
     },
     {
       "slug": "dsh-permgate",
@@ -29843,6 +29847,23 @@
       ]
     },
     {
+      "slug": "dsh-deepseek-harness",
+      "name": "dsh-deepseek-harness",
+      "version": "0.0.0",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "weekly_downloads": 0,
+      "stars": 8,
+      "grade": "D",
+      "overall": 35,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "ai-agents",
+        "cordis",
+        "dsh"
+      ]
+    },
+    {
       "slug": "dsh-super-injector",
       "name": "dsh-super-injector",
       "version": "0.0.0",
@@ -30043,6 +30064,19 @@
       ]
     },
     {
+      "slug": "dsh-plugin-sleep",
+      "name": "dsh-plugin-sleep",
+      "version": "0.0.0",
+      "description": "向模型暴露 sleep 工具，按指定毫秒暂停执行后返回，支持取消/clamp | Exposes a sleep tool that pauses for specified ms then returns, with cancellation/clamping",
+      "weekly_downloads": 0,
+      "stars": 9,
+      "grade": "D",
+      "overall": 35,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": []
+    },
+    {
       "slug": "dsh-reviewer-bot",
       "name": "dsh-reviewer-bot",
       "version": "0.0.0",
@@ -30056,19 +30090,6 @@
       "keywords": [
         "dsh"
       ]
-    },
-    {
-      "slug": "dsh-plugin-sleep",
-      "name": "dsh-plugin-sleep",
-      "version": "0.0.0",
-      "description": "向模型暴露 sleep 工具，按指定毫秒暂停执行后返回，支持取消/clamp | Exposes a sleep tool that pauses for specified ms then returns, with cancellation/clamping",
-      "weekly_downloads": 0,
-      "stars": 9,
-      "grade": "D",
-      "overall": 35,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": []
     },
     {
       "slug": "dsh-plugin-template",
@@ -30117,6 +30138,19 @@
       ]
     },
     {
+      "slug": "dsh-orbis",
+      "name": "dsh-orbis",
+      "version": "0.0.0",
+      "description": "A mobile client for deepseek harness remote control",
+      "weekly_downloads": 0,
+      "stars": 9,
+      "grade": "D",
+      "overall": 35,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": []
+    },
+    {
       "slug": "dsh-acp-for-bitfun",
       "name": "dsh-acp-for-bitfun",
       "version": "0.0.0",
@@ -30131,19 +30165,6 @@
         "bitfun",
         "dsh"
       ]
-    },
-    {
-      "slug": "dsh-orbis",
-      "name": "dsh-orbis",
-      "version": "0.0.0",
-      "description": "A mobile client for deepseek harness remote control",
-      "weekly_downloads": 0,
-      "stars": 9,
-      "grade": "D",
-      "overall": 35,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": []
     },
     {
       "slug": "dsh-deepseek-harness-acp",
@@ -30380,6 +30401,23 @@
       ]
     },
     {
+      "slug": "dsh-node-nav",
+      "name": "dsh-node-nav",
+      "version": "0.0.0",
+      "description": "对话节点导航：DSH Web GUI 右侧节点串，hover 预览、点击跳转、active 药丸跟随阅读位置",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "D",
+      "overall": 35,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "conversation-navigation",
+        "deepseek",
+        "deepseek-harness"
+      ]
+    },
+    {
       "slug": "dsh-her-eyes",
       "name": "dsh-her-eyes",
       "version": "0.0.0",
@@ -30413,10 +30451,10 @@
       ]
     },
     {
-      "slug": "dsh-node-nav",
-      "name": "dsh-node-nav",
+      "slug": "dsh-reSanity",
+      "name": "dsh-reSanity",
       "version": "0.0.0",
-      "description": "对话节点导航：DSH Web GUI 右侧节点串，hover 预览、点击跳转、active 药丸跟随阅读位置",
+      "description": "reSanity 散修 — 散户的认知组合管理：查证、避坑、记忆、复盘。一份 SKILL.md，零依赖。",
       "weekly_downloads": 0,
       "stars": 4,
       "grade": "D",
@@ -30424,9 +30462,11 @@
       "dsh_compat": false,
       "last_publish": null,
       "keywords": [
-        "conversation-navigation",
-        "deepseek",
-        "deepseek-harness"
+        "agent-skills",
+        "ashare",
+        "claude-code",
+        "codex",
+        "dsh"
       ]
     },
     {
@@ -30445,55 +30485,6 @@
         "cost-tracking",
         "deepseek",
         "deepseek-harness",
-        "dsh"
-      ]
-    },
-    {
-      "slug": "dsh-desktop-electron",
-      "name": "dsh-desktop-electron",
-      "version": "0.0.0",
-      "description": "Cross-platform Electron desktop shell for the DSH Web GUI: tray-resident standalone window over your own dsh web, no bundled Node runtime",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "D",
-      "overall": 35,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": []
-    },
-    {
-      "slug": "dsh-deepseek-billing",
-      "name": "dsh-deepseek-billing",
-      "version": "0.0.0",
-      "description": "DSH WebUI 插件:DeepSeek 余额显示与按会话费用估算",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "D",
-      "overall": 35,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "deepseek",
-        "deepseek-harness",
-        "dsh"
-      ]
-    },
-    {
-      "slug": "dsh-reSanity",
-      "name": "dsh-reSanity",
-      "version": "0.0.0",
-      "description": "reSanity 散修 — 散户的认知组合管理：查证、避坑、记忆、复盘。一份 SKILL.md，零依赖。",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "D",
-      "overall": 35,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "agent-skills",
-        "ashare",
-        "claude-code",
-        "codex",
         "dsh"
       ]
     },
@@ -30532,6 +30523,36 @@
         "deepseek",
         "deepseek-billing",
         "deepseek-harness"
+      ]
+    },
+    {
+      "slug": "dsh-desktop-electron",
+      "name": "dsh-desktop-electron",
+      "version": "0.0.0",
+      "description": "Cross-platform Electron desktop shell for the DSH Web GUI: tray-resident standalone window over your own dsh web, no bundled Node runtime",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "D",
+      "overall": 35,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": []
+    },
+    {
+      "slug": "dsh-deepseek-billing",
+      "name": "dsh-deepseek-billing",
+      "version": "0.0.0",
+      "description": "DSH WebUI 插件:DeepSeek 余额显示与按会话费用估算",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "D",
+      "overall": 35,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "deepseek",
+        "deepseek-harness",
+        "dsh"
       ]
     },
     {
@@ -31158,6 +31179,25 @@
       "keywords": []
     },
     {
+      "slug": "dsh-RE-Framework",
+      "name": "dsh-RE-Framework",
+      "version": "0.0.0",
+      "description": "Modular engineering methodology framework for AI agents — reverse engineering & software development (core + re-binary / re-code / swe modules).",
+      "weekly_downloads": 0,
+      "stars": 6,
+      "grade": "D",
+      "overall": 34,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "agent-framework",
+        "ai-agents",
+        "binary-analysis",
+        "code-analysis",
+        "deepseek-harness"
+      ]
+    },
+    {
       "slug": "dsh-archived-sessions",
       "name": "dsh-archived-sessions",
       "version": "0.0.0",
@@ -31193,21 +31233,17 @@
       ]
     },
     {
-      "slug": "dsh-RE-Framework",
-      "name": "dsh-RE-Framework",
+      "slug": "dsh-DSH-telegram",
+      "name": "dsh-DSH-telegram",
       "version": "0.0.0",
-      "description": "Modular engineering methodology framework for AI agents — reverse engineering & software development (core + re-binary / re-code / swe modules).",
+      "description": "通过 Telegram 私聊远程使用和查看 DeepSeek Harness",
       "weekly_downloads": 0,
-      "stars": 6,
+      "stars": 5,
       "grade": "D",
       "overall": 34,
       "dsh_compat": false,
       "last_publish": null,
       "keywords": [
-        "agent-framework",
-        "ai-agents",
-        "binary-analysis",
-        "code-analysis",
         "deepseek-harness"
       ]
     },
@@ -31244,6 +31280,19 @@
       "keywords": []
     },
     {
+      "slug": "dsh-minimal-v3",
+      "name": "dsh-minimal-v3",
+      "version": "0.0.0",
+      "description": "Windows-friendly full-minimal DeepSeek Harness agent preset (Minimal V3): minimal persona, platform shell (pwsh/bash), common file/search tools, no auto-inject/compaction.",
+      "weekly_downloads": 0,
+      "stars": 5,
+      "grade": "D",
+      "overall": 34,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": []
+    },
+    {
       "slug": "dsh-client-usage",
       "name": "dsh-client-usage",
       "version": "0.0.0",
@@ -31259,34 +31308,6 @@
         "deepseek",
         "deepseek-harness",
         "token-usage"
-      ]
-    },
-    {
-      "slug": "dsh-minimal-v3",
-      "name": "dsh-minimal-v3",
-      "version": "0.0.0",
-      "description": "Windows-friendly full-minimal DeepSeek Harness agent preset (Minimal V3): minimal persona, platform shell (pwsh/bash), common file/search tools, no auto-inject/compaction.",
-      "weekly_downloads": 0,
-      "stars": 5,
-      "grade": "D",
-      "overall": 34,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": []
-    },
-    {
-      "slug": "dsh-DSH-telegram",
-      "name": "dsh-DSH-telegram",
-      "version": "0.0.0",
-      "description": "通过 Telegram 私聊远程使用和查看 DeepSeek Harness",
-      "weekly_downloads": 0,
-      "stars": 5,
-      "grade": "D",
-      "overall": 34,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "deepseek-harness"
       ]
     },
     {
@@ -31328,22 +31349,6 @@
       ]
     },
     {
-      "slug": "dsh-commit-review",
-      "name": "dsh-commit-review",
-      "version": "0.0.0",
-      "description": "一个 DSH 插件：为 Web GUI 增加 /commit 与 /review 两个斜杠命令",
-      "weekly_downloads": 0,
-      "stars": 5,
-      "grade": "D",
-      "overall": 34,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "cordis",
-        "dsh"
-      ]
-    },
-    {
       "slug": "dsh-client-ui-skin-claude",
       "name": "dsh-client-ui-skin-claude",
       "version": "0.0.0",
@@ -31360,6 +31365,22 @@
         "dsh",
         "skin",
         "theme"
+      ]
+    },
+    {
+      "slug": "dsh-commit-review",
+      "name": "dsh-commit-review",
+      "version": "0.0.0",
+      "description": "一个 DSH 插件：为 Web GUI 增加 /commit 与 /review 两个斜杠命令",
+      "weekly_downloads": 0,
+      "stars": 5,
+      "grade": "D",
+      "overall": 34,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "cordis",
+        "dsh"
       ]
     },
     {
@@ -31906,6 +31927,24 @@
       ]
     },
     {
+      "slug": "dsh-session-seed-plugin",
+      "name": "dsh-session-seed-plugin",
+      "version": "0.0.0",
+      "description": "对话自动注入，可用于高概率破甲模型",
+      "weekly_downloads": 0,
+      "stars": 5,
+      "grade": "D",
+      "overall": 33,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugins"
+      ]
+    },
+    {
       "slug": "dsh-graycode-for-dsh",
       "name": "dsh-graycode-for-dsh",
       "version": "0.0.0",
@@ -31996,10 +32035,10 @@
       ]
     },
     {
-      "slug": "dsh-DshDesktopShell",
-      "name": "dsh-DshDesktopShell",
+      "slug": "dsh-timeline",
+      "name": "dsh-timeline",
       "version": "0.0.0",
-      "description": "deepseek Harness 桌面UI壳",
+      "description": "DSH 插件：极简提问时间线——每条提问一个圆点，点击跳转，悬停预览。Minimal question timeline for DeepSeek Harness.",
       "weekly_downloads": 0,
       "stars": 4,
       "grade": "D",
@@ -32007,7 +32046,9 @@
       "dsh_compat": false,
       "last_publish": null,
       "keywords": [
-        "dsh-plugin-desktop",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
         "dsh-plugins"
       ]
     },
@@ -32027,6 +32068,22 @@
       ]
     },
     {
+      "slug": "dsh-DshDesktopShell",
+      "name": "dsh-DshDesktopShell",
+      "version": "0.0.0",
+      "description": "deepseek Harness 桌面UI壳",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "D",
+      "overall": 33,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "dsh-plugin-desktop",
+        "dsh-plugins"
+      ]
+    },
+    {
       "slug": "dsh-go-rotator",
       "name": "dsh-go-rotator",
       "version": "0.0.0",
@@ -32039,22 +32096,6 @@
       "last_publish": null,
       "keywords": [
         "dsh"
-      ]
-    },
-    {
-      "slug": "dsh-agent-compact",
-      "name": "dsh-agent-compact",
-      "version": "0.0.0",
-      "description": "DSH plugin for agent-driven span compaction: compress chosen conversation spans into self-written checkpoints instead of the official head-anchored full-context sweep.",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "D",
-      "overall": 33,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "context-compression",
-        "deepseek-harness"
       ]
     },
     {
@@ -32096,6 +32137,39 @@
       ]
     },
     {
+      "slug": "dsh-agent-compact",
+      "name": "dsh-agent-compact",
+      "version": "0.0.0",
+      "description": "DSH plugin for agent-driven span compaction: compress chosen conversation spans into self-written checkpoints instead of the official head-anchored full-context sweep.",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "D",
+      "overall": 33,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "context-compression",
+        "deepseek-harness"
+      ]
+    },
+    {
+      "slug": "dsh-island",
+      "name": "dsh-island",
+      "version": "0.0.0",
+      "description": "把 DeepSeek Harness(DSH) agent 实时状态桥接到 CodeIsland 刘海面板 — sessions/tools/approvals on the Dynamic Island",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "D",
+      "overall": 33,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "codeisland",
+        "deepseek-harness",
+        "dsh"
+      ]
+    },
+    {
       "slug": "dsh-workspace-mcp",
       "name": "dsh-workspace-mcp",
       "version": "0.0.0",
@@ -32108,24 +32182,6 @@
       "last_publish": null,
       "keywords": [
         "deepseek-harness"
-      ]
-    },
-    {
-      "slug": "dsh-timeline",
-      "name": "dsh-timeline",
-      "version": "0.0.0",
-      "description": "DSH 插件：极简提问时间线——每条提问一个圆点，点击跳转，悬停预览。Minimal question timeline for DeepSeek Harness.",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "D",
-      "overall": 33,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "deepseek",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugins"
       ]
     },
     {
@@ -32225,24 +32281,6 @@
       "keywords": []
     },
     {
-      "slug": "dsh-stats-dashboard",
-      "name": "dsh-stats-dashboard",
-      "version": "0.0.0",
-      "description": "DSH plugin: provider/model usage stats dashboard with response speed, call log, token totals, cache rate, cost estimates, CSV export",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "D",
-      "overall": 33,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "dashboard",
-        "deepseek",
-        "dsh",
-        "usage-stats"
-      ]
-    },
-    {
       "slug": "dsh-oh-my-dsh",
       "name": "dsh-oh-my-dsh",
       "version": "0.0.0",
@@ -32267,6 +32305,24 @@
       "dsh_compat": false,
       "last_publish": null,
       "keywords": []
+    },
+    {
+      "slug": "dsh-stats-dashboard",
+      "name": "dsh-stats-dashboard",
+      "version": "0.0.0",
+      "description": "DSH plugin: provider/model usage stats dashboard with response speed, call log, token totals, cache rate, cost estimates, CSV export",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "D",
+      "overall": 33,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "dashboard",
+        "deepseek",
+        "dsh",
+        "usage-stats"
+      ]
     },
     {
       "slug": "dsh-session-tree",
@@ -32387,6 +32443,19 @@
       "keywords": []
     },
     {
+      "slug": "dsh-git-identity",
+      "name": "dsh-git-identity",
+      "version": "0.0.0",
+      "description": "DSH 插件：git 提交固定使用环境自身作者身份（优先 gh CLI 登录账号，GitHub noreply 邮箱），GIT_AUTHOR_*/GIT_COMMITTER_* 环境变量注入压过一切 git config",
+      "weekly_downloads": 0,
+      "stars": 7,
+      "grade": "D",
+      "overall": 32,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": []
+    },
+    {
       "slug": "dsh-lan",
       "name": "dsh-lan",
       "version": "0.0.0",
@@ -32417,19 +32486,6 @@
         "deepseek",
         "desktop-pet"
       ]
-    },
-    {
-      "slug": "dsh-git-identity",
-      "name": "dsh-git-identity",
-      "version": "0.0.0",
-      "description": "DSH 插件：git 提交固定使用环境自身作者身份（优先 gh CLI 登录账号，GitHub noreply 邮箱），GIT_AUTHOR_*/GIT_COMMITTER_* 环境变量注入压过一切 git config",
-      "weekly_downloads": 0,
-      "stars": 7,
-      "grade": "D",
-      "overall": 32,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": []
     },
     {
       "slug": "dsh-skills-mcp-manager",
@@ -33029,22 +33085,6 @@
       "keywords": []
     },
     {
-      "slug": "dsh-plugin-vscode-sidebar",
-      "name": "dsh-plugin-vscode-sidebar",
-      "version": "0.0.0",
-      "description": "提供vscode风格和功能的侧栏",
-      "weekly_downloads": 0,
-      "stars": 6,
-      "grade": "D",
-      "overall": 31,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": [
-        "dsh",
-        "dsh-plugins"
-      ]
-    },
-    {
       "slug": "dsh-updater-ui",
       "name": "dsh-updater-ui",
       "version": "0.0.0",
@@ -33061,17 +33101,20 @@
       ]
     },
     {
-      "slug": "dsh-ds-api-usage",
-      "name": "dsh-ds-api-usage",
+      "slug": "dsh-plugin-vscode-sidebar",
+      "name": "dsh-plugin-vscode-sidebar",
       "version": "0.0.0",
-      "description": "",
+      "description": "提供vscode风格和功能的侧栏",
       "weekly_downloads": 0,
       "stars": 6,
       "grade": "D",
       "overall": 31,
       "dsh_compat": false,
       "last_publish": null,
-      "keywords": []
+      "keywords": [
+        "dsh",
+        "dsh-plugins"
+      ]
     },
     {
       "slug": "dsh-opencode-go-box",
@@ -33087,6 +33130,19 @@
       "keywords": [
         "dsh-plugins"
       ]
+    },
+    {
+      "slug": "dsh-ds-api-usage",
+      "name": "dsh-ds-api-usage",
+      "version": "0.0.0",
+      "description": "",
+      "weekly_downloads": 0,
+      "stars": 6,
+      "grade": "D",
+      "overall": 31,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": []
     },
     {
       "slug": "dsh-turtle-ui",
@@ -33484,6 +33540,19 @@
       "keywords": []
     },
     {
+      "slug": "dsh-llm-wiki",
+      "name": "dsh-llm-wiki",
+      "version": "0.0.0",
+      "description": "",
+      "weekly_downloads": 0,
+      "stars": 4,
+      "grade": "D",
+      "overall": 30,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": []
+    },
+    {
       "slug": "dsh-longbridge",
       "name": "dsh-longbridge",
       "version": "0.0.0",
@@ -33510,10 +33579,10 @@
       "keywords": []
     },
     {
-      "slug": "dsh-llm-wiki",
-      "name": "dsh-llm-wiki",
+      "slug": "dsh-auto",
+      "name": "dsh-auto",
       "version": "0.0.0",
-      "description": "",
+      "description": "dsh Auto Approve",
       "weekly_downloads": 0,
       "stars": 4,
       "grade": "D",
@@ -33537,19 +33606,6 @@
         "dsh",
         "dsh-plugins"
       ]
-    },
-    {
-      "slug": "dsh-auto",
-      "name": "dsh-auto",
-      "version": "0.0.0",
-      "description": "dsh Auto Approve",
-      "weekly_downloads": 0,
-      "stars": 4,
-      "grade": "D",
-      "overall": 30,
-      "dsh_compat": false,
-      "last_publish": null,
-      "keywords": []
     },
     {
       "slug": "wishp3--dsh-friend-growth",

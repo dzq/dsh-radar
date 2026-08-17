@@ -36,7 +36,7 @@
   "gh": {
     "full_name": "QCYTSN/dsh-dafeiyu",
     "stars": 74,
-    "open_issues": 0,
+    "open_issues": 1,
     "pushed_at": "2026-08-17T04:55:53Z",
     "archived": false,
     "license": "MIT"
@@ -50,5 +50,5 @@
     "overall": 60,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:24:20.972Z"
+  "updated_at": "2026-08-17T05:44:55.142Z"
 }

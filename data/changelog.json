@@ -1,5 +1,69 @@
 [
   {
+    "file": "2026-08-17-1346.json",
+    "prev": "2026-08-17-1342.json",
+    "total_delta": 1926,
+    "grades": {
+      "S": 0,
+      "A": 3,
+      "B": 178,
+      "C": 505,
+      "D": 1240
+    },
+    "downloads_delta": 110733,
+    "compat_delta": 1188,
+    "generated_at": "2026-08-17T05:46:09.616Z",
+    "top10_in": [
+      "dsh-balance-meter",
+      "@tt-a1i/archify-dsh",
+      "@liustack/modsearch",
+      "dsh-pocket",
+      "@nanmicoder/dsh-agent-teams",
+      "deepseek-ippt",
+      "dsh-stock-watch",
+      "dsh-any-background",
+      "dsh-market-plus",
+      "dsh-working-activity"
+    ],
+    "top10_out": [
+      "dsh-open-design",
+      "dsh-reactive-resume",
+      "dsh-deepseek-harness"
+    ]
+  },
+  {
+    "file": "2026-08-17-1342.json",
+    "prev": "2026-08-17-1325.json",
+    "total_delta": -1923,
+    "grades": {
+      "S": 0,
+      "A": -3,
+      "B": -180,
+      "C": -504,
+      "D": -1236
+    },
+    "downloads_delta": -110429,
+    "compat_delta": -1186,
+    "generated_at": "2026-08-17T05:42:25.376Z",
+    "top10_in": [
+      "dsh-open-design",
+      "dsh-reactive-resume",
+      "dsh-deepseek-harness"
+    ],
+    "top10_out": [
+      "dsh-balance-meter",
+      "@tt-a1i/archify-dsh",
+      "@liustack/modsearch",
+      "dsh-pocket",
+      "@nanmicoder/dsh-agent-teams",
+      "deepseek-ippt",
+      "dsh-stock-watch",
+      "dsh-any-background",
+      "dsh-market-plus",
+      "dsh-working-activity"
+    ]
+  },
+  {
     "file": "2026-08-17-1325.json",
     "prev": "2026-08-17-1322.json",
     "total_delta": 0,

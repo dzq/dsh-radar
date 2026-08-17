@@ -4,12 +4,16 @@
   "version": "0.1.2",
   "description": "DSH Side Chat — 并行侧边对话插件：真实并行 agent 会话、独立上下文、摘要带回主对话。",
   "keywords": [
-    "cordis",
+    "codex-desktop",
+    "deepseek",
     "deepseek-harness",
-    "dsh"
+    "dsh",
+    "dsh-plugins",
+    "question-dialog",
+    "side-chat"
   ],
   "license": "MIT",
-  "repo": "https://github.com/2031814001yuyue-tech/dsh-side-chat",
+  "repo": "https://github.com/heartmove/dsh-side-chat",
   "homepage": "",
   "npm": "https://www.npmjs.com/package/dsh-side-chat",
   "dsh_compat": true,
@@ -31,10 +35,10 @@
   "last_publish": "2026-08-15T04:52:16.997Z",
   "created_at": "2026-08-14T08:55:51.309Z",
   "gh": {
-    "full_name": "2031814001yuyue-tech/dsh-side-chat",
-    "stars": 4,
+    "full_name": "heartmove/dsh-side-chat",
+    "stars": 7,
     "open_issues": 0,
-    "pushed_at": "2026-08-15T04:46:02Z",
+    "pushed_at": "2026-08-16T09:44:27Z",
     "archived": false,
     "license": {
       "key": "mit",
@@ -45,13 +49,13 @@
     }
   },
   "scores": {
-    "popularity": 19,
-    "maintenance": 39,
+    "popularity": 24,
+    "maintenance": 40,
     "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 49,
+    "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:25:26.283Z"
+  "updated_at": "2026-08-17T05:45:21.019Z"
 }

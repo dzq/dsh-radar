@@ -2,7 +2,7 @@
   "slug": "dsh-cost-meter",
   "name": "dsh-cost-meter",
   "version": "0.0.0",
-  "description": "DeepSeek Harness 会话费用统计与opencode go额度显示 ds官方余额显示，类codex token热力图插件:本会话费用、当日费用、预算费用显示、历史记录与官方价格同步",
+  "description": "DeepSeek Harness Session Cost Statistics & OpenCode Go Quota Display, DS Official Balance Display, Codex-like Token Heatmap Plugin: Current Session Cost, Daily Cost, Budget Limit Display, History Records, Synced with Official Pricing    DeepSeek Harness 会话费用统计与opencode go额度显示 ds官",
   "keywords": [
     "cost-tracking",
     "deepseek",
@@ -50,5 +50,5 @@
     "overall": 45,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:24:22.067Z"
+  "updated_at": "2026-08-17T05:44:56.409Z"
 }

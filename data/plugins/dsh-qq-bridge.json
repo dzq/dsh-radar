@@ -30,20 +30,20 @@
   "created_at": "2026-08-13T17:28:46.496Z",
   "gh": {
     "full_name": "TomoyoNatsume/dsh-qq-bridge",
-    "stars": 6,
+    "stars": 7,
     "open_issues": 0,
     "pushed_at": "2026-08-17T03:06:59Z",
     "archived": false,
     "license": "MIT"
   },
   "scores": {
-    "popularity": 23,
+    "popularity": 24,
     "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 42,
+    "overall": 43,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:24:54.903Z"
+  "updated_at": "2026-08-17T05:45:23.152Z"
 }

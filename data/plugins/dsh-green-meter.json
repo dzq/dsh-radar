@@ -13,7 +13,7 @@
     "sustainability"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/deepseek-ai/deepseek-harness.git",
+  "repo": "https://github.com/dclichang2022/dsh-green-meter",
   "homepage": "https://github.com/deepseek-ai/deepseek-harness#readme",
   "npm": "https://www.npmjs.com/package/dsh-green-meter",
   "dsh_compat": false,
@@ -25,10 +25,10 @@
   "last_publish": "2026-08-14T07:59:02.573Z",
   "created_at": "2026-08-14T07:54:04.809Z",
   "gh": {
-    "full_name": "deepseek-ai/deepseek-harness",
-    "stars": 138123,
+    "full_name": "dclichang2022/dsh-green-meter",
+    "stars": 13,
     "open_issues": 0,
-    "pushed_at": "2026-08-13T13:00:21Z",
+    "pushed_at": "2026-08-17T04:59:52Z",
     "archived": false,
     "license": {
       "key": "mit",
@@ -39,13 +39,13 @@
     }
   },
   "scores": {
-    "popularity": 100,
-    "maintenance": 38,
+    "popularity": 31,
+    "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 61,
-    "grade": "B"
+    "overall": 44,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T05:24:34.540Z"
+  "updated_at": "2026-08-17T05:45:08.087Z"
 }
