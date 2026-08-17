@@ -4,33 +4,304 @@ import { loadJson } from '../../lib/paths.mjs';
 
 const index = await loadJson('index.json');
 const stats = await loadJson('stats.json');
-const allPlugins = index.plugins;
+const plugins = index.plugins;
+
+// 当前筛选参数（默认第1页，最热排序）
+const PAGE_SIZE = 20;
 ---
 <Layout title="插件雷达 — DSH Radar" active="plugins">
-  <section class="container section" style="padding-top:32px;">
-    <h1 style="font-size:36px;margin-bottom:8px;">插件雷达</h1>
-    <p class="sub">
-      全部 <strong>{stats.total}</strong> 个评分插件 ·
+  <section class="container section" style="padding-top:24px;">
+
+    <!-- 标题 -->
+    <h1 style="font-size:32px;margin-bottom:4px;">插件雷达</h1>
+    <p class="sub" style="margin-bottom:20px;">
+      共 <strong>{stats.total}</strong> 个插件 ·
       <span style="color:var(--grade-S)">S:{stats.by_grade.S||0}</span> ·
       <span style="color:var(--grade-A)">A:{stats.by_grade.A||0}</span> ·
       <span style="color:var(--grade-B)">B:{stats.by_grade.B||0}</span> ·
       <span style="color:var(--grade-C)">C:{stats.by_grade.C||0}</span> ·
       <span style="color:var(--grade-D)">D:{stats.by_grade.D||0}</span>
+      <span id="filtered-count" style="display:none; margin-left:8px;">（<span></span> 个结果）</span>
     </p>
 
-    <div style="background:var(--bg-elev);border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-top:24px;">
-      {allPlugins.map((p: any) => (
-        <a href={`/plugins/${p.slug}`} class="plugin-row" style="text-decoration:none;">
-          <span class={`grade grade-${p.grade}`}>{p.grade}</span>
-          <div>
-            <div class="name">{p.name}<span class="version">v{p.version}</span></div>
-            <div class="desc">{p.description || '—'}</div>
-          </div>
-          <div class="meta"><strong>{p.weekly_downloads.toLocaleString()}</strong>dl/wk</div>
-          <div class="meta"><strong>★ {p.stars}</strong>stars</div>
-          <div class="meta"><strong>{p.overall}</strong>overall</div>
-        </a>
-      ))}
+    <!-- 筛选栏 -->
+    <div class="filter-bar">
+      <!-- 搜索 -->
+      <div class="filter-group" style="flex:1;min-width:180px;">
+        <input id="search-input" type="text" placeholder="搜索插件名称/关键词…" style="width:100%;" />
+      </div>
+
+      <!-- 等级多选 -->
+      <div class="filter-group">
+        <select id="grade-filter" multiple style="min-width:80px;" data-placeholder="等级">
+          <option value="S">S</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+        </select>
+      </div>
+
+      <!-- DSH 兼容 -->
+      <div class="filter-group">
+        <label style="cursor:pointer;white-space:nowrap;">
+          <input id="compat-filter" type="checkbox" />
+          <span>仅 DSH 兼容</span>
+        </label>
+      </div>
+
+      <!-- 排序 -->
+      <div class="filter-group">
+        <select id="sort-select" style="min-width:130px;">
+          <option value="overall">综合评分</option>
+          <option value="stars">★ Stars</option>
+          <option value="downloads">下载量</option>
+          <option value="grade">等级 ↑</option>
+          <option value="name">名称 A→Z</option>
+        </select>
+      </div>
+
+      <button id="reset-btn" class="btn btn-ghost" style="white-space:nowrap;">重置</button>
     </div>
+
+    <!-- 插件列表 -->
+    <div id="plugin-list" style="margin-top:16px;"></div>
+
+    <!-- 分页 -->
+    <div id="pagination" style="display:flex;justify-content:center;gap:8px;margin-top:24px;"></div>
+
   </section>
 </Layout>
+
+<script define:vars={{ plugins, PAGE_SIZE }}>
+  // ---- 状态 ----
+  let current = {
+    query: '',
+    grades: new Set(),
+    compat: false,
+    sort: 'overall',
+    page: 1,
+  };
+
+  const el = {
+    list: document.getElementById('plugin-list'),
+    pagination: document.getElementById('pagination'),
+    filteredCount: document.getElementById('filtered-count'),
+    filteredCountSpan: document.querySelector('#filtered-count span'),
+    search: document.getElementById('search-input'),
+    gradeFilter: document.getElementById('grade-filter'),
+    compatFilter: document.getElementById('compat-filter'),
+    sort: document.getElementById('sort-select'),
+    reset: document.getElementById('reset-btn'),
+  };
+
+  // ---- URL ←→ 状态同步 ----
+  function readURL() {
+    const u = new URL(location.href);
+    current.query = u.searchParams.get('q') || '';
+    current.grades = new Set(u.searchParams.getAll('g'));
+    current.compat = u.searchParams.get('compat') === '1';
+    current.sort = u.searchParams.get('s') || 'overall';
+    current.page = Math.max(1, Number(u.searchParams.get('p') || '1'));
+  }
+
+  function writeURL() {
+    const u = new URL(location.href);
+    u.searchParams.set('s', current.sort);
+    u.searchParams.set('p', current.page);
+    if (current.query) u.searchParams.set('q', current.query); else u.searchParams.delete('q');
+    if (current.compat) u.searchParams.set('compat', '1'); else u.searchParams.delete('compat');
+    u.searchParams.delete('g');
+    for (const g of current.grades) u.searchParams.append('g', g);
+    history.replaceState({}, '', u.toString());
+  }
+
+  // ---- 筛选 + 排序 ----
+  function getFiltered() {
+    let list = plugins;
+
+    if (current.query.trim()) {
+      const q = current.query.toLowerCase();
+      list = list.filter(p =>
+        p.name.toLowerCase().includes(q) ||
+        (p.keywords || []).some(k => k.toLowerCase().includes(q)) ||
+        (p.description || '').toLowerCase().includes(q)
+      );
+    }
+
+    if (current.grades.size > 0) {
+      list = list.filter(p => current.grades.has(p.grade));
+    }
+
+    if (current.compat) {
+      list = list.filter(p => p.dsh_compat);
+    }
+
+    const G = { S: 0, A: 1, B: 2, C: 3, D: 4 };
+    list.sort((a, b) => {
+      switch (current.sort) {
+        case 'stars':    return (b.stars || 0) - (a.stars || 0);
+        case 'downloads': return (b.weekly_downloads || 0) - (a.weekly_downloads || 0);
+        case 'grade':   return G[a.grade] - G[b.grade];
+        case 'name':    return a.name.localeCompare(b.name);
+        default:        return (b.overall || 0) - (a.overall || 0);
+      }
+    });
+
+    return list;
+  }
+
+  // ---- 渲染列表 ----
+  function renderList(list) {
+    const start = (current.page - 1) * PAGE_SIZE;
+    const page = list.slice(start, start + PAGE_SIZE);
+
+    if (page.length === 0) {
+      el.list.innerHTML = '<p style="color:var(--text-dim);padding:32px;text-align:center;">没有符合条件的插件</p>';
+      return;
+    }
+
+    el.list.innerHTML = '<div style="background:var(--bg-elev);border:1px solid var(--border);border-radius:12px;overflow:hidden;">' +
+      page.map(p => `
+        <a href="/plugins/${p.slug}" class="plugin-row" style="text-decoration:none;">
+          <span class="grade grade-${p.grade}">${p.grade}</span>
+          <div>
+            <div class="name">${p.name}<span class="version">v${p.version}</span></div>
+            <div class="desc">${p.description || '—'}</div>
+          </div>
+          <div class="meta"><strong>${(p.weekly_downloads||0).toLocaleString()}</strong> dl/wk</div>
+          <div class="meta"><strong>★ ${p.stars||0}</strong></div>
+          <div class="meta"><strong>${p.overall}</strong> overall</div>
+          ${p.dsh_compat ? '<div class="compat-badge" title="DSH 兼容">✅</div>' : ''}
+        </a>`).join('') + '</div>';
+  }
+
+  // ---- 渲染分页 ----
+  function renderPagination(list) {
+    const total = Math.ceil(list.length / PAGE_SIZE);
+    if (total <= 1) { el.pagination.innerHTML = ''; return; }
+
+    const prev = Math.max(1, current.page - 1);
+    const next = Math.min(total, current.page + 1);
+    const pages = [];
+    for (let i = 1; i <= total; i++) {
+      if (i === 1 || i === total || (i >= prev - 1 && i <= next + 1)) pages.push(i);
+      else if (pages.at(-1) !== '…') pages.push('…');
+    }
+
+    el.pagination.innerHTML =
+      `<button class="btn btn-ghost" ${current.page===1?'disabled':''} data-page="${prev}">←</button>` +
+      pages.map(p => p === '…'
+        ? '<span style="padding:0 8px;color:var(--text-mute);">…</span>'
+        : `<button class="btn ${p===current.page?'btn-primary':'btn-ghost'}" data-page="${p}">${p}</button>`
+      ).join('') +
+      `<button class="btn btn-ghost" ${current.page===total?'disabled':''} data-page="${next}">→</button>`;
+  }
+
+  // ---- 渲染筛选计数 ----
+  function renderCount(list) {
+    const total = plugins.length;
+    if (list.length !== total) {
+      el.filteredCount.style.display = 'inline';
+      el.filteredCountSpan.textContent = list.length;
+    } else {
+      el.filteredCount.style.display = 'none';
+    }
+  }
+
+  // ---- 刷新 ----
+  function refresh() {
+    const list = getFiltered();
+    renderCount(list);
+    renderList(list);
+    renderPagination(list);
+    writeURL();
+  }
+
+  // ---- 控件绑定 ----
+  el.search.addEventListener('input', () => {
+    current.query = el.search.value;
+    current.page = 1;
+    refresh();
+  });
+
+  el.gradeFilter.addEventListener('change', () => {
+    current.grades = new Set([...el.gradeFilter.selectedOptions].map(o => o.value));
+    current.page = 1;
+    refresh();
+  });
+
+  el.compatFilter.addEventListener('change', () => {
+    current.compat = el.compatFilter.checked;
+    current.page = 1;
+    refresh();
+  });
+
+  el.sort.addEventListener('change', () => {
+    current.sort = el.sort.value;
+    current.page = 1;
+    refresh();
+  });
+
+  el.pagination.addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-page]');
+    if (!btn || btn.disabled) return;
+    current.page = Number(btn.dataset.page);
+    refresh();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  el.reset.addEventListener('click', () => {
+    current = { query: '', grades: new Set(), compat: false, sort: 'overall', page: 1 };
+    el.search.value = '';
+    el.gradeFilter.selectedOptions.forEach(o => o.selected = false);
+    el.compatFilter.checked = false;
+    el.sort.value = 'overall';
+    refresh();
+  });
+
+  // ---- 初始化 ----
+  readURL();
+  el.search.value = current.query;
+  if (current.grades.size) {
+    [...el.gradeFilter.options].forEach(o => o.selected = current.grades.has(o.value));
+  }
+  el.compatFilter.checked = current.compat;
+  el.sort.value = current.sort;
+  refresh();
+</script>
+
+<style>
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 4px;
+}
+.filter-group { display: flex; align-items: center; gap: 6px; }
+.filter-bar select, .filter-bar input[type="text"] {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  padding: 6px 10px;
+  font-size: 13px;
+}
+.filter-bar select[multiple] { min-width: 80px; max-height: 90px; }
+.filter-bar input[type="text"] { min-width: 160px; }
+.compat-badge { font-size: 14px; }
+.plugin-row { display: grid; grid-template-columns: 56px minmax(0,1fr) 90px 70px 70px 40px; overflow: hidden; align-items: center; padding: 10px 16px; border-bottom: 1px solid var(--border); transition: background 0.1s; }
+.plugin-row:last-child { border-bottom: none; }
+.plugin-row:hover { background: var(--bg); }
+.btn { padding: 6px 14px; border-radius: 6px; border: 1px solid var(--border); background: var(--bg-elev); color: var(--text); cursor: pointer; font-size: 13px; transition: all 0.15s; }
+.btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.btn-primary { background: var(--accent); color: #0a0e1a; border-color: var(--accent); font-weight: 600; }
+.btn-primary:hover { background: var(--accent); opacity: 0.85; }
+.btn-ghost { background: transparent; }
+</style>
