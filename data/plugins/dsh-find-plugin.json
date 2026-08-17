@@ -12,7 +12,7 @@
     "discovery"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/awesome-dsh-plugin/dsh-find-plugin.git",
+  "repo": "https://github.com/awesome-dsh-plugin/dsh-find-plugin",
   "homepage": "https://github.com/awesome-dsh-plugin/dsh-find-plugin#readme",
   "npm": "https://www.npmjs.com/package/dsh-find-plugin",
   "dsh_compat": true,
@@ -44,5 +44,5 @@
     "overall": 65,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:44:57.992Z"
+  "updated_at": "2026-08-17T06:01:09.255Z"
 }

@@ -16,7 +16,7 @@
     "free"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/DDDMUC/dsh-free-search.git",
+  "repo": "https://github.com/DDDMUC/dsh-free-search",
   "homepage": "https://github.com/DDDMUC/dsh-free-search#readme",
   "npm": "https://www.npmjs.com/package/dsh-free-search",
   "dsh_compat": true,
@@ -56,5 +56,5 @@
     "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:21.674Z"
+  "updated_at": "2026-08-17T06:01:48.825Z"
 }

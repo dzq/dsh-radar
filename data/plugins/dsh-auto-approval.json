@@ -9,7 +9,7 @@
     "dsh-auto-approval"
   ],
   "license": "BSD-3-Clause",
-  "repo": "git+https://github.com/Andy8647/dsh-auto-approval.git",
+  "repo": "https://github.com/Andy8647/dsh-auto-approval",
   "homepage": "https://github.com/Andy8647/dsh-auto-approval#readme",
   "npm": "https://www.npmjs.com/package/dsh-auto-approval",
   "dsh_compat": true,
@@ -41,5 +41,5 @@
     "overall": 48,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:52.250Z"
+  "updated_at": "2026-08-17T06:02:35.998Z"
 }

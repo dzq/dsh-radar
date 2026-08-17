@@ -14,7 +14,7 @@
     "skill"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Areium/dsh-fail-logger.git",
+  "repo": "https://github.com/Areium/dsh-fail-logger",
   "homepage": "https://github.com/Areium/dsh-fail-logger#readme",
   "npm": "https://www.npmjs.com/package/dsh-fail-logger",
   "dsh_compat": true,
@@ -54,5 +54,5 @@
     "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:14.855Z"
+  "updated_at": "2026-08-17T06:01:37.040Z"
 }

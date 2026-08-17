@@ -13,7 +13,7 @@
     "file-preview"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/KunIsMe/dsh-filescope.git",
+  "repo": "https://github.com/KunIsMe/dsh-filescope",
   "homepage": "https://github.com/KunIsMe/dsh-filescope#readme",
   "npm": "https://www.npmjs.com/package/dsh-filescope",
   "dsh_compat": true,
@@ -60,5 +60,5 @@
     "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:43.498Z"
+  "updated_at": "2026-08-17T06:02:02.650Z"
 }

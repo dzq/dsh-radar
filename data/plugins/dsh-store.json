@@ -12,7 +12,7 @@
     "plugin-manager"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/huguangyu666/dsh-store.git",
+  "repo": "https://github.com/huguangyu666/dsh-store",
   "homepage": "https://github.com/huguangyu666/dsh-store#readme",
   "npm": "https://www.npmjs.com/package/dsh-store",
   "dsh_compat": true,
@@ -58,5 +58,5 @@
     "overall": 65,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:44.636Z"
+  "updated_at": "2026-08-17T06:02:22.754Z"
 }

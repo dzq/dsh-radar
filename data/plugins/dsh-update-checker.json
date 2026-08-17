@@ -11,7 +11,7 @@
     "notify"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Airmetro/dsh-update-checker.git",
+  "repo": "https://github.com/Airmetro/dsh-update-checker",
   "homepage": "https://github.com/Airmetro/dsh-update-checker",
   "npm": "https://www.npmjs.com/package/dsh-update-checker",
   "dsh_compat": true,
@@ -57,5 +57,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:56.951Z"
+  "updated_at": "2026-08-17T06:02:41.276Z"
 }

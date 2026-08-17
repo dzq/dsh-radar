@@ -13,7 +13,7 @@
     "svg"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/liuup/dsh-latex-tools.git",
+  "repo": "https://github.com/liuup/dsh-latex-tools",
   "homepage": "https://github.com/liuup/dsh-latex-tools#readme",
   "npm": "https://www.npmjs.com/package/dsh-latex-tools",
   "dsh_compat": true,
@@ -57,5 +57,5 @@
     "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:26.159Z"
+  "updated_at": "2026-08-17T06:01:57.615Z"
 }

@@ -13,7 +13,7 @@
     "marketplace"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/LX2000WASD/dsh-web-plugin-manager.git",
+  "repo": "https://github.com/LX2000WASD/dsh-web-plugin-manager",
   "homepage": "https://github.com/LX2000WASD/dsh-web-plugin-manager#readme",
   "npm": "https://www.npmjs.com/package/dsh-web-plugin-manager",
   "dsh_compat": true,
@@ -61,5 +61,5 @@
     "overall": 58,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:44:57.024Z"
+  "updated_at": "2026-08-17T06:01:07.937Z"
 }

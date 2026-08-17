@@ -2,15 +2,19 @@
   "slug": "dsh-vscode",
   "name": "dsh-vscode",
   "version": "0.0.0",
-  "description": "DeepSeek Harness for VS Code: right-side chat agent that reads, edits, and runs your project — like Claude Code / Codex / Copilot.",
+  "description": "A Claude Code/Codex-style VS Code sidebar for DeepSeek Harness. 像 Claude Code 、Codex 一样，在 VS Code 侧边栏中使用 DeepSeek Harness。",
   "keywords": [
+    "coding-agent",
+    "cordis",
+    "deepseek",
     "deepseek-harness",
-    "deepseek-harness-plugin",
     "dsh",
-    "vscode"
+    "typescript",
+    "vscode",
+    "vscode-extension"
   ],
   "license": "MIT",
-  "repo": "https://github.com/MJ-Chang/dsh-vscode",
+  "repo": "https://github.com/Lixxx1/dsh-vscode",
   "homepage": "",
   "npm": "https://www.npmjs.com/package/dsh-vscode",
   "dsh_compat": false,
@@ -22,10 +26,10 @@
   "last_publish": null,
   "created_at": null,
   "gh": {
-    "full_name": "MJ-Chang/dsh-vscode",
-    "stars": 4,
+    "full_name": "Lixxx1/dsh-vscode",
+    "stars": 8,
     "open_issues": 0,
-    "pushed_at": "2026-08-15T03:23:36Z",
+    "pushed_at": "2026-08-17T03:23:15Z",
     "archived": false,
     "license": {
       "key": "mit",
@@ -36,13 +40,13 @@
     }
   },
   "scores": {
-    "popularity": 19,
-    "maintenance": 39,
+    "popularity": 26,
+    "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 37,
+    "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T05:45:58.119Z"
+  "updated_at": "2026-08-17T06:01:42.034Z"
 }

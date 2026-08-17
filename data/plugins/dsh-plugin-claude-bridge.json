@@ -13,7 +13,7 @@
     "bridge"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/YYTbit/dsh-plugin-claude-bridge.git",
+  "repo": "https://github.com/YYTbit/dsh-plugin-claude-bridge",
   "homepage": "https://github.com/YYTbit/dsh-plugin-claude-bridge#readme",
   "npm": "https://www.npmjs.com/package/dsh-plugin-claude-bridge",
   "dsh_compat": true,
@@ -47,5 +47,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:20.220Z"
+  "updated_at": "2026-08-17T06:01:45.969Z"
 }

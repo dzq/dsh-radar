@@ -14,7 +14,7 @@
     "randomuuid"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Leon0555/dsh-lan-access.git",
+  "repo": "https://github.com/Leon0555/dsh-lan-access",
   "homepage": "https://github.com/Leon0555/dsh-lan-access#readme",
   "npm": "https://www.npmjs.com/package/dsh-lan-access",
   "dsh_compat": true,
@@ -46,5 +46,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:23.880Z"
+  "updated_at": "2026-08-17T06:01:52.915Z"
 }

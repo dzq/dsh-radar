@@ -12,7 +12,7 @@
     "ai-agent"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/jiezeng2004-design/dsh-requirements-alignment.git",
+  "repo": "https://github.com/jiezeng2004-design/dsh-requirements-alignment",
   "homepage": "https://github.com/jiezeng2004-design/dsh-requirements-alignment#readme",
   "npm": "https://www.npmjs.com/package/dsh-requirements-alignment",
   "dsh_compat": true,
@@ -44,5 +44,5 @@
     "overall": 54,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:33.538Z"
+  "updated_at": "2026-08-17T06:02:04.612Z"
 }

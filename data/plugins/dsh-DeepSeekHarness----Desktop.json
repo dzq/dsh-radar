@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-DeepSeekHarness----Desktop",
+  "name": "dsh-DeepSeekHarness----Desktop",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness (DSH) desktop client: double-click to use, bundled backend, tray resident, sync with official releases | DSH 桌面客户端, 双击即用, 内置后端",
+  "keywords": [
+    "ai-agent",
+    "deepseek",
+    "deepseek-harness",
+    "desktop-app",
+    "dsh",
+    "electron",
+    "windows"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/InkWord01/DeepSeekHarness----Desktop",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-DeepSeekHarness----Desktop",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "InkWord01/DeepSeekHarness----Desktop",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T03:32:01Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 19,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 37,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T06:02:23.716Z"
+}

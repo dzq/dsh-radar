@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-session-pause",
+  "name": "dsh-session-pause",
+  "version": "0.0.0",
+  "description": "A Cordis plugin for DeepSeek Harness that suspends the entire conversation state and resumes it after restart.",
+  "keywords": [
+    "agent"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/watericetangcw/dsh-session-pause",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-session-pause",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "watericetangcw/dsh-session-pause",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:54:34Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 19,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 35,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T06:02:41.137Z"
+}

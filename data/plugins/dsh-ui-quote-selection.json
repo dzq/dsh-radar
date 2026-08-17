@@ -13,7 +13,7 @@
     "chat"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/nekogpt/dsh-ui-quote-selection.git",
+  "repo": "https://github.com/nekogpt/dsh-ui-quote-selection",
   "homepage": "https://github.com/nekogpt/dsh-ui-quote-selection#readme",
   "npm": "https://www.npmjs.com/package/dsh-ui-quote-selection",
   "dsh_compat": true,
@@ -58,5 +58,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:44.990Z"
+  "updated_at": "2026-08-17T06:02:22.052Z"
 }

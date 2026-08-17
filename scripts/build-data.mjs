@@ -188,12 +188,10 @@ async function processOne(gh, npmHit) {
   const keywords = (ver.keywords || npmHit?.keywords || gh?.topics?.filter(t => t !== 'dsh-plugin') || []).slice(0, 10);
   const license = typeof ver.license === 'string' ? ver.license : (gh?.license || npmHit?.license || '');
 
-  // 优先用 npm 的 repository；如果指向 deepseek-harness 主仓库（不是插件自己的），用 GitHub 搜索纠正
-  let repository = ver.repository?.url || npmHit?.links?.repository || (gh ? `https://github.com/${gh.full_name}` : '');
-  if (name && repository.includes('deepseek-ai/deepseek-harness')) {
-    const corrected = await searchGhRepoByName(name);
-    if (corrected) repository = corrected;
-  }
+  // 优先用 GitHub 数据（更权威）；只有当没有 GH 数据时才用 npm repository
+  const repository = (gh && gh.full_name)
+    ? `https://github.com/${gh.full_name}`
+    : (ver.repository?.url || npmHit?.links?.repository || '');
 
   // GitHub 详细数据（补充 stars/issues 等）
   let ghDetail = null;

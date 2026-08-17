@@ -13,7 +13,7 @@
     "token"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/KitDoesIt/dsh-compaction-instant.git",
+  "repo": "https://github.com/KitDoesIt/dsh-compaction-instant",
   "homepage": "https://github.com/KitDoesIt/dsh-compaction-instant#readme",
   "npm": "https://www.npmjs.com/package/dsh-compaction-instant",
   "dsh_compat": true,
@@ -53,5 +53,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:21.725Z"
+  "updated_at": "2026-08-17T06:01:48.549Z"
 }

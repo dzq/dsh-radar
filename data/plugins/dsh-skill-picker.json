@@ -5,7 +5,7 @@
   "description": "DSH Web GUI skill picker: a button beside the composer opens a searchable list of installed skills; picking one inserts the official `/skill-name` gesture into the input box, so the skill loads with your message (WorkBuddy-style skill invocation for DeepS",
   "keywords": [],
   "license": "MIT",
-  "repo": "git+https://github.com/a735624258/dsh-skill-picker.git",
+  "repo": "https://github.com/a735624258/dsh-skill-picker",
   "homepage": "https://github.com/a735624258/dsh-skill-picker#readme",
   "npm": "https://www.npmjs.com/package/dsh-skill-picker",
   "dsh_compat": true,
@@ -50,5 +50,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:19.921Z"
+  "updated_at": "2026-08-17T06:01:39.701Z"
 }

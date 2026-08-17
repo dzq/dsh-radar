@@ -14,7 +14,7 @@
     "usage-statistics"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/lanlandeli/dsh-usage-stats.git",
+  "repo": "https://github.com/lanlandeli/dsh-usage-stats",
   "homepage": "https://github.com/lanlandeli/dsh-usage-stats#readme",
   "npm": "https://www.npmjs.com/package/dsh-usage-stats",
   "dsh_compat": true,
@@ -57,5 +57,5 @@
     "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:20.219Z"
+  "updated_at": "2026-08-17T06:01:45.260Z"
 }

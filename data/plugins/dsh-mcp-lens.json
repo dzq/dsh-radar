@@ -16,7 +16,7 @@
     "cost-optimization"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/labmimors/dsh-mcp-lens.git",
+  "repo": "https://github.com/labmimors/dsh-mcp-lens",
   "homepage": "https://github.com/labmimors/dsh-mcp-lens#readme",
   "npm": "https://www.npmjs.com/package/dsh-mcp-lens",
   "dsh_compat": true,
@@ -56,5 +56,5 @@
     "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:33.228Z"
+  "updated_at": "2026-08-17T06:02:04.402Z"
 }

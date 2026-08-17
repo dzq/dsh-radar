@@ -5,7 +5,7 @@
   "description": "ChatGPT OAuth, Codex models, search, read_image URL support, and gpt-image-2 generation for DeepSeek Harness",
   "keywords": [],
   "license": "Apache-2.0",
-  "repo": "git+https://github.com/Yan-Zero/dsh-codex.git",
+  "repo": "https://github.com/Yan-Zero/dsh-codex",
   "homepage": "https://github.com/Yan-Zero/dsh-codex#readme",
   "npm": "https://www.npmjs.com/package/dsh-codex",
   "dsh_compat": true,
@@ -52,5 +52,5 @@
     "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:05.014Z"
+  "updated_at": "2026-08-17T06:01:22.852Z"
 }

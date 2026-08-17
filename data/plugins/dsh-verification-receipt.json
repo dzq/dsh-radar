@@ -11,7 +11,7 @@
     "privacy"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/030611/dsh-verification-receipt.git",
+  "repo": "https://github.com/030611/dsh-verification-receipt",
   "homepage": "https://github.com/030611/dsh-verification-receipt#readme",
   "npm": "https://www.npmjs.com/package/dsh-verification-receipt",
   "dsh_compat": true,
@@ -51,5 +51,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:32.875Z"
+  "updated_at": "2026-08-17T06:02:03.320Z"
 }

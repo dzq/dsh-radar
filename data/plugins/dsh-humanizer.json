@@ -12,7 +12,7 @@
     "去AI味"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/DEEP-IOS/dsh-humanizer.git",
+  "repo": "https://github.com/DEEP-IOS/dsh-humanizer",
   "homepage": "https://github.com/DEEP-IOS/dsh-humanizer#readme",
   "npm": "https://www.npmjs.com/package/dsh-humanizer",
   "dsh_compat": true,
@@ -52,5 +52,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:49.927Z"
+  "updated_at": "2026-08-17T06:02:31.225Z"
 }

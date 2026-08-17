@@ -16,7 +16,7 @@
     "cordis"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Mr-remon219/dsh-search-boost.git",
+  "repo": "https://github.com/Mr-remon219/dsh-search-boost",
   "homepage": "https://github.com/Mr-remon219/dsh-search-boost#readme",
   "npm": "https://www.npmjs.com/package/dsh-search-boost",
   "dsh_compat": true,
@@ -56,5 +56,5 @@
     "overall": 54,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:12.619Z"
+  "updated_at": "2026-08-17T06:01:33.602Z"
 }

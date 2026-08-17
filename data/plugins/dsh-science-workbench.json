@@ -14,7 +14,7 @@
     "agent"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/poplarity/dsh-science-workbench.git",
+  "repo": "https://github.com/poplarity/dsh-science-workbench",
   "homepage": "https://github.com/poplarity/dsh-science-workbench#readme",
   "npm": "https://www.npmjs.com/package/dsh-science-workbench",
   "dsh_compat": true,
@@ -53,5 +53,5 @@
     "overall": 55,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:25.768Z"
+  "updated_at": "2026-08-17T06:01:56.591Z"
 }

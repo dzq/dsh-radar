@@ -14,7 +14,7 @@
     "safety"
   ],
   "license": "Apache-2.0",
-  "repo": "git+https://github.com/PerryLink/dsh-permission-rules.git",
+  "repo": "https://github.com/PerryLink/dsh-permission-rules",
   "homepage": "https://github.com/PerryLink/dsh-permission-rules#readme",
   "npm": "https://www.npmjs.com/package/dsh-permission-rules",
   "dsh_compat": true,
@@ -48,5 +48,5 @@
     "overall": 65,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:25.768Z"
+  "updated_at": "2026-08-17T06:01:56.591Z"
 }

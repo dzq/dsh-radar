@@ -1,0 +1,37 @@
+{
+  "slug": "dsh-imggenerate",
+  "name": "dsh-imggenerate",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness plugin: image_generate tool with qwen-image-3.0 (Aliyun MaaS) and doubao-seedream (Volcano Ark) providers",
+  "keywords": [],
+  "license": "",
+  "repo": "https://github.com/Bald0Wang/dsh-imggenerate",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-imggenerate",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Bald0Wang/dsh-imggenerate",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T08:25:30Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 19,
+    "maintenance": 39,
+    "quality": 25,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T06:02:34.971Z"
+}

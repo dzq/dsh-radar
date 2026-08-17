@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-rust-sdk",
+  "name": "dsh-rust-sdk",
+  "version": "0.0.0",
+  "description": "Rust SDK for DSH(Deepseek Harness)  ",
+  "keywords": [
+    "dsh",
+    "dsh-sdk"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/42ch-dev/dsh-rust-sdk",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-rust-sdk",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "42ch-dev/dsh-rust-sdk",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T03:58:48Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 19,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T06:02:28.835Z"
+}

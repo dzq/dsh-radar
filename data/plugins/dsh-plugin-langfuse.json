@@ -12,7 +12,7 @@
     "llm-tracing"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/linyp/dsh-plugin-langfuse.git",
+  "repo": "https://github.com/linyp/dsh-plugin-langfuse",
   "homepage": "https://github.com/linyp/dsh-plugin-langfuse#readme",
   "npm": "https://www.npmjs.com/package/dsh-plugin-langfuse",
   "dsh_compat": true,
@@ -52,5 +52,5 @@
     "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:25.018Z"
+  "updated_at": "2026-08-17T06:01:55.834Z"
 }

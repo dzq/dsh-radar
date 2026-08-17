@@ -13,7 +13,7 @@
     "semantic-locators"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Clizo1209/dsh-playwright-browser.git",
+  "repo": "https://github.com/Clizo1209/dsh-playwright-browser",
   "homepage": "https://github.com/Clizo1209/dsh-playwright-browser#readme",
   "npm": "https://www.npmjs.com/package/dsh-playwright-browser",
   "dsh_compat": true,
@@ -47,5 +47,5 @@
     "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:17.386Z"
+  "updated_at": "2026-08-17T06:01:41.884Z"
 }

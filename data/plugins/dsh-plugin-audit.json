@@ -11,7 +11,7 @@
     "audit"
   ],
   "license": "MIT",
-  "repo": "https://github.com/jkrandom-sudo/dsh-plugin-audit",
+  "repo": "",
   "homepage": "",
   "npm": "https://www.npmjs.com/package/dsh-plugin-audit",
   "dsh_compat": true,
@@ -28,28 +28,15 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-14T05:12:44.893Z",
   "created_at": "2026-08-14T03:59:47.366Z",
-  "gh": {
-    "full_name": "jkrandom-sudo/dsh-plugin-audit",
-    "stars": 4,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T05:13:18Z",
-    "archived": false,
-    "license": {
-      "key": "mit",
-      "name": "MIT License",
-      "spdx_id": "MIT",
-      "url": "https://api.github.com/licenses/mit",
-      "node_id": "MDc6TGljZW5zZTEz"
-    }
-  },
+  "gh": null,
   "scores": {
-    "popularity": 19,
-    "maintenance": 39,
-    "quality": 85,
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
     "security": 65,
     "dsh_compat": 75,
-    "overall": 54,
+    "overall": 40,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:57.994Z"
+  "updated_at": "2026-08-17T06:02:45.072Z"
 }

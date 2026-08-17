@@ -13,7 +13,7 @@
     "typescript"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/ZK-Andy/dsh-continual-evolve.git",
+  "repo": "https://github.com/ZK-Andy/dsh-continual-evolve",
   "homepage": "https://github.com/ZK-Andy/dsh-continual-evolve",
   "npm": "https://www.npmjs.com/package/dsh-continual-evolve",
   "dsh_compat": true,
@@ -53,5 +53,5 @@
     "overall": 55,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:10.412Z"
+  "updated_at": "2026-08-17T06:01:31.069Z"
 }

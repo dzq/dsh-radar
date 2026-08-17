@@ -15,7 +15,7 @@
     "agent"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/1na-ko/dsh-hdc-bridge.git",
+  "repo": "https://github.com/1na-ko/dsh-hdc-bridge",
   "homepage": "https://github.com/1na-ko/dsh-hdc-bridge#readme",
   "npm": "https://www.npmjs.com/package/dsh-hdc-bridge",
   "dsh_compat": true,
@@ -51,5 +51,5 @@
     "overall": 64,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:13.318Z"
+  "updated_at": "2026-08-17T06:01:35.985Z"
 }

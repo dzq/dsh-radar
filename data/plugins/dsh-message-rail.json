@@ -13,7 +13,7 @@
     "codex"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/wx-yss/dsh-message-rail.git",
+  "repo": "https://github.com/wx-yss/dsh-message-rail",
   "homepage": "https://github.com/wx-yss/dsh-message-rail#readme",
   "npm": "https://www.npmjs.com/package/dsh-message-rail",
   "dsh_compat": true,
@@ -53,5 +53,5 @@
     "overall": 50,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:24.243Z"
+  "updated_at": "2026-08-17T06:01:53.280Z"
 }

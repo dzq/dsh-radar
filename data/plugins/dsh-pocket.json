@@ -13,7 +13,7 @@
     "tunnel"
   ],
   "license": "GPL-2.0",
-  "repo": "git+https://github.com/shaobeichen/dsh-pocket.git",
+  "repo": "https://github.com/shaobeichen/dsh-pocket",
   "homepage": "https://github.com/shaobeichen/dsh-pocket",
   "npm": "https://www.npmjs.com/package/dsh-pocket",
   "dsh_compat": true,
@@ -57,5 +57,5 @@
     "overall": 69,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:01.574Z"
+  "updated_at": "2026-08-17T06:01:16.552Z"
 }

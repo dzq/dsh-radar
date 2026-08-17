@@ -11,7 +11,7 @@
     "developer-tools"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/XYZ1024-alt/dsh-side-panel.git",
+  "repo": "https://github.com/ccq1/dsh-side-panel",
   "homepage": "https://github.com/XYZ1024-alt/dsh-side-panel#readme",
   "npm": "https://www.npmjs.com/package/dsh-side-panel",
   "dsh_compat": true,
@@ -36,16 +36,22 @@
     "open_issues": 1,
     "pushed_at": "2026-08-14T17:45:41Z",
     "archived": true,
-    "license": "BSD-3-Clause"
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    }
   },
   "scores": {
     "popularity": 33,
     "maintenance": 39,
-    "quality": 75,
+    "quality": 85,
     "security": 20,
     "dsh_compat": 80,
-    "overall": 50,
+    "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:04.962Z"
+  "updated_at": "2026-08-17T06:01:25.778Z"
 }

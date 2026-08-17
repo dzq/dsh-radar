@@ -11,7 +11,7 @@
     "messaging"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/GengDaPeng/dsh-agent-message.git",
+  "repo": "https://github.com/GengDaPeng/dsh-agent-message",
   "homepage": "https://github.com/GengDaPeng/dsh-agent-message#readme",
   "npm": "https://www.npmjs.com/package/dsh-agent-message",
   "dsh_compat": true,
@@ -62,5 +62,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:49.542Z"
+  "updated_at": "2026-08-17T06:02:28.033Z"
 }

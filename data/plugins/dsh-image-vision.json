@@ -13,7 +13,7 @@
     "skill"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/wangyang10/image-vision.git",
+  "repo": "https://github.com/wangyang10/image-vision",
   "homepage": "https://github.com/wangyang10/image-vision/tree/main/dsh-image-vision",
   "npm": "https://www.npmjs.com/package/dsh-image-vision",
   "dsh_compat": false,
@@ -47,5 +47,5 @@
     "overall": 43,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:18.517Z"
+  "updated_at": "2026-08-17T06:01:43.849Z"
 }

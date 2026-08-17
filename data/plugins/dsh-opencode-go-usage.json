@@ -14,7 +14,7 @@
     "cordis"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/yumusb/dsh-opencode-go-usage.git",
+  "repo": "https://github.com/Xenia0922/dsh-opencode-go-usage",
   "homepage": "https://github.com/yumusb/dsh-opencode-go-usage#readme",
   "npm": "https://www.npmjs.com/package/dsh-opencode-go-usage",
   "dsh_compat": true,
@@ -38,10 +38,10 @@
   "last_publish": "2026-08-14T15:02:45.069Z",
   "created_at": "2026-08-14T05:14:44.811Z",
   "gh": {
-    "full_name": "yumusb/dsh-opencode-go-usage",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T15:02:31Z",
+    "full_name": "Xenia0922/dsh-opencode-go-usage",
+    "stars": 10,
+    "open_issues": 1,
+    "pushed_at": "2026-08-17T03:54:48Z",
     "archived": false,
     "license": {
       "key": "mit",
@@ -52,13 +52,13 @@
     }
   },
   "scores": {
-    "popularity": 13,
-    "maintenance": 39,
+    "popularity": 28,
+    "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 50,
+    "overall": 54,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:12.619Z"
+  "updated_at": "2026-08-17T06:01:35.167Z"
 }

@@ -12,7 +12,7 @@
     "deepseek-api"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/x2802490130-prog/dsh-balance-float.git",
+  "repo": "https://github.com/x2802490130-prog/dsh-balance-float",
   "homepage": "https://github.com/x2802490130-prog/dsh-balance-float#readme",
   "npm": "https://www.npmjs.com/package/dsh-balance-float",
   "dsh_compat": true,
@@ -56,5 +56,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:56.951Z"
+  "updated_at": "2026-08-17T06:02:41.275Z"
 }

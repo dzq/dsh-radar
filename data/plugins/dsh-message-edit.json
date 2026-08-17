@@ -11,7 +11,7 @@
     "reroll"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Moeblack/dsh-message-edit.git",
+  "repo": "https://github.com/Moeblack/dsh-message-edit",
   "homepage": "https://github.com/Moeblack/dsh-message-edit#readme",
   "npm": "https://www.npmjs.com/package/dsh-message-edit",
   "dsh_compat": true,
@@ -51,5 +51,5 @@
     "overall": 54,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:00.159Z"
+  "updated_at": "2026-08-17T06:01:12.700Z"
 }

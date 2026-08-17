@@ -13,7 +13,7 @@
     "cordis"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Relistencode/dsh-extension-hub.git",
+  "repo": "https://github.com/Relistencode/dsh-extension-hub",
   "homepage": "https://github.com/Relistencode/dsh-extension-hub#readme",
   "npm": "https://www.npmjs.com/package/dsh-extension-hub",
   "dsh_compat": true,
@@ -56,5 +56,5 @@
     "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:20.272Z"
+  "updated_at": "2026-08-17T06:01:46.021Z"
 }

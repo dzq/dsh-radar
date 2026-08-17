@@ -15,7 +15,7 @@
     "换肤"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/RevolutionLA/dsh-dream-skin.git",
+  "repo": "https://github.com/RevolutionLA/dsh-dream-skin",
   "homepage": "https://github.com/RevolutionLA/dsh-dream-skin#readme",
   "npm": "https://www.npmjs.com/package/dsh-dream-skin",
   "dsh_compat": true,
@@ -39,26 +39,26 @@
     "node": ">=18"
   },
   "readme": "<p align=\"center\">\n  <strong>中文</strong> · <a href=\"./README.en.md\">English</a>\n</p>\n\n<div align=\"center\">\n\n# dsh-dream-skin 🔮\n\n**让 DeepSeek Harness 换一张会呼吸、有情绪、属于你的脸。**\n\n原生换肤 · 背景壁纸 · 主题包分享 —— 完全用官方 `--dsw-*` token 系统实现的浪漫工程。装一次，终身可换。\n\n> **一句话：写代码，也要有氛围感。** ✨\n\n| 🎨 8 套原创主题 | 🖼️ 壁纸 + 透明度/模糊 | 🌈 强调色点一下 | 📦 主题包可分享 |\n|---|---|---|---|\n\n> 3 行安装 · 纯原生（无注入/不改安装包）· 不因 DSH 更新失效\n\n[English](./README.en.md) · [变更日志](./CHANGELOG.md) · [项目说明](./docs/PROJECT.md) · [发布指引](./docs/publishing-to-npm.md)\n\n![npm version](https://img.shields.io/npm/v/dsh-dream-skin?color=4f83f2&label=npm)\n![license](https://img.shields.io/github/license/RevolutionLA/dsh-dream-skin?color=34d399)\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n![node](https://img.shields.io/ba",
-  "weekly_downloads": 0,
+  "weekly_downloads": 1308,
   "monthly_downloads": 0,
   "last_publish": "2026-08-15T06:24:57.272Z",
   "created_at": "2026-08-15T02:53:11.518Z",
   "gh": {
     "full_name": "RevolutionLA/dsh-dream-skin",
-    "stars": 36,
+    "stars": 39,
     "open_issues": 2,
     "pushed_at": "2026-08-15T06:24:47Z",
     "archived": false,
     "license": "MIT"
   },
   "scores": {
-    "popularity": 42,
+    "popularity": 78,
     "maintenance": 39,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 57,
+    "overall": 66,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:44:58.384Z"
+  "updated_at": "2026-08-17T06:01:09.990Z"
 }

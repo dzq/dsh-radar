@@ -15,7 +15,7 @@
     "second-brain"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/iamzcr/dsh-obsidian-assistant.git",
+  "repo": "https://github.com/iamzcr/dsh-obsidian-assistant",
   "homepage": "https://github.com/iamzcr/dsh-obsidian-assistant#readme",
   "npm": "https://www.npmjs.com/package/dsh-obsidian-assistant",
   "dsh_compat": true,
@@ -55,5 +55,5 @@
     "overall": 50,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:56.951Z"
+  "updated_at": "2026-08-17T06:02:41.278Z"
 }

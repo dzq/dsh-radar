@@ -16,7 +16,7 @@
     "audit-log"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/yunhuantian/dsh-plugin-hub.git",
+  "repo": "https://github.com/yunhuantian/dsh-plugin-hub",
   "homepage": "https://github.com/yunhuantian/dsh-plugin-hub#readme",
   "npm": "https://www.npmjs.com/package/dsh-plugin-hub",
   "dsh_compat": true,
@@ -67,5 +67,5 @@
     "overall": 56,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:15.579Z"
+  "updated_at": "2026-08-17T06:01:38.023Z"
 }

@@ -8,7 +8,7 @@
     "dsh-plugin"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/omdsh-dev/dsh-advisor.git",
+  "repo": "https://github.com/omdsh-dev/dsh-advisor",
   "homepage": "https://github.com/omdsh-dev/dsh-advisor#readme",
   "npm": "https://www.npmjs.com/package/dsh-advisor",
   "dsh_compat": true,
@@ -50,5 +50,5 @@
     "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:11.484Z"
+  "updated_at": "2026-08-17T06:01:31.705Z"
 }

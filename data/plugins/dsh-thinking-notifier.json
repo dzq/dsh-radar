@@ -1,0 +1,43 @@
+{
+  "slug": "dsh-thinking-notifier",
+  "name": "dsh-thinking-notifier",
+  "version": "0.0.0",
+  "description": "A simple popup that can quickly show when Deepseek has finished thinking or is requesting permission during split-screen.",
+  "keywords": [],
+  "license": "MIT",
+  "repo": "https://github.com/6-debug-6/dsh-thinking-notifier",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-thinking-notifier",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "6-debug-6/dsh-thinking-notifier",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T14:49:21Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 19,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 65,
+    "dsh_compat": 30,
+    "overall": 38,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T06:02:21.910Z"
+}

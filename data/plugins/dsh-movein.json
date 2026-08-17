@@ -13,7 +13,7 @@
     "skills"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/sjh9714/dsh-movein.git",
+  "repo": "https://github.com/sjh9714/dsh-movein",
   "homepage": "https://github.com/sjh9714/dsh-movein#readme",
   "npm": "https://www.npmjs.com/package/dsh-movein",
   "dsh_compat": true,
@@ -47,5 +47,5 @@
     "overall": 64,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:49.927Z"
+  "updated_at": "2026-08-17T06:02:31.225Z"
 }

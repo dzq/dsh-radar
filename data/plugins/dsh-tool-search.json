@@ -15,7 +15,7 @@
     "plugin"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Letter2025/dsh-tool-search.git",
+  "repo": "https://github.com/Letter2025/dsh-tool-search",
   "homepage": "https://github.com/Letter2025/dsh-tool-search",
   "npm": "https://www.npmjs.com/package/dsh-tool-search",
   "dsh_compat": true,
@@ -47,5 +47,5 @@
     "overall": 50,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:55.404Z"
+  "updated_at": "2026-08-17T06:02:33.471Z"
 }

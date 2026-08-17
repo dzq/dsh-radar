@@ -11,7 +11,7 @@
     "latex"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/fly233338/dsh-overleaf.git",
+  "repo": "https://github.com/fly233338/dsh-overleaf",
   "homepage": "https://github.com/fly233338/dsh-overleaf#readme",
   "npm": "https://www.npmjs.com/package/dsh-overleaf",
   "dsh_compat": true,
@@ -51,5 +51,5 @@
     "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:21.019Z"
+  "updated_at": "2026-08-17T06:01:47.392Z"
 }

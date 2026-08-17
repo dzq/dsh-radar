@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-animation-optimization",
+  "name": "dsh-animation-optimization",
+  "version": "0.0.0",
+  "description": "DSH 动画优化：输出流式动画与 Claude Code 风格外观插件",
+  "keywords": [
+    "animation",
+    "appearance",
+    "claude-code",
+    "cordis",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugins",
+    "theme",
+    "vibe-coding"
+  ],
+  "license": "",
+  "repo": "https://github.com/kelemiao/dsh-animation-optimization",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-animation-optimization",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "kelemiao/dsh-animation-optimization",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T13:45:50Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 19,
+    "maintenance": 40,
+    "quality": 25,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T06:02:36.885Z"
+}

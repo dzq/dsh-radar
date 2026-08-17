@@ -13,7 +13,7 @@
     "image-generation"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/suntianc/dsh-codex-auth.git",
+  "repo": "https://github.com/suntianc/dsh-codex-auth",
   "homepage": "https://github.com/suntianc/dsh-codex-auth#readme",
   "npm": "https://www.npmjs.com/package/dsh-codex-auth",
   "dsh_compat": true,
@@ -58,5 +58,5 @@
     "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:22.390Z"
+  "updated_at": "2026-08-17T06:01:49.674Z"
 }

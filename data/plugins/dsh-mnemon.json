@@ -16,7 +16,7 @@
     "shared-agent-memory"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/omdsh-dev/dsh-mnemon.git",
+  "repo": "https://github.com/omdsh-dev/dsh-mnemon",
   "homepage": "https://github.com/omdsh-dev/dsh-mnemon#readme",
   "npm": "https://www.npmjs.com/package/dsh-mnemon",
   "dsh_compat": true,
@@ -60,5 +60,5 @@
     "overall": 66,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:44:56.256Z"
+  "updated_at": "2026-08-17T06:01:06.235Z"
 }

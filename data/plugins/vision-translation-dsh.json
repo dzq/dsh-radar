@@ -1,0 +1,45 @@
+{
+  "slug": "vision-translation-dsh",
+  "name": "vision-translation-dsh",
+  "version": "0.1.0",
+  "description": "Native dsh (DeepSeek Harness) Cordis plugin adapter for vision-translation: grounds images into <vision-context> via the Python CLI (PROTOCOL v1). Spawns cli.py, never re-implements core logic.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek-harness-plugin",
+    "cordis",
+    "cordis-plugin",
+    "vision",
+    "vision-translation",
+    "visual-primitives",
+    "mcp"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/BingL-Li/vision-translation.git",
+  "homepage": "https://github.com/BingL-Li/vision-translation#readme",
+  "npm": "https://www.npmjs.com/package/vision-translation-dsh",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "readme": "# vision-translation-dsh — native dsh adapter\n\nA **native [dsh](https://github.com/deepseek-ai/deepseek-harness) (DeepSeek\nHarness) Cordis plugin** that lets any dsh profile ground images through the\n[vision-translation](../../README.md) pipeline. It registers one tool,\n`vision_translate`, and returns a structured `<vision-context>` block that\nthe main model reasons over.\n\n> Chosen npm package name: **`vision-translation-dsh`** (checked free on the\n> npm registry at implementation time via `npm view vision-translation-dsh`).\n> This adapter lives in the repo at [`adapters/dsh/`](.). For an MCP-based\n> alternative see [`adapters/mcp/`](../mcp/).\n\n## Discoverability (official dsh plugin tag)\n\nPer the [dsh README](https://github.com/deepseek-ai/deepseek-harness),\nplugin repos get discovered th",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T05:56:50.471Z",
+  "created_at": "2026-08-17T05:56:50.065Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T06:02:51.184Z"
+}

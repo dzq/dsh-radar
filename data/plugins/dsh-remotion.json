@@ -12,7 +12,7 @@
     "dsh-plugin"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/STARDUSTLC666/dsh-remotion.git",
+  "repo": "https://github.com/STARDUSTLC666/dsh-remotion",
   "homepage": "https://github.com/STARDUSTLC666/dsh-remotion#readme",
   "npm": "https://www.npmjs.com/package/dsh-remotion",
   "dsh_compat": true,
@@ -46,5 +46,5 @@
     "overall": 57,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:56.157Z"
+  "updated_at": "2026-08-17T06:02:38.552Z"
 }

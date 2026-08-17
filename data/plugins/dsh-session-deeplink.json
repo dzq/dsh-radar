@@ -11,7 +11,7 @@
     "deeplink"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/R3alloc/dsh-session-deeplink.git",
+  "repo": "https://github.com/R3alloc/dsh-session-deeplink",
   "homepage": "https://github.com/R3alloc/dsh-session-deeplink#readme",
   "npm": "https://www.npmjs.com/package/dsh-session-deeplink",
   "dsh_compat": true,
@@ -50,5 +50,5 @@
     "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:26.856Z"
+  "updated_at": "2026-08-17T06:01:58.253Z"
 }

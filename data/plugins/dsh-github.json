@@ -5,7 +5,7 @@
   "description": "Abstract GitHub capability seam (ctx.github) for the DeepSeek Harness — provider registry, execution-time resolution, normalized read/write vocabulary, seam-enforced diff budgets, and the GitHubError taxonomy",
   "keywords": [],
   "license": "MIT",
-  "repo": "git+https://github.com/kaziii/dsh-github-connector.git",
+  "repo": "https://github.com/PivotStackIntelligence/dsh-github",
   "homepage": "https://github.com/kaziii/dsh-github-connector#readme",
   "npm": "https://www.npmjs.com/package/dsh-github",
   "dsh_compat": true,
@@ -21,10 +21,10 @@
   "last_publish": "2026-08-14T07:27:31.130Z",
   "created_at": "2026-08-14T07:27:30.903Z",
   "gh": {
-    "full_name": "kaziii/dsh-github-connector",
-    "stars": 5,
-    "open_issues": 1,
-    "pushed_at": "2026-08-17T04:22:33Z",
+    "full_name": "PivotStackIntelligence/dsh-github",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T04:14:27Z",
     "archived": false,
     "license": {
       "key": "mit",
@@ -35,7 +35,7 @@
     }
   },
   "scores": {
-    "popularity": 21,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 65,
     "security": 40,
@@ -43,5 +43,5 @@
     "overall": 47,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:41.548Z"
+  "updated_at": "2026-08-17T06:02:17.661Z"
 }

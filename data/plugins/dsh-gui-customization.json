@@ -14,7 +14,7 @@
     "video"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/LAN-TINA-WS/dsh-gui-customization.git",
+  "repo": "https://github.com/LAN-TINA-WS/dsh-gui-customization",
   "homepage": "https://github.com/LAN-TINA-WS/dsh-gui-customization#readme",
   "npm": "https://www.npmjs.com/package/dsh-gui-customization",
   "dsh_compat": true,
@@ -50,5 +50,5 @@
     "overall": 55,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:05.747Z"
+  "updated_at": "2026-08-17T06:01:26.583Z"
 }

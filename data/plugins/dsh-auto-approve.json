@@ -16,7 +16,7 @@
     "escalation"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Jiao-XXX/dsh-auto-approve.git",
+  "repo": "https://github.com/Jiao-XXX/dsh-auto-approve",
   "homepage": "https://github.com/Jiao-XXX/dsh-auto-approve#readme",
   "npm": "https://www.npmjs.com/package/dsh-auto-approve",
   "dsh_compat": true,
@@ -54,5 +54,5 @@
     "overall": 65,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:41.497Z"
+  "updated_at": "2026-08-17T06:02:16.913Z"
 }

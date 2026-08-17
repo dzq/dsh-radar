@@ -13,7 +13,7 @@
     "timeline"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/jjxjjjjiik-bot/dsh-chat-timeline.git",
+  "repo": "https://github.com/jjxjjjjiik-bot/dsh-chat-timeline",
   "homepage": "https://github.com/jjxjjjjiik-bot/dsh-chat-timeline#readme",
   "npm": "https://www.npmjs.com/package/dsh-chat-timeline",
   "dsh_compat": true,
@@ -62,5 +62,5 @@
     "overall": 49,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:17.856Z"
+  "updated_at": "2026-08-17T06:01:42.225Z"
 }

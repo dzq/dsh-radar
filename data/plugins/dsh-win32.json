@@ -10,7 +10,7 @@
     "windows"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/sjh9714/dsh-win32.git",
+  "repo": "https://github.com/sjh9714/dsh-win32",
   "homepage": "https://github.com/sjh9714/dsh-win32#readme",
   "npm": "https://www.npmjs.com/package/dsh-win32",
   "dsh_compat": true,
@@ -44,5 +44,5 @@
     "overall": 66,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:26.107Z"
+  "updated_at": "2026-08-17T06:01:58.253Z"
 }

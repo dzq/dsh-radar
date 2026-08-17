@@ -13,7 +13,7 @@
     "tutor"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/CHplus0/dsh-learning-mode.git",
+  "repo": "https://github.com/CHplus0/dsh-learning-mode",
   "homepage": "https://github.com/CHplus0/dsh-learning-mode#readme",
   "npm": "https://www.npmjs.com/package/dsh-learning-mode",
   "dsh_compat": true,
@@ -45,5 +45,5 @@
     "overall": 46,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:49.107Z"
+  "updated_at": "2026-08-17T06:02:28.922Z"
 }

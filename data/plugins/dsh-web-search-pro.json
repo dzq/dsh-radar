@@ -11,7 +11,7 @@
     "search"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/anweat/dsh-web-search-pro.git",
+  "repo": "https://github.com/anweat/dsh-web-search-pro",
   "homepage": "https://github.com/anweat/dsh-web-search-pro#readme",
   "npm": "https://www.npmjs.com/package/dsh-web-search-pro",
   "dsh_compat": true,
@@ -51,5 +51,5 @@
     "overall": 54,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:02.783Z"
+  "updated_at": "2026-08-17T06:01:17.623Z"
 }

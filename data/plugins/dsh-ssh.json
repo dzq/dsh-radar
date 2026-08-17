@@ -13,7 +13,7 @@
     "sftp"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/UynajGI/dsh-ssh.git",
+  "repo": "https://github.com/UynajGI/dsh-ssh",
   "homepage": "https://github.com/UynajGI/dsh-ssh",
   "npm": "https://www.npmjs.com/package/dsh-ssh",
   "dsh_compat": false,
@@ -43,5 +43,5 @@
     "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:32.126Z"
+  "updated_at": "2026-08-17T06:02:01.870Z"
 }

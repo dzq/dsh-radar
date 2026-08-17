@@ -2,16 +2,10 @@
   "slug": "dsh-usage-plugin",
   "name": "dsh-usage-plugin",
   "version": "0.0.0",
-  "description": "DeepSeek Harness 用量与消耗插件（dsh-usage-plugin）—— 每次调用的 token 用量/缓存命中统计、峰谷计费、余额查询、CSV/JSON/PNG 导出，可经桌面端一键安装或命令行 dsh plugin add 安装。",
-  "keywords": [
-    "deepseek",
-    "deepseek-harness",
-    "deepseek-v4",
-    "deepseek-v4-pro",
-    "dsh"
-  ],
+  "description": "DeepSeek Harness（DSH）的 Token 用量统计 附属插件",
+  "keywords": [],
   "license": "MIT",
-  "repo": "https://github.com/feiyang-dev/dsh-usage-plugin",
+  "repo": "https://github.com/Qiongkura/dsh-usage-plugin",
   "homepage": "",
   "npm": "https://www.npmjs.com/package/dsh-usage-plugin",
   "dsh_compat": false,
@@ -23,10 +17,10 @@
   "last_publish": null,
   "created_at": null,
   "gh": {
-    "full_name": "feiyang-dev/dsh-usage-plugin",
-    "stars": 22,
+    "full_name": "Qiongkura/dsh-usage-plugin",
+    "stars": 4,
     "open_issues": 0,
-    "pushed_at": "2026-08-16T11:40:01Z",
+    "pushed_at": "2026-08-17T05:21:03Z",
     "archived": false,
     "license": {
       "key": "mit",
@@ -37,13 +31,13 @@
     }
   },
   "scores": {
-    "popularity": 37,
+    "popularity": 19,
     "maintenance": 40,
-    "quality": 55,
+    "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 42,
-    "grade": "C"
+    "overall": 33,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T05:45:01.474Z"
+  "updated_at": "2026-08-17T06:02:23.454Z"
 }

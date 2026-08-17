@@ -5,7 +5,7 @@
   "description": "Use Pi's OpenAI Codex OAuth subscription in DeepSeek Harness",
   "keywords": [],
   "license": "MIT",
-  "repo": "git+https://github.com/eons2long/dsh-llm-codex-oauth.git",
+  "repo": "https://github.com/Player-MINEPIG/dsh-llm-codex-oauth",
   "homepage": "https://github.com/eons2long/dsh-llm-codex-oauth#readme",
   "npm": "https://www.npmjs.com/package/dsh-llm-codex-oauth",
   "dsh_compat": true,
@@ -21,10 +21,10 @@
   "last_publish": "2026-08-15T01:31:58.115Z",
   "created_at": "2026-08-15T01:31:57.701Z",
   "gh": {
-    "full_name": "eons2long/dsh-codex-oauth",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T10:35:24Z",
+    "full_name": "Player-MINEPIG/dsh-llm-codex-oauth",
+    "stars": 8,
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T16:35:29Z",
     "archived": false,
     "license": {
       "key": "mit",
@@ -35,13 +35,13 @@
     }
   },
   "scores": {
-    "popularity": 8,
-    "maintenance": 39,
+    "popularity": 26,
+    "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 43,
+    "overall": 48,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:17.086Z"
+  "updated_at": "2026-08-17T06:01:41.734Z"
 }

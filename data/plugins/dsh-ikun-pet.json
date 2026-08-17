@@ -15,7 +15,7 @@
     "桌宠"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/eric-song-dev/dsh-ikun-pet.git",
+  "repo": "https://github.com/eric-song-dev/dsh-ikun-pet",
   "homepage": "https://github.com/eric-song-dev/dsh-ikun-pet#readme",
   "npm": "https://www.npmjs.com/package/dsh-ikun-pet",
   "dsh_compat": true,
@@ -53,5 +53,5 @@
     "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:19.871Z"
+  "updated_at": "2026-08-17T06:01:44.640Z"
 }

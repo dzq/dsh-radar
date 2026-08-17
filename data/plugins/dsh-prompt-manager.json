@@ -12,7 +12,7 @@
     "prompt-library"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/SaiSenBox/dsh-prompt-manager.git",
+  "repo": "https://github.com/errorcode7/dsh-prompt-manager",
   "homepage": "https://github.com/SaiSenBox/dsh-prompt-manager#readme",
   "npm": "https://www.npmjs.com/package/dsh-prompt-manager",
   "dsh_compat": true,
@@ -39,16 +39,22 @@
     "open_issues": 0,
     "pushed_at": "2026-08-14T19:27:51Z",
     "archived": false,
-    "license": "MIT"
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
   },
   "scores": {
     "popularity": 21,
     "maintenance": 39,
-    "quality": 75,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 52,
+    "overall": 54,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:36.584Z"
+  "updated_at": "2026-08-17T06:02:10.683Z"
 }

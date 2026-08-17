@@ -14,7 +14,7 @@
     "sessions"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Luaphes/dsh-web-attention-badge.git",
+  "repo": "https://github.com/Luaphes/dsh-web-attention-badge",
   "homepage": "https://github.com/Luaphes/dsh-web-attention-badge#readme",
   "npm": "https://www.npmjs.com/package/dsh-web-attention-badge",
   "dsh_compat": true,
@@ -58,5 +58,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:36.635Z"
+  "updated_at": "2026-08-17T06:02:09.628Z"
 }

@@ -12,7 +12,7 @@
     "cleanup"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/fountunt/dsh-session-cleaner.git",
+  "repo": "https://github.com/fountunt/dsh-session-cleaner",
   "homepage": "https://github.com/fountunt/dsh-session-cleaner",
   "npm": "https://www.npmjs.com/package/dsh-session-cleaner",
   "dsh_compat": true,
@@ -58,5 +58,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:41.147Z"
+  "updated_at": "2026-08-17T06:02:15.337Z"
 }

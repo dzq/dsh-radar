@@ -11,7 +11,7 @@
     "screenshot"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/hellodigua/dsh-share.git",
+  "repo": "https://github.com/hellodigua/dsh-share",
   "homepage": "https://github.com/hellodigua/dsh-share#readme",
   "npm": "https://www.npmjs.com/package/dsh-share",
   "dsh_compat": true,
@@ -60,5 +60,5 @@
     "overall": 56,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:01.263Z"
+  "updated_at": "2026-08-17T06:01:15.730Z"
 }

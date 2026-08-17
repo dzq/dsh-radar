@@ -16,7 +16,7 @@
     "dependency-vulnerabilities"
   ],
   "license": "Apache-2.0",
-  "repo": "git+https://github.com/MicroMilo/upstream-radar.git",
+  "repo": "https://github.com/MicroMilo/upstream-radar",
   "homepage": "https://github.com/MicroMilo/upstream-radar#readme",
   "npm": "https://www.npmjs.com/package/upstream-radar",
   "dsh_compat": true,
@@ -50,5 +50,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:38.468Z"
+  "updated_at": "2026-08-17T06:02:12.811Z"
 }

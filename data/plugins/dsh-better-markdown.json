@@ -16,7 +16,7 @@
     "streaming-markdown"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/zerob13/dsh-better-markdown.git",
+  "repo": "https://github.com/zerob13/dsh-better-markdown",
   "homepage": "https://github.com/zerob13/dsh-better-markdown#readme",
   "npm": "https://www.npmjs.com/package/dsh-better-markdown",
   "dsh_compat": true,
@@ -63,5 +63,5 @@
     "overall": 49,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:12.275Z"
+  "updated_at": "2026-08-17T06:01:29.685Z"
 }

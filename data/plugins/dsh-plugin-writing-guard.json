@@ -16,7 +16,7 @@
     "defensive-writing"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/xmutfyh/dsh-plugin-writing-guard.git",
+  "repo": "https://github.com/xmutfyh/dsh-plugin-writing-guard",
   "homepage": "https://github.com/xmutfyh/dsh-plugin-writing-guard#readme",
   "npm": "https://www.npmjs.com/package/dsh-plugin-writing-guard",
   "dsh_compat": true,
@@ -35,9 +35,9 @@
   "created_at": "2026-08-15T12:43:30.763Z",
   "gh": {
     "full_name": "xmutfyh/dsh-plugin-writing-guard",
-    "stars": 8,
+    "stars": 9,
     "open_issues": 0,
-    "pushed_at": "2026-08-17T05:31:01Z",
+    "pushed_at": "2026-08-17T05:57:58Z",
     "archived": false,
     "license": "MIT"
   },
@@ -50,5 +50,5 @@
     "overall": 59,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:17.386Z"
+  "updated_at": "2026-08-17T06:01:36.987Z"
 }

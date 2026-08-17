@@ -9,7 +9,7 @@
     "notes"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/XieZongChen/dsh-md-notes.git",
+  "repo": "https://github.com/XieZongChen/dsh-md-notes",
   "homepage": "https://github.com/XieZongChen/dsh-md-notes",
   "npm": "https://www.npmjs.com/package/dsh-md-notes",
   "dsh_compat": true,
@@ -53,5 +53,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:18.869Z"
+  "updated_at": "2026-08-17T06:01:43.175Z"
 }

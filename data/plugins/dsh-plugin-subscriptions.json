@@ -14,7 +14,7 @@
     "grok"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/V1ki/dsh-plugin-subscriptions.git",
+  "repo": "https://github.com/V1ki/dsh-plugin-subscriptions",
   "homepage": "https://github.com/V1ki/dsh-plugin-subscriptions#readme",
   "npm": "https://www.npmjs.com/package/dsh-plugin-subscriptions",
   "dsh_compat": true,
@@ -54,5 +54,5 @@
     "overall": 57,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:53.001Z"
+  "updated_at": "2026-08-17T06:02:36.973Z"
 }

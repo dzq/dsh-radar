@@ -11,7 +11,7 @@
     "jsonl"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/030611/qiushi-dsh-evidence-audit.git",
+  "repo": "https://github.com/030611/qiushi-dsh-evidence-audit",
   "homepage": "https://github.com/030611/qiushi-dsh-evidence-audit#readme",
   "npm": "https://www.npmjs.com/package/qiushi-dsh-evidence-audit",
   "dsh_compat": true,
@@ -45,5 +45,5 @@
     "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:39.997Z"
+  "updated_at": "2026-08-17T06:02:14.011Z"
 }

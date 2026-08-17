@@ -16,7 +16,7 @@
     "messaging"
   ],
   "license": "AGPL-3.0",
-  "repo": "git+https://github.com/PlutoKeating/dsh-lark-bot.git",
+  "repo": "https://github.com/PlutoKeating/dsh-lark-bot",
   "homepage": "https://github.com/PlutoKeating/dsh-lark-bot#readme",
   "npm": "https://www.npmjs.com/package/dsh-lark-bot",
   "dsh_compat": true,
@@ -37,7 +37,7 @@
     "full_name": "PlutoKeating/dsh-lark-bot",
     "stars": 19,
     "open_issues": 24,
-    "pushed_at": "2026-08-17T05:40:43Z",
+    "pushed_at": "2026-08-17T05:44:59Z",
     "archived": false,
     "license": "AGPL-3.0"
   },
@@ -50,5 +50,5 @@
     "overall": 66,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:02.732Z"
+  "updated_at": "2026-08-17T06:01:17.571Z"
 }

@@ -12,7 +12,7 @@
     "terminal"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/LvienOeria/dsh-launcher.git",
+  "repo": "https://github.com/Ruler4396/dsh-launcher",
   "homepage": "",
   "npm": "https://www.npmjs.com/package/dsh-launcher",
   "dsh_compat": true,
@@ -30,10 +30,10 @@
   "last_publish": "2026-08-14T05:54:04.213Z",
   "created_at": "2026-08-14T05:28:03.642Z",
   "gh": {
-    "full_name": "LvienOeria/dsh-launcher",
-    "stars": 3,
-    "open_issues": 0,
-    "pushed_at": "2026-08-14T05:54:27Z",
+    "full_name": "Ruler4396/dsh-launcher",
+    "stars": 126,
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T14:00:52Z",
     "archived": false,
     "license": {
       "key": "mit",
@@ -44,13 +44,13 @@
     }
   },
   "scores": {
-    "popularity": 16,
-    "maintenance": 39,
+    "popularity": 57,
+    "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 49,
-    "grade": "C"
+    "overall": 60,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T05:44:52.877Z"
+  "updated_at": "2026-08-17T06:01:03.733Z"
 }

@@ -5,7 +5,7 @@
   "description": "Alias for dsh-lark-channel, the Lark/Feishu IM bot channel for DeepSeek Harness. Install dsh-lark-channel instead.",
   "keywords": [],
   "license": "BSD-3-Clause",
-  "repo": "git+https://github.com/omdsh-dev/dsh-lark.git",
+  "repo": "https://github.com/xmanrui/dsh-feishu",
   "homepage": "https://github.com/omdsh-dev/dsh-lark#readme",
   "npm": "https://www.npmjs.com/package/dsh-feishu",
   "dsh_compat": false,
@@ -22,16 +22,22 @@
     "open_issues": 0,
     "pushed_at": "2026-08-14T12:58:00Z",
     "archived": false,
-    "license": "MIT"
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
   },
   "scores": {
     "popularity": 21,
     "maintenance": 39,
-    "quality": 55,
+    "quality": 65,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 38,
-    "grade": "D"
+    "overall": 40,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:37.352Z"
+  "updated_at": "2026-08-17T06:02:10.471Z"
 }

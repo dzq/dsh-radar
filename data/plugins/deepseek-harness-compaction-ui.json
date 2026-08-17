@@ -1,0 +1,51 @@
+{
+  "slug": "deepseek-harness-compaction-ui",
+  "name": "deepseek-harness-compaction-ui",
+  "version": "0.1.0",
+  "description": "Visual percentage and token settings for official DeepSeek Harness compaction",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh-plugin",
+    "context-compaction"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/preflower/deepseek-harness-compaction-ui.git",
+  "homepage": "https://github.com/preflower/deepseek-harness-compaction-ui#readme",
+  "npm": "https://www.npmjs.com/package/deepseek-harness-compaction-ui",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-settings-plugins"
+      ],
+      "platform": "web"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "readme": "# deepseek-harness-compaction-ui\n\nDeepSeek Harness 官方上下文压缩的可视化配置插件。\n\n它在 Web 设置页中提供与 Harness 原生插件一致的配置卡片，可使用百分比或绝对 Tokens 调整自动压缩阈值和近期内容保留量。摘要、消息重放、checkpoint 与会话持久化仍由官方 `@deepseek-ai/dsh-compaction-basic` 负责。\n\n## 功能\n\n- 在 **设置 → 插件 → 插件配置** 中管理上下文压缩。\n- 触发阈值支持百分比和绝对 Tokens。\n- 近期内容保留量支持百分比和绝对 Tokens。\n- 切换单位时自动换算等效值。\n- 保存后热更新，不需要重新创建会话。\n- 在输入框旁显示压缩阈值进度圆环。\n- 支持按 provider/model 设置独立策略。\n\n## 界面预览\n\n### 插件配置\n\n![上下文压缩插件配置](./docs/images/settings-card.jpg)\n\n### 压缩阈值圆环\n\n悬停圆环可查看当前上下文用量、自动压缩阈值和占用比例。达到阈值时圆环会变红；旁边的浅色圆环是 Harness 自带的上下文窗口占用率。\n\n![输入框旁的压缩阈值圆环](./docs/images/compaction-meter.jpg)\n\n## 安装\n\n发布到 npm 后，可安装到 DSH 的 Web profile：\n\n```sh\nnpx @deepseek-ai/dsh plugin --profile web add deepseek-harness-compaction-ui\n```\n\n该命令只安装插件并退出，不会启动 DSH。\n\n从本地源码安装：\n\n```sh\nnpm install\nnpm run build\nnpx @deepseek-ai/dsh pl",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T05:57:12.697Z",
+  "created_at": "2026-08-17T05:57:12.253Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T06:02:48.504Z"
+}

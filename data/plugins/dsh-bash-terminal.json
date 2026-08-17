@@ -15,7 +15,7 @@
     "windows"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/MAXeaglet/dsh-bash-terminal.git",
+  "repo": "https://github.com/MAXeaglet/dsh-bash-terminal",
   "homepage": "https://github.com/MAXeaglet/dsh-bash-terminal#readme",
   "npm": "https://www.npmjs.com/package/dsh-bash-terminal",
   "dsh_compat": true,
@@ -65,5 +65,5 @@
     "overall": 54,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:12.964Z"
+  "updated_at": "2026-08-17T06:01:34.456Z"
 }

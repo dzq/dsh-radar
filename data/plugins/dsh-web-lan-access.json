@@ -12,7 +12,7 @@
     "polyfill"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/AcidGr/dsh-web-lan-access.git",
+  "repo": "https://github.com/AcidGr/dsh-web-lan-access",
   "homepage": "https://github.com/AcidGr/dsh-web-lan-access",
   "npm": "https://www.npmjs.com/package/dsh-web-lan-access",
   "dsh_compat": true,
@@ -44,5 +44,5 @@
     "overall": 58,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:04.962Z"
+  "updated_at": "2026-08-17T06:01:21.936Z"
 }

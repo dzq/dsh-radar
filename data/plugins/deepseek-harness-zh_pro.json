@@ -14,7 +14,7 @@
     "汉化"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/magian1127/deepseek-harness-zh_pro.git",
+  "repo": "https://github.com/magian1127/deepseek-harness-zh_pro",
   "homepage": "https://github.com/magian1127/deepseek-harness-zh_pro#readme",
   "npm": "https://www.npmjs.com/package/deepseek-harness-zh_pro",
   "dsh_compat": true,
@@ -56,5 +56,5 @@
     "overall": 65,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:24.590Z"
+  "updated_at": "2026-08-17T06:01:54.951Z"
 }

@@ -12,7 +12,7 @@
     "ui"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Highjobop/dsh-gadgets.git",
+  "repo": "https://github.com/KinGao294/dsh-skin",
   "homepage": "https://github.com/Highjobop/dsh-gadgets#readme",
   "npm": "https://www.npmjs.com/package/dsh-skin",
   "dsh_compat": true,
@@ -31,21 +31,27 @@
   "last_publish": "2026-08-16T05:31:05.020Z",
   "created_at": "2026-08-14T15:13:03.261Z",
   "gh": {
-    "full_name": "Highjobop/dsh-gadgets",
-    "stars": 4,
-    "open_issues": 1,
-    "pushed_at": "2026-08-16T05:32:22Z",
+    "full_name": "KinGao294/dsh-skin",
+    "stars": 18,
+    "open_issues": 4,
+    "pushed_at": "2026-08-15T19:55:57Z",
     "archived": false,
-    "license": null
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
   },
   "scores": {
-    "popularity": 19,
-    "maintenance": 40,
-    "quality": 65,
+    "popularity": 35,
+    "maintenance": 39,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 49,
-    "grade": "C"
+    "overall": 55,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:03.123Z"
+  "updated_at": "2026-08-17T06:01:20.000Z"
 }

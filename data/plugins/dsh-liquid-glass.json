@@ -13,7 +13,7 @@
     "web-ui"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Ultronen/dsh-liquid-glass.git",
+  "repo": "https://github.com/xingyingyuzhui/dsh-liquid-glass",
   "homepage": "https://github.com/Ultronen/dsh-liquid-glass",
   "npm": "https://www.npmjs.com/package/dsh-liquid-glass",
   "dsh_compat": true,
@@ -43,16 +43,22 @@
     "open_issues": 0,
     "pushed_at": "2026-08-15T06:36:12Z",
     "archived": false,
-    "license": "MIT"
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
   },
   "scores": {
     "popularity": 26,
     "maintenance": 39,
-    "quality": 75,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 55,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:18.465Z"
+  "updated_at": "2026-08-17T06:01:43.029Z"
 }

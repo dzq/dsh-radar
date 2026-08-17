@@ -16,7 +16,7 @@
     "llm-reviewer"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/timeance/dsh-approve-for-me.git",
+  "repo": "https://github.com/timeance/dsh-approve-for-me",
   "homepage": "https://github.com/timeance/dsh-approve-for-me#readme",
   "npm": "https://www.npmjs.com/package/dsh-approve-for-me",
   "dsh_compat": true,
@@ -46,14 +46,14 @@
   "created_at": "2026-08-15T07:37:47.644Z",
   "gh": {
     "full_name": "timeance/dsh-approve-for-me",
-    "stars": 10,
+    "stars": 11,
     "open_issues": 0,
     "pushed_at": "2026-08-15T13:29:03Z",
     "archived": false,
     "license": "MIT"
   },
   "scores": {
-    "popularity": 28,
+    "popularity": 29,
     "maintenance": 39,
     "quality": 55,
     "security": 65,
@@ -61,5 +61,5 @@
     "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:12.914Z"
+  "updated_at": "2026-08-17T06:01:31.705Z"
 }

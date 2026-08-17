@@ -8,7 +8,7 @@
     "dsh"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/chen-001/dsh-grok-tui.git",
+  "repo": "https://github.com/chen-001/dsh-grok-tui",
   "homepage": "https://github.com/chen-001/dsh-grok-tui#readme",
   "npm": "https://www.npmjs.com/package/dsh-grok-tui",
   "dsh_compat": false,
@@ -44,5 +44,5 @@
     "overall": 41,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:12.964Z"
+  "updated_at": "2026-08-17T06:01:34.456Z"
 }

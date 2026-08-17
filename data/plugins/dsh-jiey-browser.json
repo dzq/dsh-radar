@@ -13,8 +13,8 @@
     "mcp"
   ],
   "license": "MIT",
-  "repo": "",
-  "homepage": "",
+  "repo": "git+https://github.com/jiewaigongxing/dsh-jiey-browser.git",
+  "homepage": "https://github.com/jiewaigongxing/dsh-jiey-browser#readme",
   "npm": "https://www.npmjs.com/package/dsh-jiey-browser",
   "dsh_compat": true,
   "dsh_meta": {
@@ -40,5 +40,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T05:46:09.516Z"
+  "updated_at": "2026-08-17T06:02:53.092Z"
 }

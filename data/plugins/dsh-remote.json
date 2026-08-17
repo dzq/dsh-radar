@@ -13,7 +13,7 @@
     "plugin"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/flymysql/dsh-remote.git",
+  "repo": "https://github.com/flymysql/dsh-remote",
   "homepage": "https://github.com/flymysql/dsh-remote",
   "npm": "https://www.npmjs.com/package/dsh-remote",
   "dsh_compat": true,
@@ -58,5 +58,5 @@
     "overall": 65,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:05.799Z"
+  "updated_at": "2026-08-17T06:01:25.919Z"
 }

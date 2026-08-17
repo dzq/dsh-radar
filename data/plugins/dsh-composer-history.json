@@ -16,7 +16,7 @@
     "sliding-context"
   ],
   "license": "Apache-2.0",
-  "repo": "https://github.com/PerryLink/dsh-composer-history.git",
+  "repo": "https://github.com/PerryLink/dsh-composer-history",
   "homepage": "https://github.com/PerryLink/dsh-composer-history#readme",
   "npm": "https://www.npmjs.com/package/dsh-composer-history",
   "dsh_compat": true,
@@ -56,5 +56,5 @@
     "overall": 54,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:34.405Z"
+  "updated_at": "2026-08-17T06:02:04.957Z"
 }

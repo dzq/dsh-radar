@@ -11,7 +11,7 @@
     "cordis"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Culeot/dsh-agent-memory.git",
+  "repo": "https://github.com/Culeot/dsh-agent-memory",
   "homepage": "https://github.com/Culeot/dsh-agent-memory#readme",
   "npm": "https://www.npmjs.com/package/dsh-agent-memory",
   "dsh_compat": true,
@@ -54,5 +54,5 @@
     "overall": 48,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:50.795Z"
+  "updated_at": "2026-08-17T06:02:31.275Z"
 }

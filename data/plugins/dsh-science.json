@@ -16,7 +16,7 @@
     "pathogen"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/biociao/dsh-science.git",
+  "repo": "https://github.com/omdsh-dev/dsh-science",
   "homepage": "https://github.com/biociao/dsh-science",
   "npm": "https://www.npmjs.com/package/dsh-science",
   "dsh_compat": true,
@@ -39,16 +39,22 @@
     "open_issues": 7,
     "pushed_at": "2026-08-16T20:04:22Z",
     "archived": false,
-    "license": "MIT"
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
   },
   "scores": {
     "popularity": 19,
     "maintenance": 40,
-    "quality": 75,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 50,
+    "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:45.735Z"
+  "updated_at": "2026-08-17T06:02:23.829Z"
 }

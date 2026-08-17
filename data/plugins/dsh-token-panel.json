@@ -15,7 +15,7 @@
     "token-usage"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/juhe291/dsh-token-panel.git",
+  "repo": "https://github.com/juhe291/dsh-token-panel",
   "homepage": "https://github.com/juhe291/dsh-token-panel#readme",
   "npm": "https://www.npmjs.com/package/dsh-token-panel",
   "dsh_compat": true,
@@ -63,5 +63,5 @@
     "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:23.553Z"
+  "updated_at": "2026-08-17T06:01:52.343Z"
 }

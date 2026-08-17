@@ -10,7 +10,7 @@
     "deepseek-harness"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Nichts0v0/dsh-mcp-manager.git",
+  "repo": "https://github.com/Js2Hou/dsh-mcp-manager",
   "homepage": "https://github.com/Nichts0v0/dsh-mcp-manager",
   "npm": "https://www.npmjs.com/package/dsh-mcp-manager",
   "dsh_compat": true,
@@ -45,5 +45,5 @@
     "overall": 49,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:36.229Z"
+  "updated_at": "2026-08-17T06:02:09.488Z"
 }

@@ -7,7 +7,7 @@
     "dsh"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/lqhl/dsh-pi-tui.git",
+  "repo": "https://github.com/XMoon/dsh-pi-tui",
   "homepage": "https://github.com/lqhl/dsh-pi-tui#readme",
   "npm": "https://www.npmjs.com/package/dsh-pi-tui",
   "dsh_compat": true,
@@ -25,10 +25,10 @@
   "last_publish": "2026-08-16T10:04:54.291Z",
   "created_at": "2026-08-16T09:59:04.457Z",
   "gh": {
-    "full_name": "lqhl/dsh-pi-tui",
-    "stars": 2,
+    "full_name": "XMoon/dsh-pi-tui",
+    "stars": 9,
     "open_issues": 0,
-    "pushed_at": "2026-08-16T15:35:31Z",
+    "pushed_at": "2026-08-17T03:03:47Z",
     "archived": false,
     "license": {
       "key": "mit",
@@ -39,13 +39,13 @@
     }
   },
   "scores": {
-    "popularity": 13,
+    "popularity": 27,
     "maintenance": 40,
     "quality": 65,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 47,
+    "overall": 50,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:16.317Z"
+  "updated_at": "2026-08-17T06:01:39.560Z"
 }

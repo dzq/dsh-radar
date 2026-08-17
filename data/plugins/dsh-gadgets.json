@@ -14,7 +14,7 @@
     "ui"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Highjobop/dsh-gadgets.git",
+  "repo": "https://github.com/Highjobop/dsh-gadgets",
   "homepage": "https://github.com/Highjobop/dsh-gadgets#readme",
   "npm": "https://www.npmjs.com/package/dsh-gadgets",
   "dsh_compat": true,
@@ -46,5 +46,5 @@
     "overall": 48,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:52.250Z"
+  "updated_at": "2026-08-17T06:02:33.855Z"
 }

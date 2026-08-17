@@ -11,7 +11,7 @@
     "inline-emoji"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/hellodigua/dsh-emoji.git",
+  "repo": "https://github.com/hellodigua/dsh-emoji",
   "homepage": "https://github.com/hellodigua/dsh-emoji#readme",
   "npm": "https://www.npmjs.com/package/dsh-emoji",
   "dsh_compat": true,
@@ -57,5 +57,5 @@
     "overall": 50,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:00.467Z"
+  "updated_at": "2026-08-17T06:01:13.709Z"
 }

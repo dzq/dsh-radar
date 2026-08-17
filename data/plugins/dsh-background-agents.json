@@ -14,7 +14,7 @@
     "conversation-steering"
   ],
   "license": "Apache-2.0",
-  "repo": "git+https://github.com/PerryLink/dsh-background-agents.git",
+  "repo": "https://github.com/PerryLink/dsh-background-agents",
   "homepage": "https://github.com/PerryLink/dsh-background-agents#readme",
   "npm": "https://www.npmjs.com/package/dsh-background-agents",
   "dsh_compat": true,
@@ -65,5 +65,5 @@
     "overall": 60,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:44.636Z"
+  "updated_at": "2026-08-17T06:02:21.249Z"
 }

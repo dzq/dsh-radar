@@ -12,7 +12,7 @@
     "reverse-proxy"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/taichuy/deepseek-harness-auth.git",
+  "repo": "https://github.com/taichuy/deepseek-harness-auth",
   "homepage": "https://github.com/taichuy/deepseek-harness-auth#readme",
   "npm": "https://www.npmjs.com/package/deepseek-harness-auth",
   "dsh_compat": true,
@@ -60,5 +60,5 @@
     "overall": 49,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:14.126Z"
+  "updated_at": "2026-08-17T06:01:36.037Z"
 }

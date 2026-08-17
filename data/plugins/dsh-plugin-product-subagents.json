@@ -15,7 +15,7 @@
     "agent"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/shaokeyibb/dsh-plugin-product-subagents.git",
+  "repo": "https://github.com/shaokeyibb/dsh-plugin-product-subagents",
   "homepage": "https://github.com/shaokeyibb/dsh-plugin-product-subagents#readme",
   "npm": "https://www.npmjs.com/package/dsh-plugin-product-subagents",
   "dsh_compat": false,
@@ -51,5 +51,5 @@
     "overall": 46,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:05.799Z"
+  "updated_at": "2026-08-17T06:01:26.634Z"
 }

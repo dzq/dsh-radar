@@ -14,7 +14,7 @@
     "cordis"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/TtTRz/dsh-a2a.git",
+  "repo": "https://github.com/dpskh/dsh-a2a",
   "homepage": "https://github.com/TtTRz/dsh-a2a#readme",
   "npm": "https://www.npmjs.com/package/dsh-a2a",
   "dsh_compat": true,
@@ -48,5 +48,5 @@
     "overall": 48,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:44.586Z"
+  "updated_at": "2026-08-17T06:02:20.843Z"
 }

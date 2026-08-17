@@ -16,7 +16,7 @@
     "provider"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Hu9956/dsh-codex-provider.git",
+  "repo": "https://github.com/Hu9956/dsh-codex-provider",
   "homepage": "https://github.com/Hu9956/dsh-codex-provider#readme",
   "npm": "https://www.npmjs.com/package/dsh-codex-provider",
   "dsh_compat": true,
@@ -60,5 +60,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:36.584Z"
+  "updated_at": "2026-08-17T06:02:09.578Z"
 }

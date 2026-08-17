@@ -11,7 +11,7 @@
     "routing"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/dragonbaba/dsh-routing-suite.git",
+  "repo": "https://github.com/dragonbaba/dsh-routing-suite",
   "homepage": "https://github.com/dragonbaba/dsh-routing-suite#readme",
   "npm": "https://www.npmjs.com/package/dsh-routing-suite",
   "dsh_compat": true,
@@ -61,5 +61,5 @@
     "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:15.155Z"
+  "updated_at": "2026-08-17T06:01:37.653Z"
 }

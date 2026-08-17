@@ -10,7 +10,7 @@
     "code-review"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/left0ver/dsh-file-review.git",
+  "repo": "https://github.com/left0ver/dsh-file-review",
   "homepage": "https://github.com/left0ver/dsh-file-review#readme",
   "npm": "https://www.npmjs.com/package/dsh-file-review",
   "dsh_compat": true,
@@ -50,5 +50,5 @@
     "overall": 55,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:04.240Z"
+  "updated_at": "2026-08-17T06:01:21.086Z"
 }

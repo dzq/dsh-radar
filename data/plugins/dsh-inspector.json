@@ -16,7 +16,7 @@
     "inspector"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/CocoSgt/dsh-inspector.git",
+  "repo": "https://github.com/CocoSgt/dsh-inspector",
   "homepage": "https://github.com/CocoSgt/dsh-inspector#readme",
   "npm": "https://www.npmjs.com/package/dsh-inspector",
   "dsh_compat": true,
@@ -57,5 +57,5 @@
     "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:24.590Z"
+  "updated_at": "2026-08-17T06:01:55.783Z"
 }

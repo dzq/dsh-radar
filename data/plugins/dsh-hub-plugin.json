@@ -1,0 +1,39 @@
+{
+  "slug": "dsh-hub-plugin",
+  "name": "dsh-hub-plugin",
+  "version": "0.0.0",
+  "description": "Native DSH Hub marketplace plugin for DeepSeek Harness",
+  "keywords": [
+    "deepseek-harness"
+  ],
+  "license": "",
+  "repo": "https://github.com/sliverp/dsh-hub-plugin",
+  "homepage": "https://dsh-hub.cc",
+  "npm": "https://www.npmjs.com/package/dsh-hub-plugin",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "sliverp/dsh-hub-plugin",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T14:51:25Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 19,
+    "maintenance": 40,
+    "quality": 15,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T06:02:26.647Z"
+}

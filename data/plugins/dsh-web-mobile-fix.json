@@ -12,7 +12,7 @@
     "css"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/AcidGr/dsh-web-mobile-fix.git",
+  "repo": "https://github.com/AcidGr/dsh-web-mobile-fix",
   "homepage": "https://github.com/AcidGr/dsh-web-mobile-fix",
   "npm": "https://www.npmjs.com/package/dsh-web-mobile-fix",
   "dsh_compat": true,
@@ -47,5 +47,5 @@
     "overall": 62,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:32.823Z"
+  "updated_at": "2026-08-17T06:02:03.268Z"
 }

@@ -13,7 +13,7 @@
     "app"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/SnowCrescenter-tech/dsh-desktop.git",
+  "repo": "https://github.com/lijian-ui/dsh-desktop",
   "homepage": "https://github.com/SnowCrescenter-tech/dsh-desktop#readme",
   "npm": "https://www.npmjs.com/package/dsh-desktop",
   "dsh_compat": false,
@@ -25,27 +25,21 @@
   "last_publish": "2026-08-13T18:53:21.904Z",
   "created_at": "2026-08-13T18:53:20.095Z",
   "gh": {
-    "full_name": "SnowCrescenter-tech/dsh-desktop",
-    "stars": 3,
+    "full_name": "lijian-ui/dsh-desktop",
+    "stars": 4,
     "open_issues": 0,
-    "pushed_at": "2026-08-14T04:00:21Z",
+    "pushed_at": "2026-08-17T04:22:12Z",
     "archived": false,
-    "license": {
-      "key": "mit",
-      "name": "MIT License",
-      "spdx_id": "MIT",
-      "url": "https://api.github.com/licenses/mit",
-      "node_id": "MDc6TGljZW5zZTEz"
-    }
+    "license": null
   },
   "scores": {
-    "popularity": 16,
-    "maintenance": 39,
-    "quality": 75,
+    "popularity": 19,
+    "maintenance": 40,
+    "quality": 65,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 40,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T05:45:57.264Z"
+  "updated_at": "2026-08-17T06:02:32.646Z"
 }

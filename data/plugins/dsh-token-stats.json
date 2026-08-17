@@ -14,7 +14,7 @@
     "panel"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/H1a3x/dsh-token-stats.git",
+  "repo": "https://github.com/H1a3x/dsh-token-stats",
   "homepage": "https://github.com/H1a3x/dsh-token-stats#readme",
   "npm": "https://www.npmjs.com/package/dsh-token-stats",
   "dsh_compat": true,
@@ -56,5 +56,5 @@
     "overall": 49,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:29.417Z"
+  "updated_at": "2026-08-17T06:01:59.739Z"
 }

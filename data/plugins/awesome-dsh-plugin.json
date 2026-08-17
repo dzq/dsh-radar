@@ -12,7 +12,7 @@
     "deepseek"
   ],
   "license": "CC0-1.0",
-  "repo": "git+https://github.com/awesome-dsh-plugin/awesome-dsh-plugin.git",
+  "repo": "https://github.com/billLiao/awesome-dsh-plugin",
   "homepage": "https://awesome-dsh-plugin.com",
   "npm": "https://www.npmjs.com/package/awesome-dsh-plugin",
   "dsh_compat": false,
@@ -29,16 +29,22 @@
     "open_issues": 0,
     "pushed_at": "2026-08-17T04:01:23Z",
     "archived": false,
-    "license": "CC0-1.0"
+    "license": {
+      "key": "cc0-1.0",
+      "name": "Creative Commons Zero v1.0 Universal",
+      "spdx_id": "CC0-1.0",
+      "url": "https://api.github.com/licenses/cc0-1.0",
+      "node_id": "MDc6TGljZW5zZTY="
+    }
   },
   "scores": {
     "popularity": 29,
     "maintenance": 40,
-    "quality": 75,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 44,
+    "overall": 46,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:11.135Z"
+  "updated_at": "2026-08-17T06:01:32.467Z"
 }

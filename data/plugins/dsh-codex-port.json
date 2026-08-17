@@ -13,7 +13,7 @@
     "dsh-plugin"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/STARDUSTLC666/dsh-codex-port.git",
+  "repo": "https://github.com/STARDUSTLC666/dsh-codex-port",
   "homepage": "https://github.com/STARDUSTLC666/dsh-codex-port#readme",
   "npm": "https://www.npmjs.com/package/dsh-codex-port",
   "dsh_compat": true,
@@ -47,5 +47,5 @@
     "overall": 56,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:31.057Z"
+  "updated_at": "2026-08-17T06:01:51.499Z"
 }

@@ -9,7 +9,7 @@
     "pdf"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/sunshine-lang/dsh-pdf.git",
+  "repo": "https://github.com/sunshine-lang/dsh-pdf",
   "homepage": "https://github.com/sunshine-lang/dsh-pdf",
   "npm": "https://www.npmjs.com/package/dsh-pdf",
   "dsh_compat": true,
@@ -43,5 +43,5 @@
     "overall": 50,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:51.458Z"
+  "updated_at": "2026-08-17T06:02:33.471Z"
 }

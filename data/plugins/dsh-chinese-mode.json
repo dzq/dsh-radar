@@ -1,0 +1,43 @@
+{
+  "slug": "dsh-chinese-mode",
+  "name": "dsh-chinese-mode",
+  "version": "0.0.0",
+  "description": "DSH global Chinese-mode toggle: a 中 switch in the input box; when on, a Simplified-Chinese requirement is injected into every session system prompt.",
+  "keywords": [],
+  "license": "MIT",
+  "repo": "https://github.com/dawnliming/dsh-chinese-mode",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-chinese-mode",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "dawnliming/dsh-chinese-mode",
+    "stars": 4,
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T15:50:17Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 19,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 35,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T06:02:25.802Z"
+}

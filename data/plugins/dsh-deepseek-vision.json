@@ -16,7 +16,7 @@
     "llm-gateway"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/siegfly/dsh-deepseek-vision.git",
+  "repo": "https://github.com/siegfly/dsh-deepseek-vision",
   "homepage": "https://github.com/siegfly/dsh-deepseek-vision#readme",
   "npm": "https://www.npmjs.com/package/dsh-deepseek-vision",
   "dsh_compat": true,
@@ -66,5 +66,5 @@
     "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:23.553Z"
+  "updated_at": "2026-08-17T06:01:52.343Z"
 }

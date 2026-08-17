@@ -16,7 +16,7 @@
     "ollama"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Scorp1o117/dsh-tool-vision.git",
+  "repo": "https://github.com/Scorp1o117/dsh-tool-vision",
   "homepage": "https://github.com/Scorp1o117/dsh-tool-vision",
   "npm": "https://www.npmjs.com/package/dsh-tool-vision",
   "dsh_compat": true,
@@ -50,5 +50,5 @@
     "overall": 60,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:44.586Z"
+  "updated_at": "2026-08-17T06:02:20.223Z"
 }

@@ -15,7 +15,7 @@
     "bridge"
   ],
   "license": "Apache-2.0",
-  "repo": "git+https://github.com/xiaomengxinbb/dsh-qq-bridge.git",
+  "repo": "https://github.com/TomoyoNatsume/dsh-qq-bridge",
   "homepage": "https://github.com/xiaomengxinbb/dsh-qq-bridge#readme",
   "npm": "https://www.npmjs.com/package/dsh-qq-bridge",
   "dsh_compat": false,
@@ -30,20 +30,26 @@
   "created_at": "2026-08-13T17:28:46.496Z",
   "gh": {
     "full_name": "TomoyoNatsume/dsh-qq-bridge",
-    "stars": 7,
+    "stars": 8,
     "open_issues": 0,
-    "pushed_at": "2026-08-17T03:06:59Z",
+    "pushed_at": "2026-08-17T05:53:09Z",
     "archived": false,
-    "license": "MIT"
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
   },
   "scores": {
-    "popularity": 24,
+    "popularity": 26,
     "maintenance": 40,
-    "quality": 75,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 43,
+    "overall": 45,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:23.152Z"
+  "updated_at": "2026-08-17T06:01:45.859Z"
 }

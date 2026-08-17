@@ -12,7 +12,7 @@
     "bridge"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/YYTbit/dsh-plugin-opencode-bridge.git",
+  "repo": "https://github.com/YYTbit/dsh-plugin-opencode-bridge",
   "homepage": "https://github.com/YYTbit/dsh-plugin-opencode-bridge#readme",
   "npm": "https://www.npmjs.com/package/dsh-plugin-opencode-bridge",
   "dsh_compat": true,
@@ -50,5 +50,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:44.269Z"
+  "updated_at": "2026-08-17T06:02:20.274Z"
 }

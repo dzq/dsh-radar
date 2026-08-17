@@ -12,7 +12,7 @@
     "resume"
   ],
   "license": "Apache-2.0",
-  "repo": "git+https://github.com/PerryLink/dsh-claude-move.git",
+  "repo": "https://github.com/PerryLink/dsh-claude-move",
   "homepage": "https://github.com/PerryLink/dsh-claude-move#readme",
   "npm": "https://www.npmjs.com/package/dsh-claude-move",
   "dsh_compat": true,
@@ -56,5 +56,5 @@
     "overall": 54,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:22.441Z"
+  "updated_at": "2026-08-17T06:01:48.549Z"
 }

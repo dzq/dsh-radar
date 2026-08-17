@@ -16,7 +16,7 @@
     "serverchan"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/THEWOLFWALKER/dsh-notifier.git",
+  "repo": "https://github.com/THEWOLFWALKER/dsh-notifier",
   "homepage": "https://github.com/THEWOLFWALKER/dsh-notifier#readme",
   "npm": "https://www.npmjs.com/package/dsh-notifier",
   "dsh_compat": true,
@@ -56,5 +56,5 @@
     "overall": 56,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:44:58.784Z"
+  "updated_at": "2026-08-17T06:01:10.367Z"
 }

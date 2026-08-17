@@ -10,7 +10,7 @@
     "oauth"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/eons2long/dsh-codex-oauth.git",
+  "repo": "https://github.com/WNJXYK/dsh-codex-oauth",
   "homepage": "https://github.com/eons2long/dsh-codex-oauth#readme",
   "npm": "https://www.npmjs.com/package/dsh-codex-oauth",
   "dsh_compat": true,
@@ -50,5 +50,5 @@
     "overall": 66,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:17.806Z"
+  "updated_at": "2026-08-17T06:01:42.174Z"
 }

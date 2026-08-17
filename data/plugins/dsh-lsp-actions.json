@@ -16,7 +16,7 @@
     "symbols"
   ],
   "license": "Apache-2.0",
-  "repo": "git+https://github.com/PerryLink/dsh-lsp-actions.git",
+  "repo": "https://github.com/PerryLink/dsh-lsp-actions",
   "homepage": "https://github.com/PerryLink/dsh-lsp-actions#readme",
   "npm": "https://www.npmjs.com/package/dsh-lsp-actions",
   "dsh_compat": true,
@@ -56,5 +56,5 @@
     "overall": 61,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:52.250Z"
+  "updated_at": "2026-08-17T06:02:33.855Z"
 }

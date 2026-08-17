@@ -11,7 +11,7 @@
     "session-sync"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Asaiuta/dsh-session-hub.git",
+  "repo": "https://github.com/Asaiuta/dsh-session-hub",
   "homepage": "https://github.com/Asaiuta/dsh-session-hub",
   "npm": "https://www.npmjs.com/package/dsh-session-hub",
   "dsh_compat": true,
@@ -60,5 +60,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:50.795Z"
+  "updated_at": "2026-08-17T06:02:31.582Z"
 }

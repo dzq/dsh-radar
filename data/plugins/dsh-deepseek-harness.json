@@ -9,7 +9,7 @@
     "dsh"
   ],
   "license": "MIT",
-  "repo": "https://github.com/Code-DSH/deepseek-harness-code",
+  "repo": "https://github.com/deepseek-ai/deepseek-harness",
   "homepage": "https://deepseek.com/harness",
   "npm": "https://www.npmjs.com/package/dsh-deepseek-harness",
   "dsh_compat": false,
@@ -21,21 +21,27 @@
   "last_publish": null,
   "created_at": null,
   "gh": {
-    "full_name": "Code-DSH/deepseek-harness-code",
-    "stars": 8,
-    "open_issues": 1,
-    "pushed_at": "2026-08-17T05:30:36Z",
+    "full_name": "deepseek-ai/deepseek-harness",
+    "stars": 138123,
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T13:00:21Z",
     "archived": false,
-    "license": null
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
   },
   "scores": {
-    "popularity": 26,
-    "maintenance": 40,
-    "quality": 35,
+    "popularity": 100,
+    "maintenance": 38,
+    "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 35,
-    "grade": "D"
+    "overall": 55,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T05:44:45.162Z"
+  "updated_at": "2026-08-17T06:00:53.402Z"
 }

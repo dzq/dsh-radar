@@ -13,7 +13,7 @@
     "skill"
   ],
   "license": "Apache-2.0",
-  "repo": "git+https://github.com/PerryLink/dsh-doublecheck.git",
+  "repo": "https://github.com/PerryLink/dsh-doublecheck",
   "homepage": "https://github.com/PerryLink/dsh-doublecheck#readme",
   "npm": "https://www.npmjs.com/package/dsh-doublecheck",
   "dsh_compat": true,
@@ -47,5 +47,5 @@
     "overall": 60,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:53.001Z"
+  "updated_at": "2026-08-17T06:02:36.973Z"
 }

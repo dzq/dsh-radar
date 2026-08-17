@@ -13,7 +13,7 @@
     "wcag"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/nevertoday/dsh-theme-plugin.git",
+  "repo": "https://github.com/nevertoday/dsh-theme-plugin",
   "homepage": "https://github.com/nevertoday/dsh-theme-plugin#readme",
   "npm": "https://www.npmjs.com/package/dsh-theme-plugin",
   "dsh_compat": true,
@@ -56,5 +56,5 @@
     "overall": 55,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:03.071Z"
+  "updated_at": "2026-08-17T06:01:18.857Z"
 }

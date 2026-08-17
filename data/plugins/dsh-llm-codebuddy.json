@@ -12,7 +12,7 @@
     "provider"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Axiaohungry/dsh-llm-codebuddy.git",
+  "repo": "https://github.com/Axiaohungry/dsh-llm-codebuddy",
   "homepage": "https://github.com/Axiaohungry/dsh-llm-codebuddy#readme",
   "npm": "https://www.npmjs.com/package/dsh-llm-codebuddy",
   "dsh_compat": true,
@@ -52,5 +52,5 @@
     "overall": 50,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:15.579Z"
+  "updated_at": "2026-08-17T06:01:37.704Z"
 }

@@ -10,7 +10,7 @@
     "open-meteo"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/sunshine-lang/dsh-weather.git",
+  "repo": "https://github.com/sunshine-lang/dsh-weather",
   "homepage": "https://github.com/sunshine-lang/dsh-weather",
   "npm": "https://www.npmjs.com/package/dsh-weather",
   "dsh_compat": true,
@@ -50,5 +50,5 @@
     "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:55.097Z"
+  "updated_at": "2026-08-17T06:02:31.951Z"
 }

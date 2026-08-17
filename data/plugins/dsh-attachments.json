@@ -16,7 +16,7 @@
     "attachments"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/CocoSgt/dsh-attachments.git",
+  "repo": "https://github.com/CocoSgt/dsh-attachments",
   "homepage": "https://github.com/CocoSgt/dsh-attachments#readme",
   "npm": "https://www.npmjs.com/package/dsh-attachments",
   "dsh_compat": true,
@@ -57,5 +57,5 @@
     "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:17.806Z"
+  "updated_at": "2026-08-17T06:01:42.174Z"
 }

@@ -16,7 +16,7 @@
     "edit"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Rianico/dsh-better-edit.git",
+  "repo": "https://github.com/Rianico/dsh-better-edit",
   "homepage": "https://github.com/Rianico/dsh-better-edit",
   "npm": "https://www.npmjs.com/package/dsh-better-edit",
   "dsh_compat": true,
@@ -37,7 +37,7 @@
     "full_name": "Rianico/dsh-better-edit",
     "stars": 6,
     "open_issues": 0,
-    "pushed_at": "2026-08-17T05:42:45Z",
+    "pushed_at": "2026-08-17T05:56:43Z",
     "archived": false,
     "license": "MIT"
   },
@@ -50,5 +50,5 @@
     "overall": 65,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:23.880Z"
+  "updated_at": "2026-08-17T06:01:52.293Z"
 }

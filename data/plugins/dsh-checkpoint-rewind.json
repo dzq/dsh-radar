@@ -16,7 +16,7 @@
     "cordis-plugin"
   ],
   "license": "Apache-2.0",
-  "repo": "git+https://github.com/PerryLink/dsh-checkpoint-rewind.git",
+  "repo": "https://github.com/PerryLink/dsh-checkpoint-rewind",
   "homepage": "https://github.com/PerryLink/dsh-checkpoint-rewind#readme",
   "npm": "https://www.npmjs.com/package/dsh-checkpoint-rewind",
   "dsh_compat": true,
@@ -50,5 +50,5 @@
     "overall": 61,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:24.243Z"
+  "updated_at": "2026-08-17T06:01:53.280Z"
 }

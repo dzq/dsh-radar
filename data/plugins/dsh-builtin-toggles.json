@@ -12,7 +12,7 @@
     "plugin"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Starfie1d1272/dsh-builtin-toggles.git",
+  "repo": "https://github.com/Starfie1d1272/dsh-builtin-toggles",
   "homepage": "https://github.com/Starfie1d1272/dsh-builtin-toggles#readme",
   "npm": "https://www.npmjs.com/package/dsh-builtin-toggles",
   "dsh_compat": true,
@@ -60,5 +60,5 @@
     "overall": 54,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:20.668Z"
+  "updated_at": "2026-08-17T06:01:46.694Z"
 }

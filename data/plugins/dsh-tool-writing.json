@@ -12,7 +12,7 @@
     "semantic-search"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/x2802490130-prog/dsh-tool-writing.git",
+  "repo": "https://github.com/x2802490130-prog/dsh-tool-writing",
   "homepage": "https://github.com/x2802490130-prog/dsh-tool-writing#readme",
   "npm": "https://www.npmjs.com/package/dsh-tool-writing",
   "dsh_compat": true,
@@ -52,5 +52,5 @@
     "overall": 50,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:30.328Z"
+  "updated_at": "2026-08-17T06:02:01.178Z"
 }

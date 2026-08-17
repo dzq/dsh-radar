@@ -1,0 +1,61 @@
+{
+  "slug": "dsh-client-ui-obsidian-memory",
+  "name": "dsh-client-ui-obsidian-memory",
+  "version": "0.2.4",
+  "description": "Obsidian Memory sidebar panel for DeepSeek Harness — vault file tree browser for Codex memory",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "obsidian",
+    "memory",
+    "codex",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/detongz/dsh-client-ui-obsidian-memory",
+  "homepage": "https://github.com/detongz/dsh-client-ui-obsidian-memory#readme",
+  "npm": "https://www.npmjs.com/package/dsh-client-ui-obsidian-memory",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-client-ui-obsidian-memory\n\n> 🧠 DeepSeek Harness 的 Obsidian Memory 侧边栏插件\n\n一个 DSH 客户端插件，在左侧边栏渲染 Obsidian Codex 知识库的文件树浏览器，通过本地预览服务器读取你的 vault。\n\n灵感来自 [@Saccc_c](https://x.com/Saccc_c) 的 Codex 记忆技巧。\n\n![Obsidian Memory 面板](assets/screenshot-panel.png)\n\n---\n\n## 功能\n\n- **侧边栏面板** — 在 DSH 左侧边栏的 `sidebar.obsidian-memory` 插槽中渲染\n- **实时文件树** — 从本地预览服务器（默认端口 `3456`）拉取 vault 文件树\n- **点击浏览** — 展开/收起文件夹，查看 markdown 文件\n- **离线兜底** — 预览服务器未启动时，显示硬编码的 vault 骨架结构\n\n---\n\n## 快速开始\n\n### 1. 安装插件\n\n```bash\ncd /path/to/deepseek-harness\nnpm install dsh-client-ui-obsidian-memory\n# 或\npnpm add dsh-client-ui-obsidian-memory\n```\n\n在 `cordis.patch.yml`（或 `cordis.yml`）中添加：\n\n```yaml\n- id: ui-obsidian-memory\n  name: dsh-client-ui-obsidian-memory\n```\n\n> **前置条件**：`ui-sidebar` 必须声明 `sidebar.obsidian-memory` 子插槽。DSH ≥ 0.1.0-rc.5 ",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T04:49:07.043Z",
+  "created_at": "2026-08-17T00:19:59.366Z",
+  "gh": {
+    "full_name": "detongz/dsh-client-ui-obsidian-memory",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T04:49:43Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 19,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T06:02:33.373Z"
+}

@@ -13,7 +13,7 @@
     "virtuareal"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/tpmoonchefryan/dsh-joi-channel-theme.git",
+  "repo": "https://github.com/tpmoonchefryan/dsh-joi-channel-theme",
   "homepage": "https://github.com/tpmoonchefryan/dsh-joi-channel-theme#readme",
   "npm": "https://www.npmjs.com/package/dsh-joi-channel-theme",
   "dsh_compat": true,
@@ -38,15 +38,28 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-16T07:50:43.581Z",
   "created_at": "2026-08-16T06:56:54.392Z",
-  "gh": null,
+  "gh": {
+    "full_name": "tpmoonchefryan/dsh-joi-channel-theme",
+    "stars": 0,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:45:28Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
-    "quality": 75,
+    "maintenance": 40,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 39,
-    "grade": "D"
+    "overall": 49,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T05:46:06.327Z"
+  "updated_at": "2026-08-17T06:02:33.855Z"
 }

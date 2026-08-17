@@ -1,21 +1,20 @@
 {
-  "slug": "dsh-DeepSeek-Harness-Desktop",
-  "name": "dsh-DeepSeek-Harness-Desktop",
+  "slug": "dsh-deepseek-harness-desktop",
+  "name": "dsh-deepseek-harness-desktop",
   "version": "0.0.0",
-  "description": "一个 Electron 桌面壳，内嵌官方 DeepSeek Harness Web UI。启动时让用户选择安装模式，自动完成环境检测、安装、服务拉起，以百分比进度条展示各阶段，服务就绪后打开主界面。",
+  "description": "A desktop shell for DeepSeek Harness — the pluggable AI agent harness from DeepSeek. Wrap the official dsh web UI into a native-feeling, always-on desktop app. / 为 DeepSeek Harness（DeepSeek 开源的可插拔 AI Agent harness）打造的桌面应用壳，把官方 dsh web 界面包装成原生质感、常驻后台的桌面应用。",
   "keywords": [
     "deepseek",
     "deepseek-ai",
-    "deepseek-api",
     "deepseek-harness",
     "deepseek-v4",
-    "deepseek-v4-pro",
-    "dsh"
+    "dsh",
+    "dsh-plugins"
   ],
   "license": "MIT",
-  "repo": "https://github.com/feiyang-dev/DeepSeek-Harness-Desktop",
+  "repo": "https://github.com/HaoyueQin/deepseek-harness-desktop",
   "homepage": "",
-  "npm": "https://www.npmjs.com/package/dsh-DeepSeek-Harness-Desktop",
+  "npm": "https://www.npmjs.com/package/dsh-deepseek-harness-desktop",
   "dsh_compat": false,
   "dsh_meta": null,
   "engines": {},
@@ -25,10 +24,10 @@
   "last_publish": null,
   "created_at": null,
   "gh": {
-    "full_name": "feiyang-dev/DeepSeek-Harness-Desktop",
-    "stars": 6,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T14:38:18Z",
+    "full_name": "HaoyueQin/deepseek-harness-desktop",
+    "stars": 4,
+    "open_issues": 2,
+    "pushed_at": "2026-08-13T18:49:16Z",
     "archived": false,
     "license": {
       "key": "mit",
@@ -39,13 +38,13 @@
     }
   },
   "scores": {
-    "popularity": 23,
-    "maintenance": 40,
+    "popularity": 19,
+    "maintenance": 38,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 38,
+    "overall": 37,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T05:45:24.038Z"
+  "updated_at": "2026-08-17T06:02:35.860Z"
 }

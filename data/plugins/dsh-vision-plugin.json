@@ -12,7 +12,7 @@
     "llm"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Xin-Zhang-IceMan/dsh-vision-plugin.git",
+  "repo": "https://github.com/Agents365-ai/dsh-vision-plugin",
   "homepage": "https://github.com/Xin-Zhang-IceMan/dsh-vision-plugin#readme",
   "npm": "https://www.npmjs.com/package/dsh-vision-plugin",
   "dsh_compat": true,
@@ -38,9 +38,10 @@
   "last_publish": "2026-08-16T03:11:44.527Z",
   "created_at": "2026-08-14T13:03:42.433Z",
   "gh": {
-    "full_name": "Xin-Zhang-IceMan/dsh-vision-plugin",
+    "full_name": "Agents365-ai/dsh-vision-plugin",
+    "stars": 4,
     "open_issues": 0,
-    "pushed_at": "2026-08-16T03:09:05Z",
+    "pushed_at": "2026-08-16T09:57:21Z",
     "archived": false,
     "license": {
       "key": "mit",
@@ -51,13 +52,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 47,
+    "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:57:52.459Z"
+  "updated_at": "2026-08-17T06:02:21.814Z"
 }

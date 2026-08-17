@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-PaddleOCR-Skills",
+  "name": "dsh-PaddleOCR-Skills",
+  "version": "0.0.0",
+  "description": "PaddleOCR skills for DeepSeek Harness with native tools and GUI configuration",
+  "keywords": [
+    "agent-skills",
+    "deepseek-harness",
+    "dsh",
+    "ocr",
+    "paddleocr"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/Aidenwu0209/dsh-PaddleOCR-Skills",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-PaddleOCR-Skills",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Aidenwu0209/dsh-PaddleOCR-Skills",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T10:07:24Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 19,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 37,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T06:02:20.131Z"
+}

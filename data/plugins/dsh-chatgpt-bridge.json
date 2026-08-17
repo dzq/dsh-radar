@@ -11,7 +11,7 @@
     "plugin"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/jiezeng2004-design/dsh-chatgpt-bridge.git",
+  "repo": "https://github.com/jiezeng2004-design/dsh-chatgpt-bridge",
   "homepage": "https://github.com/jiezeng2004-design/dsh-chatgpt-bridge#readme",
   "npm": "https://www.npmjs.com/package/dsh-chatgpt-bridge",
   "dsh_compat": true,
@@ -51,5 +51,5 @@
     "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:16.317Z"
+  "updated_at": "2026-08-17T06:01:39.034Z"
 }

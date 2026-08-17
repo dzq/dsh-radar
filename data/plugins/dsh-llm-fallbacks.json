@@ -8,7 +8,7 @@
     "dsh-plugin"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/omdsh-dev/dsh-llm-fallbacks.git",
+  "repo": "https://github.com/omdsh-dev/dsh-llm-fallbacks",
   "homepage": "https://github.com/omdsh-dev/dsh-llm-fallbacks#readme",
   "npm": "https://www.npmjs.com/package/dsh-llm-fallbacks",
   "dsh_compat": true,
@@ -54,5 +54,5 @@
     "overall": 63,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:23.880Z"
+  "updated_at": "2026-08-17T06:01:52.915Z"
 }

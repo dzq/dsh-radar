@@ -2,7 +2,7 @@
   "slug": "dsh-proxy",
   "name": "dsh-proxy",
   "version": "0.0.0",
-  "description": "",
+  "description": "HTTP + WebSocket 反向代理：把局域网端口转发到本地 DSH 服务",
   "keywords": [
     "ai-agent",
     "ai-agents",
@@ -36,11 +36,11 @@
   "scores": {
     "popularity": 19,
     "maintenance": 40,
-    "quality": 10,
+    "quality": 25,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 28,
+    "overall": 31,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T05:45:56.357Z"
+  "updated_at": "2026-08-17T06:02:39.956Z"
 }

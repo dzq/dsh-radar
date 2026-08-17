@@ -11,7 +11,7 @@
     "web"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/penguin-oo/dsh-bookmarks.git",
+  "repo": "https://github.com/penguin-oo/dsh-bookmarks",
   "homepage": "https://github.com/penguin-oo/dsh-bookmarks#readme",
   "npm": "https://www.npmjs.com/package/dsh-bookmarks",
   "dsh_compat": true,
@@ -52,5 +52,5 @@
     "overall": 59,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:15.156Z"
+  "updated_at": "2026-08-17T06:01:36.987Z"
 }

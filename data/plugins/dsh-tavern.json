@@ -15,7 +15,7 @@
     "ai"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/zouyuxuan122/dsh-tavern.git",
+  "repo": "https://github.com/LingyeSoul/dsh-tavern",
   "homepage": "https://github.com/zouyuxuan122/dsh-tavern#readme",
   "npm": "https://www.npmjs.com/package/dsh-tavern",
   "dsh_compat": true,
@@ -44,16 +44,22 @@
     "open_issues": 0,
     "pushed_at": "2026-08-17T04:41:51Z",
     "archived": false,
-    "license": "GPL-3.0"
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    }
   },
   "scores": {
     "popularity": 23,
     "maintenance": 40,
-    "quality": 75,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 52,
+    "overall": 54,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:24.967Z"
+  "updated_at": "2026-08-17T06:01:56.497Z"
 }

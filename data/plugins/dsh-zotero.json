@@ -1,0 +1,65 @@
+{
+  "slug": "dsh-zotero",
+  "name": "dsh-zotero",
+  "version": "0.2.1",
+  "description": "Let agents search, read, and cite your local Zotero library: find papers, browse notes and annotations, pull evidence by question, open the source document, generate citations.",
+  "keywords": [
+    "zotero",
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "research",
+    "literature"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Vncntvx/dsh-zotero",
+  "homepage": "https://github.com/Vncntvx/dsh-zotero#readme",
+  "npm": "https://www.npmjs.com/package/dsh-zotero",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "readme": "<h1 align=\"center\">dsh-zotero</h1>\n\n<p align=\"center\">\n  <a href=\"README.en.md\"><b>English</b></a> · <b>中文</b>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://awesome-dsh-plugin.com\"><img src=\"https://awesome-dsh-plugin.com/badge.svg\" alt=\"Awesome DSH Plugin\"></a>\n  <img src=\"https://img.shields.io/npm/v/dsh-zotero\" alt=\"npm version\">\n  <img src=\"https://img.shields.io/npm/dm/dsh-zotero\" alt=\"npm downloads\">\n  <img src=\"https://img.shields.io/npm/l/dsh-zotero\" alt=\"license\">\n</p>\n\n让 Agents 搜索、阅读并引用你的本地 [Zotero](https://www.zotero.org) 文献库：找文献、查看笔记与批注、按问题取证、打开原文、生成引用。\n\n在会话里用自然语言描述需求，Agent 自动按需调用下面的工具；唯一的手动命令是 `/zotero status`。\n\n## 工具\n\n| 工具                | 用途                                                                                                                       |\n| ---------------",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T13:36:04.557Z",
+  "created_at": "2026-08-15T07:00:18.499Z",
+  "gh": {
+    "full_name": "Vncntvx/dsh-zotero",
+    "stars": 5,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T03:35:47Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 21,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 52,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T06:02:15.194Z"
+}

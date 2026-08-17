@@ -13,7 +13,7 @@
     "agent-mesh"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/zibo2025/dsh-agent-mesh.git",
+  "repo": "https://github.com/zibo2025/dsh-orchestrator",
   "homepage": "https://github.com/zibo2025/dsh-agent-mesh#readme",
   "npm": "https://www.npmjs.com/package/dsh-orchestrator",
   "dsh_compat": true,
@@ -51,5 +51,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:34.457Z"
+  "updated_at": "2026-08-17T06:02:06.461Z"
 }

@@ -13,7 +13,7 @@
     "web-ui"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Tkingxiao/dsh-any-background.git",
+  "repo": "https://github.com/Tkingxiao/dsh-any-background",
   "homepage": "https://github.com/Tkingxiao/dsh-any-background#readme",
   "npm": "https://www.npmjs.com/package/dsh-any-background",
   "dsh_compat": true,
@@ -60,5 +60,5 @@
     "overall": 67,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:17.437Z"
+  "updated_at": "2026-08-17T06:01:40.030Z"
 }

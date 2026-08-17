@@ -1,5 +1,26 @@
 [
   {
+    "file": "2026-08-17-1402.json",
+    "prev": "2026-08-17-1346.json",
+    "total_delta": 5,
+    "grades": {
+      "S": 0,
+      "A": -2,
+      "B": 15,
+      "C": -5,
+      "D": -3
+    },
+    "downloads_delta": 200,
+    "compat_delta": 6,
+    "generated_at": "2026-08-17T06:02:53.110Z",
+    "top10_in": [
+      "dsh-mnemon"
+    ],
+    "top10_out": [
+      "dsh-balance-meter"
+    ]
+  },
+  {
     "file": "2026-08-17-1346.json",
     "prev": "2026-08-17-1342.json",
     "total_delta": 1926,

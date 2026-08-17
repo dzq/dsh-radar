@@ -16,7 +16,7 @@
     "parallel-agents"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Nwflower/dsh-file-claim.git",
+  "repo": "https://github.com/Nwflower/dsh-file-claim",
   "homepage": "https://github.com/Nwflower/dsh-file-claim#readme",
   "npm": "https://www.npmjs.com/package/dsh-file-claim",
   "dsh_compat": true,
@@ -50,5 +50,5 @@
     "overall": 57,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:33.176Z"
+  "updated_at": "2026-08-17T06:02:04.352Z"
 }

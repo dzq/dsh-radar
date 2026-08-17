@@ -12,7 +12,7 @@
     "instructions"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/badai147/dsh-global-rules.git",
+  "repo": "https://github.com/badai147/dsh-global-rules",
   "homepage": "https://github.com/badai147/dsh-global-rules#readme",
   "npm": "https://www.npmjs.com/package/dsh-global-rules",
   "dsh_compat": true,
@@ -53,5 +53,5 @@
     "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:14.804Z"
+  "updated_at": "2026-08-17T06:01:36.987Z"
 }

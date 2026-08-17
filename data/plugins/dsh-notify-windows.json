@@ -12,7 +12,7 @@
     "windows"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/SeverusZh/dsh-notify-windows.git",
+  "repo": "https://github.com/SeverusZh/dsh-notify-windows",
   "homepage": "https://github.com/SeverusZh/dsh-notify-windows#readme",
   "npm": "https://www.npmjs.com/package/dsh-notify-windows",
   "dsh_compat": false,
@@ -48,5 +48,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T05:45:36.998Z"
+  "updated_at": "2026-08-17T06:02:10.825Z"
 }

@@ -13,7 +13,7 @@
     "composer"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/arcmosin/dsh-wordbox.git",
+  "repo": "https://github.com/arcmosin/dsh-wordbox",
   "homepage": "https://github.com/arcmosin/dsh-wordbox#readme",
   "npm": "https://www.npmjs.com/package/dsh-wordbox",
   "dsh_compat": true,
@@ -52,5 +52,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:44.586Z"
+  "updated_at": "2026-08-17T06:02:20.222Z"
 }

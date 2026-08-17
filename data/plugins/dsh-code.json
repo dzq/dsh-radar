@@ -14,7 +14,7 @@
     "ink"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/unlinearity/dsh-code.git",
+  "repo": "https://github.com/UNLINEARITY/dsh-code",
   "homepage": "https://github.com/unlinearity/dsh-code#readme",
   "npm": "https://www.npmjs.com/package/dsh-code",
   "dsh_compat": true,
@@ -54,5 +54,5 @@
     "overall": 55,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:00.517Z"
+  "updated_at": "2026-08-17T06:01:13.761Z"
 }

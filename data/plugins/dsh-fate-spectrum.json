@@ -11,7 +11,7 @@
     "fate-chart"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/EchoUser005/dsh-fate-spectrum.git",
+  "repo": "https://github.com/EchoUser005/dsh-fate-spectrum",
   "homepage": "https://github.com/EchoUser005/dsh-fate-spectrum#readme",
   "npm": "https://www.npmjs.com/package/dsh-fate-spectrum",
   "dsh_compat": true,
@@ -29,15 +29,28 @@
   "monthly_downloads": 0,
   "last_publish": "2026-08-16T16:03:12.913Z",
   "created_at": "2026-08-16T16:03:12.642Z",
-  "gh": null,
+  "gh": {
+    "full_name": "EchoUser005/dsh-fate-spectrum",
+    "stars": 2,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T16:10:13Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
   "scores": {
-    "popularity": 0,
-    "maintenance": 0,
-    "quality": 65,
+    "popularity": 13,
+    "maintenance": 40,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 36,
-    "grade": "D"
+    "overall": 49,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T05:46:01.703Z"
+  "updated_at": "2026-08-17T06:02:33.523Z"
 }

@@ -12,7 +12,7 @@
     "webui"
   ],
   "license": "BSD-3-Clause",
-  "repo": "git+https://github.com/zhtx2024/dsh-skin-switcher.git",
+  "repo": "https://github.com/zhtx2024/dsh-skin-switcher",
   "homepage": "https://github.com/zhtx2024/dsh-skin-switcher#readme",
   "npm": "https://www.npmjs.com/package/dsh-skin-switcher",
   "dsh_compat": true,
@@ -54,5 +54,5 @@
     "overall": 49,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:49.978Z"
+  "updated_at": "2026-08-17T06:02:31.275Z"
 }

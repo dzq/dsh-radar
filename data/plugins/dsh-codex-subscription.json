@@ -16,7 +16,7 @@
     "quota"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/WSL043/dsh-codex-subscription.git",
+  "repo": "https://github.com/WSL043/dsh-codex-subscription",
   "homepage": "https://github.com/WSL043/dsh-codex-subscription#readme",
   "npm": "https://www.npmjs.com/package/dsh-codex-subscription",
   "dsh_compat": true,
@@ -67,5 +67,5 @@
     "overall": 55,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:21.019Z"
+  "updated_at": "2026-08-17T06:01:47.392Z"
 }

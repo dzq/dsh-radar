@@ -16,7 +16,7 @@
     "zcode"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/huguangyu666/dsh-plugin-session-import.git",
+  "repo": "https://github.com/huguangyu666/dsh-plugin-session-import",
   "homepage": "https://github.com/huguangyu666/dsh-plugin-session-import#readme",
   "npm": "https://www.npmjs.com/package/dsh-plugin-session-import",
   "dsh_compat": true,
@@ -62,5 +62,5 @@
     "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:37.798Z"
+  "updated_at": "2026-08-17T06:02:12.520Z"
 }

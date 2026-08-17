@@ -12,7 +12,7 @@
     "codex"
   ],
   "license": "Apache-2.0",
-  "repo": "git+https://github.com/franksong2702/dsh-codex-connect.git",
+  "repo": "https://github.com/franksong2702/dsh-codex-connect",
   "homepage": "https://github.com/franksong2702/dsh-codex-connect#readme",
   "npm": "https://www.npmjs.com/package/dsh-codex-connect",
   "dsh_compat": true,
@@ -57,5 +57,5 @@
     "overall": 55,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:03.848Z"
+  "updated_at": "2026-08-17T06:01:21.085Z"
 }

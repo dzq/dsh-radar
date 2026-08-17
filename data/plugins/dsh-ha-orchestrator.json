@@ -14,7 +14,7 @@
     "subagents"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Saktawdi/dsh-ha-orchestrator.git",
+  "repo": "https://github.com/Saktawdi/dsh-ha-orchestrator",
   "homepage": "https://github.com/Saktawdi/dsh-ha-orchestrator#readme",
   "npm": "https://www.npmjs.com/package/dsh-ha-orchestrator",
   "dsh_compat": true,
@@ -61,5 +61,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:51.510Z"
+  "updated_at": "2026-08-17T06:02:33.855Z"
 }

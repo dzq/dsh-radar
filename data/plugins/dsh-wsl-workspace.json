@@ -12,7 +12,7 @@
     "windows"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/6Mikao9/dsh-wsl-workspace.git",
+  "repo": "https://github.com/6Mikao9/dsh-wsl-workspace",
   "homepage": "https://github.com/6Mikao9/dsh-wsl-workspace#readme",
   "npm": "https://www.npmjs.com/package/dsh-wsl-workspace",
   "dsh_compat": true,
@@ -58,5 +58,5 @@
     "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:22.809Z"
+  "updated_at": "2026-08-17T06:01:49.726Z"
 }

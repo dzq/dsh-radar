@@ -15,7 +15,7 @@
     "panel"
   ],
   "license": "Apache-2.0",
-  "repo": "git+https://github.com/PerryLink/dsh-mcp-panel.git",
+  "repo": "https://github.com/PerryLink/dsh-mcp-panel",
   "homepage": "https://github.com/PerryLink/dsh-mcp-panel#readme",
   "npm": "https://www.npmjs.com/package/dsh-mcp-panel",
   "dsh_compat": true,
@@ -43,7 +43,7 @@
   "created_at": "2026-08-14T11:23:18.016Z",
   "gh": {
     "full_name": "PerryLink/dsh-mcp-panel",
-    "stars": 6,
+    "stars": 7,
     "open_issues": 0,
     "pushed_at": "2026-08-17T05:18:23Z",
     "archived": false,
@@ -58,5 +58,5 @@
     "overall": 62,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:31.001Z"
+  "updated_at": "2026-08-17T06:01:50.602Z"
 }

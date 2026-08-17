@@ -1,0 +1,40 @@
+{
+  "slug": "dsh-session-reader",
+  "name": "dsh-session-reader",
+  "version": "0.1.0",
+  "description": "Read another session's content (messages, tool calls/results, thinking) from within a DSH session",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness",
+    "session",
+    "agent"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Artificialwhale/session-reader-plugin.git",
+  "homepage": "https://github.com/Artificialwhale/session-reader-plugin#readme",
+  "npm": "https://www.npmjs.com/package/dsh-session-reader",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-session-reader\n\n在 DSH 会话内**读取其他会话的内容**：消息、工具调用/结果、推理过程（thinking）、压缩前的原始事件流。支持 agent 工具调用与 `/sessions` 斜杠命令两种使用方式，所有读取都是**只读**且**有界**的。\n\n> 由实际使用需求驱动开发：让一个会话里的 agent 能查阅别的会话（比如查另一个会话的上下文再继续讨论）。已在 DSH 0.1.0-rc.6 上验证。\n\n## 功能\n\n### agent 工具\n\n- **`session_list`** — 列出未归档会话（id、标题、工作区、创建时间、预设），支持按 id/工作区过滤、`limit`、`includeArchived`\n- **`session_read`** — 按 id 读取会话内容，4 种模式：\n  - `io` — 用户/助手消息与工具调用/结果（默认）\n  - `thinking` — 推理分块（reasoning chunks）\n  - `surface` — 压缩后的当前模型可见消息\n  - `raw` — 原始日志事件（含压缩前的事件）\n\n### 斜杠命令（无需模型回合，直接输出）\n\n- `/sessions list [query] [--limit N] [--archived]`\n- `/sessions read <id> [io|thinking|surface|raw] [--query text] [--limit N]`\n\n## 安装\n\n```sh\n# 从 npm\ndsh plugin --profile web add dsh-session-reader\n\n# 或从 GitHub\ndsh plugin --profile web add github:Artificialwhale/session-rea",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T05:51:09.047Z",
+  "created_at": "2026-08-17T05:51:08.516Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 38,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T06:02:48.645Z"
+}

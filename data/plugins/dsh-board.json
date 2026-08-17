@@ -16,7 +16,7 @@
     "sidebar"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/dfkai/dsh-board.git",
+  "repo": "https://github.com/dfkai/dsh-board",
   "homepage": "https://github.com/dfkai/dsh-board#readme",
   "npm": "https://www.npmjs.com/package/dsh-board",
   "dsh_compat": true,
@@ -58,5 +58,5 @@
     "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:34.405Z"
+  "updated_at": "2026-08-17T06:02:04.612Z"
 }

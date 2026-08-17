@@ -12,7 +12,7 @@
     "gemini"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/chaos-03x/dsh-agy.git",
+  "repo": "https://github.com/chaos-03x/dsh-agy",
   "homepage": "https://github.com/chaos-03x/dsh-agy#readme",
   "npm": "https://www.npmjs.com/package/dsh-agy",
   "dsh_compat": true,
@@ -52,5 +52,5 @@
     "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:12.275Z"
+  "updated_at": "2026-08-17T06:01:30.018Z"
 }

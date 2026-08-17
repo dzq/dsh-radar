@@ -15,7 +15,7 @@
     "input"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/CrazyGummies/dsh-voice-input.git",
+  "repo": "https://github.com/Zhangbo-cn/dsh-voice-input-plugin",
   "homepage": "https://github.com/CrazyGummies/dsh-voice-input",
   "npm": "https://www.npmjs.com/package/dsh-voice-input-plugin",
   "dsh_compat": true,
@@ -37,16 +37,22 @@
     "open_issues": 0,
     "pushed_at": "2026-08-16T16:50:58Z",
     "archived": false,
-    "license": "MIT"
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
   },
   "scores": {
     "popularity": 23,
     "maintenance": 40,
-    "quality": 65,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 47,
+    "overall": 49,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:24.243Z"
+  "updated_at": "2026-08-17T06:01:54.849Z"
 }

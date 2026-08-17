@@ -11,7 +11,7 @@
     "compatibility"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/weijiafu14/pi2dsh.git",
+  "repo": "https://github.com/weijiafu14/pi2dsh",
   "homepage": "https://github.com/weijiafu14/pi2dsh#readme",
   "npm": "https://www.npmjs.com/package/pi2dsh",
   "dsh_compat": true,
@@ -45,5 +45,5 @@
     "overall": 65,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:01.951Z"
+  "updated_at": "2026-08-17T06:01:16.909Z"
 }

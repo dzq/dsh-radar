@@ -12,7 +12,7 @@
     "workspace"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/AngelosZou/dsh-multi-folder.git",
+  "repo": "https://github.com/AngelosZou/dsh-multi-folder",
   "homepage": "https://github.com/AngelosZou/dsh-multi-folder#readme",
   "npm": "https://www.npmjs.com/package/dsh-multi-folder",
   "dsh_compat": true,
@@ -62,5 +62,5 @@
     "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:40.047Z"
+  "updated_at": "2026-08-17T06:02:14.061Z"
 }

@@ -12,7 +12,7 @@
     "resize"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/13071301808/dsh-composer-expand.git",
+  "repo": "https://github.com/13071301808/dsh-composer-expand",
   "homepage": "https://github.com/13071301808/dsh-composer-expand#readme",
   "npm": "https://www.npmjs.com/package/dsh-composer-expand",
   "dsh_compat": true,
@@ -52,5 +52,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:46.480Z"
+  "updated_at": "2026-08-17T06:02:25.896Z"
 }

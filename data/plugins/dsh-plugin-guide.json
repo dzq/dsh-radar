@@ -13,7 +13,7 @@
     "knowledge-base"
   ],
   "license": "Apache-2.0",
-  "repo": "git+https://github.com/PerryLink/dsh-plugin-guide.git",
+  "repo": "https://github.com/PerryLink/dsh-plugin-guide",
   "homepage": "https://github.com/PerryLink/dsh-plugin-guide#readme",
   "npm": "https://www.npmjs.com/package/dsh-plugin-guide",
   "dsh_compat": true,
@@ -51,5 +51,5 @@
     "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:56.951Z"
+  "updated_at": "2026-08-17T06:02:41.276Z"
 }

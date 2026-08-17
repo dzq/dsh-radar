@@ -13,7 +13,7 @@
     "dashboard"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/V-dev-388/dsh-usage-meter.git",
+  "repo": "https://github.com/cute-baobao/dsh-usage-meter",
   "homepage": "https://github.com/V-dev-388/dsh-usage-meter#readme",
   "npm": "https://www.npmjs.com/package/dsh-usage-meter",
   "dsh_compat": true,
@@ -36,10 +36,10 @@
   "last_publish": "2026-08-15T06:31:22.642Z",
   "created_at": "2026-08-15T02:40:32.548Z",
   "gh": {
-    "full_name": "V-dev-388/dsh-usage-meter",
-    "stars": 0,
+    "full_name": "cute-baobao/dsh-usage-meter",
+    "stars": 4,
     "open_issues": 0,
-    "pushed_at": "2026-08-15T06:23:06Z",
+    "pushed_at": "2026-08-14T16:24:12Z",
     "archived": false,
     "license": {
       "key": "mit",
@@ -50,13 +50,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 39,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 46,
+    "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:55.454Z"
+  "updated_at": "2026-08-17T06:02:39.702Z"
 }

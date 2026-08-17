@@ -12,7 +12,7 @@
     "recommendation"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/zp-home/dsh-recommend.git",
+  "repo": "https://github.com/zp-home/dsh-recommend",
   "homepage": "https://github.com/zp-home/dsh-recommend",
   "npm": "https://www.npmjs.com/package/dsh-recommend",
   "dsh_compat": true,
@@ -61,5 +61,5 @@
     "overall": 55,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:03.900Z"
+  "updated_at": "2026-08-17T06:01:20.147Z"
 }

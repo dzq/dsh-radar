@@ -12,7 +12,7 @@
     "chat-outline"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/liliuCourier/dsh-chat-outline.git",
+  "repo": "https://github.com/liliuCourier/dsh-chat-outline",
   "homepage": "https://github.com/liliuCourier/dsh-chat-outline#readme",
   "npm": "https://www.npmjs.com/package/dsh-chat-outline",
   "dsh_compat": true,
@@ -56,5 +56,5 @@
     "overall": 65,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:56.472Z"
+  "updated_at": "2026-08-17T06:02:35.947Z"
 }

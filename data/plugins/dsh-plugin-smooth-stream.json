@@ -10,7 +10,7 @@
     "cordis-plugin"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/SpookySandwich/dsh-plugin-smooth-stream.git",
+  "repo": "https://github.com/SpookySandwich/dsh-plugin-smooth-stream",
   "homepage": "https://github.com/SpookySandwich/dsh-plugin-smooth-stream#readme",
   "npm": "https://www.npmjs.com/package/dsh-plugin-smooth-stream",
   "dsh_compat": true,
@@ -52,5 +52,5 @@
     "overall": 49,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:18.869Z"
+  "updated_at": "2026-08-17T06:01:39.034Z"
 }

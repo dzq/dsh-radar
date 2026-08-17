@@ -12,7 +12,7 @@
     "git"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/FlashingChen/dsh-worktree.git",
+  "repo": "https://github.com/FlashingChen/dsh-worktree",
   "homepage": "https://github.com/FlashingChen/dsh-worktree#readme",
   "npm": "https://www.npmjs.com/package/dsh-worktree",
   "dsh_compat": false,
@@ -48,5 +48,5 @@
     "overall": 42,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:25.018Z"
+  "updated_at": "2026-08-17T06:01:55.834Z"
 }

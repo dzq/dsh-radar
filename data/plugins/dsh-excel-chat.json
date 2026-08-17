@@ -16,7 +16,7 @@
     "xlsx"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/hccccc01333/dsh-excel-chat.git",
+  "repo": "https://github.com/hccccc01333/dsh-excel-chat",
   "homepage": "https://github.com/hccccc01333/dsh-excel-chat",
   "npm": "https://www.npmjs.com/package/dsh-excel-chat",
   "dsh_compat": true,
@@ -50,5 +50,5 @@
     "overall": 63,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:32.823Z"
+  "updated_at": "2026-08-17T06:02:04.352Z"
 }

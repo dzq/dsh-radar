@@ -12,7 +12,7 @@
     "yahoo-finance"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Realyujie/dsh-us-stocks.git",
+  "repo": "https://github.com/Realyujie/dsh-us-stocks",
   "homepage": "https://github.com/Realyujie/dsh-us-stocks#readme",
   "npm": "https://www.npmjs.com/package/dsh-us-stocks",
   "dsh_compat": true,
@@ -60,5 +60,5 @@
     "overall": 50,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:26.907Z"
+  "updated_at": "2026-08-17T06:01:58.971Z"
 }

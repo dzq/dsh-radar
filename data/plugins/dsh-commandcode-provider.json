@@ -14,7 +14,7 @@
     "deepseek-harness-plugin"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/Kristin130/dsh-commandcode-provider.git",
+  "repo": "https://github.com/Mars-Sea/dsh-commandcode-provider",
   "homepage": "https://github.com/Kristin130/dsh-commandcode-provider#readme",
   "npm": "https://www.npmjs.com/package/dsh-commandcode-provider",
   "dsh_compat": true,
@@ -33,20 +33,26 @@
   "created_at": "2026-08-14T08:33:57.974Z",
   "gh": {
     "full_name": "Mars-Sea/dsh-commandcode-provider",
-    "stars": 45,
+    "stars": 46,
     "open_issues": 1,
     "pushed_at": "2026-08-17T03:31:54Z",
     "archived": false,
-    "license": "MIT"
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
   },
   "scores": {
     "popularity": 45,
     "maintenance": 40,
-    "quality": 75,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 57,
+    "overall": 59,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:44:57.992Z"
+  "updated_at": "2026-08-17T06:01:09.884Z"
 }

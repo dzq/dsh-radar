@@ -16,7 +16,7 @@
     "plugin"
   ],
   "license": "MIT",
-  "repo": "git+https://github.com/nonewind/dsh-spend.git",
+  "repo": "https://github.com/nonewind/dsh-spend",
   "homepage": "https://github.com/nonewind/dsh-spend#readme",
   "npm": "https://www.npmjs.com/package/dsh-spend",
   "dsh_compat": true,
@@ -61,5 +61,5 @@
     "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:32.177Z"
+  "updated_at": "2026-08-17T06:02:02.650Z"
 }

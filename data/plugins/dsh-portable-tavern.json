@@ -10,7 +10,7 @@
     "sillytavern"
   ],
   "license": "BSD-3-Clause",
-  "repo": "git+https://github.com/XCNXNXNX/dsh-portable-tavern.git",
+  "repo": "https://github.com/XCNXNXNX/dsh-portable-tavern",
   "homepage": "https://github.com/XCNXNXNX/dsh-portable-tavern#readme",
   "npm": "https://www.npmjs.com/package/dsh-portable-tavern",
   "dsh_compat": true,
@@ -55,5 +55,5 @@
     "overall": 54,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T05:45:12.275Z"
+  "updated_at": "2026-08-17T06:01:33.602Z"
 }

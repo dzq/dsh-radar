@@ -16,7 +16,7 @@
     "subagent"
   ],
   "license": "Apache-2.0",
-  "repo": "git+https://github.com/PerryLink/dsh-auto-review.git",
+  "repo": "https://github.com/PerryLink/dsh-auto-review",
   "homepage": "https://github.com/PerryLink/dsh-auto-review#readme",
   "npm": "https://www.npmjs.com/package/dsh-auto-review",
   "dsh_compat": true,
@@ -60,5 +60,5 @@
     "overall": 63,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T05:45:44.217Z"
+  "updated_at": "2026-08-17T06:02:18.890Z"
 }
