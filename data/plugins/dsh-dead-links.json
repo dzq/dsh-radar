@@ -22,6 +22,7 @@
   "engines": {},
   "readme": "# dsh-dead-links\n\nDSH 插件：Markdown 文档死链检查工具，注册一个 `dead_links` 工具。**纯 ESM、零依赖、无构建、只读不改任何文件**。\n\n## 简介\n\n- 工具名：`dead_links`\n- 能力：用 `node:fs` 递归遍历目录，按 glob（默认 `**/*.md`）筛选 Markdown 文件；逐文件按行正则提取 `http(s)://` 链接（保留行号）；并发受限地逐条检查，先 `HEAD`（`AbortSignal.timeout` 超时），遇到 `405/403/网络错误` 降级 `GET`（只关心状态码，读完响应体即丢弃）；最终把每条死链的 `文件/行号/URL/状态码或错误` 折叠进规范 JSON 值返回。\n- 行为：**永不抛异常**。网络类异常一律折进规范值（`dead[].status: null` + `dead[].error`）；目录不存在则返回 `{ ok: false, error: { stage: 'fs', message } }`。\n- 只读：不修改、不写入任何被扫描的文件。\n\n## 安装\n\n```sh\ndsh plugin --profile <name> add file:./plugins/dsh-dead-links\n# 或发布后：\ndsh plugin --profile <name> add dsh-dead-links\n```\n\n## 参数\n\n| 参数 | 类型 | 必填 | 默认 | 说明 |\n|---|---|---|---|---|\n| `dir` | string | — | `docs` | 相对**工作区根**的目录。默认 `docs`，不存在时回退到工作区根 `.` 并在结果中注明 |\n| `glob` | string | — | `**/*.md` ",
   "weekly_downloads": 111,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T07:01:40.862Z",
   "created_at": "2026-08-15T07:01:40.525Z",
   "gh": null,
@@ -34,5 +35,5 @@
     "overall": 50,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.279Z"
+  "updated_at": "2026-08-17T04:58:29.349Z"
 }

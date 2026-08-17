@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-trajectory-governance",
+  "name": "dsh-trajectory-governance",
+  "version": "0.0.0",
+  "description": "Agent trajectory governance & anomaly diagnosis plugin for DeepSeek Harness (dsh): multi-branch trajectory trees, loop-deadlock / invalid-retry / goal-drift detection, cost attribution, alerts, one-click interrupt & breakpoint fork, independent GUI tab. Zero kernel modification.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "trajectory"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/dfycaly98931680/dsh-trajectory-governance",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-trajectory-governance",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "dfycaly98931680/dsh-trajectory-governance",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T08:32:02Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:27.401Z"
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "dsh-session-management",
+  "name": "dsh-session-management",
+  "version": "1.0.6",
+  "description": "Session management for DSH Web: archive / unarchive / truly delete chats / export data (bilingual). 会话管理：归档 / 取消归档 / 真正删除聊天记录 / 导出数据（中英双语）。",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "session",
+    "archive",
+    "session-management"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/cokiscarazo-rgb/dsh-session-management.git",
+  "homepage": "https://github.com/cokiscarazo-rgb/dsh-session-management#readme",
+  "npm": "https://www.npmjs.com/package/dsh-session-management",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-session-management · DSH 会话管理\r\n\r\n中文 | [English](README.en.md)\r\n\r\n![会话管理设置页](docs/screenshots/settings.png)\r\n\r\ndsh-session-management 是 DeepSeek Harness（DSH）Web 的会话管理插件，**补足官方会话管理的缺失能力**。在「设置」面板内集中管理聊天会话：归档、取消归档、**真正删除本地聊天记录**、批量导出数据。支持中英双语，随 DSH 语言设置即时切换。\r\n\r\n![已归档聊天管理弹窗](docs/screenshots/manage.png)\r\n\r\n## 为什么需要这个插件\r\n\r\nDSH Web 官方目前不提供完整的会话管理，长期使用会遇到三个痛点：\r\n\r\n- **会话无法真正删除**：官方只提供「归档」，归档只是把会话从侧边栏隐藏，聊天记录仍完整保留在磁盘上，没有任何入口可以真正删掉它们；\r\n- **归档后无法恢复**：官方没有「取消归档」功能，会话一旦归档就再也找不回来，只能「看不见但永远存在」；\r\n- **导出只能逐个手动**：官方导出一次只能导出一个会话，会话攒多了要逐个点击很多次。\r\n\r\n本插件逐一补齐：**真删**（删除磁盘上的会话日志文件）、**恢复**（单个 / 按组批量取消归档）、**批量导出**（与官方格式完全一致的 ZIP）。\r\n\r\n| 能力 | DSH 官方 | 装本插件后 |\r\n| --- | --- | --- |\r\n| 归档会话 | 支持 | 支持，另有一键全量归档 |\r\n| 取消归档 | 无入口 | 单个 / 按工作区 / 按月份批量 |\r\n| 真正删除聊天记录 | 仅隐藏，不删除 | 删除磁盘日志文件，运行中会话自动跳过 |\r\n| 导出会话数据 | 单个手动导出 | 一键批量导",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T01:54:24.215Z",
+  "created_at": "2026-08-14T12:58:40.647Z",
+  "gh": {
+    "full_name": "cokiscarazo-rgb/dsh-session-management",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T01:54:20Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:22.775Z"
+}

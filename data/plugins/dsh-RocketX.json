@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-RocketX",
+  "name": "dsh-RocketX",
+  "version": "0.0.0",
+  "description": "以原版 Rocket.Chat 为内核、集成 Codex App Server、Deepseek Harness、Azure DevOps、体验对标飞书的团队协作客户端。",
+  "keywords": [
+    "dsh",
+    "rocket-chat",
+    "rocketchat"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/lusipad/RocketX",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-RocketX",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "lusipad/RocketX",
+    "open_issues": 1,
+    "pushed_at": "2026-08-17T02:34:46Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:59.642Z"
+}

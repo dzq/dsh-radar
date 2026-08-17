@@ -1,0 +1,39 @@
+{
+  "slug": "dsh-cue-plugin",
+  "name": "dsh-cue-plugin",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness 的跨会话引用(cue)插件",
+  "keywords": [
+    "dsh",
+    "dsh-plugins"
+  ],
+  "license": "",
+  "repo": "https://github.com/unnnnoooo/dsh-cue-plugin",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-cue-plugin",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "unnnnoooo/dsh-cue-plugin",
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T20:50:33Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 15,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 24,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:55.454Z"
+}

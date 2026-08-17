@@ -30,17 +30,25 @@
   "engines": {},
   "readme": "# dsh-codex-oauth\n\n[English](README.md) | 中文\n\n一个独立的 [DeepSeek Harness（dsh）](https://github.com/deepseek-ai/deepseek-harness) 插件，通过 OpenAI Codex OAuth 使用 ChatGPT Plus/Pro 订阅模型。\n\n**不需要安装 Pi。** 插件使用 `@earendil-works/pi-ai` 提供的 Codex provider，以及 DSH 公共的 `dsh-llm-pi-ai` 适配器，支持流式输出、工具调用、推理、图片、replay、上下文压缩、OAuth 自动刷新和 Codex 模型目录。\n\n这是 ChatGPT Codex 后端接入，不是普通的 OpenAI Platform API Key 适配器。\n\n## 安装\n\n```bash\ndsh plugin --profile web add dsh-codex-oauth\ndsh web\n```\n\n如果使用 `npx`：\n\n```bash\nnpx @deepseek-ai/dsh plugin --profile web add dsh-codex-oauth\nnpx @deepseek-ai/dsh web\n```\n\n## 登录\n\n插件拥有独立的 OAuth 登录流程和凭据文件。新用户不需要安装 Pi，也不需要复制任何 token。\n\n### Web UI\n\n打开 **设置 → OpenAI Codex**，点击 **使用 ChatGPT 登录**。插件会打开浏览器完成 OAuth 授权；返回 DSH 后，在模型选择器中选择 `openai-codex`。\n\n### 命令行登录\n\n```bash\ndsh plugin --profile web exec dsh-ope",
   "weekly_downloads": 1158,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T10:35:27.390Z",
   "created_at": "2026-08-15T03:08:42.234Z",
-  "gh": null,
+  "gh": {
+    "full_name": "WNJXYK/dsh-codex-oauth",
+    "stars": 8,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T17:23:25Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 77,
-    "maintenance": 0,
+    "maintenance": 39,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 58,
+    "overall": 66,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.211Z"
+  "updated_at": "2026-08-17T04:56:42.588Z"
 }

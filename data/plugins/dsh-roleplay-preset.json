@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-roleplay-preset",
+  "name": "dsh-roleplay-preset",
+  "version": "0.0.0",
+  "description": "DeepSeek 深度调校的沉浸式角色扮演 Agent 预设（dsh）——零工具纯对话、酒馆式演出格式、文件记忆库",
+  "keywords": [
+    "agent-preset",
+    "deepseek-harness",
+    "dsh",
+    "roleplay"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/oliblue-evan/dsh-roleplay-preset",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-roleplay-preset",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "oliblue-evan/dsh-roleplay-preset",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T06:42:13Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:11.511Z"
+}

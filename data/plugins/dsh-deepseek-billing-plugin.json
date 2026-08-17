@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-deepseek-billing-plugin",
+  "name": "dsh-deepseek-billing-plugin",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness (DSH) 插件：DeepSeek 官方 API 余额与当前会话费用估算",
+  "keywords": [
+    "billing",
+    "deepseek",
+    "deepseek-billing",
+    "deepseek-harness"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/xinCodes/deepseek-billing-plugin",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-deepseek-billing-plugin",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "xinCodes/deepseek-billing-plugin",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T03:23:38Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 30,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:08.494Z"
+}

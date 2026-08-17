@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-plugin-workshop",
+  "name": "dsh-plugin-workshop",
+  "version": "0.0.0",
+  "description": "Steam Workshop-style plugin browser for the DeepSeek Harness (DSH) Web UI - zero-server: GitHub-powered search, trending windows, Chinese search & bilingual translation, plugin-signature filtering, and smart one-click install/update/uninstall with an installed-plugins manager.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "workshop"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/yyyyukari/dsh-plugin-workshop",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-workshop",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "yyyyukari/dsh-plugin-workshop",
+    "open_issues": 2,
+    "pushed_at": "2026-08-16T01:28:46Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:21.495Z"
+}

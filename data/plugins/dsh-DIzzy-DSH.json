@@ -1,0 +1,36 @@
+{
+  "slug": "dsh-DIzzy-DSH",
+  "name": "dsh-DIzzy-DSH",
+  "version": "0.0.0",
+  "description": "My DSH plugins",
+  "keywords": [],
+  "license": "",
+  "repo": "https://github.com/Acidmoon/DIzzy-DSH",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-DIzzy-DSH",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Acidmoon/DIzzy-DSH",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:52:53Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 0,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 22,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:01.680Z"
+}

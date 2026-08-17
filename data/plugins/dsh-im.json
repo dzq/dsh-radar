@@ -27,17 +27,25 @@
   },
   "readme": "# dsh-im（核心）\n\n统一 IM 桥核心插件：`ctx.im` 服务、会话映射、命令、渲染、通知总线、审批管理、MockChannel。\n\n- 依赖：`inject: ['agents']`（需要 `dsh-agent`/`dsh-agent-loop`）、可选 `approval`（`dsh-user-approval`，缺省 ask→deny）\n- 配置：见 [`docs/example-cordis.patch.yml`](../../docs/example-cordis.patch.yml) 与 [`docs/install.md`](../../docs/install.md)\n- 测试：`npm run test:im`（44 个：单测 + 真实 agent-loop 全链路 e2e，无网络/无 key）\n\n## 扩展点（§8.3）\n\n```js\n// 第三方渠道：实现 send() 契约后注册即可\nctx.im.registerChannel({\n  platform: 'my-im',\n  send: async (out) => { /* 发消息 */ },\n  sendFile: async (chatId, name, text, mime) => { /* 发文件 */ },\n});\n// 入站：构造 ImMessage 后交给核心\nctx.im.dispatchInbound({ platform: 'my-im', chatId, userId, text, msgId, chatType });\n// 按钮回调：data 载荷约定 approve:<id>:yes|no / trust:<platform>:<userId> / retry:<sessionId>\nctx.im.handleCallback({ platform, ch",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T09:07:58.629Z",
   "created_at": "2026-08-15T06:04:56.453Z",
-  "gh": null,
+  "gh": {
+    "full_name": "xmanrui/dsh-im",
+    "stars": 23,
+    "open_issues": 2,
+    "pushed_at": "2026-08-16T15:48:35Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
+    "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 38,
-    "grade": "D"
+    "overall": 46,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.620Z"
+  "updated_at": "2026-08-17T04:55:22.561Z"
 }

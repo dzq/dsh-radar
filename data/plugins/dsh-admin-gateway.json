@@ -26,6 +26,7 @@
   "engines": {},
   "readme": "# dsh-admin-gateway\n\nDeepSeek Harness (dsh) 管理员验证网关插件。\n\n## 核心优势\n\n- **零成本公网暴露**：只需一个绑定在 Cloudflare 的域名，无需公网 IP、无需开防火墙端口、无需购买服务器，一条 Cloudflare Tunnel 即可让 dsh web 安全上线公网（HTTPS / DDoS 防护全由 Cloudflare 提供）\n- **开箱即用的安全防线**：管理员密码登录 + 会话 Cookie + 防暴力破解限速 + 防 DNS rebinding，未认证流量永远到不了 dsh 本体\n- **即插即用**：npm 安装 → 配置密码 → 绑定域名，三步完成，无需改 dsh 一行代码\n\n## 它解决什么问题\n\ndsh 的 HTTP 服务器（`ctx.webServer`）没有请求级中间件钩子，`host` 默认绑定 `127.0.0.1`，无 TLS / 认证 / origin 策略。本插件自起一个**独立的 node:http 网关**，先做管理员验证，通过后反向代理到 dsh web 本体，并正确改写 Host / Origin / Referer 头以满足 dsh Connection 信任检查（`isTrustedApiRequest`）。\n\n配合 Cloudflare Tunnel 使用时，隧道只把流量送到网关端口，**未认证请求永远到不了 dsh 本体**。\n\n## 功能特性\n\n- 管理员密码登录（scrypt 哈希 + `timingSafeEqual` 时序安全比较）\n- HttpOnly + SameSite=Strict 会话 Cookie，服务端内存会话，TTL 可配\n- 登录失败按 IP 限速锁定（防暴力破解）\n- Host 头白名单校验（防 DNS rebinding）\n- 请",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:47:23.280Z",
   "created_at": "2026-08-15T14:10:58.718Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:49.230Z"
+  "updated_at": "2026-08-17T04:58:37.525Z"
 }

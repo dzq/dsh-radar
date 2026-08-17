@@ -34,6 +34,7 @@
   },
   "readme": "# dsh-claude-import\r\n\r\n<img src=\"docs/social-preview.png\" alt=\"dsh-claude-import — Import Claude Code config into DeepSeek Harness\" width=\"1280\" />\r\n\r\n把 Claude Code 的配置资产一键导入 DeepSeek Harness（DSH）：在设置页「插件 → 插件配置」提供\r\n「导入 Claude 配置」卡片，勾选要导入的资产，选择用户级或项目工作区，预览落点与冲突，\r\n逐项选择冲突策略后导入。重复导入幂等，不产生重复条目。\r\n\r\n## 功能\r\n\r\n- **五类资产**：skills / rules / commands / CLAUDE.md / AGENTS.md，逐项勾选；\r\n- **两种范围**：用户级（`~/.claude`）与项目级（选定工作区的 `.claude` 目录，复用 DSH 原生目录选择器）；\r\n- **落点预览**：导入前逐项展示 源 → 目标、当前状态（新增 / 已一致 / 冲突 / 源已更新 / 已有等效内容 / 暂不支持）与摘要；\r\n- **冲突三策略**：覆盖 / 合并 / 跳过，逐项可选；\r\n- **幂等**：文本资产以标记块写入，重复导入自动识别；技能目录按内容指纹比对，一致即跳过；\r\n- **安全处理 Windows 目录联接（junction）**：目标为联接且内容一致时不动它；覆盖/合并会先摘除联接、绝不写穿到联接指向的目录。\r\n\r\n## 落点映射\r\n\r\n| Claude 资产 | DSH 落点 |\r\n|---|---|\r\n| `~/.claude/skills/<name>` | `~/.agents/skills/<name>`（官方扫描根，rank 500） |\r\n| `<",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T14:05:21.249Z",
   "created_at": "2026-08-14T14:05:21.002Z",
   "gh": null,
@@ -46,5 +47,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.944Z"
+  "updated_at": "2026-08-17T04:58:33.671Z"
 }

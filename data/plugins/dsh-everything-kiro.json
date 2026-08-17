@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-everything-kiro",
+  "name": "dsh-everything-kiro",
+  "version": "0.0.0",
+  "description": "The complete collection of Kiro IDE configs, agents, skills, hooks, and MCP integrations for maximum productivity.",
+  "keywords": [
+    "ai-agents",
+    "amazon-kiro",
+    "developer-tools",
+    "kiro",
+    "kiro-agent",
+    "kiro-dev",
+    "kiro-ide",
+    "llm",
+    "mcp"
+  ],
+  "license": "",
+  "repo": "https://github.com/iamaanahmad/everything-kiro",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-everything-kiro",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "iamaanahmad/everything-kiro",
+    "open_issues": 1,
+    "pushed_at": "2026-08-05T04:23:12Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 35,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:22.378Z"
+}

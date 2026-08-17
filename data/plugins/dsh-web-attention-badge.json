@@ -1,0 +1,61 @@
+{
+  "slug": "dsh-web-attention-badge",
+  "name": "dsh-web-attention-badge",
+  "version": "0.3.2",
+  "description": "Web attention badge: a top-left corner indicator counting sessions waiting for user input or finished-but-unopened, plus a browser tab title prefix",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "web",
+    "attention",
+    "badge",
+    "notification",
+    "sessions"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Luaphes/dsh-web-attention-badge.git",
+  "homepage": "https://github.com/Luaphes/dsh-web-attention-badge#readme",
+  "npm": "https://www.npmjs.com/package/dsh-web-attention-badge",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ]
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-web-attention-badge\n\n[English](README.md) | [简体中文](README.zh-CN.md)\n\nDeepSeek Harness Web 的关注提醒。当有会话需要你时，三处同时亮起：页面左上角\n`(1)` 式角标、浏览器标签页标题里的 `(N)` 计数、以及按状态换色的鲸鱼 favicon。\n\n- **琥珀色**——有会话在等待你的输入（`ask_user` 提问、审批弹窗、计划确认）。\n- **绿色**——有会话在你离开时运行完成、尚未打开。\n\n三处提醒共享内置会话存储的同一组计数——无 host 代码、无额外通道。角标点击\n穿透，不挡侧边栏。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-web-attention-badge\n```\n\n或直接从 GitHub 安装：\n\n```sh\ndsh plugin --profile web add \"github:Luaphes/dsh-web-attention-badge#v0.3.1\"\n```\n\n升级 / 卸载：\n\n```sh\ndsh plugin --profile web update dsh-web-attention-badge\ndsh plugin --profile web remove dsh-web-attention-badge\n```\n\n`dsh plugin` 会自动完成 bundle 登记，无需手动改配置。\n\n## 调参\n\n`lib/client.js` 顶部常量：\n\n- `TAB_TITLE_ENABLED` — 标签页标题 `(N)` 前缀。\n- `FAVICON_ENABLED` — 鲸鱼 favicon 换色。\n- 角标颜色/位置 — `AttentionBadge` / `Pill` 中的",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T20:46:28.651Z",
+  "created_at": "2026-08-13T20:12:53.645Z",
+  "gh": {
+    "full_name": "Luaphes/dsh-web-attention-badge",
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T20:46:11Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:27.748Z"
+}

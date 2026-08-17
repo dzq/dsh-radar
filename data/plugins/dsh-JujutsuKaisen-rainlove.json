@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-JujutsuKaisen-rainlove",
+  "name": "dsh-JujutsuKaisen-rainlove",
+  "version": "0.0.0",
+  "description": "听雨的声音 一滴滴清晰， 你的呼吸像雨滴渗入我的爱里， 真希望 雨能下不停， 让想念继续 让爱变透明， 我爱上 给我 勇气的 Rainie Love， 窗外的雨滴 一滴滴 累积， 屋内的湿气 像储存爱你的记忆， 真希望 雨能下不停， 雨爱的秘密 能一直延续， 我相信我将会看到彩虹的美丽。",
+  "keywords": [
+    "background",
+    "dsh",
+    "dsh-plugins"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/haxi8/dsh-JujutsuKaisen-rainlove",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-JujutsuKaisen-rainlove",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "haxi8/dsh-JujutsuKaisen-rainlove",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T14:49:25Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:57.289Z"
+}

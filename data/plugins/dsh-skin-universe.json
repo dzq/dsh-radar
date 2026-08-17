@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-skin-universe",
+  "name": "dsh-skin-universe",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [
+    "deepseek-harness"
+  ],
+  "license": "BSD-3-Clause",
+  "repo": "https://github.com/springbrand-lab/dsh-skin-universe",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-skin-universe",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "springbrand-lab/dsh-skin-universe",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T02:31:24Z",
+    "archived": false,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 20,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 26,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:20.326Z"
+}

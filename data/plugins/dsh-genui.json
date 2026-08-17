@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-genui",
+  "name": "dsh-genui",
+  "version": "0.0.0",
+  "description": "GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the dsh-ui fence — layout, charts, plots, forms, quizzes, mermaid, 3D scenes, and an action event loop back to the model. Ships the fence-teaching host plugin, the browser renderer (cli",
+  "keywords": [
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/omdsh-dev/dsh-genui",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-genui",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "omdsh-dev/dsh-genui",
+    "open_issues": 4,
+    "pushed_at": "2026-08-16T17:02:46Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:52.407Z"
+}

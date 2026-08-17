@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-reasoning-settings",
+  "name": "dsh-reasoning-settings",
+  "version": "0.0.0",
+  "description": "让 DeepSeek Harness 的第三方 API 支持低、中、高等推理强度，并可为每次子 Agent 调用选择模型｜Add Low, Medium, High, and other reasoning levels to third-party APIs, with model selection for each subagent call",
+  "keywords": [
+    "deepseek-harness",
+    "model-provider",
+    "openai-compatible",
+    "reasoning-effort",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/JuneLearn/dsh-reasoning-settings",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-reasoning-settings",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "JuneLearn/dsh-reasoning-settings",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T04:53:47Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:31.816Z"
+}

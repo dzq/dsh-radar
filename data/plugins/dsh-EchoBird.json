@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-EchoBird",
+  "name": "dsh-EchoBird",
+  "version": "0.0.0",
+  "description": "One-click install + model switch:Claude Code,Codex CLI (OpenAI), Grok Build (xAI), DeepSeek Harness, Kimi Code (Moonshot) ,Qwen Code,Aider,OpenCode,MiMo Code (Xiaomi),ZCode (Z.AI),OpenClaw,Pi,OpenScience,Vibe-Trading,Claude Desktop (3P profile),ChatGPT desktop,OpenCode Desktop,",
+  "keywords": [
+    "claude-code",
+    "deepseek",
+    "deepseek-harness",
+    "dsh-plugins",
+    "kimi-code",
+    "openclaw",
+    "opencode",
+    "zcode"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/edison7009/EchoBird",
+  "homepage": "https://Echobird.ai",
+  "npm": "https://www.npmjs.com/package/dsh-EchoBird",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "edison7009/EchoBird",
+    "open_issues": 348,
+    "pushed_at": "2026-08-17T03:12:43Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:33.865Z"
+}

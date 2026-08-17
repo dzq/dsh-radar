@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-claude-paper",
+  "name": "dsh-claude-paper",
+  "version": "0.0.0",
+  "description": "📖 Cross-agent research paper toolkit for Claude Code, Codex, OpenCode, and DeepSeek Harness—quick summaries, deep study materials, code demos, and a local web viewer.",
+  "keywords": [
+    "academic-tools",
+    "agent-skills",
+    "claude-code",
+    "code-generation",
+    "codex",
+    "deepseek-harness",
+    "learning-management",
+    "npm-package",
+    "opencode",
+    "pdf-parser"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/alaliqing/claude-paper",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-claude-paper",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "alaliqing/claude-paper",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T09:09:33Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:47.186Z"
+}

@@ -34,15 +34,21 @@
   "engines": {},
   "readme": "# dsh-any-background\r\n\r\n<a href=\"https://github.com/Tkingxiao/dsh-any-background\" target=\"_blank\">\r\n  <img src=\"https://img.shields.io/github/stars/Tkingxiao/dsh-any-background?style=social\" alt=\"GitHub stars\" />\r\n</a>\r\n\r\n[English](README.md) | 中文\r\n\r\n一个 **DeepSeek Harness** 外观插件，让你完全自定义 Web 端的主题色、背景壁纸和透明度控制。\r\n\r\n---\r\n\r\n## 功能特性\r\n\r\n- **PS 风格色轮** — 在色相环上选取色相，在内嵌方形中调整饱和度与明度。实时生成 30+ 个 CSS 设计令牌并立即生效。\r\n- **背景壁纸** — 选择任意图片作为壁纸。在视口比例的编辑器中拖动平移、滚轮缩放，所见即所得。\r\n- **透明度控制** — 主界面背景透明度、设置面板透明度、壁纸透明度各自独立滑块控制。\r\n- **模糊效果** — 可调壁纸模糊（0–60 px），打造毛玻璃质感。\r\n- **持久化存储** — 所有设置（颜色、壁纸、透明度、模糊、编辑器位置）由 Node 端保存到 **文件系统** 的 `~/.dsh/.dsh-any-background-data/`，下次启动自动恢复。不再受 `localStorage` 容量限制。\r\n- **中英双语** — 完整的中英文界面，自动跟随语言设置。\r\n- **主题守护** — 后台看门狗定期重新激活自定义主题，即使宿主重置也不会丢失你的选择。\r\n\r\n## 项目结构\r\n\r\n```\r\ndsh-any-background/\r\n├── package.",
   "weekly_downloads": 814,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:42:44.966Z",
   "created_at": "2026-08-15T00:10:47.180Z",
   "gh": {
     "full_name": "Tkingxiao/dsh-any-background",
-    "stars": 5,
     "open_issues": 0,
     "pushed_at": "2026-08-15T16:42:17Z",
     "archived": false,
-    "license": "MIT"
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
   },
   "scores": {
     "popularity": 73,
@@ -53,5 +59,5 @@
     "overall": 67,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.225Z"
+  "updated_at": "2026-08-17T04:56:33.809Z"
 }

@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-voyager",
+  "name": "dsh-voyager",
+  "version": "0.0.0",
+  "description": "Enhancement suite for Gemini, AI Studio, Claude & ChatGPT — plus a prompt manager for any web UI, DeepSeek Harness included. / 面向 Gemini、AI Studio、Claude 与 ChatGPT 的增强套件；提示词管理器可用于任意 Web UI，含 DeepSeek Harness。",
+  "keywords": [
+    "ai-studio",
+    "browser-extension",
+    "bun",
+    "chat-management",
+    "chatgpt",
+    "chrome-extension",
+    "claude-ai",
+    "dsh",
+    "edge-addon",
+    "firefox-addons"
+  ],
+  "license": "GPL-3.0",
+  "repo": "https://github.com/Nagi-ovo/voyager",
+  "homepage": "https://voyager.nagi.fun/en",
+  "npm": "https://www.npmjs.com/package/dsh-voyager",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Nagi-ovo/voyager",
+    "open_issues": 18,
+    "pushed_at": "2026-08-16T00:11:26Z",
+    "archived": false,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:32.308Z"
+}

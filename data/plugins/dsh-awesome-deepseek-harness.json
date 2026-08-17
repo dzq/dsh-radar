@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-awesome-deepseek-harness",
+  "name": "dsh-awesome-deepseek-harness",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness 终极指南：快速入门、资源推荐、精选插件与实用工具 ｜The Ultimate Guide to DeepSeek Harness: QuickStart, Resources, Plugins&Toolkit",
+  "keywords": [
+    "agent",
+    "agent-harness",
+    "awesome-list",
+    "deepseek",
+    "deepseek-harness",
+    "developer-tools",
+    "dsh",
+    "plugins"
+  ],
+  "license": "",
+  "repo": "https://github.com/libukai/awesome-deepseek-harness",
+  "homepage": "https://x.com/libukai",
+  "npm": "https://www.npmjs.com/package/dsh-awesome-deepseek-harness",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "libukai/awesome-deepseek-harness",
+    "open_issues": 24,
+    "pushed_at": "2026-08-17T03:51:08Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:56.653Z"
+}

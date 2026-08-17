@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-notify-on-complete",
+  "name": "dsh-notify-on-complete",
+  "version": "0.0.0",
+  "description": "Desktop notifications for DeepSeek Harness (dsh) — run completion, questions, approvals. Zero-dependency Cordis plugin. ｜ DeepSeek Harness（dsh）桌面通知插件：运行结束 / 提问 / 审批时提醒，零依赖 Cordis 插件。",
+  "keywords": [
+    "dsh-plugins"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/pitetow/dsh-notify-on-complete",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-notify-on-complete",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "pitetow/dsh-notify-on-complete",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T15:03:49Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 30,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:16.627Z"
+}

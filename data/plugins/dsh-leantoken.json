@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-leantoken",
+  "name": "dsh-leantoken",
+  "version": "0.0.0",
+  "description": "Code intelligence for agents: find the code that matters and keep your context window and tokens lean.",
+  "keywords": [
+    "ai-coding",
+    "code-intelligence",
+    "code-navigation",
+    "code-retrieval",
+    "code-search",
+    "codebase-indexing",
+    "coding-agents",
+    "context-engineering",
+    "context-window",
+    "cordis"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/morluto/leantoken",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-leantoken",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "morluto/leantoken",
+    "open_issues": 45,
+    "pushed_at": "2026-08-17T01:29:21Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 40,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:34.173Z"
+}

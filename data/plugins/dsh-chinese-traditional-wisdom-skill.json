@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-chinese-traditional-wisdom-skill",
+  "name": "dsh-chinese-traditional-wisdom-skill",
+  "version": "0.0.0",
+  "description": "中华传统智慧（玄枢）AI Agent 技能包的 DeepSeek Harness（dsh）Cordis 插件：八字/紫微/六爻/梅花/奇门/风水/五运六气/体质全融合，本地确定性引擎 + 可视化 Dashboard，一行 dsh plugin add 安装。",
+  "keywords": [
+    "ai-agent",
+    "bazi",
+    "chinese-traditional-wisdom",
+    "dashboard",
+    "deepseek-harness",
+    "fengshui",
+    "iching",
+    "tcm",
+    "ziwei-doushu"
+  ],
+  "license": "",
+  "repo": "https://github.com/dhicoc/dsh-chinese-traditional-wisdom-skill",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-chinese-traditional-wisdom-skill",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "dhicoc/dsh-chinese-traditional-wisdom-skill",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T15:06:22Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:12.408Z"
+}

@@ -30,17 +30,25 @@
   },
   "readme": "# DSH Writing Guard\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n[![CI](https://github.com/xmutfyh/dsh-plugin-writing-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/xmutfyh/dsh-plugin-writing-guard/actions/workflows/ci.yml)\n\n> DeepSeek Harness (DSH) 论文写作守卫：在论文撰写和修改过程中自动检查常见 AI 写作风格、\n> 修改残留、防御性表达与机械化句式，并在润色时保护科研事实（Scholarship Lock）。\n\n**适用于：中文论文、英文论文、SCI manuscript、毕业论文、学术写作与论文润色。**\n\n如果你正在寻找：\n\n- DSH 论文去 AI 味插件\n- DeepSeek Harness 学术写作插件\n- AI writing style checker for academic papers\n- academic writing guard / manuscript proofreading\n- 论文 AI 痕迹检查\n- SCI 写作 AI 味检查\n\n这个插件的定位不是在论文写完之后进行一次\"大规模 Humanize\"，而是：\n\n**写作前提供规则 → 写作过程中自动守卫 → 修改后自动审计。**\n\n它提供三个 DSH 原生工具：\n\n- `writing_rules`：写作前加载学术写作纪律\n- `writing_audit`：检查论文中的 AI-style patterns",
   "weekly_downloads": 164,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T00:45:19.900Z",
   "created_at": "2026-08-15T12:43:30.763Z",
-  "gh": null,
+  "gh": {
+    "full_name": "xmutfyh/dsh-plugin-writing-guard",
+    "stars": 8,
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T04:53:22Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 55,
-    "maintenance": 0,
+    "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 51,
-    "grade": "C"
+    "overall": 59,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.266Z"
+  "updated_at": "2026-08-17T04:56:33.758Z"
 }

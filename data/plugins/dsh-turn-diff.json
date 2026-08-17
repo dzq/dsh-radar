@@ -36,6 +36,7 @@
   },
   "readme": "# dsh-turn-diff\n\n> 此插件由 AI 生成，未经人工代码审查（Code Review）。使用前请自行审查源码，确保符合你的安全要求。\n\nDeepSeek Harness (DSH) Web UI 插件：**每轮对话结束时，汇总本轮所有文件修改差异**。\n\n## 效果\n\n在每轮对话最后一条 assistant 消息下方，新增一个可折叠的\"改动汇总\"面板：\n\n- 折叠状态：显示 `N 个文件 · M 处修改`\n- 展开状态：按文件分组展示所有 Write/Edit 调用的 diff hunk\n- 每个文件路径可点击，通过宿主的文件打开器直接跳转\n- 使用 DSH 内置的 `DiffBlock` 组件渲染，与工具调用内联 diff 样式一致\n\n## 动机\n\nDSH 已有 `ui-deliverables` 插件，在每轮结束时显示\"修改了哪些文件\"的文件芯片清单。但没有一个地方能**一次性查看本轮所有改动的 diff 内容**——你得回到对话流里，逐个展开每个工具调用的 diff 卡片。\n\n本插件补上这个缺口：数据来源与 `ui-deliverables` 相同（工具自身的 `diff` 渲染意图），但把**所有 hunk 按文件合并**，在一个面板里展示。\n\n构建产物：\n- `lib/index.js` (0.4 KB) — Node 端插件入口\n- `lib/client.js` (12.4 KB) — 浏览器端 bundle（`__ModuleLoader__.load` 格式）\n- `lib/types/` — TypeScript 类型声明\n\n## 安装\n\n### 前提\n\n- DeepSeek Harness >= 0.1.0-rc.5（已验证 rc.5 构建通过）\n- `dsh web` 模式运行\n\n### 安装步骤\n\n```sh\n# 1. 克隆仓库到 ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:33:03.463Z",
   "created_at": "2026-08-14T06:16:42.648Z",
   "gh": null,
@@ -48,5 +49,5 @@
     "overall": 37,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.334Z"
+  "updated_at": "2026-08-17T04:58:30.411Z"
 }

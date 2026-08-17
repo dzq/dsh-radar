@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-zhuzhiliao",
+  "name": "dsh-zhuzhiliao",
+  "version": "0.0.0",
+  "description": "竹知了 —— 一转就哇哇叫的传统玩具，Web 模拟版。零依赖单文件，真实录音采样，移动端优先。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "NOASSERTION",
+  "repo": "https://github.com/imsai-sh/zhuzhiliao",
+  "homepage": "https://imsai.top",
+  "npm": "https://www.npmjs.com/package/dsh-zhuzhiliao",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "imsai-sh/zhuzhiliao",
+    "open_issues": 21,
+    "pushed_at": "2026-08-14T14:31:41Z",
+    "archived": false,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 25,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 26,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:35.811Z"
+}

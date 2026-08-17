@@ -24,6 +24,7 @@
   },
   "readme": "# dsh-otel\n\nOpenTelemetry plugin for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh).\n\n> **Status: early development.**\n> The plugin emits traces and metrics for the agent loop, the model calls, and the tool calls.\n> The GenAI semantic conventions have the status `Development`, so every `gen_ai.*` name can change.\n> Expect breaking changes before version 0.1.0.\n> DeepSeek Harness is also in developer preview.\n\n## What the plugin emits\n\n**Traces**\n\n| dsh concept | Span | Kind |\n| --- | --- | --- |\n| Turn | `invoke_agent` | INTERNAL, root of the trace |\n| Step | `dsh.step` | INTERNAL, child of the turn |\n| Model call | `chat {model}` | CLIENT, child of the step |\n| Tool call | `execute_tool {name}` | INTERNAL, child of the step |\n\nEvery span carries `gen_ai.conversa",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:14:28.572Z",
   "created_at": "2026-08-15T14:07:18.518Z",
   "gh": null,
@@ -36,5 +37,5 @@
     "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.713Z"
+  "updated_at": "2026-08-17T04:58:35.779Z"
 }

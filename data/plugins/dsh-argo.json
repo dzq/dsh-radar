@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-argo",
+  "name": "dsh-argo",
+  "version": "0.0.0",
+  "description": "专门为 agent 打造的 agent 搜索工具，具备多语言搜索能力，覆盖中文/英文/学术/代码/购物/金融/新闻/百科。",
+  "keywords": [
+    "dsh-ecosystem"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/taxueseek/argo",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-argo",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "taxueseek/argo",
+    "open_issues": 5,
+    "pushed_at": "2026-08-13T13:58:54Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 30,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:56.736Z"
+}

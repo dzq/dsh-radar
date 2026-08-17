@@ -19,6 +19,7 @@
   "engines": {},
   "readme": "# dsh-preset-kit\n\nPublish agent presets into a DeepSeek Harness home: copy installs refreshed on\nevery boot, owner tracking, and clean uninstall.\n\n## Why\n\n`dsh` treats presets as local files: a preset is a directory under\n`$DSH_HOME/.agent-presets/<id>/` holding `agent.cordis.yml` (+ optional\n`preset.yml`). Bundles cannot add preset roots — `composeProfile` replaces\nthe `agent-presets` row's `roots` with the shipped root at the top overlay —\nso a plugin that ships a preset has to write into the user root itself.\n\nThis kit is that shared piece: publish, conflict rules, ownership records,\nand uninstall, so every preset-carrying plugin does not reinvent it.\n\n## Hot reload vs. boot refresh\n\n- `dsh-agent-presets` re-reads its roots on every `list()`/`resolve()`, so a\n  preset that appears in th",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T10:45:25.487Z",
   "created_at": "2026-08-15T08:53:05.580Z",
   "gh": null,
@@ -31,5 +32,5 @@
     "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:54.830Z"
+  "updated_at": "2026-08-17T04:58:38.593Z"
 }

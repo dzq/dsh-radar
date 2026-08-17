@@ -30,17 +30,25 @@
   "engines": {},
   "readme": "<div align=\"center\">\n\n# DSH File Review\n\n**无需离开 DeepSeek Harness Web，即可立即审查 Agent 刚刚修改的每个文件。**\n\n![DeepSeek Harness 0.1.x](https://img.shields.io/badge/DeepSeek%20Harness-0.1.x-4f46e5)\n![Web profile](https://img.shields.io/badge/profile-Web-0ea5e9)\n[![npm version](https://img.shields.io/npm/v/dsh-file-review.svg)](https://www.npmjs.com/package/dsh-file-review)\n[![GitHub repository](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/left0ver/dsh-file-review)\n[![MIT License](https://img.shields.io/badge/license-MIT-22c55e)](LICENSE)\n\n[English](README.md) · 简体中文\n\n</div>\n\n## 怎么用\n\n<p align=\"center\">\n  <strong>💬 Chat &nbsp;→&nbsp; ✨ Generate &nbsp;→&nbsp; 📄 Click a changed file &nbsp;→&nbsp; 🔍 Review</strong>\n</p>\n\n## 效果预览\n![leftover](./assests/preview.png)\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T05:51:30.284Z",
   "created_at": "2026-08-14T06:39:51.203Z",
-  "gh": null,
+  "gh": {
+    "full_name": "left0ver/dsh-file-review",
+    "stars": 17,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T09:03:36Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
+    "maintenance": 39,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 39,
-    "grade": "D"
+    "overall": 46,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:47.691Z"
+  "updated_at": "2026-08-17T04:55:36.187Z"
 }

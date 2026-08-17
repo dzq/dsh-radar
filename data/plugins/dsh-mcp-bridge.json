@@ -28,6 +28,7 @@
   },
   "readme": "# dsh-mcp-bridge\n\n![dsh-mcp-bridge](https://raw.githubusercontent.com/Edge-Echo/dsh-mcp-bridge/main/banner.svg)\n\n[![npm version](https://img.shields.io/npm/v/dsh-mcp-bridge?color=4d6bfe&logo=npm)](https://www.npmjs.com/package/dsh-mcp-bridge)\n[![npm downloads](https://img.shields.io/npm/dm/dsh-mcp-bridge?color=22d3ee)](https://www.npmjs.com/package/dsh-mcp-bridge)\n[![license](https://img.shields.io/npm/l/dsh-mcp-bridge?color=4d6bfe)](LICENSE)\n[![GitHub stars](https://img.shields.io/github/stars/Edge-Echo/dsh-mcp-bridge?color=22d3ee)](https://github.com/Edge-Echo/dsh-mcp-bridge)\n\n**面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh) 的精选、验证过的 MCP 全家桶插件。**\n\n一条命令装上经过实战检验的 MCP server 集合——而不是让你自己去琢磨一份 YAML。每个精选 server 在 `servers/` 里有机器可读定义，`scripts/verify-servers.mjs` 会逐",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:48:34.551Z",
   "created_at": "2026-08-14T19:27:53.273Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.746Z"
+  "updated_at": "2026-08-17T04:58:37.089Z"
 }

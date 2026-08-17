@@ -41,17 +41,18 @@
   },
   "readme": "<p align=\"center\">\n  <img src=\"assets/deepseekeyes-banner.png\" width=\"100%\" alt=\"DeepSeekEyes 把视觉证据通过可信桥接交给 DeepSeek 推理\" />\n</p>\n\n<p align=\"center\">\n  <img src=\"assets/deepseekeyes-logo.png\" width=\"112\" alt=\"DeepSeekEyes Logo\" />\n</p>\n\n<h1 align=\"center\">DeepSeekEyes</h1>\n\n<p align=\"center\"><strong>让 DeepSeek 看见，而且全程不离开当前对话。</strong></p>\n\n<p align=\"center\">面向 DeepSeek Harness 的可审计视觉与 Windows / macOS Computer Use Runtime。</p>\n\n<p align=\"center\">\n  <a href=\"README.md\">English</a> ·\n  <a href=\"#安装升级与-doctor\">快速安装</a> ·\n  <a href=\"#工作方式\">工作方式</a> ·\n  <a href=\"#windows--macos-desktop-computer-use-05默认关闭\">Computer Use</a> ·\n  <a href=\"#本插件-token-消耗统计\">Token 统计</a> ·\n  <a href=\"#配置字段\">完整配置</a> ·\n  <a href=\"https://x.com/lucars2026\">X / @lucars2026</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://x",
   "weekly_downloads": 575,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:40:54.792Z",
   "created_at": "2026-08-15T11:27:10.831Z",
   "gh": null,
   "scores": {
     "popularity": 69,
     "maintenance": 0,
-    "quality": 75,
+    "quality": 65,
     "security": 65,
     "dsh_compat": 80,
-    "overall": 58,
+    "overall": 56,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.236Z"
+  "updated_at": "2026-08-17T04:58:28.546Z"
 }

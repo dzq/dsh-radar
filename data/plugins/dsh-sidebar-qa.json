@@ -1,0 +1,62 @@
+{
+  "slug": "dsh-sidebar-qa",
+  "name": "dsh-sidebar-qa",
+  "version": "0.1.0",
+  "description": "DSH web plugin: select conversation text -> ask in a right-side panel -> a dedicated follow-up session (❓追问) in the same workspace, without interrupting the main conversation. Thin consumer of dsh-better-sidebar.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-better-sidebar",
+    "dsh-plugin-market",
+    "dsh-plugins",
+    "sidebar"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/ChenRuoT/dsh-sidebar-qa",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-sidebar-qa",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "readme": "# dsh-sidebar-qa\n\nDeepSeek Harness（DSH）Web 插件：在对话里**划选任意文本 → 点击「提问」→ 右侧面板问答**。\n\n基于dsh-better-sidebar开发的第三方拓展Tab页面。实现类codex侧边提问/claude code的/btw功能\n\n插件自动创建一条**同工作区的独立 DSH 会话**（命名 `❓追问·<主题>`），用**快速无思考模型**把主对话上下文压缩成小摘要后与引文一起注入，回答过程**完全不打断主对话**。追问会话在左侧边栏可见、可继续、可归档，并保持与主对话的从属关系（插件自维护映射）。会话先按划选文本首行**占位命名**，待首次回答完成后再用快速无思考模型基于「问题 + 回答」自动提炼最终标题。\n\n![demo.gif](https://github.com/ChenRuoT/dsh-sidebar-qa/releases/download/v0.1.0/demo.gif)\n\n## 前置依赖（必装）\n\n`dsh-better-sidebar`  **必须安装**（未安装时本插件**不激活**，无任何 UI/行为，也不创建会话）。\n\n```bash\ndsh plugin --profile web add dsh-better-sidebar\n```\n\n## 安装\n\n```bash\n# 通过 git（推荐）\ndsh plugin --profile web add git+https://github.com/ChenRuoT/dsh-sidebar-qa.git\n\n# 或本地路径\ndsh plugin --profile web add <本仓库路径>\n```\n\n重启 `dsh web`（host 半改动需要重启；client 改动浏览器硬刷新即可）。\n\n## 使用\n\n1. 在任意对话（主对话或追问对",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T13:15:12.563Z",
+  "created_at": "2026-08-16T13:15:12.143Z",
+  "gh": {
+    "full_name": "ChenRuoT/dsh-sidebar-qa",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T13:20:37Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:55:45.994Z"
+}

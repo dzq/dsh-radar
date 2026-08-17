@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-client-masquerade",
+  "name": "dsh-client-masquerade",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness 插件：让自定义 llm-pi-ai provider 伪装成 Claude Code / Codex 客户端（伪造客户端身份请求头）。A DeepSeek Harness plugin: masquerade a custom llm-pi-ai provider as Claude Code / Codex clients (spoofed client identity headers).",
+  "keywords": [
+    "claude-code",
+    "codex",
+    "deepseek-harness",
+    "dsh",
+    "llm",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/ymh0000123/dsh-client-masquerade",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-client-masquerade",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "ymh0000123/dsh-client-masquerade",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T05:10:56Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:30.655Z"
+}

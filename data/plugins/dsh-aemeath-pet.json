@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-aemeath-pet",
+  "name": "dsh-aemeath-pet",
+  "version": "0.0.0",
+  "description": "爱弥斯 · DeepSeek Harness 桌宠 — DeepSeek Harness Web GUI 的像素风宠物插件。",
+  "keywords": [
+    "dsh"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/culture-flask/dsh-aemeath-pet",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-aemeath-pet",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "culture-flask/dsh-aemeath-pet",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T14:24:31Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 30,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:33.437Z"
+}

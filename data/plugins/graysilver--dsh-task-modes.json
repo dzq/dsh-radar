@@ -40,6 +40,7 @@
   },
   "readme": "# dsh-task-modes\n\n[English README](README.md)\n\n一个可独立安装的 DeepSeek Harness Web bundle，通过一个包含三个可组合维度的任务模式按钮工作，不修改 DeepSeek Harness core：\n\n- 工作状态：执行或计划；\n- 推理方式：标准或第一性原理；\n- 质量门：关闭、对抗性审查或验收审查。\n\n![dsh-task-modes](https://raw.githubusercontent.com/GraySilver/dsh-task-modes/main/assets/social-preview.png)\n\n## 安装\n\n无需全局安装 DSH，直接将固定 npm 版本安装到 Web profile：\n\n```sh\nnpx -y @deepseek-ai/dsh plugin --profile web add @graysilver/dsh-task-modes@0.2.0\n```\n\n如果已经全局安装 `dsh`，可以使用：\n\n```sh\ndsh plugin --profile web add @graysilver/dsh-task-modes@0.2.0\n```\n\n安装后重启 Web profile，输入区工具旁会出现一个任务模式按钮。按钮显示当前组合，例如 `Execute · Standard · Off`；点开后可选择三个维度。bundle 会接管独立的 Plan 状态 UI seat，因此输入区只保留一个任务模式入口，同时仍复用官方 Plan service 和审批流程。该 bundle 要求标准 DSH Plan mode capability；若服务不存在，它会明确加载失败，而不会伪造一个计划模式。\n\n需要审计源码或进行开发时，可以安装固定 Git revision：\n\n`",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:46:12.541Z",
   "created_at": "2026-08-16T16:56:48.492Z",
   "gh": null,
@@ -52,5 +53,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:54.415Z"
+  "updated_at": "2026-08-17T04:58:38.141Z"
 }

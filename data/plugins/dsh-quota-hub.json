@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-quota-hub",
+  "name": "dsh-quota-hub",
+  "version": "0.1.0",
+  "description": "Unified real-time quota dashboard for DeepSeek Harness: OpenCodeGo windows, DeepSeek balance, OpenRouter credits, SiliconFlow and Moonshot balances in one collapsible panel — auto-detects configured credentials, no keys leave the host.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "quota",
+    "balance",
+    "usage",
+    "opencode-go",
+    "openrouter",
+    "cost"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/penguin-oo/dsh-quota-hub.git",
+  "homepage": "https://github.com/penguin-oo/dsh-quota-hub#readme",
+  "npm": "https://www.npmjs.com/package/dsh-quota-hub",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-api-remotes"
+      ]
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-quota-hub\n\n> [中文](README.zh.md) · [English](README.md)\n\n**DeepSeek Harness 的统一实时额度面板。**\n\n一个可收纳的玻璃面板，把你在意的服务商额度一次看全——OpenCodeGo 滚动/周/月\n窗口、DeepSeek 官方余额、OpenRouter 额度、硅基流动与 Moonshot 余额——\n定时自动刷新，侧边栏按钮带实时健康色点。**API 密钥只留在主机侧，浏览器\n只拿到解析后的数字。**\n\n## 特性\n\n- **自动发现** — 凭据存在即出现（DSH credentials / 环境变量里的\n  `OPENCODE_GO_API_KEY`、`DEEPSEEK_API_KEY`、`OPENROUTER_API_KEY`、\n  `SILICONFLOW_API_KEY`、`MOONSHOT_API_KEY`）；未配置的服务商默认收起并标\n  「未配置」\n- **可收纳** — 每个服务商卡片可折叠成一行；一键「全部收起/展开」；自动\n  刷新并显示每张卡片的更新时间\n- **健康色** — 侧边栏圆点与进度条：剩余 >50% 绿、20–50% 黄、<20% 红\n- **自定义服务商** — 任何带 JSON 额度字段的 HTTP 端点都能在\n  `~/.dsh/dsh-quota-hub.json` 里加（点路径取字段）\n- **密钥不出主机** — 所有请求都在主机侧服务里发起，密钥不越过浏览器边界\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-quota-hub\n```\n\n重启 DSH 后，侧边栏底部出现 **💰 额度** 按钮。\n\n## 自定义服务商\n\n`~/.dsh/dsh-quota-hub.json`：\n\n```json\n",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T04:35:41.117Z",
+  "created_at": "2026-08-17T04:35:40.813Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:31.369Z"
+}

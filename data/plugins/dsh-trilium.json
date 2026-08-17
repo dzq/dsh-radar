@@ -38,6 +38,7 @@
   },
   "readme": "# dsh-trilium\n\n[![npm](https://img.shields.io/npm/v/dsh-trilium)](https://www.npmjs.com/package/dsh-trilium)\n[![DSH](https://img.shields.io/badge/DSH-%3E%3D0.1.0--rc.6%20%3C0.2.0-5b8def)](https://github.com/deepseek-ai/deepseek-harness)\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)\n![awesome · DSH plugin](https://awesome-dsh-plugin.com/badge.svg)\n\nDSH Web GUI 的 **Trilium 记忆知识库插件**：通过 ETAPI 把 Trilium 笔记库接入 agent，\n提供记忆读写、笔记管理、全文搜索、周报工作流、附件、日历笔记、备份导入等能力，\n并在设置页提供独立配置卡片。\n\n## 特性\n\n- **记忆库**：`trilium_remember` 写入（自动归入记忆目录、标题带日期）、`trilium_recall`\n  检索（限定记忆子树）、会话开始自动注入记忆索引（可开关）\n- **笔记管理**：`trilium_*` 工具集——创建/读取/更新/删除/恢复、树浏览、克隆（多目录复用）、\n  属性（label/relation）、修订历史\n- **搜索**：Trilium 全文语法（`\"精确短语\"`、`#标签`、子树限定、排序）\n- **周报工作流**：`trilium_weekly_report` 收集本周素材 → 按《周报撰写规范》成文 →\n  ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T11:42:06.410Z",
   "created_at": "2026-08-16T11:42:06.180Z",
   "gh": null,
@@ -50,5 +51,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.337Z"
+  "updated_at": "2026-08-17T04:58:30.499Z"
 }

@@ -25,6 +25,7 @@
   "engines": {},
   "readme": "# @kongxiangyiren/dhs-theme-plugin\n\nDSH 主题管理插件（静态版）：在 **设置 → 主题** 提供主题大分类，内置两套主题，\n支持上传自定义 JS 主题并一键切换，数据持久化在磁盘上（换浏览器不丢）。\n\n## 功能\n\n- **设置 → 主题** 大分类（与\"通用\"平级）\n- 内置主题：**森林绿** / **海洋蓝**（13 个 alias token 覆盖 + 质感特效 CSS：辉光、网格/波纹、暗角、霓虹光带）\n- **上传自定义 JS 主题**：`__ModuleLoader__.load` 格式单文件，支持 `overrideTokens` 改色、注入 CSS、`slots` 注册 UI 组件、`require(\"react\")`，**无文件大小限制**\n- **点击切换**：上传主题出现在主列表，点一下即应用；切换内置主题自动停用上传主题；同一时刻只有一个生效\n- **磁盘持久化**：Host 半部注册 `webServer` 路由 `GET/POST /api/theme-plugin`，数据存放在 DSH home（`~/.dsh/dhs-theme-plugin.json`），浏览器无关\n\n## 安装\n\n```bash\n# 从 npm 安装（首选）\ndsh plugin --profile web add @kongxiangyiren/dhs-theme-plugin\n\n# 或从 git 直装（纯 JS 无 prepare，无需 allowBuilds 授权）\ndsh plugin --profile web add git+https://github.com/kongxiangyiren/dhs-theme-plugin\n\n# 或本地目录（开发/验证）\ndsh plugin --profile web add ./",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T02:01:47.882Z",
   "created_at": "2026-08-14T08:33:58.033Z",
   "gh": null,
@@ -37,5 +38,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.739Z"
+  "updated_at": "2026-08-17T04:58:36.651Z"
 }

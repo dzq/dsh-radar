@@ -1,0 +1,38 @@
+{
+  "slug": "dsh-multica-runtime",
+  "name": "dsh-multica-runtime",
+  "version": "0.0.0",
+  "description": "Support dsh runtime on Multica.",
+  "keywords": [
+    "dsh"
+  ],
+  "license": "",
+  "repo": "https://github.com/multica-ai/dsh-multica-runtime",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-multica-runtime",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "multica-ai/dsh-multica-runtime",
+    "open_issues": 1,
+    "pushed_at": "2026-08-14T09:45:21Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 15,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 24,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:12.634Z"
+}

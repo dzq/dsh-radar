@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-deepseek-visionary",
+  "name": "dsh-deepseek-visionary",
+  "version": "0.0.0",
+  "description": "使用 DeepSeek 官方多模态视觉模型让你的 Agent 不再眼瞎（支持 DSH、Zed、OpenCode、Codex、Claude Code、Cursor、Claude Desktop）",
+  "keywords": [
+    "agent",
+    "deepseek",
+    "deepseek-harness",
+    "harness",
+    "mcp",
+    "mcp-server",
+    "skills"
+  ],
+  "license": "",
+  "repo": "https://github.com/xlight/deepseek-visionary",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-deepseek-visionary",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "xlight/deepseek-visionary",
+    "open_issues": 1,
+    "pushed_at": "2026-08-17T04:50:02Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:09.627Z"
+}

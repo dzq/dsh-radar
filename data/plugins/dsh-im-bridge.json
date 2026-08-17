@@ -1,0 +1,36 @@
+{
+  "slug": "dsh-im-bridge",
+  "name": "dsh-im-bridge",
+  "version": "0.0.0",
+  "description": "DSH 插件：把 DeepSeek Harness 桥接到 IM（v0.1 微信/iLink；钉钉/飞书/Telegram 预留）。turn/approval 推送 + 远程批准/注入，持久去重/收敛分段/合并窗口。",
+  "keywords": [],
+  "license": "",
+  "repo": "https://github.com/BiBoyang/dsh-im-bridge",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-im-bridge",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "BiBoyang/dsh-im-bridge",
+    "open_issues": 1,
+    "pushed_at": "2026-08-13T23:43:03Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 25,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 26,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:37.448Z"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "dsh-liang-skin",
+  "name": "dsh-liang-skin",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness 滑动变阻器皮肤",
+  "keywords": [],
+  "license": "",
+  "repo": "https://github.com/kingOfSoySauce/dsh-liang-skin",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-liang-skin",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "kingOfSoySauce/dsh-liang-skin",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T03:29:56Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 15,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 25,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:02.185Z"
+}

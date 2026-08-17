@@ -27,6 +27,7 @@
   },
   "readme": "# dsh-issue-tracker\n\nJira Cloud issue-tracker service and model-facing tools for\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).\n\nThe package is one installable DSH bundle with three internal roles:\n\n- a provider-neutral Cordis `issueTracker` service;\n- a Jira Cloud REST API v3 provider;\n- eight tools registered through the public DSH `ToolRuntime` service.\n\nThe plugin is read-only by default. Create, update, comment, and transition\noperations require an explicit `writeEnabled: true`; every write tool also\nsupports a side-effect-free `dryRun`.\n\n## Requirements\n\n- Node.js `^22.19.0 || >=24.0.0`\n- DeepSeek Harness `0.1.0-rc.6`\n- Jira Cloud REST API v3\n\n## Install\n\n```powershell\ndsh plugin --profile web add dsh-issue-tracker\n```\n\nThe bundle row stays disabled until these ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:27:38.785Z",
   "created_at": "2026-08-15T15:27:38.484Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.742Z"
+  "updated_at": "2026-08-17T04:58:36.911Z"
 }

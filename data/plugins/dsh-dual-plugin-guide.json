@@ -28,6 +28,7 @@
   "engines": {},
   "readme": "# dsh-dual-plugin-guide\n\n**Dual-format plugin development guide.** This plugin teaches an agent how to\nbuild plugins that are compatible with **both** ecosystems from one directory:\n\n- **DSH static plugin package** — installable via `dsh plugin --profile <name> add <spec>`\n- **Agent Plugins 1.0** — `plugin.json` + `skills/`, loadable by compatible clients (Codex, Cursor, VS Code, …)\n- (bonus) **Standard agent skills** — `npx skills add` discovers the same `skills/` tree\n\nNot DSH-only: this package itself installs through both formats.\n\n## Install\n\n```bash\n# DSH — register the guidance skill into the agent catalog\ndsh plugin --profile web add github:Fectivnfy112357/dsh-dual-plugin-guide\n\n# Agent Plugins 1.0 — point a compatible client at the repo, or publish it\n#   https://github.com/Fectiv",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T14:42:43.498Z",
   "created_at": "2026-08-16T14:42:43.263Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:56.291Z"
+  "updated_at": "2026-08-17T04:58:38.938Z"
 }

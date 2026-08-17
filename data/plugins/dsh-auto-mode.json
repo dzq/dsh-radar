@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-auto-mode",
+  "name": "dsh-auto-mode",
+  "version": "0.1.1",
+  "description": "DSH plugin: auto mode that routes permission-gated tool calls through an LLM review before approving, blocking, or asking for confirmation.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "auto-mode",
+    "approval",
+    "permissions",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Nuo-cl/dsh-auto-mode.git",
+  "homepage": "https://github.com/Nuo-cl/dsh-auto-mode#readme",
+  "npm": "https://www.npmjs.com/package/dsh-auto-mode",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-auto-mode\n\n> English: [README.md](./README.md)\n\n为 [DeepSeek Harness](https://github.com/deepseek-ai/dsh)（DSH）提供的 **auto mode**。它在权限选择器中以 **Auto mode** 选项呈现，与 read-only / workspace-write / danger-full-access 并列。启用 auto mode 后，原本需要人工确认的工具调用会被自动裁决：\n\n- 命中了明确的 **deny 规则** → 拒绝（用户否决优先）\n- 命中了明确的 **allow 规则** → 放行\n- 属于 **预批准工具** → 无需调用模型，直接放行\n- 其他情况由 **审查模型** 查看对话记录与本次调用，决定放行、阻止或转交人工确认\n- 审查模型没有给出结论（API 错误、中止、输出截断）时：拒绝（`failClosed`）或回落到普通审批链（弹窗确认）\n\n## 兼容性\n\n已在 DSH `0.1.0-rc.6` 上测试。bundle patch 会重述内置权限预设表（`read-only`、`workspace-write`、`danger-full-access`）；DSH 升级后请检查 `cordis.patch.yml` 中的这张表，并在内置预设变化时同步更新。\n\n## 安装\n\n```bash\ndsh plugin --profile web add dsh-auto-mode@<version>\n```\n\n或者使用本地 checkout：\n\n```bash\n# 添加到 C:\\Users\\<you>\\.dsh\\profiles\\web\\package.json\n#   \"dependencies\": { \"dsh-auto-mode\": ",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T19:22:45.390Z",
+  "created_at": "2026-08-16T05:29:47.687Z",
+  "gh": {
+    "full_name": "Nuo-cl/dsh-auto-mode",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T19:17:26Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 65,
+    "dsh_compat": 75,
+    "overall": 48,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:54:58.426Z"
+}

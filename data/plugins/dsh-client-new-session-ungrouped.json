@@ -27,6 +27,7 @@
   "engines": {},
   "readme": "# dsh-new-session-ungrouped\n\n> **English** — A dsh Web GUI plugin that adds **project-less chat sessions**\n> (\"work outside of a project\", as Cursor calls it): conversations created\n> **outside any workspace**, with no project `AGENTS.md`/`CLAUDE.md` and\n> permissions anchored to the chat directory. It adds a **\"Work outside of a\n> project\"** entry to the workspace picker, repairs the ungrouped\n> group-header \"+\" (a dead button in the stock UI), routes new sessions to\n> project-less mode whenever the current session is ungrouped, and unlocks\n> the blank ungrouped composer. The chat directory is auto-resolved: pinned\n> folder → `DSH-Chat/` under the home directory → system picker. The top \"+\"\n> keeps the factory default behavior. (Full Chinese docs below; a complete\n> English translation fo",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T07:38:00.387Z",
   "created_at": "2026-08-14T07:24:49.005Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 36,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.312Z"
+  "updated_at": "2026-08-17T04:58:29.709Z"
 }

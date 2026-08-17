@@ -23,6 +23,7 @@
   "engines": {},
   "readme": "# @dsh-suite/plugin-team-board\n\n> DSH 插件：多 agent / subagent 共享的持久任务看板。通过一个 Cordis **服务键 `ctx.teamBoard`** 物化\n> 共享状态（不是模块级全局变量），用 `defineTool` 暴露 `task_create` / `task_claim` / `task_update` /\n> `task_list` / `task_delete`，并用 sessions seam 做跨重载持久化。生态位空白：`ccteam` 是独立产品，\n> 没人做成 DSH 原生插件。\n\n> DSH plugin: a shared, durable task board for multi-agent / subagent collaboration. Shared state is\n> materialized as a Cordis **service key `ctx.teamBoard`** (not a module global), exposed through\n> `defineTool` as `task_create` / `task_claim` / `task_update` / `task_list` / `task_delete`, and\n> persisted across reload via the sessions seam. A DSH-native board — an empty niche (`ccteam` is a\n> standalone product, nobody built the DSH-native one).\n\n---\n\n## 特性 / Features\n\n- **共享状态 = 协作用键**（设计准则 #2/#10）：看板状态活",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T09:09:07.140Z",
   "created_at": "2026-08-14T09:09:06.834Z",
   "gh": null,
@@ -35,5 +36,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.710Z"
+  "updated_at": "2026-08-17T04:58:35.690Z"
 }

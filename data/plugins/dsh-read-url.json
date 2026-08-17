@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-read-url",
+  "name": "dsh-read-url",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness URL reader: fetch any page and return clean main-content text/Markdown. Auto charset (GBK/GB2312/UTF-8/Big5), token-efficient (6000-char cap, cache, offset), zero deps, no API key. 网页一键读全文 → 干净正文 / 结构化 Markdown",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugins"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/2672243194/dsh-read-url",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-read-url",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "2672243194/dsh-read-url",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T11:04:25Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:47.963Z"
+}

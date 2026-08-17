@@ -1,0 +1,55 @@
+{
+  "slug": "dsh-launcher",
+  "name": "dsh-launcher",
+  "version": "0.3.5",
+  "description": "一个轻量的 dsh（DeepSeek Harness）插件：安装一个终端命令，输入 dsh-go 即可启动 harness 并自动打开浏览器。零依赖，约 9 KB。（桌面双击版在独立的 dsh-desktop-launcher 包）",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "bundle",
+    "launcher",
+    "terminal"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/LvienOeria/dsh-launcher.git",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-launcher",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "readme": "# dsh-launcher\n\n[![npm version](https://img.shields.io/npm/v/dsh-launcher)](https://www.npmjs.com/package/dsh-launcher) [![npm downloads](https://img.shields.io/npm/dm/dsh-launcher)](https://www.npmjs.com/package/dsh-launcher) [![license](https://img.shields.io/npm/l/dsh-launcher)](https://github.com/LvienOeria/dsh-launcher/blob/main/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/LvienOeria/dsh-launcher)](https://github.com/LvienOeria/dsh-launcher)\n\n[English](https://github.com/LvienOeria/dsh-launcher/blob/main/README.en.md) | **中文**\n\n\n一个轻量的 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 插件：安装一个**终端命令，一个字启动 harness** —— 输入 `dsh-go`，自动启动 Web UI 并打开浏览器。Everything is a plugin，这个插件本身就是一个 bundle。\n\n**轻量：** 零依赖，包体积约 9 KB。只碰终端侧 —— 不产生任何桌面图标、不捆绑应用。桌面双击版是独立的 [dsh-",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T05:54:04.213Z",
+  "created_at": "2026-08-14T05:28:03.642Z",
+  "gh": {
+    "full_name": "LvienOeria/dsh-launcher",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T05:54:27Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:54:54.270Z"
+}

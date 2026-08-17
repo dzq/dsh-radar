@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-Vibe-Skills",
+  "name": "dsh-Vibe-Skills",
+  "version": "0.0.0",
+  "description": "VibeSkills is a general-purpose Skill that automatically routes local Skills and intelligently orchestrates harness workflows.",
+  "keywords": [
+    "agent-framework",
+    "agent-skills",
+    "agentic-coding",
+    "ai-agents",
+    "ai-scientist",
+    "ai-skills",
+    "ai-workflow",
+    "automation",
+    "claude-code",
+    "codex"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-Vibe-Skills",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "foryourhealth111-pixel/Vibe-Skills",
+    "open_issues": 34,
+    "pushed_at": "2026-08-11T15:42:32Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:35.736Z"
+}

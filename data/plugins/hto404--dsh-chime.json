@@ -30,6 +30,7 @@
   "engines": {},
   "readme": "<div align=\"center\">\n\n![dsh-chime](docs/banner.svg)\n\n[![npm version](https://img.shields.io/npm/v/@hto404/dsh-chime?style=flat-square&label=npm)](https://www.npmjs.com/package/@hto404/dsh-chime)\n[![npm downloads](https://img.shields.io/npm/dm/@hto404/dsh-chime?style=flat-square&label=downloads)](https://www.npmjs.com/package/@hto404/dsh-chime)\n[![GitHub stars](https://img.shields.io/github/stars/HtO404/dsh-chime?style=flat-square&label=stars)](https://github.com/HtO404/dsh-chime)\n[![license](https://img.shields.io/github/license/HtO404/dsh-chime?style=flat-square)](LICENSE)\n[![topic: dsh-plugin](https://img.shields.io/badge/topic-dsh--plugin-2ea44f?style=flat-square)](https://github.com/topics/dsh-plugin)\n[![platform](https://img.shields.io/badge/platform-web-6366f1?style=flat-square)](htt",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T19:25:01.081Z",
   "created_at": "2026-08-15T05:46:00.621Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:49.213Z"
+  "updated_at": "2026-08-17T04:58:37.352Z"
 }

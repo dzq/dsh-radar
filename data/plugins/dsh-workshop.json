@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-workshop",
+  "name": "dsh-workshop",
+  "version": "0.0.0",
+  "description": "Steam Workshop style plugin store for DeepSeek Harness Web UI: browse 850+ community plugins, one-click install with GitHub mirror acceleration, progress UI, security checks, Chinese descriptions",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/loguhan/dsh-workshop",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-workshop",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "loguhan/dsh-workshop",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T11:01:21Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:48.968Z"
+}

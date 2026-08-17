@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-skill-manager-ytxue",
+  "name": "dsh-skill-manager-ytxue",
+  "version": "0.0.0",
+  "description": "DSH web plugin: skill manager in the Settings sidebar - list/enable/disable, folder batch import with conflict prompts, state-driven one-click DSH-spec check & auto-fix, system/project scope labels.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "skill-manager",
+    "skill-manager-ytxue"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/YTxue/dsh-skill-manager-ytxue",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-skill-manager-ytxue",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "YTxue/dsh-skill-manager-ytxue",
+    "open_issues": 3,
+    "pushed_at": "2026-08-14T14:17:42Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:51.411Z"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-agent-compact",
+  "name": "dsh-agent-compact",
+  "version": "0.0.0",
+  "description": "DSH plugin for agent-driven span compaction: compress chosen conversation spans into self-written checkpoints instead of the official head-anchored full-context sweep.",
+  "keywords": [
+    "context-compression",
+    "deepseek-harness"
+  ],
+  "license": "NOASSERTION",
+  "repo": "https://github.com/MimicHunterZ/dsh-agent-compact",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-agent-compact",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "MimicHunterZ/dsh-agent-compact",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T04:30:55Z",
+    "archived": false,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:24.691Z"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-vision-opencode",
+  "name": "dsh-vision-opencode",
+  "version": "0.0.0",
+  "description": "DSH plugin: Auto-convert images to text for pure-text LLMs (DeepSeek etc.) via any vision model. No need to switch your main model.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin-market",
+    "dsh-plugins"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/poiuyjie/dsh-vision-opencode",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-vision-opencode",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "poiuyjie/dsh-vision-opencode",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T15:51:20Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:39.609Z"
+}

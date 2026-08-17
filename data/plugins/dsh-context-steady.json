@@ -30,6 +30,7 @@
   },
   "readme": "# dsh-context-steady\n\nA DeepSeek Harness plugin that transplants the core of San v0.1\n**Context Steady** onto DSH's public seams, without modifying the agent loop.\n\nSan's claim is about a runtime property, not a prompt template: provider-bound\ncontext must stop growing linearly with the raw transcript, while continuity\nand auditability survive. This plugin reproduces that property with DSH's own\n`Session` log + ordered surface.\n\n- **TurnDigest ledger** — every settled turn becomes a structured digest\n  (intent / actions / decisions / files / tool evidence / risks / next steps).\n- **Stable checkpoint** — older digests roll up into one budget-bounded,\n  stable layer.\n- **Bounded ContextPacket** — at turn settle (before `turn/end`), a snapshot\n  user message carries checkpoint + recent digest",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T02:34:27.381Z",
   "created_at": "2026-08-17T02:34:27.055Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:57.420Z"
+  "updated_at": "2026-08-17T04:58:39.026Z"
 }

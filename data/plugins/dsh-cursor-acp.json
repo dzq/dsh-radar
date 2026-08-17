@@ -33,6 +33,7 @@
   },
   "readme": "# dsh-cursor-acp\n\n[English](README.md) | 中文\n\nDeepSeek Harness 的社区插件。平时聊天时，当前智能体可以把一件独立的活交给本机**已经登录的 Cursor 命令行**。\n\n这不是模型列表里的「Cursor 模型」，也不是 Cursor 官方产品。\n\n## 使用前\n\n同一台电脑先装 [Cursor CLI](https://cursor.com/docs/cli/installation)，再登录：\n\nWindows（PowerShell）：\n\n```powershell\nirm 'https://cursor.com/install?win32=true' | iex\nagent login\n```\n\nmacOS / Linux：\n\n```bash\ncurl https://cursor.com/install -fsS | bash\nagent login\n```\n\n不想交互登录的话，也可以设置 `CURSOR_API_KEY`。\n\n## 国内网络（代理）\n\nCursor 的登录和跑任务都要连国外服务器。浏览器开了「魔法」、能打开 cursor.com，**不等于**终端里的 `agent` / `dsh` 也能连上。Clash 等软件的系统代理，Node 默认不认，会继续直连，然后 `agent login` 失败，或 `cursor_agent` 报地区/网络错误。\n\n先看你的代理软件本地端口（常见是 `7890`，以软件里显示的为准），在**即将运行命令的那个窗口**里设（只对这个窗口有效）：\n\nPowerShell：\n\n```powershell\n$env:HTTP_PROXY = \"http://127.0.0.1:7890\"\n$env:HTTPS_PROXY = \"http://127.0.0.1:78",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T18:59:31.158Z",
   "created_at": "2026-08-16T18:59:30.592Z",
   "gh": null,
@@ -45,5 +46,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.701Z"
+  "updated_at": "2026-08-17T04:58:35.512Z"
 }

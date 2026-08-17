@@ -1,5 +1,83 @@
 [
   {
+    "file": "2026-08-17-1258.json",
+    "prev": "2026-08-17-1253.json",
+    "total_delta": 1901,
+    "grades": {
+      "S": 0,
+      "A": 1,
+      "B": 107,
+      "C": 364,
+      "D": 1429
+    },
+    "downloads_delta": 110232,
+    "compat_delta": 1181,
+    "generated_at": "2026-08-17T04:58:39.117Z",
+    "top10_in": [
+      "@liustack/modsearch",
+      "dsh-pocket",
+      "@nanmicoder/dsh-agent-teams",
+      "dsh-stock-watch",
+      "dsh-any-background",
+      "dsh-mnemon",
+      "dsh-lark-bot",
+      "dsh-codex-oauth",
+      "dsh-deepread",
+      "dsh-win32"
+    ],
+    "top10_out": [
+      "dsh-open-design",
+      "dsh-reactive-resume",
+      "dsh-OpenViking",
+      "dsh-voyager",
+      "dsh-openpencil",
+      "dsh-web-ui",
+      "dsh-mirage",
+      "dsh-EchoBird",
+      "dsh-colleague-skill",
+      "dsh-petdex"
+    ]
+  },
+  {
+    "file": "2026-08-17-1253.json",
+    "prev": "2026-08-17-1227.json",
+    "total_delta": -1055,
+    "grades": {
+      "S": 0,
+      "A": -1,
+      "B": -69,
+      "C": -129,
+      "D": -856
+    },
+    "downloads_delta": -95418,
+    "compat_delta": -995,
+    "generated_at": "2026-08-17T04:53:20.258Z",
+    "top10_in": [
+      "dsh-open-design",
+      "dsh-reactive-resume",
+      "dsh-OpenViking",
+      "dsh-voyager",
+      "dsh-openpencil",
+      "dsh-web-ui",
+      "dsh-mirage",
+      "dsh-EchoBird",
+      "dsh-colleague-skill",
+      "dsh-petdex"
+    ],
+    "top10_out": [
+      "@liustack/modsearch",
+      "dsh-any-background",
+      "dsh-remote",
+      "@liustack/pptfast",
+      "dsh-store",
+      "dshmarket",
+      "dsh-plugin-vetting",
+      "dsh-workbench",
+      "dsh-update-copilot",
+      "dsh-smart-approval"
+    ]
+  },
+  {
     "file": "2026-08-17-1227.json",
     "prev": "2026-08-17-1156.json",
     "total_delta": 1025,

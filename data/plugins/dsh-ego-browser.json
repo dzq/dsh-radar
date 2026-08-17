@@ -1,0 +1,41 @@
+{
+  "slug": "dsh-ego-browser",
+  "name": "dsh-ego-browser",
+  "version": "0.0.0",
+  "description": "DSH（DeepSeek Harness）插件：把 ego-lite 浏览器（给 AI Agent 用的 Chromium）接入 HARNESS——13 个结构化 ego_* 工具（文本语义快照、语义定位点击、表单填充、截图、CDP 控制、任务空间隔离），内置 ego 运行时，Linux + Chrome 开箱即用，无需克隆官方仓库或手动构建。",
+  "keywords": [
+    "agent-browser",
+    "browser-automation",
+    "dshx",
+    "ego-lite"
+  ],
+  "license": "",
+  "repo": "https://github.com/Fisfzy/ego-browser",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-ego-browser",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Fisfzy/ego-browser",
+    "open_issues": 4,
+    "pushed_at": "2026-08-17T01:43:33Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:26.592Z"
+}

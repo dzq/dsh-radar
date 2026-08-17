@@ -1,0 +1,63 @@
+{
+  "slug": "dsh-vision-plugin",
+  "name": "dsh-vision-plugin",
+  "version": "1.3.0",
+  "description": "dsh-vision-plugin: give DeepSeek Harness text-only models a pair of eyes — pasted images are transcribed by a vision model before they reach a text-only main model, plus the vision_analyze tool and a bilingual settings page.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "vision",
+    "image",
+    "llm"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Xin-Zhang-IceMan/dsh-vision-plugin.git",
+  "homepage": "https://github.com/Xin-Zhang-IceMan/dsh-vision-plugin#readme",
+  "npm": "https://www.npmjs.com/package/dsh-vision-plugin",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "readme": "# dsh-vision-plugin\n\n> 给 DeepSeek Harness 的纯文本模型装上\"眼睛\"。\n\n[English](README.md) | **中文**\n\n![#dsh-plugin](https://img.shields.io/badge/dsh-plugin-bundle%20composition-1f6feb)\n\n**v1.3.0** · MIT License\n\n---\n\ndeepseek-v4 系列是纯文本模型：你可以在对话框里粘贴截图、照片，但它看不见。这个插件在中间加了一层——图片先交给视觉模型（qwen3.7-plus、kimi-k3 等）转写成文字描述，再把描述交给主模型。从此**粘贴图片、切换任何文本模型，都能正常\"看图\"**。\n\n## 效果\n\n```\n你：这是什么？                          （粘贴了一张 Clash Verge Logo）\n\n助手：这是 Clash Verge 的标志（Logo）。左侧是一个黑色的猫头剪影，\n     右侧是文字 \"Clash Verge\"。它是一款基于 Clash 内核的图形化\n     代理客户端软件……\n```\n\n图片由视觉模型自动转写，主模型看到的是文字描述，回答和读图效果一样自然。\n\n## 三个能力\n\n1. **粘贴图片直接问** —— 对话框粘贴或拖入图片，任意文本模型都能回答图片内容，不需要任何特殊指令。\n2. **`vision_analyze` 工具** —— 模型可以主动调用它分析本地图片文件，还能指定问题（\"图中表格第三行数据是多少？\"）和具体视觉模型。\n3. **设置页配置视觉模型** —— DSH 设置面板新增\"视觉模型\"页：选默认视觉模型、看当前路由，中英双语、跟随界面语言。\n\n## 快速开始\n\n### 永久安装 —— 每次 dsh 启动自动载",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T03:11:44.527Z",
+  "created_at": "2026-08-14T13:03:42.433Z",
+  "gh": {
+    "full_name": "Xin-Zhang-IceMan/dsh-vision-plugin",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T03:09:05Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:52.459Z"
+}

@@ -25,6 +25,7 @@
   },
   "readme": "# dsh-bakeoff\n\n> 同一任务、同一代码基线，不同模型 / Preset 并行对照，用确定性验收回执而不是感觉来选方案。\n\n| 优先级 | 状态 | 名称核查 | 形态 |\n| --- | --- | --- | --- |\n| **S（排队第二）** | **MVP 已发布**（2026-08-16） | 原名 `dsh-arena` 已被占用，改用 `dsh-bakeoff`（未占用，2026-08-15） | 插件套件 |\n\n## 命名说明\n\n原方案名 `dsh-arena` 与 [Apageoflove/DSH-arena](https://github.com/Apageoflove/DSH-arena)（\"Local-first experiment and evaluation workbench\"，1★）**同名且同方向**，必须改名。`bakeoff` 是业界对\"同题多方案对比评测\"的惯用称呼，语义自解释；备选名 `dsh-crucible`、`dsh-gauntlet` 亦经核查可用（记录见 [docs/research.md](docs/research.md)）。\n\n## 解决什么问题\n\n模型、Preset、插件组合、Agent Loop 策略越来越多，用户面临\"到底哪个组合适合当前任务\"的选型问题，而目前只能凭感觉。dsh-bakeoff 让同一任务在完全相同的代码环境中以多个 Variant 运行，比较：\n\n- 是否真正完成（Evidence Gate 回执判定，非模型自述）；\n- 测试/构建/Lint 是否通过；\n- Diff 规模与修改范围合规性；\n- 工具失败次数、运行时间、Token 与费用。\n\n## 使用方式（MVP）\n\n在仓库中编写 Experiment Spec（YAML），然后运行 slash 命令：\n\n```yaml",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T10:33:04.213Z",
   "created_at": "2026-08-16T10:33:04.010Z",
   "gh": null,
@@ -37,5 +38,5 @@
     "overall": 36,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.980Z"
+  "updated_at": "2026-08-17T04:58:34.546Z"
 }

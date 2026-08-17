@@ -30,6 +30,7 @@
   "engines": {},
   "readme": "# dsh-node-repl\n\nPer-session **Node REPL terminal** for the DSH web UI. Open a real Node.js REPL\ninside any conversation — with the live agent context (`ctx`, `agent`) in scope.\n\n## Features\n\n- A **REPL** button in every session header opens a floating terminal window,\n  local to that session (no global overlay, no conversation space taken).\n- A real `node:repl` prompt — Tab completion, up/down history, top-level `await`,\n  ANSI colors, `.help` / `.editor`.\n- The live agent context is in scope: `ctx` (= `agent.ctx`) and `agent`, so\n  `ctx.plugin`, `ctx.effect`, `ctx.get`, `ctx.on`, `ctx.provide` all work — plus\n  the usual Node globals (`require`, `process`, `console`, `fetch`, …).\n- Draggable and resizable window; collapse keeps the REPL alive, close kills it.\n\n## Install\n\n```sh\ndsh plugi",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T16:30:49.077Z",
   "created_at": "2026-08-16T16:14:09.876Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.467Z"
+  "updated_at": "2026-08-17T04:58:33.058Z"
 }

@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-open-managed-agents",
+  "name": "dsh-open-managed-agents",
+  "version": "0.0.0",
+  "description": "Open-source Claude Managed Agents API implementation and self-hosted Claude Tag-style agent runtime. Drop-in compatible; runs on Cloudflare Workers/Durable Objects or Node.js. Apache 2.0.",
+  "keywords": [
+    "agent-framework",
+    "agent-infrastructure",
+    "agent-platform",
+    "ai-agents",
+    "anthropic-api",
+    "anthropic-managed-agents",
+    "byok",
+    "claude-api",
+    "claude-code",
+    "claude-managed-agents"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/openma-ai/open-managed-agents",
+  "homepage": "https://openma.dev",
+  "npm": "https://www.npmjs.com/package/dsh-open-managed-agents",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "openma-ai/open-managed-agents",
+    "open_issues": 18,
+    "pushed_at": "2026-08-16T07:51:46Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:50.397Z"
+}

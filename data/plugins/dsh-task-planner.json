@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-task-planner",
+  "name": "dsh-task-planner",
+  "version": "0.0.0",
+  "description": "Task planning with experience muscle-memory for DeepSeek Harness: condition-reflex recall + LLM capability matching + auto-persisted lessons",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "experience",
+    "planning",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/ztl34245881-commits/dsh-task-planner",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-task-planner",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "ztl34245881-commits/dsh-task-planner",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T13:34:02Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:17.724Z"
+}

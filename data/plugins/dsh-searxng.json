@@ -27,6 +27,7 @@
   },
   "readme": "# dsh-searxng\n\nA [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh) plugin that registers a\n[SearXNG](https://docs.searxng.org/)-backed search provider into the web capability seam\n(`ctx.web`), giving your agent `web_search` through a **free, self-hosted, key-less** metasearch\ninstance — instead of the paid Exa/Perplexity APIs.\n\n## Install\n\n```sh\ndsh plugin add dsh-searxng\n```\n\n(With a named profile: `dsh plugin --profile <name> add dsh-searxng`.)\n\n## Quick start\n\n1. **Run a SearXNG instance with the JSON format enabled** (one command, one minute):\n\n   ```sh\n   cd examples/docker && docker compose up -d\n   # verify: curl 'http://127.0.0.1:8080/search?q=test&format=json'\n   ```\n\n   The bundled compose file is loopback-only and pre-configures\n   [`search.formats`](exam",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T05:02:36.462Z",
   "created_at": "2026-08-16T05:02:36.260Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.467Z"
+  "updated_at": "2026-08-17T04:58:33.058Z"
 }

@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-oh-my-dsh",
+  "name": "dsh-oh-my-dsh",
+  "version": "0.0.0",
+  "description": "Minimal-stable DeepSeek Harness preset with Linux-shaped persistent Bash, native Windows support, on-demand capability routing, and a low-cost V4 Flash router for DeepSeek V4 Pro coding workflows.",
+  "keywords": [],
+  "license": "NOASSERTION",
+  "repo": "https://github.com/Jonah-Wu23/oh-my-dsh",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-oh-my-dsh",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Jonah-Wu23/oh-my-dsh",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T09:49:52Z",
+    "archived": false,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:21.145Z"
+}

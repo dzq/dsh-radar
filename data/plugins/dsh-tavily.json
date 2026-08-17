@@ -33,6 +33,7 @@
   "engines": {},
   "readme": "# dsh-tavily\n\n中文 | [English](README.en.md)\n\n[![awesome · DSH plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com) [![推荐 dshfind](https://img.shields.io/badge/%E6%8E%A8%E8%8D%90-dshfind-ffd700?labelColor=555555)](https://dshfind.com/zh/plugins/SZMY-haruhi/dsh-tavily?ref=badge)\n\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的 Tavily 网页搜索。作为其网页搜索服务提供商。\n\n## 安装\n\nnpm（稳定版，官方推荐）：\n\n```sh\ndsh plugin --profile web add dsh-tavily\ndsh web\n```\n\n也可以跟 GitHub（跟仓库最新提交）：\n\n```sh\ndsh plugin --profile web add github:SZMY-haruhi/dsh-tavily\ndsh web\n```\n\n设置 → 插件 → 插件配置 → **Tavily 网页搜索**：打开开关即可。Key 可选，不填走无 Key。左下「连通测试」可确认现在能不能搜（无 Key 也测得通）。\n\n<p align=\"center\">\n  <img src=\"docs/settings-zh.png\" alt=\"Tavily 网页搜索设置：无 Key 时连通测试通过\" width=\"560\" />\n</p>\n\n钉 commit：\n\n```sh",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T17:55:12.179Z",
   "created_at": "2026-08-16T15:48:08.072Z",
   "gh": null,
@@ -45,5 +46,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.735Z"
+  "updated_at": "2026-08-17T04:58:36.476Z"
 }

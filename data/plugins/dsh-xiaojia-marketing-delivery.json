@@ -26,6 +26,7 @@
   },
   "readme": "# xiaojia-Marketing-Delivery\n\n![AI Skill](https://img.shields.io/badge/AI%20Skill-Marketing-black)\n![Xiaohongshu Ready](https://img.shields.io/badge/Xiaohongshu-Ready-red)\n![Campaign Planning](https://img.shields.io/badge/Campaign-Planning-blue)\n![GitHub Install](https://img.shields.io/badge/Install-From%20GitHub-success)\n![Agent Ready](https://img.shields.io/badge/Ready%20for-Agents-orange)\n![Web Result](https://img.shields.io/badge/Web%20Result-justailab.com-6f42c1)\n\n把营销需求直接推进成可交付结果的 AI skill。\n\n`xiaojia-Marketing-Delivery` 不是一个只会陪你聊天的通用助手。它面向真实营销场景设计，目标很直接：把你脑子里的想法、你手里的资料、你已有的上下文，推进成更接近可发布状态的营销方案、小红书图文笔记、卖点表达、内容方向和营销图片。\n\n如果你要的是“给我一个结果”，而不是“我们先泛泛聊聊”，这就是为你准备的 skill。\n\n> [!TIP]\n> 这不是一个泛用聊天 prompt，而是一条面向营销交付的生产链路。它的价值在于持续生成、持续迭代、持续追踪，而不是临时写一段漂亮话。\n\n## 为什么它很强\n\n很多工具只能给你一段文案，但营销工作真正难的地方从来不只是写字，而是",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T15:34:59.335Z",
   "created_at": "2026-08-14T15:34:59.011Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 36,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:54.830Z"
+  "updated_at": "2026-08-17T04:58:38.593Z"
 }

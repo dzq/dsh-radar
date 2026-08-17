@@ -25,6 +25,7 @@
   },
   "readme": "# dsh-plugin-greeter\r\n\r\n一个 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（dsh）插件：每次会话开始时向你问候，并记住你的名字，让每次问候都更贴心。\r\n\r\n**中文** | [English](README.md)\r\n\r\n## 功能特性\r\n\r\n- 👋 **每次会话都问候** — 每次都用**全新措辞**、**跟随你使用的语言**（模型即兴生成，不会重复）。\r\n- 🧑 **第一次先问你名字** — 首个会话会询问你的名字，并通过 `remember_name` 工具持久化保存。\r\n- 💾 **跨会话记住你** — 名字存储在 dsh home（`~/.dsh/greeter-store.json`），之后的会话都会**按名字**问候你。\r\n- ✨ **主动问候** — 新建会话时 agent 会**立刻主动跟你打招呼**，不用先发消息。（设置 `proactive: false` 可改为只在收到你的消息后才问候。）\r\n- 🎨 **说一句话就能换风格** — 说 *\"以后用工程风问候我\"* 或 *\"改用俏皮风格\"*，插件会自动帮你改好——不用改配置、不用重启。\r\n\r\n## 演示\r\n\r\n**新建会话立即主动问候** — 打开新会话，agent 立刻主动跟你打招呼，不用先打字：\r\n\r\n![会话开始时的问候](docs/demo-greeting.gif)\r\n\r\n**说一句话就能换风格** — 说 *\"以后用俏皮的风格问候我\"*，插件自动帮你保存：\r\n\r\n![聊天切换风格](docs/demo-switch-style.png)\r\n\r\n## 安装\r\n\r\n### 从 npm 安装\r\n\r\n```sh\r\ndsh plugin --profile web add dsh",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T09:27:05.353Z",
   "created_at": "2026-08-14T06:39:26.661Z",
   "gh": null,
@@ -37,5 +38,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:49.241Z"
+  "updated_at": "2026-08-17T04:58:37.784Z"
 }

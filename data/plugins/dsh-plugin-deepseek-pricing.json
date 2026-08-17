@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-plugin-deepseek-pricing",
+  "name": "dsh-plugin-deepseek-pricing",
+  "version": "0.0.0",
+  "description": "DSH Price Monitor（价格监控）· DeepSeek 实时定价、峰谷自动切换与会话费用监控的 dsh 插件",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "plugin",
+    "pricing"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Dasooul03/dsh-plugin-deepseek-pricing",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-deepseek-pricing",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Dasooul03/dsh-plugin-deepseek-pricing",
+    "open_issues": 1,
+    "pushed_at": "2026-08-17T03:24:52Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:55.614Z"
+}

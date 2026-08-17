@@ -33,17 +33,25 @@
   "engines": {},
   "readme": "# dsh-message-rail\n\n[![npm version](https://img.shields.io/npm/v/dsh-message-rail)](https://www.npmjs.com/package/dsh-message-rail)\n[![npm downloads](https://img.shields.io/npm/dm/dsh-message-rail)](https://www.npmjs.com/package/dsh-message-rail)\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n\nCodex 风格左侧消息导航轨道 —— 在 DeepSeek Harness Web UI 的长会话里快速定位历史提问。\n\n> Left-side message navigation rail for the DeepSeek Harness Web UI: jump to any past user message in long sessions, Codex-style.\n\n> 交互灵感来自 Codex 的消息导航栏（inspired by Codex's message rail）。本插件与 OpenAI 无关联。\n\n## 效果预览\n\n会话左侧的消息导航轨道（悬停刻度显示预览卡，点击跳转到对应消息）：\n\n![轨道悬停预览](assets/rail-hover-preview.png)\n\n轨道贴会话区左缘，与界面主题自适应：\n\n![轨道整体效果](assets/rail-left-edge.png)\n\n## 功能\n\n- **等距刻度轨道**：会话左侧一条 42px 轨道，每条用户消息一个刻度（固定 11px 间距）；轨道默认高",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T12:34:04.317Z",
   "created_at": "2026-08-15T11:08:46.423Z",
-  "gh": null,
+  "gh": {
+    "full_name": "wx-yss/dsh-message-rail",
+    "stars": 6,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T08:57:08Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
+    "maintenance": 40,
     "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 37,
-    "grade": "D"
+    "overall": 45,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:47.698Z"
+  "updated_at": "2026-08-17T04:57:10.029Z"
 }

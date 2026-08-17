@@ -38,6 +38,7 @@
   },
   "readme": "# @2nd1st/dsh-plugin-open-app\n\n[![npm](https://img.shields.io/npm/v/%402nd1st%2Fdsh-plugin-open-app?logo=npm&label=npm)](https://www.npmjs.com/package/@2nd1st/dsh-plugin-open-app)\n[![license](https://img.shields.io/npm/l/%402nd1st%2Fdsh-plugin-open-app)](LICENSE)\n[![node](https://img.shields.io/node/v/%402nd1st%2Fdsh-plugin-open-app)](package.json)\n[![open-mcp-apps](https://img.shields.io/badge/open--mcp--apps-%E2%89%A5v0.5.1-8A63D2)](https://github.com/2nd1st/open-mcp-apps)\n\nMakes every [open-mcp-apps](https://github.com/2nd1st/open-mcp-apps) app **a place you go**\ninside [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`): an Apps\nsection in the sidebar, one container per app with its own workspace and conversation, and\ninline rendering when the model opens an app",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T17:34:52.285Z",
   "created_at": "2026-08-15T13:55:03.262Z",
   "gh": null,
@@ -50,5 +51,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.716Z"
+  "updated_at": "2026-08-17T04:58:35.867Z"
 }

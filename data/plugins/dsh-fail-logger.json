@@ -28,17 +28,30 @@
   },
   "readme": "[English](README.md) | 中文\n\n# dsh-fail-logger\n\n[![CI](https://github.com/Areium/dsh-fail-logger/actions/workflows/ci.yml/badge.svg)](https://github.com/Areium/dsh-fail-logger/actions/workflows/ci.yml) [![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com/zh/) [![npm](https://img.shields.io/npm/v/dsh-fail-logger)](https://www.npmjs.com/package/dsh-fail-logger)\n\n全模式工具失败自动实录器：无论 DeepSeek Harness 跑在**原生模式**还是 **PTC（Code Mode）**，工具一旦失败，插件就把错因自动写进 skill 的机器维护区段（归一化去重、计数、确定性排序、TTL 裁剪、敏感信息脱敏），下次会话模型加载 skill 时直接看到高频错因——**错误越记越少**。\n\n## 覆盖矩阵与触发条件\n\n| 执行模式 | 失败来源 | 记录格式（kind / message） |\n|---|---|---|\n| 原生工具（read/grep/write 及第三方插件工具…） | `tool/call` + `tool/result`（tool-result 块 isError=true） | `tool` / `[read] ENOENT: no such file …` |\n| PTC `run_code` 整体失败 | `",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T22:01:26.637Z",
   "created_at": "2026-08-13T21:01:43.446Z",
-  "gh": null,
+  "gh": {
+    "full_name": "Areium/dsh-fail-logger",
+    "open_issues": 1,
+    "pushed_at": "2026-08-14T21:52:53Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
-    "quality": 75,
+    "maintenance": 39,
+    "quality": 85,
     "security": 40,
     "dsh_compat": 75,
-    "overall": 36,
-    "grade": "D"
+    "overall": 46,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.324Z"
+  "updated_at": "2026-08-17T04:56:24.152Z"
 }

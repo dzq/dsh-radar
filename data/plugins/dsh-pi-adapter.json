@@ -18,6 +18,7 @@
   "engines": {},
   "readme": "# dsh-pi-adapter\n\nRun [pi coding-agent](https://github.com/earendil-works/pi) extensions\n(`~/.pi/agent/extensions/*.ts`) inside\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh).\n\nA pi extension is `export default (pi: ExtensionAPI) => void`; every capability\ncomes from the injected `ExtensionAPI` object. This project implements that\ncontract on a cordis context so pi extensions run unmodified inside dsh.\n\n## How it works\n\n```\npi extension (.ts factory)                  dsh (cordis)\n┌────────────────────────────┐   jiti   ┌──────────────────────────────┐\n│ export default (pi) => {   │ ───────► │ ExtensionBridge (PiCompat)   │\n│   pi.registerTool({...})   │  alias   │   registerTool → ctx.tools   │\n│   pi.registerCommand(...)  │  to pi   │   registerCommand → command",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T03:32:30.713Z",
   "created_at": "2026-08-14T03:32:30.396Z",
   "gh": null,
@@ -30,5 +31,5 @@
     "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.938Z"
+  "updated_at": "2026-08-17T04:58:33.584Z"
 }

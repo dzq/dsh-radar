@@ -1,0 +1,64 @@
+{
+  "slug": "dsh-restart",
+  "name": "dsh-restart",
+  "version": "0.1.0",
+  "description": "DSH 重启插件：可配置的重启方式（Node 原生 / 旧 PowerShell 适配）、重启后自动继续的提示词、可选看门狗自动拉起。",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "restart",
+    "plugin",
+    "watchdog",
+    "client-plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/anweat/dsh-restart.git",
+  "homepage": "https://github.com/anweat/dsh-restart#readme",
+  "npm": "https://www.npmjs.com/package/dsh-restart",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-settings-plugins"
+      ],
+      "platform": "web"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "readme": "# dsh-restart\n\n重启整个 DeepSeek Harness 进程的插件，用于重新加载插件与配置（profile 的 cordis 组合、settings 等）。host + client 双半，装进 profile 的 bundle 后即可用。\n\n## 功能\n\n- **模型工具 `restart_harness`**：让 agent 直接安排一次进程重启（可选 `delayMs`）。\n- **`/restart` 斜杠命令**：在 UI 里手动触发重启。\n- **配置卡片**（设置 → 插件 → 插件配置 → 「DSH 重启」）：可视化编辑以下设置，改动即时写入 `settings.yaml`：\n  - `legacyRestart` — 旧 PowerShell/WMI/taskkill 重启方式（默认关闭，用 Node 原生方式）。\n  - `continuePrompt` — 重启后自动继续时注入给 agent 的提示词。\n  - `watchdogEnabled` — 崩溃/关闭时自动拉起 DSH（默认关闭，需谨慎）。\n  - `watchdogCooldownMs` / `watchdogPollMs` — 看门狗冷却与轮询间隔。\n- **「立即重启」按钮**：卡片内的同源重启端点。出于安全考虑，仅接受来自环回地址（127.0.0.1 / localhost）的同源 POST 请求；经反向代理/远程访问时该按钮会被拒绝（403）。\n\n## 安装\n\n1. 把包加入 profile 依赖并挂进 bundle：\n\n```jsonc\n// profiles/<profile>/package.json\n{\n  \"dependencies\": { \"dsh-restart\": \"...\" },\n  \"dsh\": { \"profile\": { \"bundles\"",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T07:41:21.623Z",
+  "created_at": "2026-08-14T07:41:21.289Z",
+  "gh": {
+    "full_name": "anweat/dsh-restart",
+    "open_issues": 2,
+    "pushed_at": "2026-08-14T07:40:25Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:58:10.156Z"
+}

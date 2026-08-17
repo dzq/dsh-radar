@@ -1,0 +1,39 @@
+{
+  "slug": "dsh-DeepSeek-Harness-Skill",
+  "name": "dsh-DeepSeek-Harness-Skill",
+  "version": "0.0.0",
+  "description": "这是一个Codex/Claude来进行任务发布给DeepSeek Harness干活的工作流的Skill，能实现并发，多个工作区一起执行",
+  "keywords": [
+    "dsh-plugin-verify",
+    "dsh-plugins"
+  ],
+  "license": "",
+  "repo": "https://github.com/itmoqing/DeepSeek-Harness-Skill",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-DeepSeek-Harness-Skill",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "itmoqing/DeepSeek-Harness-Skill",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T10:25:28Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 25,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 26,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:36.301Z"
+}

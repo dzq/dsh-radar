@@ -24,6 +24,7 @@
   },
   "readme": "# DeepSeek Harness Enhancement Suite\n\n[![English](https://img.shields.io/badge/English-blue)](README.md) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) [![Node](https://img.shields.io/badge/node-%3E%3D22.18-green)](package.json)\n\n**Vision · Soul / Persona · Long-term Memory · Plugin Marketplace**\n\n四个 Scorp1o117 插件的官方总入口和一键安装套件，为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）增强能力。这是一个真正可用的一键安装器，而不是链接合集：它驱动官方 `dsh plugin` CLI、自动处理挂载、并检查结果。\n\n> **本仓库不复制、不替代任何独立插件。**\n> **每个插件都在各自的 upstream 仓库独立维护。**\n\n---\n\n## 👁️ dsh-tool-vision\n\n给文本模型增加视觉能力和图片桥接。\n\n[![npm](https://img.shields.io/npm/v/dsh-tool-vision)](https://www.npmjs.com/package/dsh-tool-vision) [![license](https://img.shields.io/npm/l/dsh-tool-vision)](https://github.com/Scorp1o117/dsh-tool-vis",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T03:43:19.157Z",
   "created_at": "2026-08-16T03:43:18.933Z",
   "gh": null,
@@ -36,5 +37,5 @@
     "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.979Z"
+  "updated_at": "2026-08-17T04:58:34.459Z"
 }

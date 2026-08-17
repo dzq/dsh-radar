@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-reverse-skill",
+  "name": "dsh-reverse-skill",
+  "version": "0.0.0",
+  "description": "Complete reverse-skill (85 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authorized pentesting and security research skill pack.",
+  "keywords": [
+    "ctf",
+    "deepseek-harness",
+    "pentest",
+    "reverse-engineering",
+    "security"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/dhicoc/dsh-reverse-skill",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-reverse-skill",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "dhicoc/dsh-reverse-skill",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T03:50:08Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:25.243Z"
+}

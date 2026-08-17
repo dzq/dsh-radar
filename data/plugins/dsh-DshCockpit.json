@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-DshCockpit",
+  "name": "dsh-DshCockpit",
+  "version": "0.0.0",
+  "description": "Desktop cockpit for DeepSeek Harness (dsh): token usage & cost tracking, budget alerts, runtime auto-update with rollback, Quick Ask hotkey, scheduled tasks, session search. Win+macOS. DeepSeek Harness 桌面驾驶舱：成本/用量监控 · 自动更新 · 定时任务",
+  "keywords": [
+    "agent-dashboard",
+    "ai-agent",
+    "auto-update",
+    "budget-tracker",
+    "cockpit",
+    "cost-tracking",
+    "deepseek",
+    "deepseek-harness",
+    "desktop-app",
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Lxiayu/DshCockpit",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-DshCockpit",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Lxiayu/DshCockpit",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T20:50:57Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:14.182Z"
+}

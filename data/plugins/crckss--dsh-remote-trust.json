@@ -21,6 +21,7 @@
   },
   "readme": "# @crckss/dsh-remote-trust\n\nOpen DSH's privileged `/api` methods to remote trusted hosts, so a browser\nvisiting the Web UI through a reverse proxy (or from another machine on your\nnetwork) can configure the harness — **Settings → Models**, provider and\ncredential management — instead of getting `403 forbidden`.\n\n```yaml\n# ~/.dsh/profiles/web/cordis.patch.yml\n- insert:\n    - id: remote-trust\n      name: \"@crckss/dsh-remote-trust\"\n      config:\n        hosts:\n          - dsh.example.com\n```\n\n## Why this exists\n\nDeepSeek Harness binds its Web server to loopback for safety (`--host 0.0.0.0`\nis refused outright) and its `/api` browser-trust fence has two layers:\n\n1. A **general fence** — the request's `Host` must be loopback or a\n   `--trusted-host` authority, with Origin and `sec-fetch-site` c",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:21:12.682Z",
   "created_at": "2026-08-16T08:15:36.995Z",
   "gh": null,
@@ -33,5 +34,5 @@
     "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.732Z"
+  "updated_at": "2026-08-17T04:58:36.476Z"
 }

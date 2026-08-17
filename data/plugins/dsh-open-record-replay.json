@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-open-record-replay",
+  "name": "dsh-open-record-replay",
+  "version": "0.0.0",
+  "description": "Open-source macOS record-and-replay workflow recorder for computer use agents. Captures mouse, keyboard, and UI events as structured traces so agents can learn, replay, and automate real desktop tasks.",
+  "keywords": [
+    "agent",
+    "codex",
+    "computer-use-agent",
+    "skills"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/humblebanana/open-record-replay",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-open-record-replay",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "humblebanana/open-record-replay",
+    "open_issues": 0,
+    "pushed_at": "2026-06-22T10:00:18Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 22,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:53.416Z"
+}

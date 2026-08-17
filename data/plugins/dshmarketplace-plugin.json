@@ -37,6 +37,7 @@
   },
   "readme": "# dshmarketplace-plugin\n\nBrowse and install DeepSeek Harness plugins from inside DSH, in English or\nChinese. Backed by [DSH Marketplace](https://dshmarketplace.dev).\n\n> The npm package is `dshmarketplace-plugin`; this repository is\n> `dsh-plugins-store`. The names differ because the shorter one was already\n> taken on npm.\n\n```bash\ndsh plugin add dshmarketplace-plugin\n```\n\nThen `/store` in any session, or open **Settings → Plugins → Plugin store**.\n\n## What it does\n\n- **`/store`** opens the catalogue over the session — search by capability,\n  read what each plugin reaches, install without leaving the harness.\n- **Two agent tools.** `dshmarketplace_search` and `dshmarketplace_install`, so\n  \"find me a memory plugin and set it up\" works in conversation. A bundled\n  skill teaches the agent to ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T04:05:28.494Z",
   "created_at": "2026-08-17T03:07:10.418Z",
   "gh": null,
@@ -49,5 +50,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.722Z"
+  "updated_at": "2026-08-17T04:58:36.129Z"
 }

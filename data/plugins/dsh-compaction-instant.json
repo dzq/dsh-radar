@@ -1,0 +1,56 @@
+{
+  "slug": "dsh-compaction-instant",
+  "name": "dsh-compaction-instant",
+  "version": "0.1.3",
+  "description": "VCC-style instant, near-lossless deterministic compaction engine for the DeepSeek Harness — a drop-in replacement for @deepseek-ai/dsh-compaction-basic",
+  "keywords": [
+    "cordis",
+    "dsh",
+    "deepseek-harness",
+    "compaction",
+    "context-compression",
+    "vcc",
+    "token"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/KitDoesIt/dsh-compaction-instant.git",
+  "homepage": "https://github.com/KitDoesIt/dsh-compaction-instant#readme",
+  "npm": "https://www.npmjs.com/package/dsh-compaction-instant",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "readme": "# dsh-compaction-instant\n\n为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 打造的**即时、近无损上下文压缩**引擎——**装上就能直接替换官方引擎 `@deepseek-ai/dsh-compaction-basic`**，用 [lllyasviel/VCC](https://github.com/lllyasviel/VCC) 的\"对话编译\"思路取代原来的 LLM 摘要。\n\n对话太长了怎么办？普通方案是让模型把旧内容\"总结\"一遍（慢、花钱、还会丢细节）。本引擎不总结，而是把旧内容**重新整理成一份紧凑的存档**（后面统称\"检查点\"）：毫秒级完成、不调用模型、只使用原来的原文，不改写、不编造。被收进存档的内容随时可以原样找回来。\n\n## 主要特性\n\n- **免 LLM**——压缩过程完全不调用模型：没有摘要请求、没有推理等待、不花 token。它只是确定性的文本处理，哪怕一百万个 token 的历史也是毫秒级搞定。\n- **近无损**——存档里只有原文；每处被省略的内容都有标记并注明出处（`seq` 序号），之前的存档会原封不动地保留。\n- **即时**——把旧内容扫描一遍就完成；不联网、不调模型、不占 KV 缓存。\n- **完全兼容的替换**——对外接口、事件、计费和报错方式都和官方引擎一致；内置预设不用改任何东西就能用（见\"别名安装\"）。\n\n## 示例\n\n一段包含用户提问、助手回答 + 工具调用及其结果的历史，压缩后长这样：\n\n```\n[user]\nplease fix the bug\n[assistant]\non it\n* read \"a.js\" (seq 2 -> result 3)\n[user]\nnext question\n```\n\n每个工具调用只",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T01:18:45.565Z",
+  "created_at": "2026-08-14T00:27:37.929Z",
+  "gh": {
+    "full_name": "KitDoesIt/dsh-compaction-instant",
+    "open_issues": 1,
+    "pushed_at": "2026-08-14T07:48:07Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:56:50.555Z"
+}

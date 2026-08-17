@@ -22,6 +22,7 @@
   "engines": {},
   "readme": "# dsh-co-authored-by\n\ndsh (DeepSeek Harness) 插件:agent 提交时自动注入 Co-authored-by 信息\n\n> [!NOTE]\n> 本仓库代码完全使用 DeepSeek V4 进行规划和编码\n\n## 功能\n\n- agent 直接执行 `git commit` 时懒安装 `prepare-commit-msg` hook,自动追加 `Co-Authored-By: <model> <noreply@deepseek.com>` 与 `Generated-By: dsh <版本>` trailer(不改命令,幂等)\n- hook 安装后覆盖该仓库后续所有 commit(含脚本内间接 commit)\n- 与仓库已有 hook 兼容:安装前备份、链式执行;会话结束自动卸载并恢复\n- 模型身份取当前会话实际使用的模型显示名,解析失败回退模型 id / unknown\n- read-only 沙箱下 commit 被拒时,可经用户批准一次性升级到 workspace-write\n\n## 快速上手\n\n1. 本地开发用 patch 覆盖层:`dsh web --patch ./cordis.patch.yml`(需 dsh CLI)\n2. 安装到 profile:`dsh plugin --profile demo add <包名或 tarball>`\n3. agent 正常提交即可,无需额外命令\n\n详细说明见[用户指南](docs/user-guide/README.md)\n\n## 配置\n\n零配置即用。全部字段有默认值,可按需在 profile 的 cordis.patch.yml 覆盖:\n\n```yaml\n- insert:\n    - id: co-authored-by\n      config:\n        enable:",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-13T18:07:54.701Z",
   "created_at": "2026-08-13T17:37:44.014Z",
   "gh": null,
@@ -34,5 +35,5 @@
     "overall": 36,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.974Z"
+  "updated_at": "2026-08-17T04:58:34.372Z"
 }

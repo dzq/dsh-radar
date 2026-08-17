@@ -21,6 +21,7 @@
   "engines": {},
   "readme": "# @ohtokaah-sys/dsh-knowledge\n\n知识库语义检索薄壳：`knowledge_search` 工具，argv 后端（复用外部向量库）+ grep 关键词降级。语义优先、透明降级，插件自身不含 embedding / 索引 / 分块。\n\n## 为什么需要它\n\nDSH 的 agent 查自己的记忆（`memory_search`）没问题，但要查**文档知识库**（设计文档、调查结论、历史笔记）就没有现成入口。把几千篇文档全塞进 prompt 会爆上下文，逐篇翻又太慢。`knowledge_search` 补上「搜文档」这条路：一个工具，语义检索命中相关片段，带来源和相似度。\n\n## 安装\n\nnpm 包方式：\n\n```yaml\n- id: xiaoqing-knowledge\n  name: '@ohtokaah-sys/dsh-knowledge'\n  config:\n    search:\n      argv:                 # {query}/{k} 占位符，运行时替换为单个 argv 元素\n        - /path/to/python\n        - /path/to/vectordb_search.py\n        - --query\n        - \"{query}\"\n        - -k\n        - \"{k}\"\n      timeoutMs: 30000\n    keyword:\n      root: /path/to/docs    # grep 降级目录\n      maxFiles: 20\n    topK: 5\n```\n\n或相对路径方式（preset 内自包含）：\n\n```yaml\n- id: xiaoqing-knowledge\n  name: ./plugins/dsh-kn",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T18:44:47.061Z",
   "created_at": "2026-08-14T18:44:46.794Z",
   "gh": null,
@@ -33,5 +34,5 @@
     "overall": 27,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.685Z"
+  "updated_at": "2026-08-17T04:58:35.162Z"
 }

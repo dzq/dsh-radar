@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-handbook",
+  "name": "dsh-handbook",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness (dsh) 从 0 到 1 深度手册：安装/插件开发/性能调优/实测案例/同模型多 Agent 实测对比（中文 + 英文 PDF）",
+  "keywords": [
+    "agent",
+    "agent-framework",
+    "ai-agents",
+    "beginners",
+    "deepseek",
+    "deepseek-ai",
+    "getting-started",
+    "guide",
+    "harness",
+    "llm"
+  ],
+  "license": "",
+  "repo": "https://github.com/Electricitysheep/dsh-handbook",
+  "homepage": "https://github.com/Electricitysheep/dsh-handbook",
+  "npm": "https://www.npmjs.com/package/dsh-handbook",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Electricitysheep/dsh-handbook",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T00:08:07Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:45.180Z"
+}

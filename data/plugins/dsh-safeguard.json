@@ -21,6 +21,7 @@
   "engines": {},
   "readme": "# dsh-safeguard\n\n面向 DeepSeek Harness（DSH）的危险命令 + 密钥泄漏拦截插件。挂载到 `tools/pre-execute` waterfall，在工具解析前短路拒绝，被拦截的副作用不会发生。\n\n## 简介\n\n- **危险命令拦截**：对 `bash` 工具的命令做正则匹配，命中即 `deny`。\n- **密钥泄漏拦截**：对所有工具的 arguments 做 `JSON.stringify` 后扫描常见密钥模式，命中即 `deny`。\n- **可配置**：危险/密钥检测开关、额外正则、精确豁免名单。\n- **两个辅助工具**：`guard_list`（列出当前规则）与 `guard_check`（纯检查不拦截，供调试/自检）。\n\n> 重要：本插件是**基于正则的启发式拦截**，不验签、不识别密钥真伪、不做沙箱隔离。它无法替代密钥扫描器、签名校验或操作系统级沙箱，只能拦截明显的高风险动作。\n\n## 安装\n\n```sh\ndsh plugin --profile <profile> add dsh-safeguard\n```\n\n本地开发安装：\n\n```sh\ndsh plugin --profile <profile> add file:./plugins/dsh-safeguard\n```\n\n## 默认规则表\n\n### 危险命令（`enableDanger`）\n\n| 规则名 | 匹配内容 |\n|---|---|\n| rm -rf | `rm -rf` / `rm -fr` 且目标是 `/`、`*`、`./`、`../`、`.`, `~`、`$HOME` |\n| git push --force | `git push --force` / `--force-with-lease` / `-f` |\n| git reset --hard | ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T03:42:19.793Z",
   "created_at": "2026-08-15T03:40:49.977Z",
   "gh": null,
@@ -33,5 +34,5 @@
     "overall": 36,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.698Z"
+  "updated_at": "2026-08-17T04:58:35.337Z"
 }

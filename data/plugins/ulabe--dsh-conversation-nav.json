@@ -28,6 +28,7 @@
   "engines": {},
   "readme": "# @ulabe/dsh-conversation-nav\n\nDeepSeek Harness (DSH) 客户端插件：**对话位置导航**。\n\n在对话界面右侧添加一个悬浮按钮，点击打开抽屉，列出当前会话的**全部用户消息**（自动分页加载完整历史），点击任意条目平滑滚动到对话中的对应位置并高亮。显示效果参考 DeepSeek 网页版对话导航：圆角列表项、聊天气泡图标、单行摘要、相对时间、滑入动画。\n\n## 目录结构\n\n```\ndsh-conversation-nav/\n├── install.ps1        # 兜底安装脚本（仅无 dsh CLI 的桌面打包版使用）\n├── uninstall.ps1      # 兜底卸载脚本\n├── README.md\n├── package.json       # 插件元数据：dsh.bundle（bundle 层）+ dsh.client（浏览器半）\n├── cordis.patch.yml   # bundle 层（被 dsh plugin add 识别并应用）\n└── lib/\n    ├── index.js       # Node 侧入口（no-op apply）\n    └── client.js      # 浏览器侧 bundle（唯一实现，手写无构建）\n```\n\n## 安装（推荐：`dsh plugin add`）\n\n插件包是标准的 DSH **bundle**（`package.json` 声明 `dsh.bundle.patch`），可通过官方 CLI 安装。需要 `dsh` CLI（源码版 `pnpm dsh` 或 `npx @deepseek-ai/dsh`；桌面打包版不内置 CLI）。\n\n```bash\n# 本地 checkout 安装（进入插件目录）\ndsh plugin --profile ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T13:34:26.525Z",
   "created_at": "2026-08-15T13:34:26.261Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.327Z"
+  "updated_at": "2026-08-17T04:58:30.235Z"
 }

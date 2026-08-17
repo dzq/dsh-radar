@@ -1,0 +1,65 @@
+{
+  "slug": "dsh-import-agents",
+  "name": "dsh-import-agents",
+  "version": "0.2.4",
+  "description": "Import pi / opencode sessions, chat history, and agents into DeepSeek Harness (dsh): slash commands, session-start migration prompt, and a one-click Sync button in the composer.",
+  "keywords": [
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "deepseek-harness",
+    "developer-tools",
+    "dsh",
+    "opencode",
+    "pi-coding-agent",
+    "plugin",
+    "session-import"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Chang-Tong/dsh-import-agents",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-import-agents",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "readme": "<!--\ndsh-import-agents — 以 MIT License 发布。\n-->\n# dsh-import-agents\n\n[English](README.md) · **简体中文**\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n[![npm version](https://img.shields.io/npm/v/dsh-import-agents)](https://www.npmjs.com/package/dsh-import-agents)\n[![CI](https://github.com/Chang-Tong/dsh-import-agents/actions/workflows/ci.yml/badge.svg)](https://github.com/Chang-Tong/dsh-import-agents/actions/workflows/ci.yml)\n[![Node](https://img.shields.io/badge/node-%3E%3D22.19-339933)](https://nodejs.org/)\n\n**dsh-import-agents** 把 **pi**、**opencode**、**codex**、**claude-code** 的会话、聊天记录与 agent 导入 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（dsh）。导入的会话出现在会话列表，可携带完整上下文继续对话；自定义 agent 与模式提示词变成可发现的 dsh skills；composer 里的一键 **同步** 按钮即可完成全部导入。\n",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T02:54:53.999Z",
+  "created_at": "2026-08-14T12:31:24.385Z",
+  "gh": {
+    "full_name": "Chang-Tong/dsh-import-agents",
+    "open_issues": 1,
+    "pushed_at": "2026-08-17T02:54:41Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:56:56.350Z"
+}

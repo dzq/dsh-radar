@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-scrape-webpage",
+  "name": "dsh-scrape-webpage",
+  "version": "0.0.0",
+  "description": "用于DeepSeek Harness的网页读取插件",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugins"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/131CDA1/dsh-scrape-webpage",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-scrape-webpage",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "131CDA1/dsh-scrape-webpage",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T14:46:11Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 30,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:23.841Z"
+}

@@ -30,6 +30,7 @@
   "engines": {},
   "readme": "# @windy070916-tech/dsh-client-ui-pet\n\n[English](README.md) | 中文\n\n蜗蜗 —— 一只角落生物风格的蜗牛，作为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web UI 的桌面宠物。\n\n它带着 8 方向精灵图在页面上缓慢爬行、留下渐隐的黏液足迹，会吃掉拖到它身上的图片（图片进入当前会话的输入框），闲置时会睡觉，并对对话活动做出反应。\n\n## 安装\n\n需要 `dsh` CLI（`npm i -g @deepseek-ai/dsh`，或源码 checkout）。把插件装进你的 Web profile：\n\n```sh\ndsh plugin --profile web add @windy070916-tech/dsh-client-ui-pet\n```\n\n重启 `dsh web` —— 新客户端插件在重启后才会进入浏览器花名册：\n\n```sh\ndsh web\n```\n\n搞定：宠物会出现在右下角并开始爬行。\n\n卸载：\n\n```sh\ndsh plugin --profile web remove @windy070916-tech/dsh-client-ui-pet\n```\n\n## 兼容性\n\n基于 DeepSeek Harness `0.1.0-rc.x` 系列构建（`npx @deepseek-ai/dsh web`）。DeepSeek Harness 尚处开发者预览阶段——未来版本可能破坏本包所依赖的客户端插件 API；如有需要请固定你的 `dsh` 版本。\n\n## 开发\n\n源码位于 [`windy070916-tech/deepseek-harness`](https://github.com/windy070916-tech",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T04:24:48.715Z",
   "created_at": "2026-08-15T04:24:48.370Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.322Z"
+  "updated_at": "2026-08-17T04:58:29.972Z"
 }

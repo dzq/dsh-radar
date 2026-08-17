@@ -36,6 +36,7 @@
   },
   "readme": "# dsh-skill-hub\n\n<details>\n<summary><b>English</b>（英文）— 点击在本页展开 / 收起，无需跳转</summary>\n\n**In-GUI skill hub for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh).**\nBrowse the full local skill catalog from the official `ctx.skills` registry, toggle skills on/off, inspect\ntheir bodies, understand why a skill is missing, and scaffold new ones — all from the dsh web GUI.\n\n> A skill manager beyond the read-only browser. The host half runs in the dsh process and speaks only\n> official SDKs; the browser half renders inside the GUI through official slots. No dsh source changes.\n\n## Why another skill manager?\n\n[dsh-skill-manager](https://www.npmjs.com/package/dsh-skill-manager) is a read-only browser,\n[dsh-skill-importer](https://github.com/saitamahang/dsh-skill-importer) and\n[",
   "weekly_downloads": 46,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T15:36:25.151Z",
   "created_at": "2026-08-14T08:29:55.998Z",
   "gh": null,
@@ -48,5 +49,5 @@
     "overall": 49,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.299Z"
+  "updated_at": "2026-08-17T04:58:29.442Z"
 }

@@ -29,6 +29,7 @@
   },
   "readme": "# dsh-chrome — DeepSeek Harness 浏览器助手\n\n[English](README.md) | 中文\n\n一个 Chrome 扩展：右侧边栏嵌入**完整的 dsh 网页界面**（会话、设置、审批、\n任务、目标、工作区……全部功能），并让 dsh 智能体**感知和操作你的浏览器**：\n\n- **自动感知当前页面**：切换标签 / 导航（含 SPA 路由）后，把“当前页面”\n  （URL、标题、正文，1MB 保护阀）自动注入最近活跃的会话，智能体天然知道\n  你在看什么。\n- **按需读取 HTTP 请求/响应**：智能体在你要求时开启抓包\n  （`browser_start_capture`），通过 Chrome DevTools 协议记录活动标签页的请求\n  方法、URL、状态码、请求体与响应体，`browser_capture_requests` 读取。默认对\n  疑似凭据的值做脱敏，见 [安全](#安全)。\n- **驱动浏览器**：`browser_navigate` / `browser_click` / `browser_open_tab`。\n- **免审批 + 工具层意图解锁**：会改变浏览器状态的动作只有在本轮由你的真实\n  消息发起、且消息里出现明确浏览器意图（“打开/跳转/点击/navigate/click/open”\n  或“抓包/capture”）时才执行；网页里藏一句指令无法驱动浏览器（免审批模式下的\n  尽力防护，非绝对保证）。\n- 抓包期间 Chrome 顶部会显示“正在调试此浏览器”横幅（关闭抓包即消失）。\n\n## 前置条件\n\n- 本机运行 `dsh web`（默认 `http://127.0.0.1:3080`，可在扩展设置里改）。\n- Chrome 116+。\n\n## 安装\n\n分两部分：**宿主插件**（装进 dsh",
   "weekly_downloads": 266,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T13:46:32.143Z",
   "created_at": "2026-08-15T11:56:45.168Z",
   "gh": null,
@@ -41,5 +42,5 @@
     "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.257Z"
+  "updated_at": "2026-08-17T04:58:28.906Z"
 }

@@ -28,6 +28,7 @@
   },
   "readme": "# dsh-docs\n\n[English](README.md) | [安装提示词](INSTALL.md)\n\n**dsh-docs** 让 DeepSeek Harness 代理拥有真正的本地文档理解能力——全部在你\n自己的机器上完成。把 PDF、Word、Excel、PowerPoint 交给它，即可拿回干净的\nMarkdown、纯文本或结构化 JSON；把扫描件或图片交给它，完全离线的 OCR 流水线\n会直接读出其中的文字。无需 Docker、无需 HTTP 服务、无需 API Key，文档永不\n离开你的磁盘。\n\n它随附固定版本、自包含的 Python + [Xberg](https://github.com/xberg-io/xberg)\n运行时，内置离线 Tesseract 语言数据（英文与简体中文），在 Windows x64 上开箱\n即得完整的 PDF/Office/OCR 能力；原生 Xberg Node 绑定则作为任意平台上轻量的非\nOCR 解析回退。所有文件读取都被严格限制在你显式授权的目录之内。\n\n发布包名、插件 id 与 `dshdoc_*` 工具名统一采用 `dsh-doc` / `dshdoc` 拼写，\n由初版的 `dsh-docling` / `docling_*` 更名而来。\n\n## 一段提示词完成安装\n\n无需提前克隆本仓库，也不需要构建工具链。把下面这段提示词直接粘贴到你自己项目\n文件夹中正在运行的 DSH 会话（例如 `dsh web`）里，Harness 代理会一次性完成 npm\n包安装、固定哈希的离线 OCR 运行时下载与插件配置。唯一前置条件是可用的 `dsh`\nCLI（Node `^22.19` 或 `>= 24`）；所有运行时步骤都是纯 Node.js 脚本，cmd、\nPowerShell、pwsh、Git Bash 均可运行。",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:01:58.302Z",
   "created_at": "2026-08-15T06:43:52.319Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.453Z"
+  "updated_at": "2026-08-17T04:58:32.792Z"
 }

@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-deepseek-harness-studio",
+  "name": "dsh-deepseek-harness-studio",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness 零代码桌面端｜一键启动，支持 Windows 与 macOS；内置插件发现、热点插件推送、一键安装与管理、AI 智能推荐和视觉增强。",
+  "keywords": [
+    "ai-agent",
+    "deepseek",
+    "deepseek-harness",
+    "deepseek-harness-studio",
+    "desktop-app",
+    "developer-tools",
+    "dsh",
+    "electron",
+    "macos",
+    "plugin-manager"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/fufankeji/deepseek-harness-studio",
+  "homepage": "https://www.beyondata.com/",
+  "npm": "https://www.npmjs.com/package/dsh-deepseek-harness-studio",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "fufankeji/deepseek-harness-studio",
+    "open_issues": 2,
+    "pushed_at": "2026-08-17T04:45:13Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:51.264Z"
+}

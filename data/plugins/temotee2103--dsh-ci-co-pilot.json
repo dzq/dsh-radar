@@ -30,6 +30,7 @@
   },
   "readme": "# dsh-ci-co-pilot\n\n> 面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的 GitHub CI 副驾插件。\n> 一切皆插件：PR 审查、CI 失败修复、Issue 分类、自动发版说明。\n\n[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n\n`dsh-ci-co-pilot` 让你的 DeepSeek Harness Agent 化身 GitHub 副驾：**审查 Pull Request、排查失败的 CI、整理 Issue、起草发版说明**——全部通过 GitHub REST API 获取结构化数据，零额外运行时依赖。\n\n## ✨ 功能\n\n| 工具 | 作用 |\n| --- | --- |\n| `gh_review_pr` | 拉取 PR 的变更文件、统一 diff、已有审查和 CI 状态，Agent 据此撰写审查意见。 |\n| `gh_submit_review` | 通过 / 请求变更 / 评论，支持锚定在 diff 上的行内评论。 |\n| `gh_fix_ci` | 按 commit、分支或 workflow run 查看失败检查、注解和日志尾部。 |\n| `gh_triage_issues` | 列出 Issue 及分类信号：年龄、是否陈旧、评论数、标签。 |\n| `gh_update_issue` | 设置标签、指派、评论、里程碑、关闭/重开。 |\n| `gh_release_notes` | 按标签或 Conventional Commit 前缀，把合并的 PR 分组生成发版说明。 |\n\n## 🚀 安装\n\n```bash\n# 从 npm 安装（推",
   "weekly_downloads": 66,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T12:21:01.157Z",
   "created_at": "2026-08-15T12:21:00.850Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 49,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.282Z"
+  "updated_at": "2026-08-17T04:58:29.353Z"
 }

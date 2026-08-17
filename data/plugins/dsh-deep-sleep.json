@@ -28,6 +28,7 @@
   },
   "readme": "# dsh-deep-sleep\n\nDSH 插件：把官方 Web UI 中任务进行中的状态提示 **\"Deep diving...\"** 替换为 **\"Deep sleep...\"**。\n\n- **纯 client 插件**：host 半部为空壳（no-op），全部逻辑在浏览器侧 `lib/client.js`\n- **零运行时依赖**：client 半部不 import 任何模块；host 半部仅 type-only 引用 `cordis`（构建期擦除）\n- **幂等替换**：MutationObserver 拦截插入/改写，React 每次重建标签都会被再次替换\n- **零源码 patch**：不碰 DSH checkout 任何文件，纯官方扩展缝（bundle insert 行 + `dsh.client` 声明）\n\n## 原理\n\n官方 `dsh-client-ui-conversation` 的 `TurnStatus` 组件把 `\"Deep diving...\"` 硬编码在 JSX 里（无 slot、无 locale key，属官方零扩展点），因此按插件惯例在浏览器侧做文本替换：任何包含 `\"Deep diving\"` 的文本节点被改写为 `\"Deep sleep\"`（保留 `\"...\"` 后缀）。\n\n替换是幂等的；React 的 HostText fiber 在 props 不变时不会重写 DOM 文本节点，所以替换结果能扛住 TurnStatus 每秒一次的时钟重渲染；即使官方将来写回旧文本，观察器也会再次替换。\n\n## 安装\n\n```sh\n# 从 npm 安装（首选）\ndsh plugin --profile web add dsh-deep-sleep\n\n# 或从 git 直装（预构建策略，无需 allowBuilds 授权）\ndsh plugin --p",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T11:45:42.711Z",
   "created_at": "2026-08-15T11:45:42.513Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.713Z"
+  "updated_at": "2026-08-17T04:58:35.779Z"
 }

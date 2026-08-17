@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-plugin-browser",
+  "name": "dsh-plugin-browser",
+  "version": "0.1.0",
+  "description": "A DeepSeek Harness community plugin that drives a headless Playwright browser: rendered page text, screenshots, and page automation",
+  "keywords": [
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/qichuang321/dsh-plugin-browser",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-browser",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-plugin-browser\n\nA [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) community plugin that drives a **headless browser** with Playwright. It registers six model-callable tools that let the model read JavaScript-rendered pages, take screenshots, and automate page interactions — the capabilities the built-in `web_fetch` (plain HTTP) cannot provide.\n\n## Tools\n\n| Tool | What it does |\n|---|---|\n| `browser_navigate(url)` | Open a URL, wait for load, return rendered title, body text, and links |\n| `browser_snapshot()` | Return the current page's rendered text (use between automation steps) |\n| `browser_click(selector)` | Click an element (any Playwright CSS selector) |\n| `browser_type(selector, text)` | Fill a text input |\n| `browser_screenshot(path?)` | Save a viewport PN",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T03:09:09.057Z",
+  "created_at": "2026-08-14T03:09:08.841Z",
+  "gh": {
+    "full_name": "qichuang321/dsh-plugin-browser",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T16:01:59Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 43,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:48.370Z"
+}

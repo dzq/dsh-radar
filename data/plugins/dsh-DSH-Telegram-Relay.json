@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-DSH-Telegram-Relay",
+  "name": "dsh-DSH-Telegram-Relay",
+  "version": "0.0.0",
+  "description": "DSH Relay 让你可以通过 Telegram 远程与 DeepSeek Harness 对话，并接收通知。DSH Relay turns Telegram into a remote conversation and notification channel for DeepSeek Harness.",
+  "keywords": [
+    "agent",
+    "automation",
+    "automation-highway",
+    "automotive",
+    "autonomous-agents",
+    "deepseek-harness",
+    "deepseek-harness-plugin",
+    "deepseek-harness-plugins",
+    "dsh",
+    "text-only-llm"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/congchuanling-dot/DSH-Telegram-Relay",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-DSH-Telegram-Relay",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "congchuanling-dot/DSH-Telegram-Relay",
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T20:39:09Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:10.935Z"
+}

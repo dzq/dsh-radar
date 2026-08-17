@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-multimodal",
+  "name": "dsh-multimodal",
+  "version": "0.0.0",
+  "description": "给 DeepSeek 安装一双眼睛和一支画笔:会话里直接贴截图/图片,GLM 视觉模型先精确转写图片内容(报错信息、代码、界面逐字保留),然后 DeepSeek 继续处理你的问题——同一轮完成,全程无感;需要配图时,DeepSeek 自动调用文生图后端出图并显示在会话中。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugins",
+    "multimodal",
+    "multimodal-ai",
+    "vision"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/MC5lan/dsh-multimodal",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-multimodal",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "MC5lan/dsh-multimodal",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T08:47:19Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:43.167Z"
+}

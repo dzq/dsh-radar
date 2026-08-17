@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-Better_Deepseek_Harness",
+  "name": "dsh-Better_Deepseek_Harness",
+  "version": "0.0.0",
+  "description": "Better Deepseek Harness, with some functional extensions to webui and Deepseek Harness·更好的deepseek harness，对webui和deepseek harness进行了一些功能扩展",
+  "keywords": [
+    "ai-agent",
+    "ai-tools",
+    "deepseek",
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "GPL-3.0",
+  "repo": "https://github.com/silencieuxzero/Better_Deepseek_Harness",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-Better_Deepseek_Harness",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "silencieuxzero/Better_Deepseek_Harness",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T06:47:17Z",
+    "archived": false,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:26.028Z"
+}

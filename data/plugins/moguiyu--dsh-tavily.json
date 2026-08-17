@@ -31,6 +31,7 @@
   "engines": {},
   "readme": "# @moguiyu/dsh-tool-tavily-search\n\nRegisters the `tavily_search` model tool and the **Tavily Search** settings card for the\nDeepSeek Harness web UI.\n\n- **`tavily_search`** — full Tavily surface (`max_results`, `search_depth`, `topic`, `days`,\n  `include_answer`, `include_raw_content`, `include_domains`, `exclude_domains`). Keys are\n  resolved from the `TAVILY_API_KEYS` credential on every call; round-robin rotation with\n  failover on HTTP 401/429.\n- **Settings card** (`settings.plugin.item`, id `tavily-search`) — expandable card matching\n  the native plugin-config design: flat key list (masked values, saved dates, show/edit/delete\n  icons), key-usage strategy selector, usage gauge, and the on/off switch for the `web`\n  provider.\n\nHost half: plain ESM (`src/index.js`). Client half: prebuilt",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T12:06:56.063Z",
   "created_at": "2026-08-16T09:35:55.877Z",
   "gh": null,
@@ -43,5 +44,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:51.473Z"
+  "updated_at": "2026-08-17T04:58:37.967Z"
 }

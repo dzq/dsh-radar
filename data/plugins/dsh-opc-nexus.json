@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-opc-nexus",
+  "name": "dsh-opc-nexus",
+  "version": "0.0.0",
+  "description": "开源的企业版的数字员工工作台, OPC-Nexus（One Person Company Nexus）是一款本地优先的桌面 AI Agent 管理器。它为单人公司 / 独立开发者提供统一的 AI 数字员工管理平台 —— 从 Agent 创建、任务编排、多引擎接入，到消息渠道集成、工作流自动化和专家团协作，一站式覆盖。 （原内部项目AiBoxDash） ",
+  "keywords": [
+    "ai-agents",
+    "ai-employees",
+    "deepseek",
+    "desktop",
+    "remote-android-control"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/h4dex/opc-nexus",
+  "homepage": "https://www.apptq.com",
+  "npm": "https://www.npmjs.com/package/dsh-opc-nexus",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "h4dex/opc-nexus",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T21:15:17Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:26.609Z"
+}

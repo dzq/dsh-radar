@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-plugin-deepseek-balance",
+  "name": "dsh-plugin-deepseek-balance",
+  "version": "0.0.0",
+  "description": "在 DeepSeek Harness (dsh) 底部状态栏实时显示 DeepSeek 账户余额。",
+  "keywords": [],
+  "license": "MIT",
+  "repo": "https://github.com/hnmrxz/dsh-plugin-deepseek-balance",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-deepseek-balance",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "hnmrxz/dsh-plugin-deepseek-balance",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T02:38:39Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:25.086Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-sticky-note",
+  "name": "dsh-sticky-note",
+  "version": "0.0.0",
+  "description": "左下角便签：随手记点子/感想/TODO，实时保存到归档目录，清单+悬浮归档",
+  "keywords": [
+    "dsh-external"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Meredith2328/dsh-sticky-note",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-sticky-note",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Meredith2328/dsh-sticky-note",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T07:28:15Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:30.530Z"
+}

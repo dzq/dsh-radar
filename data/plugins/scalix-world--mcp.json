@@ -25,6 +25,7 @@
   "engines": {},
   "readme": "# Scalix Cloud — Unified MCP Plugin\n\nOfficial Model Context Protocol (MCP) plugin and server configuration for [Scalix Cloud](https://scalix.world) — the agent-native cloud platform providing PostgreSQL databases, serverless functions, AI inference, persistent Linux machines (Computers), containers (Run), object storage, auth, and billing behind a single remote MCP endpoint (`https://api.scalix.world/v1/mcp`).\n\n---\n\n## Supported Ecosystems (One Repo, Many Manifests)\n\nThis repository includes native manifests for all major coding agents and MCP clients:\n\n* **DeepSeek Harness (DSH)** — via `cordis.patch.yml` and `@scalix-world/mcp` npm bundle\n* **Claude Code** — via `.claude-plugin/plugin.json` and `.claude-plugin/marketplace.json`\n* **Google Antigravity** — via root `plugin.json`\n* **Gemini",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T16:09:14.634Z",
   "created_at": "2026-08-16T16:09:14.335Z",
   "gh": null,
@@ -37,5 +38,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:57.596Z"
+  "updated_at": "2026-08-17T04:58:39.025Z"
 }

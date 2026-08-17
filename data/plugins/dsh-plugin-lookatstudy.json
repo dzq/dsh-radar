@@ -33,6 +33,7 @@
   },
   "readme": "# dsh-plugin-lookatstudy\n\nTurn any markdown document, local folder, or GitHub learning repository into a guided course inside [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh) — your dsh agent becomes a full AI tutor with the interaction design of [LookatStudy](https://github.com/kaiji/LookatStudy): per-concept knowledge tracking, mastery-driven progression, spaced repetition, mastery proposals, friction awareness, learner memory, a Cornell notebook, and an in-chat proposal card. Learning engine modules are vendored from LookatStudy (MIT).\n\n## Install\n\n```sh\ndsh plugin add dsh-plugin-lookatstudy        # from npm\n# or from a tarball:\ndsh plugin add ./dsh-plugin-lookatstudy-0.2.1.tgz\n```\n\nWorks with any profile. In the `web` profile the plugin additionally serves the",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:50:13.927Z",
   "created_at": "2026-08-15T14:50:13.713Z",
   "gh": null,
@@ -45,5 +46,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.327Z"
+  "updated_at": "2026-08-17T04:58:30.147Z"
 }

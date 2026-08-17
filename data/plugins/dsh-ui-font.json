@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-ui-font",
+  "name": "dsh-ui-font",
+  "version": "0.0.0",
+  "description": "DSH老花眼插件，对眼睛不好看不了小字的朋友相当有善。",
+  "keywords": [
+    "dsh",
+    "dsh-font",
+    "dsh-plugin-market",
+    "dsh-plugins",
+    "dsh-uispy"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/warmwine/dsh-ui-font",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-ui-font",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "warmwine/dsh-ui-font",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T13:33:39Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:21.680Z"
+}

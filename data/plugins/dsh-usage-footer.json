@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-usage-footer",
+  "name": "dsh-usage-footer",
+  "version": "0.0.0",
+  "description": "DSH web 用量/费用悬浮按钮插件：账户余额、峰谷时段、今日/本会话消费估算与 token 统计（含设置开关）",
+  "keywords": [
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/1514100951/dsh-usage-footer",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-usage-footer",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "1514100951/dsh-usage-footer",
+    "open_issues": 3,
+    "pushed_at": "2026-08-14T07:56:30Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:50.795Z"
+}

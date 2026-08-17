@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-plugin",
+  "name": "dsh-plugin",
+  "version": "0.0.0",
+  "description": "Tabbit Broser plugins for Deepseek Harness",
+  "keywords": [
+    "browser-automation",
+    "browser-use",
+    "deepseek-harness",
+    "dsh-plugin-market",
+    "dsh-plugin-verify",
+    "dsh-plugins",
+    "playwright",
+    "tabbit"
+  ],
+  "license": "",
+  "repo": "https://github.com/Tabbit-Browser/dsh-plugin",
+  "homepage": "https://www.tabbit.ai",
+  "npm": "https://www.npmjs.com/package/dsh-plugin",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Tabbit-Browser/dsh-plugin",
+    "open_issues": 5,
+    "pushed_at": "2026-08-15T16:46:36Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 25,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 26,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:06.233Z"
+}

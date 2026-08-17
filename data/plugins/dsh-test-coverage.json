@@ -25,6 +25,7 @@
   "engines": {},
   "readme": "# dsh-test-coverage · 测试覆盖率分析\n\n解析代码覆盖率报告，产出**结构化、可直接指导补测试**的覆盖数据。支持 LCOV（`.lcov` / `lcov.info`）、Cobertura（`coverage.xml`）、Istanbul / Vitest / Jest（`coverage-final.json`）、Go（`cover.out`）。纯 Node 实现，无 shell、无网络、无外部服务。\n\n## 为什么需要它\n\nAgent 跑完带覆盖率的测试后，覆盖率报告往往又大又乱。本插件把报告解析成：\n\n- 总体行覆盖率 + 逐文件覆盖率表（按「覆盖最低 → 最高」排序）；\n- 最该补测试的文件列表；\n- 指定文件**确切的未覆盖行区间**，直接针对这些行补测试。\n\n## 安装\n\n```bash\ndsh plugin add dsh-test-coverage\n```\n\n安装后在 profile 的 `package.json` 的 `dsh.profile.bundles` 中加入 `\"dsh-test-coverage\"`（或用你使用的插件市场一键安装）。\n\n## 提供的工具\n\n| 工具 | 作用 |\n|---|---|\n| `coverage_report` | 解析报告，返回总体覆盖率 + 逐文件表 + 覆盖最低文件 |\n| `coverage_gaps` | 返回指定文件确切的未覆盖行区间 |\n\n## 用法示例\n\n```\n帮我看看这个项目的测试覆盖率\n→ 调用 coverage_report(path=\"/workspace/coverage/lcov.info\")\n\n哪些行还没测到？\n→ 调用 coverage_gaps(file=\"src/parser.js\", path=\"/workspace/coverage\")\n```\n\n## ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T10:13:28.462Z",
   "created_at": "2026-08-16T10:13:28.211Z",
   "gh": null,
@@ -37,5 +38,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.719Z"
+  "updated_at": "2026-08-17T04:58:35.954Z"
 }

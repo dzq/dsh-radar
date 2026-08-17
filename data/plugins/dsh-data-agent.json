@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-data-agent",
+  "name": "dsh-data-agent",
+  "version": "0.0.0",
+  "description": "Connect DSH to your database for conversational data analysis and actionable business insights.",
+  "keywords": [
+    "data-agent",
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/omdsh-dev/dsh-data-agent",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-data-agent",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "omdsh-dev/dsh-data-agent",
+    "open_issues": 2,
+    "pushed_at": "2026-08-16T15:07:31Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:15.364Z"
+}

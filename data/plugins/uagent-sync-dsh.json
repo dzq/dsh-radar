@@ -24,6 +24,7 @@
   "engines": {},
   "readme": "# uagent-sync-dsh — U同步 / 优同步（DeepSeek Harness 插件）\n\nuagent-sync 的 DeepSeek Harness bundle 形态。注册 16 个 `sync_*` 工具（与 opencode plugin 的 `opencode_sync_*` 一一对应，分别桥接 CLI 中对应的同步命令；uagent-sync CLI 当前共 18 个命令，其中 `inventory` / `dashboard` 不作为 DSH tool 暴露），全部通过 **uagent-sync CLI 桥接执行**——与 Codex 形态（skills + hooks）保持同一\"CLI 单一执行通道\"架构。\n\n插件加载时还会把共享 skills（`uagent-sync-backup/restore/update`）注册为 DSH runtime skills——从 CLI 所在 checkout 的 `skills/` 目录读取，与 opencode/Codex 是同一份，正文中的 `<uagent-sync>` 占位符自动替换为真实路径，Agent 可直接执行。skills 目录缺失时静默跳过（工具不受影响）。\n\n中文名：**U同步**（别名 **优同步**）。语音命令：\n\n- \"U同步，更新所有扩展\" → `sync_update`\n- \"U同步，备份\" → `sync_push`（配合 init/create_repo/api_keys/guide）\n- \"U同步，恢复\" → `sync_pull`（配合 init/setup/api_keys）\n- \"U同步，检查环境\" → `sync_verify`\n\n## 工具清单（16 个）\n\n| 工具 | CLI 命令 | 用途 |\n|------|---------|------|\n| `",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T13:28:51.625Z",
   "created_at": "2026-08-14T13:07:45.549Z",
   "gh": null,
@@ -36,5 +37,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:51.482Z"
+  "updated_at": "2026-08-17T04:58:38.054Z"
 }

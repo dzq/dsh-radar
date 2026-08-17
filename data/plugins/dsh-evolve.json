@@ -1,0 +1,38 @@
+{
+  "slug": "dsh-evolve",
+  "name": "dsh-evolve",
+  "version": "0.0.0",
+  "description": "自进化插件：agent 在 session 内随对话给自己长出/剪掉能力 —— evolve_add 热挂载持久化 cordis 插件（下一 step 工具即可见），evolve_remove 可逆卸载，重启自动恢复",
+  "keywords": [
+    "dsh"
+  ],
+  "license": "",
+  "repo": "https://github.com/william-jin-cmu/dsh-evolve",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-evolve",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "william-jin-cmu/dsh-evolve",
+    "open_issues": 2,
+    "pushed_at": "2026-08-13T02:26:42Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 25,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 26,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:19.290Z"
+}

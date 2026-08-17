@@ -26,6 +26,7 @@
   },
   "readme": "# Drive9 for DeepSeek Harness\n\nPersistent agent workspaces and durable, bounded tool evidence for\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).\n\n`@drive9/drive9-dsh` is a standard DSH bundle with four independent Cordis components:\n\n- a Drive9 revision-CAS filesystem for Harness `read`, `write`, and `edit` tools;\n- an isolated evidence backend for oversized tool results;\n- model-visible `result_search` and `result_read` tools with hard output limits;\n- a model-visible runtime-context warning for the opt-in eventual mount profile.\n\nThe architecture keeps four lifecycles separate:\n\n| Layer | Owner |\n| --- | --- |\n| Agent loop | DeepSeek Harness |\n| Session and conversation history | DeepSeek Harness |\n| Persistent workspace and immutable evidence | Drive9 |\n| Shell, sa",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T17:59:33.850Z",
   "created_at": "2026-08-14T17:59:33.546Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:49.228Z"
+  "updated_at": "2026-08-17T04:58:37.525Z"
 }

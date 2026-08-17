@@ -35,6 +35,7 @@
   "engines": {},
   "readme": "# dsh-logger-panel\n\n[English](README.md) | 中文\n\n适用于 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（`dsh`）的运行日志面板。它捕获 Host 的 Cordis logger 输出，通过 SSE 实时流入 **设置 > 日志** 页面，并把同一批记录持久化到私有 `$DSH_HOME/logs/dsh-logger-panel` 目录下按日期与大小轮转的有界 JSONL 文件。\n\n页面只按纯文本渲染记录。原始 logger 参数、Fiber 引用、ANSI 转义与可执行标记都不会跨过浏览器 wire。\n\n## 特性\n\n- 实时视图：快照 + 每 100 毫秒批量推送 SSE 增量。\n- 历史分页：点击「加载更早」从轮转 JSONL 文件中跨轮转、跨日期读回更早记录，让浏览器视图突破内存窗口。\n- 底部自动跟随；向上滚动后暂停，并提供「回到最新」按钮恢复。\n- 内存有界：Host 为每个新连接的浏览器保留最近 2,000 条记录。\n- JSONL 持久化：Host 激活、日期变化或达到 5 MiB 上限时打开新的 `YYYY-MM-DD-N.jsonl`；超过 30 天的匹配文件会被删除。目录以 `0700` 创建，文件以 `0600` 创建。\n- 磁盘队列有界（1,000 条）。持久化失败时面板会报告故障并继续实时流；被省略的记录会计数。\n\n## 要求\n\n- 带 Web profile 的 DeepSeek Harness（设置外壳来自 `dsh-client-ui-settings`、client 模块系统与 `dsh-host-webserver`），版本 `0.1.0-rc.6` 或更新。\n- Node `^22.19 || >=",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T10:51:27.628Z",
   "created_at": "2026-08-14T09:16:37.050Z",
   "gh": null,
@@ -47,5 +48,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:49.224Z"
+  "updated_at": "2026-08-17T04:58:37.438Z"
 }

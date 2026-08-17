@@ -26,17 +26,25 @@
   },
   "readme": "# Task Passport · 任务护照\r\n\r\n让一个任务带着“当前世界状态”在 DeepSeek Harness、Claude Code、Codex 等 AI Harness 之间接力，不搬运聊天记录。\r\n\r\n> 一个项目可以有多个任务护照；一个任务护照可以经历多个 Harness 和多个会话。\r\n\r\n## 现在能做什么\r\n\r\n- 每个任务一个稳定短号，例如 `TP-7K4M-9D2Q`。\r\n- `list`：只列身份与摘要，不误装载别的任务。\r\n- `open`：读取目标、当前状态、验证过的事实、决策理由和下一步。\r\n- `checkpoint`：工作完成后写回；带状态版本，过期写入直接冲突，不静默覆盖。\r\n- 同一个包既是通用 CLI，也是 DeepSeek Harness 原生 bundle。\r\n- 状态可由 U-King Action Core、本地目录参考存储或第三方 Provider 托管；插件本身是可装可卸的薄适配器。\n\r\n它不做两件事：不复制上一位 AI 的聊天记录；不把“刚改过的任务”猜成当前任务。\r\n\r\n## 在 DeepSeek Harness 中安装\r\n\r\n从 GitHub 安装（纯 JavaScript，仓库已包含运行产物，不需要 `prepare` 构建权限）：\r\n\r\n```sh\r\ndsh plugin --profile web add task-passport@0.2.2\ndsh --profile web --dump-config\r\ndsh web\r\n```\r\n\r\n`dsh web` 在当前 rc.5 固定组合 `web` profile；需要浏览器界面时，插件也应安装到这个 profile。自定义 profile 可用于 TUI，但不能作为 `web` 子命令的父级 profile。\r\n\r\n如果 U-King 不在 PATH，在",
   "weekly_downloads": 527,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-13T22:24:33.408Z",
   "created_at": "2026-08-13T17:01:27.082Z",
-  "gh": null,
+  "gh": {
+    "full_name": "dongsheng123132/task-passport",
+    "stars": 7,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T20:11:26Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 68,
-    "maintenance": 0,
+    "maintenance": 39,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 55,
+    "overall": 62,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.236Z"
+  "updated_at": "2026-08-17T04:56:45.854Z"
 }

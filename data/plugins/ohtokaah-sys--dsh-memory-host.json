@@ -19,6 +19,7 @@
   "engines": {},
   "readme": "# @ohtokaah-sys/dsh-memory-host\n\n记忆 domain 的 **host 侧**插件：用 `storageDomain` 开一次 `memory` domain（画像表 `profile` + 记忆表 `memory`），供 preset 侧 [`@ohtokaah-sys/dsh-memory`](../dsh-memory) 用 `get('memory')` 取现成 handle。\n\n## 它解决什么问题\n\n跨会话记忆需要「一份大家共享的存储」，但 `storageDomain.open()` 对同一 domain name 是 **single-open**（第二个报 `already-open`）、facility 是 host 级单例。所以 domain 必须 host 侧开一次，preset 插件只 `get()` 不能自己 `open()`。\n\n## 场景\n\n| 场景 | 行为 |\n|---|---|\n| DSH 进程启动 | 本插件（挂 web profile）开一次 `memory` domain |\n| 新 session 开始 | preset 的 `dsh-memory` 用 `get('memory')` 取现成 handle，注入画像/记忆摘要 |\n| agent 学到新偏好 | 调 `memory_add` 写入 domain，下次 session 自动注入 |\n\n## 安装（挂到 host / web profile）\n\n`~/.dsh/profiles/web/cordis.patch.yml` 加：\n\n```yaml\n- insert:\n    - id: memory-host\n      name: '@ohtokaah-sys/dsh-memory-host'\n```\n\n## 两张表\n\n| 表 | 用",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T18:44:26.999Z",
   "created_at": "2026-08-14T04:35:54.509Z",
   "gh": null,
@@ -31,5 +32,5 @@
     "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.739Z"
+  "updated_at": "2026-08-17T04:58:36.651Z"
 }

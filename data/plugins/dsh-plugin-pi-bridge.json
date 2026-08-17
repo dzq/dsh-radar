@@ -24,6 +24,7 @@
   "engines": {},
   "readme": "# dsh-plugin-pi-bridge\n\n> Bridge Pi's skills and configuration into [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) — zero migration.\n\n[![npm](https://img.shields.io/npm/v/dsh-plugin-pi-bridge)](https://www.npmjs.com/package/dsh-plugin-pi-bridge)\n[![dsh-plugin](https://img.shields.io/badge/topic-dsh-plugin-blue)](https://github.com/topics/dsh-plugin)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n## Install\n\n```sh\ndsh plugin --profile your-profile add dsh-plugin-pi-bridge\n```\n\n## What it does\n\nReads Pi's skill files and injects them into the dsh system prompt as available skills.\n\n## Configuration\n\nWorks out of the box. Optional config:\n\n```yaml\n- id: pi-bridge\n  name: dsh-plugin-pi-bridge\n  config:\n    enabl",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-13T14:52:02.811Z",
   "created_at": "2026-08-13T14:52:02.592Z",
   "gh": null,
@@ -36,5 +37,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.972Z"
+  "updated_at": "2026-08-17T04:58:34.287Z"
 }

@@ -31,17 +31,25 @@
   },
   "readme": "# dsh-model-meta-autofill\n\nDSH 插件：为**自定义供应商**（`llm-pi-ai` 设置区）里配置的模型自动预填元数据——上下文长度（contextWindow）、输出上限（maxTokens）、显示名（name）与输入模态（input）——数据来源为 [models.dev](https://models.dev/)（Model Metadata Registry）。\n\n在「Models」页从自定义网关发现（interrogation）出来的模型、或手工录入的模型，通常只有 id。本插件把目录里已知的元数据填回该模型的配置项，让界面可直接查看、也让上游据此做容量调度；**已由你手动设置过的字段一律不被覆盖**。\n\n## 工作原理\n\n1. **离线索引**：构建时把 models.dev 目录归一化去重后打进包内（`lib/data/models.dev.json`），离线立即可用。\n2. **实时刷新（可选，默认开）**：启动时（及可选定时）拉取最新目录（models.dev/api.json）并合并到索引之上；每个数据源独立失败隔离，失败不影响其余源与离线索引。\n3. **设置写入**：插件监听 `llm-pi-ai` 设置区的变化（模型被采纳/编辑），对「有缺的模型」生成补丁，通过设置管线的 `update` 写入——这就是「自动预填」。\n   - 只填**缺失**字段，绝不覆盖你设置过的值；\n   - 只处理**存在于你自己设置层**的 provider 路由（组合 base 里仅有的 provider 不会被物化进用户文档）；\n   - `models` 列表有改动时整表重述（设置合并对数组是整表替换语义，避免部分列表悄悄丢模型）；\n   - 写出的文档是幂等的：填完之后没有缺失项，因此不会循环写。\n4. **Host 服务**：`",
   "weekly_downloads": 149,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T13:01:48.907Z",
   "created_at": "2026-08-15T13:01:48.710Z",
-  "gh": null,
+  "gh": {
+    "full_name": "QJAG1024/dsh-model-meta-autofill",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T14:41:32Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 54,
-    "maintenance": 0,
+    "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 52,
-    "grade": "C"
+    "overall": 60,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.269Z"
+  "updated_at": "2026-08-17T04:58:16.941Z"
 }

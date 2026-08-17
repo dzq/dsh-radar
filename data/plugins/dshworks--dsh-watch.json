@@ -30,6 +30,7 @@
   },
   "readme": "<table>\n<tr>\n<td width=\"44%\" valign=\"top\">\n\n# dsh-watch\n\n[English](README.md) | 中文\n\n### 给数据流挂一个监听。它说话，agent 就醒 —— 哪怕正在空闲，哪怕现场没有人。\n\n自带的 jobs 子系统只告诉 agent 任务**结束**了。`dsh-watch` 告诉它有东西**开口**了：\n给长跑命令或持续增长的文件挂一个监听器，新出现的行按 pattern 过滤、按 tick 合批、\n按字节封顶，作为会话内通知送达。\n\n然后把人撤掉。把监听写进 profile 配置、挂上 daemon 宿主，你就得到一个开机自启、\n空闲时零成本静默、连续数周被数据流唤醒的 agent。\n\n[![ci](https://github.com/dshworks/dsh-watch/actions/workflows/ci.yml/badge.svg)](https://github.com/dshworks/dsh-watch/actions/workflows/ci.yml)\n[![npm](https://img.shields.io/npm/v/@dshworks/dsh-watch?color=4D6BFE)](https://www.npmjs.com/package/@dshworks/dsh-watch)\n[![powered by dsh](https://img.shields.io/badge/powered__by-dsh-4D6BFE?logo=deepseek)](https://github.com/deepseek-ai/deepseek-harness)\n[![license: MIT](https://img.shields.io/badge/license-MIT-gr",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:38:49.565Z",
   "created_at": "2026-08-15T16:38:49.298Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.707Z"
+  "updated_at": "2026-08-17T04:58:35.601Z"
 }

@@ -24,6 +24,7 @@
   "engines": {},
   "readme": "# dsh-shadow-mind\n\nParallel cognitive runtime for [DeepSeek Harness](https://github.com/deepseek-ai/dsh) (DSH / Cordis).\n\nThis package is a DSH port of the original [pi-shadow-mind](https://github.com/liuzhengdongfortest/pi-shadow-mind) project, which runs multiple \"Shadow Mind\" agents beside a main agent to provide independent reviews, fact-checking, and parallel cognitive work.\n\n> **Status**: functional prototype / early port. Core heartbeat scheduling, read-only shadow agents, and management tools work end-to-end. Several advanced features from `pi-shadow-mind` are not yet fully migrated. See [Gaps vs pi-shadow-mind](#gaps-vs-pi-shadow-mind) below.\n\n## Relation to pi-shadow-mind\n\n- Original project: https://github.com/liuzhengdongfortest/pi-shadow-mind\n- This port adapts the same concep",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T23:34:29.123Z",
   "created_at": "2026-08-16T23:34:28.833Z",
   "gh": null,
@@ -36,5 +37,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.749Z"
+  "updated_at": "2026-08-17T04:58:37.178Z"
 }

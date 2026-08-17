@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-director-toolkit",
+  "name": "dsh-director-toolkit",
+  "version": "0.0.0",
+  "description": "DSH Director Toolkit is a DeepSeek Harness plugin for 3D artists, technical designers, and creative coders. Paste a half-formed idea, a reference note, or a portfolio caption and get a compact direction pack for Blender, Three.js, Houdini, or C4D.",
+  "keywords": [
+    "agent-skills",
+    "agent-vision-toolkit",
+    "blender",
+    "computer-vision",
+    "deepseek-harness",
+    "director",
+    "dsh",
+    "plugin",
+    "python",
+    "skills"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/lhmd/dsh-director-toolkit",
+  "homepage": "http://lhmd.top/dsh-director-toolkit/",
+  "npm": "https://www.npmjs.com/package/dsh-director-toolkit",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "lhmd/dsh-director-toolkit",
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T19:33:39Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:48.298Z"
+}

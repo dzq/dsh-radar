@@ -25,6 +25,7 @@
   "engines": {},
   "readme": "# dsh-ponytail\n\nPonytail（lazy senior dev mode）的 DeepSeek Harness 插件。\n\n规则集来自 [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)（MIT）：\n写代码前先爬 7 级梯子（YAGNI → 复用代码库 → 标准库 → 平台原生 → 已装依赖 → 一行 → 最小实现），\n强度级别 `lite` / `full`（默认）/ `ultra`，可 `off` 关闭。\n\n## 功能\n\n- **每轮注入**：全局 system-prompt 段落 `ponytail:policy`（order 106）按当前模式注入上游规则集，\n  主代理与子代理同享（子代理继承最近活跃祖先会话的模式）。\n- **命令**（经 `dsh-commands`，Web UI 直接可用）：\n  - `/ponytail [lite|full|ultra|off]` 切换强度；`/ponytail`（无参）或 `/ponytail status` 报告当前状态；\n  - `/ponytail default <mode>` 持久化默认模式（写入 `~/.dsh/settings.yaml` 的 `ponytail:` 段）；\n  - `/ponytail-review`、`/ponytail-audit`、`/ponytail-debt`、`/ponytail-gain`、`/ponytail-help`：\n    向会话排入对应技能（走 DSH 的用户显式技能注入路径）。\n- **技能**：6 个上游 SKILL.md 以 runtime skill 注册进 `ctx.skills`（出现在技能目录，可用 `skill` 工具加载）。\n- **停用词**",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T03:31:11.258Z",
   "created_at": "2026-08-15T03:31:11.044Z",
   "gh": null,
@@ -37,5 +38,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:49.205Z"
+  "updated_at": "2026-08-17T04:58:37.267Z"
 }

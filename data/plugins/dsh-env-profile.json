@@ -27,6 +27,7 @@
   },
   "readme": "# dsh-env-profile（骨架）\n\nDSH 全局经验插件：自动探测本地环境（依赖工具 / 便捷路径 / 网络 / 磁盘），\n订阅 `session/event` 折叠每会话统计，沉淀为**跨会话的全局档案**，\n并把低开销摘要注入**每一轮**系统提示——让每个会话开局就知道\n「这台机器有什么、哪些路径靠谱、网络快不快、以往会话里沉淀过什么」，\n减少重复探测与重复解释，加快会话、降低 token 消耗。\n\n> 状态：**骨架 v0.1**。核心闭环（探测 → 沉淀 → 注入 → 查询）可用，\n> LLM 自动抽取知识条目等进阶能力见文末「路线图」。\n\n## 安装\n\n> **本地开发先读这个坑（本机 2026-08-16 实测）**：`dsh plugin --profile web add link:<路径>`\n> 装完会报 `Cannot find package '@deepseek-ai/schemastery'` 而无法加载。原因：\n> 官方 `@deepseek-ai/*` 包不随插件分发，靠「插件的**真实文件**位于 profile 目录树内、\n> Node 父目录上溯命中 `$DSH_HOME/profiles/node_modules` 平铺闭包」解析；\n> pnpm 对本地路径依赖一律建 junction（真实路径在 profile 树外），ESM 解析必失败。\n> 因此本地验证用**物理拷贝**（与 npm/git 安装的真实布局一致）：\n\n```powershell\n# 0) 前置：pnpm 需在 PATH（没有就装：npm i -g pnpm；或用 npx --yes pnpm@9 包一层 shim）\n\n# 1) 登记依赖 + bundle 层（profile package.json 的 dsh.profile.bundles 会追加 ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T14:23:10.534Z",
   "created_at": "2026-08-16T14:23:10.235Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.633Z"
+  "updated_at": "2026-08-17T04:58:32.159Z"
 }

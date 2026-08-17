@@ -26,6 +26,7 @@
   },
   "readme": "# dsh-session-move\n\nA DeepSeek Harness feature bundle for moving an existing cold DSH session between two DSH workspaces while preserving its `SessionId` and event history. The interactive target is the existing session-title row in the DSH Web sidebar; this package does not import Claude Code or other external transcripts.\n\n## Current iteration\n\nThe service exposes a read-only `ctx.sessionMove.inspect({ sessionId, targetWorkspaceId })` dry-run that reports:\n\n- source and target workspace identity;\n- source and target JSONL locations;\n- immutable source/target headers;\n- persistence revision;\n- physical row and logical event counts;\n- contiguous seq bounds;\n- raw-artifact and logical-event SHA-256 values;\n- stable blockers such as live, archived, missing, same-workspace, unsupported backen",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T09:12:30.479Z",
   "created_at": "2026-08-16T09:08:51.738Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:56.393Z"
+  "updated_at": "2026-08-17T04:58:38.938Z"
 }

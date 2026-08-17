@@ -1,0 +1,36 @@
+{
+  "slug": "dsh-diff-viewer",
+  "name": "dsh-diff-viewer",
+  "version": "0.0.0",
+  "description": "DSH Web GUI PiUI-style diff viewer plugin: replaces the stock DiffBlock for write/edit tool calls via ui-tool diff-card chain slots (host patch included). Private.",
+  "keywords": [],
+  "license": "",
+  "repo": "https://github.com/lehhair/dsh-diff-viewer",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-diff-viewer",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "lehhair/dsh-diff-viewer",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T04:28:16Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 25,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 26,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:39.049Z"
+}

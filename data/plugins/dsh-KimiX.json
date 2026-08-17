@@ -1,0 +1,36 @@
+{
+  "slug": "dsh-KimiX",
+  "name": "dsh-KimiX",
+  "version": "0.0.0",
+  "description": "The next-gen lightweight coding agent cli",
+  "keywords": [],
+  "license": "",
+  "repo": "https://github.com/Sikao-Engine/KimiX",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-KimiX",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Sikao-Engine/KimiX",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T10:20:30Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 15,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 25,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:55.327Z"
+}

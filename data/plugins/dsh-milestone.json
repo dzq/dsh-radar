@@ -12,7 +12,7 @@
     "navigation"
   ],
   "license": "MIT",
-  "repo": "",
+  "repo": "https://github.com/SnowCrescenter-tech/dsh-milestone",
   "homepage": "",
   "npm": "https://www.npmjs.com/package/dsh-milestone",
   "dsh_compat": true,
@@ -32,17 +32,30 @@
   "engines": {},
   "readme": "<div align=\"center\">\r\n\r\n<img src=\"./assets/logo.svg\" alt=\"dsh-milestone\" width=\"112\">\r\n\r\n# dsh-milestone\r\n\r\n**DeepSeek Harness 的会话里程碑导航条**\r\n\r\n像 Git 提交图一样，一眼定位每一次提问，一键跳转到任何位置。\r\n\r\n<p>\r\n  <a href=\"https://www.npmjs.com/package/dsh-milestone\"><img src=\"https://img.shields.io/npm/v/dsh-milestone?color=2563eb\" alt=\"npm version\"></a>\r\n  <a href=\"https://www.npmjs.com/package/dsh-milestone\"><img src=\"https://img.shields.io/npm/dm/dsh-milestone\" alt=\"npm downloads\"></a>\r\n  <a href=\"./LICENSE\"><img src=\"https://img.shields.io/npm/l/dsh-milestone\" alt=\"license\"></a>\r\n  <a href=\"https://github.com/topics/dsh-plugin\"><img src=\"https://img.shields.io/badge/topic-dsh--plugin-2563eb\" alt=\"dsh-plugin\"></a>\r\n</p>\r\n\r\n</div>\r\n\r\n---\r\n\r\n## 为什么需要它？\r\n\r\n和 AI 聊了上百轮之后，想找回**第 17 轮那个提问**？你只能不停滚轮往上翻，眼睛在一堆代码块、工具调用和思考过程里",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T03:58:06.715Z",
   "created_at": "2026-08-13T15:35:56.535Z",
-  "gh": null,
+  "gh": {
+    "full_name": "SnowCrescenter-tech/dsh-milestone",
+    "open_issues": 1,
+    "pushed_at": "2026-08-14T03:57:35Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
-    "quality": 75,
+    "maintenance": 39,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 39,
-    "grade": "D"
+    "overall": 48,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:49.238Z"
+  "updated_at": "2026-08-17T04:55:43.140Z"
 }

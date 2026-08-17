@@ -1,0 +1,63 @@
+{
+  "slug": "dsh-session-hub",
+  "name": "dsh-session-hub",
+  "version": "0.1.0",
+  "description": "Aggregate and natively control DeepSeek Harness sessions across multiple remote dsh web servers from one pane: server registry, merged session list, history, prompt, cancel, rename, fork, model selection and approval/question answering.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "multi-server",
+    "session-management",
+    "session-sync"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Asaiuta/dsh-session-hub.git",
+  "homepage": "https://github.com/Asaiuta/dsh-session-hub",
+  "npm": "https://www.npmjs.com/package/dsh-session-hub",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-primitives"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19 || >=24"
+  },
+  "readme": "<div align=\"center\">\r\n\r\n# dsh-session-hub\r\n\r\n**把散在各处的会话收进 DSH 的同一棵树。**\r\n\r\n远端服务器上的 DSH 会话，本机 Codex CLI、Claude Code、opencode、Pi 的历史对话，\r\n一起进官方 Web UI。侧边栏和对话区都用官方的，插件只搬数据。两件事互相独立，可以只装一件。\r\n\r\n<a href=\"https://www.npmjs.com/package/dsh-session-hub\"><img alt=\"npm\" src=\"https://img.shields.io/npm/v/dsh-session-hub/alpha?style=flat-square&color=4b6fff\"></a>\r\n<a href=\"LICENSE\"><img alt=\"MIT\" src=\"https://img.shields.io/badge/license-MIT-blue?style=flat-square\"></a>\r\n<a href=\"CHANGELOG.md\"><img alt=\"changelog\" src=\"https://img.shields.io/badge/changelog-alpha.2-8957e5?style=flat-square\"></a>\r\n<img alt=\"alpha\" src=\"https://img.shields.io/badge/status-alpha-orange?style=flat-square\">\r\n<img alt=\"node\" src=\"https://img.shields.io/badge/node-%5E22.19%20%7C%7C%20%3E%3D24-3c873a?style=flat-square\">\r\n<img alt",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T08:32:55.564Z",
+  "created_at": "2026-08-14T10:15:19.914Z",
+  "gh": {
+    "full_name": "Asaiuta/dsh-session-hub",
+    "open_issues": 1,
+    "pushed_at": "2026-08-15T08:32:35Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:58:03.499Z"
+}

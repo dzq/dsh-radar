@@ -11,7 +11,7 @@
     "audit"
   ],
   "license": "MIT",
-  "repo": "",
+  "repo": "https://github.com/jkrandom-sudo/dsh-plugin-audit",
   "homepage": "",
   "npm": "https://www.npmjs.com/package/dsh-plugin-audit",
   "dsh_compat": true,
@@ -25,17 +25,30 @@
   },
   "readme": "# dsh-plugin-audit\n\n[English](./README.md) · [npm](https://www.npmjs.com/package/dsh-plugin-audit) · [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)\n\n**在让 DSH 插件跑起来之前，先看清它能做什么。** `dsh-plugin-audit` 对第三方插件做静态权限画像——代码触及哪些文件、进程、主机、环境变量和凭证路径，全部附文件/行号证据——并武装一个运行时哨兵：当任何工具调用伸向凭证或向未知主机外发数据时，先请你批准。\n\n## 功能\n\n**1. 静态审计 —— `plugin_audit` 工具。** 指向任意插件目录，扫描源码、`package.json` 和 `cordis.patch.yml`，返回权限画像卡：\n\n```markdown\n## Plugin audit: fixture-suspicious-plugin\n\n**Risk: REVIEW** — REVIEW — human review recommended before installing\n\n> 1 files scanned; risk=review; 10 findings (4 review, 4 notice, 2 info)\n\n### Permission profile\n\n| Surface | Observed |\n|---|---|\n| Filesystem read | **yes** |\n| Filesystem write | **yes** |\n| Child processes | **yes** |\n| Network | **yes** |\n| Outbound host",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T05:12:44.893Z",
   "created_at": "2026-08-14T03:59:47.366Z",
-  "gh": null,
+  "gh": {
+    "full_name": "jkrandom-sudo/dsh-plugin-audit",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T05:13:18Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
-    "quality": 75,
+    "maintenance": 39,
+    "quality": 85,
     "security": 65,
     "dsh_compat": 75,
-    "overall": 40,
+    "overall": 50,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:45.212Z"
+  "updated_at": "2026-08-17T04:58:25.657Z"
 }

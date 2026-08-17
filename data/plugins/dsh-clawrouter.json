@@ -27,17 +27,25 @@
   },
   "readme": "<div align=\"center\">\n\n<img src=\"https://raw.githubusercontent.com/BlockRunAI/dsh-clawrouter/main/assets/banner.png\" alt=\"dsh-clawrouter — review the dangerous command, before it runs\" width=\"600\">\n\n<h1>A second brain for your DeepSeek Harness agent</h1>\n\n<p>DeepSeek is fast and cheap — keep it for the loop.<br><br>\n<strong>This adds what it cannot do: a stronger model reviews the dangerous command before it runs.</strong><br><br>\n<em><!-- br:models.chatVisible -->67<!-- /br:models.chatVisible --> models from one wallet. No accounts. No API keys. No credit card.</em></p>\n\n<br>\n\n<img src=\"https://img.shields.io/badge/🛡️_Review_Before_Execute-success?style=for-the-badge\" alt=\"Review before execute\">&nbsp;\n<img src=\"https://img.shields.io/badge/🧠_Claude_Reviews_DeepSeek-black?style=for-the-b",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T17:31:36.856Z",
   "created_at": "2026-08-14T01:05:46.855Z",
-  "gh": null,
+  "gh": {
+    "full_name": "BlockRunAI/dsh-clawrouter",
+    "stars": 9,
+    "open_issues": 2,
+    "pushed_at": "2026-08-16T22:32:05Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
+    "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 38,
-    "grade": "D"
+    "overall": 46,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:54.835Z"
+  "updated_at": "2026-08-17T04:56:29.393Z"
 }

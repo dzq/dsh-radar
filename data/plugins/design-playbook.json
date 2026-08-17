@@ -28,24 +28,18 @@
   "engines": {},
   "readme": "# design-playbook\n\nAgent plugin: **Design I/O** for product UI (Claude Code / Codex).\n\nDeclarations + contracts — not a style CSV pack. Compose with [ui-ux-pro-max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) and Anthropic `frontend-design` for aesthetics; this package owns pipeline and acceptance.\n\n## Install (Claude Code)\n\nPath of record (published) - the marketplace catalog lives at the **repo root**, not in this package:\n\n```text\n/plugin marketplace add https://github.com/Bandersnatch0x/design-playbook.git\n/plugin install design-playbook@design-playbook\n```\n\nLocal dev / self-test:\n\n```bash\nclaude --plugin-dir <abs-path>/packages/design-playbook      # dev load, no install\n# or local marketplace (point at the repo root, where the catalog lives)\n/plugin marketplace add <abs-",
   "weekly_downloads": 687,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T17:10:53.616Z",
   "created_at": "2026-07-27T02:06:22.607Z",
-  "gh": {
-    "full_name": "Bandersnatch0x/design-playbook",
-    "stars": 1,
-    "open_issues": 0,
-    "pushed_at": "2026-08-15T17:08:41Z",
-    "archived": false,
-    "license": null
-  },
+  "gh": null,
   "scores": {
     "popularity": 71,
-    "maintenance": 39,
+    "maintenance": 0,
     "quality": 75,
     "security": 40,
     "dsh_compat": 75,
-    "overall": 62,
-    "grade": "B"
+    "overall": 54,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.232Z"
+  "updated_at": "2026-08-17T04:58:28.545Z"
 }

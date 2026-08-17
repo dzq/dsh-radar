@@ -20,6 +20,7 @@
   "engines": {},
   "readme": "# dsh-tool-market-data\r\n\r\nDSH 插件：多市场金融数据 — A 股、美股、加密货币行情/K 线/选股/基本面。\r\n\r\n## 工具清单\r\n\r\n| 工具 | 功能 | 数据源 |\r\n|------|------|--------|\r\n| `market_quote` | 实时行情（价格、涨跌幅、成交量） | A 股: 新浪 / 美股: Yahoo / 币: Binance |\r\n| `market_kline` | 历史 K 线（OHLCV） | A 股: 东方财富 / 美股: Yahoo / 币: Binance |\r\n| `market_screen` | 条件选股（涨幅、换手、市值） | A 股: 东方财富 |\r\n| `market_fundamentals` | 基本面（PE/PB/ROE/营收/利润） | A 股: 东方财富 / 美股: Yahoo |\r\n\r\n## 安装\r\n\r\n```bash\r\ndsh plugin add dsh-tool-market-data\r\n```\r\n\r\n## 配置\r\n\r\n```yaml\r\n- insert:\r\n    - id: market-data\r\n      name: dsh-tool-market-data\r\n      config:\r\n        defaultMarket: cn              # cn | us | crypto\r\n        binanceBaseUrl: https://api.binance.com\r\n```\r\n\r\n## 市场自动识别\r\n\r\n无需手动指定 market，插件根据 symbol 格式自动判断：\r\n\r\n| 格式 | 识别为 | 示例 |\r\n|------|--------|------|\r\n| 6 位数字 | A 股 | 600519（茅台）",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T15:09:52.880Z",
   "created_at": "2026-08-14T15:09:52.680Z",
   "gh": null,
@@ -32,5 +33,5 @@
     "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.440Z"
+  "updated_at": "2026-08-17T04:58:32.607Z"
 }

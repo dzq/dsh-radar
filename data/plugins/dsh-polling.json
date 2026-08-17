@@ -39,6 +39,7 @@
   },
   "readme": "# dsh-polling\n\n**给你的 DeepSeek Harness 装一个\"到点自己干活\"的定时助手。** 对它说一句\"每天上午 9 点检查稿件文件夹\"，剩下的交给模型按时完成。\n\n[![](https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white)](https://github.com/deepseek-ai/deepseek-harness)\n\n## 它能干什么\n\n- **定时检查**：盯文件夹、盯网页，有新东西就处理、汇报\n- **定时产出**：抓数据、写日报/周报、整理归档\n- **定时跑腿**：发消息、跑脚本……一切你愿意交代给模型的重复活儿\n\n任务执行很安静：在它自己的会话里进行，不会打断你正在聊的天；过程和结果就是那段对话记录，随时打开看看，还能插句话指挥它。\n\n## 安装\n\n需要先装好 `dsh` CLI 并运行过 `dsh web`。然后一条命令：\n\n```bash\ndsh plugin --profile web add dsh-polling\n```\n\n重启 `dsh web`，侧边栏就会出现「轮询」工作区。\n\n> 也可以从 GitHub 安装（`dsh plugin --profile web add github:cnyac/dsh-polling`）或本地 tarball 安装。GitHub 方式第一次会提示你\"允许构建\"，按提示确认一次即可。\n\n## 开始用\n\n最简单的开始——直接对它说：\n\n> 帮我建个轮询任务：每个工作日早上 9 点检查 `D:\\稿件\\待处理`，有新稿件就按常规流程润色归档。\n\n它会在「轮询」工作区建一个任务会话，到点自动开跑。想改时间、暂停、删除？两个入口都行：\n\n- **侧",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T06:30:41.246Z",
   "created_at": "2026-08-14T06:21:57.910Z",
   "gh": null,
@@ -51,5 +52,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.695Z"
+  "updated_at": "2026-08-17T04:58:35.336Z"
 }

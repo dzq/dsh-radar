@@ -32,17 +32,25 @@
   "engines": {},
   "readme": "# 🔔 dsh-notify-sound\n\n> 个人 DSH 会话提示音插件：会话完成 / 需要人介入（审批、提问、计划评审、目标受阻、后台任务失败）时播放**内置合成提示音**，不同情况可配不同声音，内置一套合理默认；配置**服务端持久化，所有浏览器 / 设备同步**。\n>\n> 参考 [ldchaowin/dsh-plugin-notify-sound](https://github.com/ldchaowin/dsh-plugin-notify-sound)（MIT）裁剪改造：去掉自定义音频上传、TTS 语音播报与按工作区配置，改为**仅内置合成音 + 设置 > 插件 > 插件配置卡片**。\n\n---\n\n## ✨ 特性\n\n- **内置 6 种合成提示音 + 静音**：叮咚 / 风铃 / 铃铛 / 完成 / 成功 / 警示，Web Audio 实时合成，无任何音频文件\n- **按情况区分**：完成类（回合结束、后台任务完成）与注意类（审批请求、用户提问、计划评审、目标受阻、后台任务失败）各自独立配置，可\"跟随通用注意音\"\n- **默认配置一套**：装完即用（完成=风铃、注意=叮咚、受阻=铃铛、失败=警示）\n- **配置所有浏览器同步**：配置存服务端 profile 设置（用户层），任何浏览器 / 设备改动全局生效；本页每 30s 定时刷新 + 页面聚焦 / 可见时刷新，近实时同步\n- **「提示音」设置卡片**：挂在官方槽位 `settings.plugin.item`（与 bash/agent-loop 卡片同列），折叠卡形态，每行下拉 + 试听\n- **注意类事件不受「当前会话不响铃」限制**：需要你介入的事永远响，完成类可设为\"当前正在查看的会话不响\"\n\n## 🎯 界面位置\n\n```\n设置（侧边栏底部） → 插件配置 → 提示音 卡片\n┌───────────",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T02:29:44.391Z",
   "created_at": "2026-08-17T02:29:43.945Z",
-  "gh": null,
+  "gh": {
+    "full_name": "xxxxxxxyu/dsh-notify-sound",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T13:31:49Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
+    "maintenance": 39,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 39,
-    "grade": "D"
+    "overall": 46,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:47.382Z"
+  "updated_at": "2026-08-17T04:57:51.267Z"
 }

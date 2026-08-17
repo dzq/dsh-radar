@@ -30,6 +30,7 @@
   },
   "readme": "[English](./README.md) | 简体中文\n\n# dsh-lean\n\n[![npm](https://img.shields.io/npm/v/dsh-lean)](https://www.npmjs.com/package/dsh-lean)\n[![prefix](https://img.shields.io/badge/提示词前缀-缩小_53%25-brightgreen)](#实测)\n[![peak](https://img.shields.io/badge/峰时-按_2_倍计费-red)](#账单的另一半在你打字之前就发出去了)\n[![cost](https://img.shields.io/badge/会话花费-降低_2--41%25-brightgreen)](#实测)\n[![runs](https://img.shields.io/badge/实测-32_次运行-blue)](#自己复现)\n[![license](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)\n\n**DeepSeek 从 2026-08-16 起峰时按两倍计费，而峰时正好是上班时间。**\n\n峰时是 UTC 01:00-04:00 和 06:00-10:00，其余时段是谷时，谷时正好是峰时的一半。\n\n| 你的时区 | 按 2 倍计费的峰时 |\n|---|---|\n| UTC+8 北京、上海、新加坡 | 09:00-12:00 和 14:00-18:00 |\n| UTC+9 东京、首尔 | 10:00-13:00 和 15:00-19:00 |\n| UTC+0 伦敦 | 01:00-04:00 和 06:00-10:00 |\n\n如果你按国内作息写代码，几乎每一行都是按贵的那档付的，中间只空出午休。把长时间跑的任务",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T02:42:49.763Z",
   "created_at": "2026-08-16T12:54:09.954Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 40,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.631Z"
+  "updated_at": "2026-08-17T04:58:32.159Z"
 }

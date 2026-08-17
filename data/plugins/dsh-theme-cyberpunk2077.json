@@ -16,7 +16,7 @@
     "cyberpunk-2077"
   ],
   "license": "MIT",
-  "repo": "",
+  "repo": "https://github.com/Tommy00748/dsh-theme-cyberpunk2077",
   "homepage": "",
   "npm": "https://www.npmjs.com/package/dsh-theme-cyberpunk2077",
   "dsh_compat": true,
@@ -31,17 +31,24 @@
   "engines": {},
   "readme": "# dsh-theme-cyberpunk2077 — NIGHT CITY EDITION\n\nCyberpunk 2077（夜之城）风格的 DSH Web UI 主题插件。纯浏览器客户端插件，零音频资源（全部 Web Audio 实时合成）。\n\n## 视觉\n\n- **配色**：NC 黄 `#FCE300` / 霓虹青 `#00F0FF` / 玫红 / 近黑夜蓝底\n- **切角按钮**（45° chamfer）、主按钮霓虹脉冲呼吸\n- **CRT 层**：扫描线 + 城市网格 + 双色霓虹雾（可关）\n- **顶部危险条纹**、详情面板 HUD 角标\n- **Logo 故障动画**（红青 RGB 色散，每 5.5s）\n- **开机转场**：CRT 开机线 → glitch 条纹 → NIGHT CITY 标题 → 白闪（可关）。**每个标签页会话只播第一次**——刷新/断线重连不再重播，新开标签页才会再见\n- **随机 Relic 干扰**：每 40-70s 屏幕闪 1-2 帧轻微错位（可关，尊重系统减弱动效）\n- **字体**：MiSans（小米，jsDelivr 按 unicode-range 分片加载）+ 本地等宽栈（代码）\n- **会话 = 数据碎片**：稀有度色边（白/绿/青/紫/橙循环），激活项传奇级橙黄光\n- **Kiroshi 光学锁定**：悬停会话行 → 青色扫描线扫过 + 四角瞄准括号（像义眼锁定目标）\n- **警示纹（hazard tape）**：错误通知顶部红黑 45° 斜纹、DECK 面板标题青色斜纹——危险区一眼可辨\n- **夜之城时钟 + 数据流**：停靠在左下角设置栏的空白右半区（`0x93E2E4 23:47 NC-TIME` 一行 HUD 读出；侧栏收起自动隐藏，小屏/减弱动效关闭）\n- **目标栏 → 任务追踪器**（◈ OBJECTIV",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T23:57:26.593Z",
   "created_at": "2026-08-14T23:43:54.095Z",
-  "gh": null,
+  "gh": {
+    "full_name": "Tommy00748/dsh-theme-cyberpunk2077",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T09:41:08Z",
+    "archived": false,
+    "license": null
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
+    "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 36,
-    "grade": "D"
+    "overall": 44,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:54.827Z"
+  "updated_at": "2026-08-17T04:56:06.593Z"
 }

@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-vocaloid-mcp",
+  "name": "dsh-vocaloid-mcp",
+  "version": "0.0.0",
+  "description": "An agent-native MCP for composing, tuning, rendering, mixing, and auditing native VOCALOID3/4 projects — built just for fun.",
+  "keywords": [
+    "ai-agents",
+    "audio-engineering",
+    "codex",
+    "computer-music",
+    "generative-music",
+    "mcp",
+    "model-context-protocol",
+    "music-production",
+    "typescript",
+    "vocaloid"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/N0zoM1z0/vocaloid-mcp",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-vocaloid-mcp",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "N0zoM1z0/vocaloid-mcp",
+    "open_issues": 0,
+    "pushed_at": "2026-07-19T09:43:53Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 29,
+    "quality": 55,
+    "security": 65,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:58.567Z"
+}

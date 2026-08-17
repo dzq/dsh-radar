@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-zotero-harvest",
+  "name": "dsh-zotero-harvest",
+  "version": "0.0.0",
+  "description": "Zotero 文献采集入库插件（DSH external plugin）：多源检索（OpenAlex/arXiv/Crossref/Europe PMC/Semantic Scholar）+ OA 下载链接解析（Unpaywall）+ 充分性审计 + 入库本地 Zotero + 触发 zotero-wave-rag 重建",
+  "keywords": [
+    "dshx",
+    "literature",
+    "papers",
+    "zotero"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Fisfzy/zotero-harvest",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-zotero-harvest",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Fisfzy/zotero-harvest",
+    "open_issues": 0,
+    "pushed_at": "2026-08-08T06:06:20Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 36,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:33.616Z"
+}

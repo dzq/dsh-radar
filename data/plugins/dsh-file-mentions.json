@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-file-mentions",
+  "name": "dsh-file-mentions",
+  "version": "0.0.0",
+  "description": "Clickable file paths in DSH replies: Codex-style inline open, 📂 reveal in file manager, mentioned-files chip list. DSH web plugin (zero-dependency).",
+  "keywords": [
+    "deepseek-harness",
+    "file-mentions",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/a903067276-rgb/dsh-file-mentions",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-file-mentions",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "a903067276-rgb/dsh-file-mentions",
+    "open_issues": 1,
+    "pushed_at": "2026-08-17T02:53:55Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:02.939Z"
+}

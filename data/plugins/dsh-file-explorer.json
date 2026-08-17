@@ -1,0 +1,65 @@
+{
+  "slug": "dsh-file-explorer",
+  "name": "dsh-file-explorer",
+  "version": "0.1.1",
+  "description": "Workspace file explorer for DeepSeek Harness Web: resizable split tree + preview layout, type-based coloring, syntax highlighting, edit/save, plus an Apple-style glass UI and quick settings bar. DSH 工作区文件浏览器:左右分栏文件预览、按类型着色、语法高亮、可编辑,附毛玻璃界面与快速设置栏。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "glassmorphism",
+    "file-explorer",
+    "workspace",
+    "macos-style"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Zalpha263/dsh-file-explorer",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-file-explorer",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-api-remotes"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "readme": "# dsh-file-explorer 🗂️\n\n**工作区文件浏览器** for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web GUI —— 文件预览与管理为主,附赠 macOS 风格毛玻璃工作台:\n\n- 🗂️ **文件浏览器(核心)**:自动扫描当前会话工作区,左右分栏(左侧文件树 / 右侧内容预览),面板宽度与分栏宽度均可拖拽调整;目录展开、按扩展名着色、轻量语法高亮、编辑保存\n- ⚡ **快速设置栏**:右下角胶囊 —— 文件浏览器开关 / 主题切换(浅色·深色·跟随系统)/ 皮肤切换(循环已注册皮肤)\n- 💻 **跟随工作区**:切换会话/工作区自动重载文件树;无工作区时显示空状态\n\n## ✨ 效果\n\n| 功能 | 说明 |\n|---|---|\n| 快速设置栏 | 右下角悬浮胶囊:🗂️ 文件浏览器 · 🌙/☀️/🌗 主题 · 🎨 皮肤 |\n| 文件浏览器 | 右滑面板,懒加载目录树(跳过 node_modules/.git),扩展名彩色圆点,点击查看代码(语法高亮),「编辑→保存」写回工作区 |\n| 安全 | 文件 API 只允许工作区根目录内路径(realpath 防符号链接逃逸);写入需 `x-dsh-hok-fs` 头(防跨站写入);二进制/超大文件只读 |\n\n## 🚀 安装 / Install\n\n```sh\n# 1. 构建\ncd dsh-file-explorer\nnpm install\nnpm run build\n\n# 2. 安装到 web profile\ndsh plugin --profile web add <abs-path-of-dsh-file-explorer>\n\n# 3. 在 ~/.dsh/profiles/web/cordis",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T17:00:10.298Z",
+  "created_at": "2026-08-14T16:51:48.782Z",
+  "gh": {
+    "full_name": "Zalpha263/dsh-file-explorer",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T15:16:38Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 43,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:45.797Z"
+}

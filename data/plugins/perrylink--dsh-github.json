@@ -27,6 +27,7 @@
   },
   "readme": "<h1 align=\"center\">dsh-github</h1>\n\n<p align=\"center\">\n  <b>把 GitHub 接入 DeepSeek Harness。</b><br/>\n  创建 PR · 行级或汇总评论审查 PR · 管理 issue · 搜索 —— 每个写操作都经人类审批，token 永不落日志。\n</p>\n\n<p align=\"center\">\n  <a href=\"README.md\">English</a> ·\n  <a href=\"README.es.md\">Español</a> ·\n  <a href=\"README.pt.md\">Português</a> ·\n  <a href=\"README.hi.md\">हिन्दी</a>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/license-Apache%202.0-blue.svg\" alt=\"License: Apache 2.0\">\n  <img src=\"https://img.shields.io/badge/dsh-0.1.0--rc.6-4D6BFE\" alt=\"dsh: 0.1.0-rc.6\">\n  <img src=\"https://img.shields.io/badge/dsh-dsh--plugin-4D6BFE\" alt=\"dsh-plugin\">\n  <img src=\"https://img.shields.io/badge/node-%5E22.19%20%7C%7C%20%3E%3D24-brightgreen\" alt=\"Node: ^22.19 || >=24\">\n  <img src=\"https://github.com/PerryLink/dsh-g",
   "weekly_downloads": 36,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T11:26:12.740Z",
   "created_at": "2026-08-14T11:20:57.922Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 47,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.305Z"
+  "updated_at": "2026-08-17T04:58:29.532Z"
 }

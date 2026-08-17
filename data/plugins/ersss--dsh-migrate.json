@@ -27,6 +27,7 @@
   },
   "readme": "# dsh-migrate\n\n[English](README.md) | 中文\n\n[![npm version](https://img.shields.io/npm/v/%40ersss%2Fdsh-migrate)](https://www.npmjs.com/package/@ersss/dsh-migrate)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)\n[![Node.js ≥ 22.13](https://img.shields.io/badge/Node.js-%E2%89%A5%2022.13-339933?logo=node.js&logoColor=white)](package.json)\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)\n\n把其他 AI agent 的聊天记录和记忆迁移到 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)。\n\n换 harness 不应该丢上下文。`dsh-migrate` 读取其他 agent 留在磁盘上的会话记录和记忆文件，写成 DeepSeek Harness 原生会话日志——可搜索、可在 Trajectory 视图中查看、可继续(resume/fork)，就像它们本来就是 DSH 记录的一样。\n\n两种用法：DSH 内的 **`/migrate` 斜杠命令**，以及独立 **CLI**(`npx @ersss/dsh-m",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T06:53:19.408Z",
   "created_at": "2026-08-16T06:28:30.379Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.631Z"
+  "updated_at": "2026-08-17T04:58:32.159Z"
 }

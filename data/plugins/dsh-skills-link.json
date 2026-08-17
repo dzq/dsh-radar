@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-skills-link",
+  "name": "dsh-skills-link",
+  "version": "0.0.0",
+  "description": "Sync your local skills across 41+ AI coding agents with a single command.",
+  "keywords": [
+    "ai",
+    "ai-coding",
+    "ai-tools",
+    "automation",
+    "claude",
+    "developer-tools",
+    "skills",
+    "skills-sync"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/shanliuling/skills-link",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-skills-link",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "shanliuling/skills-link",
+    "open_issues": 1,
+    "pushed_at": "2026-05-14T06:44:10Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 14,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 27,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:51.293Z"
+}

@@ -32,17 +32,25 @@
   },
   "readme": "# dsh-humanizer\n\n[![CI](https://github.com/DEEP-IOS/dsh-humanizer/actions/workflows/ci.yml/badge.svg)](https://github.com/DEEP-IOS/dsh-humanizer/actions)\n[![npm](https://img.shields.io/npm/v/dsh-humanizer?label=npm)](https://www.npmjs.com/package/dsh-humanizer)\n\n> 一个让模型在动笔之前先成为作者的 DeepSeek Harness 原生插件。\n> 这里没有检测分数，没有改写清单。它做的事情，是在文字落下来之前把作者找回来。\n\n---\n\n## 先说问题\n\n市面上多数 AI 消痕工具用起来都有同样的毛病：文字越改越有 AI 味，原有排版被拆坏，句子读起来也不自然。\n\n这个插件的第一版就犯过这个错。我们嘴上写着「配额就是新指纹」，手上却把方法做成了一张张工序卡，让用户照着执行。结果工序本身变成了新的可检测特征。所以 v0.3 干脆把方向翻了过来：模型动笔前先把整套理论完整读进脑子，在思考中成为这次要写的人，然后把理论忘掉，一口气写。\n\n这不是换了一种提示词。往下读，你会看到这两种做法对问题的理解完全不同。\n\n---\n\n## AI 味不在词上，在决定上\n\n先看三句话。\n\n> 这不是一次简单的失败，而是一次深刻的警醒。\n> 它不仅改变了他的选择，更重塑了他的认知。\n> 这意味着，他必须重新审视自己的过去。\n\n三个句子用词不同，句式不同，读起来却像同一个人写的。把它们并排放在一起，几乎能听见同一种腔调。为什么？\n\n因为三个句子的底层决定是一样的。作者每次都选择同一条路：先否定一个较浅的解释，再抬到一个更抽象的高度，最后追加一层",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T11:45:05.633Z",
   "created_at": "2026-08-14T09:47:23.411Z",
-  "gh": null,
+  "gh": {
+    "full_name": "DEEP-IOS/dsh-humanizer",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T11:41:31Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
+    "maintenance": 39,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 39,
-    "grade": "D"
+    "overall": 46,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:46.963Z"
+  "updated_at": "2026-08-17T04:58:05.474Z"
 }

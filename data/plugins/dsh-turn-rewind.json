@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-turn-rewind",
+  "name": "dsh-turn-rewind",
+  "version": "0.0.0",
+  "description": "deepseek harness对话和代码状态回退插件 | DSH — rewind conversation and workspace state, powered by a persistent Change Ledger",
+  "keywords": [
+    "agent-rewind",
+    "cordis-plugin",
+    "deepseek-harness",
+    "dsh",
+    "marisa-plugin",
+    "restore-point",
+    "turn-rewind",
+    "workspace-safety"
+  ],
+  "license": "BSD-3-Clause",
+  "repo": "https://github.com/Anionex/dsh-turn-rewind",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-turn-rewind",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Anionex/dsh-turn-rewind",
+    "open_issues": 2,
+    "pushed_at": "2026-08-16T17:17:17Z",
+    "archived": false,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:01.605Z"
+}

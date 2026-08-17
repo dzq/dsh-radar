@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-deepseek-flow",
+  "name": "dsh-deepseek-flow",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [
+    "ai-workflow",
+    "dark-mode",
+    "deepseek-harness",
+    "developer-tools",
+    "flow-editor",
+    "markdown",
+    "visual-workflow",
+    "visualization",
+    "workflow",
+    "workflow-builder"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/kanghelyu/dsh-deepseek-flow",
+  "homepage": "https://deepseekflow.kanghelyu.org/",
+  "npm": "https://www.npmjs.com/package/dsh-deepseek-flow",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "kanghelyu/dsh-deepseek-flow",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T14:23:24Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 30,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:17.862Z"
+}

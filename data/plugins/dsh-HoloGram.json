@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-HoloGram",
+  "name": "dsh-HoloGram",
+  "version": "0.0.0",
+  "description": "3D code dependency graph generator with built-in LLM agent. Language-agnostic (Python, TypeScript, Rust, Go, Java, C/C++, C#, Ruby, Kotlin, Swift, PHP, Lua). Coupling depth analysis, constraint gating, real-time file watching. Tauri 2 + Three.js + Rust engine.跨语言代码依赖拓扑图生成器 · 14 门",
+  "keywords": [
+    "code-analysis-true",
+    "dsh-plugin-market",
+    "dsh-plugin-verify",
+    "dsh-plugins"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/834063245-creator/HoloGram",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-HoloGram",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "834063245-creator/HoloGram",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T07:14:19Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:21.618Z"
+}

@@ -28,6 +28,7 @@
   "engines": {},
   "readme": "# dsh-paperclip\n\nDSH Web GUI 回形针按钮插件：在输入框右侧添加一个 📎 按钮，点击选择文件（支持拖拽），文件内容自动插入到输入框，方便把代码/文本直接发给 agent。\n\nA single 📎 paperclip button in the DSH web GUI composer: click to pick files (or drag & drop), file contents are inserted into the textarea so you can hand code/text to the agent directly.\n\n## 功能 Features\n\n- 📎 输入框右侧回形针按钮，一键选择文件\n- 🖱️ 支持拖拽文件到输入框\n- 📄 支持常见文本/代码格式（HTML、JS、TS、CSS、JSON、MD、Python 等 30+ 扩展名）\n- 🔤 多文件批量上传（最多 10 个，单个 ≤ 5MB）\n- 🌐 中英文双语（zh / en）\n- 🧩 零服务端依赖，纯浏览器端实现\n\n## 安装 Install\n\n```bash\ndsh plugin --profile web add dsh-paperclip\n```\n\n或者手动安装（本仓库）：\n\n```bash\ndsh plugin --profile web add ./dsh-paperclip\n```\n\n## 使用 Usage\n\n1. 刷新 Web GUI 页面\n2. 点击输入框右侧的 📎 按钮选择文件，或直接把文件拖进输入框\n3. 文件内容会以代码块格式插入输入框：\n\n```\n📄 index.html (1.2 KB)\n```html\n<!DOCTYPE html>\n...\n```\n```\n\n4. 发送消息，agent 即可读取文件内容\n\n## 开发",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T17:11:59.426Z",
   "created_at": "2026-08-16T17:11:59.153Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:54.051Z"
+  "updated_at": "2026-08-17T04:58:38.248Z"
 }

@@ -34,6 +34,7 @@
   },
   "readme": "# dsh-plugin-list-plus\n\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web 设置的**插件列表升级**——信任分级、可折叠分组，插件细节一览无余。它在官方**插件列表**标签页旁新增一个 **插件列表 Plus** 标签页，提供：\n\n- **信任分级** —— 插件按 官方 / 组织 / 个人 分组：`@deepseek-ai` 作用域与 `cordis:` 内置指令为官方，其他任意 npm 作用域为组织，无作用域或本地文件为个人。\n- **可折叠分组** —— 数量多的组可从组头折叠，无需滚动即可看到其他组。\n- **完整详情** —— 每个插件一张卡片：显示名、版本号、git 提交、开发者、描述、许可证、主页、仓库、Bundle 补丁、配置状态与 Cordis 挂载状态。\n- **搜索与排序** —— 按名称、描述、开发者等字段过滤，每个信任组内按名称稳定排序。\n\n## 安装\n\n```sh\n# 从构建产物安装\ndsh plugin --profile web add ./dsh-plugin-list-plus-0.1.0.tgz\n# 发布到 npm 后\ndsh plugin --profile web add dsh-plugin-list-plus\n```\n\n重启 `dsh web`，打开 **设置 → 插件 → 插件列表 Plus**（官方**插件列表**旁的新标签页）。\n\n## 工作原理\n\n一个包、两个部分、一条由本插件注册的数据路由：\n\n- **Node 部分**（`src/index.ts`，包的 `main`）：读取 Loader 树与已安装的 `package.json`，计算信任分级快照，并在 `GET /plugins/dsh-plug",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T10:26:59.875Z",
   "created_at": "2026-08-16T10:26:59.644Z",
   "gh": null,
@@ -46,5 +47,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.637Z"
+  "updated_at": "2026-08-17T04:58:32.251Z"
 }

@@ -1,0 +1,205 @@
+{
+  "stats": {
+    "total": 1921,
+    "by_grade": {
+      "A": 1,
+      "B": 107,
+      "C": 364,
+      "D": 1449
+    },
+    "by_compat": 1181,
+    "total_weekly_downloads": 110232,
+    "generated_at": "2026-08-17T04:58:39.117Z",
+    "build_ms": 310800
+  },
+  "top10": [
+    {
+      "slug": "liustack--modsearch",
+      "name": "@liustack/modsearch",
+      "version": "5.4.2",
+      "description": "Plug-in web search, X search, and page fetch for models without native web access, powered by the free Antigravity CLI",
+      "weekly_downloads": 4097,
+      "stars": 0,
+      "grade": "A",
+      "overall": 70,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T05:18:30.432Z",
+      "keywords": [
+        "search",
+        "web-fetch",
+        "cli",
+        "llm",
+        "agent"
+      ]
+    },
+    {
+      "slug": "dsh-pocket",
+      "name": "dsh-pocket",
+      "version": "1.0.25",
+      "description": "把 DeepSeek Harness 装进你的口袋：一个包、一个设置页，手机扫码即同步访问电脑上的 DSH（局域网 + 公网，实时同屏）。",
+      "weekly_downloads": 4381,
+      "stars": 20,
+      "grade": "B",
+      "overall": 69,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T18:01:23.650Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "mobile",
+        "remote"
+      ]
+    },
+    {
+      "slug": "nanmicoder--dsh-agent-teams",
+      "name": "@nanmicoder/dsh-agent-teams",
+      "version": "0.1.5",
+      "description": "AgentTeams for DeepSeek Harness: multi-agent team collaboration (captain, members, tasks with dependencies, messaging) driven by natural language, with a tree monitor in the web GUI",
+      "weekly_downloads": 2546,
+      "stars": 439,
+      "grade": "B",
+      "overall": 68,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T15:05:44.705Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek-harness",
+        "agent-teams",
+        "multi-agent"
+      ]
+    },
+    {
+      "slug": "dsh-stock-watch",
+      "name": "dsh-stock-watch",
+      "version": "1.0.5",
+      "description": "A股自选股实时行情盯盘插件 - DeepSeek Harness Web 右上角可折叠弹窗（分时/K线/目标价/主题切换/可拖动/添加股票分组）",
+      "weekly_downloads": 949,
+      "stars": 0,
+      "grade": "B",
+      "overall": 67,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T06:33:17.873Z",
+      "keywords": [
+        "dsh",
+        "deepseek",
+        "deepseek-harness",
+        "plugin",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "slug": "dsh-any-background",
+      "name": "dsh-any-background",
+      "version": "0.1.4",
+      "description": "Appearance plugin for DeepSeek Harness: custom theme color (PS-style color wheel), background wallpaper with opacity/blur controls, and separate main/settings interface opacity.",
+      "weekly_downloads": 814,
+      "stars": 0,
+      "grade": "B",
+      "overall": 67,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T16:42:44.966Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "plugin",
+        "dsh-plugin",
+        "theme"
+      ]
+    },
+    {
+      "slug": "dsh-mnemon",
+      "name": "dsh-mnemon",
+      "version": "0.1.4",
+      "description": "Cross-agent, local-first persistent memory plugin for DeepSeek Harness (DSH), powered by Mnemon. It shares long-term memory across Mnemon-enabled agents and adds runtime memory, searchable project documents, semantic recall, knowledge graph, and a Sidebar",
+      "weekly_downloads": 1129,
+      "stars": 62,
+      "grade": "B",
+      "overall": 66,
+      "dsh_compat": true,
+      "last_publish": "2026-08-14T23:50:07.651Z",
+      "keywords": [
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "dsh",
+        "dsh-plugin",
+        "mnemon"
+      ]
+    },
+    {
+      "slug": "dsh-lark-bot",
+      "name": "dsh-lark-bot",
+      "version": "0.11.0",
+      "description": "Bridge DeepSeek Harness (dsh) into Feishu / Lark with streaming cards, project workspaces, approvals and scheduling",
+      "weekly_downloads": 3640,
+      "stars": 18,
+      "grade": "B",
+      "overall": 66,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T23:00:14.099Z",
+      "keywords": [
+        "dsh",
+        "deepseek",
+        "deepseek harness",
+        "feishu",
+        "lark"
+      ]
+    },
+    {
+      "slug": "dsh-codex-oauth",
+      "name": "dsh-codex-oauth",
+      "version": "0.2.6",
+      "description": "Use a ChatGPT Codex subscription in DeepSeek Harness through standalone OAuth",
+      "weekly_downloads": 1158,
+      "stars": 8,
+      "grade": "B",
+      "overall": 66,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T10:35:27.390Z",
+      "keywords": [
+        "dsh-plugin",
+        "deepseek-harness",
+        "openai-codex",
+        "oauth"
+      ]
+    },
+    {
+      "slug": "dsh-deepread",
+      "name": "dsh-deepread",
+      "version": "0.5.3",
+      "description": "AI deep-reading assistant: extract core claims, argument structure, and key evidence from books and articles. Five modes (quick, deep, knowledge map, Feynman, full book); knowledge-map reports include confidence levels, data facts, relation labels, Mermai",
+      "weekly_downloads": 1130,
+      "stars": 6,
+      "grade": "B",
+      "overall": 66,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T21:01:21.106Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "deepseek",
+        "deep-read",
+        "deep-reading"
+      ]
+    },
+    {
+      "slug": "dsh-win32",
+      "name": "dsh-win32",
+      "version": "0.6.0",
+      "description": "First-class Windows for DeepSeek Harness: real persistent-bash Minimal mode (Git Bash PTY), a doctor for the known install traps, one-command setup | 让 DeepSeek Harness 在 Windows 上成为一等公民",
+      "weekly_downloads": 1535,
+      "stars": 6,
+      "grade": "B",
+      "overall": 66,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T14:39:48.564Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek-harness",
+        "windows"
+      ]
+    }
+  ]
+}

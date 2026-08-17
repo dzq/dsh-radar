@@ -1,0 +1,55 @@
+{
+  "slug": "dsh-scholar",
+  "name": "dsh-scholar",
+  "version": "0.1.0",
+  "description": "Research/scholar tool suite for DeepSeek Harness: arXiv search, paper fetch (HTML/PDF, optional proxy), and OpenAlex journal lookup.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "arxiv",
+    "openalex",
+    "pdf",
+    "research"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/202411130091-coder/dsh-scholar.git",
+  "homepage": "https://github.com/202411130091-coder/dsh-scholar#readme",
+  "npm": "https://www.npmjs.com/package/dsh-scholar",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "readme": "# dsh-scholar\n\nDeepSeek Harness（DSH）科研工具套件：给 agent 补上「检索论文 / 读论文全文 / 查期刊」三个工具。\n\n## 提供的工具\n\n| 工具 | 作用 | 数据源 |\n|---|---|---|\n| `arxiv_search` | 搜 arXiv 论文（标题/作者/摘要/abs+pdf 链接） | 官方免费 arXiv API，无需 key |\n| `scholar_fetch` | 按 URL 抓全文：HTML→纯文本、**PDF→抽文本** | 任意 HTTP(S)，可选代理 |\n| `journal_lookup` | 查期刊元数据（出版社/ISSN/发文量/被引/引用指标） | OpenAlex API，无需 key |\n\n## 为什么做这个\n\nDSH 原生的 `web_fetch` 只能抓 HTML/纯文本，**不支持 PDF**、也**不带代理**；对科研场景（读 arXiv PDF、查期刊）是明显缺口。`dsh-scholar` 补上这两点。\n\n## 安装\n\n```bash\ndsh plugin add dsh-scholar\n```\n\n装完在组合里自动插入一个 host 行，三个工具默认全开。需要代理（国内访问境外论文站）时，编辑 profile 的 `cordis.patch.yml`，给 `scholar` 行加：\n\n```yaml\n- id: scholar\n  config:\n    proxy: http://127.0.0.1:7890   # 你的 Clash 混合端口；留空 = 直连\n```\n\n## 配置项\n\n| 字段 | 默认 | 说明 |\n|---|---|---|\n| `arxiv` / `fetch` / `journal` | `true` | 三个工具的开关 |\n| `proxy`",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T22:31:06.388Z",
+  "created_at": "2026-08-13T22:31:06.103Z",
+  "gh": {
+    "full_name": "202411130091-coder/dsh-scholar",
+    "open_issues": 1,
+    "pushed_at": "2026-08-13T22:19:09Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:55:29.543Z"
+}

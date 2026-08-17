@@ -26,6 +26,7 @@
   },
   "readme": "# @picgo/dsh-plugin\n\nUpload images and files to your image host from [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness), powered by [PicGo](https://picgo.app/).\n\nHarness can show your agent a screenshot, but it has no way to turn a local file into a link. So when the agent writes a README, renders a chart, or captures a screenshot, the image stays on disk and `![](./out.png)` becomes a dead link the moment you push. This plugin closes that gap.\n\nIt uploads through **whatever image host you already configured in PicGo** — PicGo Cloud, GitHub, S3, Tencent COS, Qiniu, or any third-party uploader plugin you installed. Nothing to re-configure. If you've never used PicGo, it walks you into PicGo Cloud's free tier.\n\n## Install\n\n```sh\ndsh plugin --profile web add @picgo/dsh-plugin",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T03:18:54.048Z",
   "created_at": "2026-08-14T03:18:53.733Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:49.238Z"
+  "updated_at": "2026-08-17T04:58:37.697Z"
 }

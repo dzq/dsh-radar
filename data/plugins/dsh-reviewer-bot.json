@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-reviewer-bot",
+  "name": "dsh-reviewer-bot",
+  "version": "0.0.0",
+  "description": "原生 DeepSeek Harness 插件形态的代码评审机器人：跨代码平台、规则可插拔、可本地重放。",
+  "keywords": [
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/chaojixinren/dsh-reviewer-bot",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-reviewer-bot",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "chaojixinren/dsh-reviewer-bot",
+    "open_issues": 12,
+    "pushed_at": "2026-08-16T14:52:40Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:27.182Z"
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "dsh-bash-terminal",
+  "name": "dsh-bash-terminal",
+  "version": "0.3.14",
+  "description": "DSH plugin: one shell tool that runs commands through PowerShell, Git Bash, or WSL on Windows, with a user-chosen default terminal in the Web UI settings.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "terminal",
+    "shell",
+    "powershell",
+    "git-bash",
+    "wsl",
+    "windows"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/MAXeaglet/dsh-bash-terminal.git",
+  "homepage": "https://github.com/MAXeaglet/dsh-bash-terminal#readme",
+  "npm": "https://www.npmjs.com/package/dsh-bash-terminal",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "readme": "# dsh-bash-terminal\n\n> 🌐 [English](README.en.md) · 社区交流：[LINUX DO](https://linux.do) · [GitHub](https://github.com/MAXeaglet/dsh-bash-terminal)\n\n![test](https://github.com/MAXeaglet/dsh-bash-terminal/actions/workflows/test.yml/badge.svg)\n\nDSH（DeepSeek Harness）插件：一个 `shell` 工具，在 Windows 上统一执行 **PowerShell / Git Bash / WSL** 三种终端命令。\n\n| 后端 | 实际执行 | 语法 / 路径 | 环境变量 |\n|------|----------|-------------|----------|\n| `powershell`（默认） | `pwsh -NoLogo -NoProfile -NonInteractive -Command <cmd>` | PowerShell；`C:\\...` | `$env:NAME` |\n| `gitbash` | Git for Windows `bash -lc <cmd>` | POSIX；`/d/WorkSpace`；PATH 含 `/usr/bin`、`/mingw64/bin` | `$NAME` |\n| `wsl` | `wsl [-d <distro>] -e bash -lc <cmd>` | Linux；`/mnt/d/...` | `$NAME`（经 WSLENV） |\n\n每次调用都启动全新 shell：**不保留状态**（cwd / 变量 / 别名）——请传 `workdir` 而不是用 `cd`。\n",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T07:35:05.812Z",
+  "created_at": "2026-08-13T17:20:59.138Z",
+  "gh": {
+    "full_name": "MAXeaglet/dsh-bash-terminal",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T13:56:24Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:56:15.609Z"
+}

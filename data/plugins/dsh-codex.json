@@ -1,0 +1,55 @@
+{
+  "slug": "dsh-codex",
+  "name": "dsh-codex",
+  "version": "0.2.3",
+  "description": "ChatGPT OAuth, Codex models, search, read_image URL support, and gpt-image-2 generation for DeepSeek Harness",
+  "keywords": [],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/Yan-Zero/dsh-codex.git",
+  "homepage": "https://github.com/Yan-Zero/dsh-codex#readme",
+  "npm": "https://www.npmjs.com/package/dsh-codex",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-tool",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "readme": "# dsh Codex\n\n[English](README.md) | 中文\n\n通过 OpenAI Codex 登录流程，在 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 中使用 ChatGPT 订阅：无需 OpenAI Platform API Key，也无需修改 dsh 源码。\n\n`dsh-codex` 是一个独立的 dsh bundle，提供：\n\n- 在 dsh 设置面板或独立 CLI 中完成 ChatGPT OAuth 登录，并自动刷新 token\n- Codex GPT 模型目录；账号提供视觉模型时自动声明其图片输入能力\n- 经标准 LLM 服务运行的流式响应、工具调用、推理回放、提示词缓存与 dsh 压缩\n- 通过 dsh 现有 `web_search` 工具使用 Codex 独立联网搜索\n- 为 Harness 现有 `read_image` 工具增加可选的 HTTP(S) URL 输入\n- 由 `gpt-image-2` 执行的 `imagegen` 工具，支持工作区／会话参考图和自动工作区输出\n- 复用 dsh Web 输入框的粘贴和拖放图片能力\n\nChatGPT 订阅认证与按量计费的 OpenAI API 是不同产品。本插件只使用 ChatGPT Codex 后端，不会把订阅转换成通用 OpenAI API 凭据。\n\n## 安装\n\n从 npm 把预构建 bundle 安装到选定的 dsh profile：\n\n```sh\ndsh plugin --profile web add dsh-codex\ndsh web\n```\n\n从 DeepSeek Harness 源码 checkout 运行时，使用 `pnpm dsh plugin --profile web add ",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T17:20:23.197Z",
+  "created_at": "2026-08-13T20:24:23.542Z",
+  "gh": {
+    "full_name": "Yan-Zero/dsh-codex",
+    "open_issues": 1,
+    "pushed_at": "2026-08-17T04:50:26Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:55:44.132Z"
+}

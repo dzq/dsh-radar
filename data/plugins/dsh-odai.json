@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-odai",
+  "name": "dsh-odai",
+  "version": "0.0.0",
+  "description": "AI agent 通用任务治理框架：对齐目标与事实，规划和调度能力，守住授权与风险边界，治理任务执行到真实验收与交付。Governance framework for evidence-driven planning, orchestration, and verified delivery.",
+  "keywords": [
+    "ai-agent",
+    "ai-agents",
+    "dsh-plugins",
+    "odai"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/orziz/odai",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-odai",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "orziz/odai",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T19:38:06Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:59.353Z"
+}

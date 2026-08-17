@@ -1,0 +1,36 @@
+{
+  "slug": "dsh-session-notification",
+  "name": "dsh-session-notification",
+  "version": "0.0.0",
+  "description": "提供会话完成等四种状态的通知响应，支持浏览器提示和提示词",
+  "keywords": [],
+  "license": "",
+  "repo": "https://github.com/dingyi222666/dsh-session-notification",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-session-notification",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "dingyi222666/dsh-session-notification",
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T23:03:04Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 15,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 24,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:19.936Z"
+}

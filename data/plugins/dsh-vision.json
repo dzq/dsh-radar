@@ -1,0 +1,59 @@
+{
+  "slug": "dsh-vision",
+  "name": "dsh-vision",
+  "version": "0.2.0",
+  "description": "A visual working memory for DeepSeek Harness agents: snapshot, map (numbered region registry), read (Q&A + verbatim text extraction), and zoom (targeted region inspection) backed by an OpenAI-compatible multimodal endpoint, with a visual-memory skill for ",
+  "keywords": [
+    "ai",
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "harness",
+    "image-recognition",
+    "llm",
+    "ocr",
+    "plugin",
+    "screenshot"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/linenxi-ctrl/dsh-vision",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-vision",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19 || >=24"
+  },
+  "readme": "# dsh-vision\n\n<p align=\"center\">\n  <img alt=\"npm version\" src=\"https://img.shields.io/npm/v/dsh-vision\">\n  <img alt=\"license\" src=\"https://img.shields.io/npm/l/dsh-vision\">\n  <img alt=\"node\" src=\"https://img.shields.io/node/v/dsh-vision\">\n  <img alt=\"dsh plugin\" src=\"https://img.shields.io/badge/deepseek%20harness-plugin-4D6BFE\">\n</p>\n\n**dsh-vision** 是 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的视觉辅助插件：接入任意 OpenAI 兼容的多模态模型（如 Qwen-VL、GLM-4V），为无图像理解能力的主模型（如 DeepSeek）提供视觉能力。\n\n核心机制是**视觉工作记忆（Visual Working Memory）**：图片先被视觉模型转换为编号元素清单并缓存，主模型以编号引用元素、按需定向放大检查，全程不接触坐标细节。用户上传图片或提供文件路径，插件负责将图像转换为主模型可推理的结构化信息。\n\n## 特性\n\n- **编号元素标注** —— 将图片转换为编号元素清单（ID、文字标签、像素坐标），基于 Set-of-Mark 范式；主模型以 `element 7` 精确引用，替代模糊描述\n- **视觉工作记忆** —— 编号清单按文件身份缓存（文件变更即失效），`vision_zoom ref \"7\"` 直接解析坐标，无需重复标",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T06:36:07.535Z",
+  "created_at": "2026-08-14T04:49:46.370Z",
+  "gh": {
+    "full_name": "linenxi-ctrl/dsh-vision",
+    "open_issues": 1,
+    "pushed_at": "2026-08-15T15:01:12Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:55:56.220Z"
+}

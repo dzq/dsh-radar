@@ -32,6 +32,7 @@
   },
   "readme": "# dsh-plugin-toggle\n\n第三方插件开关 —— 在 DSH Web 设置页里启用/禁用第三方插件。\n\nA settings-page toggle for third-party plugins in DeepSeek Harness Web.\n\n## 安装\n\n```bash\ndsh plugin --profile web add dsh-plugin-toggle\n```\n\n或本地包：\n\n```bash\ndsh plugin --profile web add ./dsh-plugin-toggle-0.1.0.tgz\n```\n\n安装后重启 `dsh web`。设置 → 插件 → 「第三方插件」页签即可使用。\n\n## 功能\n\n- **插件开关**：列出每个 profile 中非官方（第三方）插件行（bundle 栈里非 `@deepseek-ai/*` 的 bundle + 用户补丁插入的行），带版本/描述/状态，一键启用/禁用。\n- **热重载生效**：开关直接改写 profile 的 `cordis.patch.yml`（`disabled: true` 标记），DSH 监视该文件并热重载，无需重启；状态持久，重启后保持。\n- **刷新页面**：页签底部提供「刷新页面」按钮（纯客户端 `location.reload()`），修改插件/配置后刷新 Web 界面。\n\n## 工作原理\n\n- **Host**：注册自定义 Web 路由 `POST /plugin-toggle/api/<method>`（`list` / `set-enabled`），读取各 profile 的 bundle 栈与补丁文件，改写补丁。路由仅接受同源请求。\n- **Client**：`__ModuleLoader__` bundle，注册到 `settings.plugins",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:23:42.424Z",
   "created_at": "2026-08-15T08:37:55.632Z",
   "gh": null,
@@ -44,5 +45,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.332Z"
+  "updated_at": "2026-08-17T04:58:30.410Z"
 }

@@ -27,6 +27,7 @@
   },
   "readme": "<div align=\"center\">\n\n# dsh-agentmemory\n\n**DeepSeek Harness 的 agentmemory 集成** —— 完整的 `memory_*` 工具集、自动捕获 hooks、可选的上下文注入，全部通过本地 REST 服务完成。\n\n[English](./README.md) · [中文](./README.zh-CN.md)\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)\n[![CI](https://github.com/elementor-i/dsh-agentmemory/actions/workflows/ci.yml/badge.svg)](https://github.com/elementor-i/dsh-agentmemory/actions/workflows/ci.yml)\n[![dsh](https://img.shields.io/badge/dsh-%3E%3D0.0.1-orange)](https://github.com/deepseek-ai/deepseek-harness)\n\n</div>\n\ndsh-agentmemory 把 [agentmemory](https://github.com/rohitg00/agentmemory)（面向编码 agent 的本地记忆服务器）接入 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）。它提供完整的 `memory_*` 工具集，自动捕获会话、提示词与工具活动的 observation，并可把召回到的上下文注回系统提示词 —— 全程走本地",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:55:56.585Z",
   "created_at": "2026-08-17T03:18:43.199Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:57.936Z"
+  "updated_at": "2026-08-17T04:58:39.026Z"
 }

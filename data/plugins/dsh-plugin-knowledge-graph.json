@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-plugin-knowledge-graph",
+  "name": "dsh-plugin-knowledge-graph",
+  "version": "0.0.0",
+  "description": "dsh-plugin-knowledge-graph for Deepseek Harness",
+  "keywords": [],
+  "license": "MIT",
+  "repo": "https://github.com/Luke-Yong/dsh-plugin-knowledge-graph",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-knowledge-graph",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Luke-Yong/dsh-plugin-knowledge-graph",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T04:10:16Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:23.022Z"
+}

@@ -36,6 +36,7 @@
   },
   "readme": "<div align=\"center\">\n\n# 🌐 dsh-plugin-weaknet-adaptor\n\n**Weak-network adaptor for the DeepSeek Harness — 弱网适配插件**\n\nKeep model reply chains alive on flaky networks: transparent long-backoff retries, local response cache, heartbeat auto-reconnect, and degraded-mode token economy — with a fully structured, bilingual (zh/en) settings page.\n\n弱网下保护模型回复链条不断裂：透明长退避重试、本地响应缓存、心跳自动重连、降级省 token——全部参数结构化，设置页中英双语。\n\n[![npm version](https://img.shields.io/npm/v/dsh-plugin-weaknet-adaptor)](https://www.npmjs.com/package/dsh-plugin-weaknet-adaptor)\n[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![dsh-plugin](https://img.shields.io/badge/dsh-plugin-%E2%9C%93-2f9e44)](https://github.com/topics/dsh-plugin)\n[![node](https://img.shields.io/badge/node-%3E%3D18-339933)](https://node",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T15:28:18.147Z",
   "created_at": "2026-08-16T12:32:16.442Z",
   "gh": null,
@@ -48,5 +49,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:56.267Z"
+  "updated_at": "2026-08-17T04:58:38.938Z"
 }

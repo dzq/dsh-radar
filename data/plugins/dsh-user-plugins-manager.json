@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-user-plugins-manager",
+  "name": "dsh-user-plugins-manager",
+  "version": "0.0.0",
+  "description": "DSH 用户插件管理器:在 设置→插件 统一管理插件目录散件、运行树插件与 npm 插件包——挂载/卸载/启用/停用(cordis.patch.yml 补丁层 + HMR 热生效)",
+  "keywords": [
+    "cordis",
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/zdjmrq/dsh-user-plugins-manager",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-user-plugins-manager",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "zdjmrq/dsh-user-plugins-manager",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:07:39Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:57.177Z"
+}

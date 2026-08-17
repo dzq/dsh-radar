@@ -24,6 +24,7 @@
   "engines": {},
   "readme": "# dsh-budget-guard\n\nDeepSeek Harness 插件：LLM 成本计量 + **预算执行**（超预算硬拦截），支持 DeepSeek 峰谷定价。\n\n> 与其他「只显示数字」的成本插件不同，本插件在 `llm/stream` 调用层**执行**预算：\n> 超出日/月/总预算时直接拦截模型调用，而不只是弹一个红条。\n\n## 功能\n\n- **用量计量**：包装 `llm/stream` waterfall，观察 provider usage（input / output / cache），跨会话累计\n- **费用计算**：内置 DeepSeek 价格表，按模型计费（USD）\n- **峰谷定价**：感知 DeepSeek 峰谷时段（北京时间 9:00–12:00、14:00–18:00 为高峰，其余半价），按调用时刻计价\n- **预算执行**：\n  - `deny`（默认）：超预算硬拦截 agent-loop 调用，抛 `BUDGET_EXCEEDED`（LlmError），loop 走 request-error 流程\n  - `warn`：只记录不拦截\n  - 内部调用（compaction、标题生成等，无 `sessionId`）永不拦截，避免死锁\n- **`budget_status` 工具**：模型/用户可查询当前用量与剩余预算\n- **持久化**：可选接入 `storage` 服务（json KV）；未挂载时进程内存累计\n\n## 安装\n\n```bash\n# 方式一：npm（推荐）\nnpm install dsh-budget-guard\n\n# 方式二：dsh 插件命令\ndsh plugin --profile web add \"github:haoku123/dsh-budget-guard#main\"\n\n# 方式三：本地开发\ngit clon",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:11:44.239Z",
   "created_at": "2026-08-17T03:11:43.831Z",
   "gh": null,
@@ -36,5 +37,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.382Z"
+  "updated_at": "2026-08-17T04:58:34.897Z"
 }

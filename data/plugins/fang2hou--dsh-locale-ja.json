@@ -34,6 +34,7 @@
   },
   "readme": "<div align=\"center\">\n\n<img width=\"647\" height=\"385\" alt=\"sample\" src=\"https://github.com/user-attachments/assets/ee9a6b90-52a5-4c23-b6a9-4aefb7e8247f\" />\n\n# dsh-locale-ja\n\nDeepSeek Harness（DSH）の Web UI に **日本語** を追加するプラグイン\n\n</div>\n\n## 機能\n\nDSH に標準で用意されている **中文**・**English** に加えて、**日本語** を選べるようにします。\n\n- **日本語表示**：29 名前空間・706 件の UI 文字列を収録し、画面全体を日本語に切り替えます。\n- **日本語フォント**：日本語の表示中は、OS 標準の日本語システムフォントを適用します。\n- **選択の保持**：選んだ言語はブラウザーに保存され、ページを再読み込みしても維持されます。\n- **完全な可逆性**：プラグインを停止・更新・削除すると、辞書・フォント・言語設定への変更をすべて元に戻します。\n\n## 対応バージョン\n\n- DSH `0.1.0-rc.6`\n\n## インストール\n\n```bash\ndsh plugin --profile web add @fang2hou/dsh-locale-ja\ndsh web\n```\n\n削除する場合は次を実行します。\n\n```bash\ndsh plugin --profile web remove @fang2hou/dsh-locale-ja\n```\n\n## 使い方\n\nDSH の **設定 → 言語**（**Settings → Language**）を開き、**日本語** を選択します。UI 全体が日本語に切り替わり、",
   "weekly_downloads": 292,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T21:43:09.422Z",
   "created_at": "2026-08-14T02:01:08.170Z",
   "gh": null,
@@ -46,5 +47,5 @@
     "overall": 54,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.254Z"
+  "updated_at": "2026-08-17T04:58:28.818Z"
 }

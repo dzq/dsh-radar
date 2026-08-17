@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-DSH-Desktop",
+  "name": "dsh-DSH-Desktop",
+  "version": "0.0.0",
+  "description": "DSH-Desktop",
+  "keywords": [
+    "dsh",
+    "dsh-desktop"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/JustGenius-s/DSH-Desktop",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-DSH-Desktop",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "JustGenius-s/DSH-Desktop",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T19:00:40Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 20,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 25,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:24.934Z"
+}

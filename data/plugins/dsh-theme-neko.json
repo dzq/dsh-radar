@@ -1,0 +1,56 @@
+{
+  "slug": "dsh-theme-neko",
+  "name": "dsh-theme-neko",
+  "version": "0.1.0",
+  "description": "A Nachoneko (甘城猫猫) themed skin for the DeepSeek Harness web GUI, featuring the artist's artwork as the wallpaper background.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "theme",
+    "skin",
+    "neko"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/drfccv/dsh-theme-neko",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-theme-neko",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "readme": "# neko-theme\n\nDeepSeek Harness Web 界面的 **Nachoneko（甘城猫猫）主题皮肤**。界面使用\nAmashiro Natsuki 的 Nachoneko 画作作为壁纸背景，并应用与之匹配的蓝白配色。\n\n## 功能\n\n- Nachoneko 壁纸背景，支持亮色与暗色\n- 界面表面（输入框、弹出菜单、设置对话框）采用与画作一致的配色\n- 提示框、聚焦状态与按钮的可读性调整\n\n## 环境要求\n\n- DeepSeek Harness，使用 `web` profile\n\n## 安装\n\n将插件安装到你的 profile：\n\n```sh\ndsh plugin --profile web add dsh-theme-neko\n```\n\n重启 Web 界面以加载插件：\n\n```sh\ndsh web\n```\n\n重启后主题自动生效。\n\n## 使用\n\n- 插件位于 设置 → 插件，名称为 `dsh-theme-neko`\n- 更换壁纸：覆盖 `assets/wallpaper.png` 后重新构建并安装\n- 卸载：\n\n```sh\ndsh plugin --profile web remove dsh-theme-neko\n```\n\n## 开发\n\n```sh\npnpm install\npnpm build\nnpm publish\n```\n\n## 许可\n\n软件采用 MIT 许可，见 [LICENSE](LICENSE)。\n\n内置壁纸不属于软件许可范围，版权归属见 [NOTICE.md](NOTICE.md)。\n\n## Background Artwork\n\nBackground Artwork\n------------------\n\nArtist: Amashiro Natsuki (Nachoneko)\nSource:\nhttps://amashiro.com",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T00:01:42.689Z",
+  "created_at": "2026-08-14T00:01:42.368Z",
+  "gh": {
+    "full_name": "drfccv/dsh-theme-neko",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T00:14:16Z",
+    "archived": false,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 44,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:58:01.374Z"
+}

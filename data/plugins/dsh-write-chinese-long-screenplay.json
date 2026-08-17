@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-write-chinese-long-screenplay",
+  "name": "dsh-write-chinese-long-screenplay",
+  "version": "0.0.0",
+  "description": "中文电影与剧集长剧本写作 skill",
+  "keywords": [
+    "agent-skills",
+    "ai-writing",
+    "claude-code",
+    "codex",
+    "deepseek-harness",
+    "dsh",
+    "screenwriting"
+  ],
+  "license": "GPL-3.0",
+  "repo": "https://github.com/mudden2380078550-creator/write-chinese-long-screenplay",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-write-chinese-long-screenplay",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "mudden2380078550-creator/write-chinese-long-screenplay",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T01:44:04Z",
+    "archived": false,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 30,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:00.385Z"
+}

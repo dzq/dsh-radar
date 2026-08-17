@@ -34,6 +34,7 @@
   },
   "readme": "# dsh-bell-notify 🔔\n\n[中文](./README.md) · [English](./README.en.md)\n\n**dsh-bell-notify** 是 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（`dsh`）的社区插件——给 Agent 装上**耳朵和心跳**：工作全程用轻快的铃声陪跑，右下角一个会呼吸的小圆点随时告诉你它正在干嘛。\n\n不用任何音频文件，所有铃声都是 Web Audio 实时合成出来的；每一个环节都可以换成你自己的声音文件。这是一个让你和 Agent 之间「有点默契」的小东西。\n\n> 它不是 DeepSeek 官方发行的一部分，是一个 MIT 协议开源的社区插件。\n\n## 截图\n\n<!-- 请把截图放到 docs/ 目录下，例如 docs/screenshot.png，然后把下面的 src 换成你的文件名即可。 -->\n\n![dsh-bell-notify 预览](docs/screenshot.png)\n\n## 它能干什么\n\n### 🎵 每个环节都有专属铃声\n\nAgent 的一举一动都会「响一声」，而且**每个环节的声音都不一样**：\n\n| 环节 | 默认铃声 | 听起来像 |\n|------|---------|---------|\n| 会话启动 | `startup` | 一声轻柔的上扬，像开机 |\n| 开始执行 | `click` | 短促的一声「叮」，出发了 |\n| 开始思考 | `notify` | 温柔的单音，进入状态 |\n| 工具调用 | `tick` | 清脆的「哒哒」两声，金属质感 |\n| 工具完成 | `drop` | 低低地落定，收尾 |\n| 命令执行 | `beep` | 一声短促的哔，有终端味 |\n| 命令完",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T12:54:30.356Z",
   "created_at": "2026-08-16T12:54:30.135Z",
   "gh": null,
@@ -46,5 +47,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.976Z"
+  "updated_at": "2026-08-17T04:58:34.372Z"
 }

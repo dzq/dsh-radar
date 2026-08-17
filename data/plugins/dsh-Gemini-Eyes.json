@@ -1,0 +1,41 @@
+{
+  "slug": "dsh-Gemini-Eyes",
+  "name": "dsh-Gemini-Eyes",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [
+    "agent",
+    "deepseek-harness",
+    "gemini",
+    "mcp"
+  ],
+  "license": "",
+  "repo": "https://github.com/ConsoleSun/Gemini-Eyes",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-Gemini-Eyes",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "ConsoleSun/Gemini-Eyes",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T01:57:40Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 10,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 23,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:46.652Z"
+}

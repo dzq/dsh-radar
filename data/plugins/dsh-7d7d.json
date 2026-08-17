@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-7d7d",
+  "name": "dsh-7d7d",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "mini-games",
+    "react",
+    "typescript"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/omdsh-dev/7d7d",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-7d7d",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "omdsh-dev/7d7d",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T11:17:09Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 30,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 27,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:16.398Z"
+}

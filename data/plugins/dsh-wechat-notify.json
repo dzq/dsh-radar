@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-wechat-notify",
+  "name": "dsh-wechat-notify",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness 插件：为 agent 新增 wechat_notify 工具，让 AI 通过本机 ClawBot 微信通道主动给你发通知（任务完成 / 需决策时），中文可靠、掉线自提示。",
+  "keywords": [
+    "clawbot",
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "notification",
+    "wechat",
+    "wechat-notify"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/wssfk12138/dsh-wechat-notify",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-wechat-notify",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "wssfk12138/dsh-wechat-notify",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T00:31:30Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:47.994Z"
+}

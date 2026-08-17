@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-th08",
+  "name": "dsh-th08",
+  "version": "0.0.0",
+  "description": "Source reconstruction of Touhou Eiyashou (TH08) 1.00d",
+  "keywords": [
+    "decompilation",
+    "game-preservation",
+    "ida-pro",
+    "msvc",
+    "reccmp",
+    "reverse-engineering",
+    "th08",
+    "touhou",
+    "touhou-games"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/N0zoM1z0/th08",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-th08",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "N0zoM1z0/th08",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T03:56:08Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:22.437Z"
+}

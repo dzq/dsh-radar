@@ -25,6 +25,7 @@
   },
   "readme": "# dsh-workflow-recorder\n\n> 一键把这次成功操作保存成 Skill：从会话选段提炼参数化、可回放、可验证的 SKILL.md（复用 EvidenceReceipt 回执）。\n\n| 优先级 | 状态 | 名称核查 | 形态 |\n| --- | --- | --- | --- |\n| **A** | **MVP 已发布**（2026-08-16） | `dsh-workflow-recorder` 未被占用（2026-08-15） | 纯 DSH 插件 |\n\n## 解决什么问题\n\n用户经常让 Agent 成功完成一件复杂事情（服务器巡检、运维报告、多步重构），但成功经验只存在于聊天记录里，下次还要重新解释一遍。本插件把\"一次性成功\"转成\"可重复、可参数化、可测试、可分享的能力\"，且**用户不需要会写 Cordis 或 TypeScript**。\n\n## 用法\n\n```text\n/skill-record <turnRange> [--name <kebab-case>] [--draft | --static-only]\n```\n\n- `turnRange`：Turn 区间（`3` 或 `3-5`，闭区间；缺失时报日志实际范围）；\n- 默认（全量）：提取 → 步骤归纳 → 参数化 → 临时 worktree 回放验证命令 → **验收通过（EvidenceReceipt verified）才保存**；\n- `--draft`：只生成草稿预览（`.workflow-recorder/drafts/<name>/SKILL.md`，不保存、不写会话事件）；\n- `--static-only`：跳过回放，静态检查后直接保存（回执 verdict=skipped）——选段无验证命令或回放依赖不可装时的降级路径；\n- `--name`：kebab-case Ski",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T11:20:30.898Z",
   "created_at": "2026-08-16T11:20:30.664Z",
   "gh": null,
@@ -37,5 +38,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.716Z"
+  "updated_at": "2026-08-17T04:58:35.867Z"
 }

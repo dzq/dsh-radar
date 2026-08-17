@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-notifacation-frame",
+  "name": "dsh-notifacation-frame",
+  "version": "0.0.0",
+  "description": "dsh通知消息统一管理框架",
+  "keywords": [
+    "dsh",
+    "dsh-plugins"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/gameswu/dsh-notifacation-frame",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-notifacation-frame",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "gameswu/dsh-notifacation-frame",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:14:33Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 20,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 26,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:22.738Z"
+}

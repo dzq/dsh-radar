@@ -27,6 +27,7 @@
   "engines": {},
   "readme": "# @max-null/dsh-habit\n\nSelf-learning habit engine for the DeepSeek Harness — observes user-correction\nsignals from session events, judges habits with a low-cost model on threshold,\nand settles candidates behind a two-level human gate. No new agent role: the\njudgment is an event-driven plugin, immune to context decay.\n\n## The loop\n\n```\n① observe   session/event → correction-signal detection (deterministic, zero-token)\n② judge     >=3 signals in one session → one flash call (evidence slices + existing habits)\n③ settle    candidate zone → user confirms → dsh-memory remember() (suggested)\n            → user confirms again → auto → recall injection\n```\n\n## Compose\n\n```yaml\n- id: habit\n  name: '@max-null/dsh-habit'\n```\n\nRequires `storage` and `llm` in the host composition (dsh-base ships both).\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T12:16:45.902Z",
   "created_at": "2026-08-16T12:16:45.649Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.733Z"
+  "updated_at": "2026-08-17T04:58:36.475Z"
 }

@@ -22,6 +22,7 @@
   "engines": {},
   "readme": "# RaphaelLoop\n\n**面向 Codex、Claude Code 与 DeepSeek Harness 的有界、可验证 Loop Engineering。**\n\n[English](README.md) · [技术架构](docs/architect.md) · [示例](#示例) · [参与贡献](CONTRIBUTING.md) · [安全策略](SECURITY.md)\n\n\nRaphaelLoop 是面向 Codex、Claude Code 与 DeepSeek Harness 的 Agent 长任务控制面。它把“持续执行，直到完成”转换为一个有目标契约、有修改边界、有独立验证、有资源上限、可中断恢复且能确定退出的工程循环。\n\n它不负责生成业务代码，也不替代 Git、CI 或宿主权限系统。模型继续诊断和实现，Codex、Claude Code 或 DeepSeek Harness 继续提供文件、终端与审批能力，项目测试继续定义验收事实；RaphaelLoop 负责固定目标、调度任务、绑定证据、记录消耗并决定何时停止。\n\n```text\n目标 -> 契约 -> 基线 -> 任务 DAG -> 有界实施 -> 独立验证 -> Checkpoint -> 终态\n```\n\n## 一、RaphaelLoop 解决什么问题\n\nAI Coding 不缺生成代码的能力，缺的是跨轮次的执行控制。任务一旦涉及多文件、多 Agent、长时间运行或会话恢复，系统就必须持续回答：目标是否变化、谁能修改什么、当前证据是否有效、下一轮是否值得继续，以及现在究竟应该成功、阻塞、耗尽还是取消。\n\n| 失控点 | 常见表现 | RaphaelLoop 的处理 |\n| --- | --- | --- |\n| 目标漂移 | “修复构建”逐渐变成升级依赖、改 API、顺手重构 | 执行前固定 obj",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T13:22:51.916Z",
   "created_at": "2026-08-16T13:22:51.578Z",
   "gh": null,
@@ -34,5 +35,5 @@
     "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.977Z"
+  "updated_at": "2026-08-17T04:58:34.373Z"
 }

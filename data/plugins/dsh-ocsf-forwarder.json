@@ -28,6 +28,7 @@
   },
   "readme": "# dsh-ocsf-forwarder\n\nA read-side SIEM forwarder for [DeepSeek Harness](https://github.com/deepseek-ai). It observes the\nsession event firehose, normalises every event to **OCSF 1.9.0** with the native `ai_operation`\nprofile, and writes newline-delimited OCSF JSON to a local append-only spool, optionally shipping it\nto **Splunk HTTP Event Collector** or an **OTLP/HTTP** collector.\n\nThe complete event → OCSF mapping table for all 44 session event types is under\n[Event mapping](#event-mapping). `ADR.md` records the decisions that are not obvious from the code.\n\n---\n\n## What it does\n\n- Subscribes to `session/event`, `session/created`, and `session/disposed`, and sweeps\n  `ctx.sessions.list()` at mount.\n- Correlates `tool/call` ↔ `tool/result` by `callId` and `approval/asked` ↔ `approval/decid",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T22:29:15.522Z",
   "created_at": "2026-08-16T13:05:18.516Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 40,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.637Z"
+  "updated_at": "2026-08-17T04:58:32.339Z"
 }

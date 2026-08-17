@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-clawock",
+  "name": "dsh-clawock",
+  "version": "0.0.0",
+  "description": "AI argues. Code settles. The losses stay on the page. A real HK + US brokerage account run by agents that must debate every call, settled by code the model never touches. Install the same decision workflow into your own agent: OpenClaw, Claude Code, Codex, or DeepSeek Harness.",
+  "keywords": [
+    "agent-skills",
+    "agentic-ai",
+    "ai-agents",
+    "algorithmic-trading",
+    "audit-trail",
+    "decision-support",
+    "deepseek-harness",
+    "fintech",
+    "harness",
+    "investment"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/KCNyu/clawock",
+  "homepage": "https://kcnyu.github.io/clawock/",
+  "npm": "https://www.npmjs.com/package/dsh-clawock",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "KCNyu/clawock",
+    "open_issues": 1,
+    "pushed_at": "2026-08-17T04:37:36Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 65,
+    "dsh_compat": 30,
+    "overall": 35,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:23.001Z"
+}

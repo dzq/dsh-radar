@@ -1,0 +1,56 @@
+{
+  "slug": "dsh-md-notes",
+  "name": "dsh-md-notes",
+  "version": "0.3.0",
+  "description": "MD 笔记插件：侧边栏笔记管理入口（列表/编辑/预览）+ 回答下方记入笔记，笔记存于工作区 .dsh-notes/",
+  "keywords": [
+    "dsh-plugins",
+    "notebook",
+    "notes"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/XieZongChen/dsh-md-notes.git",
+  "homepage": "https://github.com/XieZongChen/dsh-md-notes",
+  "npm": "https://www.npmjs.com/package/dsh-md-notes",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "readme": "<p align=\"center\">\n  <img src=\"assets/dsh-md-notes.png\" width=\"96\" alt=\"dsh-md-notes\" />\n</p>\n\n<h1 align=\"center\">dsh-md-notes</h1>\n\n<p align=\"center\">\n  <a href=\"README.md\">English</a>\n</p>\n\n<p align=\"center\">\n  DSH 第三方插件（bundle）：<b>MD 笔记管理</b>\n  <br />\n  <a href=\"docs/usage.zh.md\">使用文档</a> · <a href=\"docs/features.md\">功能设计</a> · <a href=\"docs/architecture.md\">架构设计</a> · <a href=\"docs/TODO.md\">路线规划</a> · <a href=\"CHANGELOG.zh.md\">变更记录</a>\n</p>\n\n---\n\n## 概述（Overview）\n\n一个面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）的笔记插件：提供完整的 **MD 笔记管理器** 和 **MD 笔记编辑器**，对话内容可快速记入笔记。笔记可同步 Git 仓库维护。\n\n**适合谁**：DSH Web 用户，想要本地、基于文件的笔记（无数据库、无云）——一键把对话存进笔记，之后在任意编辑器里继续编辑，并可用 Git 仓库备份 / 多端同步。\n\n**当前功能**：\n\n- **侧边栏笔记入口** → 全屏笔记管理器：按工作区分组的笔记列表（可折叠）、markdown 编辑/预览、保存、删除（页面内确认）、一键新建。\n- **回答操作",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T15:55:47.292Z",
+  "created_at": "2026-08-15T21:28:11.792Z",
+  "gh": {
+    "full_name": "XieZongChen/dsh-md-notes",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T15:56:03Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:56:40.036Z"
+}

@@ -26,6 +26,7 @@
   "engines": {},
   "readme": "# dsh-color · 颜色工具\r\n\r\nhex / rgb / hsl 互转，计算补色、明暗与前景文字对比度。纯 Node 实现。\r\n\r\n## 提供的工具\r\n\r\n| 工具 | 作用 |\r\n|---|---|\r\n| `color_convert` | 颜色三格式互转 + 补色 + 对比度 |\r\n\r\n## 安装\r\n\r\n```bash\r\ndsh plugin add @i6060/dsh-color\r\n```\r\n安装后在 profile 的 `package.json` 的 `dsh.profile.bundles` 中加入 `\"dsh-color\"`。\r\n\r\n## 用法示例\r\n\r\n```\r\n这个颜色 #3b82f6 的 rgb 和 hsl 是什么，配什么文字颜色\r\n→ 调用 color_convert(color=\"#3b82f6\")\r\n```\r\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:24:11.073Z",
   "created_at": "2026-08-17T03:24:10.636Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 32,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.989Z"
+  "updated_at": "2026-08-17T04:58:34.808Z"
 }

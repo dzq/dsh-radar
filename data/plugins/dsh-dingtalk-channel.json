@@ -30,6 +30,7 @@
   },
   "readme": "# dsh-dingtalk-channel\n\n> [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的钉钉 IM 机器人 channel——每条单聊/群聊背后都是一个真正带工具的 agent，消息即入口，回复回到对话里。\n\n通过钉钉官方 **Stream 模式**（WebSocket 长连接）把钉钉「机器人」接入 dsh。不需要公网回调地址、不需要服务器配置 webhook，机器人私聊或群里 @ 它即可驱动完整 agent（带 bash、read、edit、skills 等工具，按 preset 挂载）。\n\n> 架构沿袭 [dsh-lark-channel](https://github.com/omdsh-dev/dsh-lark)（BSD-3-Clause）的 channel 设计：窄宿主契约 + 传输层端口 + 会话爬梯 + 事件渲染。\n\n## ✨ 特性\n\n- 🤖 **一会话一 agent**——会话 id 由会话键确定性派生（`ding-<chatId>`），跨重启稳定；`sessionScope: chat-sender` 可让共享群里每人一个 agent\n- ⚡ **即时反馈**——每条消息先回执「🤔 已收到」，再流式到达最终答案（钉钉无打字指示，回执是唯一即时反馈）\n- 🤫 **静默过程**——中间过程只在回执/思考表情里暗示，agent 调用 bash/read/edit 等工具不发聊天消息，只把最终答案发成 markdown\n- 🛡️ **访问策略**——单聊/群聊各自 `senderAllowlist` / `groupAllowlist`，群聊 `requireMention`；审批按聊天回复「允许一次 / 拒绝」结算\n- 📡 **长连接自愈**——SDK",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:26:04.217Z",
   "created_at": "2026-08-15T16:26:04.016Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.971Z"
+  "updated_at": "2026-08-17T04:58:34.287Z"
 }

@@ -10,7 +10,7 @@
     "deepseek-harness"
   ],
   "license": "CC0-1.0",
-  "repo": "",
+  "repo": "https://github.com/cccakeee/awesome-dsh-plugins",
   "homepage": "https://awesome-dsh-plugin.com",
   "npm": "https://www.npmjs.com/package/awesome-dsh-plugins",
   "dsh_compat": false,
@@ -18,17 +18,30 @@
   "engines": {},
   "readme": "ERROR: No README data found!",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-13T15:38:49.786Z",
   "created_at": "2026-08-13T15:38:49.457Z",
-  "gh": null,
+  "gh": {
+    "full_name": "cccakeee/awesome-dsh-plugins",
+    "open_issues": 6,
+    "pushed_at": "2026-08-14T10:00:10Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
-    "quality": 55,
+    "maintenance": 39,
+    "quality": 65,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 25,
+    "overall": 34,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.694Z"
+  "updated_at": "2026-08-17T04:58:16.276Z"
 }

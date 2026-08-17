@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-market",
+  "name": "dsh-market",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness 插件市场 · 持续收录 1500+ DSH 插件：中文搜索 + 实用五维评分 + 一键安装。Web 版与 DSH 侧边栏插件双形态。Plugin marketplace for DeepSeek Harness: 1500+ plugins, Chinese search, 5-dim scoring, one-click install.",
+  "keywords": [
+    "deepseek-harness",
+    "deepseek-harness-plugin",
+    "deepseek-harness-plugins",
+    "dsh",
+    "dsh-bundle",
+    "dsh-market",
+    "dsh-plugins",
+    "dsh-skill",
+    "dsh-web",
+    "marketplace"
+  ],
+  "license": "NOASSERTION",
+  "repo": "https://github.com/2BingLing/dsh-market",
+  "homepage": "https://dsh.market/",
+  "npm": "https://www.npmjs.com/package/dsh-market",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "2BingLing/dsh-market",
+    "open_issues": 2,
+    "pushed_at": "2026-08-16T22:22:56Z",
+    "archived": false,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:39.155Z"
+}

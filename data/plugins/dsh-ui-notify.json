@@ -33,24 +33,18 @@
   },
   "readme": "# dsh-ui-notify\n\nCompletion sound notifications for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) web GUI. When a session's output finishes, the plugin plays an embedded chime; the **Notifications** row in **Settings → General** turns it on or off, picks a sound (with preview), sets the volume, and chooses whether to ring for background sessions only or every session.\n\nSettings persist in browser `localStorage`. The plugin is a pure web plugin — it registers no host service, no tool, and no session-log entry.\n\n## Install\n\n```sh\ndsh plugin --profile web add dsh-ui-notify\n```\n\nThen restart the profile (`dsh --profile web`) so the new package metadata is picked up.\n\nTo install straight from a git host, pin a commit and allow the `prepare` build script in the profile'",
   "weekly_downloads": 149,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T13:10:44.436Z",
   "created_at": "2026-08-15T13:10:44.103Z",
-  "gh": {
-    "full_name": "xingke-seeker/dsh-ui-notify",
-    "stars": 0,
-    "open_issues": 0,
-    "pushed_at": "2026-08-16T07:45:31Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 54,
-    "maintenance": 40,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 62,
-    "grade": "B"
+    "overall": 52,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.269Z"
+  "updated_at": "2026-08-17T04:58:29.173Z"
 }

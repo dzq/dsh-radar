@@ -32,6 +32,7 @@
   "engines": {},
   "readme": "# dsh-content-studio\n\n**面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的内容创作与多平台分发 bundle 插件。**\n\n[English](README.en.md) · [dsh-plugin 主题](https://github.com/topics/dsh-plugin)\n\n截屏、录屏、Markdown 渲染小红书图文、dev.to / Medium 发布、发布前人工审阅 —— 一次安装、十六个工具，告别每次现写脚本。\n\n## 特性\n\n- 🎨 `content_text_to_image` —— 文本生图（Nano Banana / Gemini 2.5 Flash Image，需 API key）：封面、背景图、插图一键生成\n- 📸 `content_screenshot` —— macOS 桌面截屏（全屏 / 区域 / 延时）\n- 🎬 `content_screen_record` —— ffmpeg AVFoundation 定时长 MP4 录屏，自动探测屏幕/麦克风设备，支持麦克风与裁切区域\n- 🃏 `content_md_to_cards` —— Markdown → 小红书图文卡片（Chrome 无头渲染）：封面卡 + 按 H1/H2 分节成卡，1242×1660（3:4），**5 套配色 × 4 种版式**，支持 `![描述](路径)` 插图与带可读性遮罩的背景图\n- 🌐 `content_md_to_html` —— 自包含排版 HTML，用于预览、CSDN、公众号粘贴\n- 📤 `content_publish_devto` —— dev.to（Forem）官方 API 发布（草稿/直发）\n- 📤 `content_p",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T13:40:44.995Z",
   "created_at": "2026-08-14T15:47:49.642Z",
   "gh": null,
@@ -44,5 +45,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:51.482Z"
+  "updated_at": "2026-08-17T04:58:38.054Z"
 }

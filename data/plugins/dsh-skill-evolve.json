@@ -19,6 +19,7 @@
   "engines": {},
   "readme": "# dsh-skill-evolve\r\n\r\nDSH 插件：Agent 自我进化引擎 — 从成功会话中自动提炼可复用 skill，越用越聪明。\r\n\r\n## 原理\r\n\r\n```\r\nAgent 完成任务 → session.jsonl 记录全过程\r\n                        ↓\r\n              extract_skill 分析 session\r\n                        ↓\r\n        提炼工具调用序列 → 生成 skill markdown\r\n                        ↓\r\n        下次类似任务 → Agent 直接按 skill 执行（更快更准）\r\n```\r\n\r\n## 工具\r\n\r\n| 工具 | 功能 |\r\n|------|------|\r\n| `extract_skill` | 从 session JSONL 提炼为 skill 文件 |\r\n| `list_learned_skills` | 列出所有已学习的 skill |\r\n\r\n## 使用示例\r\n\r\n```\r\nUser: 刚才部署的流程挺顺利的，帮我把它提炼成 skill 以后复用\r\n\r\nAgent:\r\n→ extract_skill({\r\n    sessionPath: \"~/.dsh/sessions/abc123/session.jsonl\",\r\n    skillName: \"deploy-staging\",\r\n    description: \"部署到预发环境的标准流程\"\r\n  })\r\n\r\n✓ 已生成 skill: ./skills/learned/deploy-staging.md\r\n  提取了 7 个步骤，使用了 bash, read, write 3 个工具。\r\n  下次说\"部署到预发\"时我会按这个流程执行。\r\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T15:34:56.581Z",
   "created_at": "2026-08-14T15:34:56.372Z",
   "gh": null,
@@ -31,5 +32,5 @@
     "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.617Z"
+  "updated_at": "2026-08-17T04:58:31.719Z"
 }

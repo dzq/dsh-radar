@@ -25,6 +25,7 @@
   },
   "readme": "# Agent Run Logger\n\n中文 | [English](README.md)\n\nAgent Run Logger 是一个 DeepSeek Harness 插件，为每个正在运行的 Session 写入一份精简的本地 JSONL trace。它把底层 Session 事件整理成 run、step、模型和工具的计时记录，比直接阅读完整会话日志更方便。\n\n默认情况下，每个 Session 分别写入 `<session cwd>/.dsh/traces/`。记录会在 Agent 运行期间持续追加；同一 Session 内严格保持源事件顺序，不同 Session 的写入队列相互独立，可以并行落盘。\n\n默认只记录元数据、标识符、耗时、结果状态和 token 用量，不记录提示词、回复、工具参数或工具结果。设置 `includeContent: true` 后才会记录这些内容。每项内容默认最多保留 64 KiB；超限 JSON 会转换为 UTF-8 安全的头尾预览，原始 Session 日志不会被修改。\n\n事件处理不会等待磁盘 I/O。每个 Session 默认拥有上限为 4 MiB 的独立队列。队列满时会丢弃新 trace 记录，并在之后通过 `trace.gap` 记录报告缺失的源事件序号范围。目录创建、写入或同步失败时，插件只警告一次并停用对应 Session 的 writer，不会影响 Agent 和其他 Session。\n\n## 从 tarball 安装\n\n构建并打包插件，然后把生成的压缩包安装到一个 profile：\n\n```sh\npnpm install\npnpm pack\ndsh plugin --profile trace-demo add ./dsh-agent-run-logger-0.1.0.tgz\ndsh --profile trace-demo -",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T03:00:00.479Z",
   "created_at": "2026-08-16T03:00:00.262Z",
   "gh": null,
@@ -37,5 +38,5 @@
     "overall": 36,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.453Z"
+  "updated_at": "2026-08-17T04:58:32.792Z"
 }

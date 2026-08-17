@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-deepseek-harness-external-migration",
+  "name": "dsh-deepseek-harness-external-migration",
+  "version": "0.0.0",
+  "description": "**DeepSeek-Harness Migration Plugin** 是一款专为 [DeepSeek-Harness](https://github.com/deepseek-ai/deepseek-harness) 设计的插件，旨在帮助开发者无缝迁移其他主流 AI 编程助手（Codex、Claude Code、Qcoder、OpenCode）的个性化配置及历史会话记录。无需手动复制粘贴，即可在 DeepSeek-Harness 中继续之前的工作流，大幅降低切换成本。",
+  "keywords": [],
+  "license": "MIT",
+  "repo": "https://github.com/buguoshixc/deepseek-harness-external-migration",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-deepseek-harness-external-migration",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "buguoshixc/deepseek-harness-external-migration",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T13:47:33Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 30,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:50.752Z"
+}

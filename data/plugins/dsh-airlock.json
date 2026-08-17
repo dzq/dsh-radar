@@ -26,6 +26,7 @@
   },
   "readme": "# dsh-airlock\n\nProvenance-gated tool use for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh).\n\n> **Status: 0.1.0.**\n> The plugin labels context by origin and enforces rules over those labels at five seams.\n> The seam claims are verified against dsh `0.1.0-rc.6`, which warns of compatibility-breaking changes.\n> The behaviour is verified end to end against dsh `0.1.0-rc.6`. See [Verified end to end](#verified-end-to-end).\n> Expect breaking changes while the harness is a release candidate.\n>\n> **Read [the shell hole](#the-shell-hole) before you rely on `secret-no-egress`.**\n> A secret read through `bash` is not labelled, so egress stays open.\n> A live run reproduced a one-line shell command that read a credential file and\n> posted it, with the plugin mounted, and the",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T13:28:11.246Z",
   "created_at": "2026-08-16T13:28:11.020Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:57.148Z"
+  "updated_at": "2026-08-17T04:58:38.938Z"
 }

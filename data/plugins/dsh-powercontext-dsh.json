@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-powercontext-dsh",
+  "name": "dsh-powercontext-dsh",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness plugin that connects to a PowerContext Server over HTTP for recall, memory, handoff, experience, and skills.",
+  "keywords": [
+    "deepseek-harness"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/knqiufan/powercontext-dsh",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-powercontext-dsh",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "knqiufan/powercontext-dsh",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T01:54:52Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:58.453Z"
+}

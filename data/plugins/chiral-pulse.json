@@ -34,6 +34,7 @@
   "engines": {},
   "readme": "# CHIRAL PULSE · 手性脉冲\n\n[![npm](https://img.shields.io/npm/v/chiral-pulse)](https://www.npmjs.com/package/chiral-pulse)\n[![GitHub Release](https://img.shields.io/github/v/release/MoonShadow1976/chiral-pulse)](https://github.com/MoonShadow1976/chiral-pulse/releases)\n\nDeath Stranding 皮肤 + BB 生命体征监护仪,挂在 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web 界面。\n\n- **全局皮肤**——整个界面都是死亡搁浅:暗色 DS 蓝黑机身 + 琥珀发丝线,亮色冥滩白变体;全屏扫描线、手性晶格、四角渐晕氛围层(全部 pointer-transparent,不挡操作);DeepSeek 鲸鱼品牌蓝原样保留。\n- **心跳走纸**——输入区上方一条 26px 监护仪走纸:滚动 ECG 波形是主角,BPM 实时跟随 Agent 活动(思考 +38、工具执行 +52、回合进行 +10、空闲回落至 42)。数据全部来自会话快照,不重复 StatsLine 已有的 turns/tokens。\n\n![CHIRAL PULSE](assets/chiral-pulse-hero.png)\n\n## 安装\n\n发布版(推荐):\n\n```sh\ndsh plugin --profile web add chiral-pulse\n```\n\n包内声明了 `dsh.bundle`(cordis.patch.yml roster 行)与",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T23:17:25.805Z",
   "created_at": "2026-08-14T04:17:59.175Z",
   "gh": null,
@@ -46,5 +47,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.944Z"
+  "updated_at": "2026-08-17T04:58:33.585Z"
 }

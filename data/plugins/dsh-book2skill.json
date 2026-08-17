@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-book2skill",
+  "name": "dsh-book2skill",
+  "version": "0.0.0",
+  "description": "DSH book-to-skill plugin: a 5-stage long task (fetch → parse → understand → generate → install) with 3 human gates, host tools for the agent and a browser timeline panel",
+  "keywords": [],
+  "license": "BSD-3-Clause",
+  "repo": "https://github.com/omdsh-dev/dsh-book2skill",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-book2skill",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "omdsh-dev/dsh-book2skill",
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T14:13:22Z",
+    "archived": false,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 30,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:46.453Z"
+}

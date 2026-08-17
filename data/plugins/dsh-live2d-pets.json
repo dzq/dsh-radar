@@ -1,0 +1,57 @@
+{
+  "slug": "dsh-live2d-pets",
+  "name": "dsh-live2d-pets",
+  "version": "0.2.2",
+  "description": "Live2D pet plugin for DeepSeek Harness: a characterful agent companion — follows session state, switchable personas, bring-your-own models",
+  "keywords": [
+    "cubism",
+    "deepseek-harness",
+    "desktop-pet",
+    "dsh",
+    "live2d",
+    "mascot",
+    "plugin",
+    "webgl"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/cyanfish-x/dsh-live2d-pets.git",
+  "homepage": "https://github.com/cyanfish-x/dsh-live2d-pets#readme",
+  "npm": "https://www.npmjs.com/package/dsh-live2d-pets",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "slots"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "readme": "# dsh-live2d-pets 🐾\r\n\r\n[English](README.en.md) | 简体中文\r\n\r\n[![npm](https://img.shields.io/npm/v/dsh-live2d-pets.svg)](https://www.npmjs.com/package/dsh-live2d-pets)\r\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\r\n[![Node.js](https://img.shields.io/node/v/dsh-live2d-pets.svg)](https://nodejs.org/)\r\n[![GitHub release](https://img.shields.io/github/v/release/cyanfish-x/dsh-live2d-pets)](https://github.com/cyanfish-x/dsh-live2d-pets/releases)\r\n[![dsh-plugin](https://img.shields.io/badge/topic-dsh--plugin-1f6feb)](https://github.com/topics/dsh-plugin)\r\n\r\nDSH（DeepSeek Harness）的 Live2D 桌宠插件：给 Agent 一只**有性格的陪伴**——状态跟着会话走，人设能换，模型可自带。\r\n\r\n<p align=\"center\">\r\n  <img src=\"docs/media/hero.jpg\" alt=\"dsh-live2d-pets 主视觉\" width=\"920\" />\r\n</p>\r\n\r\n",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T13:07:06.402Z",
+  "created_at": "2026-08-14T12:27:38.832Z",
+  "gh": {
+    "full_name": "cyanfish-x/dsh-live2d-pets",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T15:23:12Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:56:54.568Z"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-skill-picker",
+  "name": "dsh-skill-picker",
+  "version": "0.1.0",
+  "description": "DSH Web GUI skill picker: a button beside the composer opens a searchable list of installed skills; picking one inserts the official `/skill-name` gesture into the input box, so the skill loads with your message (WorkBuddy-style skill invocation for DeepS",
+  "keywords": [],
+  "license": "MIT",
+  "repo": "git+https://github.com/a735624258/dsh-skill-picker.git",
+  "homepage": "https://github.com/a735624258/dsh-skill-picker#readme",
+  "npm": "https://www.npmjs.com/package/dsh-skill-picker",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-skill-picker\n\n> **技能记不住名字？官方 `/` 补全靠前缀记忆，装了几十个技能谁记得住？** 本插件让技能**看得见、翻得到、选得快**——点一下 ⚡，全部技能带描述排在你面前，搜索、点选、插入，随消息发出自动加载。\n\nDSH Web GUI 的技能选择器：在输入框（composer）工具行右侧加一个按钮，点开可以**搜索并点选已安装的技能**，选中后把官方 `/技能名` 手势插入发送框——随消息一起发出，DSH 原生机制就会自动加载该技能并执行。WorkBuddy 式\"把技能写进发送框\"的交互，DeepSeek Harness 复刻版。\n\nEnglish: A skill picker for the DSH Web GUI — a button in the composer's right tool row opens a searchable list of installed skills; picking one inserts the official `/skill-name` gesture into the draft, so DSH's native user-invocation path loads the skill with your message.\n\n## 为什么用它（vs 官方 `/` 补全）\n\n官方内置了 `/` 技能补全，但它是**记忆驱动**的——你得先记得技能名，打 `/` + 前缀才能过滤出来。技能一多就抓瞎：\n\n| | 官方 `/` 补全 | dsh-skill-picker |\n|---|---|---|\n| 触发 | 输入框打 `/` | 输入框旁 ⚡ 按钮 |\n| 查找方式 | 前缀记忆驱动，**忘了名字就找不到** | 全列表浏览 + 关键字搜索，**忘了名字也能翻到** |\n| 排序 |",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T05:30:14.977Z",
+  "created_at": "2026-08-16T05:30:14.738Z",
+  "gh": {
+    "full_name": "a735624258/dsh-skill-picker",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T05:07:36Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:56:45.134Z"
+}

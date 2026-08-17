@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-llm-codex-oauth",
+  "name": "dsh-llm-codex-oauth",
+  "version": "0.1.0",
+  "description": "Use Pi's OpenAI Codex OAuth subscription in DeepSeek Harness",
+  "keywords": [],
+  "license": "MIT",
+  "repo": "git+https://github.com/eons2long/dsh-llm-codex-oauth.git",
+  "homepage": "https://github.com/eons2long/dsh-llm-codex-oauth#readme",
+  "npm": "https://www.npmjs.com/package/dsh-llm-codex-oauth",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-llm-codex-oauth\n\nDSH adapter that uses the same OpenAI Codex OAuth credential as Pi:\n`~/.pi/agent/auth.json` → `openai-codex`.\n\nIt uses Pi's installed `@earendil-works/pi-ai` Codex provider and DSH's public\n`dsh-llm-pi-ai` adapter, including the official Codex Responses transport, images,\ntool calls, reasoning replay, compaction, and OAuth refresh. It does not copy the\ntoken into an API-key environment variable.\n\n## Install\n\n```bash\ndsh plugin --profile web add dsh-llm-codex-oauth\n```\n\nFor a manual profile install, add the package to the profile and include this\nentry in its `cordis.patch.yml`:\n\n```yaml\n- insert:\n    - id: llm-codex-oauth\n      name: dsh-llm-codex-oauth\n```\n\nThe profile must also include the normal `llm` service. Restart:\n\n```bash\nnpx @deepseek-ai/dsh web\n```\n\nThen s",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T01:31:58.115Z",
+  "created_at": "2026-08-15T01:31:57.701Z",
+  "gh": {
+    "full_name": "eons2long/dsh-codex-oauth",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T10:35:24Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 41,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:56:33.663Z"
+}

@@ -24,6 +24,7 @@
   },
   "readme": "# OMDSH Runtime\n\n一个复用官方 Harness Profile、Bundle、Cordis 与包操作的无前端执行层。它只补确定性的 plan/apply、candidate generation、用户确认和 previous generation 恢复，不新增第二套 Loader 或 daemon；DSH Hub Workshop 始终是唯一发现、作者发布、审核与 feed 主数据源。\n\n源码仓库已公开。`@ohmydsh/runtime` 配置为 npm 公开预览包，只使用 `preview` dist-tag，预览版本不会隐式移动 `latest`。\n\n代码边界保持为“一个 Toolkit 仓库、多个稳定模块”：`profile-pack` 只负责格式、内容摘要、签名和组合检查；`pack-authoring` 只负责作者清单；`license` 只负责 SPDX 事实；`pack-instances` 只负责命名实例；CLI 只是调用这些模块和既有 Runtime/官方 DSH 操作的薄层。Hub 不 import Runtime 源码，双方只交换带版本的 JSON Schema、Registry 快照 ID、锁包和签名结果。等第三方确实需要独立依赖时，可以原样发布这些子路径或拆成 `pack-core` 包，不需要改 Pack 格式或 CLI。\n\n## 可移植 Profile Pack\n\n`omdsh-profile-pack/v1` 是轻量、可审查的 JSON 发行格式。它只记录固定的 Registry 项目与 Release ID、固定到完整 Git commit 的自有源码、Registry 快照、实际观测到的 `@deepseek-ai/dsh` 版本，以及一个 Agent Preset；不会复制插件包体、凭据、会话、环境文件或本机绝对路径。",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T08:31:30.402Z",
   "created_at": "2026-08-15T08:31:30.061Z",
   "gh": null,
@@ -36,5 +37,5 @@
     "overall": 40,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:47.701Z"
+  "updated_at": "2026-08-17T04:58:35.425Z"
 }

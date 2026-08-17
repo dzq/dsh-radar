@@ -38,6 +38,7 @@
   },
   "readme": "# dsh-flomo-report\n\n生成 DeepSeek Harness 会话报告（日报/周报/月报/任意日期区间），并一键同步到 **flomo（浮墨笔记）**。\n\n[English README](./README.md)\n\n## 功能特性\n\n- **会话报告** — 汇总 `~/.dsh/sessions` 中任意日期区间的全部会话（活跃会话、用户/助手消息、工具调用、Token 用量、常用工具、逐会话明细），并调用当前默认模型生成 AI 叙事摘要（今日数据 / 今日主线 / 今日回顾 / 明日建议）。\n- **flomo 同步** — 通过 flomo 传入 Webhook 把报告直接写入 flomo，遵守两条已确认的规则：\n  - 使用**一个可配置标签**，默认 `#write/dsh`（你已有的标签，插件绝不新建标签）；\n  - 发送前**自动去除正文中所有 `#` 号**。\n- **Web 可视化面板** — 设置页新增「Flomo Report」面板：日期区间 + 生成/同步、标签、去 # 开关、API URL（留空自动复用 dsh-flomo 插件的 `~/.dsh/dsh-flomo.json`）、生成时自动同步、**报告文件自定义保存目录**（点「选择文件夹」弹出系统目录选择器，或直接手填路径）、每日定时提醒（时刻 + 报告范围），并实时预览将发送到 flomo 的内容。\n- **报告文件** — 每次生成的报告都会以 `日报-YYYY-MM-DD.md` 写入配置的目录（默认 `~/.dsh/dsh-flomo-report/reports/`）。\n- **每日定时提醒** — 开启后每天到点自动生成上一日（或当日）报告，同步 flomo、保存到 `~/.dsh/dsh-flomo-report/reports/`，并弹出系统通知（macOS",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T15:12:05.719Z",
   "created_at": "2026-08-16T15:03:22.557Z",
   "gh": null,
@@ -50,5 +51,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.626Z"
+  "updated_at": "2026-08-17T04:58:31.981Z"
 }

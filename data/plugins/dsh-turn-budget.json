@@ -26,6 +26,7 @@
   },
   "readme": "# dsh-turn-budget\n\n[![CI](https://github.com/Nunchakus888/dsh-turn-budget/actions/workflows/ci.yml/badge.svg)](https://github.com/Nunchakus888/dsh-turn-budget/actions/workflows/ci.yml)\n\n`dsh-turn-budget` is a fail-closed resource governor for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness). It limits model steps, root and nested tool executions, and exact provider-reported token usage independently for every Agent turn.\n\nThe plugin uses public Harness extension points only:\n\n- `agent/pre-step` rejects a model request that would exceed the step or provider-token ceiling.\n- `tools/pre-execute` denies a tool body before dispatch when the turn has consumed its tool-call allowance.\n- Existing `tool/result` and `turn/end` records preserve the resulting policy outcome in the c",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T03:52:56.874Z",
   "created_at": "2026-08-14T03:52:56.545Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.681Z"
+  "updated_at": "2026-08-17T04:58:35.074Z"
 }

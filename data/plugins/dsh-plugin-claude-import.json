@@ -29,6 +29,7 @@
   "engines": {},
   "readme": "# dsh-plugin-claude-import\n\n把 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 的会话(`~/.claude/projects/*.jsonl`)导入 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness),提取成**可续接的上下文**——自动摘要链、最后任务、动过的文件、尾部状态——而不是逐事件回放。\n\n本插件是 [claude-code-to-dsh](https://github.com/changhang155/claude-code-to-dsh)(零依赖 Python CLI,产出同样的 seed / markdown 文档)的 DSH 原生移植。\n\n## 功能\n\n- **agent 工具**(host 半区):\n  - `claude_session_list` —— 列出 `~/.claude/projects` 下所有会话(ID/项目/标题/时间/大小/消息统计)\n  - `claude_session_import` —— 导入指定会话为 **seed** 开场上下文块(可直接粘贴进新会话)或完整 **markdown** 续接文档;`createSession=true` 时在 Claude 会话所属项目目录下新建 DSH 会话,并把上下文作为首条消息投递\n- **Web UI**(client 半区):会话头部新增「Claude 导入」入口——输入会话 ID(留空 = 最近一个),插件自动新建 DSH 会话、切换过去并播种导入指令\n\n## 环境要求\n\n- `dsh` ≥ `0.1.0-rc.6`(npm:`npx @deepseek-ai/dsh web`),Node.",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T02:06:23.647Z",
   "created_at": "2026-08-15T02:06:23.279Z",
   "gh": null,
@@ -41,5 +42,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.623Z"
+  "updated_at": "2026-08-17T04:58:31.893Z"
 }

@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-AI-Novel-Writer",
+  "name": "dsh-AI-Novel-Writer",
+  "version": "0.0.0",
+  "description": "本地优先 AI 小说创作工作台，提供 Windows/macOS 桌面版与 DeepSeek Harness 插件开发预览，支持角色、大纲、章节蓝图、审稿修稿和本地模型。",
+  "keywords": [
+    "ai-writing",
+    "deepseek-harness",
+    "dsh-plugins",
+    "electron",
+    "fiction-writing",
+    "gemini",
+    "local-first",
+    "novel-writing",
+    "ollama",
+    "react"
+  ],
+  "license": "GPL-3.0",
+  "repo": "https://github.com/EthanYoQ/AI-Novel-Writer",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-AI-Novel-Writer",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "EthanYoQ/AI-Novel-Writer",
+    "open_issues": 6,
+    "pushed_at": "2026-08-16T16:25:44Z",
+    "archived": false,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:45.637Z"
+}

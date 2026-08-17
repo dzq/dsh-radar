@@ -30,6 +30,7 @@
   "engines": {},
   "readme": "# dsh-plugin-mall\r\n\r\n**dsh 插件市场** — 搜索 GitHub `dsh-plugin` 话题下的 DeepSeek Harness 插件仓库，并一键安装到本地 dsh profile。\r\n\r\n两个入口：\r\n\r\n1. **设置 → 插件 → 插件市场 tab**（浏览器 UI，dsh web 模式）：搜索、看详情、点安装/卸载、看进度与已装列表\r\n2. **会话内 5 个 agent 工具**（所有模式可用）\r\n\r\n| 工具 | 作用 |\r\n|---|---|\r\n| `market_search` | 搜索 GitHub 上带 `topic:dsh-plugin` 标签的仓库（按 star 排序，可按关键词过滤） |\r\n| `market_info` | 查看单个仓库详情：star、license、package.json、是否声明 `dsh.bundle.patch` / `dsh.client` |\r\n| `market_install` | 把插件装进某个 profile（后台任务，可用 `job_output` 查看进度） |\r\n| `market_uninstall` | 把插件从某个 profile 卸载（后台任务：`pnpm remove` + 剔除 bundle 层 + 删除客户端加载行） |\r\n| `market_installed` | 列出某 profile 已装的插件及其 bundle 状态 |\r\n\r\n## 安装\r\n\r\n```powershell\r\n# 从 npm（发布后）\r\ndsh plugin --profile web add @1e0zj/dsh-plugin-mall\r\n\r\n# 从 GitHub\r\ndsh plugin --profile web add github:1e0zj/dsh-plugin-mall\r",
   "weekly_downloads": 735,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:22:58.725Z",
   "created_at": "2026-08-15T13:25:03.166Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 57,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.232Z"
+  "updated_at": "2026-08-17T04:58:28.454Z"
 }

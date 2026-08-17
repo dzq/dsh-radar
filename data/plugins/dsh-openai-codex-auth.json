@@ -47,6 +47,7 @@
   },
   "readme": "# dsh-openai-codex-auth\n\n**简体中文** | [English](./README.md)\n\n为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 增加\n`openai-codex` 模型提供方，通过符合资格的 ChatGPT 订阅登录，无需配置 OpenAI\nPlatform API Key。\n\n一个 LLM provider 路由应当只由一个插件负责。同时启用两个 `openai-codex` 实现会造成\nadapter 注册冲突。\n\n<p align=\"center\">\n  <img src=\"./docs/assets/openai-codex-settings-zh.png\" alt=\"OpenAI Codex 中文设置页\" width=\"760\">\n</p>\n\n## 功能\n\n- 使用 OpenAI Codex OAuth 设备码流程登录 ChatGPT；\n- 在 DSH 模型选择器中提供 Codex 模型及对应推理等级；\n- 在本地保存凭据并自动刷新令牌；\n- 在设置页显示登录状态、滚动用量周期、重置时间和 Credits。\n\n## 要求\n\n- Node.js `>=22.19.0`；\n- DSH `0.1.0-rc.6` Web profile；\n- 具有 Codex 使用资格并已启用设备码登录的 ChatGPT 订阅。\n\n## 安装或更新\n\n```sh\ndsh plugin --profile web add dsh-openai-codex-auth\n```\n\n安装或更新后重启 DSH。\n\n### 从源码安装\n\n```sh\nnpm install\ndsh plugin --profile web add .\n```\n\n这个包本身就是 DSH bu",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T19:33:02.915Z",
   "created_at": "2026-08-15T17:19:27.715Z",
   "gh": null,
@@ -59,5 +60,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.746Z"
+  "updated_at": "2026-08-17T04:58:37.001Z"
 }

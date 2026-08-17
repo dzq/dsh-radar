@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-deepseek-harness-for-vscode",
+  "name": "dsh-deepseek-harness-for-vscode",
+  "version": "0.0.0",
+  "description": "deepseek-harness for vscode .This is a community project, and we welcome your valuable feedback!",
+  "keywords": [
+    "dsh-plugin-market",
+    "dsh-plugins"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/skymecode/deepseek-harness-for-vscode",
+  "homepage": "https://marketplace.visualstudio.com/items?itemName=skymecode.deepseek-harness-for-vscode",
+  "npm": "https://www.npmjs.com/package/dsh-deepseek-harness-for-vscode",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "skymecode/deepseek-harness-for-vscode",
+    "open_issues": 2,
+    "pushed_at": "2026-08-16T17:11:20Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:54.711Z"
+}

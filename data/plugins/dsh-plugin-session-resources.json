@@ -39,6 +39,7 @@
   },
   "readme": "# dsh-plugin-session-resources\n\n[![npm](https://img.shields.io/npm/v/dsh-plugin-session-resources)](https://www.npmjs.com/package/dsh-plugin-session-resources)\n[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![DeepSeek Harness](https://img.shields.io/badge/DeepSeek%20Harness-plugin-black)](https://github.com/deepseek-ai/deepseek-harness)\n\n[English](README.md) | 中文\n\n**对话旁边的文件面板。** 会话工作区以目录树呈现、可逐层展开，本次会话产出的文件置顶，动过的每一行带一个圆点。点文件即打开；对话区会让出宽度而不是被盖住。\n\n```sh\ndsh plugin --profile web add -w dsh-plugin-session-resources\n```\n\n## 安装\n\n**必须带 `-w`。** profile 目录本身是 pnpm 工作区根，不带的话 pnpm 会以 `ERR_PNPM_ADDING_TO_ROOT` 拒绝并且什么都不装。\n\n**每个 profile 单独安装。** 面板只出现在装了这个包的 profile 里，所以桌面端要自己装一次：\n\n```sh\ndsh plugin --profile desktop add -w dsh-plugin-session-resources\n```\n\n**安装时不会索要构建权限。** 浏览器半边是",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T17:04:38.868Z",
   "created_at": "2026-08-16T17:04:38.603Z",
   "gh": null,
@@ -46,10 +47,10 @@
     "popularity": 0,
     "maintenance": 0,
     "quality": 75,
-    "security": 65,
+    "security": 50,
     "dsh_compat": 80,
-    "overall": 41,
-    "grade": "C"
+    "overall": 39,
+    "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.704Z"
+  "updated_at": "2026-08-17T04:58:35.512Z"
 }

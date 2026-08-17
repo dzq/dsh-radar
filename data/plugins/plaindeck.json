@@ -25,24 +25,18 @@
   },
   "readme": "# plaindeck\n\nAgent-friendly API, CLI, and renderer for the PlainDeck Git-native slide format.\n\n```bash\nnpm install plaindeck\nnpx plaindeck init ./my-deck --title \"Make the idea visible\"\nnpx plaindeck validate ./my-deck\nnpx plaindeck inspect ./my-deck --json\n```\n\n## Made with `plaindeck`\n\nEach example below is a real five-slide PlainDeck project generated through `init → operations → validate → render`. Click a cover to download the PDF, or open the source to inspect one editable JSON file per slide.\n\n| Generative AI | How the Internet Works | How Learning Sticks |\n| --- | --- | --- |\n| [![Generative AI demo](https://raw.githubusercontent.com/Mappedinfo/PlainDeck/main/demo/renders/generative-ai-cover.png)](https://github.com/Mappedinfo/PlainDeck/raw/main/demo/renders/generative-ai.pdf) | [!",
   "weekly_downloads": 1073,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-13T15:39:46.954Z",
   "created_at": "2026-08-02T11:48:07.635Z",
-  "gh": {
-    "full_name": "Mappedinfo/PlainDeck",
-    "stars": 2,
-    "open_issues": 0,
-    "pushed_at": "2026-08-13T15:41:42Z",
-    "archived": false,
-    "license": "MIT"
-  },
+  "gh": null,
   "scores": {
     "popularity": 76,
-    "maintenance": 38,
-    "quality": 85,
+    "maintenance": 0,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 57,
-    "grade": "B"
+    "overall": 48,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.219Z"
+  "updated_at": "2026-08-17T04:58:28.452Z"
 }

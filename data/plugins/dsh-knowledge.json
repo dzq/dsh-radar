@@ -38,6 +38,7 @@
   },
   "readme": "# dsh-knowledge\n\nCherry Studio 风格的**知识库系统**，作为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）的独立、可开源 bundle 插件。提供知识库（含**分组**）与文档管理、文本分块、向量化（OpenAI 兼容 / Ollama / **本地模型** / 关键词降级）、检索，以及模型可见工具与浏览器管理面板。\n\n## 它带来什么\n\n- **知识库与文档**：创建/删除/重命名知识库与文档；**分组管理**（新建/重命名/删除分组，侧边栏按分组折叠导航，知识库可在菜单中「移动到分组」）；**弹窗式添加文档（文本/文件/网页/目录四页签）**、多文件拖拽上传（≤20 个）、**目录导入**（递归扫描 txt/md/csv/html/json/pdf/docx/doc/pptx/ppt/xlsx/xls/epub 等，**导入为可下钻的文件夹树**）、URL 导入；**同名冲突「全部保留/替换」**、内容哈希去重；分块与原文预览；资料行显示 **✓ 就绪状态徽标、实时导入状态（解析中 / 嵌入中 NN%）与相对更新时间**，文件夹在任一后代处理时显示「导入中」；全部操作走正式对话框与 Toast 通知（无 window.prompt/confirm）。\n- **每库独立配置**：每个知识库可单独指定 embedding 提供方/模型（含**本地模型**）、**重排模型**、分块大小与 topK（Cherry Studio 式），未设置字段自动继承全局配置；改配置后一键重建索引（全库或单条资料）。\n- **向量化与检索**：可插拔 embedding 提供方 —— 任意 OpenAI 兼容 `/embeddings` 端点（OpenAI、Dee",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T17:37:30.629Z",
   "created_at": "2026-08-15T17:37:30.397Z",
   "gh": null,
@@ -50,5 +51,5 @@
     "overall": 37,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.467Z"
+  "updated_at": "2026-08-17T04:58:33.058Z"
 }

@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-tool-turbo",
+  "name": "dsh-tool-turbo",
+  "version": "0.0.0",
+  "description": "Per-round reasoning_effort optimizer for DeepSeek Harness (dsh): auto-downgrades tool-call reasoning for simple tool chains, lifting back for heavy work. Cuts thinking time between tool calls.",
+  "keywords": [
+    "agent",
+    "deepseek",
+    "dsh",
+    "harness",
+    "optimization",
+    "performance",
+    "plugin",
+    "reasoning",
+    "speed"
+  ],
+  "license": "",
+  "repo": "https://github.com/Electricitysheep/dsh-tool-turbo",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-tool-turbo",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Electricitysheep/dsh-tool-turbo",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T02:14:23Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:25.951Z"
+}

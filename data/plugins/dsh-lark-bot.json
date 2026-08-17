@@ -30,17 +30,25 @@
   },
   "readme": "<h1 align=\"center\">dsh-lark-bot</h1>\n\n<p align=\"center\">\n  <strong>把 DeepSeek Harness 接入飞书 | Bridge DeepSeek Harness into Feishu / Lark</strong>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/platform-Feishu%20%2F%20Lark-3370FF\" alt=\"Platform\">\n  <img src=\"https://img.shields.io/badge/agent-DeepSeek%20Harness-4D6BFE\" alt=\"Agent\">\n  <img src=\"https://img.shields.io/badge/runtime-Node.js%20%E2%89%A5%2022-339933\" alt=\"Node\">\n  <img src=\"https://img.shields.io/badge/License-AGPLv3-blue\" alt=\"License\">\n  <img src=\"https://img.shields.io/badge/status-released-blue\" alt=\"Status\">\n  <a href=\"https://dshfind.com/zh/plugins/PlutoKeating/dsh-lark-bot?ref=badge\"><img src=\"https://dshfind.com/api/badge/PlutoKeating/dsh-lark-bot?lang=zh\" alt=\"dshfind\"></a>\n</p>\n\n<br>\n\n<div align=\"cent",
   "weekly_downloads": 3640,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T23:00:14.099Z",
   "created_at": "2026-08-13T21:59:24.237Z",
-  "gh": null,
+  "gh": {
+    "full_name": "PlutoKeating/dsh-lark-bot",
+    "stars": 18,
+    "open_issues": 23,
+    "pushed_at": "2026-08-17T03:34:13Z",
+    "archived": false,
+    "license": "AGPL-3.0"
+  },
   "scores": {
     "popularity": 89,
-    "maintenance": 0,
-    "quality": 75,
+    "maintenance": 40,
+    "quality": 65,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 60,
+    "overall": 66,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.198Z"
+  "updated_at": "2026-08-17T04:55:33.232Z"
 }

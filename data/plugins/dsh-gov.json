@@ -28,6 +28,7 @@
   "engines": {},
   "readme": "# dsh-gov — Agent 治理套件（企业级配套）\n\n权限与合规、审计日志、成本控制 —— DSH 进企业前必须有的东西，做成一个插件。策略门禁（allow/deny/ask）、结构化审计日志、按 agent 的 token 配额，状态持久化在 `$DSH_HOME/gov/`。\n\n## 为什么需要它\n\n企业引入 DSH 时第一波问题永远是：\n\n- **谁能让 agent 跑高危工具？** 策略门禁：按工具/agent/工作区规则 allow / deny / ask，通配符 + 优先级，默认放行、平局 fail-closed（deny > ask > allow）。\n- **出事了怎么追溯？** 每次工具调用（决定 + 结果）写入结构化 JSONL 审计日志（`audit.jsonl`），可查询、可导出、可汇总。\n- **钱花哪去了？** 接宿主 `tokenMeter` 按 agent 累计用量，周期配额（day/week/month/total），超限注入上下文警告，一键重置。\n\n## 安装\n\n```bash\ndsh plugin --profile <profile名> add dsh-gov\n```\n\n## 用法\n\n`gov` 工具 action：`status`（总览）、`policy_list/add/remove`（规则管理，tool 支持 `*` 通配）、`audit_query/export`（审计）、`quota_get/set/reset`（配额）。\n\n```text\ngov policy_add tool=\"pwsh*\" policyAction=ask reason=\"shell 命令需审批\" priority=10\ngov quota_set id=alice quotaLimit=100000 period=day\ngov audit",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T04:04:19.843Z",
   "created_at": "2026-08-17T04:04:19.567Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 40,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:47.375Z"
+  "updated_at": "2026-08-17T04:58:34.897Z"
 }

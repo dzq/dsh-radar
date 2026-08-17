@@ -1,0 +1,63 @@
+{
+  "slug": "dsh-opencode-go-usage",
+  "name": "dsh-opencode-go-usage",
+  "version": "1.2.2",
+  "description": "DSH (DeepSeek Harness) plugin: OpenCode GO plan quota widget in the sidebar, same-origin usage proxy, and a /opencode-go chat command",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "opencode",
+    "opencode-go",
+    "usage",
+    "quota",
+    "plugin",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/yumusb/dsh-opencode-go-usage.git",
+  "homepage": "https://github.com/yumusb/dsh-opencode-go-usage#readme",
+  "npm": "https://www.npmjs.com/package/dsh-opencode-go-usage",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "readme": "# dsh-opencode-go-usage\n\n[English](README.md) | 中文\n\n> ⚡ **OpenCode GO 套餐**: [buycodingplan.com](https://buycodingplan.com/)\n\n[DSH](https://github.com/deepseek-ai/deepseek-harness)(DeepSeek Harness)插件:监控你的 **OpenCode GO 套餐**额度 —— 10 美元/月的订阅,按模型提供滚动 5 小时 / 每周 / 每月三个窗口的用量限额。\n\n## 功能\n\n- **侧边栏小组件**:常驻 DSH Web 侧边栏底部(`sidebar.footer.action` 槽位),三条用量进度条:滚动窗口(5h)、周窗口、月窗口,每条带重置倒计时;侧边栏收起时收缩为紧凑的百分比徽标。\n- **`/opencode-go` 聊天命令**:在对话中以文本输出同样的三个窗口数字。\n- **同源代理**:host 端注册 `GET /opencode-go/usage`,携带你的 API key 转发到官方 GO 网关。key 永不进入浏览器,也没有 CORS 问题。\n\n## 工作原理\n\n这是一个**双端 DSH 插件包**:\n\n| 端 | 文件 | 职责 |\n|---|---|---|\n| host(Node) | `lib/index.js` | 注册 `/opencode-go/usage` Web 路由(`ctx.webServer`)与 `/opencode-go` 命令(`ctx.commands`);通过 DSH credentials 解析 key;上游调用带 30s 缓存 |\n| 浏览器 | `lib/client.js` | 手写的 `window.__ModuleLoad",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T15:02:45.069Z",
+  "created_at": "2026-08-14T05:14:44.811Z",
+  "gh": {
+    "full_name": "yumusb/dsh-opencode-go-usage",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T15:02:31Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:56:23.298Z"
+}

@@ -36,6 +36,7 @@
   },
   "readme": "# dsh-plugin-judge · DSH 插件价值裁判\n\n> 判断一个 DeepSeek Harness 插件值不值得用：装前审核，装后审计，模型切换时提醒复核。\n\n[English](README.md)\n\n## 这个插件解决什么问题\n\n插件分两种性质：\n\n- **能力型**：给模型加新能力（新工具、skills、MCP 服务器、服务、命令）——相当于给模型\"多长一只手\"。\n- **约束型**：给模型立规则、上栅栏（注入 system prompt section、persona、写 AGENTS.md、\n  拦截 `agent/pre-step` / `tools/pre-execute`、`restrict` / `guard` 工具、`complete: true`\n  整块替换提示词）——相当于给模型\"套一个笼子\"。\n\n约束型插件有一个隐蔽的代价：模型会乖乖按规则做（合规完成得好），但它真正要解决的任务\n反而完成得差——规则抢占上下文、压制自主判断，等于给模型的天花板盖了一层低矮的顶。\n而且模型一升级，很多\"给旧模型打补丁\"的规则就从补丁变成了天花板，插件随之失效甚至有害。\n\n**所以：一个插件的价值不是它单方面好坏，而是\"插件 × 当前模型\"的二元关系。**\n本插件就是做这个判断的。\n\n## 功能\n\n| 功能 | 时机 | 形式 |\n| --- | --- | --- |\n| 装前审核 | 安装之前 | `/plugin-audit <github:owner/repo 或 npm:pkg>` 命令、`judge_plugin` 工具、设置页输入框。拉取插件源码 → 静态扫描 + LLM 裁判 → 给\"值不值得装\"结论 |\n| 装后审计 | 已安装 | 枚举 profile 已装插件 → 逐个扫描分类（能力型/约束型/妆饰型/混合型）→ 压制风险分 → ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T06:15:31.759Z",
   "created_at": "2026-08-15T04:52:14.453Z",
   "gh": null,
@@ -48,5 +49,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:54.827Z"
+  "updated_at": "2026-08-17T04:58:38.505Z"
 }

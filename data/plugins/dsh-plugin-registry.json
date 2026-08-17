@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-plugin-registry",
+  "name": "dsh-plugin-registry",
+  "version": "0.0.0",
+  "description": "DSH 插件生态基建：薄控制台（浏览器面板管理官方 repository 插件，0 patch）+ make-dsh-plugin skill 官方插件开发引导",
+  "keywords": [
+    "console",
+    "deepseek-harness",
+    "dsh",
+    "dsh-repository-plugin",
+    "plugin-management",
+    "ui"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/vlln/plugin-registry",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-registry",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "vlln/plugin-registry",
+    "open_issues": 6,
+    "pushed_at": "2026-08-17T03:20:09Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:09.713Z"
+}

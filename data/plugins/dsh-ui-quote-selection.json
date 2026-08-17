@@ -1,0 +1,61 @@
+{
+  "slug": "dsh-ui-quote-selection",
+  "name": "dsh-ui-quote-selection",
+  "version": "0.1.0",
+  "description": "DSH web client plugin: select text in a chat message and quote it into the composer as an inline reference chip; the full text materializes on submit via the input-trigger reference codec.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "web",
+    "client-plugin",
+    "quote",
+    "selection",
+    "chat"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/nekogpt/dsh-ui-quote-selection.git",
+  "homepage": "https://github.com/nekogpt/dsh-ui-quote-selection#readme",
+  "npm": "https://www.npmjs.com/package/dsh-ui-quote-selection",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "readme": "# dsh-ui-quote-selection\n\n在 DSH Web 里像 Codex / Claude Code 一样「选中即引用」：选中聊天消息中的任意文本，一键放入输入框，发送时自动展开为完整原文。\n\n> 输入框里是紧凑的引用 chip，模型收到的是完整原文——显示简洁、信息无损。\n\n## 特性\n\n- 🖱️ **选中即用**：消息内选中文本，选区上方浮现「引用到输入框」按钮；滚动时按钮跟随选区移动，选区滚出视野、按 Esc 或选区消失时才隐藏\n- 🧩 **官方管线**：基于 DSH 输入机的 reference 机制（`@` 触发源 + 占位符 + 提交序列化），不接管输入状态、不 hack 渲染\n- ✨ **输入框整洁**：引用以 chip 呈现（`❝ 前 20 字…`），左对齐显示开头，悬停看预览，Backspace 即删\n- 📦 **发送无损**：提交时 chip 物化为完整原文；序列化失败会**阻塞发送**而不是静默降级\n- 🌏 **语言自适应**：按钮文案随界面语言中英切换\n\n## 快速开始\n\n### 环境要求\n\n- DeepSeek Harness（`dsh`）**0.1.0-rc.6**，Web profile（`dsh web`）\n\n### 安装（一行命令）\n\n```sh\ndsh plugin --profile web add dsh-ui-quote-selection\n```\n\n也可以直接从 GitHub 安装：\n\n```sh\ndsh plugin --profile web add git+https://github.com/nekogpt/dsh-ui-quote-selection.git\n```\n\n安装完成后重启 `dsh web`，再在浏览器里硬刷新（Ctrl+Shift+R）。插件通过官方 `dsh.bundle` 自动进",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T04:36:48.924Z",
+  "created_at": "2026-08-14T04:36:48.563Z",
+  "gh": {
+    "full_name": "nekogpt/dsh-ui-quote-selection",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T04:48:05Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:58:00.055Z"
+}

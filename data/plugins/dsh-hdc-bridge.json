@@ -31,17 +31,25 @@
   "engines": {},
   "readme": "# dsh-hdc-bridge\n\n> DSH 原生鸿蒙开发助手：`hdc` 设备闭环调试（看设备 → 截图 → 看图 → 改码 → 装包 → 验证）＋ 官方优先版本化知识层（离线 Tier-1 随包 + SDK 机读 + 官方文档检索）＋ 可选官方 DevEco CLI 构建/签名通道。\n> A DSH-native HarmonyOS dev assistant: the hdc device loop (inspect → screenshot → view → fix → install → verify), an official-first version-classified knowledge layer (offline Tier-1 bundled + SDK-accurate reads + official docs search), and an optional official DevEco CLI build/sign backend.\n\n## 定位\n\n[hdc_mcp](https://github.com/yushun667/hdc_mcp) 等 MCP 服务器已覆盖 hdc 能力层。本插件不重写 hdc 协议，直接复用本机 hdc 二进制（3.x），价值在 DSH 原生层：\n\n- 会话内工具卡片与 `read_image` 原生闭环\n- 按调用会话解析沙箱策略（与 `pwsh` 工具同款路线），截图写入 `<workspace>/.dsh-hdc/screenshots/`\n- 结构化的失败上报（hdc 传输层退出码不可靠，插件用输出标记 + 落盘校验兜底）\n\n## 工具\n\n| 工具 | 说明 |\n| --- | --- |\n| `hdc_list_targets` | 列出已连接设备/模拟器（空列表 + 连接指引） |\n| `hdc_",
   "weekly_downloads": 517,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T16:13:51.663Z",
   "created_at": "2026-08-13T15:46:07.317Z",
-  "gh": null,
+  "gh": {
+    "full_name": "1na-ko/dsh-hdc-bridge",
+    "stars": 10,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T17:07:32Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 68,
-    "maintenance": 0,
+    "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 56,
+    "overall": 64,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.242Z"
+  "updated_at": "2026-08-17T04:56:14.254Z"
 }

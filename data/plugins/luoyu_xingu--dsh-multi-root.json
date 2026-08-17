@@ -34,6 +34,7 @@
   },
   "readme": "# dsh-multi-root\n\nDeepSeek Harness Web GUI 的多根工作区插件：给 DSH 挂载多个**独立文件夹**，在侧边栏面板中统一管理，并让 agent 通过受控的宿主侧工具跨所有已登记根目录做列举 / 读取 / 写入 / glob——相当于 VS Code 多根工作区之于 DSH。\n\n所有根一律平等：没有主工作区之分，根集合对所有会话与 agent 全局共享。\n\n以 cordis profile bundle 形式热插拔安装，不改任何 DSH 源码。\n\n## 能力\n\n- 侧边栏入口 `多根`（`Roots`），在中间列打开管理面板。\n- 挂载任意数量的文件夹（路径输入或宿主目录浏览器；Windows 上浏览从\n  **盘符级**开始——先选 C:、D:… 再逐级进入；Linux/macOS 从家目录开始，\n  可沿「上一级」直达文件系统根 `/`），可选显示别名。\n- 支持重命名、移除、排序；每行显示目录实时状态（可用 / 目录缺失）。\n- 根目录持久化在 `~/.dsh/dsh-multi-root.json`（目录 0700、文件 0600、\n  原子写入）——GUI 与 agent 共享同一份配置。\n- 注册进 DSH 工具链的 agent 工具：\n\n  | 工具 | 用途 |\n  | --- | --- |\n  | `workspace_roots` | 列出全部已挂载根（id、名称、路径、状态）。 |\n  | `workspace_root_list` | 列举某根目录内的一个目录。 |\n  | `workspace_root_read` | 读取某根目录内的文本文件（256 KB 上限，截断会报告）。 |\n  | `workspace_root_write` | 在某根目录内写入（新建或覆盖）文本文件，自动创建父目录。 |\n  ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T11:58:58.164Z",
   "created_at": "2026-08-16T11:15:59.896Z",
   "gh": null,
@@ -46,5 +47,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:56.401Z"
+  "updated_at": "2026-08-17T04:58:38.938Z"
 }

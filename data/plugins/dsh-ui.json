@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-ui",
+  "name": "dsh-ui",
+  "version": "1.0.0",
+  "description": "第一次发布",
+  "keywords": [
+    "deepseek",
+    "deepseek-desktop",
+    "deepseek-harness",
+    "deepseek-harness-plugin",
+    "dsh"
+  ],
+  "license": "ISC",
+  "repo": "https://github.com/xtxo/dsh-ui",
+  "homepage": "https://xtxo.github.io/dsh-ui/",
+  "npm": "https://www.npmjs.com/package/dsh-ui",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "ERROR: No README data found!",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2021-05-21T08:42:21.446Z",
+  "created_at": "2021-05-21T08:42:21.328Z",
+  "gh": {
+    "full_name": "xtxo/dsh-ui",
+    "open_issues": 1,
+    "pushed_at": "2026-08-15T02:23:28Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 30,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 27,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:16.538Z"
+}

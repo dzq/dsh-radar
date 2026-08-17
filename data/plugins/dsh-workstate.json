@@ -27,6 +27,7 @@
   },
   "readme": "# dsh-workstate\n\n**用于在不同 AI Coding Agent 之间交接任务的结构化工作状态协议。**\n\n`dsh-workstate` 是 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的本地优先插件。它保存任务目标、进度、决策、失败、验证结果、变更路径、下一步以及 Git 完整性指纹，而不是导出聊天记录。\n\n## 安装\n\n要求 Node.js 22.19+ 和 DeepSeek Harness `0.1.0-rc.6`。\n\n```bash\ndsh plugin --profile web add dsh-workstate\n```\n\n在 `~/.dsh/profiles/web/cordis.patch.yml` 中保留已有配置并加入：\n\n```yaml\n- insert:\n    - id: workstate\n      name: dsh-workstate\n```\n\n重启 DSH 后即可使用。\n\n## 命令\n\n```text\n/workstate checkpoint [备注]\n/workstate transfer [接收目标]\n/workstate list\n/workstate inspect [id]\n/workstate diff <from> <to>\n/workstate validate [id]\n/workstate resume [id]\n/workstate resume [id] --allow-diverged\n```\n\n## 设计原则\n\n- Packet 只有 `checkpoint` 和 `transfer` 两种；`resume` 是操作。\n- 默认拒绝恢复到已经分叉的工作区；只有用户显式输入 `--allow-diverg",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T09:31:13.393Z",
   "created_at": "2026-08-16T09:31:12.979Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.982Z"
+  "updated_at": "2026-08-17T04:58:34.546Z"
 }

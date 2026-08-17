@@ -30,6 +30,7 @@
   "engines": {},
   "readme": "# openharness-rule-for-dsh-plugin\n\n一个 DeepSeek Harness（dsh）插件：往**系统提示词**注入「DSH 插件开发规范」——四类规则：\n能做什么（CAN）/ 应该做什么（SHOULD）/ 不能做什么（MUST NOT）/ 不应该做什么（SHOULD NOT）。\n并在 dsh **设置页侧边栏**显示「插件开发规范」一项。\n\n- 纯 dsh plugin（bundle），装在 web profile 即可生效；\n- host 半：`ctx.systemPrompt.section({ name, order: 46, text })` 注入规范（真实逻辑）；\n- client 半：注册 `settings.section` 槽，显示侧边栏项（写法与已发布的公开插件 `openharness-reply-in-cn` 完全同构，仅 `id`/`label` 不同）。\n\n> **对使用者**：注入的规范正文是**自包含、环境无关**的——只引用官方公开入口（官方 skill `cordis-plugin-development`、官方文档、postmortem 等），**不依赖作者的本地目录或私有资料**。任何安装此插件的人都能读到同样明确、可执行的规则。正文结尾附了一小段「探索参考线索」，列出已发布到 npm 的开源 dsh 插件，仅供喜欢深挖的实现者可选参考，并非使用本插件的前提，也不增加任何使用流程。\n\n---\n\n## 注入逻辑（host half，`src/host/index.ts`）\n\n```ts\nexport const inject = ['systemPrompt']              // 申报依赖，否则 boot 崩\nexport const name = 'openharness-rule-for",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T06:48:52.407Z",
   "created_at": "2026-08-14T22:48:10.868Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:54.829Z"
+  "updated_at": "2026-08-17T04:58:38.505Z"
 }

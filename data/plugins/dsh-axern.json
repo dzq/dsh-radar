@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-axern",
+  "name": "dsh-axern",
+  "version": "0.0.0",
+  "description": "Open-source sandboxes for AI agents, untrusted code execution, and durable services.",
+  "keywords": [
+    "agent-sandbox",
+    "agentic-infrastructure",
+    "ai-agents",
+    "cloud-native",
+    "code-execution",
+    "deepseek",
+    "deepseek-harness",
+    "kubernetes",
+    "remote-execution",
+    "sandbox"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/cofy-x/axern",
+  "homepage": "https://axern.cofy-x.space",
+  "npm": "https://www.npmjs.com/package/dsh-axern",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "cofy-x/axern",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T00:50:27Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 65,
+    "dsh_compat": 30,
+    "overall": 35,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:07.846Z"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-ramify",
+  "name": "dsh-ramify",
+  "version": "0.0.0",
+  "description": "Ramify 是 DeepSeek Harness 的创意分支画布插件，用树状工作区生成、对比和迭代多个可交互方案。",
+  "keywords": [
+    "deepseek-harness",
+    "ramify"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/yanglongyun/dsh-ramify",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-ramify",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "yanglongyun/dsh-ramify",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T02:37:28Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:28.770Z"
+}

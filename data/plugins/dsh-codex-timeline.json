@@ -41,6 +41,7 @@
   },
   "readme": "# DSH Codex Timeline\n\n[English](README.en.md) | 中文\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/Wine-Red/dsh-codex-timeline/v0.2.0/docs/images/cover.png\" width=\"960\" alt=\"DSH Codex Timeline 封面：对话左侧的轮次轨道、预览和搜索\" />\n</p>\n\n[![CI](https://github.com/Wine-Red/dsh-codex-timeline/actions/workflows/ci.yml/badge.svg)](https://github.com/Wine-Red/dsh-codex-timeline/actions/workflows/ci.yml)\n[![npm](https://img.shields.io/npm/v/dsh-codex-timeline.svg)](https://www.npmjs.com/package/dsh-codex-timeline)\n[![license](https://img.shields.io/github/license/Wine-Red/dsh-codex-timeline.svg)](LICENSE)\n\n为 DeepSeek Harness Web 长会话提供一个贴在 Chat 正文左侧、低干扰的用户 Turn 导航轨道。它只标记用户发起的轮次，能随正文滚动高亮、快速跳转，并在本地搜索已经加载的提问与模型回答。\n\n## 界面预览\n\n轨道默认保持安静：每个已加载的用户 Turn 对应一条短横，只有当前阅读位置高亮。鼠标移入后，附近标记以阶梯状展开，便于准确选择；移出后立即恢复紧凑",
   "weekly_downloads": 562,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T18:14:09.753Z",
   "created_at": "2026-08-15T12:48:47.174Z",
   "gh": null,
@@ -53,5 +54,5 @@
     "overall": 56,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.236Z"
+  "updated_at": "2026-08-17T04:58:28.546Z"
 }

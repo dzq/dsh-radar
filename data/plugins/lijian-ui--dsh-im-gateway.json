@@ -36,6 +36,7 @@
   "engines": {},
   "readme": "# @lijian-ui/dsh-im-gateway — DeepSeek Harness 多 IM 通道网关插件\n\n> 把钉钉、QQ、个人微信（iLink）机器人接入 DeepSeek Harness（dsh）的 agent，支持扫码绑定、流式回复、斜杠命令与设置页可视化配置。\n\n[![npm version](https://img.shields.io/npm/v/@lijian-ui/dsh-im-gateway)](https://www.npmjs.com/package/@lijian-ui/dsh-im-gateway)\n[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)\n\n---\n\n## 一、这是什么\n\n`@lijian-ui/dsh-im-gateway` 是 **DeepSeek Harness（dsh）官方插件体系**下的一个组合包（bundle）：一个统一的核心网关 + 三个渠道适配器，让你在钉钉 / QQ / 微信上跟 harness agent 对话。\n\n- **一个插件，三种渠道**：所有渠道都走同一个 `ctx.imGateway` 核心（会话管理、斜杠命令、流式回复、状态广播）。\n- **扫码绑定，开箱即用**：QQ 和微信不需要去开放平台手动创建机器人——设置页里点「扫码登录」，手机一扫凭据自动填好。\n- **流式回复**：钉钉 AI 卡片实时出字、QQ stream_messages 逐字推送；不支持流式的渠道自动降级为整条文本。\n- **多机器人实例**：同一个渠道类型可以配多个机器人（比如两个钉钉 bot），各自独立凭据。\n- **Web 设置页**：在官方 dsh Web UI 里多出「IM 通道」设置页，扫码、配置、在线",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T01:01:01.073Z",
   "created_at": "2026-08-16T01:01:00.774Z",
   "gh": null,
@@ -48,5 +49,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.624Z"
+  "updated_at": "2026-08-17T04:58:31.893Z"
 }

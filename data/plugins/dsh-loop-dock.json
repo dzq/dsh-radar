@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-loop-dock",
+  "name": "dsh-loop-dock",
+  "version": "0.0.0",
+  "description": "A loop dock for DeepSeek Harness: one harness, multiple agent loops.",
+  "keywords": [
+    "agent-loop",
+    "deepseek-harness",
+    "heterogeneous-agents",
+    "llm",
+    "multi-agent"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/euuuuuuzer/dsh-loop-dock",
+  "homepage": "https://github.com/euuuuuuzer/dsh-loop-dock",
+  "npm": "https://www.npmjs.com/package/dsh-loop-dock",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "euuuuuuzer/dsh-loop-dock",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T13:23:36Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:50.744Z"
+}

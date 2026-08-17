@@ -1,0 +1,70 @@
+{
+  "slug": "dsh-plugin-hub",
+  "name": "dsh-plugin-hub",
+  "version": "0.1.6",
+  "description": "Plugin Hub for DeepSeek Harness (DSH): a graphical app-store inside the Harness Web UI — browse, search, and one-click install GitHub dsh-plugins, with local ratings, dependency impact graphs, audit logging, and a development scaffold",
+  "keywords": [
+    "deepseek-harness",
+    "deepseek",
+    "dsh",
+    "cordis",
+    "plugin-hub",
+    "plugin-store",
+    "plugin-marketplace",
+    "web-ui",
+    "one-click-install",
+    "audit-log"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/yunhuantian/dsh-plugin-hub.git",
+  "homepage": "https://github.com/yunhuantian/dsh-plugin-hub#readme",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-hub",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-api-gateway",
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-settings-general"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "readme": "# dsh-plugin-hub — DeepSeek Harness 插件商店\n\n一个深度集成于 **Harness Web UI** 的图形化插件商店：在原生界面中浏览、搜索、一键安装\nGitHub 上的 DSH 插件（来源限定为标记 `topic: dsh-plugin` 或 `#dsh-plugin` 的仓库），\n并内置本地评分评论、依赖拓扑评估、操作审计日志与插件开发脚手架引导。\n\n## 预览\n\n**商店主界面**：12 类分类筛选、卡片式列表、信任徽章、下载来源标注、一键安装\n![商店主界面](./docs/screenshots/01-discover.jpg)\n\n**健康度排行榜**：Top 20 健康指数每日随镜像同步更新，前三名金/银/铜\n![健康度排行榜](./docs/screenshots/02-health-leaderboard.jpg)\n\n**详情页健康度 + 动态趋势图**：评分构成条 + 金色版本发布线 + 蓝色 npm 每日真实下载量折线\n![详情页健康度与趋势图](./docs/screenshots/03-detail-health-trend.jpg)\n\n**GitHub 讨论区**：只读展示该插件仓库的 issue 讨论，一键跳转参与\n![GitHub 讨论区](./docs/screenshots/04-github-discussions.jpg)\n\n## 功能总览\n\n| 功能 | 说明 |\n| --- | --- |\n| 主界面入口按钮 | 侧边栏底部「插件商店」按钮，与常规功能按钮同尺寸（宽 34px / 窄栏 36px 圆形） |\n| 图形化商店 | 卡片式列表：图标、名称、简介、开发者、评分、下载量；支持按 工具 / Agent / UI / 数据处理 分类筛选，按名称或描述关键词搜索，按评分 / 下载量 / 最近更",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T13:42:57.585Z",
+  "created_at": "2026-08-14T13:34:44.786Z",
+  "gh": {
+    "full_name": "yunhuantian/dsh-plugin-hub",
+    "open_issues": 1,
+    "pushed_at": "2026-08-17T00:51:39Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 65,
+    "dsh_compat": 80,
+    "overall": 49,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:56:27.766Z"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-memory-evolve",
+  "name": "dsh-memory-evolve",
+  "version": "0.0.0",
+  "description": "为 DeepSeek Harness 带来「跨会话长期记忆 + 后台自我进化」能力的纯插件实现：五轨记忆 · git 分支感知 · 回合内自我审查 · 技能自我进化与技能管理器 · 四轨待办 · COI 调度 · 会话广播 · 会话搜索 · 提示词管理器 · 临时信息便签——零核心修改、零运行时依赖，随装随用、卸载即净。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/csyangwen/dsh-memory-evolve",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-memory-evolve",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "csyangwen/dsh-memory-evolve",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T03:43:52Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:53.787Z"
+}

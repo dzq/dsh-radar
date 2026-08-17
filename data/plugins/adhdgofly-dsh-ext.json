@@ -15,8 +15,8 @@
     "markdown"
   ],
   "license": "MIT",
-  "repo": "",
-  "homepage": "",
+  "repo": "https://github.com/zuoguyoupan2023/adhdgofly-dsh-ext",
+  "homepage": "https://www.npmjs.com/package/adhdgofly-dsh-ext",
   "npm": "https://www.npmjs.com/package/adhdgofly-dsh-ext",
   "dsh_compat": true,
   "dsh_meta": {
@@ -33,17 +33,30 @@
   "engines": {},
   "readme": "# adhdgofly-dsh-ext\n\n把 [adhdgofly-ide-ext](https://github.com/zuoguyoupan2023/adhdgofly-ide-ext) 的词性高亮机制搬进 **DeepSeek Harness（DSH）Web 界面**：在已渲染的 Markdown 内容区（对话消息、Deliverables 等）把**名词染绿、动词染红、形容词/副词染紫、其他染灰**，支持深/浅双色板、词性筛选即时开关、流式输出防抖与代码块豁免。\n\n本插件是**纯客户端 DOM 后处理**插件（`dsh.client` 双面包），不改 DSH 源码；分词引擎与压缩词典来自 ADHDGoFly 生态（MIT），经 `dsh plugin add` 一条命令安装。\n\n---\n\n## 功能\n\n- **词性高亮**：英文（含后缀词形还原）+ 中文（正向最大匹配），名词绿 / 动词红 / 形副紫 / 其他灰。\n- **深/浅色板**：跟随 DSH 主题（`theme` 服务），颜色与 adhdgofly-ide-ext 一致。\n- **词性筛选**：即时生效——文字保留、颜色移除（CSS 覆盖，无需重新分词）。\n- **高亮样式**：`color`（文字变色，默认）/ `highlight`（背景框 + 边框）。\n- **流式兼容**：`[data-streaming]` 消息流完前跳过，settle 后自动高亮；MutationObserver + 防抖 + 重入锁。\n- **代码块豁免**：`pre/code`、`.markdown-code-block`、按钮/输入框/装饰区不参与高亮。\n- **属性契约（v0.1.2）**：任何带 `data-adhdgofly-highlight` 属性的元素**自动被高亮**（无需写入 `containers` ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T22:50:33.061Z",
   "created_at": "2026-08-14T04:46:13.469Z",
-  "gh": null,
+  "gh": {
+    "full_name": "zuoguyoupan2023/adhdgofly-dsh-ext",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T23:11:11Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
-    "quality": 75,
+    "maintenance": 39,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 39,
-    "grade": "D"
+    "overall": 48,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.601Z"
+  "updated_at": "2026-08-17T04:57:51.860Z"
 }

@@ -1,0 +1,55 @@
+{
+  "slug": "dsh-tool-writing",
+  "name": "dsh-tool-writing",
+  "version": "0.6.2",
+  "description": "Writing engine plugin for the DeepSeek Harness: long-form web-novel orchestration with a separate DeepSeek key for parallel fan-out generation, lore management, semantic vector retrieval, and corpus library.",
+  "keywords": [
+    "deepseek-harness",
+    "novel",
+    "writing",
+    "web-novel",
+    "embedding",
+    "semantic-search"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/x2802490130-prog/dsh-tool-writing.git",
+  "homepage": "https://github.com/x2802490130-prog/dsh-tool-writing#readme",
+  "npm": "https://www.npmjs.com/package/dsh-tool-writing",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "readme": "# dsh-tool-writing\n\n[![npm version](https://img.shields.io/npm/v/dsh-tool-writing)](https://www.npmjs.com/package/dsh-tool-writing)  [![license](https://img.shields.io/npm/l/dsh-tool-writing)](https://github.com/x2802490130-prog/dsh-tool-writing/blob/main/LICENSE)\n\n面向 DeepSeek Harness 的「写文引擎」插件：让 harness 具备长篇网络小说的创作能力，并用一把**独立的 DeepSeek key** 承担「子线程 / 分流 / 多线并行」的生成与检索任务。\n\n## 设计定位\n\n- **主 Agent（harness 自身模型）**：总调度，负责主线叙事、结构、设定、以及「新奇的、出其不意的想法」的决策。\n- **本插件（独立 key）**：把重活分流出去——并发生成多章草稿、批量出点子、批量扩写细纲，以及资料检索与一致性筛查。\n- **饲料区（书库）**：导入并管理多本小说，建立全文索引，供考据、风格参考与设定借鉴。\n\n## 工具集\n\n### 创作核心\n| 工具 | 作用 |\n|---|---|\n| \\`novel_init\\` | 初始化小说项目（元信息 + 目录骨架） |\n| \\`novel_outline\\` | 生成/展开主线、分卷、章节细纲（可并行） |\n| \\`novel_lore\\` | 人物/世界观/时间线/伏笔的增删改查 |\n| \\`novel_brainstorm\\` | 并发生成 N 个新奇点子 |\n| \\`novel_draft\\` | 起草一章正文（综合设定+大纲+前",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T17:21:15.577Z",
+  "created_at": "2026-08-15T02:58:35.388Z",
+  "gh": {
+    "full_name": "x2802490130-prog/dsh-tool-writing",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T17:20:03Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 40,
+    "dsh_compat": 75,
+    "overall": 44,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:12.773Z"
+}

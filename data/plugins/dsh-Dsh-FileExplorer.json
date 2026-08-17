@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-Dsh-FileExplorer",
+  "name": "dsh-Dsh-FileExplorer",
+  "version": "0.0.0",
+  "description": "给 DeepSeek Harness (DSH) Web 界面加一个 VS Code 风格的工作区文件浏览器：右侧文件树 + 可编辑标签页 + Markdown 阅读/编辑/分屏 + 悬浮大纲 + Quick Open 搜索。",
+  "keywords": [
+    "file",
+    "file-explorer"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/bearllfleed/Dsh-FileExplorer",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-Dsh-FileExplorer",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "bearllfleed/Dsh-FileExplorer",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T06:23:32Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:36.096Z"
+}

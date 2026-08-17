@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-context-vista",
+  "name": "dsh-context-vista",
+  "version": "0.0.0",
+  "description": "为 DeepSeek Harness 提供右侧悬浮栏以及 /context 命令，用环形图实时展示当前上下文 token 用量与分配，compact指令效果，同时支持估算费用消耗，对标 Claude Code 的 /context。",
+  "keywords": [
+    "deepseekharness",
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/GooodWei/context-vista",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-context-vista",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "GooodWei/context-vista",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T17:49:12Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:36.096Z"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-deepseek-harness-GUI",
+  "name": "dsh-deepseek-harness-GUI",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness 超级轻量桌面版 APP，基于 Tauri 封装，支持升级 DSH 内核、提供免安装便携版",
+  "keywords": [
+    "ai-agent",
+    "deepseek",
+    "deepseek-desktop",
+    "deepseek-harness",
+    "dsh",
+    "launcher"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/festoney8/deepseek-harness-GUI",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-deepseek-harness-GUI",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "festoney8/deepseek-harness-GUI",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T07:30:32Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:31.796Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-mobius",
+  "name": "dsh-mobius",
+  "version": "0.0.0",
+  "description": "The first self-evolving open-source Agent OS, connecting your team, AI agents, devices, and compute",
+  "keywords": [
+    "dsh-plugins"
+  ],
+  "license": "NOASSERTION",
+  "repo": "https://github.com/nutshellai-tech/mobius",
+  "homepage": "https://nutshellai-tech.github.io/mobius/",
+  "npm": "https://www.npmjs.com/package/dsh-mobius",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "nutshellai-tech/mobius",
+    "open_issues": 3,
+    "pushed_at": "2026-08-16T16:09:48Z",
+    "archived": false,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:47.006Z"
+}

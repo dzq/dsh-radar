@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-inspect",
+  "name": "dsh-inspect",
+  "version": "0.0.0",
+  "description": "发现问题(checkup) → 修复交付(fix) → 质量复查(review) 的对抗式闭环插件：基于官方 workflow 引擎的检查/修复/复查工具集",
+  "keywords": [],
+  "license": "MIT",
+  "repo": "https://github.com/omdsh-dev/dsh-inspect",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-inspect",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "omdsh-dev/dsh-inspect",
+    "open_issues": 3,
+    "pushed_at": "2026-08-17T04:48:17Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:27.269Z"
+}

@@ -24,6 +24,7 @@
   "engines": {},
   "readme": "# @dsh-pi/tools\n\npi-compatible tool surface for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh-pi), aligning the model-visible tool layer with pi's:\n\n1. **`edit` tool** — pi's exact interface: `path` + `edits[]` with `oldText`/`newText`. Every `oldText` must match a **unique, non-overlapping** region of the **original** file; edits are validated like pi and applied in one call. (pi's description is used verbatim.)\n2. **Description alignment** — via the `system-prompt/assemble` waterfall, the model-visible descriptions of `read` / `write` / `bash` are rewritten to pi's wording. `bash` keeps a one-line sandbox-escalation note so dsh's denial policy is not lost.\n\n## Install into a profile\n\n```sh\ndsh plugin --profile web add @dsh-pi/tools        # published, or:\ndsh p",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T06:12:41.873Z",
   "created_at": "2026-08-14T06:12:41.626Z",
   "gh": null,
@@ -36,5 +37,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.681Z"
+  "updated_at": "2026-08-17T04:58:35.074Z"
 }

@@ -1,0 +1,57 @@
+{
+  "slug": "dsh-skin-switcher",
+  "name": "dsh-skin-switcher",
+  "version": "0.2.1",
+  "description": "DSH Web GUI 皮肤切换器：在设置界面列出已安装的皮肤并提供一键切换按钮。切换通过 ~/.dsh/cordis.patch.yml managed section 实现，DSH 配置监视器热重载，无需重启服务器。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "skin",
+    "theme",
+    "plugin",
+    "webui"
+  ],
+  "license": "BSD-3-Clause",
+  "repo": "git+https://github.com/zhtx2024/dsh-skin-switcher.git",
+  "homepage": "https://github.com/zhtx2024/dsh-skin-switcher#readme",
+  "npm": "https://www.npmjs.com/package/dsh-skin-switcher",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-skin-switcher\n\nDeepSeek Harness Web GUI 的皮肤切换插件：在设置界面新增「皮肤」页，列出所有已安装的皮肤并提供一键切换按钮，支持一键恢复官方默认外观。\n\n## 特性\n\n- **设置界面内切换**：官方设置面板新增「皮肤」页（`settings.section`），已安装皮肤自动列出，无需改代码\n- **统一管理所有皮肤**：自动发现 profile 中所有 `dsh-client-ui-skin-*` 皮肤包（支持任意 npm scope，如 `@dsh-external/dsh-client-ui-skin-maid-atelier`），以及 dsh-web-ui 的 `dsh-skins` 聚合载体（qq98 / ths / xp / minecraft / blue-fantasy / whale-song / trading / dragon-heir / miku 等）\n- **热切换，无需重启**：切换写入 `~/.dsh/cordis.patch.yml` 的 managed section（原子重写），DSH 配置监视器数秒内热重载，页面自动刷新生效\n- **一键恢复默认**：「恢复默认」回到官方原版外观\n- **单一管理权威**：自动禁用 dsh-web-ui 自带的皮肤中心（`ui-skin-center`），避免两个管理器写入冲突的配置\n\n## 安装\n\n### 从 npm 安装（推荐）\n\n```sh\ndsh plugin --profile web add dsh-skin-switcher\n```\n\n### 从 GitHub 仓库安装（改代码调试）\n\n```sh\n# 1. 克隆本仓库\ngit clone https://github.com/zhtx2024/dsh-skin-switcher.git",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T07:17:32.579Z",
+  "created_at": "2026-08-14T05:20:23.637Z",
+  "gh": {
+    "full_name": "zhtx2024/dsh-skin-switcher",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T02:50:27Z",
+    "archived": false,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:58:07.548Z"
+}

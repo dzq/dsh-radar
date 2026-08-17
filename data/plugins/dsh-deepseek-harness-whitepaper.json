@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-deepseek-harness-whitepaper",
+  "name": "dsh-deepseek-harness-whitepaper",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness 白皮书 · 131 页入门加进阶综合教程：从装上它、看懂它，到自己扩展它。面向想深入研究 agent harness 的开发者，所有结论回源码核对。",
+  "keywords": [
+    "agent-harness",
+    "ai-agents",
+    "chinese",
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "llm",
+    "whitepaper"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/feicaiclub/deepseek-harness-whitepaper",
+  "homepage": "https://feicaiclub.github.io/deepseek-harness-whitepaper/",
+  "npm": "https://www.npmjs.com/package/dsh-deepseek-harness-whitepaper",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "feicaiclub/deepseek-harness-whitepaper",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T01:23:57Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:17.768Z"
+}

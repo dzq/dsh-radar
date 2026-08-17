@@ -24,6 +24,7 @@
   "engines": {},
   "readme": "# dsh-cron · Cron 解析\r\n\r\n解析 5 字段 cron 表达式，返回人类可读描述与接下来 N 次执行时间。纯 Node 实现。\r\n\r\n## 提供的工具\r\n\r\n| 工具 | 作用 |\r\n|---|---|\r\n| `cron_parse` | 解析 cron 表达式 → 描述 + 下次执行时间 |\r\n\r\n## 安装\r\n\r\n```bash\r\ndsh plugin add dsh-cron\r\n```\r\n安装后在 profile 的 `package.json` 的 `dsh.profile.bundles` 中加入 `\"dsh-cron\"`。\r\n\r\n## 用法示例\r\n\r\n```\r\n这个 cron 表达式什么时候跑\r\n→ 调用 cron_parse(expr=\"*/5 * * * *\", count=5)\r\n```\r\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:16:52.465Z",
   "created_at": "2026-08-17T03:16:52.213Z",
   "gh": null,
@@ -36,5 +37,5 @@
     "overall": 32,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.383Z"
+  "updated_at": "2026-08-17T04:58:34.986Z"
 }

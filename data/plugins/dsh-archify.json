@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-archify",
+  "name": "dsh-archify",
+  "version": "0.0.0",
+  "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+  "keywords": [
+    "agent-skills",
+    "anthropic",
+    "architecture-diagram",
+    "claude-skill",
+    "codex",
+    "dark-mode",
+    "data-flow-diagram",
+    "deepseek-harness",
+    "developer-tools",
+    "diagram-as-code"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/tt-a1i/archify",
+  "homepage": "https://tt-a1i.github.io/archify/",
+  "npm": "https://www.npmjs.com/package/dsh-archify",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "tt-a1i/archify",
+    "stars": 13501,
+    "open_issues": 24,
+    "pushed_at": "2026-08-14T16:30:40Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 30,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:53:17.003Z"
+}

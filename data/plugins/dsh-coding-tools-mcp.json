@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-coding-tools-mcp",
+  "name": "dsh-coding-tools-mcp",
+  "version": "0.0.0",
+  "description": "Give any AI agent the ability to code",
+  "keywords": [
+    "mcp",
+    "mcp-server"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/xyTom/coding-tools-mcp",
+  "homepage": "https://coding-1afcb9be.mintlify.app",
+  "npm": "https://www.npmjs.com/package/dsh-coding-tools-mcp",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "xyTom/coding-tools-mcp",
+    "open_issues": 34,
+    "pushed_at": "2026-08-15T20:23:00Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:39.201Z"
+}

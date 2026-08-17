@@ -20,6 +20,7 @@
   },
   "readme": "# DSH Postmortem\n\nLocal-first, read-only failure postmortems for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).\n\n`dsh-postmortem` turns the existing DSH session event log into a short, redacted incident report. It does not alter the agent loop, retry a tool, inject a prompt, or upload a transcript. Optional model review is deliberately a second layer: deterministic findings are the authority, and invalid or unavailable model output is discarded.\n\n## Install\n\n```sh\nnpm install @huichangzz/dsh-postmortem\n```\n\nAdd this to the DSH profile's `cordis.patch.yml`:\n\n```yaml\n- id: postmortem\n  name: '@huichangzz/dsh-postmortem'\n  config:\n    autoOnFailure: true\n    model:\n      enabled: false\n      provider: your-provider\n      model: your-model\n      timeoutMs: 10000\n```\n\nThe ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-13T14:32:02.405Z",
   "created_at": "2026-08-13T14:04:30.882Z",
   "gh": null,
@@ -32,5 +33,5 @@
     "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.440Z"
+  "updated_at": "2026-08-17T04:58:32.518Z"
 }

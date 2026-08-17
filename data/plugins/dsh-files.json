@@ -1,0 +1,36 @@
+{
+  "slug": "dsh-files",
+  "name": "dsh-files",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness dual-face plugin: session-isolated file upload with colorful composer cards + read_document tool (text/PDF/DOCX/XLSX) with content sniffing and LRU caching",
+  "keywords": [],
+  "license": "",
+  "repo": "https://github.com/taxueseek/dsh-files",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-files",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "taxueseek/dsh-files",
+    "open_issues": 3,
+    "pushed_at": "2026-08-16T14:55:45Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 25,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 27,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:37.851Z"
+}

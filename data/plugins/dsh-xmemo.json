@@ -29,6 +29,7 @@
   },
   "readme": "<div align=\"center\">\n  <a href=\"https://xmemo.dev\">\n    <img src=\"https://cdn.jsdelivr.net/gh/yonro/xmemo-claude-plugin@main/assets/icon.png\" alt=\"XMemo\" width=\"112\" />\n  </a>\n\n  <h1>XMemo for DeepSeek Harness</h1>\n\n  <p><strong>Native local-first + cloud memory for <code>dsh</code>.</strong></p>\n  <p>\n    Hybrid local storage with an offline durable write queue, plus real OAuth 2.1\n    login — reimplemented as an ordinary Cordis plugin instead of a thin MCP bridge.\n  </p>\n\n  <p>\n    <a href=\"LICENSE\"><img alt=\"License\" src=\"https://img.shields.io/github/license/yonro/xmemo-deepseek-plugin?style=flat-square\" /></a>\n    <img alt=\"Plugin version\" src=\"https://img.shields.io/badge/plugin-v0.1.0-8B5CF6?style=flat-square\" />\n    <a href=\"https://github.com/yonro/xmemo-deepseek-plugin/stargazers",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:09:38.447Z",
   "created_at": "2026-08-15T15:09:38.161Z",
   "gh": null,
@@ -41,5 +42,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.963Z"
+  "updated_at": "2026-08-17T04:58:34.023Z"
 }

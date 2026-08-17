@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-vision-toolkit",
+  "name": "dsh-vision-toolkit",
+  "version": "0.0.0",
+  "description": "让纯文本模型更好地做视觉任务的DeepSeek Harness插件：带意图的图片问答、长截图 OCR、UI 还原等｜DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, long-screenshot OCR, UI restoration, grounding, pixel diff, Artifacts, and Web UI.",
+  "keywords": [
+    "agent-skills",
+    "agent-vision-toolkit",
+    "computer-vision",
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "gui-automation",
+    "ocr",
+    "plugin",
+    "python"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Anionex/dsh-vision-toolkit",
+  "homepage": "agent-vision.anionex.me",
+  "npm": "https://www.npmjs.com/package/dsh-vision-toolkit",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Anionex/dsh-vision-toolkit",
+    "open_issues": 7,
+    "pushed_at": "2026-08-17T03:26:51Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:41.139Z"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-oh-dsh",
+  "name": "dsh-oh-dsh",
+  "version": "0.0.0",
+  "description": " 一套 DSH runtime，Desktop、Web 与 TUI 三种开发体验。",
+  "keywords": [
+    "ai-agent",
+    "cordis",
+    "dsh",
+    "dsh-plugins"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/hust-open-atom-club/oh-dsh",
+  "homepage": "https://dsh.openatom.club/",
+  "npm": "https://www.npmjs.com/package/dsh-oh-dsh",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "hust-open-atom-club/oh-dsh",
+    "open_issues": 26,
+    "pushed_at": "2026-08-16T14:59:56Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:48.813Z"
+}

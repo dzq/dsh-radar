@@ -22,6 +22,7 @@
   "engines": {},
   "readme": "# @wishp3/dsh-friend-reactions\n\n工作陪伴：订阅非伴侣会话的 `session/event` 元数据，节流后映射为舞台指令。三档台词（仅动作 / 气泡 / 语音）。\n\nHost 半区挂 `GET /friend/reactions`。不注册伴侣会话工具，也不读取用户文本或文件内容。\n\n## 验证\n\n- 单测：`export CI=true && pnpm exec vitest run packages/dsh-friend-reactions/test`\n- 手册：编码会话连续完成 3 个 turn，只庆祝 1 次；免打扰时段内零反应；伴侣会话不自反。\n- 舞台 Live2D 真正动起来需要把 stage 的 `push` 注入 `apply({ push })`，或在已加载 pet 的页面里跑本包 client 半区。CI 不断言真实舞台。\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T05:39:26.007Z",
   "created_at": "2026-08-14T16:01:22.228Z",
   "gh": null,
@@ -34,5 +35,5 @@
     "overall": 27,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:54.823Z"
+  "updated_at": "2026-08-17T04:58:38.419Z"
 }

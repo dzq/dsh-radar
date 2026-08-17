@@ -30,6 +30,7 @@
   "engines": {},
   "readme": "# dsh-peak-status\n\n[English](README.md) | 中文\n\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web GUI 的高峰时段指示灯。在会话头部右上角（原生 `conversation.session.header.utilities` 工具位）显示一个融入界面的小胶囊，实时告诉你当前**北京时间**是否处于 DeepSeek API 的**高峰时段**，带秒级时钟、下一转折倒计时和价格提示。\n\n![peak indicator 预览](assets/peak-indicator.png)\n\n## 功能\n\nDeepSeek 官方峰谷定价于 **2026-08-17** 生效：\n\n| 状态 | 北京时间（每日） | 价格 |\n| :-- | :-- | :-- |\n| 🔴 **高峰** | 09:00–12:00 和 14:00–18:00 | 高峰价（= 空闲 ×2） |\n| 🟢 **空闲** | 其余时间 | 高峰的一半 |\n\n胶囊显示内容：\n\n- 状态圆点——**红 = 高峰，绿 = 空闲**\n- 实时北京时钟（`HH:MM:SS`，时区 `Asia/Shanghai`，与本机时区无关）\n- 倒计时：`剩 3h 54m · 价格 ×2`（高峰）/ `距高峰 3h 54m · 半价`（空闲）\n- 点击展开下拉详情：高峰窗口、下一转折（含 `HH:MM:SS` 倒计时）、当前阶段进度条、价格说明\n\n全部使用 Web UI 原生 `--dsw-alias-*` 主题变量，与界面完全融合，没有悬浮贴片。\n\n## 安装\n\n插件是经 profile 补丁层挂载的真实包，**重启 dsh web 不会消失**。\n\n### dsh CLI 安装（发布到 n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T02:57:19.795Z",
   "created_at": "2026-08-17T02:49:43.063Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:54.036Z"
+  "updated_at": "2026-08-17T04:58:38.248Z"
 }

@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-track",
+  "name": "dsh-track",
+  "version": "0.0.0",
+  "description": "DSH Track Bridge 插件：嵌入式任务管理引擎——决策点协议、念头捕获墙、Linear 形 issue 存储（bundle），AI 与人之间的任务轨道",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-bundle",
+    "plugin",
+    "task-management",
+    "track"
+  ],
+  "license": "BSD-3-Clause",
+  "repo": "https://github.com/fakechris/dsh-track",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-track",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "fakechris/dsh-track",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T13:12:22Z",
+    "archived": false,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:05.797Z"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "dsh-plugin-dev",
+  "name": "dsh-plugin-dev",
+  "version": "0.0.0",
+  "description": "DSH 插件开发踩坑与做法档案（skill + 文档）：cordis 双副本、tsconfig 三件套、Windows junction、多帧 zstd 等实测记录",
+  "keywords": [
+    "best-practices",
+    "documentation",
+    "dsh",
+    "skill"
+  ],
+  "license": "",
+  "repo": "https://github.com/omdsh-dev/dsh-plugin-dev",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-dev",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "omdsh-dev/dsh-plugin-dev",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T03:11:23Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:56.815Z"
+}

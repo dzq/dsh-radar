@@ -26,6 +26,7 @@
   },
   "readme": "# dsh-desktop-windows-launcher\n\nA [dsh](https://github.com/deepseek-ai/dsh) plugin that launches the\n**[dsh-desktop](https://github.com/ReachGa0/dsh-desktop)** Windows shell from\nthe conversation, via a `desktop_launch` tool.\n\ndsh-desktop is a standalone Electron desktop app around the DSH web UI —\ndouble-click to run, region screenshot with GPU-accelerated selection that\nauto-pastes into the chat, system tray, session manager, auto environment\nsetup. This plugin finds the installed exe and starts it; when the app is not\ninstalled it returns the latest GitHub Release download link.\n\n## Install\n\n```sh\ndsh plugin add dsh-desktop-windows-launcher\n```\n\nor from the repo subdirectory:\n\n```sh\ndsh plugin add github:ReachGa0/dsh-desktop#path:/plugin\n```\n\n## Usage\n\nAsk the model to \"open the desktop",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T09:55:28.569Z",
   "created_at": "2026-08-16T09:55:28.302Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.982Z"
+  "updated_at": "2026-08-17T04:58:34.634Z"
 }

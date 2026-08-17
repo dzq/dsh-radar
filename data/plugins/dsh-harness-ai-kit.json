@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-harness-ai-kit",
+  "name": "dsh-harness-ai-kit",
+  "version": "0.0.0",
+  "description": "Package manager for AI agent assets — 42 skills, 5 CLIs, 1 plugin. Skills for AI/LLM agent engineering, eval-driven dev, spec-driven dev, database (MySQL/PG/Redis/Kafka/Mongo/Oracle/NL2SQL), K8s/Docker diagnostics, infra ops (Dify/Nexus/Harbor/SonarQube) & docs/patent. Runtimes: ",
+  "keywords": [
+    "agent-framework",
+    "agent-skills",
+    "ai-agents",
+    "claude-code",
+    "claude-skills",
+    "codex",
+    "cursor",
+    "database",
+    "dify",
+    "docker"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/seed-forge/harness-ai-kit",
+  "homepage": "https://pypi.org/project/harness-ai-kit/",
+  "npm": "https://www.npmjs.com/package/dsh-harness-ai-kit",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "seed-forge/harness-ai-kit",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T19:20:14Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 40,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:53.232Z"
+}

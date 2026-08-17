@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-wesight",
+  "name": "dsh-wesight",
+  "version": "0.0.0",
+  "description": "Open-source desktop AI agent workspace with one-click Claude Code, Codex, OpenClaw, Hermes Agent setup and custom LLM model routing.",
+  "keywords": [
+    "agent-skills",
+    "agent-workspace",
+    "ai-agent",
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "deepseek-harness",
+    "desktop-app",
+    "dsh",
+    "electron"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/freestylefly/wesight",
+  "homepage": "https://wesight.ai",
+  "npm": "https://www.npmjs.com/package/dsh-wesight",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "freestylefly/wesight",
+    "open_issues": 20,
+    "pushed_at": "2026-08-06T08:32:46Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 36,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:39.212Z"
+}

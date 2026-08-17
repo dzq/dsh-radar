@@ -30,6 +30,7 @@
   },
   "readme": "<div align=\"center\">\n\n# 📊 dsh-observe\n\n**DeepSeek Harness 的 OpenTelemetry 与 Langfuse 可观测性导出器。**\n\n*把会话事件变成 OTLP 追踪与 Langfuse 观测 —— 脱敏、缓冲、默认关闭。*\n\n[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)\n[![DSH plugin](https://img.shields.io/badge/dsh-plugin-✅-green)](https://github.com/topics/dsh-plugin)\n[![Node](https://img.shields.io/badge/node-%5E22.19%20%7C%7C%20%3E%3D24-brightgreen.svg)](#)\n[![CI](https://img.shields.io/github/actions/workflow/status/PerryLink/dsh-observe/ci.yml?branch=main&label=CI)](https://github.com/PerryLink/dsh-observe/actions)\n[![Version](https://img.shields.io/github/v/tag/PerryLink/dsh-observe?label=version)](https://github.com/PerryLink/dsh-observe/releases)\n[![npm version](https://img.shields.io/npm/v/dsh-observe)](https://www.npmjs.",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T17:17:55.474Z",
   "created_at": "2026-08-16T17:17:55.208Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.341Z"
+  "updated_at": "2026-08-17T04:58:30.675Z"
 }

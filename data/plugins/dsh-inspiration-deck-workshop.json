@@ -27,6 +27,7 @@
   },
   "readme": "# dsh-inspiration-deck-workshop\n\n「灵感演示工坊 / Inspiration Deck Workshop」的 **DeepSeek Harness (DSH) 插件化分发包**。\n\n安装后自动向 DSH 技能系统注册 `inspiration-deck-workshop` 技能：本地静态 HTML 演示文稿工作台——6 套 deck 模板、25+ 布局、主题/动效展示馆，带 `validate` 校验与 PNG/PDF 导出 CLI（纯 Node 内置模块，零 npm 依赖）。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-inspiration-deck-workshop\n```\n\n重启 DSH Web（`dsh --profile web`）后，技能出现在技能目录中，任意会话可直接让 agent 按技能工作流生成 HTML 演示文稿。\n\n> 需要 PNG/PDF 导出时，本机需有 Chrome/Chromium（DSH 的 Playwright 缓存即可）。\n\n## 用法（agent 侧）\n\n加载技能后按 SKILL.md 工作流：\n\n```sh\nnode \"<技能资源目录>/tools/cli.mjs\" list decks\nnode \"<技能资源目录>/tools/cli.mjs\" new <deck-name> --template <deck-id> --theme <theme-id>\nnode \"<技能资源目录>/tools/cli.mjs\" validate <deck-path> --write-manifest\nnode \"<技能资源目录>/tools/cli.mjs\" export <deck-path> --format pdf --out <out.pdf>\n```\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T02:32:35.341Z",
   "created_at": "2026-08-16T02:14:36.290Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.318Z"
+  "updated_at": "2026-08-17T04:58:29.797Z"
 }

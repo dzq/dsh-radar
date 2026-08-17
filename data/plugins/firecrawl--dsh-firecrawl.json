@@ -26,6 +26,7 @@
   },
   "readme": "# Firecrawl for DeepSeek Harness\n\nThis plugin points DeepSeek Harness's built-in `web_search` **and** `web_fetch`\ntools at [Firecrawl](https://firecrawl.dev). It adds no new tools — the model\nkeeps asking for a query or a URL exactly as before, and Firecrawl answers.\n\nIt supports `@deepseek-ai/dsh@0.1.0-rc.6` on Node.js `^22.19.0 || >=24.0.0`.\nDeepSeek Harness is still a developer preview, so later versions may need a\nplugin update.\n\n## Why fetch, and not just search\n\nThe base Harness bundle ships `web_fetch` **disabled** and mounts no fetch\nprovider. The reason is in its own config comments: the only fetch backend is a\nlocal HTTP client that \"defers SSRF protection and the model would choose the\nrequest target.\" Turning it on points a model-chosen URL at whatever your\nmachine can reach, i",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:21:19.806Z",
   "created_at": "2026-08-17T03:21:19.391Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:48.332Z"
+  "updated_at": "2026-08-17T04:58:37.089Z"
 }

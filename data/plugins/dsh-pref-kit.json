@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-pref-kit",
+  "name": "dsh-pref-kit",
+  "version": "0.0.0",
+  "description": "缓解部分dsh性能问题的插件",
+  "keywords": [
+    "dsh",
+    "dsh-plugins"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/gameswu/dsh-pref-kit",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-pref-kit",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "gameswu/dsh-pref-kit",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T12:39:09Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 20,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 26,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:52.911Z"
+}

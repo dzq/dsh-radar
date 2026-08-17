@@ -1,0 +1,54 @@
+{
+  "slug": "dsh-message-edit",
+  "name": "dsh-message-edit",
+  "version": "0.2.3",
+  "description": "Branch-based editing, rerolling, retrying, and version navigation for DeepSeek Harness conversations",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "message-edit",
+    "reroll"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Moeblack/dsh-message-edit.git",
+  "homepage": "https://github.com/Moeblack/dsh-message-edit#readme",
+  "npm": "https://www.npmjs.com/package/dsh-message-edit",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {},
+  "readme": "# DSH Message Edit\n\n[![npm version](https://img.shields.io/npm/v/dsh-message-edit)](https://www.npmjs.com/package/dsh-message-edit)\n[![npm downloads](https://img.shields.io/npm/dm/dsh-message-edit)](https://www.npmjs.com/package/dsh-message-edit)\n[![license](https://img.shields.io/npm/l/dsh-message-edit)](LICENSE)\n\n`dsh-message-edit`（[npm](https://www.npmjs.com/package/dsh-message-edit) · [GitHub](https://github.com/Moeblack/dsh-message-edit)）为 DeepSeek Harness 补充基于事件溯源的「消息编辑与重生成」能力。插件不改写历史事件，也不修改 DSH 引擎内部；每次编辑、重生成或重试都会从目标回合之前创建一个新会话版本，原会话始终保留并可随时切回。\n\n```bash\ndsh plugin --profile web add dsh-message-edit\n```\n\n## 功能\n\n- **编辑消息**：可编辑已落定的用户文本、`assistant.reasoning` 思考块与 `assistant.response` 回复文本。\n- **重生成**：从最后一条已落定助手回复所属回合之前分支，使用原用户输入重新生成。\n- **重试任意回合**：在 Timeline 中选择任意历史回合重新执行。\n- **级联策略**：\n  - ",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T11:33:23.096Z",
+  "created_at": "2026-08-14T06:10:34.972Z",
+  "gh": {
+    "full_name": "Moeblack/dsh-message-edit",
+    "open_issues": 10,
+    "pushed_at": "2026-08-16T11:33:37Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:55:21.905Z"
+}

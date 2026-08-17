@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-IDE",
+  "name": "dsh-IDE",
+  "version": "0.0.0",
+  "description": "dsh-IDE 把 DeepSeek Harness（DSH）网页版升级成一站式 IDE：JupyterLab 式文件树、带语法高亮的代码编辑、多格式预览、Trae 风格红绿 diff 和内置终端，再加上「本地大脑、远程手脚」的 SSH 远程工作区，让 AI 直接在本机操控远程服务器，全程零配置文件改动。",
+  "keywords": [
+    "dsh"
+  ],
+  "license": "BSD-3-Clause",
+  "repo": "https://github.com/chenw2759-wq/dsh-IDE",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-IDE",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "chenw2759-wq/dsh-IDE",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T09:56:38Z",
+    "archived": false,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:42.138Z"
+}

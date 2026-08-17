@@ -30,6 +30,7 @@
   },
   "readme": "# gh-tea-npm-dsh\n\nDeepSeek Harness (dsh) 插件：用 `gh`（GitHub）、`tea`（Gitea）、`npm` 管理 issue、仓库与 npm 包，带**引导式配置**。\n\n[`dsh-plugin`](https://github.com/topics/dsh-plugin) · GitHub · Gitea · npm · gh · tea · issues\n\n> **GitHub (`gh`) + Gitea (`tea`) + npm CLIs for DeepSeek Harness (dsh)** — guided auth/config and issue & package tools.\n\n## 功能\n\n- **gh / tea**：检测安装、一键安装、引导式 token 配置（环境变量 / 浏览器 OAuth 设备流 / 手动）、issue 操作\n- **npm**：检测登录状态、引导式登录（浏览器 OAuth 设备流 / Automation token）、发布包、**90 天 token 轮换提醒**\n- 配套技能 `gh-tea-npm`\n\n## 工具\n\n| 工具 | 说明 |\n| --- | --- |\n| `gitclis_status` | 检测 gh/tea、版本、鉴权、环境 token（打码） |\n| `gitclis_configure` | gh/tea 引导式配置：`auto`/`env`/`web`/`manual`/`poll` |\n| `gitclis_install` | 一键安装 gh/tea |\n| `gitclis_set_token` | 写入 token 到 gh/tea 配置（不回显） |\n| `gitclis_token_env` | 读取/导入环境变量 token ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T01:51:53.623Z",
   "created_at": "2026-08-15T01:51:53.239Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:48.673Z"
+  "updated_at": "2026-08-17T04:58:37.179Z"
 }

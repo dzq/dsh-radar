@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-cost-meter",
+  "name": "dsh-cost-meter",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness 会话费用统计与opencode go额度显示，类codex token热力图插件:本会话费用、当日费用、预算费用显示、历史记录与官方价格同步",
+  "keywords": [
+    "cost-tracking",
+    "deepseek",
+    "deepseek-api",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugins",
+    "harness",
+    "llm",
+    "plugins",
+    "token-usage"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Han-1413141/dsh-cost-meter",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-cost-meter",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Han-1413141/dsh-cost-meter",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T04:58:19Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:05.182Z"
+}

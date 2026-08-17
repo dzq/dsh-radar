@@ -1,0 +1,61 @@
+{
+  "slug": "dsh-wsl-workspace",
+  "name": "dsh-wsl-workspace",
+  "version": "0.2.3",
+  "description": "WSL workspace support for DeepSeek Harness: add a WSL workspace from the web GUI and run the whole agent session (bash + file tools) inside the WSL distribution, VS Code Remote-WSL style. No toolchain install inside WSL required.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "wsl",
+    "workspace",
+    "plugin",
+    "windows"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/6Mikao9/dsh-wsl-workspace.git",
+  "homepage": "https://github.com/6Mikao9/dsh-wsl-workspace#readme",
+  "npm": "https://www.npmjs.com/package/dsh-wsl-workspace",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-wsl-workspace\n\n[English](README.md) · [中文](README.zh.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Português](README.pt.md) · [Русский](README.ru.md)\n![alt text](image-3.png)\n在 DeepSeek Harness Web GUI 中「添加 WSL 工作区」：让 agent 会话的 bash 命令与文件读写都运行在本机 WSL 发行版里，路径均为 Linux 形式，WSL 内无需安装任何工具链。会话可同时访问 WSL 与 Windows 两个系统——bash 命令在 WSL 发行版内执行，Windows 文件随时可通过 `/mnt/<drive>`（如 `/mnt/c/Users/...`）访问。\n\n## 安装\n\n三种方式任选其一，然后重启 `dsh web`：\n\n```powershell\n# 1) npm 包\ndsh plugin --profile web add dsh-wsl-workspace\n\n# 2) GitHub 仓库（仓库内已含预构建 lib/，无需本地构建）\ndsh plugin --profile web add https://github.com/6Mikao9/dsh-wsl-workspace\n\n# 3) 本地目录（开发/自用）\ndsh plugin --profile web add D:\\path\\to\\dsh-wsl-workspace\n```\n\n重启 `dsh web` 后，侧栏底部 Se",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T07:52:40.006Z",
+  "created_at": "2026-08-14T14:26:11.920Z",
+  "gh": {
+    "full_name": "6Mikao9/dsh-wsl-workspace",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:45:59Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:56:53.198Z"
+}

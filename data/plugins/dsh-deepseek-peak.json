@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-deepseek-peak",
+  "name": "dsh-deepseek-peak",
+  "version": "0.0.0",
+  "description": "Live DeepSeek V4 API peak/off-peak status widget — drop-in dsh-plugin for deepseek-ai/deepseek-harness, plus a standalone browser widget.",
+  "keywords": [
+    "deepseek",
+    "deepseek-api",
+    "peak-hours"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/YMRYMR/deepseek-peak",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-deepseek-peak",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "YMRYMR/deepseek-peak",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T08:17:41Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:08.473Z"
+}

@@ -34,17 +34,25 @@
   "engines": {},
   "readme": "# dsh-plugin-subscriptions\n\n[English](README.md) | 中文\n\n把你的 **ChatGPT(Codex)**、**Claude**、**Grok(X Premium)**订阅当作 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的 LLM provider 使用 —— 不需要 API key。登录在 dsh web 界面完成(设置 → 订阅);token 保存在 `~/.dsh/plugins/subscriptions/auth.json`(权限 0600),过期自动刷新。\n\n## 演示\n\n设置 → **订阅**:每个 provider 的 OAuth 登录/退出,无需 API key(截图中账号已打码):\n\n![订阅设置页](https://raw.githubusercontent.com/V1ki/dsh-plugin-subscriptions/main/docs/images/subscriptions.png)\n\n已登录的 provider 会带着实时模型目录进入会话模型选择器:\n\n![模型选择器中的订阅模型](https://raw.githubusercontent.com/V1ki/dsh-plugin-subscriptions/main/docs/images/model-picker.png)\n\n`image_generate` 工具生成的图片直接内联显示在对话里:\n\n![image_generate 内联显示生成的图片](https://raw.githubusercontent.com/V1ki/dsh-plugin-subscriptions/main/docs/images/image-generate-in",
   "weekly_downloads": 46,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T10:40:42.233Z",
   "created_at": "2026-08-14T08:54:31.292Z",
-  "gh": null,
+  "gh": {
+    "full_name": "V1ki/dsh-plugin-subscriptions",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T01:32:54Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 42,
-    "maintenance": 0,
+    "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 49,
-    "grade": "C"
+    "overall": 57,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.299Z"
+  "updated_at": "2026-08-17T04:58:07.642Z"
 }

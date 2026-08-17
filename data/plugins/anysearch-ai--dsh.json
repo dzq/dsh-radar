@@ -24,6 +24,7 @@
   },
   "readme": "<div align=\"center\">\n  <a href=\"https://anysearch.com\"><img src=\"https://anysearch.com/favicon.ico\" alt=\"AnySearch Logo\" width=\"96\" height=\"96\"></a>\n  <h1>@anysearch/dsh</h1>\n  <p>AnySearch 面向 DeepSeek Harness 的官方网页搜索插件。</p>\n  <p><a href=\"https://www.npmjs.com/package/@anysearch/dsh\"><img src=\"https://img.shields.io/npm/v/%40anysearch%2Fdsh?logo=npm\" alt=\"npm 版本\"></a> <a href=\"https://www.npmjs.com/package/@anysearch/dsh\"><img src=\"https://img.shields.io/npm/dm/%40anysearch%2Fdsh?logo=npm\" alt=\"npm 下载量\"></a> <a href=\"https://github.com/anysearch-team/anysearch-dsh/actions/workflows/ci.yml\"><img src=\"https://github.com/anysearch-team/anysearch-dsh/workflows/CI/badge.svg\" alt=\"CI 状态\"></a> <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-blue.svg\" alt=\"MIT 许可证\"></a> <a hre",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T04:09:59.416Z",
   "created_at": "2026-08-14T04:09:59.118Z",
   "gh": null,
@@ -36,5 +37,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.597Z"
+  "updated_at": "2026-08-17T04:58:31.541Z"
 }

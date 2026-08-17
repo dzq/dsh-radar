@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-status-rotator",
+  "name": "dsh-status-rotator",
+  "version": "0.0.0",
+  "description": "A DeepSeek Harness (dsh) web plugin that replaces the \"Deep diving…\" turn-status label with phase-aware, typewriter-animated, rainbow-gradient phrases — all configurable from a JSON file.",
+  "keywords": [
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/01Virex/dsh-status-rotator",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-status-rotator",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "01Virex/dsh-status-rotator",
+    "open_issues": 1,
+    "pushed_at": "2026-08-15T01:16:24Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 30,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:45.670Z"
+}

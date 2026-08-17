@@ -1,0 +1,59 @@
+{
+  "slug": "dsh-notifier",
+  "name": "dsh-notifier",
+  "version": "0.7.1",
+  "description": "DSH 统一通知推送插件：一个 notify() API 打天下 + 多渠道 adapter；远程审批/远程会话支持 telegram/feishu/qq/wxpusher/wechat/dingtalk 六通道双向回传；移动指挥中心（长任务心跳 / 疑似卡住提醒 / 通知按钮停止任务）；开放事件源（其他插件经 notifier 服务推送 + dsh-notifier/sent 事件订阅）；QQ/钉钉/飞书官方扫码授权；本机 Web 管理台（凭证/路由/扫码授权网页可管，移动端适配）。零运行时依赖（只用 ",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "notify",
+    "notification",
+    "dingtalk",
+    "feishu",
+    "wxpusher",
+    "pushplus",
+    "serverchan"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/THEWOLFWALKER/dsh-notifier.git",
+  "homepage": "https://github.com/THEWOLFWALKER/dsh-notifier#readme",
+  "npm": "https://www.npmjs.com/package/dsh-notifier",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "readme": "# dsh-notifier\n\n> **你的 agent，装进口袋。** —— 通知、审批、遥控，全在你的手机里。\n\n[**English**](README.md) · **简体中文**\n\n![DSH](https://img.shields.io/badge/DSH-DeepSeek%20Harness-1F6FEB?style=flat-square)\n![Node.js](https://img.shields.io/badge/Node.js-22%2B-339933?style=flat-square&logo=node.js&logoColor=white)\n![JavaScript](https://img.shields.io/badge/JavaScript-ESM-F7DF1E?style=flat-square&logo=javascript&logoColor=black)\n![Cordis](https://img.shields.io/badge/Cordis-%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91-FF6B6B?style=flat-square)\n![零依赖](https://img.shields.io/badge/%E9%9B%B6%E4%BE%9D%E8%B5%96-000000?style=flat-square)\n![双语](https://img.shields.io/badge/%E5%8F%8C%E8%AF%AD%E6%96%87%E6%A1%A3-EN%2F%E7%AE%80%E4%BD%93-00A98F?style=flat-square)\n![渠道](https://img.shields.io/badge/channels-27-00B4D8?style=flat-square)\n",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T01:19:13.674Z",
+  "created_at": "2026-08-14T23:41:29.444Z",
+  "gh": {
+    "full_name": "THEWOLFWALKER/dsh-notifier",
+    "open_issues": 6,
+    "pushed_at": "2026-08-17T01:19:10Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:55:18.035Z"
+}

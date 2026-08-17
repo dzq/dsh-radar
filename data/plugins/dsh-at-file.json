@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-at-file",
+  "name": "dsh-at-file",
+  "version": "0.0.0",
+  "description": "Codex-style @file mentions for DeepSeek Harness: search workspace files in the composer and attach their path to prompts.",
+  "keywords": [
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/omdsh-dev/dsh-at-file",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-at-file",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "omdsh-dev/dsh-at-file",
+    "open_issues": 1,
+    "pushed_at": "2026-08-17T04:48:29Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:46.831Z"
+}

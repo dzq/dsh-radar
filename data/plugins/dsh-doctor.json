@@ -1,0 +1,68 @@
+{
+  "slug": "dsh-doctor",
+  "name": "dsh-doctor",
+  "version": "0.4.3",
+  "description": "Deterministic diagnostics and recovery for DeepSeek Harness",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "doctor",
+    "diagnostics",
+    "recovery"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/astra3294/dsh-doctor.git",
+  "homepage": "https://github.com/astra3294/dsh-doctor#readme",
+  "npm": "https://www.npmjs.com/package/dsh-doctor",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-primitives",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "readme": "# DSH Doctor\n\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的确定性诊断与恢复工具。\n\nDSH Doctor 是 Harness「把自己改坏」两种典型情况的安全网：**开得了但无法对话**（WebUI 能打开但对话循环坏了），以及**根本起不来**（改了配置、依赖或插件后启动失败）。WebUI 还能打开时，Doctor 按钮调用仅限本机访问的 Host 救援服务；Harness 起不来时，同一套引擎以独立 CLI 运行——包括捕获启动失败的启动探针，和「一键恢复到最近健康检查点」的重置，让插件开发者可以放心折腾、随时回到能对话能用工具的状态。\n\n> DSH Doctor 0.2.0 面向 `@deepseek-ai/dsh 0.1.0-rc.6`。DeepSeek Harness 仍处于 Developer Preview；遇到未知版本时，Doctor 只做保守的只读诊断。\n\n[English](./README.md)\n\n## 安装\n\n把 Doctor 安装进 Web profile：\n\n```bash\ndsh plugin --profile web add dsh-doctor\ndsh --profile web\n```\n\n一个 npm 包同时包含 Host 与浏览器部分，并在 WebUI 中提供：\n\n- 侧栏设置旁边常驻的 Doctor 入口；\n- Prompt 或 Agent 失败后，在输入框上方主动出现的恢复提示；\n- 设置中的完整 Doctor 页面，用于查看问题、检查点和回滚；\n- 页面框架层的应急浮标入口：profile 出问题时自动出现，不依赖侧栏与对话插件是否存活。\n\n如果 WebUI 无法启动：\n\n```bash\nnpx dsh-doctor re",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T16:18:36.699Z",
+  "created_at": "2026-08-14T18:44:19.086Z",
+  "gh": {
+    "full_name": "astra3294/dsh-doctor",
+    "open_issues": 1,
+    "pushed_at": "2026-08-17T01:54:40Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:58:24.958Z"
+}

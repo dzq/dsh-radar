@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-deepseek-harness-android-app",
+  "name": "dsh-deepseek-harness-android-app",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness 安卓通用控制端：Termux 引导、一键部署、内置浏览器与存储管理（dsh-plugin 生态）",
+  "keywords": [
+    "agent-harness",
+    "android",
+    "android-app",
+    "cli-agent",
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "mobile-ai",
+    "termux"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Jensen-Yao/deepseek-harness-android-app",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-deepseek-harness-android-app",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Jensen-Yao/deepseek-harness-android-app",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T06:23:05Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:38.730Z"
+}

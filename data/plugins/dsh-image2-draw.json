@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-image2-draw",
+  "name": "dsh-image2-draw",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness Image2 生图插件，通过第三方 OpenAI Images 兼容接口调用 gpt-image-2，只需配置 baseURL 和 API Key。 | Image2 generation plugin for DeepSeek Harness via third-party OpenAI Images-compatible APIs.",
+  "keywords": [
+    "deepseek-harness",
+    "gpt-image-2",
+    "image-generation",
+    "image-to-image",
+    "openai-images",
+    "text-to-image"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/JuneLearn/dsh-image2-draw",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-image2-draw",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "JuneLearn/dsh-image2-draw",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T04:53:47Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:22.557Z"
+}

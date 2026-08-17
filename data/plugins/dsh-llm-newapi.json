@@ -1,0 +1,61 @@
+{
+  "slug": "dsh-llm-newapi",
+  "name": "dsh-llm-newapi",
+  "version": "0.8.2",
+  "description": "NewAPI (OpenAI-compatible gateway) chat-completions adapter for the DeepSeek Harness LLM seam. Provider route id 'newapi', display name 'NewAPI'. Dual-face: host half registers the LLM adapter and chat-only model discovery; browser half adds a NewAPI sett",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "newapi",
+    "llm",
+    "provider",
+    "openai-compatible"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/wenzetan/dsh-llm-newapi",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-llm-newapi",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-llm-newapi\n\n[English](README.md) | **中文**\n\n为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（dsh）增加 LLM 供应商 **NewAPI** 的插件。**零 dsh 修改**。\n\n- 供应商 route id：`newapi`\n- 显示名称：`NewAPI`\n- 形态：LLM Provider 插件——实现 `@deepseek-ai/dsh-llm` 的 `LlmAdapter` seam；NewAPI 为 OpenAI 兼容网关（`POST {baseURL}/chat/completions`、`GET {baseURL}/models`，baseURL 含 `/v1`）\n- 双侧结构：宿主侧（adapter + 模型发现）+ 浏览器侧（dsh web 设置面板中的「NewAPI」设置页，含「获取模型」）\n\n设计决策与差异分析见 [DESIGN.md](DESIGN.md)；参考实现 `deepseek-harness/packages/llm/llm-deepseek`。\n\n## 安装（dsh ≥ 0.1.0-rc）\n\n### 发布通道与版本选择\n\n项目采用**双发布通道**，默认从 **npm registry** 安装（或引用**版本化 tag**），不要跟随 `main` 分支 HEAD：\n\n| 通道 | 版本形态 | 安装引用 | 适用场景 |\n|---|---|---|---|\n| **稳定版（推荐）** | `vX.Y.Z` | `dsh plugin --profile web add dsh-llm-newapi`（npm `latest`）或 `github:wenzetan/dsh-llm-newap",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T08:28:13.357Z",
+  "created_at": "2026-08-15T07:04:23.633Z",
+  "gh": {
+    "full_name": "wenzetan/dsh-llm-newapi",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T08:26:40Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:36.382Z"
+}

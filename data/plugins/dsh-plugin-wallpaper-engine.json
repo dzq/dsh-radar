@@ -32,6 +32,7 @@
   "engines": {},
   "readme": "# dsh-plugin-wallpaper-engine\n\n[English](README.md) | [中文](README.zh.md)\n\n一个 DSH bundle，把你电脑上的 **Wallpaper Engine** 壁纸变成 **DSH 网页界面（`dsh web`）的背景**。\n\n它会自动发现你本机的 Wallpaper Engine 安装，列出你的壁纸，并把其中*可移植*的类型（Video `.mp4` 和 Web/HTML）渲染到 DSH 对话界面的后方，配以 **iOS 风格液态玻璃**效果。你可以在设置里挑选壁纸、用四个滑动条微调，也能随时暂停或关闭。\n\n## 为什么只支持 Video 和 Web 壁纸？\n\nWallpaper Engine 的壁纸分四种类型：\n\n| 类型 | 由谁渲染 | 能否搬到 DSH |\n|---|---|---|\n| **Scene（场景）** | Wallpaper Engine 自带的 3D 引擎 | ❌ 不能 — 原生 3D（`.obj`/着色器），只有 WE 能渲染 |\n| **Video（视频）** | 就是一个 `.mp4` 文件 | ✅ 能 — 在 `<video>` 标签里播放 |\n| **Web（网页）** | WE 内置的 Chromium 壳（`webwallpaper64.exe`）承载 HTML | ✅ 能 — 在 `<iframe>` 里加载 |\n| **Application（应用）** | 注入的外部窗口 | ❌ 不能 |\n\n这是 mineradio 以及所有第三方 Wallpaper Engine 集成方案都无法回避的同一限制：只有 *Video* 和 *Web* 两种壁纸可移植。Scene 壁纸仍会列在选择器里（标为 `[不可播放]`），让你知道自己有什么，但没办法拿来做动态背景。\n\n#",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T02:57:24.367Z",
   "created_at": "2026-08-16T17:07:08.062Z",
   "gh": null,
@@ -44,5 +45,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.481Z"
+  "updated_at": "2026-08-17T04:58:33.409Z"
 }

@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-opencode-go-quota",
+  "name": "dsh-opencode-go-quota",
+  "version": "0.0.0",
+  "description": "DSH 插件：OpenCode Go 额度圆环 —— 输入框模型选择器左侧的进度圆环，点击切换 5小时/每周/每月用量（OpenCode Go quota ring for DeepSeek Harness Web）",
+  "keywords": [
+    "ai-agents",
+    "cordis",
+    "deepseek-harness",
+    "dsh",
+    "opencode",
+    "quota",
+    "web-ui"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/GLFzr/dsh-opencode-go-quota",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-opencode-go-quota",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "GLFzr/dsh-opencode-go-quota",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T11:50:35Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:42.135Z"
+}

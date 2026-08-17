@@ -1,0 +1,39 @@
+{
+  "slug": "dsh-plugin-session-delete",
+  "name": "dsh-plugin-session-delete",
+  "version": "0.0.0",
+  "description": "Delete DeepSeek Harness sessions from the UI: header danger button + sidebar session-row menu item (no conversation jump), risk-consent dialog with session name/id, stops running agents first, in-place list refresh without page reload. Works in web and the desktop client.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "",
+  "repo": "https://github.com/lsz-asd/dsh-plugin-session-delete",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-session-delete",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "lsz-asd/dsh-plugin-session-delete",
+    "open_issues": 2,
+    "pushed_at": "2026-08-14T19:12:06Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 25,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 26,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:29.690Z"
+}

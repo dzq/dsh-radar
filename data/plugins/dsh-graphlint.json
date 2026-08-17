@@ -28,6 +28,7 @@
   },
   "readme": "# dsh-graphlint\r\n\r\nDeepSeek Harness plugin bundle for [graphlint](https://github.com/AngelosZou/graphlint) —\r\ndead-code detection for AI-generated codebases.\r\n\r\nInstalling this bundle gives every agent in the profile three tools\r\n(`graphlint_query`, `graphlint_build`, `graphlint_config`) plus a `graphlint`\r\nskill describing when and how to use them.\r\n\r\n## Requirements\r\n\r\n- Node.js >= 20.\r\n- A DeepSeek Harness profile (`dsh plugin` initializes one on first use).\r\n- The graphlint CLI on `PATH` (`pip install graphlint`) or inside the project's\r\n  virtualenv (`env/`, `.venv/`, `venv/` are probed automatically).\r\n\r\n## Install\r\n\r\nInstall the published bundle into a DeepSeek Harness profile:\r\n\r\n```bash\r\ndsh plugin --profile web add dsh-graphlint\r\n\r\n# or via the graphlint CLI (requires dsh on PATH",
   "weekly_downloads": 167,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T09:59:00.300Z",
   "created_at": "2026-08-14T17:06:44.457Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.266Z"
+  "updated_at": "2026-08-17T04:58:29.084Z"
 }

@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-interconnect",
+  "name": "dsh-interconnect",
+  "version": "0.2.0",
+  "description": "Cross-instance message/event handoff plugins for DeepSeek Harness (DSH): interconnect service + model-facing tools",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "interconnect"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Chinesezjc/dsh-interconnect",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-interconnect",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-interconnect\n\n跨实例消息互通与事件通知插件，用于 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH)。\n让一个 DSH 实例能向同一个实例、另一台机器、或另一台机器上的别的 DSH 实例发送消息、探测活性，并在实例之间双向推送事件。\n\n## 包含两个插件\n\n**`interconnect`** —— host 服务（`ctx.interconnect`）：\n\n- `send` / `ping` HTTP 端点（`/interconnect/*`）：跨实例、跨机器投递消息、探测活性\n- `/interconnect/link` WebSocket 端点：双向实时事件推流，含心跳与指数退避重连\n- 事件 fan-out（HTTP + WebSocket），入站事件以 `interconnect/event` 发出\n- 共享密钥鉴权（`DSH_INTERCONNECT_TOKEN`，bearer，fail-closed，timing-safe 比较）\n\n**`tool-interconnect`** —— 模型可见工具：\n\n- `interconnect_send`：向对端实例的指定 session 投递消息\n- `interconnect_ping`：探测对端实例活性与身份\n\n## 安装\n\n本包已发布到 npm：[`dsh-interconnect`](https://www.npmjs.com/package/dsh-interconnect)。\n本仓库是一个 DSH profile bundle（根 `package.json` 声明 `dsh.bundle.patch` 指向\n根 `cordis.patch.yml`，后者 `insert` 两个插件行",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T06:32:21.607Z",
+  "created_at": "2026-08-14T02:59:37.422Z",
+  "gh": {
+    "full_name": "Chinesezjc/dsh-interconnect",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T06:32:47Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:55:17.711Z"
+}

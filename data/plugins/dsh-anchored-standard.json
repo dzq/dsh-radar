@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-anchored-standard",
+  "name": "dsh-anchored-standard",
+  "version": "0.0.0",
+  "description": "Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap (bash+read), then full Standard tools after the first tool call or reply",
+  "keywords": [
+    "agent-preset",
+    "deepseek-harness"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Jungod1121/dsh-anchored-standard",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-anchored-standard",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Jungod1121/dsh-anchored-standard",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T06:02:33Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:50.136Z"
+}

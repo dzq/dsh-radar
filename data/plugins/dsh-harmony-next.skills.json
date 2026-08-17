@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-harmony-next.skills",
+  "name": "dsh-harmony-next.skills",
+  "version": "0.0.0",
+  "description": "🚀 Expert guidance for HarmonyOS NEXT (API 12+) development. Covers IDE operations, performance tuning, architecture (HAP/HAR/HSP), and automation testing.",
+  "keywords": [
+    "arkts",
+    "automation-testing",
+    "deveco-studio",
+    "harmonyos",
+    "harmonyos-next",
+    "openharmony",
+    "performance-tuning"
+  ],
+  "license": "",
+  "repo": "https://github.com/linhay/harmony-next.skills",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-harmony-next.skills",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "linhay/harmony-next.skills",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T17:13:20Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:47.020Z"
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-tui",
+  "name": "dsh-tui",
+  "version": "0.2.19",
+  "description": "Terminal client for DeepSeek Harness: a TUI over the DSH client contract (ctx.remote)",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "tui",
+    "terminal",
+    "cli"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/MashedPotato817/dsh-tui.git",
+  "homepage": "https://github.com/MashedPotato817/dsh-tui#readme",
+  "npm": "https://www.npmjs.com/package/dsh-tui",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "node": ">=20"
+  },
+  "readme": "# dsh-tui\r\n\r\n[![npm version](https://img.shields.io/npm/v/dsh-tui)](https://www.npmjs.com/package/dsh-tui)\r\n[![npm downloads](https://img.shields.io/npm/dm/dsh-tui)](https://www.npmjs.com/package/dsh-tui)\r\n[![License](https://img.shields.io/npm/l/dsh-tui)](https://github.com/MashedPotato817/dsh-tui)\r\n\r\nDeepSeek Harness 的终端客户端（TUI）。在 DeepSeek 生态内，以插件形式提供类似\r\nClaude Code 的 agent 对话 + 类似 Vim 的模态输入 —— 在两者之间找一个平衡。\r\n\r\n- **Claude Code 功能**：会话对话、斜杠命令、流式回复、工具调用、模型/成本状态栏\r\n- **Vim 形式**：normal / insert / command 三模态，`i/a/o` 输入、`h/j/k/l` 移动、`ESC` 切换\r\n- **PTC 模式**：默认用 DSH 的 `code` agent preset（Code Mode SDK，多步操作一次往返）\r\n- **实时流**：mux SSE 流式渲染，`assistant/chunk` 边生成边显示\r\n- **成熟产品对齐的状态栏**：Claude Code 风格 HUD（上下文窗 model[1M]、回合耗时 ⏱、内置文档计数、子 agent 计数）——综合 OpenCode / Codex 的输入与键位理念\r\n- **会话管理**：记忆最近会话、`/resume` 恢复、`",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T08:14:03.299Z",
+  "created_at": "2026-08-13T18:56:01.139Z",
+  "gh": {
+    "full_name": "MashedPotato817/dsh-tui",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T19:44:51Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 36,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:41.560Z"
+}

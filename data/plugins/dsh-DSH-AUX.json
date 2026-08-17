@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-DSH-AUX",
+  "name": "dsh-DSH-AUX",
+  "version": "0.0.0",
+  "description": "Auxiliary model system for DeepSeek Harness: unified aux-LLM routing (per-task model, timeout, concurrency, failure cooldown, main-model fallback) + vision_analyze / web_extract / compress_text tools, settings page, and session image lifecycle cleanup.",
+  "keywords": [
+    "auxiliary-model",
+    "cordis",
+    "deepseek-harness",
+    "dsh",
+    "llm",
+    "vision"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/DoloresCaritasAngelus/DSH-AUX",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-DSH-AUX",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "DoloresCaritasAngelus/DSH-AUX",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T15:30:33Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:48.592Z"
+}

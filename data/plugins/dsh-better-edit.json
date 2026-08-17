@@ -30,17 +30,25 @@
   },
   "readme": "<p align=\"center\">\n  <img src=\"assets/logo.svg\" alt=\"dsh-better-edit\" width=\"200\">\n</p>\n\n<h1 align=\"center\">dsh-better-edit</h1>\n\n<p align=\"center\">\n  <strong>面向 DeepSeek Harness 的哈希锚定编辑工具。<br>\n  按内容地址编辑——而不是行号。更省 token。绝不会改错行。</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"README.md\">English</a> ·\n  <strong>简体中文</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"#快速开始\">快速开始</a> •\n  <a href=\"#为什么用-hashline\">为什么用 Hashline</a> •\n  <a href=\"#基准测试\">基准测试</a> •\n  <a href=\"#安装\">安装</a> •\n  <a href=\"#工具\">工具</a> •\n  <a href=\"#致谢\">致谢</a>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/version-0.1.9-blue.svg\" alt=\"Version\">\n  <img src=\"https://img.shields.io/badge/license-MIT-green.svg\" alt=\"MIT License\">\n  <img src=\"https://img.shields.io/badge/DeepSeek_Harness-Plugin-blueviolet.svg\" alt=\"D",
   "weekly_downloads": 1404,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:46:59.351Z",
   "created_at": "2026-08-14T16:33:12.590Z",
-  "gh": null,
+  "gh": {
+    "full_name": "Rianico/dsh-better-edit",
+    "stars": 5,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T13:15:00Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 79,
-    "maintenance": 0,
+    "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 57,
+    "overall": 65,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.211Z"
+  "updated_at": "2026-08-17T04:57:22.867Z"
 }

@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-notify-windows",
+  "name": "dsh-notify-windows",
+  "version": "0.5.0",
+  "description": "DeepSeek Harness 插件：任务完成时发送 Windows 系统通知",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "notify",
+    "toast",
+    "windows"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/SeverusZh/dsh-notify-windows.git",
+  "homepage": "https://github.com/SeverusZh/dsh-notify-windows#readme",
+  "npm": "https://www.npmjs.com/package/dsh-notify-windows",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "node": ">=20"
+  },
+  "readme": "# dsh-notify-windows\n\n> DeepSeek Harness（DSH）插件：当 Agent 需要你关注时，向 Windows 发送系统桌面通知。\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/npm/v/dsh-notify-windows\" alt=\"npm\">\n  <img src=\"https://img.shields.io/github/license/SeverusZh/dsh-notify-windows\" alt=\"license\">\n  <img src=\"https://img.shields.io/badge/platform-Windows%2010%2F11-blue\" alt=\"platform\">\n  <img src=\"https://img.shields.io/github/stars/SeverusZh/dsh-notify-windows?style=social\" alt=\"stars\">\n</p>\n\n**任务完成** ✅ ｜ **等待审批** 🔐 ｜ **等待回答** ❓ —— 离开屏幕也不错过任何需要你处理的事。\n\n## ✨ 功能\n\n- **任务完成提醒**：监听会话 `turn/end` 事件，任务完成 / 出错 / 输出超限时立即弹窗，标题自动使用会话标题，正文显示原因与轮次；\n- **权限审批提醒**：监听 `approval/asked` 事件，有操作等待你的审批时立即提醒；会话审批策略为 `never` 时自动跳过（此时没有东西在等你）；\n- **提问确认提醒**：Agent 调用 `ask_user_question` 向你提问时提醒；本部署下所有工具都经 `run_code` 调用，插件会扫描 `run_code` 程序源码中的 ",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T17:10:11.194Z",
+  "created_at": "2026-08-13T16:27:13.857Z",
+  "gh": {
+    "full_name": "SeverusZh/dsh-notify-windows",
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T17:09:45Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 34,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:30.738Z"
+}

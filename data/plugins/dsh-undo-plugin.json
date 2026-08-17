@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-undo-plugin",
+  "name": "dsh-undo-plugin",
+  "version": "0.0.0",
+  "description": "DSH crash-rescue plugin: undo config & plugin-code changes, secret-safe snapshots, one-click SAFE MODE, plus offline CLI/GUI that work even when DSH won't boot.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "rollback",
+    "snapshot",
+    "undo"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/lire1131/dsh-undo-plugin",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-undo-plugin",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "lire1131/dsh-undo-plugin",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T10:03:32Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:06.811Z"
+}

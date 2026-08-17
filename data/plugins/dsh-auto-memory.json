@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-auto-memory",
+  "name": "dsh-auto-memory",
+  "version": "0.0.0",
+  "description": "A caring memory companion for DSH — three-layer auto memory, proactive calendar reminders, warm AI greetings, per-turn auto-consolidation, and inheritance of memories from other AI tools.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugins",
+    "memory",
+    "npm",
+    "plugin"
+  ],
+  "license": "BSD-3-Clause",
+  "repo": "https://github.com/Aik358/dsh-auto-memory",
+  "homepage": "https://www.npmjs.com/package/@a9i5k4/dsh-auto-memory",
+  "npm": "https://www.npmjs.com/package/dsh-auto-memory",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Aik358/dsh-auto-memory",
+    "open_issues": 2,
+    "pushed_at": "2026-08-16T17:29:04Z",
+    "archived": false,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:11.809Z"
+}

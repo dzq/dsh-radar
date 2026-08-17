@@ -28,17 +28,25 @@
   },
   "readme": "<div align=\"center\">\n\n# 🛡️ dsh-permission-rules\n\n**DeepSeek Harness 的 Claude Code 式声明式权限规则。**\n\n*规则裁决已知，reviewer 模型裁决未知。*\n\n[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)\n[![DSH plugin](https://img.shields.io/badge/dsh-plugin-✅-green)](https://github.com/topics/dsh-plugin)\n[![Node](https://img.shields.io/badge/node-%5E22.19%20%7C%7C%20%3E%3D24-brightgreen.svg)](#)\n[![CI](https://img.shields.io/github/actions/workflow/status/PerryLink/dsh-permission-rules/ci.yml?branch=main&label=CI)](https://github.com/PerryLink/dsh-permission-rules/actions)\n[![Version](https://img.shields.io/github/v/tag/PerryLink/dsh-permission-rules?label=version)](https://github.com/PerryLink/dsh-permission-rules/releases)\n[![npm version](https://img.shields.io/npm/v/dsh-permission-rul",
   "weekly_downloads": 530,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:44:21.724Z",
   "created_at": "2026-08-14T15:26:47.884Z",
-  "gh": null,
+  "gh": {
+    "full_name": "PerryLink/dsh-permission-rules",
+    "stars": 6,
+    "open_issues": 3,
+    "pushed_at": "2026-08-16T16:15:28Z",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
   "scores": {
     "popularity": 68,
-    "maintenance": 0,
+    "maintenance": 40,
     "quality": 75,
     "security": 65,
     "dsh_compat": 75,
-    "overall": 57,
+    "overall": 65,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.236Z"
+  "updated_at": "2026-08-17T04:57:02.117Z"
 }

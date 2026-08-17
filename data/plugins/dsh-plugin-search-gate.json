@@ -22,6 +22,7 @@
   },
   "readme": "# dsh-plugin-search-gate\n\nDeepSeek Harness 插件：给 `glob` / `grep` 搜索工具加**工作区路径围栏**。\n\n## 背景\n\n`dsh-tool-fs-search` 通过 `ctx.subprocess` 直接运行 ripgrep，没有任何 sandbox policy 或路径约束（`--no-ignore --hidden` 还枚举隐藏文件）。`path` 参数可指向机器上任意目录（`C:\\Users\\...\\.ssh`、`$DSH_HOME\\.credentials.yaml` 等），把工作区外的文件内容读进模型上下文——与 bash/write/edit 的沙箱体系不一致。\n\n## 效果\n\n注册一个 `tools.guard`：对 `grep`/`glob` 的 `path` 参数做解析后包含性检查，越界即拒绝执行并返回 `[search-gate] ...` 拒绝原因（工具调用整体失败，模型能看到原因）。\n\n## 安装\n\n```bash\ndsh plugin --profile web add dsh-plugin-search-gate\n```\n\n然后在 profile 的 `cordis.patch.yml` 或 agent preset 中挂载：\n\n```yaml\n- id: search-gate\n  name: dsh-plugin-search-gate\n  config:\n    # root 缺省 = ctx.sandboxPolicy.workspaceRoot（部署进程的 cwd）。\n    # 实测：Web profile 下它是启动目录（如用户主目录），比会话工作区宽。\n    # 要按会话工作区收紧，请显式配置，例如：\n    # root: C:/Users/<you>/Deskto",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T07:17:29.261Z",
   "created_at": "2026-08-14T07:17:29.052Z",
   "gh": null,
@@ -34,5 +35,5 @@
     "overall": 31,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:54.819Z"
+  "updated_at": "2026-08-17T04:58:38.419Z"
 }

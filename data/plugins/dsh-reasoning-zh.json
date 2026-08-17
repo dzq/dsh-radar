@@ -26,6 +26,7 @@
   "engines": {},
   "readme": "# dsh-reasoning-zh\n\n[![npm version](https://img.shields.io/npm/v/dsh-reasoning-zh)](https://www.npmjs.com/package/dsh-reasoning-zh) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n\n[DeepSeek Harness](https://github.com/deepseek-ai/dsh)（DSH）Web GUI 插件：把「推理等级」（reasoning effort）档位名翻译成中文，并让接入的自定义第三方模型也能显示推理等级。\n\n- **翻译**：模型选择器里的「推理等级」档位名（Off/Low/Medium/High/Max/Default 等）显示为中文。\n- **注入**：官方 DSH 不会为未声明推理等级的第三方模型显示「推理等级」控件。本插件自动为这类模型注入档位（默认 off/high/max），并把所选档位写入出站 `chat/completions` 请求体（字段名可配置）。开箱即用，无需任何其它插件。\n\n## 翻译表 / Translation table\n\n| id | 中文 | English |\n| --- | --- | --- |\n| `off` | 关闭 | Off |\n| `minimal` | 最小 | Minimal |\n| `low` | 低 | Low |\n| `medium` | 中 | Medium |\n| `high` | 高 | High |\n| `max` | 最大 | Max |\n| （provider 默认） | 默认 | Default |\n\n档位名（`reasoning.eff",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T02:14:45.736Z",
   "created_at": "2026-08-15T02:01:16.610Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 36,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:54.829Z"
+  "updated_at": "2026-08-17T04:58:38.593Z"
 }

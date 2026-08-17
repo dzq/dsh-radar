@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-Agentlink",
+  "name": "dsh-Agentlink",
+  "version": "0.0.0",
+  "description": "Caller-side bridge from Codex and other agent frameworks to DeepSeek Harness, with observable sessions, follow-up, cancellation, and human-gated approvals.",
+  "keywords": [
+    "agent-collaboration",
+    "agent-harness",
+    "agent-link",
+    "codex",
+    "deepseek-harness",
+    "dsh",
+    "mcp"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/hootandy321/dsh-Agentlink",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-Agentlink",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "hootandy321/dsh-Agentlink",
+    "open_issues": 1,
+    "pushed_at": "2026-08-17T01:50:13Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:11.065Z"
+}

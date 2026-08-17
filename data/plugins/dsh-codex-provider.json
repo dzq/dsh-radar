@@ -40,17 +40,25 @@
   },
   "readme": "# dsh-codex-provider\n\nDeepSeek Harness (DSH) 供应商插件：**OpenAI Codex（ChatGPT Plus/Pro 订阅）** 的设备码 OAuth 登录、令牌自动刷新与供应商管理。\n\n在 DSH 设置中新增 **“供应商”** 分区，通过设备码授权登录 OpenAI 账号后，即可在模型选择器中使用 DSH 内置的 `openai-codex` 模型（`gpt-5.4`、`gpt-5.5`、`gpt-5.6-*` 等），消费你的 **ChatGPT Plus / Pro 订阅额度**。\n\n## ✨ 功能\n\n- **设备码 OAuth 登录**：在界面点击“使用 OpenAI 账号登录”，按提示完成设备码授权，无需 API Key\n- **导入 Codex CLI 登录态**：直接复用本机 `~/.codex/auth.json` 中已有的登录（无需重新授权）\n- **令牌自动刷新**：后台定期检查 access token，过期前自动用 refresh token 轮换（refresh_token 也会一并轮换）\n- **供应商管理界面**：设置 → 供应商，展示登录状态、账号、套餐（Plus/Pro）、令牌过期时间，支持退出登录\n- **激活内置 Codex 模型**：登录后 `openai-codex` 路由自动激活，模型选择器直接可选\n\n## 📦 安装\n\n```bash\ndsh plugin --profile web add dsh-codex-provider\n```\n\n插件包自带 DSH bundle 配置，安装时会自动加入 profile，无需手动编辑 `cordis.patch.yml`。\n\n重启 dsh web 服务（Ctrl+C 后重新运行启动命令），刷新页面即可在 **设置 → 供应商** 看到入口。",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-13T19:55:45.895Z",
   "created_at": "2026-08-13T19:55:45.610Z",
-  "gh": null,
+  "gh": {
+    "full_name": "Hu9956/dsh-codex-provider",
+    "stars": 5,
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T20:38:35Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
+    "maintenance": 38,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 39,
-    "grade": "D"
+    "overall": 46,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:47.725Z"
+  "updated_at": "2026-08-17T04:57:21.604Z"
 }

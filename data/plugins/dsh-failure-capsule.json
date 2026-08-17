@@ -29,6 +29,7 @@
   },
   "readme": "# dsh-failure-capsule\n\nDeepSeek Harness 的本地优先故障证据包插件：当工具或 Agent 失败时，自动把**失败前发生了什么、项目当时是什么状态、运行环境和插件组合是什么**整理成一个经过脱敏的 ZIP。\n\n[English](README.en.md)\n\n[![npm](https://img.shields.io/npm/v/dsh-failure-capsule.svg)](https://www.npmjs.com/package/dsh-failure-capsule)\n[![CI](https://github.com/YiHarvest/dsh-failure-capsule/actions/workflows/ci.yml/badge.svg)](https://github.com/YiHarvest/dsh-failure-capsule/actions/workflows/ci.yml)\n[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![DeepSeek Harness](https://img.shields.io/badge/DeepSeek%20Harness-0.1.0--rc.6-4f46e5)](https://github.com/deepseek-ai/deepseek-harness)\n\n> **当前状态：** 可作为标准 Profile Bundle 安装；面向 `@deepseek-ai/dsh@0.1.0-rc.6` 的原生 `session/event` 与 `agent/error` 接口实现。插件不修改 Harness 核心，不上传数据，也不调用模型诊断故障。\n\n## 快速开始\n\n为使",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T15:58:51.559Z",
   "created_at": "2026-08-14T08:48:30.440Z",
   "gh": null,
@@ -41,5 +42,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.322Z"
+  "updated_at": "2026-08-17T04:58:30.059Z"
 }

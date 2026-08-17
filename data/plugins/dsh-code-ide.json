@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-code-ide",
+  "name": "dsh-code-ide",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness的 IDE插件，以最小破坏性的方式增加代码审阅能力",
+  "keywords": [
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/SakalioLabs/dsh-code-ide",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-code-ide",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "SakalioLabs/dsh-code-ide",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T04:39:17Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:43.615Z"
+}

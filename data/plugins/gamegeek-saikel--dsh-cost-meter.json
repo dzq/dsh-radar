@@ -40,6 +40,7 @@
   },
   "readme": "<h1 align=\"center\">DSH Cost Meter（对话花费计量）</h1>\n\n<p align=\"center\">\n  <a href=\"./README.md\">English</a>\n  &nbsp;·&nbsp;\n  <strong>简体中文</strong>\n</p>\n\n**DSH Cost Meter** 是为 DeepSeek Harness（DSH）Web GUI 打造的对话成本追踪插件——**价格快照锚定**的逐轮成本（感知**峰值/闲时**）、**账户余额**、**花费标签页**、**每条回复成本小标签**，以及带**流式实时估算**的**头部胶囊**。每一步的成本、价格档位与快照版本都**只计算一次**——锚定到该用量事件自身时刻生效的价格快照，此后永不重算——因此后续价格变动绝不会改写已写入的对话记录。\n\n- Host 半区（`src/`）：DeepSeek `GET /user/balance` 余额查询、持久化的快照锚定价格簿、`sessionCost` 投影、子代理成本聚合，以及带信任围栏的 `/cost-meter` 路由。\n- Client 半区（`src/client/`）：输入框下方读数、花费标签页、每条回复成本小标签、头部胶囊，以及插件配置卡——内置简体中文与英文。\n\n---\n\n## 安装\n\n本插件已发布到 npm：`@gamegeek-saikel/dsh-cost-meter`，以官方 DSH 插件 bundle 形态交付（单个 `cordis.patch.yml` 行同时挂载 host 与浏览器两半）。\n\n通过官方 DSH CLI（npx 方式，无需全局安装）装入 web profile：\n\n```bash\nnpx @deepseek-ai/dsh plugin --profile web add @gamege",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T20:01:47.802Z",
   "created_at": "2026-08-16T19:18:45.130Z",
   "gh": null,
@@ -52,5 +53,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.337Z"
+  "updated_at": "2026-08-17T04:58:30.585Z"
 }

@@ -24,17 +24,25 @@
   "engines": {},
   "readme": "# dsh-requirements-alignment\n\n> Lightweight requirement alignment for DeepSeek Harness.\n\n## Overview\n\n`dsh-requirements-alignment` adds a lightweight alignment layer before [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) agents execute ambiguous or high-impact requests. It asks only when a decision materially affects direction, remembers resolved choices within the session, and stays out of the way once the intent is clear.\n\n**You decide the direction. The agent decides the engineering.**\n\n## Why this plugin exists\n\nAn agent can produce technically sound work in the wrong product direction when a request leaves a high-impact choice unresolved. This plugin applies the minimum intervention needed to surface that choice before execution: one focused question at a time, fol",
   "weekly_downloads": 44,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T15:07:00.374Z",
   "created_at": "2026-08-14T13:36:59.837Z",
-  "gh": null,
+  "gh": {
+    "full_name": "jiezeng2004-design/dsh-requirements-alignment",
+    "stars": 5,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T15:36:11Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 41,
-    "maintenance": 0,
+    "maintenance": 40,
     "quality": 75,
     "security": 40,
     "dsh_compat": 75,
-    "overall": 46,
+    "overall": 54,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.305Z"
+  "updated_at": "2026-08-17T04:57:26.308Z"
 }

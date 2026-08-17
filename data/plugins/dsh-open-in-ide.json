@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-open-in-ide",
+  "name": "dsh-open-in-ide",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness Web UI plugin: add an IDE button that auto-detects local IDEs and opens the current workspace folder.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "NOASSERTION",
+  "repo": "https://github.com/LJninse/dsh-open-in-ide",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-open-in-ide",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "LJninse/dsh-open-in-ide",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T14:18:49Z",
+    "archived": false,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:58.616Z"
+}

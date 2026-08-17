@@ -26,6 +26,7 @@
   },
   "readme": "# Amber Protocol — dsh Integration\n\nAmber Protocol ships as an installable **dsh bundle** named `dsh-amber-protocol`.\nInstalling it with the native profile plugin command adds one declared dsh bundle\nlayer that resolves its own installed location, starts Amber's stdio MCP server,\nexposes Amber skills through dsh's filesystem skill provider, and governs the\nworkspace at `process.cwd()` by default.\n\nAmber is discoverable on the official [`dsh-plugin`](https://github.com/topics/dsh-plugin)\ntopic.\n\n## Install (recommended)\n\n```bash\n# Install once; dsh adds the Amber bundle layer to your profile.\n# This modifies only dependency and bundle declarations managed by dsh;\n# it does NOT write the profile's patch file.\ndsh plugin --profile web add dsh-amber-protocol\n\n# Ordinary startup loads Amber aft",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T17:43:12.730Z",
   "created_at": "2026-08-13T23:52:21.046Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.960Z"
+  "updated_at": "2026-08-17T04:58:33.934Z"
 }

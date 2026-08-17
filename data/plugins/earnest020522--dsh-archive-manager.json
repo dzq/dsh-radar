@@ -34,6 +34,7 @@
   },
   "readme": "# dsh-archive-manager（归档会话管理插件）\r\n\r\n[English](README.md) | [简体中文](README.zh-CN.md)\r\n\r\n为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 提供**归档会话管理**的插件：\r\n在侧边栏底部新增入口，弹出面板**按工作区归类**列出所有已归档的会话，支持\r\n**查看（打开）**、**恢复（取消归档）**，以及**打开对话文件夹**（在文件管理器里定位该会话的原始日志目录）。\r\n\r\n> **背景。** DSH 自带“归档会话”功能（把会话 id 加入全局 `archivedSessionIds` 集合，从侧边栏隐藏），\r\n> 但**没有提供查看归档列表的界面，也没有任何取消归档（unarchive）的 API**——\r\n> 官方 `dsh-client-ui-workspace` 的 README 明确把“no viewing or unarchive surface”列为已知缺口。\r\n> 同时，DSH 的会话日志（`session.jsonl*`）**永远不会被删除**（持久化层没有删除接口），\r\n> 所以“恢复”的本质就是：把这个会话 id 从归档集合里移除。\r\n> 本插件以标准 cordis 插件的形式实现这件事，**不改动任何 DSH 核心代码**。\r\n\r\n## 功能\r\n\r\n- **查看（按工作区分组）**：点击侧边栏底部的“归档”按钮，弹出面板；归档会话按所属工作区（Workspace）分组显示（没有归属的归入“未分组”），每行展示标题、短 id 与最后更新时间。\r\n- **恢复**：一键把会话从归档集合中移除并持久化，会话立刻回到侧边栏原位。\r\n- **打开**：一键“恢复 + 打开”（归档中的会话",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T16:50:02.842Z",
   "created_at": "2026-08-16T16:50:02.521Z",
   "gh": null,
@@ -46,5 +47,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.977Z"
+  "updated_at": "2026-08-17T04:58:34.373Z"
 }

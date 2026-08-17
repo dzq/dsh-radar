@@ -29,6 +29,7 @@
   "engines": {},
   "readme": "# dsh-archive-vault 归档对话\n\ndsh 宿主只有\"归档会话\"（`workspace.archiveSession`：把会话从所有分组界面隐藏），\n没有查看、恢复或删除归档会话的入口。本插件补齐这一环：\n\n- **设置页 → 归档对话**：列出所有归档会话（所属工作区、创建时间、最近一条\n  人类提问预览、cwd），支持关键词过滤；\n- **一键恢复**：把会话从全局归档集合移除，立即回到原工作区会话列表的\n  **原位置**（归档不改变工作区记账，恢复自动还原位置）；\n- **永久删除**：两步确认（点「删除」→ 变红「确认删除」），清除归档记录、\n  工作区记账并删除磁盘会话日志；正在运行的会话会被拒绝；\n- **实时刷新**：恢复写入 workspace domain global，触发 `domain/changed`，\n  apiproxy 自动向所有已连接的 Web 客户端推送 `host/archived-sessions-changed`，\n  左侧列表实时更新，无需手动刷新页面；\n- **agent 工具**：`list_archived_sessions` / `unarchive_session` /\n  `delete_archived_session`，在会话里也能直接找回或清理旧对话。\n\n## 恢复的写入路径（兼容性说明）\n\n宿主 `WorkspaceRegistry` 只公开 `archiveSession`，没有 unarchive。本插件的\n恢复走 registry 实例的串行写队列（`enqueueOperation` + `setState`，宿主里是\nTS private、运行时可访问）：\n\n- 与 create/delete/reorder/archive 的所有写完全互斥，不会丢并发变更；\n- 归档集合在队列内重",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T10:21:37.180Z",
   "created_at": "2026-08-16T09:48:50.234Z",
   "gh": null,
@@ -41,5 +42,5 @@
     "overall": 37,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:49.779Z"
+  "updated_at": "2026-08-17T04:58:37.784Z"
 }

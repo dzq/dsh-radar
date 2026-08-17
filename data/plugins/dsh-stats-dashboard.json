@@ -1,0 +1,41 @@
+{
+  "slug": "dsh-stats-dashboard",
+  "name": "dsh-stats-dashboard",
+  "version": "0.0.0",
+  "description": "DSH plugin: provider/model usage stats dashboard with response speed, call log, token totals, cache rate, cost estimates, CSV export",
+  "keywords": [
+    "dashboard",
+    "deepseek",
+    "dsh",
+    "usage-stats"
+  ],
+  "license": "",
+  "repo": "https://github.com/1HelloMan1/dsh-stats-dashboard",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-stats-dashboard",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "1HelloMan1/dsh-stats-dashboard",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T04:13:44Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:22.666Z"
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "dsh-vision-router",
+  "name": "dsh-vision-router",
+  "version": "1.4.4",
+  "description": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots). One-command install, no Python, image turns work like ordinary tool",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "vision",
+    "vision-tools",
+    "multimodal",
+    "openrouter",
+    "image",
+    "ocr",
+    "screenshot",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/ysr666/dsh-vision-router.git",
+  "homepage": "https://github.com/ysr666/dsh-vision-router",
+  "npm": "https://www.npmjs.com/package/dsh-vision-router",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-api-remotes"
+      ]
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "readme": "<p align=\"center\">\n  <img src=\"assets/hero-zh.svg\" width=\"100%\" alt=\"DSH Vision Router——为 DeepSeek Harness 的纯文本 Agent 提供视觉能力\" />\n</p>\n\n<h1 align=\"center\">dsh-vision-router</h1>\n\n<p align=\"center\"><strong>图片粘贴即用：给 DeepSeek Harness 的纯文本 Agent 装上“眼睛”——开箱免费、免 Key、无 Python、一条命令安装。</strong></p>\n\n<p align=\"center\">DeepSeek 只负责思考，内置免费视觉链 + 11 个像素级工具负责“看”；图片轮次就像普通工具调用一样自然、可定位、可验证。</p>\n\n<p align=\"center\">\n  <a href=\"https://awesome-dsh-plugin.com\"><img src=\"https://awesome-dsh-plugin.com/badge.svg\" alt=\"awesome · DSH plugin\" /></a>\n  <a href=\"https://github.com/zp-home/dsh-recommend\"><img src=\"https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzp-home%2Fdsh-recommend%2Fmain%2Fdata%2Fbadges%2Fysr666__dsh-vision-router.certified.json&amp;style=flat-square\" alt=\"dsh-recommend",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T19:39:24.486Z",
+  "created_at": "2026-08-14T15:47:58.090Z",
+  "gh": {
+    "full_name": "ysr666/dsh-vision-router",
+    "open_issues": 2,
+    "pushed_at": "2026-08-17T04:52:00Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:54:43.114Z"
+}

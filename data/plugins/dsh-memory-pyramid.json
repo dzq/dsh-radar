@@ -23,6 +23,7 @@
   "engines": {},
   "readme": "<div align=\"center\">\n\n  <h1>DSH金字塔记忆</h1>\n\n  <p>\n    <img src=\"https://img.shields.io/badge/%E6%97%A0%E9%99%90%E8%AE%B0%E5%BF%86-ff6b35?style=for-the-badge\" alt=\"无限记忆\" height=\"90\" />\n    <img src=\"https://img.shields.io/badge/%E5%9B%BA%E5%AE%9A%20TOKEN-2ea44f?style=for-the-badge\" alt=\"固定 TOKEN\" height=\"90\" />\n    <img src=\"https://img.shields.io/badge/DSH%20%E5%8E%9F%E7%94%9F-3178c6?style=for-the-badge\" alt=\"DSH 原生\" height=\"90\" />\n  </p>\n\n  <p>dsh生态，零依赖，即插即用<br/>通过本地对话文件，生成记忆金字塔，自带寻址<br/>给 <a href=\"https://github.com/deepseek-ai/deepseek-harness\">DeepSeek Harness (dsh)</a> 补上带时间轴的、无限记忆<br/>Agent自维护，一万条记忆，开局仍最多只读 96 行，固定token</p>\n\n  <p>\n    <a href=\"#快速开始\"><strong>快速开始</strong></a>\n    ·\n    <a href=\"#金字塔记忆结构\"><strong>金字塔记忆结构</strong></a>\n    ·\n    <a href=\"#roadmap\"><strong>Roadmap</strong",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T09:56:09.665Z",
   "created_at": "2026-08-16T08:11:43.010Z",
   "gh": null,
@@ -35,5 +36,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.732Z"
+  "updated_at": "2026-08-17T04:58:36.476Z"
 }

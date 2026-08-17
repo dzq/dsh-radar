@@ -24,6 +24,7 @@
   "engines": {},
   "readme": "# @wishp3/dsh-friend-tts\n\nTTS provider seam、队列缓存、文本预处理、播放与口型\n\nThis package is a dsh plugin with a host half (`src/index.ts`) and a client half (`src/client.ts`).\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T05:39:36.515Z",
   "created_at": "2026-08-14T16:01:34.213Z",
   "gh": null,
@@ -36,5 +37,5 @@
     "overall": 30,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:49.205Z"
+  "updated_at": "2026-08-17T04:58:37.267Z"
 }

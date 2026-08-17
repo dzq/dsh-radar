@@ -34,6 +34,7 @@
   },
   "readme": "# @opensquad/dsh-voice-input\n\n[DeepSeek Harness](https://deepseek.com/harness/) 语音输入插件：在 Web 对话输入框旁添加一个麦克风按钮，录音后调用本地 [SenseVoice](https://github.com/FunAudioLLM/SenseVoice) 服务转写成文本，自动填入输入框。首次使用会引导下载模型并显示实时进度。\n\n> 英文版 / English: [README_EN.md](./README_EN.md)\n\n## 功能\n\n- 🎤 输入框旁麦克风按钮，一键录音转文字\n- ⬇️ 首次使用自动下载模型（约 230MB），按钮上显示圆环进度 + 实时百分比\n- ⚙ 独立管理按钮：查看/卸载已安装的语音模型\n- 自动拉起本地 SenseVoice 服务（模型就绪时）\n\n## 依赖\n\n**这是一个全自动插件：Python 后端（依赖安装 + 进程启动）由插件在 dsh 启动时自动完成，首次使用模型也自动下载。** 你只需要：\n\n| 前置 | 说明 |\n| --- | --- |\n| **Python 3.10+** | 唯一需要手动装的软依赖（插件会自动 `pip install` 其余依赖） |\n| **ffmpeg**（可选/推荐） | 仅用于异常音频的兜底转码，正常使用不需要；`winget install ffmpeg` 或官网安装并加入 PATH |\n\n### 手动安装 Python 3.10+\n\n> 插件会自动安装剩下的 Python 依赖（flask / onnxruntime 等），你只需装好 Python 本身。\n\n1. 打开 [python.org/downloads](https://www.python.org/downloads/)，下载最新的 **Py",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T12:20:21.106Z",
   "created_at": "2026-08-16T09:08:37.950Z",
   "gh": null,
@@ -46,5 +47,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.639Z"
+  "updated_at": "2026-08-17T04:58:32.339Z"
 }

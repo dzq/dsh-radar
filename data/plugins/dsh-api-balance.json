@@ -1,0 +1,56 @@
+{
+  "slug": "dsh-api-balance",
+  "name": "dsh-api-balance",
+  "version": "1.2.1",
+  "description": "DeepSeek Harness web widget: API balance badge with today/month token usage, cache-hit donut chart and cost estimate. Hosts GET /api-balance and injects a bottom-right badge into the dsh web UI.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "deepseek",
+    "api-balance",
+    "token-usage",
+    "cache-hit",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/ArcanePivot/dsh-api-balance",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-api-balance",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "readme": "# dsh-api-balance\n\nDeepSeek Harness 网页界面右下角的 **API 余额角标**：余额 + 当日/当月 token 用量与花费 + 缓存命中环形图。\n\n## 功能\n\n- 总余额 / 赠送 / 充值（DeepSeek 官方 /user/balance 接口）\n- 当日 / 当月 token 用量与估算花费（单价可改）\n- 缓存命中环形图：命中率 + 命中/未命中量（命中绿、未命中琥珀）\n- API Key 不出服务器：走 dsh 凭据服务，浏览器只拿结果\n- 5 分钟自动刷新，点击立即刷新；统计持久化，重启不丢\n\n## 安装\n\n```bash\ndsh plugin --profile web add dsh-api-balance\n# 重启 dsh web 后 Ctrl+F5 强刷页面\n```\n\n要求：dsh >= 0.1.0-rc.3（node >= 22）；DEEPSEEK_API_KEY 可被 dsh 凭据服务解析。\n\n## 卸载\n\n```bash\ndsh plugin --profile web remove dsh-api-balance\n```\n\n## 配置（计费口径）\n\n价格内置 DeepSeek 官方 deepseek-v4-flash 定价（USD/百万 tokens），并按 2026-08-16 16:00 UTC 起的分时计价自动切换（peak: 01-04/06-10 UTC）：\n\n| 时段 | 缓存命中 | 未命中输入 | 输出 |\n|------|---------|-----------|------|\n| 2026-08-16 前（V4-Flash-0731） | $0.0028 | $0.14 | $0.28 |\n| 之后 off-peak | $0.007 | $0.22 | $0.66 |\n| 之后 pe",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T16:16:39.919Z",
+  "created_at": "2026-08-13T15:09:31.840Z",
+  "gh": {
+    "full_name": "ArcanePivot/dsh-api-balance",
+    "open_issues": 1,
+    "pushed_at": "2026-08-15T04:56:14Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:12.865Z"
+}

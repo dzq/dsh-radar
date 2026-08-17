@@ -1,0 +1,54 @@
+{
+  "slug": "dsh-web-search-pro",
+  "name": "dsh-web-search-pro",
+  "version": "0.1.2",
+  "description": "Enhanced, persistent web search plugin for DeepSeek Harness — multi-engine routing (DeepSeek/Exa/DDG/Bing/Jina + GitHub/B站/YouTube/V2EX/小红书/Twitter/Reddit/RSS), SQLite+LRU cache, userscript-style extraction, and Playwright rendering.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "web-search",
+    "search"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/anweat/dsh-web-search-pro.git",
+  "homepage": "https://github.com/anweat/dsh-web-search-pro#readme",
+  "npm": "https://www.npmjs.com/package/dsh-web-search-pro",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19 || >=24"
+  },
+  "readme": "# dsh-web-search-pro\n\n增强型、可持久化的扩展网页搜索插件 for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）。\n\n一个 DSH **bundle 插件**，把多引擎网页搜索、平台搜索、持久化缓存、脚本猫式按站提取、Playwright 渲染打包成模型可直接调用的 9 个工具。灵感来自 [MediaCrawler](https://github.com/NanmiCoder/MediaCrawler)、[Agent-Reach](https://github.com/Panniantong/Agent-Reach)、脚本猫/油猴 userscript、opencli 与 playwright。\n\n## 安装\n\n```bash\ndsh plugin --profile web add dsh-web-search-pro   # 自动装 dsh-browser（dependency）+ 自动挂载 browser 行（本 patch）\n# 或本地目录 / tarball：\ndsh plugin --profile web add ./dsh-web-search-pro\n# 重启（web profile 关闭了 HMR）：\ndsh --profile web\n```\n\n> dsh-browser 需先发布到 npm（本地测试可用 `dsh plugin --profile web add ../dsh-browser ../dsh-web-search-pro` 一条命令显式列两个）。\n> 依赖 `@deepseek-ai/*` 已发布到 npm（`^0.1.0-rc.6`，与社区 dsh-cc-tui 一致）。\n> 若你的 harness 是本地源码 ch",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T08:06:23.640Z",
+  "created_at": "2026-08-14T02:29:59.892Z",
+  "gh": {
+    "full_name": "anweat/dsh-web-search-pro",
+    "open_issues": 3,
+    "pushed_at": "2026-08-14T08:07:39Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:55:37.340Z"
+}

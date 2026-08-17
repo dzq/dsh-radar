@@ -20,6 +20,7 @@
   "engines": {},
   "readme": "# dsh-replay-studio\r\n\r\nDSH 插件：会话回放可视化工具 — 用 Web UI 浏览、调试、对比 Agent 会话。\r\n\r\n## 功能\r\n\r\n- **会话列表**：按时间倒序浏览所有历史会话\r\n- **时间线视图**：每个 turn/step/tool call 以彩色时间线展示\r\n- **统计面板**：turns / tool calls / errors 一目了然\r\n- **一键启动**：Agent 调用 `open_replay_studio` 即可打开\r\n\r\n## 使用\r\n\r\n```\r\nUser: 打开 replay studio 看看上次的会话\r\n\r\nAgent: → open_replay_studio()\r\nReplay Studio running at http://localhost:3090\r\n```\r\n\r\n打开浏览器访问即可。\r\n\r\n## 也可独立启动\r\n\r\n```bash\r\ncd dsh-replay-studio\r\nnode src/server.ts\r\n# → http://localhost:3090\r\n```\r\n\r\n## 配置\r\n\r\n```yaml\r\n- insert:\r\n    - id: replay-studio\r\n      name: dsh-replay-studio\r\n      config:\r\n        sessionsDir: ~/.dsh/sessions   # 会话存储目录\r\n        port: 3090                      # Web UI 端口\r\n```\r\n\r\n## 界面预览\r\n\r\n```\r\n┌─────────────────────────────────────────┐\r\n│  DSH Replay Studio                 ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T15:46:11.462Z",
   "created_at": "2026-08-14T15:46:11.206Z",
   "gh": null,
@@ -32,5 +33,5 @@
     "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.324Z"
+  "updated_at": "2026-08-17T04:58:30.059Z"
 }

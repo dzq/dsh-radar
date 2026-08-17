@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-NoLetMe",
+  "name": "dsh-NoLetMe",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "repo": "https://github.com/Yuer6327/NoLetMe",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-NoLetMe",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Yuer6327/NoLetMe",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T09:03:06Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 20,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 26,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:22.398Z"
+}

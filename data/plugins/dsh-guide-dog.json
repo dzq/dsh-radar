@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-guide-dog",
+  "name": "dsh-guide-dog",
+  "version": "0.0.0",
+  "description": "Guide Dog for DSH — MiniMax multimodal plugin: image/video/music/speech generation & vision tools, hard-metric voice mode (host event-driven auto TTS, session-safe playback), voice input (mic → faster-whisper → composer), recorder page, two-layer settings.",
+  "keywords": [
+    "dsh",
+    "minimax",
+    "multimodal",
+    "tts",
+    "voice-input"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/AtropinolTT/dsh-guide-dog",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-guide-dog",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "AtropinolTT/dsh-guide-dog",
+    "open_issues": 1,
+    "pushed_at": "2026-08-17T04:31:37Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:15.459Z"
+}

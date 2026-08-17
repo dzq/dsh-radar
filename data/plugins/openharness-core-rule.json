@@ -31,6 +31,7 @@
   "engines": {},
   "readme": "# openharness-core-rule\n\n一个 DeepSeek Harness（dsh）插件：往**系统提示词**注入「核心底层要求 · 五条铁律」的高优先级规则\n（分阶段完成、有问题先问、UI 优先、可见即验收、用户确认才算完成），并在 dsh **设置页侧边栏**显示「核心铁律」一项。\n\n- 纯 dsh plugin（bundle），装在 web profile 即可生效；\n- host 半：`ctx.systemPrompt.section({ name, order: 44, text })` 注入规范（真实逻辑）；\n- client 半：注册 `settings.section` 槽，显示侧边栏项（写法与已发布的公开插件 `openharness-reply-in-cn` / `openharness-rule-for-dsh-plugin` 完全同构，仅 `id`/`label` 不同）。\n\n> **对使用者**：注入的规则正文是**自包含、环境无关**的——就是本仓库 `000-core-rule.md` 的完整内容，不依赖任何本地目录或私有资料。任何安装此插件的人都能读到同样明确、可执行的铁律。\n\n---\n\n## 注入逻辑（host half，`src/host/index.ts`）\n\n```ts\nexport const inject = ['systemPrompt']              // 申报依赖，否则 boot 崩\nexport const name = 'openharness-core-rule'\nexport function apply(ctx, config) {\n  if (config?.enabled === false) return             // 可通过 patch 关闭\n  const di",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:05:44.637Z",
   "created_at": "2026-08-15T15:05:44.261Z",
   "gh": null,
@@ -43,5 +44,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:54.835Z"
+  "updated_at": "2026-08-17T04:58:38.679Z"
 }

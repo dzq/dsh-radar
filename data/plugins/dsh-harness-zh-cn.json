@@ -29,6 +29,7 @@
   "engines": {},
   "readme": "# dsh-harness-zh-cn\n\n[![npm version](https://img.shields.io/npm/v/dsh-harness-zh-cn.svg)](https://www.npmjs.com/package/dsh-harness-zh-cn)\n[![npm downloads](https://img.shields.io/npm/dm/dsh-harness-zh-cn.svg)](https://www.npmjs.com/package/dsh-harness-zh-cn)\n[![License](https://img.shields.io/npm/l/dsh-harness-zh-cn.svg)](LICENSE)\n\n**DeepSeek Harness 中文汉化插件** —— 在运行时把 DSH 的全部系统提示词、工具描述与运行时上下文翻译成中文。\n\n这是一个**纯运行时**插件：它通过 DSH 的 `system-prompt/assemble` 瀑布钩子，在每次组装提示词后把模型可见的英文文本替换为中文，**不修改任何 DSH 源码**。卸载插件即完全还原英文。\n\n当前内置 **1788 条翻译**，覆盖系统提示 sections、运行时上下文、全部工具描述与参数描述，以及 cordis 完整 API 目录（55 服务 + 56 事件）。\n\n## 特性\n\n- ✅ **零源码修改**：不碰 `node_modules`，升级 DSH 后依然有效\n- ✅ **覆盖面广**：系统提示 sections、运行时上下文 contexts、工具描述与参数描述、cordis API 目录全部汉化\n- ✅ **协议安全**：`[exit code: N]`、`[killed by signal: X]`、`[sandbox: ...]`、`",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T07:36:50.595Z",
   "created_at": "2026-08-16T06:55:04.508Z",
   "gh": null,
@@ -41,5 +42,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.476Z"
+  "updated_at": "2026-08-17T04:58:33.321Z"
 }

@@ -1,0 +1,60 @@
+{
+  "slug": "dsh-conversation-outline",
+  "name": "dsh-conversation-outline",
+  "version": "0.1.1",
+  "description": "DeepSeek Harness Web 会话大纲插件：固定在页面最右侧的一列横条标记当前 Session 的用户提问，鼠标 hover 展开单行摘要大纲，点击跳转到对应对话位置；数据量大时列表可滚动并动态加载，hover 到列表边缘可自动滚动。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "conversation-outline",
+    "session-index",
+    "conversation-navigation"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/manibookmark/dsh-conversation-outline.git",
+  "homepage": "https://github.com/manibookmark/dsh-conversation-outline#readme",
+  "npm": "https://www.npmjs.com/package/dsh-conversation-outline",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "readme": "# dsh-conversation-outline\n\nDeepSeek Harness（dsh）Web 端**会话大纲**插件：在页面最右侧固定一列横条，标记当前 Session 里**每一次用户提问**；鼠标 hover 展开单行摘要，点击跳转到对应对话位置。\n\n![preview](preview.svg)\n\n## 功能\n\n- **右侧横条大纲**：每条用户提问对应一个横条，一眼看清整段对话的提问分布。\n- **hover 展开摘要**：鼠标移到右侧，滑出白色卡片，每行一条单行摘要（不折行、不显索引）。\n- **点击跳转**：点横条或摘要，页面平滑滚动到对应消息。\n- **当前位置高亮**：蓝色横条跟随你正在阅读的位置，点击也会变蓝并保持。\n- **大数据量友好**：列表最多显示约 9 行并可滚动；hover 到列表最上 / 最下边缘会自动向上 / 向下滚动；更早的历史滚到顶时会自动加载。\n\n## 安装（dsh Web profile）\n\n1. 在 web profile 的 `package.json` 里加一行依赖（指向本插件目录）：\n\n   ```json\n   {\n     \"dependencies\": {\n       \"dsh-conversation-outline\": \"link:C:/path/to/dsh-conversation-outline\"\n     }\n   }\n   ```\n\n2. 在 web profile 的 `cordis.patch.yml` 的 `insert` 列表里加一项：\n\n   ```yaml\n   - insert:\n       - id: dsh-conversation-outline\n         name: dsh-conversation-outline\n   ```\n\n3. 在 web profi",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T03:24:09.403Z",
+  "created_at": "2026-08-17T02:46:52.229Z",
+  "gh": {
+    "full_name": "manibookmark/dsh-conversation-outline",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T03:24:03Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 44,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:28.973Z"
+}

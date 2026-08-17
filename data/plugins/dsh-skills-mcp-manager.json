@@ -1,0 +1,39 @@
+{
+  "slug": "dsh-skills-mcp-manager",
+  "name": "dsh-skills-mcp-manager",
+  "version": "0.0.0",
+  "description": "面向 DeepSeek Harness Web GUI 的正式插件包：在设置页的「Web UI 插件」分组中新增一张「技能与 MCP」卡片，用于在浏览器里管理技能（skills）与 MCP 服务器。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "",
+  "repo": "https://github.com/zebbkira/dsh-skills-mcp-manager",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-skills-mcp-manager",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "zebbkira/dsh-skills-mcp-manager",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T02:36:48Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 25,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 26,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:55.452Z"
+}

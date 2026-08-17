@@ -1,0 +1,39 @@
+{
+  "slug": "dsh-theme-taffy",
+  "name": "dsh-theme-taffy",
+  "version": "0.0.0",
+  "description": "我不是雏草姬（自用",
+  "keywords": [
+    "deepseek-harness",
+    "theme"
+  ],
+  "license": "",
+  "repo": "https://github.com/Misaki14987/dsh-theme-taffy",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-theme-taffy",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Misaki14987/dsh-theme-taffy",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T08:52:58Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 0,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 22,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:57.348Z"
+}

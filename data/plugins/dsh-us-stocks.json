@@ -1,0 +1,63 @@
+{
+  "slug": "dsh-us-stocks",
+  "name": "dsh-us-stocks",
+  "version": "0.3.0",
+  "description": "DSH US stock market data plugin, powered by yahoo-finance2",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "stocks",
+    "us-stocks",
+    "yahoo-finance"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Realyujie/dsh-us-stocks.git",
+  "homepage": "https://github.com/Realyujie/dsh-us-stocks#readme",
+  "npm": "https://www.npmjs.com/package/dsh-us-stocks",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "readme": "# dsh-us-stocks\n\n[English](README.md) | 中文\n\n<p align=\"center\">\n  <img src=\"./assets/readme/cover.png\" alt=\"dsh-us-stocks 封面\" width=\"300\">\n</p>\n\n给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 用的美股行情数据插件，基于 [yahoo-finance2](https://github.com/gadicc/yahoo-finance2)。\n\n提供行情、历史 K 线、财务报表、分析师共识、新闻、股东结构六个专用工具，无需模型自行解析网页。\n\n<p align=\"center\">\n  <img src=\"./assets/readme/overview.zh.svg\" alt=\"六个工具覆盖行情、K 线、财报、分析师、新闻与股东。同一 AAPL 任务：未装载 31 次调用 / 213 秒，装载后 5 次 / 33 秒。\" width=\"960\">\n</p>\n\n## 效果对比\n\n下表为同一任务在装载与未装载本插件两种条件下的实测结果，模型与运行环境一致。任务内容：*AAPL 的现价、近三个月走势、最近几个季度财务、分析师评级和近期新闻。*\n\n|      | 未装载本插件                        | 装载本插件   |\n| ---- | ----------------------------- | ------- |\n| 步骤   | 14 步                          | 2 步     |\n| 工具调用 | 31 次                          | 5 次     |\n| 整体",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T15:17:35.434Z",
+  "created_at": "2026-08-14T15:45:51.062Z",
+  "gh": {
+    "full_name": "Realyujie/dsh-us-stocks",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T15:16:28Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:08.875Z"
+}

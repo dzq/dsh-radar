@@ -26,6 +26,7 @@
   "engines": {},
   "readme": "# dsh-quant（DeepQuant Harness）\n\n🌐 **官网**：https://dsh-quant-site.pages.dev\n\n[![npm](https://img.shields.io/npm/v/dsh-quant)](https://www.npmjs.com/package/dsh-quant)\n[![downloads](https://img.shields.io/npm/dm/dsh-quant)](https://www.npmjs.com/package/dsh-quant)\n[![stars](https://img.shields.io/github/stars/pengpengyi92/dsh-quant?style=social)](https://github.com/pengpengyi92/dsh-quant)\n[![site](https://img.shields.io/badge/site-dsh--quant--site.pages.dev-orange)](https://dsh-quant-site.pages.dev)\n[![license](https://img.shields.io/npm/l/dsh-quant)](LICENSE)\n[![ci](https://github.com/pengpengyi92/dsh-quant/actions/workflows/ci.yml/badge.svg)](https://github.com/pengpengyi92/dsh-quant/actions)\n[![dsh-plugin](https://img.shields.io/badge/dsh-plugin-blue)](https://github.com/topics/dsh-plugin",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:48:19.291Z",
   "created_at": "2026-08-16T09:54:55.742Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.383Z"
+  "updated_at": "2026-08-17T04:58:34.899Z"
 }

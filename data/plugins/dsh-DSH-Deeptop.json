@@ -1,0 +1,36 @@
+{
+  "slug": "dsh-DSH-Deeptop",
+  "name": "dsh-DSH-Deeptop",
+  "version": "0.0.0",
+  "description": "Deeptop, a lightweight native desktop client for DeepSeek Harness.",
+  "keywords": [],
+  "license": "",
+  "repo": "https://github.com/Sparrived/DSH-Deeptop",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-DSH-Deeptop",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Sparrived/DSH-Deeptop",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T04:42:19Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 25,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 27,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:16.834Z"
+}

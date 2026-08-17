@@ -27,6 +27,7 @@
   },
   "readme": "# dsh-boot-guard\n\n简体中文 · [English](README.en.md)\n\n[![Check](https://github.com/SaiSenBox/dsh-boot-guard/actions/workflows/check.yml/badge.svg)](https://github.com/SaiSenBox/dsh-boot-guard/actions/workflows/check.yml)\n[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)\n\n> 插件把插件管理页面一起弄崩了，接下来怎么办？\n\n`dsh-boot-guard` 是给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web UI 准备的一道小保险。正常情况下它安安静静地待着；只有插件加载失败、页面只剩下 `Failed to load plugins` 时，它才会出现，帮你找出可疑插件、临时跳过，然后把工作区救回来。\n\n![Boot Guard 启动恢复中心](assets/boot-guard-preview.png)\n\n_上图是只读自检模式，只展示界面和诊断结果，不会真的改配置。_\n\n## 为什么写它\n\n起因其实有点尴尬：我在给 DSH 调一个界面插件，刷新之后，整个 Web UI 直接起不来了。\n\n问题插件本来应该去插件管理页里关掉，可插件管理页也属于 Web UI。结果就像把车钥匙锁在车里——明明知道是哪儿出了问题，却没有入口修它。\n\nBoot Guard 就是为这个死循环写的。它不依赖正常的客户端插件加载链，而是由 host 直接把一段很小的救援脚本放进失败页面。其他插件",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T07:11:17.090Z",
   "created_at": "2026-08-14T17:16:05.046Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.324Z"
+  "updated_at": "2026-08-17T04:58:30.059Z"
 }

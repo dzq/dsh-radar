@@ -33,6 +33,7 @@
   "engines": {},
   "readme": "# dsh-ide-sidebar\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/yuhangkang/dsh-ide-sidebar/main/.github/assets/banner-en.png\" alt=\"dsh-ide-sidebar\" width=\"100%\">\n</p>\n\n> IDE 式工作区切换侧边栏插件（Web / 浏览器 GUI 客户端 bundle）\n> IDE-style workspace switcher sidebar for DSH (DeepSeek Harness).\n\n将 DSH 默认侧边栏替换为 **IDE 式工作区切换器**：左上角悬浮下拉一键切换工作区，下方会话列表随工作区过滤，用状态灯直观标记完成 / 待确认，并提供工作区 / 会话搜索、创建工作区、重命名、删除、归档等能力。\n\n> `dsh-plugin` 生态：本插件已遵循 [DeepSeek Harness 官方贡献规范](https://github.com/deepseek-ai/deepseek-harness/blob/master/CONTRIBUTING.md)，以实现分发包的形式发布，给仓库打上 `dsh-plugin` topic 以便发现。\n\n## Overview\n\n**解决什么问题？** DSH Web GUI 原生侧边栏以全局会话列表为主，缺少多工作区的高效导航。对日常同时维护多个工作区（项目）的用户，频繁来回切换会话成本高。本插件把侧边栏升级为类 IDE 的工作区视角：\n\n- 顶部悬浮下拉，当前工作区一目了然，一键切换；\n- 会话按工作区过滤，只看到当前上下文相关的会话；\n- 每个会话带状态灯（完成 🔵 / 待确认 🟠），扫描进度一目了然；\n- 内置搜索：既",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T06:39:27.634Z",
   "created_at": "2026-08-15T05:13:31.670Z",
   "gh": null,
@@ -45,5 +46,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:49.205Z"
+  "updated_at": "2026-08-17T04:58:37.265Z"
 }

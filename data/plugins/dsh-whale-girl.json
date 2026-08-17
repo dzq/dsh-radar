@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-whale-girl",
+  "name": "dsh-whale-girl",
+  "version": "0.0.0",
+  "description": "DSH Web GUI 桌面宠物插件（QQ 宠物形态）：右下角悬浮、可拖拽/投喂/玩耍的积累型伙伴。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-repository-plugin",
+    "pet"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/vlln/whale-girl",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-whale-girl",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "vlln/whale-girl",
+    "open_issues": 4,
+    "pushed_at": "2026-08-17T03:44:06Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:48.959Z"
+}

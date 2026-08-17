@@ -33,6 +33,7 @@
   },
   "readme": "# dsh-coyote\n\n[**English**](README.md) · **简体中文**\n\n面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）的 [DG-LAB 郊狼](https://www.dungeon-lab.com/)电击控制插件，同时提供 Agent 工具与网页 GUI 两条控制面。\n\n一个安全边界（`CoyoteRuntime`）同时约束两张面孔：八个模型侧 `coyote_*` 工具与浏览器面板。任何一方都无法绕过软上限、非对称升速限制、会话冷却、播放硬上限与断连即停。v0.2 起另有一个可选的**自动电击**层，把 agent 事件（工具调用、报错、回合结束……）映射为有界脉冲 —— 见[自动电击](#自动电击)。\n\n> 仅限成年人。本插件控制真实电刺激设备，使用前请阅读[安全须知](#安全须知)。\n\n## 工作原理\n\n```\nDSH Agent ─coyote_* 工具──┐\n                           ├─▶ CoyoteRuntime（安全边界）─▶ V3 WebSocket 服务 ─▶ DG-LAB App（扫码）─▶ 郊狼设备\nDSH 网页 GUI ─/gui 桥接───┘      软上限 · 升速限制 · 冷却 · 硬上限 · 断连即停\nagent 事件 ─自动电击（可选）──┘   布防闸门 · 冷却 · maxIntensity 封顶 · 基线恢复\n```\n\n插件扮演官方 DG-LAB V3 socket 协议的 WebSocket **服务端**：配对时生成二维码，官方 App 扫码后，插件即成为控制终端，App 负责把指令转发到设备。\n\n## 快速开始\n\n```bash\ndsh plugin --pr",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T23:25:07.637Z",
   "created_at": "2026-08-15T14:17:16.643Z",
   "gh": null,
@@ -45,5 +46,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:54.832Z"
+  "updated_at": "2026-08-17T04:58:38.593Z"
 }

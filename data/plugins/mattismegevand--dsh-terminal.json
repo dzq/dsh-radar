@@ -36,6 +36,7 @@
   },
   "readme": "# dsh-terminal\n\n[English](README.md) | 中文\n\n> 面向 DeepSeek Harness Web 的 VS Code 风格终端面板。它使用 [ghostty-web](https://github.com/coder/ghostty-web) 渲染，将带版本的 Ghostty WASM 作为不可变资源提供，并通过 `node-pty` 连接本地 PTY。面板放置与调整大小由 [`dsh-dock`](https://github.com/mattismegevand/dsh-dock) 提供。\n\n[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![dsh-plugin](https://img.shields.io/badge/DeepSeek%20Harness-dsh--plugin-4b6fff)](https://github.com/topics/dsh-plugin)\n\n![停靠在 Harness 会话底部的终端面板](https://raw.githubusercontent.com/mattismegevand/dsh-terminal/main/assets/terminal-panel.png)\n\n## 功能\n\n- 每个 Harness 会话支持多个终端，并提供响应式标签托盘。\n- 通过 `dsh-dock` 支持左侧、右侧、底部和浮动布局。\n- 可实时分离与重新合并终端面板，且不会重启 PTY。\n- 支持尺寸同步、真彩色、Unicode、选择、粘贴、滚动历史和全屏程序。\n- 与当前 Harness 主题实时同步明暗配色。\n- Shell 标题会跟随工作区、前台进程和应用提供的终端标题。\n- 面板隐藏或移动时",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T14:34:44.888Z",
   "created_at": "2026-08-16T14:34:44.550Z",
   "gh": null,
@@ -48,5 +49,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.701Z"
+  "updated_at": "2026-08-17T04:58:35.512Z"
 }

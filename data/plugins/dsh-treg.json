@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-treg",
+  "name": "dsh-treg",
+  "version": "0.0.0",
+  "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+  "keywords": [
+    "agents",
+    "api-keys",
+    "cli",
+    "credentials",
+    "developer-tools",
+    "mcp",
+    "proxy",
+    "python",
+    "registry",
+    "secrets"
+  ],
+  "license": "NOASSERTION",
+  "repo": "https://github.com/superdesigndev/treg",
+  "homepage": "https://treg.to",
+  "npm": "https://www.npmjs.com/package/dsh-treg",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "superdesigndev/treg",
+    "open_issues": 9,
+    "pushed_at": "2026-08-17T02:09:21Z",
+    "archived": false,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:43.124Z"
+}

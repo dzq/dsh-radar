@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-deepseek-harness-desktop-Install",
+  "name": "dsh-deepseek-harness-desktop-Install",
+  "version": "0.0.0",
+  "description": "deepseek harness桌面客户端 一键安装包，双击DeepSeekHarnessSetup-desktop.exe就可以一键安装，适合小白！",
+  "keywords": [
+    "cordis",
+    "cordis-app",
+    "cordis-dataset",
+    "cordis-plugin",
+    "cordis-py",
+    "deepseek",
+    "deepseek-harness",
+    "deepseek-harness-desktop",
+    "deepseekv4",
+    "deepseekv4-flash"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/yu-wenchao/deepseek-harness-desktop-Install",
+  "homepage": "https://deepseek-harness.239.ccwu.cc",
+  "npm": "https://www.npmjs.com/package/dsh-deepseek-harness-desktop-Install",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "yu-wenchao/deepseek-harness-desktop-Install",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T01:02:37Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:45.937Z"
+}

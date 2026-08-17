@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-ouroboros",
+  "name": "dsh-ouroboros",
+  "version": "0.0.0",
+  "description": "Agent OS: the agent gets smarter on its own. We just hold the line: the grading command and expected result never make it into the success contract we hand it. Interview-gated, staged evaluation, budgeted evolution loop. MCP server, 13 runtimes: Claude Code, Codex CLI, Gemini CLI",
+  "keywords": [
+    "agent-os",
+    "agentic-ai",
+    "ai-agent",
+    "ai-coding-agent",
+    "claude-code",
+    "cli",
+    "codex",
+    "coding-agent",
+    "deepseek",
+    "deepseek-harness"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Q00/ouroboros",
+  "homepage": "https://ouroboros.page/",
+  "npm": "https://www.npmjs.com/package/dsh-ouroboros",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Q00/ouroboros",
+    "open_issues": 63,
+    "pushed_at": "2026-08-17T04:10:12Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 40,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:33.027Z"
+}

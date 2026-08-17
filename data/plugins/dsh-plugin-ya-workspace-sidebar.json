@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-plugin-ya-workspace-sidebar",
+  "name": "dsh-plugin-ya-workspace-sidebar",
+  "version": "0.0.0",
+  "description": "DSH Web 工作区侧栏替代，顶部全局最近会话 + Workspace→Session 二级菜单 + 面包屑 | DSH Web workspace sidebar replacement: top global recent sessions + Workspace→Session two-level menu + breadcrumbs",
+  "keywords": [],
+  "license": "NOASSERTION",
+  "repo": "https://github.com/HuanLinOTO/dsh-plugin-ya-workspace-sidebar",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-ya-workspace-sidebar",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "HuanLinOTO/dsh-plugin-ya-workspace-sidebar",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T14:44:46Z",
+    "archived": false,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:11.059Z"
+}

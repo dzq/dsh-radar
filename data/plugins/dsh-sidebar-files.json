@@ -36,6 +36,7 @@
   },
   "readme": "# dsh-sidebar-files\n\n[English](README.md) | 中文\n\n为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 提供侧边栏文件树插件：在左侧边栏加入 **会话 / 文件** 标签栏，并在工作区内联渲染按需懒加载的文件树 —— 支持按扩展名区分的彩色图标、复制路径、发送给 Agent 阅读等操作。\n\n![侧边栏中的文件标签](docs/screenshot-v2.png)\n\n> **插件状态。** 已针对发布版 harness（`0.1.0-rc.6`，`web` profile）构建并验证。插件完全以树外 bundle 运行：Node 端通过自身的 HTTP 路由提供目录列表，浏览器端负责渲染文件树。无需修改核心代码。\n\n## 功能特性\n\n- **会话 / 文件标签栏**：注入到「新建会话」按钮下方（宽侧边栏）。文件树内嵌渲染在侧边栏区域中 —— 与 harness 自带浏览界面的呈现方式一致。\n- **按需懒加载**：按需拉取单个目录层级（打开时拉取工作区根目录，首次展开时拉取子目录），通过插件自身的 `GET /dsh-sidebar-files/list?path=…` 路由实现，网络开销只跟随实际展开的内容。\n- **按扩展名图标**：为常见扩展名（ts/js/json/yml/yaml/css/html/md/ico/png/zip/log/…）提供 47 个品牌风格图标，另有通用文档图标兜底。图标路径数据来自 [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme)（MIT，© Material Extensions 2025）—— 见 [LICEN",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T11:55:27.349Z",
   "created_at": "2026-08-15T11:55:27.147Z",
   "gh": null,
@@ -48,5 +49,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:49.231Z"
+  "updated_at": "2026-08-17T04:58:37.610Z"
 }

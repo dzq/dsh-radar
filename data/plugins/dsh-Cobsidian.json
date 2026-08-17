@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-Cobsidian",
+  "name": "dsh-Cobsidian",
+  "version": "0.0.0",
+  "description": "Agent-agnostic workflow skill for maintaining Obsidian knowledge bases",
+  "keywords": [
+    "agent-skill",
+    "ai-agent",
+    "codex",
+    "knowledge-base",
+    "markdown",
+    "obsidian"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Totoro-qaq/Cobsidian",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-Cobsidian",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Totoro-qaq/Cobsidian",
+    "open_issues": 1,
+    "pushed_at": "2026-08-13T17:34:03Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:19.433Z"
+}

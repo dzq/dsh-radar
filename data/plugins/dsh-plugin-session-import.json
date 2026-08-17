@@ -36,17 +36,30 @@
   },
   "readme": "# dsh-plugin-session-import\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n\n> 已收录于 [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) 精选列表（Sessions & Messages）· [AdamPlatin123 自动雷达](https://github.com/AdamPlatin123/awesome-dsh-plugins)（✅ 运行级验证通过）\n\n\nDeepSeek Harness（dsh）插件：把 **claude-code / codex / reasonix / zcode** 的历史聊天记录导入为 dsh 会话（含工作区绑定与工具能力），导入后可直接续聊。\n\n## 功能\n\n- **四种工具解析**：\n  - claude-code（含 Claude-3p 新端、中文路径 `.claude.json` 权威映射）\n  - codex（新旧两种响应格式，`custom_tool_call` 参数自动从 JS 代码转 JSON）\n  - reasonix（旧 CLI + 新桌面版，项目 slug 贪心解码真实路径）\n  - zcode（`db.sqlite` 权威索引 + compaction 压缩摘要还原）\n- **会话发现**：标题 / 项目名 / 消息数 / 时间齐全，30s 缓存扫描\n- **搜索**：按标题 / 项目名过滤（防抖输入）\n- **批量导入**：多选会话一次导入，每个会话独立 seed + 工作区绑定\n- **工具完整可用**：导入会话自动加入默认 ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T11:58:10.772Z",
   "created_at": "2026-08-13T22:48:50.712Z",
-  "gh": null,
+  "gh": {
+    "full_name": "huguangyu666/dsh-plugin-session-import",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T12:21:16Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
-    "quality": 75,
+    "maintenance": 39,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 39,
-    "grade": "D"
+    "overall": 48,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.325Z"
+  "updated_at": "2026-08-17T04:58:09.431Z"
 }

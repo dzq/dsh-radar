@@ -28,6 +28,7 @@
   },
   "readme": "# dsh-soul-md\n\n**GitHub**: [Scorp1o117/dsh-soul-md](https://github.com/Scorp1o117/dsh-soul-md) · **npm**: [dsh-soul-md](https://www.npmjs.com/package/dsh-soul-md) · [English](README.md)\n\nDeepSeek Harness 的人设 + 长期记忆插件——**完全不用管文件**：\n\n> 在 设置 → 人设卡 里输入人设卡的**名称**和**内容**，点保存，剩下的插件全包了。\n\n## 功能\n\n- **人设卡**：卡片内容渲染成系统提示词段落（`soul:persona`）。支持多张卡：设置一张默认卡，聊天框标题栏的「人设」下拉可以给每个会话单独选卡\n- **长期记忆**：Agent 自带五个工具——\n  - `memory_append` / `memory_read` / `memory_rewrite`：持久记忆文件（Agent.md / memory.md 风格）。当前人设卡有自己的记忆，没选卡时用全局记忆\n  - `soul_read` / `soul_update`：AI 自己读、自己**演化人设卡**——发现自己的稳定特质就折叠进卡片，跨会话**持续成长**而不是每次重置\n  - 记忆会以 `soul:memory` 段落注入提示词（有上限），AI 随时看得见自己的记忆\n- **解析规则**：`会话选择（聊天框切换）> 工作区人设 > 默认卡 > 无`，切换下一轮对话即生效，无需重启\n- **工作区人设（v0.5.2）**：设置 → 人设卡 里会列出所有工作区，每个工作区可以指定一张人设卡——该工作区的会话默认用它（会话级切换仍然优先）。工作区列表来自 dsh 的工作区注册表，不用输任",
   "weekly_downloads": 399,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:20:03.169Z",
   "created_at": "2026-08-13T15:50:43.258Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.249Z"
+  "updated_at": "2026-08-17T04:58:28.638Z"
 }

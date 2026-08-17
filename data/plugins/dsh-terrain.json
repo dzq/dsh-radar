@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-terrain",
+  "name": "dsh-terrain",
+  "version": "0.0.0",
+  "description": "AI-native engineering environment management that makes your codebase agent-ready.",
+  "keywords": [
+    "deepseek",
+    "deepwiki",
+    "dsh",
+    "knowledge-base",
+    "okf",
+    "okf-format"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/sopaco/terrain",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-terrain",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "sopaco/terrain",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T15:52:24Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:19.930Z"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "dsh-sentinel",
+  "name": "dsh-sentinel",
+  "version": "0.11.0",
+  "description": "DSH 哨兵：条件驱动的 agent 唤醒系统——文件/进程/端口/命令传感器，订阅存为会话事件，重启自动复活；每个订阅、每次触发对用户完全可见",
+  "keywords": [
+    "dsh",
+    "dsh-better-sidebar"
+  ],
+  "license": "BSD-3-Clause",
+  "repo": "https://github.com/fuhefei/dsh-sentinel",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-sentinel",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ]
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-sentinel\n\n[English](README.md) | 中文\n\n条件驱动的唤醒，给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 用：agent 注册一条 watch 就可以去睡觉——甚至直接关掉会话——条件成立时由 sentinel 把它叫醒。每一次订阅、每一次触发都是用户可见的会话事件，浏览器 dock 上随时能看到谁在值守。\n\n![Sentinel dock 面板（展开）](docs/preview/sentinel-panel.png)\n\n## 工作原理\n\nNode 侧持有一个与 server 同生命周期的运行时：把插件自己的 sidecar 日志（`$DSH_HOME/sentinel.jsonl`）折叠成活跃订阅，按共享的 5 秒心跳逐个探测传感器，命中后走官方 followup 通道投递唤醒——必要时先复活休眠会话的 agent。所以订阅能扛住进程重启；server 停机期间变真的条件，会在下一次探测时补触发。\n\n值守是常驻进程的事：探测和触发投递只在有一个长期运行的 dsh 进程（通常是 `dsh web`）时进行。一次性 headless 运行也能加载插件、创建/列出/取消 watch，但进程退出后没人探测——等下一个常驻进程起来，这些 watch 自动恢复值守。\n\n每个 `$DSH_HOME` 只有一个值守 owner：租约文件 `sentinel.lease` 让第一个进程拥有探测和投递权；同一 home 上的第二个 dsh 进程保持被动（工具可用，写入照常落到共享 sidecar），owner 死后一个租约 TTL 内接管。owner 每个心跳重读 sidecar，被动实例上创建的 watch 会被自动收编。投递语义是 at-least-o",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T03:14:42.521Z",
+  "created_at": "2026-08-17T03:14:42.283Z",
+  "gh": {
+    "full_name": "fuhefei/dsh-sentinel",
+    "open_issues": 1,
+    "pushed_at": "2026-08-17T03:05:03Z",
+    "archived": false,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:56:13.284Z"
+}

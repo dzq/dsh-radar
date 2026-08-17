@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-TMCRA-Agent-Memory",
+  "name": "dsh-TMCRA-Agent-Memory",
+  "version": "0.0.0",
+  "description": "Scope-isolated, graph-based long-term memory engine for AI agents.",
+  "keywords": [
+    "agent-memory",
+    "ai-agents",
+    "claude-code",
+    "codex-plugin",
+    "deepseek-harness",
+    "long-term-memory",
+    "longmemeval",
+    "memory-graph",
+    "openai-codex"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/reshuibuduo/TMCRA-Agent-Memory",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-TMCRA-Agent-Memory",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "reshuibuduo/TMCRA-Agent-Memory",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T04:51:13Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 40,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:33.495Z"
+}

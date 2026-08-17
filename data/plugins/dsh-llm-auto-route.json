@@ -26,6 +26,7 @@
   },
   "readme": "# dsh-llm-auto-route：Provider 自动匹配与路由插件\n\n`dsh-llm-auto-route` 是 DeepSeek Harness 的社区 Cordis 插件。它根据环境变量、Base URL、端口和模型名前缀，从已经由 `dsh-llm-pi-ai` 配置并注册的 route 中选择一个，并在首个可见输出前执行安全的失败切换。\n\n本项目只实现路由策略，不实现 HTTP 协议、不携带 Provider SDK，也不注册 `openai`、`anthropic`、`deepseek` 等适配器 route。Provider、模型目录、凭证、流式协议仍由官方 `@deepseek-ai/dsh-llm-pi-ai` 负责。\n\n> 这是社区项目，不是 DeepSeek Harness 官方包，也不代表官方背书。\n\n## 要求\n\n- Node.js `>=22.19.0`\n- DeepSeek Harness `0.1.0-rc.5` 或兼容的 `0.1.x` 版本\n- 已配置目标 route 的 `@deepseek-ai/dsh-llm-pi-ai`\n\n当前开发依赖按 npm `0.1.0-rc.6` companion packages 验证，同时保持对 `rc.5` 的 peer 兼容范围。\n\n## 安装\n\n```bash\npnpm add dsh-llm-auto-route\n```\n\n官方 base bundle 已包含 `@deepseek-ai/dsh-llm-pi-ai`。如果你手动组合插件，请先加载官方适配器，再加载本包；使用部署中原有的 DeepSeek Harness/Cordis composition 命令加载仓库内的 `cordis.patch.yml`。\n\n这个 patch 只插入一个名为 `llm-auto-route",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T09:11:53.288Z",
   "created_at": "2026-08-14T09:11:52.902Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.312Z"
+  "updated_at": "2026-08-17T04:58:29.710Z"
 }

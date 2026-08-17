@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-hol-guard",
+  "name": "dsh-hol-guard",
+  "version": "0.0.0",
+  "description": "Open-source antivirus for AI agents: block risky tools, secret access, prompt injection, malicious packages, MCP servers, plugins, and skills at runtime.",
+  "keywords": [
+    "agent-security",
+    "ai-agent-security",
+    "ai-agents",
+    "ai-antivirus",
+    "ai-security",
+    "claude-code",
+    "codex",
+    "cursor",
+    "devsecops",
+    "gemini-cli"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/hashgraph-online/hol-guard",
+  "homepage": "https://hol.org/guard",
+  "npm": "https://www.npmjs.com/package/dsh-hol-guard",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "hashgraph-online/hol-guard",
+    "open_issues": 31,
+    "pushed_at": "2026-08-17T04:53:36Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:42.718Z"
+}

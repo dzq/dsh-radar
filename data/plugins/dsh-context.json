@@ -1,0 +1,63 @@
+{
+  "slug": "dsh-context",
+  "name": "dsh-context",
+  "version": "0.10.3",
+  "description": "A DeepSeek Harness plugin for context dashboard and context command, for understanding how the context is made of, and how it evolves.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "cordis",
+    "plugin",
+    "context",
+    "token",
+    "ui"
+  ],
+  "license": "Apache-2.0",
+  "repo": "git+https://github.com/bowenliang123/dsh-context.git",
+  "homepage": "https://github.com/bowenliang123/dsh-context#readme",
+  "npm": "https://www.npmjs.com/package/dsh-context",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "readme": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/bowenliang123/dsh-context/main/docs/social-preview.png\" width=\"840\" alt=\"Social preview\"></p>\n\n# dsh-context\n\n[![npm version](https://img.shields.io/npm/v/dsh-context)](https://www.npmjs.com/package/dsh-context)\n[![GitHub stars](https://img.shields.io/github/stars/bowenliang123/dsh-context?style=social)](https://github.com/bowenliang123/dsh-context)\n\n**A DeepSeek Harness plugin for context dashboard and context command, for understanding how the context is made of, and how it evolves.**\n\n`dsh-context` is a [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness) plugin for context insight.\n\n- **The Context tab** — a full insight panel for context composition, per-turn context history, context compactions, and the mess",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T03:47:40.371Z",
+  "created_at": "2026-08-14T09:26:19.088Z",
+  "gh": {
+    "full_name": "bowenliang123/dsh-context",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T03:47:06Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:54:55.591Z"
+}

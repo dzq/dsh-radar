@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-memoir",
+  "name": "dsh-memoir",
+  "version": "0.0.0",
+  "description": "DSH 项目持久化记忆插件（TypeScript）：会话归纳 + 经验教训沉淀，写入 PROJECT_MEMORY.md 与全局索引；每轮工作结束自动提醒蒸馏、自动注入未来 AGENTS；附 Web GUI 记忆面板（项目/全局 tab、检索、手动记录/删除）。dsh-plugin",
+  "keywords": [
+    "agent",
+    "deepseek-harness",
+    "memory"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/Qinling-Melon-Farmers/dsh-memoir",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-memoir",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Qinling-Melon-Farmers/dsh-memoir",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T16:26:22Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:41.497Z"
+}

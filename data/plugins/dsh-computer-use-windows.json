@@ -26,6 +26,7 @@
   },
   "readme": "# dsh-computer-use\n\nWindows Computer Use tools for DeepSeek Harness. The plugin combines:\n\n- Windows window discovery and foreground input;\n- UI Automation element discovery and focus state;\n- window screenshots;\n- ModLens-compatible 3x3 visual grounding;\n- observation-bound element/coordinate actions;\n- DeepSeek Harness one-shot approval prompts for risky actions.\n\n## Why the grid exists\n\nModLens deliberately returns semantic evidence rather than invented bounding\nboxes. `computer_observe` therefore produces an annotated A1-C3 screenshot.\nFor a custom UI, call `modlens_read_image` on `grid_screenshot_path`, select the\nreported cell with `computer_zoom`, and repeat until the region is small enough\nto click. Standard controls should use the UI Automation `element_index` path.\n\n## Apps witho",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T21:27:22.461Z",
   "created_at": "2026-08-16T21:27:21.453Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.986Z"
+  "updated_at": "2026-08-17T04:58:34.720Z"
 }

@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-image-bridge",
+  "name": "dsh-image-bridge",
+  "version": "0.0.0",
+  "description": "DSH 插件：让纯文本模型也能看图。Web 端直接粘贴图片即可发送，无需指定图片路径；模型自主调用视觉技能查看，多模态模型原生直通，零skill绑定。",
+  "keywords": [
+    "dsh-plugin-market",
+    "dsh-plugin-verify",
+    "dsh-plugins",
+    "image",
+    "ocr",
+    "vision"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/kbpoyo/dsh-image-bridge",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-image-bridge",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": "2026-08-14T15:18:10.059Z",
+  "gh": {
+    "full_name": "kbpoyo/dsh-image-bridge",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T15:28:13Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:43.096Z"
+}

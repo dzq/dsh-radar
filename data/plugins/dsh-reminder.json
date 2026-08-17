@@ -43,6 +43,7 @@
   },
   "readme": "# dsh-reminder\n\n> [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（dsh）的 peon-ping 声音通知插件 —— **忠实移植**自 pi 插件 [`pi-peon-ping-win`](https://github.com/Gohan/pi-peon-ping-win)。\n\n在生命周期事件时播放主题音效（魔兽争霸 III 苦工、GLaDOS、Duke Nukem、星际争霸等），并显示桌面通知 —— 支持原生 Windows（三级音频回退：`ffplay` → `mpv` → `winmm.dll PlaySound`，自定义 WinForms 弹窗）。\n\n## 致谢\n\n本项目是**移植作品**，并非原创。所有底层功能的功劳归于原作者：\n\n- **[pi-peon-ping](https://github.com/joshuadavidthomas/pi-peon-ping)** —— [Josh Thomas](https://github.com/joshuadavidthomas)，pi 编程代理的 peon-ping 通知扩展原作。\n- **[pi-peon-ping-win](https://github.com/Gohan/pi-peon-ping-win)** —— [cppgohan](https://github.com/Gohan)，添加原生 Windows 支持的 fork（音频回退、WinForms 弹窗、事件感知通知）。\n- **[peon-ping](https://github.com/PeonPing/peon-ping)** 与 [OpenPeon](https://github.com/PeonPing/og-packs) 音效包",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:26:40.016Z",
   "created_at": "2026-08-15T03:58:54.619Z",
   "gh": null,
@@ -55,5 +56,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.716Z"
+  "updated_at": "2026-08-17T04:58:35.867Z"
 }

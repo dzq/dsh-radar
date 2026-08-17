@@ -29,6 +29,7 @@
   "engines": {},
   "readme": "# dsh-settings-nav-fold\n\n> [**English**](README.md) | **中文**\n\n给 DeepSeek Harness 设置面板「减负」：插件装得越多，设置页侧边栏的入口就越乱。本插件把所有插件/扩展的设置入口折叠成一个可展开的 **插件入口** 分组行，就放在系统配置下方，带下拉箭头，点击即展开/收起。\n\n![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)\n\n## 功能\n\n- **分组行放在系统配置正下方** —— 通用设置 / 模型 / 插件 / 预设保持平铺；其余入口（插件、扩展、附加页面）全部折叠进「插件入口 (N) ▾」。\n- **一键展开/收起** —— 点击分组行，插件入口在其下方展开；再点即收起。\n- **自动更新** —— 计数与折叠位置实时跟随 `settings.section` 台账重算，插件注册/卸载设置页时自动增减，无需任何配置。\n- **当前页不消失** —— 正在查看的插件设置页即使处于折叠状态也保持可见。\n- **跟随界面语言** —— 中文 / English。\n- **纯浏览器端插件** —— 无宿主端代码，host 进程零负担。\n\n## 安装\n\n```sh\ndsh plugin --profile web add github:zhengjy01/dsh-settings-nav-fold\n```\n\n重启 `dsh` 后打开设置面板（侧边栏底部齿轮），导航即变为「系统配置各项 + 插件入口 (N) ▾」分组行。\n\n## 原理\n\n设置导航列表由面板内部渲染、并非 Slot，因此插件：\n\n1. 读取 `settings.section` 台账（`ctx.slots.entries`），按与面板完全一致的排序算法计算行序；\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:51:20.038Z",
   "created_at": "2026-08-16T08:32:17.413Z",
   "gh": null,
@@ -41,5 +42,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.479Z"
+  "updated_at": "2026-08-17T04:58:33.322Z"
 }

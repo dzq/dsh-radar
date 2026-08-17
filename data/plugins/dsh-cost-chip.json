@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-cost-chip",
+  "name": "dsh-cost-chip",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness (dsh) 插件：/cost 查看每个会话花费 + 可拖拽的悬浮费用胶囊",
+  "keywords": [
+    "cordis",
+    "cost-tracking",
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "pricing",
+    "slash-command",
+    "token-usage"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/boNeXY226/dsh-cost-chip",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-cost-chip",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "boNeXY226/dsh-cost-chip",
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T20:23:38Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 30,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:01.210Z"
+}

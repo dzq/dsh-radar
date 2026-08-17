@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-win-notify",
+  "name": "dsh-win-notify",
+  "version": "0.0.0",
+  "description": "DSH 插件：代理任务完成时弹出带声音的 Windows Toast 通知，点击通知即可直接切回并前台显示 DSH 标签页",
+  "keywords": [],
+  "license": "MIT",
+  "repo": "https://github.com/MuziIsabel/dsh-win-notify",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-win-notify",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "MuziIsabel/dsh-win-notify",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T09:10:21Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 30,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:20.348Z"
+}

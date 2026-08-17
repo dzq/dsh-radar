@@ -24,6 +24,7 @@
   "engines": {},
   "readme": "# dsh-desktop-base\n\nEnglish | [中文](README.zh.md)\n\nThe base aggregate for DeepSeek Harness Desktop community features. One install activates the Web UI collection, plugin market, Codex Connect, and reasoning-effort controls used by the Desktop distribution.\n\nThis package is a dependency and configuration carrier. It does not copy, rename, or claim ownership of any upstream plugin.\n\n## Included packages\n\n- `@linxin666/dsh-web-ui-all@0.1.15`\n- `dshmarket@1.3.0`\n- `dsh-codex-connect@0.1.0-alpha.4.5`\n- `reasoning-slider@0.0.2`\n\nTencent QQ Bot is not included. Its connector requires separate redistribution and branding permission before it can be part of a public aggregate or installer.\n\n## Install\n\n```sh\ndsh plugin --profile web add dsh-desktop-base\n```\n\nRestart the DSH Web profile after instal",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:57:17.141Z",
   "created_at": "2026-08-15T14:57:16.882Z",
   "gh": null,
@@ -36,5 +37,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.748Z"
+  "updated_at": "2026-08-17T04:58:37.089Z"
 }

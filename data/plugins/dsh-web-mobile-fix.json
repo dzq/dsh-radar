@@ -27,17 +27,25 @@
   "engines": {},
   "readme": "# dsh-web-mobile-fix\n\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web UI 的移动端布局修复插件。\n\n纯客户端 CSS 覆盖层，在窄屏（视口 ≤700px）下修复最影响使用的移动端问题，完全不改动产品源码：\n\n- 设置面板改为全屏纵向布局，不再被挤成桌面布局\n- 目录选择器底部（取消/确定）固定在同一个底部行\n- 侧边栏打开时全屏显示，不再挤压对话区\n- 设置页插件导航（4 个按钮）单行排满\n- 会话日志按钮收成图标\n- 输入框模型名隐藏（只留下拉箭头）\n- 下拉菜单/弹层/菜单居中显示\n\n## 工作原理\n\n插件带一个浏览器端（`exports[\"./client\"]`，通过 `dsh.client.platform: \"web\"` 声明），由 client-modules 扫描器发现并随启动清单加载。它注入一个 `<style>` 标签，内容是针对产品稳定 `data-slot` 属性的 `@media (max-width: 700px)` 覆盖；插件卸载时标签自动移除——完全可逆。\n\n## 兼容性\n\n- 需要 Harness Web profile（`dsh --profile web`），0.1.x 系列均可\n- 选择器针对产品槽位契约，同版本线内稳定；产品大改版后可能需要小幅调整\n\n## 安装\n\n### 方式一：bundle 安装（推荐）\n\n从 npm 安装：\n\n```sh\ndsh plugin --profile web add dsh-web-mobile-fix\n```\n\n（不走 npm / 本地开发时，可用仓库地址：\n\n```sh\ndsh plugin --profile web add github:AcidGr/dsh-web-mobi",
   "weekly_downloads": 255,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T00:36:06.880Z",
   "created_at": "2026-08-14T14:57:27.766Z",
-  "gh": null,
+  "gh": {
+    "full_name": "AcidGr/dsh-web-mobile-fix",
+    "stars": 5,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T12:16:23Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 60,
-    "maintenance": 0,
+    "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 54,
-    "grade": "C"
+    "overall": 62,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.260Z"
+  "updated_at": "2026-08-17T04:57:22.866Z"
 }

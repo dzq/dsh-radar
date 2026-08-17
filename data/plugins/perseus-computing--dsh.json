@@ -27,6 +27,7 @@
   },
   "readme": "# @perseus-computing/dsh\n\nPerseus Vault memory plugin for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness): automatic, push-based memory injection.\n\nThe harness's MCP row is pull-based — the agent must remember to call `mcp__perseus_vault__recall`. This plugin closes that gap: on every step that carries a user message it runs [`perseus-vault prepare`](https://github.com/Perseus-Computing-LLC/perseus-vault#prepare) (local SQLite queries, zero LLM calls) and injects the resulting `<memory-prep>` block into the agent's system prompt as the `perseus-vault-memory` section.\n\n## Requirements\n\n- Node.js ≥ 22.18\n- `perseus-vault` binary on PATH (pinned: 2.23.0)\n- DeepSeek Harness ≥ 0.1.0-rc.5 (developer preview — the seams used here are `agent/created`, `agent/pre-step`, and `sys",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T18:43:33.355Z",
   "created_at": "2026-08-16T17:28:25.443Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.339Z"
+  "updated_at": "2026-08-17T04:58:30.585Z"
 }

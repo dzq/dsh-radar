@@ -28,6 +28,7 @@
   "engines": {},
   "readme": "# dsh-plugin-hot-toggle\n\n在 DeepSeek Harness Web 设置页的「插件 → 启停管理」标签页中，对所有已安装插件**一键热启用/停用**——点击立即生效，无需重启 DSH，状态自动持久化。\n\n[English](./README.md) | 中文文档\n\n<p align=\"center\">\n  <a href=\"https://github.com/topics/dsh-plugin\"><img alt=\"dsh-plugin topic\" src=\"https://img.shields.io/badge/topic-dsh--plugin-1f6feb?style=flat-square&logo=github\"></a>\n  <a href=\"https://www.npmjs.com/package/dsh-plugin-hot-toggle\"><img alt=\"npm\" src=\"https://img.shields.io/npm/v/dsh-plugin-hot-toggle?style=flat-square\"></a>\n  <a href=\"https://github.com/5102a/dsh-plugin-hot-toggle/actions\"><img alt=\"CI\" src=\"https://img.shields.io/github/actions/workflow/status/5102a/dsh-plugin-hot-toggle/ci.yml?style=flat-square\"></a>\n  <a href=\"./LICENSE\"><img alt=\"License: MIT\" src=\"https://img.shields.io/badge/license-MIT-blue.svg?sty",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T07:39:08.935Z",
   "created_at": "2026-08-16T06:51:30.853Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.628Z"
+  "updated_at": "2026-08-17T04:58:31.982Z"
 }

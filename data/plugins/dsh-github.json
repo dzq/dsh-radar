@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-github",
+  "name": "dsh-github",
+  "version": "0.1.0",
+  "description": "Abstract GitHub capability seam (ctx.github) for the DeepSeek Harness — provider registry, execution-time resolution, normalized read/write vocabulary, seam-enforced diff budgets, and the GitHubError taxonomy",
+  "keywords": [],
+  "license": "MIT",
+  "repo": "git+https://github.com/kaziii/dsh-github-connector.git",
+  "homepage": "https://github.com/kaziii/dsh-github-connector#readme",
+  "npm": "https://www.npmjs.com/package/dsh-github",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-github\r\n\r\n[English](README.md) | 中文\r\n\r\n**`GitHubRuntime`**（`ctx.github`）定义 harness 拥有怎样的 GitHub 访问能力——搜索、读 issue/PR/diff/checks、建 issue/评论/PR——通过注册的 provider 执行，而不把模型契约绑死在某一种传输实现的 API 形状上。\r\n\r\n本包承担 GitHub 能力的 Service Definition 角色（设计见 [docs/design/design.md](../../../docs/design/design.md) §3–§4）：\r\n\r\n| 包 | 角色 |\r\n|---|---|\r\n| `dsh-github`（本包） | Service Definition：服务、provider 注册表、选择策略、读写词汇、seam 层 diff 预算执行、`GitHubError` 错误分类 |\r\n| `dsh-github-rest` | Provider：`fetch` 直调 GitHub REST v3（M2） |\r\n| `dsh-tool-github` | Consumer：基于 `ctx.github` 的模型侧 `github_*` 工具（M3/M4） |\r\n\r\n读与写刻意由**单一 provider 接口**拥有（ADR-0003）：它们共享身份、凭据与限流配额，拆开会让鉴权状态产生分歧。\r\n\r\n## 服务 API（`ctx.github`）\r\n\r\n| 成员 | 语义 |\r\n|---|---|\r\n| `registerProvider(provider)` | 注册一个后端。id 重复时抛 `GitHubError` `GITHUB_PROVIDER_DUPLICATE`。返回 disposer，随",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T07:27:31.130Z",
+  "created_at": "2026-08-14T07:27:30.903Z",
+  "gh": {
+    "full_name": "kaziii/dsh-github-connector",
+    "open_issues": 1,
+    "pushed_at": "2026-08-17T04:22:33Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 65,
+    "security": 40,
+    "dsh_compat": 75,
+    "overall": 42,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:45.945Z"
+}

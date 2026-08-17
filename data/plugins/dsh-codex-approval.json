@@ -26,6 +26,7 @@
   },
   "readme": "# dsh-codex-approval\n\n> **仿照 OpenAI Codex CLI 审批模型的 AI 自动审批插件**，为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（dsh）带来 Codex 式的智能审批体验。\n\ndsh 原生只有两种审批策略：模式级沙箱（`read-only` / `workspace-write` / `danger-full-access`）和一刀切的 `ask`/`never` 策略——**没有命令级规则，也没有 AI 风险评估**。本插件在 dsh 的 `approval/request` 应答者（answerer）seam 上实现了一个完整的自动审批决策链：\n\n```\n规则层（Codex approve-always / reject-always 风格）\n  → AI 审判层（Codex 三级风险 + 三级授权 + risk tolerance）\n  → 人类兜底（GUI 弹窗）\n```\n\n## 仿照 Codex 的什么\n\n| Codex CLI | 本插件 |\n|---|---|\n| `--approve-always 'Bash(git diff)'` / `--reject-always` | glob 规则（`Bash(git *)` / `reason:*curl*`），动作 `allow` / `ask` / `deny`，安全优先级 **deny > ask > allow** |\n| 工具风险分级 `low` / `medium` / `high` | AI 对每次审批请求输出 `risk: low\\|medium\\|high`（只读=low、有界修改=medium、破坏/泄密/系统级=high） |\n| 三级授权 | AI 输",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T19:45:57.803Z",
   "created_at": "2026-08-15T09:16:37.511Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.626Z"
+  "updated_at": "2026-08-17T04:58:31.981Z"
 }

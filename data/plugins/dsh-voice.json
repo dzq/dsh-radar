@@ -28,11 +28,11 @@
   },
   "readme": "[English](README.en.md)\n\n# dsh-voice\n\n> **你的 agent 会说话了**：edge-tts 微软神经语音免费无限量 + Whisper 转写。\n\n![npm version](https://img.shields.io/npm/v/dsh-voice?label=npm&color=blue) ![npm downloads](https://img.shields.io/npm/dm/dsh-voice) ![license](https://img.shields.io/npm/l/dsh-voice) ![stars](https://img.shields.io/github/stars/STARDUSTLC666/dsh-voice?style=social)\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n\n\nDSH（DeepSeek Harness）语音双件套插件：让 agent **会说话、能听懂**。\n\n- **voice_tts**：文字转语音，走 **edge-tts 协议**（微软 Edge 朗读服务，免费无限量，22+ 常用音色）\n- **voice_stt**：语音转文字，走 **OpenAI 兼容 ASR 接口**（Groq / OpenAI / 自定义端点）\n- **voice_list**：音色清单\n\n## 安装\n\n```bash\ndsh plugin --profile web add dsh-voice\n```\n\n## 配置\n\n`voice_tts` 零配置可用；`voice_stt` 需要 ASR 密钥：\n\n```yaml\n- id: voic",
   "weekly_downloads": 131,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T11:15:04.714Z",
   "created_at": "2026-08-14T20:17:13.460Z",
   "gh": {
     "full_name": "STARDUSTLC666/dsh-voice",
-    "stars": 2,
     "open_issues": 1,
     "pushed_at": "2026-08-16T11:10:13Z",
     "archived": false,
@@ -47,5 +47,5 @@
     "overall": 59,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.272Z"
+  "updated_at": "2026-08-17T04:57:58.931Z"
 }

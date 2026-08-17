@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-plugin-template",
+  "name": "dsh-plugin-template",
+  "version": "0.0.0",
+  "description": "Template for deepseek-harness plugin development.",
+  "keywords": [],
+  "license": "MIT",
+  "repo": "https://github.com/bugmaker2/dsh-plugin-template",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-template",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "bugmaker2/dsh-plugin-template",
+    "open_issues": 1,
+    "pushed_at": "2026-08-14T04:18:16Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:27.420Z"
+}

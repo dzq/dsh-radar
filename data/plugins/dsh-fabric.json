@@ -1,0 +1,38 @@
+{
+  "slug": "dsh-fabric",
+  "name": "dsh-fabric",
+  "version": "0.0.0",
+  "description": "一种类似MC Fabric的hook处理器",
+  "keywords": [
+    "dsh"
+  ],
+  "license": "",
+  "repo": "https://github.com/omdsh-dev/fabric",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-fabric",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "omdsh-dev/fabric",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T02:23:53Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 15,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 25,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:47.035Z"
+}

@@ -23,6 +23,7 @@
   },
   "readme": "# qmd-autosearch\n\n自动补搜插件：当模型在知识库目录执行 `grep` / `glob` 搜索时，自动补充一次 QMD 语义检索，并把结果注入模型上下文。\n\nDeepSeek Harness 插件（`dsh-plugin`）。零外部依赖。\n\n## 功能\n\n- **自动触发**：模型在 QMD 集合对应的目录内执行 `grep` / `glob`（顶层调用）即触发，无需显式调用\n- **语义补搜**：QMD 单次查询（lex + vec，服务端 LLM 重排），检索范围限定在配置的 collections\n- **智能查询词**：以最近的用户消息（任务要求）为语义主查询；消息过短或与搜索主题无关时，回退使用 grep pattern\n- **异步注入**：结果排队到 `agent.inbox.nextStep`，下一个 pre-step 注入模型上下文，不阻塞当前工具调用\n- **防重复**：同一 agent 内相同（工具、路径、pattern）签名只补搜一次\n- **容错**：QMD 服务不可用或查询无结果时静默跳过，不影响原流程\n\n## 工作原理\n\n```\ngrep/glob 执行完成 → tools/result 钩子\n  → 路径在触发范围内（由 QMD status 解析的集合路径）？\n  → QMD query（collections 限定 + LLM 重排）\n  → 结果排队 agent.inbox.nextStep\n  → 下一个 pre-step 注入模型上下文（user 角色 system-reminder 风格）\n```\n\n## 安装\n\n### 方式一：npm 安装（发布后可用）\n\n```bash\ndsh plugin --profile web add qmd-autosearch\n```\n\n### 方式二：本地路径引用（开发调试）\n\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T10:52:08.725Z",
   "created_at": "2026-08-15T10:52:08.511Z",
   "gh": null,
@@ -35,5 +36,5 @@
     "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.983Z"
+  "updated_at": "2026-08-17T04:58:34.720Z"
 }

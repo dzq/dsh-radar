@@ -1,0 +1,36 @@
+{
+  "slug": "dsh-distill",
+  "name": "dsh-distill",
+  "version": "0.0.0",
+  "description": "自动对话蒸馏：后台 subagent 反省 + 技能 create/update",
+  "keywords": [],
+  "license": "",
+  "repo": "https://github.com/LoserFox/distill",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-distill",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "LoserFox/distill",
+    "open_issues": 1,
+    "pushed_at": "2026-08-13T13:11:31Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 15,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 24,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:33.141Z"
+}

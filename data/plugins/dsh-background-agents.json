@@ -39,6 +39,7 @@
   },
   "readme": "# dsh-background-agents\r\n\r\n> 为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 提供可交互的长会话后台 agent。启动一个持久化子 agent，它自己干活、你继续聊天——随时查看进度、发消息干预、请求停止，全程不离开当前会话。\r\n\r\n[English](./README.md) · [中文](./README.zh.md) · [Español](./README.es.md) · [Português](./README.pt.md) · [हिन्दी](./README.hi.md)\r\n\r\n[![license](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)\r\n[![topic: dsh-plugin](https://img.shields.io/badge/topic-dsh--plugin-4d6bfe)](https://github.com/topics/dsh-plugin)\r\n[![topic: dsh](https://img.shields.io/badge/topic-dsh-4d6bfe)](https://github.com/topics/dsh)\r\n\r\nDSH 内置的后台 *jobs* 是\"发后即忘\"的工具执行：能读输出、能杀掉，但没法跟它对话。`dsh-background-agents` 把它升级为官 subagent seam 上的**完整后台 agent 会话**——一个可继续（continuable）的子会话，随时可发消息、可干预、可中断；它每完成一轮，就有一条节流过的进度摘要注入父会话，模型和人都看得见。\r\n\r\n##",
   "weekly_downloads": 81,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T15:29:03.507Z",
   "created_at": "2026-08-14T11:24:28.523Z",
   "gh": null,
@@ -51,5 +52,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.279Z"
+  "updated_at": "2026-08-17T04:58:29.353Z"
 }

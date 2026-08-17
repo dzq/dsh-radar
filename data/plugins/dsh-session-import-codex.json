@@ -26,6 +26,7 @@
   },
   "readme": "# dsh-session-import-codex\n\n[English](README.md) | 中文\n\n这是一个独立于 DeepSeek Harness 源码树的插件和 PowerShell CLI，用于导入 Codex 对话历史。它通过官方 [Codex App Server](https://developers.openai.com/codex/app-server/) 稳定历史接口读取对话，把已结束的 turn 转换为经过验证的 Harness session event，通过目标 profile 的公开服务持久化，并按照历史工作目录创建或复用工作区。\n\n首选用法是一次性 CLI。`/import-codex` 聊天命令继续保留，用于开发调试和按 thread id 导入。\n\n## CLI 会导入什么\n\n- `thread/list` 在 `archived: false` 条件下返回的全部未归档交互式 Codex 对话；\n- 当前转换器能够表示的 completed、interrupted 和 failed turn；\n- 默认只导入 reasoning summary，绝不导入原始 reasoning 内容；\n- 目标 session 使用 `codex-<thread-id>` 形式的确定性 id。\n\n仍处于 active 状态的对话会跳过。已存在的目标 id 不会重写 session 日志；真实迁移重跑会刷新其冷态投影，并重复执行幂等的工作区关联。单条源数据异常只会记录失败，不会中止后续批次。\n\n导入器不会读取 Codex rollout 文件、桌面应用状态、SQLite 数据库或私有 JSONL 文件，也不会直接写 Harness 的持久化文件。\n\n## 从 npm 安装\n\n要求：\n\n- Node.js `^22.19` 或 `>=24`；\n- pn",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T09:55:01.893Z",
   "created_at": "2026-08-14T08:38:55.753Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.607Z"
+  "updated_at": "2026-08-17T04:58:31.631Z"
 }

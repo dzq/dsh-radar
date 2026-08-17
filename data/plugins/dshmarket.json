@@ -35,6 +35,7 @@
   "engines": {},
   "readme": "<p align=\"center\">\n  <img src=\"assets/logo.svg\" width=\"96\" alt=\"dsh-market logo\">\n</p>\n\n# dsh-market\n\n[English](README.md) | 中文\n\n[![npm](https://img.shields.io/npm/v/dshmarket)](https://www.npmjs.com/package/dshmarket)\n[![stars](https://img.shields.io/github/stars/dsh-market/dsh-market?style=flat)](https://github.com/dsh-market/dsh-market)\n\n装在 DeepSeek Harness 里的插件市场。打开设置 → **插件市场** → 逛一逛，点一下，装好。\n\n![dsh-market](assets/demo-zh.png)\n\n主题一键换——装完即生效，点一下切换，不用重启：\n\n![主题](assets/themes-zh.png)\n\n## 安装\n\n```sh\ndsh plugin --profile web add dshmarket\n```\n\n重启 `dsh web`，打开 **设置 → 插件市场**。\n\n## 你会得到\n\n- **逛与搜**——完整社区目录（300+ 插件，每天在涨），分类筛选、star 数、最热/最新排序，中英描述跟随界面语言\n- **主题**——独立主题页：装完立即生效，点一下切换（主题互斥、选择跨重启保留），卸载即恢复\n- **一键安装**——确认来源，实时进度；多数插件刷新页面即可用，无需重启\n- **更新**——逐插件检测（npm 版本或锁定 commit 对比 HEAD），一键更新或全部更新；市场自己也走同一",
   "weekly_downloads": 11862,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:22:18.484Z",
   "created_at": "2026-08-13T15:33:59.185Z",
   "gh": null,
@@ -47,5 +48,5 @@
     "overall": 64,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.198Z"
+  "updated_at": "2026-08-17T04:58:28.359Z"
 }

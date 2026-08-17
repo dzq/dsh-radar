@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-media-skills",
+  "name": "dsh-media-skills",
+  "version": "0.0.0",
+  "description": "Free vision & image generation for DeepSeek Harness — paste an image into any chat, even text-only sessions. GLM-4V-Flash / Qwen3-VL / Gemini failover chain, ModLens-style structured evidence, Kolors generation. 免费读图·生图 · 三引擎容错 · 无 Key 入库",
+  "keywords": [
+    "agent-skills",
+    "deepseek-harness",
+    "image-generation",
+    "skill",
+    "vision"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/akqwpeter-prog/dsh-media-skills",
+  "homepage": "https://github.com/akqwpeter-prog/dsh-media-skills",
+  "npm": "https://www.npmjs.com/package/dsh-media-skills",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "akqwpeter-prog/dsh-media-skills",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T14:29:51Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:11.779Z"
+}

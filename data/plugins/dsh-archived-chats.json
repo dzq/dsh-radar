@@ -32,6 +32,7 @@
   "engines": {},
   "readme": "# dsh-archived-chats\n\n为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 新增一个「已归档的聊天」设置页，把被归档的会话重新找回来。\n\n在 DeepSeek Harness 里，聊天一旦归档就会从侧边栏消失，界面中没有任何入口可以再看到它，只有工作区存档（`~/.dsh/storages/workspace.json`）还记得它。这个插件在「设置」中补上一个「已归档的聊天」页面，让所有归档会话都可见、可搜索、可管理。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-archived-chats\n```\n\n安装后重启一次 DSH，然后打开 **设置 → 已归档的聊天**。\n\n## 功能\n\n- **完整归档列表**：按工作区（项目）分组并显示每组数量；每个分组都可折叠/展开，状态按浏览器记忆。\n- **搜索**标题，外加两个筛选器：类型（全部 / 普通会话 / 子代理会话）和项目。\n- **取消归档**单个聊天，或从分组的 `⋯` 菜单整组取消——恢复的聊天会立刻回到侧边栏。\n- **删除**单个聊天、某个项目分组或全部（**全部删除**），均有确认弹窗。删除是彻底的：会话日志从磁盘移除、从工作区记录中摘除、注册表内存索引同步清理，主侧边栏的条目也会立即消失。\n- 仍驻留后台的会话会被**永久停用**，待下次启动 DSH 时完成物理删除——不会留下半删除状态，停用期间会话保持隐藏。\n- 适配浅色/深色主题，支持中文和英文界面。\n\n## 实现原理\n\n- **Host 半**（`lib/index.js`）在 DSH Web 服务器上注册 `/plugins/dsh-archived-chats/*` 路由：`GET /stat",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T00:28:23.759Z",
   "created_at": "2026-08-16T00:28:23.555Z",
   "gh": null,
@@ -44,5 +45,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.623Z"
+  "updated_at": "2026-08-17T04:58:31.893Z"
 }

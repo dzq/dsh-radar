@@ -36,17 +36,30 @@
   },
   "readme": "# dsh-multi-folder\n\n[English](README.md) | **中文**\n\n> 为 DeepSeek Harness 项目提供**副工作目录**——不离开主工作区，同时编辑源码库、测试库与文档库。\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n[![Node.js >= 20](https://img.shields.io/badge/Node.js-%3E%3D20-brightgreen)](https://nodejs.org/)\n[![npm version](https://img.shields.io/npm/v/dsh-multi-folder)](https://www.npmjs.com/package/dsh-multi-folder)\n[![GitHub issues](https://img.shields.io/github/issues/AngelosZou/dsh-multi-folder)](https://github.com/AngelosZou/dsh-multi-folder/issues)\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n\n一个 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 插件 bundle，为一个 Project（工作区）提供一组**副工作目录**：\n\n- Agent 的核心 `cwd` 等属性始终指向**主工作目录**；\n- 在 **Work",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:29:03.310Z",
   "created_at": "2026-08-14T12:07:25.310Z",
-  "gh": null,
+  "gh": {
+    "full_name": "AngelosZou/dsh-multi-folder",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T15:28:24Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
-    "quality": 75,
+    "maintenance": 39,
+    "quality": 85,
     "security": 55,
     "dsh_compat": 80,
-    "overall": 39,
-    "grade": "D"
+    "overall": 49,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:47.742Z"
+  "updated_at": "2026-08-17T04:57:42.282Z"
 }

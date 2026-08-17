@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-vision-provider",
+  "name": "dsh-vision-provider",
+  "version": "0.0.0",
+  "description": "Config-only DeepSeek Harness bundle for OpenAI-compatible vision models.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "multimodal",
+    "openai-compatible",
+    "vision"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/libinyam/dsh-vision-provider",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-vision-provider",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "libinyam/dsh-vision-provider",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T04:05:40Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:08.456Z"
+}

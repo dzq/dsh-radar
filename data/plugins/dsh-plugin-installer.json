@@ -1,0 +1,55 @@
+{
+  "slug": "dsh-plugin-installer",
+  "name": "dsh-plugin-installer",
+  "version": "2.0.1",
+  "description": "DSH 插件商店 + 安装排障技能一体包：Web GUI「插件商店」页签浏览插件目录（名称/介绍/原链接），一键触发安装；内置 dsh-plugin-installer 技能作为安装后端引擎。",
+  "keywords": [
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Toukaiteio/dsh-plugin-installer",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-installer",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-plugin-installer\r\n\r\n> DeepSeek Harness（dsh）的**插件商店 + 安装助手**：在 Web GUI 里逛插件目录，一键确认安装，agent 替你装好。\r\n\r\n![License: MIT](https://img.shields.io/badge/license-MIT-blue)\r\n![npm](https://img.shields.io/npm/v/dsh-plugin-installer)\r\n![CI](https://github.com/zhang66633/dsh-plugin-installer/actions/workflows/ci.yml/badge.svg)\r\n![dsh](https://img.shields.io/badge/dsh-0.1.0--rc.6-green)\r\n![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)\r\n![Docs](https://img.shields.io/badge/docs-简体中文%20%7C%20English-informational)\r\n\r\n[简体中文](./README.zh-CN.md) · [English](./README.md)\r\n\r\n---\r\n\r\n## Overview\r\n\r\n`dsh-plugin-installer` 是 dsh 的**双面插件**，一个包提供两样东西：\r\n\r\n1. **插件商店**：Web GUI 会话视图环里的「插件商店」页签——浏览、搜索插件目录（名称 / 介绍 / 原链接 / star 数），点「安装」先二次确认，再发起安装请求。\r\n2. **安装助手技能**：随包内置",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T01:15:30.638Z",
+  "created_at": "2026-08-14T02:53:52.484Z",
+  "gh": {
+    "full_name": "Toukaiteio/dsh-plugin-installer",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T08:19:46Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:12.871Z"
+}

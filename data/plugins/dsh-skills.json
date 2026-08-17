@@ -35,17 +35,25 @@
   "engines": {},
   "readme": "# dsh-skills\n\n简体中文 | [English](README.md)\n\nnpm 包名:`dsh-skills` · GitHub 仓库:\n[CocoSgt/dsh-skills](https://github.com/CocoSgt/dsh-skills)\n\nDeepSeek Harness(dsh)的第三方技能中枢:**把散落各处的技能汇成全局库**。\nClaude Code 的 `~/.claude/skills`、项目目录、`.skill` 包……统一入库到\n`~/.dsh/skills`(官方 skill-filesystem 的默认扫描根,watcher 实时),入库即\n出现在输入框的「/」斜杠菜单。设置页里的「技能」导航页。\n\n## 两种入库身份\n\n| | 引用(推荐) | 副本 |\n| --- | --- | --- |\n| 实现 | `skills/<name>` → 来源的**符号链接** | 整树拷贝 |\n| 同步 | **不存在同步问题**:只有一份文件,编辑即编辑来源 | 与来源独立演化(state 记录来源备查) |\n| 来源删了 | 面板标注「引用失效」,一键移除(不动来源) | 无影响 |\n| 适用 | 来源长期存在且归你维护 | 来源临时(.skill 包、要删的仓库),或想改全局版不动来源 |\n\nharness 的技能扫描、fs 提供者与 watcher 都原生跟随符号链接(实测\nskill-filesystem 的 `nodeEntryKind` 显式处理),引用无需任何补丁,且在\n全部加载形态(含 SDK/ACP,插件装不进去的那些)下生效。\n\n## 概念对齐 harness 现实\n\n- **没有「安装」这回事**:技能放进扫描根即生效。本页管理的是全局库\n  (`~/.dsh/skills`,rank 400,对所有会话",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T14:06:25.206Z",
   "created_at": "2026-08-14T09:29:05.518Z",
-  "gh": null,
+  "gh": {
+    "full_name": "creght-dev/skills",
+    "stars": 8,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T08:22:30Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
+    "maintenance": 39,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 39,
-    "grade": "D"
+    "overall": 46,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:47.730Z"
+  "updated_at": "2026-08-17T04:56:40.724Z"
 }

@@ -20,6 +20,7 @@
   },
   "readme": "# @npm_thanks-for-forest/my-dsh-tool\n\n最小 dsh 工具插件：向 deepseek-harness（`dsh`）注册一个 `read_file` 工具，模型可直接读取磁盘文件。\n\n## 安装与挂载\n\n```powershell\n# 在 dsh profile 中安装插件（以 web profile 为例）\ndsh plugin --profile web add @npm_thanks-for-forest/my-dsh-tool\n```\n\n在 profile 的 `cordis.patch.yml` 中追加插件行：\n\n```yaml\n# <$DSH_HOME>/profiles/web/cordis.patch.yml\n- id: my-tool\n  path: '@npm_thanks-for-forest/my-dsh-tool'\n```\n\n启动 `dsh web` 后，`read_file` 即出现在模型可见工具列表；Code Mode 下可用 `await tools.read_file(args)` 调用。\n\n## 工具 API\n\n### `read_file`\n\n| 项 | 说明 |\n|---|---|\n| 描述 | Read a file from disk. |\n| 参数 `path` | string，必填。绝对路径 |\n| 参数 `limit` | number，可选。最多读取的字符数 |\n| 输出 | string（canonical JSON value，非文本残渣） |\n\n- 参数由注册表按 schema 自动校验（类型/必填），不合规调用返回 `isError`\n- 读取过程中尊重 `exec.signal`，取消信号触发即停\n- `output.render` 为纯函数，UI 卡片与模型结果分离\n\n## ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T02:01:16.053Z",
   "created_at": "2026-08-15T01:18:27.708Z",
   "gh": null,
@@ -32,5 +33,5 @@
     "overall": 27,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.448Z"
+  "updated_at": "2026-08-17T04:58:32.702Z"
 }

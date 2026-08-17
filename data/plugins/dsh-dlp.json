@@ -27,6 +27,7 @@
   },
   "readme": "# dsh-dlp\n\nData-loss prevention for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness),\nbuilt as an out-of-repo plugin.\n\nIt does six things:\n\n1. **Denies credential-file access and secrets bound for the network** — unconditionally, from\n   `ctx.tools.guard()`. It tests the path-typed arguments of a call against a table of\n   credential stores, following symlinks first.\n2. **Redacts secrets out of tool results** before the model reads them and before the session\n   log records them, and withholds a result it cannot clean.\n3. **Redacts secrets out of exported telemetry**, patching a hole where `DSH_TELEMETRY_MODE=FULL`\n   ships message text, tool arguments, tool results and workspace paths in the clear.\n4. **Strips the invisible characters that carry hidden instructions** ou",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T22:29:13.159Z",
   "created_at": "2026-08-16T13:05:17.028Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.637Z"
+  "updated_at": "2026-08-17T04:58:32.339Z"
 }

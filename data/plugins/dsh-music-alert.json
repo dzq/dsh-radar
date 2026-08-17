@@ -31,6 +31,7 @@
   "engines": {},
   "readme": "# dsh-music-alert\n\nDSH 任务完成播放提示音 + 按需音乐播放插件。\n\n长任务完成时自动播放一段提示音；Agent 也可通过 `play_music` 工具主动播放。Web 设置页提供「音乐提醒」面板：上传 / 试听 / 设为完成音 / 删除 / 启停开关。\n\n---\n\n## Overview\n\n- **解决什么问题**：DSH 长任务（构建、批量生成、耗时等待）完成后，用户往往不在屏幕前。本插件在每轮 turn 结束（`agent/status` → `idle`）时自动播放 `~/.dsh/music/` 下的默认完成音，把用户叫回来看结果。\n- **适合谁**：本地运行 DSH（macOS / Linux）且希望有声音提醒的用户。\n- **能力**：\n  - Host 半（`lib/index.js`）：自动完成播报 + `play_music` 工具 + `play-music` skill 引导 + `musicAlert` Remote 服务（音乐库读写）。\n  - Web 半（`lib/client.js`）：设置页「音乐提醒」tab（上传 / 列表 / 播放 / 设为完成音 / 删除 / 启用开关），通过 `dsh.client` 双面声明加载。\n\n## Compatibility\n\n- 面向 DeepSeek Harness（DSH）Web profile。\n- peer 依赖：`@deepseek-ai/*` `^0.1.0-rc.6`、`@deepseek-ai/cordis ^4.0.1`、`react ^18.2.0`。\n- 平台：Host 半调用系统命令行播放器（macOS `afplay`；Linux `aplay` / `paplay` / `ffplay` / `mpg123`）；Web 半渲染于 Web profile",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:14:06.876Z",
   "created_at": "2026-08-16T08:14:06.678Z",
   "gh": null,
@@ -43,5 +44,5 @@
     "overall": 36,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:55.168Z"
+  "updated_at": "2026-08-17T04:58:38.765Z"
 }

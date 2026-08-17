@@ -33,6 +33,7 @@
   },
   "readme": "# dsh-worktree-workspaces\n\n[English](README.md) | 中文\n\n为 DeepSeek Harness 创建和归档 Git linked worktree。同一包提供 `/worktree` 斜杠命令、`worktree_create` 模型工具、`dsh-worktree` CLI，以及用于切换 DSH Workspace 的 Web 弹层。\n\n已按 `@deepseek-ai/dsh@0.1.0-rc.6` 验证。\n\n## 安装\n\n需要 Node.js 22 或更高版本，并确保 `pnpm` 在 `PATH` 中：\n\n```bash\ndsh plugin --profile web add dsh-worktree-workspaces@0.1.0\n```\n\n卸载命令：`dsh plugin --profile web remove dsh-worktree-workspaces`。\n\n## 做什么\n\nGit 自身的 `git worktree list --porcelain -z` 是工作树事实源；DSH Workspace 只负责 Web/会话入口。本包不建立第二套台账。\n\n![工作树选择器](screenshots/picker.png)\n\n## `/worktree`\n\n这些命令直接执行，不发送给模型。\n\n| 输入 | 结果 |\n| --- | --- |\n| `/worktree status` | 打印仓库根目录、当前路径、分支和工作树数量。 |\n| `/worktree new [分支]` | 创建新分支和 linked worktree，并注册为 DSH Workspace。省略分支时使用 `dsh/<session-id>`。 |\n| `/worktree` | 在 Web 上打开 `popupSelect`",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:02:26.824Z",
   "created_at": "2026-08-15T14:02:26.515Z",
   "gh": null,
@@ -45,5 +46,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.329Z"
+  "updated_at": "2026-08-17T04:58:30.322Z"
 }

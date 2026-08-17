@@ -22,6 +22,7 @@
   "engines": {},
   "readme": "# dsh-Friend shared\n\nCompatibility seams and future shared host/client primitives for dsh-Friend.\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T05:39:08.799Z",
   "created_at": "2026-08-14T16:00:58.392Z",
   "gh": null,
@@ -34,5 +35,5 @@
     "overall": 27,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.737Z"
+  "updated_at": "2026-08-17T04:58:36.651Z"
 }

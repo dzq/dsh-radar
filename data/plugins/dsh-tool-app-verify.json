@@ -21,6 +21,7 @@
   "engines": {},
   "readme": "# dsh-tool-app-verify\r\n\r\nDSH 插件：Browser & Electron UI 操作与验证——让 Agent 像 QA 一样驱动应用并断言行为。\r\n\r\n## 功能\r\n\r\n**Action 工具**（操作应用）：\r\n- `app_launch` — 启动浏览器或 Electron 应用\r\n- `app_click` — 点击元素\r\n- `app_type` — 输入文本\r\n- `app_navigate` — 导航（goto/back/forward/reload）\r\n- `app_close` — 关闭会话\r\n\r\n**Assert 工具**（验证行为）：\r\n- `app_verify` — 断言元素状态（存在/可见/文本/属性）\r\n- `app_screenshot` — 截图（可保存为基线）\r\n- `app_screenshot_diff` — 视觉回归：对比当前截图与基线，返回差异百分比和高亮图\r\n- `app_accessibility` — 获取 accessibility tree 快照\r\n\r\n## 安装\r\n\r\n```bash\r\ndsh plugin add dsh-tool-app-verify\r\n```\r\n\r\n## 配置\r\n\r\n```yaml\r\n- id: app-verify\r\n  plugin: dsh-tool-app-verify\r\n  config:\r\n    mode: browser           # browser | electron\r\n    headless: true\r\n    timeout: 30000\r\n    baselinePath: .app-verify/baselines\r\n    diffThreshold: 0.1      # pixelmatch 容差\r\n    viewport",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T15:03:53.076Z",
   "created_at": "2026-08-14T15:03:52.832Z",
   "gh": null,
@@ -33,5 +34,5 @@
     "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:49.224Z"
+  "updated_at": "2026-08-17T04:58:37.352Z"
 }

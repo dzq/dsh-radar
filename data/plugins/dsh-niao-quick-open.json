@@ -33,6 +33,7 @@
   "engines": {},
   "readme": "# dsh-niao-quick-open\n\n[English](README.md) | [中文](README.zh.md)\n\nDeepSeek Harness **工作区悬浮卡片**上的快捷操作。\n\n鼠标悬停左侧任意工作区时，悬浮卡片会获得以下增强：\n\n- **名称行 / 绝对路径行**各带一个复制按钮——点整行或复制按钮即可复制对应内容（有短暂「已复制」提示）。\n- 路径下方三个**图标按钮**（悬停显示提示文字）：\n  - 📁 **在文件管理器中打开**（macOS 为访达 / Windows 为资源管理器 / Linux 为文件管理器）\n  - `</>` **在常用编辑器中打开**——用已设置的常用编辑器打开工作区文件夹\n  - ⚙️ **设置常用编辑器**——下拉框列出本机自动发现的编辑器，点**保存**才生效\n\n卡片原本「点击复制路径」的默认行为已去除。\n\n## 编辑器发现\n\n编辑器由宿主端扫描：\n\n- **已知品牌**——Visual Studio Code、Cursor、Trae、Windsurf、Zed、Sublime Text、HBuilderX、JetBrains 系列、Vim/Neovim CLI 等（显示品牌图标）。\n- **动态扫描**——macOS 扫描 `/Applications` + `/System/Applications`，Windows 扫描 Program Files / LocalAppData 程序目录，Linux 探测常见编辑器 CLI；凡命中编辑器关键词的应用都会以字母图标形式列出。\n\n列出的每个编辑器都保证能生成有效的打开命令来打开工作区文件夹。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-niao-quick-open\n```\n\n或者把包加入你 profile",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:38:55.842Z",
   "created_at": "2026-08-16T14:30:50.406Z",
   "gh": null,
@@ -45,5 +46,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.343Z"
+  "updated_at": "2026-08-17T04:58:31.455Z"
 }

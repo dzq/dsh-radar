@@ -35,6 +35,7 @@
   },
   "readme": "# dsh-agent-relay\n\n> 多 Agent 协作中继（DeepSeek Harness 插件）：让本机各 Agent（dsh / Codex / Claude / Hermes / OpenClaw…）经一个轻量、HMAC 认证的 broker 互相收发消息。默认单机回环、零第三方依赖、5 分钟跑通闭环。\n\n[![npm version](https://img.shields.io/npm/v/dsh-agent-relay)](https://www.npmjs.com/package/dsh-agent-relay)\n[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n\n## 为什么需要它\n\nAgent 框架给每个 Agent 一张\"嘴\"，却没有\"对讲机\"。dsh、Codex、Claude、Hermes 共处一台机器时，彼此之间没有互发消息的通道——除非你自己搭。**dsh-agent-relay 就是这条通道**：一个完整可部署的 starter-kit（broker + dsh 插件 + CLI 客户端 + Python 客户端 + setup 脚本），任何人都能在几分钟内部署。\n\n- **不是编排引擎**：不管 workflow/DAG/调度，只负责\"把消息送到\"。\n- **不是记忆系统**：消息只存在于 TTL 限定期限的投递队列（默认 7 天，JSONL 保证重启不丢）——不是持久化知识库。共享记忆请用 [unified-agent-memory](https://github.com/Noelune/unified-agent-memory)。\n- **不是聊天服务器**：没有房间概念，只有在线/离线心跳。\n\n## 特性\n\n- **协议先行",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T02:20:17.941Z",
   "created_at": "2026-08-14T16:36:22.496Z",
   "gh": null,
@@ -47,5 +48,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.740Z"
+  "updated_at": "2026-08-17T04:58:36.738Z"
 }

@@ -14,8 +14,8 @@
     "agent"
   ],
   "license": "MIT",
-  "repo": "",
-  "homepage": "",
+  "repo": "https://github.com/zoahdev/dsh-github-intelligence",
+  "homepage": "https://www.npmjs.com/package/dsh-github-intelligence",
   "npm": "https://www.npmjs.com/package/dsh-github-intelligence",
   "dsh_compat": true,
   "dsh_meta": {
@@ -26,17 +26,30 @@
   "engines": {},
   "readme": "# dsh-github-intelligence\n\n[![CI](https://github.com/zoahdev/dsh-github-intelligence/actions/workflows/ci.yml/badge.svg)](https://github.com/zoahdev/dsh-github-intelligence/actions) [![Release](https://img.shields.io/github/v/release/zoahdev/dsh-github-intelligence)](https://github.com/zoahdev/dsh-github-intelligence/releases) [![npm](https://img.shields.io/npm/v/dsh-github-intelligence)](https://www.npmjs.com/package/dsh-github-intelligence)\n\n[English](#english) · [中文](#中文)\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n[![CI](https://img.shields.io/github/actions/workflow/status/zoahdev/dsh-github-intelligence/ci.yml?branch=main)](https://github.com/zoahdev/dsh-github-intelligence/actions)\n[![Release](https://img.shields.io/github/v/rel",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T13:56:33.889Z",
   "created_at": "2026-08-16T13:43:16.962Z",
-  "gh": null,
+  "gh": {
+    "full_name": "zoahdev/dsh-github-intelligence",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T14:06:14Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
-    "quality": 75,
+    "maintenance": 40,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 38,
-    "grade": "D"
+    "overall": 48,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:57.601Z"
+  "updated_at": "2026-08-17T04:58:02.832Z"
 }

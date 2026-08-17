@@ -32,6 +32,7 @@
   },
   "readme": "# DeepSeek iVideo\n\n> 由 iPolloWork 为 DeepSeek Harness 打造的原生 HyperFrames Video Studio。\n>\n> Native HyperFrames Video Studio for DeepSeek Harness, created by iPolloWork.\n\n[简体中文](#简体中文) · [English](#english) · [DeepSeek Design 项目](https://github.com/Devin-AXIS/deepseek-design)\n\n---\n\n<a id=\"简体中文\"></a>\n\n## 让 DeepSeek Harness 真正拥有视频创作能力\n\n`deepseek-ivideo` 将 iPolloWork Video Studio 作为原生 **Video** 视图加入 DeepSeek Harness。它直接运行 HyperFrames 时间线、可视化编辑器、动画系统、预览和视频导出能力，不复制编辑器或渲染链路。\n\n你可以让 Harness 从对话生成或修改整段视频，也可以在画面中选中标题、图片、素材或其他元素，通过 **Ask AI** 只修改当前对象。所有操作仍落在当前工作区的真实 HTML、CSS、素材和项目文件中，可继续手动精调、预览和导出。\n\n### 核心能力\n\n- DeepSeek Harness 对话中的原生 **Video** 视图\n- HyperFrames 时间线、可视化编辑、动画、素材和实时预览\n- 27 个内置可编辑 Video 模板\n- 整段视频与选区级 **Ask AI**\n- `ipollowork_video_validate` 自动校验工具\n- HyperFrames 原生视频导出\n- 每个工作区会话独立运行，空闲自动回收\n- ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T18:45:56.282Z",
   "created_at": "2026-08-15T18:45:55.796Z",
   "gh": null,
@@ -44,5 +45,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.621Z"
+  "updated_at": "2026-08-17T04:58:31.893Z"
 }

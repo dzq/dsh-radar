@@ -48,6 +48,7 @@
   },
   "readme": "# dsh-oauth\n\n[English](README.md) | 简体中文\n\n`dsh-oauth` 是 DeepSeek Harness 的提供方中立 OAuth 基座。它不内置 OpenAI、ChatGPT、Codex 或任何其他厂商协议，而是给独立提供方插件一套稳定的账号与凭据生命周期。\n\n```text\n提供方插件                dsh-oauth                    DeepSeek Harness\n端点、client、scope  ->  登录会话与挑战  ->  ctx.credentials / 设置页 / Typert Remote\n刷新、撤销、账号解析       并发刷新与账号索引\n模型适配器                 不参与模型请求\n```\n\n## 基座负责什么\n\n- 注册和卸载 OAuth 提供方驱动。\n- 管理浏览器链接、设备码、一次性输入、取消和超时。\n- 将 OAuth 凭据存入 DSH 的 `ctx.credentials`，Remote 和 Web 界面从不返回令牌。\n- 原子维护不含机密的账号索引，并按账号串行执行跨进程 token refresh。\n- 向 Host 侧适配器提供 `getCredential()` 和 `getAccessToken()`。\n- 提供统一的“设置 -> 账号”页面。\n\n## 基座不负责什么\n\n- 不声明 OAuth endpoint、client ID、scope 或厂商附加参数。\n- 不实现 OpenAI、Codex、Claude、Google 等具体登录协议。\n- 不注册模型目录，不实现 LLM adapter，不代理模型请求。\n- 不把第三方订阅自动解释为通用 API 权限；可用模型和服务条款由提供方插件与第三方服务决定。\n\n## 提供方插件接入\n\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T13:31:58.000Z",
   "created_at": "2026-08-14T13:31:57.482Z",
   "gh": null,
@@ -60,5 +61,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.444Z"
+  "updated_at": "2026-08-17T04:58:32.608Z"
 }

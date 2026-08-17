@@ -30,6 +30,7 @@
   },
   "readme": "# dsh-lark · DeepSeek Harness 飞书 / Lark 插件\n\n[![npm](https://img.shields.io/npm/v/dsh-lark-channel)](https://www.npmjs.com/package/dsh-lark-channel) [![CI](https://github.com/omdsh-dev/dsh-lark/actions/workflows/ci.yml/badge.svg)](https://github.com/omdsh-dev/dsh-lark/actions/workflows/ci.yml) [![license](https://img.shields.io/badge/license-BSD--3--Clause-blue)](LICENSE)\n\n简体中文 | [English](README.en.md)\n\n**把你正在使用的 DeepSeek Harness 接进飞书。**\n\n直接在聊天里给 Agent 派任务、看执行过程、切换工作区和模型。遇到提问、计划确认或工具审批，也不用回到终端，直接在飞书里处理。需要时，还能把多个 Agent 放进同一个群里协作。\n\n## 快速开始\n\n```sh\nnpm i -g dsh-lark-channel\ndsh-lark-channel start\n```\n\n终端会显示二维码。用飞书扫码完成应用创建，然后私聊机器人，或在群里 @ 它即可开始。\n\n不想装到全局也可以直接跑，只是之后每条命令都要带 `npx`：\n\n```sh\nnpx dsh-lark-channel@latest start\n```\n\n如果还没有安装 DeepSeek Harness，先运行：\n\n```sh\nnpm i -g @deepseek-ai/dsh\n```\n\n无需公网服",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T13:05:03.101Z",
   "created_at": "2026-08-14T06:14:06.578Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.969Z"
+  "updated_at": "2026-08-17T04:58:34.198Z"
 }

@@ -28,6 +28,7 @@
   "engines": {},
   "readme": "[![npm version](https://img.shields.io/npm/v/dsh-taskboard.svg)](https://www.npmjs.com/package/dsh-taskboard)\n[![License](https://img.shields.io/npm/l/dsh-taskboard.svg)](https://github.com/cloader/dsh-taskboard/blob/main/LICENSE)\n\n# dsh-taskboard\n\nDeepSeek Harness 的**任务看板插件**：人建卡、agent 认领执行、人验收。任务挂项目（workspace）、可指定模型、支持手动与定时执行，全流程双向协作。\n\n## 界面\n\n<p align=\"center\"><img src=\"https://raw.githubusercontent.com/cloader/dsh-taskboard/main/img/board.png\" alt=\"任务看板\" width=\"880\"></p>\n\n<p align=\"center\"><img src=\"https://raw.githubusercontent.com/cloader/dsh-taskboard/main/img/modal.png\" alt=\"新建任务\" width=\"440\"></p>\n\n## 核心功能\n\n**看板协作**\n- 五列看板（待规划 / 待办 / 进行中 / 待验收 / 已完成）+ 受阻标记，SSE 实时刷新\n- 任务挂项目：认领校验会话归属，跨项目不可抢\n- 紧急度三色（紧急/一般/不急）筛选与色条\n- 新建/编辑弹窗：项目、模型、紧急度、执行方式、cron 实时校验与下次运行预览\n- 详情面板：状态流转（done 仅限人工）、agent/用",
   "weekly_downloads": 448,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T10:47:55.142Z",
   "created_at": "2026-08-15T08:17:37.042Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 54,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.243Z"
+  "updated_at": "2026-08-17T04:58:28.635Z"
 }

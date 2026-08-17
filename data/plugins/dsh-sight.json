@@ -34,6 +34,7 @@
   },
   "readme": "# dsh-sight\n\n为纯文本 [DeepSeek Harness（dsh）](https://deepseek.com/harness) 模型提供插件式视觉能力——直接粘贴图片，通过内置 VLM 后端获得文字描述，无需切换模型。\n\n[English → README.md](README.md)\n\n## 特性\n\n- **内置 VLM 预设** — OpenCode Zen（免费、免 key）和 Gemini Flash（免费额度），另有自定义模式可接任意 OpenAI 兼容端点。在网页设置页选一个即可。\n- **多图批量分析** — `vision` 工具一次调用最多接受 10 个路径/URL，单次请求完成全部描述，按图标注。\n\n## 工作原理\n\n1. **提示准入覆写** — dsh 会拒绝纯文本模型接收粘贴图片。dsh-sight 包装 `apiProxy.sessions.prompt`：接受粘贴，图片字节落地到 `/tmp/dsh-sight/image{N}/{hash}.png`，图片块在进入历史前变成路径提示。任何 provider 都可用——无需切换模型变体。\n2. **`vision` 工具** — 模型拿着提示路径（或任意本地路径 / http(s) URL）调用它；插件读取字节并通过配置好的 OpenAI 兼容 VLM 后端作答。\n3. **系统提示词分节** — 教会模型\"提示 → `vision` 工具\"的流程。\n4. **网页设置页**（Settings → 视觉模型）— 后端来源（预设或自定义端点）、生效配置预览（显示实际请求目标）、API key 输入框、高级参数。走标准 settings RPC 保存，即时生效、无需重启（通过 `$DSH_HOME/settings.yaml` 的 `dsh-sight:` 分节热加载）。\n5. **",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T10:48:22.147Z",
   "created_at": "2026-08-14T17:35:13.011Z",
   "gh": null,
@@ -46,5 +47,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.327Z"
+  "updated_at": "2026-08-17T04:58:30.235Z"
 }

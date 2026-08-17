@@ -14,7 +14,7 @@
     "deepseek-harness-plugin"
   ],
   "license": "MIT",
-  "repo": "",
+  "repo": "https://github.com/TonyDua/dsh-web-search-exa",
   "homepage": "",
   "npm": "https://www.npmjs.com/package/dsh-web-search-exa",
   "dsh_compat": true,
@@ -28,17 +28,30 @@
   },
   "readme": "> **中文** | [English](README.en.md)\n\n# dsh-web-search-exa\n\nExa 驱动的 `web_search` 提供商插件，挂在 DeepSeek Harness 的 web 能力 seam（`ctx.web`）上。调用 Exa REST API（`POST https://api.exa.ai/search`，神经/关键词/自动搜索），把结果归一化成 seam 的可引用来源结构（`url` / `title` / `snippet` / `publishedAt`），替代或补充官方自带的 DeepSeek 原生搜索。\n\n## 快速开始（小白版）\n\n**你需要准备：**\n- 一台装好 DeepSeek Harness（dsh）并能正常打开 Web 界面的电脑\n- 一个 Exa 账号（[exa.ai](https://exa.ai) 注册，免费额度就够用）\n- 大约 3 分钟时间\n\n### 第 1 步：安装插件（一条命令）\n\n```bash\ndsh plugin --profile web add dsh-web-search-exa\n```\n\n### 第 2 步：拿到 Exa API key\n\n1. 打开 [exa.ai](https://exa.ai)，注册并登录\n2. 进入 Dashboard → **API Keys** → 新建一个 key\n3. 复制 key（形如 `exa-xxxxxxxxxxxx` 的一串字符）\n\n### 第 3 步：把 key 告诉 dsh\n\n最简单的方式是用环境变量。在**启动 dsh web 的那个终端**里执行：\n\nmacOS / Linux：\n\n```bash\nexport EXA_API_KEY=\"exa-你的key\"\n```\n\nWindows PowerShell：\n\n```power",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:43:54.636Z",
   "created_at": "2026-08-15T15:36:32.535Z",
-  "gh": null,
+  "gh": {
+    "full_name": "TonyDua/dsh-web-search-exa",
+    "open_issues": 2,
+    "pushed_at": "2026-08-14T11:27:56Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
-    "quality": 75,
+    "maintenance": 39,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 38,
-    "grade": "D"
+    "overall": 47,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:47.713Z"
+  "updated_at": "2026-08-17T04:57:16.142Z"
 }

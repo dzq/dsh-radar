@@ -33,6 +33,7 @@
   },
   "readme": "# @nyantused/folio-dsh-events —— 兰亭会话协议事件插件\n\n> P1 实施 M3（2026-08-14）。把 AGENTS.md 会话纪律机械化（「纪律变机械」第一步）。\n\n## 1. 行为面（v1.0.1 两条）\n\n| 触发 | 事件（官方词汇） | 行为 |\n|---|---|---|\n| 新会话 | `agent/session-start`（notification） | `agent.followup(createUserMessage(...))` 注入入口协议提醒，唤醒模型跑 folio_session_start |\n| 会话关闭 | `agent/disposed`（notification） | 从 `agent.session.events` 倒序扫描 `tool/call`（folio_session_start/folio_save 的 arguments）提取客户名，自动 spawn `.venv python _cli.py save <client>`（60s 冷却防重复事件）——会话结束协议机械触发 |\n\n> 作用域隔离（2026-08-15）：本插件挂在 pre-sales preset 层，仅「售前助手」模式生效；原 `session/event` 实时观察依赖 root scope 广播，preset 内收不到，故改为 disposed 时扫描会话事件。\n\n## 2. 接口依据（rc.6 逐行核实）\n\n- `agent/session-start` / `agent/disposed`：dsh-agent 官方 live 词汇（non-vetoing）；\n- `tool/call` 会话事件形状 `{turn, step, callId, name, arguments}`：dsh-agent-loop ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T01:55:53.902Z",
   "created_at": "2026-08-16T01:55:53.534Z",
   "gh": null,
@@ -45,5 +46,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.449Z"
+  "updated_at": "2026-08-17T04:58:32.702Z"
 }

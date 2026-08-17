@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-server-deployment",
+  "name": "dsh-server-deployment",
+  "version": "0.0.0",
+  "description": "服务器端部署：DeepSeek Harness Web 多用户网关（登录门户 / 每用户实例隔离 / 交付文件抽屉）。部署于远程服务器，用户通过浏览器访问，非本机工具。",
+  "keywords": [],
+  "license": "MIT",
+  "repo": "https://github.com/AnkoCD/dsh-server-deployment",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-server-deployment",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "AnkoCD/dsh-server-deployment",
+    "open_issues": 3,
+    "pushed_at": "2026-08-15T12:35:14Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 30,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:45.082Z"
+}

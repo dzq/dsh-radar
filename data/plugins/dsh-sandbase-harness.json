@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-sandbase-harness",
+  "name": "dsh-sandbase-harness",
+  "version": "0.0.0",
+  "description": "Open-source CMA-compatible agent runtime for any model, with MCP tools, sandboxed sessions, audit, replay, and a local console. Includes a native DeepSeek Harness bundle over stdio MCP.",
+  "keywords": [
+    "agent-framework",
+    "agent-observability",
+    "agent-runtime",
+    "agent-sandbox",
+    "ai-agents",
+    "ai-infrastructure",
+    "deepseek",
+    "deepseek-harness",
+    "deepseek-v4",
+    "docker"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/sandbaseai/sandbase-harness",
+  "homepage": "https://github.com/sandbaseai/sandbase-harness/releases/latest",
+  "npm": "https://www.npmjs.com/package/dsh-sandbase-harness",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "sandbaseai/sandbase-harness",
+    "open_issues": 2,
+    "pushed_at": "2026-08-17T04:18:23Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 65,
+    "dsh_compat": 30,
+    "overall": 35,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:40.756Z"
+}

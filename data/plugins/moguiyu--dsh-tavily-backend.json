@@ -23,6 +23,7 @@
   "engines": {},
   "readme": "# @moguiyu/dsh-tavily-backend\n\nLocal HTTP backend for the Tavily Search settings card. One composition row registers\nthree routes on the harness `webServer`:\n\n| Route | Purpose |\n|---|---|\n| `GET /api/tavily-usage` | Per-key Tavily `/usage` data + totals (no secrets) |\n| `GET/POST /api/tavily-manager` | Flat key list (masked values, saved dates), strategy-ordered writes, `?reveal=<masked>` |\n| `GET/POST /api/tavily-toggle` | Persisted on/off for the `web` provider; POST flips the live provider |\n\nState lives in `~/.dsh/tavily-manager.json` and `~/.dsh/tavily-toggle.json` (mode 600, no\nsecrets). Pure helpers (`maskValue`, `parseKeyList`, `orderKeys`, …) are exported from\n`src/lib.js` and unit-tested with `node --test`.\n\nSee the [workspace README](../../README.md) for install and configurati",
   "weekly_downloads": 122,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:33:43.801Z",
   "created_at": "2026-08-15T14:33:43.465Z",
   "gh": null,
@@ -35,5 +36,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.277Z"
+  "updated_at": "2026-08-17T04:58:29.261Z"
 }

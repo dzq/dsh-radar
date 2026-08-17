@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-change-review",
+  "name": "dsh-change-review",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness 会话修改审查插件：追踪会话内 write/edit，diff 对比展示，会话隔离/子代理聚合/SSE 实时推送/颜色自定义",
+  "keywords": [],
+  "license": "MIT",
+  "repo": "https://github.com/cirelir/dsh-change-review",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-change-review",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "cirelir/dsh-change-review",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T05:02:16Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:10.840Z"
+}

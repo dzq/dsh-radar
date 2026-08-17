@@ -23,6 +23,7 @@
   },
   "readme": "# dsh-plugin-verify — Verified DSH Plugins\r\n\r\n> DSH 插件**判定站**：每个插件经过同一套运行时验证（7/7 waterfall + tools/result），通过才给 ✅ Verified 徽标。**与 awesome-dsh-plugins（全量分级观测）互补：它做 L0-L4 全量观测分级，我们把 L4 运行实测做深（7/7 waterfall + tools/result）。**\r\n\r\n![verified](https://img.shields.io/badge/Verified%20插件-4-blue) ![runtime](https://img.shields.io/badge/判定-运行时实测-green) ![method](https://img.shields.io/badge/方法论-官方Discussion%23462-green)\r\n\r\n- **找可信插件**：按功能分类浏览，每个插件带 Verified 徽标 + 验证日期 + 可复现报告——证据可复现的运行时验证（7/7 waterfall + tools/result）\r\n- **装得放心**：徽标 = 通过了完整 agent 循环审查；附带安装指引与安全提示\r\n- **给插件做判定**：插件作者一条命令跑验证拿徽标；顺带帮你发现真实 bug\r\n\r\n[浏览 Verified 目录](#verified-目录) · [判定规则](#判定规则) · [插件作者：拿徽标](#插件作者如何获得-verified-徽标) · [使用者：安全安装](#使用者如何安全安装) · [贡献者](#贡献者)\r\n\r\n> [!IMPORTANT]\r\n> **Verified 徽标 ≠ 官方背书。** 判定基于当日 mainline、证据可复现；DSH 每天更",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T05:44:42.051Z",
   "created_at": "2026-08-13T23:50:07.231Z",
   "gh": null,
@@ -35,5 +36,5 @@
     "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.725Z"
+  "updated_at": "2026-08-17T04:58:36.216Z"
 }

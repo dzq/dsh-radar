@@ -23,6 +23,7 @@
   "engines": {},
   "readme": "# @dsh-pi/prompt\n\npi-style system prompt for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`), aka dsh-pi.\n\nTransplants pi's prompt philosophy into dsh as a **Cordis plugin bundle**:\n\n- **complete mode** — the model sees only this section as its system prompt (dsh's default identity / tool-guidance text is replaced)\n- **pi-style persona** — `You are an expert coding assistant operating inside dsh-pi...`\n- **tool one-liners** — `Available tools:` list in pi's format\n- **guidelines** — concise responses, clear file paths, small precise changes, verify with tests\n- **cwd line** — injected as a dynamic PromptContext\n\nZero dependencies: the plugin only uses `ctx.systemPrompt`, which ships in the `@deepseek-ai/dsh-base` bundle.\n\n## Install into a profile\n\n```sh\n# from ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T06:12:26.907Z",
   "created_at": "2026-08-14T06:12:26.586Z",
   "gh": null,
@@ -35,5 +36,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.681Z"
+  "updated_at": "2026-08-17T04:58:35.074Z"
 }

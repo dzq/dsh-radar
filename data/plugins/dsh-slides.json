@@ -27,6 +27,7 @@
   },
   "readme": "<p align=\"center\"><strong>dsh-slides</strong></p>\n\n# Slides for DeepSeek Harness\n\nEnglish | [中文](README_CN.md)\n\n[![npm](https://img.shields.io/npm/v/dsh-slides?label=npm)](https://www.npmjs.com/package/dsh-slides) [![CI](https://github.com/literaf/dsh-slides/actions/workflows/ci.yml/badge.svg)](https://github.com/literaf/dsh-slides/actions/workflows/ci.yml) [![dsh-plugin](https://img.shields.io/badge/topic-dsh--plugin-blue)](https://github.com/topics/dsh-plugin) ![license](https://img.shields.io/badge/license-MIT-green)\n\nGive the agent a `make_slides` tool and it writes a talk to **one self-contained HTML file** — opens in any browser, presents fullscreen, keeps your speaker notes off the screen, and prints to PDF with Ctrl+P. Ask for `formats: [\"html\", \"pptx\"]` and it writes an editable P",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T01:16:10.653Z",
   "created_at": "2026-08-17T01:04:05.196Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:54.239Z"
+  "updated_at": "2026-08-17T04:58:38.248Z"
 }

@@ -37,6 +37,7 @@
   },
   "readme": "# dsh-codex-select\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n\nCodex-style code selection for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web GUI.\n\nSelect code in a workspace file viewer — it is **automatically added to the\nmessage as a reference chip** (no button, no code dumped into the draft text),\nand at send time the selection is serialized into the prompt as context,\nexactly like Codex.\n\n## Features\n\n- **文件 / Files conversation view tab**: lazy workspace file tree (skips\n  `node_modules` / `.git` by default, toggles included) + read-only file\n  viewer (UTF-8 text only, ≤ 1 MiB, binary rejected).\n- **Codex-style selection**: select code inside the viewer — a chip appears\n  **above the composer**: `已选中 ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:39:54.484Z",
   "created_at": "2026-08-17T03:39:54.259Z",
   "gh": null,
@@ -49,5 +50,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:48.667Z"
+  "updated_at": "2026-08-17T04:58:37.089Z"
 }

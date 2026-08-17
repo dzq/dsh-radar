@@ -24,6 +24,7 @@
   "engines": {},
   "readme": "# dsh-approval-gate\n\nDeepSeek Harness 自动审批门控插件 v2：**多级判定管道，安全自动批准、危险转人工（fail-safe）**。\n\n当会话的权限预设为 `auto-approve`（自动审批（Flash））时，每次审批请求（沙箱越界）按四级管道判定：\n\n```\nDENY（不可逆危险词）→ 白名单（确定性规则）→ flash 兜底（LLM 多因子）→ 人工学习\n```\n\n- **① DENY 层**：`rm -rf` / `drop table` / `force push` / 格式化等不可逆危险词命中 → 转人工（**最高优先，fail-safe**）\n- **② 白名单层**：命中规则 → 直接放行（确定性，不过 LLM）。默认规则 `{mode:\"workspace-write\"}` —— 工作区写入（可回补）自动放行，对应 Claude Code `acceptEdits` / Codex `workspace-write` 哲学\n- **③ flash 兜底**：仅 `danger-full-access`（任意文件/系统）越界走 LLM 多因子判断（不可回补 + 敏感资源 + 沙箱模式语义）\n- **④ 人工学习**：flash 判 RISKY 转人工、被用户批准 ≥3 次 → 自动沉淀进白名单（`danger-full-access` 永不自动沉淀）\n\n## 安装\n\n```sh\n# 方式一：npm 安装（推荐）\ndsh plugin --profile web add dsh-approval-gate\n\n# 方式二：GitHub 安装\ndsh plugin --profile web add \"github:moon09300731/dsh-approval-gate#main\"\n```\n\n## ⚠️ 安装后必须手动",
   "weekly_downloads": 23,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T10:04:32.656Z",
   "created_at": "2026-08-14T07:44:56.874Z",
   "gh": null,
@@ -36,5 +37,5 @@
     "overall": 46,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.305Z"
+  "updated_at": "2026-08-17T04:58:29.532Z"
 }

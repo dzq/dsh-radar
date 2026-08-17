@@ -31,6 +31,7 @@
   "engines": {},
   "readme": "# dsh-chat-index-rail\n\n对话右侧悬浮\"输入目录\"——DeepSeek Harness (DSH) Web UI 插件。每条用户输入一根横条：悬停预览开头文字，点击平滑定位到对应消息，滚动时当前横条高亮。纯客户端插件，无宿主逻辑、无需批准、重启不丢。\n\n> Chat input index rail for DeepSeek Harness (DSH) Web UI: one bar per user message on the right edge; hover to preview, click to jump, active bar follows your scroll. Client-only, no host half, no approval needed, survives restarts.\n\n---\n\n## 简介 / About\n\n在长对话里上下翻找某条输入很痛苦。本插件在对话窗口右侧悬浮一条\"目录\"：**每一次你输入的内容 = 一根横条**，按对话顺序纵向排列。悬停看预览、点击即定位、滚动跟高亮，再长的上下文也能一眼跳到想找的那条输入。\n\n> Tired of scrolling forever to find that one message in a long conversation? This plugin adds a floating rail on the right edge of the chat window: **each user input is one horizontal bar**, in conversation order. Hover to preview, click to jump, and the bar of the message you are currently reading ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T12:56:50.779Z",
   "created_at": "2026-08-15T11:48:39.223Z",
   "gh": null,
@@ -43,5 +44,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.701Z"
+  "updated_at": "2026-08-17T04:58:35.425Z"
 }

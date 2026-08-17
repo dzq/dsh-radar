@@ -23,6 +23,7 @@
   "engines": {},
   "readme": "# dsh-regex · 正则工具\r\n\r\n测试正则匹配（位置/分组）、安全替换、特殊字符转义。纯 Node 实现。\r\n\r\n## 提供的工具\r\n\r\n| 工具 | 作用 |\r\n|---|---|\r\n| `regex_test` | 测试匹配 |\r\n| `regex_replace` | 正则替换 |\r\n| `regex_escape` | 特殊字符转义 |\r\n\r\n## 安装\r\n\r\n```bash\r\ndsh plugin add @i6060/dsh-regex\r\n```\r\n安装后在 profile 的 `package.json` 的 `dsh.profile.bundles` 中加入 `\"dsh-regex\"`。\r\n\r\n## 用法示例\r\n\r\n```\r\n测试这个正则能匹配到什么\r\n→ 调用 regex_test(pattern=\"\\\\d+\", text=\"a1b22c333\")\r\n```\r\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:20:12.647Z",
   "created_at": "2026-08-17T03:20:12.401Z",
   "gh": null,
@@ -35,5 +36,5 @@
     "overall": 32,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.343Z"
+  "updated_at": "2026-08-17T04:58:30.767Z"
 }

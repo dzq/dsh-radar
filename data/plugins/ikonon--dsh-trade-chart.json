@@ -33,6 +33,7 @@
   "engines": {},
   "readme": "# dsh-trade-chart\n\n[![Release v0.1.1](https://img.shields.io/badge/release-v0.1.1-5B4CF0?style=flat-square)](https://github.com/ikomom/dsh-trade-chart)\n[![License: MIT](https://img.shields.io/badge/license-MIT-0B7285?style=flat-square)](LICENSE)\n[![Node.js](https://img.shields.io/badge/Node.js-%5E22.19-339933?style=flat-square&logo=nodedotjs&logoColor=white)](package.json)\n[![DSH profiles](https://img.shields.io/badge/DSH-Web-5B4CF0?style=flat-square)](cordis.patch.yml)\n\n**DeepSeek Harness 交易图表插件**：模型调用 `trade_chart` 工具后，K线/折线/柱状/面积图直接渲染在对话流中——波段自动标注、自由标注、滚轮缩放、上下左右自由拖动。\n\n纯自绘 SVG，零外部依赖（不加载 CDN、不引入图表库），数据来自会话中的行情技能（longbridge / hithink 等）。\n\n## 功能\n\n| 能力 | 说明 |\n|---|---|\n| K线图 | 蜡烛图（红涨绿跌）+ 成交量副图 + MA5/10/20 均线（可自定义周期） |\n| 折线/柱状/面积 | 多序列对比、图例、悬浮提示、缩放 |\n| 波段自动标注 | `pivots: true` 自动检测局部极值（红三角=高点 ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T01:25:21.162Z",
   "created_at": "2026-08-17T01:25:20.861Z",
   "gh": null,
@@ -45,5 +46,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.990Z"
+  "updated_at": "2026-08-17T04:58:34.808Z"
 }

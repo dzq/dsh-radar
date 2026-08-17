@@ -27,6 +27,7 @@
   },
   "readme": "# dsh-netguard\n\nAn egress policy for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness): a\nhost allowlist on the `web_fetch` and `web_search` tools, checked at connect time, built as an\nout-of-repo plugin.\n\n**It ships in `audit` mode, where nothing is refused.** Every decision is recorded and every\nrequest goes through, including the ones the policy would deny; `mode: enforce` is what turns\nthe records into refusals. It governs those two tools and nothing else — the model channel and\na vendor search provider's own transport are harness-originated HTTP that this package never\nsees.\n\nThe harness has no network control of any kind. Its sandbox governs file effects only —\n`packages/shell/bash-sandbox/README.md:85` says network and process visibility are outside its\nvocabulary ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T22:48:13.895Z",
   "created_at": "2026-08-16T22:48:13.532Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 40,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:47.749Z"
+  "updated_at": "2026-08-17T04:58:37.089Z"
 }

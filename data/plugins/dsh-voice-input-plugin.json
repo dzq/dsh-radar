@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-voice-input-plugin",
+  "name": "dsh-voice-input-plugin",
+  "version": "0.1.1",
+  "description": "Voice input for DeepSeek Harness Web UI: a mic button in the composer tool row that uses the browser's Web Speech API (Chrome/Edge) to transcribe speech directly into the message draft. Zero dependencies, no API keys.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "client-plugin",
+    "voice",
+    "speech-to-text",
+    "stt",
+    "mic",
+    "input"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/CrazyGummies/dsh-voice-input.git",
+  "homepage": "https://github.com/CrazyGummies/dsh-voice-input",
+  "npm": "https://www.npmjs.com/package/dsh-voice-input-plugin",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-voice-input 🎙️\n\n> Voice input for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web UI —\n> 语音输入客户端插件：给聊天输入框工具行加一个**麦克风按钮**，用浏览器内置的 Web Speech API\n> （Chrome / Edge，免费、无需 API 密钥）把语音实时转成文字填入输入框。\n\n[![version](https://img.shields.io/badge/version-0.1.0-8C3B2E)](package.json)\n[![license](https://img.shields.io/badge/license-MIT-green)](#license)\n[![dsh-plugin](https://img.shields.io/badge/dsh-client--plugin-web-2340A8)](#)\n[![DeepSeek Harness](https://img.shields.io/badge/platform-DeepSeek%20Harness-0D1630)](#)\n\n## Screenshots / 预览\n\n| 麦克风按钮 | 聆听中（浮层转写） |\n|---|---|\n| ![mic](screenshots/mic.png) | ![listening](screenshots/listening.png) |\n\n> 截图放 `screenshots/` 目录，文件名对应上表（`mic.png` / `listening.png`），\n> 只有一张的话留 `mic.png` 即可。\n\n---\n\n## English — What is this?\n\nA zero-depe",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T04:59:03.751Z",
+  "created_at": "2026-08-15T04:39:48.756Z",
+  "gh": {
+    "full_name": "Zhangbo-cn/dsh-voice-input-plugin",
+    "stars": 6,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T16:50:58Z",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 42,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:01.975Z"
+}

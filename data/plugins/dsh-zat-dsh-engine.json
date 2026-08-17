@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-zat-dsh-engine",
+  "name": "dsh-zat-dsh-engine",
+  "version": "0.0.0",
+  "description": "Visual plugin marketplace for DeepSeek Harness — browse, search and install community plugins",
+  "keywords": [
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/mishibeikejie/zat-dsh-engine",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-zat-dsh-engine",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "mishibeikejie/zat-dsh-engine",
+    "open_issues": 3,
+    "pushed_at": "2026-08-17T01:05:25Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:05.743Z"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "dsh-kun-like-pet",
+  "name": "dsh-kun-like-pet",
+  "version": "1.0.5",
+  "description": "Kun Like 桌宠 —— DeepSeek Harness 桌面宠物插件：Web 界面右下角的小坤宠，随 Agent 工作状态切换 9 种动画，任务完成时播放「你干嘛~哎哟」语音",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "cordis",
+    "desktop-pet",
+    "kun",
+    "桌宠"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Practice019/dsh-kun-like-pet.git",
+  "homepage": "https://github.com/Practice019/dsh-kun-like-pet#readme",
+  "npm": "https://www.npmjs.com/package/dsh-kun-like-pet",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [],
+      "immediately": true
+    }
+  },
+  "engines": {},
+  "readme": "# 🐔 Kun Like 桌宠 - DSH 桌面宠物插件\r\n\r\n<p align=\"center\">\r\n  <img src=\"https://img.shields.io/badge/DSH-Plugin-4B32C3\" alt=\"DSH Plugin\">\r\n  <img src=\"https://img.shields.io/npm/v/dsh-kun-like-pet\" alt=\"npm version\">\r\n  <img src=\"https://img.shields.io/npm/dm/dsh-kun-like-pet\" alt=\"npm downloads\">\r\n  <img src=\"https://img.shields.io/badge/license-MIT-green\" alt=\"License\">\r\n  <img src=\"https://img.shields.io/github/stars/Practice019/dsh-kun-like-pet\" alt=\"Stars\">\r\n  <br>\r\n  <a href=\"https://www.npmjs.com/package/dsh-kun-like-pet\">npm 主页</a> ·\r\n  <a href=\"https://github.com/Practice019/dsh-kun-like-pet\">GitHub 仓库</a> ·\r\n  <a href=\"#-一键安装静态插件\">安装指南</a> ·\r\n  <a href=\"#-常见问题\">常见问题</a>\r\n</p>\r\n\r\n<p align=\"center\">\r\n  <img src=\"docs/logo.png\" alt=\"Kun Like 桌宠\" width=\"192\" height=\"208\">\r\n</p>\r\n\r\n<p align=",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T17:45:41.751Z",
+  "created_at": "2026-08-15T09:01:30.755Z",
+  "gh": {
+    "full_name": "Practice019/dsh-kun-like-pet",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T17:40:45Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:55:11.105Z"
+}

@@ -30,6 +30,7 @@
   },
   "readme": "# dsh-artifacts\n\n> **Claude-Artifacts-style rendering for DeepSeek Harness.** Turn raw agent\n> output — Markdown + JSON — into beautiful, shareable, self-contained HTML\n> documents, cards, dashboards, and galleries. One command. Zero runtime\n> dependencies.\n\n[![CI](https://github.com/zoahdev/dsh-artifacts/actions/workflows/ci.yml/badge.svg)](https://github.com/zoahdev/dsh-artifacts/actions)\n[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![npm](https://img.shields.io/npm/v/dsh-artifacts)](https://www.npmjs.com/package/dsh-artifacts)\n\nEnglish | [中文](#中文)\n\n![dashboard demo](demo/preview-dashboard.png)\n\nYour agent produces Markdown and JSON all day. Most of it ends up as unstyled\nterminal text that nobody shares. `dsh-artifacts` fixes that: the same content,\nren",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T13:39:15.788Z",
   "created_at": "2026-08-16T13:35:39.241Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.471Z"
+  "updated_at": "2026-08-17T04:58:33.145Z"
 }

@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-Polaris",
+  "name": "dsh-Polaris",
+  "version": "0.0.0",
+  "description": "Toward Autonomous Scientific Discovery",
+  "keywords": [
+    "ai-agents",
+    "ai-scientist",
+    "auto-research",
+    "polaris-agent"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/ZJU-REAL/Polaris",
+  "homepage": "https://zju-real.github.io/Polaris/",
+  "npm": "https://www.npmjs.com/package/dsh-Polaris",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "ZJU-REAL/Polaris",
+    "open_issues": 7,
+    "pushed_at": "2026-08-17T01:01:23Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:51.865Z"
+}

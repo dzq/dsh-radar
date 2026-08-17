@@ -21,6 +21,7 @@
   "engines": {},
   "readme": "# @cradler/dsh-plugin\n\nCradler Router as a provider inside [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`).\n\nOne API key, and Claude, GPT, Gemini, DeepSeek and Grok all show up in the dsh\nmodel picker. The model list is read live from your account, so a model added\nto Router appears in dsh without touching this plugin.\n\n## Install\n\nInstall into the profile you boot (`dsh plugin` forwards its arguments to pnpm\nin that profile's directory, and `--profile` is required):\n\n```bash\ndsh plugin --profile web add @cradler/dsh-plugin\nexport CRADLER_ROUTER_KEY=\"sk-cr-…\"   # get one at https://cradler.ai/dashboard/router\n```\n\nThen add it to that profile's patch layer — `$DSH_HOME/cordis.patch.yml` for\nevery profile, or the profile's own layer for just one:\n\n```yaml\n- id: cr",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T00:35:50.768Z",
   "created_at": "2026-08-16T00:32:28.870Z",
   "gh": null,
@@ -33,5 +34,5 @@
     "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.972Z"
+  "updated_at": "2026-08-17T04:58:34.287Z"
 }

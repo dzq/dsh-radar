@@ -24,6 +24,7 @@
   },
   "readme": "# dsh-obsidian\n\n把 [DeepSeek Harness](https://github.com/deepseek-ai/dsh)（`dsh`）连接到本地 [Obsidian](https://obsidian.md) vault。因为一个 Obsidian vault 本质上就是磁盘上的一堆 Markdown 文件，所以你的 `dsh` agent 可以直接搜索、读取、写入、移动和删除（移入回收站）笔记——**不需要 MCP server，也不需要 OAuth**。\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Node: >=22.12.0](https://img.shields.io/badge/Node-%3E%3D22.12.0-339933.svg)](https://nodejs.org)\n\n中文 | [English](README.en.md)\n\n## 它能帮你做什么\n\n装上 `dsh-obsidian` 后，你的 `dsh` agent 就能直接读写本地 Obsidian vault。插件会在启动时自动探测你的 vault（或读取你显式配置的路径），然后把 9 个 `obsidian_*` 工具挂载给 agent，覆盖搜索、读取、写入、追加、移动、删除和反链查询等日常操作。\n\n## 特性\n\n- **零依赖服务器** —— 直接读写 vault 文件系统，无需 Local REST API 社区插件，也无需常驻 MCP server。\n- **可选 Obsidian 原生能力** —— 当 `obsidian` CLI 可用时，反链查询与移动会自动委托给它（移动时同步更新 `[[链接]]`）；否则全部回退到纯文件系统实现。\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T04:26:46.647Z",
   "created_at": "2026-08-16T04:26:46.462Z",
   "gh": null,
@@ -36,5 +37,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.744Z"
+  "updated_at": "2026-08-17T04:58:36.912Z"
 }

@@ -1,0 +1,55 @@
+{
+  "slug": "dsh-agy",
+  "name": "dsh-agy",
+  "version": "0.2.1",
+  "description": "Google Antigravity (agy) OAuth auth + model access plugin for DeepSeek Harness: multi-account pool, 429 rotation, device fingerprinting, CLI and web login.",
+  "keywords": [
+    "agy",
+    "antigravity",
+    "claude",
+    "deepseek-harness",
+    "dsh",
+    "gemini"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/chaos-03x/dsh-agy.git",
+  "homepage": "https://github.com/chaos-03x/dsh-agy#readme",
+  "npm": "https://www.npmjs.com/package/dsh-agy",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "readme": "# dsh-agy\n\n[![CI](https://github.com/chaos-03x/dsh-agy/actions/workflows/ci.yml/badge.svg)](https://github.com/chaos-03x/dsh-agy/actions/workflows/ci.yml)\n[![npm version](https://img.shields.io/npm/v/dsh-agy)](https://www.npmjs.com/package/dsh-agy)\n\nGoogle Antigravity (agy) access for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness):\nOAuth authentication, a multi-account pool with automatic 429 rotation, device\nfingerprinting, and both CLI and web management.\n\n> 中文文档：[docs/README_zh.md](docs/README_zh.md)\n\n## Features\n\n- **OAuth login**: one-click sign-in via browser OAuth callback, with headless\n  paste-URL mode and a remote paste-credential blob channel.\n- **Two management surfaces**: web and CLI, either one works, core features are\n  the same.\n- **Multi-account pool**",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T06:36:19.748Z",
+  "created_at": "2026-08-14T11:34:40.273Z",
+  "gh": {
+    "full_name": "chaos-03x/dsh-agy",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T06:35:55Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:56:13.516Z"
+}

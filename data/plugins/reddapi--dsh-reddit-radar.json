@@ -20,6 +20,7 @@
   "engines": {},
   "readme": "# @reddapi/dsh-reddit-radar\n\nA [dsh](https://github.com/deepseek-ai/dsh) plugin that periodically scans\n[reddapi.dev](https://reddapi.dev) for new Reddit leads matching a one-sentence\nICP description, drops the ones you've already seen, and writes the new ones\nto a dated markdown report in your workspace. It also forwards reddapi.dev's\nsix read-only search/lookup MCP tools so the agent can query Reddit on demand\nbetween runs.\n\n## What it's reading\n\n| | |\n|---|---|\n| **50K+** | subreddits tracked |\n| **30M+** | posts indexed |\n| **170M+** | comments indexed |\n| **1024D** | vector dimensions |\n| **5** | lead types classified |\n\n## Why this beats a keyword alert\n\nKeyword alerts return thousands of irrelevant mentions and still miss the ones\nthat matter, because people asking for what you sell",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:46:28.726Z",
   "created_at": "2026-08-17T03:46:28.424Z",
   "gh": null,
@@ -32,5 +33,5 @@
     "overall": 27,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.640Z"
+  "updated_at": "2026-08-17T04:58:32.430Z"
 }

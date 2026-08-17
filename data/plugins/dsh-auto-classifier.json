@@ -26,6 +26,7 @@
   "engines": {},
   "readme": "# dsh-auto-classifier — DeepSeek Harness 的 auto（自主模式）权限分类器\n\n[English](README.md) | 中文\n\nDeepSeek Harness（DSH）的类 Claude Code Auto Mode 权限分类器。在 `read-only / workspace-write / danger-full-access` 之外新增第四个权限预设 **auto（Autonomous / 自主模式）**：工具调用自动分类——危险操作在真正执行前被拦截，安全操作正常放行，沙箱升级由分类器自动裁决，无需人工盯着审批弹窗。\n\n## 工作机制\n\nhost 平面插件。两个 `{ prepend: true }` 监听器抢在浏览器应答者之前裁决，只在会话权限预设为 `auto` 时生效；其它会话保持原生交互行为（处理函数调用 `next()` 放行）：\n\n| 扩展点 | 作用 |\n|---|---|\n| `tools/pre-execute`（工具预执行瀑布） | 每次工具调用都能看到工具名与完整参数：危险命令（删系统目录、格式化、改注册表、`git reset --hard` / force push、访问凭据等）在执行前被拒绝 |\n| `approval/request`（审批瀑布） | 沙箱升级（`sandbox_permissions`）由分类器自动放行/拒绝——auto 会话内无浏览器弹窗 |\n| git 快照 | 放行高风险升级前对工作区自动 checkpoint（`git add -A && git commit`，可节流）；`auto_snapshot` 工具可随时手动打点 |\n| systemPrompt section | 注入自主模式纪律：风险分级、git 救援、禁止无限重试、需要人决策时发邮件并停止 |\n\n",
   "weekly_downloads": 521,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:17:18.858Z",
   "created_at": "2026-08-15T08:18:10.682Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 55,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.237Z"
+  "updated_at": "2026-08-17T04:58:28.635Z"
 }

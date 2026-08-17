@@ -47,6 +47,7 @@
   },
   "readme": "# dsh-oauth-newapi\n\n面向 DeepSeek Harness 的 New API OAuth 提供方插件。它依赖 `dsh-oauth` 保存 OAuth 凭据，自己负责站点实例、账号选择、分组、令牌、模型发现和模型路由。\n\n## 配置\n\n```yaml\n- id: llm-newapi-oauth\n  name: dsh-oauth-newapi\n  config:\n    instances:\n      - id: company\n        displayName: Company New API\n        issuer: https://newapi.example.com\n```\n\nCordis 配置中的实例是只读预置。用户界面创建的实例保存在 `$DSH_HOME/oauth/newapi.json`；相同 ID 下预置实例优先。\nNew API 会通过 discovery 公布站点的唯一公开 DSH 客户端，普通配置只需站点地址。旧站点或特殊部署可在高级设置中覆盖 `clientId` 和 `redirectUri`；回调地址必须与 OAuth 应用登记值完全一致，并使用当前机器可监听的固定 loopback 端口。\n\n## 协议约定\n\n- OAuth：Authorization Code + PKCE S256，仅公开客户端。\n- scopes：`openid profile offline_access newapi:groups.read newapi:tokens.read newapi:tokens.create newapi:inference`。\n- 推理鉴权：`Authorization: Bearer <OAuth access token>` 与 `New-Api-Token-Id: <token id>`。\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T13:33:06.314Z",
   "created_at": "2026-08-14T13:33:05.991Z",
   "gh": null,
@@ -59,5 +60,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.944Z"
+  "updated_at": "2026-08-17T04:58:33.585Z"
 }

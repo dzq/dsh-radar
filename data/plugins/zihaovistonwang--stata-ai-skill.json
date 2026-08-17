@@ -27,6 +27,7 @@
   },
   "readme": "# @zihaovistonwang/stata-ai-skill\n\n**The Stata AI Skill is the DeepSeek Harness (DSH) plugin for running Stata** — it brings the native Stata AI Skill service into DSH: the service starts with DSH and stops on shutdown.\n\n**Stata AI Skill 是 DeepSeek Harness (DSH) 运行 Stata 的插件** —— 它把 Stata AI Skill 原生服务接入 DSH:服务随 DSH 一起启动、随 DSH 关闭。\n\n> This plugin is the one with which DeepSeek Harness (DSH) runs Stata: as a Cordis bundle plugin of DSH, it hosts the Stata AI Skill native background service (HTTP `127.0.0.1:19522`) inside the DSH lifecycle. It does not bundle Stata itself and does not replace the skill — it only guarantees the service is online whenever DSH is up.\n>\n> 本插件就是 DeepSeek Harness (DSH) 用来运行 Stata 的插件:作为 DSH 的 Cordis bundle 插件,它把 Stata AI Skill 的原生后台服务(HTTP `127.0.0.1:19522`)托管进 DSH",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:16:43.366Z",
   "created_at": "2026-08-15T16:16:42.975Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.621Z"
+  "updated_at": "2026-08-17T04:58:31.806Z"
 }

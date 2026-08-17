@@ -26,6 +26,7 @@
   },
   "readme": "# DSH Time Machine\n\n[![npm](https://img.shields.io/npm/v/dsh-time-machine)](https://www.npmjs.com/package/dsh-time-machine)\n[![GitHub stars](https://img.shields.io/github/stars/zjukop/dsh-time-machine?style=flat)](https://github.com/zjukop/dsh-time-machine)\n[![DeepSeek Harness](https://img.shields.io/badge/DeepSeek_Harness-plugin-4D6BFE)](https://github.com/deepseek-ai/deepseek-harness)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)\n\n> 给 DeepSeek Harness 装上一台工作区时光机：改之前存档，改崩后安全回去。\n\n`dsh-time-machine` 是一个本地优先的 DeepSeek Harness 插件。它把工作区保存为内容寻址快照，展示当前文件与存档之间的差异，并通过“两阶段确认”恢复文件。\n\n## 为什么可能爆火\n\n- **一句话能演示**：“鲸鱼，重构前存个档。”\n- **解决真痛点**：Agent 的上下文能撤销，不代表已经写入磁盘的文件能撤销。\n- **安全感可视化**：恢复前明确展示新增、修改、删除文件数量。\n- **本地优先**：文件内容不会上传到额外服务。\n- **不要求 Git**：草稿、未初始化仓库、被忽略文件同样能保护。\n\n## 安装\n\n`",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T12:40:43.150Z",
   "created_at": "2026-08-15T12:40:42.830Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.971Z"
+  "updated_at": "2026-08-17T04:58:34.198Z"
 }

@@ -1,0 +1,63 @@
+{
+  "slug": "dsh-share",
+  "name": "dsh-share",
+  "version": "0.3.0",
+  "description": "Share DSH Q&As or selected conversation groups as PNG or Markdown.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "share-image",
+    "screenshot"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/hellodigua/dsh-share.git",
+  "homepage": "https://github.com/hellodigua/dsh-share#readme",
+  "npm": "https://www.npmjs.com/package/dsh-share",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-primitives"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "readme": "# dsh-share\n\n简体中文 | [English](./README.en.md)\n\nDSH 对话分享插件，分享单轮或多轮对话，可导出为图片或 Markdown。\n\n和 DeepSeek 网页端一致的多选交互，操作体验完全一致。\n\n![dsh-share 多轮问答选择](./assets/readme/share-selection.webp)\n\n生成图片前可调整宽度、字号和过程显示，完成后可下载或复制图片。\n\n![dsh-share 生成图片](./assets/readme/share-dialog.webp)\n\n## 功能\n\n- 从右上角进入问答选择模式，默认全选\n- 每轮的分享按钮也会进入选择模式，并只预选当前问答\n- 问题和回答两侧都有联动勾选框，也可直接点击内容整组选择，支持不连续选择\n- 勾选框会在长内容滚动时吸附在页面上，到当前问题或回答末尾再移出\n- 可复制图片、下载 PNG 或 Markdown\n- 保留 Markdown、代码块、表格、图片和工具调用摘要\n- 可调整图片宽度和字号，长图支持滚动预览\n- 可勾选“不展示过程”，只保留提问和最终回答\n\n性能测试：日常聊天仅保留分享按钮等轻量开销；选择处理和图片生成只在使用分享功能时启动，并针对多轮对话做了优化。\n\n## 快速安装\n\n使用 DSH CLI 把插件加入 Web Profile，然后重启 `dsh web`：\n\n```sh\ndsh plugin --profile web add dsh-share\n```\n\n## 其他安装方式\n\n安装指定的 GitHub 版本：\n\n```sh\ndsh plugin --profile web add github:hellodigua/dsh-share#vX.Y.Z\n```\n\n安装本地源码：\n\n```sh\ndsh plugin --profile we",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T07:59:52.631Z",
+  "created_at": "2026-08-15T01:48:53.512Z",
+  "gh": {
+    "full_name": "hellodigua/dsh-share",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T15:14:45Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:55:25.723Z"
+}

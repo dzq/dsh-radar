@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-codex-switch",
+  "name": "dsh-codex-switch",
+  "version": "0.0.0",
+  "description": "Codex Switch 是一个 macOS 工具，一键配置 Codex 的自定义 API，同时保留官方 OpenAI 登录。保存后 Codex 的模型选择器里只会出现你选的那个 provider 的模型。也支持 Claude Code 的官方 / 自定义 API 切换。Codex Switch is a lightweight helper for configuring multiple coding-agent API routes. For Codex, it keeps Official OpenAI and a custom API prov",
+  "keywords": [
+    "codex",
+    "codex-app",
+    "codex-cli",
+    "codex-desktop",
+    "codex-github",
+    "codex-pet",
+    "codex-plugin",
+    "codex-project",
+    "codex-skill",
+    "codex-skills"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/kuangre123/codex-switch",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-codex-switch",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "kuangre123/codex-switch",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T09:33:24Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:01.641Z"
+}

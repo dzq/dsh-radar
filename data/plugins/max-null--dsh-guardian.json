@@ -27,6 +27,7 @@
   "engines": {},
   "readme": "# @max-null/dsh-guardian\n\nGuardian state engine for the DeepSeek Harness — three trigger-line monitors\nover session events, with live reminder injection and a UI snapshot service.\n\nM2 of SSiD (思灵), ported from fractal's guardian: assertion counting, the\nedit review queue, and no-feedback-loop monitoring.\n\n## What it monitors\n\n| Trigger line | Rule |\n|---|---|\n| Assertion count | Scans assistant messages for unverified claims (`不支持/做不到/只有 N 种/不存在/无法 X/远低于/过于 X`). Counts per session, decays by 1 every 3 clean turns, segments into levels [1,3]+. |\n| Edit review queue | Successful `write`/`edit` tool calls enqueue `{filePath, sessionId, turn}`. FIFO cap 20, dedup per file+session. Reminder lists them at turn end. |\n| No-feedback loop | Per turn: edits without `bash`/`pwsh` increment the counte",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T09:08:51.906Z",
   "created_at": "2026-08-16T09:08:51.606Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:50.033Z"
+  "updated_at": "2026-08-17T04:58:37.881Z"
 }

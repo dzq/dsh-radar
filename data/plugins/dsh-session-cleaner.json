@@ -1,0 +1,61 @@
+{
+  "slug": "dsh-session-cleaner",
+  "name": "dsh-session-cleaner",
+  "version": "1.0.2",
+  "description": "Delete DeepSeek Harness sessions from the running web runtime: live store detach, workspace records, and on-disk artifacts.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "session",
+    "delete",
+    "cleanup"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/fountunt/dsh-session-cleaner.git",
+  "homepage": "https://github.com/fountunt/dsh-session-cleaner",
+  "npm": "https://www.npmjs.com/package/dsh-session-cleaner",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-session-cleaner\n\n从**运行中的** DeepSeek Harness Web 运行时删除会话——文件、内存 live store、工作区记录，无需重启 `dsh web`。\n\n官方 Web API 只有 `workspace.archiveSession`（隐藏），没有 `session.delete`。本 bundle 补上这个缺口。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-session-cleaner            # 从 npm\ndsh plugin --profile web add github:fountunt/dsh-session-cleaner   # 从 git\n\n# 或使用本地 checkout\ndsh plugin --profile web add file:/path/to/dsh-session-cleaner\n```\n\n然后重启 `dsh web`（运行中的实例不会热加载新 bundle）。\n\n## 使用\n\n### Web UI（v1.0.0）\n\n客户端部分在侧边栏会话行 **⋮ 菜单底部**添加一个 **🗑 \"删除此会话\"** 菜单项——标题有歧义（重名）时会话的菜单项会被跳过以保证安全。\n\n点击确认后，会话被删除并刷新侧边栏。会话运行时菜单项为灰色禁用状态；在 UI 打开过的会话（挂着空闲 agent）会先自动停止再删除。当前正在运行的对话永远无法被删除。\n\n### API\n\n插件在 Web 服务器上注册一个路由：\n\n```http\nPOST /api-ext/session.delete\nContent-Type: application/json\n\n{ \"sessionId\": \"session-1bb8d361-ea6b-4b92-bab",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T12:33:33.192Z",
+  "created_at": "2026-08-14T03:35:25.600Z",
+  "gh": {
+    "full_name": "fountunt/dsh-session-cleaner",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T08:10:14Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:46.898Z"
+}

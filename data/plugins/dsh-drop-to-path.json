@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-drop-to-path",
+  "name": "dsh-drop-to-path",
+  "version": "0.0.0",
+  "description": "DSH 插件:图片与文件直达纯文本模型——图片保留原生附件体验,PDF/Office/压缩包/视频/音频显示为附件栏方块,点击发送时自动转为工作区路径,配合 dsh-vision-toolkit 粘贴即看图。A DSH plugin that delivers images AND files to text-only models as workspace paths: images keep the native attachment UI, other files show as square chips in the rail, paths ap",
+  "keywords": [
+    "agent",
+    "attachments",
+    "deepseek",
+    "deepseek-harness",
+    "drag-and-drop",
+    "dsh",
+    "file-upload",
+    "plugin",
+    "text-only-llm",
+    "vision"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/loudMore/dsh-drop-to-path",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-drop-to-path",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "loudMore/dsh-drop-to-path",
+    "open_issues": 1,
+    "pushed_at": "2026-08-14T12:11:33Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:10.049Z"
+}

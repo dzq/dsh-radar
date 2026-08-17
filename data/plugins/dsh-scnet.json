@@ -31,6 +31,7 @@
   },
   "readme": "<h1 align=\"center\">dsh-scnet</h1>\n\n<p align=\"center\">在 DeepSeek Harness 里操作超算互联网（scnet.cn）及同类国产超算集群：配 SSH、生成 Slurm 作业、探测集群、排查失败，附海光 DCU/DTK 知识。</p>\n\n## 这是什么\n\n一个 DeepSeek Harness 官方 bundle 插件，把 `scnet-hpc` 的 Agent Skill 和 bash 脚本包装成 DSH 可安装包。装好后 DSH 模型在涉及超算集群、Slurm 作业、海光 DCU/DTK 时会加载对应 skill，并可调用工具完成确定性操作。\n\n## 安装\n\n```sh\ndsh plugin --profile web add \"github:lql341/dsh-scnet#main\"\n```\n\n或本地目录：\n\n```sh\ngit clone https://github.com/lql341/dsh-scnet.git\ncd dsh-scnet\ndsh plugin --profile web add .\n```\n\n> git 源安装会取源码而非构建产物；本插件入口是纯 JavaScript（无编译步骤），无需 allowBuilds。\n\n## 能力面\n\n### Skills\n\n| Skill | 作用 |\n|---|---|\n| scnet-hpc | 国产超算使用规范：连接、提交/监控、调试、失败排查、海光 DCU/DTK 资源索引 |\n\n### Tools\n\n| 工具 | 说明 |\n|---|---|\n| scnet_list_clusters | 列出已配置的集群 profile |\n| scnet_show_cluster | 读取指定集群的完整参数 |\n| scnet_generate_job ",
   "weekly_downloads": 22,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T16:58:52.000Z",
   "created_at": "2026-08-14T16:58:51.729Z",
   "gh": null,
@@ -43,5 +44,5 @@
     "overall": 46,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.309Z"
+  "updated_at": "2026-08-17T04:58:29.532Z"
 }

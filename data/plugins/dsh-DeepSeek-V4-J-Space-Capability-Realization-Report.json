@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-DeepSeek-V4-J-Space-Capability-Realization-Report",
+  "name": "dsh-DeepSeek-V4-J-Space-Capability-Realization-Report",
+  "version": "0.0.0",
+  "description": "DeepSeek V4 × J-Space capability realization report — benchmark evidence that J-Space reduces capability-realization loss on DeepSeek V4 (Flash/Pro).",
+  "keywords": [
+    "agent-skills",
+    "ai-agent",
+    "benchmark",
+    "deepseek",
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "NOASSERTION",
+  "repo": "https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-DeepSeek-V4-J-Space-Capability-Realization-Report",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report",
+    "open_issues": 1,
+    "pushed_at": "2026-08-17T00:31:20Z",
+    "archived": false,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:58.300Z"
+}

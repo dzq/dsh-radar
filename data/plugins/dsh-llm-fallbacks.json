@@ -7,7 +7,7 @@
     "dsh",
     "dsh-plugin"
   ],
-  "license": "",
+  "license": "MIT",
   "repo": "git+https://github.com/omdsh-dev/dsh-llm-fallbacks.git",
   "homepage": "https://github.com/omdsh-dev/dsh-llm-fallbacks#readme",
   "npm": "https://www.npmjs.com/package/dsh-llm-fallbacks",
@@ -34,17 +34,25 @@
   },
   "readme": "# dsh-llm-fallbacks\n\n[English](README.md) | [中文](README.zh-CN.md)\n\n[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n![node](https://img.shields.io/badge/node-%3E%3D22-339933.svg)\n![pnpm](https://img.shields.io/badge/pnpm-%3E%3D10-f69220.svg)\n![dsh](https://img.shields.io/badge/dsh-DeepSeek%20Harness%20compatible-4B32C3.svg)\n[![dshfind](https://dshfind.com/api/badge/omdsh-dev/dsh-llm-fallbacks?lang=zh)](https://dshfind.com/zh/plugins/omdsh-dev/dsh-llm-fallbacks?ref=badge)\n\ndsh（DeepSeek Harness）的自动模型降级插件：当 root agent 或 subagent 的模型请求持续失败（重试耗尽、权限、配额超限、限流 429）时，按角色/模型 fallback 链自动切换 provider/model，当前 step/turn 在目标模型上继续完成——任务不因模型问题中断。\n\n一句话安装（见 [安装](#安装)）：\n\n```sh\ndsh plugin --profile web add dsh-llm-fallbacks   # 钉版本：加 @<version>\n```\n\n## 能力一览\n\n- **root / subagent 自动降级**：任",
   "weekly_downloads": 978,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T00:13:18.869Z",
   "created_at": "2026-08-13T16:29:42.722Z",
-  "gh": null,
+  "gh": {
+    "full_name": "omdsh-dev/dsh-llm-fallbacks",
+    "stars": 6,
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T04:32:33Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 75,
-    "maintenance": 0,
-    "quality": 55,
+    "maintenance": 40,
+    "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 53,
-    "grade": "C"
+    "overall": 63,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.219Z"
+  "updated_at": "2026-08-17T04:56:57.813Z"
 }

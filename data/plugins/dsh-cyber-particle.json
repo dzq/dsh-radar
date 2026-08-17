@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-cyber-particle",
+  "name": "dsh-cyber-particle",
+  "version": "0.0.0",
+  "description": "为 DeepSeek Harness Web 界面添加动态粒子网络背景 | Particle-network background plugin for DeepSeek Harness web",
+  "keywords": [
+    "canvas-animation",
+    "cordis",
+    "deepseek-harness",
+    "dsh",
+    "particle-network",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/AKS1st/dsh-cyber-particle",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-cyber-particle",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "AKS1st/dsh-cyber-particle",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T05:31:45Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:18.419Z"
+}

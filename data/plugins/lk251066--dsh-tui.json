@@ -25,6 +25,7 @@
   },
   "readme": "# @lk251066/dsh-tui\n\nInteractive terminal UI plugin and profile bundle for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).\n\n## Release status\n\nThis package is not published to npm. Its packed artifact passes installation and real-PTY interaction against the public dsh rc.6 host, but release still requires the reviewed commit, registry verification, tag, and GitHub Release in [REPAIR_PLAN.md](../../REPAIR_PLAN.md).\n\n## Installation\n\nThe supported package name is `@lk251066/dsh-tui`. It declares its own `dsh.bundle.patch`, so a separate `@lk251066/dsh-tui-bundle` package is neither required nor supported.\n\nAfter an npm release is available, install it with:\n\n```bash\ndsh plugin --profile tui add @lk251066/dsh-tui\n```\n\nFor local artifact testing before publication, follow ",
   "weekly_downloads": 52,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T17:33:01.110Z",
   "created_at": "2026-08-15T17:33:00.782Z",
   "gh": null,
@@ -37,5 +38,5 @@
     "overall": 46,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.299Z"
+  "updated_at": "2026-08-17T04:58:29.441Z"
 }

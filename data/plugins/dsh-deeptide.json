@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-deeptide",
+  "name": "dsh-deeptide",
+  "version": "0.0.0",
+  "description": "Built by DeepSeek, for DeepSeek — a Swift-native macOS coding agent",
+  "keywords": [
+    "coding-agent",
+    "deepseek",
+    "deepseek-harness",
+    "macos",
+    "swift"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/paean-ai/deeptide",
+  "homepage": "https://deeptide.sh",
+  "npm": "https://www.npmjs.com/package/dsh-deeptide",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "paean-ai/deeptide",
+    "open_issues": 1,
+    "pushed_at": "2026-07-08T09:37:30Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 26,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 30,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:39.348Z"
+}

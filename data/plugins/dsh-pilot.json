@@ -28,6 +28,7 @@
   },
   "readme": "# dsh-pilot\n\n[English](README.md) | 中文\n\n**给你的 DeepSeek Harness agent 装上手——带原生权限模型的自主浏览器操控。**\n\n你的 dsh agent 已经能\"看\"页面（[dsh-preview](https://github.com/Viger1/dsh-preview)）；`dsh-pilot` 让它能*开*：导航、把任意页面读成带编号的无障碍树、按 ref 操作元素、等待条件、上传文件、跑通完整流程——全程不需要视觉模型、不用猜 CSS 选择器。为纯文本模型而设计：页面本身就是文本。\n\n## 实际效果\n\n来自 headless dsh agent（DeepSeek-V4-Pro）的真实未剪辑运行：\n\n**全自主表单流程** —— 导航 → 快照（`textbox \"用户名\" [ref=e5]`、`button \"提交注册\" [ref=e12]`…）→ 按 ref 填表 → 选下拉项 → 勾选 → 提交 → `pilot_wait` 等成功提示（5ms 命中）→ 截图 → 关标签页。零控制台错误，零手写选择器。\n\n**权限跟随会话** —— 同一个 agent 尝试打开 `https://example.com`：\n- 默认 `workspace-write` 会话下：被拒——审批链返回 `unavailable`，agent 被明确告知该请用户加什么配置；\n- `danger-full-access` 会话下（用户已选择关闭弹窗、全开权限）：静默放行，没有任何多余的关卡。\n\n这就是设计原则：**插件不发明第二套权限系统**，而是读取 dsh 会话自身的持久权限事件并照办。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-pilot\n```\n\n自动使用已安装的 G",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T15:27:35.248Z",
   "created_at": "2026-08-16T15:27:34.841Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 40,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:52.849Z"
+  "updated_at": "2026-08-17T04:58:38.141Z"
 }

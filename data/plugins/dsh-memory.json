@@ -11,7 +11,7 @@
     "sqlite"
   ],
   "license": "MIT",
-  "repo": "",
+  "repo": "https://github.com/FuRongJun-1999/dsh-memory",
   "homepage": "",
   "npm": "https://www.npmjs.com/package/dsh-memory",
   "dsh_compat": true,
@@ -25,17 +25,30 @@
   },
   "readme": "# dsh-memory\n\nDurable cross-session memory for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).\n\nThe harness ships no memory plugin. Its `extension-cookbook` names the mechanism — a prompt section plus tools — but nothing implements it, so every session starts blank. This package fills that gap with one local SQLite file: **no embedding service, no API key, no sidecar process.**\n\n## Install\n\n```bash\ndsh plugin --profile web add dsh-memory\n```\n\nThe shipped bundle row stores memories at `$DSH_HOME/memory/memory.db`, shared by every profile on the machine.\n\n## What it gives the model\n\n| Tool | Purpose |\n|---|---|\n| `memory_write` | Store one self-contained durable fact, optionally tagged and pinned |\n| `memory_search` | Keyword search over memory text and tags |\n| `memory_",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-13T16:01:49.259Z",
   "created_at": "2026-08-13T16:01:48.783Z",
-  "gh": null,
+  "gh": {
+    "full_name": "FuRongJun-1999/dsh-memory",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T23:34:16Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
-    "quality": 75,
+    "maintenance": 40,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 38,
-    "grade": "D"
+    "overall": 48,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:48.673Z"
+  "updated_at": "2026-08-17T04:55:53.843Z"
 }

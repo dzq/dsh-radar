@@ -1,0 +1,36 @@
+{
+  "slug": "dsh-git-identity",
+  "name": "dsh-git-identity",
+  "version": "0.0.0",
+  "description": "DSH 插件：git 提交固定使用环境自身作者身份（优先 gh CLI 登录账号，GitHub noreply 邮箱），GIT_AUTHOR_*/GIT_COMMITTER_* 环境变量注入压过一切 git config",
+  "keywords": [],
+  "license": "",
+  "repo": "https://github.com/LoserFox/dsh-git-identity",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-git-identity",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "LoserFox/dsh-git-identity",
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T13:11:37Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 25,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 26,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:53.104Z"
+}

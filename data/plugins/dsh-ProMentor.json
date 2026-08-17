@@ -1,0 +1,39 @@
+{
+  "slug": "dsh-ProMentor",
+  "name": "dsh-ProMentor",
+  "version": "0.0.0",
+  "description": "ProMentor 是一个 AI Coding Agent Skill。装上它，你的 AI 编程助手立刻化身为导师——扫描项目架构、生成阶梯式 Chapter、带你手写核心逻辑、自动判题、AI Code Review。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "",
+  "repo": "https://github.com/Lyn-77/ProMentor",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-ProMentor",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Lyn-77/ProMentor",
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T18:44:52Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 25,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 26,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:05.662Z"
+}

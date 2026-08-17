@@ -39,6 +39,7 @@
   },
   "readme": "<div align=\"center\">\n\n# 💰 dsh-budget\n\n**DeepSeek Harness 的成本治理：预算、碳足迹与延迟，一个面板全览。**\n\n*让每次会话的成本在超支之前就被看清。*\n\n[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)\n[![DSH plugin](https://img.shields.io/badge/dsh-plugin-✅-green)](https://github.com/topics/dsh-plugin)\n[![Node](https://img.shields.io/badge/node-%5E22.19%20%7C%7C%20%3E%3D24-brightgreen.svg)](#)\n[![CI](https://img.shields.io/github/actions/workflow/status/PerryLink/dsh-budget/ci.yml?branch=main&label=CI)](https://github.com/PerryLink/dsh-budget/actions)\n[![Version](https://img.shields.io/github/v/tag/PerryLink/dsh-budget?label=version)](https://github.com/PerryLink/dsh-budget/releases)\n[![npm version](https://img.shields.io/npm/v/dsh-budget)](https://www.npmjs.com/package/dsh-budget)\n[![npm downloads](h",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T17:59:46.788Z",
   "created_at": "2026-08-16T17:59:46.430Z",
   "gh": null,
@@ -51,5 +52,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.704Z"
+  "updated_at": "2026-08-17T04:58:35.512Z"
 }

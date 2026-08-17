@@ -35,6 +35,7 @@
   },
   "readme": "# DSH Desktop Pet\n\n[English](README.en.md) | 中文\n\n[![CI](https://github.com/guojiangli/dsh-plugin-desktop-pet/actions/workflows/ci.yml/badge.svg)](https://github.com/guojiangli/dsh-plugin-desktop-pet/actions/workflows/ci.yml)\n[![npm](https://img.shields.io/npm/v/%40liguojiang%2Fdsh-plugin-desktop-pet)](https://www.npmjs.com/package/@liguojiang/dsh-plugin-desktop-pet)\n[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)\n\nDeepSeek Harness Web 的桌面电子宠物插件。宠物显示在工作区悬浮层，可拖动、关闭、替换图片，并根据当前会话状态和任务列表显示工作进度。\n\n![桌面电子宠物设置页](docs/desktop-pet.png)\n\n## 功能\n\n- 在 DSH 工作区显示可拖动电子宠物\n- 从宠物按钮关闭，并在设置页重新打开\n- 上传 PNG、JPEG、WebP 或 GIF 图片，最大 2 MB\n- 编辑宠物名称、尺寸和待机动效\n- 读取当前会话运行状态\n- 在 DSH 发布 `todos` 投影时显示当前任务和完成数量\n- 在“设置 > 插件 > 电子宠物”集中管理配置\n- 支持深浅色主题和 `prefers-reduced-motion`\n\n## 兼容性\n\n- DeepSeek Harness",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T17:46:50.181Z",
   "created_at": "2026-08-15T17:46:49.853Z",
   "gh": null,
@@ -47,5 +48,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.966Z"
+  "updated_at": "2026-08-17T04:58:34.110Z"
 }

@@ -30,6 +30,7 @@
   },
   "readme": "# @microi.net/cli — Microi吾码 CLI + 多宿主 AI Plugin\n\n`@microi.net/cli` 是 Microi吾码唯一的 AI/npm 产品，同时提供：\n\n- 全局命令 `microi`；\n- Codex Plugin、DeepSeek Harness 原生 profile bundle，以及 WorkBuddy/CodeBuddy 兼容 plugin 与 marketplace 清单；\n- 与 Microi.VSCode 同源的 MCP Server、连接/Token/同步协议；\n- 支持多服务器、租户、产品类型和网络环境的 `microi_codex` 路由；\n- 全套 Microi Skills 与 VS Code 命令覆盖矩阵。\n\n## 安装与空工作区初始化\n\n```bash\nnpm install -g @microi.net/cli\nmicroi init --workspace <工作区> --pull\n```\n\n未全局安装时，也可以一次执行：\n\n```bash\nnpx --yes @microi.net/cli@latest init --workspace <工作区> --pull\n```\n\n命令会引导添加服务器、登录、生成 AI 指令/Skills/类型提示，并同时配置 Codex、VS Code、Cursor、Trae、Claude Code、WorkBuddy、CodeBuddy、Qoder、Comate MCP；密码仅在当前进程中隐式输入，不写入命令参数或配置文件。\n\n在这些 AI 软件的空工作区中，可以直接说：\n\n```text\n安装 @microi.net/cli@latest，初始化 Microi吾码插件；添加指定服务器和 MCP，登录后拉取该连接的所有 V8 代码。\n```\n\n初始化会生成 `.wo",
   "weekly_downloads": 2300,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T12:49:32.629Z",
   "created_at": "2026-08-03T07:15:52.704Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 57,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.192Z"
+  "updated_at": "2026-08-17T04:58:28.360Z"
 }

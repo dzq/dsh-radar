@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-web-file-uploader",
+  "name": "dsh-web-file-uploader",
+  "version": "0.0.0",
+  "description": "A file-upload plugin for the DeepSeek Harness web UI.",
+  "keywords": [],
+  "license": "MIT",
+  "repo": "https://github.com/Mooling0602/dsh-web-file-uploader",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-web-file-uploader",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Mooling0602/dsh-web-file-uploader",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T18:50:39Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:36.568Z"
+}

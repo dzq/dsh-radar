@@ -26,6 +26,7 @@
   },
   "readme": "# dsh-ci-doctor\n\n[English](./README.md) · [npm](https://www.npmjs.com/package/dsh-ci-doctor) · [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)\n\n**CI 失败了？诊断结果在你打开日志之前就已经就绪。** `dsh-ci-doctor` 监视 GitHub Actions 的新失败，把原始作业日志变成结构化发现 —— 归一化错误签名、失败分类、嫌疑文件、裁剪后的日志摘录 —— 并记住它见过的每一个签名，老问题复发时一眼认出。全部通过两个 agent 工具和你本机已登录的 `gh` CLI 完成。\n\n## 使用方法\n\n直接用自然语言向 agent 提问即可，它会自动选对工具：\n\n- _「帮我盯着这个仓库的 CI，挂了告诉我」_ → 启动 `ci_watch` 后台监视作业。\n- _「 nightly 构建为什么挂了？」_ → 对最近一次失败运行执行 `ci_diagnose`，直接给出诊断卡。\n- _「诊断一下 cli/cli 的 31782742089 这次运行」_ → 针对指定运行的定向诊断。\n\n诊断卡会以 markdown 形式直接出现在对话里：\n\n```markdown\n## CI diagnosis: cli/cli run #31782742089\n\n**Conclusion:** failure · [run](https://github.com/cli/cli/actions/runs/31782742089)\n\n### Job: Issue Triage (skills-driven)\n\n**Failed steps:** triage\n**Signatures:**\n\n- `",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T10:15:49.322Z",
   "created_at": "2026-08-14T09:01:42.662Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.725Z"
+  "updated_at": "2026-08-17T04:58:36.216Z"
 }

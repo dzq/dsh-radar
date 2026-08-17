@@ -30,17 +30,25 @@
   },
   "readme": "# dsh-science\n\n[![npm version](https://img.shields.io/npm/v/dsh-science)](https://www.npmjs.com/package/dsh-science)\n[![license](https://img.shields.io/npm/l/dsh-science)](LICENSE)\n[![node](https://img.shields.io/badge/node-%3E%3D18-339933)](package.json)\n[![dsh-plugin topic](https://img.shields.io/badge/GitHub-topic%3A%20dsh--plugin-181717)](https://github.com/topics/dsh-plugin)\n\n**面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的 Claude Science 式科研工作台** —— 面向基因组 / 病原体 / 人类健康 / 生物信息项目。\n\n> 一句话介绍：**dsh-science** —— 面向 DSH 的 Claude Science 式科研工作台：ReAct 研究循环引擎（research_* 工具）、带溯源的版本化工件（artifact_* 工具），以及面向基因组/病原体/生物信息的 10 个科研技能。\n\n- **ReAct 研究循环引擎** —— `research_init` / `research_state` / `research_hypothesis` / `research_experiment` / `research_findings` / `research_phase",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T11:09:31.532Z",
   "created_at": "2026-08-14T03:14:11.420Z",
-  "gh": null,
+  "gh": {
+    "full_name": "omdsh-dev/dsh-science",
+    "stars": 4,
+    "open_issues": 7,
+    "pushed_at": "2026-08-16T20:04:22Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
+    "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 38,
-    "grade": "D"
+    "overall": 46,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:46.963Z"
+  "updated_at": "2026-08-17T04:57:58.880Z"
 }

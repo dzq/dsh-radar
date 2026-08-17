@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-graycode-for-dsh",
+  "name": "dsh-graycode-for-dsh",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [
+    "agent",
+    "agentic-ai",
+    "ai-agents",
+    "deepseek-harness",
+    "dsh",
+    "llm-agents"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/GrayCodeTeam/graycode-for-dsh",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-graycode-for-dsh",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "GrayCodeTeam/graycode-for-dsh",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T20:52:30Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 30,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:33.629Z"
+}

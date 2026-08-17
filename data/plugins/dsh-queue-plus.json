@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-queue-plus",
+  "name": "dsh-queue-plus",
+  "version": "0.0.0",
+  "description": "DSH 排队消息增强面板：编辑、删除、插话、排序与批量删除功能",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "prompt-queue"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/starslittle/dsh-queue-plus",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-queue-plus",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "starslittle/dsh-queue-plus",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:01:19Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:47.018Z"
+}

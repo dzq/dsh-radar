@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-meoo-cli",
+  "name": "dsh-meoo-cli",
+  "version": "0.0.0",
+  "description": "meoo cli 是秒悟（Meoo）官方推出的命令行工具，让 Claude Code、Codex、Cursor、Qoder等本地 agent 在帮你写完前端代码后，能直接接管「数据库、用户登录、文件存储、部署上线」的所有云端工作——你只需要在终端跑一条命令，剩下的交给 AI。",
+  "keywords": [
+    "claude-code-skill",
+    "claude-skills",
+    "cli",
+    "deploy",
+    "edge-functions",
+    "fullstack",
+    "meoo",
+    "skill-md",
+    "supabase"
+  ],
+  "license": "",
+  "repo": "https://github.com/ali-meoo/meoo-cli",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-meoo-cli",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "ali-meoo/meoo-cli",
+    "open_issues": 0,
+    "pushed_at": "2026-07-28T10:51:00Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 32,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 27,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:27.486Z"
+}

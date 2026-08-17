@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-dskin",
+  "name": "dsh-dskin",
+  "version": "0.0.0",
+  "description": "DSKIN · DeepSeek Harness（DSH）卡通像素皮肤插件 / Cartoon pixel skin plugin for DSH Web GUI — 原始界面不动，像素宠物会散步、眨眼、跳跃 / living pixel pets that stroll, blink and hop",
+  "keywords": [
+    "cartoon",
+    "deepseek-harness",
+    "dsh",
+    "pixel-art",
+    "skin",
+    "theme",
+    "ui-skin"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/dancingmemory/dskin",
+  "homepage": "https://github.com/topics/dsh-plugin",
+  "npm": "https://www.npmjs.com/package/dsh-dskin",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "dancingmemory/dskin",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T04:05:45Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:54.519Z"
+}

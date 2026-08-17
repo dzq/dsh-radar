@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-sticky-notes",
+  "name": "dsh-sticky-notes",
+  "version": "0.0.0",
+  "description": "Sticky notes for DeepSeek Harness: draggable notes with text & image support, 9 skins, and AI-powered read/write. DeepSeek Harness 便签插件:可拖拽,支持文字与图片、9 款皮肤,AI 可读写。",
+  "keywords": [
+    "ai-agent",
+    "deepseek-harness",
+    "plugin",
+    "sticky-notes"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/charrywhite/dsh-sticky-notes",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-sticky-notes",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "charrywhite/dsh-sticky-notes",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T03:03:17Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:04.704Z"
+}

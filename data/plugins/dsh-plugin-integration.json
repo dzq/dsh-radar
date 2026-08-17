@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-plugin-integration",
+  "name": "dsh-plugin-integration",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness (DSH) 插件整合中心：动态发现、打标分类、重叠/兼容检测、一键启停与失效检测",
+  "keywords": [
+    "cordis",
+    "deepseek-harness",
+    "dsh",
+    "plugin-manager"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/MutaLucem/dsh-plugin-integration",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-integration",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "MutaLucem/dsh-plugin-integration",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T13:29:14Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:59.072Z"
+}

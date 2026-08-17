@@ -31,6 +31,7 @@
   },
   "readme": "# dsh-whale-bg\n\n[English](README.md) | 简体中文\n\n一个非官方的 DeepSeek Harness Web UI 背景插件，将 DeepSeek 鱼形轮廓重建为\n由不同尺寸粒子组成的动态效果。\n\n> 这是一个社区项目，与 DeepSeek 不存在从属、维护或背书关系。鱼形几何数据\n> 复用自采用 MIT 许可证的 DeepSeek Harness 仓库，详情参见\n> [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。\n\n主要功能：\n\n- **入场动画**——粒子从散落状态逐渐组装成鱼形\n- **待机游动**——轮廓边缘保持松散，尾部带有行波效果\n- **悬停交互**——带三次衰减和单粒子角度扰动的径向推力\n- **手电筒照明**——鱼形平时近乎不可见，光线随光标移动并照亮附近粒子\n- **主题适配**——浅色主题使用正片叠底和深蓝色，深色主题使用滤色和辉光\n- **30 FPS 渲染**——限制装饰层的资源开销\n\n## 兼容性\n\n本插件基于 `@deepseek-ai/dsh@0.1.0-rc.6` 的 Web profile 开发并完成测试。\nDeepSeek Harness 目前仍处于开发者预览阶段，后续版本可能需要同步调整插件。\n\n## 安装\n\n请先按照 [DeepSeek Harness 官方说明](https://github.com/deepseek-ai/deepseek-harness#run)\n安装 `dsh` 命令。当前插件通过本地源码目录安装：\n\n```sh\ngit clone https://github.com/gooosie/dsh-whale-bg.git\ncd dsh-whale-bg\nnpm ci\nnpm run check\ndsh plugin --pr",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:19:33.988Z",
   "created_at": "2026-08-15T14:19:33.682Z",
   "gh": null,
@@ -43,5 +44,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.326Z"
+  "updated_at": "2026-08-17T04:58:30.147Z"
 }

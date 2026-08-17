@@ -23,6 +23,7 @@
   "engines": {},
   "readme": "# dsh-netcafe\n\nA [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) **bundle** that adds\n[AI NetCafé](https://ainetcafe.com)'s hosted outcome tools to your `dsh` profile in one install.\n\nIt is a thin configuration layer — it ships no tool code of its own. All it does is insert one\npre-configured `@deepseek-ai/dsh-mcp-client` row pointing at a remote MCP server, so you don't have\nto hand-write the YAML. If you'd rather write those six lines yourself,\n[the config is documented here](https://ainetcafe.com/mcp.html) and you don't need this package.\n\n## What you get\n\nTools register as `mcp__netcafe__<name>`. The main endpoint exposes 24 curated tools; a few worth\nnaming:\n\n| Tool | What it does |\n|---|---|\n| `extract_invoices` | A batch of up to 20 invoices → one ledger-ready ta",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T06:20:08.549Z",
   "created_at": "2026-08-14T02:32:48.294Z",
   "gh": null,
@@ -35,5 +36,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.956Z"
+  "updated_at": "2026-08-17T04:58:33.844Z"
 }

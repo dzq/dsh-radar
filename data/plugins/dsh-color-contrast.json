@@ -25,6 +25,7 @@
   "engines": {},
   "readme": "# dsh-color-contrast · WCAG颜色对比度计算器\r\n\r\n纯 Node 实现，无网络、无外部服务。\r\n\r\n## 安装\r\n\r\n```bash\r\ndsh plugin add dsh-color-contrast\r\n```\r\n安装后在 profile 的 `package.json` 的 `dsh.profile.bundles` 中加入 `\"dsh-color-contrast\"`。\r\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:24:32.198Z",
   "created_at": "2026-08-17T03:24:31.944Z",
   "gh": null,
@@ -37,5 +38,5 @@
     "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.990Z"
+  "updated_at": "2026-08-17T04:58:34.808Z"
 }

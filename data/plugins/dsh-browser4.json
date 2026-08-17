@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-browser4",
+  "name": "dsh-browser4",
+  "version": "0.0.0",
+  "description": "Browser4 — an AI-native browser engine for autonomous agents, intelligent extraction, and large-scale web automation.",
+  "keywords": [
+    "agent-browser",
+    "ai-browser",
+    "browser-os",
+    "crawler",
+    "deepseek-harness"
+  ],
+  "license": "",
+  "repo": "https://github.com/platonai/dsh-browser4",
+  "homepage": "https://browser4.io",
+  "npm": "https://www.npmjs.com/package/dsh-browser4",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "platonai/dsh-browser4",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T18:18:36Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:26.371Z"
+}

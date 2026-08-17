@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-user-experience",
+  "name": "dsh-user-experience",
+  "version": "0.0.0",
+  "description": "Persona-driven UX walkthrough plugin for DeepSeek Harness (DSH) - scans React + TypeScript source code for UX issues, pinpoints them, and suggests fixes.",
+  "keywords": [
+    "code-review",
+    "deepseek-harness",
+    "ux"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/DietCokewithSugar/dsh-user-experience",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-user-experience",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "DietCokewithSugar/dsh-user-experience",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T03:30:48Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:36.090Z"
+}

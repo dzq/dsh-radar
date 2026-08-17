@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-multi-tenant",
+  "name": "dsh-multi-tenant",
+  "version": "0.0.0",
+  "description": "Multi-tenant SaaS extension for DeepSeek Harness (DSH): tenant identity, session isolation, authorization, tenant-aware MCP, and audit.",
+  "keywords": [
+    "ai-agents",
+    "authorization",
+    "cordis",
+    "deepseek-harness",
+    "multi-tenant",
+    "saas",
+    "tenant-isolation"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/GuoMonth/dsh-multi-tenant",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-multi-tenant",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "GuoMonth/dsh-multi-tenant",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T02:37:39Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 65,
+    "dsh_compat": 30,
+    "overall": 35,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:57.675Z"
+}

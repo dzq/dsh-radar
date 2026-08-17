@@ -30,17 +30,30 @@
   },
   "readme": "# dsh-claude-move\r\n\r\n**迁移到 DeepSeek Harness，不丢 Claude Code 历史。** 一次安装，把 Claude 的全部会话、记忆、技能与 `CLAUDE.md` **复制**进 DSH，生成可续聊的会话——并归入专用 `claudecode` 工作区（按项目各建工作区为可选配置）。\r\n\r\n`复制式迁移` · `无缝续聊` · `按项目划分工作区` · `与 Claude Code 实时同步`\r\n\r\n[![Test](https://github.com/PerryLink/dsh-claude-move/actions/workflows/test.yml/badge.svg)](https://github.com/PerryLink/dsh-claude-move/actions/workflows/test.yml)\r\n[![npm version](https://img.shields.io/npm/v/dsh-claude-move)](https://www.npmjs.com/package/dsh-claude-move)\r\n[![npm downloads](https://img.shields.io/npm/dm/dsh-claude-move)](https://www.npmjs.com/package/dsh-claude-move)\r\n[![Node ^22.19 || >=24](https://img.shields.io/static/v1?label=node&message=%5E22.19%20%7C%7C%20%3E%3D24&color=2f7d4f)](https://nodejs.org)\r\n[![License: Apache-2.0](https://img.shields",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T16:25:36.493Z",
   "created_at": "2026-08-16T16:08:34.281Z",
-  "gh": null,
+  "gh": {
+    "full_name": "PerryLink/dsh-claude-move",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T16:40:28Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
-    "quality": 75,
+    "maintenance": 40,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 39,
-    "grade": "D"
+    "overall": 49,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.629Z"
+  "updated_at": "2026-08-17T04:57:05.936Z"
 }

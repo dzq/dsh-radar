@@ -35,6 +35,7 @@
   "engines": {},
   "readme": "# dsh-plugin-appshot\n\n> macOS 全局快捷键「一键截图**当前窗口**」，自动作为图片上下文挂入 DeepSeek Harness (DSH) 的 Composer —— 把当前工作窗口零摩擦交给 Agent。\n\n[English](README.en.md) · [中文](README.md)\n\n![macOS](https://img.shields.io/badge/macOS-14%2B-333333?logo=apple&logoColor=white)\n![Windows](https://img.shields.io/badge/Windows-%E5%BC%80%E5%8F%91%E4%B8%AD-9cf)\n![DSH](https://img.shields.io/badge/DeepSeek%20Harness-0.1.0--rc.6-4f46e5)\n![npm](https://img.shields.io/npm/v/dsh-plugin-appshot)\n![License](https://img.shields.io/badge/license-MIT-green)\n\n## 安装（一条命令）\n\n```sh\ndsh plugin --profile web add dsh-plugin-appshot\n```\n\n- npm 包为**预构建产物**：宿主插件 + 客户端模块 + Native Agent 已全部打包，**无需本地编译、无需构建授权**；\n- 安装后**重启 dsh**，启动日志出现 `[dsh-plugin-appshot] plugin applied successfully`、`native agent ready` 即加载成功；\n- 首次触发截图时 macOS 会弹出授权引导，需授予**屏幕录制**",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T01:49:33.022Z",
   "created_at": "2026-08-16T16:04:14.399Z",
   "gh": null,
@@ -47,5 +48,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.990Z"
+  "updated_at": "2026-08-17T04:58:34.808Z"
 }

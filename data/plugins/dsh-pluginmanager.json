@@ -1,0 +1,38 @@
+{
+  "slug": "dsh-pluginmanager",
+  "name": "dsh-pluginmanager",
+  "version": "0.0.0",
+  "description": "DSH 分层插件管理器：原生插件按 系统层/WebUI 层/工具层 只读展示，用户扩展支持停用/启用、补登记、卸载与可编辑描述。",
+  "keywords": [
+    "dsh"
+  ],
+  "license": "",
+  "repo": "https://github.com/buhuikongpan/dsh-pluginmanager",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-pluginmanager",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "buhuikongpan/dsh-pluginmanager",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T15:26:14Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 25,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 27,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:30.275Z"
+}

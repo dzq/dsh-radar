@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-SpecFusion",
+  "name": "dsh-SpecFusion",
+  "version": "0.0.0",
+  "description": "在 DeepSeek Harness / Claude Code / Cursor / Codex / Gemini CLI 里直接搜索 20 个中国开放平台的 65,600+ 篇 API 文档；零配置，支持 Skill 与 DSH 原生插件。",
+  "keywords": [
+    "ai-agents",
+    "alipay",
+    "api-documentation",
+    "chinese-api",
+    "claude-code",
+    "cursor",
+    "deepseek-harness",
+    "dingtalk",
+    "douyin",
+    "feishu"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/wxkingstar/SpecFusion",
+  "homepage": "https://specfusion.kingstar.xin/",
+  "npm": "https://www.npmjs.com/package/dsh-SpecFusion",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "wxkingstar/SpecFusion",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T17:45:21Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:09.636Z"
+}

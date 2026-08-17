@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-envoy",
+  "name": "dsh-envoy",
+  "version": "0.0.0",
+  "description": "Hana 插件：把 coding 任务外包给本机 DeepSeek Harness，审批同步回 Hana 内决策，结果以原生卡片带回",
+  "keywords": [
+    "deepseek-harness",
+    "hana",
+    "hanaagent",
+    "oh-plugin"
+  ],
+  "license": "NOASSERTION",
+  "repo": "https://github.com/KhalilYamber/dsh-envoy",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-envoy",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "KhalilYamber/dsh-envoy",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T13:59:26Z",
+    "archived": false,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:43.001Z"
+}

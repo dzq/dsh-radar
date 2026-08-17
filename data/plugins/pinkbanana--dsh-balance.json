@@ -34,6 +34,7 @@
   },
   "readme": "# dsh-balance\n\n[简体中文](./README.md) | [English](./README_EN.md)\n\nDeepSeek Harness 插件，用于查询 API 余额和当前可用模型。API Key 仅由本机 Host 使用，不会发送到浏览器。\n\n![DeepSeek 余额设置面板](./docs/dsh-balance-settings-v040.png)\n\n![聊天框下方的 DeepSeek 余额](./docs/dsh-balance-composer-v040.png)\n\n## 功能\n\n- 查看总余额、充值余额和赠送余额\n- 在聊天框下方持续显示余额摘要\n- 查看当前 API Key 可用的模型\n- 缓存查询结果并支持手动刷新\n- 原生支持简体中文和英文，并跟随 Harness 系统语言切换\n- 支持 Harness 已保存的 `DEEPSEEK_API_KEY`\n\n## 安装\n\n```bash\ndsh plugin --profile web add @pinkbanana/dsh-balance\ndsh --profile web\n```\n\n打开 <http://127.0.0.1:3080/>，进入“设置 → DeepSeek 余额”。该入口位于“Agent 预设”下方，余额摘要也会显示在已有会话的聊天框下方。API Key 可在“设置 → 模型”中保存，或通过 `DEEPSEEK_API_KEY` 环境变量提供。\n\n## 开发\n\n```bash\npnpm install\npnpm check\n```\n\n## License\n\n[MIT](./LICENSE)\n\n<a href=\"https://www.buymeacoffee.com/pinkbanana\"><img src=\"https://cdn.buymeacoffee.com/",
   "weekly_downloads": 211,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T03:52:15.953Z",
   "created_at": "2026-08-14T14:39:20.633Z",
   "gh": null,
@@ -46,5 +47,5 @@
     "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.266Z"
+  "updated_at": "2026-08-17T04:58:29.084Z"
 }

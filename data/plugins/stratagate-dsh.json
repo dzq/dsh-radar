@@ -25,6 +25,7 @@
   },
   "readme": "# StrataGate for DeepSeek Harness\r\n\r\nNative, local-first long-term memory for DeepSeek Harness. The plugin adapts DSH session events to the existing StrataGate memory engine; it does not implement a second memory system.\r\n\r\n## Install\r\n\r\nFrom a DSH profile:\r\n\r\n```bash\r\ndsh plugin --profile web add stratagate-dsh\r\n```\r\n\r\nThe package includes `cordis.patch.yml`, so DSH can add the Host row automatically. Restart the profile after installation. The default database is:\r\n\r\n```text\r\nDSH_HOME/stratagate/memory.db\r\n```\r\n\r\nRemoving the plugin does not delete that database.\r\n\r\n## What happens automatically\r\n\r\n- Completed human turns are folded from `turn/start`, human `user/message`, assistant messages, tool calls/results, and `turn/end`.\r\n- Plugin-injected context is not mistaken for a human messa",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:46:19.305Z",
   "created_at": "2026-08-16T08:46:18.989Z",
   "gh": null,
@@ -37,5 +38,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.476Z"
+  "updated_at": "2026-08-17T04:58:33.321Z"
 }

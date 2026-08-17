@@ -23,17 +23,25 @@
   },
   "readme": "# dsh-ssh\n\n[English](README.md) | 中文\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/npm/v/dsh-ssh\" alt=\"npm 版本\">\n  <img src=\"https://img.shields.io/npm/l/dsh-ssh\" alt=\"许可证\">\n  <img src=\"https://img.shields.io/badge/node-%3E%3D22-339933\" alt=\"Node 版本\">\n  <img src=\"https://img.shields.io/github/actions/workflow/status/UynajGI/dsh-ssh/ci.yml?label=CI\" alt=\"CI 状态\">\n  <img src=\"https://img.shields.io/github/stars/UynajGI/dsh-ssh\" alt=\"GitHub Stars\">\n  <img src=\"https://img.shields.io/badge/dsh-plugin-2ea44f\" alt=\"dsh-plugin\">\n</p>\n\n**[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的 SSH 远程开发插件**。把 Bash / 文件工具 / PTY 终端 / LSP 整体切到远程主机，支持跳板链（ProxyJump）、SFTP 上传下载、远程 subprocess 与交互终端。基于 [ssh2](https://github.com/mscdex/ssh2)。\n\n> dsh-plugin 生态中第一个（截至 2026-08 唯一）SSH 远程开发插件。",
   "weekly_downloads": 490,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-13T15:17:47.645Z",
   "created_at": "2026-08-13T14:36:30.285Z",
-  "gh": null,
+  "gh": {
+    "full_name": "UynajGI/dsh-ssh",
+    "stars": 5,
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T14:53:11Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 67,
-    "maintenance": 0,
+    "maintenance": 40,
     "quality": 75,
     "security": 40,
     "dsh_compat": 30,
-    "overall": 44,
+    "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.242Z"
+  "updated_at": "2026-08-17T04:57:15.517Z"
 }

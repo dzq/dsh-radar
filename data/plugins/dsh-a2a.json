@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-a2a",
+  "name": "dsh-a2a",
+  "version": "0.1.0",
+  "description": "dsh-a2a: A2A v1.0 for DeepSeek Harness — expose the harness as an A2A agent and call remote A2A agents from agent tools.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "a2a",
+    "agent2agent",
+    "agent",
+    "protocol",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/TtTRz/dsh-a2a.git",
+  "homepage": "https://github.com/TtTRz/dsh-a2a#readme",
+  "npm": "https://www.npmjs.com/package/dsh-a2a",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19"
+  },
+  "readme": "# dsh-a2a\n\n> [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的 A2A v1.0 插件——把 harness 暴露为 A2A agent，也让 harness agent 能调远程 A2A agent。\n\n[![npm version](https://img.shields.io/npm/v/dsh-a2a)](https://www.npmjs.com/package/dsh-a2a)\n[![license](https://img.shields.io/npm/l/dsh-a2a)](LICENSE)\n[![node](https://img.shields.io/node/v/dsh-a2a)](https://nodejs.org)\n\n一个插件两个半身，底层走官方 [`@a2a-js/sdk`](https://github.com/a2aproject/a2a-js)（A2A 协议 v1.0）：\n\n- **Server**——自带的 HTTP 端点把 harness 暴露为 A2A agent：Agent Card 发现、JSON-RPC（必选传输，含 SSE 流式）、HTTP+JSON REST。每个 A2A `contextId` 映射到一个**持久化 harness 会话**，追问继续同一个对话。\n- **Client**——`a2a_call` / `a2a_list` 两个模型工具，从配置驱动的注册表把活派给远程 A2A agent，支持 header 鉴权。\n\n## ✨ 特性\n\n- 🤖 **一个 contextId = 一个 harness agent**——会话 id 由 `sha256(contextId)` 确定性派生，挂载 preset（默",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T02:38:05.552Z",
+  "created_at": "2026-08-15T02:38:05.330Z",
+  "gh": {
+    "full_name": "dpskh/dsh-a2a",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T16:57:34Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 44,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:51.176Z"
+}

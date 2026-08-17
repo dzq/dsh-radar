@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-weneed",
+  "name": "dsh-weneed",
+  "version": "0.0.0",
+  "description": "让dsh稳定触发We Need思维链，提高模型能力。",
+  "keywords": [
+    "dsh",
+    "dsh-plugins"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Nwflower/dsh-weneed",
+  "homepage": "https://github.com/Nwflower/dsh-weneed",
+  "npm": "https://www.npmjs.com/package/dsh-weneed",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Nwflower/dsh-weneed",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T03:11:15Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:04.647Z"
+}

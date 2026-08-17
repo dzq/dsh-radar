@@ -27,6 +27,7 @@
   },
   "readme": "# @claude2dsh/plugin\n\nDeepSeek Harness plugin for Claude2DSH. It imports Claude Code conversations and skills into DSH as native resumable sessions, and exports/syncs DSH sessions back into Claude Code JSONL.\n\n## Tools\n\n- `claude2dsh_import`: read `~/.claude/projects` read-only, write DSH-native session logs. Idempotent; grown Claude transcripts append only new turns. `preview:true` is zero-side-effect. `includeSubagents:true` imports subagent/workflow transcripts as `origin:\"subagent\"` child sessions.\n- `claude2dsh_import_skills`: copy validated Claude skills into `$DSH_HOME/skills`; conflicts are never overwritten.\n- `claude2dsh_export`: serialize one DSH session into a Claude Code JSONL transcript under `$DSH_HOME/claude2dsh/exports`. Writing below the real `~/.claude` is refused unless",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T07:49:17.192Z",
   "created_at": "2026-08-16T07:45:53.629Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.339Z"
+  "updated_at": "2026-08-17T04:58:30.586Z"
 }

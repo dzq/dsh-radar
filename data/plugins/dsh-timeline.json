@@ -1,0 +1,41 @@
+{
+  "slug": "dsh-timeline",
+  "name": "dsh-timeline",
+  "version": "0.0.0",
+  "description": "DSH 插件：极简提问时间线——每条提问一个圆点，点击跳转，悬停预览。Minimal question timeline for DeepSeek Harness.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugins"
+  ],
+  "license": "",
+  "repo": "https://github.com/zhangzheng25/dsh-timeline",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-timeline",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "zhangzheng25/dsh-timeline",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T06:34:06Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:56.243Z"
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-deepseek-aix",
+  "name": "dsh-deepseek-aix",
+  "version": "0.0.0",
+  "description": "Q-Q: 面向学术文献的对话式 AI 研究助手。支持多源搜索（PubMed、arXiv、Semantic Sc​​holar、Crossref）、论文卡片去重及带文件夹功能的收藏夹——基于 DeepSeek Harness 构建。",
+  "keywords": [
+    "ai-",
+    "aix",
+    "autoresearch",
+    "cordis",
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "paper",
+    "research"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/PHoenixs57/deepseek-aix",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-deepseek-aix",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "PHoenixs57/deepseek-aix",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T03:46:43Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:10.572Z"
+}

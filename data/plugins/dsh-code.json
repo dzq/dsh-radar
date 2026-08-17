@@ -1,0 +1,57 @@
+{
+  "slug": "dsh-code",
+  "name": "dsh-code",
+  "version": "0.8.0",
+  "description": "Claude-Code-style interactive TUI bundle for DeepSeek Harness (dsh): DeepSeek-blue whale banner, live session transcript, and a blended status line",
+  "keywords": [
+    "deepseek",
+    "dsh",
+    "deepseek-harness",
+    "tui",
+    "terminal",
+    "claude-code",
+    "agent",
+    "ink"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/unlinearity/dsh-code.git",
+  "homepage": "https://github.com/unlinearity/dsh-code#readme",
+  "npm": "https://www.npmjs.com/package/dsh-code",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19 || >=24"
+  },
+  "readme": "# DSH-Code\r\n\r\n[English](README.en.md) | 中文\r\n\r\n<p align=\"center\"><img src=\"docs/pictures/1.png\" width=\"95%\" alt=\"带斜杠命令补全的 DSH-Code 终端\"></p>\r\n\r\n<p align=\"center\"><img alt=\"Typing SVG\" src=\"https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&amp;weight=500&amp;size=22&amp;duration=4000&amp;pause=700&amp;color=4176E6&amp;center=true&amp;vCenter=true&amp;width=680&amp;lines=DeepSeek+Harness+Code;DSH+%E5%86%85%E6%A0%B8%E7%9A%84%E7%BB%88%E7%AB%AF%E7%BC%96%E7%A0%81%E7%95%8C%E9%9D%A2\"></p>\r\n<p align=\"center\">\r\n  <a href=\"https://github.com/deepseek-ai/deepseek-harness\"><img alt=\"DeepSeek Harness\" src=\"https://img.shields.io/badge/DeepSeek-Harness-4176E6?style=for-the-badge&amp;logo=deepseek&amp;logoColor=white&amp;labelColor=1c1917\"></a>\r\n  <a href=\"https://github.com/UNLINEARITY/dsh-code/s",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T02:52:44.123Z",
+  "created_at": "2026-08-14T08:06:43.247Z",
+  "gh": {
+    "full_name": "UNLINEARITY/dsh-code",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T04:53:11Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:55:23.582Z"
+}

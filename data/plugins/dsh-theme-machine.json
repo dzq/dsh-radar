@@ -32,6 +32,7 @@
   },
   "readme": "# dsh-theme-machine\n\n《疑犯追踪》（Person of Interest）「机器」风格的 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（`dsh`）皮肤——为 Web UI 打造的 THE MACHINE 监视式 HUD 主题：深空蓝黑底色、机器青点缀、扫描线与网格氛围层，以及一个接入**真实会话遥测**的悬浮面板，让界面看起来像是有一台超级智能在背后驱动。\n\n> **[English](README.md)**\n\n## 预览\n\n![dsh-theme-machine —— 应用 MACHINE HUD 皮肤的完整 Web UI](screenshots/demo1.png)\n\n![dsh-theme-machine —— 实时 TARGET ANALYSIS 遥测面板](screenshots/demo2.png)\n\n## 功能\n\n《疑犯追踪》THE MACHINE 深色 HUD 皮肤——安装即生效，卸载即完整还原官方外观。\n\n1. **Token 覆盖层**——通过 `ctx.theme.overrideTokens()` 重绘整个界面（约 50 个 `--dsw-alias-*` 语义 token）。安装即生效、卸载即还原；可叠加在内置浅色/深色偏好之上（本皮肤设计上仅支持深色，并固定两套调色板）。\n2. **HUD 镀铬效果**——等宽字体排版、微妙的 HUD 网格、缓慢的扫描线、青色选中色。以 `<style data-plugin>` 加两个氛围 `<div>` 注入，卸载时一并移除。\n3. **实时遥测面板**（`shell.overlay` 悬浮座，右下角）：\n   - **Radar（雷达）**——仅当智能体真正在运行时才扫描（`Conversat",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T07:55:42.046Z",
   "created_at": "2026-08-16T07:41:22.466Z",
   "gh": null,
@@ -44,5 +45,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:54.838Z"
+  "updated_at": "2026-08-17T04:58:38.765Z"
 }

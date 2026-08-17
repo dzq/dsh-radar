@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-plugin-mermaid",
+  "name": "dsh-plugin-mermaid",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness web client plugin: render mermaid code blocks with a chart/source toggle.",
+  "keywords": [
+    "deepseek-harness",
+    "diagrams",
+    "dsh",
+    "mermaid"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/lj970926/dsh-plugin-mermaid",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-mermaid",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "lj970926/dsh-plugin-mermaid",
+    "open_issues": 1,
+    "pushed_at": "2026-08-14T10:22:11Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:13.659Z"
+}

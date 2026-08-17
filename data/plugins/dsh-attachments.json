@@ -37,17 +37,25 @@
   "engines": {},
   "readme": "# dsh-attachments\n\n简体中文 | [English](README.md)\n\nnpm 包名:`dsh-attachments` · GitHub 仓库:\n[CocoSgt/dsh-attachments](https://github.com/CocoSgt/dsh-attachments)\n\nDeepSeek Harness(dsh)的第三方附件插件:**把任何文件带进会话,零类型拒绝**。\n\n- **所有文件(含图片)统一走暂存管线**:文件落盘到会话工作区\n  `<cwd>/.dsh/uploads/` 并按会话暂存,composer 上方出现卡片(图标块 +\n  文件名 + 大小 + ✕)。不再使用宿主原生图片草稿管线\n  (`createDraftImages`/`addImages` 均未使用);模型需要看图时,用 harness\n  原生的 `read_image` 工具按路径读取——非视觉模型也不会被「模型不支持\n  图片」堵住发送。\n- **草稿完全干净**,输入框里绝不出现引用文本。用户下一条消息进入模型\n  请求时,宿主在 `agent/pre-step` 波形里把附件清单折进批次,作为\n  `source: { kind: 'user' }` 的消息(插在你的消息之前,与官方\n  dsh-agent-instructions 的注入模式同构)——模型可见即落日志,回放安全。\n  注入(消费)后卡片自动消失。\n- 认不认、怎么处理,是模型和它的工具/技能的事。插件不做类型预判,也就\n  没有「不支持的格式」这种拒绝;唯一的硬限制是单文件 32MB 的 RPC 传输\n  上限(更大的文件直接放进项目目录再在消息里写路径)。\n\n## 入口\n\n1. **回形针按钮**(输入框工具栏左端):文件选择器,多选,无 accept 过滤;\n2. *",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T14:06:33.719Z",
   "created_at": "2026-08-14T09:19:05.448Z",
-  "gh": null,
+  "gh": {
+    "full_name": "CocoSgt/dsh-attachments",
+    "stars": 8,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T14:13:52Z",
+    "archived": false,
+    "license": null
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
+    "maintenance": 39,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 39,
-    "grade": "D"
+    "overall": 46,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:54.827Z"
+  "updated_at": "2026-08-17T04:56:42.588Z"
 }

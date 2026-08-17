@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-wechat-bridge",
+  "name": "dsh-wechat-bridge",
+  "version": "1.1.0",
+  "description": "把 DeepSeek Harness (DSH) 接到微信「龙虾」(ClawBot)：iLink 协议直连 + 通用桥接，零依赖",
+  "keywords": [
+    "wechat",
+    "weixin",
+    "clawbot",
+    "ilink",
+    "deepseek-harness",
+    "dsh",
+    "agent",
+    "bridge"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/gtaifu/dsh-wechat-bridge.git",
+  "homepage": "https://github.com/gtaifu/dsh-wechat-bridge#readme",
+  "npm": "https://www.npmjs.com/package/dsh-wechat-bridge",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "node": ">=18"
+  },
+  "readme": "# dsh-wechat-bridge —— 把 DSH 接到你的微信（含「龙虾」直连版）\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n[![Node](https://img.shields.io/badge/Node-%3E%3D18-green.svg)](package.json)\n[![GitHub](https://img.shields.io/badge/GitHub-gtaifu%2Fdsh--wechat--bridge-181717.svg?logo=github)](https://github.com/gtaifu/dsh-wechat-bridge)\n[![Gitee 镜像](https://img.shields.io/badge/Gitee-gtaifu%2Fdsh--wechat--bridge-red.svg)](https://gitee.com/gtaifu/dsh-wechat-bridge)\n\n把本机 **DSH（DeepSeek Harness）** 变成你微信里的一只「龙虾」🦞：\n微信发消息 → DSH 干活 → 回复回微信。**不需要 OpenClaw、不需要公网服务器、不需要网关。**\n\n```\n手机微信 ──► 腾讯 iLink 官方通道 (ilinkai.weixin.qq.com) ──► weixin-bot.mjs ──► 本机 DSH\n    ▲                                                              │\n    └────────────────────────── 回复 ──────────────────────────────",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T12:45:57.118Z",
+  "created_at": "2026-08-14T12:45:56.779Z",
+  "gh": {
+    "full_name": "gtaifu/dsh-wechat-bridge",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T15:22:19Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 37,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:52.120Z"
+}

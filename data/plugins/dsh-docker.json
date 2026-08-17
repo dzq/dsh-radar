@@ -1,0 +1,40 @@
+{
+  "slug": "dsh-docker",
+  "name": "dsh-docker",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness 容器管理插件：docker_ps/logs/inspect/exec/manage 五工具，官方 subprocess 服务、argv 无 shell 注入、exec 审批门、零运行时依赖。· Containers for DeepSeek Harness agents.",
+  "keywords": [
+    "deepseek-harness",
+    "devops",
+    "docker"
+  ],
+  "license": "",
+  "repo": "https://github.com/STARDUSTLC666/dsh-docker",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-docker",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "STARDUSTLC666/dsh-docker",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T12:05:27Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 40,
+    "dsh_compat": 30,
+    "overall": 27,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:16.313Z"
+}

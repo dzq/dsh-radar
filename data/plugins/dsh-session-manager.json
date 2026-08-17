@@ -1,0 +1,59 @@
+{
+  "slug": "dsh-session-manager",
+  "name": "dsh-session-manager",
+  "version": "0.1.2",
+  "description": "Session manager for DeepSeek Harness: delete conversations with confirmation and manage archives. 会话管理器：删除对话（二次确认）+ 归档管理。",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "session",
+    "archive"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/hkkz9522/dsh-session-manager.git",
+  "homepage": "https://github.com/hkkz9522/dsh-session-manager",
+  "npm": "https://www.npmjs.com/package/dsh-session-manager",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-session-manager — 会话管理器（删除 + 归档管理）\n\n[English](README.md) | 中文\n\n[![npm version](https://img.shields.io/npm/v/dsh-session-manager)](https://www.npmjs.com/package/dsh-session-manager)\n[![GitHub](https://img.shields.io/badge/GitHub-repo-blue)](https://github.com/hkkz9522/dsh-session-manager)\n[![CI](https://github.com/hkkz9522/dsh-session-manager/actions/workflows/ci.yml/badge.svg)](https://github.com/hkkz9522/dsh-session-manager/actions/workflows/ci.yml)\n\n为 DeepSeek Harness Web 增加两件官方缺失的能力：\n\n1. **删除对话**（删除前二次确认）：物理删除会话 —— 停止并销毁对应 agent、清空\n   会话存储条目（所有标签页同步移除该行）、删除磁盘上的 JSONL 会话目录、\n   清理工作区记账与归档集合。\n2. **归档管理**：移入归档（官方已有 `workspace.archiveSession`）与 **移出归档**\n   （官方 rc.6 没有 unarchive API，本插件在 host 端补齐，走 workspace registry\n   自己的持久化队列，`host/archived-sessions-changed` 帧自动同步所有客户端）。\n\n## 特性\n\n- 🗑",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T19:16:59.514Z",
+  "created_at": "2026-08-16T08:17:02.390Z",
+  "gh": {
+    "full_name": "hkkz9522/dsh-session-manager",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T19:41:15Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:04.502Z"
+}

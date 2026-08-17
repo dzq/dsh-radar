@@ -27,24 +27,18 @@
   },
   "readme": "# dsh-plugin-vetting\n\nDeepSeek Harness 插件：对已安装的**第三方插件**做恶意行为启发式扫描 + 误伤（高权限误用）提示 + 可选运行时绊线。\n\n## 威胁模型（先读这个）\n\nDSH 插件在 harness 进程内执行，拥有完整权限。因此本插件**不是安全边界**——它是**启发式绊线**（类似杀毒软件）：静态扫描插件源码，命中可疑模式就报告，**从不执行插件代码**，**不拦截**（拦截会误伤正常插件）。\n\n**三类威胁，两种输出：**\n\n| 威胁 | 输出 | 含义 |\n|---|---|---|\n| **恶意**（外传凭据、eval、持久化） | risk 分数 → SAFE/LOW/MEDIUM/HIGH | 蓄意滥用，需人工核实 |\n| **误伤**（非恶意，但高权限路径写得太糙） | `suggest narrowing` 建议区 | 不扣分、不标可疑，只建议收窄权限 |\n| **运行时动态加载**（下载后 eval、远端模块） | 文档声明 + `[REVIEW]` 标记 | 静态扫描看不到，**不在扫描范围** |\n\n**fail-closed 视角**：任何命中 `eval` / `new Function` / `vm.runInNewContext` 的插件，**无论总分多少**都标 `[REVIEW: dynamic code execution present]`——eval 是静态扫描最大的盲区，它的存在本身就应降级信任，而不是等凑够分数才 HIGH。\n\n真正的根治方案应由 harness 提供\"挂载前扫描钩子\"——本插件是该思路的独立原型。\n\n## 功能\n\n| 能力 | 说明 |\n|---|---|\n| `plugin_vet` 工具 / `/plugin-vet` 命令 | 扫 `$DSH_HOME/p",
   "weekly_downloads": 819,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T07:37:01.811Z",
   "created_at": "2026-08-15T02:51:16.365Z",
-  "gh": {
-    "full_name": "truelove-dreamer/dsh-plugin-vetting",
-    "stars": 1,
-    "open_issues": 3,
-    "pushed_at": "2026-08-15T08:27:41Z",
-    "archived": false,
-    "license": null
-  },
+  "gh": null,
   "scores": {
     "popularity": 73,
-    "maintenance": 39,
+    "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 64,
+    "overall": 56,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.225Z"
+  "updated_at": "2026-08-17T04:58:28.454Z"
 }

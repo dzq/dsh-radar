@@ -27,6 +27,7 @@
   },
   "readme": "# @hy-sde-org/dsh-tool-edit\n\nThe rich `edit` tool plugin for DeepSeek Harness: replace / patch / apply_patch / hashline modes with an embedded LSP client (format-on-write + diagnostics) that works on stock deployments.\n\n```bash\ndsh plugin --profile web add @hy-sde-org/dsh-tool-edit\n```\n\nFull usage, configuration, and the benchmark against the built-in `str_replace_editor`: https://github.com/hy-sde/dsh-tool-edit#readme\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T00:02:55.635Z",
   "created_at": "2026-08-17T00:01:33.918Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 34,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.634Z"
+  "updated_at": "2026-08-17T04:58:32.251Z"
 }

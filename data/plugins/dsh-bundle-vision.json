@@ -26,6 +26,7 @@
   "engines": {},
   "readme": "# dsh-bundle-vision\n\n给 DeepSeek Harness 提供**零核心改动的视觉能力**，以一个可安装的 npm 包同时充当 profile bundle 与插件：\n\n- 插件注册面向模型的 **`describe_image`** 工具；\n- bundle patch 把该插件挂载到任意 profile。\n\n工具读取本地 PNG/JPEG/WebP/GIF 文件，把字节经随附的附件服务落盘，再用**一次直接的 LLM 请求**询问**调用参数指定的**多模态路由（`provider` / `model` 是工具参数）。结果只有文本——图像块绝不进入调用会话，因此纯文本主模型无需对 dsh 做任何改动即可获得视觉能力。\n\n## 工作原理（全部走随附的公开 seam）\n\n工具用到的一切都随每个 dsh profile 发布：\n\n- `ctx.fs`（有界字节读取、按会话工作区解析）——文件系统能力；\n- `ctx.attachments`（`saveImage`、图像限额、魔数校验）——持久图像存储；\n- `ctx.llm`（`resolveModelInfo` + `stream`）配合 pi-ai 多提供方适配器——多模态请求本身。\n\n唯一的逐部署前提与 dsh 的任何视觉用法相同：多模态模型必须在 `llm-pi-ai` 设置段声明图像输入，例如：\n\n```yaml\nllm-pi-ai:\n  providers:\n    my-vision:\n      apiKeyEnv: MY_VISION_API_KEY\n      api: openai-completions\n      baseURL: https://example.invalid/v1\n      models:\n        - id: my-vision-model\n   ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:28:31.582Z",
   "created_at": "2026-08-15T16:28:31.351Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.713Z"
+  "updated_at": "2026-08-17T04:58:35.866Z"
 }

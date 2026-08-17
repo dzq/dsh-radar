@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-stickers",
+  "name": "dsh-stickers",
+  "version": "0.0.0",
+  "description": "DSH WebUI sticker plugin for bidirectional user and agent reactions",
+  "keywords": [
+    "dsh"
+  ],
+  "license": "BSD-3-Clause",
+  "repo": "https://github.com/william-jin-cmu/dsh-stickers",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-stickers",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "william-jin-cmu/dsh-stickers",
+    "open_issues": 1,
+    "pushed_at": "2026-08-13T02:26:59Z",
+    "archived": false,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 30,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:31.183Z"
+}

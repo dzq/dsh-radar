@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-whale-report",
+  "name": "dsh-whale-report",
+  "version": "0.0.0",
+  "description": "深迹 DeepTrace — Your Agent, in numbers. DSH 插件：从会话事件日志生成日报/周报/月报/年报/自定义区间，确定性洞察与协作复盘，只读、不改写历史。",
+  "keywords": [
+    "agent-report",
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/SenmuuuuW/dsh-whale-report",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-whale-report",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "SenmuuuuW/dsh-whale-report",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T04:19:56Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:31.002Z"
+}

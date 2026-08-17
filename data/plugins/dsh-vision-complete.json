@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-vision-complete",
+  "name": "dsh-vision-complete",
+  "version": "0.0.0",
+  "description": "给 DeepSeek 补上「眼睛和耳朵」的多模态视觉插件：看图 / OCR / 物体检测 / 视频理解 / 语音转写 / 截图直读，一键安装（DSH 插件）。",
+  "keywords": [
+    "dashscope",
+    "deepseek",
+    "mcp",
+    "multimodal",
+    "ocr",
+    "qwen",
+    "vision"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Yts1919/dsh-vision-complete",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-vision-complete",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Yts1919/dsh-vision-complete",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T06:28:54Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:15.868Z"
+}

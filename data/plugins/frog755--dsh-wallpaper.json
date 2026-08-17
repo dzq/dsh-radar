@@ -33,6 +33,7 @@
   "engines": {},
   "readme": "# dsh-wallpaper\n\n[English](README.md) | [简体中文](README.zh-CN.md)\n\n为 DeepSeek Harness Web 提供持久化自定义背景图的插件。\n\n`dsh-wallpaper` 会在 **设置 -> 通用** 中增加一个背景图设置项，可用于：\n\n- 选择本地图片或 MP4 视频作为背景；\n- 调整界面表层透明度和背景模糊度；\n- 随时移除背景图。\n\n图片会在浏览器本地压缩。最大 300 MB 的 MP4 视频仅上传给本机运行的 DSH Host。\n检测到本机的 `ffmpeg` 与 `ffprobe` 时，视频会以单遍快速编码压缩为高质量 H.264\n背景视频：目标约 18 MB、最高 1080p、最高 30fps。背景视频会静音，因此会移除音轨。\n未检测到这些可选工具时，插件会直接保留原始 MP4，使视频背景仍可使用，但可能占用\n更多磁盘空间。上传内容会直接流式写入本地临时文件，不会完整缓存在 DSH Host 内存中。\n结果保存在 `~/.dsh/wallpapers`，`localStorage` 只保存本机媒体 URL。替换或移除视频时会删除旧文件，插件启动时也会清理未被当前背景引用的历史视频。视频背景会静音、循环和自动播放，重启后自动恢复。插件的 bundle patch 还会把 Web 服务固定到 `9191`\n端口。浏览器存储按“协议 + 域名 + 端口”隔离；随机端口会导致重启后看似丢失背景\n设置。\n\n## 前置条件\n\n图片背景不需要额外软件。视频背景在未安装额外软件时也可直接保存原始 MP4 使用。\n若 DSH Host 所在设备安装了 `ffmpeg` 与 `ffprobe`，且二者可从 `PATH` 调用，则会启用本机压缩。\n\n## 安装\n\n从 npm 直接一行安装：\n\n```powers",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:08:44.651Z",
   "created_at": "2026-08-15T12:18:22.087Z",
   "gh": null,
@@ -45,5 +46,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:49.230Z"
+  "updated_at": "2026-08-17T04:58:37.525Z"
 }

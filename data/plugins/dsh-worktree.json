@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-worktree",
+  "name": "dsh-worktree",
+  "version": "0.1.0",
+  "description": "Codex-style permanent git worktrees for DeepSeek Harness: agent tools, a /worktree command, and session context for durable worktrees.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "cordis",
+    "plugin",
+    "worktree",
+    "git"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/FlashingChen/dsh-worktree.git",
+  "homepage": "https://github.com/FlashingChen/dsh-worktree#readme",
+  "npm": "https://www.npmjs.com/package/dsh-worktree",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "node": ">=20"
+  },
+  "readme": "# dsh-worktree\n\n[中文](README.zh.md) | [English](README.md)\n\n[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)\n\n为 DeepSeek Harness 打造的 **Codex 同款永久 git 工作树** 插件——让 DSH profile 获得与 `codex worktree create --permanent` 一样的持久工作树工作流。\n\n永久工作树是一个真实的 `git worktree add --detach` 检出目录，**跨会话、跨重启永久存在**。你（或 agent）创建一次，之后任何会话都可以在它里面继续之前的工作——完全不碰你的主工作树。\n\n## 功能一览\n\n| Codex CLI | dsh-worktree 对应能力 |\n|---|---|\n| `codex worktree create --permanent <name> [<base>]` | agent 工具 `worktree_create`，或 `/worktree create <name> [<base>]` |\n| `codex worktree list` | agent 工具 `worktree_list`，或 `/worktree` / `/worktree list` |\n| `codex worktree open <name>` | `/worktree open <name>`（注册为 DSH 工作区；在那里开新会话即可） |\n| `codex worktree close/delete <name>` | agent 工具 `worktree_remove`，或 `/worktree remove <",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-13T14:15:47.180Z",
+  "created_at": "2026-08-13T14:15:46.952Z",
+  "gh": {
+    "full_name": "FlashingChen/dsh-worktree",
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T14:16:25Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 36,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:04.717Z"
+}

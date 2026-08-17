@@ -27,17 +27,24 @@
   },
   "readme": "[English](README.en.md)\n\n# dsh-codex-port\n\n> **Codex 全家桶，一条命令进 DSH**：实测 186 插件、583 技能、移植 577 个 0 失败。\n\n![npm version](https://img.shields.io/npm/v/dsh-codex-port?label=npm&color=blue) ![npm downloads](https://img.shields.io/npm/dm/dsh-codex-port) ![license](https://img.shields.io/npm/l/dsh-codex-port) ![stars](https://img.shields.io/github/stars/STARDUSTLC666/dsh-codex-port?style=social)\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n\n\n把 **Codex 官方插件全家桶**一键搬进 DSH：扫描 `~/.codex` 里的解包插件与插件缓存，把它们的技能批量移植为 DSH 技能（frontmatter 自动转换、codex 专属文件剔除、名称清洗、幂等跳过）。\n\n> 本机实测：186 个 Codex 官方插件、583 个技能，一次移植 577 个成功、0 失败。\n\n## 安装\n\n```bash\ndsh plugin --profile web add dsh-codex-port\n```\n\n需要本机装有 Codex CLI（`~/.codex` 目录存在即可）。\n\n## 配置\n\n全部可选，默认即可用：\n\n```yaml\n- id: codex",
   "weekly_downloads": 50,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T11:14:00.561Z",
   "created_at": "2026-08-14T19:57:35.210Z",
-  "gh": null,
+  "gh": {
+    "full_name": "STARDUSTLC666/dsh-codex-port",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T11:09:54Z",
+    "archived": false,
+    "license": null
+  },
   "scores": {
     "popularity": 43,
-    "maintenance": 0,
+    "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 48,
-    "grade": "C"
+    "overall": 56,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.299Z"
+  "updated_at": "2026-08-17T04:57:13.333Z"
 }

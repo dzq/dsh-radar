@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-zeromd",
+  "name": "dsh-zeromd",
+  "version": "0.0.0",
+  "description": "Obsidian 零成本同步：iPhone ↔ Mac，GitHub 自动备份。本地优先 + 长期积累。｜Local First. Zero-cost Obsidian sync across iPhone, Mac & GitHub. Let knowledge grow over time.",
+  "keywords": [
+    "git-backup",
+    "local-first",
+    "macos",
+    "markdown",
+    "obsidian"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/yuukiLike/zeromd",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-zeromd",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "yuukiLike/zeromd",
+    "open_issues": 0,
+    "pushed_at": "2026-03-20T16:09:55Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 8,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 26,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:15.172Z"
+}

@@ -35,6 +35,7 @@
   "engines": {},
   "readme": "# dsh-session-control\n\nDSH web GUI 会话管理与服务控制插件：设置页「会话管理」一键删除会话（含未分组 / 已归档 / 空会话，运行中的会话先优雅终止再物理删除），设置页「服务控制」重启 / 关闭 dsh Web 宿主（隐藏控制台，重启后页面自动恢复）。\n\n一个包、两个功能，零修改 dsh 安装文件，与现有补丁互不干扰（路由挂 `/dsh-sc/*`，不占 RPC 路由）。\n\n## 安装\n\n发布到 npm 后：\n\n```bash\ndsh plugin --profile web add dsh-session-control\n```\n\n本地未发布时用 link 安装：\n\n```bash\ndsh plugin --profile web add link:D:\\WorkSpacee\\project-006-dsh-web插件化\\code\\plugin\\dsh-session-control\n```\n\n安装后重启 `dsh web`，设置页出现「会话管理」（order 30）与「服务控制」（order 40）两个分区。\n\n## 使用\n\n- **会话管理**：按工作区分组列出全部会话（含未分组桶），每行显示运行状态、归档标记与最近活动时间，垃圾桶按钮弹确认框。删除 = 优雅终止 live agent（`agentLoop.ownership.liveById` 原生维护，无需补丁）→ 等待最终落盘（轮询 `sessionPersistence.list()`）→ 从各 workspace 摘除账目 → 清归档标记 → 物理删除会话目录 → 发出 `workspace/session-deleted`（宿主据此广播 `host/session-removed` 帧，侧边栏与所有标签页同步消失）。客户端删除成功后调用公开的 `sessions.refr",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:34:15.894Z",
   "created_at": "2026-08-16T10:21:56.788Z",
   "gh": null,
@@ -47,5 +48,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.639Z"
+  "updated_at": "2026-08-17T04:58:32.429Z"
 }

@@ -34,6 +34,7 @@
   "engines": {},
   "readme": "# dsh-vision-subagent\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n\n给纯文本模型的 DeepSeek Harness 装上眼睛：把读图任务交给一个跑在**独立视觉路由**（MiniMax / Kimi / 任意 OpenAI 兼容供应商）上的**一次性子代理**。图片字节和视觉模型的中间上下文**不会进入主会话**，主模型只收到最终的文字结论。\n\n## 为什么是子代理\n\n- **上下文隔离**：大图 / 多图对比不再占用主模型窗口，只有蒸馏后的文本返回\n- **多轮视觉推理**：子代理可以自己调用 read_image 看更多工作区文件、反复比对后再给结论\n- **成本与路由分离**：视觉调用走 MiniMax/Kimi 路由单独结算，主模型只负责推理\n\n## 快速开始\n\n`sh\n# 1. 安装到 web profile（本地 checkout / npm 包均可）\ndsh plugin --profile web add /path/to/dsh-vision-subagent\n# 或发布后：dsh plugin --profile web add dsh-vision-subagent\n\n# 2. 配置视觉路由（编辑 ~/.dsh/profiles/web/cordis.patch.yml）\n`\n\n`yaml\n- insert:\n    - id: vision-subagent\n      name: 'dsh-vision-subagent'\n      config:\n        provider: kimi-coding   # 或 minimax-cn / 自定义路由\n       ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:35:34.742Z",
   "created_at": "2026-08-17T03:35:34.471Z",
   "gh": null,
@@ -46,5 +47,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.343Z"
+  "updated_at": "2026-08-17T04:58:31.455Z"
 }

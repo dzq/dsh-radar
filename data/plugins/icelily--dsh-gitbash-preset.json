@@ -29,6 +29,7 @@
   },
   "readme": "# dsh-gitbash-preset\n\nDeepSeek Harness 插件：一键安装「极简模式 (Git Bash)」agent preset —— 把 DSH 自带极简模式中的 bash 调用映射到 Git for Windows 的 bash（MSYS），让 Windows 上的极简模式真正可用。\n\n## About\n\nDSH 自带的极简模式在 Windows 上无法使用，失败有两层原因：\n\n1. **PTY 平台限制**：极简模式的持久 bash 依赖 PTY 后端，而 `@deepseek-ai/dsh-subprocess-local` 在 win32 上直接拒绝（`terminal inspection is unsupported on platform win32`），与 bash 是否存在无关；\n2. **shell 缺失**：即便绕过 PTY，`@deepseek-ai/dsh-bash-local` 硬编码从 PATH 找 `bash`，Windows 上默认没有。\n\n本插件交付一个可安装的预设变体：**同一套极简 persona + str_replace_editor 双工具表面**，但 bash 工具每次命令执行 `<git bash> -c <command>`，并通过沙箱感知门控保证不绕过安全边界。\n\n## 特性\n\n- **幂等安装**：插件启动时把打包的预设复制到用户预设根（`${DSH_HOME:-~/.dsh}/.agent-presets/minimal-gitbash/`），已存在则跳过，`force: true` 才覆盖；\n- **自动探测 bash**：`GIT_BASH` 环境变量 → 常见安装目录（ProgramFiles / ProgramFiles(x86) / LOCALAPPDATA）→ PATH 中的 `b",
   "weekly_downloads": 590,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T01:18:31.318Z",
   "created_at": "2026-08-15T01:08:25.650Z",
   "gh": null,
@@ -41,5 +42,5 @@
     "overall": 57,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.231Z"
+  "updated_at": "2026-08-17T04:58:28.545Z"
 }

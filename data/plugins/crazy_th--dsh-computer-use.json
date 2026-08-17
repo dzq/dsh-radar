@@ -33,6 +33,7 @@
   },
   "readme": "# DSH Computer Use\n\n[English](README.md)\n\n面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的原生 Windows Computer Use 插件。它直接注册到 DSH 的 Cordis 工具体系，不使用 MCP。当前兼容目标为 DSH `0.1.0-rc.6`。\n\n## 功能\n\n- `computer_screenshot`：截取当前虚拟桌面并作为 DSH 图片附件返回。\n- `computer_observe`：当当前 DSH 模型无法识图时，将桌面截图交给用户配置的视觉模型分析。\n- `computer_click`、`computer_drag`、`computer_scroll`：受虚拟桌面坐标边界限制的鼠标控制。\n- `computer_type`、`computer_keypress`：向当前焦点控件输入 Unicode 文本或支持的快捷键。\n- `computer_wait`：等待应用界面更新后再进行观察。\n\n所有 Computer Use 工具默认通过 DSH 原生审批服务请求许可。插件会在发送输入前拒绝 `CTRL+ALT+DELETE`、空文本、不支持的按键、无效时长及虚拟桌面范围外的坐标。\n\n## 视觉模型设置\n\n安装并重启 DSH 后，打开 **设置 > 插件 > 插件配置**，展开 **Computer Use 视觉模型**。填写兼容 OpenAI 的 HTTPS Base URL、API Key、支持视觉的模型名和最大响应 token，然后启用该模型。\n\n| 字段 | 要求 |\n| --- | --- |\n| 启用 | 仅在端点、密钥和模型都配置完成后开启。 |\n| Base URL | 兼容 OpenAI 的 ",
   "weekly_downloads": 1148,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:19:18.466Z",
   "created_at": "2026-08-15T08:15:11.651Z",
   "gh": null,
@@ -45,5 +46,5 @@
     "overall": 56,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.211Z"
+  "updated_at": "2026-08-17T04:58:28.362Z"
 }

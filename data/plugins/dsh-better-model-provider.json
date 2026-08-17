@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-better-model-provider",
+  "name": "dsh-better-model-provider",
+  "version": "0.0.0",
+  "description": "Per-model capability declaration for DeepSeek Harness: reasoning-effort levels (wire spellings) + request modalities (vision) for OpenAI-compatible providers. Settings section, zero runtime harness deps, no YAML.",
+  "keywords": [
+    "ai-providers",
+    "deepseek",
+    "deepseek-harness",
+    "reasoning-effort"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/sanshanya/better-model-provider",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-better-model-provider",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "sanshanya/better-model-provider",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T11:30:24Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:09.286Z"
+}

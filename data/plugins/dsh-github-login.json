@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-github-login",
+  "name": "dsh-github-login",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness 生态的 GitHub 可视化登录工具（零终端）：设备码流程，令牌同步 gh CLI | Visual GitHub login for the DSH ecosystem - no terminal needed",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "gh-cli",
+    "github",
+    "github-login",
+    "help-wanted",
+    "oauth"
+  ],
+  "license": "",
+  "repo": "https://github.com/Noob-stupid/dsh-github-login",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-github-login",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Noob-stupid/dsh-github-login",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T10:25:17Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:57.695Z"
+}

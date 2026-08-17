@@ -23,6 +23,7 @@
   },
   "readme": "# @yogsoth-ai/dare-dsh\n\nDeepSeek Harness plugin for the [De-Anthropocentric Research Engine](https://github.com/yogsoth-ai/de-anthropocentric-research-engine) — 920 research skills on `ctx.skills`, with an opt-in MCP server fleet.\n\n## Install\n\ndsh is in developer preview and its `latest` npm tag lags behind `next`. Install the peers explicitly:\n\n```sh\nnpm i @yogsoth-ai/dare-dsh \\\n      @deepseek-ai/dsh-skill@next \\\n      @deepseek-ai/dsh-skill-filesystem@next\n```\n\nThe MCP fleet is optional. Add it only if you want the research servers:\n\n```sh\nnpm i @deepseek-ai/dsh-mcp-client@next\n```\n\n## Use\n\nCopy [`cordis.example.yml`](./cordis.example.yml) and run:\n\n```sh\nnpx @deepseek-ai/dsh web --patch ./cordis.example.yml\n```\n\nThe skill row needs no credentials. Drop the `dare-mcp` row to run skills-",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T07:27:22.769Z",
   "created_at": "2026-08-15T07:27:22.221Z",
   "gh": null,
@@ -35,5 +36,5 @@
     "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.619Z"
+  "updated_at": "2026-08-17T04:58:31.806Z"
 }

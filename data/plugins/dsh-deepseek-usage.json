@@ -23,6 +23,7 @@
   "engines": {},
   "readme": "# dsh-deepseek-usage\n\nDeepSeek usage monitor for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness): account balance query and live token usage summary as model-callable tools.\n\n## Install\n\n```sh\ndsh plugin --profile <name> add dsh-deepseek-usage\n```\n\nRequires a DeepSeek API key available as `DEEPSEEK_API_KEY` (env or credential).\n\n## Tools\n\n### `deepseek_balance`\nQueries `GET https://api.deepseek.com/user/balance` and returns availability and per-currency balances (total / granted / topped-up). When `lowBalanceThreshold` is configured, appends a warning when the primary currency balance drops below it.\n\n### `usage_summary`\nAggregates per-session token usage from the harness token meter across live sessions, sorted by total tokens descending. Use it to estimate context usa",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-13T16:21:45.485Z",
   "created_at": "2026-08-13T16:21:44.650Z",
   "gh": null,
@@ -35,5 +36,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.694Z"
+  "updated_at": "2026-08-17T04:58:35.337Z"
 }

@@ -34,6 +34,7 @@
   },
   "readme": "# dsh-agent-teams-meta\n\n[English](README.md) | 简体中文\n\n[![npm version](https://img.shields.io/npm/v/dsh-agent-teams-meta?color=blue)](https://www.npmjs.com/package/dsh-agent-teams-meta)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)\n\n> 按任务自由组建团队。随时组合专项成员，为每个成员分配独立模型路由，让并行协作持续到结果交付。\n\n`dsh-agent-teams-meta` 是 DeepSeek Harness（DSH）的独立多 Agent 团队协作插件。它让一个队长 AI 可以组织多个并行成员，每个成员都有自己的模型路由、私有信箱、明确任务和独立的用量记录。\n\n## 它解决什么问题\n\n有些工作天然适合拆分：排查问题、审查改动、对比多种方案，或从不同角度检查一次发布。`dsh-agent-teams-meta` 让队长把这些独立工作交给专门的成员，持续跟踪进度，并在同一个地方汇总结果。\n\n它面向真实工作流，而不是模拟聊天群。成员是可持续执行的 DSH 子 Agent，会按分配的 provider/model 路由运行，并能在多轮执行之间保留自己的任务上下文和信箱。\n\n## 核心能力\n\n- **并行成员与真实模型路由**：为成员设置名称、角色和已配置的 provider/model。同一团队的不同成员可以运行在不同模型上。\n- **持久化任务协作**：任务支持负责人和依赖关系。成员只能认领自己且依赖已满足的工作；所有状态变化都会校验并保存。\n- **私有持久信箱**：队长与成员之间可",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T15:56:38.813Z",
   "created_at": "2026-08-16T15:04:12.596Z",
   "gh": null,
@@ -46,5 +47,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.979Z"
+  "updated_at": "2026-08-17T04:58:34.459Z"
 }

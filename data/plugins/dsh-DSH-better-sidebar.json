@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-DSH-better-sidebar",
+  "name": "dsh-DSH-better-sidebar",
+  "version": "0.0.0",
+  "description": "开放的侧边栏底座，支持三方拓展注册新侧边栏页面。内置文件渲染编辑/终端/Git/子代理页面",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-better-sidebar",
+    "sidebar"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/omdsh-dev/DSH-better-sidebar",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-DSH-better-sidebar",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "omdsh-dev/DSH-better-sidebar",
+    "open_issues": 79,
+    "pushed_at": "2026-08-17T03:35:53Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:36.714Z"
+}

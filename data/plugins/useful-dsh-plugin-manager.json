@@ -30,6 +30,7 @@
   "engines": {},
   "readme": "# `useful-dsh-plugin-manager`\n\n一个 DeepSeek Harness 双面插件：**可视化插件管理器**。它在 Web 设置 → 插件页新增一个「管理」标签页，把组合树里的**每个插件条目**列出来，用按钮完成停用、启用、检测、更新、修复——全程不用命令行，小白也能自救。\n\n## 功能\n\n针对每个插件行（来自官方 `pluginInventory` 远程接口的完整 Loader 树）：\n\n| 操作 | 适用 | 行为 |\n|---|---|---|\n| **停用/启用** | 第三方插件 | 向活动 profile 的 `cordis.patch.yml`（官方用户覆盖层）写入带标记的 `disabled: true` 条目；**下次重启 dsh web 生效**。 |\n| **检测更新** | **所有行**（第三方 + `@deepseek-ai/*` 官方包） | 对比本地已装版本与 npm **实际最新发布版**（按 packument 的最晚发布时间判定，而非 `latest` dist-tag——rc 系列包的 dist-tag 会漂移）。官方行从 harness 自身安装读取已装版本，绝不误用 profile 里的提升副本。最新版显示绿色对勾 ✓。 |\n| **更新** | 第三方包 | 在 profile 目录执行 `pnpm add <包>@latest`（与官方 `dsh plugin` 同一条路径），并透传 profile 记录的 pnpm `storeDir`（非默认 store 不再报 `ERR_PNPM_UNEXPECTED_STORE`），重启生效。 |\n| **更新 Harness** | 官方行（过期时出现） | 执行 `npm install -g @deepseek-ai/dsh@latest`——官方套",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T15:04:34.577Z",
   "created_at": "2026-08-14T03:56:12.423Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.960Z"
+  "updated_at": "2026-08-17T04:58:33.934Z"
 }

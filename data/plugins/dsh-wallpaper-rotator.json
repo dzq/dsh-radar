@@ -30,6 +30,7 @@
   "engines": {},
   "readme": "# dsh-wallpaper-rotator\n\nDSH（DeepSeek Harness）壁纸轮换插件：定时轮换应用背景壁纸，交叉淡化微动效，内置 SVG 壁纸集，毛玻璃 / 压暗 / 文字阴影等可读性调节，设置页一键配置，配置持久化。\n\n## 安装\n\n```powershell\n# GitHub 仓库（推荐）\ndsh plugin --profile web add github:liceses/dsh-wallpaper-rotator\n\n# npm 仓库（发布后可用）\ndsh plugin --profile web add dsh-wallpaper-rotator\n\n# 本地开发路径（仅本机可用）\ndsh plugin --profile web add D:\\path\\to\\wallpaper-rotator\n```\n\n安装后**重启 `dsh web`** 生效。卸载：\n\n```powershell\ndsh plugin --profile web remove dsh-wallpaper-rotator\n```\n\n## 使用\n\n重启后打开 **设置 → 壁纸轮换**：\n\n- 默认使用内置壁纸集（4 张 SVG 渐变）立即开始轮换\n- 「图片文件夹」输入路径或点「浏览…」并「应用」，切换为自有图片（png/jpg/webp/gif/bmp/avif/svg）；留空回到内置壁纸集\n- 可调：轮换间隔（秒/分/时）、过渡时长、顺序/随机、面板透明度、背景不透明度、壁纸压暗、毛玻璃模糊（0–24px）、文字阴影（三档）\n- 「立即切换」手动轮换，「重新扫描」刷新文件夹清单\n\n## 配置\n\n设置页修改后自动写入 **`$DSH_HOME/wallpaper-rotator.json`**（DSH_HOME 未设置时为 `~/.dsh`），重启保留。也可直接编辑该文件",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T00:59:05.703Z",
   "created_at": "2026-08-15T00:59:05.523Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:54.829Z"
+  "updated_at": "2026-08-17T04:58:38.593Z"
 }

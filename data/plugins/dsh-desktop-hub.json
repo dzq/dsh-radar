@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-desktop-hub",
+  "name": "dsh-desktop-hub",
+  "version": "0.0.0",
+  "description": "DSH Desktop Hub — DeepSeek Harness 桌面管理控制台（Electron + TypeScript）。多 Tab 管理 Harness / Plugin / MCP / Skills，双击即用。",
+  "keywords": [
+    "deepseek-harness",
+    "desktop-app",
+    "dsh",
+    "dsh-plugins",
+    "electron",
+    "typescript"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/FlashingChen/dsh-desktop-hub",
+  "homepage": "https://app.chenyuxia.com/dsh/",
+  "npm": "https://www.npmjs.com/package/dsh-desktop-hub",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "FlashingChen/dsh-desktop-hub",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T04:45:48Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:38.210Z"
+}

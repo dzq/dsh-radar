@@ -28,6 +28,7 @@
   "engines": {},
   "readme": "# dsh-feed — 跨生态聚合底座\n\n开放数据层：GitHub `dsh-plugin` topic + npm registry → 一份开放 JSON 索引，供模型工具 / CLI / MCP / 未来 UI 消费。\"聚合的聚合\"——成为数据源，不做 UI。\n\n## 用法\n\n- 模型工具：`feed_sync`（同步）、`feed_search`（自然语言查询）、`feed_stats`（统计）\n- CLI：`dsh-feed sync|search|stats|mcp`\n- MCP：任意 MCP 客户端配置 `{ \"command\": \"dsh-feed\", \"args\": [\"mcp\"] }`\n\n索引为开放 JSON（默认 `.dsh/dsh-feed.json`），明文可 diff，任何工具可读。\n\n## 设计\n\n`lib/sync.js` 抓取归一化；`lib/query.js` 纯查询逻辑；`lib/index-store.js` 索引读写（防逃逸）；`bin/dsh-feed.js` CLI + 极简 MCP。安全：仅写工作区 `.dsh/`，网络仅在显式 `feed_sync` 时发生。\n\n## License\n\nMIT\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T02:45:58.714Z",
   "created_at": "2026-08-17T02:45:58.403Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.382Z"
+  "updated_at": "2026-08-17T04:58:34.898Z"
 }

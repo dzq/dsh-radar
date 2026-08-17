@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-tianshu-tui",
+  "name": "dsh-tianshu-tui",
+  "version": "0.0.0",
+  "description": "dsh-tianshu-tui — 是官方 Dsh web端的交互式终端极简风格 UI 插件。以自研ansi为渲染核心，极度丝滑流畅，在官方的基础上增加了TDD、证据门、视觉图像模块等工作流。",
+  "keywords": [
+    "coding",
+    "dsh",
+    "harness",
+    "harness-engineering",
+    "tui"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/huiliyi37/dsh-tianshu-tui",
+  "homepage": "https://github.com/huiliyi37/dsh-tianshu-tui",
+  "npm": "https://www.npmjs.com/package/dsh-tianshu-tui",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "huiliyi37/dsh-tianshu-tui",
+    "open_issues": 9,
+    "pushed_at": "2026-08-17T02:46:55Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:48.775Z"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-tokenbank",
+  "name": "dsh-tokenbank",
+  "version": "0.0.0",
+  "description": "Token Bank — the local LLM gateway that sits between your AI agents and every provider.  Know where tokens go · Spend less with smart routing to Ollama, Groq, GitHub Models · Earn by sharing idle quota on a community P2P network.  One-click onboarding for Cursor, Claude Code, Cod",
+  "keywords": [
+    "agent",
+    "anthropic",
+    "claudecode",
+    "codex",
+    "cursor",
+    "dsh",
+    "llm",
+    "llm-gateway",
+    "llm-gateway-system",
+    "llm-proxy"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/wink-run/tokenbank",
+  "homepage": "https://tokenbank.wink.run",
+  "npm": "https://www.npmjs.com/package/dsh-tokenbank",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "wink-run/tokenbank",
+    "open_issues": 3,
+    "pushed_at": "2026-08-14T08:24:51Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:58.517Z"
+}

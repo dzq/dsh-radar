@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-session-seed-plugin",
+  "name": "dsh-session-seed-plugin",
+  "version": "0.0.0",
+  "description": "对话自动注入，可用于高概率破甲模型，放开限制",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugins"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/wdsjwzl/session-seed-plugin",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-session-seed-plugin",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "wdsjwzl/session-seed-plugin",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T10:27:34Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:33.430Z"
+}

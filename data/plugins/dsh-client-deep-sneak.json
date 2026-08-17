@@ -34,6 +34,7 @@
   },
   "readme": "<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/DeepSneak-v0.12.0-%23fb7299?style=for-the-badge\" alt=\"DeepSneak\" />\n</p>\n\n<h1 align=\"center\">🐟 DeepSneak</h1>\n\n<p align=\"center\">\n  <b>让 DeepSeek 干活，你在旁边摸鱼。</b><br/>\n  右下角小窗看 B站 · agent 需要你时自动暂停提醒 · 处理完回来从原位置精确续播\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/version-0.12.0-blue\" alt=\"version\" />\n  <img src=\"https://img.shields.io/badge/license-MIT-green\" alt=\"license\" />\n  <img src=\"https://img.shields.io/badge/platform-DSH%20Web-blueviolet\" alt=\"platform\" />\n  <img src=\"https://img.shields.io/badge/type-web%20client%20plugin-ff69b4\" alt=\"type\" />\n  <img src=\"https://img.shields.io/badge/摸鱼-专业-brightgreen\" alt=\"摸鱼\" />\n</p>\n\n---\n\n## ✨ 功能一览\n\n|  |  |  |\n|---|---|---|\n| 🏠 **首页推荐**<br/>B站真实推荐流，免登录 | ▶️ **原生播放器**<b",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:03:40.169Z",
   "created_at": "2026-08-15T16:03:39.937Z",
   "gh": null,
@@ -46,5 +47,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.453Z"
+  "updated_at": "2026-08-17T04:58:32.792Z"
 }

@@ -1,0 +1,57 @@
+{
+  "slug": "dsh-agent-memory",
+  "name": "dsh-agent-memory",
+  "version": "0.8.1",
+  "description": "Cross-session long-term memory for DeepSeek Harness: a schema-validated memory domain over ctx.storage plus model-facing remember/recall/index/forget tools and a memory protocol prompt section.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "memory",
+    "agent-memory",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Culeot/dsh-agent-memory.git",
+  "homepage": "https://github.com/Culeot/dsh-agent-memory#readme",
+  "npm": "https://www.npmjs.com/package/dsh-agent-memory",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-agent-memory\r\n\r\nDeepSeek Harness(DSH)的跨会话长期记忆插件。\r\n\r\n![记忆面板](https://raw.githubusercontent.com/Culeot/dsh-agent-memory/main/docs/memory-panel.png)\r\n\r\n[English](README.md)\r\n\r\n## 功能\r\n\r\n跨会话记住事实、偏好、决策和教训,新会话开局就能用上之前会话积累的信息。数据存在 `$DSH_HOME/storages/memory.json`(纯 JSON,可直接查看、可进 git)。不需要 MCP 服务器、不需要向量库、不需要 embedding API、无额外运行时依赖。\r\n\r\n## 特性\r\n\r\n- **跨会话持久**:A 会话写入,B 会话开局即可检索到,新会话接着旧项目的状态走。\r\n- **按需注入相关记忆**:每轮模型执行前,插件根据你当前说的话自动检索最相关的记忆(通过 DSH 的 `agent/pre-step` hook),注入最多 `injectCount` 条短摘要(默认 3)。你说\"继续做数学教辅\"→ 教辅项目的决策和踩坑自动出现。不再每轮广播固定热集——只在相关时付费。\r\n- **自我纠错闭环**:同一错误(相同 code/消息)重复出现 `lessonizeAfter` 次(默认 2)时,插件提示 agent 把它固化为 importance=3 的教训;教训入库后会在相关话题上自动注入,防止再犯。用户纠正则由记忆协议覆盖(当场固化)。\r\n- **中文友好检索**:中文按 bigram(双字)索引 + 单字兜底 + BM25 词频信号,英文按词,另加整串匹配。不需要分词库或任何 ML 依赖。\r\n- **可解释召回**:每条检索结果附命中原因(reasons)——子串/标签/",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T04:54:46.689Z",
+  "created_at": "2026-08-14T18:11:47.503Z",
+  "gh": {
+    "full_name": "Culeot/dsh-agent-memory",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T17:14:50Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 44,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:58:07.100Z"
+}

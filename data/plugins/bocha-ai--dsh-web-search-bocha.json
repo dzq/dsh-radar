@@ -24,6 +24,7 @@
   },
   "readme": "# @bocha-ai/dsh-web-search-bocha\n\n[English](README.md) | 中文\n\n由 [Bocha Web Search](https://open.bocha.cn/) 支持的 `WebSearchProvider` 和可安装 Profile 组合包（bundle），用于 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)。该包注册提供方 ID `bocha`，调用博查的 `POST /v1/web-search` 端点，并携带一个 `dsh.bundle` patch，安装后选择这个提供方。\n\n该包只提供搜索。DeepSeek Harness 继续通过其 [web 能力](https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/web/web)拥有面向模型的 `web_search` 工具、结果上限、引用、提供方选择和错误呈现。\n\n## 安装\n\n把组合包安装到 Profile：\n\n```sh\ndsh plugin --profile web add @bocha-ai/dsh-web-search-bocha\n```\n\n如需检查最终组合配置，可以执行下面的可选命令；它打印配置后就会退出：\n\n```sh\ndsh --profile web --dump-config\n```\n\n启动 Web 应用只需要执行：\n\n```sh\ndsh --profile web\n```\n\nAPI 密钥使用下面任一方式配置即可，不需要同时配置。\n\n### 方式一：DSH credentials 文档\n\n把密钥存入 `$DSH_HOME/.credentials.yaml`（通常是 `~/.ds",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T07:37:46.379Z",
   "created_at": "2026-08-14T07:37:46.106Z",
   "gh": null,
@@ -36,5 +37,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.448Z"
+  "updated_at": "2026-08-17T04:58:32.702Z"
 }

@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-Agent_Extensions",
+  "name": "dsh-Agent_Extensions",
+  "version": "0.0.0",
+  "description": "Agent Skills & DeepSeek Harness (DSH) 扩展库：通用智能体技能（General_skills）+ DSH 标准插件（dsh-plugin），开箱即用的 AI Agent 能力增强集合。",
+  "keywords": [
+    "agent-skills",
+    "ai-agent",
+    "deepseek-harness",
+    "prompt-engineering",
+    "python",
+    "skills",
+    "translation"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/DDDFXYqiming/Agent_Extensions",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-Agent_Extensions",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "DDDFXYqiming/Agent_Extensions",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T20:44:14Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:02.026Z"
+}

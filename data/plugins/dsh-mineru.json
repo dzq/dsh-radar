@@ -36,6 +36,7 @@
   "engines": {},
   "readme": "# dsh-mineru\n\n[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![version](https://img.shields.io/badge/version-0.1.9-blue)](https://github.com/Lee-Hilex/dsh-mineru/releases)\n[![dsh](https://img.shields.io/badge/DeepSeek%20Harness-0.1.0--rc.6%2B-4d6bfe)](https://github.com/deepseek-ai/deepseek-harness)\n[![MinerU](https://img.shields.io/badge/MinerU-API-4d6bfe)](https://mineru.net/apiManage/docs)\n\n> 仓库: <https://github.com/Lee-Hilex/dsh-mineru> · npm: [`dsh-mineru`](https://www.npmjs.com/package/dsh-mineru) · [更新日志](CHANGELOG.md)\n\n[English](README.md) | 简体中文\n\n**dsh-mineru** 是 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（简称 dsh）的 **MinerU 多模态文档解析插件**：把 PDF、Word、PPT、Excel、HTML 和图片一键转成**结构化 Markdown**。**配置了 MinerU Token 走 🎯 精准解析 API；不配 Token 也能用 ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T06:15:10.394Z",
   "created_at": "2026-08-16T05:47:03.234Z",
   "gh": null,
@@ -48,5 +49,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.974Z"
+  "updated_at": "2026-08-17T04:58:34.372Z"
 }

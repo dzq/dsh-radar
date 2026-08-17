@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-plugins",
+  "name": "dsh-plugins",
+  "version": "0.1.2",
+  "description": "Search and install DeepSeek Harness plugins from the DSH plugin registry",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/HackSing/dsh-plugins",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugins",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {
+    "node": ">=20"
+  },
+  "readme": "# dsh-plugins\n\nSearch the curated DeepSeek Harness plugin registry locally and install only entries with an exact, checked install specification.\n\nSearch needs Node.js 20 or newer. Installation additionally requires the official `dsh` command and the `pnpm` command it uses to manage profile dependencies to be available on `PATH`.\n\n## Install\n\n```sh\nnpm install --global dsh-plugins\n```\n\nThe installed command is `dsp`.\n\n## Usage\n\n```sh\ndsp search TUI\ndsp show huiliyi37/dsh-tianshu-tui\ndsp install huiliyi37/dsh-tianshu-tui --dry-run\ndsp install huiliyi37/dsh-tianshu-tui --yes\n```\n\nBatch installation preserves the supplied order and invokes the official Harness command once per plugin:\n\n```sh\ndsp install owner/first owner/second --profile web --dry-run\ndsp install --file plugins.txt --profile ",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T02:20:24.332Z",
+  "created_at": "2026-08-13T17:46:13.266Z",
+  "gh": {
+    "full_name": "HackSing/dsh-plugins",
+    "open_issues": 21,
+    "pushed_at": "2026-08-17T04:29:04Z",
+    "archived": false,
+    "license": {
+      "key": "cc-by-4.0",
+      "name": "Creative Commons Attribution 4.0 International",
+      "spdx_id": "CC-BY-4.0",
+      "url": "https://api.github.com/licenses/cc-by-4.0",
+      "node_id": "MDc6TGljZW5zZTI1"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 37,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:19.413Z"
+}

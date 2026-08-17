@@ -24,6 +24,7 @@
   "engines": {},
   "readme": "# dsh-memory-bundle\n\nLocal AI memory for DeepSeek Harness: a self-contained plugin that provides\n`ctx.memory` over a built-in SQLite store (`node:sqlite`, no native deps) and\nregisters three model-facing tools:\n\n- `memory_search` — case-insensitive substring search over keys and values,\n  with an optional namespace filter and result cap.\n- `memory_remember` — create or update one entry\n  (`namespace.entity.attribute = value`, with `type`, `source`, and\n  `confidence` metadata).\n- `memory_context` — list every entry under a namespace or key prefix, as\n  inline natural language plus a key-value list.\n\n## Install\n\n```sh\ndsh plugin --profile <name> add dsh-memory-bundle\n```\n\nThe package declares `dsh.bundle`, so `dsh plugin` appends it to the profile's\n`dsh.profile.bundles` automatically and t",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T13:27:37.612Z",
   "created_at": "2026-08-15T13:27:37.278Z",
   "gh": null,
@@ -36,5 +37,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.327Z"
+  "updated_at": "2026-08-17T04:58:30.235Z"
 }

@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-paste-input",
+  "name": "dsh-paste-input",
+  "version": "0.0.0",
+  "description": "DSH WebUI 文件输入增强：Ctrl+V 粘贴（带首次告知弹窗）+ 拖拽 + 选择文件，发送时复制进会话工作区临时目录",
+  "keywords": [
+    "dsh"
+  ],
+  "license": "NOASSERTION",
+  "repo": "https://github.com/lhh010/dsh-paste-input",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-paste-input",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "lhh010/dsh-paste-input",
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T13:53:44Z",
+    "archived": false,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:36.928Z"
+}

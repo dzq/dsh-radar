@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-DSH-Plugin-Market",
+  "name": "dsh-DSH-Plugin-Market",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness 插件市场：精选目录 + GitHub 实时浏览、中英翻译搜索、安装前静态安全审计闸门。Plugin market for DeepSeek Harness with a pre-install security audit gate.",
+  "keywords": [
+    "deepseek-harness",
+    "marketplace",
+    "plugin-market",
+    "security-audit"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/nanshan1995/DSH-Plugin-Market",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-DSH-Plugin-Market",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "nanshan1995/DSH-Plugin-Market",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T09:20:25Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 65,
+    "dsh_compat": 30,
+    "overall": 35,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:26.003Z"
+}

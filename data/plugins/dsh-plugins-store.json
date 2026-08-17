@@ -39,17 +39,25 @@
   },
   "readme": "# DSH Plugin Store 插件\n\n把 [DSH 插件市场](https://dshmk.com/) 作为原生页面接入 DeepSeek Harness Web：\n\n- 输入 `/store` 打开商店对话框\n- 在对话中要求 Agent 搜索、查找或推荐 DSH 插件时，通过 `store_search` 读取同一份实时市场 API；插件同时注册配套的 `search-dsh-store` skill\n- 通过“设置 → 插件 → 插件市场”长期浏览\n- README 明确识别出的安全 DSH/npm 安装命令可进入一键安装；GitHub 命令在有当前验证时会自动固定到 SHA\n- 验证状态与网页版同步展示，包括“安全复核中”和“需重新验证”的具体原因\n- 分类筛选项从 `catalog.json` 的 API facet 动态生成，并提供“仅显示已验证”选项；插件不内置仓库目录快照\n- 通过 DSH profile 的 `pnpm list --depth=0 --json` 读取本地已安装依赖；可勾选“仅显示已安装”，可比较已固定 GitHub SHA 或明确 npm 版本\n- 可更新已安装插件；有可比较更新的条目会置顶，并提供移除按钮；更新和移除完成后都需要重启 DSH Web\n- 在项目卡片点击“安装”，仅对目录提供的可执行安装计划显示风险确认并安装到 Web profile\n- 安装失败时可点击“交给 AGENT 分析”，把脱敏错误信息发送到新建的 DSH 会话\n- 从商店网页的插件详情页跳转到本机 DSH，并继续同一套风险确认流程\n\n插件提供搜索、筛选、详情、GitHub 外链和安装参考复制。原生市场只访问公开 API `https://api.dshmk.com/`；手动刷新会明确绕过浏览器缓存，刷新失败时会保留并标记上一次成功载入的数据。目录同步",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T15:59:49.198Z",
   "created_at": "2026-08-16T15:16:12.241Z",
-  "gh": null,
+  "gh": {
+    "full_name": "ZASENJC/dsh-plugins-store",
+    "stars": 57,
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T04:14:22Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
+    "maintenance": 40,
     "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 37,
-    "grade": "D"
+    "overall": 45,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:46.464Z"
+  "updated_at": "2026-08-17T04:55:06.902Z"
 }

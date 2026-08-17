@@ -37,6 +37,7 @@
   },
   "readme": "# DSH Discussion Mode\n\n> **为复杂思考设计的 DSH 讨论模式：保持用户意图、控制讨论焦点，把探索收敛成有依据的下一步。**\n\n<p align=\"center\">\n  <a href=\"#core\">核心卖点</a> ·\n  <a href=\"#quick-start\">快速开始</a> ·\n  <a href=\"#rail\">四行 Rail</a> ·\n  <a href=\"#continuity\">讨论可续</a> ·\n  <a href=\"#boundaries\">设计边界</a>\n</p>\n\n<p align=\"center\">\n  <img src=\"docs/assets/discussion-mode-map-v2.png\" width=\"960\" alt=\"DSH Discussion Mode 防漂移导图：用户目标、边界与当前焦点始终处于中心；用户原话和模型理解分开呈现，新方案与证据参与比较，Rail 和自动检查点让讨论持续校准并可恢复\">\n</p>\n\n<p align=\"center\"><sub>概念导图：图中文字对应实际产品能力，不代表 DSH 界面截图。</sub></p>\n\nDiscussion Mode 让你守住目标、边界和评价标准；模型负责拆解、比较和收敛。`/discussion` 只设深度，不装主题。下一句才开始讨论。你明确说过的话和模型理解分开呈现；改题必须 `/discussion accept`。适合研究方向、产品策略、技术路线和跨方案取舍。\n\n<a id=\"core\"></a>\n\n## ✨ 核心卖点\n\n- **意图不漂移**：目标、边界、评价标准和否定项持续注入。不能静默改题。新证据先当候选。建议和下一步不得与仍有效的否定矛盾。\n- **子代理模型自选**：第一次 `spawn` / `fork` 若还未",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T01:04:50.170Z",
   "created_at": "2026-08-15T19:32:06.861Z",
   "gh": null,
@@ -49,5 +50,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:54.832Z"
+  "updated_at": "2026-08-17T04:58:38.679Z"
 }

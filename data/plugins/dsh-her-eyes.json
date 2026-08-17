@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-her-eyes",
+  "name": "dsh-her-eyes",
+  "version": "0.0.0",
+  "description": "一个可以让ai自动调用VLM(多模态模型)进行视觉分析的dsh插件。A dsh plugin that allows AI to automatically invoke VLMs (multimodal models) for visual analysis.",
+  "keywords": [
+    "dsh-plugins"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/huashenglian/dsh-her-eyes",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-her-eyes",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "huashenglian/dsh-her-eyes",
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T23:53:23Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 30,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:53.954Z"
+}

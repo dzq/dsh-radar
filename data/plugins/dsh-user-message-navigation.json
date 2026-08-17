@@ -33,6 +33,7 @@
   },
   "readme": "# DSH User Message Minimap（用户消息导航轨）\n\n一款可随时安装和卸载的 DeepSeek Harness Web 插件。它会在长对话左侧显示紧凑的用户消息 Minimap，让你快速辨认当前轮次并跳回之前的指令。\n\n> English: A removable Web client plugin that adds a compact user-message minimap to long DeepSeek Harness conversations.\n\n当前版本为 `0.1.1`，面向 DeepSeek Harness `0.1.0-rc.6`。插件使用公开的 `shell.overlay` 插槽，但在 DSH 提供专用的对话导航接口前，仍需通过现有 Chat DOM 属性发现用户消息位置。\n\n## 名称\n\n- 对外名称：**DSH User Message Minimap**\n- 中文名称：**用户消息导航轨**\n- npm 包名：`dsh-user-message-navigation`\n\nMinimap 是这个插件的简短别名，表示用一条缩略导航轨映射长对话中的用户消息位置。npm 包名保持不变，因此已有安装命令不受影响。\n\n## 功能\n\n- 对话中至少有 4 条用户消息时显示导航轨。\n- 每条用户消息对应一个标记，顺序与对话内容一致。\n- 点击标记或使用键盘，可跳转到对应的用户消息。\n- 距离不超过 5 条消息时使用短距离平滑滚动；更远距离和拖动导航保持即时定位。\n- 到达目标后使用当前 DSH 主题色突出消息，并尊重系统的“减少动效”设置。\n- 拖动导航轨时可连续浏览长对话。\n\n## 安装\n\n将插件安装到 DSH Web profile，然后启动 Web 客户端：\n\n```sh\ndsh plugin --profile web add d",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T07:25:55.686Z",
   "created_at": "2026-08-14T07:25:55.179Z",
   "gh": null,
@@ -45,5 +46,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.681Z"
+  "updated_at": "2026-08-17T04:58:35.074Z"
 }

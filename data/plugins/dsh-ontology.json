@@ -28,6 +28,7 @@
   },
   "readme": "# dsh-ontology\n\n[English](README.md) | 中文\n\n给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的**本体论**插件：一层带类型约束、可推理、跨会话持久的领域知识——由 Agent 自己声明词汇、按约束写入事实、再查询回来。\n\n大多数 Agent 记忆本质是一袋字符串：写进去是散文，读出来还是散文，没有任何机制告诉它——刚记下的这条，和上周记的那条是矛盾的。这个插件给 Agent 的是**一套它必须遵守的词汇**：你先声明世界上有哪些类别、它们之间可以有什么关系，之后每一条断言都要先过这套模型的检查才能落盘；而能从已有事实推出来的事实，不必重复记录，查询时自动导出。\n\n```\nontology_define   声明类与带类型的关系   （TBox，本体层）\nontology_assert   记录实体与事实         （ABox，写入前校验）\nontology_query    查询、遍历、推理\nontology_retract  删除，带依赖保护\n```\n\n## 为什么要 TBox，而不是一个笔记文件\n\n| | 散文式记忆 | dsh-ontology |\n|---|---|---|\n| 结构 | 自由文本 | 类、带类型的关系、实体、三元组 |\n| 错误输入 | 静默存下 | 拒绝，并指出违反了哪条约束 |\n| 隐含事实 | 手工重述，逐渐漂移 | 由 `transitive` / `symmetric` / `inverseOf` 在读取时导出 |\n| 撤回 | 孤儿文本留在原地 | 事实随实体级联删除；导出的事实随前提消失 |\n| 读回来 | grep 然后碰运气 | 按类查（含子类）、三元组模式匹配、邻域展开、最短路径 |\n\n约",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T13:58:27.577Z",
   "created_at": "2026-08-16T13:58:27.282Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.735Z"
+  "updated_at": "2026-08-17T04:58:36.476Z"
 }

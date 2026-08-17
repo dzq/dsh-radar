@@ -31,6 +31,7 @@
   },
   "readme": "# dsh-cache-hit-decimal\n\n一个轻量的 DeepSeek Harness Web 插件，将原生整数缓存命中率替换为保留两位小数的显示，例如 `42.86%`。\n\n它覆盖 `conversation.composer.dock` 中已有的 `stats` 单元格，不修改官方 conversation 包。移除插件后，原生整数统计条会自动恢复。\n\n[English](README.md)\n\n## 安装\n\n```sh\ndsh plugin --profile web add @yuuu0109/dsh-cache-hit-decimal\n```\n\n重启 `dsh web` 进程并刷新浏览器。\n\n## 更新\n\n```sh\ndsh plugin --profile web update @yuuu0109/dsh-cache-hit-decimal\n```\n\n更新后重启 `dsh web` 并刷新浏览器。如果配置的 npm 镜像尚未同步最新版本，可以改用官方 registry：\n\n```sh\ndsh plugin --profile web update @yuuu0109/dsh-cache-hit-decimal --registry=https://registry.npmjs.org/\n```\n\npnpm 11 可能会将发布不足 24 小时的版本延迟更新。需要立即更新时执行：\n\n```sh\ndsh plugin --profile web update @yuuu0109/dsh-cache-hit-decimal --latest --config.minimumReleaseAge=0\n```\n\n## 从源码安装\n\n```sh\ngit clone https://github.com/Yuuu0109/dsh-cache-hit-decimal.gi",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:22:46.864Z",
   "created_at": "2026-08-15T09:40:11.724Z",
   "gh": null,
@@ -43,5 +44,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.326Z"
+  "updated_at": "2026-08-17T04:58:30.147Z"
 }

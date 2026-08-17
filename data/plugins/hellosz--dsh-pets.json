@@ -30,6 +30,7 @@
   },
   "readme": "# DSH Pet Companion 🐾\n\n把 OpenAI **Codex Pets** 的宠物陪伴体验带进 **DeepSeek Harness**（DSH）Web GUI 的 Cordis 插件。\n\n> 用宠物的行为状态代替进度条 —— 你的皮卡丘/小火龙会用动画告诉你 agent 正在思考、等你确认、还是完成了待你审查。\n\n![pikachu preview](docs/pikachu-preview.png)\n\n## 它解决了什么问题\n\nAI coding agent 跑长任务时（几分钟到十几分钟），你无法直观知道它现在在干什么：\n\n| Agent 状态 | 宠物表现 | 你该做什么 |\n| --- | --- | --- |\n| 思考中 / 写代码 | 原地跑动动画 | 去喝杯咖啡 ☕ |\n| 等待你确认 / 审批 | 停下来盯着你看 | 回 DSH 响应 |\n| 完成待审查 | 端坐/专注姿态 | 去看 diff |\n| 出错 | 灰蓝色沮丧抖动 | 检查错误 |\n| 空闲 | 呼吸/眨眼，偶尔挥手跳跃 | 陪它玩 😄 |\n\n这正是 Codex Pets 的核心设计哲学：**\"agent 正在做什么\"比\"agent 是什么动物\"更重要**。\n\n## 特性\n\n- 🖼️ **内置 10 只宠物**：皮卡丘、小火龙、妙蛙种子、杰尼龟、胖丁、伊布、梦幻、波加曼、木木枭、敲音猴\n  - idle 动画来自 PokeAPI 第五世代官方动画帧（或 Pokémon Showdown 动画）\n  - 其余 8 个状态由经典精灵程序化派生（翻转/弹跳/挥手/沮丧/呼吸/跑动/审查）\n- 🎬 **9 状态动画**：idle / running / waiting / review / failed / waving / jumping / running-left / ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:35:29.141Z",
   "created_at": "2026-08-15T13:12:05.379Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.972Z"
+  "updated_at": "2026-08-17T04:58:34.200Z"
 }

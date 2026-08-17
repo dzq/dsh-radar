@@ -23,17 +23,30 @@
   "engines": {},
   "readme": "# dsh-plugin-greet\n\n一个可直接安装的 DeepSeek Harness 社区插件，用来演示最小工具插件的完整链路：Bundle 分发、Profile 装配、工具注册与真实调用。\n\nAn installable community plugin for DeepSeek Harness that registers a minimal `greet` tool.\n\n> 本项目是社区示例，不是 DeepSeek AI 官方插件。DeepSeek Harness 目前仍处于 Developer Preview，后续版本可能需要调整兼容性。\n\n![greet 工具调用结果](docs/greet-tool-result.png)\n\n## 功能\n\n插件向模型注册一个 `greet` 工具：\n\n- 输入：必填字符串 `name`\n- 输出：`Hello, <name>!`\n- 额外依赖：无\n- 构建步骤：无，仓库中的 JavaScript 可以直接安装\n\n## 从 npm 安装\n\n先停止正在运行的 DeepSeek Harness，然后把固定版本安装到 `web` Profile：\n\n```sh\nnpx @deepseek-ai/dsh plugin --profile web add dsh-plugin-greet@0.1.0\n```\n\n在启动前确认 Bundle 已进入最终配置：\n\n```sh\nnpx @deepseek-ai/dsh --profile web --dump-config\n```\n\n然后启动 Web UI：\n\n```sh\nnpx @deepseek-ai/dsh web\n```\n\n## 从 GitHub 安装\n\n先停止正在运行的 DeepSeek Harness，然后把固定版本安装到 `web` Profile：\n\n```sh\nnpx @de",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T09:51:57.903Z",
   "created_at": "2026-08-14T09:51:57.517Z",
-  "gh": null,
+  "gh": {
+    "full_name": "0lidaxiang/dsh-plugin-greet",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T07:16:40Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
-    "quality": 65,
+    "maintenance": 39,
+    "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 36,
-    "grade": "D"
+    "overall": 45,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.318Z"
+  "updated_at": "2026-08-17T04:57:29.933Z"
 }

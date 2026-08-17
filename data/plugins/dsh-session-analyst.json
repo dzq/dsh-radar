@@ -19,6 +19,7 @@
   "engines": {},
   "readme": "# dsh-session-analyst\r\n\r\nSession quality analysis plugin for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).\r\n\r\nGives the agent (and you) structured insight into session behavior: tool success rates, token efficiency, redundant calls, error patterns, and regression detection.\r\n\r\n## Install\r\n\r\n```bash\r\ndsh plugin add dsh-session-analyst\r\n```\r\n\r\nOr add to your `cordis.patch.yml`:\r\n\r\n```yaml\r\n- id: session-analyst\r\n  plugin: dsh-session-analyst\r\n  config:\r\n    redundantCallThreshold: 3\r\n    excessiveStepThreshold: 10\r\n```\r\n\r\n## Tools provided\r\n\r\n### `analyze_session`\r\n\r\nParse a session log file (`.jsonl` or compressed `.jsonl.zstd`) and return quality metrics.\r\n\r\n```\r\nAgent: I'll analyze the session from the last run.\r\n→ analyze_session({ path: \"~/.dsh/sessions/abc123/ses",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T15:03:39.867Z",
   "created_at": "2026-08-14T15:03:39.626Z",
   "gh": null,
@@ -31,5 +32,5 @@
     "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.730Z"
+  "updated_at": "2026-08-17T04:58:36.389Z"
 }

@@ -28,6 +28,7 @@
   "engines": {},
   "readme": "# dsh-evolving-memory\n\n**文件化自进化记忆 —— DeepSeek Harness 的跨会话压缩层（v2）**\n\n记忆的本质是信息的压缩与提取。本插件叠在官方 compaction（会话内压缩）之上，用廉价模型把已压缩的会话摘要进一步提取、整合为人类可读的 Markdown 记忆文件——用户可看、可改，智能体可检索、可进化。\n\n## 设计要点\n\n| | |\n|---|---|\n| 记忆 = 压缩与提取 | 消费官方 `compaction/summary` 事件做提取（T1），不重复读原始日志；dream 做跨会话整合（T3） |\n| 纯 Markdown 文件 | user / agent / memory / dream + 每项目 project.md + daily/ 时间层；无 schema、无迁移、无置信度、无状态机 |\n| 人机共治 | `user.md` 用户可读可编辑；agent 写入只是建议，用户有最终决定权 |\n| 目录式披露注入 | 常驻注入只有**记忆目录**（确定性生成，零模型调用，有界）；内容按需 `memory_search`（找）+ `memory_read`（展开）披露——与 DSH skill 机制同构 |\n| 三层压缩 | 会话 compact（官方）→ 提取进 daily/（情景记忆）→ dream 固化进主题文件（语义记忆），对应\"睡眠时情景→语义固化\" |\n| 廉价模型驱动 | 提取与整合走便宜模型（KB 级输入一次调用）；无 key 时记忆读写/检索照常，仅模型步骤跳过 |\n\n## Install / 安装\n\n```sh\ndsh plugin --profile web add dsh-evolving-memory\ndsh --profile web\n```\n\n记忆文件落在 `$DSH_HOME/me",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T04:52:20.440Z",
   "created_at": "2026-08-16T03:07:51.925Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.317Z"
+  "updated_at": "2026-08-17T04:58:29.797Z"
 }

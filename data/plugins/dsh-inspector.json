@@ -37,17 +37,25 @@
   "engines": {},
   "readme": "# dsh-inspector\n\n简体中文 | [English](README.md)\n\nnpm 包名:`dsh-inspector` · GitHub 仓库:\n[CocoSgt/dsh-inspector](https://github.com/CocoSgt/dsh-inspector)\n\nDeepSeek Harness(dsh)的第三方插件:在 Web 界面右侧打开一个「约束文件」面板,\n按 harness **真实的载入顺序**展示并管理当前会话的指引链——全局\n`$DSH_HOME/AGENTS.md` → 项目根 → … → 会话 cwd 的每一级目录——外加四个技能根\n目录的状态。面板的信息架构完全复刻官方 `dsh-agent-instructions` 的发现算法,\n所见即模型所得。\n\n打开位于某个项目目录中的会话后,点会话头部的「约束文件」按钮即可开关面板;\n面板自动跟随当前会话的工作区目录。界面提供中英双词典,跟随宿主语言设置。\n\n## 指引链模型(与 harness 一字不差)\n\n面板展示的层级、去重与状态标注都对齐 `packages/context/agent-instructions`\n的真实行为:\n\n1. **全局层**:`$DSH_HOME/AGENTS.md`(默认 `~/.dsh/AGENTS.md`)。只认\n   AGENTS.md,对所有会话生效,永远最先载入。\n2. **项目链**:从会话 cwd 向上找最近含 `.git` 的目录作为项目根(找不到则\n   cwd 即根);**项目根 → cwd 的每一级目录**都探测 4 个候选:`AGENTS.md`、\n   `CLAUDE.md`(基础)与 `AGENTS.local.md`、`CLAUDE.local.md`(本地覆盖层,\n   惯例不入库)。存在的全部载入;同目录内",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T14:06:40.553Z",
   "created_at": "2026-08-14T09:19:12.178Z",
-  "gh": null,
+  "gh": {
+    "full_name": "CocoSgt/dsh-inspector",
+    "stars": 6,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T14:13:54Z",
+    "archived": false,
+    "license": null
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
+    "maintenance": 39,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 39,
-    "grade": "D"
+    "overall": 46,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.617Z"
+  "updated_at": "2026-08-17T04:57:03.631Z"
 }

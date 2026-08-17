@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-plugin-guard",
+  "name": "dsh-plugin-guard",
+  "version": "0.0.0",
+  "description": "Install safety net for DeepSeek Harness: pre-install snapshots, one-click/automatic rollback, guarded boot, and incident reports that auto-trigger agent analysis. 中文: DeepSeek Harness 插件安装安全网（安装前自动快照、一键/自动回退、守护启动、事故报告自动触发 Agent 分析）。",
+  "keywords": [
+    "deepseek-harness"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/lxzy-7/dsh-plugin-guard",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-guard",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "lxzy-7/dsh-plugin-guard",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T15:57:06Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:09.829Z"
+}

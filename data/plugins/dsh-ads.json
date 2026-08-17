@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-ads",
+  "name": "dsh-ads",
+  "version": "0.0.1",
+  "description": "Concept placeholder: the ad-supported coding experience for DeepSeek Harness (dsh) — banner ads in the web UI and 'ad breaks' while the model thinks. Not yet implemented.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "concept",
+    "placeholder"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Nagi-ovo/dsh-ads",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-ads",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "# dsh-ads\n\n简体中文 | [English](README.md)\n\nnpm 包名:`dsh-ads` · 作者:\n[cocosgt](https://www.npmjs.com/~cocosgt)\n\n> **状态:概念占位。** 仅占住名字,尚未实现任何功能;安装此包不会有任何\n> 效果。\n\nDeepSeek Harness(dsh)的整活插件概念:**边看广告边编程的体验**。\n\n- Web 界面侧边栏挂横幅广告,写代码时也有一双眼睛陪着你。\n- 「广告时间」——反正你也是在等模型输出,这段等待就是天然的广告位。\n- 看 3 条广告解锁一轮 agent 对话。会员另售。\n\n这个梗将来做不做成真插件不一定;真做的话,功能都会落在这个名字下。\n\n## 安装(等它真的存在之后)\n\n```sh\ndsh plugin --profile web add dsh-ads\n```\n\n## 相关\n\n- [dsh-adblock](https://www.npmjs.com/package/dsh-adblock)——硬币的另一面:\n  过滤会话里流动的各类信息中的广告。\n\n## 许可\n\nMIT\n",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T09:45:13.816Z",
+  "created_at": "2026-08-14T09:45:13.524Z",
+  "gh": {
+    "full_name": "Nagi-ovo/dsh-ads",
+    "open_issues": 11,
+    "pushed_at": "2026-08-15T15:58:19Z",
+    "archived": false,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 36,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:44.314Z"
+}

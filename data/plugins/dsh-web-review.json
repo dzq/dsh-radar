@@ -1,0 +1,40 @@
+{
+  "slug": "dsh-web-review",
+  "name": "dsh-web-review",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness Web GUI 的网页预览与元素批注插件，让 AI 根据可视化反馈直接修改前端源码。",
+  "keywords": [
+    "ai-agents",
+    "dsh",
+    "human-in-the-loop"
+  ],
+  "license": "",
+  "repo": "https://github.com/CanglongCl/dsh-web-review",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-web-review",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "CanglongCl/dsh-web-review",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T18:23:04Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 25,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 27,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:45.123Z"
+}

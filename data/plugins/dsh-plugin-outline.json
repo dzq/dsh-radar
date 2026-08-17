@@ -29,6 +29,7 @@
   "engines": {},
   "readme": "# dsh-plugin-outline\n\nChatGPT-style right-edge quick navigation for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh) web — one dash per user turn, reading position highlighted, hover to expand an outline panel, click to jump.\n\n为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（dsh）web 端提供的 ChatGPT 式右侧快速导航——每轮用户消息一条横线，实时高亮阅读位置，悬停展开大纲面板，点击跳转。\n\n| Light | Dark |\n|:---:|:---:|\n| ![light demo](docs/img/demo-light.png) | ![dark demo](docs/img/demo-dark.png) |\n\n*Rendered by the real plugin artifact over a saved chat.deepseek.com conversation, next to the site's own scroll-nav component. 上图由真实插件产物在保存的官网对话页上渲染，对标官网自带的 scroll-nav 组件。*\n\n---\n\n## English\n\n### Features\n\n- **One dash per user turn** inside a 34px frosted pill pinned at the right edge (`right:16p",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T18:07:11.060Z",
   "created_at": "2026-08-16T17:34:50.987Z",
   "gh": null,
@@ -41,5 +42,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.339Z"
+  "updated_at": "2026-08-17T04:58:30.585Z"
 }

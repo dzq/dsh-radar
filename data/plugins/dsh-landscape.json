@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-landscape",
+  "name": "dsh-landscape",
+  "version": "0.0.0",
+  "description": "Agent-first DeepSeek Harness plugin intelligence: verify existing plugins, identify missing capabilities, and generate build-ready briefs.",
+  "keywords": [
+    "agent-skills",
+    "codex",
+    "deepseek-harness",
+    "ecosystem",
+    "gap-analysis",
+    "plugin-discovery"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/cyanseek/dsh-landscape",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-landscape",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "cyanseek/dsh-landscape",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T01:57:27Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:23.811Z"
+}

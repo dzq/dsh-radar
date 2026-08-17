@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-agent-vision-toolkit",
+  "name": "dsh-agent-vision-toolkit",
+  "version": "0.0.0",
+  "description": "为纯文本模型\"看图“设计更好的视觉工具箱和技能，支持多图理解，图片问答，前端UI还原、GUI 自动化等，并可选无缝接入多个主流agent，直接识别粘贴图片｜ A vision toolkit and skill designed for text-only llms — image Q&A, long-screenshot OCR, frontend UI restoration, and GUI automation, with optional seamless integration for Codex, Claude Code, Pi, Oh M",
+  "keywords": [
+    "agent",
+    "agent-skills",
+    "claude-code",
+    "codex",
+    "computer-use",
+    "deepseek",
+    "glm",
+    "harness-engineering",
+    "multimodal",
+    "opencode"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Anionex/agent-vision-toolkit",
+  "homepage": "https://agent-vision.anionex.me",
+  "npm": "https://www.npmjs.com/package/dsh-agent-vision-toolkit",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Anionex/agent-vision-toolkit",
+    "open_issues": 6,
+    "pushed_at": "2026-08-17T02:08:18Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:39.824Z"
+}

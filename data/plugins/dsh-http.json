@@ -21,6 +21,7 @@
   "engines": {},
   "readme": "# dsh-http\n\nDSH 结构化 HTTP 请求工具插件。注册一个 `http_request` 工具，基于 Node 内置 `fetch`，把每次请求的结果规范化为一个结构化 JSON 对象，供模型与 Code Mode 程序化调用。**零依赖、纯 ESM、无构建**。\n\n## 简介\n\n- 工具名：`http_request`\n- 能力：任意 `http/https` 请求（GET/POST/PUT/PATCH/DELETE/HEAD）、自定义请求头、原始 `body`、JSON 自动序列化、Bearer/Basic 认证便捷参数、超时与响应体截断。\n- 行为：**永不抛异常**。网络错误、超时、参数错误都折叠为 `{ ok: false, error: { stage, message } }`；成功返回 `{ ok: true, status, statusText, durationMs, sizeBytes, ... }`。\n\n## 安装\n\n```sh\ndsh plugin --profile <name> add file:./plugins/dsh-http\n# 或发布后：\ndsh plugin --profile <name> add dsh-http\n```\n\n## 参数\n\n| 参数 | 类型 | 必填 | 默认 | 说明 |\n|---|---|---|---|---|\n| `url` | string | ✅ | — | 目标 URL，仅允许 `http`/`https` |\n| `method` | enum | — | `GET` | `GET`/`POST`/`PUT`/`PATCH`/`DELETE`/`HEAD` |\n| `headers` | object | — | — | 额外请求头，key → string |\n| `body` ",
   "weekly_downloads": 140,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T03:38:53.351Z",
   "created_at": "2026-08-15T03:38:53.019Z",
   "gh": null,
@@ -33,5 +34,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.271Z"
+  "updated_at": "2026-08-17T04:58:29.174Z"
 }

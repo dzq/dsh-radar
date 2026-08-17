@@ -22,6 +22,7 @@
   },
   "readme": "# dsh-plugin-security-audit\n\nDeepSeek Harness 插件：对当前部署运行**实时安全体检**，输出 PASS/WARN/FAIL 报告。\n\n## 背景\n\n我们审计 DeepSeek Harness 0.1.0-rc.6 时发现了 2 条 critical + 17 条 major（凭据保密边界、Windows 沙箱语义、审批可被 LAN 旁路、glob/grep 绕过沙箱、匿名 ID 外发等）。这个插件把那些发现变成**可重复运行的健康检查**：对任意部署跑一遍，逐项给出严重级、详情，以及对应的上游讨论帖链接。\n\n## 检查项\n\n| id | 检查 | 对应发现 |\n|---|---|---|\n| credential_file_permissions | 凭据文件 0600（POSIX）／ACL 继承（Windows，SB3） | 讨论 962 |\n| process_env_secrets | 进程环境中的 API key（C2：`/proc/<pid>/environ` 可读） | 讨论 962 |\n| permission_mode / approval_policy | 权限模式与审批策略（danger-full-access → never） | — |\n| telemetry_mode | 遥测模式（FULL 原始导出无脱敏，L3） | 讨论 962 |\n| anonymous_id | `.anonymous-user-id` 存在性（telemetry 关闭仍外发，M14） | 讨论 952 |\n| lan_exposure | webserver 绑定（0.0.0.0 → critical；trustedHosts → warn，W1/W3） | 讨论 950 |\n| sandbox_backend | 当前平台的",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T07:21:43.117Z",
   "created_at": "2026-08-14T07:21:42.863Z",
   "gh": null,
@@ -34,5 +35,5 @@
     "overall": 31,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.728Z"
+  "updated_at": "2026-08-17T04:58:36.216Z"
 }

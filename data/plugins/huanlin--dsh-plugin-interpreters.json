@@ -31,6 +31,7 @@
   },
   "readme": "# dsh-interpreters\n\nDSH 插件：暴露 `run_python` 和 `run_node` 两个模型可调用工具，通过 stdin 执行代码并返回 stdout/stderr/exit code。在设置页「插件配置」分区提供配置卡片，让用户设置 Python 和 Node.js 解释器的可执行文件路径，工具描述中会告知模型解释器位置。\n\n## 架构\n\n- **工具**：`run_python` / `run_node`，通过 `spawn(executable, ['-'])` 执行代码，代码经 stdin 传入（无命令行长度限制）\n- **设置持久化**：通过 `ctx.settings` 命名空间 `interpreters` 持久化到 `$DSH_HOME/settings.yaml`\n- **动态 description**：工具的 `description` 在注册时根据配置计算，包含解释器路径；设置变更时通过 `bridge.onChange()` 自动重新注册\n- **配置暴露（TypertRemoteService 模式）**：DSH 的 settings RPC 域（api-proxy）只向配置客户端提供白名单命名空间（`interpreters` 不在其中），所以浏览器通过 host 内置的 typertRemote `/api` RPC 通道读写 `interpreters` 命名空间——`InterpretersConfigGateway` 继承 `TypertRemoteService` 并用 `@Remote('get')` / `@Remote('set')` 标记方法，typertRemote 的 SRC discovery 自动 claim `/api/interpreters/get` 和 `/api/interpret",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-13T14:28:20.103Z",
   "created_at": "2026-08-13T14:28:19.784Z",
   "gh": null,
@@ -43,5 +44,5 @@
     "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.390Z"
+  "updated_at": "2026-08-17T04:58:34.986Z"
 }

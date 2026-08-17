@@ -33,6 +33,7 @@
   "engines": {},
   "readme": "# dsh-skin-alphacoders\n\n[English](README.md) | 中文\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/sakka6868/dsh-skin/blob/master/LICENSE)\n[![npm version](https://img.shields.io/npm/v/dsh-skin-alphacoders)](https://www.npmjs.com/package/dsh-skin-alphacoders)\n[![GitHub Release](https://img.shields.io/github/v/release/sakka6868/dsh-skin?label=release)](https://github.com/sakka6868/dsh-skin/releases)\n[![Topic: dsh-plugin](https://img.shields.io/badge/topic-dsh--plugin-4f46e5)](https://github.com/topics/dsh-plugin)\n\nDSH 皮肤插件：把 [Alphacoders 热门壁纸](https://alphacoders.com/popular-wallpapers) 设为 DeepSeek Harness Web GUI 的背景。符合 DSH 插件包规范的双半（Host + Client）Cordis 插件。\n\n![壁纸效果预览](docs/preview-main.png)\n\n![设置面板](docs/preview-gallery.png)\n\n## 功能\n\n- **壁纸库**：设置面板新增「壁",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T01:56:50.232Z",
   "created_at": "2026-08-14T23:51:04.552Z",
   "gh": null,
@@ -45,5 +46,5 @@
     "overall": 36,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.322Z"
+  "updated_at": "2026-08-17T04:58:29.972Z"
 }

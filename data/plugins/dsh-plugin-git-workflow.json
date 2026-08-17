@@ -28,6 +28,7 @@
   },
   "readme": "# dsh-plugin-git-workflow\n\nDeepSeek Harness 插件:给模型提供**一等公民的 Git 工作流工具** —— 仓库状态、diff、规范 commit、历史、分支,不再需要裸 `bash`/`pwsh` 手搓 git。\n\n## 背景\n\nDSH 内置没有任何 git 工具。模型只能通过 `bash`/`pwsh` 调用 `git`,输出原始、易错、难解析,还容易把用户输入拼进 shell 命令(注入风险)。这个插件把 Git 变成**结构化、安全、可解析**的工具集。\n\n## 工具\n\n| 工具 | 作用 |\n|---|---|\n| `git_status` | 分支、upstream、ahead/behind、staged / unstaged / untracked / conflicts 清单(porcelain 解析) |\n| `git_diff` | 工作区 diff 或 staged diff(`--cached`),支持 `--stat` 摘要、路径过滤、行数截断 |\n| `git_log` | 最近提交(hash/日期/subject),可选 `files` 列出每个提交改动的文件 |\n| `git_commit` | 校验 message 后 `git add`(可选路径)+ `git commit -m`;清晰报出 \"nothing to commit\" |\n| `git_branch` | 本地分支列表,标记当前分支 |\n\n## 安装\n\n```bash\ndsh plugin --profile web add dsh-plugin-git-workflow\n```\n\n挂载(profile `cordis.patch.yml` 或 agent preset):\n\n```yaml\n- insert:\n    - id: g",
   "weekly_downloads": 78,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T10:16:40.659Z",
   "created_at": "2026-08-14T09:43:45.766Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 48,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.282Z"
+  "updated_at": "2026-08-17T04:58:29.349Z"
 }

@@ -34,6 +34,7 @@
   "engines": {},
   "readme": "# @mojiexuan/dsh-git\n\nA VS Code–like **Git Source Control panel** for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) web UI — repo init, per-file staging, commit/push/publish/pull, branch & remote management, AI commit messages, and a commit-history graph, all in the browser.\n\n> 中文文档：[docs/README.zh.md](docs/README.zh.md)\n\n## Features\n\n- **Toggleable panel** — an entry above Settings in the sidebar foot opens/closes the panel.\n- **Repo detect & init** — a non-repo workspace shows a one-click \"Initialize Git repository\" (`git init -b main`).\n- **Per-file staging** — collapsible \"Staged changes\" / \"Changes\" lists with per-file `+`/`−`, plus stage-all / unstage-all.\n- **Git-semantic action button** — \"Commit\" when there are uncommitted changes (auto-stages if nothing ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T15:51:26.349Z",
   "created_at": "2026-08-16T08:59:24.452Z",
   "gh": null,
@@ -46,5 +47,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:52.994Z"
+  "updated_at": "2026-08-17T04:58:38.055Z"
 }

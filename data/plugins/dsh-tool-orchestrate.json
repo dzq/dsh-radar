@@ -27,6 +27,7 @@
   },
   "readme": "# dsh-tool-orchestrate\n\n[English](README.md) | 中文\n\nDeepSeek Harness 的声明式任务 DAG 编排插件。这个可选 Cordis 插件注册面向模型的 `orchestrate_tasks` 工具，在启动任何内容之前校验有向无环任务图，并通过现有 `ctx.workflowEngine` 执行。\n\n这是独立的社区插件，并非 DeepSeek 官方软件包。\n\n包内固定 worker 脚本执行确定性的拓扑层。模型编写的任务 id、提示词、依赖 id、schema、提供方名称、模型名称与上游结果只作为 JSON 数据传递，绝不插值到 JavaScript 源码中。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-tool-orchestrate\n```\n\n可以把 `web` 换成需要扩展的 profile。包声明了 DSH bundle manifest，因此安装时会自动加入 `tool-orchestrate` Cordis 行。本项目通过 npm 分发预构建版本，不支持直接从 GitHub 仓库安装。\n\n插件要求 DeepSeek Harness 部署已经提供：\n\n- `ctx.tools`\n- `ctx.systemPrompt`\n- `ctx.workflowEngine`，通常由 `@deepseek-ai/dsh-workflow-worker-thread` 提供\n- workflow engine 选定的 subagent provider\n\n## 手动配置 Cordis\n\n执行 `dsh plugin add` 后通常无需手动配置。自定义组合可以加入：\n\n```yaml\n- id: tool-orchestrate\n  name: 'dsh-tool-orc",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T11:37:05.480Z",
   "created_at": "2026-08-15T11:37:05.161Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.711Z"
+  "updated_at": "2026-08-17T04:58:35.779Z"
 }

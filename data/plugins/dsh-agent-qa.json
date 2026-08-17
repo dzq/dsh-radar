@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-agent-qa",
+  "name": "dsh-agent-qa",
+  "version": "0.0.0",
+  "description": "Open-source self-improving QA agent for software teams. A test harness with memory. Write tests in natural language for web and mobile. agent-qa learns from every run, adapts to UI changes, and catches regressions before you ship.",
+  "keywords": [
+    "ai-agents",
+    "ai-testing",
+    "anthropic",
+    "autonomous-agents",
+    "browser-automation",
+    "chatgpt",
+    "claude-code",
+    "clawdbot",
+    "codex",
+    "developer-tools"
+  ],
+  "license": "NOASSERTION",
+  "repo": "https://github.com/vostride/agent-qa",
+  "homepage": "https://vostride.com",
+  "npm": "https://www.npmjs.com/package/dsh-agent-qa",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "vostride/agent-qa",
+    "open_issues": 0,
+    "pushed_at": "2026-08-03T18:44:59Z",
+    "archived": false,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 34,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:39.832Z"
+}

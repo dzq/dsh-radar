@@ -24,6 +24,7 @@
   "engines": {},
   "readme": "# noatmark-dsh-plugin\n\n**NoAtMark text hygiene** as a [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh) plugin.\n\nEverything-is-a-plugin: this plugin gives your dsh agent four text-hygiene tools, backed by the same deterministic engines behind [noatmark.com](https://noatmark.com).\n\n## Tools\n\n| Tool | What it does |\n|---|---|\n| `sanitize_text` | Strip invisible/zero-width characters and flag prompt-injection + hidden-text signals. |\n| `scan_text` | Report invisible characters (with code points + positions), injection patterns, and hidden text. |\n| `clean_format` | Clean LLM formatting artifacts (blank lines, stray fences, trailing spaces) — meaning untouched. |\n| `sanitize_csv` | Escape CSV formula injection (OWASP): `= + - @` prefixes get a leading quote. |\n\nAll proc",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T05:39:52.066Z",
   "created_at": "2026-08-14T05:39:51.817Z",
   "gh": null,
@@ -36,5 +37,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.313Z"
+  "updated_at": "2026-08-17T04:58:29.797Z"
 }

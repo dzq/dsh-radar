@@ -1,0 +1,43 @@
+{
+  "slug": "dsh-ax-feishu-bridge",
+  "name": "dsh-ax-feishu-bridge",
+  "version": "0.0.0",
+  "description": "飞书/Lark 机器人桥接，同时支持 Pi 和 DeepSeek Harness（DSH）双平台，随时随地远程与你的编程助手对话",
+  "keywords": [
+    "chatbot",
+    "cordis",
+    "dsh",
+    "feishu",
+    "lark",
+    "pi-plugin"
+  ],
+  "license": "",
+  "repo": "https://github.com/AX1202/ax-feishu-bridge",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-ax-feishu-bridge",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "AX1202/ax-feishu-bridge",
+    "open_issues": 7,
+    "pushed_at": "2026-08-16T20:24:10Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:19.914Z"
+}

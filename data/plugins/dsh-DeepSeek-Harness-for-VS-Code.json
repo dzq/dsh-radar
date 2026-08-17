@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-DeepSeek-Harness-for-VS-Code",
+  "name": "dsh-DeepSeek-Harness-for-VS-Code",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness for VS Code: @dsh chat participant, sidebar & standalone chat, plan mode, goals, subagents, turn-level Git rollback, workspaces/jobs/settings panels, 13-language UI.",
+  "keywords": [
+    "ai",
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugins",
+    "git"
+  ],
+  "license": "NOASSERTION",
+  "repo": "https://github.com/NEXTINDIE/DeepSeek-Harness-for-VS-Code",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-DeepSeek-Harness-for-VS-Code",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "NEXTINDIE/DeepSeek-Harness-for-VS-Code",
+    "open_issues": 4,
+    "pushed_at": "2026-08-15T20:47:36Z",
+    "archived": false,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:48.207Z"
+}

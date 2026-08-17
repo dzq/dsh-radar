@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-Co-Engram",
+  "name": "dsh-Co-Engram",
+  "version": "0.0.0",
+  "description": "Self-evolving team memory",
+  "keywords": [
+    "agent-memory",
+    "ai-memory",
+    "claude-code",
+    "cordis",
+    "deepseek-harness",
+    "engram",
+    "mcp",
+    "memory",
+    "team-memory"
+  ],
+  "license": "",
+  "repo": "https://github.com/Co-Engram/Co-Engram",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-Co-Engram",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Co-Engram/Co-Engram",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:57:58Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 25,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 27,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:27.965Z"
+}

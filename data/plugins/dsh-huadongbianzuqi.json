@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-huadongbianzuqi",
+  "name": "dsh-huadongbianzuqi",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness的滑动变祖器插件",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugins"
+  ],
+  "license": "MIT-0",
+  "repo": "https://github.com/zjl88858/dsh-huadongbianzuqi",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-huadongbianzuqi",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "zjl88858/dsh-huadongbianzuqi",
+    "open_issues": 1,
+    "pushed_at": "2026-08-13T18:31:15Z",
+    "archived": false,
+    "license": {
+      "key": "mit-0",
+      "name": "MIT No Attribution",
+      "spdx_id": "MIT-0",
+      "url": "https://api.github.com/licenses/mit-0",
+      "node_id": "MDc6TGljZW5zZTQx"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:50.019Z"
+}

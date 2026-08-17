@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-RE-Framework",
+  "name": "dsh-RE-Framework",
+  "version": "0.0.0",
+  "description": "Modular engineering methodology framework for AI agents — reverse engineering & software development (core + re-binary / re-code / swe modules).",
+  "keywords": [
+    "agent-framework",
+    "ai-agents",
+    "binary-analysis",
+    "code-analysis",
+    "deepseek-harness",
+    "deepseek-harness-plugin",
+    "deepseek-harness-plugins",
+    "deobfuscation",
+    "developer-tools",
+    "dsh"
+  ],
+  "license": "",
+  "repo": "https://github.com/unknowbug/RE-Framework",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-RE-Framework",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "unknowbug/RE-Framework",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T05:02:10Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:09.907Z"
+}

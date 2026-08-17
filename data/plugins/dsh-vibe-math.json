@@ -28,6 +28,7 @@
   "engines": {},
   "readme": "# Vibe Mathematics — 多代理数学问题求解与验证框架\r\n\r\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)\r\n[![GitHub stars](https://img.shields.io/github/stars/ChongCyrus/Vibe-Mathematics)](https://github.com/ChongCyrus/Vibe-Mathematics)\r\n\r\n> 一个运行在 **DeepSeek Harness** 内的**永久 agent preset**（`vibe-math`）。\r\n> 它用「**广度探索 → 深度迭代 → 交叉验证 → 知识沉淀**」的闭环，自动求解数学问题，\r\n> 并对每个结论做多代理交叉验证；支持**断点续跑**与**中途人工干预**，全程可由自然语言驱动。\r\n\r\n---\r\n\r\n## ✨ 功能特色\r\n\r\n- **多代理自动求解**：主代理把问题交给调度器，调度器派发 brainstorm / solver / verifier / decider 等子代理协同求解，**你无需逐节点手操**。\r\n- **多代理交叉验证**：每个结论拆成最小验证单元，≥3 个「严苛审稿人」独立审查 → 辩论 → 裁决（一票否决 / 加权投票）。\r\n- **知识沉淀**：验证通过的结论晋升进 `Verified/` 可信知识库，供后续方向复用。\r\n- **断点续跑**：调度状态、任务栈、代理注册表、决策队列、依赖图、验证器历史准确率等全部落盘；重启后 `resume` 即可恢复（含对账，不会卡死）。\r\n- **中途人工干预（并继续）**：`auto / manual` 模式",
   "weekly_downloads": 119,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T07:09:16.645Z",
   "created_at": "2026-08-15T07:09:16.292Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.277Z"
+  "updated_at": "2026-08-17T04:58:29.261Z"
 }

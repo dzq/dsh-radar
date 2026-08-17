@@ -35,17 +35,25 @@
   },
   "readme": "# dsh-plugin-notify\r\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\r\n\r\n\r\n> 已收录于 [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) 精选列表（Notifications & Integrations）\r\n\r\n\r\nDeepSeek Harness 插件：通知出口——让 agent 主动联系你。桌面通知 / 中文语音播报 / 提示音，Windows 本机零依赖。\r\n\r\n<img width=\"1168\" height=\"1180\" alt=\"image\" src=\"https://github.com/user-attachments/assets/c226cc71-4f8d-4f38-b338-4f7d9583a230\" />\r\n\r\n## 功能\r\n\r\n- **系统提示词注入**：自动往所有 agent 的系统提示词注入主动通知规则（长任务完成 / 出错 / 需要你注意时用 notify_user），不用每次教；`DSH_NOTIFY_INJECT_PROMPT=0` 可禁用\r\n- **自动通知兜底**（不依赖模型自觉）：\r\n  - 会话回合出错 → 自动语音 + 桌面通知\r\n  - 回合结束 → 立即桌面通知，进入 60 秒确认窗口：期间你在 dsh 发了消息（=看到了）则取消；没发 → 中文语音呼叫你（**无论你在不在电脑前**——用电脑没发现任务完成更需要语音打断提醒）；`DSH_NOTIFY_ON_TURN_END=0` 关闭全部\r\n\r\n- **agent 工具 `notify_user",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T12:03:54.652Z",
   "created_at": "2026-08-14T11:55:54.308Z",
-  "gh": null,
+  "gh": {
+    "full_name": "huguangyu666/dsh-plugin-notify",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T11:15:47Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
+    "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 39,
-    "grade": "D"
+    "overall": 47,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:46.453Z"
+  "updated_at": "2026-08-17T04:58:25.060Z"
 }

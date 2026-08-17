@@ -1,0 +1,55 @@
+{
+  "slug": "dsh-desktop-pet",
+  "name": "dsh-desktop-pet",
+  "version": "0.1.0",
+  "description": "An optional desktop companion for deepseek-harness that shows ambient status via a small animated pet.",
+  "keywords": [
+    "desktop-pet",
+    "dsh",
+    "dsh-plugins",
+    "pet"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/sereinmono/dsh-desktop-pet",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-desktop-pet",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-settings-plugins"
+      ]
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-desktop-pet\n\n[English](README.md) | 中文\n\n**dsh-desktop-pet** 是 [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) 的一个**可选桌面伴侣**插件。它用一个小动画宠物作为环境状态指示器：harness 空闲时宠物放松，模型推理时\"思考\"，执行工具时\"工作\"，等待输入时\"求关注\"，一轮任务结束时庆祝（或皱眉）。\n\n它**不是**第二个聊天界面，不是任务管理器，也不是完整的桌面应用。它是一个状态指示器。\n\n- **插件优先**：就是一个普通的 deepseek-harness 插件——没有独立启动的守护进程、浏览器或桌面应用。\n- **零网络**：所有资源随插件发布；无遥测、无 CDN、无远程服务。\n- **零额外 LLM 成本**：事件 → 状态的解析完全确定，不额外调用模型。\n- **运行时发现宠物**：`assets/pets/` 下的宠物在启动时自动发现，添加宠物就是放进一个文件夹——无需重新构建。\n\n---\n\n## 安装\n\n插件是一个同时包含宿主半（宠物窗口）和客户端半（设置卡片）的 Cordis **组合包**。`dsh plugin add` 会安装它，并因清单里声明了 `dsh.bundle` 而自动把它加入 profile 的 bundle 列表。\n\n### 从本地目录安装\n\n直接从插件源码目录安装（profile 会把它作为 `link:` 依赖保留）：\n\n```sh\ndsh plugin --profile <name> add /path/to/dsh-desktop-pet\n```\n\nWindows 下示例：\n\n```sh\ndsh plugin --profile web add D:/deepse",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T13:10:26.995Z",
+  "created_at": "2026-08-14T13:10:26.194Z",
+  "gh": {
+    "full_name": "sereinmono/dsh-desktop-pet",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T02:53:45Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:18.606Z"
+}

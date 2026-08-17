@@ -31,6 +31,7 @@
   "engines": {},
   "readme": "# dsh-community-hot\n\nDeepSeek Harness Web UI 的社区热门悬浮面板：24 小时热门话题 + 热门插件 TOP10，悬浮按钮可拖动、置顶，点击居中展开，列表直达内容页。\n\n[English](README.md)\n\n## 功能\n\n- **悬浮可拖动按钮** — 拖到任意位置，位置持久化，且始终置顶。\n- **点击居中展开** — 双标签面板。\n  - **热门话题** — `deepseek-ai/deepseek-harness` 的 GitHub Discussions，按评论与反应热度排序，24 小时内更新的话题带 `24h` 徽章。\n  - **热门插件 TOP10** — [awesome-dsh-plugin](https://awesome-dsh-plugin.com) 社区精选榜，按 GitHub stars 排序（npm 下载量排名自动兜底）。\n- **列表直达** — 每行都在新标签页打开讨论 / 插件仓库。\n- **实时角标 + 自动刷新** — 按钮显示 24h 活跃话题数，按配置的间隔自动刷新。\n- **可配置** — 面板内 ⚙ 菜单可改榜单条数、刷新间隔、按钮文案。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-community-hot\n```\n\n重启 web profile（或刷新已运行的页面）后，Web UI 右下角会出现悬浮按钮。\n\n> 依赖 web profile（`@deepseek-ai/dsh-web-app`）。在 headless profile 上本插件为无操作。\n\n## 数据来源\n\n- 热门话题：`api.github.com/repos/deepseek-ai/deepseek-harness/discussions`\n- 热门插",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T07:00:21.380Z",
   "created_at": "2026-08-15T06:18:31.821Z",
   "gh": null,
@@ -43,5 +44,5 @@
     "overall": 37,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.464Z"
+  "updated_at": "2026-08-17T04:58:32.968Z"
 }

@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-orbis",
+  "name": "dsh-orbis",
+  "version": "0.0.0",
+  "description": "A mobile client for deepseek harness remote control",
+  "keywords": [],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/icodesign/orbis",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-orbis",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "icodesign/orbis",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T02:46:50Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:32.216Z"
+}

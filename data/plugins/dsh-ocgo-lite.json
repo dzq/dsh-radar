@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-ocgo-lite",
+  "name": "dsh-ocgo-lite",
+  "version": "0.0.0",
+  "description": "OpenCode Go 用量常驻条：套餐余量圆环 + token/花费实时统计（本次会话/全部范围 + 按模型联动，官方实时定价），一键复制 API Key。OpenCode Go usage bar for DeepSeek Harness.",
+  "keywords": [
+    "deepseek-harness",
+    "opencode-go-usage"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/OK-wx/dsh-ocgo-lite",
+  "homepage": "https://github.com/OK-wx/dsh-ocgo-lite",
+  "npm": "https://www.npmjs.com/package/dsh-ocgo-lite",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "OK-wx/dsh-ocgo-lite",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T16:38:14Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:28.577Z"
+}

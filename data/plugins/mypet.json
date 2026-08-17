@@ -34,6 +34,7 @@
   "engines": {},
   "readme": "# 🐾 mypet — DSH 电子宠物插件\n\n> 你的 AI 编程搭档，住进浏览器的电子宠物。\n\n给 **DeepSeek Harness (DSH)** 的桌面宠物插件 —— 随你和 agent 的编码活动变化心情、体力、饱腹、牵绊，会升级、有性格、能攒金币抽 24 种皮肤、完成每日任务、转生强化……\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)\n[![DSH Plugin](https://img.shields.io/badge/DSH-Plugin-blueviolet)](https://github.com/topics/dsh-plugin)\n\n---\n\n## 截图\n\n| 状态 | 衣橱 |\n|:---:|:---:|\n| ![状态](https://raw.githubusercontent.com/qiqikuaidianpao/mypet/main/screenshots/stats.png) | ![衣橱](https://raw.githubusercontent.com/qiqikuaidianpao/mypet/main/screenshots/closet.png) |\n\n| 成就 | 更多 |\n|:---:|:---:|\n| ![成就](https://raw.githubusercontent.com/qiqikuaidianpao/mypet/main/screenshots/achievements.png) | ![更多](https://raw.githubusercontent.com/qiqikuaidianpao/mypet/main/screenshots/more.png) |\n\n---\n\n## 安装\n\n",
   "weekly_downloads": 56,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T03:27:01.502Z",
   "created_at": "2026-08-14T02:30:15.298Z",
   "gh": null,
@@ -46,5 +47,5 @@
     "overall": 50,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.283Z"
+  "updated_at": "2026-08-17T04:58:29.441Z"
 }

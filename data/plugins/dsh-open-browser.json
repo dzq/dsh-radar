@@ -24,6 +24,7 @@
   },
   "readme": "# dsh-open-browser\n\nDSH 插件:在 `dsh web` 启动完成、可以对外服务时,自动用系统默认浏览器打开 Web UI。\n\n- **零运行时依赖**(仅 peer 使用 dsh 自带的 `@deepseek-ai/schemastery` 做配置校验)\n- **跨平台**:macOS / Linux(X11 与 Wayland)/ Windows / WSL,见下方平台矩阵\n- **无头安全**:Linux 无 `DISPLAY`/`WAYLAND_DISPLAY` 且非 WSL 时静默跳过并打一行提示(CI/容器里不会乱弹)\n- **时机精确**:与 web-app 打印 URL 行同一就绪点(Loader 树 settle 之后),`--port 0` 的 OS 分配端口也能拿到\n- **不阻塞关停**:opener 子进程 detached + `unref`,Ctrl-C/SIGTERM 关停不受影响\n\n## 安装\n\n```sh\n# 从本地目录安装(开发/验证)\ndsh plugin --profile web add /path/to/dsh-open-browser\n\n# 或从 npm 安装(发布后)\ndsh plugin --profile web add dsh-open-browser\n\n# 或从 git 安装\ndsh plugin --profile web add github:you/dsh-open-browser\n```\n\n**三平台安装命令完全一致**(Windows 上 `dsh` 为 `.cmd` shim,CLI 已内部处理)。`dsh plugin` 会把包加入 profile 的 `dsh.profile.bundles` 层列表。之后正常启动:\n\n```sh\nnpx @deepseek-ai/dsh web\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T02:49:45.665Z",
   "created_at": "2026-08-14T02:47:46.462Z",
   "gh": null,
@@ -36,5 +37,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:49.238Z"
+  "updated_at": "2026-08-17T04:58:37.697Z"
 }

@@ -25,6 +25,7 @@
   "engines": {},
   "readme": "# @wishp3/dsh-friend-settings\n\n设置父卡片、配置中心小窗（十分区）与数据/关于。\n\nrc.6 没有整页/路由级 client 槽位。本包：\n\n- 在官方 `settings.section` 注册 dsh-Friend 父卡片（可选再挂 `settings.general.item`）\n- 用自建居中小窗做配置中心（对齐官方 Settings：遮罩 + 800×800 圆角面板），hash 为 `#/friend/config/<section>`\n- 成长分区是 Kokoro 同款三步向导，嵌在小窗里\n- 聚合各功能包设置；密文只留在 host，client 投影只有 `hasApiKey`\n\n## 验证\n\n1. `dsh web` 打开设置 → 导航里出现 **dsh-Friend**。\n2. 关总开关后，卡片里悬浮层/音量/角色控件禁用。\n3. 点「打开配置中心」→ 十分区都能点开；刷新后 hash 仍停在当前分区。\n4. 切界面语言为 en，卡片与覆盖层无中文残留。\n5. 「数据与关于」可导出 zip（不含 `cache/`、`vendor/`）。\n6. 浏览器 DevTools 看 `/friend/settings/snapshot`，响应里不能出现 API key。\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T05:39:39.528Z",
   "created_at": "2026-08-14T16:01:38.159Z",
   "gh": null,
@@ -37,5 +38,5 @@
     "overall": 31,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.461Z"
+  "updated_at": "2026-08-17T04:58:32.880Z"
 }

@@ -27,6 +27,7 @@
   },
   "readme": "# dsh-discord-bot\n\n![dsh-discord-bot](docs/banner.png)\n\n[English](README.md) | 中文\n\n把 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 投影到一個 Discord 伺服器：\n一個類別底下**每個工作區一個文字頻道**，在頻道內用 `/dsh …` 指令查詢工作階段軌跡與當前子代理。\n\n```\n🗂 dsh                     ← 類別\n   # dsh                   ← 工作區 /Users/you/Documents/dsh\n   # sweepbot-home         ← 工作區 /Users/you/code/game/godot/sweepbot_home\n   # my-api                ← 工作區 /Users/you/work/my-api\n```\n\n| 註冊一個工作區 | 頻道就長出來，而且是私密的 |\n|---|---|\n| ![註冊工作區，路徑對著 harness 機器的檔案系統自動完成](docs/screenshots/04-workspace-autocomplete-path.jpg) | ![新頻道出現在 dsh 類別底下，主題列帶著工作區 id](docs/screenshots/06-new-channel-in-sidebar.jpg) |\n| **把工作送進去，即時看著跑** | **回頭讀它到底做了什麼** |\n| ![執行中的卡片標出正在跑的工具，下面是軌跡、時間軸、子代理、待辦、匯出，以及插話與中斷](docs/screenshots/08-run-running.jpg) | ![軌跡：每一次",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:56:55.262Z",
   "created_at": "2026-08-15T12:51:15.025Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.461Z"
+  "updated_at": "2026-08-17T04:58:32.880Z"
 }

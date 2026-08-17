@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-deepseek-harness-control-center",
+  "name": "dsh-deepseek-harness-control-center",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness account monitoring, usage accounting, completion alerts, official recharge, flexible layout, and agent-assisted session controls. / 账户监控、提醒、充值与会话控制中心",
+  "keywords": [
+    "account-monitoring",
+    "agentic-ai",
+    "balance-monitor",
+    "cost-tracking",
+    "deepseek",
+    "deepseek-harness",
+    "javascript",
+    "llm",
+    "notifications",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/feibi-mochi/deepseek-harness-control-center",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-deepseek-harness-control-center",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "feibi-mochi/deepseek-harness-control-center",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T19:36:30Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:27.059Z"
+}

@@ -34,6 +34,7 @@
   "engines": {},
   "readme": "# dsh-remote-server\n\nMention a server with `@` in a [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) session and run commands on it over SSH.\n\nRegister a server once, then ask for what you need in plain language. Commands that only read run immediately; anything that changes state stops and asks you first.\n\n> **Nothing is installed on the servers.** No agent, no daemon, no inbound port. The plugin drives your own `ssh` client, so your existing `~/.ssh/config` — jump hosts, agent forwarding, `known_hosts` — keeps applying unchanged.\n\n---\n\n## What it looks like\n\n**Type `@` and pick a server.** The reference travels with your message; the model names the target explicitly on every command.\n\n![The @ mention menu listing registered servers](docs/images/mention-menu.png)\n\n**On",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T02:09:42.248Z",
   "created_at": "2026-08-17T02:09:41.665Z",
   "gh": null,
@@ -46,5 +47,5 @@
     "overall": 37,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.721Z"
+  "updated_at": "2026-08-17T04:58:36.042Z"
 }

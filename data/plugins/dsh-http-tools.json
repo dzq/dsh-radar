@@ -29,6 +29,7 @@
   },
   "readme": "# dsh-http-tools\n\n> 为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）打造的 HTTP / API 调试工具集。\n\n`dsh-http-tools` 让你的 DSH agent 拥有一个完整的 REST 客户端：可以发送任意请求（完整控制 method、headers、body 与认证），粘贴一段 `curl` 命令让 agent 直接解析或改造后重发，还可以在会话内回顾、对比历史请求——全程都在对话里完成。\n\n## 工具\n\n| 工具 | 说明 |\n| --- | --- |\n| `http_request` | 发送 HTTP 请求（GET/POST/PUT/PATCH/DELETE/HEAD），支持自定义 headers、body 与认证。返回状态码、耗时、大小、响应头、截断后的响应体，以及等价的 `curl` 命令。 |\n| `curl_parse` | 把 `curl` 命令解析为结构化请求（method、URL、headers、body、auth），可加 `execute: true` 一步解析并发送。 |\n| `request_history` | 查询当前会话内的历史请求，查看某次请求的详情，或并排对比两次响应。 |\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-http-tools\n```\n\n零配置开箱即用。需要 Node.js >= 22（使用原生 `fetch`）。\n\n## 试试\n\n直接对你的 agent 说：\n\n```\n用 http_request 调 https://api.github.com/repos/deepseek-ai/deepseek-harness 看看 star 数\n`",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T07:33:07.094Z",
   "created_at": "2026-08-16T07:33:06.884Z",
   "gh": null,
@@ -41,5 +42,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.728Z"
+  "updated_at": "2026-08-17T04:58:36.303Z"
 }

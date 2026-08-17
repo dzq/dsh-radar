@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-bash-encoding",
+  "name": "dsh-bash-encoding",
+  "version": "0.0.0",
+  "description": "DSH bash 输出编码自动识别插件：替换 ctx.bash，自管 spawn 收集原始字节，自动检测 UTF-16LE/UTF-8/GBK 等编码并正确解码，修复 WSL/Windows 下 bash 工具的中文乱码。",
+  "keywords": [
+    "dsh"
+  ],
+  "license": "BSD-3-Clause",
+  "repo": "https://github.com/lhh010/dsh-bash-encoding",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-bash-encoding",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "lhh010/dsh-bash-encoding",
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T13:54:04Z",
+    "archived": false,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 30,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:53.632Z"
+}

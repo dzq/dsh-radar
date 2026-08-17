@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-sandbase-skills",
+  "name": "dsh-sandbase-skills",
+  "version": "0.0.0",
+  "description": "88 installable open-source Agent Skills for research, social intelligence, marketing, and business workflows—compatible with Codex, Claude Code, Cursor, Gemini CLI, and DeepSeek Harness.",
+  "keywords": [
+    "agent-skills",
+    "ai-agents",
+    "business-intelligence",
+    "claude-code",
+    "claude-code-marketplace",
+    "claude-code-plugin",
+    "codex-skills",
+    "cursor-ai",
+    "deepseek",
+    "deepseek-harness"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/sandbaseai/sandbase-skills",
+  "homepage": "https://skills.sh/sandbaseai/sandbase-skills/multi-source-search",
+  "npm": "https://www.npmjs.com/package/dsh-sandbase-skills",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "sandbaseai/sandbase-skills",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T13:00:43Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:54.519Z"
+}

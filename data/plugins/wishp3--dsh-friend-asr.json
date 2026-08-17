@@ -24,6 +24,7 @@
   "engines": {},
   "readme": "# @wishp3/dsh-friend-asr\n\n语音输入引擎、三种收音模式、转写代理\n\nThis package is a dsh plugin with a host half (`src/index.ts`) and a client half (`src/client.ts`).\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T05:39:12.472Z",
   "created_at": "2026-08-14T16:01:02.398Z",
   "gh": null,
@@ -36,5 +37,5 @@
     "overall": 27,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.619Z"
+  "updated_at": "2026-08-17T04:58:31.719Z"
 }

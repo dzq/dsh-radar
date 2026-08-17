@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-token-usage",
+  "name": "dsh-token-usage",
+  "version": "0.1.0",
+  "description": "dsh（DeepSeek Harness）外部插件：在 Web 设置面板新增「用量统计」页，展示过去 7/15/30 天的 token 用量与估算金额折线图，以及当前已接入模型的单价表（M tokens），并支持在页面内直接 编辑两种货币（CNY / USD）下的模型单价。",
+  "keywords": [],
+  "license": "",
+  "repo": "https://github.com/LaoYueHanNi/dsh-token-usage",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-token-usage",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "slots",
+        "locale"
+      ]
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-token-usage\n\ndsh（DeepSeek Harness）外部插件：在 Web 设置面板新增「用量统计」页，展示过去 7/15/30 天的\ntoken 用量与估算金额折线图，以及当前已接入模型的单价表（M tokens），并支持在页面内直接\n编辑两种货币（CNY / USD）下的模型单价。\n\n数据来自历史会话日志中 `assistant/message` 事件携带的 `usage` 字段——插件是纯观察者，\n不改动 agent-loop，也不向任何外部服务上报数据。\n\n## 功能\n\n- **设置 → 用量统计**：时间范围一键切换（7/15/30 天），token 用量折线图（总量 / 输入 / 输出 / 缓存命中 / 缓存写入 / 推理），金额折线图（CNY 与 USD 双系列），hover 显示具体数值。\n- **汇总卡片**：Token 总量、日均 Token、平均缓存命中率、估算金额（CNY 与 USD 同时展示）。\n- **模型单价表**：展示当前已接入模型（来自 `ctx.llm` 模型目录）在 **CNY 与 USD 两种货币**下的单价；内置 `deepseek-v4-flash` 与 `deepseek-v4-pro` 默认价。\n- **单价编辑**：单价表内切换 CNY/USD 币种，内联修改价格后点「保存单价」写回配置，统计自动按新价刷新（无需重启）。\n- **性能**：\n  - 服务端按 session 日志文件 mtime 剪枝 + 有界并发读取（默认 8 路）+ 30s 响应缓存，实测 69 个 session 由 12.8s 降至约 1s（热缓存 <1ms）。\n  - 客户端在页面激活时并行预取 7/15/30 天三档数据并做 30s 本地缓存，**切换日期范围即时渲染**（无 loading 闪烁、无额外请求）。\n\n##",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T12:29:58.759Z",
+  "created_at": "2026-08-14T12:29:58.541Z",
+  "gh": {
+    "full_name": "LaoYueHanNi/dsh-token-usage",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T01:19:28Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 41,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:24.868Z"
+}

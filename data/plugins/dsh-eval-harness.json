@@ -1,0 +1,48 @@
+{
+  "slug": "dsh-eval-harness",
+  "name": "dsh-eval-harness",
+  "version": "0.3.0",
+  "description": "DSH 插件回归评测门禁：yaml 用例 + headless 驱动 + trace 断言 + baseline 门禁（eval_run / eval_gate）",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "evaluation",
+    "regression-testing"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/BiBoyang/dsh-eval-harness",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-eval-harness",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "skills": [
+      "./skills/eval/SKILL.md"
+    ]
+  },
+  "engines": {},
+  "readme": "# dsh-eval-harness\n\nDSH 插件/skill 作者的回归评测门禁：写 yaml 用例 → headless 驱动真实 agent 跑 → 解析 session trace 断言 → 对比 baseline 出 PASS/WARN/FAIL 报告与 CI 退出码。\n\n## 简介\n\n给 DSH 插件/skill 的回归评测流程提供一个可进 CI 的门禁工具：\n\n1. 用 yaml 写评测用例（prompt + 期望行为断言）；\n2. `eval_run` 逐条 fork `dsh --profile headless --patch <overlay> <prompt>` 子进程跑真实 agent（overlay 把会话落盘切到隔离目录，每条用例独立 workspace），解析落盘的 `session.jsonl` / `session.jsonl.zstd` trace（多帧 zstd 直读），执行断言，写 `report.json` + `report.md`；\n3. `eval_gate` 把本次报告与 baseline 报告对比，输出 `OVERALL=PASS|WARN|FAIL|N/A` 与退出码，供 CI 拦截回归。\n\n## 安装\n\n```sh\ndsh plugin --profile headless add github:boyang/dsh-eval-harness\n# 验证挂载\ndsh --profile headless --dump-config | grep dsh-eval-harness\n```\n\n## 能力面\n\n### Tools\n\n| 工具 | 说明 |\n| --- | --- |\n| `eval_run` | 跑 cases_dir 下全部用例：headless 驱动真实 agent → 采集 session trace",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T21:54:10.600Z",
+  "created_at": "2026-08-14T21:54:10.406Z",
+  "gh": {
+    "full_name": "BiBoyang/dsh-eval-harness",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T21:55:52Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 65,
+    "security": 40,
+    "dsh_compat": 75,
+    "overall": 42,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:44.553Z"
+}

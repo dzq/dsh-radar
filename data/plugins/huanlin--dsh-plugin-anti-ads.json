@@ -25,6 +25,7 @@
   "engines": {},
   "readme": "# dsh-anti-ads\n\n给 DSH Web UI 安装的广告拦截器——拦截对象只有 [dsh-ads](https://github.com/dsh-external/dsh-ads) 一个。右下角一枚小徽章，广告没了，徽章记着拦掉了几个弹层。\n\n## 它是怎么拦的\n\n四层防御，独立工作、可单独开关：\n\n| 层 | 机制 | 关什么 |\n|----|------|--------|\n| L1 设置写穿 | 通过 dsh-ads 自身的存储契约（`localStorage['dsh-ads:settings']` + `dsh-ads:persist-changed` 事件）把所有广告位开关写成关闭，并监听 dsh-ads 的广播持续压制 | 两侧广告栏、对话内信息流、右下角弹窗、跑分、安全告警、贪玩蓝鲸海报 |\n| L2 兜底清理 | `MutationObserver` 监听页面变化，按形状（`position:fixed` + dsh-ads 的 z-index 区间，或全屏穿透遮罩层）识别并移除漏网弹层 | dsh-ads 未来版本绕过设置新增的广告位、改版后的根浮层 |\n| L3 屏蔽动态广告源 | 对 `/dsh-ads/registry.json` 的请求（含带 query 的变体）直接返回空列表 | 社区插件的自动横幅 |\n| L4 深层拦截 | 广播 dsh-ads 自身的 `dsh-ads:retired` 事件——它的「关闭所有广告」是模块级一次性开关，广告层在渲染前就检查这个标志，广播后整层隐藏到刷新 | 无视自身设置开关、任何新加广告位的 dsh-ads 版本 |\n\n四层都不依赖对方：L1 失效时 L2/L3/L4 还在；关掉 L4，L1/L2/L3 照常跑。\n\n**持久化**：拦截状态默认开启，跨刷新持续生效。「启用拦截」开关在设置页和徽章",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-13T14:27:38.909Z",
   "created_at": "2026-08-13T14:27:38.543Z",
   "gh": null,
@@ -37,5 +38,5 @@
     "overall": 37,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.974Z"
+  "updated_at": "2026-08-17T04:58:34.287Z"
 }

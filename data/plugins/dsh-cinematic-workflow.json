@@ -28,6 +28,7 @@
   },
   "readme": "# dsh-cinematic-workflow\n\n面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的本地优先、人工门禁式作者电影工作流插件。\n\n它把旅行电影导演工作流转成真正可执行的 DSH 插件：素材清单、导演方案、初剪交付物、可导入 FCPXML、Resolve 交接、克制的文案/字幕、质检与交付记录。它不是 Final Cut Pro 或 DaVinci Resolve 的鼠标自动化工具。\n\n最重要的规则由代码强制执行：只有用户运行 `/cinema continue <project-id>`，并且当前阶段的交付物齐全，才会进入下一阶段。模型不能批准、跳过、合并或提前执行后续阶段。\n\n## 安装\n\n```bash\ndsh profile install npm:dsh-cinematic-workflow\n```\n\n安装后重载 DSH profile。首个兼容目标为 DSH `0.1.0-rc.6`；Harness 仍在开发阶段，升级时请固定兼容版本。\n\n## 快速开始\n\n```text\n/cinema doctor\n/cinema start \"/你的/素材目录\" --title \"我的电影\" --preset travel-authorial\n/cinema run <project-id>\n```\n\n当前阶段完成后，先审核，再记录创作选择：\n\n```text\n/cinema choose <project-id> theme \"自由\"\n/cinema choose <project-id> arc \"抵达 → 释放 → 安静余韵\"\n/cinema continue <project-id>\n```\n\n`/cinema choose` 不推进阶段；`/cinema r",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T10:50:07.110Z",
   "created_at": "2026-08-16T10:50:06.829Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.981Z"
+  "updated_at": "2026-08-17T04:58:34.546Z"
 }

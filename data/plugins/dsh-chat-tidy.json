@@ -34,6 +34,7 @@
   },
   "readme": "# dsh-chat-tidy\n\nTidy Chat 让 DeepSeek Harness Web 对话页的阅读节奏对齐成熟的 Coding Agent 客户端。所有数值都从 Codex 桌面端实测得到，再套用到 DSH 自己的聊天锚点上。DSH 原有的 Markdown 渲染、主题、工具调用、推理内容和会话行为都不改动。\n\n[English](README.md)\n\n![应用 Tidy Chat 后的 DSH Web 对话页](docs/images/hero.png)\n\n## 改动明细\n\n| 项目 | DSH 默认 | Tidy Chat（Codex 实测） |\n| --- | --- | --- |\n| 正文 | 16 / 28 px | **14 / 22 px** |\n| h1 – h6 | 24 / 22 / 20 / 16 / 16 / 16 px，字重 700 | **24 / 20 / 17 / 17 / 15 / 15 px，字重 600** |\n| 标题外边距 | 上 32 px、下 16 px | **上 20 px、下 10 px** |\n| 块间节奏 | 16 px | **11 px** |\n| 列表缩进 · 条目间距 | 18 px · 6 px | **21 px · 8 px** |\n| 分隔线（`hr`） | 32 px | 28 px |\n| 引用块 | 2 px 直角边框 | 圆角 4 px 竖条，缩进 18 px |\n| 表格单元格 | 15 / 25 px，内边距 10 × 16 px | 14 / 22 px，内边距 8 × 12 px |\n| 活动行 | 24 px，标签 14 / 24 px | 22 px，标签 13 / 22 px |\n\n阅读区宽度保持 DSH 原有的 748 px：Codex 实测约 730 px，说",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T06:26:14.572Z",
   "created_at": "2026-08-16T06:26:14.109Z",
   "gh": null,
@@ -46,5 +47,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.320Z"
+  "updated_at": "2026-08-17T04:58:29.972Z"
 }

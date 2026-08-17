@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-DeepSeek-Harness-Desktop",
+  "name": "dsh-DeepSeek-Harness-Desktop",
+  "version": "0.0.0",
+  "description": "一个 Electron 桌面壳，内嵌官方 DeepSeek Harness Web UI。启动时让用户选择安装模式，自动完成环境检测、安装、服务拉起，以百分比进度条展示各阶段，服务就绪后打开主界面。",
+  "keywords": [
+    "deepseek",
+    "deepseek-ai",
+    "deepseek-api",
+    "deepseek-harness",
+    "deepseek-v4",
+    "deepseek-v4-pro",
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/feiyang-dev/DeepSeek-Harness-Desktop",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-DeepSeek-Harness-Desktop",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "feiyang-dev/DeepSeek-Harness-Desktop",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T14:38:18Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:57.252Z"
+}

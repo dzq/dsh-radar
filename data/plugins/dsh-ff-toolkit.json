@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-ff-toolkit",
+  "name": "dsh-ff-toolkit",
+  "version": "0.0.0",
+  "description": "FFmpeg toolkit with CLI, MCP server, and AI tool schemas",
+  "keywords": [
+    "agent-tools",
+    "ai-agents",
+    "deepseek-harness",
+    "ffmpeg",
+    "llm-tools",
+    "mcp",
+    "tool-calling",
+    "video-processing"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/inthepond/ff-toolkit",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-ff-toolkit",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "inthepond/ff-toolkit",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T00:30:00Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:41.632Z"
+}

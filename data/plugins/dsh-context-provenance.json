@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-context-provenance",
+  "name": "dsh-context-provenance",
+  "version": "0.1.0",
+  "description": "Observe-only provenance ledger over public DeepSeek Harness runtime evidence",
+  "keywords": [
+    "deepseek-harness",
+    "observability",
+    "privacy",
+    "provenance"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/030611/dsh-context-provenance.git",
+  "homepage": "https://github.com/030611/dsh-context-provenance#readme",
+  "npm": "https://www.npmjs.com/package/dsh-context-provenance",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "readme": "# dsh-context-provenance\n\nAn observe-only, CPU-only, local-only DeepSeek Harness plugin that reports what public runtime interfaces can actually prove about the requesting Agent's context. It retains only the two most recent ordinary agent-loop request observations in memory and exposes them through the existing Cordis inspect query mechanism. It performs no file, network, subprocess, GPU, persistence, session, permission, tool, model-routing, or request mutation.\n\n## Audit verdict\n\nConditional pass against official DSH commit `47f943859bef60e4160492346772ded9b24f765a`. Stable public seams exist for a deliberately incomplete evidence ledger. This plugin is not a complete context provenance graph and cannot explain all behavior differences.\n\nPublic collision review found official `pluginInv",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T09:49:36.264Z",
+  "created_at": "2026-08-14T09:49:35.966Z",
+  "gh": {
+    "full_name": "030611/dsh-context-provenance",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T13:09:03Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:58:18.110Z"
+}

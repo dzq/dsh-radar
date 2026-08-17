@@ -30,6 +30,7 @@
   },
   "readme": "# dsh-plugin-mm-vision\n\n**通感编码器 (Synesthesia Encoder) · DeepSeek Harness 插件**\n\n给任何纯文本 LLM(DeepSeek、GPT-4 base、Claude…)获得**看图能力**:调用视觉模型把图片翻译成紧凑的**结构化空间文字**(画布/元素/百分比坐标/形状/数值/关系),文本模型据此重建空间认知、推理位置关系。\n\n> 移植自 [Elohia/pi-mm-vision](https://github.com/Elohia/pi-mm-vision)(MCP / Pi / Codex / Claude Code 多宿主通感编码器)。核心零依赖,支持任意 OpenAI 兼容视觉模型(qwen-vl / gpt-4o / glm-4v / kimi-vl / MiniMax-VL…)。\n\n## ✨ 功能\n\n- 🖼️ **通感编码**:把图片变成坐标化文字描述——K线图/盘面截图/报告图表/UI 截图/自然照片都适用\n- 📍 **像素级坐标**:所有关键元素带精确 (x%,y%) 百分比坐标(图表转折点/标注/按钮/文字块)\n- 🔢 **可选像素网格**:prompt 含\"像素/重建/还原\"关键词时,输出 40×30 色块网格(RGB),供原图重建\n- 🔄 **模式自适应**:`auto` 自动识别图表(坐标优先)vs 自然图(构图主体);也可手动指定 brief/full/coords/pixel\n- 🧠 **缓存**:TTL 内重复分析秒回(默认 600s / 100 条)\n- 🔌 **零硬编码**:模型 / baseUrl / API key 全可配置\n\n## 📦 安装\n\n要求:已安装 [DSH CLI](https://github.com/deepseek-ai/deepsee",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T04:22:46.914Z",
   "created_at": "2026-08-14T04:22:04.128Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.602Z"
+  "updated_at": "2026-08-17T04:58:31.631Z"
 }

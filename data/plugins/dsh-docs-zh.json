@@ -23,6 +23,7 @@
   "engines": {},
   "readme": "# dsh-docs-zh\n\n给 DeepSeek Harness 装一个「中文技术文档查询员」：模型写代码不确定 API 时，调用 `cn_docs` 工具按需查询中文文档，减少幻觉。\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-docs-zh\n```\n\n装完重启 `dsh web` 即可，无需其他配置。\n\n## 用法\n\n直接对话即可，模型会在需要时自动调用。支持的文档源：\n\n| library | 源 | 覆盖 |\n|---|---|---|\n| mdn | MDN 中文 | Web 基础（HTML/CSS/JS/API） |\n| vue | Vue 中文文档 | Vue 3 框架 |\n| runoob | 菜鸟教程 | JS、Node 等零基础教程 |\n\n示例对话：\n\n> 帮我写一个 Vue3 响应式计数器，不确定的 API 查一下中文文档再写\n\n## 行为说明\n\n- 结果截断到约 8000 字符，节省 token\n- 本地缓存 7 天（`~/.dsh/cache/docs-zh/`），重复查询不发网络请求\n- 只访问上述三个源站（域名白名单），不接受任意 URL\n- 查询词与页面 URL 按评分匹配（含中文别名映射，如「响应式」→ reactivity）\n\n## 免责声明\n\n返回内容为源站页面摘要级引用，版权归源站所有，仅供个人学习使用；本插件与源站无任何关联。\n\n## 许可证\n\nMIT\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T07:28:17.118Z",
   "created_at": "2026-08-14T07:28:16.773Z",
   "gh": null,
@@ -35,5 +36,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.938Z"
+  "updated_at": "2026-08-17T04:58:33.497Z"
 }

@@ -34,6 +34,7 @@
   },
   "readme": "# 文档已合并\n\n默认的中英文双语文档已经合并到 [README.md](README.md)，并以中文为第一语言。\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T21:42:14.989Z",
   "created_at": "2026-08-16T20:48:28.858Z",
   "gh": null,
@@ -46,5 +47,5 @@
     "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.637Z"
+  "updated_at": "2026-08-17T04:58:32.252Z"
 }

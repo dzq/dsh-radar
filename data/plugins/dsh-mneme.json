@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-mneme",
+  "name": "dsh-mneme",
+  "version": "0.0.0",
+  "description": "Structured memory engine for DeepSeek Harness. Offline semantic search, entity-attribute-timeline, autoDream self-consolidation, and human-editable Markdown storage.",
+  "keywords": [
+    "agent-memory",
+    "agent-memory-system",
+    "autodream",
+    "deepseek-harness",
+    "knowledge-management",
+    "memory-consolidation",
+    "persistent-memory",
+    "reranking",
+    "semantic-search",
+    "vector-search"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/modusensus/dsh-mneme",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-mneme",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "modusensus/dsh-mneme",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T15:14:41Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:31.120Z"
+}

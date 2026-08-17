@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-zerotoken-skill",
+  "name": "dsh-zerotoken-skill",
+  "version": "0.0.0",
+  "description": "让 Agent 高效又守纪律 — 不止省 token：ZeroToken 压缩无效上下文/推理/输出；尉缭子十原则约束权限边界、单一指令、先谋后动、验证先于结束；附 Unicode 编码规范、搜索规范、六种任务模式。More than token savings: ZeroToken efficiency + AI coding discipline for Reasonix / Codex / OpenCode / Hermes",
+  "keywords": [
+    "agent-discipline",
+    "ai-agent",
+    "ai-workflow",
+    "codex",
+    "concise-output",
+    "context-optimization",
+    "llm",
+    "opencode",
+    "prompt-engineering",
+    "reasonix"
+  ],
+  "license": "GPL-3.0",
+  "repo": "https://github.com/phoenixlucky/zerotoken-skill",
+  "homepage": "https://clawhub.ai/phoenixlucky/zerotoken-skill",
+  "npm": "https://www.npmjs.com/package/dsh-zerotoken-skill",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "phoenixlucky/zerotoken-skill",
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T05:45:05Z",
+    "archived": false,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:48.495Z"
+}

@@ -30,6 +30,7 @@
   },
   "readme": "<p align=\"center\">\n  <img src=\"banner.svg\" width=\"900\" alt=\"dsh-plugin-code-reviewer banner\"/>\n</p>\n\n# dsh-plugin-code-reviewer\n\n> DeepSeek Harness **工具插件**（由 [`create-dsh-plugin`](https://www.npmjs.com/package/create-dsh-plugin) 生成并定制）。\n> A DSH **tool plugin** — local deterministic code review for SCADA/MES/LIMS source.\n> npm: `dsh-plugin-code-reviewer` · GitHub topic: `dsh-plugin`\n\n三个工具，全部**纯本地执行、不调用模型、无需 API key**：\n\n| 工具 | 作用 |\n|---|---|\n| **`code_review`** | 对源码文件/目录做静态代码审查：14 条规则（通用 + 工业协议专属） |\n| **`mqtt_probe`** | 解析 MQTT 报文（十六进制输入）：固定头/PUBLISH/CONNECT 深解 |\n| **`opcua_validate`** | 批量校验 OPC UA 节点地址（NodeId）语法，输出逐条 valid/reason |\n\n## 📦 安装\n\n```sh\nnpm i dsh-plugin-code-reviewer\ndsh plugin --profile my-profile add dsh-plugin-code-reviewer\ndsh --profile my-profile\n# 看到: [dsh-plugin-code-r",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:28:23.307Z",
   "created_at": "2026-08-15T15:28:22.915Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.334Z"
+  "updated_at": "2026-08-17T04:58:30.411Z"
 }

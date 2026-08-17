@@ -25,6 +25,7 @@
   "engines": {},
   "readme": "# dsh-llmwiki\n\n> **Context Window = RAM, Local Wiki = Disk** — long-term memory for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness), powered by your local Markdown vault.\n\nTypeScript port of [llmwiki](https://github.com/chancelu/llmwiki), packaged as a native dsh plugin.\n\n## What it does\n\n| Mechanism | dsh extension point |\n|---|---|\n| Inject relevant wiki knowledge into the same turn's model request | `session/event` (`agent/inbox/spliced`, pre-assembly live event) → `ctx.systemPrompt.context()` |\n| Teach the model about memory | `ctx.systemPrompt.section()` |\n| `memory_search` — model recalls prior sessions / curated notes | `ctx.tools.register()` |\n| `memory_save` — model persists durable insights | `ctx.tools.register()` |\n| Auto-capture every turn to `chronicle/dai",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T08:00:55.031Z",
   "created_at": "2026-08-14T02:09:54.654Z",
   "gh": null,
@@ -37,5 +38,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.725Z"
+  "updated_at": "2026-08-17T04:58:36.216Z"
 }

@@ -1,0 +1,39 @@
+{
+  "slug": "dsh-minara-skills",
+  "name": "dsh-minara-skills",
+  "version": "0.0.0",
+  "description": "The skills for trading, to make your agent earn for you.",
+  "keywords": [
+    "agent-skills",
+    "codex"
+  ],
+  "license": "",
+  "repo": "https://github.com/Minara-AI/minara-skills",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-minara-skills",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Minara-AI/minara-skills",
+    "open_issues": 1,
+    "pushed_at": "2026-08-04T06:34:49Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 35,
+    "quality": 15,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 24,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:46.019Z"
+}

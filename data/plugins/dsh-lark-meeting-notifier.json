@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-lark-meeting-notifier",
+  "name": "dsh-lark-meeting-notifier",
+  "version": "0.0.0",
+  "description": "一个只有副作用的DeepSeekHarness插件：在你跟 AI 聊得神魂颠倒时，提醒你「该去跟碳基生命开会了」。",
+  "keywords": [
+    "calendar",
+    "feishu",
+    "lark"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/yeruizhi/dsh-lark-meeting-notifier",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-lark-meeting-notifier",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "yeruizhi/dsh-lark-meeting-notifier",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T01:41:04Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:51.471Z"
+}

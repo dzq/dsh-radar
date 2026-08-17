@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-DSH-closerAI",
+  "name": "dsh-DSH-closerAI",
+  "version": "0.0.0",
+  "description": "CloserAI - a local-first, model-agnostic, permission-transparent desktop AI workbench built on DeepSeek Harness.",
+  "keywords": [
+    "agent-harness",
+    "ai-agent",
+    "cordis",
+    "deepseek-harness",
+    "desktop-app",
+    "dsh",
+    "electron",
+    "local-first",
+    "mcp",
+    "multi-model"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/sb1733831438-maker/DSH-closerAI",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-DSH-closerAI",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "sb1733831438-maker/DSH-closerAI",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T07:00:39Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 65,
+    "dsh_compat": 30,
+    "overall": 35,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:12.862Z"
+}

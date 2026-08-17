@@ -20,6 +20,7 @@
   "engines": {},
   "readme": "# dsh-llm-vision-router\r\n\r\nDSH 插件：消息含图片时自动路由到多模态模型，无图片时继续用便宜的 DeepSeek。\r\n\r\n## 为什么需要\r\n\r\nDeepSeek 没有视觉能力，但 `app_screenshot`、`app_screenshot_diff` 等工具会返回图片。如果图片直接发给 DeepSeek，它看不懂。本插件自动检测上下文中的图片，仅在那个请求切换到视觉模型。\r\n\r\n**成本对比**：\r\n- 不用本插件：全程用贵的视觉模型（或者 DeepSeek 看不懂图片）\r\n- 用本插件：99% 请求走 DeepSeek，只有含图片的那几次走视觉模型\r\n\r\n## 安装\r\n\r\n```bash\r\ndsh plugin add dsh-llm-vision-router\r\n```\r\n\r\n## 配置\r\n\r\n```yaml\r\n- id: vision-router\r\n  plugin: dsh-llm-vision-router\r\n  config:\r\n    visionProvider: openai       # 视觉模型的 provider route\r\n    visionModel: gpt-4o-mini     # 视觉模型 ID\r\n    toolResultsOnly: true        # 只在工具返回图片时触发（忽略用户上传的图片）\r\n    verbose: false               # 路由切换时是否打日志\r\n```\r\n\r\n### 支持的视觉模型\r\n\r\n| Provider | Model | 价格参考 |\r\n|----------|-------|---------|\r\n| openai | gpt-4o-mini | ~$0.15/1M input |\r\n| openai | gpt-4o | ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T15:03:49.356Z",
   "created_at": "2026-08-14T15:03:49.064Z",
   "gh": null,
@@ -32,5 +33,5 @@
     "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.313Z"
+  "updated_at": "2026-08-17T04:58:29.709Z"
 }

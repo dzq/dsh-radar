@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-sage-mem",
+  "name": "dsh-sage-mem",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [
+    "agent-memory",
+    "ai-agent",
+    "claude-code",
+    "deepseek-harness",
+    "dsh",
+    "long-term-memory",
+    "markdown"
+  ],
+  "license": "Apache-2.0",
+  "repo": "https://github.com/gezi-wen/sage-mem",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-sage-mem",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "gezi-wen/sage-mem",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T14:46:48Z",
+    "archived": false,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 30,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:59.678Z"
+}

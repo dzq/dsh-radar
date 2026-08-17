@@ -1,0 +1,60 @@
+{
+  "slug": "dsh-moyan",
+  "name": "dsh-moyan",
+  "version": "0.5.3",
+  "description": "DeepSeek Harness 插件「墨言」：在 WebUI 侧边栏「设置」上方完整显示一句名言、诗词或游戏台词，语料可用 txt 直接编辑",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "moyan",
+    "墨言",
+    "quote"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/elviszhang007/dsh-moyan.git",
+  "homepage": "https://github.com/elviszhang007/dsh-moyan#readme",
+  "npm": "https://www.npmjs.com/package/dsh-moyan",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ]
+    }
+  },
+  "engines": {},
+  "readme": "# 墨言（dsh-moyan）\n\n![墨言 / MoYan](./Screenshots/FrontPage001.png)\n\n一个克制、安静的 DeepSeek Harness WebUI 插件：在左下角侧边栏「设置」按钮上方，完整显示一句名言、古诗词或游戏经典台词。\n\n> 路漫漫其修远兮，吾将上下而求索。\n> —— 屈原《离骚》\n\n句子自动折行、出处单列一行；整体风格与 Harness 原生的「设置」行保持一致。\n\n## 特性\n\n- **完整显示**：字体与 Harness 主字体相同，颜色用透明度调淡；句子按需折行，出处单独一行，不喧宾夺主；\n- **刷新频率可调**：每次打开 WebUI 刷新、或每天刷新（跨午夜自动换一句），也可以随时手动「换一句」；\n- **回到上一句**：面板里的小箭头按钮可回退最近 5 次刷新，防止手快错过想看的句子；\n- **近十步去重**：最近显示过的 10 句不会被随机换出；\n- **语料外置**：直接编辑 `corpus.txt` 即可增删句子，刷新页面即生效，无需重启、无需改代码；\n- **明暗主题**：样式全部使用 Harness 主题变量，自动跟随亮色/暗色主题；\n- 侧边栏收起成窄轨时自动隐藏，不占用空间。\n\n## 安装\n\n### 前置要求\n\n- Node.js ≥ 18；\n- DeepSeek Harness (DSH) 已安装（全局或本地）\n- pnpm（`dsh plugin` 内部依赖 pnpm 转发安装命令，两种安装方式均需要）；\n\n本插件为「树外插件」（profile 插件），通过 `dsh plugin` 安装。\n\n### 安装方式\n\n> 注意：安装前请确认DSH安装方式以使用下文中所有命令！\n> - 若为全局安装，**请去除 '(pnpm)'**。 --> 即 dsh...\n> - 否则请 **去除括号 '()",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T04:35:56.899Z",
+  "created_at": "2026-08-15T04:30:40.865Z",
+  "gh": {
+    "full_name": "elviszhang007/dsh-moyan",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T04:34:50Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:58:06.628Z"
+}

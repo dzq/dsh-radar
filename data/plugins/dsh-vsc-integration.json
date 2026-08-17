@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-vsc-integration",
+  "name": "dsh-vsc-integration",
+  "version": "0.0.0",
+  "description": "Deepseek-Harness Vscode Integration",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugins",
+    "vscode-extension"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/HarcoChen/dsh-vsc-integration",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-vsc-integration",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "HarcoChen/dsh-vsc-integration",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T13:42:17Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:57.223Z"
+}

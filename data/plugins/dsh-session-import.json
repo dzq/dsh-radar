@@ -38,6 +38,7 @@
   },
   "readme": "# session-import\r\n\r\n**中文** · [English](README.en.md)\r\n\r\n跨工具会话迁移插件（对标/增强 `dsh-chat-import`），现已作为 **真实 dsh bundle 插件** 接入 DeepSeek Harness：\r\n\r\n- 15+ 源会话导入（ChatGPT / Claude Code / Codex / Kimi Code / ZCode / WorkBuddy / OpenClaw / Gemini / Cursor / Aider / Continue / Cline / OpenCode / Reasonix / GitHub Copilot Chat / 通用 JSON）；\r\n- 导入产出 **原生 dsh session-log 事件**（`turn/start` · `user/message` · `assistant/message`（含 thinking 推理块与 tool-call 块）· `tool/call` · `tool/result` · `turn/end`），经 `ctx.sessions` 写入并随官方 JSONL 持久化落盘 —— 导入的会话在 dsh Web UI 中原样渲染、可续聊；\r\n- 双向导出（dsh 会话 → generic JSON / Markdown / transcript）；\r\n- 隐私脱敏检测（API Key / 手机号 / 邮箱 / 身份证 / IP / 银行卡）；\r\n- 知识抽取（决策/代码/约定 → 本地记忆去重沉淀，接 `memory` seam 接口）。\r\n\r\n**设计文档**：见 [`docs/`](docs/) — [PRD](docs/PRD-session-import.md)（需求/验收）· [ARCH](docs/ARCH-se",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T18:25:59.466Z",
   "created_at": "2026-08-14T18:25:58.975Z",
   "gh": null,
@@ -50,5 +51,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.737Z"
+  "updated_at": "2026-08-17T04:58:36.651Z"
 }

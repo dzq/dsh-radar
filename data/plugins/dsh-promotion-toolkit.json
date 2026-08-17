@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-promotion-toolkit",
+  "name": "dsh-promotion-toolkit",
+  "version": "0.0.0",
+  "description": "把你的任何想法，变成每个平台原生的宣发内容 | Turn any idea into platform-native publicity",
+  "keywords": [
+    "agents",
+    "agents-skills",
+    "agentskills",
+    "content-creation",
+    "content-creation-ai",
+    "content-creation-automation",
+    "content-creation-tool",
+    "content-creation-tools",
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/lhmd/dsh-promotion-toolkit",
+  "homepage": "http://lhmd.top/dsh-promotion-toolkit/",
+  "npm": "https://www.npmjs.com/package/dsh-promotion-toolkit",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "lhmd/dsh-promotion-toolkit",
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T19:17:37Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:36.860Z"
+}

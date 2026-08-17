@@ -1,0 +1,43 @@
+{
+  "slug": "dsh-client-ui-skin-claude",
+  "name": "dsh-client-ui-skin-claude",
+  "version": "0.0.0",
+  "description": "Claude-style skin for DeepSeek Harness (dsh) Web GUI — warm-black canvas, Anthropic clay accent, serif UI",
+  "keywords": [
+    "claude",
+    "deepseek-harness",
+    "dsh",
+    "skin",
+    "theme",
+    "ui"
+  ],
+  "license": "",
+  "repo": "https://github.com/PAKIKNOWLEDGE/dsh-client-ui-skin-claude",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-client-ui-skin-claude",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "PAKIKNOWLEDGE/dsh-client-ui-skin-claude",
+    "open_issues": 1,
+    "pushed_at": "2026-08-15T05:11:56Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:36.125Z"
+}

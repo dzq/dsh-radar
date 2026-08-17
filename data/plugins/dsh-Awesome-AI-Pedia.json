@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-Awesome-AI-Pedia",
+  "name": "dsh-Awesome-AI-Pedia",
+  "version": "0.0.0",
+  "description": "AI skills大全 mcp ai知识库 Agent 全维度 AI 资源百科，DSH插件 收录大模型、智能 Agent、RAG 检索增强、多模态、MLOps、AI 应用工具、AI面试集、Vibe coding 大全、零基础学习路线，持续更新前沿 AI 开源项目，开发者一站式 AI 导航库",
+  "keywords": [
+    "dsh",
+    "dsh-bundle",
+    "dsh-plugin-market",
+    "dsh-plugin-verify",
+    "dsh-plugins",
+    "dsh-skill"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Awesome-AI-Pedia/Awesome-AI-Pedia",
+  "homepage": "https://awesome-ai-pedia.github.io/Awesome-AI-Pedia/",
+  "npm": "https://www.npmjs.com/package/dsh-Awesome-AI-Pedia",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Awesome-AI-Pedia/Awesome-AI-Pedia",
+    "open_issues": 4,
+    "pushed_at": "2026-08-17T03:38:28Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:51.555Z"
+}

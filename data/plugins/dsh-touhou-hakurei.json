@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-touhou-hakurei",
+  "name": "dsh-touhou-hakurei",
+  "version": "0.0.0",
+  "description": "灵梦（Reimu）·博丽神社（东方Project）美化版皮肤：神社昼夜实景背景、灵梦立绘、画框侧边栏与输入框、纸白透明界面 — DeepSeek Harness Web GUI skin",
+  "keywords": [
+    "anime",
+    "deepseek-harness",
+    "dsh",
+    "dsh-skin",
+    "skin",
+    "touhou"
+  ],
+  "license": "NOASSERTION",
+  "repo": "https://github.com/xiake595/touhou-hakurei",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-touhou-hakurei",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "xiake595/touhou-hakurei",
+    "open_issues": 1,
+    "pushed_at": "2026-08-15T07:26:00Z",
+    "archived": false,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 30,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:53.696Z"
+}

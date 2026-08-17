@@ -26,6 +26,7 @@
   "engines": {},
   "readme": "# dsh-persona-memory\n\n持久化长期人格记忆插件 for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）。\n\n让 agent 跨会话记住用户、项目与教训：事实写入磁盘永久保存，每次请求注入上下文；后台自动学习、纠正检测、失败记忆、容量合并让记忆\"自己长出来且不失控\"；磁盘格式与 [pi-hermes-memory](https://github.com/chandra447/pi-hermes-memory) 字节兼容，DSH 与 Pi 可读写同一份记忆文件。\n\n---\n\n## 功能清单\n\n### A. 存储与共享\n\n| 功能 | 说明 |\n|---|---|\n| 跨会话持久记忆 | `MEMORY.md`（事实/偏好/约定/环境）+ `USER.md`（用户画像），写入即永久保存 |\n| 每请求上下文注入 | 每次请求自动把当前记忆注入系统提示词（`memory:profile` 段，按字符预算截断） |\n| 与 Pi 共用记忆 | 磁盘格式与 pi-hermes-memory 完全兼容，DSH 与 Pi 读写同一份文件（MEMORY/USER/STANDING/failures/projects） |\n| 项目级记忆 | 每个项目独立记忆（git 仓库根为身份，worktree 共享），按会话 cwd 自动注入（`memory:project` 段） |\n| 记忆老化 | 条目携带 `created/last` 日期，合并时据此判断陈旧条目 |\n\n### B. 读写与检索工具\n\n| 功能 | 说明 |\n|---|---|\n| `memory` 工具 | `read` / `add` / `update` / `delete` / `rewrite`；`wh",
   "weekly_downloads": 113,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T17:04:35.562Z",
   "created_at": "2026-08-14T13:05:36.964Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 50,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.277Z"
+  "updated_at": "2026-08-17T04:58:29.261Z"
 }

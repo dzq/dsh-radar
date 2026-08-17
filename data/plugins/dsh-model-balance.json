@@ -45,6 +45,7 @@
   "engines": {},
   "readme": "# dsh-model-balance\n\n[![npm](https://img.shields.io/npm/v/dsh-model-balance)](https://www.npmjs.com/package/dsh-model-balance)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)\n\n中文 | [English](README.en.md)\n\n为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web GUI 提供**多供应商真实账户余额**显示。\n\n在 composer 的模型选择器**前面**显示余额胶囊。切换模型 → 立即显示该供应商的余额。每次用量变动自动刷新。\n\n## 目前支持的供应商\n\n| 供应商 | 查询接口 | 数据类型 | 状态 |\n|--------|---------|---------|------|\n| **DeepSeek** | `GET /user/balance` | 账户余额（¥） | ✅ 官方接口 |\n| **StepFun** | `GET /v1/accounts` | 账户余额（¥） | ✅ 官方接口 |\n| **Kimi Coding** | `GET /v1/usages` | 配额（7 天 + 5 小时） | ✅ 官方接口 |\n| **OpenRouter** | `GET /api/v1/auth/key` | Credit 余额 ($) | ✅ 官方接口 |\n| **MiniMax** | `GET /v1/token_plan/remains` | 剩余额度 | ✅ 官方接口 |\n| **xAI / Gr",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T11:28:17.616Z",
   "created_at": "2026-08-15T11:19:15.457Z",
   "gh": null,
@@ -57,5 +58,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.332Z"
+  "updated_at": "2026-08-17T04:58:30.411Z"
 }

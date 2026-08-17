@@ -25,6 +25,7 @@
   },
   "readme": "# @dshhubs/plugin-search\n\nDeepSeek Harness plugin that gives agents structured access to the [dshhub](https://dshhub.org) plugin catalog.\n\n## Installation\n\n```bash\nnpx -p @deepseek-ai/dsh dsh plugin --profile web add @dshhubs/plugin-search\n```\n\n## Usage\n\nThe plugin registers two tools:\n\n- `search_dsh_plugins` searches by capability and optional category or compatibility filters.\n- `get_dsh_plugin` returns compatibility evidence and the installation command for one catalog slug.\n\nAsk the agent to find a plugin for a task, compare candidates, or inspect a plugin before installation. The tools never install plugins.\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T05:31:16.807Z",
   "created_at": "2026-08-14T05:31:16.388Z",
   "gh": null,
@@ -37,5 +38,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:49.238Z"
+  "updated_at": "2026-08-17T04:58:37.697Z"
 }

@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-bottom-bar",
+  "name": "dsh-bottom-bar",
+  "version": "0.0.0",
+  "description": "用于提供更丰富的DeepSeek Harness底栏信息显示插件",
+  "keywords": [
+    "cordis",
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/kc0ed/dsh-bottom-bar",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-bottom-bar",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "kc0ed/dsh-bottom-bar",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T04:53:30Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:06.757Z"
+}

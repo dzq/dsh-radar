@@ -9,7 +9,7 @@
     "dsh"
   ],
   "license": "MIT",
-  "repo": "",
+  "repo": "https://github.com/dawsondx/dsh-web-open",
   "homepage": "",
   "npm": "https://www.npmjs.com/package/dsh-web-open",
   "dsh_compat": false,
@@ -17,17 +17,30 @@
   "engines": {},
   "readme": "# dsh-web-open\n\nDeepSeek Harness 插件：`dsh-web-open launch` 启动服务后**自动打开默认浏览器**，不用再手动输入 `http://127.0.0.1:3080`。\n\nWindows 上额外提供完整的桌面体验：\n\n- 🐳 **系统托盘鲸鱼图标**：右键菜单（打开浏览器 / 重启服务 / 停止服务并退出）；\n- 🖥️ **隐藏控制台窗口**：服务不再占用终端；\n- 🚀 **桌面快捷方式**：自动创建「DSH Web」鲸鱼图标快捷方式（不存在时）。\n\n零运行时依赖、TypeScript 编写（对齐官方包规范：ESM + `lib/` 产物 + 类型声明）。\n\n## 跨平台支持\n\n| 平台 | 自动打开浏览器 | 系统托盘 | 桌面快捷方式 | 隐藏控制台 |\n| --- | --- | --- | --- | --- |\n| Windows | ✅ `cmd /c start` | ✅ 鲸鱼托盘 + 右键菜单 | ✅ 自动创建 | ✅ |\n| macOS | ✅ `open` | — | — | — |\n| Linux | ✅ `xdg-open` | — | — | — |\n\n托盘 / 快捷方式 / 隐藏控制台为 Windows 专属功能，macOS / Linux 上自动跳过（有测试覆盖），不影响自动打开浏览器。Linux 无桌面环境时 `xdg-open` 失败仅打印警告，不影响服务。\n\n## 安装\n\n> ⚠️ **重要**：`dsh plugin add`（或 pnpm add）只安装依赖包，**不会激活插件**。\n> 插件必须同时在 `cordis.patch.yml` 中注册才会被加载（否则不会打开浏览器、不会显示托盘）。\n\n### 方式一：一键安装 / 升级 / 重装（推荐）\n\n```bash\nnpx -",
   "weekly_downloads": 1792,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T05:15:00.438Z",
   "created_at": "2026-08-14T08:23:33.824Z",
-  "gh": null,
+  "gh": {
+    "full_name": "dawsondx/dsh-web-open",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T14:00:23Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
   "scores": {
     "popularity": 81,
-    "maintenance": 0,
-    "quality": 75,
+    "maintenance": 39,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 49,
-    "grade": "C"
+    "overall": 59,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.207Z"
+  "updated_at": "2026-08-17T04:58:11.800Z"
 }

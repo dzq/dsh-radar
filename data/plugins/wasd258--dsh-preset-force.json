@@ -34,6 +34,7 @@
   },
   "readme": "# dsh-preset-force\n\n[English](./README.md) | 中文\n\n强制切换 DSH 会话的 agent preset（模式）——即使会话已经开始。绕过「仅空白会话可切换」的内置锁定，会话中途即可从极简切到标准（或任意 preset）。三个入口：`/preset` 命令、`set_agent_preset` 工具、输入框工具行的紧凑模式下拉。\n\n> 社区项目——非 DeepSeek 官方插件，不代表 DeepSeek 的任何背书。\n\n## 功能特性\n\n- **任意会话随时可切** —— 不要求会话为空；网关的 `agent-preset-locked` 拒绝被设计性地绕过\n- **`/preset` 命令** —— 在输入框敲 `/preset` 列出当前模式与全部可用模式，或 `/preset <id>` 强制切换当前会话\n- **`set_agent_preset` 工具** —— 模型可应你的要求切换模式；注册在宿主平面，所有 preset 下都可见\n- **输入框工具行下拉** —— 注入 `conversation.input.right` 槽位的紧凑模式选择器，位于模型选择器旁；每 5 秒自动刷新，选中即切换\n- **会话日志一致** —— 追加与网关相同的 `agent-preset/selected` 事件：头部标签刷新、冷读回放按切换后的组装重建（「模型可见 ⟺ 已落日志」不变量）\n- **安全护栏** —— 只允许切换顶层会话，子代理一律拒绝；HTTP API 仅限回环并做 Host 头校验\n\n## 安装\n\n需要 DSH web profile（`@deepseek-ai/dsh-web-app`）。\n\n1. 克隆或下载本仓库：\n\n   ```powershell\n   git clone https://github.co",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T08:26:12.112Z",
   "created_at": "2026-08-15T08:05:54.553Z",
   "gh": null,
@@ -46,5 +47,5 @@
     "overall": 36,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.952Z"
+  "updated_at": "2026-08-17T04:58:33.844Z"
 }

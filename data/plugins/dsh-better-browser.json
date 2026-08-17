@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-better-browser",
+  "name": "dsh-better-browser",
+  "version": "0.0.0",
+  "description": "DSH 真实浏览器插件：通过 Kimi WebBridge 让 Agent 操作用户已登录的浏览器，并提供 13 个 webbridge_* 工具。 / Let DSH Agents use your signed-in browser through thirteen Kimi WebBridge tools.",
+  "keywords": [
+    "automation",
+    "browser",
+    "deepseek-harness",
+    "dsh",
+    "dsh-bundle",
+    "kimi-webbridge",
+    "tool"
+  ],
+  "license": "BSD-3-Clause",
+  "repo": "https://github.com/titanwings/dsh-better-browser",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-better-browser",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "titanwings/dsh-better-browser",
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T16:18:43Z",
+    "archived": false,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:39.635Z"
+}

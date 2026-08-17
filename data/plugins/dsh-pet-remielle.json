@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-pet-remielle",
+  "name": "dsh-pet-remielle",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "NOASSERTION",
+  "repo": "https://github.com/Gin-7/dsh-pet-remielle",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-pet-remielle",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Gin-7/dsh-pet-remielle",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T04:51:54Z",
+    "archived": false,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 10,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 24,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:20.847Z"
+}

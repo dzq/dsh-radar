@@ -35,6 +35,7 @@
   },
   "readme": "**[English](README.md) | [简体中文](README.zh.md)**\n\n# @kelearns/dsh-token-usage\n\nDeepSeek Harness（dsh）Web GUI 的 Token 用量热力图插件：GitHub 风格贡献图，\n统计每日 / 每周 / 累计 token 用量，带汇总气泡、悬停详情与活动洞察。\n通过官方插件机制（`dsh plugin add`）挂载，不修改 dsh 本体任何源码。\n\n安装后在设置页侧边栏出现「Token 活动」入口。\n\n## 界面预览\n\n**每日热力图 — 深色主题、简体中文（默认 12 个月窗口）**\n\n<img src=\"screenshots/promo-zh-dark-daily.png\" width=\"612\" alt=\"每日 Token 用量热力图（深色、简体中文）\">\n\n**三种视图 — 深色主题、简体中文**\n\n| 每日 | 每周 | 累计 |\n|:---:|:---:|:---:|\n| <img src=\"screenshots/promo-zh-dark-daily.png\" width=\"200\" alt=\"每日视图\"> | <img src=\"screenshots/promo-zh-dark-weekly.png\" width=\"200\" alt=\"每周视图\"> | <img src=\"screenshots/promo-zh-dark-cum.png\" width=\"200\" alt=\"累计视图\"> |\n\n**浅色主题与英文界面**\n\n| 浅色主题（简体中文） | Light theme (English) |\n|:---:|:---:|\n| <img src=\"screenshots/promo-zh-light-daily.png\" width=\"300\" alt=",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T16:21:08.425Z",
   "created_at": "2026-08-14T14:04:27.673Z",
   "gh": null,
@@ -47,5 +48,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.944Z"
+  "updated_at": "2026-08-17T04:58:33.671Z"
 }

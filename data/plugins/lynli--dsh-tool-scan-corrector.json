@@ -26,6 +26,7 @@
   },
   "readme": "# @lynli/dsh-tool-scan-corrector\n\n> DSH (DeepSeek Harness) 工具插件 —— **扫描件智能纠偏**\n>\n> 6 种检测方法融合决策（Tesseract OSD + 霍夫变换 + 四向试探 + 文字密度 + 区域 OSD + 多区域放大重检），自动检测并修正 PDF 页面方向（0°/90°/180°/270°）。**100% 本地处理，零数据上传**，生成可解释的 JSON 修正报告。\n\n---\n\n## ✨ 功能特性\n\n| 特性 | 说明 |\n|------|------|\n| 🤖 **智能方向检测** | 6 种方法 + 决策树融合，横竖版混排逐页独立判定 |\n| ⚡ **批量处理** | 多线程并行检测，一键修正整个 PDF |\n| 🔍 **只读报告** | `dry-run` 模式先看检测结果再决定是否修正 |\n| 🎯 **手动兜底** | `manual` 模式强制指定页码旋转角度，解决疑难页 |\n| 📊 **可解释报告** | JSON 报告含每页检测方法、置信度、修正角度 |\n| 🔒 **纯本地** | 无需联网，文件不离开电脑，适合隐私敏感文件（合同/审计/档案） |\n\n---\n\n## 📦 安装\n\n### 第 1 步：安装 DSH 插件（本包）\n\n```bash\n# 方式 A：发布到 npm 后安装\nnpm install -g @lynli/dsh-tool-scan-corrector\n\n# 方式 B：本地开发调试（在 dsh-plugin 目录下）\ncd dsh-plugin\nnpm install\nnpm run build\nnpm link\n```\n\n### 第 2 步：安装 Python 引擎（scan-corrector 本体）\n\n插件是「DSH 胶水层」，实际的 PDF 方向检",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:38:35.478Z",
   "created_at": "2026-08-17T03:14:00.620Z",
   "gh": null,
@@ -33,10 +34,10 @@
     "popularity": 0,
     "maintenance": 0,
     "quality": 75,
-    "security": 65,
+    "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
+    "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.343Z"
+  "updated_at": "2026-08-17T04:58:31.455Z"
 }

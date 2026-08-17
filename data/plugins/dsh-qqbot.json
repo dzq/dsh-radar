@@ -1,0 +1,57 @@
+{
+  "slug": "dsh-qqbot",
+  "name": "dsh-qqbot",
+  "version": "1.0.1",
+  "description": "QQ official bot bridge for DeepSeek Harness: /qqbot command, bound-session routing, QQ-side approvals, the composer connection toggle, and the QQ Bot settings page",
+  "keywords": [
+    "dsh",
+    "qqbot"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/tencent-connect/dsh-qqbot",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-qqbot",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-qqbot\n\nQQ 官方机器人插件，作为 DeepSeek Harness 的**树外插件**维护（不在 harness 源码树内）。一个包、两个半：\n\n- **host 半**（`lib/index.js`）：`/qqbot on|off` 命令、绑定会话、WebSocket 网关、QQ 端审批转发。\n- **client 半**（`lib/client.js`，经 `dsh.client` 声明随同一条挂载行自动加载）：输入区工具行的「连接 QQ」开关 + 设置面板的 **QQ Bot 设置页签**。\n\n## 安装\n\n从 npm 装进你运行的 profile（无需本地构建）：\n\n```sh\ndsh plugin --profile <name> add -w dsh-qqbot        # 最新版\ndsh plugin --profile <name> add -w dsh-qqbot@1.0.0  # 或固定版本\n```\n\n等价的手动方式（进入 profile 目录执行 pnpm）：\n\n```sh\ncd \"$env:DSH_HOME/profiles/<name>\"   # DSH_HOME 未设置时是 ~/.dsh/profiles/<name>\npnpm add -w dsh-qqbot\n```\n\n注意：\n\n- **必须带 `-w`**：profile 目录自带 `pnpm-workspace.yaml`，不带 `-w` 时 pnpm 报 `ERR_PNPM_ADDING_TO_ROOT` 直接失败。\n- 本包没有 `dsh.bundle` 声明，不会进入 profile 的 bundles 层，这符合预期——由下面的 patch 行按包名挂载；client 半由 `dsh.client` 扫描同一条挂载行自动进浏览器。\n- 升级到新版本：重新 ",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T14:51:00.659Z",
+  "created_at": "2026-08-15T08:45:50.118Z",
+  "gh": {
+    "full_name": "tencent-connect/dsh-qqbot",
+    "open_issues": 8,
+    "pushed_at": "2026-08-17T04:50:36Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 42,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:55:09.382Z"
+}

@@ -30,6 +30,7 @@
   },
   "readme": "# dsh-mobile-pwa · 让 DeepSeek Harness 在手机上变成真 PWA\n\n> 把 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）变成**手机上的完整 PWA**：安全远程访问你的自建 DSH + 一键「添加到主屏」成独立 App + 离线可用 + 触屏手势 + 任务完成推送。\n\n基于 MIT 的 [`dsh-mobile-gate`](https://github.com/Bernardxu123/dsh-mobile-gate)（安全网关基座）做差异化增强。\n\n📍 生态定位：社区现有移动端方案都停留在「窄屏 CSS 微调」，本项目做的是**移动端 PWA 一站式完整方案**。\n\n---\n\n## ✨ 特性\n\n| 模块 | 说明 |\n| --- | --- |\n| 📡 **安全远程访问** | 独立子进程网关，首次访问**本机审批** + **每设备一次性令牌** + **每 IP 限流**。DSH 主服务仍只监听 `127.0.0.1`，`/api` 信任栅栏不受影响 |\n| 📱 **真 PWA** | `manifest.json` + `service worker`：手机浏览器「**添加到主屏**」后全屏独立窗口运行，带图标/启动屏/主题色 |\n| 🧩 **可安装** | 主屏图标、`standalone` 显示、`apple-touch-icon`、maskable 图标 |\n| 🌐 **离线可用** | service worker：静态壳缓存优先、API 网络优先、导航离线回退页 |\n| 👆 **触屏手势** | 下拉刷新、边缘右滑返回、**捏合缩放字体**（可重置） |\n| 🔔 **任务完成推送** | agent 干完活",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T18:37:42.315Z",
   "created_at": "2026-08-15T18:37:41.941Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.464Z"
+  "updated_at": "2026-08-17T04:58:32.968Z"
 }

@@ -1,0 +1,61 @@
+{
+  "slug": "dsh-client-ui-skins",
+  "name": "dsh-client-ui-skins",
+  "version": "0.1.9",
+  "description": "DSH skin plugin: built-in skins + custom image skins, pure client plugin (no source patch)",
+  "keywords": [
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/caoyiwei850/dsh-client-ui-skins",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-client-ui-skins",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-theme"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {},
+  "readme": "# DSH 皮肤插件 · dsh-client-ui-skins v0.1.9\n\n给 DeepSeek Harness (DSH) Web 界面换肤：4 套内置皮肤 + 自定义图片皮肤\n（图片作为整个界面的背景，配色自动跟随图片主色调）。\n\n## 效果预览\n\n自定义图片皮肤支持任意 PNG / JPG / WebP：导入自己的图片后，背景、强调色与交互高亮会自动跟随图片主色调。以下仅为界面效果示例。\n\n![DSH 自定义皮肤效果示例 1](assets/screenshots/mint-forest-dsh.jpg)\n\n![DSH 自定义皮肤效果示例 2](assets/screenshots/ocean-guardian-dsh.jpg)\n\n![DSH 自定义皮肤效果示例 3](assets/screenshots/crimson-moon-dsh.jpg)\n\n## 文件\n\n| 文件 | 作用 |\n| --- | --- |\n| `dsh-client-ui-skins-0.1.9.tgz` | 插件安装包（npm tarball） |\n| `install-dsh-skins.sh` | 一键安装脚本 |\n| `uninstall-dsh-skins.sh` | 一键卸载脚本 |\n\n## 安装（二选一）\n\n### 方式 A：一键脚本（推荐）\n```bash\nbash install-dsh-skins.sh\n```\n脚本会自动：装包 → 注册 → 重启。完成后刷新 `http://127.0.0.1:3080`，\n左下角 **设置 → 通用设置 → 皮肤** 即可换肤。\n\n### 方式 B：手动\n```bash\n# 1. 装包\ncd ~/.dsh/profiles/web && pnpm add -w ./dsh-client-ui-skins-0.1.9.tgz\n\n#",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T11:03:46.807Z",
+  "created_at": "2026-08-15T07:13:21.420Z",
+  "gh": {
+    "full_name": "caoyiwei850/dsh-client-ui-skins",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T10:59:43Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 45,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:56.048Z"
+}

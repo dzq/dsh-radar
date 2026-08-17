@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-plugin-dev-skills",
+  "name": "dsh-plugin-dev-skills",
+  "version": "0.0.0",
+  "description": "An Agent Skills skill for developing DeepSeek Harness (DSH) plugins（开发 DSH 插件的 Agent Skill）——插件/服务/事件/工具/LLM 适配器/打包安装的标准。Works with Claude Code, Codex, DSH, VS Code Copilot & any compatible agent.",
+  "keywords": [
+    "agent-skills",
+    "awesome-dsh-plugin",
+    "claude-code",
+    "codex",
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "llm-agent",
+    "skills"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/zimodzh/dsh-plugin-dev-skills",
+  "homepage": "https://github.com/zimodzh/dsh-plugin-dev-skills",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-dev-skills",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "zimodzh/dsh-plugin-dev-skills",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T11:39:40Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:13.978Z"
+}

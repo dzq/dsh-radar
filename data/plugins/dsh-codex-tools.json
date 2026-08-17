@@ -30,6 +30,7 @@
   },
   "readme": "# dsh-codex-tools\n\n[English](./README.md)\n\n一个 DeepSeek Harness 插件，注册三个由 ChatGPT Codex 传输层驱动的模型工具：\n\n| 工具 | 作用 |\n| --- | --- |\n| `web_search` | 搜索公开网页，返回摘要和来源 URL。 |\n| `image_gen` | 生成位图；不编辑或变换已有图片。 |\n| `image_vision` | 读取本地图片，返回描述或针对图片的问题答案。 |\n\n本包没有 npm 运行时依赖，使用 Node 内置 `https` 传输。它消费已有的 Codex/ChatGPT 登录态，不提供登录功能或 LLM provider。\n\n## 运行时前置条件\n\n- DeepSeek Harness，且插件以 profile 级 Cordis bundle 安装。\n- Node.js >= 22。\n- ChatGPT/Codex 登录态，二选一：使用 `codex login` 生成登录文件，或在 DSH 中配置：\n  - `OPENAI_CODEX_API_KEY`\n  - `OPENAI_CODEX_REFRESH_TOKEN`\n\n认证优先使用环境变量 `CODEX_ACCESS_TOKEN`、`CODEX_REFRESH_TOKEN`（插件将上述 DSH 凭据名映射为这些变量）。如果这些变量没有值，设置了 `CODEX_HOME` 时读取 `$CODEX_HOME/auth.json`，否则读取 `~/.codex/auth.json`。设置 `CODEX_HOME` 可更换认证目录，默认目录是 `~/.codex`。HTTP 401 后，传输脚本会刷新 access token 一次，并尝试把刷新后的登录态写回该认证文件。插件注入 DSH 凭据时，刷新逻",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T13:04:22.286Z",
   "created_at": "2026-08-14T14:45:14.219Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:54.835Z"
+  "updated_at": "2026-08-17T04:58:38.679Z"
 }

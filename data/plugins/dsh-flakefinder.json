@@ -27,6 +27,7 @@
   },
   "readme": "# dsh-flakefinder\n\n> 让 agent 分清「代码坏了」还是「测试在抽风」。\n\nDeepSeek Harness 测试稳定性插件：支持 vitest / jest / pytest / node:test，重复运行测试并识别 flaky 用例，历史留档、隔离清单、写操作审批门。零运行时依赖。\n\n![license](https://img.shields.io/npm/l/dsh-flakefinder) ![stars](https://img.shields.io/github/stars/STARDUSTLC666/dsh-flakefinder?style=social)\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n\n## 工具\n\n| 工具 | 作用 | 写操作 |\n| :-- | :-- | :-- |\n| `flaky_detect` | 重复运行测试 N 次，判定 stable-pass / stable-fail / flaky | 否（写历史） |\n| `flaky_history` | 查询检测历史，按目标过滤 | 否 |\n| `flaky_report` | 汇总隔离清单 + 历史，输出稳定性报告 | 否 |\n| `flaky_quarantine` | 把 flaky 用例写入 `.flakefinder.json` 隔离清单 | 是（审批门） |\n| `flaky_clear` | 从隔离清单移除已恢复的用例 | 是（审批门） |\n\n支持框架：\n\n- vitest：读取 `node_modules/vitest/vitest.mjs`，使用 JSON reporter\n- jes",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T11:54:46.102Z",
   "created_at": "2026-08-16T05:17:31.554Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:51.322Z"
+  "updated_at": "2026-08-17T04:58:37.967Z"
 }

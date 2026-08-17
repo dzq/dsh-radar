@@ -30,6 +30,7 @@
   },
   "readme": "<p align=\"center\"><strong>dsh-paper-slides</strong></p>\n\n# Paper → academic talk, for DeepSeek Harness\n\nEnglish | [中文](README_CN.md)\n\n[![npm](https://img.shields.io/npm/v/dsh-paper-slides?label=npm)](https://www.npmjs.com/package/dsh-paper-slides) [![CI](https://github.com/literaf/dsh-paper-slides/actions/workflows/ci.yml/badge.svg)](https://github.com/literaf/dsh-paper-slides/actions/workflows/ci.yml) [![dsh-plugin](https://img.shields.io/badge/topic-dsh--plugin-blue)](https://github.com/topics/dsh-plugin) ![license](https://img.shields.io/badge/license-MIT-green)\n\nGive the agent a DOI and a slot length, get a talk: the **actual full text** read rather than the abstract, the slot budgeted for the venue, the deck built around the figures, and the speaker notes written as the script.\n\n```\n\"",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T01:30:06.928Z",
   "created_at": "2026-08-17T01:04:15.527Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.339Z"
+  "updated_at": "2026-08-17T04:58:30.586Z"
 }

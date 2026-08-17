@@ -26,6 +26,7 @@
   "engines": {},
   "readme": "# dsh-memory\n\n一个面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的**跨会话明文记忆插件**。遵循「一切皆插件」——它不修改 DSH 源码，声明 `name`/`inject`/`apply`，由 Loader 从 `cordis.yml` 加载。\n\n## 设计原则\n\n1. **人是所有者**：模型只能写入 `suggested` 状态的记忆，绝不自我提升；只有人工确认（`setStatus`）才能让记忆生效。\n2. **可观测先于精准**：每条记忆是明文，`memory_list` 随时可见、`memory_forget` 随时删除——不存在\"静默暗礁\"。\n3. **明文是人机共享的审计窗口**：记忆是可读文本，模型可自检其是否过期或出错（规划中的 v2）。\n4. **确定性且缓存安全**：BM25 关键词检索是存储的纯函数、无 LLM 调用；固定指引进 system-prompt section，`auto` 记忆进 context。\n\n## 用法\n\n```bash\nnpm install @max-null/dsh-memory\n```\n\n在你的 `cordis.yml` 加一条（其余 storage / system-prompt / tools 由宿主已有；记忆的存储后端由插件自己注册）：\n\n```yaml\n- id: memory\n  name: '@max-null/dsh-memory'\n```\n\n## 提供的服务与工具\n\n- **服务** `ctx.memory`：`remember` / `list` / `search` / `forget` / `setStatus`\n- **工具**：`memory_save`、`memory_list`、",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:09:08.311Z",
   "created_at": "2026-08-15T07:31:55.453Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.713Z"
+  "updated_at": "2026-08-17T04:58:35.779Z"
 }

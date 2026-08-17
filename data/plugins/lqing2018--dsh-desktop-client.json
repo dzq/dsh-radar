@@ -21,6 +21,7 @@
   },
   "readme": "# dsh-desktop-client\n\nDeepSeek Harness 插件：让 agent 能够**定位并启动** DeepSeek Harness 原生桌面客户端（WebView2 外壳）。\n\nA DeepSeek Harness plugin that lets the agent **locate and launch** the native DeepSeek Harness desktop client (WebView2 shell).\n\n## 功能 / Features\n\n- `desktop_client` 工具，两种动作：\n  - `action=status` — 检测客户端是否安装、服务端口是否在线\n  - `action=launch` — 启动已安装的客户端窗口（仅 Windows）\n- 可配置搜索路径与端口（见下方配置）\n\n## 安装 / Install\n\n```sh\ndsh plugin --profile web add dsh-desktop-client\n```\n\n或本地开发加载（cordis overlay patch）：\n\n```yaml\n# cordis.patch.yml / --patch overlay\n- insert:\n    - id: desktop-client\n      name: '/absolute/path/to/dsh-desktop-client/lib/index.js'\n```\n\n## 配置 / Config\n\n```yaml\n# 可选：额外搜索路径、自定义端口（默认 3080）\n- id: desktop-client\n  config:\n    clientPaths:\n      - 'C:\\Tools\\DeepSeek Harness.exe'\n    port: 3080\n```\n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T06:19:19.920Z",
   "created_at": "2026-08-16T06:13:53.184Z",
   "gh": null,
@@ -33,5 +34,5 @@
     "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.732Z"
+  "updated_at": "2026-08-17T04:58:36.390Z"
 }

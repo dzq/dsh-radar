@@ -1,0 +1,64 @@
+{
+  "slug": "dsh-spend",
+  "name": "dsh-spend",
+  "version": "0.4.5",
+  "description": "Token usage, multi-dimensional statistics, auto-detected billing plans (Code/Token) and estimated spend for the dsh web UI",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "token",
+    "usage",
+    "tokens",
+    "billing",
+    "cost",
+    "spend",
+    "monitoring",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/nonewind/dsh-spend.git",
+  "homepage": "https://github.com/nonewind/dsh-spend#readme",
+  "npm": "https://www.npmjs.com/package/dsh-spend",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-spend\n\n> Token usage & cost monitor for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) — floating widget with multi-dimensional stats, time-series charts, auto-detected billing plans (Code/Token) and estimated spend.\n>\n> dsh 用量与计费仪表盘：token 调用量、按模型 / 供应商 / 时间统计、预计费用，自动识别订阅制（Code）与按量（Token）计费计划。\n\n简体中文 | [English](README.en.md)\n\n在 dsh Web UI 右下角显示一个**悬浮用量窗口**，查看 **token 调用量、多维度统计与预计计费金额**。\n\n交互方式：\n\n- **悬浮胶囊**（右下角）：始终显示预计费用与总 Token；\n- **hover**：浮现摘要预览（费用、Token、输入 / 输出 / 缓存读、调用次数、**今日小计**）；\n- **点击**：展开详情面板，四个标签页；面板顶部有**工作区筛选**下拉（按项目限定全部统计口径，支持逐级下钻子目录）：\n\n  - **总览**（仪表盘，参考主流用量面板的 KPI + 趋势布局）：**统计栏**（预计花费（月）+ 构成、**当月预计**（本月按量外推）、按 token 估算、总 Token、调用、会话、**平均 / 次**、**缓存命中率**、**月预算**（可选配置，超 80% 胶囊变黄、超 100% 变红）、**活跃天数 / 连续使用**）+ **计划用量**（自动识别 Code/Token 计划、档位、额度使用与剩余）+ **时间曲",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T02:11:08.505Z",
+  "created_at": "2026-08-14T04:31:05.275Z",
+  "gh": {
+    "full_name": "nonewind/dsh-spend",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T02:10:55Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:17.365Z"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-Aegis",
+  "name": "dsh-Aegis",
+  "version": "0.0.0",
+  "description": "Make AI coding agents architecture-aware: baseline-first, evidence-verified, drift-checked, and safe across long tasks.",
+  "keywords": [
+    "agent-skills",
+    "ai-agents",
+    "ai-coding",
+    "architecture-driven-development",
+    "awsome-coding-plugin",
+    "baseline-first",
+    "claude-code",
+    "codex",
+    "coding-agents",
+    "dive"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/GanyuanRan/Aegis",
+  "homepage": "https://github.com/GanyuanRan/Aegis",
+  "npm": "https://www.npmjs.com/package/dsh-Aegis",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "GanyuanRan/Aegis",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T05:57:38Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:39.354Z"
+}

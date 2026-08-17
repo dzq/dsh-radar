@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-prompt-persona",
+  "name": "dsh-prompt-persona",
+  "version": "0.0.0",
+  "description": "DSH plugin: edit the system prompt (deployment persona) from the Settings page, with live preview.",
+  "keywords": [],
+  "license": "MIT",
+  "repo": "https://github.com/Xilin3/dsh-prompt-persona",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-prompt-persona",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Xilin3/dsh-prompt-persona",
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T15:42:36Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 30,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:03.070Z"
+}

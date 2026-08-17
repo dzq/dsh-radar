@@ -27,6 +27,7 @@
   },
   "readme": "# NanoBananaPro DeepSeek Harness 插件\n\n[![npm](https://img.shields.io/npm/v/dsh-nanobananapro.svg)](https://www.npmjs.com/package/dsh-nanobananapro)\n[![DeepSeek Harness](https://img.shields.io/badge/DeepSeek-Harness-4D6BFE)](https://github.com/deepseek-ai/deepseek-harness)\n[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)\n\n`dsh-nanobananapro` 让 DeepSeek Harness 可以直接调用 NanoBananaPro 公开\nAPI 生图和生视频。每位用户使用自己的 NanoBananaPro API Key；上游供应商、\n扣费、数据库和存储密钥都留在 NanoBananaPro 服务端，不进入 Harness。\n\n插件提供：\n\n- `nanobananapro_generate_image`：文生图、参考图生图\n- `nanobananapro_generate_video`：文生视频、图生视频、多模态参考生视频\n- `nanobananapro_get_task`：查询或继续等待任务\n- `nanobananapro_get_balance`：查看网页积分和 API 积分\n- `nanobananapro_account_help`：返回注册、Key、充值和文档入口\n\n## 注册、充值和 API Key\n\n1. 打开 <https://api.bananapro.site>",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T09:36:58.796Z",
   "created_at": "2026-08-14T09:36:58.492Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.948Z"
+  "updated_at": "2026-08-17T04:58:33.758Z"
 }

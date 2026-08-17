@@ -22,6 +22,7 @@
   },
   "readme": "# easy-vision\n\n一个 **DeepSeek Harness** 工具插件，让仅支持文本的智能体能\"看懂\"本地图片。\n\n它注册一个面向模型（model-facing）的 `describe_image` 工具。当模型需要查看、描述、分析或识读一张图片（截图、照片、图表、UI 设计稿、Logo 等）时，它会以图片的本地路径调用该工具。插件会：\n\n1. 读取文件并通过 **魔数（magic bytes）自动识别真实格式**（PNG / JPEG / GIF / WebP），即使文件扩展名错误也能正确识别。\n2. 将图片（base64 data URI）通过 chat completions 发送给配置好的 **OpenAI 兼容的视觉模型**。\n3. 返回详细的 **文字描述**，或者可选地将其写入一个 Markdown 文件。\n\n这让运行在纯文本路由上的模型（例如某个拒绝图片输入的网关上跑的 `deepseek`）也能通过文字\"看到\"图片。\n\n## 安装\n\n该包是零依赖的纯 ESM Cordis 插件，只注入 `tools`。需要先把包装进你的 DSH profile，再在 patch 层进行挂载。\n\n### 第一步：把安装到 DSH profile\n\n根据你的情况选择来源：\n\n**从 npm 安装（发布到 npm 后推荐）：**\n```powershell\ndsh plugin --profile web add easy-vision\n```\n等同于在 profile 目录下直接跑 pnpm：\n```powershell\ncd \"$env:DSH_HOME\\profiles\\web\"\npnpm add easy-vision\n```\n\n**从本地 tarball 安装（尚未发布 / 不发布时）：**\n```powershell\ncd \"$env:DSH_HOM",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T10:56:33.591Z",
   "created_at": "2026-08-14T09:40:24.456Z",
   "gh": null,
@@ -34,5 +35,5 @@
     "overall": 29,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:54.823Z"
+  "updated_at": "2026-08-17T04:58:38.419Z"
 }

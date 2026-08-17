@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-oc",
+  "name": "dsh-oc",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness × OpenCode TUI 前端：把 dsh 的 Agent、会话、工具接入官方 opencode 终端。OpenCode TUI frontend for the DeepSeek Harness (dsh): agents, sessions and tools in the official opencode terminal.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "deepseek-harness-plugin",
+    "dsh",
+    "opencode"
+  ],
+  "license": "",
+  "repo": "https://github.com/chiro2001/dsh-oc",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-oc",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "chiro2001/dsh-oc",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T23:45:26Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:02.403Z"
+}

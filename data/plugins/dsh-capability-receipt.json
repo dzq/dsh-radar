@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-capability-receipt",
+  "name": "dsh-capability-receipt",
+  "version": "0.0.0",
+  "description": "Content-addressed receipts for skills actually loaded by DeepSeek Harness",
+  "keywords": [
+    "agent-skills",
+    "ai-agent",
+    "deepseek-harness",
+    "dsh",
+    "provenance",
+    "sha256"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/dongsheng123132/dsh-capability-receipt",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-capability-receipt",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "dongsheng123132/dsh-capability-receipt",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T10:52:24Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:01.558Z"
+}

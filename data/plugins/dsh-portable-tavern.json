@@ -1,0 +1,58 @@
+{
+  "slug": "dsh-portable-tavern",
+  "name": "dsh-portable-tavern",
+  "version": "0.2.2",
+  "description": "Portable Tavern for the DeepSeek Harness web GUI: an RPG-style SillyTavern V2/V3 character-card generator plus tavern roleplay chat, with world-book generation and JSON/PNG import-export.",
+  "keywords": [
+    "character-card",
+    "dsh",
+    "roleplay",
+    "sillytavern"
+  ],
+  "license": "BSD-3-Clause",
+  "repo": "git+https://github.com/XCNXNXNX/dsh-portable-tavern.git",
+  "homepage": "https://github.com/XCNXNXNX/dsh-portable-tavern#readme",
+  "npm": "https://www.npmjs.com/package/dsh-portable-tavern",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ]
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-portable-tavern\n\nDSH Web GUI 的「便携酒馆」插件：RPG 式 SillyTavern V2/V3 角色卡生成器 + 酒馆角色扮演聊天一体。\n\n## 界面预览\n\n| 聊天 | 角色卡设定 |\n|---|---|\n| ![聊天](assets/chat.png) | ![设定](assets/settings.png) |\n\n- 可视化 RPG 属性面板（七大模块）生成 SillyTavern V2/V3 角色卡\n- AI 聊天（与生成的角色对话，支持下拉切换模型）\n- 自定义模型接入：默认使用 DSH 当前配置的模型与密钥，也可填写自己的 OpenAI 兼容接口地址 / API Key / 模型（API Key 仅存本浏览器，测试连接一键验证）\n- 对话前注入的全局系统提示词（类似 SillyTavern 的 System Prompt / Jailbreak）\n- 角色卡 / 对话记录 / 世界书 / 设定本地持久化（localStorage 自动保存与恢复）\n- 角色库：本地保存多个角色（含各自对话记录），一键载入 / 删除\n- 自定义聊天角色头像（上传图片自动压缩，随角色卡 JSON 导出/导入）\n- 世界书生成 / 补全（按人物卡）/ 导入\n- 导出 / 导入角色卡（JSON 与 PNG 的 chara 内嵌数据）\n- 面板宽度 / 主题色 / 背景图 / 本地音乐（文件夹顺序播放）\n- 右侧悬浮标签可拖动，可贴左 / 贴右 / 浮动为圆角方形，可在设置里关闭（关闭后从 DSH 设置页进入）\n\n独立插件，仅依赖官方 `@deepseek-ai/*` SDK。\n\n## 安装\n\n```bash\n# npm\ndsh plugin --profile web add dsh-portable-tavern\n\n# GitHub（lib/ ",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T06:26:36.788Z",
+  "created_at": "2026-08-15T14:52:34.503Z",
+  "gh": {
+    "full_name": "XCNXNXNX/dsh-portable-tavern",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T06:27:06Z",
+    "archived": false,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:56:14.167Z"
+}

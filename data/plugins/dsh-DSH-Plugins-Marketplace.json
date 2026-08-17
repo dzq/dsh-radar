@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-DSH-Plugins-Marketplace",
+  "name": "dsh-DSH-Plugins-Marketplace",
+  "version": "0.0.0",
+  "description": "DSH插件市场 / DSH Plugin Marketplace: 在 DeepSeek Harness Web GUI 中一键浏览、安装与更新 GitHub topic:dsh-plugin 的全部插件 | browse, install & update all GitHub dsh-plugin plugins in the DSH Web GUI",
+  "keywords": [
+    "agent",
+    "ai-agents",
+    "cordis",
+    "deepseek-harness",
+    "dsh",
+    "javascript",
+    "llm",
+    "marketplace",
+    "nodejs",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/bradeGithub/DSH-Plugins-Marketplace",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-DSH-Plugins-Marketplace",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "bradeGithub/DSH-Plugins-Marketplace",
+    "open_issues": 11,
+    "pushed_at": "2026-08-17T03:39:29Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:57.095Z"
+}

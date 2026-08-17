@@ -1,0 +1,39 @@
+{
+  "slug": "dsh-DSH-Launcher",
+  "name": "dsh-DSH-Launcher",
+  "version": "0.0.0",
+  "description": "deepseek harness的启动器，非webui二次打包而是webui内嵌，可以适配所有webui强化插件。额外提供dsh包管理、配置文件管理、插件管理、浏览器标签页、多窗口等功能",
+  "keywords": [
+    "dsh",
+    "dsh-plugins"
+  ],
+  "license": "",
+  "repo": "https://github.com/WEP-56/DSH-Launcher",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-DSH-Launcher",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "WEP-56/DSH-Launcher",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T12:15:39Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 25,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 27,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:38.195Z"
+}

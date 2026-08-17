@@ -1,0 +1,36 @@
+{
+  "slug": "dsh-Top",
+  "name": "dsh-Top",
+  "version": "0.0.0",
+  "description": "📊 Daily leaderboard for the dsh-external plugin ecosystem — tracks every repo, ranks by stars, archives daily snapshots, and shows the latest ranking on the homepage.",
+  "keywords": [],
+  "license": "",
+  "repo": "https://github.com/xiaohai-78/Top",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-Top",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "xiaohai-78/Top",
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T13:11:22Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 25,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 26,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:03.668Z"
+}

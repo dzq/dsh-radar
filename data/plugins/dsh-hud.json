@@ -1,0 +1,64 @@
+{
+  "slug": "dsh-hud",
+  "name": "dsh-hud",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness 的 HUD 状态栏插件：在输入区下方常驻显示会话实时信息（状态 / 上下文占用 / 令牌用量 / 轮次步数 / 计时 / 用时），模拟 pi-agent-hud 的显示体验。",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "hud",
+    "status-bar",
+    "plugin",
+    "pi-agent-hud"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/dafei1288/dsh-hud.git",
+  "homepage": "https://github.com/dafei1288/dsh-hud#readme",
+  "npm": "https://www.npmjs.com/package/dsh-hud",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-model-selection",
+        "@deepseek-ai/dsh-token-meter",
+        "@deepseek-ai/dsh-session-stats"
+      ]
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-hud\n\nDeepSeek Harness（DSH）的 HUD 状态栏插件：在 Web GUI 输入框下方常驻显示当前会话的实时信息，模拟 [pi-agent-hud](https://github.com/dafei1288/pi-agent-hud) 的显示体验。\n\n<p align=\"center\">\n  <img src=\"docs/images/poster.png\" alt=\"dsh-hud\" width=\"720\">\n</p>\n\n> 状态 · 上下文占用 · 令牌 · 计时 · 模型 · 路径 · 使用统计 · 费用 · 上一次会话\n\n## 显示内容\n\n分两行呈现，均位于输入框下方的 `conversation.composer.dock` 状态栏位。\n\n**第一行（实时信息栏）**\n\n| 区段 | 说明 | 数据源 |\n|---|---|---|\n| 状态 | `空闲` / `思考中` / `输出中`（彩色呼吸圆点） | `useSession`（running / partial） |\n| 上下文 | 占用百分比 + 进度条（≥75% 黄、≥90% 红）+ `已用/窗口` | `contextPressure` 投影 |\n| 令牌 | `↑输入 ↓输出` + 缓存命中率 | `tokenUsage` 投影 |\n| 会话 | `N 轮 · M 步` | `sessionStats` 投影 |\n| 计时 | LLM 耗时 / 工具耗时 / 平均 TTFT | `sessionStats` 投影 |\n| 用时 | 当前回合实时已用时长（运行中每秒刷新） | `turnTimings` |\n\n**第二行（明细：模型 / 路径 / 使用统计 / 费用 / 上一次会话）**\n\n| 区段 | 说明 | 数据源 |\n|---|---|---|\n| 模型 | 当",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T16:19:54.818Z",
+  "created_at": "2026-08-16T16:19:54.512Z",
+  "gh": {
+    "full_name": "dafei1288/dsh-hud",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T15:29:37Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:57:03.157Z"
+}

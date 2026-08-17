@@ -25,6 +25,7 @@
   },
   "readme": "# dsh-blender\n\n[English](README.md)\n\n一个可安装到 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的完整 Blender 3D 生产插件。它以 `create-3d-model-skill` 为蓝本，注册 1 个总编排 Skill、29 个可直接加载的领域 Skill、26 个受控分析/验证 Helper，以及 13 个可实际执行的 Blender 工具。\n\n## 提供的能力\n\n- `blender_status`：检查 Blender、图像分析 Python、30 个 Skill、Helper 和当前 workspace。\n- `blender_scene_info` / `blender_object_info`：只读检查场景及对象级世界包围盒、求值后拓扑、UV、材质、约束、形态键和动画。\n- `blender_import`：把 GLB/glTF、FBX、OBJ、STL、USD、PLY 或 DAE 导入干净场景并保存版本化 `.blend`。\n- `blender_python`：执行小段 `bpy`/`bmesh` 建模代码并保存版本化 `.blend`。\n- `blender_preview`：不依赖已有相机，以等距/前后左右/顶底视角生成临时灯光预览，不修改源文件。\n- `blender_render` / `blender_render_frames`：生成单帧或动画代表帧的 PNG/JPEG 视觉证据。\n- `blender_export`：导出 GLB/glTF、FBX、OBJ、STL、USD 或 PLY。\n- `blender_validate_scene` / `blender_validate_export`：按通用、Web、",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T11:52:22.206Z",
   "created_at": "2026-08-14T11:44:46.108Z",
   "gh": null,
@@ -37,5 +38,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.690Z"
+  "updated_at": "2026-08-17T04:58:35.249Z"
 }

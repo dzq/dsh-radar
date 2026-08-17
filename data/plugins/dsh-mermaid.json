@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-mermaid",
+  "name": "dsh-mermaid",
+  "version": "0.0.0",
+  "description": "在 DSH Web 会话中把 Mermaid 代码围栏渲染为 SVG 图表 | Render Mermaid code fences as SVG diagrams in DSH Web messages",
+  "keywords": [
+    "cordis",
+    "deepseek-harness",
+    "diagram",
+    "dsh",
+    "markdown",
+    "mermaid",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/AKS1st/dsh-mermaid",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-mermaid",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "AKS1st/dsh-mermaid",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T17:07:02Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:49.874Z"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-plugin-vscode-sidebar",
+  "name": "dsh-plugin-vscode-sidebar",
+  "version": "0.0.0",
+  "description": "提供vscode风格和功能的侧栏",
+  "keywords": [
+    "dsh",
+    "dsh-plugins"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/gameswu/dsh-plugin-vscode-sidebar",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-vscode-sidebar",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "gameswu/dsh-plugin-vscode-sidebar",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T18:20:38Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 20,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 26,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:06.568Z"
+}

@@ -32,18 +32,19 @@
   },
   "engines": {},
   "readme": "# dsh-xueqiu · 雪球 mini 行情面板\n\n> DeepSeek Harness 上的雪球行情面板：**免登录**查看 A股/港股/美股实时行情、K线、分时、热榜、搜索、7×24 快讯与热议用户。可拖拽的悬浮窗口，交易时段智能刷新。\n\n![badge](https://img.shields.io/badge/dsh-plugin-xueqiu-1DA1F2)\n![badge](https://img.shields.io/badge/platform-web-blue)\n![license](https://img.shields.io/badge/license-MIT-green)\n\n## ✨ 功能\n\n| 功能 | 说明 |\n| --- | --- |\n| 📊 实时行情 | 大盘指数（上证/深证/创业板/沪深300）+ 自选股列表，涨红跌绿 |\n| 🕯️ K线图 | **蜡烛图** + 成交量柱 + **MA5/10/20 均线**，日K/周K/月K/60分 切换 |\n| ⏱️ 分时图 | 价格线 + 均价线 + 昨收基准虚线 |\n| 🔥 热榜 | 雪球热门榜，A股/美股/港股/全球 切换 |\n| 🔍 搜索 | 搜股票（一键加自选/看详情）、搜帖子 |\n| 📰 快讯 | 7×24 实时快讯，重要新闻高亮 |\n| 👥 热议用户 | 个股热门 KOL（粉丝数/认证标识） |\n| 💼 自选股 | 本地持久化，增删随点随改 |\n| 🖱️ 悬浮面板 | 按住标题栏自由拖拽，**拖到左/右屏幕边缘自动贴靠为窄栏**（Windows 贴靠风格，380px 可调），**拖到角落自动磁吸**，📌 一键贴右下角/右侧窄栏，**右下角手柄自由缩放宽高** |\n| 🪟 贴靠助手 | 拖动时在屏幕边缘显示**半透明贴靠预览**，松手即吸附；贴靠后拖动标题栏解除",
-  "weekly_downloads": 0,
+  "weekly_downloads": 25,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T05:57:18.711Z",
   "created_at": "2026-08-14T04:43:08.504Z",
   "gh": null,
   "scores": {
-    "popularity": 0,
+    "popularity": 35,
     "maintenance": 0,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 39,
-    "grade": "D"
+    "overall": 47,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:54.818Z"
+  "updated_at": "2026-08-17T04:58:29.532Z"
 }

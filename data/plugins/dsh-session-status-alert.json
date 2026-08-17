@@ -33,6 +33,7 @@
   "engines": {},
   "readme": "# dsh-session-status-alert\n\nCross-workspace session status toasts for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness): when any workspace session completes or enters a pending wait (approval, question, or plan review), a capsule toast appears above the current workspace, with inline interaction.\n\n## Usage\n\nPublished on npm as `dsh-session-status-alert@0.2.0` with a `dsh.bundle.patch` — one command installs and auto-mounts (takes effect on the next `dsh` start):\n\n```bash\ndsh plugin --profile web add dsh-session-status-alert\n```\n\nLocal checkout (development): `dsh plugin --profile web add ./plugins/dsh-session-status-alert`, or `./scripts/install.sh web plugins/dsh-session-status-alert`.\n\nRefresh the browser page once after the next `dsh` start.\n\n### Behavior\n\n- Completio",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T20:35:49.320Z",
   "created_at": "2026-08-15T18:15:23.742Z",
   "gh": null,
@@ -45,5 +46,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.710Z"
+  "updated_at": "2026-08-17T04:58:35.690Z"
 }

@@ -28,6 +28,7 @@
   },
   "readme": "# dsh-preview\n\n[English](README.md) | 中文\n\n**给你的 DeepSeek Harness agent 装上眼睛——它写的页面，它自己打开、自己看、自己修。**\n\ndsh agent 能写出一整个 Web 应用，却从没\"见过\"它：改完 CSS 无法确认效果，\"验证\"页面靠重读源码，最后还得让*你*打开浏览器替它描述哪里坏了。`dsh-preview` 补上这个闭环：六个无头浏览器工具加一个内置验证技能，agent 在宣称\"做完了\"之前，自己打开刚写的页面、查控制台、读渲染后的 DOM、点按钮走交互，最后给你留一张截图。\n\n## 实际效果\n\n一次真实、未剪辑的运行：让 dsh agent（DeepSeek-V4-Pro）验证它之前写的 Three.js 体素游戏。装上 `dsh-preview` 后，它全自主完成了：\n\n1. `browser_open http://localhost:8091` —— 页面加载成功，加载期零控制台错误。\n2. `browser_console` —— 发现一条 404（`/favicon.ico`），正确判断为无害；其余 7 个本地资源全部 200。\n3. `browser_read` —— 逐字确认了开始界面文案、操作说明和 HUD 文本。\n4. `browser_interact`（点击开始按钮）—— 遮罩关闭、HUD 出现，**它亲眼看着坐标从 41.0 落到 39.0、FPS 稳定在 120**，据此判断物理和渲染循环正常。无新增错误。\n5. `browser_screenshot` —— 开始前/后两张 PNG 存进工作区留档。\n6. 报告里明确列出验证了什么——以及验证*不了*什么（真实 GPU 渲染、指针锁定手感）。\n\n全程没有人类转述过一张截图。\n\n## 安装\n\n```sh\ndsh pl",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T15:27:15.039Z",
   "created_at": "2026-08-16T15:27:14.682Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.473Z"
+  "updated_at": "2026-08-17T04:58:33.233Z"
 }

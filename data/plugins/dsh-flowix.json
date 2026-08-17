@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-flowix",
+  "name": "dsh-flowix",
+  "version": "0.0.0",
+  "description": "Notes for you, Memory for your agents.",
+  "keywords": [
+    "claude-code",
+    "codex-cli",
+    "dsh",
+    "hermes-agent",
+    "markdown-editor",
+    "memory-system",
+    "note-taking",
+    "open-code"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/text2future/flowix",
+  "homepage": "https://www.flowix-memo.com/",
+  "npm": "https://www.npmjs.com/package/dsh-flowix",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "text2future/flowix",
+    "open_issues": 23,
+    "pushed_at": "2026-08-16T17:31:25Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:47.087Z"
+}

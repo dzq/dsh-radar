@@ -26,6 +26,7 @@
   },
   "readme": "# dsh-feishu-bot\n\nFeishu (Lark) private-chat frontend for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness): drive, monitor, and approve local agents from Feishu, sharing live and cold sessions with the Web GUI in the same process.\n\nStatus: M0–M5 product work and the M6 reliability implementation are covered by automated tests. The stage-6 preview gate builds a self-contained `@tingrudeng/dsh-feishu-bot@0.1.0-rc.7` tarball (Cordis remains a host peer), audits its manifest/files, emits a tarball-bound CycloneDX SBOM, installs outside the checkout, imports all four entry points, and composes in a clean DSH profile. A tarball-backed live Profile has passed boot and HTTP smoke. The tag-only RC workflow uses pinned Actions, isolated build/attestation authority, a durable run-n",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:04:00.946Z",
   "created_at": "2026-08-17T03:04:00.625Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:57.673Z"
+  "updated_at": "2026-08-17T04:58:39.026Z"
 }

@@ -1,0 +1,56 @@
+{
+  "slug": "dsh-side-chat",
+  "name": "dsh-side-chat",
+  "version": "0.1.2",
+  "description": "DSH Side Chat — 并行侧边对话插件：真实并行 agent 会话、独立上下文、摘要带回主对话。",
+  "keywords": [
+    "cordis",
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/2031814001yuyue-tech/dsh-side-chat",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-side-chat",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ]
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-side-chat\n\nDSH 侧边对话插件 —— **并行侧边对话**：在主对话之外开一条**真实并行 agent 会话**（独立上下文、共享工作区），结束后把结论**摘要带回主对话**，主对话上下文不被污染。\n\n> 纯 JavaScript、MIT 许可。一份源码两种加载方式：既可作为 DSH 动态 Cordis 插件即时加载（免构建），也可作为 npm 包正式安装（跨重启持久）。\n\n## 特性\n\n- **真实并行 agent 会话**：每条侧对话是一个独立的 DSH Session + Agent，**继承主会话的完整组合**（同一 preset 组合：同工具注册、同 prompt 段、同模型路由、同工作目录），但**不共享对话历史**。\n- **上下文隔离**：侧对话的提问、工具调用不会进入主对话上下文。\n- **自由切换**：侧边面板列出所有侧对话，点击即切换，互不串扰。\n- **摘要带回主对话**：一键让侧 agent 总结自己的对话，摘要以**折叠提示行**注入主会话（主对话只多一行小字，点击展开全文；主 agent 下一轮即可看到完整结论；总结请求不会出现在侧对话消息流里）。\n- **干净的对话流**：面板只显示真实对话——系统注入（runtime context、技能目录等）自动过滤。\n- **消息 Markdown 渲染**：标题、粗斜体、行内代码、代码块、列表、引用、链接、分隔线（纯 React 元素构建，防 XSS）。\n- **可调宽**：面板左边缘拖拽调宽（300–900px），双击复位。\n- **可最小化**：面板缩为右下角小胶囊，对话继续后台运行，点击恢复——不挡主界面。\n- **智能自动滚动**：新消息到达时跟随到底部，向上翻阅历史不会被拽回。\n- **会话列表零污染**：侧对话创建即归档，不出现在会话列表/搜索中；面板是唯一入口，",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T04:52:16.997Z",
+  "created_at": "2026-08-14T08:55:51.309Z",
+  "gh": {
+    "full_name": "2031814001yuyue-tech/dsh-side-chat",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T04:46:02Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 44,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:58:25.805Z"
+}

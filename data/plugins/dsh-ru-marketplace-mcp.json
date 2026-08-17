@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-ru-marketplace-mcp",
+  "name": "dsh-ru-marketplace-mcp",
+  "version": "0.0.0",
+  "description": "Девять российских маркетплейсов и китайский Taobao как MCP-серверы: Wildberries, Ozon, Яндекс Маркет, Детский мир, Авито, Мегамаркет, Lamoda, DNS, Ситилинк. Плюс сравнение цен по всем сразу. Только чтение, ключи не нужны.",
+  "keywords": [
+    "avito",
+    "citilink",
+    "claude",
+    "detmir",
+    "dns",
+    "ecommerce",
+    "lamoda",
+    "marketplace",
+    "mcp",
+    "mcp-server"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Vladimir-Human/ru-marketplace-mcp",
+  "homepage": "https://github.com/Vladimir-Human/ru-marketplace-mcp/releases/tag/v1.4.1",
+  "npm": "https://www.npmjs.com/package/dsh-ru-marketplace-mcp",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Vladimir-Human/ru-marketplace-mcp",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T11:01:09Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:02.128Z"
+}

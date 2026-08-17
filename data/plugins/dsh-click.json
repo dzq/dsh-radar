@@ -30,6 +30,7 @@
   },
   "readme": "<div align=\"center\">\n\n# 🖱️ dsh-click\n\n**DeepSeek Harness 的跨平台原生桌面控制 —— Windows 优先。**\n\n*先看清屏幕，再动手 —— 每次点击都过审批，每次操作都留审计。*\n\n[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)\n[![DSH plugin](https://img.shields.io/badge/dsh-plugin-✅-green)](https://github.com/topics/dsh-plugin)\n[![Node](https://img.shields.io/badge/node-%5E22.19%20%7C%7C%20%3E%3D24-brightgreen.svg)](#)\n[![CI](https://img.shields.io/github/actions/workflow/status/PerryLink/dsh-click/ci.yml?branch=main&label=CI)](https://github.com/PerryLink/dsh-click/actions)\n[![Version](https://img.shields.io/github/v/tag/PerryLink/dsh-click?label=version)](https://github.com/PerryLink/dsh-click/releases)\n[![npm version](https://img.shields.io/npm/v/dsh-click)](https://www.npmjs.com/package/dsh-click)\n[![npm dow",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T15:28:33.619Z",
   "created_at": "2026-08-16T15:20:31.073Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.736Z"
+  "updated_at": "2026-08-17T04:58:36.563Z"
 }

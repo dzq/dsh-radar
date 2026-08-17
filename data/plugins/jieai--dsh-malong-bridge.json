@@ -27,6 +27,7 @@
   },
   "readme": "# @jieai/dsh-malong-bridge\n\nOfficial DSH (DeepSeek Harness) plugin for LiuHe / malong. One command puts all 44\n`malong__*` MCP tools into dsh web, and **malong's workspace automatically follows\nthe current conversation's workspace** — no need to pass a path manually.\n\n```bash\ndsh plugin --profile web add @jieai/dsh-malong-bridge\npkill -f \"dsh web\"\ndsh web --port 3456 --host 0.0.0.0\n```\n\nWorks out of the box: the bridge locates the bundled `server/mcp-server.js`\n(complete toolset backend; the only native dependency, better-sqlite3, ships\ncross-platform precompiled binaries), so no extra deployment is needed.\n\n> **pnpm 10 warns `Ignored build scripts: better-sqlite3`**: that is pnpm's\n> default security policy (blocks dependency postinstall scripts). Run\n> `pnpm approve-builds` and check `be",
   "weekly_downloads": 158,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T02:12:17.421Z",
   "created_at": "2026-08-14T10:42:47.563Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.269Z"
+  "updated_at": "2026-08-17T04:58:29.086Z"
 }

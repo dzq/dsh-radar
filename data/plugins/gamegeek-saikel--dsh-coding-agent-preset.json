@@ -28,6 +28,7 @@
   },
   "readme": "<h1 align=\"center\">DSH Coding Agent Preset（DSH 编码模式预设）</h1>\n\n<p align=\"center\">\n  <a href=\"./README.md\">English</a>\n  &nbsp;·&nbsp;\n  <strong>简体中文</strong>\n</p>\n\n**DSH Coding Agent Preset** 是为 DeepSeek Harness（DSH）打造的 Windows 适配版**“编码模式”Agent 预设**——官方**极简模式（minimal）**的 Windows 移植。它保留官方 minimal 的组成（固定 persona、无上下文压缩、仅 `pwsh` + `str_replace_editor` 两个工具），但把官方持久 bash 替换为**持久 PowerShell 7（pwsh）**。\n\n- PTY 后端（`packages/dsh-terminal-pwsh/`）：基于 node-pty/ConPTY 的持久 pwsh 后端，仿照 `@deepseek-ai/dsh-terminal-bash`。\n- 模型侧工具（`packages/dsh-tool-pwsh-persistent/`）：持久 pwsh 工具，仿照 `@deepseek-ai/dsh-tool-bash-persistent`。\n- 预设文件（`agent.cordis.yml` / `preset.yml`）：把两个本地包挂载到 DSH 的 `coding` Agent 预设中。\n\n---\n\n## 安装\n\n本项目以单个 npm 包（`@gamegeek-saikel/dsh-coding-agent-preset`）发布。安装到 DSH web profile 后，包的 `postinstall` 脚本会自",
   "weekly_downloads": 255,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:55:03.570Z",
   "created_at": "2026-08-15T12:30:52.294Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.260Z"
+  "updated_at": "2026-08-17T04:58:28.906Z"
 }

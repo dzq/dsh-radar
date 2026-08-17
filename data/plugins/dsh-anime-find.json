@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-anime-find",
+  "name": "dsh-anime-find",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness 搜番插件：对话内多源搜索番剧，卡片展示 Bangumi 评分与详情，支持复制磁力。",
+  "keywords": [
+    "anime",
+    "anime-search",
+    "bangumi",
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "magnet",
+    "mikan",
+    "plugin",
+    "torrent"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/cocofhu/anime-find",
+  "homepage": "https://github.com/cocofhu/anime-find#readme",
+  "npm": "https://www.npmjs.com/package/dsh-anime-find",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "cocofhu/anime-find",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T19:59:40Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:53.407Z"
+}

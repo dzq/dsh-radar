@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-tool-autoexpand",
+  "name": "dsh-tool-autoexpand",
+  "version": "0.0.0",
+  "description": "dsh·工具结果自动展开插件",
+  "keywords": [
+    "ai-assistant",
+    "browser-plugin",
+    "client-plugin",
+    "deepseek",
+    "developer-tools",
+    "dsh",
+    "plugin",
+    "productivity",
+    "web-plugin"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/better-er/dsh-tool-autoexpand",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-tool-autoexpand",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "better-er/dsh-tool-autoexpand",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:06:20Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 30,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:38.412Z"
+}

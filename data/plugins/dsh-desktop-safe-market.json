@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-desktop-safe-market",
+  "name": "dsh-desktop-safe-market",
+  "version": "0.0.0",
+  "description": "唯一主打安全，提倡先审查再安装的 DSH 市场 (review-before-install DSH marketplace)",
+  "keywords": [
+    "dsh-plugin-market"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/bruc3van/dsh-desktop-safe-market",
+  "homepage": "https://x.com/bruc3van",
+  "npm": "https://www.npmjs.com/package/dsh-desktop-safe-market",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "bruc3van/dsh-desktop-safe-market",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T03:29:50Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:29.024Z"
+}

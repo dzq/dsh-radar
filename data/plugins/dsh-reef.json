@@ -29,6 +29,7 @@
   },
   "readme": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"assets/icons/readme/icon-dark.png\">\n    <img src=\"assets/icons/readme/icon-light.png\" width=\"128\" height=\"128\" alt=\"dsh-reef\" style=\"border-radius: 28px\">\n  </picture>\n</p>\n\n<h1 align=\"center\">dsh-reef</h1>\n\n<p align=\"center\">\n  DeepSeek Harness 全家桶:浏览器自动化 · MCP Server · GitHub/GitLab 集成 · 原生嵌入面板\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/huey1in/reef\"><img src=\"https://img.shields.io/github/stars/huey1in/reef\" alt=\"GitHub stars\"></a>\n  <a href=\"https://github.com/huey1in/reef/actions/workflows/ci.yml\"><img src=\"https://img.shields.io/github/actions/workflow/status/huey1in/reef/ci.yml?label=CI\" alt=\"CI\"></a>\n  <a href=\"https://linux.do\"><img src=\"https://img.shields.io/badge/LINUX%20DO-社区-f0",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T18:13:34.014Z",
   "created_at": "2026-08-15T17:56:05.987Z",
   "gh": null,
@@ -41,5 +42,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:49.211Z"
+  "updated_at": "2026-08-17T04:58:37.352Z"
 }

@@ -33,6 +33,7 @@
   "engines": {},
   "readme": "# @omicverse/dsh-omicos\n\nRun [OmicVerse](https://github.com/Starlitnightly/omicverse)/OmicOS bioinformatics\nanalyses from inside [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).\nThe dsh agent keeps the wheel; this plugin gives it a persistent Python kernel\n(scanpy / omicverse / R) plus the catalog of analysis skills that OmicOS ships.\n\n> 中文简介：把 OmicOS 的生信分析能力接进 dsh。DeepSeek 负责对话与规划，\n> OmicOS 负责跑分析——持久 Python 内核，`adata` 等状态跨轮累积；\n> 另带账号/订阅标签页与实时执行过程可视化。\n\n```sh\ndsh plugin --profile web add @omicverse/dsh-omicos\n```\n\n## Tools\n\nOne tool runs an analysis; the rest are direct reads of the local kernel that\ncost neither a turn nor a token.\n\n| Tool | What it does |\n| --- | --- |\n| `omicos_analyze` | Runs a full OmicOS turn in a persistent kernel bound to the workspace. Repeated ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T01:34:24.640Z",
   "created_at": "2026-08-16T23:44:55.926Z",
   "gh": null,
@@ -45,5 +46,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:55.991Z"
+  "updated_at": "2026-08-17T04:58:38.852Z"
 }

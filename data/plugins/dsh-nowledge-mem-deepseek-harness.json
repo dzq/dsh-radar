@@ -1,0 +1,43 @@
+{
+  "slug": "dsh-nowledge-mem-deepseek-harness",
+  "name": "dsh-nowledge-mem-deepseek-harness",
+  "version": "0.0.0",
+  "description": "One memory layer for every AI tool and agent, packaged for DeepSeek Harness",
+  "keywords": [
+    "deepseek-harness",
+    "knowledge-graph",
+    "mcp",
+    "memory",
+    "nowledge-mem",
+    "ontology"
+  ],
+  "license": "",
+  "repo": "https://github.com/nowledge-co/nowledge-mem-deepseek-harness",
+  "homepage": "https://mem.nowledge.co/integrations/deepseek-harness",
+  "npm": "https://www.npmjs.com/package/dsh-nowledge-mem-deepseek-harness",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "nowledge-co/nowledge-mem-deepseek-harness",
+    "open_issues": 0,
+    "pushed_at": "2026-08-17T02:12:52Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:16.465Z"
+}

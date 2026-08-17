@@ -40,17 +40,25 @@
   },
   "readme": "<!-- language links -->\n[English](README.md) · [中文](README.zh.md) · [Español](README.es.md) · [Português](README.pt.md) · [हिन्दी](README.hi.md)\n\n<div align=\"center\">\n\n# 🤖 dsh-auto-review\n\n**Second-model AI approval for DeepSeek Harness** — the Codex `approvals_reviewer=auto_review` / Claude Code *auto mode* pattern, built as a pure Cordis plugin.\n\nWhen an agent's action crosses the sandbox boundary, a **read-only reviewer subagent** decides allow/deny — with a reason — so humans approve nothing while nothing unsafe slips through.\n\n[![license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)\n[![dsh](https://img.shields.io/badge/dsh-0.1.0--rc.6-4c51bf.svg)](https://www.npmjs.com/package/@deepseek-ai/dsh)\n[![tests](https://img.shields.io/github/actions/workflow/status/P",
   "weekly_downloads": 156,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T08:15:10.663Z",
   "created_at": "2026-08-15T08:15:10.381Z",
-  "gh": null,
+  "gh": {
+    "full_name": "PerryLink/dsh-auto-review",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T13:02:44Z",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
   "scores": {
     "popularity": 55,
-    "maintenance": 0,
+    "maintenance": 40,
     "quality": 75,
     "security": 65,
     "dsh_compat": 80,
-    "overall": 55,
+    "overall": 63,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.269Z"
+  "updated_at": "2026-08-17T04:57:49.062Z"
 }

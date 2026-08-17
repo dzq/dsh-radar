@@ -27,6 +27,7 @@
   },
   "readme": "# dsh-browser-playwright\n\nPlaywright-powered browser capability for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness): the agent drives a real browser through **accessibility snapshots with stable element refs** — no CSS-selector guessing, no full-DOM dumps. One browser session per harness session, tabs, screenshots as durable image attachments, structured extraction, and gated JavaScript evaluation.\n\n## Install\n\n```sh\ndsh plugin --profile <name> add dsh-browser-playwright\n```\n\nThe bundle mounts three rows: the `ctx.browser` seam (`service`), the Playwright provider (`playwright`), and the model-facing tool family (`tool`).\n\n### Browser binary\n\nThe provider probes `chromium` → `chrome` → `msedge` → `edge` channels automatically; any installed Chromium-family browser works",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T15:29:29.401Z",
   "created_at": "2026-08-14T09:17:18.091Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.957Z"
+  "updated_at": "2026-08-17T04:58:33.934Z"
 }

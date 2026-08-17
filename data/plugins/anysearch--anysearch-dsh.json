@@ -24,6 +24,7 @@
   },
   "readme": "<div align=\"center\">\n  <a href=\"https://anysearch.com\"><img src=\"docs/assets/anysearch-logo.svg\" alt=\"AnySearch Logo\" width=\"96\" height=\"96\"></a>\n  <h1>@anysearch/anysearch-dsh</h1>\n  <p>AnySearch 面向 DeepSeek Harness 的官方网页搜索插件。</p>\n  <p><a href=\"https://anysearch.com\"><img src=\"https://img.shields.io/badge/AnySearch-AI_Search-485DC9.svg?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzQ4NzZfNzgwKSI+CjxwYXRoIGQ9Ik02IDguNUgzLjVWMy41SDguNVY2SDExVjFIMVYxMUg2VjguNVoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0xMSA4LjVIOC41VjExSDExVjguNVoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik02IDguNUgzLjVWMTFINlY4LjVaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMy41IDFIMVYzLjVIMy41VjFaIiBmaW",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T11:41:28.442Z",
   "created_at": "2026-08-14T04:40:33.262Z",
   "gh": null,
@@ -36,5 +37,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.690Z"
+  "updated_at": "2026-08-17T04:58:35.249Z"
 }

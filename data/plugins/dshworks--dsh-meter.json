@@ -38,6 +38,7 @@
   },
   "readme": "<table>\n<tr>\n<td width=\"42%\" valign=\"top\">\n\n# dsh-meter\n\n[English](README.md) | 中文\n\n### DeepSeek 开始按时段计价了，这是配套的电表。\n\n每天两段高峰，空闲时段半价。花费不再是事后翻账本才看的数字，而是**你此刻正站在里面的费率**。\n\n输入框下面一行：这个会话花了多少、当前是哪一档、还有多久换档。悬停展开卡片，里面是时段表、缓存的经济账，以及账户余额。\n\n[![ci](https://github.com/dshworks/dsh-meter/actions/workflows/ci.yml/badge.svg)](https://github.com/dshworks/dsh-meter/actions/workflows/ci.yml)\n[![powered by dsh](https://img.shields.io/badge/powered__by-dsh-4D6BFE?logo=deepseek)](https://github.com/deepseek-ai/deepseek-harness)\n[![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)\n\n</td>\n<td width=\"58%\" valign=\"top\">\n\n<img src=\"https://raw.githubusercontent.com/dshworks/dsh-meter/main/docs/meter-light.png\" alt=\"输入框下方的计价行与展开的卡片：会话总价、时段表、缓存与输入拆解、账户余额\" width=\"420\">\n\n</td>\n</tr>\n</table>\n\n## 安装\n\n`",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T16:11:31.169Z",
   "created_at": "2026-08-15T16:06:29.807Z",
   "gh": null,
@@ -50,5 +51,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.744Z"
+  "updated_at": "2026-08-17T04:58:36.912Z"
 }

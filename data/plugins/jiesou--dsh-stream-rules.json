@@ -25,6 +25,7 @@
   "engines": {},
   "readme": "# @jiesou/dsh-stream-rules\n\n按需注入规则，不浪费上下文。\n\n<img height=\"500\" alt=\"-6336866371853030306_121\" src=\"https://github.com/user-attachments/assets/09a5b140-bfcc-4401-895d-af9280b44709\" />\n\n你可以为 agent 编写自定义的流式规则（streaming rules）。\n\n规则只在模式匹配后作为一条 steering notice 注入，然后 agent 会从同一个位置重试。\n这样你就能控制 agent 的行为边界，同时不浪费上下文。\n\n由我的 [jiesou/opencode-stream-rules](https://github.com/jiesou/opencode-stream-rules) 移植到 DSH。\n与 oh-my-pi 的 \"Time-traveling stream rules\" 类似，但代码实现非常简单紧凑。\n\n## 工作原理\n\n当规则在某个工具调用（工具名 + 序列化后的参数）上 `match` 返回 `true` 时，该规则触发：\n\n- **默认** — 通过 `agent.inject()` 向 agent 注入一条 `SYSTEM NOTICE` steering 消息（DSH 的\"非唤醒\"机制，为下一次 pre-step 排队模型可见上下文）。agent 会从同一位置重试，此时它已经知道了这条规则。\n- **`reject: true`** — 拒绝**第一次**工具调用（`{ kind: 'deny' }`）；之后的尝试会被放行。在不至于过度限制的前提下进行 steering，例如在容器内已经允许 `pip install` 通过时。\n\n每条规则在每个会话（每个 a",
   "weekly_downloads": 13,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T02:30:04.994Z",
   "created_at": "2026-08-14T02:30:04.714Z",
   "gh": null,
@@ -37,5 +38,5 @@
     "overall": 45,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.309Z"
+  "updated_at": "2026-08-17T04:58:29.622Z"
 }

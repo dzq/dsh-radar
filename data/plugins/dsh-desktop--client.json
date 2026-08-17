@@ -21,6 +21,7 @@
   "engines": {},
   "readme": "# @dsh-desktop/client\n\ndsh-desktop 浏览器侧桌面桥接插件 —— 随 `desktop` profile 加载进 DeepSeek Harness 的 Web UI。\n\nThe desktop bridge plugin for dsh-desktop. It is loaded into the DeepSeek Harness Web UI by the `desktop` profile and bridges the native Electron shell with the web page.\n\n## What it does\n\n- **原生 → Web**：暴露托盘命令处理器（`show-about` / `reload`），preload 在收到主进程广播时调用它路由命令。\n- **Web → 原生**：暴露 `notifyNative()` 助手（`window.dshDesktopNotify`），让页面能发送 Windows 原生通知。\n\n本插件不注入任何视觉样式；在纯浏览器环境（无 `window.dshDesktop`）下优雅降级。\n\n## Install\n\nThis package is meant to be installed as a DeepSeek Harness plugin. Inside a DeepSeek Harness project, run:\n\n```sh\ndsh plugin add @dsh-desktop/client\n```\n\nIt is a Cordis plugin that exposes `name` / `inject` / `Config` / `apply` and is loaded automatically by the `desktop` profile. Y",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-13T18:53:02.294Z",
   "created_at": "2026-08-13T18:53:01.169Z",
   "gh": null,
@@ -33,5 +34,5 @@
     "overall": 27,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:48.673Z"
+  "updated_at": "2026-08-17T04:58:37.179Z"
 }

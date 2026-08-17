@@ -28,6 +28,7 @@
   },
   "readme": "# dsh-vision-guard\n\n**中文 | [English](README.md)**\n\n> 让纯文本模型\"看图\"，且图片永远不会卡死你的会话。\n> Transparent image guard + vision analysis tool for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh).\n\nDeepSeek Harness 的主流模型（deepseek-v4-pro 等）是纯文本模型。两个麻烦：\n\n1. **纯文本模型看不了图**——用户贴一张截图，模型只能当没看见；\n2. 更糟的是 **400 卡死**：某些网关（如 opencode-go）的主路由只接受 text，图片块一旦写进会话日志，之后**每一轮**都会把历史连同图片重发给上游 → `400 unknown variant \\`image_url\\`` → 整个会话永久卡死。\n\n本插件用两道闸门根治这两个问题，并把\"看图\"变成纯文本模型可用文字消费的能力。\n\n---\n\n## 它做什么\n\n```\n用户贴图 → [闸门1] agent/pre-step 门口改写：图片在【写入会话日志之前】就被视觉模型转成文字\n                 → 日志永远只有文字，图片块根本不存在\n                 → [闸门2] llm/stream 兜底：历史重放时若发现图片块（例如装插件前就已中毒的会话），\n                   在请求层改写为 OCR 文本后再发给模型\n```\n\n- **视觉模型做眼睛，主模型做大脑**：deepseek-v4-pro 照常推理，图片内容以文字形式出现在上下文里。\n- **修复已中毒的会话**：装插件之前就被 400 卡死的会话，装上之后发",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T13:56:15.465Z",
   "created_at": "2026-08-15T13:40:42.413Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.708Z"
+  "updated_at": "2026-08-17T04:58:35.690Z"
 }

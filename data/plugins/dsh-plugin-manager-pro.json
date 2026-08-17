@@ -40,6 +40,7 @@
   },
   "readme": "# dsh-plugin-manager-pro\n\nDeepSeek Harness（DSH）本地插件管理器 —— 在 Web 界面「设置 → 插件」中提供可视化的插件管理页。\n\n![badge](https://img.shields.io/badge/dsh-0.1.0--rc.6-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![version](https://img.shields.io/badge/version-0.5.1-orange)\n\n> 社区/本地插件，非 DeepSeek Harness 官方包。\n\n## 功能总览（v0.5.1）\n\n### 📋 插件列表\n- **分类折叠**：按必要程度收纳为 🔴 必须 / 🟡 推荐 / 🟢 可选 三个可折叠分组（头部显示启用计数与可更新角标，搜索自动展开）\n- **每行显示**：启用状态（🔴 错误/需检查 · 🟡 需更新 · ⚪ 未启用 · 🟢 启用）、名称、功能简介（中文目录）、必要程度、已装→最新版本 + 来源、开关按键\n- **架构保留/界面必需保护**：web 层刻意禁用的行（tool-fs 等）与界面骨架插件（ui-layout 等）禁止开关（🔒 标记 + 原因）\n\n### 📥 更新与下载\n- **更新源**：npm registry · **插件超市 dshfind**（GitHub dsh-plugin topic 聚合，默认启用）· GitHub 仓库 · 任意自定义 registry / 镜像\n- **下载优先级**：① 浏览器原生下载（隐藏 iframe 触发，NDM 等扩展可捕获）→ ② 扩展下载软件（NDM/比特彗星等）→ ③ 内置下载器兜底（HTTP 直链 / aria2c / P2P m",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:15:14.173Z",
   "created_at": "2026-08-17T03:15:13.831Z",
   "gh": null,
@@ -52,5 +53,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.482Z"
+  "updated_at": "2026-08-17T04:58:33.497Z"
 }

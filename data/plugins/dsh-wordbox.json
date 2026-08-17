@@ -32,17 +32,25 @@
   "engines": {},
   "readme": "# 常用词盒子（Common Word Box）— DeepSeek Harness 客户端插件\n\n[English](README.en.md) | 中文\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)\n\nDeepSeek Harness（`dsh web`）的 **Web 客户端插件**：在对话输入框右侧放一个「词」按钮，点击弹出一个**常驻**的上拉面板，管理自己的常用词/句，一键插入对话输入框。\n![dsh-wordbox](docs/cover.png)\n\n词条分两个桶：**全局**（所有工作区共享）与**当前项目**（按工作区目录隔离）。\n\n## 功能\n\n- 🖱️ 点击「词」按钮 → 上拉面板（带滑入动画），**常驻不消失**（再点一次 / 点击外部 / Esc 关闭）\n- 🔀 三档显示范围：**全部 / 全局 / 当前**（切换控件在「＋ 添加」同行最右侧）\n- ⏎ 点击词条 → **追加进输入框**（保留焦点、一个撤销步、面板不关闭，可连续插入）\n- 🌐 中/英双语（跟随 DSH 界面语言）\n\n## 安装\n\n前置：DeepSeek Harness `dsh web` + `pnpm`（`dsh plugin` 命令会转发给 pnpm，需要它在 PATH 上）。\n\n本插件是标准的 **DSH bundle 插件**（`dsh.bundle.patch` 声明，包内自带插件行 patch），因此安装/卸载都是**一条命令**：\n\n### 安装\n\n```sh\n# 前提，安装官方 CLI（已装可跳过）\nnpm install -g @deepseek-ai/dsh\n\n# 安装本插件\n# 方式一：从 npm 安装（推荐，已发布到 npm）\ndsh p",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T07:16:12.611Z",
   "created_at": "2026-08-14T07:16:12.367Z",
-  "gh": null,
+  "gh": {
+    "full_name": "arcmosin/dsh-wordbox",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T07:20:09Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
+    "maintenance": 39,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 39,
-    "grade": "D"
+    "overall": 46,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:46.938Z"
+  "updated_at": "2026-08-17T04:57:49.062Z"
 }

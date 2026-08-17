@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-reasoning-effort",
+  "name": "dsh-reasoning-effort",
+  "version": "0.0.0",
+  "description": "DSH适用的Codex风格的思考强度滑块，以及大肥鱼跑步滑块。Codex-style model and reasoning-effort slider for DeepSeek Harness",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "reasoning-effort"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/HanaAyane/dsh-reasoning-effort",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-reasoning-effort",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "HanaAyane/dsh-reasoning-effort",
+    "open_issues": 3,
+    "pushed_at": "2026-08-16T17:11:52Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:07.819Z"
+}

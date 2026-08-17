@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-deepseek-harness-ux",
+  "name": "dsh-deepseek-harness-ux",
+  "version": "0.0.0",
+  "description": "长任务，不刷屏：关键进度清晰可见，完成后自动折叠，详情随时展开。 Long agent tasks, without transcript clutter: focused progress, auto-folded history, details on demand.",
+  "keywords": [
+    "agent-harness",
+    "ai-agent",
+    "deepseek-harness",
+    "developer-tools",
+    "dsh",
+    "typescript",
+    "web-ui"
+  ],
+  "license": "BSD-3-Clause",
+  "repo": "https://github.com/ayuanwong/deepseek-harness-ux",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-deepseek-harness-ux",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "ayuanwong/deepseek-harness-ux",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T21:05:22Z",
+    "archived": false,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:48.356Z"
+}

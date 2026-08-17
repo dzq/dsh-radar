@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-router-flash",
+  "name": "dsh-router-flash",
+  "version": "0.0.0",
+  "description": "DSH bundle 插件：V4 Flash 神模式（opencode-go）agent preset 分发包，dsh plugin add 安装后自动同步 router-flash preset。DSH agent preset bundle for DeepSeek V4 Flash godmode.",
+  "keywords": [
+    "cordis",
+    "deepseek-harness"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/xiaoxianyu-office/dsh-router-flash",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-router-flash",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "xiaoxianyu-office/dsh-router-flash",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T10:16:00Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 30,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:54.525Z"
+}

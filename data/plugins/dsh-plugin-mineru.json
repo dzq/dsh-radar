@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-plugin-mineru",
+  "name": "dsh-plugin-mineru",
+  "version": "0.0.0",
+  "description": "向模型暴露 MinerU 文档解析工具，将 PDF/图片/DOCX/PPTX/XLSX 转为结构化 Markdown/JSON | Exposes MinerU document-parsing tools to the model, converting PDF/images/DOCX/PPTX/XLSX into structured Markdown/JSON",
+  "keywords": [],
+  "license": "NOASSERTION",
+  "repo": "https://github.com/HuanLinOTO/dsh-plugin-mineru",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-mineru",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "HuanLinOTO/dsh-plugin-mineru",
+    "open_issues": 2,
+    "pushed_at": "2026-08-15T05:06:34Z",
+    "archived": false,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:17.711Z"
+}

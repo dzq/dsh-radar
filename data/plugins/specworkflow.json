@@ -25,6 +25,7 @@
   "engines": {},
   "readme": "# SpecWorkflow\n\n[English](README.md) | 中文\n\nSpecWorkflow 是一套可分享的 workflow skill pack，面向 DeepSeek Harness 和其它兼容 Agent Skills 的工具。它给 Agent 一条清晰路径：从粗糙需求开始，推进到需求澄清、实施规格、代码执行、交付检查、修复规划、bug 诊断和带来源的调研。\n\n它不会把每个请求都拖进重流程。简单明确的修改可以直接处理；需求模糊、跨模块、影响产品体验、数据、权限、接口或发布风险的工作，才进入完整 workflow。\n\n![SpecWorkflow Architecture](assets/workflow-architecture.png)\n\n## 功能\n\n| 阶段 | Skill | 处理内容 |\n| --- | --- | --- |\n| 调研 | `deep-research` | 基于官方文档、API、标准、源码等一手来源做调研。 |\n| 1 | `to-grill` | 需求质询、消除歧义、风险审查，并判断直接实施还是进入完整流程。 |\n| 2 | `to-spec` | 编写可实施 spec、修订说明、验收标准、验证计划和可选 tickets。 |\n| 3 | `spec-do` | 根据已批准的 spec、issue、修订或修复计划进行实施。 |\n| 4 | `do-review` | 对照需求、spec、代码和证据做最终交付检查。 |\n| 5 | `fix-review` | 把 must-fix review findings 转成修复 spec 和修复 tickets。 |\n| 调试 | `bugs-fix` | 针对 bug、回归和性能问题做复现、根因定位、修复和证据留存。 |\n\n## 安装\n\n### DSH\n\n```sh\nds",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T08:45:13.694Z",
   "created_at": "2026-08-16T08:45:13.484Z",
   "gh": null,
@@ -37,5 +38,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:55.097Z"
+  "updated_at": "2026-08-17T04:58:38.852Z"
 }

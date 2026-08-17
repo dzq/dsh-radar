@@ -31,6 +31,7 @@
   "engines": {},
   "readme": "# dsh-ocr-local\n[English](README.en.md) · [中文](README.md)\n\n[![npm version](https://img.shields.io/npm/v/dsh-ocr-local?style=flat-square&color=cb3837)](https://www.npmjs.com/package/dsh-ocr-local) [![license](https://img.shields.io/npm/l/dsh-ocr-local?style=flat-square)](LICENSE) [![GitHub](https://img.shields.io/badge/GitHub-balcoz%2Fdsh--ocr--local-2f81f7?style=flat-square)](https://github.com/balcoz/dsh-ocr-local)\n\nDeepSeek Harness 本地 OCR 插件——**PP-OCRv5 + ONNX Runtime，完全离线**。\n注册 `ocr_image` 工具：给一个图片路径，返回图片里的文字。\n\n不需要视觉模型。agent 能访问到的任何图片都能识别：粘图补丁保存的截图\n（`~/.dsh/ocr/cache/...`）、文件、图表、报错弹窗、照片。\n\n## 多端支持（TUI + Web）\n\n| 端               | 粘贴机制                                                                                                | 组件                                                         ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T03:56:34.085Z",
   "created_at": "2026-08-17T02:22:39.173Z",
   "gh": null,
@@ -43,5 +44,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:49.197Z"
+  "updated_at": "2026-08-17T04:58:37.178Z"
 }

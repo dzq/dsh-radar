@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-deepseek-billing",
+  "name": "dsh-deepseek-billing",
+  "version": "0.0.0",
+  "description": "DSH WebUI 插件:DeepSeek 余额显示与按会话费用估算",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Jolly-J/dsh-deepseek-billing",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-deepseek-billing",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Jolly-J/dsh-deepseek-billing",
+    "open_issues": 1,
+    "pushed_at": "2026-08-17T00:53:26Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:05.382Z"
+}

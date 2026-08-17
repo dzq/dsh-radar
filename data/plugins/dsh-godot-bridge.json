@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-godot-bridge",
+  "name": "dsh-godot-bridge",
+  "version": "0.0.0",
+  "description": "DSH (DeepSeek Harness) plugin that launches and drives a running Godot 4.x game through its in-game TCP interaction server — replaces the godot-mcp MCP server with native agent tools.",
+  "keywords": [
+    "agent-tools",
+    "ai-agent",
+    "automation",
+    "deepseek-harness",
+    "dsh",
+    "game-development",
+    "godot",
+    "godot-engine",
+    "godot-plugin",
+    "mcp"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Smalldy/godot-bridge",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-godot-bridge",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Smalldy/godot-bridge",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T14:54:57Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:45.759Z"
+}

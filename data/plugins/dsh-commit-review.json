@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-commit-review",
+  "name": "dsh-commit-review",
+  "version": "0.0.0",
+  "description": "一个 DSH 插件：为 Web GUI 增加 /commit 与 /review 两个斜杠命令",
+  "keywords": [
+    "cordis",
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/the-qian/dsh-commit-review",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-commit-review",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "the-qian/dsh-commit-review",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T13:11:01Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:37.421Z"
+}

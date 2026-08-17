@@ -22,6 +22,7 @@
   "engines": {},
   "readme": "# dsh-wechat-format\n\nDeepSeek Harness 插件：微信公众号 Markdown 排版工具。\n\n将 Markdown 转换为**微信公众号正文兼容的全内联样式 HTML**（无 class、无 `<style>`、图片 base64 内嵌），输出可直接粘贴进公众号编辑器。渲染核心来自 [md-wechat-formatter](https://github.com/Tinywan/tinywan-wechat-format)。\n\n## 提供的工具\n\n### `wechat_format`\n\n| 参数 | 必填 | 说明 |\n|---|---|---|\n| `markdown` | 是 | 文章完整 Markdown 文本 |\n| `theme` | 否 | 主题 id：`blue-tech`（默认）/ `orange-heart` / `violet` / `green` / `night` |\n| `imageFiles` | 否 | 文中图片对应的本地文件路径列表，按文件名匹配后以 base64 内嵌 |\n\n返回：`{ html, warnings, theme }`。`html` 即可直接粘贴的公众号正文 HTML；未匹配到的图片会进入 `warnings`。\n\n## 安装（发布包）\n\n包内 `cordis.patch.yml` 已由 `package.json` 的 `dsh.bundle.patch` 声明，安装即自动注册工具：\n\n```bash\n# 从 tarball（npm pack 产物）\ndsh plugin --profile headless add ./dsh-wechat-format-0.1.0.tgz\n# 从 npm（发布后）\ndsh plugin add dsh-wechat-format\n# 从 GitHub（",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T15:16:42.513Z",
   "created_at": "2026-08-16T15:16:42.245Z",
   "gh": null,
@@ -34,5 +35,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:53.131Z"
+  "updated_at": "2026-08-17T04:58:38.140Z"
 }

@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-Abu-Cowork",
+  "name": "dsh-Abu-Cowork",
+  "version": "0.0.0",
+  "description": "Open-source alternative to Claude Cowork — a local-first AI agent desktop app · multi-model · self-evolving skills · privacy-first · multi-Harness roadmap · DeepSeek Harness integration in progress",
+  "keywords": [
+    "ai-agent",
+    "ai-assistant",
+    "automation",
+    "desktop-app",
+    "dsh-plugins",
+    "llm",
+    "local-first",
+    "mcp",
+    "privacy",
+    "productivity"
+  ],
+  "license": "NOASSERTION",
+  "repo": "https://github.com/PM-Shawn/Abu-Cowork",
+  "homepage": "https://myabu.cn",
+  "npm": "https://www.npmjs.com/package/dsh-Abu-Cowork",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "PM-Shawn/Abu-Cowork",
+    "open_issues": 19,
+    "pushed_at": "2026-08-17T02:10:11Z",
+    "archived": false,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:54:45.773Z"
+}

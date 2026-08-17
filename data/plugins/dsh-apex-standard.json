@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-apex-standard",
+  "name": "dsh-apex-standard",
+  "version": "0.0.0",
+  "description": "DeepSeek V4 Pro/Flash unified anchored agent preset for DeepSeek Harness (official API & opencode-go): two-stage RL-aligned bootstrap, model-aware path routing, epoch-aware long-session stability",
+  "keywords": [
+    "agent-preset",
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "llm",
+    "opencode-go",
+    "prompt-engineering"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/rinDBeans/dsh-apex-standard",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-apex-standard",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "rinDBeans/dsh-apex-standard",
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T07:28:17Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:39.803Z"
+}

@@ -29,6 +29,7 @@
   },
   "readme": "<p align=\"center\"><a href=\"https://ai4scholar.net?src=dsh\"><img src=\"https://raw.githubusercontent.com/literaf/dsh-ai4scholar/main/docs/logo.svg\" width=\"110\" alt=\"AI4Scholar\"></a></p>\n<p align=\"center\"><strong>dsh-research</strong></p>\n\n# AI4Scholar Research Pack for DeepSeek Harness\n\nEnglish | [中文](README_CN.md)\n\n[![npm](https://img.shields.io/npm/v/dsh-research?label=npm)](https://www.npmjs.com/package/dsh-research) [![CI](https://github.com/literaf/dsh-research/actions/workflows/ci.yml/badge.svg)](https://github.com/literaf/dsh-research/actions/workflows/ci.yml) [![dsh-plugin](https://img.shields.io/badge/topic-dsh--plugin-blue)](https://github.com/topics/dsh-plugin) ![license](https://img.shields.io/badge/license-MIT-green)\n\nThe **orchestration layer** that turns [DeepSeek Harness](htt",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T01:03:48.561Z",
   "created_at": "2026-08-16T17:09:56.786Z",
   "gh": null,
@@ -41,5 +42,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.986Z"
+  "updated_at": "2026-08-17T04:58:34.720Z"
 }

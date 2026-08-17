@@ -1,0 +1,42 @@
+{
+  "slug": "dsh-plugin-pet-rs",
+  "name": "dsh-plugin-pet-rs",
+  "version": "0.0.0",
+  "description": "DSH 桌宠（Rust 版），5 态鲸鱼 + 双 SSE 实时推送 + 透明置顶窗 + 系统托盘，三端支持 | DSH desktop pet (Rust edition): 5-state whale + dual SSE real-time push + transparent always-on-top window + tray, cross-platform",
+  "keywords": [],
+  "license": "NOASSERTION",
+  "repo": "https://github.com/HuanLinOTO/dsh-plugin-pet-rs",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-pet-rs",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "HuanLinOTO/dsh-plugin-pet-rs",
+    "open_issues": 2,
+    "pushed_at": "2026-08-15T05:06:38Z",
+    "archived": false,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:37.109Z"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-webchatlike",
+  "name": "dsh-webchatlike",
+  "version": "0.0.0",
+  "description": "Web-chat style message actions for DeepSeek Harness: edit your prompt, regenerate answers, and flip versions with a deepseek.com-style <i/N> pager. Deepseek网页版/app聊天体验插件",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin-market",
+    "dsh-plugin-verify",
+    "dsh-plugins"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/cindyguyuehu123/dsh-webchatlike",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-webchatlike",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "cindyguyuehu123/dsh-webchatlike",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T09:06:53Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:02.989Z"
+}

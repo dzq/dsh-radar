@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-engineer-software",
+  "name": "dsh-engineer-software",
+  "version": "0.0.0",
+  "description": "Evidence-driven engineering workflows for Codex and DeepSeek Harness, backed by deterministic routing and behavior evaluations.",
+  "keywords": [
+    "agent-skills",
+    "agent-workflow",
+    "ai-coding-agent",
+    "codex-plugin",
+    "codex-skills",
+    "coding-agents",
+    "deepseek-harness",
+    "developer-tools",
+    "software-engineering"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/KirschBluteX/engineer-software",
+  "homepage": "https://github.com/KirschBluteX/engineer-software",
+  "npm": "https://www.npmjs.com/package/dsh-engineer-software",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "KirschBluteX/engineer-software",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T05:52:34Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 40,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:13.124Z"
+}

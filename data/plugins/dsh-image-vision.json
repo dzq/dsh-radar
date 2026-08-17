@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-image-vision",
+  "name": "dsh-image-vision",
+  "version": "0.1.1",
+  "description": "DeepSeek Harness plugin: gives text-only models (e.g. DeepSeek) image-reading ability via any OpenAI-compatible vision API. Registers the vision_query tool, DSH credentials integration, and the image-vision skill.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "vision",
+    "image",
+    "ocr",
+    "skill"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/wangyang10/image-vision.git",
+  "homepage": "https://github.com/wangyang10/image-vision/tree/main/dsh-image-vision",
+  "npm": "https://www.npmjs.com/package/dsh-image-vision",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "# dsh-image-vision\n\n[![npm version](https://img.shields.io/npm/v/dsh-image-vision)](https://www.npmjs.com/package/dsh-image-vision)\n[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n\nDeepSeek Harness (DSH) 插件版 image-vision：让没有视觉能力的模型（如 DeepSeek 纯文本模型）也能\"看图\"。\n调用任意 OpenAI 兼容识图 API（OpenRouter、SiliconFlow、智谱、Kimi、通义千问、本地 Ollama 等），\n完成图片描述、问答、OCR 等任务。\n\n这是 [image-vision](https://github.com/wangyang10/image-vision) 仓库的 DSH 接入层，与上游\nCodex/Claude Code 技能共用同一套 API 与配置语义。\n\n## 功能\n\n- 注册模型工具 **`vision_query`**：模型直接以结构化参数调用，无需拼写命令行；\n  schema 自动进入 system prompt，UI 自动渲染调用卡片，支持取消与超时。\n- 注册运行时技能 **`image-vision`**：技能目录与 GUI `/image-vision` 斜杠菜单继续可用。\n- 配置走 DSH 体系：环境变量 / DSH 凭据（`~/.dsh/.credentials.yaml`）/ dotfile\n  （`~/.dsh/image-vision.env` → `~/.codex/image-vision.env`）/ 内置默认值。\n- 自动预处理（",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T04:55:28.371Z",
+  "created_at": "2026-08-13T15:08:20.279Z",
+  "gh": {
+    "full_name": "wangyang10/image-vision",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T05:34:53Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 36,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:38.475Z"
+}

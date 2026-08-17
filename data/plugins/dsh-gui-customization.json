@@ -30,17 +30,25 @@
   "engines": {},
   "readme": "# dsh-gui-customization — 组合插件（发布轨）\n\nGUICustomization 的正式组合插件形态（曾用名 `@core/gui-customization`，按 npm 命名规范与 dsh-web-ui 惯例改为 `dsh-gui-customization`）。对应开发轨动态版 `plugins/gui-customization/`（guic-3，v1–v7 迭代，已退役）。\n\n## 功能\n\n- Nous 蓝默认配色（明暗双模式）+ 四预设 + 13 色自定义\n- 氛围层：角落光晕（随主题 brand-primary）+ 呼吸动画（幅度可调）+ 强度 + 位置 5 模式\n- 背景：图片（真·文件选择对话框 + 预设「deepseek娘01」）与视频（静音循环）双模式；主区透图 + 明暗自适应遮罩 + **背景透明度滑块** + 侧边栏透明开关\n- 配色导入/导出（JSON + 剪贴板）\n- 中英双语、持久化（设置 localStorage + 背景 IndexedDB，跨刷新/跨重启保留）\n- 设置页「界面设定」+ 插件配置区卡片（设置 → 插件）\n\n## 构建与安装\n\n```sh\n# 构建（在包目录或仓库根）\npnpm build          # 产出 lib/index.js + lib/client.js\n# 安装进 web profile\nnode <harness>\\apps\\cli\\lib\\bin.js plugin --profile web add link:<repo>\\packages\\dsh-gui-customization\n# 重启 dsh web 生效\n```\n\n## 台账\n\n- **v0.1.0（当前）**：组合包首版。功能 = 动态版 v7 等价 + 真选文件 + 背景图可见性。挂载 `@core/gu",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T00:29:48.045Z",
   "created_at": "2026-08-14T10:27:01.356Z",
-  "gh": null,
+  "gh": {
+    "full_name": "LAN-TINA-WS/dsh-gui-customization",
+    "stars": 14,
+    "open_issues": 1,
+    "pushed_at": "2026-08-16T04:09:54Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
+    "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 39,
-    "grade": "D"
+    "overall": 47,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:46.458Z"
+  "updated_at": "2026-08-17T04:55:44.319Z"
 }

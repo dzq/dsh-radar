@@ -32,6 +32,7 @@
   },
   "readme": "# NeuroPreviewer\n\n[![npm version](https://img.shields.io/npm/v/%40brainpilot%2Fdsh-neuro-previewer)](https://www.npmjs.com/package/@brainpilot/dsh-neuro-previewer)\n[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![DSH plugin](https://img.shields.io/badge/DeepSeek%20Harness-plugin-5B5BD6)](https://github.com/deepseek-ai/deepseek-harness)\n\n[English](README.md) | **简体中文**\n\n> 直接在 DeepSeek Harness 中预览神经科学数据。\n\n**NeuroPreviewer 是一个面向 [DeepSeek Harness（DSH）](https://github.com/deepseek-ai/deepseek-harness) 的神经科学数据预览插件。** 它以 DSH bundle 和 Web client extension 的形式安装，并非独立查看器。模型通过只读的 `neuro_preview` 工具检查本地数据，DSH Web 客户端则使用专用卡片呈现预览结果。\n\n`@brainpilot/dsh-neuro-previewer` · [GitHub](https://github.com/NeuroAIHub/NeuroPreviewer) · [MIT License](LICENSE)\n\n> **兼容性：** `0.1.0` 版本面向 Dee",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T13:32:53.249Z",
   "created_at": "2026-08-14T13:32:52.922Z",
   "gh": null,
@@ -44,5 +45,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.607Z"
+  "updated_at": "2026-08-17T04:58:31.631Z"
 }

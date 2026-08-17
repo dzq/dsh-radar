@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-observation-journal",
+  "name": "dsh-observation-journal",
+  "version": "0.0.0",
+  "description": "Zero-touch runtime telemetry for DeepSeek Harness: every session writes its own report card (task/model/tools/failures/duration) into a human-readable journal. 纯观察者运行事实遥测。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "observability",
+    "observation",
+    "skill",
+    "telemetry"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Cavan-Ou/dsh-observation-journal",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-observation-journal",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Cavan-Ou/dsh-observation-journal",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T19:07:57Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:54.276Z"
+}

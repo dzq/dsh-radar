@@ -27,6 +27,7 @@
   },
   "readme": "# @ya8d/dsh-directive-compact\r\n\r\nA natural-language compaction plugin for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness). It lets you tell the agent — in plain language — what to keep, what to drop, and how to compress an existing conversation.\r\n\r\nDesigned for large-context models (1M-token window, e.g. `deepseek-v4-flash`).\r\n\r\n## Commands\r\n\r\n| Command | What it does |\r\n|---|---|\r\n| `/compact-directive <requirement>` | Compresses the **middle** of the conversation. Keeps the session's fixed head (first user message + injected `agent-instructions` / `system-prompt` / `skill-catalog`) and the recent turns verbatim; summarizes everything between them per your requirement. |\r\n| `/trim-directive <requirement>` | Trims the **whole conversation** per your requirement, with **",
   "weekly_downloads": 56,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T14:11:17.389Z",
   "created_at": "2026-08-15T14:11:17.081Z",
   "gh": null,
@@ -39,5 +40,5 @@
     "overall": 49,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.299Z"
+  "updated_at": "2026-08-17T04:58:29.441Z"
 }

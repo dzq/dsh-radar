@@ -30,17 +30,25 @@
   },
   "readme": "# dsh-tool-vision\n\n**GitHub**: [Scorp1o117/dsh-tool-vision](https://github.com/Scorp1o117/dsh-tool-vision) · **npm**: [dsh-tool-vision](https://www.npmjs.com/package/dsh-tool-vision) · [English](README.md)\n\n给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 外接**视觉模型**的插件。\n\nDeepSeek 自家模型是纯文本的，而且 harness 的每次模型请求都**严格从会话日志推导**（`llm/stream` 请求必须与持久化推导一致，否则 agent-loop invariant 会报 `log-reconstruction desync`）。本插件用两条路径补上缺口：\n\n1. **`inspect_image` 工具** —— 把图片（本地文件或 http(s) URL）发给任意支持 `image_url` 内容块的 OpenAI 兼容 `/chat/completions` 端点，把视觉模型的文字回答带回对话。\n2. **图片桥（v0.2.1）** —— 粘贴的图片在**进入持久化日志之前**就被转换成 `inspect_image` 指引文本，拦截点是 `agent/pre-step` waterfall（这是 harness 唯一允许插件替换\"进入某一步的消息\"的缝；替换后的消息会**成为**持久化的 `user/message` 日志，所以请求重建 invariant 天然满足）。旧版本已经写进日志的图片消息，会在该会话下一次 pre-step 时用 surface",
   "weekly_downloads": 355,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T10:21:18.577Z",
   "created_at": "2026-08-13T15:51:04.233Z",
-  "gh": null,
+  "gh": {
+    "full_name": "Scorp1o117/dsh-tool-vision",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T10:27:52Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 64,
-    "maintenance": 0,
+    "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 52,
-    "grade": "C"
+    "overall": 60,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.252Z"
+  "updated_at": "2026-08-17T04:57:49.971Z"
 }

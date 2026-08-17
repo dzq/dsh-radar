@@ -1,0 +1,36 @@
+{
+  "slug": "dsh-dsh4vscode",
+  "name": "dsh-dsh4vscode",
+  "version": "0.0.0",
+  "description": "DSH Chat for VS Code — DeepSeek Harness chat windows inside VS Code (OpenCode-style independent sessions, model auto-routing)",
+  "keywords": [],
+  "license": "",
+  "repo": "https://github.com/DoggyHU/dsh4vscode",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-dsh4vscode",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "DoggyHU/dsh4vscode",
+    "open_issues": 2,
+    "pushed_at": "2026-08-16T13:23:09Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 25,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 27,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:44.868Z"
+}

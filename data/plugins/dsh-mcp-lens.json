@@ -30,17 +30,30 @@
   },
   "readme": "# DeepSeek Harness 的 MCP Lens\n\n[English](README.md) | 简体中文\n\n[![verify](https://github.com/labmimors/dsh-mcp-lens/actions/workflows/verify.yml/badge.svg)](https://github.com/labmimors/dsh-mcp-lens/actions/workflows/verify.yml)\n[![release](https://img.shields.io/github/v/release/labmimors/dsh-mcp-lens?include_prereleases)](https://github.com/labmimors/dsh-mcp-lens/releases)\n[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![DeepSeek Harness](https://img.shields.io/badge/DeepSeek%20Harness-developer%20preview-5B5BD6)](https://github.com/deepseek-ai/deepseek-harness)\n\n**把大型 MCP 工具库收缩成模型只看见的两个工具。**\n\nMCP Lens 让 DeepSeek Harness 通过两个稳定入口搜索并调用 1,000 个远端工具。它不会在每轮请求中塞入全部工具 Schema，而是只在真正需要工具时，为少量排序候选揭示准确 Schema。\n\n用户最关心的四件事：\n\n- 更省输入成本：在带日期的三任务实测里，DeepSeek V4 Flash 预估费用从 `$0.03",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T20:06:27.680Z",
   "created_at": "2026-08-15T20:06:27.373Z",
-  "gh": null,
+  "gh": {
+    "full_name": "labmimors/dsh-mcp-lens",
+    "open_issues": 4,
+    "pushed_at": "2026-08-15T23:48:43Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
-    "quality": 75,
+    "maintenance": 40,
+    "quality": 85,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 38,
-    "grade": "D"
+    "overall": 48,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:44.329Z"
+  "updated_at": "2026-08-17T04:57:50.022Z"
 }

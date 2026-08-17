@@ -26,6 +26,7 @@
   "engines": {},
   "readme": "# dsh-license-guard · 依赖许可证合规\n\n扫描项目 `node_modules` 中每个依赖的许可证，归一化为 **SPDX 标识**，按「宽松 / 弱传染 / 强传染 / 未知 / 未授权」分类，并支持发布前的**允许/禁止策略校验**。纯 Node 实现，无网络、无外部服务。\n\n## 提供的工具\n\n| 工具 | 作用 |\n|---|---|\n| `license_scan` | 扫描全部依赖许可证，分类汇总 |\n| `license_check` | 按允许/禁止策略校验，返回违规依赖 |\n\n## 安装\n\n```bash\ndsh plugin add dsh-license-guard\n```\n\n安装后在 profile 的 `package.json` 的 `dsh.profile.bundles` 中加入 `\"dsh-license-guard\"`。\n\n## 用法示例\n\n```\n看看这个项目依赖的许可证构成\n→ 调用 license_scan(root=\"/workspace\")\n\n发布前做一次合规门禁\n→ 调用 license_check(root=\"/workspace\", deny=[\"AGPL-3.0\"])\n```\n\n## 默认策略\n\n- **默认允许**：MIT、Apache-2.0、ISC、BSD、0BSD、Zlib、Unlicense、CC0-1.0 等宽松许可证。\n- **默认禁止**：GPL-3.0、AGPL-3.0、SSPL-1.0、GPL-2.0 等强传染许可证。\n- 未知 / 未授权许可证默认计入违规（可用 `includeUnknown: false` 关闭）。\n\n## 说明\n\n- 许可证识别基于各依赖 `package.json` 的 `license` / `licenses` 字段，识别不到的会标记为「未知」。\n-",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T10:13:32.490Z",
   "created_at": "2026-08-16T10:13:32.268Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.322Z"
+  "updated_at": "2026-08-17T04:58:29.972Z"
 }

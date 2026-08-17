@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-mcp-sentinel",
+  "name": "dsh-mcp-sentinel",
+  "version": "0.0.0",
+  "description": "Harness agent plugin that acts as a sentinel between the AI agent and MCP servers — polling long-running tasks so token-costly status loops never enter the LLM inference path",
+  "keywords": [
+    "opencode-plugin"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/GCS-ZHN/mcp-sentinel",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-mcp-sentinel",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "GCS-ZHN/mcp-sentinel",
+    "open_issues": 10,
+    "pushed_at": "2026-08-16T14:58:49Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:24.822Z"
+}

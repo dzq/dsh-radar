@@ -1,0 +1,56 @@
+{
+  "slug": "dsh-continual-evolve",
+  "name": "dsh-continual-evolve",
+  "version": "0.1.1",
+  "description": "Continual self-evolution plugin for DeepSeek Harness: versioned, auditable, rollback-safe harness state (prompt notes, memories, skills, subagent specs) refined from session trajectories.",
+  "keywords": [
+    "ai-agent",
+    "deepseek-harness",
+    "deepseek-harness-plugin",
+    "dsh",
+    "dsh-plugins",
+    "self-evolving-agents",
+    "typescript"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/ZK-Andy/dsh-continual-evolve.git",
+  "homepage": "https://github.com/ZK-Andy/dsh-continual-evolve",
+  "npm": "https://www.npmjs.com/package/dsh-continual-evolve",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "readme": "# dsh-continual-evolve\n\n[English](README.md) | 中文\n\n[![awesome · DSH plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n[![npm](https://img.shields.io/npm/v/dsh-continual-evolve)](https://www.npmjs.com/package/dsh-continual-evolve)\n[![CI](https://github.com/ZK-Andy/dsh-continual-evolve/actions/workflows/ci.yml/badge.svg)](https://github.com/ZK-Andy/dsh-continual-evolve/actions/workflows/ci.yml)\n[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![Node](https://img.shields.io/badge/node-%5E22.19%20%7C%7C%20%3E%3D24-339933)](package.json)\n[![Tests](https://img.shields.io/badge/tests-184%20passing-brightgreen)]()\n[![Status](https://img.shields.io/badge/status-all%20phases%20complete%20%C2%B7%20maintenance-ff69b4)]()\n\n[DeepSeek Harness",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T18:28:22.254Z",
+  "created_at": "2026-08-15T14:54:56.735Z",
+  "gh": {
+    "full_name": "ZK-Andy/dsh-continual-evolve",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T22:38:51Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 65,
+    "dsh_compat": 75,
+    "overall": 48,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:56:10.011Z"
+}

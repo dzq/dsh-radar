@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-tool-calculator",
+  "name": "dsh-tool-calculator",
+  "version": "0.0.0",
+  "description": "DSH 计算器工具插件：安全的数学表达式求值器，零依赖递归下降解析器",
+  "keywords": [
+    "calculator",
+    "dsh",
+    "expression-evaluator",
+    "math"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/omdsh-dev/dsh-tool-calculator",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-tool-calculator",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "omdsh-dev/dsh-tool-calculator",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T03:10:54Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 45,
+    "security": 40,
+    "dsh_compat": 30,
+    "overall": 29,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:08.115Z"
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "dsh-usage-meter",
+  "name": "dsh-usage-meter",
+  "version": "0.1.1",
+  "description": "DSH（DeepSeek Harness）模型用量仪表盘插件：按服务商/模型汇总全部会话 token 用量（assistant/message 带 usage 事件），设置页「用量」板块展示，含今日/7天/30天趋势柱状图。",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "bundle",
+    "usage",
+    "token",
+    "dashboard"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/V-dev-388/dsh-usage-meter.git",
+  "homepage": "https://github.com/V-dev-388/dsh-usage-meter#readme",
+  "npm": "https://www.npmjs.com/package/dsh-usage-meter",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ]
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-usage-meter\n\nDSH（DeepSeek Harness）模型用量仪表盘插件。在设置页新增「用量」板块，按服务商/模型汇总全部会话的 token 用量，支持今日 / 近 7 天 / 近 30 天三档时间范围趋势图。\n\n- 官方 bundle 格式：`package.json` 声明 `dsh.bundle`，随 `dsh plugin add` 自动加入 profile 层栈\n- 零外部依赖：Host 端只用官方 Cordis 服务（`sessions` / `fs` / `sessionQuery` / `webServer`）与官方内置包 `@deepseek-ai/dsh-home-paths`，不 import 任何第三方包\n- 历史回放走官方 `ctx.sessionQuery`（live-preferred 语料），持久层内部完成 zstd 解压与回放校验，不依赖外部命令\n- 数据落盘 `$DSH_HOME/storages/usage-meter.json`，经 `ctx.fs.writeText` 原子写（tmp + rename）\n- 完全被动：只在本机监听会话事件，不联网、无遥测\n\n## 功能\n\n- 汇总卡：请求数 / 总 Token / 缓存命中率 / 输入 / 输出 / 缓存读取\n- 时间范围：今日（24 根小时柱）/ 近 7 天 / 近 30 天（按天柱），本地时区切日\n- 服务商表、模型表：请求数、输入、输出、缓存读取、总 Token\n- 60s 自动轮询 + 手动刷新\n- 全部会话都计入（含子 agent 会话）\n\n## 数据口径\n\n- 只统计 `assistant/message` 且带 `usage` 的事件（失败请求无 message，不计）\n- 归属取 `data.message.source.provider /",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T06:31:22.642Z",
+  "created_at": "2026-08-15T02:40:32.548Z",
+  "gh": {
+    "full_name": "V-dev-388/dsh-usage-meter",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T06:23:06Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:58:10.406Z"
+}

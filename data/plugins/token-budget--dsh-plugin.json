@@ -26,6 +26,7 @@
   "engines": {},
   "readme": "# dsh-token-budget\n\nDeepSeek Harness 插件 — 通过读取企划书 / 半成品项目 / 资料，预估 LLM token 消耗量并按各家定价实时计费。\n\n## 安装\n\n```bash\ndsh plugin --profile web add dsh-token-budget@0.1.0\ndsh web\n```\n\n或本地开发：\n\n```bash\ndsh web --patch ./cordis.patch.yml\n```\n\n## 注册给 Agent 的工具\n\n| 工具名 | 用途 |\n|---|---|\n| `estimate-tokens` | 估算单模型 token 数 |\n| `estimate-cost` | 多模型对比 + Markdown/JSON 成本报告 |\n| `list-models` | 列出所有支持模型 |\n| `list-pricing` | 列出定价（含分段定价） |\n\n## 配置\n\n`cordis.patch.yml`:\n\n```yaml\n- insert:\n    - id: dsh-token-budget\n      name: ${DSH_PLUGIN_DIR}/src/index.js\n      config:\n        displayCurrency: USD              # USD 或 CNY\n        defaultCacheHitRatio: 0            # 0-1\n        defaultOutputRatio: 0.3            # 输出/输入比\n        forceHeuristic: false              # 强制启发式\n        pricingOverrides:                  # ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T14:10:12.922Z",
   "created_at": "2026-08-16T14:10:12.600Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.735Z"
+  "updated_at": "2026-08-17T04:58:36.563Z"
 }

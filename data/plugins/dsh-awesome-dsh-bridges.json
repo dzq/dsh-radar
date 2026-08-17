@@ -1,0 +1,39 @@
+{
+  "slug": "dsh-awesome-dsh-bridges",
+  "name": "dsh-awesome-dsh-bridges",
+  "version": "0.0.0",
+  "description": "Bridge your favorite AI coding tools into DeepSeek Harness",
+  "keywords": [
+    "awesome-list",
+    "deepseek-harness"
+  ],
+  "license": "",
+  "repo": "https://github.com/YYTbit/awesome-dsh-bridges",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-awesome-dsh-bridges",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "YYTbit/awesome-dsh-bridges",
+    "open_issues": 1,
+    "pushed_at": "2026-08-13T15:32:33Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 15,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 24,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:32.261Z"
+}

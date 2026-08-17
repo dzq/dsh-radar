@@ -36,6 +36,7 @@
   "engines": {},
   "readme": "# dsh-codex-migrate\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/polarskicpl/dsh-codex-migrate/main/images/banner.png\" alt=\"dsh-codex-migrate banner\" width=\"520\">\n</div>\n\n把 [Codex CLI](https://github.com/openai/codex) 的历史迁移进\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)(DSH):\n\n- **对话 → 真正的 DSH 会话**:用户轮次、助手轮次与工具调用按 DSH 原生事件格式\n  转换(工具卡片默认折叠),按项目挂载到对应工作区,侧边栏直接可见、可续聊。\n- **MCP 服务器 → 注册行**:`config.toml` 的 `[mcp_servers.*]` 变成\n  `@deepseek-ai/dsh-mcp-client` cordis 行,并生成一段可直接复制给任意 agent 的\n  **注册提示词**,让 agent 帮你完成注册。\n- **记忆与 AGENTS.md**:复制到输出目录。\n- **项目文件(可选)**:按项目复制文本文件。\n\n内置中英双语(界面跟随 DSH 语言;生成产物跟随 `language` 配置)。\n\n## 安装\n\n```bash\ndsh plugin --profile web add dsh-codex-migrate\n```\n\n(或手动把 `cordis.patch.yml` 里的行合并进你的 profile patch),然后重启 DSH。\n设置面板位于 **设置 → C",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T12:47:58.892Z",
   "created_at": "2026-08-15T11:51:36.160Z",
   "gh": null,
@@ -48,5 +49,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.449Z"
+  "updated_at": "2026-08-17T04:58:32.702Z"
 }

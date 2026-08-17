@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-personalize",
+  "name": "dsh-personalize",
+  "version": "0.0.0",
+  "description": "Per-host personalization for DSH: custom instructions, local long-term memory, and reply-tone presets.",
+  "keywords": [
+    "deepseek-harness",
+    "deepseek-harness-plugin",
+    "deepseek-harness-plugins",
+    "dsh",
+    "personalization",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Zephyr-vibe/dsh-personalize",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-personalize",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Zephyr-vibe/dsh-personalize",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T14:31:59Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:26.266Z"
+}

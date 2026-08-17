@@ -30,6 +30,7 @@
   },
   "readme": "# dsh-poison-guard\n\n[![CI](https://github.com/zoahdev/dsh-poison-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/zoahdev/dsh-poison-guard/actions/workflows/ci.yml)\n[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![Release](https://img.shields.io/badge/release-v0.2.0-58a6ff.svg)](https://github.com/zoahdev/dsh-poison-guard/releases)\n\nPre-install supply-chain **poison scanner** for DeepSeek Harness plugins. It is\nnot a toy regex grep: it runs three layers on every plugin before you `dsh plugin add` it —\n\n1. **AST analysis** via [NodeSecure JS-X-Ray](https://github.com/NodeSecure/js-x-ray)\n   (the SAST used by NodeSecure CLI): variable tracing, dynamic-import resolution,\n   obfuscator detection, `eval`/`Function`/`vm` sinks, `data-exfiltration`,\n  ",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T14:09:04.623Z",
   "created_at": "2026-08-16T14:09:04.356Z",
   "gh": null,
@@ -42,5 +43,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.473Z"
+  "updated_at": "2026-08-17T04:58:33.233Z"
 }

@@ -24,6 +24,7 @@
   "engines": {},
   "readme": "# @tiyirt/dsh-prompt-order-fix\n\nDeepSeek Harness **确定性 system-prompt section 排序**修复插件。\n\n修复一个真实 bug：DSH 会话恢复（resume / 重启）后，system prompt 的 section 排序\n不稳定，导致 **KV 缓存命中率从 ~99% 暴跌到 ~1%**。\n\n## 问题根因\n\n官方 `@deepseek-ai/dsh-system-prompt` 的 `assemble()` 用稳定排序：\n\n```js\nsections.sort((a, b) => a.order - b.order)\n```\n\n稳定排序意味着：**两个 `order` 相同的 section，按注册（插入）顺序排队**。\n而注册顺序跨 resume/重启不稳定——host 层插件与 preset 层插件的挂载顺序可能\n不同。实测冲突：\n\n| section | 来源插件 | order |\n|---|---|---|\n| `tool:workflow`（`Use the workflow tool ONLY...`） | `@deepseek-ai/dsh-tool-workflow` | **115** |\n| `tool:cordis`（`# Dynamic Cordis Plugins`） | `@deepseek-ai/dsh-tool-cordis` | **115** |\n\n两者都是 `order: 115`，重启后可能互换位置 → system prompt 前缀字节变化 →\nprovider KV 缓存 key 全部失效 → 整段历史全量重算（input 高达数十万 token，\n命中率 1% 上下）。\n\n## 修复方式\n\n本包继承官方 `SystemPrompt` 并覆写 `a",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T21:36:02.793Z",
   "created_at": "2026-08-15T21:36:02.431Z",
   "gh": null,
@@ -36,5 +37,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.626Z"
+  "updated_at": "2026-08-17T04:58:31.981Z"
 }

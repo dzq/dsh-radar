@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-pi-tui",
+  "name": "dsh-pi-tui",
+  "version": "0.1.1",
+  "description": "pi-tui based interactive terminal front door for DeepSeek Harness agents",
+  "keywords": [
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/lqhl/dsh-pi-tui.git",
+  "homepage": "https://github.com/lqhl/dsh-pi-tui#readme",
+  "npm": "https://www.npmjs.com/package/dsh-pi-tui",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19"
+  },
+  "readme": "# dsh-pi-tui\n\n[pi 的 TUI](https://github.com/earendil-works/pi/tree/main/packages/tui)（`@earendil-works/pi-tui`）驱动的 DeepSeek Harness 终端前端：界面是 pi 的观感（品牌蓝 prompt、流式 Markdown、thinking 折叠、工具调用卡片、微分渲染防闪烁），内核（模型路由、工具、会话持久化、slash 命令、审批）全部由 dsh 官方机制提供。\n\n## 安装\n\n前置：官方 [`dsh`](https://github.com/deepseek-ai/deepseek-harness) CLI（`npm i -g @deepseek-ai/dsh`）与 `pnpm`。\n\n```sh\ndsh plugin --profile pi-tui add dsh-pi-tui   # 自动初始化 profile 并挂为 bundle\ndsh --profile pi-tui                          # 新会话\ndsh --profile pi-tui --resume <session-id>    # 恢复指定会话\ndsh --profile pi-tui --resume                 # 从持久化会话列表中选择\ndsh --profile pi-tui --preset <id>            # 选择 agent preset（standard/minimal/code）\ndsh --profile pi-tui --preset                 # 从 preset 列表中选择\n```\n\n会话与 web profile 共享 `~/.dsh/sessions` 持久化存储",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T10:04:54.291Z",
+  "created_at": "2026-08-16T09:59:04.457Z",
+  "gh": {
+    "full_name": "lqhl/dsh-pi-tui",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T15:35:31Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 44,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:56:31.893Z"
+}

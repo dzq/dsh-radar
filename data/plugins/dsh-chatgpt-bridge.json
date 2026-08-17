@@ -1,0 +1,54 @@
+{
+  "slug": "dsh-chatgpt-bridge",
+  "name": "dsh-chatgpt-bridge",
+  "version": "0.3.0",
+  "description": "MCP bridge: lets ChatGPT Web create, view, continue and control DeepSeek Harness (DSH) agent sessions through the official MCP protocol. The bridge only connects; DSH keeps its session, agent, tool, approval and workspace security model.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "mcp",
+    "chatgpt",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/jiezeng2004-design/dsh-chatgpt-bridge.git",
+  "homepage": "https://github.com/jiezeng2004-design/dsh-chatgpt-bridge#readme",
+  "npm": "https://www.npmjs.com/package/dsh-chatgpt-bridge",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "readme": "# dsh-chatgpt-bridge\n\nAn MCP bridge that lets **ChatGPT Web** create, view, continue and supervise\n**DeepSeek Harness (DSH)** agent sessions through the official **Model Context\nProtocol**. v0.3.0 — *Goal Control Plane*. The bridge only\n*connects* — DSH keeps its own session log, agent loop, tools, skills,\nsubagents, workflows, approvals, sandbox and workspace security model. It is a\nstandalone DSH plugin: **zero DSH core modifications**.\n\n> Self-hosted / dogfooding development: implemented against the installed DeepSeek\n> Harness source (`0.1.0-rc.6`) and verified end-to-end against a live local DSH\n> runtime with the official MCP SDK client.\n\n---\n\n# Quick Start\n\nThis gets a new user from zero to a verified ChatGPT ↔ DSH connection. Deep\narchitecture and configuration details follow below",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-15T09:57:45.474Z",
+  "created_at": "2026-08-14T11:57:37.987Z",
+  "gh": {
+    "full_name": "jiezeng2004-design/dsh-chatgpt-bridge",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T15:28:23Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 75,
+    "overall": 46,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:56:30.870Z"
+}

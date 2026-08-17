@@ -26,6 +26,7 @@
   },
   "readme": "# dsh-native-memory\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n\nNative, per-workspace long-term memory for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`): facts and profiles stored on the harness's **own** storage-domain, cross-session recall through **session-query FTS**, **approval-gated** writes, and cited provenance — no external server, no extra runtime dependency.\n\n> ⚠️ Installing a plugin runs third-party code on your machine with your own\n> permissions. Review the source ([`src/`](src)) and [the security model](docs/security.md)\n> before installing.\n\n## Why this one\n\n| | dsh-hermes-memory | dsh-native-memory |\n|---|---|--",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T15:28:31.080Z",
   "created_at": "2026-08-15T06:20:29.529Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:54.832Z"
+  "updated_at": "2026-08-17T04:58:38.679Z"
 }

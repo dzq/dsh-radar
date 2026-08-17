@@ -28,17 +28,25 @@
   },
   "readme": "# dsh-commandcode-provider\n\n面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（dsh）的自定义 LLM 提供方插件，将 dsh 接入 [Command Code](https://commandcode.ai) —— 是 [pi-commandcode-provider](https://github.com/patlux/pi-commandcode-provider) 在 dsh LLM 接缝上的忠实移植。\n\n> **适配 Command Code 全部套餐，包括 $1/月的 Go 套餐。** 即使是唯一没有 Provider API 访问权限的 Go 套餐，Studio 里也给你一个 API key；这个 key 用于 CLI/agent 的鉴权登录。本插件用这个 key 走 Command Code 自己的 `/alpha/generate` 接口，**不是传统的 Provider API 协议**，所以即使套餐没有 Provider API 权限也能用。\n\n> **免责声明：** 这是非官方、社区维护的集成，与 Command Code 无隶属、背书或支持关系。你需要自己的 Command Code 账号。Command Code 的条款、可用性和定价适用。\n\n## 快速开始\n\n**小白友好：安装只要一条命令，插件会自动挂载，不用改任何配置文件。**\n\n### 1. 安装插件\n\n```sh\ndsh plugin --profile <名字> add dsh-commandcode-provider\n```\n\n包声明了 `dsh.bundle`，所以 `dsh plugin add` 安装的同时会自动把它加入 profile 的 bundle 层—",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T11:00:42.406Z",
   "created_at": "2026-08-14T08:33:57.974Z",
-  "gh": null,
+  "gh": {
+    "full_name": "Mars-Sea/dsh-commandcode-provider",
+    "stars": 45,
+    "open_issues": 1,
+    "pushed_at": "2026-08-17T03:31:54Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
+    "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 38,
-    "grade": "D"
+    "overall": 46,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:54.818Z"
+  "updated_at": "2026-08-17T04:55:11.682Z"
 }

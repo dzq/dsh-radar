@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-wanjiqi-meme",
+  "name": "dsh-wanjiqi-meme",
+  "version": "0.0.0",
+  "description": "玩机器(6657直播间)烂梗 Skill：22771条真实弹幕烂梗蒸馏成AI Skill，生成玩机器式弹幕/解说吐槽/CS×DOTA双料梗",
+  "keywords": [
+    "agentskills",
+    "claude-code",
+    "cs2",
+    "csgo",
+    "deepseek-harness",
+    "meme",
+    "skill",
+    "wanjiqi"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Chu-Xin-r/wanjiqi-meme",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-wanjiqi-meme",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Chu-Xin-r/wanjiqi-meme",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T09:19:30Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:09.914Z"
+}

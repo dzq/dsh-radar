@@ -1,0 +1,56 @@
+{
+  "slug": "dsh-billing",
+  "name": "dsh-billing",
+  "version": "0.4.1",
+  "description": "DeepSeek Harness plugin: 账户余额 + 会话费用（命令/工具 + Web UI 悬浮显示）",
+  "keywords": [
+    "billing",
+    "deepseek",
+    "deepseek-api",
+    "deepseek-harness",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/TheTianzz/dsh-billing",
+  "homepage": "https://www.npmjs.com/package/dsh-billing",
+  "npm": "https://www.npmjs.com/package/dsh-billing",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": false
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-billing\n\nDeepSeek Harness 插件：**账户余额** + **会话费用**（人民币），带 Web UI 悬浮显示。\n\n## 功能\n\n| 入口 | 用法 | 说明 |\n| --- | --- | --- |\n| UI 会话头部双胶囊 | 无需操作，常驻显示 | **余额 + 本会话费用** 并排显示在会话标题旁；点击任一胶囊立即刷新两个 |\n| 悬停明细 | 鼠标悬停 | 余额胶囊：充值/赠金/美元；费用胶囊：按模型的 token 与费用拆分 |\n| 斜杠命令 `/balance` | 聊天框输入 `/balance` | 查询账户余额（人民币优先，附美元） |\n| 斜杠命令 `/cost` | 聊天框输入 `/cost` | 当前会话费用明细 |\n| 工具 `deepseek_billing` | 直接问模型\"余额多少/花了多少钱\" | query = `balance` / `cost` / `both` |\n\n## 结构\n\n- `host.js` — 宿主插件：命令 + 工具 + `/billing/{balance,cost}` RPC 通道（供浏览器胶囊轮询）\n- `client.js` — 浏览器 bundle（`__ModuleLoader__` 工厂格式，仅依赖平台共享的 react，无构建步骤）\n  - `conversation.session.header.actions` 槽位（负数 order = 静态会话上下文）→ 余额 + 会话费用双胶囊\n- `package.json` — 声明 `dsh.bundle`（空 patch）+ `dsh.client`（web 平台）\n- `cordis.patch.yml` — 空层；本插件由 profile 的 `cordis.patch.yml` 插入行激活\n\n## 安装（",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T08:35:06.267Z",
+  "created_at": "2026-08-14T08:35:06.029Z",
+  "gh": {
+    "full_name": "TheTianzz/dsh-billing",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T08:52:47Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 65,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 44,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:56:49.136Z"
+}

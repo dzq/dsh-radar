@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-plugin-subhub",
+  "name": "dsh-plugin-subhub",
+  "version": "0.0.0",
+  "description": "Bring third-party subscription accounts into DeepSeek Harness - 为 DeepSeek Harness 接入第三方订阅账户(当前支持 OpenAI / ChatGPT 订阅,更多订阅服务规划中)",
+  "keywords": [
+    "ai-tools",
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "harness",
+    "llm",
+    "nodejs",
+    "openai",
+    "plugin",
+    "subscription"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/kinoward/dsh-plugin-subhub",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-subhub",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "kinoward/dsh-plugin-subhub",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T09:56:26Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:02.392Z"
+}

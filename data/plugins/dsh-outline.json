@@ -1,0 +1,62 @@
+{
+  "slug": "dsh-outline",
+  "name": "dsh-outline",
+  "version": "0.1.2",
+  "description": "DSH web plugin: a realtime conversation outline panel (user questions + markdown headings) for the DeepSeek Harness Web GUI.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugins"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/urzeye/dsh-outline",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-outline",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T12:41:27.841Z",
+  "created_at": "2026-08-14T12:40:44.515Z",
+  "gh": {
+    "full_name": "urzeye/dsh-outline",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T16:35:29Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 42,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:56:15.642Z"
+}

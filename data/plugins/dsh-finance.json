@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-finance",
+  "name": "dsh-finance",
+  "version": "0.0.0",
+  "description": "Finance and accounting workflows for DeepSeek Harness, adapted from Anthropic Finance",
+  "keywords": [
+    "accounting",
+    "deepseek-harness",
+    "finance",
+    "financial-research",
+    "investment-research",
+    "journal-entry",
+    "month-end-close",
+    "portfolio-risk",
+    "reconciliation",
+    "sox"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/zhang787jun/dsh-finance",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-finance",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "zhang787jun/dsh-finance",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T17:05:36Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:12.001Z"
+}

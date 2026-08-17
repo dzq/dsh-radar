@@ -1,0 +1,52 @@
+{
+  "slug": "dsh-deepseek-harness-fnos",
+  "name": "dsh-deepseek-harness-fnos",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness (DeepSeek 官方 agent 浏览器 UI) fnOS 应用 — 本地常驻服务",
+  "keywords": [
+    "agent",
+    "deepseek",
+    "deepseek-harness",
+    "fnos",
+    "fnos-app",
+    "fnos-appcenter",
+    "fnos-nas",
+    "nas",
+    "self-hosted"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/techysy/deepseek-harness-fnos",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-deepseek-harness-fnos",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "techysy/deepseek-harness-fnos",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T17:19:35Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 45,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 31,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:12.284Z"
+}

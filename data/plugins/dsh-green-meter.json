@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-green-meter",
+  "name": "dsh-green-meter",
+  "version": "1.0.1",
+  "description": "Token-profile energy and carbon estimation for agentic sessions",
+  "keywords": [
+    "carbon-footprint",
+    "deepseek-harness",
+    "dsh",
+    "energy",
+    "green-ai",
+    "monitoring",
+    "sustainability"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/deepseek-ai/deepseek-harness.git",
+  "homepage": "https://github.com/deepseek-ai/deepseek-harness#readme",
+  "npm": "https://www.npmjs.com/package/dsh-green-meter",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "# dsh-green-meter\n\nEnergy & carbon estimation for agentic sessions in DeepSeek Harness. The\nplugin observes every model call, converts its token accounting into **energy\n(J/kWh)**, **carbon (g CO2e)** and **electricity cost (CNY)** with calibrated\nper-model profiles, records everything in a JSONL ledger, and exposes the\n`/green` command, the `green_meter` tool, and the live Web readout.\n\nWorks with any API-backed provider — no hardware access needed.\n\n## Surfaces\n\n- **`/green`** — session report: tokens, energy, carbon, cost, per-turn\n  breakdown, cache-savings counterfactual.\n- **`green_meter` tool** — the model can query its own session's energy,\n  carbon, cost and budget.\n- **`greenMeter` session projection + `dsh-client-ui-green-meter`** — the\n  always-visible energy/carbon readout in ",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-14T07:59:02.573Z",
+  "created_at": "2026-08-14T07:54:04.809Z",
+  "gh": {
+    "full_name": "deepseek-ai/deepseek-harness",
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T13:00:21Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 36,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:48.352Z"
+}

@@ -27,17 +27,25 @@
   "engines": {},
   "readme": "# dsh-side-panel\n\nA right-side developer panel for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) web UI (`dsh web`). It adds a collapsible side panel with three tabs:\n\n- **Files** — browse the current session's working directory; click a text/code file to preview it in a popup (unsupported formats show a message).\n- **History** — list the current conversation (user messages + assistant replies); click an entry to scroll the chat to it.\n- **VCS** — show `git status` for the current directory as `M` / `A` / `D` / `U` / `R` badges; click a changed file to view its diff.\n\n## Requirements\n\n- A DeepSeek Harness deployment with the **web** profile (`dsh web`).\n- `git` on `PATH` (for the VCS tab).\n\n## Installation\n\nThe plugin is distributed as a DeepSeek Harness bundle. I",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-13T15:40:04.900Z",
   "created_at": "2026-08-13T15:40:04.441Z",
-  "gh": null,
+  "gh": {
+    "full_name": "ccq1/dsh-side-panel",
+    "stars": 15,
+    "open_issues": 1,
+    "pushed_at": "2026-08-14T17:45:41Z",
+    "archived": true,
+    "license": "BSD-3-Clause"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
+    "maintenance": 39,
     "quality": 75,
-    "security": 50,
+    "security": 20,
     "dsh_compat": 80,
-    "overall": 39,
-    "grade": "D"
+    "overall": 42,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:47.723Z"
+  "updated_at": "2026-08-17T04:55:44.319Z"
 }

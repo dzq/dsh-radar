@@ -26,6 +26,7 @@
   },
   "readme": "# dsh-anywhere-claude-mem\n\nA [DeepSeek Harness](https://github.com/deepseek-ai) plugin that makes DSH a full\npeer in the **anywhere-claude-mem** cross-machine sync of your `claude-mem` memory.\n\n[![npm](https://img.shields.io/npm/v/@bleed00/dsh-anywhere-claude-mem?label=npm&logo=npm)](https://www.npmjs.com/package/@bleed00/dsh-anywhere-claude-mem)\n[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![Node.js](https://img.shields.io/badge/Node.js-%E2%89%A520.12-339933?logo=node.js&logoColor=white)](https://nodejs.org/)\n[![dsh-plugin](https://img.shields.io/badge/topic-dsh--plugin-555555)](https://github.com/topics/dsh-plugin)\n\nWhen a DeepSeek Harness session starts, this plugin pulls the data repository\ninto the local claude-mem worker — the same `anywhere-claude-mem st",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T12:02:24.850Z",
   "created_at": "2026-08-14T12:02:23.480Z",
   "gh": null,
@@ -38,5 +39,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.617Z"
+  "updated_at": "2026-08-17T04:58:31.719Z"
 }

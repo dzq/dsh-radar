@@ -1,0 +1,36 @@
+{
+  "slug": "dsh-telegram",
+  "name": "dsh-telegram",
+  "version": "0.0.0",
+  "description": "Telegram Bot API 桥接插件：长轮询、per-chat 会话、HTML 格式化",
+  "keywords": [],
+  "license": "",
+  "repo": "https://github.com/LoserFox/telegram",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-telegram",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "LoserFox/telegram",
+    "open_issues": 4,
+    "pushed_at": "2026-08-13T13:11:34Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 15,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 24,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:08.375Z"
+}

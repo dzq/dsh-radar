@@ -28,6 +28,7 @@
   },
   "readme": "# dsh-check-update\n\nDSH 更新检查器（npm 版）——设置页检查 `@deepseek-ai/dsh` 和已装插件是否有新版，有更新时导航标签显示红点提醒。\n\n适配 **npm 全局安装**（`npm install -g @deepseek-ai/dsh`）：只做版本检查 + 更新指引，不做 git pull。\n\n![DSH 更新设置页](https://raw.githubusercontent.com/HuiHuitie-zhu/dsh-check-update/main/docs/settings-update.png)\n\n## 功能\n\n- **设置页「DSH 更新」**：显示 DSH 本体与各插件本地/最新版本对比\n- **导航红点**：任一组件有新版时，设置导航标签带 ● 红点\n- **自动检查**：每 6 小时后台检查一次（结果 10 分钟缓存）\n- **更新指引**：直接给出更新命令（DSH 本体 `npm install -g @deepseek-ai/dsh@latest`；插件 `dsh plugin --profile web update <name>`）\n- **CSRF 防护**：检查接口仅接受 POST，防止任意网页跨站触发\n\n## 安装\n\n```sh\ndsh plugin --profile web add dsh-check-update\n```\n\n本地开发（file: 依赖）：\n\n```sh\ngit clone https://github.com/HuiHuitie-zhu/dsh-check-update.git\n# 在 ~/.dsh/profiles/web/package.json 的 dependencies 中加入：\n#   \"dsh-check-update\": \"file:/path/to/dsh-",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T09:05:10.708Z",
   "created_at": "2026-08-15T08:02:27.408Z",
   "gh": null,
@@ -40,5 +41,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.326Z"
+  "updated_at": "2026-08-17T04:58:30.147Z"
 }

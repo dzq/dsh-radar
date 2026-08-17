@@ -1,0 +1,202 @@
+{
+  "stats": {
+    "total": 20,
+    "by_grade": {
+      "D": 20
+    },
+    "by_compat": 0,
+    "total_weekly_downloads": 0,
+    "generated_at": "2026-08-17T04:53:20.258Z",
+    "build_ms": 62026
+  },
+  "top10": [
+    {
+      "slug": "dsh-open-design",
+      "name": "dsh-open-design",
+      "version": "0.0.0",
+      "description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / ",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 33,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "agent-skills",
+        "ai-design",
+        "byok",
+        "claude-code-for-design",
+        "claude-design"
+      ]
+    },
+    {
+      "slug": "dsh-reactive-resume",
+      "name": "dsh-reactive-resume",
+      "version": "0.0.0",
+      "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 33,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "ai",
+        "better-auth",
+        "hacktoberfest",
+        "javascript",
+        "react"
+      ]
+    },
+    {
+      "slug": "dsh-OpenViking",
+      "name": "dsh-OpenViking",
+      "version": "0.0.0",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 33,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "agent-memory",
+        "agent-plugins",
+        "agentic-rag",
+        "context-database",
+        "self-evolving"
+      ]
+    },
+    {
+      "slug": "dsh-voyager",
+      "name": "dsh-voyager",
+      "version": "0.0.0",
+      "description": "Enhancement suite for Gemini, AI Studio, Claude & ChatGPT — plus a prompt manager for any web UI, DeepSeek Harness included. / 面向 Gemini、AI Studio、Claude 与 ChatGPT 的增强套件；提示词管理器可用于任意 Web UI，含 DeepSeek Harness。",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 33,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "ai-studio",
+        "browser-extension",
+        "bun",
+        "chat-management",
+        "chatgpt"
+      ]
+    },
+    {
+      "slug": "dsh-openpencil",
+      "name": "dsh-openpencil",
+      "version": "0.0.0",
+      "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 33,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "agent",
+        "agent-team",
+        "ai",
+        "claude",
+        "claude-code"
+      ]
+    },
+    {
+      "slug": "dsh-web-ui",
+      "name": "dsh-web-ui",
+      "version": "0.0.0",
+      "description": "Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 33,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "web-ui"
+      ]
+    },
+    {
+      "slug": "dsh-mirage",
+      "name": "dsh-mirage",
+      "version": "0.0.0",
+      "description": "The World's First Unified Virtual Filesystem For AI Agents",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 33,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "agent-sandbox",
+        "agent-tools",
+        "ai-agents",
+        "bash",
+        "claude-code"
+      ]
+    },
+    {
+      "slug": "dsh-EchoBird",
+      "name": "dsh-EchoBird",
+      "version": "0.0.0",
+      "description": "One-click install + model switch:Claude Code,Codex CLI (OpenAI), Grok Build (xAI), DeepSeek Harness, Kimi Code (Moonshot) ,Qwen Code,Aider,OpenCode,MiMo Code (Xiaomi),ZCode (Z.AI),OpenClaw,Pi,OpenScience,Vibe-Trading,Claude Desktop (3P profile),ChatGPT desktop,OpenCode Desktop,",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 33,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "claude-code",
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugins",
+        "kimi-code"
+      ]
+    },
+    {
+      "slug": "dsh-colleague-skill",
+      "name": "dsh-colleague-skill",
+      "version": "0.0.0",
+      "description": "将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills? It's giving rebirth era. Welcome to Digital Life 1.0. 🫶",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 32,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "agent-skills",
+        "ai-agent",
+        "claude-code",
+        "codex",
+        "hermes-agent"
+      ]
+    },
+    {
+      "slug": "dsh-petdex",
+      "name": "dsh-petdex",
+      "version": "0.0.0",
+      "description": "A public gallery of animated pets for Codex, Claude Code, DeepSeek Harness, Hermes, OpenCode, Gemini CLI, and more.",
+      "weekly_downloads": 0,
+      "stars": 0,
+      "grade": "D",
+      "overall": 32,
+      "dsh_compat": false,
+      "last_publish": null,
+      "keywords": [
+        "claude-code",
+        "clerk",
+        "cli",
+        "codex",
+        "developer-tools"
+      ]
+    }
+  ]
+}

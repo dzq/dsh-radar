@@ -29,6 +29,7 @@
   },
   "readme": "# @dsh-ltctfer/dsh-web-search-brave\r\n\r\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）的 **Brave Search API** 网络搜索提供方插件，挂载到官方 web 能力接缝（`ctx.web`）。一次搜索就是一次 HTTP 请求——不需要模型参与，比 DeepSeek 官方提供方（每次搜索消耗一次完整模型轮次）更轻、更快。\r\n\r\n调用 Brave 官方搜索端点 `https://api.search.brave.com/res/v1/web/search`，把结构化 `web.results[]` 映射为接缝规范化的 `WebSearchResult`，模型看到的仍是稳定的 `web_search` 工具。\r\n\r\n## 特性\r\n\r\n- 纯检索端点：一次搜索 = 一次 HTTP 请求，无模型轮次开销；\r\n- 结构化映射：来源严格来自 `web.results[]`，绝不从模型文本中抓取 URL；\r\n- 完整错误语义：HTTP 失败、凭据缺失、调用方取消分别映射为 `WEB_PROVIDER_ERROR` / `WEB_PROVIDER_CREDENTIAL_MISSING` / `WEB_ABORTED`；\r\n- 支持取消（`AbortSignal`）、按调用方 `maxResults` 自动收敛请求条数、按 URL 去重；\r\n- 可选 `country` / `search_lang` / `freshness` 参数；\r\n- **自定义 API key 三选一**：设置页直接填 `apiKey`（最简单）、导出环境变量（默认 `BRAVE_API_KEY`，可改名）、或写入 DSH 凭据文件 —— 把插件分享给别人时，对方只需填入",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T01:47:48.906Z",
   "created_at": "2026-08-14T08:32:25.432Z",
   "gh": null,
@@ -41,5 +42,5 @@
     "overall": 36,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.322Z"
+  "updated_at": "2026-08-17T04:58:29.972Z"
 }

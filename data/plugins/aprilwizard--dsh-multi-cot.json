@@ -20,6 +20,7 @@
   },
   "readme": "# @aprilwizard/dsh-multi-cot\n\n[English](README.md) | 中文\n\nMulti-CoT 通过重复生成并采样思维链，为 dsh 提供近似“并行测试时计算”的能力：同一输入\n并行跑 `samples` 条推理链，由内部投票选出最佳结果，再用它驱动“先计划后执行”或完整的\n“计划 → 执行 → 复检”三阶段工作流。插件只包含纯函数选择核心和稳定的协议提示词，接在\n`agent/pre-step`、`llm/stream`、`agent/turn-stopping` 三个扩展点上，不需要修改 dsh\n源码。\n\n近期通过修改 codex 源码，用 `deepseek-v4-flash` 在隔离环境下用 Terminal-Bench 2.1\n做了开/关对比（baseline = 普通模式，workflow = 多采样三阶段）：\n\n| 题目 | baseline | workflow |\n|---|---|---|\n| write-compressor (hard) | ✅ 685.6s / 2475B / 1.83M in | ✅ 643.5s / 2231B / 1.17M in |\n| cancel-async-tasks (hard) | ❌ 219.8s（5/6 测试过） | ✅ 647.3s |\n| polyglot-rust-c (hard) | ✅ 522.0s | ✅ 1,097.9s |\n| regex-chess (hard) | ✅ 1,075.0s / 6.93M in | ✅ 产物合格，进程 1800s 超时被杀 |\n| sqlite-db-truncate (medium) | ✅ 129.2s | ✅ 598.5s |\n\n单题 GSM8K 对比：正确率不变（26/26），耗时约 29×（4.4s → 126.8",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-13T17:10:21.015Z",
   "created_at": "2026-08-13T17:10:20.630Z",
   "gh": null,
@@ -32,5 +33,5 @@
     "overall": 27,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.439Z"
+  "updated_at": "2026-08-17T04:58:32.518Z"
 }

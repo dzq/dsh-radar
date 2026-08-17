@@ -38,6 +38,7 @@
   },
   "readme": "# dsh-oauth-openai\n\n`dsh-oauth-openai` 是 `dsh-oauth` 的 OpenAI/Codex 提供方插件。它通过 ChatGPT OAuth 获取 Codex 订阅凭据，并把 `openai-codex` 模型路由注册到 DeepSeek Harness。\n\n## 职责边界\n\n- `dsh-oauth`：账号页面、登录会话、机密存储、刷新锁和退出。\n- `dsh-oauth-openai`：OpenAI Codex OAuth 协议、账号解析、刷新和模型适配器。\n- 不复制 Codex CLI 的 `auth.json`，也不把 ChatGPT 订阅令牌当作 OpenAI Platform API Key。\n\n## 安装\n\n开发环境中先构建相邻的 `dsh-oauth`，再把两个本地插件安装到同一 profile：\n\n```sh\ndsh plugin --profile web add ../dsh-oauth .\ndsh web\n```\n\n安装后打开 **设置 → 账号 → OpenAI Codex** 登录。默认 `loginMethod: auto`：本机 `1455` 回调端口可用时采用浏览器回调，否则采用设备码。\n\n```yaml\n- id: llm-openai-codex\n  config:\n    loginMethod: device-code\n    authorizationTimeoutMs: 900000\n    streamIdleTimeoutMs: 300000\n```\n\n登录成功后，模型选择器会出现 `openai-codex` 路由及当前固定版本 `pi-ai` 提供的 Codex 模型目录。\n\n## 从 dsh-openai-codex 迁移\n\n`dsh-openai-codex` 已废弃，由本",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T15:05:21.972Z",
   "created_at": "2026-08-14T15:05:21.640Z",
   "gh": null,
@@ -50,5 +51,5 @@
     "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:46.960Z"
+  "updated_at": "2026-08-17T04:58:33.934Z"
 }

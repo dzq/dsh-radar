@@ -37,17 +37,25 @@
   },
   "readme": "# 📊 dsh-usage-stats\n\n[English](./README.en.md)\n\n> DeepSeek Harness Token 使用情况，一目了然。\n\n[![npm version](https://img.shields.io/npm/v/dsh-usage-stats?style=flat-square&logo=npm)](https://www.npmjs.com/package/dsh-usage-stats)\n[![npm downloads](https://img.shields.io/npm/dm/dsh-usage-stats?style=flat-square)](https://www.npmjs.com/package/dsh-usage-stats)\n[![CI](https://img.shields.io/github/actions/workflow/status/lanlandeli/dsh-usage-stats/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/lanlandeli/dsh-usage-stats/actions)\n[![Node](https://img.shields.io/badge/node-%3E%3D22.19%20%7C%7C%20%3E%3D24-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org)\n[![License](https://img.shields.io/npm/l/dsh-usage-stats?style=flat-square)](./LICENSE)\n\ndsh-usage-sta",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T06:47:35.276Z",
   "created_at": "2026-08-14T05:18:40.317Z",
-  "gh": null,
+  "gh": {
+    "full_name": "lanlandeli/dsh-usage-stats",
+    "stars": 8,
+    "open_issues": 2,
+    "pushed_at": "2026-08-15T06:46:38Z",
+    "archived": false,
+    "license": "NOASSERTION"
+  },
   "scores": {
     "popularity": 0,
-    "maintenance": 0,
+    "maintenance": 39,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 39,
-    "grade": "D"
+    "overall": 46,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:27:46.458Z"
+  "updated_at": "2026-08-17T04:56:44.051Z"
 }

@@ -35,17 +35,18 @@
   },
   "readme": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/chang416/deepsee/main/assets/banner.png\" width=\"100%\" alt=\"DeepSee：为 DeepSeek 提供视觉与模型路由\" />\n</p>\n\n<h1 align=\"center\">DeepSee</h1>\n\n<p align=\"center\"><b>让 DeepSeek 看得见，也知道该用哪个模型。</b></p>\n\n<p align=\"center\">\n  <a href=\"./README.md\">English</a> ·\n  <a href=\"docs/troubleshooting.zh-CN.md\">故障排查</a> ·\n  <a href=\"skills/deepsee/references/configure.zh-CN.md\">配置</a> ·\n  <a href=\"docs/output-schema.zh-CN.md\">输出契约</a> ·\n  <a href=\"docs/security.zh-CN.md\">安全</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://www.npmjs.com/package/@chang416/deepsee\"><img src=\"https://img.shields.io/npm/v/%40chang416%2Fdeepsee?style=flat-square&label=npm&color=cb3837\" alt=\"npm\"></a>\n  <a href=\"https://github.com/chang416/deepsee/actions/workflows/ci.yml\"><im",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-15T05:11:08.974Z",
   "created_at": "2026-08-14T23:30:04.024Z",
   "gh": null,
   "scores": {
     "popularity": 0,
     "maintenance": 0,
-    "quality": 75,
+    "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 39,
+    "overall": 37,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:44.324Z"
+  "updated_at": "2026-08-17T04:58:30.059Z"
 }

@@ -1,0 +1,65 @@
+{
+  "slug": "dsh-file-upload",
+  "name": "dsh-file-upload",
+  "version": "0.4.2",
+  "description": "DeepSeek Harness dual-face plugin: Claude-style drag-and-drop / paperclip uploads, fully bundled document→Markdown (MarkItDown engine, 20+ formats, image OCR), text inlining, voice input, audio transcription (optional ASR), read_document tool.",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "cordis",
+    "plugin",
+    "upload",
+    "drag-and-drop",
+    "attachment",
+    "markdown",
+    "markitdown"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/HongMing-Huang/dsh-file-upload.git",
+  "homepage": "https://github.com/HongMing-Huang/dsh-file-upload#readme",
+  "npm": "https://www.npmjs.com/package/dsh-file-upload",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "readme": "# dsh-file-upload\n\n**DeepSeek Harness (dsh) 文件消息插件。** Claude 桌面端风格的拖拽/回形针文件上传,内容嗅探,文档转 Markdown 全部内置打包(MarkItDown 引擎,20+ 格式,图片 OCR),小文本直插输入框,语音输入,以及供 agent 使用的 `read_document` 工具。\n\n[![npm](https://img.shields.io/npm/v/dsh-file-upload)](https://www.npmjs.com/package/dsh-file-upload)\n[![CI](https://github.com/HongMing-Huang/dsh-file-upload/actions/workflows/ci.yml/badge.svg)](https://github.com/HongMing-Huang/dsh-file-upload/actions/workflows/ci.yml)\n[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n\n[English](README.md) | 中文\n\n> **零配置,安装即用。** 所有功能开箱即用,带合理默认——不需要 Python、不需要下载、不需要挑选后端。唯一可选的是音频文件转写的 ASR 密钥,而它也会从标准的 `OPENAI_API_KEY` 凭据自动检测。\n\n## 功能\n\n- **上传**:composer 回形针按钮 + 全局",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T05:05:40.209Z",
+  "created_at": "2026-08-15T09:08:31.533Z",
+  "gh": {
+    "full_name": "HongMing-Huang/dsh-file-upload",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T08:43:01Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:58:03.807Z"
+}

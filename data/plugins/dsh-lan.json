@@ -1,0 +1,40 @@
+{
+  "slug": "dsh-LAN",
+  "name": "dsh-LAN",
+  "version": "0.0.0",
+  "description": "为DeepSeek  harness开启局域网访问及移动端页面的插件，移动端界面适配",
+  "keywords": [
+    "dsh-desktop",
+    "dsh-plugin-market",
+    "dsh-plugins"
+  ],
+  "license": "",
+  "repo": "https://github.com/MrMu666/dsh-LAN",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-LAN",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "MrMu666/dsh-LAN",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T16:23:43Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 25,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 27,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:02.419Z"
+}

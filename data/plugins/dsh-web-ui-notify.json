@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-web-ui-notify",
+  "name": "dsh-web-ui-notify",
+  "version": "0.0.0",
+  "description": "为 DSH 增加桌面通知提醒",
+  "keywords": [
+    "dsh"
+  ],
+  "license": "BSD-3-Clause",
+  "repo": "https://github.com/bill9109/dsh-web-ui-notify",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-web-ui-notify",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "bill9109/dsh-web-ui-notify",
+    "open_issues": 1,
+    "pushed_at": "2026-08-14T07:40:47Z",
+    "archived": false,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 20,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 25,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:39.321Z"
+}

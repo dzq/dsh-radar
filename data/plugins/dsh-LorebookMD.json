@@ -1,0 +1,43 @@
+{
+  "slug": "dsh-LorebookMD",
+  "name": "dsh-LorebookMD",
+  "version": "0.0.0",
+  "description": "DSH lorebook-driven fiction writer plugin: import Tavern/SillyTavern character cards & world books, save local Markdown settings, generate novel prose referencing the world.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugins",
+    "lorebook",
+    "tavern"
+  ],
+  "license": "",
+  "repo": "https://github.com/609476965/dsh-LorebookMD",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-LorebookMD",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "609476965/dsh-LorebookMD",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T18:34:21Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:56:09.921Z"
+}

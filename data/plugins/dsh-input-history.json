@@ -1,0 +1,44 @@
+{
+  "slug": "dsh-input-history",
+  "name": "dsh-input-history",
+  "version": "0.0.0",
+  "description": "DSH Web 输入历史插件：Ctrl+Up / Ctrl+Down 像终端一样召回与切换已发送消息，零核心改动",
+  "keywords": [
+    "dsh"
+  ],
+  "license": "BSD-3-Clause",
+  "repo": "https://github.com/lhh010/dsh-input-history",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-input-history",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "lhh010/dsh-input-history",
+    "open_issues": 0,
+    "pushed_at": "2026-08-13T13:53:31Z",
+    "archived": false,
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 38,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:44.483Z"
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-plugin-tts",
+  "name": "dsh-plugin-tts",
+  "version": "0.0.0",
+  "description": "Edge TTS voice plugin for DeepSeek Harness: read assistant replies aloud, auto-read toggle, voice settings panel (free, no API key)",
+  "keywords": [
+    "deepseek-harness",
+    "edge-tts",
+    "text-to-speech"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/1624318455/dsh-plugin-tts",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-tts",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "1624318455/dsh-plugin-tts",
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T17:56:30Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:16.441Z"
+}

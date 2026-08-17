@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-spec-loop",
+  "name": "dsh-spec-loop",
+  "version": "0.0.0",
+  "description": "Spec-driven 开发闭环（OpenSpec 兼容）：/spec 命令族驱动 生成规格 → 批准 → 实现 → 逐条验收 → 归档 | Spec-driven dev loop (OpenSpec-compatible) for DeepSeek Harness: /spec drives propose → approve → implement → verify → archive",
+  "keywords": [
+    "deepseek-harness",
+    "openspec",
+    "spec-driven-development"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/tianji-qingtian/dsh-spec-loop",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-spec-loop",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "tianji-qingtian/dsh-spec-loop",
+    "open_issues": 0,
+    "pushed_at": "2026-08-14T09:27:16Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:58:27.586Z"
+}

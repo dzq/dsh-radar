@@ -37,6 +37,7 @@
   },
   "readme": "# dsh-plugin-surgery\n\n> 给 DSH 插件一把手术刀:看得见影响面的安全卸载、一键回滚、重启确认与插件体检。\n\n[![npm version](https://img.shields.io/npm/v/dsh-plugin-surgery?label=npm&color=blue)](https://www.npmjs.com/package/dsh-plugin-surgery)\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://github.com/beancookie/awesome-dsh-plugin)\n\nDeepSeek Harness 的插件\"装容易卸难\":`pnpm remove` 只删依赖,`dsh.profile.bundles` 里\n的插件层条目、node_modules 里的孤儿包、pnpm 元数据残留全都要手工收拾;卸错了没有撤销;\n卸完还要记得重启。**dsh-plugin-surgery 把\"卸载\"变成一台有麻醉、有缝合的手术:**\n\n- **麻醉(dry-run)**:动手前先算清楚影响面——直接依赖、传递依赖、将被清除的孤儿、是否插件层;\n- **缝合(快照/回滚)**:每次操作前自动快照,任何一步失败自动还原,卸错了随时一键回滚;\n- **对账(三方校验)**:卸载后核对 清单(package.json)/ 锁文件(pnpm-lock.yaml)/ node_modules,\n  不一致自动回滚;\n- **查房(restart-pending)**:操作结果落盘,重启后 `pm_status` 确认生效;\n- **体检(pm_doctor)**:专治\"卸不干净\"留下的悬空 bundle 条目、孤儿包、锁文件漂移。\n\n##",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-17T02:58:29.646Z",
   "created_at": "2026-08-16T15:00:49.784Z",
   "gh": null,
@@ -49,5 +50,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.382Z"
+  "updated_at": "2026-08-17T04:58:34.898Z"
 }

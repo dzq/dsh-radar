@@ -24,17 +24,25 @@
   "engines": {},
   "readme": "# dsh-find-plugin [![awesome · DSH plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)\n\n[English](README.md) | 中文\n\n**一个用来找插件的插件**——就像 skills.sh 的 [`/find-skills`](https://skills.sh)，DSH 版。\n\n想要什么能力，直接跟 agent 说（比如\"任务完成时给我发微信通知\"），它就去\nGitHub 上的 DSH 插件生态里帮你搜——按 star 排序，每条带一句话说明和安装\n命令。\n\n<img src=\"https://raw.githubusercontent.com/awesome-dsh-plugin/dsh-find-plugin/main/assets/demo-zh.png\" alt=\"find_dsh_plugin 实际效果\" width=\"640\">\n\n## 安装\n\n```sh\n# npm 包（预构建，推荐）\ndsh plugin --profile web add dsh-find-plugin\n\n# 或从 GitHub 安装\ndsh plugin --profile web add github:awesome-dsh-plugin/dsh-find-plugin\n```\n\n## 使用\n\n安装后重启 `dsh web`，然后直接跟 agent 对话即可——需要找插件时它会自己调用\n`find_dsh_plugin`：\n\n- \"有什么终端 TUI 插件？\"\n- \"我想任务完成时收到微信通知，有插件吗？\"\n- \"找个能在 DSH 里做 git diff 审查的东西。\"\n\n每条结果都带 star 数、功能描述、仓库链接和可直接",
   "weekly_downloads": 1198,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-14T13:18:06.053Z",
   "created_at": "2026-08-14T01:49:39.374Z",
-  "gh": null,
+  "gh": {
+    "full_name": "awesome-dsh-plugin/dsh-find-plugin",
+    "stars": 40,
+    "open_issues": 1,
+    "pushed_at": "2026-08-14T13:17:47Z",
+    "archived": false,
+    "license": "MIT"
+  },
   "scores": {
     "popularity": 77,
-    "maintenance": 0,
+    "maintenance": 39,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 57,
+    "overall": 65,
     "grade": "B"
   },
-  "updated_at": "2026-08-17T04:27:44.211Z"
+  "updated_at": "2026-08-17T04:55:11.682Z"
 }

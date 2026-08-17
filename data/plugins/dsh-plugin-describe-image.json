@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-plugin-describe-image",
+  "name": "dsh-plugin-describe-image",
+  "version": "0.0.0",
+  "description": "DeepSeek Harness plugin: describe_image — give a text-only model vision through an OpenAI-compatible VLM endpoint",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "describe-image",
+    "dsh",
+    "image-understanding",
+    "llm",
+    "multimodal",
+    "qwen-vl",
+    "vision",
+    "vlm"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/whitelonng/dsh-plugin-describe-image",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-plugin-describe-image",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "whitelonng/dsh-plugin-describe-image",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T17:30:44Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:57:11.289Z"
+}

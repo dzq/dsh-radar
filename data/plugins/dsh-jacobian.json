@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-jacobian",
+  "name": "dsh-jacobian",
+  "version": "0.0.0",
+  "description": "Pure mathematics for agents: search for examples and counterexamples, compute exactly, and independently check what a result proves.",
+  "keywords": [
+    "ai-agents",
+    "automated-theorem-proving",
+    "computer-algebra",
+    "cordis",
+    "dsh",
+    "formal-methods",
+    "formal-verification",
+    "lean4",
+    "math",
+    "mcp"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/morluto/jacobian",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-jacobian",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "morluto/jacobian",
+    "open_issues": 227,
+    "pushed_at": "2026-08-17T01:26:15Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 33,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:10.138Z"
+}

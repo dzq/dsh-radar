@@ -1,0 +1,45 @@
+{
+  "slug": "dsh-gomoku",
+  "name": "dsh-gomoku",
+  "version": "0.0.0",
+  "description": "在DSH中与AI下五子棋，也可以让AI对局，看哪个AI棋力更强",
+  "keywords": [
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/omdsh-dev/dsh-gomoku",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-gomoku",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "omdsh-dev/dsh-gomoku",
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T05:42:26Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 35,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:48.931Z"
+}

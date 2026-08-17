@@ -1,0 +1,62 @@
+{
+  "slug": "dsh-im-gateway",
+  "name": "dsh-im-gateway",
+  "version": "0.1.0",
+  "description": "聚合 IM 网关插件（DeepSeek Harness）：把 dsh agent 接入 Telegram / Discord / Slack / 飞书 / 微信 / QQ / WhatsApp / Signal / Teams / LINE / Matrix / Mattermost / Google Chat / IRC / Twitch / Nostr / Nextcloud Talk / Synology Chat / Zalo / iMessage 等 20+ 渠道，统一会话路由、审批桥、白名单与",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "deepseek-harness-plugin",
+    "dsh",
+    "dsh-plugin-market",
+    "dsh-plugins",
+    "gateway",
+    "im-gateway"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/zhuiyueya/dsh-im-gateway",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-im-gateway",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings-general"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "readme": "# 🐋 dsh-im-gateway\n\n<h3 align=\"center\">把 DeepSeek Harness 接入你常用的每一个聊天软件</h3>\n<p align=\"center\">Aggregated IM gateway for <b>DeepSeek Harness (dsh)</b> — drive your coding agents from <b>WeChat, Feishu, Telegram, Discord, QQ</b> and 20+ chat platforms, with unified sessions, remote approvals and one-command setup.</p>\n\n<p align=\"center\">\n  <img alt=\"License\" src=\"https://img.shields.io/badge/license-MIT-4d6bfe\">\n  <img alt=\"Platform\" src=\"https://img.shields.io/badge/platform-DeepSeek%20Harness-4d6bfe\">\n  <img alt=\"Channels\" src=\"https://img.shields.io/badge/channels-24%2B-238636\">\n  <img alt=\"DSH bundle\" src=\"https://img.shields.io/badge/dsh-bundle%20plugin-4d6bfe\">\n  <img alt=\"PRs Welcome\" src=\"https://img.shields.io/badge/PRs-welcome-brightgreen\">\n  <img alt=\"Tests\" src=\"https://img.shi",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T02:08:57.823Z",
+  "created_at": "2026-08-17T02:08:57.592Z",
+  "gh": {
+    "full_name": "zhuiyueya/dsh-im-gateway",
+    "open_issues": 1,
+    "pushed_at": "2026-08-17T02:33:40Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 47,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T04:55:29.833Z"
+}

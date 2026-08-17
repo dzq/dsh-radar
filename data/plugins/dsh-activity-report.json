@@ -34,6 +34,7 @@
   },
   "readme": "# dsh-activity-report\n\nDeepSeek Harness 的本地只读用量面板。它从 DSH 会话事件中统计 Token、请求、Agent 活动、工具调用和性能，在“设置 > 工作活动”中提供可核对的卡片、趋势和分页明细。\n\n当前版本为 alpha。插件不显示金额，不调用模型或服务商接口，也不修改、归档或删除会话。\n\n## 功能\n\n- 按已验证的 IANA 时区自然日查看今天、近 7 天、近 30 天或全部数据。\n- 同时按工作区、服务商和模型筛选。\n- 分开展示未缓存输入、缓存读取、缓存写入、输出和输出中的推理 Token。\n- 展示已计量请求、活跃工作区、活跃会话、Agent Usage、模型耗时、工具耗时、TTFT 覆盖率和缓存复用率。\n- 日趋势可在 Token 与请求数之间切换；服务商和模型明细区分 Agent 与 Compaction 请求来源。\n- 提供工作区、服务商、模型、会话和工具五种分页明细，可搜索和排序。\n- 工具事件没有精确的服务商/模型归因，因此工具维度会禁用这两项筛选，API 对该组合返回 HTTP 400。\n- 统计平均首 Token 时间、输出速度、模型耗时、工具耗时、工具失败日趋势和轮次结果。\n- 导出与当前筛选及分析维度一致的 UTF-8 CSV。\n- 会话行通过 DSH 客户端会话服务打开，不构造私有 URL。\n- 中英文界面、键盘可操作标签页、可聚焦的图表日桶和窄屏布局。\n\n## 安装\n\nGitHub 仓库发布后，可在 DSH Web profile 中添加插件：\n\n```powershell\ndsh plugin --profile web add github:fazhu4/dsh-activity-report\n```\n\n仓库发布前使用本地工作区安装：\n\n```powershell\ndsh plugin --",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T15:47:32.364Z",
   "created_at": "2026-08-16T15:47:32.085Z",
   "gh": null,
@@ -46,5 +47,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:53.069Z"
+  "updated_at": "2026-08-17T04:58:38.054Z"
 }

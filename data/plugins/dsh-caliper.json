@@ -1,0 +1,53 @@
+{
+  "slug": "dsh-caliper",
+  "name": "dsh-caliper",
+  "version": "0.0.0",
+  "description": "Know if your agent skill actually works. A lightweight evaluation harness that tracks a success rate across Claude Code, Codex, Pi, and Hermes.",
+  "keywords": [
+    "ai-agents",
+    "claude-code",
+    "cli",
+    "codex",
+    "dsh-plugin-market",
+    "dsh-plugins",
+    "evals",
+    "evaluation",
+    "hermes",
+    "hermes-agent"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/edonadei/caliper",
+  "homepage": "https://pypi.org/project/caliper-eval/",
+  "npm": "https://www.npmjs.com/package/dsh-caliper",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "edonadei/caliper",
+    "open_issues": 7,
+    "pushed_at": "2026-08-05T04:32:54Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 35,
+    "quality": 55,
+    "security": 40,
+    "dsh_compat": 30,
+    "overall": 30,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:12.953Z"
+}

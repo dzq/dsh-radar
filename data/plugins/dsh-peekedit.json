@@ -29,6 +29,7 @@
   },
   "readme": "# dsh-peekedit\n\n[![npm version](https://img.shields.io/npm/v/dsh-peekedit.svg)](https://www.npmjs.com/package/dsh-peekedit)\n[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n\n[English](README.md) · **简体中文**\n\n为 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness)（`dsh`）增强的文件工具**和文件浏览器**。\n\n源码：<https://github.com/lhp343969656/dsh-peekedit> · 问题反馈：<https://github.com/lhp343969656/dsh-peekedit/issues>\n\n## 功能一览\n\n**面向模型的文件工具**——对内置的 `read` / `write` / `edit` 工具是补充而非替代，共用同一个 `ctx.fs` 服务、`fs/*` 策略事件和沙箱约束：\n\n| 工具 | 用途 |\n|---|---|\n| `peek` | 按行窗口（`view_range`）查看文件，或查看最多 2 层深的目录。输出带行号、总行数，长输出自动截断并提示。 |\n| `peek_edit` | 修改已有文件：唯一字面量的 `str_replace` 或按行 `insert`。 |\n| `peek_write` | 新建文件或覆盖已有文件。 |\n\n**文件浏览器界面**（Web 客户端）：会话头部新增\"📁 文件\"按钮，打开侧边抽屉展示当前会话的工作目录——点进文件夹、点文件预览",
   "weekly_downloads": 0,
+  "monthly_downloads": 0,
   "last_publish": "2026-08-16T13:31:49.251Z",
   "created_at": "2026-08-16T13:17:24.532Z",
   "gh": null,
@@ -41,5 +42,5 @@
     "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:27:47.701Z"
+  "updated_at": "2026-08-17T04:58:35.512Z"
 }

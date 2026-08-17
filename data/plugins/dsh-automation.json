@@ -1,0 +1,50 @@
+{
+  "slug": "dsh-automation",
+  "name": "dsh-automation",
+  "version": "0.0.0",
+  "description": "DSH 自动化插件：让 Coding 任务按计划在全新 Agent Session 中运行，并由用户或 Agent 创建和管理定时任务。 / Run coding tasks in fresh Agent sessions and manage schedules from DSH Web or an Agent.",
+  "keywords": [
+    "automation",
+    "coding-agent",
+    "cordis",
+    "deepseek-harness",
+    "dsh",
+    "dsh-bundle",
+    "scheduled-tasks"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/titanwings/dsh-automation",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-automation",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "titanwings/dsh-automation",
+    "open_issues": 3,
+    "pushed_at": "2026-08-14T06:43:27Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 0,
+    "maintenance": 39,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T04:55:11.178Z"
+}
