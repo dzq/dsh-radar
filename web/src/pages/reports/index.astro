@@ -26,25 +26,40 @@ const pastReports: any[] = [];
       <strong>新增插件</strong> · <strong>头部变化</strong> · <strong>等级变化</strong> · <strong>下载趋势</strong> · <strong>本周看点</strong>。
     </div>
 
-    {/* 最新周报卡片 */}
-    <div class="info-block" style="margin-top:32px;border-top:3px solid var(--accent);">
-      <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
-        <span style="background:var(--accent);color:#0a0e1a;padding:4px 12px;border-radius:6px;font-weight:700;font-size:13px;">最新</span>
-        <span style="color:var(--text-mute);font-size:13px;">{currentReport.date}</span>
-      </div>
-      <h3 style="font-size:24px;color:var(--text);margin-bottom:8px;">{currentReport.title}</h3>
-      <p style="color:var(--text-dim);">{currentReport.summary}</p>
-      <a href={`/reports/${currentReport.id}`} class="btn btn-primary" style="margin-top:16px;">阅读全文 →</a>
-    </div>
+    {/* 周报 + 日报 并排卡片 */}
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-top:32px;">
 
-    {/* 日报入口 */}
-    <a href="/reports/daily" class="info-block" style="margin-top:16px;text-decoration:none;border-left:3px solid var(--link);">
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">
-        <span style="font-size:13px;">📅 每日</span>
-      </div>
-      <h3 style="font-size:20px;color:var(--text);">日报</h3>
-      <p style="color:var(--text-dim);font-size:14px;margin-top:4px;">每日数据快照 · 新增/跌出插件 · 趋势变化</p>
-    </a>
+      {/* 周报 */}
+      <a href={`/reports/${currentReport.id}`} style="background:var(--bg-elev);border:1px solid var(--border);border-radius:12px;padding:24px;text-decoration:none;display:flex;flex-direction:column;gap:12px;transition:border-color 0.15s;box-shadow:var(--shadow);">
+        <div style="display:flex;align-items:center;gap:8px;">
+          <span style="background:var(--accent);color:#0a0e1a;padding:3px 10px;border-radius:6px;font-weight:700;font-size:12px;">📋 周报</span>
+          <span style="color:var(--text-mute);font-size:12px;">{currentReport.date}</span>
+        </div>
+        <div style="flex:1;">
+          <h3 style="font-size:18px;color:var(--text);margin-bottom:6px;">{currentReport.title}</h3>
+          <p style="color:var(--text-dim);font-size:13px;line-height:1.6;">{currentReport.summary}</p>
+        </div>
+        <div style="padding-top:12px;border-top:1px solid var(--border);">
+          <span style="color:var(--accent);font-size:13px;font-weight:600;">阅读全文 →</span>
+        </div>
+      </a>
+
+      {/* 日报 */}
+      <a href="/reports/daily" style="background:var(--bg-elev);border:1px solid var(--border);border-radius:12px;padding:24px;text-decoration:none;display:flex;flex-direction:column;gap:12px;transition:border-color 0.15s;box-shadow:var(--shadow);">
+        <div style="display:flex;align-items:center;gap:8px;">
+          <span style="background:var(--accent);color:#0a0e1a;padding:3px 10px;border-radius:6px;font-weight:700;font-size:12px;">📅 日报</span>
+          <span style="color:var(--text-mute);font-size:12px;">每日更新</span>
+        </div>
+        <div style="flex:1;">
+          <h3 style="font-size:18px;color:var(--text);margin-bottom:6px;">每日数据快照</h3>
+          <p style="color:var(--text-dim);font-size:13px;line-height:1.6;">每日更新 · 新增/跌出插件 · 等级分布 · 趋势变化</p>
+        </div>
+        <div style="padding-top:12px;border-top:1px solid var(--border);">
+          <span style="color:var(--accent);font-size:13px;font-weight:600;">查看日报 →</span>
+        </div>
+      </a>
+
+    </div>
 
     {/* 历史列表（占位） */}
     <h2 style="margin-top:48px;font-size:24px;">历史周报</h2>

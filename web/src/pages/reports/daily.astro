@@ -4,175 +4,118 @@ import { loadJson } from '../../lib/paths.mjs';
 
 const stats = await loadJson('stats.json');
 const index = await loadJson('index.json');
-const changelog = await loadJson('changelog.json');
 
-// 取最新快照
-const latest = changelog[0];
-const prev = latest?.prev ? changelog.find((c: any) => c.file === latest.prev) : null;
+// 当前数据
+const total = stats.total;
+const weeklyDl = stats.total_weekly_downloads;
+const compatCount = stats.by_compat;
+const compatRate = ((compatCount / total) * 100).toFixed(1);
 
-// 计算今日新增（相比上一个快照新增的 top10_in）
-const newPlugins = latest?.top10_in || [];
-// 计算今日下跌（top10_out）
-const droppedPlugins = latest?.top10_out || [];
-
-// 今日头部 5
+// 头部插件
 const top5 = index.plugins.slice(0, 5);
 
 // 等级分布
 const gradeDist = [
-  { grade: 'S', count: stats.by_grade.S, color: 'var(--grade-S)', desc: '卓越' },
-  { grade: 'A', count: stats.by_grade.A, color: 'var(--grade-A)', desc: '优秀' },
-  { grade: 'B', count: stats.by_grade.B, color: 'var(--grade-B)', desc: '良好' },
-  { grade: 'C', count: stats.by_grade.C, color: 'var(--grade-C)', desc: '一般' },
-  { grade: 'D', count: stats.by_grade.D, color: 'var(--grade-D)', desc: '待改进' },
+  { grade: 'S', count: stats.by_grade.S || 0, color: 'var(--grade-S)', desc: '卓越' },
+  { grade: 'A', count: stats.by_grade.A || 0, color: 'var(--grade-A)', desc: '优秀' },
+  { grade: 'B', count: stats.by_grade.B || 0, color: 'var(--grade-B)', desc: '良好' },
+  { grade: 'C', count: stats.by_grade.C || 0, color: 'var(--grade-C)', desc: '一般' },
+  { grade: 'D', count: stats.by_grade.D || 0, color: 'var(--grade-D)', desc: '待改进' },
 ];
 
-const today = new Date().toISOString().slice(0, 10);
+// 最新快照时间
+const snapshotTime = new Date(stats.generated_at).toLocaleString('zh-CN', {
+  month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit',
+});
+const today = new Date().toLocaleDateString('zh-CN', { month: '2-digit', day: '2-digit' });
 ---
 <Layout title={`日报 ${today} — DSH Radar`} active="reports">
   <section class="container section" style="padding-top:32px;">
+    {/* 标题栏 */}
     <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">
       <span style="background:var(--accent);color:#0a0e1a;padding:4px 12px;border-radius:6px;font-weight:700;font-size:13px;">日报</span>
-      <span style="color:var(--text-mute);font-size:13px;">{today} · 每日自动更新</span>
+      <span style="color:var(--text-mute);font-size:13px;">{today} · 数据更新 {snapshotTime}</span>
     </div>
-    <h1 style="font-size:36px;margin-bottom:8px;">📅 DSH 生态日报</h1>
-    <p class="sub">数据更新于 {new Date(stats.generated_at).toLocaleString('zh-CN')}</p>
+    <h1 style="font-size:36px;margin-bottom:24px;">📅 DSH 生态日报</h1>
 
     {/* 核心指标 */}
-    <div class="stats-grid" style="margin-top:24px;">
+    <div class="stats-grid">
       <div class="stat-card">
-        <span class="num">{stats.total}</span>
+        <span class="num">{total}</span>
         <span class="label">评分插件</span>
       </div>
       <div class="stat-card">
-        <span class="num" style="color:var(--good);">+{newPlugins.length}</span>
-        <span class="label">今日新增</span>
-      </div>
-      <div class="stat-card">
-        <span class="num" style="color:var(--bad);">-{droppedPlugins.length}</span>
-        <span class="label">今日跌出</span>
-      </div>
-      <div class="stat-card">
-        <span class="num">{(stats.total_weekly_downloads / 1000).toFixed(1)}k</span>
+        <span class="num">{(weeklyDl / 1000).toFixed(1)}k</span>
         <span class="label">周下载</span>
+      </div>
+      <div class="stat-card">
+        <span class="num">{compatRate}%</span>
+        <span class="label">DSH 兼容率</span>
       </div>
       <div class="stat-card">
         <span class="num" style="color:var(--grade-S);">{stats.by_grade.S || 0}</span>
         <span class="label">S 级</span>
       </div>
+      <div class="stat-card">
+        <span class="num" style="color:var(--grade-A);">{stats.by_grade.A || 0}</span>
+        <span class="label">A 级</span>
+      </div>
     </div>
 
     {/* 等级分布 */}
     <h2 style="margin-top:48px;font-size:24px;">🏆 等级分布</h2>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px;margin-top:16px;">
+    <div style="display:flex;gap:12px;margin-top:16px;flex-wrap:wrap;">
       {gradeDist.map(g => (
-        <div class="info-block" style="text-align:center;padding:16px;">
-          <div class="grade" style={`background:${g.color};width:40px;height:40px;line-height:40px;border-radius:10px;margin:0 auto 8px;font-size:18px;`}>{g.grade}</div>
-          <div style="font-family:var(--mono);font-size:24px;font-weight:700;color:${g.color};">{g.count}</div>
+        <div style="flex:1;min-width:100px;background:var(--bg-elev);border:1px solid var(--border);border-radius:12px;padding:16px;text-align:center;">
+          <div style={`width:36px;height:36px;line-height:36px;border-radius:8px;background:${g.color};color:#0a0e1a;font-weight:700;font-size:18px;margin:0 auto 8px;`}>{g.grade}</div>
+          <div style="font-family:var(--mono);font-size:24px;font-weight:700;">{g.count}</div>
           <div style="font-size:12px;color:var(--text-mute);margin-top:4px;">{g.desc}</div>
         </div>
       ))}
     </div>
 
-    {/* 今日新增 */}
-    {newPlugins.length > 0 && (
-      <div style="margin-top:48px;">
-        <h2 style="font-size:24px;">🆕 今日新晋插件（Top10 入围）</h2>
-        <p style="color:var(--text-dim);margin-top:4px;">本周综合评分跃入 Top10 的插件</p>
-        <div style="background:var(--bg-elev);border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-top:16px;">
-          {newPlugins.map((slug: string) => {
-            const p = index.plugins.find((x: any) => x.slug === slug);
-            return p ? (
-              <a href={`/plugins/${p.slug}`} class="plugin-row" style="text-decoration:none;">
-                <span class={`grade grade-${p.grade}`}>{p.grade}</span>
-                <div>
-                  <div class="name">{p.name}<span class="version">v{p.version}</span></div>
-                  <div class="desc">{p.description?.slice(0, 80)}…</div>
-                </div>
-                <div class="meta"><strong>{p.overall}</strong>overall</div>
-              </a>
-            ) : null;
-          })}
-        </div>
-      </div>
-    )}
-
-    {/* 今日跌出 */}
-    {droppedPlugins.length > 0 && (
-      <div style="margin-top:48px;">
-        <h2 style="font-size:24px;">📉 今日跌出 Top10</h2>
-        <p style="color:var(--text-dim);margin-top:4px;">本周综合评分退出 Top10 的插件</p>
-        <div style="background:var(--bg-elev);border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-top:16px;">
-          {droppedPlugins.map((slug: string) => {
-            const p = index.plugins.find((x: any) => x.slug === slug);
-            return p ? (
-              <a href={`/plugins/${p.slug}`} class="plugin-row" style="text-decoration:none;opacity:0.7;">
-                <span class={`grade grade-${p.grade}`}>{p.grade}</span>
-                <div>
-                  <div class="name">{p.name}<span class="version">v{p.version}</span></div>
-                  <div class="desc">{p.description?.slice(0, 80)}…</div>
-                </div>
-                <div class="meta"><strong>{p.overall}</strong>overall</div>
-              </a>
-            ) : null;
-          })}
-        </div>
-      </div>
-    )}
-
-    {/* 头部雷达 */}
-    <h2 style="margin-top:48px;font-size:24px;">🏅 头部插件</h2>
-    <p style="color:var(--text-dim);margin-top:4px;">按综合评分排序 Top 5</p>
+    {/* 头部插件 */}
+    <h2 style="margin-top:48px;font-size:24px;">🏅 头部插件 Top 5</h2>
+    <p style="color:var(--text-dim);margin-top:4px;">按综合评分排序</p>
     <div style="background:var(--bg-elev);border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-top:16px;">
       {top5.map((p: any) => (
         <a href={`/plugins/${p.slug}`} class="plugin-row" style="text-decoration:none;">
           <span class={`grade grade-${p.grade}`}>{p.grade}</span>
-          <div>
-            <div class="name">{p.name}<span class="version">v{p.version}</span></div>
-            <div class="desc">{p.description?.slice(0, 80)}…</div>
+          <div style="min-width:0;">
+            <div class="name" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">{p.name}</div>
+            <div class="desc" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">{p.description?.slice(0, 60) || '—'}</div>
           </div>
-          <div class="meta"><strong>{p.weekly_downloads.toLocaleString()}</strong>dl/wk</div>
-          <div class="meta"><strong>{p.overall}</strong>overall</div>
+          <div class="meta" style="flex-shrink:0;"><strong>{p.weekly_downloads.toLocaleString()}</strong> dl/wk</div>
+          <div class="meta" style="flex-shrink:0;"><strong>{p.overall}</strong> 分</div>
         </a>
       ))}
     </div>
 
-    {/* 数据趋势 */}
-    <h2 style="margin-top:48px;font-size:24px;">📈 数据趋势</h2>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:16px;">
-      <div class="info-block">
-        <h3 style="color:var(--text-mute);font-size:12px;text-transform:uppercase;letter-spacing:1px;">插件总量</h3>
-        <div style="font-family:var(--mono);font-size:36px;font-weight:700;color:var(--accent);margin-top:8px;">{stats.total}</div>
-        {latest?.total_delta !== 0 && (
-          <div style={`font-size:14px;color:${latest.total_delta > 0 ? 'var(--good)' : 'var(--bad)'};margin-top:4px;`}>
-            {latest.total_delta > 0 ? '+' : ''}{latest.total_delta} vs 上次
-          </div>
-        )}
-      </div>
-      <div class="info-block">
-        <h3 style="color:var(--text-mute);font-size:12px;text-transform:uppercase;letter-spacing:1px;">周下载量</h3>
-        <div style="font-family:var(--mono);font-size:36px;font-weight:700;color:var(--accent);margin-top:8px;">{(stats.total_weekly_downloads / 1000).toFixed(1)}k</div>
-        {latest?.downloads_delta > 0 && (
-          <div style="font-size:14px;color:var(--good);margin-top:4px;">+{(latest.downloads_delta / 1000).toFixed(1)}k vs 上次</div>
-        )}
-      </div>
-      <div class="info-block">
-        <h3 style="color:var(--text-mute);font-size:12px;text-transform:uppercase;letter-spacing:1px;">DSH 标准插件</h3>
-        <div style="font-family:var(--mono);font-size:36px;font-weight:700;color:var(--accent);margin-top:8px;">{stats.by_compat}</div>
-        {latest?.compat_delta !== 0 && (
-          <div style={`font-size:14px;color:${latest.compat_delta > 0 ? 'var(--good)' : 'var(--bad)'};margin-top:4px;`}>
-            {latest.compat_delta > 0 ? '+' : ''}{latest.compat_delta} vs 上次
-          </div>
-        )}
-      </div>
+    {/* 快速入口 */}
+    <h2 style="margin-top:48px;font-size:24px;">🔍 发现好插件</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:16px;">
+      <a href="/plugins" class="info-block" style="margin:0;text-decoration:none;text-align:center;">
+        <div style="font-size:32px;margin-bottom:8px;">📦</div>
+        <h3 style="font-size:16px;">全部插件</h3>
+        <p style="color:var(--text-dim);font-size:13px;margin-top:4px;">{total} 个插件搜索 / 筛选 / 排序</p>
+      </a>
+      <a href="/authors" class="info-block" style="margin:0;text-decoration:none;text-align:center;">
+        <div style="font-size:32px;margin-bottom:8px;">👥</div>
+        <h3 style="font-size:16px;">活跃作者</h3>
+        <p style="color:var(--text-dim);font-size:13px;margin-top:4px;">按插件数 / Stars 排名</p>
+      </a>
+      <a href="/recipes" class="info-block" style="margin:0;text-decoration:none;text-align:center;">
+        <div style="font-size:32px;margin-bottom:8px;">📋</div>
+        <h3 style="font-size:16px;">实战配方</h3>
+        <p style="color:var(--text-dim);font-size:13px;margin-top:4px;">任务 → 插件组合</p>
+      </a>
     </div>
 
+    {/* 自动生成说明 */}
     <div class="empty" style="margin-top:48px;">
       <h3 style="color:var(--text);margin-bottom:8px;">🤖 自动生成</h3>
-      <p>日报每日由 GitHub Actions 自动抓取最新数据生成。</p>
-      <p style="margin-top:12px;font-size:13px;color:var(--text-mute);">
-        通过 <a href="/feeds/rss.xml">RSS</a> 或 <a href="/subscribe">邮件订阅</a> 每日接收。
-      </p>
+      <p>日报每日由 GitHub Actions 自动抓取 npm + GitHub 数据生成。</p>
+      <p style="margin-top:8px;">订阅方式：<a href="/feeds/rss.xml">RSS</a> · <a href="/subscribe">邮件</a></p>
     </div>
   </section>
 </Layout>
