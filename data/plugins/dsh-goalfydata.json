@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "GoalfyAI/goalfydata",
+    "stars": 9,
     "open_issues": 0,
     "pushed_at": "2026-08-10T14:05:27Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 27,
     "maintenance": 37,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 30,
+    "overall": 37,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:30.310Z"
+  "updated_at": "2026-08-17T05:24:42.939Z"
 }

@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-theme-mineradio",
+  "name": "dsh-theme-mineradio",
+  "version": "0.1.0",
+  "description": "DSH (DeepSeek Harness) Web UI theme — ports the Mineradio music player's dark glassmorphism look (teal/champagne neon) with a cinematic drifting-glow dynamic background.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "theme",
+    "skin",
+    "mineradio",
+    "glassmorphism",
+    "dynamic-background"
+  ],
+  "license": "MIT",
+  "repo": "",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-theme-mineradio",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "platform": "web",
+      "immediately": false,
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ]
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-theme-mineradio\n\n把 **Mineradio**（[github.com/XxHuberrr/Mineradio](https://github.com/XxHuberrr/Mineradio)）的 UI 视觉风格移植成 **DeepSeek Harness (dsh) Web UI 主题插件**。\n\n风格定位：暗色玻璃拟态（Glassmorphism）+ 青/金霓虹，外加一层**电影感漂移光晕的动态背景**。\n\n- 招牌青 `#00F5D4`、香槟金 `#f4d28a`、近黑底 `#08090B`、大量 `backdrop-blur` 与青色微光阴影\n- 动态背景：青 / 金 / 青蓝三团光晕用 CSS `@keyframes` 缓慢漂移，尊重 `prefers-reduced-motion`\n- UI 表面半透明，光晕从缝隙透出，复刻 Mineradio 的「沉浸式」观感\n\n> 仅作视觉风格参考移植，配色与动画为按其公开的 `index.css` 还原；Mineradio 的界面视觉设计与原创表达归原作者所有。\n\n---\n\n## 它到底改了什么（原理）\n\ndsh 的 Web UI 配色是一套两层 CSS 变量：`--dsw-static-*`（静态色板）和 `--dsw-alias-*`（语义别名，100+ 个）。本插件做两件事，全部在**浏览器半（Client half）**完成：\n\n1. **注册主题**：`ctx.theme.register(theme)` 把 Mineradio 配色映射进 `--dsw-alias-*`。注册后主题出现在 dsh 内置「设置 → 外观 / 主题」切换器，选择由 dsh 自己的 `ui-theme` 命名空间持久化（跨重启保留）。\n2. **注入动态背景层**：在 `document.body` 挂一",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T05:09:32.326Z",
+  "created_at": "2026-08-17T05:09:32.002Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 65,
+    "overall": 36,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T05:25:32.881Z"
+}

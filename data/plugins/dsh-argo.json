@@ -20,6 +20,7 @@
   "created_at": null,
   "gh": {
     "full_name": "taxueseek/argo",
+    "stars": 94,
     "open_issues": 5,
     "pushed_at": "2026-08-13T13:58:54Z",
     "archived": false,
@@ -32,13 +33,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 53,
     "maintenance": 38,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 30,
-    "grade": "D"
+    "overall": 43,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:56.736Z"
+  "updated_at": "2026-08-17T05:24:19.882Z"
 }

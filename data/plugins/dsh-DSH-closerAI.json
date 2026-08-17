@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "sb1733831438-maker/DSH-closerAI",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-14T07:00:39Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 39,
     "quality": 55,
     "security": 65,
     "dsh_compat": 30,
-    "overall": 35,
+    "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:58:12.862Z"
+  "updated_at": "2026-08-17T05:25:21.221Z"
 }

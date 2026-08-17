@@ -22,6 +22,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Jolly-J/dsh-deepseek-billing",
+    "stars": 4,
     "open_issues": 1,
     "pushed_at": "2026-08-17T00:53:26Z",
     "archived": false,
@@ -34,13 +35,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
+    "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:58:05.382Z"
+  "updated_at": "2026-08-17T05:25:19.969Z"
 }

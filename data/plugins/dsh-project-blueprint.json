@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "shuguang1994/project-blueprint",
+    "stars": 12,
     "open_issues": 0,
     "pushed_at": "2026-08-14T03:49:42Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 30,
     "maintenance": 39,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 32,
-    "grade": "D"
+    "overall": 40,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:51.054Z"
+  "updated_at": "2026-08-17T05:24:35.103Z"
 }

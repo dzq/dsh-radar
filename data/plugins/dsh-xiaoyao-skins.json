@@ -25,6 +25,7 @@
   "created_at": null,
   "gh": {
     "full_name": "147228/dsh-xiaoyao-skins",
+    "stars": 24,
     "open_issues": 1,
     "pushed_at": "2026-08-14T11:02:03Z",
     "archived": false,
@@ -37,13 +38,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 38,
     "maintenance": 39,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 28,
+    "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:55:23.490Z"
+  "updated_at": "2026-08-17T05:24:28.939Z"
 }

@@ -20,6 +20,7 @@
   "created_at": null,
   "gh": {
     "full_name": "omdsh-dev/dsh-custom-tool",
+    "stars": 24,
     "open_issues": 0,
     "pushed_at": "2026-08-16T05:24:56Z",
     "archived": false,
@@ -32,13 +33,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 38,
     "maintenance": 40,
     "quality": 45,
     "security": 65,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 42,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:21.977Z"
+  "updated_at": "2026-08-17T05:24:28.209Z"
 }

@@ -27,6 +27,7 @@
   "created_at": null,
   "gh": {
     "full_name": "edison7009/EchoBird",
+    "stars": 3046,
     "open_issues": 348,
     "pushed_at": "2026-08-17T03:12:43Z",
     "archived": false,
@@ -39,13 +40,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 94,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 56,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T04:54:33.865Z"
+  "updated_at": "2026-08-17T05:24:13.476Z"
 }

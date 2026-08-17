@@ -21,6 +21,7 @@
   "created_at": null,
   "gh": {
     "full_name": "zhn1100/dsh-forge",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-16T14:30:28Z",
     "archived": false,
@@ -33,13 +34,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 29,
+    "overall": 33,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:58:16.313Z"
+  "updated_at": "2026-08-17T05:25:23.738Z"
 }

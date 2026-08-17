@@ -28,6 +28,7 @@
   "created_at": "2026-08-15T16:49:23.206Z",
   "gh": {
     "full_name": "ZRui-C/dsh-computer-use",
+    "stars": 15,
     "open_issues": 0,
     "pushed_at": "2026-08-14T17:10:31Z",
     "archived": false,
@@ -40,13 +41,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 33,
     "maintenance": 39,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 45,
+    "overall": 54,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:43.020Z"
+  "updated_at": "2026-08-17T05:24:32.869Z"
 }

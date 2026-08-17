@@ -20,19 +20,20 @@
   "created_at": null,
   "gh": {
     "full_name": "yjh051108/dsh-super-injector",
+    "stars": 89,
     "open_issues": 13,
     "pushed_at": "2026-08-15T13:21:42Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 53,
     "maintenance": 39,
     "quality": 0,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 21,
+    "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:54:58.258Z"
+  "updated_at": "2026-08-17T05:24:20.464Z"
 }

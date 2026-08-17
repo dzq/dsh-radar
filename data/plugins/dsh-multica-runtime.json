@@ -20,19 +20,20 @@
   "created_at": null,
   "gh": {
     "full_name": "multica-ai/dsh-multica-runtime",
+    "stars": 42,
     "open_issues": 1,
     "pushed_at": "2026-08-14T09:45:21Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 44,
     "maintenance": 39,
     "quality": 15,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 24,
+    "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:55:12.634Z"
+  "updated_at": "2026-08-17T05:24:24.050Z"
 }

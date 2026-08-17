@@ -20,6 +20,7 @@
   "created_at": null,
   "gh": {
     "full_name": "nutshellai-tech/mobius",
+    "stars": 284,
     "open_issues": 3,
     "pushed_at": "2026-08-16T16:09:48Z",
     "archived": false,
@@ -32,13 +33,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 66,
     "maintenance": 40,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 29,
-    "grade": "D"
+    "overall": 45,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:47.006Z"
+  "updated_at": "2026-08-17T05:24:16.788Z"
 }

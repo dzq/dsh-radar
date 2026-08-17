@@ -24,6 +24,7 @@
   "created_at": null,
   "gh": {
     "full_name": "paean-ai/deeptide",
+    "stars": 1070,
     "open_issues": 1,
     "pushed_at": "2026-07-08T09:37:30Z",
     "archived": false,
@@ -36,13 +37,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 82,
     "maintenance": 26,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 30,
-    "grade": "D"
+    "overall": 50,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:39.348Z"
+  "updated_at": "2026-08-17T05:24:14.873Z"
 }

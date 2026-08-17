@@ -21,6 +21,7 @@
   "created_at": null,
   "gh": {
     "full_name": "keleus/deepseek-pet",
+    "stars": 27,
     "open_issues": 1,
     "pushed_at": "2026-08-15T11:18:29Z",
     "archived": false,
@@ -33,13 +34,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 39,
     "maintenance": 39,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 28,
+    "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:55:19.901Z"
+  "updated_at": "2026-08-17T05:24:27.196Z"
 }

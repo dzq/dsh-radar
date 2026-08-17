@@ -23,6 +23,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Tianyu209/dsh-browser-companion",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-15T17:01:23Z",
     "archived": false,
@@ -35,13 +36,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 39,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 32,
+    "overall": 37,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:58:10.717Z"
+  "updated_at": "2026-08-17T05:25:21.843Z"
 }

@@ -20,6 +20,7 @@
   "created_at": null,
   "gh": {
     "full_name": "pandashere/dsh-self-control-guard",
+    "stars": 5,
     "open_issues": 0,
     "pushed_at": "2026-08-13T15:10:58Z",
     "archived": false,
@@ -32,13 +33,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 21,
     "maintenance": 38,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 30,
+    "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:24.029Z"
+  "updated_at": "2026-08-17T05:24:58.786Z"
 }

@@ -18,6 +18,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Jonah-Wu23/oh-my-dsh",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-15T09:49:52Z",
     "archived": false,
@@ -30,13 +31,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 39,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 28,
+    "overall": 33,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:58:21.145Z"
+  "updated_at": "2026-08-17T05:25:25.415Z"
 }

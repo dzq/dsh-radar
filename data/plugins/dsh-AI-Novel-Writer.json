@@ -6,14 +6,14 @@
   "keywords": [
     "ai-writing",
     "deepseek-harness",
+    "dsh",
     "dsh-plugins",
     "electron",
     "fiction-writing",
     "gemini",
     "local-first",
     "novel-writing",
-    "ollama",
-    "react"
+    "ollama"
   ],
   "license": "GPL-3.0",
   "repo": "https://github.com/EthanYoQ/AI-Novel-Writer",
@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "EthanYoQ/AI-Novel-Writer",
+    "stars": 368,
     "open_issues": 6,
     "pushed_at": "2026-08-16T16:25:44Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 69,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 50,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:45.637Z"
+  "updated_at": "2026-08-17T05:24:16.524Z"
 }

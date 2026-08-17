@@ -30,6 +30,7 @@
   "created_at": "2026-08-16T15:54:12.369Z",
   "gh": {
     "full_name": "neil-ji/dsh-github-connector",
+    "stars": 0,
     "open_issues": 0,
     "pushed_at": "2026-08-16T16:55:07Z",
     "archived": false,
@@ -44,5 +45,5 @@
     "overall": 40,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:57:31.976Z"
+  "updated_at": "2026-08-17T05:25:02.327Z"
 }

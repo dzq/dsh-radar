@@ -27,6 +27,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Chu-Xin-r/wanjiqi-meme",
+    "stars": 6,
     "open_issues": 0,
     "pushed_at": "2026-08-15T09:19:30Z",
     "archived": false,
@@ -39,13 +40,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 23,
     "maintenance": 39,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 32,
+    "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:09.914Z"
+  "updated_at": "2026-08-17T05:24:54.483Z"
 }

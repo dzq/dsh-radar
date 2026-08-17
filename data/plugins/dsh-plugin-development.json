@@ -24,6 +24,7 @@
   "created_at": null,
   "gh": {
     "full_name": "w2112515/dsh-plugin-development",
+    "stars": 9,
     "open_issues": 0,
     "pushed_at": "2026-08-14T15:07:40Z",
     "archived": false,
@@ -36,13 +37,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 27,
     "maintenance": 39,
     "quality": 55,
     "security": 65,
     "dsh_compat": 30,
-    "overall": 35,
-    "grade": "D"
+    "overall": 41,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:56:30.590Z"
+  "updated_at": "2026-08-17T05:24:42.186Z"
 }

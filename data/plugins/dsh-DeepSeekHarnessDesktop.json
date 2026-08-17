@@ -25,6 +25,7 @@
   "created_at": null,
   "gh": {
     "full_name": "wess09/DeepSeekHarnessDesktop",
+    "stars": 45,
     "open_issues": 1,
     "pushed_at": "2026-08-13T18:00:38Z",
     "archived": false,
@@ -37,13 +38,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 45,
     "maintenance": 38,
     "quality": 30,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 27,
+    "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:55:11.576Z"
+  "updated_at": "2026-08-17T05:24:23.697Z"
 }

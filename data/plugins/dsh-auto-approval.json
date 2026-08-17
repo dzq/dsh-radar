@@ -26,19 +26,20 @@
   "created_at": "2026-08-13T13:38:45.087Z",
   "gh": {
     "full_name": "Andy8647/dsh-auto-approval",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-13T13:55:58Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 38,
     "quality": 65,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 43,
+    "overall": 48,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:58:09.109Z"
+  "updated_at": "2026-08-17T05:25:20.397Z"
 }

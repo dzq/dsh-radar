@@ -32,6 +32,7 @@
   "created_at": "2026-08-14T00:01:42.368Z",
   "gh": {
     "full_name": "drfccv/dsh-theme-neko",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-14T00:14:16Z",
     "archived": false,
@@ -44,13 +45,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
-    "maintenance": 39,
+    "popularity": 19,
+    "maintenance": 38,
     "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 44,
+    "overall": 49,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:58:01.374Z"
+  "updated_at": "2026-08-17T05:25:13.568Z"
 }

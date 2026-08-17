@@ -28,6 +28,7 @@
   "created_at": null,
   "gh": {
     "full_name": "songoao25/dsh-bottom-info-bar",
+    "stars": 4,
     "open_issues": 3,
     "pushed_at": "2026-08-16T14:58:10Z",
     "archived": false,
@@ -40,13 +41,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
+    "overall": 37,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:50.900Z"
+  "updated_at": "2026-08-17T05:25:09.574Z"
 }

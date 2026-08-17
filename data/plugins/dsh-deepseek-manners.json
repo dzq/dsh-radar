@@ -20,19 +20,20 @@
   "created_at": null,
   "gh": {
     "full_name": "Moeblack/deepseek-manners",
+    "stars": 13,
     "open_issues": 0,
     "pushed_at": "2026-08-13T13:48:49Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 31,
     "maintenance": 38,
     "quality": 25,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 26,
+    "overall": 34,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:55:50.330Z"
+  "updated_at": "2026-08-17T05:24:34.712Z"
 }

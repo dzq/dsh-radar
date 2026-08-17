@@ -30,6 +30,7 @@
   "created_at": "2026-08-14T03:59:47.366Z",
   "gh": {
     "full_name": "jkrandom-sudo/dsh-plugin-audit",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-14T05:13:18Z",
     "archived": false,
@@ -42,13 +43,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 39,
     "quality": 85,
     "security": 65,
     "dsh_compat": 75,
-    "overall": 50,
+    "overall": 54,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:58:25.657Z"
+  "updated_at": "2026-08-17T05:25:26.284Z"
 }

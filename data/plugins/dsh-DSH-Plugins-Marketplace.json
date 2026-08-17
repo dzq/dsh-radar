@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "bradeGithub/DSH-Plugins-Marketplace",
+    "stars": 99,
     "open_issues": 11,
     "pushed_at": "2026-08-17T03:39:29Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 54,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 46,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:57.095Z"
+  "updated_at": "2026-08-17T05:24:20.195Z"
 }

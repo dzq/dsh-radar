@@ -25,6 +25,7 @@
   "created_at": null,
   "gh": {
     "full_name": "fakechris/dsh-track",
+    "stars": 6,
     "open_issues": 1,
     "pushed_at": "2026-08-16T13:12:22Z",
     "archived": false,
@@ -37,13 +38,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 23,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
+    "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:05.797Z"
+  "updated_at": "2026-08-17T05:24:52.413Z"
 }

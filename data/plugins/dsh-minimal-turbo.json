@@ -23,6 +23,7 @@
   "created_at": null,
   "gh": {
     "full_name": "ChangedenCZD/dsh-minimal-turbo",
+    "stars": 33,
     "open_issues": 0,
     "pushed_at": "2026-08-17T02:40:17Z",
     "archived": false,
@@ -35,13 +36,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 41,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
-    "grade": "D"
+    "overall": 41,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:15.613Z"
+  "updated_at": "2026-08-17T05:24:25.487Z"
 }

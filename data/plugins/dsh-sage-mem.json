@@ -26,6 +26,7 @@
   "created_at": null,
   "gh": {
     "full_name": "gezi-wen/sage-mem",
+    "stars": 4,
     "open_issues": 1,
     "pushed_at": "2026-08-16T14:46:48Z",
     "archived": false,
@@ -38,13 +39,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 30,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 28,
+    "overall": 32,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:59.678Z"
+  "updated_at": "2026-08-17T05:25:10.311Z"
 }

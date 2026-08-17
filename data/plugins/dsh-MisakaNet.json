@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Ikalus1988/MisakaNet",
+    "stars": 393,
     "open_issues": 33,
     "pushed_at": "2026-08-17T04:07:11Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 70,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 50,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:45.346Z"
+  "updated_at": "2026-08-17T05:24:16.108Z"
 }

@@ -21,6 +21,7 @@
   "created_at": null,
   "gh": {
     "full_name": "CAPTAIN1275/dsh-ui-web",
+    "stars": 23,
     "open_issues": 0,
     "pushed_at": "2026-08-16T18:08:27Z",
     "archived": false,
@@ -33,13 +34,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 37,
     "maintenance": 40,
     "quality": 20,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 26,
+    "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:55:23.749Z"
+  "updated_at": "2026-08-17T05:24:28.540Z"
 }

@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "kuangre123/codex-switch",
+    "stars": 67,
     "open_issues": 1,
     "pushed_at": "2026-08-16T09:33:24Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 50,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 45,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:01.641Z"
+  "updated_at": "2026-08-17T05:24:21.424Z"
 }

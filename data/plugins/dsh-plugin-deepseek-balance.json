@@ -18,6 +18,7 @@
   "created_at": null,
   "gh": {
     "full_name": "hnmrxz/dsh-plugin-deepseek-balance",
+    "stars": 5,
     "open_issues": 0,
     "pushed_at": "2026-08-15T02:38:39Z",
     "archived": false,
@@ -30,13 +31,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 21,
     "maintenance": 39,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 28,
+    "overall": 34,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:25.086Z"
+  "updated_at": "2026-08-17T05:24:57.645Z"
 }

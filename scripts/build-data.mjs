@@ -141,19 +141,23 @@ async function fetchGhRepo(owner, repo) {
 
 // ============== 步骤 5：合并来源，处理单个插件 ==============
 async function processOne(gh, npmHit) {
-  // 优先用 GitHub name 推断 npm 包名
+  // 优先用 npm name，GitHub repo 名为备
   let name = npmHit?.name || null;
   if (!name && gh) {
-    // gh name → npm: dsh-foo / @scope/foo
     const repoName = gh.gh_repo;
     name = gh.gh_owner === 'dsh'
       ? repoName.startsWith('@') ? repoName : `dsh-${repoName.replace(/^dsh-/, '')}`
       : repoName.startsWith('@') ? `@${gh.gh_owner}/${repoName.replace(/^dsh-/, '')}` : `dsh-${repoName.replace(/^dsh-/, '')}`;
   }
 
-  const meta = name ? await fetchPkgMeta(name) : null;
+  // npm metadata：查不到不致命，GitHub 数据足够就继续
+  let meta = null;
+  if (name) {
+    meta = await fetchPkgMeta(name);
+    if (meta) await sleep(80);
+  }
+  // gh 和 meta 都为 null 才无法创建插件
   if (!meta && !gh) return null;
-  if (meta) await sleep(80);
 
   const latest = meta ? getLatestVersion(meta) : null;
   const ver = latest && meta?.versions?.[latest] ? meta.versions[latest] : {};
@@ -222,7 +226,7 @@ async function processOne(gh, npmHit) {
     created_at: meta?.time?.created || null,
     gh: ghFinal ? {
       full_name: ghFinal.full_name,
-      stars: ghFinal.stars,
+      stars: stars, // 用局部变量 stars（兼容 stargazers_count）
       open_issues: ghFinal.open_issues || 0,
       pushed_at: ghFinal.pushed_at,
       archived: ghFinal.archived || false,

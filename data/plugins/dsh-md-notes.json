@@ -32,6 +32,7 @@
   "created_at": "2026-08-15T21:28:11.792Z",
   "gh": {
     "full_name": "XieZongChen/dsh-md-notes",
+    "stars": 8,
     "open_issues": 0,
     "pushed_at": "2026-08-16T15:56:03Z",
     "archived": false,
@@ -44,13 +45,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 26,
     "maintenance": 40,
     "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 45,
+    "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:56:40.036Z"
+  "updated_at": "2026-08-17T05:24:44.851Z"
 }

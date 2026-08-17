@@ -23,6 +23,7 @@
   "created_at": null,
   "gh": {
     "full_name": "ZichengGurrr/dsh-window",
+    "stars": 4,
     "open_issues": 1,
     "pushed_at": "2026-08-15T06:24:01Z",
     "archived": false,
@@ -35,13 +36,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 39,
     "quality": 30,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 27,
+    "overall": 32,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:58:04.677Z"
+  "updated_at": "2026-08-17T05:25:18.232Z"
 }

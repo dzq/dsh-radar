@@ -24,6 +24,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Alex-Yanggg/awesome-DSH-plugin",
+    "stars": 67,
     "open_issues": 28,
     "pushed_at": "2026-08-15T03:22:05Z",
     "archived": false,
@@ -36,13 +37,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 50,
     "maintenance": 39,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 32,
-    "grade": "D"
+    "overall": 45,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:00.346Z"
+  "updated_at": "2026-08-17T05:24:21.159Z"
 }

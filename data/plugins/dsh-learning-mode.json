@@ -37,13 +37,13 @@
     "license": "NOASSERTION"
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 39,
     "quality": 55,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 41,
+    "overall": 46,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:57:56.393Z"
+  "updated_at": "2026-08-17T05:25:12.510Z"
 }

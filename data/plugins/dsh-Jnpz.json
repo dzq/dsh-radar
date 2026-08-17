@@ -1,0 +1,54 @@
+{
+  "slug": "dsh-Jnpz",
+  "name": "dsh-Jnpz",
+  "version": "0.0.0",
+  "description": "改配置+重启才能加 MCP？DeepSeek Harness (DSH) 插件「技能配置」解决：设置页粘贴 JSON 即连 MCP 服务器、热加载免重启；上传 zip/.skill 自动识别 SKILL.md，创建/编辑/启停技能，即点即用",
+  "keywords": [
+    "ai-agents",
+    "ai-tools",
+    "deepseek",
+    "deepseek-harness",
+    "developer-tools",
+    "dsh",
+    "hot-reload",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/pazz11/Jnpz",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-Jnpz",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "pazz11/Jnpz",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T13:52:03Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 19,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 37,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T05:25:25.098Z"
+}

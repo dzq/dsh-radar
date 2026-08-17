@@ -47,13 +47,13 @@
     "license": "GPL-3.0"
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 23,
     "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 47,
+    "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:57:04.809Z"
+  "updated_at": "2026-08-17T05:24:51.950Z"
 }

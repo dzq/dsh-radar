@@ -25,6 +25,7 @@
   "created_at": null,
   "gh": {
     "full_name": "NEXTINDIE/DeepSeek-Harness-for-VS-Code",
+    "stars": 4,
     "open_issues": 4,
     "pushed_at": "2026-08-15T20:47:36Z",
     "archived": false,
@@ -37,13 +38,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
+    "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:48.207Z"
+  "updated_at": "2026-08-17T05:25:08.945Z"
 }

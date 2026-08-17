@@ -1,0 +1,49 @@
+{
+  "slug": "dsh-cleverer-dsh",
+  "name": "dsh-cleverer-dsh",
+  "version": "0.0.0",
+  "description": "DSH execution-discipline plugin suite: 11 plugins + 6 skills, zero dependencies, 426 tests. 让 DeepSeek Harness 变聪明的插件套件。",
+  "keywords": [
+    "agent-skills",
+    "ai-agents",
+    "cordis",
+    "deepseek-harness",
+    "dsh"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/Classicoke/cleverer-dsh",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-cleverer-dsh",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "Classicoke/cleverer-dsh",
+    "stars": 5,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T03:52:25Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 21,
+    "maintenance": 40,
+    "quality": 55,
+    "security": 40,
+    "dsh_compat": 30,
+    "overall": 36,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T05:25:08.388Z"
+}

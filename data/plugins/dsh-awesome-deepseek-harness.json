@@ -27,19 +27,20 @@
   "created_at": null,
   "gh": {
     "full_name": "libukai/awesome-deepseek-harness",
+    "stars": 99,
     "open_issues": 24,
     "pushed_at": "2026-08-17T03:51:08Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 54,
     "maintenance": 40,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 29,
-    "grade": "D"
+    "overall": 42,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:56.653Z"
+  "updated_at": "2026-08-17T05:24:19.786Z"
 }

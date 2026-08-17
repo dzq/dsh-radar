@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "amruthpillai/reactive-resume",
+    "stars": 40661,
     "open_issues": 90,
     "pushed_at": "2026-08-16T14:51:18Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 100,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 58,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T04:54:32.285Z"
+  "updated_at": "2026-08-17T05:24:12.105Z"
 }

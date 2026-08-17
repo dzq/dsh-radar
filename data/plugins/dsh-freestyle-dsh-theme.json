@@ -22,6 +22,7 @@
   "created_at": null,
   "gh": {
     "full_name": "suzike/freestyle-dsh-theme",
+    "stars": 11,
     "open_issues": 1,
     "pushed_at": "2026-08-14T06:20:54Z",
     "archived": false,
@@ -34,13 +35,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 29,
     "maintenance": 39,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 30,
+    "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:11.615Z"
+  "updated_at": "2026-08-17T05:24:39.025Z"
 }

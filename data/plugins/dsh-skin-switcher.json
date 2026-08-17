@@ -33,6 +33,7 @@
   "created_at": "2026-08-14T05:20:23.637Z",
   "gh": {
     "full_name": "zhtx2024/dsh-skin-switcher",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-17T02:50:27Z",
     "archived": false,
@@ -45,13 +46,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 65,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 45,
+    "overall": 49,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:58:07.548Z"
+  "updated_at": "2026-08-17T05:25:20.109Z"
 }

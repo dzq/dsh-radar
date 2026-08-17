@@ -20,6 +20,7 @@
   "created_at": null,
   "gh": {
     "full_name": "knqiufan/powercontext-dsh",
+    "stars": 11,
     "open_issues": 0,
     "pushed_at": "2026-08-16T01:54:52Z",
     "archived": false,
@@ -32,13 +33,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 29,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
+    "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:55:58.453Z"
+  "updated_at": "2026-08-17T05:24:36.927Z"
 }

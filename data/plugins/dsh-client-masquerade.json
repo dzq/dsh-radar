@@ -25,6 +25,7 @@
   "created_at": null,
   "gh": {
     "full_name": "ymh0000123/dsh-client-masquerade",
+    "stars": 5,
     "open_issues": 0,
     "pushed_at": "2026-08-16T05:10:56Z",
     "archived": false,
@@ -37,13 +38,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 21,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
+    "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:30.655Z"
+  "updated_at": "2026-08-17T05:25:02.461Z"
 }

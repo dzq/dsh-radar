@@ -21,6 +21,7 @@
   "created_at": null,
   "gh": {
     "full_name": "zhu168/dsh-save-money",
+    "stars": 19,
     "open_issues": 0,
     "pushed_at": "2026-08-17T04:49:23Z",
     "archived": false,
@@ -33,13 +34,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 35,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
+    "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:55:31.023Z"
+  "updated_at": "2026-08-17T05:24:30.926Z"
 }

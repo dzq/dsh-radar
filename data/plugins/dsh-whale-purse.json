@@ -21,6 +21,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Suiwan/whale-purse",
+    "stars": 7,
     "open_issues": 0,
     "pushed_at": "2026-08-16T04:36:19Z",
     "archived": false,
@@ -33,13 +34,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 24,
     "maintenance": 40,
     "quality": 20,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 26,
+    "overall": 32,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:52.012Z"
+  "updated_at": "2026-08-17T05:24:47.668Z"
 }

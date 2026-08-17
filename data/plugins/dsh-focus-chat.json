@@ -20,19 +20,20 @@
   "created_at": null,
   "gh": {
     "full_name": "dingyi222666/dsh-focus-chat",
+    "stars": 18,
     "open_issues": 1,
     "pushed_at": "2026-08-16T09:25:25Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 35,
     "maintenance": 40,
     "quality": 15,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 25,
+    "overall": 33,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:55:34.122Z"
+  "updated_at": "2026-08-17T05:24:31.349Z"
 }

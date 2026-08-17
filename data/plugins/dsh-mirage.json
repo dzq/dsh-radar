@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "strukto-ai/mirage",
+    "stars": 3479,
     "open_issues": 106,
     "pushed_at": "2026-08-17T04:30:16Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 96,
     "maintenance": 40,
     "quality": 45,
     "security": 65,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 57,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T04:54:33.868Z"
+  "updated_at": "2026-08-17T05:24:13.487Z"
 }

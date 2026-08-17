@@ -20,6 +20,7 @@
   "created_at": null,
   "gh": {
     "full_name": "lxzy-7/dsh-plugin-guard",
+    "stars": 6,
     "open_issues": 0,
     "pushed_at": "2026-08-16T15:57:06Z",
     "archived": false,
@@ -32,13 +33,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 23,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
+    "overall": 36,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:09.829Z"
+  "updated_at": "2026-08-17T05:24:54.811Z"
 }

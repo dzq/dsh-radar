@@ -20,6 +20,7 @@
   "created_at": null,
   "gh": {
     "full_name": "alingalingling/ui-status-label",
+    "stars": 37,
     "open_issues": 4,
     "pushed_at": "2026-08-15T08:57:01Z",
     "archived": false,
@@ -32,13 +33,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 43,
     "maintenance": 39,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 28,
+    "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:55:13.958Z"
+  "updated_at": "2026-08-17T05:24:25.220Z"
 }

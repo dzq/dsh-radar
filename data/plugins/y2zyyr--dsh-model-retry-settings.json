@@ -1,0 +1,54 @@
+{
+  "slug": "y2zyyr--dsh-model-retry-settings",
+  "name": "@y2zyyr/dsh-model-retry-settings",
+  "version": "1.0.0",
+  "description": "Configurable model-request retry limit for DeepSeek Harness (Settings → General).",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "retry",
+    "llm",
+    "model",
+    "desktop",
+    "settings",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/y2zyyr/dsh-model-retry-settings.git",
+  "homepage": "https://github.com/y2zyyr/dsh-model-retry-settings#readme",
+  "npm": "https://www.npmjs.com/package/@y2zyyr/dsh-model-retry-settings",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-primitives"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {},
+  "readme": "# dsh-model-retry-settings\n\n直接在 DSH Desktop 设置中配置模型请求失败后的最大自动重试次数。\n\n[English (README.md)](README.md)\n\n## 功能\n\n- **原生 DSH Desktop 设置集成** — 在 **设置 → 通用设置** 中新增偏好行。\n- **全局重试上限** — 一个值应用于所有使用 DSH normal 重试策略的模型 provider。\n- **可选值：** `0 / 1 / 2 / 3 / 5 / 10`\n- **默认值：** `2`（与 DSH 内置默认完全一致——安装插件后不修改设置，行为不变）\n- **持久化配置** — 关闭/重开设置、重启应用后都保留。\n- **配置即时生效** — 修改后下一次失败的模型请求立即生效，无需重启。\n- **保留 DSH 现有行为**：可重试错误分类、指数退避 / 抖动 / provider Retry-After、请求取消、对话重试指示。\n- **无需修改 DSH 核心** — 纯插件实现。\n\n## 设置位置\n\n```\nDSH Desktop\n→ Settings\n→ General\n→ Maximum model request retries   [ 2 ▼ ]\n```\n\n中文：\n\n```\nDSH Desktop\n→ 设置\n→ 通用设置\n→ 模型请求最大重试次数   [ 2 ▼ ]\n```\n\n安装插件后**如果不修改设置**，会保持 DSH 现有默认行为：**`2`**。\n\n## 重试次数定义\n\n> 这里配置的“重试次数”**不包含首次模型请求**。\n\n- `0` = 只进行首次请求，不自动重试\n- `1` = 首次请求失败后最多再重试 1 次\n- `2` = 首次请求失败后最多再重试 2 次\n- `5` = 首次请求失败后最多再重试 ",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T05:04:57.868Z",
+  "created_at": "2026-08-17T05:04:57.485Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T05:25:36.198Z"
+}

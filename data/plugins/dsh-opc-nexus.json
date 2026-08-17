@@ -24,6 +24,7 @@
   "created_at": null,
   "gh": {
     "full_name": "h4dex/opc-nexus",
+    "stars": 21,
     "open_issues": 0,
     "pushed_at": "2026-08-15T21:15:17Z",
     "archived": false,
@@ -36,13 +37,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 36,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 42,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:26.609Z"
+  "updated_at": "2026-08-17T05:24:29.209Z"
 }

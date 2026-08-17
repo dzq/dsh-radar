@@ -24,6 +24,7 @@
   "created_at": null,
   "gh": {
     "full_name": "warmwine/dsh-ui-font",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-16T13:33:39Z",
     "archived": false,
@@ -36,13 +37,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
+    "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:58:21.680Z"
+  "updated_at": "2026-08-17T05:25:25.448Z"
 }

@@ -18,19 +18,20 @@
   "created_at": null,
   "gh": {
     "full_name": "XavierMarquis93/dsh-plugin-conversation-outline",
+    "stars": 5,
     "open_issues": 0,
     "pushed_at": "2026-08-14T14:25:40Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 21,
     "maintenance": 39,
     "quality": 15,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 24,
+    "overall": 30,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:37.977Z"
+  "updated_at": "2026-08-17T05:25:04.240Z"
 }

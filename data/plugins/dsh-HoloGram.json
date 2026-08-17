@@ -23,6 +23,7 @@
   "created_at": null,
   "gh": {
     "full_name": "834063245-creator/HoloGram",
+    "stars": 24,
     "open_issues": 1,
     "pushed_at": "2026-08-16T07:14:19Z",
     "archived": false,
@@ -35,13 +36,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 38,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 42,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:21.618Z"
+  "updated_at": "2026-08-17T05:24:27.867Z"
 }

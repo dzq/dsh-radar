@@ -20,6 +20,7 @@
   "created_at": null,
   "gh": {
     "full_name": "william-jin-cmu/dsh-companion",
+    "stars": 5,
     "open_issues": 0,
     "pushed_at": "2026-08-16T13:39:51Z",
     "archived": true,
@@ -32,13 +33,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 21,
     "maintenance": 40,
     "quality": 45,
     "security": 20,
     "dsh_compat": 30,
-    "overall": 26,
+    "overall": 31,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:39.768Z"
+  "updated_at": "2026-08-17T05:24:57.984Z"
 }

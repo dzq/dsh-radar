@@ -27,6 +27,7 @@
   "created_at": null,
   "gh": {
     "full_name": "shanliuling/skills-link",
+    "stars": 187,
     "open_issues": 1,
     "pushed_at": "2026-05-14T06:44:10Z",
     "archived": false,
@@ -39,13 +40,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 61,
     "maintenance": 14,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 27,
-    "grade": "D"
+    "overall": 43,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:51.293Z"
+  "updated_at": "2026-08-17T05:24:18.145Z"
 }

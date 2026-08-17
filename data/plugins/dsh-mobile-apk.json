@@ -23,6 +23,7 @@
   "created_at": null,
   "gh": {
     "full_name": "kelai141/dsh-mobile-apk",
+    "stars": 61,
     "open_issues": 1,
     "pushed_at": "2026-08-16T18:02:01Z",
     "archived": false,
@@ -35,13 +36,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 48,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 45,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:05.861Z"
+  "updated_at": "2026-08-17T05:24:22.094Z"
 }

@@ -18,19 +18,20 @@
   "created_at": null,
   "gh": {
     "full_name": "DoggyHU/dsh4vscode",
+    "stars": 4,
     "open_issues": 2,
     "pushed_at": "2026-08-16T13:23:09Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 25,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 27,
+    "overall": 31,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:44.868Z"
+  "updated_at": "2026-08-17T05:25:08.946Z"
 }

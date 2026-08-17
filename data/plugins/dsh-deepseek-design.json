@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Devin-AXIS/deepseek-design",
+    "stars": 70,
     "open_issues": 2,
     "pushed_at": "2026-08-17T04:37:46Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 50,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
-    "grade": "D"
+    "overall": 43,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:00.267Z"
+  "updated_at": "2026-08-17T05:24:21.159Z"
 }

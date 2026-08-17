@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "cosyncing/cosyncing",
+    "stars": 12,
     "open_issues": 0,
     "pushed_at": "2026-08-16T18:20:47Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 30,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 40,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:56.548Z"
+  "updated_at": "2026-08-17T05:24:36.295Z"
 }

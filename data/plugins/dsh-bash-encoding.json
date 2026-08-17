@@ -20,6 +20,7 @@
   "created_at": null,
   "gh": {
     "full_name": "lhh010/dsh-bash-encoding",
+    "stars": 7,
     "open_issues": 0,
     "pushed_at": "2026-08-13T13:54:04Z",
     "archived": false,
@@ -32,13 +33,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 24,
     "maintenance": 38,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 30,
+    "overall": 36,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:53.632Z"
+  "updated_at": "2026-08-17T05:24:48.406Z"
 }

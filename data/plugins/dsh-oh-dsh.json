@@ -23,6 +23,7 @@
   "created_at": null,
   "gh": {
     "full_name": "hust-open-atom-club/oh-dsh",
+    "stars": 226,
     "open_issues": 26,
     "pushed_at": "2026-08-16T14:59:56Z",
     "archived": false,
@@ -35,13 +36,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 64,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
-    "grade": "D"
+    "overall": 47,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:48.813Z"
+  "updated_at": "2026-08-17T05:24:17.876Z"
 }

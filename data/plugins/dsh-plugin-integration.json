@@ -23,6 +23,7 @@
   "created_at": null,
   "gh": {
     "full_name": "MutaLucem/dsh-plugin-integration",
+    "stars": 6,
     "open_issues": 0,
     "pushed_at": "2026-08-16T13:29:14Z",
     "archived": false,
@@ -35,13 +36,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 23,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
+    "overall": 36,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:59.072Z"
+  "updated_at": "2026-08-17T05:24:50.479Z"
 }

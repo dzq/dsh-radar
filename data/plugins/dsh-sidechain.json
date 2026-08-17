@@ -24,6 +24,7 @@
   "created_at": null,
   "gh": {
     "full_name": "omdsh-dev/dsh-sidechain",
+    "stars": 9,
     "open_issues": 1,
     "pushed_at": "2026-08-17T03:00:05Z",
     "archived": false,
@@ -36,13 +37,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 27,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
+    "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:24.005Z"
+  "updated_at": "2026-08-17T05:24:40.980Z"
 }

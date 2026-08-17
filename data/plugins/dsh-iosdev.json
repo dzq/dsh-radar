@@ -28,6 +28,7 @@
   "created_at": null,
   "gh": {
     "full_name": "kuangre123/iosdev",
+    "stars": 24,
     "open_issues": 0,
     "pushed_at": "2026-01-09T06:03:17Z",
     "archived": false,
@@ -40,13 +41,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 38,
     "maintenance": 4,
     "quality": 30,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 20,
+    "overall": 30,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:55:24.035Z"
+  "updated_at": "2026-08-17T05:24:28.939Z"
 }

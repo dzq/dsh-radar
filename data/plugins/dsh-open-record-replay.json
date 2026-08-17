@@ -23,6 +23,7 @@
   "created_at": null,
   "gh": {
     "full_name": "humblebanana/open-record-replay",
+    "stars": 138,
     "open_issues": 0,
     "pushed_at": "2026-06-22T10:00:18Z",
     "archived": false,
@@ -35,13 +36,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 58,
     "maintenance": 22,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 29,
-    "grade": "D"
+    "overall": 43,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:53.416Z"
+  "updated_at": "2026-08-17T05:24:18.481Z"
 }

@@ -24,6 +24,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Zhenyu98/dsh-context-doctor",
+    "stars": 12,
     "open_issues": 4,
     "pushed_at": "2026-08-13T16:29:47Z",
     "archived": false,
@@ -36,13 +37,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 30,
     "maintenance": 38,
     "quality": 55,
     "security": 65,
     "dsh_compat": 30,
-    "overall": 34,
-    "grade": "D"
+    "overall": 42,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:54.673Z"
+  "updated_at": "2026-08-17T05:24:35.927Z"
 }

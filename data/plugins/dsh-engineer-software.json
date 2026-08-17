@@ -28,6 +28,7 @@
   "created_at": null,
   "gh": {
     "full_name": "KirschBluteX/engineer-software",
+    "stars": 6,
     "open_issues": 0,
     "pushed_at": "2026-08-15T05:52:34Z",
     "archived": false,
@@ -40,13 +41,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 23,
     "maintenance": 39,
     "quality": 55,
     "security": 40,
     "dsh_compat": 30,
-    "overall": 31,
+    "overall": 37,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:13.124Z"
+  "updated_at": "2026-08-17T05:24:55.087Z"
 }

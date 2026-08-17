@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "wxkingstar/SpecFusion",
+    "stars": 51,
     "open_issues": 0,
     "pushed_at": "2026-08-16T17:45:21Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 46,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 44,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:09.636Z"
+  "updated_at": "2026-08-17T05:24:23.045Z"
 }

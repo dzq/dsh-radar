@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "PM-Shawn/Abu-Cowork",
+    "stars": 330,
     "open_issues": 19,
     "pushed_at": "2026-08-17T02:10:11Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 68,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
-    "grade": "D"
+    "overall": 48,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:45.773Z"
+  "updated_at": "2026-08-17T05:24:16.079Z"
 }

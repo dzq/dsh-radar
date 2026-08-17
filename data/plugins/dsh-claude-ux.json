@@ -21,6 +21,7 @@
   "created_at": null,
   "gh": {
     "full_name": "eri64/dsh-claude-ux",
+    "stars": 43,
     "open_issues": 8,
     "pushed_at": "2026-08-15T18:18:39Z",
     "archived": false,
@@ -33,13 +34,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 44,
     "maintenance": 39,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 30,
-    "grade": "D"
+    "overall": 41,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:12.918Z"
+  "updated_at": "2026-08-17T05:24:24.459Z"
 }

@@ -23,6 +23,7 @@
   "created_at": null,
   "gh": {
     "full_name": "TencentCloud/tencentmeeting-cli",
+    "stars": 217,
     "open_issues": 2,
     "pushed_at": "2026-08-07T13:47:15Z",
     "archived": false,
@@ -35,13 +36,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 63,
     "maintenance": 36,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 28,
-    "grade": "D"
+    "overall": 43,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:48.952Z"
+  "updated_at": "2026-08-17T05:24:17.867Z"
 }

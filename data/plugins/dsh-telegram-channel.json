@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "hi-wenw/dsh-telegram-channel",
+    "stars": 7,
     "open_issues": 4,
     "pushed_at": "2026-08-14T14:41:49Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 24,
     "maintenance": 39,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 32,
+    "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:47.885Z"
+  "updated_at": "2026-08-17T05:24:46.978Z"
 }

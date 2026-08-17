@@ -34,6 +34,7 @@
   "created_at": "2026-08-15T19:07:23.664Z",
   "gh": {
     "full_name": "madage/dsh-self-improved",
+    "stars": 5,
     "open_issues": 1,
     "pushed_at": "2026-08-15T20:59:44Z",
     "archived": false,
@@ -46,13 +47,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 21,
     "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 47,
+    "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:57:43.050Z"
+  "updated_at": "2026-08-17T05:25:08.258Z"
 }

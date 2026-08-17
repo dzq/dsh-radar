@@ -21,6 +21,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Nanki-nn/dsh-answer-pet",
+    "stars": 8,
     "open_issues": 0,
     "pushed_at": "2026-08-16T15:44:25Z",
     "archived": false,
@@ -33,13 +34,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 26,
     "maintenance": 40,
     "quality": 20,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 26,
+    "overall": 32,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:36.402Z"
+  "updated_at": "2026-08-17T05:24:43.580Z"
 }

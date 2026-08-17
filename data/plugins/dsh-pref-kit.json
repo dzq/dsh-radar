@@ -21,6 +21,7 @@
   "created_at": null,
   "gh": {
     "full_name": "gameswu/dsh-pref-kit",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-16T12:39:09Z",
     "archived": false,
@@ -33,13 +34,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 20,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 26,
+    "overall": 30,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:52.911Z"
+  "updated_at": "2026-08-17T05:25:10.588Z"
 }

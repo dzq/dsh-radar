@@ -18,6 +18,7 @@
   "created_at": null,
   "gh": {
     "full_name": "0xsline/dsh-spotlight",
+    "stars": 7,
     "open_issues": 1,
     "pushed_at": "2026-08-14T10:40:39Z",
     "archived": false,
@@ -30,13 +31,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 24,
     "maintenance": 39,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 28,
+    "overall": 34,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:56.000Z"
+  "updated_at": "2026-08-17T05:24:48.719Z"
 }

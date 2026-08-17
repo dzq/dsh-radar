@@ -22,6 +22,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Abyss-Seeker/dsh-plugin-working-status",
+    "stars": 8,
     "open_issues": 0,
     "pushed_at": "2026-08-14T16:13:39Z",
     "archived": false,
@@ -34,13 +35,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 26,
     "maintenance": 39,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 30,
+    "overall": 37,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:43.953Z"
+  "updated_at": "2026-08-17T05:24:45.608Z"
 }

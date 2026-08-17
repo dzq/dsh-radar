@@ -38,6 +38,7 @@
   "created_at": "2026-08-14T16:57:36.403Z",
   "gh": {
     "full_name": "PwnKY/dsh-session-link",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-14T17:26:55Z",
     "archived": false,
@@ -50,13 +51,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 39,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 46,
+    "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:57:58.784Z"
+  "updated_at": "2026-08-17T05:25:12.861Z"
 }

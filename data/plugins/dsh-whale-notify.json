@@ -23,6 +23,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Mochabafey/whale-notify",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-16T08:50:52Z",
     "archived": false,
@@ -35,13 +36,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
+    "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:48.141Z"
+  "updated_at": "2026-08-17T05:25:08.668Z"
 }

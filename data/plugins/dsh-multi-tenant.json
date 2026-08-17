@@ -26,6 +26,7 @@
   "created_at": null,
   "gh": {
     "full_name": "GuoMonth/dsh-multi-tenant",
+    "stars": 4,
     "open_issues": 1,
     "pushed_at": "2026-08-16T02:37:39Z",
     "archived": false,
@@ -38,13 +39,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 55,
     "security": 65,
     "dsh_compat": 30,
-    "overall": 35,
-    "grade": "D"
+    "overall": 40,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:57:57.675Z"
+  "updated_at": "2026-08-17T05:25:13.045Z"
 }

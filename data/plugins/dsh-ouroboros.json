@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Q00/ouroboros",
+    "stars": 5480,
     "open_issues": 63,
     "pushed_at": "2026-08-17T04:10:12Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 100,
     "maintenance": 40,
     "quality": 55,
     "security": 40,
     "dsh_compat": 30,
-    "overall": 31,
-    "grade": "D"
+    "overall": 56,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T04:54:33.027Z"
+  "updated_at": "2026-08-17T05:24:13.198Z"
 }

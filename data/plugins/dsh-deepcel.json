@@ -20,19 +20,20 @@
   "created_at": null,
   "gh": {
     "full_name": "Small-tailqwq/dsh-deepcel",
+    "stars": 9,
     "open_issues": 0,
     "pushed_at": "2026-08-13T13:02:10Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 27,
     "maintenance": 38,
     "quality": 0,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 21,
+    "overall": 28,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:27.578Z"
+  "updated_at": "2026-08-17T05:24:41.905Z"
 }

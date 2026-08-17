@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "songyang0603/ds-spec-loop",
+    "stars": 22,
     "open_issues": 0,
     "pushed_at": "2026-08-15T08:04:55Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 37,
     "maintenance": 39,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 32,
-    "grade": "D"
+    "overall": 42,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:24.923Z"
+  "updated_at": "2026-08-17T05:24:29.216Z"
 }

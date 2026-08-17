@@ -23,6 +23,7 @@
   "created_at": null,
   "gh": {
     "full_name": "nanshan1995/DSH-Plugin-Market",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-16T09:20:25Z",
     "archived": false,
@@ -35,13 +36,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 55,
     "security": 65,
     "dsh_compat": 30,
-    "overall": 35,
-    "grade": "D"
+    "overall": 40,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:58:26.003Z"
+  "updated_at": "2026-08-17T05:25:26.464Z"
 }

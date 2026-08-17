@@ -26,6 +26,7 @@
   "created_at": null,
   "gh": {
     "full_name": "pingfanfan/hello-dsh",
+    "stars": 64,
     "open_issues": 0,
     "pushed_at": "2026-08-14T13:42:33Z",
     "archived": false,
@@ -38,13 +39,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 49,
     "maintenance": 39,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 32,
-    "grade": "D"
+    "overall": 45,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:04.379Z"
+  "updated_at": "2026-08-17T05:24:21.420Z"
 }

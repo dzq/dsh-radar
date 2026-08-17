@@ -26,6 +26,7 @@
   "created_at": "2026-08-14T07:54:04.809Z",
   "gh": {
     "full_name": "deepseek-ai/deepseek-harness",
+    "stars": 138123,
     "open_issues": 0,
     "pushed_at": "2026-08-13T13:00:21Z",
     "archived": false,
@@ -38,13 +39,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 100,
     "maintenance": 38,
     "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 36,
-    "grade": "D"
+    "overall": 61,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T04:55:48.352Z"
+  "updated_at": "2026-08-17T05:24:34.540Z"
 }

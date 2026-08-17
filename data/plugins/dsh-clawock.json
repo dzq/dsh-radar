@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "KCNyu/clawock",
+    "stars": 9,
     "open_issues": 1,
     "pushed_at": "2026-08-17T04:37:36Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 27,
     "maintenance": 40,
     "quality": 55,
     "security": 65,
     "dsh_compat": 30,
-    "overall": 35,
-    "grade": "D"
+    "overall": 42,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:56:23.001Z"
+  "updated_at": "2026-08-17T05:24:41.331Z"
 }

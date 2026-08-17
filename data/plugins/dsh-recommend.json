@@ -40,6 +40,7 @@
   "created_at": "2026-08-14T00:33:27.685Z",
   "gh": {
     "full_name": "zp-home/dsh-recommend",
+    "stars": 17,
     "open_issues": 0,
     "pushed_at": "2026-08-17T04:34:54Z",
     "archived": false,
@@ -52,13 +53,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 34,
     "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 47,
-    "grade": "C"
+    "overall": 55,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T04:55:37.399Z"
+  "updated_at": "2026-08-17T05:24:31.505Z"
 }

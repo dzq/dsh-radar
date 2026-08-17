@@ -31,19 +31,20 @@
   "created_at": "2026-08-14T15:13:24.520Z",
   "gh": {
     "full_name": "Highjobop/dsh-gadgets",
+    "stars": 4,
     "open_issues": 1,
     "pushed_at": "2026-08-16T05:32:22Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 65,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 44,
+    "overall": 48,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:58:00.610Z"
+  "updated_at": "2026-08-17T05:25:16.963Z"
 }

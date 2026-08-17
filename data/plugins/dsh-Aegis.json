@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "GanyuanRan/Aegis",
+    "stars": 1032,
     "open_issues": 0,
     "pushed_at": "2026-08-16T05:57:38Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 81,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 53,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:39.354Z"
+  "updated_at": "2026-08-17T05:24:14.867Z"
 }

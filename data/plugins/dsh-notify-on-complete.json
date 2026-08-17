@@ -20,6 +20,7 @@
   "created_at": null,
   "gh": {
     "full_name": "pitetow/dsh-notify-on-complete",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-15T15:03:49Z",
     "archived": false,
@@ -32,13 +33,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 39,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 30,
+    "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:58:16.627Z"
+  "updated_at": "2026-08-17T05:25:23.674Z"
 }

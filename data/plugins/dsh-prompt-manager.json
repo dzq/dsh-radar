@@ -42,13 +42,13 @@
     "license": "MIT"
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 21,
     "maintenance": 39,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 46,
+    "overall": 52,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:57:26.308Z"
+  "updated_at": "2026-08-17T05:25:00.864Z"
 }

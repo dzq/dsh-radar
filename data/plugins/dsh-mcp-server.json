@@ -28,19 +28,20 @@
   "created_at": null,
   "gh": {
     "full_name": "AtlasCloudAI/mcp-server",
+    "stars": 6,
     "open_issues": 0,
     "pushed_at": "2026-08-16T03:13:19Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 23,
     "maintenance": 40,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 29,
+    "overall": 34,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:09.907Z"
+  "updated_at": "2026-08-17T05:24:54.163Z"
 }

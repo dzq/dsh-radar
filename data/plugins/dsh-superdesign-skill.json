@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "superdesigndev/superdesign-skill",
+    "stars": 424,
     "open_issues": 4,
     "pushed_at": "2026-08-15T07:28:42Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 71,
     "maintenance": 39,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 32,
-    "grade": "D"
+    "overall": 50,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:45.206Z"
+  "updated_at": "2026-08-17T05:24:16.104Z"
 }

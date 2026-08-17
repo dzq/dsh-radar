@@ -23,6 +23,7 @@
   "created_at": null,
   "gh": {
     "full_name": "omdsh-dev/dsh-toolkit",
+    "stars": 20,
     "open_issues": 3,
     "pushed_at": "2026-08-14T03:11:18Z",
     "archived": false,
@@ -35,13 +36,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 36,
     "maintenance": 39,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 32,
-    "grade": "D"
+    "overall": 41,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:30.137Z"
+  "updated_at": "2026-08-17T05:24:29.873Z"
 }

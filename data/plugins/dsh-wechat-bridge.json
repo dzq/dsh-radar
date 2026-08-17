@@ -29,6 +29,7 @@
   "created_at": "2026-08-14T12:45:56.779Z",
   "gh": {
     "full_name": "gtaifu/dsh-wechat-bridge",
+    "stars": 7,
     "open_issues": 0,
     "pushed_at": "2026-08-16T15:22:19Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 24,
     "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 37,
-    "grade": "D"
+    "overall": 43,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:56:52.120Z"
+  "updated_at": "2026-08-17T05:24:47.120Z"
 }

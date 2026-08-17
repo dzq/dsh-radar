@@ -28,6 +28,7 @@
   "created_at": null,
   "gh": {
     "full_name": "freestylefly/awesome-gpt-image-2",
+    "stars": 10821,
     "open_issues": 9,
     "pushed_at": "2026-07-22T16:57:36Z",
     "archived": false,
@@ -40,13 +41,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 100,
     "maintenance": 30,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
-    "grade": "D"
+    "overall": 56,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T04:54:33.429Z"
+  "updated_at": "2026-08-17T05:24:13.185Z"
 }

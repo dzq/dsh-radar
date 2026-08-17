@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Vladimir-Human/humanizer-ru",
+    "stars": 101,
     "open_issues": 0,
     "pushed_at": "2026-08-16T05:29:43Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 54,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 46,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:56.771Z"
+  "updated_at": "2026-08-17T05:24:19.823Z"
 }

@@ -18,19 +18,20 @@
   "created_at": null,
   "gh": {
     "full_name": "HuanLinOTO/dsh-plugin-aigc-canvas",
+    "stars": 10,
     "open_issues": 1,
     "pushed_at": "2026-08-15T05:06:55Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 28,
     "maintenance": 39,
     "quality": 25,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 26,
+    "overall": 33,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:18.019Z"
+  "updated_at": "2026-08-17T05:24:40.384Z"
 }

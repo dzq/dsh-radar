@@ -12,6 +12,12 @@ function logNormalize(value, ceiling = 10000) {
   return Math.min(100, Math.round((Math.log10(value + 1) / Math.log10(ceiling + 1)) * 100));
 }
 
+// GitHub stars → popularity（stars 的 log 归一化，5000 ★ ≈ 满分）
+function starsToPopularity(stars) {
+  if (!stars || stars <= 0) return 0;
+  return Math.min(100, Math.round((Math.log10(stars + 1) / Math.log10(5000 + 1)) * 100));
+}
+
 // 天数差→评分（越新越高，半年内高分，一年外衰减）
 function recencyScore(isoDate, halfLifeDays = 180) {
   if (!isoDate) return 0;
@@ -27,10 +33,11 @@ function recencyScore(isoDate, halfLifeDays = 180) {
  * @returns {object} scores + grade
  */
 export function score(pkg, gh = {}) {
-  // 1. Popularity: weekly downloads (log scale)
-  // 搜索结果里的 weekly downloads 在 searchHit.downloads.weekly
+  // 1. Popularity: weekly downloads (log scale)；无 npm 下载时用 GitHub stars 替代
   const weekly = pkg._weekly ?? 0;
-  const popularity = logNormalize(weekly);
+  // GitHub API 返回 stargazers_count，GitHub search 返回 stars
+  const ghStars = gh?.stargazers_count ?? gh?.stars ?? 0;
+  const popularity = weekly > 0 ? logNormalize(weekly) : (ghStars > 0 ? starsToPopularity(ghStars) : 0);
 
   // 2. Maintenance: latest publish + github last push，取加权平均
   const lastPublish = pkg.time?.[pkg['dist-tags']?.latest] || pkg.time?.modified;

@@ -22,6 +22,7 @@
   "created_at": null,
   "gh": {
     "full_name": "raphael-liu/raphael-loop",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-16T13:32:26Z",
     "archived": false,
@@ -34,13 +35,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 30,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 28,
+    "overall": 32,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:53.994Z"
+  "updated_at": "2026-08-17T05:25:12.138Z"
 }

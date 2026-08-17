@@ -18,6 +18,7 @@
   "created_at": null,
   "gh": {
     "full_name": "HuanLinOTO/dsh-plugin-d399",
+    "stars": 8,
     "open_issues": 0,
     "pushed_at": "2026-08-15T09:05:58Z",
     "archived": false,
@@ -30,13 +31,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 26,
     "maintenance": 39,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 28,
+    "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:39.765Z"
+  "updated_at": "2026-08-17T05:24:45.045Z"
 }

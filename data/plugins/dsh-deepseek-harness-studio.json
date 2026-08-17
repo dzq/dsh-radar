@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "fufankeji/deepseek-harness-studio",
+    "stars": 183,
     "open_issues": 2,
     "pushed_at": "2026-08-17T04:45:13Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 61,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 48,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:51.264Z"
+  "updated_at": "2026-08-17T05:24:18.166Z"
 }

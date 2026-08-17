@@ -41,6 +41,7 @@
   "created_at": "2026-08-14T12:07:25.310Z",
   "gh": {
     "full_name": "AngelosZou/dsh-multi-folder",
+    "stars": 3,
     "open_issues": 0,
     "pushed_at": "2026-08-15T15:28:24Z",
     "archived": false,
@@ -53,13 +54,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 16,
     "maintenance": 39,
     "quality": 85,
     "security": 55,
     "dsh_compat": 80,
-    "overall": 49,
+    "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:57:42.282Z"
+  "updated_at": "2026-08-17T05:25:07.970Z"
 }

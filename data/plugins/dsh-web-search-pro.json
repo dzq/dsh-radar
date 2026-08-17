@@ -30,6 +30,7 @@
   "created_at": "2026-08-14T02:29:59.892Z",
   "gh": {
     "full_name": "anweat/dsh-web-search-pro",
+    "stars": 17,
     "open_issues": 3,
     "pushed_at": "2026-08-14T08:07:39Z",
     "archived": false,
@@ -42,13 +43,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 34,
     "maintenance": 39,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 45,
+    "overall": 54,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:37.340Z"
+  "updated_at": "2026-08-17T05:24:31.151Z"
 }

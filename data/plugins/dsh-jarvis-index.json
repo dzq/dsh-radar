@@ -29,19 +29,20 @@
   "created_at": null,
   "gh": {
     "full_name": "jarvis-intelligence/jarvis-index",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-08T13:24:24Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 36,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 28,
+    "overall": 32,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:58:21.288Z"
+  "updated_at": "2026-08-17T05:25:26.142Z"
 }

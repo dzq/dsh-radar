@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "pulseaiclub/phi",
+    "stars": 94,
     "open_issues": 1,
     "pushed_at": "2026-08-17T03:51:17Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 53,
     "maintenance": 40,
     "quality": 55,
     "security": 65,
     "dsh_compat": 30,
-    "overall": 35,
-    "grade": "D"
+    "overall": 48,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:57.435Z"
+  "updated_at": "2026-08-17T05:24:19.822Z"
 }

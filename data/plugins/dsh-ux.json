@@ -26,6 +26,7 @@
   "created_at": null,
   "gh": {
     "full_name": "jiangnanquan/dsh-ux",
+    "stars": 6,
     "open_issues": 1,
     "pushed_at": "2026-08-14T06:19:18Z",
     "archived": false,
@@ -38,13 +39,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 23,
     "maintenance": 39,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 30,
+    "overall": 36,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:03.184Z"
+  "updated_at": "2026-08-17T05:24:51.067Z"
 }

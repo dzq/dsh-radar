@@ -36,6 +36,7 @@
   "created_at": "2026-08-15T06:15:31.401Z",
   "gh": {
     "full_name": "Airmetro/dsh-update-checker",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-17T01:28:50Z",
     "archived": false,
@@ -48,13 +49,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 47,
+    "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:58:23.640Z"
+  "updated_at": "2026-08-17T05:25:25.589Z"
 }

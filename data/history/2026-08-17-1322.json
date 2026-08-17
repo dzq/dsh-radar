@@ -1,0 +1,206 @@
+{
+  "stats": {
+    "total": 1926,
+    "by_grade": {
+      "A": 2,
+      "B": 133,
+      "C": 344,
+      "D": 1447
+    },
+    "by_compat": 1186,
+    "total_weekly_downloads": 110429,
+    "generated_at": "2026-08-17T05:22:21.351Z",
+    "build_ms": 150032
+  },
+  "top10": [
+    {
+      "slug": "tt-a1i--archify-dsh",
+      "name": "@tt-a1i/archify-dsh",
+      "version": "0.1.0",
+      "description": "Opt-in DeepSeek Harness Skill-only bundle for the Archify architecture-diagram skill.",
+      "weekly_downloads": 0,
+      "stars": 13515,
+      "grade": "A",
+      "overall": 70,
+      "dsh_compat": true,
+      "last_publish": "2026-08-14T09:12:28.700Z",
+      "keywords": [
+        "dsh-plugin",
+        "deepseek-harness",
+        "agent-skill",
+        "architecture-diagram"
+      ]
+    },
+    {
+      "slug": "liustack--modsearch",
+      "name": "@liustack/modsearch",
+      "version": "5.4.2",
+      "description": "Plug-in web search, X search, and page fetch for models without native web access, powered by the free Antigravity CLI",
+      "weekly_downloads": 4097,
+      "stars": 105,
+      "grade": "A",
+      "overall": 70,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T05:18:30.432Z",
+      "keywords": [
+        "search",
+        "web-fetch",
+        "cli",
+        "llm",
+        "agent"
+      ]
+    },
+    {
+      "slug": "dsh-pocket",
+      "name": "dsh-pocket",
+      "version": "1.0.25",
+      "description": "把 DeepSeek Harness 装进你的口袋：一个包、一个设置页，手机扫码即同步访问电脑上的 DSH（局域网 + 公网，实时同屏）。",
+      "weekly_downloads": 4381,
+      "stars": 21,
+      "grade": "B",
+      "overall": 69,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T18:01:23.650Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "mobile",
+        "remote"
+      ]
+    },
+    {
+      "slug": "nanmicoder--dsh-agent-teams",
+      "name": "@nanmicoder/dsh-agent-teams",
+      "version": "0.1.5",
+      "description": "AgentTeams for DeepSeek Harness: multi-agent team collaboration (captain, members, tasks with dependencies, messaging) driven by natural language, with a tree monitor in the web GUI",
+      "weekly_downloads": 2546,
+      "stars": 443,
+      "grade": "B",
+      "overall": 68,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T15:05:44.705Z",
+      "keywords": [
+        "dsh",
+        "dsh-plugin",
+        "deepseek-harness",
+        "agent-teams",
+        "multi-agent"
+      ]
+    },
+    {
+      "slug": "deepseek-ippt",
+      "name": "deepseek-ippt",
+      "version": "0.1.2",
+      "description": "iPolloWork PPT Studio and its curated slide templates as a native DeepSeek Harness conversation view.",
+      "weekly_downloads": 0,
+      "stars": 4063,
+      "grade": "B",
+      "overall": 67,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T15:20:52.211Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "ppt",
+        "slides",
+        "ipollowork"
+      ]
+    },
+    {
+      "slug": "dsh-stock-watch",
+      "name": "dsh-stock-watch",
+      "version": "1.0.5",
+      "description": "A股自选股实时行情盯盘插件 - DeepSeek Harness Web 右上角可折叠弹窗（分时/K线/目标价/主题切换/可拖动/添加股票分组）",
+      "weekly_downloads": 949,
+      "stars": 34,
+      "grade": "B",
+      "overall": 67,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T06:33:17.873Z",
+      "keywords": [
+        "dsh",
+        "deepseek",
+        "deepseek-harness",
+        "plugin",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "slug": "dsh-any-background",
+      "name": "dsh-any-background",
+      "version": "0.1.4",
+      "description": "Appearance plugin for DeepSeek Harness: custom theme color (PS-style color wheel), background wallpaper with opacity/blur controls, and separate main/settings interface opacity.",
+      "weekly_downloads": 814,
+      "stars": 5,
+      "grade": "B",
+      "overall": 67,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T16:42:44.966Z",
+      "keywords": [
+        "deepseek-harness",
+        "dsh",
+        "plugin",
+        "dsh-plugin",
+        "theme"
+      ]
+    },
+    {
+      "slug": "dsh-market-plus",
+      "name": "dsh-market-plus",
+      "version": "0.1.1",
+      "description": "DSH 插件市场增强版：dsh-market 基座 + dsh-store 的 npm 权威源/质量验证/GitHub 热度/代理注入/回退安装（MIT，融合 dsh-market 与 dsh-store）",
+      "weekly_downloads": 0,
+      "stars": 660,
+      "grade": "B",
+      "overall": 66,
+      "dsh_compat": true,
+      "last_publish": "2026-08-16T11:18:35.651Z",
+      "keywords": [
+        "deepseek",
+        "harness",
+        "dsh",
+        "dsh-plugin",
+        "marketplace"
+      ]
+    },
+    {
+      "slug": "dsh-mnemon",
+      "name": "dsh-mnemon",
+      "version": "0.1.4",
+      "description": "Cross-agent, local-first persistent memory plugin for DeepSeek Harness (DSH), powered by Mnemon. It shares long-term memory across Mnemon-enabled agents and adds runtime memory, searchable project documents, semantic recall, knowledge graph, and a Sidebar",
+      "weekly_downloads": 1129,
+      "stars": 62,
+      "grade": "B",
+      "overall": 66,
+      "dsh_compat": true,
+      "last_publish": "2026-08-14T23:50:07.651Z",
+      "keywords": [
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "dsh",
+        "dsh-plugin",
+        "mnemon"
+      ]
+    },
+    {
+      "slug": "dsh-lark-bot",
+      "name": "dsh-lark-bot",
+      "version": "0.11.0",
+      "description": "Bridge DeepSeek Harness (dsh) into Feishu / Lark with streaming cards, project workspaces, approvals and scheduling",
+      "weekly_downloads": 3640,
+      "stars": 18,
+      "grade": "B",
+      "overall": 66,
+      "dsh_compat": true,
+      "last_publish": "2026-08-15T23:00:14.099Z",
+      "keywords": [
+        "dsh",
+        "deepseek",
+        "deepseek harness",
+        "feishu",
+        "lark"
+      ]
+    }
+  ]
+}

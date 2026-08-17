@@ -23,6 +23,7 @@
   "created_at": null,
   "gh": {
     "full_name": "omdsh-dev/dsh-tool-calculator",
+    "stars": 6,
     "open_issues": 0,
     "pushed_at": "2026-08-14T03:10:54Z",
     "archived": false,
@@ -35,13 +36,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 23,
     "maintenance": 39,
     "quality": 45,
     "security": 40,
     "dsh_compat": 30,
-    "overall": 29,
+    "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:08.115Z"
+  "updated_at": "2026-08-17T05:24:53.853Z"
 }

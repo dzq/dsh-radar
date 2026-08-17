@@ -21,19 +21,20 @@
   "created_at": null,
   "gh": {
     "full_name": "zebbkira/dsh-skills-mcp-manager",
+    "stars": 7,
     "open_issues": 0,
     "pushed_at": "2026-08-15T02:36:48Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 24,
     "maintenance": 39,
     "quality": 25,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 26,
+    "overall": 32,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:55.452Z"
+  "updated_at": "2026-08-17T05:24:48.719Z"
 }

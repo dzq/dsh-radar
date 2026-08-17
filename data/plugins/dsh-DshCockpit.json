@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Lxiayu/DshCockpit",
+    "stars": 4,
     "open_issues": 1,
     "pushed_at": "2026-08-16T20:50:57Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
+    "overall": 37,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:58:14.182Z"
+  "updated_at": "2026-08-17T05:25:23.414Z"
 }

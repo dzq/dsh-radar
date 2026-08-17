@@ -22,6 +22,7 @@
   "created_at": null,
   "gh": {
     "full_name": "huahai0202/dsh-better-archive",
+    "stars": 6,
     "open_issues": 0,
     "pushed_at": "2026-08-15T07:52:58Z",
     "archived": false,
@@ -34,13 +35,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 23,
     "maintenance": 39,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 32,
+    "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:57.468Z"
+  "updated_at": "2026-08-17T05:24:49.331Z"
 }

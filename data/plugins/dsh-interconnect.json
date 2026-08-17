@@ -26,6 +26,7 @@
   "created_at": "2026-08-14T02:59:37.422Z",
   "gh": {
     "full_name": "Chinesezjc/dsh-interconnect",
+    "stars": 30,
     "open_issues": 0,
     "pushed_at": "2026-08-14T06:32:47Z",
     "archived": false,
@@ -38,13 +39,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 40,
     "maintenance": 39,
     "quality": 75,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 45,
-    "grade": "C"
+    "overall": 55,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T04:55:17.711Z"
+  "updated_at": "2026-08-17T05:24:26.032Z"
 }

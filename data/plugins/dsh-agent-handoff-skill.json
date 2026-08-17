@@ -27,19 +27,20 @@
   "created_at": null,
   "gh": {
     "full_name": "WeirdSky924/agent-handoff-skill",
+    "stars": 26,
     "open_issues": 0,
     "pushed_at": "2026-08-14T16:51:40Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 39,
     "maintenance": 39,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 28,
+    "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:55:22.466Z"
+  "updated_at": "2026-08-17T05:24:27.869Z"
 }

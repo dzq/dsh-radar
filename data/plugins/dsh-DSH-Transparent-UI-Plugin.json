@@ -23,6 +23,7 @@
   "created_at": null,
   "gh": {
     "full_name": "WYH66666666/DSH-Transparent-UI-Plugin",
+    "stars": 174,
     "open_issues": 3,
     "pushed_at": "2026-08-16T16:25:59Z",
     "archived": false,
@@ -35,13 +36,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 61,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 48,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:51.970Z"
+  "updated_at": "2026-08-17T05:24:18.145Z"
 }

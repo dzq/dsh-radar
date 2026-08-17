@@ -24,6 +24,7 @@
   "created_at": null,
   "gh": {
     "full_name": "euuuuuuzer/dsh-loop-dock",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-16T13:23:36Z",
     "archived": false,
@@ -36,13 +37,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
+    "overall": 37,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:50.744Z"
+  "updated_at": "2026-08-17T05:25:09.588Z"
 }

@@ -21,6 +21,7 @@
   "created_at": null,
   "gh": {
     "full_name": "mishibeikejie/zat-dsh-engine",
+    "stars": 64,
     "open_issues": 3,
     "pushed_at": "2026-08-17T01:05:25Z",
     "archived": false,
@@ -33,13 +34,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 49,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
-    "grade": "D"
+    "overall": 43,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:05.743Z"
+  "updated_at": "2026-08-17T05:24:22.498Z"
 }

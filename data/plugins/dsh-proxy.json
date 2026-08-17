@@ -1,0 +1,46 @@
+{
+  "slug": "dsh-proxy",
+  "name": "dsh-proxy",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [
+    "ai-agent",
+    "ai-agents",
+    "ai-coding",
+    "ai-tools",
+    "codis",
+    "deepseek",
+    "deepseek-harness",
+    "dsh-plugins"
+  ],
+  "license": "",
+  "repo": "https://github.com/smanx/dsh-proxy",
+  "homepage": "https://github.com/smanx/dsh-proxy/releases",
+  "npm": "https://www.npmjs.com/package/dsh-proxy",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "smanx/dsh-proxy",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T09:47:30Z",
+    "archived": false,
+    "license": null
+  },
+  "scores": {
+    "popularity": 19,
+    "maintenance": 40,
+    "quality": 10,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 28,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T05:25:22.270Z"
+}

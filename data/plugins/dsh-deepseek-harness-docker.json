@@ -24,6 +24,7 @@
   "created_at": null,
   "gh": {
     "full_name": "AlliotTech/deepseek-harness-docker",
+    "stars": 8,
     "open_issues": 1,
     "pushed_at": "2026-08-14T15:20:12Z",
     "archived": false,
@@ -36,13 +37,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 26,
     "maintenance": 39,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 30,
+    "overall": 37,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:38.274Z"
+  "updated_at": "2026-08-17T05:24:44.410Z"
 }

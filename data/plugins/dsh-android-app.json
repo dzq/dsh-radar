@@ -24,6 +24,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Hakunm/dsh-android-app",
+    "stars": 6,
     "open_issues": 0,
     "pushed_at": "2026-08-14T21:12:16Z",
     "archived": false,
@@ -36,13 +37,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 23,
     "maintenance": 39,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 32,
+    "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:13.185Z"
+  "updated_at": "2026-08-17T05:24:56.163Z"
 }

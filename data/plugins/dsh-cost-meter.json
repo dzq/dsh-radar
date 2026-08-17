@@ -2,7 +2,7 @@
   "slug": "dsh-cost-meter",
   "name": "dsh-cost-meter",
   "version": "0.0.0",
-  "description": "DeepSeek Harness 会话费用统计与opencode go额度显示，类codex token热力图插件:本会话费用、当日费用、预算费用显示、历史记录与官方价格同步",
+  "description": "DeepSeek Harness 会话费用统计与opencode go额度显示 ds官方余额显示，类codex token热力图插件:本会话费用、当日费用、预算费用显示、历史记录与官方价格同步",
   "keywords": [
     "cost-tracking",
     "deepseek",
@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Han-1413141/dsh-cost-meter",
+    "stars": 57,
     "open_issues": 0,
     "pushed_at": "2026-08-16T04:58:19Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 48,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 45,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:05.182Z"
+  "updated_at": "2026-08-17T05:24:22.067Z"
 }

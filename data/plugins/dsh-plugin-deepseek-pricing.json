@@ -23,6 +23,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Dasooul03/dsh-plugin-deepseek-pricing",
+    "stars": 4,
     "open_issues": 1,
     "pushed_at": "2026-08-17T03:24:52Z",
     "archived": false,
@@ -35,13 +36,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
+    "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:55.614Z"
+  "updated_at": "2026-08-17T05:25:12.721Z"
 }

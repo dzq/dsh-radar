@@ -18,6 +18,7 @@
   "created_at": null,
   "gh": {
     "full_name": "HuanLinOTO/dsh-plugin-mineru",
+    "stars": 30,
     "open_issues": 2,
     "pushed_at": "2026-08-15T05:06:34Z",
     "archived": false,
@@ -30,13 +31,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 40,
     "maintenance": 39,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 28,
+    "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:55:17.711Z"
+  "updated_at": "2026-08-17T05:24:26.938Z"
 }

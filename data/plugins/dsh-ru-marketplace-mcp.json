@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Vladimir-Human/ru-marketplace-mcp",
+    "stars": 64,
     "open_issues": 0,
     "pushed_at": "2026-08-16T11:01:09Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 49,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 45,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:02.128Z"
+  "updated_at": "2026-08-17T05:24:21.390Z"
 }

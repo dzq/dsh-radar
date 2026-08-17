@@ -20,6 +20,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Meredith2328/dsh-sticky-note",
+    "stars": 9,
     "open_issues": 1,
     "pushed_at": "2026-08-16T07:28:15Z",
     "archived": false,
@@ -32,13 +33,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 27,
     "maintenance": 40,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 29,
+    "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:30.530Z"
+  "updated_at": "2026-08-17T05:24:42.256Z"
 }

@@ -47,6 +47,7 @@
   "created_at": "2026-08-13T19:34:27.051Z",
   "gh": {
     "full_name": "hrhgit/deepseek-harness-plugin-manager",
+    "stars": 3,
     "open_issues": 0,
     "pushed_at": "2026-08-15T18:52:19Z",
     "archived": false,
@@ -59,13 +60,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 16,
     "maintenance": 39,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 46,
+    "overall": 50,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:57:43.760Z"
+  "updated_at": "2026-08-17T05:25:08.258Z"
 }

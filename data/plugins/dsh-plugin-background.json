@@ -21,6 +21,7 @@
   "created_at": null,
   "gh": {
     "full_name": "gameswu/dsh-plugin-background",
+    "stars": 10,
     "open_issues": 1,
     "pushed_at": "2026-08-15T21:50:39Z",
     "archived": false,
@@ -33,13 +34,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 28,
     "maintenance": 40,
     "quality": 20,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 26,
+    "overall": 33,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:15.273Z"
+  "updated_at": "2026-08-17T05:24:40.090Z"
 }

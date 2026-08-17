@@ -23,6 +23,7 @@
   "created_at": null,
   "gh": {
     "full_name": "lj970926/dsh-plugin-mermaid",
+    "stars": 4,
     "open_issues": 1,
     "pushed_at": "2026-08-14T10:22:11Z",
     "archived": false,
@@ -35,13 +36,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 39,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 32,
+    "overall": 37,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:58:13.659Z"
+  "updated_at": "2026-08-17T05:25:22.795Z"
 }

@@ -26,19 +26,20 @@
   "created_at": null,
   "gh": {
     "full_name": "Noob-stupid/dsh-github-login",
+    "stars": 6,
     "open_issues": 1,
     "pushed_at": "2026-08-16T10:25:17Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 23,
     "maintenance": 40,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 29,
+    "overall": 34,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:57.695Z"
+  "updated_at": "2026-08-17T05:24:49.054Z"
 }

@@ -22,6 +22,7 @@
   "created_at": null,
   "gh": {
     "full_name": "PicGo/PicGo-Core",
+    "stars": 975,
     "open_issues": 13,
     "pushed_at": "2026-07-12T02:57:43Z",
     "archived": false,
@@ -34,13 +35,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 81,
     "maintenance": 27,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 30,
-    "grade": "D"
+    "overall": 50,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:39.233Z"
+  "updated_at": "2026-08-17T05:24:14.876Z"
 }

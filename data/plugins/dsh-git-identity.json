@@ -18,19 +18,20 @@
   "created_at": null,
   "gh": {
     "full_name": "LoserFox/dsh-git-identity",
+    "stars": 7,
     "open_issues": 0,
     "pushed_at": "2026-08-13T13:11:37Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 24,
     "maintenance": 38,
     "quality": 25,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 26,
+    "overall": 32,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:53.104Z"
+  "updated_at": "2026-08-17T05:24:47.668Z"
 }

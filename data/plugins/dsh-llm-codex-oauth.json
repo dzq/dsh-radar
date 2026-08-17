@@ -22,6 +22,7 @@
   "created_at": "2026-08-15T01:31:57.701Z",
   "gh": {
     "full_name": "eons2long/dsh-codex-oauth",
+    "stars": 1,
     "open_issues": 0,
     "pushed_at": "2026-08-15T10:35:24Z",
     "archived": false,
@@ -34,13 +35,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 8,
     "maintenance": 39,
     "quality": 55,
     "security": 50,
     "dsh_compat": 75,
-    "overall": 41,
+    "overall": 43,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:56:33.663Z"
+  "updated_at": "2026-08-17T05:24:43.116Z"
 }

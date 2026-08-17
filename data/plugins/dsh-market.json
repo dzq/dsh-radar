@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "2BingLing/dsh-market",
+    "stars": 17,
     "open_issues": 2,
     "pushed_at": "2026-08-16T22:22:56Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 34,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
+    "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:55:39.155Z"
+  "updated_at": "2026-08-17T05:24:31.956Z"
 }

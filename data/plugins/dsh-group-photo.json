@@ -21,6 +21,7 @@
   "created_at": null,
   "gh": {
     "full_name": "SenmuuuuW/dsh-group-photo",
+    "stars": 17,
     "open_issues": 1,
     "pushed_at": "2026-08-14T01:54:26Z",
     "archived": false,
@@ -33,13 +34,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 34,
     "maintenance": 39,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 30,
+    "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:55:37.347Z"
+  "updated_at": "2026-08-17T05:24:31.682Z"
 }

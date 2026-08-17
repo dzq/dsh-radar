@@ -1,0 +1,65 @@
+{
+  "slug": "dsh-ha-orchestrator",
+  "name": "dsh-ha-orchestrator",
+  "version": "0.11.3",
+  "description": "Model high-availability failover + subagent orchestration (fanout/pipeline/supervisor) for DeepSeek Harness",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "plugin",
+    "high-availability",
+    "failover",
+    "orchestration",
+    "subagents"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Saktawdi/dsh-ha-orchestrator.git",
+  "homepage": "https://github.com/Saktawdi/dsh-ha-orchestrator#readme",
+  "npm": "https://www.npmjs.com/package/dsh-ha-orchestrator",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-api-remotes"
+      ],
+      "platform": "web"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "readme": "![HA Orchestrator 配置页](docs/settings.png)\n\n# HA Orchestrator\n\n[![Version](https://img.shields.io/badge/version-v0.2.1-4d6bfe?style=flat-square)](https://github.com/Saktawdi/dsh-ha-orchestrator/releases/tag/v0.2.1)\n[![Platform](https://img.shields.io/badge/platform-DeepSeek%20Harness-4d6bfe?style=flat-square)](https://github.com/deepseek-ai/dsh)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)\n\nHA Orchestrator 是 [DeepSeek Harness](https://github.com/deepseek-ai/dsh)（dsh）的插件：\n\n- 模型调用中途出错时，自动改用备用模型重试，任务继续跑下去。\n- 提供一个 `orchestrate` 工具，模型遇到适合的任务会自己调用它，把工作拆给多个子智能体并行执行（`fanout`）、分阶段执行（`pipeline`），或加一道评审（`supervisor`）。\n\n配置页里还能定义自己的子智能体（也可以一句话让 AI 生成）；界面和提示词文案支持中英文，跟随 DSH 语言。\n\n[English](README.md)\n\n## 功能\n\n### 模型失败自动回退\n\n- 模型请求出错时，自动改用下一个备用模型重试，备用模型按顺序轮",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-16T07:33:54.861Z",
+  "created_at": "2026-08-16T07:23:12.617Z",
+  "gh": {
+    "full_name": "Saktawdi/dsh-ha-orchestrator",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-16T07:37:21Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 19,
+    "maintenance": 40,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 51,
+    "grade": "C"
+  },
+  "updated_at": "2026-08-17T05:25:20.109Z"
+}

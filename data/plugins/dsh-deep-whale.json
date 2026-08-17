@@ -20,19 +20,20 @@
   "created_at": null,
   "gh": {
     "full_name": "Small-tailqwq/dsh-deep-whale",
+    "stars": 1131,
     "open_issues": 25,
     "pushed_at": "2026-08-16T06:34:28Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 83,
     "maintenance": 40,
     "quality": 15,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 25,
-    "grade": "D"
+    "overall": 45,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:36.656Z"
+  "updated_at": "2026-08-17T05:24:14.189Z"
 }

@@ -18,19 +18,20 @@
   "created_at": null,
   "gh": {
     "full_name": "LoserFox/distill",
+    "stars": 19,
     "open_issues": 1,
     "pushed_at": "2026-08-13T13:11:31Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 35,
     "maintenance": 38,
     "quality": 15,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 24,
+    "overall": 33,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:55:33.141Z"
+  "updated_at": "2026-08-17T05:24:30.926Z"
 }

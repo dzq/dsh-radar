@@ -22,6 +22,7 @@
   "created_at": null,
   "gh": {
     "full_name": "starslittle/dsh-queue-plus",
+    "stars": 14,
     "open_issues": 0,
     "pushed_at": "2026-08-16T07:01:19Z",
     "archived": false,
@@ -34,13 +35,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 32,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
+    "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:55:47.018Z"
+  "updated_at": "2026-08-17T05:24:34.121Z"
 }

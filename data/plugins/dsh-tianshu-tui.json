@@ -24,6 +24,7 @@
   "created_at": null,
   "gh": {
     "full_name": "huiliyi37/dsh-tianshu-tui",
+    "stars": 194,
     "open_issues": 9,
     "pushed_at": "2026-08-17T02:46:55Z",
     "archived": false,
@@ -36,13 +37,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 62,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 48,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:48.775Z"
+  "updated_at": "2026-08-17T05:24:17.853Z"
 }

@@ -22,6 +22,7 @@
   "created_at": null,
   "gh": {
     "full_name": "HanaAyane/dsh-reasoning-effort",
+    "stars": 55,
     "open_issues": 3,
     "pushed_at": "2026-08-16T17:11:52Z",
     "archived": false,
@@ -34,13 +35,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 47,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 44,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:07.819Z"
+  "updated_at": "2026-08-17T05:24:22.767Z"
 }

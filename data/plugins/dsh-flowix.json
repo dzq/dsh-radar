@@ -27,6 +27,7 @@
   "created_at": null,
   "gh": {
     "full_name": "text2future/flowix",
+    "stars": 304,
     "open_issues": 23,
     "pushed_at": "2026-08-16T17:31:25Z",
     "archived": false,
@@ -39,13 +40,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 67,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
-    "grade": "D"
+    "overall": 47,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:47.087Z"
+  "updated_at": "2026-08-17T05:24:16.785Z"
 }

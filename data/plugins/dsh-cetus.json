@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "drewnekota/cetus",
+    "stars": 116,
     "open_issues": 4,
     "pushed_at": "2026-08-17T03:46:39Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 56,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 47,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:55.145Z"
+  "updated_at": "2026-08-17T05:24:19.168Z"
 }

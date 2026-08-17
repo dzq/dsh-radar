@@ -21,6 +21,7 @@
   "created_at": null,
   "gh": {
     "full_name": "tsonglew/dsh-media-preview",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-14T13:34:28Z",
     "archived": false,
@@ -33,13 +34,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 39,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 30,
+    "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:53.727Z"
+  "updated_at": "2026-08-17T05:25:11.822Z"
 }

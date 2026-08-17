@@ -24,6 +24,7 @@
   "created_at": "2021-05-21T08:42:21.328Z",
   "gh": {
     "full_name": "xtxo/dsh-ui",
+    "stars": 10,
     "open_issues": 1,
     "pushed_at": "2026-08-15T02:23:28Z",
     "archived": false,
@@ -36,13 +37,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 28,
     "maintenance": 39,
     "quality": 30,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 27,
+    "overall": 34,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:16.538Z"
+  "updated_at": "2026-08-17T05:24:39.961Z"
 }

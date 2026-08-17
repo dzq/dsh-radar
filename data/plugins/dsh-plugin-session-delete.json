@@ -21,19 +21,20 @@
   "created_at": null,
   "gh": {
     "full_name": "lsz-asd/dsh-plugin-session-delete",
+    "stars": 20,
     "open_issues": 2,
     "pushed_at": "2026-08-14T19:12:06Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 36,
     "maintenance": 39,
     "quality": 25,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 26,
+    "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:55:29.690Z"
+  "updated_at": "2026-08-17T05:24:30.246Z"
 }

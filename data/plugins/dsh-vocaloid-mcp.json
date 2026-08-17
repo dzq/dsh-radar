@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "N0zoM1z0/vocaloid-mcp",
+    "stars": 12,
     "open_issues": 0,
     "pushed_at": "2026-07-19T09:43:53Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 30,
     "maintenance": 29,
     "quality": 55,
     "security": 65,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 40,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:58.567Z"
+  "updated_at": "2026-08-17T05:24:36.927Z"
 }

@@ -22,6 +22,7 @@
   "created_at": null,
   "gh": {
     "full_name": "SenmuuuuW/dsh-whale-report",
+    "stars": 19,
     "open_issues": 0,
     "pushed_at": "2026-08-17T04:19:56Z",
     "archived": false,
@@ -34,13 +35,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 35,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 41,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:31.002Z"
+  "updated_at": "2026-08-17T05:24:31.009Z"
 }

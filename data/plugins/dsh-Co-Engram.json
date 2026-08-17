@@ -28,19 +28,20 @@
   "created_at": null,
   "gh": {
     "full_name": "Co-Engram/Co-Engram",
+    "stars": 65,
     "open_issues": 0,
     "pushed_at": "2026-08-16T07:57:58Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 49,
     "maintenance": 40,
     "quality": 25,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 27,
+    "overall": 39,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:27.965Z"
+  "updated_at": "2026-08-17T05:24:41.915Z"
 }

@@ -24,6 +24,7 @@
   "created_at": null,
   "gh": {
     "full_name": "omdsh-dev/DSH-better-sidebar",
+    "stars": 1734,
     "open_issues": 79,
     "pushed_at": "2026-08-17T03:35:53Z",
     "archived": false,
@@ -36,13 +37,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 88,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
-    "grade": "D"
+    "overall": 53,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:36.714Z"
+  "updated_at": "2026-08-17T05:24:14.183Z"
 }

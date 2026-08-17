@@ -41,6 +41,7 @@
   "created_at": "2026-08-13T22:48:50.712Z",
   "gh": {
     "full_name": "huguangyu666/dsh-plugin-session-import",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-15T12:21:16Z",
     "archived": false,
@@ -53,13 +54,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 39,
     "quality": 85,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 48,
+    "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:58:09.431Z"
+  "updated_at": "2026-08-17T05:25:03.437Z"
 }

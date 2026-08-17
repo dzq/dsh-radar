@@ -1,5 +1,113 @@
 [
   {
+    "file": "2026-08-17-1325.json",
+    "prev": "2026-08-17-1322.json",
+    "total_delta": 0,
+    "grades": {
+      "S": 0,
+      "A": 1,
+      "B": 49,
+      "C": 160,
+      "D": -210
+    },
+    "downloads_delta": 0,
+    "compat_delta": 0,
+    "generated_at": "2026-08-17T05:25:36.985Z",
+    "top10_in": [
+      "dsh-balance-meter",
+      "dsh-working-activity"
+    ],
+    "top10_out": [
+      "dsh-mnemon",
+      "dsh-lark-bot"
+    ]
+  },
+  {
+    "file": "2026-08-17-1322.json",
+    "prev": "2026-08-17-1318.json",
+    "total_delta": 1921,
+    "grades": {
+      "S": 0,
+      "A": 2,
+      "B": 133,
+      "C": 344,
+      "D": 1442
+    },
+    "downloads_delta": 110429,
+    "compat_delta": 1186,
+    "generated_at": "2026-08-17T05:22:21.351Z",
+    "top10_in": [
+      "@tt-a1i/archify-dsh",
+      "@liustack/modsearch",
+      "dsh-pocket",
+      "@nanmicoder/dsh-agent-teams",
+      "deepseek-ippt",
+      "dsh-stock-watch",
+      "dsh-any-background",
+      "dsh-market-plus",
+      "dsh-mnemon",
+      "dsh-lark-bot"
+    ],
+    "top10_out": [
+      "dsh-open-design",
+      "dsh-reactive-resume",
+      "dsh-OpenViking",
+      "dsh-colleague-skill",
+      "dsh-deepseek-harness"
+    ]
+  },
+  {
+    "file": "2026-08-17-1318.json",
+    "prev": "2026-08-17-1315.json",
+    "total_delta": 0,
+    "grades": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "downloads_delta": 0,
+    "compat_delta": 0,
+    "generated_at": "2026-08-17T05:18:04.121Z",
+    "top10_in": [],
+    "top10_out": []
+  },
+  {
+    "file": "2026-08-17-1315.json",
+    "prev": "2026-08-17-1258.json",
+    "total_delta": -1916,
+    "grades": {
+      "S": 0,
+      "A": -1,
+      "B": -107,
+      "C": -364,
+      "D": -1444
+    },
+    "downloads_delta": -110232,
+    "compat_delta": -1181,
+    "generated_at": "2026-08-17T05:15:08.647Z",
+    "top10_in": [
+      "dsh-open-design",
+      "dsh-reactive-resume",
+      "dsh-OpenViking",
+      "dsh-colleague-skill",
+      "dsh-deepseek-harness"
+    ],
+    "top10_out": [
+      "@liustack/modsearch",
+      "dsh-pocket",
+      "@nanmicoder/dsh-agent-teams",
+      "dsh-stock-watch",
+      "dsh-any-background",
+      "dsh-mnemon",
+      "dsh-lark-bot",
+      "dsh-codex-oauth",
+      "dsh-deepread",
+      "dsh-win32"
+    ]
+  },
+  {
     "file": "2026-08-17-1258.json",
     "prev": "2026-08-17-1253.json",
     "total_delta": 1901,

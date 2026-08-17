@@ -21,6 +21,7 @@
   "created_at": null,
   "gh": {
     "full_name": "watericetangcw/dsh-page-preview",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-16T07:29:49Z",
     "archived": false,
@@ -33,13 +34,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
+    "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:58:16.852Z"
+  "updated_at": "2026-08-17T05:25:23.696Z"
 }

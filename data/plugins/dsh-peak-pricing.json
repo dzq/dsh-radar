@@ -1,0 +1,51 @@
+{
+  "slug": "dsh-peak-pricing",
+  "name": "dsh-peak-pricing",
+  "version": "0.1.1",
+  "description": "Show DeepSeek's peak / off-peak pricing period under the DSH Web composer, with a live estimate of what the session has cost.",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness",
+    "cordis-plugin",
+    "deepseek",
+    "pricing",
+    "cost"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/Oliver0804/dsh-peak-pricing.git",
+  "homepage": "https://github.com/Oliver0804/dsh-peak-pricing#readme",
+  "npm": "https://www.npmjs.com/package/dsh-peak-pricing",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "readme": "# dsh-peak-pricing\n\n[English](README.md) | 繁體中文\n\n一個 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web 外掛，\n在輸入框底下加一行：現在是 DeepSeek 的哪個計價時段、還剩多久、以及這個工作階段\n到目前為止花了多少錢。\n\n```\n4 轮 · 195 步 │ LLM 17m13s │ 首 token 平均 1.3s │ 缓存命中 100%  ·  TPS 117 tok/s\n              ● 空闲时段 · 1:35:06 后进入高峰 · 本会话 ¥1.69\n```\n\n- **綠點 — 離峰（空闲时段）**：適合開長工作的時候。\n- **橘點 — 尖峰（高峰时段）**：同樣的用量價格剛好兩倍。\n- **倒數**：目前費率還剩多久，精確到秒。\n- **金額**：本次工作階段的花費，每一筆增量都用「它發生當下」的費率計價。\n\n滑鼠停在該行會顯示完整明細：模型、當前費率、四個 token 分桶用量、尖峰時段表。\n\n## 安裝\n\n```bash\ndsh plugin --profile web add dsh-peak-pricing\n```\n\n重啟 `dsh web` 就會出現。確認外掛層已掛載：\n\n```bash\ndsh --profile web --dump-config | grep peak-pricing\n```\n\n移除：\n\n```bash\ndsh plugin --profile web remove dsh-peak-pricing\n```\n\n## 價目表\n\n自北京時間 2026-08-17 00:00 起，DeepSeek 採峰谷定價：尖峰為北京時間\n09:00–12:00 與 14:00–18:00，其",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T05:09:38.100Z",
+  "created_at": "2026-08-17T05:09:37.762Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T05:25:34.019Z"
+}

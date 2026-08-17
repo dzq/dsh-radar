@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "lssyd20070106/dsh-ui-preset-enhance",
+    "stars": 7,
     "open_issues": 0,
     "pushed_at": "2026-08-14T22:34:03Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 24,
     "maintenance": 39,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 32,
+    "overall": 38,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:46.653Z"
+  "updated_at": "2026-08-17T05:24:45.869Z"
 }

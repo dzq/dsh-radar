@@ -26,6 +26,7 @@
   "created_at": null,
   "gh": {
     "full_name": "ayuanwong/deepseek-harness-ux",
+    "stars": 13,
     "open_issues": 0,
     "pushed_at": "2026-08-16T21:05:22Z",
     "archived": false,
@@ -38,13 +39,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 31,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 40,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:48.356Z"
+  "updated_at": "2026-08-17T05:24:34.399Z"
 }

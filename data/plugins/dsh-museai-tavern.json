@@ -20,6 +20,7 @@
   "created_at": null,
   "gh": {
     "full_name": "yejiming/dsh-museai-tavern",
+    "stars": 8,
     "open_issues": 0,
     "pushed_at": "2026-08-15T05:14:11Z",
     "archived": false,
@@ -32,13 +33,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 26,
     "maintenance": 39,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 28,
+    "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:36.556Z"
+  "updated_at": "2026-08-17T05:24:44.000Z"
 }

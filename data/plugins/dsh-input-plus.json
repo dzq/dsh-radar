@@ -22,6 +22,7 @@
   "created_at": null,
   "gh": {
     "full_name": "WhitePlusMS/dsh-input-plus",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-14T17:34:57Z",
     "archived": false,
@@ -34,13 +35,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 39,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 32,
+    "overall": 37,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:54.742Z"
+  "updated_at": "2026-08-17T05:25:12.421Z"
 }

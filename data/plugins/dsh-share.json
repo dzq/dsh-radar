@@ -39,6 +39,7 @@
   "created_at": "2026-08-15T01:48:53.512Z",
   "gh": {
     "full_name": "hellodigua/dsh-share",
+    "stars": 22,
     "open_issues": 0,
     "pushed_at": "2026-08-15T15:14:45Z",
     "archived": false,
@@ -51,13 +52,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 37,
     "maintenance": 39,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 46,
-    "grade": "C"
+    "overall": 56,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T04:55:25.723Z"
+  "updated_at": "2026-08-17T05:24:29.081Z"
 }

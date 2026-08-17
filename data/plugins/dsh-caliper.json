@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "edonadei/caliper",
+    "stars": 39,
     "open_issues": 7,
     "pushed_at": "2026-08-05T04:32:54Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 43,
     "maintenance": 35,
     "quality": 55,
     "security": 40,
     "dsh_compat": 30,
-    "overall": 30,
-    "grade": "D"
+    "overall": 41,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:12.953Z"
+  "updated_at": "2026-08-17T05:24:24.022Z"
 }

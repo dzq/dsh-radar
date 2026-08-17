@@ -21,6 +21,7 @@
   "created_at": null,
   "gh": {
     "full_name": "liceses/dsh-gitbash-preset",
+    "stars": 122,
     "open_issues": 0,
     "pushed_at": "2026-08-16T17:54:06Z",
     "archived": false,
@@ -33,13 +34,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 56,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
-    "grade": "D"
+    "overall": 45,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:55.718Z"
+  "updated_at": "2026-08-17T05:24:19.163Z"
 }

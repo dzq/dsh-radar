@@ -23,6 +23,7 @@
   "created_at": null,
   "gh": {
     "full_name": "omdsh-dev/dsh-security-audit",
+    "stars": 12,
     "open_issues": 0,
     "pushed_at": "2026-08-14T03:11:28Z",
     "archived": false,
@@ -35,13 +36,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 30,
     "maintenance": 39,
     "quality": 45,
     "security": 65,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 40,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:56:04.740Z"
+  "updated_at": "2026-08-17T05:24:36.927Z"
 }

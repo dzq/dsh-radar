@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "vostride/agent-qa",
+    "stars": 862,
     "open_issues": 0,
     "pushed_at": "2026-08-03T18:44:59Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 79,
     "maintenance": 34,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 29,
-    "grade": "D"
+    "overall": 49,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:39.832Z"
+  "updated_at": "2026-08-17T05:24:14.843Z"
 }

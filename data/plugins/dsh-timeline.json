@@ -23,19 +23,20 @@
   "created_at": null,
   "gh": {
     "full_name": "zhangzheng25/dsh-timeline",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-16T06:34:06Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 29,
+    "overall": 33,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:56.243Z"
+  "updated_at": "2026-08-17T05:25:13.426Z"
 }

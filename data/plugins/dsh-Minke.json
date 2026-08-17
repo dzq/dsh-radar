@@ -24,6 +24,7 @@
   "created_at": null,
   "gh": {
     "full_name": "lencx/Minke",
+    "stars": 10,
     "open_issues": 0,
     "pushed_at": "2026-08-15T01:49:39Z",
     "archived": false,
@@ -36,13 +37,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 28,
     "maintenance": 39,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 30,
+    "overall": 37,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:17.534Z"
+  "updated_at": "2026-08-17T05:24:40.657Z"
 }

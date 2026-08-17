@@ -28,6 +28,7 @@
   "created_at": null,
   "gh": {
     "full_name": "boNeXY226/dsh-cost-chip",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-13T20:23:38Z",
     "archived": false,
@@ -40,13 +41,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 38,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 30,
+    "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:58:01.210Z"
+  "updated_at": "2026-08-17T05:25:17.110Z"
 }

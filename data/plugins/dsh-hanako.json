@@ -22,6 +22,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Nyasers/dsh-hanako",
+    "stars": 16,
     "open_issues": 0,
     "pushed_at": "2026-08-16T15:48:25Z",
     "archived": false,
@@ -34,13 +35,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 33,
     "maintenance": 40,
     "quality": 30,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 28,
+    "overall": 36,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:55:43.072Z"
+  "updated_at": "2026-08-17T05:24:32.999Z"
 }

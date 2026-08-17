@@ -23,6 +23,7 @@
   "created_at": null,
   "gh": {
     "full_name": "ZJU-REAL/Polaris",
+    "stars": 153,
     "open_issues": 7,
     "pushed_at": "2026-08-17T01:01:23Z",
     "archived": false,
@@ -35,13 +36,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 59,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
-    "grade": "D"
+    "overall": 45,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:51.865Z"
+  "updated_at": "2026-08-17T05:24:18.114Z"
 }

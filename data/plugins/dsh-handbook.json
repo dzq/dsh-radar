@@ -29,19 +29,20 @@
   "created_at": null,
   "gh": {
     "full_name": "Electricitysheep/dsh-handbook",
+    "stars": 391,
     "open_issues": 0,
     "pushed_at": "2026-08-17T00:08:07Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 70,
     "maintenance": 40,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 29,
-    "grade": "D"
+    "overall": 46,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:45.180Z"
+  "updated_at": "2026-08-17T05:24:16.121Z"
 }

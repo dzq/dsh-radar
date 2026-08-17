@@ -1,0 +1,51 @@
+{
+  "slug": "zoytown--dsh-token",
+  "name": "@zoytown/dsh-token",
+  "version": "0.1.0",
+  "description": "Machine-wide token usage statistics for DeepSeek Harness, rendered as a tab in the Plugins settings page.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "token",
+    "usage"
+  ],
+  "license": "MIT",
+  "repo": "git+https://github.com/zoyluoblue/deepseek-harness-token.git",
+  "homepage": "https://github.com/zoyluoblue/deepseek-harness-token#readme",
+  "npm": "https://www.npmjs.com/package/@zoytown/dsh-token",
+  "dsh_compat": true,
+  "dsh_meta": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "immediately": false
+    }
+  },
+  "engines": {
+    "node": "^22.19 || >=24"
+  },
+  "readme": "# @zoytown/dsh-token\n\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的全机 token 用量统计插件，\n以 **Token** 标签页的形式出现在 设置 → 插件 里。\n\n[English](./README.md) · [设计文档](./DESIGN.md)\n\n## 展示什么\n\n- **会话数**、**消息数**、**总 tokens**、**活跃天数**、**当前/最长连续天数**、**高峰时段**、**常用模型**\n- 最近 53 周的 GitHub 式贡献热力图\n- **模型**视图：把每个模型的用量拆成四个互斥桶——输入 / 缓存读 / 缓存写 / 输出\n\n它读取本机**所有** dsh home（`~/.dsh` 以及每个 `~/.dsh_desktop/<version>`），\n所以无论从哪个入口启动，总量都一致。\n\n全程本地、只读：不写任何会话，不联网，路由只答复 loopback 客户端。\n\n## 安装\n\n需要 Node `^22.19 || >=24`，且 `PATH` 上有 **pnpm**（`dsh plugin` 是 pnpm 的薄转发层）。\n\n```bash\nnpx -y @deepseek-ai/dsh plugin --profile web add @zoytown/dsh-token\n```\n\n然后启动 Web UI，打开 **设置 → 插件 → Token**：\n\n```bash\nnpx -y @deepseek-ai/dsh web\n```\n\n卸载：\n\n```bash\nnpx -y @deepseek-ai/dsh plugin --profile web remove @zoytown/dsh-token\n```\n\n###",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": "2026-08-17T04:58:44.758Z",
+  "created_at": "2026-08-17T04:58:44.396Z",
+  "gh": null,
+  "scores": {
+    "popularity": 0,
+    "maintenance": 0,
+    "quality": 75,
+    "security": 50,
+    "dsh_compat": 80,
+    "overall": 39,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T05:25:32.794Z"
+}

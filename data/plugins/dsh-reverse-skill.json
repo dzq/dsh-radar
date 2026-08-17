@@ -24,6 +24,7 @@
   "created_at": null,
   "gh": {
     "full_name": "dhicoc/dsh-reverse-skill",
+    "stars": 21,
     "open_issues": 0,
     "pushed_at": "2026-08-17T03:50:08Z",
     "archived": false,
@@ -36,13 +37,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 36,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 42,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:25.243Z"
+  "updated_at": "2026-08-17T05:24:29.206Z"
 }

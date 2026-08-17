@@ -20,6 +20,7 @@
   "created_at": null,
   "gh": {
     "full_name": "lbwnb666-ai/DeepSeekHarnessRemoteGateway",
+    "stars": 13,
     "open_issues": 0,
     "pushed_at": "2026-08-14T11:33:05Z",
     "archived": false,
@@ -32,13 +33,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 31,
     "maintenance": 39,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 28,
+    "overall": 36,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:55:51.171Z"
+  "updated_at": "2026-08-17T05:24:34.385Z"
 }

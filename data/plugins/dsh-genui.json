@@ -20,6 +20,7 @@
   "created_at": null,
   "gh": {
     "full_name": "omdsh-dev/dsh-genui",
+    "stars": 149,
     "open_issues": 4,
     "pushed_at": "2026-08-16T17:02:46Z",
     "archived": false,
@@ -32,13 +33,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 59,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
-    "grade": "D"
+    "overall": 45,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:52.407Z"
+  "updated_at": "2026-08-17T05:24:18.141Z"
 }

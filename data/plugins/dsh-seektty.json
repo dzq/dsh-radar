@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Hilbert-beinghappy/seektty",
+    "stars": 9,
     "open_issues": 0,
     "pushed_at": "2026-08-16T09:15:46Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 27,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
+    "overall": 37,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:56:32.291Z"
+  "updated_at": "2026-08-17T05:24:42.963Z"
 }

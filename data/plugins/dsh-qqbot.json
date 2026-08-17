@@ -33,6 +33,7 @@
   "created_at": "2026-08-15T08:45:50.118Z",
   "gh": {
     "full_name": "tencent-connect/dsh-qqbot",
+    "stars": 53,
     "open_issues": 8,
     "pushed_at": "2026-08-17T04:50:36Z",
     "archived": false,
@@ -45,13 +46,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 47,
     "maintenance": 40,
     "quality": 65,
     "security": 50,
     "dsh_compat": 65,
-    "overall": 42,
+    "overall": 53,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:55:09.382Z"
+  "updated_at": "2026-08-17T05:24:22.914Z"
 }

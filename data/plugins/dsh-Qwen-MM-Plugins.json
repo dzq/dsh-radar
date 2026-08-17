@@ -21,19 +21,20 @@
   "created_at": null,
   "gh": {
     "full_name": "omdsh-dev/Qwen-MM-Plugins",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-09T10:59:51Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 37,
     "quality": 0,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 21,
+    "overall": 26,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:48.117Z"
+  "updated_at": "2026-08-17T05:25:08.949Z"
 }

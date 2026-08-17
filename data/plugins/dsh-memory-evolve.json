@@ -21,6 +21,7 @@
   "created_at": null,
   "gh": {
     "full_name": "csyangwen/dsh-memory-evolve",
+    "stars": 131,
     "open_issues": 0,
     "pushed_at": "2026-08-17T03:43:52Z",
     "archived": false,
@@ -33,13 +34,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 57,
     "maintenance": 40,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 31,
-    "grade": "D"
+    "overall": 45,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:53.787Z"
+  "updated_at": "2026-08-17T05:24:18.453Z"
 }

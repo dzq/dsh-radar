@@ -18,6 +18,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Sev7een/ds-api-usage",
+    "stars": 6,
     "open_issues": 0,
     "pushed_at": "2026-08-16T08:27:50Z",
     "archived": false,
@@ -30,13 +31,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 23,
     "maintenance": 40,
     "quality": 20,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 26,
+    "overall": 31,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:57:09.720Z"
+  "updated_at": "2026-08-17T05:24:54.483Z"
 }

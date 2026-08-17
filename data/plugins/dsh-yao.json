@@ -27,6 +27,7 @@
   "created_at": null,
   "gh": {
     "full_name": "YaoApp/yao",
+    "stars": 7638,
     "open_issues": 6,
     "pushed_at": "2026-08-15T17:19:06Z",
     "archived": false,
@@ -39,13 +40,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 100,
     "maintenance": 39,
     "quality": 45,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 30,
-    "grade": "D"
+    "overall": 55,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T04:54:33.038Z"
+  "updated_at": "2026-08-17T05:24:13.198Z"
 }

@@ -41,6 +41,7 @@
   "created_at": "2026-08-15T09:08:31.533Z",
   "gh": {
     "full_name": "HongMing-Huang/dsh-file-upload",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-16T08:43:01Z",
     "archived": false,
@@ -53,13 +54,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 75,
     "security": 50,
     "dsh_compat": 80,
-    "overall": 47,
+    "overall": 51,
     "grade": "C"
   },
-  "updated_at": "2026-08-17T04:58:03.807Z"
+  "updated_at": "2026-08-17T05:25:18.025Z"
 }

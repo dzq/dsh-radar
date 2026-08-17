@@ -21,6 +21,7 @@
   "created_at": null,
   "gh": {
     "full_name": "Ayase34/gal-view",
+    "stars": 77,
     "open_issues": 4,
     "pushed_at": "2026-08-16T00:02:38Z",
     "archived": false,
@@ -33,13 +34,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 51,
     "maintenance": 40,
     "quality": 35,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 29,
-    "grade": "D"
+    "overall": 41,
+    "grade": "C"
   },
-  "updated_at": "2026-08-17T04:54:58.843Z"
+  "updated_at": "2026-08-17T05:24:20.443Z"
 }

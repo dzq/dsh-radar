@@ -1,0 +1,47 @@
+{
+  "slug": "dsh-file-mount",
+  "name": "dsh-file-mount",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [
+    "context",
+    "cordis",
+    "deepseek-harness"
+  ],
+  "license": "MIT",
+  "repo": "https://github.com/acefun29/dsh-file-mount",
+  "homepage": "",
+  "npm": "https://www.npmjs.com/package/dsh-file-mount",
+  "dsh_compat": false,
+  "dsh_meta": null,
+  "engines": {},
+  "readme": "",
+  "weekly_downloads": 0,
+  "monthly_downloads": 0,
+  "last_publish": null,
+  "created_at": null,
+  "gh": {
+    "full_name": "acefun29/dsh-file-mount",
+    "stars": 4,
+    "open_issues": 0,
+    "pushed_at": "2026-08-15T15:53:04Z",
+    "archived": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "scores": {
+    "popularity": 19,
+    "maintenance": 39,
+    "quality": 30,
+    "security": 50,
+    "dsh_compat": 30,
+    "overall": 32,
+    "grade": "D"
+  },
+  "updated_at": "2026-08-17T05:25:16.821Z"
+}

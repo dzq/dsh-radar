@@ -22,19 +22,20 @@
   "created_at": null,
   "gh": {
     "full_name": "MrMu666/dsh-LAN",
+    "stars": 4,
     "open_issues": 0,
     "pushed_at": "2026-08-16T16:23:43Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 19,
     "maintenance": 40,
     "quality": 25,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 27,
+    "overall": 31,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:58:02.419Z"
+  "updated_at": "2026-08-17T05:25:13.686Z"
 }

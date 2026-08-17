@@ -22,19 +22,20 @@
   "created_at": null,
   "gh": {
     "full_name": "CanglongCl/dsh-web-review",
+    "stars": 15,
     "open_issues": 1,
     "pushed_at": "2026-08-16T18:23:04Z",
     "archived": false,
     "license": null
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 33,
     "maintenance": 40,
     "quality": 25,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 27,
+    "overall": 35,
     "grade": "D"
   },
-  "updated_at": "2026-08-17T04:55:45.123Z"
+  "updated_at": "2026-08-17T05:24:33.780Z"
 }

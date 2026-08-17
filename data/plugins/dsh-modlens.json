@@ -29,6 +29,7 @@
   "created_at": null,
   "gh": {
     "full_name": "liustack/modlens",
+    "stars": 2505,
     "open_issues": 4,
     "pushed_at": "2026-08-16T16:49:00Z",
     "archived": false,
@@ -41,13 +42,13 @@
     }
   },
   "scores": {
-    "popularity": 0,
+    "popularity": 92,
     "maintenance": 40,
     "quality": 55,
     "security": 50,
     "dsh_compat": 30,
-    "overall": 33,
-    "grade": "D"
+    "overall": 56,
+    "grade": "B"
   },
-  "updated_at": "2026-08-17T04:54:35.487Z"
+  "updated_at": "2026-08-17T05:24:13.918Z"
 }
