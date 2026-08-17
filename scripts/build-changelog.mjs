@@ -62,15 +62,22 @@ async function main() {
     changelog.push(delta);
   }
 
+  // 过滤噪音：去掉 delta=0 的快照，以及全量重建噪声（|total_delta| > 总数的 80%）
+  const significant = changelog.filter((d) => {
+    if (d.total_delta === 0) return false;
+    if (Math.abs(d.total_delta) > 500) return false; // 全量重建噪音
+    return true;
+  });
+
   // 反转：最新的在前
-  changelog.reverse();
+  significant.reverse();
 
   await writeFile(
     OUT,
-    JSON.stringify(changelog, null, 2)
+    JSON.stringify(significant, null, 2)
   );
 
-  console.log(`✅ changelog.json: ${changelog.length} 个历史快照对比`);
+  console.log(`✅ changelog.json: ${significant.length} 个历史快照对比`);
 }
 
 main().catch((e) => {
